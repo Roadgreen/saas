@@ -33,8 +33,12 @@ export default async function EditProductPage({ params }: { params: Promise<{ id
         <h1 className="text-2xl font-bold mb-6">{t('editProductTitle')}</h1>
         <ProductForm 
           initialData={{
-            ...product,
+            id: product.id,
+            name: product.name,
+            quantity: product.quantity,
+            unit: product.unit,
             expiryDate: product.expiryDate.toISOString(),
+            imageUrl: product.imageUrl ?? undefined,
           }} 
           isEditing 
         />
