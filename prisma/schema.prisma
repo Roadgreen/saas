@@ -1,0 +1,192 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+enum Role {
+  OWNER
+  EMPLOYEE
+}
+
+enum ProductStatus {
+  OK
+  NEAR_EXPIRY
+  EXPIRED
+}
+
+enum WasteReason {
+  EXPIRED
+  DAMAGED
+  SPOILED
+  OTHER
+}
+
+model User {
+  id        String   @id @default(cuid())
+  email     String   @unique
+  password  String
+  name      String?
+  role      Role     @default(EMPLOYEE)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  businessId String?
+  business   Business? @relation(fields: [businessId], references: [id])
+}
+
+model Business {
+  id        String   @id @default(cuid())
+  name      String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+
+  
+  // Profile & Branding
+  logoUrl       String?
+  brandColor    String?
+  address       String?
+  phone         String?
+  email         String?
+  socials       Json?     // { instagram, facebook, tiktok, website }
+
+  // Operations
+  openingHours  Json?     // { monday: { open: "09:00", close: "18:00", closed: false }, ... }
+  
+  // Configuration & Intelligence
+  settings      Json?     // { stockAlerts: true, autoDeduct: true, currency: "EUR", ... }
+
+  users         User[]
+  locations Location[]
+  recipes   Recipe[]
+
+  subscriptionTier     SubscriptionTier     @default(FREE)
+  subscriptionStatus   SubscriptionStatus   @default(ACTIVE)
+  subscriptionEndDate  DateTime?
+}
+
+enum SubscriptionTier {
+  FREE
+  PRO
+  ENTERPRISE
+}
+
+enum SubscriptionStatus {
+  ACTIVE
+  CANCELED
+  PAST_DUE
+}
+
+model Location {
+  id        String   @id @default(cuid())
+  name      String
+  address   String?
+  latitude  Float?
+  longitude Float?
+  radius    Int      @default(500) // in meters
+  type      String?  // MARKET, EVENT, SPOT, etc.
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  businessId String
+  business   Business @relation(fields: [businessId], references: [id])
+  products   Product[]
+  dailySales DailySales[]
+}
+
+model Product {
+  id           String        @id @default(cuid())
+  name         String
+  category     String?
+  quantity     Float
+  unit         String        // e.g., kg, liters, units
+  purchaseDate DateTime?
+  expiryDate   DateTime
+  costPerUnit  Float?
+  status       ProductStatus @default(OK)
+  imageUrl     String?
+  createdAt    DateTime      @default(now())
+  updatedAt    DateTime      @updatedAt
+
+  locationId String
+  location   Location @relation(fields: [locationId], references: [id])
+  wasteEvents WasteEvent[]
+  recipeIngredients RecipeIngredient[]
+  stockHistory StockHistory[]
+}
+
+model WasteEvent {
+  id        String      @id @default(cuid())
+  quantity  Float
+  reason    WasteReason
+  date      DateTime    @default(now())
+  
+  productId String
+  product   Product @relation(fields: [productId], references: [id])
+}
+
+model Recipe {
+  id          String   @id @default(cuid())
+  name        String
+  description String?
+  sellingPrice Float?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  businessId String
+  business   Business @relation(fields: [businessId], references: [id])
+  
+  ingredients RecipeIngredient[]
+  dailySales  DailySales[]
+}
+
+model RecipeIngredient {
+  id        String @id @default(cuid())
+  quantity  Float
+  unit      String
+
+  recipeId  String
+  recipe    Recipe @relation(fields: [recipeId], references: [id], onDelete: Cascade)
+  
+  productId String
+  product   Product @relation(fields: [productId], references: [id])
+}
+
+model DailySales {
+  id           String   @id @default(cuid())
+  date         DateTime @default(now())
+  quantity     Int
+  unitPrice    Float?
+  totalRevenue Float?
+  
+  weatherSnapshot Json? // { temp: 20, condition: "Sunny", rain: false }
+  
+  recipeId     String
+  recipe       Recipe   @relation(fields: [recipeId], references: [id])
+
+  locationId   String?
+  location     Location? @relation(fields: [locationId], references: [id])
+}
+
+enum StockChangeType {
+  MANUAL
+  SALES
+  WASTE
+  DELIVERY
+}
+
+model StockHistory {
+  id        String          @id @default(cuid())
+  date      DateTime        @default(now())
+  quantity  Float
+  type      StockChangeType
+  note      String?
+
+  productId String
+  product   Product @relation(fields: [productId], references: [id])
+}

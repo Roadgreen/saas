@@ -1,0 +1,342 @@
+{
+    "Sidebar": {
+        "dashboard": "Dashboard",
+        "stock": "Stock",
+        "recipes": "Recipes",
+        "sales": "Sales",
+        "settings": "Settings"
+    },
+    "Stock": {
+        "adjust": "Adjust Stock",
+        "type": "Adjustment Type",
+        "addStock": "Add Stock",
+        "removeStock": "Remove Stock",
+        "quantity": "Quantity",
+        "unit": "Unit",
+        "reason": "Reason",
+        "description": "Manually add or remove stock for this product.",
+        "optionalNote": "Optional note",
+        "save": "Save Adjustment",
+        "history": "Movement History",
+        "noHistory": "No history for this product.",
+        "date": "Date"
+    },
+    "Dashboard": {
+        "title": "Dashboard",
+        "uploadTitle": "AI Scanner",
+        "uploadDesc": "Invoices, Recipes, Sales Reports",
+        "ingredients": "ingredients",
+        "stockUpdated": "Stock updated automatically",
+        "errorProcessing": "Failed to process image",
+        "errorSomething": "Something went wrong",
+        "takePhoto": "Take Photo or Upload",
+        "processing": "Processing...",
+        "processImage": "Process Image",
+        "scanAnother": "Scan Another",
+        "success": "Success!",
+        "addedStock": "Added {count} items to stock",
+        "createdRecipe": "Created recipe: {name}",
+        "recordedSales": "Recorded sales: {quantity}x",
+        "wasteMetrics": "Dry Losses (Week)",
+        "today": "today",
+        "theoreticalMargin": "Theoretical Margin",
+        "sales": "Sales",
+        "cost": "Cost",
+        "topWaste": "Top Waste",
+        "wasteRate": "Waste rate",
+        "noWaste": "No waste data.",
+        "alertTitle": "Attention",
+        "alertHighWaste": "{name} exceeds 10% waste this week ({rate}%)",
+        "alertExpiring": "{name} expires in less than 24h!",
+        "highWasteDetail": "{rate}% waste",
+        "expiryDetail": "Expires < {count}h",
+        "forecastTitle": "Forecast for Tomorrow",
+        "noDataPredictions": "Not enough data for predictions yet.",
+        "predictedLabel": "Predicted: {count} units",
+        "profileIncomplete": "Please complete your business profile.",
+        "currentStock": "Current Stock",
+        "expiringSoon": "Expiring Soon",
+        "todaySales": "Today's Sales",
+        "todayLosses": "Today's Losses",
+        "items": "items"
+    },
+    "Landing": {
+        "title": "Reduce waste, increase margin.",
+        "subtitle": "The all-in-one tool for food trucks and dark kitchens.",
+        "nav": {
+            "features": "Features",
+            "testimonials": "Testimonials",
+            "pricing": "Pricing"
+        },
+        "getStarted": "Get Started",
+        "login": "Login"
+    },
+    "Recipes": {
+        "title": "Recipes",
+        "add": "New Recipe",
+        "create": "Create Recipe",
+        "name": "Recipe Name",
+        "description": "Description",
+        "sellingPrice": "Selling Price",
+        "cost": "Cost",
+        "margin": "Margin",
+        "ingredients": "Ingredients",
+        "addIngredient": "Add Ingredient",
+        "save": "Save Recipe",
+        "profitability": "Profitability",
+        "lowMargin": "Low Margin",
+        "cancel": "Cancel",
+        "noRecipes": "No recipes found. Create your first one!",
+        "search": "Search recipes...",
+        "table": {
+            "name": "Name",
+            "ingredients": "Ingredients",
+            "cost": "Cost",
+            "actions": "Actions"
+        }
+    },
+    "QuickSales": {
+        "title": "Quick Add",
+        "added": "Added +1 {name}",
+        "error": "Failed to add sale"
+    },
+    "Pricing": {
+        "title": "Simple Pricing",
+        "subtitle": "Choose the plan that fits your business.",
+        "free": {
+            "title": "Free",
+            "description": "Perfect for getting started",
+            "price": "0€",
+            "features": [
+                "1 User",
+                "1 Location",
+                "Basic Stock Management",
+                "7 Days History"
+            ]
+        },
+        "pro": {
+            "title": "Pro",
+            "description": "For growing food trucks",
+            "price": "29€",
+            "features": [
+                "Unlimited Users",
+                "Unlimited Locations",
+                "Advanced Analytics",
+                "AI Sales Import",
+                "Priority Support"
+            ]
+        },
+        "enterprise": {
+            "title": "Enterprise",
+            "description": "For large chains",
+            "price": "Contact us",
+            "features": [
+                "Custom Integrations",
+                "Dedicated Account Manager",
+                "SLA",
+                "Training"
+            ]
+        },
+        "subscribe": "Subscribe",
+        "contact": "Contact Sales",
+        "currentPlan": "Current Plan"
+    },
+    "SmartAlerts": {
+        "title": "Smart Anti-Waste (AI-Lite)",
+        "upgradeTitle": "Unlock Smart Alerts",
+        "upgradeDesc": "Get automatic waste risk detection and recommendations.",
+        "upgradeBtn": "Upgrade to Pro",
+        "risk": "Risk",
+        "recommendation": "Recommendation",
+        "highWaste": "High Waste Rate",
+        "expiringSoon": "Expiring Soon",
+        "rec_promo": "Create a special offer with {name}",
+        "rec_freeze": "Freeze {name} if possible",
+        "rec_check": "Check quality of {name}"
+    },
+    "Sales": {
+        "title": "Sales History",
+        "record": "Record Sales",
+        "recipe": "Recipe",
+        "quantity": "Quantity Sold",
+        "date": "Date",
+        "save": "Record Sale",
+        "cancel": "Cancel",
+        "noSales": "No sales recorded yet.",
+        "table": {
+            "date": "Date",
+            "recipe": "Recipe",
+            "location": "Location",
+            "quantity": "Quantity",
+            "revenue": "Revenue"
+        },
+        "description": "Record sales to automatically update your stock levels.",
+        "selectRecipe": "Select recipe",
+        "selectLocation": "Select location",
+        "location": "Location",
+        "validation": {
+            "recipeRequired": "Recipe is required",
+            "quantityMin": "Quantity must be at least 1"
+        },
+        "scannerTitle": "AI Sales Scanner",
+        "scannerDescription": "Take a photo of your tally sheet, counting marks, or register screen",
+        "takePhotoSales": "Scan your sales",
+        "scanHint": "Paper with tally marks, register screen, or sales sheet",
+        "scanning": "Scanning...",
+        "scanOnly": "Scan & Preview",
+        "scanAndSave": "Scan & Save",
+        "totalSales": "Total Sales",
+        "matched": "Matched",
+        "saved": "Saved",
+        "noMatch": "No matching recipe found",
+        "savedToSystem": "Saved",
+        "saving": "Saving...",
+        "saveAll": "Save All Matched",
+        "scanAnother": "Scan Another"
+    },
+    "Settings": {
+        "title": "Paramètres",
+        "description": "Gérez les préférences de votre établissement et de votre compte.",
+        "tabs": {
+            "profile": "Profil",
+            "operations": "Opérations",
+            "team": "Équipe",
+            "configuration": "Config",
+            "intelligence": "Intelligence"
+        },
+        "save": "Enregistrer les modifications",
+        "invite": "Inviter un membre",
+        "edit": "Modifier",
+        "Profile": {
+            "identity": {
+                "title": "Identité de l'établissement",
+                "description": "Les informations visibles sur vos documents et votre page publique.",
+                "name": "Nom de l'établissement",
+                "logo": "Logo",
+                "color": "Couleur de marque"
+            },
+            "contact": {
+                "title": "Coordonnées",
+                "description": "Pour que vos clients puissent vous contacter.",
+                "address": "Adresse principale",
+                "phone": "Téléphone",
+                "email": "Email public"
+            },
+            "socials": {
+                "title": "Réseaux sociaux",
+                "description": "Liens vers vos profils sociaux.",
+                "website": "Site web"
+            }
+        },
+        "Operations": {
+            "hours": {
+                "title": "Horaires d'ouverture",
+                "description": "Définissez vos horaires d'ouverture habituels.",
+                "closed": "Fermé"
+            },
+            "days": {
+                "monday": "Lundi",
+                "tuesday": "Mardi",
+                "wednesday": "Mercredi",
+                "thursday": "Jeudi",
+                "friday": "Vendredi",
+                "saturday": "Samedi",
+                "sunday": "Dimanche"
+            },
+            "locations": {
+                "title": "Emplacements récurrents",
+                "description": "Gérez vos lieux de vente (marchés, spots food truck).",
+                "placeholder": "Aucun emplacement configuré",
+                "add": "Ajouter un emplacement",
+                "confirmDelete": "Are you sure you want to delete this location?"
+            }
+        },
+        "Team": {
+            "title": "Membres de l'équipe",
+            "description": "Gérez les accès et les rôles de vos collaborateurs."
+        },
+        "Configuration": {
+            "stock": {
+                "title": "Gestion du stock",
+                "description": "Règles d'alerte et de décrémentation.",
+                "alerts": "Alertes de stock bas",
+                "alertsDesc": "Recevoir une notification quand un produit atteint le seuil critique.",
+                "autoDeduct": "Décrémentation automatique",
+                "autoDeductDesc": "Retirer les ingrédients du stock à chaque vente enregistrée."
+            },
+            "finance": {
+                "title": "Finance & Taxes",
+                "description": "Paramètres de facturation et de devise.",
+                "currency": "Devise principale",
+                "vat": "Taux de TVA par défaut"
+            }
+        },
+        "Intelligence": {
+            "ai": {
+                "title": "Assistant IA",
+                "description": "Configurez comment l'IA vous aide au quotidien.",
+                "suggestions": "Suggestions proactives",
+                "suggestionsDesc": "L'IA vous suggère des actions (commandes, promos) basées sur vos données.",
+                "menuGen": "Génération de menu",
+                "menuGenDesc": "Autoriser l'IA à proposer des menus du jour selon le stock."
+            },
+            "goals": {
+                "title": "Objectifs",
+                "description": "Définissez vos cibles pour le suivi de performance.",
+                "margin": "Marge cible (%)",
+                "waste": "Limite de gaspillage (%)"
+            }
+        }
+    },
+    "Products": {
+        "inventory": "Inventory",
+        "addProduct": "Add Product",
+        "updateProduct": "Update Product",
+        "editProductTitle": "Edit Product",
+        "newProductTitle": "Add New Product",
+        "scanTitle": "Scan with AI",
+        "scanDesc": "Take a photo of an invoice or product to add it to stock automatically.",
+        "manualEntryTitle": "Manual Entry",
+        "manualEntryDesc": "Manually enter product details.",
+        "loading": "Loading...",
+        "noProducts": "No products found. Add some inventory!",
+        "deleteConfirm": "Are you sure you want to delete this product?",
+        "image": "Image",
+        "name": "Name",
+        "quantity": "Quantity",
+        "expiryDate": "Expiry Date",
+        "status": "Status",
+        "actions": "Actions",
+        "edit": "Edit",
+        "form": {
+            "image": "Product Image",
+            "name": "Product Name",
+            "namePlaceholder": "Milk, Flour...",
+            "quantity": "Quantity",
+            "unit": "Unit",
+            "selectUnit": "Select unit",
+            "expiryDate": "Expiry Date",
+            "saving": "Saving...",
+            "cancel": "Cancel",
+            "validation": {
+                "nameRequired": "Name is required",
+                "quantityPositive": "Quantity must be positive",
+                "unitRequired": "Unit is required",
+                "invalidDate": "Invalid date"
+            }
+        },
+        "units": {
+            "kg": "Kilograms (kg)",
+            "g": "Grams (g)",
+            "l": "Liters (l)",
+            "ml": "Milliliters (ml)",
+            "units": "Units (pcs)",
+            "packs": "Packs",
+            "crates": "Crates"
+        },
+        "imageUpload": {
+            "addPhoto": "Add Photo",
+            "takePhoto": "Take/Upload"
+        }
+    }
+}

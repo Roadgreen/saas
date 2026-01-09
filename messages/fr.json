@@ -1,0 +1,348 @@
+{
+    "Sidebar": {
+        "dashboard": "Tableau de bord",
+        "stock": "Stock",
+        "recipes": "Recettes",
+        "sales": "Ventes",
+        "settings": "Paramètres"
+    },
+    "Stock": {
+        "adjust": "Ajuster le stock",
+        "type": "Type d'ajustement",
+        "addStock": "Ajouter du stock",
+        "removeStock": "Retirer du stock",
+        "quantity": "Quantité",
+        "unit": "Unité",
+        "reason": "Raison",
+        "description": "Ajoutez ou retirez manuellement du stock pour ce produit.",
+        "optionalNote": "Note optionnelle",
+        "save": "Enregistrer l'ajustement",
+        "history": "Historique des mouvements",
+        "noHistory": "Aucun historique pour ce produit.",
+        "date": "Date"
+    },
+    "Dashboard": {
+        "title": "Tableau de bord",
+        "uploadTitle": "Scanner IA",
+        "uploadDesc": "Factures, Recettes, Rapports de vente",
+        "takePhoto": "Prendre une photo ou importer",
+        "processing": "Traitement...",
+        "processImage": "Traiter l'image",
+        "scanAnother": "Scanner une autre",
+        "ingredients": "ingrédients",
+        "stockUpdated": "Le stock a été mis à jour automatiquement",
+        "errorProcessing": "Erreur lors du traitement de l'image",
+        "errorSomething": "Une erreur est survenue",
+        "success": "Succès !",
+        "addedStock": "{count} articles ajoutés au stock",
+        "createdRecipe": "Recette créée : {name}",
+        "recordedSales": "Ventes enregistrées : {quantity}x",
+        "wasteMetrics": "Pertes Sèches (Semaine)",
+        "today": "aujourd'hui",
+        "theoreticalMargin": "Marge Théorique",
+        "sales": "Ventes",
+        "cost": "Coût",
+        "topWaste": "Top Gaspillage",
+        "wasteRate": "Taux de perte",
+        "noWaste": "Aucune donnée de gaspillage.",
+        "alertTitle": "Attention",
+        "alertHighWaste": "{name} dépasse 10% de perte cette semaine ({rate}%)",
+        "alertExpiring": "{name} expire dans moins de 24h !",
+        "highWasteDetail": "{rate}% de perte",
+        "expiryDetail": "Expire < {count}h",
+        "forecastTitle": "Prévisions pour Demain",
+        "noDataPredictions": "Pas assez de données pour les prévisions.",
+        "predictedLabel": "Prévu : {count} unités",
+        "profileIncomplete": "Veuillez compléter votre profil établissement.",
+        "currentStock": "Stock Actuel",
+        "expiringSoon": "Expire Bientôt",
+        "todaySales": "Ventes du Jour",
+        "todayLosses": "Pertes du Jour",
+        "items": "articles"
+    },
+    "Landing": {
+        "title": "Réduisez le gaspillage, augmentez votre marge.",
+        "subtitle": "L'outil tout-en-un pour food trucks et dark kitchens.",
+        "nav": {
+            "features": "Fonctionnalités",
+            "testimonials": "Témoignages",
+            "pricing": "Tarifs"
+        },
+        "getStarted": "Commencer",
+        "login": "Connexion"
+    },
+    "Recipes": {
+        "title": "Recettes",
+        "add": "Nouvelle Recette",
+        "create": "Créer une recette",
+        "name": "Nom de la recette",
+        "description": "Description",
+        "sellingPrice": "Prix de Vente",
+        "cost": "Coût Matière",
+        "margin": "Marge",
+        "ingredients": "Ingrédients",
+        "product": "Produit",
+        "quantity": "Quantité",
+        "unit": "Unité",
+        "addIngredient": "Ajouter un ingrédient",
+        "save": "Enregistrer",
+        "cancel": "Annuler",
+        "noRecipes": "Aucune recette trouvée. Créez votre première !",
+        "search": "Rechercher des recettes...",
+        "profitability": "Rentabilité",
+        "lowMargin": "Marge Faible",
+        "table": {
+            "name": "Nom",
+            "ingredients": "Ingrédients",
+            "cost": "Coût",
+            "actions": "Actions"
+        }
+    },
+    "QuickSales": {
+        "title": "Ajout Rapide",
+        "added": "Ajouté +1 {name}",
+        "error": "Erreur lors de l'ajout"
+    },
+    "Pricing": {
+        "title": "Tarifs Simples",
+        "subtitle": "Choisissez le plan adapté à votre activité.",
+        "free": {
+            "title": "Gratuit",
+            "description": "Parfait pour démarrer",
+            "price": "0€",
+            "features": [
+                "1 Utilisateur",
+                "1 Emplacement",
+                "Gestion de Stock Basique",
+                "Historique 7 Jours"
+            ]
+        },
+        "pro": {
+            "title": "Pro",
+            "description": "Pour les food trucks en croissance",
+            "price": "29€",
+            "features": [
+                "Utilisateurs Illimités",
+                "Emplacements Illimités",
+                "Analyses Avancées",
+                "Import IA des Ventes",
+                "Support Prioritaire"
+            ]
+        },
+        "enterprise": {
+            "title": "Entreprise",
+            "description": "Pour les grandes chaînes",
+            "price": "Contactez-nous",
+            "features": [
+                "Intégrations Sur Mesure",
+                "Account Manager Dédié",
+                "SLA",
+                "Formation"
+            ]
+        },
+        "subscribe": "S'abonner",
+        "contact": "Contacter les Ventes",
+        "currentPlan": "Plan Actuel"
+    },
+    "SmartAlerts": {
+        "title": "Anti-Gaspi Intelligent (AI-Lite)",
+        "upgradeTitle": "Débloquez les Alertes Intelligentes",
+        "upgradeDesc": "Détection automatique des risques et recommandations.",
+        "upgradeBtn": "Passer Pro",
+        "risk": "Risque",
+        "recommendation": "Recommandation",
+        "highWaste": "Taux de Perte Élevé",
+        "expiringSoon": "Expire Bientôt",
+        "rec_promo": "Créer une promo avec {name}",
+        "rec_freeze": "Congeler {name} si possible",
+        "rec_check": "Vérifier la qualité de {name}"
+    },
+    "Sales": {
+        "title": "Historique des Ventes",
+        "record": "Enregistrer une vente",
+        "recipe": "Recette",
+        "quantity": "Quantité vendue",
+        "date": "Date",
+        "save": "Enregistrer",
+        "cancel": "Annuler",
+        "noSales": "Aucune vente enregistrée pour le moment.",
+        "table": {
+            "date": "Date",
+            "recipe": "Recette",
+            "location": "Emplacement",
+            "quantity": "Quantité",
+            "revenue": "Revenu"
+        },
+        "description": "Enregistrez vos ventes pour mettre à jour automatiquement vos niveaux de stock.",
+        "selectRecipe": "Choisir une recette",
+        "selectLocation": "Choisir un emplacement",
+        "location": "Emplacement",
+        "validation": {
+            "recipeRequired": "La recette est obligatoire",
+            "quantityMin": "La quantité doit être d'au moins 1"
+        },
+        "scannerTitle": "Scanner IA des Ventes",
+        "scannerDescription": "Prenez une photo de votre feuille de comptage, bâtons ou écran de caisse",
+        "takePhotoSales": "Scanner vos ventes",
+        "scanHint": "Papier avec bâtons, écran de caisse, ou feuille de ventes",
+        "scanning": "Analyse en cours...",
+        "scanOnly": "Scanner & Prévisualiser",
+        "scanAndSave": "Scanner & Enregistrer",
+        "totalSales": "Ventes totales",
+        "matched": "Reconnues",
+        "saved": "Enregistrées",
+        "noMatch": "Aucune recette correspondante trouvée",
+        "savedToSystem": "Enregistré",
+        "saving": "Enregistrement...",
+        "saveAll": "Tout enregistrer",
+        "scanAnother": "Nouveau scan"
+    },
+    "Settings": {
+        "title": "Paramètres",
+        "description": "Gérez les préférences de votre établissement et de votre compte.",
+        "tabs": {
+            "profile": "Profil",
+            "operations": "Opérations",
+            "team": "Équipe",
+            "configuration": "Config",
+            "intelligence": "Intelligence"
+        },
+        "save": "Enregistrer les modifications",
+        "invite": "Inviter un membre",
+        "edit": "Modifier",
+        "Profile": {
+            "identity": {
+                "title": "Identité de l'établissement",
+                "description": "Les informations visibles sur vos documents et votre page publique.",
+                "name": "Nom de l'établissement",
+                "logo": "Logo",
+                "color": "Couleur de marque"
+            },
+            "contact": {
+                "title": "Coordonnées",
+                "description": "Pour que vos clients puissent vous contacter.",
+                "address": "Adresse principale",
+                "phone": "Téléphone",
+                "email": "Email public"
+            },
+            "socials": {
+                "title": "Réseaux sociaux",
+                "description": "Liens vers vos profils sociaux.",
+                "website": "Site web"
+            }
+        },
+        "Operations": {
+            "hours": {
+                "title": "Horaires d'ouverture",
+                "description": "Définissez vos horaires d'ouverture habituels.",
+                "closed": "Fermé"
+            },
+            "days": {
+                "monday": "Lundi",
+                "tuesday": "Mardi",
+                "wednesday": "Mercredi",
+                "thursday": "Jeudi",
+                "friday": "Vendredi",
+                "saturday": "Samedi",
+                "sunday": "Dimanche"
+            },
+            "locations": {
+                "title": "Emplacements récurrents",
+                "description": "Gérez vos lieux de vente (marchés, spots food truck).",
+                "placeholder": "Aucun emplacement configuré",
+                "add": "Ajouter un emplacement",
+                "confirmDelete": "Êtes-vous sûr de vouloir supprimer cet emplacement ?"
+            }
+        },
+        "Team": {
+            "title": "Membres de l'équipe",
+            "description": "Gérez les accès et les rôles de vos collaborateurs.",
+            "premiumFeature": "Fonctionnalité Premium",
+            "upgradePrompt": "Invitez des membres illimités avec le plan Pro.",
+            "upgradeBtn": "Passer Pro"
+        },
+        "Configuration": {
+            "stock": {
+                "title": "Gestion du stock",
+                "description": "Règles d'alerte et de décrémentation.",
+                "alerts": "Alertes de stock bas",
+                "alertsDesc": "Recevoir une notification quand un produit atteint le seuil critique.",
+                "autoDeduct": "Décrémentation automatique",
+                "autoDeductDesc": "Retirer les ingrédients du stock à chaque vente enregistrée."
+            },
+            "finance": {
+                "title": "Finance & Taxes",
+                "description": "Paramètres de facturation et de devise.",
+                "currency": "Devise principale",
+                "vat": "Taux de TVA par défaut"
+            }
+        },
+        "Intelligence": {
+            "ai": {
+                "title": "Assistant IA",
+                "description": "Configurez comment l'IA vous aide au quotidien.",
+                "suggestions": "Suggestions proactives",
+                "suggestionsDesc": "L'IA vous suggère des actions (commandes, promos) basées sur vos données.",
+                "menuGen": "Génération de menu",
+                "menuGenDesc": "Autoriser l'IA à proposer des menus du jour selon le stock."
+            },
+            "goals": {
+                "title": "Objectifs",
+                "description": "Définissez vos cibles pour le suivi de performance.",
+                "margin": "Marge cible (%)",
+                "waste": "Limite de gaspillage (%)"
+            }
+        }
+    },
+    "Products": {
+        "inventory": "Inventaire",
+        "addProduct": "Ajouter un produit",
+        "updateProduct": "Modifier le produit",
+        "editProductTitle": "Modifier le produit",
+        "newProductTitle": "Ajouter un nouveau produit",
+        "scanTitle": "Scanner avec l'IA",
+        "scanDesc": "Prenez une photo d'une facture ou d'un produit pour l'ajouter automatiquement au stock.",
+        "manualEntryTitle": "Saisie Manuelle",
+        "manualEntryDesc": "Saisissez manuellement les détails du produit.",
+        "loading": "Chargement...",
+        "noProducts": "Aucun produit trouvé. Ajoutez du stock !",
+        "deleteConfirm": "Êtes-vous sûr de vouloir supprimer ce produit ?",
+        "image": "Image",
+        "name": "Nom",
+        "quantity": "Quantité",
+        "expiryDate": "Date d'expiration",
+        "status": "Statut",
+        "actions": "Actions",
+        "edit": "Modifier",
+        "form": {
+            "image": "Image du produit",
+            "name": "Nom du produit",
+            "namePlaceholder": "Lait, Farine...",
+            "quantity": "Quantité",
+            "unit": "Unité",
+            "selectUnit": "Choisir l'unité",
+            "expiryDate": "Date d'expiration",
+            "saving": "Enregistrement...",
+            "cancel": "Annuler",
+            "validation": {
+                "nameRequired": "Le nom est obligatoire",
+                "quantityPositive": "La quantité doit être positive",
+                "unitRequired": "L'unité est obligatoire",
+                "invalidDate": "Date invalide"
+            }
+        },
+        "units": {
+            "kg": "Kilogrammes (kg)",
+            "g": "Grammes (g)",
+            "l": "Litres (l)",
+            "ml": "Millilitres (ml)",
+            "units": "Unités (pcs)",
+            "packs": "Packs",
+            "crates": "Caissettes"
+        },
+        "imageUpload": {
+            "addPhoto": "Ajouter une photo",
+            "takePhoto": "Prendre/Importer"
+        }
+    }
+}
