@@ -1,11 +1,9 @@
 import { NextResponse } from 'next/server';
 import { auth } from '@/auth';
-import { PrismaClient } from '@prisma/client';
+import { prisma } from '@/lib/prisma';
 import { analyzeImage } from '@/lib/ai';
 import { calculateStatus } from '@/lib/utils';
 import { processDailySales } from '@/lib/consumption';
-
-const prisma = new PrismaClient();
 
 export async function POST(req: Request) {
     const session = await auth();
@@ -20,6 +18,10 @@ export async function POST(req: Request) {
 
     if (!user?.business || user.business.locations.length === 0) {
         return NextResponse.json({ error: 'Business or Location not found' }, { status: 404 });
+    }
+
+    if (user.business.subscriptionTier === 'FREE') {
+        return NextResponse.json({ error: 'AI scanner requires a Pro subscription' }, { status: 403 });
     }
 
     const locationId = user.business.locations[0].id;

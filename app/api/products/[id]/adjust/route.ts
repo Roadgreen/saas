@@ -1,10 +1,8 @@
 import { NextResponse } from 'next/server';
 import { auth } from '@/auth';
-import { PrismaClient } from '@prisma/client';
+import { prisma } from '@/lib/prisma';
 import { z } from 'zod';
 import { convertToBaseUnit } from '@/lib/units';
-
-const prisma = new PrismaClient();
 
 const AdjustmentSchema = z.object({
     quantity: z.number().positive(),
@@ -20,16 +18,32 @@ export async function POST(req: Request, { params }: { params: Promise<{ id: str
         return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
     }
 
+    // Get user's business for ownership verification
+    const user = await prisma.user.findUnique({
+        where: { email: session.user.email },
+        include: { business: true },
+    });
+
+    if (!user?.business) {
+        return NextResponse.json({ error: 'Business not found' }, { status: 404 });
+    }
+
     try {
         const body = await req.json();
         const { quantity, unit, type, reason } = AdjustmentSchema.parse(body);
 
         const product = await prisma.product.findUnique({
             where: { id },
+            include: { location: { select: { businessId: true } } },
         });
 
         if (!product) {
             return NextResponse.json({ error: 'Product not found' }, { status: 404 });
+        }
+
+        // Verify ownership
+        if (product.location.businessId !== user.business.id) {
+            return NextResponse.json({ error: 'Forbidden' }, { status: 403 });
         }
 
         // Normalize units

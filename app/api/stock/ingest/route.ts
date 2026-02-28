@@ -1,11 +1,9 @@
 import { NextResponse } from 'next/server';
 import { auth } from '@/auth';
-import { PrismaClient } from '@prisma/client';
+import { prisma } from '@/lib/prisma';
 import { z } from 'zod';
 import { calculateStatus } from '@/lib/utils';
 import { trackEvent } from '@/lib/tracking';
-
-const prisma = new PrismaClient();
 
 const StockIngestSchema = z.object({
     items: z.array(z.object({

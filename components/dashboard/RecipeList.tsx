@@ -5,6 +5,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table';
 import { CreateRecipeForm } from './CreateRecipeForm';
 import { ChefHat } from 'lucide-react';
+import { formatCurrency, type CurrencyCode } from '@/lib/currency';
 
 interface Ingredient {
   id: string;
@@ -34,13 +35,14 @@ interface Product {
 interface RecipeListProps {
   recipes: Recipe[];
   products: Product[];
+  currency?: CurrencyCode;
 }
 
-export function RecipeList({ recipes, products }: RecipeListProps) {
+export function RecipeList({ recipes, products, currency = 'EUR' }: RecipeListProps) {
   const t = useTranslations('Recipes');
 
   return (
-    <Card>
+    <Card className="dash-card">
       <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
         <CardTitle className="text-xl font-bold flex items-center gap-2">
           <ChefHat className="h-5 w-5" />
@@ -84,10 +86,10 @@ export function RecipeList({ recipes, products }: RecipeListProps) {
                     </ul>
                   </TableCell>
                   <TableCell className="text-right">
-                    {recipe.totalCost.toFixed(2)} €
+                    {formatCurrency(recipe.totalCost, currency)}
                   </TableCell>
                   <TableCell className="text-right">
-                    {recipe.sellingPrice ? `${recipe.sellingPrice.toFixed(2)} €` : '-'}
+                    {recipe.sellingPrice ? formatCurrency(recipe.sellingPrice, currency) : '-'}
                   </TableCell>
                   <TableCell className="text-right">
                     {recipe.grossMargin != null ? (

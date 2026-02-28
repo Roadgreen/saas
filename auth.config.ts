@@ -7,12 +7,25 @@ export const authConfig = {
     callbacks: {
         authorized({ auth, request: { nextUrl } }) {
             const isLoggedIn = !!auth?.user;
-            const isOnDashboard = nextUrl.pathname.startsWith('/dashboard');
+
+            // Extract the path without the locale prefix (e.g. /en/dashboard -> /dashboard)
+            const pathSegments = nextUrl.pathname.split('/');
+            const pathWithoutLocale =
+                pathSegments.length > 2
+                    ? '/' + pathSegments.slice(2).join('/')
+                    : nextUrl.pathname;
+
+            const isOnDashboard = pathWithoutLocale.startsWith('/dashboard');
+            const isOnLogin = pathWithoutLocale === '/login';
+            const isOnRegister = pathWithoutLocale === '/register';
+
             if (isOnDashboard) {
                 if (isLoggedIn) return true;
                 return false; // Redirect unauthenticated users to login page
-            } else if (isLoggedIn && (nextUrl.pathname === '/login' || nextUrl.pathname === '/register')) {
-                return Response.redirect(new URL('/dashboard', nextUrl));
+            } else if (isLoggedIn && (isOnLogin || isOnRegister)) {
+                // Preserve the locale prefix when redirecting
+                const locale = pathSegments[1] || 'en';
+                return Response.redirect(new URL(`/${locale}/dashboard`, nextUrl));
             }
             return true;
         },

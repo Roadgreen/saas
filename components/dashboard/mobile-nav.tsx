@@ -1,14 +1,17 @@
 'use client';
 
+import { useLocale } from 'next-intl';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 import { Button } from '@/components/ui/button';
 import { Menu, Package2 } from 'lucide-react';
 import Link from 'next/link';
 import { NavLinks } from './nav-links';
+import { LocationIndicator } from './LocationIndicator';
 import { useState } from 'react';
 
 export function MobileNav() {
   const [open, setOpen] = useState(false);
+  const locale = useLocale();
 
   return (
     <Sheet open={open} onOpenChange={setOpen}>
@@ -16,23 +19,26 @@ export function MobileNav() {
         <Button
           variant="outline"
           size="icon"
-          className="shrink-0 md:hidden"
+          className="shrink-0 md:hidden border-white/10 bg-white/5 hover:bg-white/10"
         >
           <Menu className="h-5 w-5" />
           <span className="sr-only">Toggle navigation menu</span>
         </Button>
       </SheetTrigger>
-      <SheetContent side="left" className="flex flex-col">
+      <SheetContent side="left" className="flex flex-col border-white/10" style={{ backgroundColor: '#0c0c14', color: '#e5e5e5' }}>
         <nav className="grid gap-2 text-lg font-medium">
           <Link
-            href="#"
+            href={`/${locale}`}
             className="flex items-center gap-2 text-lg font-semibold mb-4"
           >
-            <Package2 className="h-6 w-6" />
-            <span className="sr-only">SnapTrack</span>
+            <Package2 className="h-6 w-6 text-orange-500" />
+            <span className="text-white">FoodTracks</span>
           </Link>
           <NavLinks />
         </nav>
+        <div className="mt-auto border-t border-white/5 pt-4">
+          <LocationIndicator />
+        </div>
       </SheetContent>
     </Sheet>
   );

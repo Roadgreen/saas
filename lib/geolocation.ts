@@ -33,6 +33,7 @@ function deg2rad(deg: number): number {
 
 /**
  * Gets the current position from the browser's Geolocation API.
+ * Times out after 10 seconds to avoid blocking indefinitely (especially on Safari).
  */
 export function getCurrentPosition(): Promise<Coordinates> {
     return new Promise((resolve, reject) => {
@@ -48,6 +49,11 @@ export function getCurrentPosition(): Promise<Coordinates> {
                 },
                 (error) => {
                     reject(error);
+                },
+                {
+                    enableHighAccuracy: true,
+                    timeout: 10000,
+                    maximumAge: 300000, // Accept cached position up to 5 min old
                 }
             );
         }

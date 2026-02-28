@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { z } from 'zod';
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
@@ -21,6 +21,8 @@ const getProductSchema = (t: any) => z.object({
     message: t('validation.invalidDate'),
   }),
   imageUrl: z.string().optional(),
+  costPerUnit: z.union([z.coerce.number().min(0), z.literal('')]).optional(),
+  category: z.string().optional(),
 });
 
 type ProductFormData = z.infer<ReturnType<typeof getProductSchema>>;
@@ -32,7 +34,10 @@ interface ProductFormProps {
 
 export function ProductForm({ initialData, isEditing = false }: ProductFormProps) {
   const router = useRouter();
+  const locale = useLocale();
   const t = useTranslations('Products.form');
+  const tProducts = useTranslations('Products');
+  const tUnits = useTranslations('Products.units');
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
@@ -61,13 +66,20 @@ export function ProductForm({ initialData, isEditing = false }: ProductFormProps
       const url = isEditing && initialData?.id
         ? `/api/products/${initialData.id}`
         : '/api/products';
-      
+
       const method = isEditing ? 'PATCH' : 'POST';
+
+      // Clean up costPerUnit: convert empty string to undefined
+      const payload = {
+        ...data,
+        costPerUnit: data.costPerUnit != null && data.costPerUnit !== '' ? Number(data.costPerUnit) : undefined,
+        category: data.category || undefined,
+      };
 
       const res = await fetch(url, {
         method,
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(data),
+        body: JSON.stringify(payload),
       });
 
       if (!res.ok) {
@@ -75,7 +87,7 @@ export function ProductForm({ initialData, isEditing = false }: ProductFormProps
         throw new Error(errorData.error || 'Failed to save product');
       }
 
-      router.push('/dashboard/products');
+      router.push(`/${locale}/dashboard/products`);
       router.refresh();
     } catch (err: any) {
       setError(err.message);
@@ -91,12 +103,12 @@ export function ProductForm({ initialData, isEditing = false }: ProductFormProps
           {error}
         </div>
       )}
-      
+
       <div className="space-y-2">
         <Label>{t('image')}</Label>
-        <ImageUpload 
-          value={watch('imageUrl')} 
-          onChange={(url) => setValue('imageUrl', url)} 
+        <ImageUpload
+          value={watch('imageUrl')}
+          onChange={(url) => setValue('imageUrl', url)}
         />
       </div>
 
@@ -106,6 +118,11 @@ export function ProductForm({ initialData, isEditing = false }: ProductFormProps
         {errors.name && (
           <p className="text-sm text-red-500">{errors.name.message as string}</p>
         )}
+      </div>
+
+      <div className="space-y-2">
+        <Label htmlFor="category">{t('category')}</Label>
+        <Input id="category" {...register('category')} placeholder={t('categoryPlaceholder')} />
       </div>
 
       <div className="grid grid-cols-2 gap-4">
@@ -124,8 +141,8 @@ export function ProductForm({ initialData, isEditing = false }: ProductFormProps
 
         <div className="space-y-2">
           <Label htmlFor="unit">{t('unit')}</Label>
-          <Select 
-            onValueChange={(value) => setValue('unit', value)} 
+          <Select
+            onValueChange={(value) => setValue('unit', value)}
             defaultValue={initialData?.unit || 'units'}
           >
             <SelectTrigger id="unit">
@@ -134,7 +151,7 @@ export function ProductForm({ initialData, isEditing = false }: ProductFormProps
             <SelectContent>
               {PRODUCT_UNITS.map((u) => (
                 <SelectItem key={u.value} value={u.value}>
-                  {useTranslations('Products.units')(u.value as any)}
+                  {tUnits(u.value as any)}
                 </SelectItem>
               ))}
             </SelectContent>
@@ -143,6 +160,18 @@ export function ProductForm({ initialData, isEditing = false }: ProductFormProps
             <p className="text-sm text-red-500">{errors.unit.message as string}</p>
           )}
         </div>
+      </div>
+
+      <div className="space-y-2">
+        <Label htmlFor="costPerUnit">{t('costPerUnit')}</Label>
+        <Input
+          id="costPerUnit"
+          type="number"
+          step="0.01"
+          min="0"
+          {...register('costPerUnit')}
+          placeholder={t('costPerUnitPlaceholder')}
+        />
       </div>
 
       <div className="space-y-2">
@@ -159,7 +188,7 @@ export function ProductForm({ initialData, isEditing = false }: ProductFormProps
 
       <div className="flex gap-4">
         <Button type="submit" disabled={loading}>
-          {loading ? t('saving') : isEditing ? useTranslations('Products')('updateProduct') : useTranslations('Products')('addProduct')}
+          {loading ? t('saving') : isEditing ? tProducts('updateProduct') : tProducts('addProduct')}
         </Button>
         <Button
           type="button"

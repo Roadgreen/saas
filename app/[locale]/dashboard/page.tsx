@@ -1,13 +1,13 @@
 import { auth } from "@/auth";
-import { PrismaClient } from "@prisma/client";
+import { prisma } from "@/lib/prisma";
 import { redirect } from "next/navigation";
 import { getTranslations } from "next-intl/server";
 import { UploadAndAnalyze } from "@/components/UploadAndAnalyze";
 import { getAnalytics } from "@/lib/analytics";
-import { 
-  WasteMetricsCard, 
-  SalesVsStockCard, 
-  TopWasteCard, 
+import {
+  WasteMetricsCard,
+  SalesVsStockCard,
+  TopWasteCard,
   AlertsWidget,
   SimpleStatsCards
 } from "@/components/dashboard/analytics-widgets";
@@ -15,8 +15,14 @@ import { SmartAlertsWidget } from "@/components/dashboard/SmartAlertsWidget";
 import { PredictionsWidget } from "@/components/dashboard/PredictionsWidget";
 import { getSalesForecast } from "@/lib/predictions";
 import LocationsMapWrapper from "@/components/dashboard/LocationsMapWrapper";
-
-const prisma = new PrismaClient();
+import { snapshotAndReconcile, getPredictionMetrics } from "@/lib/prediction-accuracy";
+import { PredictionAccuracyPanel } from "@/components/dashboard/PredictionAccuracyPanel";
+import { getLocationAnalytics } from '@/lib/location-analytics';
+import { LocationPerformanceCard } from '@/components/dashboard/LocationPerformanceCard';
+import { isCurrencyCode, type CurrencyCode } from '@/lib/currency';
+import { getNextOpenDay, type WeekSchedule } from '@/lib/schedule';
+import { getRecipeReadiness } from '@/lib/stock-demand';
+import { StockReadinessCard } from '@/components/dashboard/StockReadinessCard';
 
 export default async function Dashboard({
   params
@@ -29,53 +35,141 @@ export default async function Dashboard({
     redirect(`/${locale}/login`);
   }
 
-  const user = await prisma.user.findUnique({
-    where: { email: session.user.email },
-    include: { business: true },
-  });
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  let user: any = null;
+  try {
+    user = await prisma.user.findUnique({
+      where: { email: session.user.email },
+      include: { business: true },
+    });
+  } catch {
+    const t = await getTranslations('Dashboard');
+    return (
+      <div className="flex flex-col items-center justify-center h-64 gap-3 text-center">
+        <p className="text-lg font-semibold">{t('dbUnavailable')}</p>
+        <p className="text-sm text-muted-foreground">{t('dbUnavailableDesc')}</p>
+      </div>
+    );
+  }
 
   if (!user?.business) {
     const t = await getTranslations('Dashboard');
     return <div>{t('profileIncomplete')}</div>;
   }
 
-  const analytics = await getAnalytics(user.business.id);
-  const predictions = await getSalesForecast(user.business.id);
+  const business = user.business;
+  const isPremium = business.subscriptionTier === 'PRO' || business.subscriptionTier === 'ENTERPRISE';
+
+  const settings = (business.settings as Record<string, unknown>) ?? {};
+  const rawCurrency = settings.currency;
+  const currency: CurrencyCode = isCurrencyCode(rawCurrency) ? rawCurrency : 'EUR';
+
+  const openingHours = business.openingHours as WeekSchedule | null;
+  const { date: nextOpenDate, dayName: nextOpenDayName, locationId: scheduleLocationId } = getNextOpenDay(openingHours);
+
+  // Resolve location name for display
+  let forecastLocationName: string | null = null;
+  if (scheduleLocationId) {
+    try {
+      const loc = await prisma.location.findUnique({
+        where: { id: scheduleLocationId },
+        select: { name: true },
+      });
+      forecastLocationName = loc?.name ?? null;
+    } catch { /* ignore */ }
+  }
+
+  const [analytics, predictions] = await Promise.all([
+    getAnalytics(business.id).catch(() => null),
+    getSalesForecast(business.id, nextOpenDate, {
+      locationId: scheduleLocationId ?? undefined,
+      openingHours,
+    }).catch(() => []),
+  ]);
+
+  // Compute stock readiness for each predicted recipe
+  const readiness = await getRecipeReadiness(business.id, predictions as any[]).catch(() => []);
+
+  // Snapshot today's predictions & reconcile yesterday (lazy, non-blocking)
+  snapshotAndReconcile(business.id, predictions as any[], openingHours).catch(() => {});
+
+  // Fetch accuracy metrics if premium (excludes closed days)
+  const accuracyMetrics = isPremium
+    ? await getPredictionMetrics(business.id, 30, openingHours).catch(() => null)
+    : null;
+
+  const locationAnalytics = isPremium
+    ? await getLocationAnalytics(business.id).catch(() => null)
+    : null;
+
+  // Build per-recipe accuracy map for the widget
+  const recipeAccuracies: Record<string, number> = {};
+  if (accuracyMetrics) {
+    accuracyMetrics.recipeMetrics.forEach((rm) => {
+      recipeAccuracies[rm.recipeId] = rm.avgAccuracy;
+    });
+  }
 
   const t = await getTranslations('Dashboard');
+  const tDays = await getTranslations('Settings.Operations.days');
+  const forecastDayLabel = tDays(nextOpenDayName as any);
 
   return (
-    <div className="flex-1 space-y-4 p-8 pt-6">
-      <div className="flex items-center justify-between space-y-2">
-        <h2 className="text-3xl font-bold tracking-tight">{t('title')}</h2>
+    <div className="flex-1 space-y-6">
+      <div>
+        <h1 className="text-2xl font-bold tracking-tight">
+          {t('welcome')}, {business.name}
+        </h1>
+        <p className="text-sm text-muted-foreground mt-1">
+          {t('subtitle')}
+        </p>
       </div>
 
-      <SimpleStatsCards stats={analytics.simpleStats} />
+      {analytics && <SimpleStatsCards stats={analytics.simpleStats} currency={currency} />}
 
-      <AlertsWidget alerts={analytics.alerts} />
-      
-      <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
-        <WasteMetricsCard waste={analytics.waste} />
-        <SalesVsStockCard data={analytics.salesVsStock} />
-      </div>
-      
+      {analytics && <AlertsWidget alerts={analytics.alerts} />}
+
+      {analytics && (
+        <div className="grid gap-4 md:grid-cols-2">
+          <WasteMetricsCard waste={analytics.waste} currency={currency} />
+          <SalesVsStockCard data={analytics.salesVsStock} currency={currency} />
+        </div>
+      )}
+
       <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-7">
         <div className="col-span-4 space-y-4">
           <UploadAndAnalyze />
-          <SmartAlertsWidget 
-            analysis={analytics.smartAnalysis} 
-            isPremium={(user as any).business?.subscriptionTier === 'PRO' || (user as any).business?.subscriptionTier === 'ENTERPRISE'} 
-          />
+          {analytics && (
+            <SmartAlertsWidget
+              analysis={analytics.smartAnalysis}
+              isPremium={isPremium}
+            />
+          )}
         </div>
         <div className="col-span-3 space-y-4">
-          <PredictionsWidget predictions={predictions} />
-          <TopWasteCard items={analytics.topWaste} />
+          <PredictionsWidget
+            predictions={predictions}
+            isPremium={isPremium}
+            forecastDayName={forecastDayLabel}
+            forecastLocationName={forecastLocationName}
+            accuracyMetrics={accuracyMetrics ? {
+              overallAccuracy: accuracyMetrics.overallAccuracy,
+              predictabilityScore: accuracyMetrics.predictabilityScore,
+              recipeAccuracies,
+            } : null}
+          />
+          <StockReadinessCard
+            readiness={readiness}
+            forecastDayName={forecastDayLabel}
+          />
+          <PredictionAccuracyPanel metrics={accuracyMetrics} isPremium={isPremium} />
+          <TopWasteCard items={analytics?.topWaste ?? []} currency={currency} />
         </div>
       </div>
 
-      {/* Carte des emplacements foodtruck */}
-      <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
+      <div className="grid gap-4 md:grid-cols-2">
         <LocationsMapWrapper />
+        <LocationPerformanceCard analytics={locationAnalytics} isPremium={isPremium} currency={currency} />
       </div>
     </div>
   );

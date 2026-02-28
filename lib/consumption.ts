@@ -1,7 +1,5 @@
-import { PrismaClient } from '@prisma/client';
-import { convertToBaseUnit } from './units';
-
-const prisma = new PrismaClient();
+import { prisma } from '@/lib/prisma';
+import { convertToBaseUnit, convertFromBaseUnit } from './units';
 
 export async function processDailySales(recipeId: string, quantitySold: number) {
     const recipe = await prisma.recipe.findUnique({
@@ -40,14 +38,7 @@ export async function processDailySales(recipeId: string, quantitySold: number) 
             const newQuantityBase = productBase.quantity - requiredBase.quantity;
 
             // Convert back to product's original unit for storage
-            // Simplified: We assume the conversion factor is consistent. 
-            // If product was kg (base g), we divide by 1000.
-            let newQuantity = newQuantityBase;
-            if (product.unit.toLowerCase() === 'kg' || product.unit.toLowerCase() === 'kilograms') {
-                newQuantity = newQuantityBase / 1000;
-            } else if (product.unit.toLowerCase() === 'l' || product.unit.toLowerCase() === 'liters') {
-                newQuantity = newQuantityBase / 1000;
-            }
+            const newQuantity = convertFromBaseUnit(newQuantityBase, product.unit);
 
             // Update product stock
             await tx.product.update({

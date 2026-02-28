@@ -15,9 +15,14 @@ import {
     RefreshCw,
     FileText,
     Hash,
+    MapPin,
+    Lock,
 } from 'lucide-react';
 import Image from 'next/image';
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
+import { useSession } from 'next-auth/react';
+import Link from 'next/link';
+import { useLocationContext } from '@/components/providers/LocationProvider';
 
 interface ScannedSale {
     scannedName: string;
@@ -44,6 +49,11 @@ interface ScanResult {
 
 export function SalesScanner({ onSalesRecorded }: { onSalesRecorded?: () => void }) {
     const t = useTranslations('Sales');
+    const tAI = useTranslations('AIScanner');
+    const locale = useLocale();
+    const { data: session } = useSession();
+    const isPremium = session?.user?.subscriptionTier === 'PRO' || session?.user?.subscriptionTier === 'ENTERPRISE';
+    const { currentLocation, weather } = useLocationContext();
     const [loading, setLoading] = useState(false);
     const [saving, setSaving] = useState(false);
     const [result, setResult] = useState<ScanResult | null>(null);
@@ -83,6 +93,12 @@ export function SalesScanner({ onSalesRecorded }: { onSalesRecorded?: () => void
             const formData = new FormData();
             formData.append('file', selectedFile);
             formData.append('autoSave', autoSave.toString());
+            if (currentLocation?.id) {
+                formData.append('locationId', currentLocation.id);
+            }
+            if (weather) {
+                formData.append('weatherSnapshot', JSON.stringify(weather));
+            }
 
             const res = await fetch('/api/ai/scan-sales', {
                 method: 'POST',
@@ -125,6 +141,8 @@ export function SalesScanner({ onSalesRecorded }: { onSalesRecorded?: () => void
                             recipeId: sale.recipe.id,
                             quantitySold: sale.quantity,
                             date: result.date,
+                            locationId: currentLocation?.id,
+                            weatherSnapshot: weather,
                         }),
                     });
                     sale.saved = true;
@@ -160,16 +178,47 @@ export function SalesScanner({ onSalesRecorded }: { onSalesRecorded?: () => void
         return styles[confidence as keyof typeof styles] || styles.medium;
     };
 
+    if (!isPremium) {
+        return (
+            <Card className="w-full relative overflow-hidden dash-card">
+                <div className="absolute inset-0 backdrop-blur-sm z-10 flex flex-col items-center justify-center bg-white/80 p-6 text-center">
+                    <Lock className="h-8 w-8 text-blue-600 mb-2" />
+                    <h3 className="font-bold text-lg text-blue-900">{tAI('upgradeTitle')}</h3>
+                    <p className="text-sm text-blue-700 mb-4 max-w-xs">{tAI('upgradeDesc')}</p>
+                    <Button asChild className="bg-blue-600 hover:bg-blue-700 text-white">
+                        <Link href={`/${locale}/pricing`}>{tAI('upgradeBtn')}</Link>
+                    </Button>
+                </div>
+                <CardHeader className="opacity-50">
+                    <CardTitle className="flex items-center gap-2">
+                        <ScanLine className="h-5 w-5 text-blue-600" />
+                        {t('scannerTitle')}
+                    </CardTitle>
+                    <CardDescription>{t('scannerDescription')}</CardDescription>
+                </CardHeader>
+                <CardContent className="opacity-50">
+                    <div className="border-2 border-dashed border-blue-200 rounded-xl p-8 text-center">
+                        <div className="flex flex-col items-center gap-3 text-muted-foreground">
+                            <div className="p-4 bg-blue-100 rounded-full">
+                                <Camera className="h-8 w-8 text-blue-600" />
+                            </div>
+                            <p className="font-medium">{t('takePhotoSales')}</p>
+                        </div>
+                    </div>
+                </CardContent>
+            </Card>
+        );
+    }
+
     return (
-        <Card className="w-full">
+        <Card className="w-full dash-card">
             <CardHeader>
                 <CardTitle className="flex items-center gap-2">
                     <ScanLine className="h-5 w-5 text-blue-600" />
-                    {t('scannerTitle') || 'AI Sales Scanner'}
+                    {t('scannerTitle')}
                 </CardTitle>
                 <CardDescription>
-                    {t('scannerDescription') ||
-                        'Take a photo of your sales sheet, tally marks, or cash register screen'}
+                    {t('scannerDescription')}
                 </CardDescription>
             </CardHeader>
             <CardContent className="space-y-4">
@@ -177,6 +226,14 @@ export function SalesScanner({ onSalesRecorded }: { onSalesRecorded?: () => void
                     <div className="p-3 bg-red-50 text-red-600 rounded-lg flex items-center gap-2 text-sm border border-red-100">
                         <AlertCircle className="h-4 w-4 flex-shrink-0" />
                         {error}
+                    </div>
+                )}
+
+                {currentLocation && (
+                    <div className="flex items-center gap-1 text-xs text-muted-foreground bg-muted px-2 py-1 rounded-full w-fit">
+                        <MapPin className="h-3 w-3" />
+                        {currentLocation.name}
+                        {weather && <span>• {weather.temp}°C</span>}
                     </div>
                 )}
 
@@ -192,21 +249,21 @@ export function SalesScanner({ onSalesRecorded }: { onSalesRecorded?: () => void
                                 </div>
                                 <div>
                                     <p className="font-medium text-gray-900">
-                                        {t('takePhotoSales') || 'Scan your sales'}
+                                        {t('takePhotoSales')}
                                     </p>
                                     <p className="text-sm text-gray-500 mt-1">
-                                        {t('scanHint') || 'Paper with tally marks, register screen, or sales sheet'}
+                                        {t('scanHint')}
                                     </p>
                                 </div>
                                 <div className="flex gap-4 mt-2 text-xs text-gray-400">
                                     <span className="flex items-center gap-1">
-                                        <FileText className="h-3 w-3" /> Paper
+                                        <FileText className="h-3 w-3" /> {t('hintPaper')}
                                     </span>
                                     <span className="flex items-center gap-1">
-                                        <Hash className="h-3 w-3" /> |||| Tally
+                                        <Hash className="h-3 w-3" /> {t('hintTally')}
                                     </span>
                                     <span className="flex items-center gap-1">
-                                        <ScanLine className="h-3 w-3" /> Screen
+                                        <ScanLine className="h-3 w-3" /> {t('hintScreen')}
                                     </span>
                                 </div>
                             </div>
@@ -241,12 +298,12 @@ export function SalesScanner({ onSalesRecorded }: { onSalesRecorded?: () => void
                                     {loading ? (
                                         <>
                                             <Loader2 className="mr-2 h-4 w-4 animate-spin" />
-                                            {t('scanning') || 'Scanning...'}
+                                            {t('scanning')}
                                         </>
                                     ) : (
                                         <>
                                             <ScanLine className="mr-2 h-4 w-4" />
-                                            {t('scanOnly') || 'Scan & Preview'}
+                                            {t('scanOnly')}
                                         </>
                                     )}
                                 </Button>
@@ -259,12 +316,12 @@ export function SalesScanner({ onSalesRecorded }: { onSalesRecorded?: () => void
                                     {loading ? (
                                         <>
                                             <Loader2 className="mr-2 h-4 w-4 animate-spin" />
-                                            {t('scanning') || 'Scanning...'}
+                                            {t('scanning')}
                                         </>
                                     ) : (
                                         <>
                                             <Save className="mr-2 h-4 w-4" />
-                                            {t('scanAndSave') || 'Scan & Save'}
+                                            {t('scanAndSave')}
                                         </>
                                     )}
                                 </Button>
@@ -277,23 +334,23 @@ export function SalesScanner({ onSalesRecorded }: { onSalesRecorded?: () => void
                     <div className="space-y-4 animate-in fade-in slide-in-from-bottom-4">
                         {/* Summary */}
                         <div className="grid grid-cols-3 gap-3">
-                            <div className="p-3 bg-blue-50 rounded-lg text-center">
+                            <div className="p-3 bg-blue-50 rounded-lg text-center border border-blue-200">
                                 <div className="text-2xl font-bold text-blue-700">{result.summary.totalQuantity}</div>
-                                <div className="text-xs text-blue-600">{t('totalSales') || 'Total Sales'}</div>
+                                <div className="text-xs text-blue-700/70">{t('totalSales')}</div>
                             </div>
-                            <div className="p-3 bg-green-50 rounded-lg text-center">
+                            <div className="p-3 bg-green-50 rounded-lg text-center border border-green-200">
                                 <div className="text-2xl font-bold text-green-700">{result.summary.matched}</div>
-                                <div className="text-xs text-green-600">{t('matched') || 'Matched'}</div>
+                                <div className="text-xs text-green-700/70">{t('matched')}</div>
                             </div>
-                            <div className="p-3 bg-purple-50 rounded-lg text-center">
+                            <div className="p-3 bg-purple-50 rounded-lg text-center border border-purple-200">
                                 <div className="text-2xl font-bold text-purple-700">{result.summary.saved}</div>
-                                <div className="text-xs text-purple-600">{t('saved') || 'Saved'}</div>
+                                <div className="text-xs text-purple-700/70">{t('saved')}</div>
                             </div>
                         </div>
 
                         {/* Notes from AI */}
                         {result.notes && (
-                            <div className="p-3 bg-gray-50 rounded-lg text-sm text-gray-600 flex items-start gap-2">
+                            <div className="p-3 bg-gray-50 rounded-lg text-sm text-gray-600 flex items-start gap-2 border border-gray-100">
                                 <AlertCircle className="h-4 w-4 mt-0.5 flex-shrink-0" />
                                 {result.notes}
                             </div>
@@ -324,13 +381,13 @@ export function SalesScanner({ onSalesRecorded }: { onSalesRecorded?: () => void
                                             </div>
                                             {!sale.matched && (
                                                 <div className="text-xs text-yellow-600">
-                                                    ⚠️ {t('noMatch') || 'No matching recipe found'}
+                                                    ⚠️ {t('noMatch')}
                                                 </div>
                                             )}
                                             {sale.saved && (
                                                 <div className="text-xs text-green-600 flex items-center gap-1">
                                                     <CheckCircle className="h-3 w-3" />
-                                                    {t('savedToSystem') || 'Saved'}
+                                                    {t('savedToSystem')}
                                                 </div>
                                             )}
                                         </div>
@@ -357,19 +414,19 @@ export function SalesScanner({ onSalesRecorded }: { onSalesRecorded?: () => void
                                     {saving ? (
                                         <>
                                             <Loader2 className="mr-2 h-4 w-4 animate-spin" />
-                                            {t('saving') || 'Saving...'}
+                                            {t('saving')}
                                         </>
                                     ) : (
                                         <>
                                             <Save className="mr-2 h-4 w-4" />
-                                            {t('saveAll') || 'Save All Matched'}
+                                            {t('saveAll')}
                                         </>
                                     )}
                                 </Button>
                             )}
                             <Button variant="outline" onClick={clearSelection} className="flex-1">
                                 <RefreshCw className="mr-2 h-4 w-4" />
-                                {t('scanAnother') || 'Scan Another'}
+                                {t('scanAnother')}
                             </Button>
                         </div>
                     </div>

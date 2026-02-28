@@ -1,28 +1,27 @@
 import { NextResponse } from 'next/server';
 import { auth } from '@/auth';
-import { PrismaClient } from '@prisma/client';
+import { prisma } from '@/lib/prisma';
 import OpenAI from 'openai';
 import { processDailySales } from '@/lib/consumption';
 
-const prisma = new PrismaClient();
 const openai = new OpenAI({
     apiKey: process.env.OPENAI_API_KEY,
 });
 
-const SALES_SCAN_PROMPT = `Tu es un assistant IA spécialisé dans l'extraction de données de ventes à partir d'images.
+const SALES_SCAN_PROMPT = `Tu es un assistant IA specialise dans l'extraction de donnees de ventes a partir d'images.
 
-L'utilisateur va te montrer une image qui peut être :
-- Un papier avec des noms de recettes/produits et des bâtons (||||) pour compter les ventes
-- Un écran de caisse ou une machine avec des compteurs
-- Un tableau manuscrit avec des noms et des quantités
+L'utilisateur va te montrer une image qui peut etre :
+- Un papier avec des noms de recettes/produits et des batons (||||) pour compter les ventes
+- Un ecran de caisse ou une machine avec des compteurs
+- Un tableau manuscrit avec des noms et des quantites
 - Tout autre format de comptage de ventes
 
-Ta tâche : Extraire TOUTES les ventes visibles et retourner un JSON structuré.
+Ta tache : Extraire TOUTES les ventes visibles et retourner un JSON structure.
 
-IMPORTANT pour les bâtons :
-- |||| = 4 ventes (chaque bâton = 1)
+IMPORTANT pour les batons :
+- |||| = 4 ventes (chaque baton = 1)
 - |||| avec une barre diagonale = 5 ventes
-- Compte précisément chaque bâton
+- Compte precisement chaque baton
 
 Retourne UNIQUEMENT ce format JSON :
 {
@@ -34,16 +33,16 @@ Retourne UNIQUEMENT ce format JSON :
     }
   ],
   "date": "2025-12-03",
-  "notes": "Observations éventuelles sur l'image"
+  "notes": "Observations eventuelles sur l'image"
 }
 
-RÈGLES :
-- "recipeName" : le nom tel qu'écrit sur l'image (on fera le matching après)
-- "quantity" : nombre entier de ventes comptées
-- "confidence" : "high", "medium", ou "low" selon la lisibilité
-- "date" : date du jour si non précisée, sinon la date visible
+REGLES :
+- "recipeName" : le nom tel qu'ecrit sur l'image (on fera le matching apres)
+- "quantity" : nombre entier de ventes comptees
+- "confidence" : "high", "medium", ou "low" selon la lisibilite
+- "date" : date du jour si non precisee, sinon la date visible
 - Retourne UNIQUEMENT le JSON, pas de texte autour
-- Si tu ne peux rien extraire, retourne {"sales": [], "error": "description du problème"}`;
+- Si tu ne peux rien extraire, retourne {"sales": [], "error": "description du probleme"}`;
 
 export async function POST(req: Request) {
     const session = await auth();
@@ -60,13 +59,30 @@ export async function POST(req: Request) {
         return NextResponse.json({ error: 'Business not found' }, { status: 404 });
     }
 
+    if (user.business.subscriptionTier === 'FREE') {
+        return NextResponse.json({ error: 'AI scanner requires a Pro subscription' }, { status: 403 });
+    }
+
     try {
         const formData = await req.formData();
         const file = formData.get('file') as File;
         const autoSave = formData.get('autoSave') === 'true';
+        const locationId = formData.get('locationId') as string | null;
+        const weatherSnapshotStr = formData.get('weatherSnapshot') as string | null;
+        const weatherSnapshot = weatherSnapshotStr ? JSON.parse(weatherSnapshotStr) : null;
 
         if (!file) {
             return NextResponse.json({ error: 'No file provided' }, { status: 400 });
+        }
+
+        if (locationId) {
+            const location = await prisma.location.findUnique({
+                where: { id: locationId },
+                select: { businessId: true },
+            });
+            if (!location || location.businessId !== user.business.id) {
+                return NextResponse.json({ error: 'Forbidden' }, { status: 403 });
+            }
         }
 
         const arrayBuffer = await file.arrayBuffer();
@@ -89,8 +105,8 @@ export async function POST(req: Request) {
                     content: [
                         {
                             type: 'text',
-                            text: `Voici les recettes existantes dans le système : ${recipes.map(r => r.name).join(', ')}. 
-                            
+                            text: `Voici les recettes existantes dans le systeme : ${recipes.map(r => r.name).join(', ')}.
+
 Analyse cette image et extrait les ventes. Essaie de matcher les noms avec les recettes existantes si possible.`,
                         },
                         {
@@ -141,6 +157,8 @@ Analyse cette image et extrait les ventes. Essaie de matcher les noms avec les r
                         recipeId: matchedRecipe.id,
                         quantity: sale.quantity,
                         date: parsedData.date ? new Date(parsedData.date) : new Date(),
+                        locationId: locationId || undefined,
+                        weatherSnapshot: weatherSnapshot || undefined,
                     },
                 });
 

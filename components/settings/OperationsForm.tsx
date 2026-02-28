@@ -7,10 +7,11 @@ import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Switch } from "@/components/ui/switch";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { MapPin, Loader2, Trash2 } from "lucide-react";
 import { getCurrentPosition } from "@/lib/geolocation";
 import { useRouter } from 'next/navigation';
+import { toast } from 'sonner';
 import {
   Dialog,
   DialogContent,
@@ -19,6 +20,7 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog";
+import type { DaySchedule } from '@/lib/schedule';
 
 interface Location {
   id: string;
@@ -27,22 +29,66 @@ interface Location {
   longitude: number | null;
 }
 
-export function OperationsForm() {
+interface OperationsFormProps {
+  initialOpeningHours?: Record<string, DaySchedule> | null;
+  initialLocations?: Location[];
+}
+
+const DAYS = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday'] as const;
+
+export function OperationsForm({ initialOpeningHours, initialLocations = [] }: OperationsFormProps) {
   const t = useTranslations('Settings.Operations');
   const tGlobal = useTranslations('Settings');
-  const days = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday'];
   const router = useRouter();
-  
+
+  // Schedule state
+  const [schedule, setSchedule] = useState<Record<string, DaySchedule>>(() => {
+    const defaults: Record<string, DaySchedule> = {};
+    for (const day of DAYS) {
+      defaults[day] = initialOpeningHours?.[day] ?? {
+        open: '09:00',
+        close: '18:00',
+        closed: false,
+        locationId: null,
+      };
+    }
+    return defaults;
+  });
+  const [saving, setSaving] = useState(false);
+
+  // Location management state
   const [isLocating, setIsLocating] = useState(false);
-  const [isSaving, setIsSaving] = useState(false);
-  const [newLocation, setNewLocation] = useState<{lat: number, lon: number} | null>(null);
+  const [isSavingLocation, setIsSavingLocation] = useState(false);
+  const [newLocation, setNewLocation] = useState<{ lat: number; lon: number } | null>(null);
   const [locationName, setLocationName] = useState("");
-  const [locations, setLocations] = useState<Location[]>([]);
+  const [locations, setLocations] = useState<Location[]>(initialLocations);
   const [open, setOpen] = useState(false);
 
-  useEffect(() => {
-    fetchLocations();
-  }, []);
+  const updateDay = (day: string, field: keyof DaySchedule, value: string | boolean | null) => {
+    setSchedule(prev => ({
+      ...prev,
+      [day]: { ...prev[day], [field]: value },
+    }));
+  };
+
+  const handleSave = async () => {
+    setSaving(true);
+    try {
+      const res = await fetch('/api/business', {
+        method: 'PATCH',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ openingHours: schedule }),
+      });
+      if (res.ok) {
+        toast.success(t('hours.saved'));
+        router.refresh();
+      }
+    } catch {
+      toast.error('Error saving schedule');
+    } finally {
+      setSaving(false);
+    }
+  };
 
   const fetchLocations = async () => {
     try {
@@ -63,7 +109,6 @@ export function OperationsForm() {
       setNewLocation({ lat: coords.latitude, lon: coords.longitude });
     } catch (error) {
       console.error("Geolocation error:", error);
-      // TODO: Show toast error
     } finally {
       setIsLocating(false);
     }
@@ -72,7 +117,7 @@ export function OperationsForm() {
   const handleSaveLocation = async () => {
     if (!newLocation || !locationName) return;
 
-    setIsSaving(true);
+    setIsSavingLocation(true);
     try {
       const res = await fetch('/api/locations', {
         method: 'POST',
@@ -94,7 +139,7 @@ export function OperationsForm() {
     } catch (error) {
       console.error("Failed to save location", error);
     } finally {
-      setIsSaving(false);
+      setIsSavingLocation(false);
     }
   };
 
@@ -102,11 +147,19 @@ export function OperationsForm() {
     if (!confirm(t('locations.confirmDelete'))) return;
 
     try {
-      const res = await fetch(`/api/locations?id=${id}`, {
-        method: 'DELETE',
-      });
+      const res = await fetch(`/api/locations?id=${id}`, { method: 'DELETE' });
 
       if (res.ok) {
+        // Clear locationId references in schedule
+        setSchedule(prev => {
+          const updated = { ...prev };
+          for (const day of DAYS) {
+            if (updated[day]?.locationId === id) {
+              updated[day] = { ...updated[day], locationId: null };
+            }
+          }
+          return updated;
+        });
         fetchLocations();
         router.refresh();
       }
@@ -122,23 +175,59 @@ export function OperationsForm() {
           <CardTitle>{t('hours.title')}</CardTitle>
           <CardDescription>{t('hours.description')}</CardDescription>
         </CardHeader>
-        <CardContent className="space-y-6">
-          {days.map((day) => (
-            <div key={day} className="flex items-center justify-between">
-              <div className="w-32 font-medium capitalize">{t(`days.${day}`)}</div>
-              <div className="flex items-center gap-4">
-                <div className="flex items-center gap-2">
-                  <Input type="time" className="w-32" defaultValue="09:00" />
-                  <span>-</span>
-                  <Input type="time" className="w-32" defaultValue="18:00" />
+        <CardContent className="space-y-4">
+          {DAYS.map((day) => {
+            const daySchedule = schedule[day];
+            const isClosed = daySchedule?.closed ?? false;
+            return (
+              <div key={day} className="flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-4">
+                <div className="w-28 font-medium capitalize shrink-0">
+                  {t(`days.${day}`)}
                 </div>
-                <div className="flex items-center gap-2">
-                  <Switch id={`closed-${day}`} />
+                <div className={`flex flex-wrap items-center gap-3 flex-1 ${isClosed ? 'opacity-40 pointer-events-none' : ''}`}>
+                  <div className="flex items-center gap-2">
+                    <Input
+                      type="time"
+                      className="w-28"
+                      value={daySchedule?.open ?? '09:00'}
+                      onChange={(e) => updateDay(day, 'open', e.target.value)}
+                    />
+                    <span>-</span>
+                    <Input
+                      type="time"
+                      className="w-28"
+                      value={daySchedule?.close ?? '18:00'}
+                      onChange={(e) => updateDay(day, 'close', e.target.value)}
+                    />
+                  </div>
+                  {locations.length > 0 && (
+                    <Select
+                      value={daySchedule?.locationId ?? '__none__'}
+                      onValueChange={(v) => updateDay(day, 'locationId', v === '__none__' ? null : v)}
+                    >
+                      <SelectTrigger className="w-44">
+                        <SelectValue placeholder={t('hours.noLocation')} />
+                      </SelectTrigger>
+                      <SelectContent>
+                        <SelectItem value="__none__">{t('hours.noLocation')}</SelectItem>
+                        {locations.map((loc) => (
+                          <SelectItem key={loc.id} value={loc.id}>{loc.name}</SelectItem>
+                        ))}
+                      </SelectContent>
+                    </Select>
+                  )}
+                </div>
+                <div className="flex items-center gap-2 shrink-0">
+                  <Switch
+                    id={`closed-${day}`}
+                    checked={isClosed}
+                    onCheckedChange={(checked) => updateDay(day, 'closed', checked)}
+                  />
                   <Label htmlFor={`closed-${day}`}>{t('hours.closed')}</Label>
                 </div>
               </div>
-            </div>
-          ))}
+            );
+          })}
         </CardContent>
       </Card>
 
@@ -167,9 +256,9 @@ export function OperationsForm() {
                       </div>
                     </div>
                   </div>
-                  <Button 
-                    variant="ghost" 
-                    size="icon" 
+                  <Button
+                    variant="ghost"
+                    size="icon"
                     className="text-muted-foreground hover:text-red-500"
                     onClick={() => handleDeleteLocation(loc.id)}
                   >
@@ -179,7 +268,7 @@ export function OperationsForm() {
               ))}
             </div>
           )}
-          
+
           <Dialog open={open} onOpenChange={setOpen}>
             <DialogTrigger asChild>
               <Button variant="outline" className="w-full">
@@ -191,28 +280,28 @@ export function OperationsForm() {
               <DialogHeader>
                 <DialogTitle>{t('locations.add')}</DialogTitle>
                 <DialogDescription>
-                  Enregistrez votre position actuelle comme lieu de vente.
+                  {t('locations.addDesc')}
                 </DialogDescription>
               </DialogHeader>
               <div className="grid gap-4 py-4">
                 <div className="grid gap-2">
-                  <Label>Nom du lieu</Label>
-                  <Input 
-                    placeholder="Ex: Marché du Samedi" 
+                  <Label>{t('locations.nameLabel')}</Label>
+                  <Input
+                    placeholder={t('locations.namePlaceholder')}
                     value={locationName}
                     onChange={(e) => setLocationName(e.target.value)}
                   />
                 </div>
                 <div className="flex items-center gap-4">
-                  <Button 
-                    type="button" 
-                    variant="secondary" 
+                  <Button
+                    type="button"
+                    variant="secondary"
                     onClick={handleLocate}
                     disabled={isLocating}
                     className="w-full"
                   >
                     {isLocating ? <Loader2 className="mr-2 h-4 w-4 animate-spin" /> : <MapPin className="mr-2 h-4 w-4" />}
-                    {newLocation ? "Position trouvée !" : "📍 Je suis ici"}
+                    {newLocation ? t('locations.positionFound') : t('locations.iAmHere')}
                   </Button>
                 </div>
                 {newLocation && (
@@ -220,12 +309,12 @@ export function OperationsForm() {
                     GPS: {newLocation.lat.toFixed(4)}, {newLocation.lon.toFixed(4)}
                   </div>
                 )}
-                <Button 
-                  onClick={handleSaveLocation} 
-                  disabled={!newLocation || !locationName || isSaving}
+                <Button
+                  onClick={handleSaveLocation}
+                  disabled={!newLocation || !locationName || isSavingLocation}
                 >
-                  {isSaving && <Loader2 className="mr-2 h-4 w-4 animate-spin" />}
-                  Enregistrer ce lieu
+                  {isSavingLocation && <Loader2 className="mr-2 h-4 w-4 animate-spin" />}
+                  {t('locations.saveLocation')}
                 </Button>
               </div>
             </DialogContent>
@@ -234,7 +323,10 @@ export function OperationsForm() {
       </Card>
 
       <div className="flex justify-end">
-        <Button>{tGlobal('save')}</Button>
+        <Button onClick={handleSave} disabled={saving}>
+          {saving && <Loader2 className="mr-2 h-4 w-4 animate-spin" />}
+          {tGlobal('save')}
+        </Button>
       </div>
     </div>
   );

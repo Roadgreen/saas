@@ -3,13 +3,19 @@
 import { useState, useRef } from 'react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Camera, Upload, Loader2, CheckCircle, AlertCircle, X } from 'lucide-react';
+import { Camera, Upload, Loader2, CheckCircle, AlertCircle, X, Lock } from 'lucide-react';
 import Image from 'next/image';
+import Link from 'next/link';
 
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
+import { useSession } from 'next-auth/react';
 
 export function UploadAndAnalyze() {
   const t = useTranslations('Dashboard');
+  const tAI = useTranslations('AIScanner');
+  const locale = useLocale();
+  const { data: session } = useSession();
+  const isPremium = session?.user?.subscriptionTier === 'PRO' || session?.user?.subscriptionTier === 'ENTERPRISE';
   const [loading, setLoading] = useState(false);
   const [result, setResult] = useState<any>(null);
   const [error, setError] = useState<string | null>(null);
@@ -68,6 +74,35 @@ export function UploadAndAnalyze() {
     }
   };
 
+  if (!isPremium) {
+    return (
+      <Card className="w-full max-w-md mx-auto relative overflow-hidden dash-card">
+        <div className="absolute inset-0 backdrop-blur-sm z-10 flex flex-col items-center justify-center bg-white/80 p-6 text-center">
+          <Lock className="h-8 w-8 text-blue-600 mb-2" />
+          <h3 className="font-bold text-lg text-blue-900">{tAI('upgradeTitle')}</h3>
+          <p className="text-sm text-blue-700 mb-4 max-w-xs">{tAI('upgradeDesc')}</p>
+          <Button asChild className="bg-blue-600 hover:bg-blue-700 text-white">
+            <Link href={`/${locale}/pricing`}>{tAI('upgradeBtn')}</Link>
+          </Button>
+        </div>
+        <CardHeader className="opacity-50">
+          <CardTitle className="flex items-center gap-2">
+            <Camera className="h-5 w-5" />
+            {t('uploadTitle')}
+          </CardTitle>
+        </CardHeader>
+        <CardContent className="opacity-50">
+          <div className="border-2 border-dashed border-slate-200 rounded-lg p-8 text-center">
+            <div className="flex flex-col items-center gap-2 text-muted-foreground">
+              <Camera className="h-8 w-8 mb-2" />
+              <p className="font-medium">{t('takePhoto')}</p>
+            </div>
+          </div>
+        </CardContent>
+      </Card>
+    );
+  }
+
   return (
     <Card className="w-full max-w-md mx-auto">
       <CardHeader>
@@ -86,7 +121,7 @@ export function UploadAndAnalyze() {
 
         {!preview ? (
           <div className="flex flex-col gap-4">
-            <div 
+            <div
               className="border-2 border-dashed border-slate-200 rounded-lg p-8 text-center hover:bg-slate-50 transition-colors cursor-pointer"
               onClick={() => fileInputRef.current?.click()}
             >
@@ -150,7 +185,7 @@ export function UploadAndAnalyze() {
                 <CheckCircle className="h-5 w-5" />
                 {t('success')}
               </div>
-              
+
               {result.type === 'stock' && (
                 <div className="text-sm text-green-800">
                   <p className="font-medium mb-1">{t('addedStock', { count: result.count })}</p>

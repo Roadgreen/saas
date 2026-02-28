@@ -1,6 +1,8 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
-import { AlertTriangle, TrendingDown, TrendingUp, DollarSign, Scale } from "lucide-react";
+import { AlertTriangle, TrendingDown, TrendingUp, DollarSign, Scale, Package, Clock, Trash2 } from "lucide-react";
+import { MarginSparkline } from "./MarginSparkline";
+import { formatCurrency, type CurrencyCode } from "@/lib/currency";
 
 interface AnalyticsData {
   waste: {
@@ -24,60 +26,61 @@ import { useTranslations } from 'next-intl';
 
 // ... interfaces ...
 
-export function WasteMetricsCard({ waste }: { waste: AnalyticsData['waste'] }) {
+export function WasteMetricsCard({ waste, currency = 'EUR' }: { waste: AnalyticsData['waste']; currency?: CurrencyCode }) {
   const t = useTranslations('Dashboard');
   return (
-    <Card>
+    <Card className="dash-card">
       <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
         <CardTitle className="text-sm font-medium">{t('wasteMetrics')}</CardTitle>
-        <TrendingDown className="h-4 w-4 text-red-500" />
+        <TrendingDown className="h-4 w-4 text-red-600" />
       </CardHeader>
       <CardContent>
         <div className="text-2xl font-bold text-red-600">
-          {waste.week.toFixed(2)} €
+          {formatCurrency(waste.week, currency)}
         </div>
         <p className="text-xs text-muted-foreground mt-1">
-          {waste.day.toFixed(2)} € {t('today')}
+          {formatCurrency(waste.day, currency)} {t('today')}
         </p>
       </CardContent>
     </Card>
   );
 }
 
-export function SalesVsStockCard({ data }: { data: AnalyticsData['salesVsStock'] }) {
+export function SalesVsStockCard({ data, currency = 'EUR' }: { data: AnalyticsData['salesVsStock']; currency?: CurrencyCode }) {
   const t = useTranslations('Dashboard');
   const margin = data.revenue - data.stockCost;
   const marginPercent = data.revenue > 0 ? (margin / data.revenue) * 100 : 0;
 
   return (
-    <Card>
+    <Card className="dash-card">
       <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
         <CardTitle className="text-sm font-medium">{t('theoreticalMargin')}</CardTitle>
-        <DollarSign className="h-4 w-4 text-green-500" />
+        <DollarSign className="h-4 w-4 text-green-600" />
       </CardHeader>
       <CardContent>
         <div className="text-2xl font-bold text-green-600">
-          {margin.toFixed(2)} €
+          {formatCurrency(margin, currency)}
         </div>
         <div className="flex justify-between text-xs text-muted-foreground mt-2">
-          <span>{t('sales')}: {data.revenue.toFixed(2)} €</span>
-          <span>{t('cost')}: {data.stockCost.toFixed(2)} €</span>
+          <span>{t('sales')}: {formatCurrency(data.revenue, currency)}</span>
+          <span>{t('cost')}: {formatCurrency(data.stockCost, currency)}</span>
         </div>
-        <div className="mt-2 h-2 w-full bg-slate-100 rounded-full overflow-hidden">
-          <div 
-            className="h-full bg-green-500" 
-            style={{ width: `${Math.min(marginPercent, 100)}%` }} 
+        <div className="mt-2 h-2 w-full bg-gray-100 rounded-full overflow-hidden">
+          <div
+            className="h-full bg-gradient-to-r from-green-500 to-emerald-400 rounded-full"
+            style={{ width: `${Math.min(marginPercent, 100)}%` }}
           />
         </div>
+        <MarginSparkline currency={currency} />
       </CardContent>
     </Card>
   );
 }
 
-export function TopWasteCard({ items }: { items: AnalyticsData['topWaste'] }) {
+export function TopWasteCard({ items, currency = 'EUR' }: { items: AnalyticsData['topWaste']; currency?: CurrencyCode }) {
   const t = useTranslations('Dashboard');
   return (
-    <Card className="col-span-3">
+    <Card className="dash-card">
       <CardHeader>
         <CardTitle>{t('topWaste')}</CardTitle>
       </CardHeader>
@@ -95,7 +98,7 @@ export function TopWasteCard({ items }: { items: AnalyticsData['topWaste'] }) {
                   </p>
                 </div>
                 <div className="font-medium text-red-600">
-                  -{item.wasteCost.toFixed(2)} €
+                  -{formatCurrency(item.wasteCost, currency)}
                 </div>
               </div>
             ))
@@ -113,11 +116,11 @@ export function AlertsWidget({ alerts }: { alerts: any[] }) {
   return (
     <div className="space-y-2">
       {alerts.map((alert, i) => (
-        <Alert key={i} variant="destructive">
+        <Alert key={i} variant="destructive" className="border-red-200 bg-red-100">
           <AlertTriangle className="h-4 w-4" />
           <AlertTitle>{t('alertTitle')}</AlertTitle>
           <AlertDescription>
-            {alert.type === 'HIGH_WASTE' 
+            {alert.type === 'HIGH_WASTE'
               ? t('alertHighWaste', { name: alert.name, rate: alert.rate })
               : t('alertExpiring', { name: alert.name })}
           </AlertDescription>
@@ -127,50 +130,60 @@ export function AlertsWidget({ alerts }: { alerts: any[] }) {
   );
 }
 
-export function SimpleStatsCards({ stats }: { stats: { currentStock: number; expiringSoon: number; todaySales: number; todayLosses: number } }) {
+export function SimpleStatsCards({ stats, currency = 'EUR' }: { stats: { currentStock: number; expiringSoon: number; todaySales: number; todayLosses: number }; currency?: CurrencyCode }) {
   const t = useTranslations('Dashboard');
-  
+
   return (
     <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
-      <Card>
+      <Card className="dash-card">
         <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
           <CardTitle className="text-sm font-medium">{t('currentStock')}</CardTitle>
-          <div className="h-4 w-4 text-muted-foreground">📦</div>
+          <div className="rounded-md bg-blue-100 p-2">
+            <Package className="h-4 w-4 text-blue-600" />
+          </div>
         </CardHeader>
         <CardContent>
-          <div className="text-2xl font-bold">{stats.currentStock}</div>
+          <div className="text-2xl font-bold text-blue-600">{stats.currentStock}</div>
           <p className="text-xs text-muted-foreground">{t('items')}</p>
         </CardContent>
       </Card>
-      
-      <Card>
+
+      <Card className="dash-card">
         <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
           <CardTitle className="text-sm font-medium">{t('expiringSoon')}</CardTitle>
-          <div className="h-4 w-4 text-orange-500">⏰</div>
+          <div className="rounded-md bg-amber-100 p-2">
+            <Clock className="h-4 w-4 text-amber-600" />
+          </div>
         </CardHeader>
         <CardContent>
-          <div className="text-2xl font-bold text-orange-600">{stats.expiringSoon}</div>
+          <div className="text-2xl font-bold text-amber-600">{stats.expiringSoon}</div>
           <p className="text-xs text-muted-foreground">{t('items')}</p>
         </CardContent>
       </Card>
 
-      <Card>
+      <Card className="dash-card">
         <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
           <CardTitle className="text-sm font-medium">{t('todaySales')}</CardTitle>
-          <div className="h-4 w-4 text-green-500">💰</div>
+          <div className="rounded-md bg-green-100 p-2">
+            <TrendingUp className="h-4 w-4 text-green-600" />
+          </div>
         </CardHeader>
         <CardContent>
-          <div className="text-2xl font-bold text-green-600">{stats.todaySales.toFixed(2)} €</div>
+          <div className="text-2xl font-bold text-green-600">{formatCurrency(stats.todaySales, currency)}</div>
+          <p className="text-xs text-muted-foreground">{t('today')}</p>
         </CardContent>
       </Card>
 
-      <Card>
+      <Card className="dash-card">
         <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
           <CardTitle className="text-sm font-medium">{t('todayLosses')}</CardTitle>
-          <div className="h-4 w-4 text-red-500">🗑️</div>
+          <div className="rounded-md bg-red-100 p-2">
+            <Trash2 className="h-4 w-4 text-red-600" />
+          </div>
         </CardHeader>
         <CardContent>
-          <div className="text-2xl font-bold text-red-600">{stats.todayLosses.toFixed(2)} €</div>
+          <div className="text-2xl font-bold text-red-600">{formatCurrency(stats.todayLosses, currency)}</div>
+          <p className="text-xs text-muted-foreground">{t('today')}</p>
         </CardContent>
       </Card>
     </div>

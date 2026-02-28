@@ -1,10 +1,8 @@
 import { NextResponse } from 'next/server';
 import { auth } from '@/auth';
-import { PrismaClient } from '@prisma/client';
+import { prisma } from '@/lib/prisma';
 import { z } from 'zod';
 import { trackEvent } from '@/lib/tracking';
-
-const prisma = new PrismaClient();
 
 const RecipeSchema = z.object({
     name: z.string().min(1),
@@ -62,6 +60,22 @@ export async function POST(req: Request) {
     try {
         const body = await req.json();
         const { name, description, sellingPrice, ingredients } = RecipeSchema.parse(body);
+
+        // Verify all productIds belong to the user's business
+        if (ingredients.length > 0) {
+            const productIds = ingredients.map((ing) => ing.productId);
+            const products = await prisma.product.findMany({
+                where: { id: { in: productIds } },
+                include: { location: { select: { businessId: true } } },
+            });
+
+            const allOwned = products.length === productIds.length &&
+                products.every((p) => p.location.businessId === user.business!.id);
+
+            if (!allOwned) {
+                return NextResponse.json({ error: 'Forbidden' }, { status: 403 });
+            }
+        }
 
         const recipe = await (prisma as any).recipe.create({
             data: {

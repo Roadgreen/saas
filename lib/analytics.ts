@@ -1,11 +1,14 @@
-import { PrismaClient } from '@prisma/client';
-
-const prisma = new PrismaClient();
+import { prisma } from '@/lib/prisma';
 
 export async function getAnalytics(businessId: string) {
     const now = new Date();
-    const startOfDay = new Date(now.setHours(0, 0, 0, 0));
-    const startOfWeek = new Date(now.setDate(now.getDate() - now.getDay()));
+    const startOfDay = new Date(now);
+    startOfDay.setHours(0, 0, 0, 0);
+
+    const startOfWeek = new Date(now);
+    startOfWeek.setHours(0, 0, 0, 0);
+    startOfWeek.setDate(startOfWeek.getDate() - startOfWeek.getDay());
+
     const startOfMonth = new Date(now.getFullYear(), now.getMonth(), 1);
 
     // 1. Waste Metrics (Dry Losses)
@@ -207,5 +210,262 @@ export async function getAnalytics(businessId: string) {
             todayLosses: wasteDay,
         },
         smartAnalysis,
+    };
+}
+
+// ─── Profitability Analytics ──────────────────────────────────
+
+export interface DailyProfitability {
+    date: string;
+    revenue: number;
+    cost: number;
+    margin: number;
+    marginPercent: number;
+    wastesCost: number;
+}
+
+export async function getProfitabilityData(
+    businessId: string,
+    days: number = 30,
+    locationId?: string
+): Promise<DailyProfitability[]> {
+    const now = new Date();
+    const startDate = new Date(now);
+    startDate.setDate(startDate.getDate() - days);
+    startDate.setHours(0, 0, 0, 0);
+
+    // Initialize all days to zero
+    const dayMap: Record<string, { revenue: number; cost: number; wastesCost: number }> = {};
+    for (let i = 0; i < days; i++) {
+        const d = new Date(startDate);
+        d.setDate(d.getDate() + i);
+        const key = d.toISOString().split('T')[0];
+        dayMap[key] = { revenue: 0, cost: 0, wastesCost: 0 };
+    }
+
+    // Fetch orders with recipe ingredients for cost calculation
+    const orders = await prisma.order.findMany({
+        where: {
+            businessId,
+            date: { gte: startDate },
+            ...(locationId ? { locationId } : {}),
+        },
+        include: {
+            items: {
+                include: {
+                    recipe: {
+                        include: {
+                            ingredients: {
+                                include: { product: true },
+                            },
+                        },
+                    },
+                },
+            },
+        },
+    });
+
+    // Fetch waste events
+    const wasteEvents = await prisma.wasteEvent.findMany({
+        where: {
+            product: {
+                location: {
+                    businessId,
+                    ...(locationId ? { id: locationId } : {}),
+                },
+            },
+            date: { gte: startDate },
+        },
+        include: { product: true },
+    });
+
+    // Aggregate orders by day
+    for (const order of orders) {
+        const dateKey = order.date.toISOString().split('T')[0];
+        if (!dayMap[dateKey]) continue;
+
+        for (const item of order.items) {
+            // Revenue: prefer subtotal, then unitPrice * qty, then sellingPrice * qty
+            const unitRevenue = item.subtotal
+                ?? ((item.unitPrice ?? item.recipe.sellingPrice ?? 0) * item.quantity);
+            dayMap[dateKey].revenue += unitRevenue;
+
+            // Cost: sum of ingredient costs per unit * quantity sold
+            const recipeCostPerUnit = item.recipe.ingredients.reduce((acc, ing) => {
+                return acc + (ing.quantity * (ing.product.costPerUnit ?? 0));
+            }, 0);
+            dayMap[dateKey].cost += recipeCostPerUnit * item.quantity;
+        }
+    }
+
+    // Aggregate waste by day
+    for (const event of wasteEvents) {
+        const dateKey = event.date.toISOString().split('T')[0];
+        if (!dayMap[dateKey]) continue;
+        dayMap[dateKey].wastesCost += event.quantity * (event.product.costPerUnit ?? 0);
+    }
+
+    // Convert to sorted array
+    return Object.entries(dayMap)
+        .sort(([a], [b]) => a.localeCompare(b))
+        .map(([date, data]) => {
+            const margin = data.revenue - data.cost;
+            return {
+                date,
+                revenue: Math.round(data.revenue * 100) / 100,
+                cost: Math.round(data.cost * 100) / 100,
+                margin: Math.round(margin * 100) / 100,
+                marginPercent: data.revenue > 0
+                    ? Math.round((margin / data.revenue) * 10000) / 100
+                    : 0,
+                wastesCost: Math.round(data.wastesCost * 100) / 100,
+            };
+        });
+}
+
+// ─── Expiration & Waste Analysis ──────────────────────────────
+
+export interface ExpiredProductRow {
+    productId: string;
+    name: string;
+    unit: string;
+    category: string | null;
+    expiryDate: string;
+    remainingQty: number;
+    historicalQtyLost: number;
+    totalQtyLost: number;
+    costPerUnit: number | null;
+    totalCostLost: number;
+    locationName: string;
+}
+
+export interface ExpirationSummary {
+    totalExpiredProducts: number;
+    totalQtyLost: number;
+    totalCostLost: number;
+    rows: ExpiredProductRow[];
+}
+
+export async function getExpirationAnalytics(
+    businessId: string,
+    days: number = 30,
+    locationId?: string
+): Promise<ExpirationSummary> {
+    const now = new Date();
+    const startDate = new Date(now);
+    startDate.setDate(startDate.getDate() - days);
+    startDate.setHours(0, 0, 0, 0);
+
+    const locationFilter = locationId ? { id: locationId } : {};
+
+    // Query 1: Currently expired products with remaining stock
+    const expiredProducts = await prisma.product.findMany({
+        where: {
+            location: {
+                businessId,
+                ...locationFilter,
+            },
+            expiryDate: { lt: now },
+            quantity: { gt: 0 },
+        },
+        include: {
+            location: { select: { name: true } },
+            wasteEvents: {
+                where: {
+                    reason: 'EXPIRED',
+                    date: { gte: startDate },
+                },
+            },
+        },
+        orderBy: { expiryDate: 'asc' },
+    });
+
+    // Query 2: Historical EXPIRED waste events for products with qty <= 0
+    const historicalEvents = await prisma.wasteEvent.findMany({
+        where: {
+            reason: 'EXPIRED',
+            date: { gte: startDate },
+            product: {
+                location: {
+                    businessId,
+                    ...locationFilter,
+                },
+                OR: [
+                    { quantity: { lte: 0 } },
+                    { expiryDate: { gte: now } }, // product expiry was extended but old events exist
+                ],
+            },
+        },
+        include: {
+            product: {
+                include: { location: { select: { name: true } } },
+            },
+        },
+    });
+
+    // Build rows from Query 1 (expired products with stock)
+    const rowMap = new Map<string, ExpiredProductRow>();
+
+    for (const product of expiredProducts) {
+        const historicalQty = product.wasteEvents.reduce((sum, e) => sum + e.quantity, 0);
+        const remainingQty = Math.round(product.quantity * 100) / 100;
+        const totalQty = remainingQty + historicalQty;
+        const cost = product.costPerUnit ?? 0;
+
+        rowMap.set(product.id, {
+            productId: product.id,
+            name: product.name,
+            unit: product.unit,
+            category: product.category,
+            expiryDate: product.expiryDate.toISOString().split('T')[0],
+            remainingQty,
+            historicalQtyLost: Math.round(historicalQty * 100) / 100,
+            totalQtyLost: Math.round(totalQty * 100) / 100,
+            costPerUnit: product.costPerUnit,
+            totalCostLost: Math.round(totalQty * cost * 100) / 100,
+            locationName: product.location.name,
+        });
+    }
+
+    // Add rows from Query 2 (historical only, product qty <= 0)
+    const histByProduct = new Map<string, { product: typeof historicalEvents[0]['product']; totalQty: number }>();
+    for (const event of historicalEvents) {
+        if (rowMap.has(event.productId)) continue; // already counted in Query 1
+        const existing = histByProduct.get(event.productId);
+        if (existing) {
+            existing.totalQty += event.quantity;
+        } else {
+            histByProduct.set(event.productId, {
+                product: event.product,
+                totalQty: event.quantity,
+            });
+        }
+    }
+
+    for (const [productId, { product, totalQty }] of histByProduct) {
+        const cost = product.costPerUnit ?? 0;
+        rowMap.set(productId, {
+            productId,
+            name: product.name,
+            unit: product.unit,
+            category: product.category,
+            expiryDate: product.expiryDate.toISOString().split('T')[0],
+            remainingQty: 0,
+            historicalQtyLost: Math.round(totalQty * 100) / 100,
+            totalQtyLost: Math.round(totalQty * 100) / 100,
+            costPerUnit: product.costPerUnit,
+            totalCostLost: Math.round(totalQty * cost * 100) / 100,
+            locationName: product.location.name,
+        });
+    }
+
+    // Sort by cost lost DESC
+    const rows = Array.from(rowMap.values()).sort((a, b) => b.totalCostLost - a.totalCostLost);
+
+    return {
+        totalExpiredProducts: expiredProducts.length,
+        totalQtyLost: Math.round(rows.reduce((s, r) => s + r.totalQtyLost, 0) * 100) / 100,
+        totalCostLost: Math.round(rows.reduce((s, r) => s + r.totalCostLost, 0) * 100) / 100,
+        rows,
     };
 }

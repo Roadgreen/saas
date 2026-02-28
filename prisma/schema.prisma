@@ -35,8 +35,15 @@ model User {
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
 
+  // Email verification
+  emailVerified           DateTime?
+  verificationToken       String?   @unique
+  verificationTokenExpiry DateTime?
+
   businessId String?
   business   Business? @relation(fields: [businessId], references: [id])
+
+  @@index([businessId])
 }
 
 model Business {
@@ -64,10 +71,26 @@ model Business {
   users         User[]
   locations Location[]
   recipes   Recipe[]
+  orders    Order[]
+  predictionSnapshots PredictionSnapshot[]
+  predictionAccuracy  PredictionAccuracy[]
 
   subscriptionTier     SubscriptionTier     @default(FREE)
   subscriptionStatus   SubscriptionStatus   @default(ACTIVE)
   subscriptionEndDate  DateTime?
+
+  stripeCustomerId     String?  @unique
+  stripeSubscriptionId String?  @unique
+  trialEndsAt          DateTime?
+
+  // SumUp integration
+  sumupAccessToken    String?
+  sumupRefreshToken   String?
+  sumupMerchantCode   String?
+  sumupTokenExpiresAt DateTime?
+  sumupConnectedAt    DateTime?
+
+  sumupTransactions SumUpTransaction[]
 }
 
 enum SubscriptionTier {
@@ -78,6 +101,7 @@ enum SubscriptionTier {
 
 enum SubscriptionStatus {
   ACTIVE
+  TRIALING
   CANCELED
   PAST_DUE
 }
@@ -97,6 +121,11 @@ model Location {
   business   Business @relation(fields: [businessId], references: [id])
   products   Product[]
   dailySales DailySales[]
+  orders     Order[]
+  predictionSnapshots PredictionSnapshot[]
+  predictionAccuracy  PredictionAccuracy[]
+
+  @@index([businessId])
 }
 
 model Product {
@@ -118,6 +147,10 @@ model Product {
   wasteEvents WasteEvent[]
   recipeIngredients RecipeIngredient[]
   stockHistory StockHistory[]
+
+  @@index([locationId])
+  @@index([status])
+  @@index([expiryDate])
 }
 
 model WasteEvent {
@@ -128,6 +161,8 @@ model WasteEvent {
   
   productId String
   product   Product @relation(fields: [productId], references: [id])
+
+  @@index([productId])
 }
 
 model Recipe {
@@ -140,9 +175,15 @@ model Recipe {
 
   businessId String
   business   Business @relation(fields: [businessId], references: [id])
-  
+
   ingredients RecipeIngredient[]
   dailySales  DailySales[]
+  orderItems  OrderItem[]
+  predictionSnapshots PredictionSnapshot[]
+  predictionAccuracy  PredictionAccuracy[]
+  sumupTransactions   SumUpTransaction[]
+
+  @@index([businessId])
 }
 
 model RecipeIngredient {
@@ -152,9 +193,12 @@ model RecipeIngredient {
 
   recipeId  String
   recipe    Recipe @relation(fields: [recipeId], references: [id], onDelete: Cascade)
-  
+
   productId String
   product   Product @relation(fields: [productId], references: [id])
+
+  @@index([recipeId])
+  @@index([productId])
 }
 
 model DailySales {
@@ -171,6 +215,10 @@ model DailySales {
 
   locationId   String?
   location     Location? @relation(fields: [locationId], references: [id])
+
+  @@index([recipeId])
+  @@index([locationId])
+  @@index([date])
 }
 
 enum StockChangeType {
@@ -189,4 +237,131 @@ model StockHistory {
 
   productId String
   product   Product @relation(fields: [productId], references: [id])
+
+  @@index([productId])
+}
+
+model Order {
+  id           String      @id @default(cuid())
+  date         DateTime    @default(now())
+  totalRevenue Float?
+  
+  weatherSnapshot Json?
+  
+  locationId   String?
+  location     Location?   @relation(fields: [locationId], references: [id])
+  
+  businessId   String
+  business     Business    @relation(fields: [businessId], references: [id])
+
+  items        OrderItem[]
+
+  @@index([businessId])
+  @@index([locationId])
+  @@index([date])
+}
+
+model OrderItem {
+  id        String @id @default(cuid())
+  quantity  Int
+  unitPrice Float?
+  subtotal  Float?
+  
+  orderId   String
+  order     Order  @relation(fields: [orderId], references: [id], onDelete: Cascade)
+
+  recipeId  String
+  recipe    Recipe @relation(fields: [recipeId], references: [id])
+
+  @@index([orderId])
+  @@index([recipeId])
+}
+
+model PredictionSnapshot {
+  id                String   @id @default(cuid())
+  date              DateTime
+  createdAt         DateTime @default(now())
+
+  recipeId          String
+  recipe            Recipe   @relation(fields: [recipeId], references: [id])
+
+  locationId        String?
+  location          Location? @relation(fields: [locationId], references: [id])
+
+  businessId        String
+  business          Business @relation(fields: [businessId], references: [id])
+
+  predictedQuantity Int
+  trend             String   // 'UP' | 'DOWN' | 'STABLE'
+
+  weatherForecast   Json?
+  dayOfWeek         Int
+  algorithmVersion  String   @default("v1")
+
+  @@unique([date, recipeId, businessId, locationId])
+  @@index([businessId])
+  @@index([recipeId])
+  @@index([locationId])
+  @@index([date])
+}
+
+model SumUpTransaction {
+  id              String    @id @default(cuid())
+  sumupId         String    @unique
+  transactionCode String?
+  amount          Float
+  currency        String    @default("EUR")
+  timestamp       DateTime
+  status          String
+  paymentType     String?
+  productSummary  String?
+  products        Json?     // [{ name, quantity, price_per_unit, total_price }]
+
+  businessId      String
+  business        Business  @relation(fields: [businessId], references: [id])
+
+  matchedRecipeId String?
+  matchedRecipe   Recipe?   @relation(fields: [matchedRecipeId], references: [id])
+
+  createdAt       DateTime  @default(now())
+
+  @@index([businessId])
+  @@index([timestamp])
+  @@index([businessId, timestamp])
+}
+
+model PredictionAccuracy {
+  id                 String   @id @default(cuid())
+  date               DateTime
+  computedAt         DateTime @default(now())
+
+  recipeId           String
+  recipe             Recipe   @relation(fields: [recipeId], references: [id])
+
+  locationId         String?
+  location           Location? @relation(fields: [locationId], references: [id])
+
+  businessId         String
+  business           Business @relation(fields: [businessId], references: [id])
+
+  predictedQuantity  Int
+  actualQuantity     Int
+
+  deviation          Int
+  deviationPercent   Float
+  accuracyPercent    Float
+
+  errorTags          Json     // string[]
+
+  weatherPredicted   Json?
+  weatherActual      Json?
+  weatherDeltaTemp   Float?
+
+  snapshotId         String?
+
+  @@unique([date, recipeId, businessId, locationId])
+  @@index([businessId])
+  @@index([recipeId])
+  @@index([locationId])
+  @@index([date])
 }

@@ -6,30 +6,18 @@ import { MapPin } from 'lucide-react';
 
 const LocationsMap = dynamic(
   () => import('@/components/dashboard/LocationsMap'),
-  { 
+  {
     ssr: false,
     loading: () => (
-      <Card className="col-span-4 md:col-span-2 lg:col-span-2">
+      <Card className="dash-card">
         <CardHeader className="pb-2">
           <CardTitle className="flex items-center gap-2 text-base">
-            <MapPin className="h-5 w-5" />
-            Carte des emplacements
+            <MapPin className="h-5 w-5 text-blue-600" />
+            <div className="h-4 w-24 bg-gray-200 animate-pulse rounded" />
           </CardTitle>
         </CardHeader>
         <CardContent className="p-0">
-          <div 
-            style={{ 
-              height: '300px', 
-              width: '100%',
-              borderRadius: '0 0 0.5rem 0.5rem',
-              backgroundColor: '#f5f5f5',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center'
-            }}
-          >
-            <span style={{ color: '#888' }}>Chargement de la carte...</span>
-          </div>
+          <div className="h-[300px] w-full bg-gray-100 animate-pulse rounded-b-lg" />
         </CardContent>
       </Card>
     )

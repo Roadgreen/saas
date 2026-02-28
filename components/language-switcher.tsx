@@ -1,7 +1,7 @@
 'use client';
 
 import { useLocale } from 'next-intl';
-import { useRouter, usePathname } from 'next/navigation';
+import { useRouter, usePathname } from '@/i18n/routing';
 import { useState } from 'react';
 
 const languages = [
@@ -18,8 +18,7 @@ export function LanguageSwitcher() {
   const currentLang = languages.find((l) => l.code === locale) || languages[0];
 
   const switchLanguage = (newLocale: string) => {
-    const newPath = pathname.replace(`/${locale}`, `/${newLocale}`);
-    router.push(newPath);
+    router.replace(pathname, { locale: newLocale });
     setIsOpen(false);
   };
 
@@ -27,12 +26,12 @@ export function LanguageSwitcher() {
     <div className="relative">
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="flex items-center gap-2 px-2 sm:px-3 py-2 rounded-lg border border-gray-200 hover:border-gray-300 hover:bg-gray-50 transition-all duration-200 bg-white shadow-sm"
+        className="flex items-center gap-2 px-2 sm:px-3 py-2 rounded-lg border border-white/10 hover:border-white/20 hover:bg-white/10 transition-all duration-200 bg-white/5"
       >
         <span className="text-xl leading-none">{currentLang.flag}</span>
-        <span className="text-sm font-medium text-gray-700 hidden sm:inline">{currentLang.code.toUpperCase()}</span>
+        <span className="text-sm font-medium text-gray-300 hidden sm:inline">{currentLang.code.toUpperCase()}</span>
         <svg
-          className={`w-4 h-4 text-gray-500 transition-transform duration-200 ${isOpen ? 'rotate-180' : ''}`}
+          className={`w-4 h-4 text-gray-400 transition-transform duration-200 ${isOpen ? 'rotate-180' : ''}`}
           fill="none"
           stroke="currentColor"
           viewBox="0 0 24 24"

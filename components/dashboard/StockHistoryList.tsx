@@ -1,6 +1,6 @@
 'use client';
 
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table';
 import { History } from 'lucide-react';
@@ -17,8 +17,16 @@ interface StockHistoryListProps {
   history: StockHistoryItem[];
 }
 
+const typeStyles: Record<string, string> = {
+  MANUAL: 'bg-blue-100 text-blue-800',
+  SALES: 'bg-green-100 text-green-800',
+  WASTE: 'bg-orange-100 text-orange-800',
+  DELIVERY: 'bg-purple-100 text-purple-800',
+};
+
 export function StockHistoryList({ history }: StockHistoryListProps) {
   const t = useTranslations('Stock');
+  const locale = useLocale();
 
   return (
     <Card className="mt-6">
@@ -44,28 +52,30 @@ export function StockHistoryList({ history }: StockHistoryListProps) {
               </TableRow>
             </TableHeader>
             <TableBody>
-              {history.map((item) => (
-                <TableRow key={item.id}>
-                  <TableCell>
-                    {new Date(item.date).toLocaleDateString()} {new Date(item.date).toLocaleTimeString()}
-                  </TableCell>
-                  <TableCell>
-                    <span className={`px-2 py-1 rounded-full text-xs font-medium ${
-                      item.type === 'MANUAL' ? 'bg-blue-100 text-blue-800' :
-                      item.type === 'SALES' ? 'bg-green-100 text-green-800' :
-                      'bg-gray-100 text-gray-800'
-                    }`}>
-                      {item.type}
-                    </span>
-                  </TableCell>
-                  <TableCell className={item.quantity > 0 ? 'text-green-600' : 'text-red-600'}>
-                    {item.quantity > 0 ? '+' : ''}{item.quantity}
-                  </TableCell>
-                  <TableCell className="text-muted-foreground text-sm">
-                    {item.note || '-'}
-                  </TableCell>
-                </TableRow>
-              ))}
+              {history.map((item) => {
+                const d = new Date(item.date);
+                return (
+                  <TableRow key={item.id}>
+                    <TableCell>
+                      {d.toLocaleDateString(locale, { year: 'numeric', month: 'short', day: 'numeric' })}{' '}
+                      {d.toLocaleTimeString(locale, { hour: '2-digit', minute: '2-digit' })}
+                    </TableCell>
+                    <TableCell>
+                      <span className={`px-2 py-1 rounded-full text-xs font-medium ${
+                        typeStyles[item.type] || 'bg-gray-100 text-gray-800'
+                      }`}>
+                        {t(`type_${item.type}` as any)}
+                      </span>
+                    </TableCell>
+                    <TableCell className={item.quantity > 0 ? 'text-green-600 font-medium' : 'text-red-600 font-medium'}>
+                      {item.quantity > 0 ? '+' : ''}{item.quantity}
+                    </TableCell>
+                    <TableCell className="text-muted-foreground text-sm">
+                      {item.note || '-'}
+                    </TableCell>
+                  </TableRow>
+                );
+              })}
             </TableBody>
           </Table>
         )}

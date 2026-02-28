@@ -4,7 +4,70 @@
         "stock": "Stock",
         "recipes": "Recipes",
         "sales": "Sales",
-        "settings": "Settings"
+        "settings": "Settings",
+        "exportData": "Export Data",
+        "analytics": "Analytics",
+        "integrations": "Integrations",
+        "sumup": "SumUp"
+    },
+    "Analytics": {
+        "title": "Profitability Analytics",
+        "subtitle": "Track your revenue, costs and margins over time.",
+        "chartTitle": "30-Day Profitability",
+        "totalRevenue": "Total Revenue",
+        "totalCost": "Total Cost",
+        "totalMargin": "Total Margin",
+        "avgDailyMargin": "Avg. Daily Margin",
+        "marginRate": "margin rate",
+        "perDay": "per day (30d avg)",
+        "last30Days": "Last 30 days",
+        "revenue": "Revenue",
+        "cost": "Cost",
+        "margin": "Margin",
+        "noData": "No sales data for this period. Start recording orders to see your profitability chart.",
+        "upgradeTitle": "Unlock Profitability Analytics",
+        "upgradeDesc": "Visualize your revenue, costs and margins day by day. Available on Pro and Enterprise plans.",
+        "upgradeBtn": "Upgrade to Pro",
+        "profileIncomplete": "Please complete your business profile.",
+        "bestDay": "Best Day",
+        "worstDay": "Worst Day",
+        "bestDayLabel": "Highest margin",
+        "worstDayLabel": "Lowest margin",
+        "wasteChartTitle": "Daily Waste Cost",
+        "detailsTitle": "Daily Breakdown",
+        "detailDate": "Date",
+        "detailRevenue": "Revenue",
+        "detailCost": "Cost",
+        "detailMargin": "Margin",
+        "detailMarginPct": "Margin %",
+        "detailWaste": "Waste",
+        "noSales": "No sales",
+        "period": "Period",
+        "period7": "7 days",
+        "period14": "14 days",
+        "period30": "30 days",
+        "period90": "90 days",
+        "periodLabel": "Last {days} days",
+        "allLocations": "All locations",
+        "location": "Location",
+        "expirationSectionTitle": "Expiration & Waste Analysis",
+        "expirationSectionSubtitle": "Products expired with remaining stock and recorded waste.",
+        "expirationTotalExpired": "Expired Products",
+        "expirationTotalExpiredDesc": "with remaining stock",
+        "expirationTotalQtyLost": "Total Quantity Lost",
+        "expirationTotalQtyLostDesc": "all units combined",
+        "expirationTotalCostLost": "Total Financial Loss",
+        "expirationTotalCostLostDesc": "from expiration",
+        "expirationTableTitle": "Expiration Detail",
+        "expirationNoData": "No expired products in this period. Great work!",
+        "expirationProduct": "Product",
+        "expirationLocation": "Location",
+        "expirationExpiredOn": "Expired On",
+        "expirationRemainingQty": "Remaining (On Hand)",
+        "expirationHistoricalQty": "Logged as Waste",
+        "expirationTotalQty": "Total Lost",
+        "expirationCostPerUnit": "Cost / Unit",
+        "expirationTotalLoss": "Total Loss"
     },
     "Stock": {
         "adjust": "Adjust Stock",
@@ -19,7 +82,14 @@
         "save": "Save Adjustment",
         "history": "Movement History",
         "noHistory": "No history for this product.",
-        "date": "Date"
+        "date": "Date",
+        "currentStock": "Current stock",
+        "type_MANUAL": "Manual",
+        "type_SALES": "Sales",
+        "type_WASTE": "Waste",
+        "type_DELIVERY": "Delivery",
+        "adjustSuccess": "Stock adjusted successfully",
+        "adjustError": "Failed to adjust stock"
     },
     "Dashboard": {
         "title": "Dashboard",
@@ -51,25 +121,246 @@
         "highWasteDetail": "{rate}% waste",
         "expiryDetail": "Expires < {count}h",
         "forecastTitle": "Forecast for Tomorrow",
+        "forecastFor": "Forecast for {day}",
         "noDataPredictions": "Not enough data for predictions yet.",
         "predictedLabel": "Predicted: {count} units",
         "profileIncomplete": "Please complete your business profile.",
+        "dbUnavailable": "Database unavailable",
+        "dbUnavailableDesc": "The database server is unreachable. Make sure PostgreSQL is running.",
         "currentStock": "Current Stock",
         "expiringSoon": "Expiring Soon",
         "todaySales": "Today's Sales",
         "todayLosses": "Today's Losses",
-        "items": "items"
+        "items": "items",
+        "manageLocations": "Manage Locations",
+        "date": "Date",
+        "welcome": "Welcome",
+        "subtitle": "Here's what's happening with your food truck today.",
+        "accuracyBadge": "Accuracy: {percent}%",
+        "predictabilityScore": "Predictability Score",
+        "predictionAccuracy": "Prediction Accuracy",
+        "accuracyDescription": "How well your forecasts match actual sales.",
+        "predicted": "Predicted",
+        "actual": "Actual",
+        "accuracy": "Accuracy",
+        "deviation": "Deviation",
+        "noAccuracyData": "Not enough data yet. Accuracy tracking starts after your first full day.",
+        "improving": "Improving",
+        "declining": "Declining",
+        "stable": "Stable",
+        "errorInsights": "Error Insights",
+        "perRecipeAccuracy": "Per-Recipe Accuracy",
+        "dailyBreakdown": "Daily Breakdown",
+        "commonErrors": "Common Factors",
+        "selfImproving": "Self-improving: the system is adjusting based on this data.",
+        "weatherShiftTag": "Weather changed significantly",
+        "newLocationTag": "New or unfamiliar location",
+        "noSalesDayTag": "No sales recorded (truck closed?)",
+        "unusualVolumeTag": "Unusual sales volume",
+        "consistentOverTag": "Predictions tend to run high",
+        "consistentUnderTag": "Predictions tend to run low",
+        "upgradeAccuracy": "Unlock Prediction Accuracy",
+        "upgradeAccuracyDesc": "Track how accurate your forecasts are and watch them improve over time.",
+        "viewDetails": "View details",
+        "last7Days": "Last 7 days",
+        "last30Days": "Last 30 days",
+        "highPredictability": "Highly predictable",
+        "mediumPredictability": "Moderately predictable",
+        "lowPredictability": "Low predictability - more data needed",
+        "weatherAffected": "Weather changes affected {count} predictions this week",
+        "biasAdjusting": "{count} recipes have consistent bias - the system is adjusting",
+        "shortageCount": "{count, plural, one {# shortage} other {# shortages}}",
+        "shortageItem": "{product}: need {deficit} {unit} more",
+        "readinessTitle": "Stock Readiness",
+        "readinessSubtitle": "Based on forecast for {day}",
+        "readinessShort": "short",
+        "readinessTight": "tight",
+        "readinessAllGood": "All covered",
+        "readinessPredicted": "{count} predicted",
+        "readinessIngredients": "ingredients",
+        "readinessNeed": "Need:",
+        "readinessHave": "Have:"
     },
     "Landing": {
         "title": "Reduce waste, increase margin.",
         "subtitle": "The all-in-one tool for food trucks and dark kitchens.",
         "nav": {
             "features": "Features",
-            "testimonials": "Testimonials",
+            "howItWorks": "How it works",
             "pricing": "Pricing"
         },
         "getStarted": "Get Started",
-        "login": "Login"
+        "login": "Login",
+        "freeTrial": "Start free trial",
+        "userMenu": {
+            "dashboard": "Dashboard",
+            "settings": "Account settings",
+            "signOut": "Sign out"
+        },
+        "badge": "Built for food trucks",
+        "hero": {
+            "title": "Know exactly what to prep. Before you start.",
+            "subtitle": "AI-powered predictions tell you how many crêpes, tacos or sandwiches to prepare — adjusted for location and day of the week.",
+            "ctaPrimary": "Try free for 14 days",
+            "ctaSecondary": "See how it works",
+            "noCreditCard": "No credit card required",
+            "freeToStart": "100% free to start",
+            "accuracyStat": "87%",
+            "accuracyLabel": "forecast accuracy",
+            "timeStat": "5h",
+            "timeLabel": "saved per week"
+        },
+        "problem": {
+            "title": "Sound familiar?",
+            "subtitle": "Every food truck owner faces the same daily challenges.",
+            "guessTitle": "How much to prep?",
+            "guessDesc": "Every morning you guess how many portions to make. Too many = waste. Too few = lost sales.",
+            "spotTitle": "Every spot, different customers",
+            "spotDesc": "Saturday at the market and Tuesday downtown are not the same crowd. But you prepare the same way.",
+            "shortageTitle": "Running out mid-service",
+            "shortageDesc": "30 orders in and you realise you're out of flour. Too late to fix.",
+            "photoQuote": "Every morning, the same question:",
+            "photoAnswer": "\"How much should I prep today?\""
+        },
+        "howItWorks": {
+            "title": "How it works",
+            "subtitle": "Get started in 3 simple steps.",
+            "step1Title": "Create your account",
+            "step1Desc": "Sign up in 30 seconds, no credit card needed.",
+            "step2Title": "Add your products & recipes",
+            "step2Desc": "Scan invoices with AI or add manually. Set up your recipes and selling prices.",
+            "step3Title": "Get predictions & track margins",
+            "step3Desc": "Every day, see exactly what to prep, what's running low, and your real margins."
+        },
+        "predictions": {
+            "title": "AI that learns your sales patterns",
+            "subtitle": "FoodTracks analyses your past sales, day of the week, and location to predict exactly what you'll sell tomorrow.",
+            "bullet1": "Weighted by recency — recent weeks matter more",
+            "bullet2": "Adjusted for each selling spot",
+            "bullet3": "Ignores closed days automatically",
+            "bullet4": "Gets smarter with every service",
+            "mockTitle": "Forecast for Saturday",
+            "mockAccuracy": "Accuracy: 89%",
+            "mockItem1": "Crêpe beurre-sucre",
+            "mockItem2": "Galette complète",
+            "mockItem3": "Crêpe Nutella",
+            "mockItem4": "Galette chèvre-miel",
+            "mockTrend": "trending up"
+        },
+        "readiness": {
+            "title": "Know if you have enough stock before you start",
+            "subtitle": "FoodTracks cross-references predictions with your inventory. Instantly see what's covered and what's short.",
+            "coveredTitle": "Covered",
+            "coveredDesc": "4.2 kg in stock, 3.1 kg needed",
+            "coveredLabel": "Flour",
+            "tightTitle": "Tight",
+            "tightDesc": "0.8 kg in stock, 0.9 kg needed",
+            "tightLabel": "Butter",
+            "shortTitle": "Short",
+            "shortDesc": "0.4 kg in stock, 1.1 kg needed",
+            "shortLabel": "Gruyère"
+        },
+        "features": {
+            "title": "Everything you need to run your truck",
+            "subtitle": "From inventory to margins to multi-spot planning.",
+            "mobileTitle": "Mobile inventory",
+            "mobileDesc": "Scan invoices with AI, track stock in real-time, works offline.",
+            "marginTitle": "Margins & recipes",
+            "marginDesc": "Know the exact cost per dish, margin %, and which recipes are profitable.",
+            "multiSpotTitle": "Multi-spot planning",
+            "multiSpotDesc": "Assign locations to days, track GPS, compare performance by spot."
+        },
+        "stats": {
+            "products": "500+",
+            "productsLabel": "Products tracked",
+            "setup": "2 min",
+            "setupLabel": "Average setup time",
+            "free": "100%",
+            "freeLabel": "Free to start",
+            "wasteLabel": "Less food waste"
+        },
+        "pricing": {
+            "title": "Start for free, upgrade when ready",
+            "subtitle": "No credit card required. Cancel anytime.",
+            "perMonth": "/mo",
+            "ctaFree": "Get started",
+            "ctaPro": "Start free trial",
+            "disclaimer": "14-day free trial on Pro. No credit card required."
+        },
+        "faq": {
+            "title": "Frequently Asked Questions",
+            "q1": {
+                "question": "Is there a free plan?",
+                "answer": "Yes, FoodTracks is free to start with 1 location and basic features. Upgrade to Pro (€29/mo) when you need advanced analytics and AI features."
+            },
+            "q2": {
+                "question": "Do I need to install anything?",
+                "answer": "No, FoodTracks is a web app that works on any device — phone, tablet, or computer. No download needed."
+            },
+            "q3": {
+                "question": "How do AI predictions work?",
+                "answer": "FoodTracks analyses your past sales by day of week and location. The more data you add, the more accurate predictions become."
+            },
+            "q4": {
+                "question": "Can I manage multiple locations?",
+                "answer": "Yes, Pro plan supports unlimited locations. You can assign spots to days and compare performance across locations."
+            },
+            "q5": {
+                "question": "Is my data secure?",
+                "answer": "Your data is encrypted and hosted on European servers. We never share your data with third parties."
+            },
+            "q6": {
+                "question": "Can I cancel anytime?",
+                "answer": "Yes, no commitment. Cancel from your settings at any time. Your data stays available for 30 days after cancellation."
+            },
+            "q7": {
+                "question": "Does FoodTracks work with SumUp?",
+                "answer": "Yes! FoodTracks integrates directly with SumUp via OAuth. Your transactions are automatically imported, recipes matched, and stock deducted. Connect your SumUp terminal in seconds from Settings → Integrations."
+            }
+        },
+        "cta": {
+            "title": "Stop guessing. Start knowing.",
+            "subtitle": "Join food truck owners who prepare the right amount, every day.",
+            "button": "Start now"
+        },
+        "footer": {
+            "tagline": "The stock management tool designed for independent restaurateurs.",
+            "product": "Product",
+            "resources": "Resources",
+            "legal": "Legal",
+            "features": "Features",
+            "pricing": "Pricing",
+            "security": "Security",
+            "blog": "Blog",
+            "guides": "Guides",
+            "support": "Support",
+            "mentions": "Legal Notice",
+            "privacy": "Privacy",
+            "terms": "Terms",
+            "copyright": "© {year} FoodTracks. All rights reserved."
+        },
+        "integrations": {
+            "title": "Works with your tools",
+            "sumup": "SumUp",
+            "pos": "Touch POS",
+            "tpe": "Mobile POS",
+            "pdf": "PDF Invoices"
+        },
+        "sumupSection": {
+            "title": "Your SumUp payments, inside FoodTracks",
+            "subtitle": "Connect your SumUp terminal and sync transactions automatically — recipes matched, stock deducted in real time.",
+            "bullet1": "Automatic SumUp transaction sync",
+            "bullet2": "Smart recipe ↔ product matching",
+            "bullet3": "SumUp vs manual sales comparison",
+            "bullet4": "Real-time revenue statistics",
+            "badge": "Official integration",
+            "mockTitle": "SumUp Revenue",
+            "mockSub": "Last 30 days",
+            "mockAmount": "€2,324.50",
+            "mockTx": "163 transactions",
+            "mockMatch": "163/163 recipes matched",
+            "cta": "Connect SumUp"
+        }
     },
     "Recipes": {
         "title": "Recipes",
@@ -81,6 +372,9 @@
         "cost": "Cost",
         "margin": "Margin",
         "ingredients": "Ingredients",
+        "product": "Product",
+        "quantity": "Quantity",
+        "unit": "Unit",
         "addIngredient": "Add Ingredient",
         "save": "Save Recipe",
         "profitability": "Profitability",
@@ -88,6 +382,7 @@
         "cancel": "Cancel",
         "noRecipes": "No recipes found. Create your first one!",
         "search": "Search recipes...",
+        "profileIncomplete": "Please complete your business profile.",
         "table": {
             "name": "Name",
             "ingredients": "Ingredients",
@@ -98,11 +393,17 @@
     "QuickSales": {
         "title": "Quick Add",
         "added": "Added +1 {name}",
-        "error": "Failed to add sale"
+        "error": "Failed to add sale",
+        "cart": "Cart",
+        "validate": "Validate Order",
+        "clear": "Clear",
+        "items": "{count} items",
+        "orderSaved": "Order saved!"
     },
     "Pricing": {
         "title": "Simple Pricing",
         "subtitle": "Choose the plan that fits your business.",
+        "popular": "Popular",
         "free": {
             "title": "Free",
             "description": "Perfect for getting started",
@@ -141,11 +442,17 @@
         "contact": "Contact Sales",
         "currentPlan": "Current Plan"
     },
+    "AIScanner": {
+        "upgradeTitle": "Unlock AI Scanner",
+        "upgradeDesc": "Scan invoices, recipes & sales sheets with AI. Available on Pro and Enterprise plans.",
+        "upgradeBtn": "Upgrade to Pro"
+    },
     "SmartAlerts": {
         "title": "Smart Anti-Waste (AI-Lite)",
         "upgradeTitle": "Unlock Smart Alerts",
         "upgradeDesc": "Get automatic waste risk detection and recommendations.",
         "upgradeBtn": "Upgrade to Pro",
+        "noRisks": "No risks detected. Great job!",
         "risk": "Risk",
         "recommendation": "Recommendation",
         "highWaste": "High Waste Rate",
@@ -163,13 +470,32 @@
         "save": "Record Sale",
         "cancel": "Cancel",
         "noSales": "No sales recorded yet.",
+        "edit": "Edit",
+        "editSale": "Edit Sale",
+        "editDescription": "Update the details of this sale.",
         "table": {
             "date": "Date",
+            "items": "Items",
             "recipe": "Recipe",
             "location": "Location",
-            "quantity": "Quantity",
-            "revenue": "Revenue"
+            "quantity": "Qty",
+            "revenue": "Revenue",
+            "actions": "Actions"
         },
+        "stats": {
+            "today": "Today's Sales",
+            "week": "This Week",
+            "topProduct": "Top Product",
+            "recipes": "Recipes",
+            "unitsSold": "units sold",
+            "bestSeller": "best seller",
+            "activeRecipes": "active recipes"
+        },
+        "orderDetails": "Order Details",
+        "profileIncomplete": "Please complete your business profile.",
+        "hintPaper": "Paper",
+        "hintTally": "Tally",
+        "hintScreen": "Screen",
         "description": "Record sales to automatically update your stock levels.",
         "selectRecipe": "Select recipe",
         "selectLocation": "Select location",
@@ -192,101 +518,161 @@
         "savedToSystem": "Saved",
         "saving": "Saving...",
         "saveAll": "Save All Matched",
-        "scanAnother": "Scan Another"
+        "scanAnother": "Scan Another",
+        "filters": {
+            "title": "Filters",
+            "dateFrom": "From",
+            "dateTo": "To",
+            "recipe": "Recipe",
+            "location": "Location",
+            "all": "All",
+            "clearFilters": "Clear",
+            "items": "{count} items",
+            "results": "{count} of {total} results",
+            "noResults": "No results with these filters."
+        }
     },
     "Settings": {
-        "title": "Paramètres",
-        "description": "Gérez les préférences de votre établissement et de votre compte.",
+        "title": "Settings",
+        "description": "Manage your business preferences and account settings.",
         "tabs": {
-            "profile": "Profil",
-            "operations": "Opérations",
-            "team": "Équipe",
+            "profile": "Profile",
+            "operations": "Operations",
+            "team": "Team",
             "configuration": "Config",
-            "intelligence": "Intelligence"
+            "intelligence": "Intelligence",
+            "integrations": "Integrations"
         },
-        "save": "Enregistrer les modifications",
-        "invite": "Inviter un membre",
-        "edit": "Modifier",
+        "integrations": {
+            "title": "Integrations",
+            "description": "Connect third-party services to enrich your analytics."
+        },
+        "save": "Save Changes",
+        "invite": "Invite Member",
+        "edit": "Edit",
         "Profile": {
             "identity": {
-                "title": "Identité de l'établissement",
-                "description": "Les informations visibles sur vos documents et votre page publique.",
-                "name": "Nom de l'établissement",
+                "title": "Business Identity",
+                "description": "Information visible on your documents and public page.",
+                "name": "Business Name",
                 "logo": "Logo",
-                "color": "Couleur de marque"
+                "color": "Brand Color"
             },
             "contact": {
-                "title": "Coordonnées",
-                "description": "Pour que vos clients puissent vous contacter.",
-                "address": "Adresse principale",
-                "phone": "Téléphone",
-                "email": "Email public"
+                "title": "Contact Details",
+                "description": "So your customers can reach you.",
+                "address": "Main Address",
+                "phone": "Phone",
+                "email": "Public Email"
             },
             "socials": {
-                "title": "Réseaux sociaux",
-                "description": "Liens vers vos profils sociaux.",
-                "website": "Site web"
+                "title": "Social Media",
+                "description": "Links to your social profiles.",
+                "website": "Website"
             }
         },
         "Operations": {
             "hours": {
-                "title": "Horaires d'ouverture",
-                "description": "Définissez vos horaires d'ouverture habituels.",
-                "closed": "Fermé"
+                "title": "Opening Hours",
+                "description": "Set your regular opening hours and assign a location to each day.",
+                "closed": "Closed",
+                "noLocation": "No location",
+                "saved": "Schedule saved"
             },
             "days": {
-                "monday": "Lundi",
-                "tuesday": "Mardi",
-                "wednesday": "Mercredi",
-                "thursday": "Jeudi",
-                "friday": "Vendredi",
-                "saturday": "Samedi",
-                "sunday": "Dimanche"
+                "monday": "Monday",
+                "tuesday": "Tuesday",
+                "wednesday": "Wednesday",
+                "thursday": "Thursday",
+                "friday": "Friday",
+                "saturday": "Saturday",
+                "sunday": "Sunday"
             },
             "locations": {
-                "title": "Emplacements récurrents",
-                "description": "Gérez vos lieux de vente (marchés, spots food truck).",
-                "placeholder": "Aucun emplacement configuré",
-                "add": "Ajouter un emplacement",
+                "title": "Regular Locations",
+                "description": "Manage your selling spots (markets, food truck spots).",
+                "placeholder": "No locations configured",
+                "add": "Add Location",
+                "addDesc": "Save your current position as a selling location.",
+                "nameLabel": "Location name",
+                "namePlaceholder": "e.g. Saturday Market",
+                "positionFound": "Position found!",
+                "iAmHere": "I'm here",
+                "saveLocation": "Save this location",
                 "confirmDelete": "Are you sure you want to delete this location?"
             }
         },
         "Team": {
-            "title": "Membres de l'équipe",
-            "description": "Gérez les accès et les rôles de vos collaborateurs."
+            "title": "Team Members",
+            "description": "Manage access and roles for your collaborators.",
+            "premiumFeature": "Premium Feature",
+            "upgradePrompt": "Invite unlimited members with the Pro plan.",
+            "upgradeBtn": "Upgrade to Pro"
         },
         "Configuration": {
             "stock": {
-                "title": "Gestion du stock",
-                "description": "Règles d'alerte et de décrémentation.",
-                "alerts": "Alertes de stock bas",
-                "alertsDesc": "Recevoir une notification quand un produit atteint le seuil critique.",
-                "autoDeduct": "Décrémentation automatique",
-                "autoDeductDesc": "Retirer les ingrédients du stock à chaque vente enregistrée."
+                "title": "Stock Management",
+                "description": "Alert and deduction rules.",
+                "alerts": "Low Stock Alerts",
+                "alertsDesc": "Receive a notification when a product reaches its critical threshold.",
+                "autoDeduct": "Automatic Deduction",
+                "autoDeductDesc": "Remove ingredients from stock each time a sale is recorded."
             },
             "finance": {
                 "title": "Finance & Taxes",
-                "description": "Paramètres de facturation et de devise.",
-                "currency": "Devise principale",
-                "vat": "Taux de TVA par défaut"
+                "description": "Billing and currency settings.",
+                "currency": "Primary Currency",
+                "vat": "Default VAT Rate"
             }
         },
         "Intelligence": {
             "ai": {
-                "title": "Assistant IA",
-                "description": "Configurez comment l'IA vous aide au quotidien.",
-                "suggestions": "Suggestions proactives",
-                "suggestionsDesc": "L'IA vous suggère des actions (commandes, promos) basées sur vos données.",
-                "menuGen": "Génération de menu",
-                "menuGenDesc": "Autoriser l'IA à proposer des menus du jour selon le stock."
+                "title": "AI Assistant",
+                "description": "Configure how AI helps you daily.",
+                "suggestions": "Proactive Suggestions",
+                "suggestionsDesc": "AI suggests actions (orders, promos) based on your data.",
+                "menuGen": "Menu Generation",
+                "menuGenDesc": "Allow AI to suggest daily menus based on stock."
             },
             "goals": {
-                "title": "Objectifs",
-                "description": "Définissez vos cibles pour le suivi de performance.",
-                "margin": "Marge cible (%)",
-                "waste": "Limite de gaspillage (%)"
+                "title": "Goals",
+                "description": "Set your targets for performance tracking.",
+                "margin": "Target Margin (%)",
+                "waste": "Waste Limit (%)"
             }
         }
+    },
+    "Location": {
+        "detecting": "Detecting...",
+        "unknown": "Unknown position",
+        "error": "GPS unavailable",
+        "refresh": "Refresh location",
+        "unknownLocation": "Unknown location",
+        "detectedAt": "You're at {name}",
+        "noGPS": "GPS unavailable",
+        "manualSelect": "Select manually",
+        "switchToGPS": "Switch to GPS",
+        "manualMode": "Manual",
+        "gpsMode": "GPS",
+        "selectLocation": "Choose location...",
+        "refreshLocation": "Refresh",
+        "performanceTitle": "Location Performance",
+        "bestSpot": "Best spot",
+        "avgRevenue": "Avg. daily revenue",
+        "activeDays": "{count} active days",
+        "noLocationData": "Not enough location data yet.",
+        "upgradeTitle": "Unlock Location Analytics",
+        "upgradeDesc": "Compare performance across your selling spots.",
+        "upgradeBtn": "Upgrade to Pro",
+        "totalRevenue": "Total Revenue",
+        "salesDays": "Sales Days",
+        "topRecipesLabel": "Top recipes"
+    },
+    "LocationsMap": {
+        "title": "Locations Map",
+        "noLocations": "No locations registered",
+        "addFirst": "Add my first location",
+        "loading": "Loading map..."
     },
     "Products": {
         "inventory": "Inventory",
@@ -301,11 +687,19 @@
         "loading": "Loading...",
         "noProducts": "No products found. Add some inventory!",
         "deleteConfirm": "Are you sure you want to delete this product?",
+        "deleteSuccess": "{name} deleted",
+        "deleteError": "Failed to delete product",
         "image": "Image",
         "name": "Name",
+        "category": "Category",
+        "costPerUnit": "Cost / Unit",
+        "noCostSet": "Not set",
         "quantity": "Quantity",
         "expiryDate": "Expiry Date",
         "status": "Status",
+        "status_OK": "OK",
+        "status_NEAR_EXPIRY": "Expiring soon",
+        "status_EXPIRED": "Expired",
         "actions": "Actions",
         "edit": "Edit",
         "form": {
@@ -316,6 +710,10 @@
             "unit": "Unit",
             "selectUnit": "Select unit",
             "expiryDate": "Expiry Date",
+            "category": "Category",
+            "categoryPlaceholder": "e.g. Dairy, Meat...",
+            "costPerUnit": "Cost per unit",
+            "costPerUnitPlaceholder": "0.00",
             "saving": "Saving...",
             "cancel": "Cancel",
             "validation": {
@@ -337,6 +735,79 @@
         "imageUpload": {
             "addPhoto": "Add Photo",
             "takePhoto": "Take/Upload"
-        }
+        },
+        "search": "Search products...",
+        "filters": {
+            "allStatuses": "All statuses",
+            "allCategories": "All categories",
+            "allLocations": "All locations",
+            "clear": "Clear filters",
+            "results": "{count} of {total} products"
+        },
+        "sort": {
+            "name": "Sort by name",
+            "quantity": "Sort by quantity",
+            "cost": "Sort by cost",
+            "expiry": "Sort by expiry",
+            "status": "Sort by status"
+        },
+        "stats": {
+            "totalValue": "Total Inventory Value",
+            "totalProducts": "Total Products",
+            "categories": "Categories",
+            "lowStock": "Low Stock",
+            "items": "items",
+            "noCategory": "Uncategorized"
+        },
+        "lowStock": "Low stock",
+        "lowStockInsufficient": "Won't last tomorrow",
+        "lowStockTight": "Tight stock",
+        "demandBased": "Based on predictions",
+        "predictedDemand": "Predicted need: {amount} {unit}",
+        "coverageDays": "Covers {days} days",
+        "noPredictions": "No prediction data",
+        "topConsumers": "Main recipes: {recipes}"
+    },
+    "SumUp": {
+        "connected": "Connected",
+        "notConnected": "Not connected",
+        "description": "Sync your daily SumUp revenue and match payments with recipes.",
+        "connectBtn": "Connect SumUp",
+        "connectSuccess": "SumUp connected successfully! You can now sync your transactions.",
+        "connectError": "Connection error",
+        "disconnected": "SumUp disconnected.",
+        "disconnectError": "Failed to disconnect.",
+        "disconnectConfirm": "Are you sure you want to disconnect SumUp? Your synced transaction history will be kept.",
+        "merchantCode": "Merchant Code",
+        "connectedSince": "Connected since",
+        "featureDaily": "Daily revenue from SumUp, day by day",
+        "featureMatch": "Automatic matching of payments with your recipes",
+        "featureHistory": "Up to 90 days of transaction history",
+        "syncNow": "Sync now (30 days)",
+        "syncing": "Syncing…",
+        "syncSuccess": "{synced} transactions synced, {matched} matched to recipes.",
+        "syncError": "Sync failed.",
+        "oauthNote": "You'll be redirected to SumUp to authorize access.",
+        "widgetTitle": "SumUp Revenue",
+        "widgetDesc": "Daily revenue from your SumUp terminal",
+        "connectPrompt": "Connect your SumUp account to compare terminal revenue with your recorded sales.",
+        "lastSync": "Updated at {time}",
+        "kpiSumUp": "SumUp Revenue",
+        "kpiInternal": "Internal Revenue",
+        "kpiGap": "Gap",
+        "transactions": "transactions",
+        "recorded": "recorded sales",
+        "gapWarning": "{amount} in SumUp not recorded in FoodTracks",
+        "gapOk": "{amount} extra recorded vs SumUp",
+        "chartLabel": "SumUp vs Internal sales (last {days} days)",
+        "internalSales": "Internal sales",
+        "noTransactions": "No SumUp transactions for this period.",
+        "noData": "No data available.",
+        "chooseMerchant": "Choose which SumUp merchant account to connect:",
+        "chooseMerchantBadge": "Choose merchant",
+        "loadingMerchants": "Loading merchants…",
+        "noMerchants": "No merchants found on this account.",
+        "merchantSelected": "Merchant selected successfully!",
+        "changeMerchant": "Change merchant"
     }
 }

@@ -1,19 +1,27 @@
 import { NextResponse } from 'next/server';
-import { PrismaClient } from '@prisma/client';
+import { prisma } from '@/lib/prisma';
 import bcrypt from 'bcryptjs';
 import { z } from 'zod';
 import { trackEvent } from '@/lib/tracking';
-
-const prisma = new PrismaClient();
+import { rateLimit, getClientIp } from '@/lib/rate-limit';
+import { sendVerificationEmail } from '@/lib/resend';
 
 const RegisterSchema = z.object({
     email: z.string().email(),
-    password: z.string().min(6),
+    password: z.string().min(8),
     name: z.string().min(2),
     businessName: z.string().min(2),
 });
 
 export async function POST(req: Request) {
+    const { limited, retryAfter } = rateLimit(`register:${getClientIp(req)}`, { window: 60_000, max: 5 });
+    if (limited) {
+        return NextResponse.json(
+            { error: 'Too many requests. Please try again later.' },
+            { status: 429, headers: { 'Retry-After': String(retryAfter) } }
+        );
+    }
+
     try {
         const body = await req.json();
         const { email, password, name, businessName } = RegisterSchema.parse(body);
@@ -30,6 +38,13 @@ export async function POST(req: Request) {
         }
 
         const hashedPassword = await bcrypt.hash(password, 10);
+
+        // Generate a secure verification token (32 random bytes → hex string)
+        const verificationToken = Array.from(
+            crypto.getRandomValues(new Uint8Array(32))
+        ).map(b => b.toString(16).padStart(2, '0')).join('');
+
+        const verificationTokenExpiry = new Date(Date.now() + 24 * 60 * 60 * 1000); // 24h
 
         // Transaction to create Business and User
         const result = await prisma.$transaction(async (tx) => {
@@ -51,13 +66,32 @@ export async function POST(req: Request) {
                     name,
                     role: 'OWNER',
                     businessId: business.id,
+                    verificationToken,
+                    verificationTokenExpiry,
                 },
             });
 
             return { user, business };
         });
 
-        // Fire and forget tracking
+        // Send verification email (fire and forget — never block registration)
+        const appUrl =
+            process.env.NEXTAUTH_URL ??
+            (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : 'http://localhost:3000');
+
+        setImmediate(async () => {
+            try {
+                await sendVerificationEmail({
+                    to: email,
+                    name,
+                    verificationUrl: `${appUrl}/api/auth/verify-email?token=${verificationToken}`,
+                });
+            } catch (err) {
+                console.error('[register] Failed to send verification email:', err);
+            }
+        });
+
+        // Fire and forget analytics
         trackEvent('USER_REGISTERED', {
             userId: result.user.id,
             businessId: result.business.id,

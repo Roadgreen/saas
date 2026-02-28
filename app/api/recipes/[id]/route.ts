@@ -1,9 +1,7 @@
 import { NextResponse } from 'next/server';
 import { auth } from '@/auth';
-import { PrismaClient } from '@prisma/client';
+import { prisma } from '@/lib/prisma';
 import { z } from 'zod';
-
-const prisma = new PrismaClient();
 
 const RecipeUpdateSchema = z.object({
     name: z.string().min(1).optional(),
@@ -23,6 +21,16 @@ export async function GET(req: Request, { params }: { params: Promise<{ id: stri
 
     const { id } = await params;
 
+    // Get user's business for ownership verification
+    const user = await prisma.user.findUnique({
+        where: { email: session.user.email },
+        include: { business: true },
+    });
+
+    if (!user?.business) {
+        return NextResponse.json({ error: 'Business not found' }, { status: 404 });
+    }
+
     const recipe = await prisma.recipe.findUnique({
         where: { id },
         include: {
@@ -36,6 +44,11 @@ export async function GET(req: Request, { params }: { params: Promise<{ id: stri
         return NextResponse.json({ error: 'Recipe not found' }, { status: 404 });
     }
 
+    // Verify ownership
+    if (recipe.businessId !== user.business.id) {
+        return NextResponse.json({ error: 'Forbidden' }, { status: 403 });
+    }
+
     return NextResponse.json(recipe);
 }
 
@@ -47,9 +60,49 @@ export async function PATCH(req: Request, { params }: { params: Promise<{ id: st
 
     const { id } = await params;
 
+    // Get user's business for ownership verification
+    const user = await prisma.user.findUnique({
+        where: { email: session.user.email },
+        include: { business: true },
+    });
+
+    if (!user?.business) {
+        return NextResponse.json({ error: 'Business not found' }, { status: 404 });
+    }
+
+    // Verify recipe ownership
+    const existingRecipe = await prisma.recipe.findUnique({
+        where: { id },
+        select: { businessId: true },
+    });
+
+    if (!existingRecipe) {
+        return NextResponse.json({ error: 'Recipe not found' }, { status: 404 });
+    }
+
+    if (existingRecipe.businessId !== user.business.id) {
+        return NextResponse.json({ error: 'Forbidden' }, { status: 403 });
+    }
+
     try {
         const body = await req.json();
         const { name, description, ingredients } = RecipeUpdateSchema.parse(body);
+
+        // If ingredients are provided, verify all productIds belong to the user's business
+        if (ingredients && ingredients.length > 0) {
+            const productIds = ingredients.map((ing) => ing.productId);
+            const products = await prisma.product.findMany({
+                where: { id: { in: productIds } },
+                include: { location: { select: { businessId: true } } },
+            });
+
+            const allOwned = products.length === productIds.length &&
+                products.every((p) => p.location.businessId === user.business!.id);
+
+            if (!allOwned) {
+                return NextResponse.json({ error: 'Forbidden' }, { status: 403 });
+            }
+        }
 
         // Transaction to update recipe and ingredients
         const recipe = await prisma.$transaction(async (tx) => {
@@ -98,6 +151,30 @@ export async function DELETE(req: Request, { params }: { params: Promise<{ id: s
     }
 
     const { id } = await params;
+
+    // Get user's business for ownership verification
+    const user = await prisma.user.findUnique({
+        where: { email: session.user.email },
+        include: { business: true },
+    });
+
+    if (!user?.business) {
+        return NextResponse.json({ error: 'Business not found' }, { status: 404 });
+    }
+
+    // Verify recipe ownership
+    const existingRecipe = await prisma.recipe.findUnique({
+        where: { id },
+        select: { businessId: true },
+    });
+
+    if (!existingRecipe) {
+        return NextResponse.json({ error: 'Recipe not found' }, { status: 404 });
+    }
+
+    if (existingRecipe.businessId !== user.business.id) {
+        return NextResponse.json({ error: 'Forbidden' }, { status: 403 });
+    }
 
     try {
         await prisma.recipe.delete({

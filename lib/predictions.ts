@@ -1,15 +1,91 @@
-import { PrismaClient } from '@prisma/client';
+import { prisma } from '@/lib/prisma';
+import { Prisma } from '@prisma/client';
+import { getClosedDayIndices, type WeekSchedule } from './schedule';
 
-const prisma = new PrismaClient();
-
-interface PredictionItem {
+export interface PredictionItem {
     recipeId: string;
     recipeName: string;
     predictedQuantity: number;
     trend: 'UP' | 'DOWN' | 'STABLE';
 }
 
-export async function getSalesForecast(businessId: string, date: Date = new Date()): Promise<PredictionItem[]> {
+async function applyBiasCorrection(recipeId: string, businessId: string, baseline: number): Promise<number> {
+    const recentAccuracy = await prisma.predictionAccuracy.findMany({
+        where: { recipeId, businessId },
+        orderBy: { date: 'desc' },
+        take: 4,
+    });
+    if (recentAccuracy.length < 2) return baseline;
+
+    const avgDeviationPercent = recentAccuracy.reduce(
+        (sum: number, r: any) => sum + r.deviationPercent, 0
+    ) / recentAccuracy.length;
+
+    // Dampening factor of 0.5 to avoid oscillation
+    const correctionFactor = 1 + (avgDeviationPercent / 100) * 0.5;
+    return Math.max(1, Math.round(baseline * correctionFactor));
+}
+
+async function applyWeatherAdjustment(
+    recipeId: string, businessId: string, baseline: number,
+    weather: { temp: number; condition: string } | undefined
+): Promise<number> {
+    if (!weather) return baseline;
+
+    // Fetch historical sales with weather data
+    const historicalSales = await prisma.dailySales.findMany({
+        where: {
+            recipeId,
+            recipe: { businessId },
+            weatherSnapshot: { not: Prisma.JsonNull },
+        },
+        orderBy: { date: 'desc' },
+        take: 50,
+    });
+
+    if (historicalSales.length < 10) return baseline;
+
+    const badConditions = ['Rain', 'Snow', 'Thunderstorm', 'Drizzle'];
+    const goodWeatherSales: number[] = [];
+    const badWeatherSales: number[] = [];
+
+    historicalSales.forEach((sale: any) => {
+        const w = sale.weatherSnapshot as any;
+        if (!w?.condition) return;
+        if (badConditions.includes(w.condition)) {
+            badWeatherSales.push(sale.quantity);
+        } else {
+            goodWeatherSales.push(sale.quantity);
+        }
+    });
+
+    if (goodWeatherSales.length < 3 || badWeatherSales.length < 3) return baseline;
+
+    const avgGood = goodWeatherSales.reduce((a, b) => a + b, 0) / goodWeatherSales.length;
+    const avgBad = badWeatherSales.reduce((a, b) => a + b, 0) / badWeatherSales.length;
+    const weatherRatio = avgGood > 0 ? avgBad / avgGood : 1;
+
+    const isBadWeather = badConditions.includes(weather.condition);
+    if (isBadWeather && weatherRatio < 0.95) {
+        return Math.max(1, Math.round(baseline * weatherRatio));
+    }
+
+    if (weather.temp < 5 || weather.temp > 35) {
+        return Math.max(1, Math.round(baseline * 0.85));
+    }
+
+    return baseline;
+}
+
+export async function getSalesForecast(
+    businessId: string,
+    date: Date = new Date(),
+    options?: {
+        locationId?: string;
+        weather?: { temp: number; condition: string };
+        openingHours?: WeekSchedule | null;
+    }
+): Promise<PredictionItem[]> {
     // 1. Determine day of week (0-6)
     const dayOfWeek = date.getDay();
 
@@ -25,47 +101,23 @@ export async function getSalesForecast(businessId: string, date: Date = new Date
                 gte: startDate,
                 lt: date,
             },
+            ...(options?.locationId ? { locationId: options.locationId } : {}),
         },
         include: { recipe: true },
     });
 
-    // Filter for the same day of week
+    // Filter for the same day of week, excluding sales from days now marked as closed
+    const closedDays = getClosedDayIndices(options?.openingHours ?? null);
     const sameDaySales = salesHistory.filter((sale: any) => {
-        return new Date(sale.date).getDay() === dayOfWeek;
+        const saleDate = new Date(sale.date);
+        if (closedDays.has(saleDate.getDay())) return false;
+        return saleDate.getDay() === dayOfWeek;
     });
 
-    // 3. Group by recipe
-    const salesByRecipe: Record<string, { name: string, quantities: number[] }> = {};
-
-    sameDaySales.forEach((sale: any) => {
-        if (!salesByRecipe[sale.recipeId]) {
-            salesByRecipe[sale.recipeId] = {
-                name: sale.recipe.name,
-                quantities: [],
-            };
-        }
-        // We might have multiple entries for the same day (e.g. different locations), sum them up?
-        // For simplicity, let's just push them all for now, assuming one entry per recipe per day per location.
-        // Ideally we should group by date first, then by recipe.
-        salesByRecipe[sale.recipeId].quantities.push(sale.quantity);
-    });
-
-    // 4. Calculate Weighted Average
     const predictions: PredictionItem[] = [];
 
-    Object.keys(salesByRecipe).forEach(recipeId => {
-        const { name, quantities } = salesByRecipe[recipeId];
-
-        if (quantities.length === 0) return;
-
-        // Simple average for now if not enough data, or weighted if we had date-sorted data.
-        // Since we just pushed quantities, let's assume they are somewhat distributed.
-        // To do proper weighted average, we need to know *which* week each quantity belongs to.
-        // Let's refine step 3 to group by date.
-    });
-
-    // Refined Step 3 & 4:
-    const recipeSalesByDate: Record<string, Record<string, number>> = {}; // recipeId -> dateString -> quantity
+    // 3. Group sales by recipe and date for weighted average calculation
+    const recipeSalesByDate: Record<string, Record<string, number>> = {};
 
     sameDaySales.forEach((sale: any) => {
         const dateStr = new Date(sale.date).toISOString().split('T')[0];
@@ -80,11 +132,10 @@ export async function getSalesForecast(businessId: string, date: Date = new Date
 
     Object.keys(recipeSalesByDate).forEach(recipeId => {
         const dateMap = recipeSalesByDate[recipeId];
-        const dates = Object.keys(dateMap).sort(); // Oldest to newest
+        const dates = Object.keys(dateMap).sort();
         const quantities = dates.map(d => dateMap[d]);
 
         // Weighted Average: Recent weeks get more weight
-        // Weights: 1, 2, 3, 4...
         let totalWeight = 0;
         let weightedSum = 0;
 
@@ -106,7 +157,6 @@ export async function getSalesForecast(businessId: string, date: Date = new Date
             else if (avgLast2 < avgFirst2 * 0.9) trend = 'DOWN';
         }
 
-        // Find name (a bit inefficient but works)
         const recipeName = salesHistory.find((s: any) => s.recipeId === recipeId)?.recipe.name || 'Unknown';
 
         if (predictedQty > 0) {
@@ -119,5 +169,19 @@ export async function getSalesForecast(businessId: string, date: Date = new Date
         }
     });
 
-    return predictions.sort((a, b) => b.predictedQuantity - a.predictedQuantity);
+    // 4. Apply self-improving corrections (bias + weather)
+    const correctedPredictions: PredictionItem[] = [];
+    for (const pred of predictions) {
+        let adjusted = pred.predictedQuantity;
+        adjusted = await applyBiasCorrection(pred.recipeId, businessId, adjusted);
+        adjusted = await applyWeatherAdjustment(pred.recipeId, businessId, adjusted, options?.weather);
+        correctedPredictions.push({ ...pred, predictedQuantity: adjusted });
+    }
+
+    // Fallback: if location-specific data is too sparse, use all-location data
+    if (correctedPredictions.length < 3 && options?.locationId) {
+        return getSalesForecast(businessId, date, { ...options, locationId: undefined });
+    }
+
+    return correctedPredictions.sort((a, b) => b.predictedQuantity - a.predictedQuantity);
 }
