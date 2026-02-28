@@ -7,8 +7,8 @@ import { z } from 'zod';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
-import { useRouter } from 'next/navigation';
-import { signIn } from 'next-auth/react'; // Client-side sign in
+import { useRouter, useSearchParams } from 'next/navigation';
+import { signIn } from 'next-auth/react';
 import { useLocale } from 'next-intl';
 import Link from 'next/link';
 
@@ -28,6 +28,8 @@ interface AuthFormProps {
 export function AuthForm({ type }: AuthFormProps) {
   const router = useRouter();
   const locale = useLocale();
+  const searchParams = useSearchParams();
+  const plan = searchParams.get('plan'); // e.g. "PRO" or "ENTERPRISE"
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
 
@@ -56,19 +58,35 @@ export function AuthForm({ type }: AuthFormProps) {
           throw new Error(errorData.error || 'Registration failed');
         }
 
-        // Auto login after register? Or redirect to login?
-        // Let's redirect to login for now or auto-login
-        // For simplicity, let's just sign them in
+        // Auto login after registration
         const signInResult = await signIn('credentials', {
           email: data.email,
           password: data.password,
           redirect: false,
         });
-        
+
         if (signInResult?.error) {
-           throw new Error(signInResult.error);
+          throw new Error(signInResult.error);
         }
-        
+
+        // If a plan was requested, launch Stripe checkout directly
+        if (plan === 'PRO' || plan === 'ENTERPRISE') {
+          const checkoutRes = await fetch('/api/stripe/checkout', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ tier: plan, locale }),
+          });
+
+          if (checkoutRes.ok) {
+            const { url } = await checkoutRes.json();
+            if (url) {
+              window.location.href = url; // redirect to Stripe hosted checkout
+              return;
+            }
+          }
+          // If Stripe checkout fails, fall back to dashboard
+        }
+
         router.push(`/${locale}/dashboard`);
       } else {
         const result = await signIn('credentials', {
@@ -83,18 +101,27 @@ export function AuthForm({ type }: AuthFormProps) {
 
         router.push(`/${locale}/dashboard`);
       }
-    } catch (err: any) {
-      setError(err.message);
+    } catch (err: unknown) {
+      setError(err instanceof Error ? err.message : 'An error occurred');
     } finally {
       setLoading(false);
     }
   };
 
+  const isPlanRegister = type === 'register' && (plan === 'PRO' || plan === 'ENTERPRISE');
+
   return (
     <div className="w-full max-w-md p-8 space-y-6 bg-white rounded-lg shadow-md border">
-      <h2 className="text-2xl font-bold text-center">
-        {type === 'login' ? 'Sign In' : 'Create Account'}
-      </h2>
+      <div className="text-center">
+        <h2 className="text-2xl font-bold">
+          {type === 'login' ? 'Sign In' : 'Create Account'}
+        </h2>
+        {isPlanRegister && (
+          <p className="text-sm text-orange-600 font-medium mt-1">
+            14-day free {plan === 'PRO' ? 'Pro' : 'Enterprise'} trial — no credit card required
+          </p>
+        )}
+      </div>
 
       {error && (
         <div className="p-3 text-sm text-red-500 bg-red-50 rounded-md">
@@ -156,9 +183,11 @@ export function AuthForm({ type }: AuthFormProps) {
 
         <Button type="submit" className="w-full" disabled={loading}>
           {loading
-            ? 'Loading...'
+            ? (isPlanRegister ? 'Creating account…' : 'Loading...')
             : type === 'login'
             ? 'Sign In'
+            : isPlanRegister
+            ? 'Start my free trial →'
             : 'Create Account'}
         </Button>
 
@@ -177,7 +206,7 @@ export function AuthForm({ type }: AuthFormProps) {
                 });
                 if (result?.error) throw new Error('Demo login failed');
                 router.push(`/${locale}/dashboard`);
-              } catch (err) {
+              } catch {
                 setError('Demo login failed');
                 setLoading(false);
               }
@@ -192,7 +221,7 @@ export function AuthForm({ type }: AuthFormProps) {
       <div className="text-center text-sm">
         {type === 'login' ? (
           <p>
-            Don't have an account?{' '}
+            Don&apos;t have an account?{' '}
             <Link href={`/${locale}/register`} className="text-blue-600 hover:underline">
               Register
             </Link>

@@ -179,7 +179,7 @@ export default function Home() {
               </p>
 
               <div className="flex flex-col sm:flex-row gap-3">
-                <Link href={`/${locale}/register`}>
+                <Link href={`/${locale}/register?plan=PRO`}>
                   <button
                     className="btn-landing btn-cta-primary btn-shimmer inline-flex items-center justify-center gap-2 rounded-xl font-bold px-8 py-3.5 text-white"
                     style={{ backgroundColor: ORANGE, boxShadow: '0 8px 24px -4px rgba(249,115,22,0.45)' }}
@@ -564,7 +564,7 @@ export default function Home() {
                   </li>
                 ))}
               </ul>
-              <Link href={`/${locale}/register`}>
+              <Link href={`/${locale}/register?plan=PRO`}>
                 <button
                   className="btn-landing btn-cta-primary inline-flex items-center gap-2 rounded-xl font-bold px-6 py-3 text-white"
                   style={{ backgroundColor: ORANGE }}
@@ -1045,7 +1045,7 @@ export default function Home() {
                       </li>
                     ))}
                   </ul>
-                  <Link href={`/${locale}/register`} className="block">
+                  <Link href={`/${locale}/register?plan=PRO`} className="block">
                     <button
                       className="btn-landing btn-cta-primary btn-shimmer w-full rounded-xl py-2.5 font-bold text-sm text-white"
                       style={{ backgroundColor: ORANGE }}
@@ -1145,7 +1145,7 @@ export default function Home() {
               {t('cta.subtitle')}
             </p>
             <div className="flex flex-col items-center gap-4">
-              <Link href={`/${locale}/register`}>
+              <Link href={`/${locale}/register?plan=PRO`}>
                 <button
                   className="btn-landing btn-cta-primary btn-shimmer inline-flex items-center justify-center gap-2 rounded-xl font-bold px-10 py-4 text-lg text-white"
                   style={{ backgroundColor: ORANGE, boxShadow: '0 12px 36px -4px rgba(249,115,22,0.5)' }}
