@@ -20,7 +20,7 @@ function getResend(): Resend {
   return _resend;
 }
 
-const FROM = process.env.RESEND_FROM ?? 'FoodTracks <no-reply@foodtracks.io>';
+const FROM = process.env.RESEND_FROM ?? 'FoodTracks <no-reply@contact.foodtracks.io>';
 
 // ─── Email Templates ──────────────────────────────────────────────────────────
 
