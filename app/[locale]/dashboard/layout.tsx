@@ -1,9 +1,14 @@
+import type { Metadata } from "next";
 import { Sidebar } from "@/components/dashboard/sidebar";
 import { MobileNav } from "@/components/dashboard/mobile-nav";
 import { LocationProvider } from "@/components/providers/LocationProvider";
 import { EmailVerificationBanner } from "@/components/dashboard/EmailVerificationBanner";
 import { auth } from "@/auth";
 import { prisma } from "@/lib/prisma";
+
+export const metadata: Metadata = {
+  robots: { index: false, follow: false },
+};
 
 export default async function DashboardLayout({
   children,

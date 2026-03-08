@@ -48,6 +48,15 @@ export default async function BlogPage({
   const isFr = locale === 'fr';
   const lang = isFr ? 'fr' : 'en';
 
+  const breadcrumbJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'FoodTracks', item: `${BASE_URL}/${locale}` },
+      { '@type': 'ListItem', position: 2, name: 'Blog', item: `${BASE_URL}/${locale}/blog` },
+    ],
+  };
+
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Blog',
@@ -81,8 +90,20 @@ export default async function BlogPage({
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
 
       <div className="min-h-screen" style={{ backgroundColor: '#FFFBF7' }}>
+        {/* Breadcrumb */}
+        <nav className="container mx-auto px-4 pt-6 pb-0" aria-label="Breadcrumb">
+          <ol className="flex items-center gap-2 text-sm text-gray-500">
+            <li><Link href={`/${locale}`} className="hover:text-gray-700 transition-colors">FoodTracks</Link></li>
+            <li>/</li>
+            <li className="text-gray-900 font-medium">Blog</li>
+          </ol>
+        </nav>
         <div className="container mx-auto px-4 py-12">
           {/* Header */}
           <div className="flex items-center gap-4 mb-2">

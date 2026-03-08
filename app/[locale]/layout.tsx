@@ -109,6 +109,23 @@ export default async function LocaleLayout({ children, params }: { children: Rea
       email: 'contact@foodtracks.io',
       contactType: 'customer service',
     },
+    sameAs: [],
+  };
+
+  const websiteJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: 'FoodTracks',
+    url: BASE_URL,
+    inLanguage: locale === 'fr' ? 'fr-FR' : 'en-US',
+    potentialAction: {
+      '@type': 'SearchAction',
+      target: {
+        '@type': 'EntryPoint',
+        urlTemplate: `${BASE_URL}/${locale}/blog?q={search_term_string}`,
+      },
+      'query-input': 'required name=search_term_string',
+    },
   };
 
   const softwareJsonLd = {
@@ -155,6 +172,10 @@ export default async function LocaleLayout({ children, params }: { children: Rea
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(softwareJsonLd) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}
         />
       </head>
       <body className={`${poppins.className} ${jakarta.variable} font-sans antialiased`}>

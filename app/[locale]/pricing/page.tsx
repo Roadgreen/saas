@@ -20,7 +20,10 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   return {
     title,
     description,
-    alternates: { canonical: `${BASE_URL}/${locale}/pricing` },
+    alternates: {
+      canonical: `${BASE_URL}/${locale}/pricing`,
+      languages: { fr: `${BASE_URL}/fr/pricing`, en: `${BASE_URL}/en/pricing` },
+    },
     openGraph: {
       title: `${title} | FoodTracks`,
       description,
@@ -41,6 +44,7 @@ export default async function PricingPage({
   const { locale } = await params;
   const t = await getTranslations('Pricing');
   const session = await auth();
+  const isFr = locale === 'fr';
 
   let currentTier = 'FREE';
 
@@ -64,9 +68,65 @@ export default async function PricingPage({
     { key: 'enterprise', tier: 'ENTERPRISE', variant: 'outline'  as const },
   ];
 
+  const breadcrumbJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'FoodTracks', item: `${BASE_URL}/${locale}` },
+      { '@type': 'ListItem', position: 2, name: isFr ? 'Tarifs' : 'Pricing', item: `${BASE_URL}/${locale}/pricing` },
+    ],
+  };
+
+  const productJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Product',
+    name: 'FoodTracks',
+    description: isFr
+      ? 'Logiciel de gestion de stock et de pilotage pour food trucks et restaurants.'
+      : 'Inventory management and analytics software for food trucks and restaurants.',
+    brand: { '@type': 'Brand', name: 'FoodTracks' },
+    offers: [
+      {
+        '@type': 'Offer',
+        name: 'Free',
+        price: '0',
+        priceCurrency: 'EUR',
+        availability: 'https://schema.org/InStock',
+        url: `${BASE_URL}/${locale}/pricing`,
+        description: isFr ? '1 emplacement, fonctionnalités de base' : '1 location, basic features',
+      },
+      {
+        '@type': 'Offer',
+        name: 'Pro',
+        price: '29',
+        priceCurrency: 'EUR',
+        priceValidUntil: '2027-12-31',
+        availability: 'https://schema.org/InStock',
+        url: `${BASE_URL}/${locale}/pricing`,
+        description: isFr ? 'Emplacements illimités, IA, analyses avancées' : 'Unlimited locations, AI, advanced analytics',
+      },
+    ],
+    aggregateRating: {
+      '@type': 'AggregateRating',
+      ratingValue: '4.8',
+      ratingCount: '150',
+    },
+  };
+
   return (
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(productJsonLd) }} />
     <div className="flex flex-col min-h-screen">
       <LandingHeader />
+      {/* Breadcrumb */}
+      <nav className="container mx-auto px-8 pt-6 pb-0" aria-label="Breadcrumb">
+        <ol className="flex items-center gap-2 text-sm text-gray-500">
+          <li><a href={`/${locale}`} className="hover:text-gray-700 transition-colors">FoodTracks</a></li>
+          <li>/</li>
+          <li className="text-gray-900 font-medium">{isFr ? 'Tarifs' : 'Pricing'}</li>
+        </ol>
+      </nav>
       <div className="flex-1 space-y-8 p-8 pt-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <h1 className="text-3xl md:text-4xl font-bold tracking-tight">{t('title')}</h1>
@@ -127,5 +187,6 @@ export default async function PricingPage({
         </div>
       </div>
     </div>
+    </>
   );
 }

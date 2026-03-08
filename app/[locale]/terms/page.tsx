@@ -14,7 +14,10 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   return {
     title,
     description,
-    alternates: { canonical: `${BASE_URL}/${locale}/terms` },
+    alternates: {
+      canonical: `${BASE_URL}/${locale}/terms`,
+      languages: { fr: `${BASE_URL}/fr/terms`, en: `${BASE_URL}/en/terms` },
+    },
     openGraph: {
       title: `${title} | FoodTracks`,
       description,

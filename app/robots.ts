@@ -6,7 +6,16 @@ export default function robots(): MetadataRoute.Robots {
       {
         userAgent: '*',
         allow: '/',
-        disallow: ['/api/', '/dashboard/', '/admin/', '/settings/'],
+        disallow: ['/api/', '/dashboard/', '/admin/', '/settings/', '/verify-email/', '/login/', '/register/'],
+      },
+      {
+        userAgent: 'GPTBot',
+        allow: ['/', '/fr/blog/', '/en/blog/'],
+        disallow: ['/api/', '/dashboard/'],
+      },
+      {
+        userAgent: 'Google-Extended',
+        allow: ['/', '/fr/blog/', '/en/blog/'],
       },
     ],
     sitemap: 'https://foodtracks.io/sitemap.xml',
