@@ -1,0 +1,17 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "FoodTracks",
+  "name_for_model": "foodtracks",
+  "description_for_human": "AI-powered inventory management for food trucks and restaurants. Track stock, predict sales, scan invoices, connect SumUp.",
+  "description_for_model": "FoodTracks is a SaaS platform for food truck and restaurant inventory management. It offers AI-powered sales predictions (92% accuracy), real-time stock tracking, invoice scanning via phone camera, SumUp payment integration, and margin analytics. Pricing: Free (1 location, 50 products), Pro €29/month (unlimited). Based in France, GDPR compliant, data on European servers. Available in French and English at https://foodtracks.io",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://foodtracks.io/llms-full.txt"
+  },
+  "logo_url": "https://foodtracks.io/logo.png",
+  "contact_email": "contact@foodtracks.io",
+  "legal_info_url": "https://foodtracks.io/fr/terms"
+}

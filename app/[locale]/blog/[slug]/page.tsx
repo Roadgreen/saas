@@ -95,7 +95,36 @@ export default async function BlogArticlePage({
     keywords: article.keywords.join(', '),
     inLanguage: locale,
     ...(article.heroImage && { image: `${BASE_URL}${article.heroImage}` }),
+    speakable: {
+      '@type': 'SpeakableSpecification',
+      cssSelector: ['article h1', 'article h2', 'article p:first-of-type'],
+    },
+    about: {
+      '@type': 'Thing',
+      name: article.category[lang],
+      description: article.excerpt[lang],
+    },
+    isPartOf: {
+      '@type': 'Blog',
+      name: 'FoodTracks Blog',
+      url: `${BASE_URL}/${locale}/blog`,
+    },
+    citation: `FoodTracks — ${isFr ? 'Gestion de stock intelligente pour food trucks' : 'Smart inventory management for food trucks'}. ${BASE_URL}`,
   };
+
+  // FAQ Schema per article (GEO — AI engines love structured Q&A)
+  const faqJsonLd = article.faqItems && article.faqItems.length > 0 ? {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: article.faqItems.map((faq) => ({
+      '@type': 'Question',
+      name: faq.question[lang],
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: faq.answer[lang],
+      },
+    })),
+  } : null;
 
   const breadcrumbJsonLd = {
     '@context': 'https://schema.org',
@@ -137,6 +166,12 @@ export default async function BlogArticlePage({
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
+      {faqJsonLd && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+        />
+      )}
 
       <div className="min-h-screen" style={{ backgroundColor: '#FFFBF7' }}>
         {/* Breadcrumb */}
@@ -212,6 +247,32 @@ export default async function BlogArticlePage({
           </div>
         )}
 
+        {/* Key Takeaway — AI-friendly quotable block */}
+        <div className="container mx-auto px-4 max-w-3xl pb-6">
+          <div
+            className="rounded-2xl p-6 border-l-4"
+            style={{ backgroundColor: '#FFF7ED', borderLeftColor: '#F97316' }}
+            role="complementary"
+            aria-label={isFr ? 'Points clés' : 'Key takeaways'}
+          >
+            <h2 className="font-bold text-gray-900 text-base mb-2 flex items-center gap-2">
+              <span style={{ color: '#F97316' }}>TL;DR</span>
+              {isFr ? ' — Ce qu\'il faut retenir' : ' — Key Takeaway'}
+            </h2>
+            {article.keyTakeaways && article.keyTakeaways[lang].length > 0 ? (
+              <ul className="text-sm text-gray-700 leading-relaxed space-y-1.5 list-disc list-inside">
+                {article.keyTakeaways[lang].map((t, i) => (
+                  <li key={i}>{t}</li>
+                ))}
+              </ul>
+            ) : (
+              <p className="text-sm text-gray-700 leading-relaxed">
+                {article.excerpt[lang]}
+              </p>
+            )}
+          </div>
+        </div>
+
         {/* Article content */}
         <article className="container mx-auto px-4 max-w-3xl pb-16">
           <div
@@ -227,6 +288,23 @@ export default async function BlogArticlePage({
               __html: markdownToHtml(article.content[lang]),
             }}
           />
+
+          {/* FAQ per article — GEO + rich snippets */}
+          {article.faqItems && article.faqItems.length > 0 && (
+            <div className="mt-12 p-6 rounded-2xl" style={{ backgroundColor: '#F8F6F3', border: '1px solid #E8E2DC' }}>
+              <h2 className="text-xl font-bold text-gray-900 mb-4">
+                {isFr ? 'Questions fréquentes' : 'Frequently Asked Questions'}
+              </h2>
+              <dl className="space-y-4">
+                {article.faqItems.map((faq, i) => (
+                  <div key={i}>
+                    <dt className="font-semibold text-gray-900 text-sm">{faq.question[lang]}</dt>
+                    <dd className="text-sm text-gray-600 mt-1">{faq.answer[lang]}</dd>
+                  </div>
+                ))}
+              </dl>
+            </div>
+          )}
 
           {/* CTA */}
           <div className="mt-12 p-8 rounded-2xl text-center" style={{ backgroundColor: '#FF6B3510', border: '1px solid #FF6B3530' }}>

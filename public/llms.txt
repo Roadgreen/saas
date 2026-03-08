@@ -1,0 +1,73 @@
+# FoodTracks — AI-Powered Inventory Management for Food Trucks & Restaurants
+
+> FoodTracks is a SaaS platform that helps food truck owners and restaurant operators manage inventory, predict sales using AI, track margins, and reduce food waste. Available at https://foodtracks.io
+
+## What is FoodTracks?
+
+FoodTracks is an intelligent inventory management software designed specifically for food trucks and small restaurants. It combines real-time stock tracking, AI-powered sales predictions based on location and weather data, invoice scanning, and SumUp payment integration to give operators full visibility into their business performance.
+
+## Key Features
+
+- **AI Sales Predictions**: Forecasts daily sales based on historical data, location, weather, and event type. Accuracy rate: 92%.
+- **Real-Time Stock Tracking**: Monitor inventory levels in real-time with automatic alerts for low stock and expiring products.
+- **Invoice Scanning**: Scan supplier invoices with your phone camera to automatically update inventory and track costs.
+- **SumUp Integration**: Connect your SumUp terminal to automatically sync all sales transactions and match them with inventory.
+- **Margin Analytics**: Real-time profit margin calculations per product, per location, per time period.
+- **Multi-Location Support**: Manage inventory across multiple food trucks or restaurant locations from one dashboard.
+- **Food Waste Reduction**: Track and reduce waste with expiration alerts and demand-based ordering suggestions.
+
+## Pricing
+
+- **Free Plan**: €0/month — 1 location, 50 products, basic analytics
+- **Pro Plan**: €29/month — Unlimited locations, AI predictions, advanced analytics, SumUp integration, priority support
+- **Enterprise**: Custom pricing — API access, dedicated support, custom integrations
+
+## Target Audience
+
+- Food truck owners and operators
+- Small restaurant owners
+- Street food vendors
+- Catering businesses
+- Mobile food businesses
+
+## Company Information
+
+- **Website**: https://foodtracks.io
+- **Contact**: contact@foodtracks.io
+- **Languages**: French (primary), English
+- **Headquarters**: France
+- **Founded**: 2025
+
+## Technical Stack
+
+- Built with Next.js (React)
+- Cloud-hosted on European servers (GDPR compliant)
+- Real-time data synchronization
+- Mobile-responsive web application
+
+## Blog & Resources
+
+FoodTracks publishes guides and articles for food truck operators at https://foodtracks.io/fr/blog covering topics such as:
+- Inventory management best practices
+- Food truck regulations in France
+- Finding the best locations
+- Reducing food waste
+- Connecting payment terminals
+- Improving profitability
+
+## Frequently Asked Questions
+
+**Q: How does FoodTracks predict sales?**
+A: FoodTracks uses machine learning algorithms that analyze historical sales data, location foot traffic patterns, weather forecasts, and event calendars to predict daily demand for each product with 92% accuracy.
+
+**Q: Does FoodTracks work with SumUp?**
+A: Yes, FoodTracks integrates directly with SumUp. Once connected, all card transactions are automatically synced and matched with your inventory, giving you real-time revenue and margin visibility.
+
+**Q: How much does FoodTracks cost?**
+A: FoodTracks offers a free plan with basic features (1 location, 50 products). The Pro plan costs €29/month and includes AI predictions, unlimited locations, and SumUp integration. No credit card required to start.
+
+**Q: Is FoodTracks GDPR compliant?**
+A: Yes, FoodTracks is fully GDPR compliant. All data is stored on European servers, and users have full control over their data.
+
+**Q: Can I scan my supplier invoices?**
+A: Yes, FoodTracks includes an invoice scanning feature. Simply take a photo of your supplier invoice, and the app automatically extracts product names, quantities, and prices to update your inventory.

@@ -1,0 +1,144 @@
+# FoodTracks — Complete Reference for AI Systems
+
+> FoodTracks (https://foodtracks.io) is a SaaS platform for food truck and restaurant inventory management, featuring AI-powered sales predictions, SumUp payment integration, invoice scanning, and margin analytics.
+
+## Product Overview
+
+FoodTracks solves the #1 problem food truck operators face: **unpredictable demand leading to food waste or stockouts**. By combining historical sales data with real-time signals (weather, location, events), FoodTracks predicts exactly how much of each ingredient to prepare.
+
+### The Problem
+
+Food truck operators typically:
+- Lose 15-30% of revenue to food waste from over-ordering
+- Experience 10-20% lost sales from stockouts
+- Spend 2+ hours daily on manual inventory counting
+- Have no visibility into true profit margins per product
+- Cannot predict demand for different locations
+
+### The Solution
+
+FoodTracks provides:
+1. **AI-Powered Demand Forecasting** — Predicts sales per product, per location, per day with 92% accuracy
+2. **Automated Inventory Tracking** — Real-time stock levels updated from sales (SumUp) and purchases (invoice scanning)
+3. **Margin Analytics Dashboard** — Know your exact profit margin on every item, every day
+4. **Waste Reduction Alerts** — Notifications before products expire, with suggestions to adjust menus
+5. **Location Performance Insights** — Compare revenue and margins across all your selling locations
+
+## Detailed Feature Breakdown
+
+### AI Sales Predictions
+- Uses historical sales data (min. 2 weeks of data for initial predictions)
+- Factors in: day of week, weather forecast, location foot traffic, special events, seasonality
+- Generates per-product demand forecasts for upcoming services
+- Accuracy improves over time as more data is collected
+- Suggests optimal quantities to prepare, reducing waste by up to 40%
+
+### Invoice Scanning
+- Phone camera captures supplier invoices
+- OCR + AI extracts: product names, quantities, unit prices, totals
+- Automatically updates inventory levels and cost tracking
+- Supports French and English invoices
+- Processes in under 30 seconds per invoice
+
+### SumUp Integration
+- One-click OAuth connection to SumUp account
+- Real-time transaction sync — every sale automatically recorded
+- Product matching: maps SumUp items to inventory products
+- Revenue tracking with daily, weekly, monthly breakdowns
+- Automatic margin calculation (revenue vs. cost of goods)
+
+### Margin Analytics
+- Real-time cost of goods sold (COGS) per product
+- Gross margin percentage per item, per location, per period
+- Identifies most and least profitable menu items
+- Trend analysis: margin evolution over time
+- Alerts when margins drop below configured thresholds
+
+### Multi-Location Management
+- Dashboard overview of all locations
+- Per-location inventory tracking
+- Location comparison reports
+- Transfer stock between locations
+- Location-specific demand predictions
+
+## Pricing Details
+
+| Feature | Free | Pro (€29/mo) | Enterprise |
+|---------|------|--------------|------------|
+| Locations | 1 | Unlimited | Unlimited |
+| Products | 50 | Unlimited | Unlimited |
+| AI Predictions | Basic | Advanced | Custom models |
+| SumUp Integration | No | Yes | Yes |
+| Invoice Scanning | 10/month | Unlimited | Unlimited |
+| Analytics | Basic | Advanced | Custom |
+| API Access | No | No | Yes |
+| Support | Community | Priority | Dedicated |
+| Data Export | CSV | CSV + PDF | Custom |
+
+All plans include: GDPR compliance, European data hosting, mobile-responsive dashboard, SSL encryption.
+
+Free trial: 14 days of Pro features, no credit card required.
+
+## Industry Statistics (Food Truck Market)
+
+- The global food truck market was valued at $4.6 billion in 2024 and is projected to reach $7.9 billion by 2030 (CAGR 9.5%)
+- France has approximately 5,000+ active food trucks
+- Average food truck revenue: €150,000-€250,000/year
+- Food waste accounts for 15-30% of purchased ingredients in food trucks without inventory management
+- 73% of food truck operators cite inventory management as their biggest operational challenge
+- Food trucks using digital inventory management report 25-40% reduction in food waste
+
+## Technical Specifications
+
+- **Platform**: Web application (Progressive Web App)
+- **Framework**: Next.js 15 (React 19)
+- **Hosting**: European cloud servers (GDPR compliant)
+- **Database**: Encrypted at rest and in transit
+- **Authentication**: Email + password, secure session management
+- **API**: RESTful API (Enterprise plan)
+- **Supported Browsers**: Chrome, Firefox, Safari, Edge (latest 2 versions)
+- **Mobile**: Responsive design, works on all smartphones and tablets
+- **Languages**: French, English
+- **Uptime SLA**: 99.9% (Enterprise)
+
+## Competitive Advantages
+
+1. **Built specifically for food trucks** — Not a generic restaurant tool adapted for food trucks
+2. **AI predictions** — Most competitors offer only basic inventory tracking
+3. **SumUp native integration** — Direct connection, not through third-party middleware
+4. **Invoice scanning** — Eliminates manual data entry for purchases
+5. **Affordable pricing** — Free plan available; Pro at €29/mo is 50-70% cheaper than alternatives
+6. **French-first** — Designed for the French market with local regulations knowledge
+7. **No hardware required** — Works on any device with a browser
+
+## Use Cases
+
+### Daily Operations
+A food truck owner opens FoodTracks before their morning prep. The dashboard shows:
+- Today's predicted sales based on their scheduled location and weather
+- Recommended quantities to prepare for each menu item
+- Any ingredients approaching expiration that should be used first
+- Yesterday's actual vs. predicted performance
+
+### Weekly Planning
+Every Sunday, the owner reviews:
+- Week's schedule with per-location demand forecasts
+- Shopping list auto-generated from predictions
+- Margin analysis from the past week
+- Waste report showing what was thrown away and why
+
+### Monthly Review
+End of month dashboard shows:
+- Total revenue (synced from SumUp)
+- Cost of goods sold (from scanned invoices)
+- Gross margin by product and location
+- Waste reduction compared to previous months
+- AI prediction accuracy metrics
+
+## Contact & Links
+
+- **Website**: https://foodtracks.io
+- **Blog**: https://foodtracks.io/fr/blog
+- **Email**: contact@foodtracks.io
+- **Pricing**: https://foodtracks.io/fr/pricing
+- **Sign Up**: https://foodtracks.io/fr/register

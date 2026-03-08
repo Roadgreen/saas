@@ -8,6 +8,10 @@ export interface BlogArticle {
   keywords: string[];
   heroImage: string;
   content: { fr: string; en: string };
+  /** Short quotable takeaways for AI engines (GEO) */
+  keyTakeaways?: { fr: string[]; en: string[] };
+  /** Per-article FAQ for rich snippets + AI citation (GEO) */
+  faqItems?: { question: { fr: string; en: string }; answer: { fr: string; en: string } }[];
 }
 
 export const blogArticles: BlogArticle[] = [
@@ -166,6 +170,30 @@ FoodTracks is designed specifically for food truck operators, with automatic inv
 
 [Try FoodTracks for free](https://foodtracks.io/en/pricing) and take control of your inventory today.`,
     },
+    keyTakeaways: {
+      fr: [
+        "Une mauvaise gestion des stocks peut réduire vos marges de 15 à 30%",
+        "La méthode FIFO (Premier Entré, Premier Sorti) est essentielle en food truck",
+        "Les pertes liées aux péremptions représentent 5 à 10% du CA sans suivi",
+        "L'IA permet de prédire vos besoins avec 92% de précision en croisant ventes, météo et événements",
+      ],
+      en: [
+        "Poor inventory management can reduce margins by 15 to 30%",
+        "FIFO (First In, First Out) is essential for food trucks",
+        "Expiration losses represent 5-10% of revenue without tracking",
+        "AI predicts needs with 92% accuracy by cross-referencing sales, weather, and events",
+      ],
+    },
+    faqItems: [
+      {
+        question: { fr: "Comment éviter le gaspillage en food truck ?", en: "How to avoid food waste in a food truck?" },
+        answer: { fr: "Utilisez la méthode FIFO, suivez les dates de péremption en temps réel, et utilisez un outil de prédictions IA comme FoodTracks pour commander la bonne quantité.", en: "Use the FIFO method, track expiration dates in real-time, and use an AI prediction tool like FoodTracks to order the right quantity." },
+      },
+      {
+        question: { fr: "Quelle est la meilleure méthode de gestion de stock pour un food truck ?", en: "What is the best inventory management method for a food truck?" },
+        answer: { fr: "La combinaison FIFO + prédictions IA + scan de factures est la plus efficace. Cela permet de réduire le gaspillage de 40% en moyenne.", en: "The combination of FIFO + AI predictions + invoice scanning is most effective. This reduces waste by 40% on average." },
+      },
+    ],
   },
   {
     slug: "logiciel-gestion-food-truck",
@@ -286,6 +314,24 @@ A tool adapted for food trucks must cover:
 
 [Try FoodTracks for free →](https://foodtracks.io/en/pricing)`,
     },
+    keyTakeaways: {
+      fr: [
+        "Un logiciel de gestion dédié food truck doit inclure : gestion de stock, prédictions IA, scan de factures et intégration caisse",
+        "FoodTracks est le seul logiciel conçu exclusivement pour les food trucks avec intégration SumUp native",
+        "Prix moyen d'un logiciel de gestion food truck : 20 à 100€/mois — FoodTracks commence à 0€",
+      ],
+      en: [
+        "A food truck management software must include: inventory, AI predictions, invoice scanning, and POS integration",
+        "FoodTracks is the only software designed exclusively for food trucks with native SumUp integration",
+        "Average food truck software cost: €20-100/month — FoodTracks starts at €0",
+      ],
+    },
+    faqItems: [
+      {
+        question: { fr: "Quel est le meilleur logiciel de gestion pour food truck ?", en: "What is the best management software for food trucks?" },
+        answer: { fr: "FoodTracks est le logiciel le plus complet pour les food trucks : prédictions IA, scan de factures, intégration SumUp, suivi des marges. Gratuit pour commencer.", en: "FoodTracks is the most comprehensive software for food trucks: AI predictions, invoice scanning, SumUp integration, margin tracking. Free to start." },
+      },
+    ],
   },
   {
     slug: "reduire-gaspillage-alimentaire-food-truck",
@@ -372,6 +418,24 @@ FoodTracks helps you implement all these strategies with automated invoice scann
 
 [Start reducing your losses with FoodTracks →](https://foodtracks.io/en/pricing)`,
     },
+    keyTakeaways: {
+      fr: [
+        "Le gaspillage alimentaire coûte 15 à 30% du CA aux food truckers sans outil de gestion",
+        "Le suivi des DLC et la méthode FIFO réduisent les pertes de 40%",
+        "Les prédictions IA adaptent les commandes à la demande réelle par emplacement",
+      ],
+      en: [
+        "Food waste costs food truckers 15-30% of revenue without management tools",
+        "Expiry tracking and FIFO reduce losses by 40%",
+        "AI predictions adapt orders to actual demand per location",
+      ],
+    },
+    faqItems: [
+      {
+        question: { fr: "Combien coûte le gaspillage alimentaire en food truck ?", en: "How much does food waste cost in a food truck?" },
+        answer: { fr: "Sans outil de gestion, le gaspillage alimentaire représente 15 à 30% du chiffre d'affaires d'un food truck, soit 22 500 à 75 000€ par an pour un CA de 150 000 à 250 000€.", en: "Without management tools, food waste represents 15-30% of a food truck's revenue, or €22,500-€75,000/year for €150,000-€250,000 annual revenue." },
+      },
+    ],
   },
   {
     slug: "ouvrir-food-truck-guide-complet",
@@ -500,6 +564,30 @@ The food truck is one of the most dynamic restaurant models. With a lower initia
 
 [Get started with FoodTracks — free to begin →](https://foodtracks.io/en/pricing)`,
     },
+    keyTakeaways: {
+      fr: [
+        "Budget total pour ouvrir un food truck : 41 500€ à 120 500€ (véhicule + équipement + démarches)",
+        "La formation HACCP est obligatoire (14h minimum, ~400€)",
+        "Les emplacements (marchés, zones de bureaux, festivals) sont le facteur clé de réussite",
+        "Un logiciel de gestion comme FoodTracks est essentiel dès le démarrage pour piloter stocks et marges",
+      ],
+      en: [
+        "Total budget to open a food truck: €41,500-€120,500 (vehicle + equipment + permits)",
+        "HACCP training is mandatory (14h minimum, ~€400)",
+        "Locations (markets, office zones, festivals) are the key success factor",
+        "Management software like FoodTracks is essential from day one",
+      ],
+    },
+    faqItems: [
+      {
+        question: { fr: "Combien coûte l'ouverture d'un food truck en France ?", en: "How much does it cost to open a food truck in France?" },
+        answer: { fr: "Le budget total pour ouvrir un food truck en France se situe entre 41 500€ et 120 500€. Cela inclut le véhicule (25 000-80 000€), l'équipement (10 000-25 000€), les démarches administratives (1 500-5 500€) et le stock initial (5 000-10 000€).", en: "The total budget to open a food truck in France is between €41,500 and €120,500, including the vehicle (€25,000-€80,000), equipment (€10,000-€25,000), administrative costs (€1,500-€5,500), and initial stock (€5,000-€10,000)." },
+      },
+      {
+        question: { fr: "Quelles sont les démarches pour ouvrir un food truck ?", en: "What are the steps to open a food truck?" },
+        answer: { fr: "Les démarches incluent : formation HACCP obligatoire, immatriculation au RCS ou RNE, carte de commerçant ambulant, autorisation d'occupation du domaine public, assurance RC Pro, et déclaration en préfecture.", en: "Steps include: mandatory HACCP training, business registration, mobile trader card, public domain authorization, professional liability insurance, and prefecture declaration." },
+      },
+    ],
   },
   {
     slug: "rentabilite-food-truck-ameliorer",
@@ -617,6 +705,26 @@ Key levers include knowing your true food cost (target under 30%), optimizing lo
 
 [Optimize your profitability with FoodTracks →](https://foodtracks.io/en/pricing)`,
     },
+    keyTakeaways: {
+      fr: [
+        "Le coût matière (food cost) doit rester sous 30% du prix de vente",
+        "Un food truck rentable vise une marge nette de 15 à 25%",
+        "Les 3 leviers principaux : réduire le gaspillage, optimiser les emplacements, augmenter le ticket moyen",
+        "La digitalisation de la gestion (stocks, ventes, marges) est le levier le plus sous-estimé",
+      ],
+      en: [
+        "Food cost should stay under 30% of selling price",
+        "A profitable food truck targets 15-25% net margin",
+        "Top 3 levers: reduce waste, optimize locations, increase average ticket",
+        "Digitizing management (stock, sales, margins) is the most underestimated lever",
+      ],
+    },
+    faqItems: [
+      {
+        question: { fr: "Quelle est la marge d'un food truck ?", en: "What is a food truck's profit margin?" },
+        answer: { fr: "Un food truck bien géré vise une marge brute de 65-75% et une marge nette de 15-25%. Le coût matière (food cost) doit rester sous 30% du prix de vente. Le CA moyen d'un food truck en France est de 150 000 à 250 000€/an.", en: "A well-managed food truck targets 65-75% gross margin and 15-25% net margin. Food cost should stay under 30%. Average food truck revenue in France is €150,000-€250,000/year." },
+      },
+    ],
   },
   {
     slug: "reglementation-food-truck-france",
@@ -747,6 +855,30 @@ FoodTracks helps you stay compliant by automating traceability, invoice archivin
 
 [Stay compliant with FoodTracks →](https://foodtracks.io/en/pricing)`,
     },
+    keyTakeaways: {
+      fr: [
+        "La formation HACCP (400€, 14h) est obligatoire pour tout exploitant de food truck",
+        "La carte de commerçant ambulant est nécessaire pour vendre hors de sa commune",
+        "L'autorisation d'occupation du domaine public est délivrée par la mairie ou le gestionnaire du terrain",
+        "L'assurance RC Pro coûte entre 1 500 et 3 000€/an pour un food truck",
+      ],
+      en: [
+        "HACCP training (€400, 14h) is mandatory for all food truck operators",
+        "A mobile trader card is required to sell outside your municipality",
+        "Public domain authorization is issued by the town hall or site manager",
+        "Professional liability insurance costs €1,500-€3,000/year for a food truck",
+      ],
+    },
+    faqItems: [
+      {
+        question: { fr: "Faut-il un diplôme pour ouvrir un food truck ?", en: "Do you need a degree to open a food truck?" },
+        answer: { fr: "Non, pas de diplôme requis. Mais la formation HACCP en hygiène alimentaire (14h, ~400€) est obligatoire. Il faut aussi une carte de commerçant ambulant et une autorisation d'occupation du domaine public.", en: "No degree required. But HACCP food hygiene training (14h, ~€400) is mandatory. You also need a mobile trader card and public domain authorization." },
+      },
+      {
+        question: { fr: "Quelles sont les normes d'hygiène pour un food truck ?", en: "What are the hygiene standards for a food truck?" },
+        answer: { fr: "Un food truck doit respecter le plan HACCP, avoir un point d'eau potable, des surfaces en inox, une chambre froide ou réfrigérateur aux normes, et afficher les allergènes. La traçabilité des produits est obligatoire.", en: "A food truck must follow HACCP, have potable water, stainless steel surfaces, regulation refrigeration, and display allergens. Product traceability is mandatory." },
+      },
+    ],
   },
   {
     slug: "trouver-meilleurs-emplacements-food-truck",
@@ -845,6 +977,26 @@ FoodTracks automatically compares location profitability, identifies peak times,
 
 [Analyze your locations with FoodTracks →](https://foodtracks.io/en/pricing)`,
     },
+    keyTakeaways: {
+      fr: [
+        "Les marchés et festivals restent les emplacements les plus rentables (500-2000€/jour en festival)",
+        "Les zones de bureaux offrent une clientèle régulière mais un CA plafonné (300-700€/jour)",
+        "Alterner entre emplacements fixes et événements est la stratégie la plus rentable",
+        "L'analyse des données de ventes par emplacement permet d'optimiser son planning",
+      ],
+      en: [
+        "Markets and festivals remain the most profitable locations (€500-2000/day at festivals)",
+        "Office zones offer regular customers but capped revenue (€300-700/day)",
+        "Alternating fixed locations and events is the most profitable strategy",
+        "Analyzing sales data by location optimizes scheduling",
+      ],
+    },
+    faqItems: [
+      {
+        question: { fr: "Où installer son food truck pour gagner le plus ?", en: "Where to set up a food truck to earn the most?" },
+        answer: { fr: "Les festivals et événements sont les plus rentables (500-2000€/jour), suivis des marchés (200-800€/jour) et des zones de bureaux (300-700€/jour). La stratégie optimale combine emplacements fixes en semaine et événements le week-end.", en: "Festivals and events are most profitable (€500-2000/day), followed by markets (€200-800/day) and office zones (€300-700/day). The optimal strategy combines fixed weekday locations with weekend events." },
+      },
+    ],
   },
   {
     slug: "scanner-factures-food-truck-gagner-temps",
@@ -947,6 +1099,26 @@ You didn't start a food truck to spend evenings entering invoices into spreadshe
 
 [Try FoodTracks AI scanning — free →](https://foodtracks.io/en/pricing)`,
     },
+    keyTakeaways: {
+      fr: [
+        "Le scan IA de factures fait gagner 2h+ par semaine aux food truckers",
+        "Précision de 95%+ sur les factures fournisseurs alimentaires standards",
+        "Le scan remplace la saisie manuelle et élimine les erreurs de transcription",
+        "Le stock se met à jour automatiquement après chaque scan",
+      ],
+      en: [
+        "AI invoice scanning saves food truckers 2+ hours per week",
+        "95%+ accuracy on standard food supplier invoices",
+        "Scanning replaces manual entry and eliminates transcription errors",
+        "Inventory updates automatically after each scan",
+      ],
+    },
+    faqItems: [
+      {
+        question: { fr: "Comment scanner ses factures fournisseur en food truck ?", en: "How to scan supplier invoices for a food truck?" },
+        answer: { fr: "Avec FoodTracks, il suffit de prendre une photo de la facture avec votre téléphone. L'IA extrait automatiquement les produits, quantités et prix en moins de 30 secondes, et met à jour votre stock.", en: "With FoodTracks, just take a photo of the invoice with your phone. AI automatically extracts products, quantities, and prices in under 30 seconds, updating your inventory." },
+      },
+    ],
   },
   {
     slug: "connecter-sumup-food-truck-suivi-ventes",
@@ -1035,6 +1207,30 @@ Connection takes under 2 minutes.
 
 [Connect SumUp to FoodTracks — free →](https://foodtracks.io/en/pricing)`,
     },
+    keyTakeaways: {
+      fr: [
+        "L'intégration SumUp-FoodTracks se fait en moins de 2 minutes via OAuth",
+        "Toutes les transactions carte sont synchronisées en temps réel automatiquement",
+        "Le matching produit permet de calculer la marge exacte par article vendu",
+        "Le dashboard SumUp de FoodTracks offre une vue consolidée CA + marges + prédictions",
+      ],
+      en: [
+        "SumUp-FoodTracks integration takes under 2 minutes via OAuth",
+        "All card transactions are synced in real-time automatically",
+        "Product matching enables exact margin calculation per sold item",
+        "FoodTracks SumUp dashboard provides consolidated revenue + margins + predictions view",
+      ],
+    },
+    faqItems: [
+      {
+        question: { fr: "Comment connecter SumUp à FoodTracks ?", en: "How to connect SumUp to FoodTracks?" },
+        answer: { fr: "Dans FoodTracks, allez dans Paramètres > Intégrations > SumUp, cliquez 'Connecter', autorisez l'accès OAuth, et c'est fait. Toutes vos ventes carte se synchronisent automatiquement en temps réel.", en: "In FoodTracks, go to Settings > Integrations > SumUp, click 'Connect', authorize OAuth access, and you're done. All card sales sync automatically in real-time." },
+      },
+      {
+        question: { fr: "FoodTracks fonctionne-t-il avec SumUp ?", en: "Does FoodTracks work with SumUp?" },
+        answer: { fr: "Oui, FoodTracks a une intégration native avec SumUp. Les transactions carte sont synchronisées en temps réel, permettant le suivi automatique du CA, le calcul des marges et les prédictions de ventes.", en: "Yes, FoodTracks has a native SumUp integration. Card transactions are synced in real-time, enabling automatic revenue tracking, margin calculation, and sales predictions." },
+      },
+    ],
   },
 ];
 

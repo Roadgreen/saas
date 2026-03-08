@@ -156,6 +156,25 @@ export default async function LocaleLayout({ children, params }: { children: Rea
       ratingValue: '4.8',
       ratingCount: '150',
     },
+    featureList: locale === 'fr'
+      ? 'Prédictions IA, Suivi de stock en temps réel, Scan de factures, Intégration SumUp, Analyse des marges, Multi-emplacements'
+      : 'AI Predictions, Real-time stock tracking, Invoice scanning, SumUp integration, Margin analytics, Multi-location',
+    screenshot: `${BASE_URL}/dashboardfr.jpg`,
+  };
+
+  const speakableJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'WebPage',
+    name: locale === 'fr' ? 'FoodTracks — Gestion de stock pour food trucks' : 'FoodTracks — Inventory management for food trucks',
+    speakable: {
+      '@type': 'SpeakableSpecification',
+      cssSelector: ['h1', 'h2', '.hero-description'],
+    },
+    url: `${BASE_URL}/${locale}`,
+    mainEntity: {
+      '@type': 'SoftwareApplication',
+      name: 'FoodTracks',
+    },
   };
 
   return (
@@ -165,6 +184,8 @@ export default async function LocaleLayout({ children, params }: { children: Rea
           rel="stylesheet"
           href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
         />
+        <link rel="alternate" type="text/plain" href="/llms.txt" title="LLMs.txt — AI-readable site summary" />
+        <link rel="alternate" type="text/plain" href="/llms-full.txt" title="LLMs-full.txt — Complete AI reference" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }}
@@ -176,6 +197,10 @@ export default async function LocaleLayout({ children, params }: { children: Rea
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableJsonLd) }}
         />
       </head>
       <body className={`${poppins.className} ${jakarta.variable} font-sans antialiased`}>

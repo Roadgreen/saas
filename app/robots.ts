@@ -10,12 +10,42 @@ export default function robots(): MetadataRoute.Robots {
       },
       {
         userAgent: 'GPTBot',
-        allow: ['/', '/fr/blog/', '/en/blog/'],
+        allow: ['/', '/fr/blog/', '/en/blog/', '/llms.txt', '/llms-full.txt'],
+        disallow: ['/api/', '/dashboard/'],
+      },
+      {
+        userAgent: 'ChatGPT-User',
+        allow: ['/', '/fr/blog/', '/en/blog/', '/llms.txt', '/llms-full.txt'],
+        disallow: ['/api/', '/dashboard/'],
+      },
+      {
+        userAgent: 'ClaudeBot',
+        allow: ['/', '/fr/blog/', '/en/blog/', '/llms.txt', '/llms-full.txt'],
+        disallow: ['/api/', '/dashboard/'],
+      },
+      {
+        userAgent: 'PerplexityBot',
+        allow: ['/', '/fr/blog/', '/en/blog/', '/llms.txt', '/llms-full.txt'],
         disallow: ['/api/', '/dashboard/'],
       },
       {
         userAgent: 'Google-Extended',
+        allow: ['/', '/fr/blog/', '/en/blog/', '/llms.txt', '/llms-full.txt'],
+      },
+      {
+        userAgent: 'Amazonbot',
         allow: ['/', '/fr/blog/', '/en/blog/'],
+        disallow: ['/api/', '/dashboard/'],
+      },
+      {
+        userAgent: 'anthropic-ai',
+        allow: ['/', '/fr/blog/', '/en/blog/', '/llms.txt', '/llms-full.txt'],
+        disallow: ['/api/', '/dashboard/'],
+      },
+      {
+        userAgent: 'cohere-ai',
+        allow: ['/', '/fr/blog/', '/en/blog/', '/llms.txt', '/llms-full.txt'],
+        disallow: ['/api/', '/dashboard/'],
       },
     ],
     sitemap: 'https://foodtracks.io/sitemap.xml',
