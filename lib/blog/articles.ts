@@ -6,6 +6,7 @@ export interface BlogArticle {
   date: string;
   readTime: number;
   keywords: string[];
+  heroImage: string;
   content: { fr: string; en: string };
 }
 
@@ -24,6 +25,7 @@ export const blogArticles: BlogArticle[] = [
     date: "2025-02-15",
     readTime: 12,
     keywords: ["gestion stock food truck", "inventaire food truck", "stock restaurant ambulant"],
+    heroImage: "/blog/gestion-stock.png",
     content: {
       fr: `## Pourquoi la gestion des stocks est cruciale en food truck
 
@@ -179,6 +181,7 @@ FoodTracks is designed specifically for food truck operators, with automatic inv
     date: "2025-02-10",
     readTime: 10,
     keywords: ["logiciel gestion food truck", "application food truck", "outil gestion restaurant ambulant"],
+    heroImage: "/blog/logiciel-gestion.png",
     content: {
       fr: `## Pourquoi un logiciel de gestion est indispensable en food truck
 
@@ -298,6 +301,7 @@ A tool adapted for food trucks must cover:
     date: "2025-02-05",
     readTime: 9,
     keywords: ["gaspillage alimentaire food truck", "réduire pertes food truck", "anti-gaspi restauration"],
+    heroImage: "/blog/gaspillage-alimentaire.png",
     content: {
       fr: `## Le gaspillage alimentaire : un fléau silencieux pour les food trucks
 
@@ -383,6 +387,7 @@ FoodTracks helps you implement all these strategies with automated invoice scann
     date: "2025-01-28",
     readTime: 15,
     keywords: ["ouvrir food truck", "créer food truck", "lancer food truck France", "guide food truck"],
+    heroImage: "/blog/ouvrir-food-truck.png",
     content: {
       fr: `## Ouvrir un food truck : le rêve devenu accessible
 
@@ -510,6 +515,7 @@ The food truck is one of the most dynamic restaurant models. With a lower initia
     date: "2025-01-20",
     readTime: 11,
     keywords: ["rentabilité food truck", "marge food truck", "augmenter bénéfices food truck"],
+    heroImage: "/blog/rentabilite.png",
     content: {
       fr: `## La rentabilité : le vrai défi du food truck
 
@@ -626,6 +632,7 @@ Key levers include knowing your true food cost (target under 30%), optimizing lo
     date: "2025-01-15",
     readTime: 13,
     keywords: ["réglementation food truck", "normes food truck France", "hygiène food truck", "autorisation food truck"],
+    heroImage: "/blog/reglementation.png",
     content: {
       fr: `## La réglementation food truck : un passage obligé
 
@@ -755,6 +762,7 @@ FoodTracks helps you stay compliant by automating traceability, invoice archivin
     date: "2025-01-10",
     readTime: 10,
     keywords: ["emplacement food truck", "où se placer food truck", "spot food truck rentable"],
+    heroImage: "/blog/meilleurs-emplacements.png",
     content: {
       fr: `## L'emplacement : le facteur n°1 de succès
 
@@ -852,6 +860,7 @@ FoodTracks automatically compares location profitability, identifies peak times,
     date: "2025-01-05",
     readTime: 7,
     keywords: ["scanner factures food truck", "automatiser gestion food truck", "OCR factures restauration"],
+    heroImage: "/blog/scanner-factures.png",
     content: {
       fr: `## La paperasse : l'ennemi n°1 du food trucker
 
@@ -953,6 +962,7 @@ You didn't start a food truck to spend evenings entering invoices into spreadshe
     date: "2024-12-28",
     readTime: 8,
     keywords: ["sumup food truck", "terminal paiement food truck", "suivi ventes food truck"],
+    heroImage: "/blog/connecter-sumup.png",
     content: {
       fr: `## SumUp : le terminal de paiement préféré des food trucks
 

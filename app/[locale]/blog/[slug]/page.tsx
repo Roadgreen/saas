@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
+import Image from 'next/image';
 import { ArrowLeft, Clock, Calendar, Tag } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { blogArticles, getArticleBySlug, getAllSlugs } from '@/lib/blog/articles';
@@ -44,12 +45,15 @@ export async function generateMetadata({
       type: 'article',
       publishedTime: article.date,
       authors: ['FoodTracks'],
-      images: [{ url: `${BASE_URL}/og-image.png`, width: 1200, height: 630 }],
+      images: article.heroImage
+        ? [{ url: `${BASE_URL}${article.heroImage}`, width: 1200, height: 630 }]
+        : [{ url: `${BASE_URL}/og-image.png`, width: 1200, height: 630 }],
     },
     twitter: {
       card: 'summary_large_image',
       title: `${title} | FoodTracks`,
       description,
+      images: article.heroImage ? [`${BASE_URL}${article.heroImage}`] : undefined,
     },
   };
 }
@@ -90,6 +94,7 @@ export default async function BlogArticlePage({
     },
     keywords: article.keywords.join(', '),
     inLanguage: locale,
+    ...(article.heroImage && { image: `${BASE_URL}${article.heroImage}` }),
   };
 
   const breadcrumbJsonLd = {
@@ -191,6 +196,22 @@ export default async function BlogArticlePage({
           </p>
         </header>
 
+        {/* Hero image */}
+        {article.heroImage && (
+          <div className="container mx-auto px-4 max-w-3xl pb-8">
+            <div className="rounded-2xl overflow-hidden shadow-lg">
+              <Image
+                src={article.heroImage}
+                alt={article.title[lang]}
+                width={1200}
+                height={675}
+                className="w-full h-auto object-cover"
+                priority
+              />
+            </div>
+          </div>
+        )}
+
         {/* Article content */}
         <article className="container mx-auto px-4 max-w-3xl pb-16">
           <div
@@ -236,16 +257,29 @@ export default async function BlogArticlePage({
             <div className="grid gap-6 md:grid-cols-3">
               {related.map((r) => (
                 <Link key={r.slug} href={`/${locale}/blog/${r.slug}`} className="group">
-                  <div className="bg-white rounded-xl p-6 border border-gray-100 hover:shadow-md transition-all h-full flex flex-col">
-                    <span className="text-xs font-medium px-2 py-1 rounded-full self-start mb-3" style={{ backgroundColor: '#FF6B3515', color: '#FF6B35' }}>
-                      {r.category[lang]}
-                    </span>
-                    <h3 className="font-semibold text-gray-900 group-hover:text-[#FF6B35] transition-colors line-clamp-2 mb-2">
-                      {r.title[lang]}
-                    </h3>
-                    <p className="text-sm text-gray-500 line-clamp-2 mt-auto">
-                      {r.excerpt[lang]}
-                    </p>
+                  <div className="bg-white rounded-xl overflow-hidden border border-gray-100 hover:shadow-md transition-all h-full flex flex-col">
+                    {r.heroImage && (
+                      <div className="relative h-40 overflow-hidden">
+                        <Image
+                          src={r.heroImage}
+                          alt={r.title[lang]}
+                          fill
+                          className="object-cover group-hover:scale-105 transition-transform duration-300"
+                          sizes="(max-width: 768px) 100vw, 33vw"
+                        />
+                      </div>
+                    )}
+                    <div className="p-6 flex flex-col flex-1">
+                      <span className="text-xs font-medium px-2 py-1 rounded-full self-start mb-3" style={{ backgroundColor: '#FF6B3515', color: '#FF6B35' }}>
+                        {r.category[lang]}
+                      </span>
+                      <h3 className="font-semibold text-gray-900 group-hover:text-[#FF6B35] transition-colors line-clamp-2 mb-2">
+                        {r.title[lang]}
+                      </h3>
+                      <p className="text-sm text-gray-500 line-clamp-2 mt-auto">
+                        {r.excerpt[lang]}
+                      </p>
+                    </div>
                   </div>
                 </Link>
               ))}

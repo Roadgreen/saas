@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import Image from 'next/image';
 import { ArrowLeft, Clock, Tag } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { blogArticles } from '@/lib/blog/articles';
@@ -134,39 +135,52 @@ export default async function BlogPage({
                 href={`/${locale}/blog/${article.slug}`}
                 className="group"
               >
-                <div className="bg-white rounded-xl p-6 border border-gray-100 hover:shadow-lg hover:border-gray-200 transition-all h-full flex flex-col">
-                  <div className="flex items-center gap-3 mb-3">
-                    <span
-                      className="text-xs font-medium px-2.5 py-1 rounded-full"
-                      style={{ backgroundColor: '#FF6B3515', color: '#FF6B35' }}
-                    >
-                      <Tag className="h-3 w-3 inline mr-1" />
-                      {article.category[lang]}
-                    </span>
-                    <span className="text-xs text-gray-400 flex items-center gap-1">
-                      <Clock className="h-3 w-3" />
-                      {article.readTime} min
-                    </span>
-                  </div>
+                <div className="bg-white rounded-xl overflow-hidden border border-gray-100 hover:shadow-lg hover:border-gray-200 transition-all h-full flex flex-col">
+                  {article.heroImage && (
+                    <div className="relative h-48 overflow-hidden">
+                      <Image
+                        src={article.heroImage}
+                        alt={article.title[lang]}
+                        fill
+                        className="object-cover group-hover:scale-105 transition-transform duration-300"
+                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                      />
+                    </div>
+                  )}
+                  <div className="p-6 flex flex-col flex-1">
+                    <div className="flex items-center gap-3 mb-3">
+                      <span
+                        className="text-xs font-medium px-2.5 py-1 rounded-full"
+                        style={{ backgroundColor: '#FF6B3515', color: '#FF6B35' }}
+                      >
+                        <Tag className="h-3 w-3 inline mr-1" />
+                        {article.category[lang]}
+                      </span>
+                      <span className="text-xs text-gray-400 flex items-center gap-1">
+                        <Clock className="h-3 w-3" />
+                        {article.readTime} min
+                      </span>
+                    </div>
 
-                  <h2 className="font-semibold text-gray-900 group-hover:text-[#FF6B35] transition-colors line-clamp-2 mb-2 text-lg">
-                    {article.title[lang]}
-                  </h2>
+                    <h2 className="font-semibold text-gray-900 group-hover:text-[#FF6B35] transition-colors line-clamp-2 mb-2 text-lg">
+                      {article.title[lang]}
+                    </h2>
 
-                  <p className="text-sm text-gray-500 line-clamp-3 mb-4 flex-1">
-                    {article.excerpt[lang]}
-                  </p>
+                    <p className="text-sm text-gray-500 line-clamp-3 mb-4 flex-1">
+                      {article.excerpt[lang]}
+                    </p>
 
-                  <div className="flex items-center justify-between mt-auto pt-3 border-t border-gray-50">
-                    <span className="text-xs text-gray-400">
-                      {new Date(article.date).toLocaleDateString(
-                        isFr ? 'fr-FR' : 'en-US',
-                        { year: 'numeric', month: 'short', day: 'numeric' }
-                      )}
-                    </span>
-                    <span className="text-sm font-medium text-[#FF6B35] group-hover:underline">
-                      {isFr ? 'Lire →' : 'Read →'}
-                    </span>
+                    <div className="flex items-center justify-between mt-auto pt-3 border-t border-gray-50">
+                      <span className="text-xs text-gray-400">
+                        {new Date(article.date).toLocaleDateString(
+                          isFr ? 'fr-FR' : 'en-US',
+                          { year: 'numeric', month: 'short', day: 'numeric' }
+                        )}
+                      </span>
+                      <span className="text-sm font-medium text-[#FF6B35] group-hover:underline">
+                        {isFr ? 'Lire →' : 'Read →'}
+                      </span>
+                    </div>
                   </div>
                 </div>
               </Link>
