@@ -13,7 +13,7 @@ import {
   TrendingUp, Flame, UserPlus,
   XCircle, Package, ScanLine, BarChart3, Clock, Zap,
   ChevronDown, ChefHat, CreditCard, Smartphone, Monitor, FileText,
-  ArrowRight, RefreshCw,
+  ArrowRight, RefreshCw, Shield, Star, Quote, X as XIcon,
 } from "lucide-react";
 
 /* ─── Animated progress bar ─── */
@@ -376,6 +376,28 @@ export default function Home() {
                 {t('integrations.pdf')}
               </span>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ══════════════════════════════════════
+          TRUST BADGES — security & compliance
+          ══════════════════════════════════════ */}
+      <section className="py-4" style={{ backgroundColor: '#FAFAF8' }}>
+        <div className="container mx-auto px-5 sm:px-8 lg:px-14">
+          <div className="flex flex-wrap items-center justify-center gap-6 sm:gap-8">
+            {[
+              { icon: <Shield className="h-4 w-4" />, label: t('trust.gdpr') },
+              { icon: <span className="text-sm">🇫🇷</span>, label: t('trust.madeInFrance') },
+              { icon: <Shield className="h-4 w-4" />, label: t('trust.ssl') },
+              { icon: <Shield className="h-4 w-4" />, label: t('trust.servers') },
+              { icon: <CheckCircle2 className="h-4 w-4" />, label: t('trust.noCommitment') },
+            ].map(({ icon, label }) => (
+              <div key={label} className="flex items-center gap-2 text-xs font-medium" style={{ color: '#78716C' }}>
+                <span style={{ color: '#A8A29E' }}>{icon}</span>
+                {label}
+              </div>
+            ))}
           </div>
         </div>
       </section>
@@ -946,6 +968,126 @@ export default function Home() {
       </section>
 
       {/* ══════════════════════════════════════
+          TESTIMONIALS — social proof
+          ══════════════════════════════════════ */}
+      <section style={{ backgroundColor: LIGHT }} className="py-16 md:py-24">
+        <div className="container mx-auto px-5 sm:px-8 lg:px-14">
+          <AnimatedSection className="text-center max-w-3xl mx-auto mb-14">
+            <h2 className="font-jakarta text-3xl md:text-4xl font-bold mb-4 text-gray-900">
+              {t('testimonials.title')}
+            </h2>
+            <p className="text-lg text-gray-500 leading-relaxed">{t('testimonials.subtitle')}</p>
+          </AnimatedSection>
+
+          <StaggerContainer className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+            {(['t1', 't2', 't3'] as const).map((key) => (
+              <StaggerItem key={key}>
+                <div className="rounded-2xl p-7 h-full bg-white relative" style={{ border: '1px solid #E5E0DB' }}>
+                  <Quote className="h-8 w-8 mb-4" style={{ color: 'rgba(249,115,22,0.2)' }} />
+                  <p className="text-sm text-gray-600 leading-relaxed mb-6 italic">
+                    &ldquo;{t(`testimonials.${key}.quote`)}&rdquo;
+                  </p>
+                  <div className="flex items-center gap-3 mb-4">
+                    <div
+                      className="w-10 h-10 rounded-full flex items-center justify-center font-bold text-sm text-white"
+                      style={{ backgroundColor: ORANGE }}
+                    >
+                      {t(`testimonials.${key}.name`).charAt(0)}
+                    </div>
+                    <div>
+                      <p className="font-semibold text-gray-900 text-sm">{t(`testimonials.${key}.name`)}</p>
+                      <p className="text-xs text-gray-500">{t(`testimonials.${key}.role`)}</p>
+                    </div>
+                  </div>
+                  <div
+                    className="rounded-xl px-4 py-3 text-center"
+                    style={{ backgroundColor: 'rgba(249,115,22,0.06)', border: '1px solid rgba(249,115,22,0.12)' }}
+                  >
+                    <div className="font-jakarta text-2xl font-extrabold" style={{ color: ORANGE }}>
+                      {t(`testimonials.${key}.stat`)}
+                    </div>
+                    <div className="text-xs text-gray-500">{t(`testimonials.${key}.statLabel`)}</div>
+                  </div>
+                </div>
+              </StaggerItem>
+            ))}
+          </StaggerContainer>
+
+          {/* Star rating */}
+          <AnimatedSection delay={0.3}>
+            <div className="flex items-center justify-center gap-2 mt-10">
+              <div className="flex gap-0.5">
+                {[1, 2, 3, 4, 5].map((i) => (
+                  <Star key={i} className="h-5 w-5 fill-current" style={{ color: '#F59E0B' }} />
+                ))}
+              </div>
+              <span className="text-sm font-semibold text-gray-700">4.8/5</span>
+              <span className="text-sm text-gray-500">— 150+ food truckers</span>
+            </div>
+          </AnimatedSection>
+        </div>
+      </section>
+
+      {/* ══════════════════════════════════════
+          BEFORE / AFTER — conversion booster
+          ══════════════════════════════════════ */}
+      <section className="py-16 md:py-24 bg-white">
+        <div className="container mx-auto px-5 sm:px-8 lg:px-14">
+          <AnimatedSection className="text-center max-w-3xl mx-auto mb-14">
+            <h2 className="font-jakarta text-3xl md:text-4xl font-bold mb-4 text-gray-900">
+              {t('beforeAfter.title')}
+            </h2>
+            <p className="text-lg text-gray-500 leading-relaxed">{t('beforeAfter.subtitle')}</p>
+          </AnimatedSection>
+
+          <div className="max-w-3xl mx-auto">
+            {/* Headers */}
+            <div className="grid grid-cols-2 gap-4 mb-4">
+              <div className="rounded-xl px-4 py-3 text-center" style={{ backgroundColor: '#FFF5F5', border: '1px solid #FED7D7' }}>
+                <span className="font-bold text-red-700 text-sm">{t('beforeAfter.before')}</span>
+              </div>
+              <div className="rounded-xl px-4 py-3 text-center" style={{ backgroundColor: '#F0FDF4', border: '1px solid #BBF7D0' }}>
+                <span className="font-bold text-green-700 text-sm">{t('beforeAfter.after')}</span>
+              </div>
+            </div>
+
+            {/* Rows */}
+            <div className="space-y-3">
+              {[1, 2, 3, 4, 5].map((i) => (
+                <AnimatedSection key={i} delay={i * 0.08}>
+                  <div className="grid grid-cols-2 gap-4">
+                    <div className="rounded-xl px-4 py-3.5 flex items-start gap-2.5" style={{ backgroundColor: '#FFFBFB', border: '1px solid #FEE2E2' }}>
+                      <XCircle className="h-4 w-4 text-red-400 mt-0.5 flex-shrink-0" />
+                      <span className="text-sm text-gray-600">{t(`beforeAfter.b${i}`)}</span>
+                    </div>
+                    <div className="rounded-xl px-4 py-3.5 flex items-start gap-2.5" style={{ backgroundColor: '#F8FFF8', border: '1px solid #D1FAE5' }}>
+                      <CheckCircle2 className="h-4 w-4 text-green-500 mt-0.5 flex-shrink-0" />
+                      <span className="text-sm text-gray-700 font-medium">{t(`beforeAfter.a${i}`)}</span>
+                    </div>
+                  </div>
+                </AnimatedSection>
+              ))}
+            </div>
+
+            {/* CTA under comparison */}
+            <AnimatedSection delay={0.5}>
+              <div className="text-center mt-10">
+                <Link href={`/${locale}/register?plan=PRO`}>
+                  <button
+                    className="btn-landing btn-cta-primary btn-shimmer inline-flex items-center gap-2 rounded-xl font-bold px-8 py-3.5 text-white"
+                    style={{ backgroundColor: ORANGE, boxShadow: '0 8px 24px -4px rgba(249,115,22,0.45)' }}
+                  >
+                    {t('hero.ctaPrimary')}
+                    <ArrowRight className="h-4 w-4" />
+                  </button>
+                </Link>
+              </div>
+            </AnimatedSection>
+          </div>
+        </div>
+      </section>
+
+      {/* ══════════════════════════════════════
           STATS STRIP — near-black, big numbers
           ══════════════════════════════════════ */}
       <section className="py-14" style={{ backgroundColor: '#090604' }}>
@@ -1225,6 +1367,30 @@ export default function Home() {
           </div>
         </div>
       </footer>
+      {/* ══════════════════════════════════════
+          STICKY MOBILE CTA
+          ══════════════════════════════════════ */}
+      <div
+        className="fixed bottom-0 left-0 right-0 z-50 md:hidden"
+        style={{
+          background: 'linear-gradient(to top, rgba(13,9,5,0.98) 70%, transparent)',
+          paddingTop: '24px',
+        }}
+      >
+        <div className="px-4 pb-4 pt-1">
+          <Link href={`/${locale}/register?plan=PRO`} className="block">
+            <button
+              className="btn-landing btn-cta-primary btn-shimmer w-full rounded-xl font-bold py-3.5 text-white text-sm flex items-center justify-center gap-2"
+              style={{ backgroundColor: ORANGE, boxShadow: '0 -4px 24px rgba(249,115,22,0.4)' }}
+            >
+              {t('stickyCtaMobile')}
+            </button>
+          </Link>
+          <p className="text-center text-[11px] mt-2" style={{ color: '#6B7280' }}>
+            {t('hero.noCreditCard')}
+          </p>
+        </div>
+      </div>
     </main>
   );
 }

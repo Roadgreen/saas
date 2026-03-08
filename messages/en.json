@@ -347,6 +347,55 @@
             "tpe": "Mobile POS",
             "pdf": "PDF Invoices"
         },
+        "testimonials": {
+            "title": "Trusted by food truck owners daily",
+            "subtitle": "Real food truckers share their experience with FoodTracks.",
+            "t1": {
+                "quote": "Since using FoodTracks, I waste 40% less. The AI tells me exactly how many crêpes to prep based on the day and location.",
+                "name": "Marie D.",
+                "role": "Mobile crêperie, Rennes",
+                "stat": "-40%",
+                "statLabel": "food waste"
+            },
+            "t2": {
+                "quote": "The SumUp connection changed my life. No more copying sales manually — everything syncs in real time.",
+                "name": "Karim B.",
+                "role": "Tacos & Kebab, Lyon",
+                "stat": "2h",
+                "statLabel": "saved daily"
+            },
+            "t3": {
+                "quote": "In 3 weeks, I found my veggie burger had a 68% margin vs 32% for the classic. I adjusted my menu accordingly.",
+                "name": "Sophie L.",
+                "role": "Burgers & Co, Bordeaux",
+                "stat": "+25%",
+                "statLabel": "margin increase"
+            }
+        },
+        "trust": {
+            "gdpr": "GDPR Compliant",
+            "madeInFrance": "Made in France",
+            "ssl": "SSL Encrypted",
+            "servers": "European Servers",
+            "noCommitment": "No commitment"
+        },
+        "beforeAfter": {
+            "title": "Before vs after FoodTracks",
+            "subtitle": "What actually changes in your daily routine.",
+            "before": "Before",
+            "after": "With FoodTracks",
+            "b1": "You guess quantities every morning",
+            "a1": "AI tells you exactly what to prep",
+            "b2": "You manually copy SumUp sales",
+            "a2": "Auto-sync, stock updated in real time",
+            "b3": "You discover shortages mid-service",
+            "a3": "Low stock alerts before service starts",
+            "b4": "You don't know your real margins",
+            "a4": "Dashboard with margin per dish, day & spot",
+            "b5": "You prep the same regardless of location",
+            "a5": "Forecasts adjusted by location and day"
+        },
+        "stickyCtaMobile": "Free 14-day trial →",
         "sumupSection": {
             "title": "Your SumUp payments, inside FoodTracks",
             "subtitle": "Connect your SumUp terminal and sync transactions automatically — recipes matched, stock deducted in real time.",

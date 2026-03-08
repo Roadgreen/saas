@@ -347,6 +347,55 @@
             "tpe": "TPE mobile",
             "pdf": "Factures PDF"
         },
+        "testimonials": {
+            "title": "Ils utilisent FoodTracks au quotidien",
+            "subtitle": "Des food truckers comme toi partagent leur expérience.",
+            "t1": {
+                "quote": "Depuis que j'utilise FoodTracks, je gaspille 40% de moins. L'IA me dit exactement combien de crêpes préparer selon le jour et l'emplacement.",
+                "name": "Marie D.",
+                "role": "Crêperie ambulante, Rennes",
+                "stat": "-40%",
+                "statLabel": "de gaspillage"
+            },
+            "t2": {
+                "quote": "La connexion SumUp a changé ma vie. Plus besoin de recopier les ventes manuellement, tout est synchronisé en temps réel.",
+                "name": "Karim B.",
+                "role": "Tacos & Kebab, Lyon",
+                "stat": "2h",
+                "statLabel": "gagnées/jour"
+            },
+            "t3": {
+                "quote": "En 3 semaines, j'ai identifié que mon burger végétarien avait une marge de 68% contre 32% pour le classique. J'ai adapté mon menu.",
+                "name": "Sophie L.",
+                "role": "Burgers & Co, Bordeaux",
+                "stat": "+25%",
+                "statLabel": "de marge"
+            }
+        },
+        "trust": {
+            "gdpr": "Conforme RGPD",
+            "madeInFrance": "Conçu en France",
+            "ssl": "Chiffrement SSL",
+            "servers": "Serveurs européens",
+            "noCommitment": "Sans engagement"
+        },
+        "beforeAfter": {
+            "title": "Avant vs après FoodTracks",
+            "subtitle": "Ce qui change concrètement dans ton quotidien.",
+            "before": "Avant",
+            "after": "Avec FoodTracks",
+            "b1": "Tu devines les quantités chaque matin",
+            "a1": "L'IA te dit exactement quoi préparer",
+            "b2": "Tu recopies tes ventes SumUp à la main",
+            "a2": "Sync automatique, stock mis à jour en temps réel",
+            "b3": "Tu découvres les ruptures en plein service",
+            "a3": "Alertes stock bas avant le début du service",
+            "b4": "Tu ne connais pas tes vraies marges",
+            "a4": "Dashboard avec marge par plat, par jour, par spot",
+            "b5": "Tu prépares pareil quel que soit l'emplacement",
+            "a5": "Prévisions ajustées par emplacement et jour"
+        },
+        "stickyCtaMobile": "Essai gratuit 14 jours →",
         "sumupSection": {
             "title": "Vos paiements SumUp, dans FoodTracks",
             "subtitle": "Connectez votre terminal SumUp et synchronisez automatiquement vos transactions — recettes matchées, stock déduit en temps réel.",
