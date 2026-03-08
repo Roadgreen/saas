@@ -1,4 +1,5 @@
 import type { MetadataRoute } from 'next';
+import { blogArticles } from '@/lib/blog/articles';
 
 const BASE_URL = 'https://foodtracks.io';
 
@@ -22,6 +23,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
         lastModified: new Date(),
         changeFrequency: route.changeFrequency,
         priority: route.priority,
+      });
+    }
+  }
+
+  // Blog articles
+  for (const locale of locales) {
+    for (const article of blogArticles) {
+      entries.push({
+        url: `${BASE_URL}/${locale}/blog/${article.slug}`,
+        lastModified: new Date(article.date),
+        changeFrequency: 'monthly',
+        priority: 0.6,
       });
     }
   }
