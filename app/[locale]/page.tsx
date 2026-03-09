@@ -469,7 +469,7 @@ export default function Home() {
       </section>
 
       {/* ══════════════════════════════════════
-          HOW IT WORKS — dark, 3 steps
+          HOW IT WORKS — dark, 4 steps with connecting lines
           ══════════════════════════════════════ */}
       <section id="comment-ca-marche" className="py-16 md:py-24 relative" style={{ backgroundColor: DARK }}>
         <div className="absolute inset-0 bg-dot-grid pointer-events-none opacity-25" />
@@ -483,81 +483,118 @@ export default function Home() {
             </p>
           </AnimatedSection>
 
-          <StaggerContainer className="grid md:grid-cols-3 gap-5 max-w-5xl mx-auto">
-            {/* Step 1 */}
+          <StaggerContainer className="relative grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-5 max-w-6xl mx-auto">
+            {/* Connecting line on desktop */}
+            <div
+              className="hidden md:block absolute top-16 left-[12.5%] right-[12.5%] h-0.5"
+              style={{ background: `linear-gradient(to right, ${ORANGE}, ${ORANGE}, ${TEAL}, ${TEAL})`, opacity: 0.3 }}
+            />
+
+            {/* Step 1 — Scanner */}
             <StaggerItem>
-              <div
-                className="rounded-2xl p-7 space-y-4 h-full"
-                style={{ backgroundColor: 'rgba(255,255,255,0.04)', border: '1px solid rgba(255,255,255,0.08)' }}
-              >
+              <div className="relative flex flex-col items-center text-center space-y-5">
                 <div
-                  className="w-10 h-10 rounded-full flex items-center justify-center font-bold text-sm text-white"
-                  style={{ backgroundColor: ORANGE }}
+                  className="relative z-10 w-14 h-14 rounded-full flex items-center justify-center font-bold text-lg text-white shadow-lg"
+                  style={{ backgroundColor: ORANGE, boxShadow: `0 0 24px rgba(249,115,22,0.35)` }}
                 >
                   1
                 </div>
-                <div className="p-2.5 rounded-lg w-fit" style={{ backgroundColor: 'rgba(249,115,22,0.15)' }}>
-                  <UserPlus className="h-6 w-6" style={{ color: ORANGE }} />
-                </div>
-                <h3 className="font-jakarta text-lg font-bold text-white">{t('howItWorks.step1Title')}</h3>
-                <p className="text-sm leading-relaxed" style={{ color: '#6B7280' }}>{t('howItWorks.step1Desc')}</p>
-              </div>
-            </StaggerItem>
-
-            {/* Step 2 — barcode scanner photo */}
-            <StaggerItem>
-              <div
-                className="rounded-2xl overflow-hidden h-full"
-                style={{ border: '1px solid rgba(255,255,255,0.08)' }}
-              >
-                <div className="relative h-44">
-                  <Image
-                    src="/smartphone-with-barcode-scanner-for-restaurant-inv.jpg"
-                    alt="Scanning inventory with phone"
-                    fill
-                    className="object-cover object-center"
-                  />
-                  <div
-                    className="absolute inset-0"
-                    style={{ background: 'linear-gradient(to bottom, transparent 40%, rgba(13,9,5,0.92) 100%)' }}
-                  />
-                  <div
-                    className="absolute top-3 left-3 w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm text-white"
-                    style={{ backgroundColor: ORANGE }}
-                  >
-                    2
-                  </div>
-                </div>
-                <div className="p-7 space-y-3" style={{ backgroundColor: 'rgba(255,255,255,0.04)' }}>
-                  <div className="p-2.5 rounded-lg w-fit" style={{ backgroundColor: 'rgba(249,115,22,0.15)' }}>
-                    <ScanLine className="h-6 w-6" style={{ color: ORANGE }} />
-                  </div>
-                  <h3 className="font-jakarta text-lg font-bold text-white">{t('howItWorks.step2Title')}</h3>
-                  <p className="text-sm leading-relaxed" style={{ color: '#6B7280' }}>{t('howItWorks.step2Desc')}</p>
-                </div>
-              </div>
-            </StaggerItem>
-
-            {/* Step 3 */}
-            <StaggerItem>
-              <div
-                className="rounded-2xl p-7 space-y-4 h-full"
-                style={{ backgroundColor: 'rgba(255,255,255,0.04)', border: '1px solid rgba(255,255,255,0.08)' }}
-              >
                 <div
-                  className="w-10 h-10 rounded-full flex items-center justify-center font-bold text-sm text-white"
-                  style={{ backgroundColor: TEAL }}
+                  className="p-4 rounded-2xl"
+                  style={{ backgroundColor: 'rgba(249,115,22,0.12)', border: '1px solid rgba(249,115,22,0.2)' }}
+                >
+                  <ScanLine className="h-10 w-10" style={{ color: ORANGE }} />
+                </div>
+                <h3 className="font-jakarta text-xl font-bold text-white">{t('howItWorks.step1Title')}</h3>
+                <p className="text-sm leading-relaxed max-w-[220px]" style={{ color: '#9CA3AF' }}>{t('howItWorks.step1Desc')}</p>
+                {/* Mobile arrow */}
+                <div className="md:hidden flex justify-center pt-2">
+                  <ArrowRight className="h-5 w-5 rotate-90" style={{ color: 'rgba(249,115,22,0.5)' }} />
+                </div>
+              </div>
+            </StaggerItem>
+
+            {/* Step 2 — Analyser */}
+            <StaggerItem>
+              <div className="relative flex flex-col items-center text-center space-y-5">
+                <div
+                  className="relative z-10 w-14 h-14 rounded-full flex items-center justify-center font-bold text-lg text-white shadow-lg"
+                  style={{ backgroundColor: ORANGE, boxShadow: `0 0 24px rgba(249,115,22,0.35)` }}
+                >
+                  2
+                </div>
+                <div
+                  className="p-4 rounded-2xl"
+                  style={{ backgroundColor: 'rgba(249,115,22,0.12)', border: '1px solid rgba(249,115,22,0.2)' }}
+                >
+                  <BarChart3 className="h-10 w-10" style={{ color: ORANGE }} />
+                </div>
+                <h3 className="font-jakarta text-xl font-bold text-white">{t('howItWorks.step2Title')}</h3>
+                <p className="text-sm leading-relaxed max-w-[220px]" style={{ color: '#9CA3AF' }}>{t('howItWorks.step2Desc')}</p>
+                {/* Mobile arrow */}
+                <div className="md:hidden flex justify-center pt-2">
+                  <ArrowRight className="h-5 w-5 rotate-90" style={{ color: 'rgba(249,115,22,0.5)' }} />
+                </div>
+              </div>
+            </StaggerItem>
+
+            {/* Step 3 — Prédire */}
+            <StaggerItem>
+              <div className="relative flex flex-col items-center text-center space-y-5">
+                <div
+                  className="relative z-10 w-14 h-14 rounded-full flex items-center justify-center font-bold text-lg text-white shadow-lg"
+                  style={{ backgroundColor: TEAL, boxShadow: `0 0 24px rgba(20,184,166,0.35)` }}
                 >
                   3
                 </div>
-                <div className="p-2.5 rounded-lg w-fit" style={{ backgroundColor: 'rgba(20,184,166,0.15)' }}>
-                  <TrendingUp className="h-6 w-6" style={{ color: TEAL }} />
+                <div
+                  className="p-4 rounded-2xl"
+                  style={{ backgroundColor: 'rgba(20,184,166,0.12)', border: '1px solid rgba(20,184,166,0.2)' }}
+                >
+                  <TrendingUp className="h-10 w-10" style={{ color: TEAL }} />
                 </div>
-                <h3 className="font-jakarta text-lg font-bold text-white">{t('howItWorks.step3Title')}</h3>
-                <p className="text-sm leading-relaxed" style={{ color: '#6B7280' }}>{t('howItWorks.step3Desc')}</p>
+                <h3 className="font-jakarta text-xl font-bold text-white">{t('howItWorks.step3Title')}</h3>
+                <p className="text-sm leading-relaxed max-w-[220px]" style={{ color: '#9CA3AF' }}>{t('howItWorks.step3Desc')}</p>
+                {/* Mobile arrow */}
+                <div className="md:hidden flex justify-center pt-2">
+                  <ArrowRight className="h-5 w-5 rotate-90" style={{ color: 'rgba(20,184,166,0.5)' }} />
+                </div>
+              </div>
+            </StaggerItem>
+
+            {/* Step 4 — Optimiser */}
+            <StaggerItem>
+              <div className="relative flex flex-col items-center text-center space-y-5">
+                <div
+                  className="relative z-10 w-14 h-14 rounded-full flex items-center justify-center font-bold text-lg text-white shadow-lg"
+                  style={{ backgroundColor: TEAL, boxShadow: `0 0 24px rgba(20,184,166,0.35)` }}
+                >
+                  4
+                </div>
+                <div
+                  className="p-4 rounded-2xl"
+                  style={{ backgroundColor: 'rgba(20,184,166,0.12)', border: '1px solid rgba(20,184,166,0.2)' }}
+                >
+                  <Zap className="h-10 w-10" style={{ color: TEAL }} />
+                </div>
+                <h3 className="font-jakarta text-xl font-bold text-white">{t('howItWorks.step4Title')}</h3>
+                <p className="text-sm leading-relaxed max-w-[220px]" style={{ color: '#9CA3AF' }}>{t('howItWorks.step4Desc')}</p>
               </div>
             </StaggerItem>
           </StaggerContainer>
+
+          {/* CTA button */}
+          <AnimatedSection className="text-center mt-14">
+            <Link href={`/${locale}/comment-ca-marche`}>
+              <button
+                className="btn-landing inline-flex items-center justify-center gap-2 rounded-xl font-semibold px-8 py-3.5 border transition-colors duration-200"
+                style={{ borderColor: 'rgba(249,115,22,0.4)', color: ORANGE, backgroundColor: 'rgba(249,115,22,0.08)' }}
+              >
+                {t('howItWorks.cta')}
+                <ArrowRight className="h-4 w-4" />
+              </button>
+            </Link>
+          </AnimatedSection>
         </div>
       </section>
 
@@ -1336,7 +1373,7 @@ export default function Home() {
               <ul className="space-y-2.5 text-sm" style={{ color: '#4B5563' }}>
                 <li><a href="#fonctionnalites" className="hover:text-gray-300 transition-colors">{t('footer.features')}</a></li>
                 <li><Link href={`/${locale}/pricing`} className="hover:text-gray-300 transition-colors">{t('footer.pricing')}</Link></li>
-                <li><a href="#" className="hover:text-gray-300 transition-colors">{t('footer.security')}</a></li>
+                <li><Link href={`/${locale}/security`} className="hover:text-gray-300 transition-colors">{t('footer.security')}</Link></li>
               </ul>
             </div>
 
@@ -1344,8 +1381,8 @@ export default function Home() {
               <h4 className="text-sm font-semibold mb-4" style={{ color: '#D1D5DB' }}>{t('footer.resources')}</h4>
               <ul className="space-y-2.5 text-sm" style={{ color: '#4B5563' }}>
                 <li><Link href={`/${locale}/blog`} className="hover:text-gray-300 transition-colors">{t('footer.blog')}</Link></li>
-                <li><a href="#" className="hover:text-gray-300 transition-colors">{t('footer.guides')}</a></li>
-                <li><a href="#" className="hover:text-gray-300 transition-colors">{t('footer.support')}</a></li>
+                <li><Link href={`/${locale}/guides`} className="hover:text-gray-300 transition-colors">{t('footer.guides')}</Link></li>
+                <li><Link href={`/${locale}/support`} className="hover:text-gray-300 transition-colors">{t('footer.support')}</Link></li>
               </ul>
             </div>
 
