@@ -41,3 +41,10 @@ yarn-error.log*
 next-env.d.ts
 
 /lib/generated/prisma
+
+# Capacitor native builds
+/ios/App/App/public
+/android/app/src/main/assets/public
+ios/App/Pods
+android/.gradle
+android/app/build

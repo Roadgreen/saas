@@ -6,6 +6,7 @@ import { getMessages } from "next-intl/server";
 import { Toaster } from "@/components/ui/sonner";
 import { SessionProvider } from "next-auth/react";
 import { AnalyticsProvider } from "@/components/providers/AnalyticsProvider";
+import { NativeProvider } from "@/components/providers/NativeProvider";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -206,10 +207,12 @@ export default async function LocaleLayout({ children, params }: { children: Rea
       <body className={`${poppins.className} ${jakarta.variable} font-sans antialiased`}>
         <NextIntlClientProvider messages={messages}>
           <SessionProvider>
-            <AnalyticsProvider locale={locale}>
-              {children}
-              <Toaster />
-            </AnalyticsProvider>
+            <NativeProvider>
+              <AnalyticsProvider locale={locale}>
+                {children}
+                <Toaster />
+              </AnalyticsProvider>
+            </NativeProvider>
           </SessionProvider>
         </NextIntlClientProvider>
       </body>
