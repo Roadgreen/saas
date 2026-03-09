@@ -1,11 +1,9 @@
-import type { CapacitorConfig } from '@capacitor/cli';
-
-const config: CapacitorConfig = {
+/** @type {import('@capacitor/cli').CapacitorConfig} */
+const config = {
   appId: 'io.foodtracks.app',
   appName: 'FoodTracks',
   webDir: 'out',
   server: {
-    // Load from Vercel in production — native shell + web app
     url: 'https://foodtracks.io',
     cleartext: false,
   },
@@ -21,7 +19,7 @@ const config: CapacitorConfig = {
       backgroundColor: '#16a34a',
     },
     Keyboard: {
-      resize: 'body' as any,
+      resize: 'body',
       resizeOnFullScreen: true,
     },
   },
@@ -37,4 +35,4 @@ const config: CapacitorConfig = {
   },
 };
 
-export default config;
+module.exports = config;
