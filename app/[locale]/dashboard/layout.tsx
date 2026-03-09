@@ -3,6 +3,7 @@ import { Sidebar } from "@/components/dashboard/sidebar";
 import { MobileNav } from "@/components/dashboard/mobile-nav";
 import { LocationProvider } from "@/components/providers/LocationProvider";
 import { EmailVerificationBanner } from "@/components/dashboard/EmailVerificationBanner";
+import { BottomNav } from "@/components/app/BottomNav";
 import { auth } from "@/auth";
 import { prisma } from "@/lib/prisma";
 
@@ -33,8 +34,8 @@ export default async function DashboardLayout({
     <LocationProvider>
       <div className="grid min-h-screen w-full bg-dashboard-grid md:grid-cols-[220px_1fr] lg:grid-cols-[280px_1fr]">
         <Sidebar />
-        <div className="flex flex-col">
-          <header className="flex h-14 items-center gap-4 glass-sidebar px-4 lg:h-[60px] lg:px-6 md:hidden">
+        <div className="flex flex-col has-bottom-nav md:!pb-0">
+          <header className="flex h-14 items-center gap-4 glass-sidebar safe-area-top px-4 lg:h-[60px] lg:px-6 md:hidden">
             <MobileNav />
             <div className="w-full flex-1">
               <span className="font-semibold text-white">FoodTracks</span>
@@ -48,6 +49,7 @@ export default async function DashboardLayout({
           </main>
         </div>
       </div>
+      <BottomNav />
     </LocationProvider>
   );
 }

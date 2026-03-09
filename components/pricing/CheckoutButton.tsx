@@ -59,7 +59,14 @@ export function CheckoutButton({
 
       const data = await res.json();
       if (data.url) {
-        window.location.href = data.url;
+        // On native app, open Stripe in external browser (avoids Apple 30% cut)
+        const { Capacitor } = await import('@capacitor/core');
+        if (Capacitor.isNativePlatform()) {
+          const { Browser } = await import('@capacitor/browser');
+          await Browser.open({ url: data.url });
+        } else {
+          window.location.href = data.url;
+        }
       }
     } finally {
       setLoading(false);
