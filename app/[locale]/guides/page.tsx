@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { ChefHat, BookOpen, ScanLine, BarChart3, TrendingUp, MapPin, CreditCard, Package } from 'lucide-react';
+import { ChefHat, BookOpen, ScanLine, BarChart3, TrendingUp, MapPin, CreditCard, Package, ArrowLeft } from 'lucide-react';
 
 const BASE_URL = 'https://foodtracks.io';
 
@@ -123,6 +123,11 @@ export default async function GuidesPage({ params }: { params: Promise<{ locale:
       </header>
 
       <main className="container mx-auto px-4 py-12 max-w-4xl">
+        <Link href={`/${locale}`} className="inline-flex items-center gap-2 text-sm text-gray-500 hover:text-orange-500 transition-colors mb-8">
+          <ArrowLeft className="h-4 w-4" />
+          {isFr ? 'Retour à l\'accueil' : 'Back to home'}
+        </Link>
+
         <div className="text-center mb-12">
           <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-orange-50 mb-6">
             <BookOpen className="h-8 w-8 text-orange-500" />
@@ -173,6 +178,13 @@ export default async function GuidesPage({ params }: { params: Promise<{ locale:
               : 'Need more help?'}
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
+            <Link
+              href={`/${locale}`}
+              className="inline-flex items-center justify-center gap-2 border border-gray-300 text-gray-700 px-6 py-3 rounded-lg font-semibold hover:bg-gray-50 transition-colors"
+            >
+              <ArrowLeft className="h-4 w-4" />
+              {isFr ? 'Retour à l\'accueil' : 'Back to home'}
+            </Link>
             <Link
               href={`/${locale}/blog`}
               className="inline-flex items-center justify-center gap-2 border border-orange-500 text-orange-500 px-6 py-3 rounded-lg font-semibold hover:bg-orange-50 transition-colors"

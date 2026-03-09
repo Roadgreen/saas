@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { ChefHat, Shield, Lock, Server, Eye, RefreshCw, CheckCircle2 } from 'lucide-react';
+import { ChefHat, Shield, Lock, Server, Eye, RefreshCw, CheckCircle2, ArrowLeft } from 'lucide-react';
 
 const BASE_URL = 'https://foodtracks.io';
 
@@ -111,6 +111,11 @@ export default async function SecurityPage({ params }: { params: Promise<{ local
       </header>
 
       <main className="container mx-auto px-4 py-12 max-w-4xl">
+        <Link href={`/${locale}`} className="inline-flex items-center gap-2 text-sm text-gray-500 hover:text-orange-500 transition-colors mb-8">
+          <ArrowLeft className="h-4 w-4" />
+          {isFr ? 'Retour à l\'accueil' : 'Back to home'}
+        </Link>
+
         <div className="text-center mb-12">
           <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-orange-50 mb-6">
             <Shield className="h-8 w-8 text-orange-500" />
@@ -170,12 +175,21 @@ export default async function SecurityPage({ params }: { params: Promise<{ local
               ? 'Une question sur la sécurité de vos données ?'
               : 'Questions about the security of your data?'}
           </p>
-          <a
-            href="mailto:contact@foodtracks.io"
-            className="inline-flex items-center gap-2 bg-orange-500 text-white px-6 py-3 rounded-lg font-semibold hover:bg-orange-600 transition-colors"
-          >
-            {isFr ? 'Contactez-nous' : 'Contact us'}
-          </a>
+          <div className="flex flex-col sm:flex-row gap-3 justify-center">
+            <Link
+              href={`/${locale}`}
+              className="inline-flex items-center justify-center gap-2 border border-orange-500 text-orange-500 px-6 py-3 rounded-lg font-semibold hover:bg-orange-50 transition-colors"
+            >
+              <ArrowLeft className="h-4 w-4" />
+              {isFr ? 'Retour à l\'accueil' : 'Back to home'}
+            </Link>
+            <a
+              href="mailto:contact@foodtracks.io"
+              className="inline-flex items-center gap-2 bg-orange-500 text-white px-6 py-3 rounded-lg font-semibold hover:bg-orange-600 transition-colors"
+            >
+              {isFr ? 'Contactez-nous' : 'Contact us'}
+            </a>
+          </div>
         </div>
       </main>
     </div>
