@@ -1,5 +1,4 @@
 import type { CapacitorConfig } from '@capacitor/cli';
-import { KeyboardResize } from '@capacitor/keyboard';
 
 const config: CapacitorConfig = {
   appId: 'io.foodtracks.app',
@@ -22,7 +21,7 @@ const config: CapacitorConfig = {
       backgroundColor: '#16a34a',
     },
     Keyboard: {
-      resize: KeyboardResize.Body,
+      resize: 'body' as any,
       resizeOnFullScreen: true,
     },
   },
