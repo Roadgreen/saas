@@ -115,12 +115,12 @@ export default async function Dashboard({
   const forecastDayLabel = tDays(nextOpenDayName as any);
 
   return (
-    <div className="flex-1 space-y-6">
+    <div className="flex-1 space-y-4 md:space-y-6">
       <div>
-        <h1 className="text-2xl font-bold tracking-tight">
+        <h1 className="text-xl md:text-2xl font-bold tracking-tight">
           {t('welcome')}, {business.name}
         </h1>
-        <p className="text-sm text-muted-foreground mt-1">
+        <p className="text-xs md:text-sm text-muted-foreground mt-1">
           {t('subtitle')}
         </p>
       </div>
@@ -136,8 +136,8 @@ export default async function Dashboard({
         </div>
       )}
 
-      <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-7">
-        <div className="col-span-4 space-y-4">
+      <div className="grid gap-4 grid-cols-1 lg:grid-cols-7">
+        <div className="lg:col-span-4 space-y-4">
           <UploadAndAnalyze />
           {analytics && (
             <SmartAlertsWidget
@@ -146,7 +146,7 @@ export default async function Dashboard({
             />
           )}
         </div>
-        <div className="col-span-3 space-y-4">
+        <div className="lg:col-span-3 space-y-4">
           <PredictionsWidget
             predictions={predictions}
             isPremium={isPremium}

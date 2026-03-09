@@ -44,7 +44,7 @@ export default async function DashboardLayout({
           {showVerificationBanner && (
             <EmailVerificationBanner email={userEmail} />
           )}
-          <main className="flex flex-1 flex-col gap-4 p-4 md:p-6 lg:gap-6 lg:p-8">
+          <main className="flex flex-1 flex-col gap-3 p-3 md:gap-4 md:p-6 lg:gap-6 lg:p-8">
             {children}
           </main>
         </div>

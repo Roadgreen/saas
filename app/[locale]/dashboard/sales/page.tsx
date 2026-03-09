@@ -131,7 +131,7 @@ export default async function SalesPage({
   return (
     <div className="flex-1 space-y-4">
       <div className="flex items-center justify-between">
-        <h2 className="text-3xl font-bold tracking-tight">{t('title')}</h2>
+        <h2 className="text-2xl md:text-3xl font-bold tracking-tight">{t('title')}</h2>
       </div>
 
       {/* Quick Sales Grid */}
@@ -142,50 +142,50 @@ export default async function SalesPage({
         <SalesScannerWrapper />
 
         {/* Quick Stats */}
-        <div className="grid gap-4 grid-cols-2">
+        <div className="grid gap-3 md:gap-4 grid-cols-2">
           <Card>
-            <CardContent className="p-6">
-              <div className="flex items-center gap-2 text-sm font-medium text-muted-foreground">
-                <ShoppingBag className="h-4 w-4" />
+            <CardContent className="p-4 md:p-6">
+              <div className="flex items-center gap-2 text-xs md:text-sm font-medium text-muted-foreground">
+                <ShoppingBag className="h-4 w-4 shrink-0" />
                 {t('stats.today')}
               </div>
-              <div className="text-3xl font-bold mt-2">{todaysUnits}</div>
-              <div className="text-sm mt-1 text-muted-foreground">{t('stats.unitsSold')}</div>
+              <div className="text-2xl md:text-3xl font-bold mt-1.5 md:mt-2">{todaysUnits}</div>
+              <div className="text-xs md:text-sm mt-1 text-muted-foreground">{t('stats.unitsSold')}</div>
             </CardContent>
           </Card>
 
           <Card>
-            <CardContent className="p-6">
-              <div className="flex items-center gap-2 text-sm font-medium text-muted-foreground">
-                <CalendarDays className="h-4 w-4" />
+            <CardContent className="p-4 md:p-6">
+              <div className="flex items-center gap-2 text-xs md:text-sm font-medium text-muted-foreground">
+                <CalendarDays className="h-4 w-4 shrink-0" />
                 {t('stats.week')}
               </div>
-              <div className="text-3xl font-bold mt-2">{weekUnits}</div>
-              <div className="text-sm mt-1 text-muted-foreground">{t('stats.unitsSold')}</div>
+              <div className="text-2xl md:text-3xl font-bold mt-1.5 md:mt-2">{weekUnits}</div>
+              <div className="text-xs md:text-sm mt-1 text-muted-foreground">{t('stats.unitsSold')}</div>
             </CardContent>
           </Card>
 
           <Card>
-            <CardContent className="p-6">
-              <div className="flex items-center gap-2 text-sm font-medium text-muted-foreground">
-                <Trophy className="h-4 w-4" />
+            <CardContent className="p-4 md:p-6">
+              <div className="flex items-center gap-2 text-xs md:text-sm font-medium text-muted-foreground">
+                <Trophy className="h-4 w-4 shrink-0" />
                 {t('stats.topProduct')}
               </div>
-              <div className="text-xl font-bold mt-2 truncate">
+              <div className="text-lg md:text-xl font-bold mt-1.5 md:mt-2 truncate">
                 {topRecipe ? topRecipe[0] : '-'}
               </div>
-              <div className="text-sm mt-1 text-muted-foreground">{t('stats.bestSeller')}</div>
+              <div className="text-xs md:text-sm mt-1 text-muted-foreground">{t('stats.bestSeller')}</div>
             </CardContent>
           </Card>
 
           <Card>
-            <CardContent className="p-6">
-              <div className="flex items-center gap-2 text-sm font-medium text-muted-foreground">
-                <ChefHat className="h-4 w-4" />
+            <CardContent className="p-4 md:p-6">
+              <div className="flex items-center gap-2 text-xs md:text-sm font-medium text-muted-foreground">
+                <ChefHat className="h-4 w-4 shrink-0" />
                 {t('stats.recipes')}
               </div>
-              <div className="text-3xl font-bold mt-2">{recipes.length}</div>
-              <div className="text-sm mt-1 text-muted-foreground">{t('stats.activeRecipes')}</div>
+              <div className="text-2xl md:text-3xl font-bold mt-1.5 md:mt-2">{recipes.length}</div>
+              <div className="text-xs md:text-sm mt-1 text-muted-foreground">{t('stats.activeRecipes')}</div>
             </CardContent>
           </Card>
         </div>

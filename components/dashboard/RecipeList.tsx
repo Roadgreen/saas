@@ -43,8 +43,8 @@ export function RecipeList({ recipes, products, currency = 'EUR' }: RecipeListPr
 
   return (
     <Card className="dash-card">
-      <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-        <CardTitle className="text-xl font-bold flex items-center gap-2">
+      <CardHeader className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 space-y-0 pb-2">
+        <CardTitle className="text-lg md:text-xl font-bold flex items-center gap-2">
           <ChefHat className="h-5 w-5" />
           {t('title')}
         </CardTitle>
@@ -56,7 +56,8 @@ export function RecipeList({ recipes, products, currency = 'EUR' }: RecipeListPr
             {t('noRecipes')}
           </div>
         ) : (
-          <Table>
+          <div className="overflow-x-auto -mx-4 md:mx-0">
+          <Table className="min-w-[600px]">
             <TableHeader>
               <TableRow>
                 <TableHead>{t('table.name')}</TableHead>
@@ -105,6 +106,7 @@ export function RecipeList({ recipes, products, currency = 'EUR' }: RecipeListPr
               ))}
             </TableBody>
           </Table>
+          </div>
         )}
       </CardContent>
     </Card>

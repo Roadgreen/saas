@@ -260,7 +260,7 @@ export function ProductTable({
     <div className="space-y-4">
       {/* Inventory Stats Cards */}
       {stats && (
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4">
           <Card className="dash-card">
             <CardContent className="pt-6">
               <div className="flex items-center gap-2 text-sm text-muted-foreground">
@@ -329,13 +329,13 @@ export function ProductTable({
 
       {/* Main Table Card */}
       <Card className="dash-card">
-        <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-4">
-          <CardTitle className="text-xl font-bold flex items-center gap-2">
+        <CardHeader className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 space-y-0 pb-4">
+          <CardTitle className="text-lg md:text-xl font-bold flex items-center gap-2">
             <Package className="h-5 w-5" />
             {t('inventory')}
           </CardTitle>
           <Link href={`/${locale}/dashboard/products/new`}>
-            <Button>
+            <Button className="w-full sm:w-auto">
               <Plus className="w-4 h-4 mr-2" />
               {t('addProduct')}
             </Button>

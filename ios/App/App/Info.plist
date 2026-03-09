@@ -47,5 +47,11 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<true/>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>FoodTracks utilise votre position pour détecter automatiquement votre emplacement de vente et optimiser les prédictions.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>FoodTracks utilise votre position pour détecter automatiquement votre emplacement de vente, même en arrière-plan.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>FoodTracks utilise la caméra pour scanner vos produits alimentaires et tickets de caisse.</string>
 </dict>
 </plist>

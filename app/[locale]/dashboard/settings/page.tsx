@@ -44,35 +44,37 @@ export default async function SettingsPage({
   return (
     <div className="space-y-6">
       <div>
-        <h2 className="text-3xl font-bold tracking-tight">{t('title')}</h2>
-        <p className="text-muted-foreground">
+        <h2 className="text-2xl md:text-3xl font-bold tracking-tight">{t('title')}</h2>
+        <p className="text-sm md:text-base text-muted-foreground">
           {t('description')}
         </p>
       </div>
 
       <Tabs defaultValue="profile" className="space-y-4">
-        <TabsList className="grid w-full grid-cols-2 lg:grid-cols-5 h-auto">
-          <TabsTrigger value="profile" className="flex flex-col gap-2 py-3">
-            <Building2 className="h-5 w-5" />
-            <span>{t('tabs.profile')}</span>
-          </TabsTrigger>
-          <TabsTrigger value="operations" className="flex flex-col gap-2 py-3">
-            <Clock className="h-5 w-5" />
-            <span>{t('tabs.operations')}</span>
-          </TabsTrigger>
-          <TabsTrigger value="team" className="flex flex-col gap-2 py-3">
-            <Users className="h-5 w-5" />
-            <span>{t('tabs.team')}</span>
-          </TabsTrigger>
-          <TabsTrigger value="configuration" className="flex flex-col gap-2 py-3">
-            <Settings2 className="h-5 w-5" />
-            <span>{t('tabs.configuration')}</span>
-          </TabsTrigger>
-          <TabsTrigger value="intelligence" className="flex flex-col gap-2 py-3">
-            <Sparkles className="h-5 w-5" />
-            <span>{t('tabs.intelligence')}</span>
-          </TabsTrigger>
-        </TabsList>
+        <div className="overflow-x-auto -mx-4 px-4 md:mx-0 md:px-0 scrollbar-hide">
+          <TabsList className="inline-flex w-auto min-w-full md:grid md:w-full md:grid-cols-5 h-auto">
+            <TabsTrigger value="profile" className="flex flex-col gap-1.5 py-2.5 px-3 min-w-[80px] md:min-w-0">
+              <Building2 className="h-5 w-5" />
+              <span className="text-xs md:text-sm whitespace-nowrap">{t('tabs.profile')}</span>
+            </TabsTrigger>
+            <TabsTrigger value="operations" className="flex flex-col gap-1.5 py-2.5 px-3 min-w-[80px] md:min-w-0">
+              <Clock className="h-5 w-5" />
+              <span className="text-xs md:text-sm whitespace-nowrap">{t('tabs.operations')}</span>
+            </TabsTrigger>
+            <TabsTrigger value="team" className="flex flex-col gap-1.5 py-2.5 px-3 min-w-[80px] md:min-w-0">
+              <Users className="h-5 w-5" />
+              <span className="text-xs md:text-sm whitespace-nowrap">{t('tabs.team')}</span>
+            </TabsTrigger>
+            <TabsTrigger value="configuration" className="flex flex-col gap-1.5 py-2.5 px-3 min-w-[80px] md:min-w-0">
+              <Settings2 className="h-5 w-5" />
+              <span className="text-xs md:text-sm whitespace-nowrap">{t('tabs.configuration')}</span>
+            </TabsTrigger>
+            <TabsTrigger value="intelligence" className="flex flex-col gap-1.5 py-2.5 px-3 min-w-[80px] md:min-w-0">
+              <Sparkles className="h-5 w-5" />
+              <span className="text-xs md:text-sm whitespace-nowrap">{t('tabs.intelligence')}</span>
+            </TabsTrigger>
+          </TabsList>
+        </div>
 
         <TabsContent value="profile" className="space-y-4">
           <ProfileForm />

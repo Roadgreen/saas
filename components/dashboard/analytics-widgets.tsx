@@ -134,16 +134,16 @@ export function SimpleStatsCards({ stats, currency = 'EUR' }: { stats: { current
   const t = useTranslations('Dashboard');
 
   return (
-    <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
+    <div className="grid gap-3 md:gap-4 grid-cols-2 lg:grid-cols-4">
       <Card className="dash-card">
         <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-          <CardTitle className="text-sm font-medium">{t('currentStock')}</CardTitle>
-          <div className="rounded-md bg-blue-100 p-2">
-            <Package className="h-4 w-4 text-blue-600" />
+          <CardTitle className="text-xs md:text-sm font-medium">{t('currentStock')}</CardTitle>
+          <div className="rounded-md bg-blue-100 p-1.5 md:p-2">
+            <Package className="h-3.5 w-3.5 md:h-4 md:w-4 text-blue-600" />
           </div>
         </CardHeader>
         <CardContent>
-          <div className="text-2xl font-bold text-blue-600">{stats.currentStock}</div>
+          <div className="text-xl md:text-2xl font-bold text-blue-600">{stats.currentStock}</div>
           <p className="text-xs text-muted-foreground">{t('items')}</p>
         </CardContent>
       </Card>
@@ -156,7 +156,7 @@ export function SimpleStatsCards({ stats, currency = 'EUR' }: { stats: { current
           </div>
         </CardHeader>
         <CardContent>
-          <div className="text-2xl font-bold text-amber-600">{stats.expiringSoon}</div>
+          <div className="text-xl md:text-2xl font-bold text-amber-600">{stats.expiringSoon}</div>
           <p className="text-xs text-muted-foreground">{t('items')}</p>
         </CardContent>
       </Card>
@@ -169,7 +169,7 @@ export function SimpleStatsCards({ stats, currency = 'EUR' }: { stats: { current
           </div>
         </CardHeader>
         <CardContent>
-          <div className="text-2xl font-bold text-green-600">{formatCurrency(stats.todaySales, currency)}</div>
+          <div className="text-xl md:text-2xl font-bold text-green-600">{formatCurrency(stats.todaySales, currency)}</div>
           <p className="text-xs text-muted-foreground">{t('today')}</p>
         </CardContent>
       </Card>
@@ -182,7 +182,7 @@ export function SimpleStatsCards({ stats, currency = 'EUR' }: { stats: { current
           </div>
         </CardHeader>
         <CardContent>
-          <div className="text-2xl font-bold text-red-600">{formatCurrency(stats.todayLosses, currency)}</div>
+          <div className="text-xl md:text-2xl font-bold text-red-600">{formatCurrency(stats.todayLosses, currency)}</div>
           <p className="text-xs text-muted-foreground">{t('today')}</p>
         </CardContent>
       </Card>

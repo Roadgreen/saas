@@ -1,3 +1,5 @@
+import { Capacitor } from '@capacitor/core';
+
 export interface Coordinates {
     latitude: number;
     longitude: number;
@@ -32,10 +34,27 @@ function deg2rad(deg: number): number {
 }
 
 /**
- * Gets the current position from the browser's Geolocation API.
- * Times out after 10 seconds to avoid blocking indefinitely (especially on Safari).
+ * Gets the current position using Capacitor Geolocation (native GPS) when available,
+ * falls back to browser Geolocation API on web.
  */
-export function getCurrentPosition(): Promise<Coordinates> {
+export async function getCurrentPosition(): Promise<Coordinates> {
+    if (Capacitor.isNativePlatform()) {
+        const { Geolocation } = await import('@capacitor/geolocation');
+        const permission = await Geolocation.requestPermissions();
+        if (permission.location === 'denied') {
+            throw new Error('GPS permission denied');
+        }
+        const position = await Geolocation.getCurrentPosition({
+            enableHighAccuracy: true,
+            timeout: 10000,
+        });
+        return {
+            latitude: position.coords.latitude,
+            longitude: position.coords.longitude,
+        };
+    }
+
+    // Web fallback
     return new Promise((resolve, reject) => {
         if (!navigator.geolocation) {
             reject(new Error("Geolocation is not supported by your browser"));
@@ -53,9 +72,62 @@ export function getCurrentPosition(): Promise<Coordinates> {
                 {
                     enableHighAccuracy: true,
                     timeout: 10000,
-                    maximumAge: 300000, // Accept cached position up to 5 min old
+                    maximumAge: 300000,
                 }
             );
         }
     });
+}
+
+/**
+ * Watch position changes continuously (useful for food trucks on the move).
+ * Returns a callback ID to stop watching.
+ */
+export async function watchPosition(
+    onPosition: (coords: Coordinates) => void,
+    onError?: (error: Error) => void
+): Promise<string | number> {
+    if (Capacitor.isNativePlatform()) {
+        const { Geolocation } = await import('@capacitor/geolocation');
+        const id = await Geolocation.watchPosition(
+            { enableHighAccuracy: true },
+            (position, err) => {
+                if (err) {
+                    onError?.(new Error(err.message));
+                } else if (position) {
+                    onPosition({
+                        latitude: position.coords.latitude,
+                        longitude: position.coords.longitude,
+                    });
+                }
+            }
+        );
+        return id;
+    }
+
+    const id = navigator.geolocation.watchPosition(
+        (position) => {
+            onPosition({
+                latitude: position.coords.latitude,
+                longitude: position.coords.longitude,
+            });
+        },
+        (error) => {
+            onError?.(new Error(error.message));
+        },
+        { enableHighAccuracy: true }
+    );
+    return id;
+}
+
+/**
+ * Stop watching position.
+ */
+export async function clearWatch(watchId: string | number): Promise<void> {
+    if (Capacitor.isNativePlatform() && typeof watchId === 'string') {
+        const { Geolocation } = await import('@capacitor/geolocation');
+        await Geolocation.clearWatch({ id: watchId });
+    } else if (typeof watchId === 'number') {
+        navigator.geolocation.clearWatch(watchId);
+    }
 }
