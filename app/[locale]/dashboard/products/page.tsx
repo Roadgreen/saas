@@ -54,7 +54,8 @@ export default async function ProductsPage({
   const hasPredictions = demandMap.size > 0;
 
   // Recalculate status dynamically + attach demand data
-  const enriched = products.map((p) => {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const enriched = products.map((p: any) => {
     const demand = demandMap.get(p.id);
     return {
       id: p.id,
@@ -107,8 +108,8 @@ export default async function ProductsPage({
   })).sort((a, b) => b.value - a.value);
 
   // Extract unique filter options
-  const categories = [...new Set(enriched.map(p => p.category).filter(Boolean))] as string[];
-  const locations = [...new Set(enriched.map(p => p.locationName))];
+  const categories = [...new Set(enriched.map((p: any) => p.category).filter(Boolean))] as string[];
+  const locations = [...new Set(enriched.map((p: any) => p.locationName))];
 
   return (
     <div className="flex-1 space-y-4">

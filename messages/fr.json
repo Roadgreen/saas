@@ -200,8 +200,8 @@
         },
         "badge": "Fait pour les food trucks",
         "hero": {
-            "title": "Sachez quoi préparer. Avant de commencer.",
-            "subtitle": "L'IA analyse tes ventes passées et te dit combien de crêpes, tacos ou sandwichs préparer — ajusté selon l'emplacement et le jour.",
+            "title": "Ton food truck, piloté par l'IA. Zéro gaspillage.",
+            "subtitle": "FoodTracks gère ton stock, prédit tes ventes et calcule tes marges en temps réel — pour que tu prépares la bonne quantité, chaque jour.",
             "ctaPrimary": "Tester gratuitement 14 jours",
             "ctaSecondary": "Voir comment ça marche",
             "noCreditCard": "Sans carte bancaire",
@@ -225,13 +225,16 @@
         },
         "howItWorks": {
             "title": "Comment ça marche",
-            "subtitle": "Lance-toi en 3 étapes simples.",
-            "step1Title": "Crée ton compte",
-            "step1Desc": "Inscris-toi en 30 secondes, sans carte bancaire.",
-            "step2Title": "Ajoute tes produits & recettes",
-            "step2Desc": "Scanne tes factures avec l'IA ou ajoute manuellement. Configure tes recettes et prix de vente.",
-            "step3Title": "Prédictions & suivi des marges",
-            "step3Desc": "Chaque jour, vois exactement quoi préparer, ce qui manque, et tes vraies marges."
+            "subtitle": "De l'inscription à l'optimisation en 4 étapes.",
+            "step1Title": "Scanner",
+            "step1Desc": "Scanne tes factures fournisseur avec l'IA. Ton stock se met à jour automatiquement — fini la saisie manuelle.",
+            "step2Title": "Analyser",
+            "step2Desc": "Visualise tes coûts, marges et performances par plat, par jour et par emplacement sur un tableau de bord clair.",
+            "step3Title": "Prédire",
+            "step3Desc": "L'IA analyse tes ventes passées et te dit exactement combien préparer demain, ajusté selon le spot et le jour.",
+            "step4Title": "Optimiser",
+            "step4Desc": "Réduis le gaspillage, augmente tes marges et adapte ton menu grâce aux données. Ton food truck tourne à plein régime.",
+            "cta": "Découvrir en détail"
         },
         "predictions": {
             "title": "L'IA qui apprend tes habitudes de vente",
@@ -859,5 +862,52 @@
         "noMerchants": "Aucun marchand trouvé sur ce compte.",
         "merchantSelected": "Marchand sélectionné avec succès !",
         "changeMerchant": "Changer de marchand"
+    },
+    "HowItWorks": {
+        "meta": {
+            "title": "Comment ça marche | FoodTracks",
+            "description": "Découvrez comment FoodTracks vous aide à gérer votre food truck : scanner vos factures, analyser vos marges, prédire vos ventes et optimiser votre rentabilité."
+        },
+        "hero": {
+            "title": "Comment ça marche",
+            "subtitle": "De la facture à la prédiction, FoodTracks automatise la gestion de votre food truck en 4 étapes simples."
+        },
+        "step1": {
+            "title": "Scannez vos factures",
+            "desc": "Prenez en photo vos factures fournisseurs. Notre IA extrait automatiquement les produits, prix et quantités en quelques secondes.",
+            "bullet1": "Reconnaissance automatique par IA",
+            "bullet2": "Extraction des produits, prix et quantités",
+            "bullet3": "Historique complet de vos achats",
+            "bullet4": "Compatible avec tous les fournisseurs"
+        },
+        "step2": {
+            "title": "Analysez vos marges",
+            "desc": "Visualisez en temps réel vos marges par produit, par emplacement et par période. Identifiez ce qui rapporte le plus.",
+            "bullet1": "Dashboard en temps réel",
+            "bullet2": "Marge par produit et par emplacement",
+            "bullet3": "Suivi des coûts matière",
+            "bullet4": "Alertes de rentabilité"
+        },
+        "step3": {
+            "title": "Prédisez vos ventes",
+            "desc": "Notre algorithme analyse votre historique, la météo et les événements pour prédire vos ventes avec 87% de précision.",
+            "bullet1": "Prédictions basées sur l'historique",
+            "bullet2": "Prise en compte de la météo",
+            "bullet3": "Analyse par emplacement",
+            "bullet4": "87% de précision moyenne"
+        },
+        "step4": {
+            "title": "Optimisez votre rentabilité",
+            "desc": "Réduisez le gaspillage de 30%, ajustez vos prix et maximisez vos profits grâce aux recommandations intelligentes.",
+            "bullet1": "Réduction du gaspillage de 30%",
+            "bullet2": "Recommandations de prix",
+            "bullet3": "Optimisation du menu",
+            "bullet4": "Rapports de performance"
+        },
+        "cta": {
+            "title": "Prêt à optimiser votre food truck ?",
+            "subtitle": "Rejoignez les food truckers qui gagnent du temps et de l'argent avec FoodTracks.",
+            "button": "Commencer gratuitement"
+        }
     }
 }

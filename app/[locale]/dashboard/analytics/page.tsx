@@ -65,7 +65,7 @@ export default async function AnalyticsPage({
     });
 
     // Validate locationId against actual locations
-    const locationId = locations.some(l => l.id === rawLocationId) ? rawLocationId : undefined;
+    const locationId = locations.some((l: { id: string }) => l.id === rawLocationId) ? rawLocationId : undefined;
 
     const [data, expirationData] = isPremium
         ? await Promise.all([

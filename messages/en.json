@@ -200,8 +200,8 @@
         },
         "badge": "Built for food trucks",
         "hero": {
-            "title": "Know exactly what to prep. Before you start.",
-            "subtitle": "AI-powered predictions tell you how many crêpes, tacos or sandwiches to prepare — adjusted for location and day of the week.",
+            "title": "Your food truck, powered by AI. Zero waste.",
+            "subtitle": "FoodTracks manages your inventory, predicts your sales, and tracks your margins in real time — so you prep the right amount, every day.",
             "ctaPrimary": "Try free for 14 days",
             "ctaSecondary": "See how it works",
             "noCreditCard": "No credit card required",
@@ -225,13 +225,16 @@
         },
         "howItWorks": {
             "title": "How it works",
-            "subtitle": "Get started in 3 simple steps.",
-            "step1Title": "Create your account",
-            "step1Desc": "Sign up in 30 seconds, no credit card needed.",
-            "step2Title": "Add your products & recipes",
-            "step2Desc": "Scan invoices with AI or add manually. Set up your recipes and selling prices.",
-            "step3Title": "Get predictions & track margins",
-            "step3Desc": "Every day, see exactly what to prep, what's running low, and your real margins."
+            "subtitle": "From sign-up to optimization in 4 steps.",
+            "step1Title": "Scan",
+            "step1Desc": "Scan your supplier invoices with AI. Your stock updates automatically — no more manual data entry.",
+            "step2Title": "Analyze",
+            "step2Desc": "See your costs, margins, and performance by dish, by day, and by location on a clear dashboard.",
+            "step3Title": "Predict",
+            "step3Desc": "AI analyses your past sales and tells you exactly how much to prep tomorrow, adjusted for spot and day.",
+            "step4Title": "Optimize",
+            "step4Desc": "Reduce waste, boost margins, and adapt your menu with data. Your food truck runs at full capacity.",
+            "cta": "Learn more"
         },
         "predictions": {
             "title": "AI that learns your sales patterns",
@@ -859,5 +862,52 @@
         "noMerchants": "No merchants found on this account.",
         "merchantSelected": "Merchant selected successfully!",
         "changeMerchant": "Change merchant"
+    },
+    "HowItWorks": {
+        "meta": {
+            "title": "How It Works | FoodTracks",
+            "description": "Discover how FoodTracks helps you manage your food truck: scan invoices, analyze margins, predict sales, and optimize profitability."
+        },
+        "hero": {
+            "title": "How it works",
+            "subtitle": "From invoice to prediction, FoodTracks automates your food truck management in 4 simple steps."
+        },
+        "step1": {
+            "title": "Scan your invoices",
+            "desc": "Take a photo of your supplier invoices. Our AI automatically extracts products, prices, and quantities in seconds.",
+            "bullet1": "Automatic AI recognition",
+            "bullet2": "Product, price & quantity extraction",
+            "bullet3": "Complete purchase history",
+            "bullet4": "Works with all suppliers"
+        },
+        "step2": {
+            "title": "Analyze your margins",
+            "desc": "View your margins in real-time by product, location, and period. Identify what generates the most revenue.",
+            "bullet1": "Real-time dashboard",
+            "bullet2": "Margin per product and location",
+            "bullet3": "Material cost tracking",
+            "bullet4": "Profitability alerts"
+        },
+        "step3": {
+            "title": "Predict your sales",
+            "desc": "Our algorithm analyzes your history, weather, and events to predict sales with 87% accuracy.",
+            "bullet1": "History-based predictions",
+            "bullet2": "Weather factor analysis",
+            "bullet3": "Per-location analysis",
+            "bullet4": "87% average accuracy"
+        },
+        "step4": {
+            "title": "Optimize your profitability",
+            "desc": "Reduce waste by 30%, adjust pricing, and maximize profits with smart recommendations.",
+            "bullet1": "30% waste reduction",
+            "bullet2": "Price recommendations",
+            "bullet3": "Menu optimization",
+            "bullet4": "Performance reports"
+        },
+        "cta": {
+            "title": "Ready to optimize your food truck?",
+            "subtitle": "Join food truckers who save time and money with FoodTracks.",
+            "button": "Start for free"
+        }
     }
 }
