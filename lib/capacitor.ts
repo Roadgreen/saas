@@ -17,7 +17,7 @@ export async function initNativePlugins() {
   await StatusBar.setStyle({ style: Style.Light });
 
   if (platform === 'android') {
-    await StatusBar.setBackgroundColor({ color: '#16a34a' });
+    await StatusBar.setBackgroundColor({ color: '#ffffff' });
   }
 
   // Splash screen — hide after app is ready
