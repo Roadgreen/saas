@@ -1232,6 +1232,1134 @@ Connection takes under 2 minutes.
       },
     ],
   },
+  {
+    slug: "fixer-prix-menu-food-truck",
+    title: {
+      fr: "Comment fixer les prix de son menu food truck pour maximiser ses marges",
+      en: "How to Price Your Food Truck Menu to Maximize Margins",
+    },
+    excerpt: {
+      fr: "Apprenez à calculer vos coûts, fixer des prix rentables et structurer un menu food truck qui attire les clients tout en protégeant vos marges.",
+      en: "Learn how to calculate costs, set profitable prices, and structure a food truck menu that attracts customers while protecting your margins.",
+    },
+    category: { fr: "Gestion", en: "Management" },
+    date: "2025-03-10",
+    readTime: 10,
+    keywords: ["prix menu food truck", "fixer prix food truck", "menu rentable food truck", "calcul marge food truck"],
+    heroImage: "/blog/menu-food-truck.png",
+    content: {
+      fr: `## Pourquoi le pricing est la clé de la rentabilité
+
+Beaucoup de food truckers fixent leurs prix au feeling ou en copiant la concurrence. Résultat : **des marges trop faibles qui ne couvrent pas les charges réelles**. Un menu bien pricé, c'est la différence entre un food truck qui survit et un food truck qui prospère.
+
+### Le coût matière : votre point de départ
+
+Le coût matière (ou food cost) doit idéalement représenter **25 à 35% du prix de vente**. Pour le calculer :
+
+1. Listez tous les ingrédients de chaque recette
+2. Pesez les quantités exactes par portion
+3. Calculez le coût unitaire de chaque ingrédient
+4. Additionnez pour obtenir le coût matière total
+
+**Exemple concret :** Un burger dont les ingrédients coûtent 2,50€ devrait être vendu entre 7€ et 10€.
+
+### Les charges à ne pas oublier
+
+Au-delà des ingrédients, intégrez dans votre calcul :
+- **Emballages et consommables** (barquettes, serviettes, sauces) : 0,30€ à 0,80€ par vente
+- **Emplacement** : droit de place, loyer marché, commission festival
+- **Carburant et entretien** du véhicule
+- **Assurances et charges sociales**
+- **Amortissement** du matériel
+
+### La méthode du coefficient multiplicateur
+
+La méthode la plus simple : appliquez un **coefficient de 3 à 4** sur votre coût matière.
+
+| Coût matière | Coeff. x3 | Coeff. x3.5 | Coeff. x4 |
+|---|---|---|---|
+| 2,00€ | 6,00€ | 7,00€ | 8,00€ |
+| 3,00€ | 9,00€ | 10,50€ | 12,00€ |
+| 4,00€ | 12,00€ | 14,00€ | 16,00€ |
+
+### Structurer son menu pour vendre plus
+
+Un menu food truck efficace suit ces règles :
+- **5 à 8 plats maximum** — trop de choix paralyse le client et ralentit le service
+- **Un produit star** à forte marge bien mis en avant
+- **Des formules/combos** (plat + boisson + dessert) qui augmentent le panier moyen de 20 à 40%
+- **Un prix d'appel** pour attirer, et des options premium pour upgrader
+
+### La psychologie des prix
+
+- Utilisez des **prix ronds** (8€, 10€, 12€) — en food truck ça facilite le rendu monnaie
+- Placez le plat le plus cher en premier sur le menu — les suivants paraissent plus abordables
+- **Ne mettez jamais le symbole €** sur le menu (études montrent que ça freine la dépense)
+
+### Adapter ses prix selon le contexte
+
+Vos prix peuvent varier selon :
+- **L'emplacement** : centre-ville vs zone industrielle vs festival
+- **L'événement** : mariage/corporate = +20-30% justifié par le service premium
+- **La saison** : soupes l'hiver, salades l'été, ajustez les portions et les prix
+
+### Comment FoodTracks vous aide
+
+Avec FoodTracks, vous pouvez :
+- **Scanner vos factures fournisseurs** pour calculer automatiquement vos coûts matière
+- **Suivre vos marges en temps réel** par produit grâce à l'intégration SumUp
+- **Comparer la rentabilité** de vos plats et identifier ceux à ajuster
+- **Prédire la demande** par emplacement pour adapter vos quantités et réduire le gaspillage`,
+      en: `## Why Pricing Is the Key to Profitability
+
+Many food truckers set prices by gut feeling or by copying competitors. The result: **margins too thin to cover real costs**. A well-priced menu is the difference between a food truck that survives and one that thrives.
+
+### Food Cost: Your Starting Point
+
+Food cost should ideally represent **25 to 35% of the selling price**. To calculate it:
+
+1. List all ingredients for each recipe
+2. Weigh exact quantities per portion
+3. Calculate the unit cost of each ingredient
+4. Add up to get the total food cost
+
+**Real example:** A burger with €2.50 in ingredients should sell for €7 to €10.
+
+### Hidden Costs You Must Include
+
+Beyond ingredients, factor in:
+- **Packaging and supplies** (containers, napkins, sauces): €0.30 to €0.80 per sale
+- **Location fees**: pitch rental, market fees, festival commission
+- **Fuel and vehicle maintenance**
+- **Insurance and social charges**
+- **Equipment depreciation**
+
+### The Multiplier Method
+
+The simplest approach: apply a **multiplier of 3 to 4** on your food cost.
+
+| Food Cost | x3 | x3.5 | x4 |
+|---|---|---|---|
+| €2.00 | €6.00 | €7.00 | €8.00 |
+| €3.00 | €9.00 | €10.50 | €12.00 |
+| €4.00 | €12.00 | €14.00 | €16.00 |
+
+### Structure Your Menu to Sell More
+
+An effective food truck menu follows these rules:
+- **5 to 8 items maximum** — too much choice overwhelms customers and slows service
+- **One star product** with high margins featured prominently
+- **Combo deals** (main + drink + dessert) that increase average spend by 20-40%
+- **An entry-level price** to attract, and premium options to upsell
+
+### Pricing Psychology
+
+- Use **round prices** (€8, €10, €12) — makes change easier in food trucks
+- Place the most expensive item first on the menu — everything after seems more affordable
+- **Never display the € symbol** on the menu (studies show it reduces spending)
+
+### Adapt Prices to Context
+
+Your prices can vary based on:
+- **Location**: city center vs industrial zone vs festival
+- **Event type**: weddings/corporate = +20-30% justified by premium service
+- **Season**: soups in winter, salads in summer, adjust portions and prices
+
+### How FoodTracks Helps
+
+With FoodTracks, you can:
+- **Scan supplier invoices** to automatically calculate food costs
+- **Track margins in real-time** per product via SumUp integration
+- **Compare profitability** across dishes and identify what needs adjusting
+- **Predict demand** by location to adapt quantities and reduce waste`,
+    },
+    keyTakeaways: {
+      fr: [
+        "Le coût matière doit représenter 25 à 35% du prix de vente",
+        "Appliquez un coefficient de 3 à 4 sur le coût matière pour fixer vos prix",
+        "Limitez votre menu à 5-8 plats et proposez des formules combo",
+        "FoodTracks calcule automatiquement vos marges par produit",
+      ],
+      en: [
+        "Food cost should be 25 to 35% of selling price",
+        "Apply a multiplier of 3 to 4 on food cost to set prices",
+        "Limit your menu to 5-8 items and offer combo deals",
+        "FoodTracks automatically calculates margins per product",
+      ],
+    },
+    faqItems: [
+      {
+        question: { fr: "Quel coefficient appliquer pour fixer ses prix en food truck ?", en: "What multiplier should I use for food truck pricing?" },
+        answer: { fr: "Un coefficient de 3 à 4 sur le coût matière est la norme en food truck. Si vos ingrédients coûtent 3€, vendez entre 9€ et 12€ selon l'emplacement et le positionnement.", en: "A multiplier of 3 to 4 on food cost is standard for food trucks. If your ingredients cost €3, sell between €9 and €12 depending on location and positioning." },
+      },
+      {
+        question: { fr: "Combien de plats mettre sur un menu food truck ?", en: "How many items should a food truck menu have?" },
+        answer: { fr: "Entre 5 et 8 plats maximum. Un menu court accélère le service, réduit le gaspillage et simplifie la gestion des stocks. Ajoutez des formules combo pour augmenter le panier moyen.", en: "Between 5 and 8 items maximum. A short menu speeds up service, reduces waste, and simplifies inventory. Add combo deals to increase average spend." },
+      },
+    ],
+  },
+  {
+    slug: "marketing-digital-food-truck",
+    title: {
+      fr: "Marketing digital pour food truck : réseaux sociaux et visibilité en ligne",
+      en: "Digital Marketing for Food Trucks: Social Media and Online Visibility",
+    },
+    excerpt: {
+      fr: "Boostez la visibilité de votre food truck grâce aux réseaux sociaux, Google Maps et une stratégie digitale adaptée à votre activité ambulante.",
+      en: "Boost your food truck's visibility with social media, Google Maps, and a digital strategy tailored to your mobile business.",
+    },
+    category: { fr: "Marketing", en: "Marketing" },
+    date: "2025-03-15",
+    readTime: 11,
+    keywords: ["marketing food truck", "réseaux sociaux food truck", "instagram food truck", "visibilité food truck"],
+    heroImage: "/blog/marketing-food-truck.png",
+    content: {
+      fr: `## Pourquoi le marketing digital est indispensable pour un food truck
+
+Votre food truck est mobile, mais vos clients doivent savoir **où vous trouver et quand**. Le marketing digital est le moyen le plus efficace et le moins cher pour communiquer avec votre clientèle. **78% des consommateurs découvrent de nouveaux restaurants via les réseaux sociaux.**
+
+### Instagram : votre vitrine n°1
+
+Instagram est LA plateforme pour les food trucks. La nourriture est visuelle, et les gens mangent d'abord avec les yeux.
+
+**Ce qui marche :**
+- **Photos de vos plats** en lumière naturelle, gros plans appétissants
+- **Stories quotidiennes** : préparation en cuisine, arrivée sur l'emplacement, file d'attente
+- **Reels courts** (15-30s) : recette signature en accéléré, coulisses, ambiance service
+- **Annonce de vos emplacements** chaque matin : "Aujourd'hui midi → Place de la République !"
+
+**Fréquence idéale :** 3-4 posts par semaine + stories quotidiennes
+
+### Google Business Profile : être trouvable
+
+Créez et optimisez votre fiche Google Business :
+- **Catégorie** : Food truck / Restaurant ambulant
+- **Photos** récentes et de qualité
+- **Horaires** mis à jour (même si variables)
+- **Zone desservie** plutôt qu'adresse fixe
+- Encouragez les **avis Google** — chaque avis booste votre visibilité locale
+
+### Facebook : votre communauté locale
+
+Facebook reste puissant pour :
+- **Groupes locaux** : partagez vos emplacements dans les groupes de quartier
+- **Événements** : créez un événement pour chaque marché ou festival
+- **Facebook Marketplace** : certains food truckers y trouvent des clients corporate
+
+### TikTok : le potentiel viral
+
+Un seul TikTok viral peut faire exploser votre notoriété :
+- Filmez la **préparation d'un plat signature** en POV
+- Montrez les **coulisses** (approvisionnement au marché, nettoyage du truck)
+- Surfez sur les **tendances** en les adaptant à votre univers food truck
+
+### Le planning hebdomadaire type
+
+| Jour | Contenu |
+|---|---|
+| Lundi | Post Instagram : plat de la semaine |
+| Mardi | Story : préparation en cuisine |
+| Mercredi | Reel : recette en accéléré |
+| Jeudi | Post Facebook : emplacement du week-end |
+| Vendredi | Stories : ambiance service + file d'attente |
+| Samedi | TikTok : coulisses du rush |
+| Dimanche | Story : bilan de la semaine |
+
+### Les erreurs à éviter
+
+- **Publier de manière irrégulière** — mieux vaut 3 posts/semaine réguliers que 10 puis rien
+- **Oublier de répondre aux commentaires** et messages — c'est votre service client
+- **Négliger les avis négatifs** — répondez toujours poliment et proposez une solution
+- **Ne pas annoncer vos emplacements** — c'est l'info n°1 que vos clients cherchent
+
+### Comment FoodTracks complète votre stratégie
+
+FoodTracks vous aide à optimiser votre présence :
+- **Données de vente par emplacement** pour savoir où communiquer en priorité
+- **Prédictions de demande** pour anticiper les jours forts et adapter votre com
+- **Suivi des tendances** de vos produits pour mettre en avant vos best-sellers`,
+      en: `## Why Digital Marketing Is Essential for Food Trucks
+
+Your food truck is mobile, but customers need to know **where to find you and when**. Digital marketing is the most effective and affordable way to communicate with your audience. **78% of consumers discover new restaurants through social media.**
+
+### Instagram: Your #1 Showcase
+
+Instagram is THE platform for food trucks. Food is visual, and people eat with their eyes first.
+
+**What works:**
+- **Photos of your dishes** in natural light, appetizing close-ups
+- **Daily stories**: kitchen prep, arriving at location, customer queues
+- **Short reels** (15-30s): signature recipe in timelapse, behind-the-scenes, service vibes
+- **Location announcements** every morning: "Today's lunch → Republic Square!"
+
+**Ideal frequency:** 3-4 posts per week + daily stories
+
+### Google Business Profile: Be Findable
+
+Create and optimize your Google Business listing:
+- **Category**: Food truck / Mobile restaurant
+- **Photos**: recent and high-quality
+- **Hours**: updated (even if variable)
+- **Service area** rather than fixed address
+- Encourage **Google reviews** — each review boosts your local visibility
+
+### Facebook: Your Local Community
+
+Facebook remains powerful for:
+- **Local groups**: share your locations in neighborhood groups
+- **Events**: create an event for each market or festival
+- **Facebook Marketplace**: some food truckers find corporate clients there
+
+### TikTok: Viral Potential
+
+A single viral TikTok can skyrocket your visibility:
+- Film your **signature dish preparation** in POV
+- Show **behind-the-scenes** (market sourcing, truck cleaning)
+- Ride **trends** and adapt them to your food truck world
+
+### Weekly Content Calendar
+
+| Day | Content |
+|---|---|
+| Monday | Instagram post: dish of the week |
+| Tuesday | Story: kitchen prep |
+| Wednesday | Reel: timelapse recipe |
+| Thursday | Facebook post: weekend location |
+| Friday | Stories: service vibes + queue |
+| Saturday | TikTok: rush behind-the-scenes |
+| Sunday | Story: weekly recap |
+
+### Mistakes to Avoid
+
+- **Posting irregularly** — better 3 consistent posts/week than 10 then nothing
+- **Ignoring comments and messages** — this is your customer service
+- **Neglecting negative reviews** — always respond politely and offer a solution
+- **Not announcing your locations** — this is the #1 info your customers want
+
+### How FoodTracks Supports Your Strategy
+
+FoodTracks helps optimize your presence:
+- **Sales data by location** to know where to focus your marketing
+- **Demand predictions** to anticipate busy days and adapt your communications
+- **Product trend tracking** to highlight your best-sellers`,
+    },
+    keyTakeaways: {
+      fr: [
+        "Instagram est la plateforme n°1 pour un food truck — publiez 3-4 fois par semaine",
+        "Google Business Profile est essentiel pour être trouvé localement",
+        "Annoncez vos emplacements quotidiennement sur les réseaux",
+        "FoodTracks fournit les données de vente pour cibler votre marketing",
+      ],
+      en: [
+        "Instagram is the #1 platform for food trucks — post 3-4 times per week",
+        "Google Business Profile is essential for local discoverability",
+        "Announce your locations daily on social media",
+        "FoodTracks provides sales data to target your marketing",
+      ],
+    },
+    faqItems: [
+      {
+        question: { fr: "Quel réseau social choisir pour son food truck ?", en: "Which social media should a food truck use?" },
+        answer: { fr: "Instagram en priorité pour le visuel, Facebook pour la communauté locale et les événements, et TikTok pour le potentiel viral. Publiez 3-4 fois par semaine minimum.", en: "Instagram first for visuals, Facebook for local community and events, and TikTok for viral potential. Post at least 3-4 times per week." },
+      },
+      {
+        question: { fr: "Comment annoncer les emplacements de son food truck ?", en: "How to announce food truck locations?" },
+        answer: { fr: "Publiez chaque matin votre emplacement du jour en story Instagram et sur Facebook. Utilisez une routine fixe pour que vos clients prennent l'habitude de vérifier.", en: "Post your daily location every morning via Instagram stories and Facebook. Use a fixed routine so customers get in the habit of checking." },
+      },
+    ],
+  },
+  {
+    slug: "hygiene-haccp-food-truck",
+    title: {
+      fr: "Hygiène et HACCP en food truck : le guide complet pour être en règle",
+      en: "Food Truck Hygiene and HACCP: Complete Compliance Guide",
+    },
+    excerpt: {
+      fr: "Tout ce que vous devez savoir sur l'hygiène alimentaire et la méthode HACCP pour votre food truck : obligations légales, bonnes pratiques et contrôles.",
+      en: "Everything you need to know about food hygiene and HACCP for your food truck: legal requirements, best practices, and inspections.",
+    },
+    category: { fr: "Réglementation", en: "Regulations" },
+    date: "2025-03-20",
+    readTime: 13,
+    keywords: ["hygiène food truck", "HACCP food truck", "sécurité alimentaire food truck", "normes sanitaires food truck"],
+    heroImage: "/blog/hygiene-food-truck.png",
+    content: {
+      fr: `## L'hygiène en food truck : une obligation légale et commerciale
+
+L'hygiène alimentaire n'est pas optionnelle. En France, tout professionnel de la restauration doit respecter les normes sanitaires sous peine de **fermeture administrative et d'amendes pouvant aller jusqu'à 15 000€**. Mais au-delà de la loi, une hygiène irréprochable est aussi votre meilleur argument commercial.
+
+### La formation HACCP : obligatoire
+
+Au moins une personne dans votre équipe doit avoir suivi une **formation en hygiène alimentaire (HACCP)** de 14 heures. Cette formation couvre :
+- Les dangers microbiologiques, chimiques et physiques
+- La méthode HACCP (Hazard Analysis Critical Control Points)
+- Les bonnes pratiques d'hygiène
+- La traçabilité et la gestion des allergènes
+
+**Coût** : 200€ à 500€ — **obligatoire** avant l'ouverture.
+
+### Les 7 principes HACCP appliqués au food truck
+
+1. **Analyser les dangers** : identifier les risques à chaque étape (réception, stockage, préparation, service)
+2. **Déterminer les points critiques** (CCP) : cuisson, maintien au chaud/froid, réchauffage
+3. **Établir les limites critiques** : ex. cuisson viande à cœur ≥ 63°C
+4. **Mettre en place la surveillance** : relevés de température, contrôles visuels
+5. **Définir les actions correctives** : que faire si la température est hors norme ?
+6. **Vérifier le système** : audits internes réguliers
+7. **Documenter** : registres de température, fiches de nettoyage, traçabilité
+
+### La chaîne du froid : zéro tolérance
+
+En food truck, la chaîne du froid est votre point critique n°1 :
+
+- **Réfrigérateur** : entre 0°C et +4°C en permanence
+- **Congélateur** : -18°C minimum
+- **Transport** : sacs isothermes ou véhicule frigorifique pour l'approvisionnement
+- **Relevé de température** : minimum 2 fois par jour (matin et midi)
+- **En cas de rupture** : si un produit dépasse +8°C pendant plus de 2h → poubelle
+
+### Le Plan de Maîtrise Sanitaire (PMS)
+
+Votre PMS est le document qui prouve votre conformité. Il comprend :
+- **Fiches de bonnes pratiques** d'hygiène (BPH)
+- **Plan HACCP** adapté à votre activité
+- **Plan de nettoyage et désinfection** (PNDS) avec fréquences et produits
+- **Procédure de traçabilité** (conservation des bons de livraison 5 ans)
+- **Gestion des allergènes** : liste des 14 allergènes obligatoire
+
+### Le nettoyage quotidien du food truck
+
+Un plan de nettoyage rigoureux :
+
+| Zone | Fréquence | Produit |
+|---|---|---|
+| Plan de travail | Après chaque service | Dégraissant + désinfectant alimentaire |
+| Frigo | Hebdomadaire | Nettoyant frigo alimentaire |
+| Sol | Quotidien | Détergent + eau de javel diluée |
+| Friteuse | Après chaque utilisation | Vidange + nettoyant spécial |
+| Poignées/surfaces contact | Toutes les 2h en service | Spray désinfectant |
+
+### Les contrôles sanitaires : à quoi s'attendre
+
+Les inspecteurs de la DDPP (Direction Départementale de la Protection des Populations) peuvent contrôler à tout moment :
+- Température des frigos et des plats
+- Propreté générale et état du matériel
+- Documents : PMS, formation HACCP, traçabilité
+- Étiquetage des allergènes
+- Dates de péremption
+
+**Résultat publié sur Alim'confiance** — un mauvais résultat est visible de tous !
+
+### Comment FoodTracks facilite la traçabilité
+
+FoodTracks simplifie votre gestion HACCP :
+- **Scan des factures fournisseurs** = traçabilité automatique des lots
+- **Suivi des stocks** avec dates de péremption
+- **Historique des achats** consultable à tout moment pour les contrôles
+- **Alertes** sur les produits proches de la péremption`,
+      en: `## Food Truck Hygiene: A Legal and Commercial Obligation
+
+Food hygiene is not optional. In France, every food professional must comply with health standards or face **administrative closure and fines up to €15,000**. But beyond the law, impeccable hygiene is also your best commercial argument.
+
+### HACCP Training: Mandatory
+
+At least one person on your team must have completed a **14-hour food hygiene (HACCP) training**. This training covers:
+- Microbiological, chemical, and physical hazards
+- The HACCP method (Hazard Analysis Critical Control Points)
+- Good hygiene practices
+- Traceability and allergen management
+
+**Cost**: €200 to €500 — **mandatory** before opening.
+
+### The 7 HACCP Principles Applied to Food Trucks
+
+1. **Analyze hazards**: identify risks at each stage (receiving, storage, preparation, service)
+2. **Determine Critical Control Points** (CCPs): cooking, hot/cold holding, reheating
+3. **Establish critical limits**: e.g., meat core temperature ≥ 63°C
+4. **Set up monitoring**: temperature logs, visual checks
+5. **Define corrective actions**: what to do if temperature is out of range?
+6. **Verify the system**: regular internal audits
+7. **Document everything**: temperature records, cleaning logs, traceability
+
+### Cold Chain: Zero Tolerance
+
+In a food truck, the cold chain is your #1 critical point:
+
+- **Refrigerator**: between 0°C and +4°C at all times
+- **Freezer**: -18°C minimum
+- **Transport**: insulated bags or refrigerated vehicle for sourcing
+- **Temperature logging**: minimum twice daily (morning and noon)
+- **In case of breach**: if a product exceeds +8°C for more than 2h → discard
+
+### The Sanitary Control Plan (PMS)
+
+Your PMS is the document proving compliance. It includes:
+- **Good Hygiene Practice** sheets (GHP)
+- **HACCP plan** tailored to your operations
+- **Cleaning and disinfection plan** with frequencies and products
+- **Traceability procedure** (keep delivery receipts for 5 years)
+- **Allergen management**: list of 14 mandatory allergens
+
+### Daily Food Truck Cleaning
+
+A rigorous cleaning schedule:
+
+| Area | Frequency | Product |
+|---|---|---|
+| Work surfaces | After each service | Degreaser + food-safe disinfectant |
+| Fridge | Weekly | Food-safe fridge cleaner |
+| Floor | Daily | Detergent + diluted bleach |
+| Fryer | After each use | Drain + special cleaner |
+| Handles/contact surfaces | Every 2h during service | Disinfectant spray |
+
+### Health Inspections: What to Expect
+
+Inspectors from the DDPP can check at any time:
+- Fridge and dish temperatures
+- General cleanliness and equipment condition
+- Documents: PMS, HACCP training, traceability
+- Allergen labeling
+- Expiration dates
+
+**Results published on Alim'confiance** — a bad result is visible to everyone!
+
+### How FoodTracks Simplifies Traceability
+
+FoodTracks makes HACCP management easier:
+- **Scan supplier invoices** = automatic lot traceability
+- **Stock tracking** with expiration dates
+- **Purchase history** accessible anytime for inspections
+- **Alerts** on products nearing expiration`,
+    },
+    keyTakeaways: {
+      fr: [
+        "La formation HACCP de 14h est obligatoire avant l'ouverture",
+        "La chaîne du froid doit être maintenue entre 0°C et +4°C en permanence",
+        "Le Plan de Maîtrise Sanitaire (PMS) est votre document de conformité",
+        "FoodTracks automatise la traçabilité via le scan de factures",
+      ],
+      en: [
+        "14-hour HACCP training is mandatory before opening",
+        "Cold chain must be maintained between 0°C and +4°C at all times",
+        "The Sanitary Control Plan (PMS) is your compliance document",
+        "FoodTracks automates traceability via invoice scanning",
+      ],
+    },
+    faqItems: [
+      {
+        question: { fr: "La formation HACCP est-elle obligatoire pour un food truck ?", en: "Is HACCP training mandatory for a food truck?" },
+        answer: { fr: "Oui, au moins une personne de l'équipe doit avoir suivi une formation HACCP de 14 heures. C'est une obligation légale en France pour toute activité de restauration, y compris ambulante.", en: "Yes, at least one team member must have completed a 14-hour HACCP training. It's a legal requirement in France for all food service activities, including mobile ones." },
+      },
+      {
+        question: { fr: "Quelles sont les températures à respecter en food truck ?", en: "What temperatures must be maintained in a food truck?" },
+        answer: { fr: "Réfrigérateur entre 0°C et +4°C, congélateur à -18°C minimum, cuisson à cœur des viandes ≥ 63°C. Relevez les températures au minimum 2 fois par jour.", en: "Refrigerator between 0°C and +4°C, freezer at -18°C minimum, meat core cooking temperature ≥ 63°C. Log temperatures at least twice daily." },
+      },
+    ],
+  },
+  {
+    slug: "comptabilite-food-truck-guide",
+    title: {
+      fr: "Comptabilité food truck : obligations, régimes fiscaux et astuces",
+      en: "Food Truck Accounting: Requirements, Tax Options, and Tips",
+    },
+    excerpt: {
+      fr: "Maîtrisez la comptabilité de votre food truck : choix du régime fiscal, obligations déclaratives, charges déductibles et outils pour simplifier votre gestion.",
+      en: "Master your food truck accounting: tax regime options, reporting obligations, deductible expenses, and tools to simplify management.",
+    },
+    category: { fr: "Gestion", en: "Management" },
+    date: "2025-03-25",
+    readTime: 12,
+    keywords: ["comptabilité food truck", "fiscalité food truck", "charges food truck", "gestion comptable food truck"],
+    heroImage: "/blog/comptabilite-food-truck.png",
+    content: {
+      fr: `## La comptabilité : un pilier de votre food truck
+
+Beaucoup de food truckers se lancent par passion pour la cuisine, mais négligent la comptabilité. Pourtant, **une mauvaise gestion comptable est la première cause de faillite** dans la restauration ambulante. Comprendre vos obligations et optimiser votre fiscalité peut vous faire économiser des milliers d'euros par an.
+
+### Choisir son statut juridique
+
+Le choix du statut impacte directement votre fiscalité :
+
+**Micro-entreprise (auto-entrepreneur)**
+- ✅ Simplicité maximale : pas de bilan, déclaration trimestrielle du CA
+- ✅ Charges sociales : 12,3% du CA (achat-revente) ou 21,2% (prestations)
+- ❌ Plafond CA : 188 700€ (achat-revente)
+- ❌ Pas de déduction des charges réelles
+- 👉 **Idéal pour tester** avant de se développer
+
+**EURL / SARL**
+- ✅ Déduction de toutes les charges (véhicule, matériel, ingrédients)
+- ✅ Choix entre IR et IS
+- ❌ Comptabilité complète obligatoire
+- ❌ Coût comptable : 1 500€ à 3 000€/an
+- 👉 **Idéal si CA > 80 000€/an**
+
+**SASU / SAS**
+- ✅ Statut assimilé salarié (meilleure protection sociale)
+- ✅ Flexibilité de rémunération (salaire + dividendes)
+- ❌ Charges sociales plus élevées
+- 👉 **Idéal si vous visez la croissance** (plusieurs trucks)
+
+### Les obligations comptables
+
+**En micro-entreprise :**
+- Livre de recettes chronologique
+- Registre des achats (si achat-revente)
+- Déclaration trimestrielle ou mensuelle du CA
+- Facturation avec mentions obligatoires
+
+**En société (EURL, SASU...) :**
+- Bilan et compte de résultat annuels
+- Livre journal et grand livre
+- Déclaration de TVA (mensuelle ou trimestrielle)
+- Liasse fiscale
+- Assemblée générale annuelle
+
+### La TVA en food truck
+
+- **Vente à emporter** : TVA à 10% (produits préparés consommés immédiatement)
+- **Boissons non alcoolisées** : TVA à 5,5%
+- **Boissons alcoolisées** : TVA à 20%
+- **Franchise en base de TVA** : exonéré si CA < 91 900€ (micro-entrepreneur)
+
+### Les charges déductibles à ne pas oublier
+
+En société, déduisez tout ce qui est lié à l'activité :
+- **Matières premières et ingrédients**
+- **Carburant et entretien véhicule**
+- **Loyer emplacement** et droits de place
+- **Emballages et consommables**
+- **Assurances** (RC pro, véhicule, marchandises)
+- **Matériel de cuisine** (amortissement)
+- **Abonnements logiciels** (FoodTracks, caisse, compta)
+- **Frais de formation** (HACCP, gestion)
+- **Téléphone et internet**
+- **Vêtements de travail**
+
+### Les erreurs comptables courantes
+
+1. **Mélanger perso et pro** — ouvrez un compte bancaire dédié dès le jour 1
+2. **Oublier de conserver les justificatifs** — gardez TOUT pendant 10 ans
+3. **Ne pas provisionner les charges** — mettez 30% du CA de côté pour les charges
+4. **Sous-estimer la TVA** — elle n'est pas un revenu, c'est un dû
+5. **Déclarer en retard** — pénalités de 10% à 40% selon le retard
+
+### Comment FoodTracks simplifie votre comptabilité
+
+FoodTracks est votre allié comptable :
+- **Scan des factures fournisseurs** — plus besoin de tout saisir manuellement
+- **CA automatique via SumUp** — réconciliation ventes/encaissements en un clic
+- **Suivi des marges par produit** — données prêtes pour votre comptable
+- **Export des données** — format compatible avec les logiciels comptables
+- **Historique complet** — tous vos chiffres accessibles pour les contrôles fiscaux`,
+      en: `## Accounting: A Pillar of Your Food Truck Business
+
+Many food truckers start out of passion for cooking but neglect accounting. Yet **poor financial management is the #1 cause of failure** in mobile food businesses. Understanding your obligations and optimizing your taxes can save thousands of euros per year.
+
+### Choosing Your Legal Structure
+
+Your legal structure directly impacts your taxation:
+
+**Micro-enterprise (auto-entrepreneur)**
+- ✅ Maximum simplicity: no balance sheet, quarterly revenue declaration
+- ✅ Social charges: 12.3% of revenue (buy-resell) or 21.2% (services)
+- ❌ Revenue cap: €188,700 (buy-resell)
+- ❌ No deduction of actual expenses
+- 👉 **Ideal for testing** before scaling
+
+**EURL / SARL**
+- ✅ Deduct all expenses (vehicle, equipment, ingredients)
+- ✅ Choice between income tax and corporate tax
+- ❌ Full accounting required
+- ❌ Accounting cost: €1,500 to €3,000/year
+- 👉 **Ideal if revenue > €80,000/year**
+
+**SASU / SAS**
+- ✅ Employee-equivalent status (better social protection)
+- ✅ Flexible compensation (salary + dividends)
+- ❌ Higher social charges
+- 👉 **Ideal if targeting growth** (multiple trucks)
+
+### Accounting Obligations
+
+**As a micro-enterprise:**
+- Chronological revenue ledger
+- Purchase register (if buy-resell)
+- Quarterly or monthly revenue declaration
+- Invoicing with mandatory mentions
+
+**As a company (EURL, SASU...):**
+- Annual balance sheet and income statement
+- General journal and general ledger
+- VAT declaration (monthly or quarterly)
+- Tax return package
+- Annual general meeting
+
+### VAT for Food Trucks
+
+- **Takeaway food**: 10% VAT (prepared food for immediate consumption)
+- **Non-alcoholic beverages**: 5.5% VAT
+- **Alcoholic beverages**: 20% VAT
+- **VAT exemption**: exempt if revenue < €91,900 (micro-entrepreneur)
+
+### Deductible Expenses You Shouldn't Forget
+
+As a company, deduct everything related to your activity:
+- **Raw materials and ingredients**
+- **Fuel and vehicle maintenance**
+- **Location rental** and pitch fees
+- **Packaging and supplies**
+- **Insurance** (professional liability, vehicle, goods)
+- **Kitchen equipment** (depreciation)
+- **Software subscriptions** (FoodTracks, POS, accounting)
+- **Training costs** (HACCP, management)
+- **Phone and internet**
+- **Work clothing**
+
+### Common Accounting Mistakes
+
+1. **Mixing personal and business** — open a dedicated bank account from day 1
+2. **Forgetting to keep receipts** — keep EVERYTHING for 10 years
+3. **Not setting aside for taxes** — put 30% of revenue aside for charges
+4. **Underestimating VAT** — it's not income, it's owed
+5. **Late declarations** — penalties of 10% to 40% depending on delay
+
+### How FoodTracks Simplifies Your Accounting
+
+FoodTracks is your accounting ally:
+- **Scan supplier invoices** — no more manual data entry
+- **Automatic revenue via SumUp** — sales/payment reconciliation in one click
+- **Margin tracking per product** — data ready for your accountant
+- **Data export** — format compatible with accounting software
+- **Complete history** — all your figures accessible for tax audits`,
+    },
+    keyTakeaways: {
+      fr: [
+        "La micro-entreprise est idéale pour tester, la société pour se développer",
+        "La TVA vente à emporter est de 10%, boissons non alcoolisées 5,5%",
+        "Conservez tous vos justificatifs pendant 10 ans minimum",
+        "FoodTracks automatise le suivi du CA et le scan des factures",
+      ],
+      en: [
+        "Micro-enterprise is ideal for testing, company structure for scaling",
+        "Takeaway VAT is 10%, non-alcoholic beverages 5.5%",
+        "Keep all receipts for at least 10 years",
+        "FoodTracks automates revenue tracking and invoice scanning",
+      ],
+    },
+    faqItems: [
+      {
+        question: { fr: "Quel statut juridique choisir pour un food truck ?", en: "What legal structure should I choose for a food truck?" },
+        answer: { fr: "La micro-entreprise pour débuter (simple, plafond 188 700€), l'EURL/SARL au-delà de 80 000€/an de CA pour déduire les charges, ou la SASU si vous visez plusieurs véhicules.", en: "Micro-enterprise to start (simple, €188,700 cap), EURL/SARL above €80,000/year revenue to deduct expenses, or SASU if you're targeting multiple vehicles." },
+      },
+      {
+        question: { fr: "Quel taux de TVA pour un food truck ?", en: "What VAT rate applies to food trucks?" },
+        answer: { fr: "10% pour la vente à emporter de plats préparés, 5,5% pour les boissons non alcoolisées, 20% pour les boissons alcoolisées. Exonération possible en micro-entreprise sous 91 900€ de CA.", en: "10% for prepared takeaway food, 5.5% for non-alcoholic beverages, 20% for alcoholic beverages. Exemption possible as micro-entrepreneur under €91,900 revenue." },
+      },
+    ],
+  },
+  {
+    slug: "fideliser-clients-food-truck",
+    title: {
+      fr: "Fidéliser les clients de son food truck : stratégies et programmes de loyauté",
+      en: "Building Food Truck Customer Loyalty: Strategies and Programs",
+    },
+    excerpt: {
+      fr: "Découvrez comment fidéliser vos clients en food truck : carte de fidélité, expérience client, communauté et outils digitaux pour créer des habitués.",
+      en: "Discover how to build customer loyalty for your food truck: loyalty cards, customer experience, community building, and digital tools.",
+    },
+    category: { fr: "Marketing", en: "Marketing" },
+    date: "2025-04-01",
+    readTime: 9,
+    keywords: ["fidélisation food truck", "carte fidélité food truck", "clients réguliers food truck", "loyauté clients food truck"],
+    heroImage: "/blog/food-truck-equipe.png",
+    content: {
+      fr: `## Pourquoi la fidélisation est vitale en food truck
+
+Acquérir un nouveau client coûte **5 à 7 fois plus cher** que de fidéliser un client existant. En food truck, où vous changez souvent d'emplacement, avoir une base de clients fidèles qui vous suivent est la clé d'un chiffre d'affaires stable.
+
+### La carte de fidélité : le classique qui marche
+
+La carte de fidélité reste le moyen le plus simple et efficace :
+
+**Version papier :**
+- Carte avec tampons (ex : 10 repas = 1 offert)
+- ✅ Simple, pas de techno, universel
+- ❌ Les clients la perdent souvent
+
+**Version digitale :**
+- QR code scanné à chaque achat
+- ✅ Pas de carte à perdre, données clients récupérées
+- ✅ Possibilité d'envoyer des promos ciblées
+- ❌ Nécessite un outil (app, plateforme)
+
+**Le bon ratio :** offrez une récompense après **8 à 10 achats**. Trop tôt = pas rentable, trop tard = pas motivant.
+
+### L'expérience client : votre meilleur outil de fidélisation
+
+Au-delà des promos, c'est l'expérience qui fidélise :
+
+- **Apprenez les prénoms** de vos réguliers — rien de plus puissant
+- **Souvenez-vous de leurs commandes** : "Le classique comme d'habitude ?"
+- **Soignez la rapidité** — le déjeuner c'est chronométré, respectez le temps de vos clients
+- **Soyez constant** — même qualité, mêmes portions, toujours
+- **Créez un rituel** : le petit extra surprise (sauce maison, cookie offert le vendredi)
+
+### Créer une communauté autour de votre truck
+
+Transformez vos clients en fans :
+
+- **Groupe WhatsApp ou Telegram** pour annoncer vos emplacements en avant-première
+- **Concours Instagram** : photo du plat = tirage au sort pour un repas gratuit
+- **Nommez un plat** d'après un client fidèle (le "Burger de Marco")
+- **Événements privés** : dégustation pour les meilleurs clients 2 fois par an
+
+### Le programme VIP sans la complexité
+
+Pas besoin d'une app sophistiquée. Créez 3 niveaux simples :
+
+| Niveau | Condition | Avantage |
+|---|---|---|
+| Habitué | 5+ achats | Boisson offerte par mois |
+| Fan | 20+ achats | -10% permanent + accès avant-première nouveaux plats |
+| Ambassadeur | 50+ achats + partage réseaux | Menu gratuit mensuel + plat à son nom |
+
+### Les promotions qui fidélisent (sans casser vos marges)
+
+- **Happy hour** : -20% entre 14h et 14h30 (écouler les restes du rush)
+- **Parrainage** : client qui amène un ami = dessert offert aux deux
+- **Anniversaire** : envoyez un message + offrez un petit plus le jour J
+- **Combo fidélité** : toutes les 2 semaines, un combo spécial réservé aux habitués
+
+### Les erreurs de fidélisation
+
+- **Tout miser sur les réductions** — ça attire les chasseurs de promos, pas les fidèles
+- **Être irrégulier** — changer d'emplacements sans prévenir détruit la fidélité
+- **Ignorer les retours** — un client qui se plaint est un client qui veut rester
+- **Négliger le digital** — même un simple groupe WhatsApp fait la différence
+
+### Comment FoodTracks renforce la fidélisation
+
+Avec les données FoodTracks :
+- **Identifiez vos best-sellers** pour ne jamais les retirer du menu
+- **Analysez vos emplacements** les plus fidèles (plus de récurrence)
+- **Optimisez vos stocks** pour ne jamais décevoir un habitué en rupture
+- **Prédictions de vente** pour anticiper la demande de vos fidèles`,
+      en: `## Why Loyalty Matters for Food Trucks
+
+Acquiring a new customer costs **5 to 7 times more** than retaining an existing one. For food trucks that change locations often, having a loyal customer base that follows you is the key to stable revenue.
+
+### Loyalty Cards: The Classic That Works
+
+Loyalty cards remain the simplest and most effective method:
+
+**Paper version:**
+- Stamp card (e.g., 10 meals = 1 free)
+- ✅ Simple, no tech required, universal
+- ❌ Customers often lose them
+
+**Digital version:**
+- QR code scanned at each purchase
+- ✅ No card to lose, customer data collected
+- ✅ Ability to send targeted promos
+- ❌ Requires a tool (app, platform)
+
+**The right ratio:** offer a reward after **8 to 10 purchases**. Too soon = not profitable, too late = not motivating.
+
+### Customer Experience: Your Best Loyalty Tool
+
+Beyond promos, experience is what builds loyalty:
+
+- **Learn regulars' names** — nothing is more powerful
+- **Remember their orders**: "The usual?"
+- **Prioritize speed** — lunch is timed, respect your customers' time
+- **Be consistent** — same quality, same portions, always
+- **Create rituals**: surprise extras (house sauce, free cookie on Fridays)
+
+### Building a Community Around Your Truck
+
+Turn customers into fans:
+
+- **WhatsApp or Telegram group** to announce locations early
+- **Instagram contests**: photo of dish = raffle for a free meal
+- **Name a dish** after a loyal customer ("Marco's Burger")
+- **Private events**: tastings for top customers twice a year
+
+### VIP Program Without Complexity
+
+No need for a sophisticated app. Create 3 simple tiers:
+
+| Tier | Condition | Benefit |
+|---|---|---|
+| Regular | 5+ purchases | Free drink per month |
+| Fan | 20+ purchases | -10% permanent + early access to new dishes |
+| Ambassador | 50+ purchases + social shares | Free monthly meal + dish named after them |
+
+### Promotions That Build Loyalty (Without Breaking Margins)
+
+- **Happy hour**: -20% between 2:00 and 2:30 PM (clear rush leftovers)
+- **Referral**: customer brings a friend = free dessert for both
+- **Birthday**: send a message + offer a treat on the day
+- **Loyalty combo**: every 2 weeks, a special combo reserved for regulars
+
+### Loyalty Mistakes to Avoid
+
+- **Relying only on discounts** — attracts deal hunters, not loyal fans
+- **Being inconsistent** — changing locations without notice destroys loyalty
+- **Ignoring feedback** — a complaining customer is a customer who wants to stay
+- **Neglecting digital** — even a simple WhatsApp group makes a difference
+
+### How FoodTracks Strengthens Loyalty
+
+With FoodTracks data:
+- **Identify your best-sellers** so you never remove them from the menu
+- **Analyze your most loyal locations** (higher recurrence)
+- **Optimize stock** to never disappoint a regular with stockouts
+- **Sales predictions** to anticipate your regulars' demand`,
+    },
+    keyTakeaways: {
+      fr: [
+        "Fidéliser coûte 5 à 7 fois moins cher qu'acquérir un nouveau client",
+        "Une carte de fidélité avec récompense après 8-10 achats est le format optimal",
+        "L'expérience client (prénoms, commandes mémorisées) fidélise plus que les promos",
+        "Un simple groupe WhatsApp pour annoncer vos emplacements crée une communauté fidèle",
+      ],
+      en: [
+        "Retention costs 5 to 7 times less than acquisition",
+        "A loyalty card with reward after 8-10 purchases is the optimal format",
+        "Customer experience (names, remembered orders) builds more loyalty than promos",
+        "A simple WhatsApp group to announce locations creates a loyal community",
+      ],
+    },
+    faqItems: [
+      {
+        question: { fr: "Comment fidéliser les clients d'un food truck ?", en: "How to build food truck customer loyalty?" },
+        answer: { fr: "Combinez carte de fidélité (8-10 achats = 1 offert), expérience client personnalisée (prénoms, commandes mémorisées), et communauté digitale (groupe WhatsApp pour les emplacements). La constance dans la qualité est clé.", en: "Combine loyalty cards (8-10 purchases = 1 free), personalized customer experience (names, remembered orders), and digital community (WhatsApp group for locations). Consistency in quality is key." },
+      },
+      {
+        question: { fr: "Carte de fidélité papier ou digitale pour un food truck ?", en: "Paper or digital loyalty card for a food truck?" },
+        answer: { fr: "Les deux ont des avantages. Le papier est simple et universel mais se perd. Le digital (QR code) ne se perd pas et permet de collecter des données clients pour du marketing ciblé. L'idéal est de proposer les deux.", en: "Both have advantages. Paper is simple and universal but gets lost. Digital (QR code) can't be lost and allows collecting customer data for targeted marketing. Ideally, offer both." },
+      },
+    ],
+  },
+  {
+    slug: "food-truck-evenementiel-traiteur",
+    title: {
+      fr: "Food truck événementiel et traiteur : diversifier ses revenus",
+      en: "Event Catering with Your Food Truck: Diversifying Revenue",
+    },
+    excerpt: {
+      fr: "Développez votre activité de food truck vers l'événementiel : mariages, séminaires, festivals. Guide complet pour décrocher des contrats et maximiser vos revenus.",
+      en: "Expand your food truck into event catering: weddings, corporate events, festivals. Complete guide to landing contracts and maximizing revenue.",
+    },
+    category: { fr: "Business", en: "Business" },
+    date: "2025-04-05",
+    readTime: 11,
+    keywords: ["food truck événementiel", "food truck traiteur", "food truck mariage", "food truck séminaire"],
+    heroImage: "/blog/food-truck-festival.png",
+    content: {
+      fr: `## L'événementiel : le booster de revenus du food truck
+
+La vente quotidienne sur vos emplacements habituels, c'est votre base. Mais l'événementiel peut représenter **30 à 50% de votre CA annuel** avec des marges bien supérieures. Un seul mariage peut rapporter autant qu'une semaine entière de service street food.
+
+### Les types d'événements les plus rentables
+
+**Mariages et fêtes privées**
+- Budget moyen : 1 500€ à 5 000€
+- Marge : 60-70% (menu fixe, quantités prévisibles)
+- Saison : avril à octobre
+- 👉 Le plus rentable, mais demande une prestation premium
+
+**Séminaires et événements corporate**
+- Budget moyen : 800€ à 3 000€
+- Récurrence : les entreprises reviennent chaque année
+- Avantage : paiement rapide, volumes importants
+- 👉 Excellent pour le CA régulier
+
+**Festivals et marchés événementiels**
+- Budget : droit de place 200€ à 2 000€ + vente libre
+- CA potentiel : 2 000€ à 15 000€ le week-end
+- Risque : météo, concurrence sur place
+- 👉 Fort potentiel mais plus aléatoire
+
+**Anniversaires et fêtes de quartier**
+- Budget : 500€ à 1 500€
+- Volume : plus faible mais fidélisant
+- 👉 Bon pour le bouche-à-oreille local
+
+### Comment décrocher des contrats événementiels
+
+**1. Créez une offre dédiée**
+- Menu événementiel séparé de votre menu street food
+- 3 formules : Essentielle (entrée + plat), Confort (entrée + plat + dessert), Premium (apéro + entrée + plat + dessert + boisson)
+- Tarification par personne (15€ à 35€/pers selon la formule)
+
+**2. Rendez-vous visible**
+- Page dédiée "Événements" sur votre site web
+- Profil sur les plateformes : Mariages.net, EventBrite, TruckBooking
+- Portfolio photos de vos prestations passées
+- Avis clients événementiels sur Google
+
+**3. Développez votre réseau**
+- Wedding planners et organisateurs d'événements
+- Comités d'entreprise (CE)
+- Mairies et offices de tourisme
+- Salles de réception sans traiteur attitré
+
+**4. Soignez le premier contact**
+- Répondez en moins de 24h
+- Envoyez un devis pro et détaillé
+- Proposez une dégustation (ça convertit énormément)
+
+### La logistique événementielle
+
+La prestation événementielle demande plus de préparation :
+
+- **Reconnaissance du lieu** : accès camion, électricité, eau, espace
+- **Préparation en avance** : maximum de préparations faites la veille
+- **Staff supplémentaire** : prévoyez 1 personne pour 30-40 couverts
+- **Matériel spécifique** : assiettes, couverts, décoration si demandé
+- **Plan B météo** : si événement extérieur, prévoir une solution pluie
+
+### La tarification événementielle
+
+| Formule | Contenu | Prix/personne |
+|---|---|---|
+| Essentielle | 1 plat + 1 boisson | 15€ - 20€ |
+| Confort | Entrée + plat + dessert + boisson | 22€ - 30€ |
+| Premium | Apéro + entrée + plat + dessert + boisson | 30€ - 45€ |
+| Corporate | Buffet + boissons illimitées | 25€ - 35€ |
+
+**Ajoutez des options** : cocktail d'accueil (+5€/pers), bar à desserts (+8€/pers), animation cuisine live (+200€).
+
+### Les erreurs à éviter
+
+- **Sous-tarifer** par peur de ne pas avoir le contrat — vous méritez une marge premium
+- **Accepter sans visiter le lieu** — l'accès et la logistique peuvent être un cauchemar
+- **Négliger le contrat écrit** — détaillez tout : menu, horaires, conditions d'annulation, acompte (30-50%)
+- **Oublier les extras** — kilomètres supplémentaires, heures sup, vaisselle, nettoyage
+
+### Comment FoodTracks optimise vos événements
+
+FoodTracks vous aide à professionnaliser vos prestations :
+- **Calcul précis des quantités** via les prédictions IA selon le nombre de couverts
+- **Coût matière par événement** pour garantir vos marges
+- **Suivi du CA événementiel** séparé du CA quotidien
+- **Gestion des stocks dédiés** pour ne rien oublier le jour J`,
+      en: `## Event Catering: The Food Truck Revenue Booster
+
+Daily sales at your regular spots are your baseline. But events can represent **30 to 50% of your annual revenue** with much higher margins. A single wedding can earn as much as an entire week of street food service.
+
+### Most Profitable Event Types
+
+**Weddings and private parties**
+- Average budget: €1,500 to €5,000
+- Margin: 60-70% (fixed menu, predictable quantities)
+- Season: April to October
+- 👉 Most profitable, but requires premium service
+
+**Corporate seminars and events**
+- Average budget: €800 to €3,000
+- Recurrence: companies come back every year
+- Advantage: fast payment, large volumes
+- 👉 Excellent for regular revenue
+
+**Festivals and event markets**
+- Budget: pitch fee €200 to €2,000 + free sales
+- Potential revenue: €2,000 to €15,000 per weekend
+- Risk: weather, on-site competition
+- 👉 High potential but more unpredictable
+
+**Birthdays and neighborhood events**
+- Budget: €500 to €1,500
+- Volume: lower but loyalty-building
+- 👉 Great for local word-of-mouth
+
+### How to Land Event Contracts
+
+**1. Create a dedicated offering**
+- Event menu separate from your street food menu
+- 3 packages: Essential (starter + main), Comfort (starter + main + dessert), Premium (appetizer + starter + main + dessert + drink)
+- Per-person pricing (€15 to €35/person depending on package)
+
+**2. Get visible**
+- Dedicated "Events" page on your website
+- Profile on platforms: Mariages.net, EventBrite, TruckBooking
+- Photo portfolio of past events
+- Event-specific Google reviews
+
+**3. Build your network**
+- Wedding planners and event organizers
+- Company works councils
+- City halls and tourist offices
+- Reception venues without dedicated caterers
+
+**4. Nail the first contact**
+- Respond within 24 hours
+- Send a professional, detailed quote
+- Offer a tasting (converts extremely well)
+
+### Event Logistics
+
+Event catering requires more preparation:
+
+- **Venue reconnaissance**: truck access, electricity, water, space
+- **Advance prep**: maximum preparations done the day before
+- **Extra staff**: plan 1 person per 30-40 covers
+- **Specific equipment**: plates, cutlery, decoration if requested
+- **Weather plan B**: for outdoor events, have a rain solution
+
+### Event Pricing
+
+| Package | Content | Price/person |
+|---|---|---|
+| Essential | 1 main + 1 drink | €15 - €20 |
+| Comfort | Starter + main + dessert + drink | €22 - €30 |
+| Premium | Appetizer + starter + main + dessert + drink | €30 - €45 |
+| Corporate | Buffet + unlimited drinks | €25 - €35 |
+
+**Add options**: welcome cocktail (+€5/person), dessert bar (+€8/person), live cooking show (+€200).
+
+### Mistakes to Avoid
+
+- **Underpricing** out of fear of losing the contract — you deserve a premium margin
+- **Accepting without visiting the venue** — access and logistics can be a nightmare
+- **Skipping a written contract** — detail everything: menu, times, cancellation terms, deposit (30-50%)
+- **Forgetting extras** — additional kilometers, overtime, dishes, cleanup
+
+### How FoodTracks Optimizes Your Events
+
+FoodTracks helps professionalize your services:
+- **Precise quantity calculation** via AI predictions based on headcount
+- **Food cost per event** to guarantee your margins
+- **Event revenue tracking** separate from daily revenue
+- **Dedicated stock management** so you don't forget anything on the day`,
+    },
+    keyTakeaways: {
+      fr: [
+        "L'événementiel peut représenter 30 à 50% du CA annuel d'un food truck",
+        "Les mariages sont les événements les plus rentables (marge 60-70%)",
+        "Créez 3 formules tarifées par personne (15€ à 45€)",
+        "FoodTracks calcule les quantités et coûts matière par événement",
+      ],
+      en: [
+        "Events can represent 30 to 50% of a food truck's annual revenue",
+        "Weddings are the most profitable events (60-70% margin)",
+        "Create 3 per-person packages (€15 to €45)",
+        "FoodTracks calculates quantities and food costs per event",
+      ],
+    },
+    faqItems: [
+      {
+        question: { fr: "Combien facturer pour un food truck en mariage ?", en: "How much to charge for a food truck at a wedding?" },
+        answer: { fr: "Entre 25€ et 45€ par personne selon la formule choisie, plus les options (cocktail d'accueil, bar à desserts). Pour 80 convives en formule Confort, comptez 2 000€ à 2 400€ HT.", en: "Between €25 and €45 per person depending on the package, plus options (welcome cocktail, dessert bar). For 80 guests on Comfort package, expect €2,000 to €2,400 excl. VAT." },
+      },
+      {
+        question: { fr: "Comment trouver des événements pour son food truck ?", en: "How to find events for your food truck?" },
+        answer: { fr: "Inscrivez-vous sur Mariages.net, EventBrite et TruckBooking. Contactez les wedding planners, CE d'entreprises et mairies. Créez une page Événements sur votre site avec un portfolio photos.", en: "Register on Mariages.net, EventBrite, and TruckBooking. Contact wedding planners, company councils, and city halls. Create an Events page on your site with a photo portfolio." },
+      },
+    ],
+  },
 ];
 
 export function getArticleBySlug(slug: string): BlogArticle | undefined {
