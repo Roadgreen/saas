@@ -2,20 +2,29 @@ import { PrismaClient } from '@prisma/client';
 
 const globalForPrisma = globalThis as unknown as { prisma: PrismaClient };
 
-// Ensure pgbouncer params are in DATABASE_URL before any PrismaClient reads it
-if (process.env.DATABASE_URL?.includes(':6543/')) {
-  let url = process.env.DATABASE_URL;
-  if (!url.includes('pgbouncer=true')) {
-    url += (url.includes('?') ? '&' : '?') + 'pgbouncer=true';
+// Build connection URL with pgbouncer params for Supabase pooler (port 6543)
+function getDatasourceUrl(): string {
+  let url = process.env.DATABASE_URL ?? '';
+  if (url.includes(':6543/')) {
+    if (!url.includes('pgbouncer=true')) {
+      url += (url.includes('?') ? '&' : '?') + 'pgbouncer=true';
+    }
+    if (!url.includes('prepare=false')) {
+      url += (url.includes('?') ? '&' : '?') + 'prepare=false';
+    }
   }
-  if (!url.includes('prepare=false')) {
-    url += (url.includes('?') ? '&' : '?') + 'prepare=false';
-  }
-  process.env.DATABASE_URL = url;
+  return url;
 }
 
-export const prisma =
-  globalForPrisma.prisma ||
-  new PrismaClient();
+function createPrismaClient(): PrismaClient {
+  const url = getDatasourceUrl();
+  return new PrismaClient({
+    datasources: {
+      db: { url },
+    },
+  });
+}
+
+export const prisma = globalForPrisma.prisma || createPrismaClient();
 
 if (process.env.NODE_ENV !== 'production') globalForPrisma.prisma = prisma;

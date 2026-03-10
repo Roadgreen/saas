@@ -14,7 +14,7 @@ import Link from 'next/link';
 
 const authSchema = z.object({
   email: z.string().email(),
-  password: z.string().min(6),
+  password: z.string().min(8),
   name: z.string().optional(),
   businessName: z.string().optional(),
 });
