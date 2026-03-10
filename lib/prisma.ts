@@ -3,10 +3,16 @@ import { PrismaClient } from '@prisma/client';
 const globalForPrisma = globalThis as unknown as { prisma: PrismaClient };
 
 function getDatabaseUrl() {
-  const url = process.env.DATABASE_URL ?? '';
-  if (url.includes(':6543/') && !url.includes('pgbouncer=true')) {
+  let url = process.env.DATABASE_URL ?? '';
+  if (url.includes(':6543/')) {
     const separator = url.includes('?') ? '&' : '?';
-    return `${url}${separator}pgbouncer=true`;
+    if (!url.includes('pgbouncer=true')) {
+      url = `${url}${separator}pgbouncer=true`;
+    }
+    if (!url.includes('prepare=false')) {
+      const sep = url.includes('?') ? '&' : '?';
+      url = `${url}${sep}prepare=false`;
+    }
   }
   return url;
 }
