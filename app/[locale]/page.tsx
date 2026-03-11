@@ -141,7 +141,7 @@ export default function Home() {
           ══════════════════════════════════════ */}
       <section
         className="relative overflow-hidden flex items-center"
-        style={{ backgroundColor: DARK, minHeight: '100svh' }}
+        style={{ backgroundColor: DARK, height: '100svh' }}
       >
         <div className="absolute inset-0 bg-dot-grid pointer-events-none opacity-20" />
         <div
@@ -153,7 +153,7 @@ export default function Home() {
           style={{ background: 'radial-gradient(ellipse at bottom left, rgba(20,184,166,0.06) 0%, transparent 55%)' }}
         />
 
-        <div className="container relative mx-auto px-5 sm:px-8 lg:px-16 py-32 md:py-44 lg:py-48">
+        <div className="container relative mx-auto px-5 sm:px-8 lg:px-16 py-16 md:py-20 lg:py-24">
           <div className="grid lg:grid-cols-2 gap-20 items-center max-w-7xl mx-auto">
 
             {/* Left — copy */}
