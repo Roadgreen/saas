@@ -18,7 +18,7 @@ import {
 
 const STEPS = [
   { key: "step1" as const, icon: Truck, href: null },
-  { key: "step2" as const, icon: Package, href: "/dashboard/stock" },
+  { key: "step2" as const, icon: Package, href: "/dashboard/products" },
   { key: "step3" as const, icon: ChefHat, href: "/dashboard/recipes" },
   { key: "step4" as const, icon: MapPin, href: null },
 ] as const;
