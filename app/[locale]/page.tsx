@@ -206,7 +206,7 @@ export default function Home() {
                 </a>
               </div>
 
-              <div className="flex flex-wrap items-center gap-6 text-sm" style={{ color: 'rgba(255,255,255,0.6)' }}>
+              <div className="flex flex-wrap items-center gap-6 text-sm text-white/70">
                 <span className="flex items-center gap-1.5">
                   <CheckCircle2 className="h-4 w-4" style={{ color: ORANGE }} />
                   {t('hero.noCreditCard')}
@@ -1341,7 +1341,7 @@ export default function Home() {
                   <ArrowRight className="h-5 w-5" />
                 </button>
               </Link>
-              <p className="text-sm" style={{ color: 'rgba(255,255,255,0.5)' }}>
+              <p className="text-sm text-white/70">
                 {t('hero.noCreditCard')} · {t('hero.freeToStart')}
               </p>
             </div>
