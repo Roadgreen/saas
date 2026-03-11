@@ -153,12 +153,12 @@ export default function Home() {
           style={{ background: 'radial-gradient(ellipse at bottom left, rgba(20,184,166,0.06) 0%, transparent 55%)' }}
         />
 
-        <div className="container relative mx-auto px-5 sm:px-8 lg:px-16 py-16 md:py-20 lg:py-24">
-          <div className="grid lg:grid-cols-2 gap-20 items-center max-w-7xl mx-auto">
+        <div className="container relative mx-auto px-5 sm:px-8 lg:px-16 py-10 md:py-14 lg:py-16">
+          <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center max-w-7xl mx-auto">
 
             {/* Left — copy */}
             <motion.div
-              className="space-y-12"
+              className="space-y-6"
               initial={{ opacity: 0, y: 32 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
