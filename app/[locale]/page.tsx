@@ -8,7 +8,6 @@ import { useState, useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
 import { AnimatedSection, StaggerContainer, StaggerItem } from '@/components/landing/AnimatedSection';
 import { CountUp } from '@/components/landing/CountUp';
-import { ScrollSequence } from '@/components/landing/ScrollSequence';
 import {
   CheckCircle2, MapPin, AlertTriangle,
   TrendingUp, Flame, UserPlus,
@@ -309,11 +308,6 @@ export default function Home() {
           style={{ background: `linear-gradient(to bottom, transparent, ${DARK})` }}
         />
       </section>
-
-      {/* ══════════════════════════════════════
-          SCROLL SEQUENCE — Apple-style animation
-          ══════════════════════════════════════ */}
-      <ScrollSequence />
 
       {/* ══════════════════════════════════════
           INTEGRATIONS TRUST BAR

@@ -211,12 +211,6 @@
             "timeStat": "5h",
             "timeLabel": "saved per week"
         },
-        "scrollSequence": {
-            "text1": "A food truck like any other...",
-            "text2": "But look closer...",
-            "text3": "Inside, a connected food trucker",
-            "text4": "With FoodTracks, he predicts his sales"
-        },
         "problem": {
             "title": "Sound familiar?",
             "subtitle": "Every food truck owner faces the same daily challenges.",

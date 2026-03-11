@@ -211,12 +211,6 @@
             "timeStat": "5h",
             "timeLabel": "économisées/semaine"
         },
-        "scrollSequence": {
-            "text1": "Un food truck comme les autres...",
-            "text2": "Mais regardez de plus près...",
-            "text3": "À l'intérieur, un food trucker connecté",
-            "text4": "Avec FoodTracks, il prédit ses ventes"
-        },
         "problem": {
             "title": "Ça te parle ?",
             "subtitle": "Chaque gérant de food truck fait face aux mêmes défis quotidiens.",
