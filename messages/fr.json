@@ -909,5 +909,29 @@
             "subtitle": "Rejoignez les food truckers qui gagnent du temps et de l'argent avec FoodTracks.",
             "button": "Commencer gratuitement"
         }
+    },
+    "Onboarding": {
+        "step1": {
+            "title": "Bienvenue sur FoodTracks !",
+            "subtitle": "Configurez votre food truck en 3 etapes simples",
+            "cta": "C'est parti !"
+        },
+        "step2": {
+            "title": "Ajoutez vos produits",
+            "subtitle": "Scannez ou ajoutez manuellement les ingredients que vous utilisez. FoodTracks suivra vos stocks et previendra le gaspillage.",
+            "skip": "Passer",
+            "cta": "Ajouter mes produits"
+        },
+        "step3": {
+            "title": "Creez vos recettes",
+            "subtitle": "Associez vos ingredients pour creer vos plats. L'IA calculera les couts et optimisera vos marges.",
+            "skip": "Passer",
+            "cta": "Creer une recette"
+        },
+        "step4": {
+            "title": "Predisez vos ventes",
+            "subtitle": "Ajoutez vos emplacements de vente (marches, festivals, spots) et l'IA predit la demande selon le lieu, la meteo et l'historique.",
+            "cta": "Commencer !"
+        }
     }
 }

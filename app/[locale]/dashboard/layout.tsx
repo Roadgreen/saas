@@ -4,6 +4,7 @@ import { MobileNav } from "@/components/dashboard/mobile-nav";
 import { LocationProvider } from "@/components/providers/LocationProvider";
 import { EmailVerificationBanner } from "@/components/dashboard/EmailVerificationBanner";
 import { BottomNav } from "@/components/app/BottomNav";
+import { OnboardingModal } from "@/components/onboarding-modal";
 import { auth } from "@/auth";
 import { prisma } from "@/lib/prisma";
 
@@ -20,14 +21,16 @@ export default async function DashboardLayout({
   const session = await auth();
   let showVerificationBanner = false;
   let userEmail = "";
+  let showOnboarding = false;
 
   if (session?.user?.email) {
     const user = await prisma.user.findUnique({
       where: { email: session.user.email },
-      select: { emailVerified: true, email: true },
+      select: { emailVerified: true, email: true, onboardingCompleted: true },
     });
     showVerificationBanner = !!user && !user.emailVerified;
     userEmail = user?.email ?? "";
+    showOnboarding = !!user && !user.onboardingCompleted;
   }
 
   return (
@@ -50,6 +53,7 @@ export default async function DashboardLayout({
         </div>
       </div>
       <BottomNav />
+      {showOnboarding && <OnboardingModal />}
     </LocationProvider>
   );
 }
