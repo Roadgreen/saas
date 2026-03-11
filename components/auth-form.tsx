@@ -113,12 +113,12 @@ export function AuthForm({ type }: AuthFormProps) {
   const isPlanRegister = type === 'register' && (plan === 'PRO' || plan === 'ENTERPRISE');
 
   return (
-    <div className="w-full max-w-md p-8 md:p-10 space-y-7 bg-white rounded-2xl shadow-xl border border-gray-100/80">
+    <div className="w-full max-w-md mx-auto p-8 md:p-10 space-y-7 bg-[#1A1410] rounded-2xl shadow-xl border border-white/10">
       <div className="text-center space-y-2">
         <div className="inline-flex items-center justify-center w-12 h-12 rounded-2xl mb-2" style={{ backgroundColor: 'rgba(249,115,22,0.1)' }}>
           <ChefHat className="h-6 w-6" style={{ color: '#F97316' }} />
         </div>
-        <h2 className="font-jakarta text-2xl font-bold tracking-tight text-gray-900">
+        <h2 className="font-jakarta text-2xl font-bold tracking-tight text-white">
           {type === 'login' ? 'Sign In' : 'Create Account'}
         </h2>
         {isPlanRegister && (
@@ -129,14 +129,14 @@ export function AuthForm({ type }: AuthFormProps) {
       </div>
 
       {verified && (
-        <div className="p-4 text-sm text-green-700 bg-green-50 rounded-xl border border-green-200 flex items-start gap-2.5">
+        <div className="p-4 text-sm text-green-300 bg-green-900/30 rounded-xl border border-green-700/50 flex items-start gap-2.5">
           <CheckCircle2 className="h-4 w-4 mt-0.5 flex-shrink-0 text-green-600" />
           <span>{locale === 'fr' ? 'Votre email a été vérifié avec succès ! Connectez-vous pour accéder à votre compte.' : 'Your email has been verified successfully! Sign in to access your account.'}</span>
         </div>
       )}
 
       {error && (
-        <div className="p-4 text-sm text-red-600 bg-red-50 rounded-xl border border-red-100 flex items-start gap-2.5">
+        <div className="p-4 text-sm text-red-300 bg-red-900/30 rounded-xl border border-red-700/50 flex items-start gap-2.5">
           <XCircle className="h-4 w-4 mt-0.5 flex-shrink-0 text-red-500" />
           <span>{error}</span>
         </div>
@@ -146,19 +146,19 @@ export function AuthForm({ type }: AuthFormProps) {
         {type === 'register' && (
           <>
             <div className="space-y-2">
-              <Label htmlFor="name" className="text-sm font-medium text-gray-700">Full Name</Label>
-              <Input id="name" {...register('name')} placeholder="John Doe" className="input-premium rounded-xl h-11" />
+              <Label htmlFor="name" className="text-sm font-medium text-white/80">Full Name</Label>
+              <Input id="name" {...register('name')} placeholder="John Doe" className="input-premium rounded-xl h-11 bg-white/5 border-white/15 text-white placeholder:text-white/30" />
               {errors.name && (
                 <p className="text-sm text-red-500">{errors.name.message}</p>
               )}
             </div>
             <div className="space-y-2">
-              <Label htmlFor="businessName" className="text-sm font-medium text-gray-700">Business Name</Label>
+              <Label htmlFor="businessName" className="text-sm font-medium text-white/80">Business Name</Label>
               <Input
                 id="businessName"
                 {...register('businessName')}
                 placeholder="Joe's Food Truck"
-                className="input-premium rounded-xl h-11"
+                className="input-premium rounded-xl h-11 bg-white/5 border-white/15 text-white placeholder:text-white/30"
               />
               {errors.businessName && (
                 <p className="text-sm text-red-500">
@@ -170,13 +170,13 @@ export function AuthForm({ type }: AuthFormProps) {
         )}
 
         <div className="space-y-2">
-          <Label htmlFor="email" className="text-sm font-medium text-gray-700">Email</Label>
+          <Label htmlFor="email" className="text-sm font-medium text-white/80">Email</Label>
           <Input
             id="email"
             type="email"
             {...register('email')}
             placeholder="name@example.com"
-            className="input-premium rounded-xl h-11"
+            className="input-premium rounded-xl h-11 bg-white/5 border-white/15 text-white placeholder:text-white/30"
           />
           {errors.email && (
             <p className="text-sm text-red-500">{errors.email.message}</p>
@@ -184,13 +184,13 @@ export function AuthForm({ type }: AuthFormProps) {
         </div>
 
         <div className="space-y-2">
-          <Label htmlFor="password" className="text-sm font-medium text-gray-700">Password</Label>
+          <Label htmlFor="password" className="text-sm font-medium text-white/80">Password</Label>
           <Input
             id="password"
             type="password"
             {...register('password')}
             placeholder="••••••••"
-            className="input-premium rounded-xl h-11"
+            className="input-premium rounded-xl h-11 bg-white/5 border-white/15 text-white placeholder:text-white/30"
           />
           {errors.password && (
             <p className="text-sm text-red-500">{errors.password.message}</p>
@@ -209,7 +209,7 @@ export function AuthForm({ type }: AuthFormProps) {
 
       </form>
 
-      <div className="text-center text-sm text-gray-500">
+      <div className="text-center text-sm text-white/50">
         {type === 'login' ? (
           <p>
             Don&apos;t have an account?{' '}

@@ -15,15 +15,14 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 
 export default function RegisterPage() {
   return (
-    <div className="flex items-center justify-center min-h-screen relative" style={{ backgroundColor: '#FAFAF8' }}>
+    <div className="flex items-center justify-center min-h-screen relative" style={{ backgroundColor: '#0D0905' }}>
       <div
         className="absolute inset-0 pointer-events-none"
         style={{
-          background: 'radial-gradient(ellipse 80% 50% at 50% 0%, rgba(249,115,22,0.06) 0%, transparent 60%)',
+          background: 'radial-gradient(ellipse 80% 50% at 50% 0%, rgba(249,115,22,0.08) 0%, transparent 60%)',
         }}
       />
-      <div className="absolute inset-0 bg-cross-hatch pointer-events-none opacity-40" />
-      <div className="relative z-10 w-full px-4 py-12">
+      <div className="relative z-10 w-full px-4 py-12 flex items-center justify-center">
         <AuthForm type="register" />
       </div>
     </div>
