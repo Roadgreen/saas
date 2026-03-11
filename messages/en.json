@@ -910,6 +910,37 @@
             "button": "Start for free"
         }
     },
+    "EmptyStates": {
+        "products": {
+            "title": "Add your first product",
+            "description": "Start by adding the ingredients and products you use.",
+            "cta": "Add a product",
+            "pageTitle": "No products yet",
+            "pageDescription": "Add your first product to start tracking your inventory and costs.",
+            "pageCta": "Add a product"
+        },
+        "recipes": {
+            "title": "Create your first recipe",
+            "description": "Build recipes from your products to track costs.",
+            "cta": "Create a recipe",
+            "pageTitle": "No recipes yet",
+            "pageDescription": "Create your first recipe by combining your ingredients. AI will calculate costs and optimize your margins.",
+            "pageCta": "Create a recipe"
+        },
+        "sales": {
+            "title": "Record your first sale",
+            "description": "Add your sales to unlock AI predictions.",
+            "cta": "Add a sale",
+            "pageTitle": "No sales recorded",
+            "pageDescription": "Record your sales to automatically update your stock and unlock AI predictions.",
+            "pageCta": "Record a sale"
+        },
+        "locations": {
+            "title": "Set up your first location",
+            "description": "Add your selling spots (markets, festivals) for localized predictions.",
+            "cta": "Add a location"
+        }
+    },
     "Onboarding": {
         "step1": {
             "title": "Welcome to FoodTracks!",

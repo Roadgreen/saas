@@ -7,6 +7,7 @@ import { calculateStatus } from "@/lib/utils";
 import { isCurrencyCode, type CurrencyCode } from "@/lib/currency";
 import { getProductDemand } from "@/lib/stock-demand";
 import type { WeekSchedule } from "@/lib/schedule";
+import { EmptyStatePage } from "@/components/dashboard/EmptyStatePage";
 
 const STATIC_LOW_STOCK_THRESHOLD = 5;
 
@@ -50,6 +51,14 @@ export default async function ProductsPage({
       user.business.openingHours as WeekSchedule | null
     ).catch(() => new Map()),
   ]);
+
+  if (products.length === 0) {
+    return (
+      <div className="flex-1 space-y-4">
+        <EmptyStatePage page="products" />
+      </div>
+    );
+  }
 
   const hasPredictions = demandMap.size > 0;
 

@@ -23,6 +23,7 @@ import { isCurrencyCode, type CurrencyCode } from '@/lib/currency';
 import { getNextOpenDay, type WeekSchedule } from '@/lib/schedule';
 import { getRecipeReadiness } from '@/lib/stock-demand';
 import { StockReadinessCard } from '@/components/dashboard/StockReadinessCard';
+import { DashboardEmptyStates } from '@/components/dashboard/DashboardEmptyStates';
 
 export default async function Dashboard({
   params
@@ -79,6 +80,14 @@ export default async function Dashboard({
     } catch { /* ignore */ }
   }
 
+  // Count entities for empty state detection
+  const [productCount, recipeCount, orderCount, locationCount] = await Promise.all([
+    prisma.product.count({ where: { location: { businessId: business.id } } }).catch(() => 0),
+    prisma.recipe.count({ where: { businessId: business.id } }).catch(() => 0),
+    prisma.order.count({ where: { businessId: business.id } }).catch(() => 0),
+    prisma.location.count({ where: { businessId: business.id } }).catch(() => 0),
+  ]);
+
   const [analytics, predictions] = await Promise.all([
     getAnalytics(business.id).catch(() => null),
     getSalesForecast(business.id, nextOpenDate, {
@@ -124,6 +133,13 @@ export default async function Dashboard({
           {t('subtitle')}
         </p>
       </div>
+
+      <DashboardEmptyStates
+        productCount={productCount}
+        recipeCount={recipeCount}
+        orderCount={orderCount}
+        locationCount={locationCount}
+      />
 
       {analytics && <SimpleStatsCards stats={analytics.simpleStats} currency={currency} />}
 

@@ -10,6 +10,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Alert, AlertDescription } from "@/components/ui/alert";
 import { AlertTriangle, ShoppingBag, CalendarDays, Trophy, ChefHat } from "lucide-react";
 import { isCurrencyCode, type CurrencyCode } from "@/lib/currency";
+import { EmptyStatePage } from "@/components/dashboard/EmptyStatePage";
 
 export default async function SalesPage({
   params
@@ -81,6 +82,17 @@ export default async function SalesPage({
         })
       : Promise.resolve([]),
   ]);
+
+  if (orders.length === 0 && sumupTransactions.length === 0 && recipes.length === 0) {
+    return (
+      <div className="flex-1 space-y-4">
+        <div className="flex items-center justify-between">
+          <h2 className="text-2xl md:text-3xl font-bold tracking-tight">{t('title')}</h2>
+        </div>
+        <EmptyStatePage page="sales" />
+      </div>
+    );
+  }
 
   // Calculate stats from orders + SumUp transactions
   const today = new Date();
