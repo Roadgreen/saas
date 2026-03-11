@@ -20,9 +20,12 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
     callbacks: {
         async jwt({ token, user }) {
             if (user) {
-                // On sign in, fetch the business, subscription tier, and role
+                token.email = user.email;
+            }
+            // Always refresh role and subscription from DB
+            if (token.email) {
                 const dbUser = await prisma.user.findUnique({
-                    where: { email: user.email! },
+                    where: { email: token.email as string },
                     include: { business: true },
                 });
                 if (dbUser) {
