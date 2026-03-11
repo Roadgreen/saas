@@ -206,16 +206,6 @@ export default function Home() {
                 </a>
               </div>
 
-              <div className="flex flex-wrap items-center gap-6 text-sm text-white/70">
-                <span className="flex items-center gap-1.5">
-                  <CheckCircle2 className="h-4 w-4" style={{ color: ORANGE }} />
-                  {t('hero.noCreditCard')}
-                </span>
-                <span className="flex items-center gap-1.5">
-                  <CheckCircle2 className="h-4 w-4" style={{ color: ORANGE }} />
-                  {t('hero.freeToStart')}
-                </span>
-              </div>
             </motion.div>
 
             {/* Right — locale-aware dashboard screenshot */}
