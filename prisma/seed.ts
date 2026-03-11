@@ -1,7 +1,23 @@
 import { PrismaClient, Role, SubscriptionTier, StockChangeType } from '@prisma/client';
 import bcrypt from 'bcryptjs';
 
-const prisma = new PrismaClient();
+// Ensure pgbouncer params are present when using the Supabase pooler (port 6543)
+function getSeedDatasourceUrl(): string {
+  let url = process.env.DATABASE_URL ?? '';
+  if (url.includes(':6543/')) {
+    if (!url.includes('pgbouncer=true')) {
+      url += (url.includes('?') ? '&' : '?') + 'pgbouncer=true';
+    }
+    if (!url.includes('prepare=false')) {
+      url += (url.includes('?') ? '&' : '?') + 'prepare=false';
+    }
+  }
+  return url;
+}
+
+const prisma = new PrismaClient({
+  datasources: { db: { url: getSeedDatasourceUrl() } },
+});
 
 async function main() {
     const email = 'admin@foodtracks.io';

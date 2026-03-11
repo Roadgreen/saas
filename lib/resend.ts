@@ -20,7 +20,7 @@ function getResend(): Resend {
   return _resend;
 }
 
-const FROM = process.env.RESEND_FROM ?? 'FoodTracks <no-reply@foodtracks.io>';
+const FROM = process.env.RESEND_FROM ?? 'FoodTracks <no-reply@send.foodtracks.io>';
 
 // ─── Email Templates ──────────────────────────────────────────────────────────
 
@@ -110,12 +110,19 @@ export async function sendVerificationEmail({
     </p>
   `);
 
-  await getResend().emails.send({
+  const { data, error } = await getResend().emails.send({
     from: FROM,
     to,
     subject: `Verify your email — FoodTracks`,
     html,
   });
+
+  if (error) {
+    console.error('[resend] Failed to send verification email:', error);
+    throw new Error(`Resend API error: ${error.message}`);
+  }
+
+  console.log('[resend] Verification email sent:', data?.id, '→', to);
 }
 
 // ─── Send Welcome Email (after verification) ──────────────────────────────────
@@ -168,10 +175,17 @@ export async function sendWelcomeEmail({
     </table>
   `);
 
-  await getResend().emails.send({
+  const { data, error } = await getResend().emails.send({
     from: FROM,
     to,
-    subject: `Welcome to FoodTracks, ${firstName}! Your account is ready 🚀`,
+    subject: `Welcome to FoodTracks, ${firstName}! Your account is ready`,
     html,
   });
+
+  if (error) {
+    console.error('[resend] Failed to send welcome email:', error);
+    throw new Error(`Resend API error: ${error.message}`);
+  }
+
+  console.log('[resend] Welcome email sent:', data?.id, '→', to);
 }

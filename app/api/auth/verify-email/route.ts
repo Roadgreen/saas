@@ -40,19 +40,17 @@ export async function GET(req: NextRequest) {
     },
   });
 
-  // Send welcome email (fire and forget)
+  // Send welcome email — await to ensure it completes before the response
   const locale = req.nextUrl.searchParams.get('locale') ?? 'en';
-  setImmediate(async () => {
-    try {
-      await sendWelcomeEmail({
-        to: user.email,
-        name: user.name ?? user.email,
-        dashboardUrl: `${appUrl}/${locale}/dashboard`,
-      });
-    } catch (err) {
-      console.error('[verify-email] Failed to send welcome email:', err);
-    }
-  });
+  try {
+    await sendWelcomeEmail({
+      to: user.email,
+      name: user.name ?? user.email,
+      dashboardUrl: `${appUrl}/${locale}/dashboard`,
+    });
+  } catch (err) {
+    console.error('[verify-email] Failed to send welcome email:', err);
+  }
 
   return NextResponse.redirect(`${appUrl}/${locale}/dashboard?verified=true`);
 }

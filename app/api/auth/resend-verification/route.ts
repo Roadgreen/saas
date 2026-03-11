@@ -44,18 +44,16 @@ export async function POST(req: NextRequest) {
     process.env.NEXTAUTH_URL ??
     (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : 'http://localhost:3000');
 
-  // Fire and forget
-  setImmediate(async () => {
-    try {
-      await sendVerificationEmail({
-        to: user.email,
-        name: user.name ?? user.email,
-        verificationUrl: `${appUrl}/api/auth/verify-email?token=${verificationToken}`,
-      });
-    } catch (err) {
-      console.error('[resend-verification] email failed:', err);
-    }
-  });
+  try {
+    await sendVerificationEmail({
+      to: user.email,
+      name: user.name ?? user.email,
+      verificationUrl: `${appUrl}/api/auth/verify-email?token=${verificationToken}`,
+    });
+  } catch (err) {
+    console.error('[resend-verification] email failed:', err);
+    // Still return 200 — don't reveal whether sending succeeded
+  }
 
   return NextResponse.json({ ok: true });
 }

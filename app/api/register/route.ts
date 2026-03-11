@@ -74,22 +74,23 @@ export async function POST(req: Request) {
             return { user, business };
         });
 
-        // Send verification email (fire and forget — never block registration)
+        // Send verification email — must await so it completes before the
+        // serverless function is torn down (setImmediate / fire-and-forget
+        // silently drops emails on Vercel / edge runtimes).
         const appUrl =
             process.env.NEXTAUTH_URL ??
             (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : 'http://localhost:3000');
 
-        setImmediate(async () => {
-            try {
-                await sendVerificationEmail({
-                    to: email,
-                    name,
-                    verificationUrl: `${appUrl}/api/auth/verify-email?token=${verificationToken}`,
-                });
-            } catch (err) {
-                console.error('[register] Failed to send verification email:', err);
-            }
-        });
+        try {
+            await sendVerificationEmail({
+                to: email,
+                name,
+                verificationUrl: `${appUrl}/api/auth/verify-email?token=${verificationToken}`,
+            });
+        } catch (err) {
+            console.error('[register] Failed to send verification email:', err);
+            // Don't block registration if email fails — user can resend later
+        }
 
         // Fire and forget analytics
         trackEvent('USER_REGISTERED', {
