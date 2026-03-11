@@ -6,6 +6,7 @@ import { MapPin, Settings2 } from 'lucide-react';
 import { useTranslations, useLocale } from 'next-intl';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
+import { ContextualInfoCard } from './ContextualInfoCard';
 
 // Import CSS au sommet pour garantir le chargement
 import 'leaflet/dist/leaflet.css';
@@ -21,6 +22,7 @@ interface Location {
 export default function LocationsMap() {
   const t = useTranslations('Dashboard');
   const tMap = useTranslations('LocationsMap');
+  const tHelp = useTranslations('ContextualHelp');
   const locale = useLocale();
   const [locations, setLocations] = useState<Location[]>([]);
   const [mapReady, setMapReady] = useState(false);
@@ -156,6 +158,15 @@ export default function LocationsMap() {
           </Button>
         </Link>
       </CardHeader>
+      <div className="px-4 pb-2">
+        <ContextualInfoCard
+          message={tHelp('locationsInfo')}
+          learnMore={tHelp('locationsLearnMore')}
+          storageKey="locations-info"
+          compact
+          icon="lightbulb"
+        />
+      </div>
       <CardContent className="p-0 relative">
         <div 
           ref={mapContainerRef}

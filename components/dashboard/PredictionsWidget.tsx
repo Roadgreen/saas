@@ -3,6 +3,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { TrendingUp, TrendingDown, Minus, Lock, Target } from 'lucide-react';
 import { useTranslations } from 'next-intl';
+import { ContextualInfoCard } from './ContextualInfoCard';
 
 interface PredictionItem {
     recipeId: string;
@@ -38,6 +39,7 @@ function getRecipeDotClass(accuracy: number | undefined): string {
 
 export function PredictionsWidget({ predictions, isPremium, forecastDayName, forecastLocationName, accuracyMetrics }: PredictionsWidgetProps) {
     const t = useTranslations('Dashboard');
+    const tHelp = useTranslations('ContextualHelp');
 
     const title = forecastDayName
         ? t('forecastFor', { day: forecastDayName })
@@ -71,7 +73,13 @@ export function PredictionsWidget({ predictions, isPremium, forecastDayName, for
                     ) : null}
                 </div>
             </CardHeader>
-            <CardContent>
+            <CardContent className="space-y-3">
+                <ContextualInfoCard
+                    message={tHelp('predictionsInfo')}
+                    learnMore={tHelp('predictionsLearnMore')}
+                    storageKey="predictions-info"
+                    compact
+                />
                 {predictions.length === 0 ? (
                     <div className="text-sm text-muted-foreground">
                         {t('noDataPredictions')}

@@ -14,6 +14,7 @@ import { Button } from "@/components/ui/button";
 import { TrendingUp, DollarSign, ShoppingCart, BarChart3, Lock, CalendarCheck, CalendarX, Trash2, TableIcon, PackageX } from "lucide-react";
 import Link from "next/link";
 import { formatCurrency, isCurrencyCode, type CurrencyCode } from "@/lib/currency";
+import { AnalyticsTooltip } from "@/components/dashboard/AnalyticsTooltip";
 
 const VALID_PERIODS = [7, 14, 30, 90];
 
@@ -37,6 +38,7 @@ export default async function AnalyticsPage({
     });
 
     const t = await getTranslations('Analytics');
+    const tHelp = await getTranslations('ContextualHelp');
 
     if (!user?.business) {
         return <div className="p-8">{t('profileIncomplete')}</div>;
@@ -147,8 +149,9 @@ export default async function AnalyticsPage({
                     <div className="grid gap-3 md:gap-4 grid-cols-2 lg:grid-cols-4">
                         <Card className="dash-card">
                             <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-                                <CardTitle className="text-sm font-medium">
+                                <CardTitle className="text-sm font-medium flex items-center gap-1.5">
                                     {t('totalRevenue')}
+                                    <AnalyticsTooltip description={tHelp('analyticsRevenue')} />
                                 </CardTitle>
                                 <div className="rounded-md bg-blue-100 p-2">
                                     <ShoppingCart className="h-4 w-4 text-blue-600" />
@@ -166,8 +169,9 @@ export default async function AnalyticsPage({
 
                         <Card className="dash-card">
                             <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-                                <CardTitle className="text-sm font-medium">
+                                <CardTitle className="text-sm font-medium flex items-center gap-1.5">
                                     {t('totalCost')}
+                                    <AnalyticsTooltip description={tHelp('analyticsCost')} />
                                 </CardTitle>
                                 <div className="rounded-md bg-red-100 p-2">
                                     <DollarSign className="h-4 w-4 text-red-600" />
@@ -185,8 +189,9 @@ export default async function AnalyticsPage({
 
                         <Card className="dash-card">
                             <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-                                <CardTitle className="text-sm font-medium">
+                                <CardTitle className="text-sm font-medium flex items-center gap-1.5">
                                     {t('totalMargin')}
+                                    <AnalyticsTooltip description={tHelp('analyticsMargin')} />
                                 </CardTitle>
                                 <div className="rounded-md bg-green-100 p-2">
                                     <TrendingUp className="h-4 w-4 text-green-600" />
@@ -204,8 +209,9 @@ export default async function AnalyticsPage({
 
                         <Card className="dash-card">
                             <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-                                <CardTitle className="text-sm font-medium">
+                                <CardTitle className="text-sm font-medium flex items-center gap-1.5">
                                     {t('avgDailyMargin')}
+                                    <AnalyticsTooltip description={tHelp('analyticsAvgMargin')} />
                                 </CardTitle>
                                 <div className="rounded-md bg-purple-100 p-2">
                                     <BarChart3 className="h-4 w-4 text-purple-600" />
@@ -228,8 +234,9 @@ export default async function AnalyticsPage({
                             {bestDay && (
                                 <Card className="dash-card">
                                     <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-                                        <CardTitle className="text-sm font-medium">
+                                        <CardTitle className="text-sm font-medium flex items-center gap-1.5">
                                             {t('bestDay')}
+                                            <AnalyticsTooltip description={tHelp('analyticsBestDay')} />
                                         </CardTitle>
                                         <div className="rounded-md bg-emerald-100 p-2">
                                             <CalendarCheck className="h-4 w-4 text-emerald-600" />
@@ -249,8 +256,9 @@ export default async function AnalyticsPage({
                             {worstDay && (
                                 <Card className="dash-card">
                                     <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-                                        <CardTitle className="text-sm font-medium">
+                                        <CardTitle className="text-sm font-medium flex items-center gap-1.5">
                                             {t('worstDay')}
+                                            <AnalyticsTooltip description={tHelp('analyticsWorstDay')} />
                                         </CardTitle>
                                         <div className="rounded-md bg-amber-100 p-2">
                                             <CalendarX className="h-4 w-4 text-amber-600" />
@@ -269,8 +277,9 @@ export default async function AnalyticsPage({
 
                             <Card className="dash-card">
                                 <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-                                    <CardTitle className="text-sm font-medium">
+                                    <CardTitle className="text-sm font-medium flex items-center gap-1.5">
                                         {t('detailWaste')}
+                                        <AnalyticsTooltip description={tHelp('analyticsWaste')} />
                                     </CardTitle>
                                     <div className="rounded-md bg-orange-100 p-2">
                                         <Trash2 className="h-4 w-4 text-orange-600" />

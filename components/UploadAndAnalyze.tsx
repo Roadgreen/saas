@@ -9,6 +9,7 @@ import Link from 'next/link';
 
 import { useTranslations, useLocale } from 'next-intl';
 import { useSession } from 'next-auth/react';
+import { ScannerTutorial } from '@/components/dashboard/ScannerTutorial';
 
 export function UploadAndAnalyze() {
   const t = useTranslations('Dashboard');
@@ -112,6 +113,7 @@ export function UploadAndAnalyze() {
         </CardTitle>
       </CardHeader>
       <CardContent className="space-y-4">
+        <ScannerTutorial />
         {error && (
           <div className="p-3 bg-red-50 text-red-500 rounded-md flex items-center gap-2 text-sm">
             <AlertCircle className="h-4 w-4" />

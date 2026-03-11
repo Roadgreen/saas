@@ -941,6 +941,25 @@
             "cta": "Add a location"
         }
     },
+    "ContextualHelp": {
+        "predictionsInfo": "AI predictions analyze your past sales to forecast tomorrow's demand based on location and weather.",
+        "predictionsLearnMore": "The more history you have, the more accurate the forecasts become.",
+        "locationsInfo": "Add your selling spots (markets, festivals, regular spots) for localized predictions.",
+        "locationsLearnMore": "Each spot has its own sales patterns. AI adapts automatically.",
+        "analyticsRevenue": "Total revenue generated over the selected period.",
+        "analyticsCost": "Total cost of raw materials used.",
+        "analyticsMargin": "Difference between your revenue and costs. Goal: maximize this number.",
+        "analyticsAvgMargin": "Average margin generated per active day.",
+        "analyticsBestDay": "Your best day in terms of net margin.",
+        "analyticsWorstDay": "Day with the lowest margin — identify the causes.",
+        "analyticsWaste": "Total cost of waste and unsold items over the period.",
+        "scannerTutorialTitle": "How to use the AI Scanner",
+        "scannerTutorialStep1": "Take a photo of your tally sheet, register screen, or receipt",
+        "scannerTutorialStep2": "AI automatically detects products and quantities",
+        "scannerTutorialStep3": "Review the results then save in one click",
+        "scannerTutorialGotIt": "Got it",
+        "scannerTutorialTip": "Tip: even lighting and a clear photo improve accuracy."
+    },
     "Onboarding": {
         "step1": {
             "title": "Welcome to FoodTracks!",

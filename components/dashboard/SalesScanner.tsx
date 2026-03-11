@@ -23,6 +23,7 @@ import { useTranslations, useLocale } from 'next-intl';
 import { useSession } from 'next-auth/react';
 import Link from 'next/link';
 import { useLocationContext } from '@/components/providers/LocationProvider';
+import { ScannerTutorial } from '@/components/dashboard/ScannerTutorial';
 
 interface ScannedSale {
     scannedName: string;
@@ -222,6 +223,7 @@ export function SalesScanner({ onSalesRecorded }: { onSalesRecorded?: () => void
                 </CardDescription>
             </CardHeader>
             <CardContent className="space-y-4">
+                <ScannerTutorial />
                 {error && (
                     <div className="p-3 bg-red-50 text-red-600 rounded-lg flex items-center gap-2 text-sm border border-red-100">
                         <AlertCircle className="h-4 w-4 flex-shrink-0" />

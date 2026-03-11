@@ -941,6 +941,25 @@
             "cta": "Ajouter un emplacement"
         }
     },
+    "ContextualHelp": {
+        "predictionsInfo": "Les predictions IA analysent vos ventes passees pour prevoir la demande de demain selon le lieu et la meteo.",
+        "predictionsLearnMore": "Plus l'historique est riche, plus les previsions sont precises.",
+        "locationsInfo": "Ajoutez vos emplacements de vente (marches, festivals, spots habituels) pour des predictions localisees.",
+        "locationsLearnMore": "Chaque spot a ses propres habitudes de vente. L'IA s'adapte automatiquement.",
+        "analyticsRevenue": "Chiffre d'affaires total genere sur la periode selectionnee.",
+        "analyticsCost": "Cout total des matieres premieres utilisees.",
+        "analyticsMargin": "Difference entre vos recettes et vos couts. Objectif : maximiser ce chiffre.",
+        "analyticsAvgMargin": "Marge moyenne generee par jour d'activite.",
+        "analyticsBestDay": "Votre meilleure journee en termes de marge nette.",
+        "analyticsWorstDay": "Journee avec la marge la plus faible — identifiez les causes.",
+        "analyticsWaste": "Cout total des pertes et invendus sur la periode.",
+        "scannerTutorialTitle": "Comment utiliser le Scanner IA",
+        "scannerTutorialStep1": "Prenez une photo de votre feuille de comptage, ecran de caisse ou ticket",
+        "scannerTutorialStep2": "L'IA detecte automatiquement les produits et quantites",
+        "scannerTutorialStep3": "Verifiez les resultats puis sauvegardez en un clic",
+        "scannerTutorialGotIt": "J'ai compris",
+        "scannerTutorialTip": "Astuce : un eclairage uniforme et une photo nette ameliorent la precision."
+    },
     "Onboarding": {
         "step1": {
             "title": "Bienvenue sur FoodTracks !",
