@@ -32,8 +32,8 @@ export function LandingHeader() {
     : session?.user?.email?.[0]?.toUpperCase() ?? '?';
 
   return (
-    <header className="sticky top-0 z-50" style={{ backgroundColor: '#1C1410', borderBottom: '1px solid rgba(255,255,255,0.1)' }}>
-      <div className="container mx-auto px-5 sm:px-8 lg:px-14 py-4 flex items-center justify-between">
+    <header className="sticky top-0 z-50 glass-header" style={{ borderBottom: '1px solid rgba(255,255,255,0.08)' }}>
+      <div className="container mx-auto px-5 sm:px-8 lg:px-16 py-4 flex items-center justify-between">
         <Link href={`/${locale}`} className="flex items-center gap-2">
           <ChefHat className="h-8 w-8" style={{ color: '#fb923c' }} />
           <span className="text-2xl font-bold" style={{ color: '#ffffff' }}>FoodTracks</span>
@@ -119,12 +119,12 @@ export function LandingHeader() {
           ) : (
             <div className="hidden md:flex items-center gap-3">
               <Link href={`/${locale}/login`}>
-                <button className="btn-landing btn-header inline-flex items-center justify-center rounded-md text-sm font-medium px-3 py-1.5 border" style={{ backgroundColor: 'transparent', borderColor: '#4b5563', color: '#d1d5db' }}>
+                <button className="btn-landing btn-header inline-flex items-center justify-center rounded-full text-sm font-medium px-5 py-2 border transition-all duration-300" style={{ backgroundColor: 'transparent', borderColor: 'rgba(255,255,255,0.15)', color: '#d1d5db' }}>
                   {t('login')}
                 </button>
               </Link>
               <Link href={`/${locale}/register`}>
-                <button className="btn-landing btn-cta-primary inline-flex items-center justify-center rounded-md text-sm font-medium px-4 py-1.5" style={{ backgroundColor: '#f97316', color: '#ffffff' }}>
+                <button className="btn-landing btn-cta-primary inline-flex items-center justify-center rounded-full text-sm font-semibold px-5 py-2" style={{ backgroundColor: '#f97316', color: '#ffffff' }}>
                   {t('freeTrial')}
                 </button>
               </Link>

@@ -11,6 +11,7 @@ import { useRouter, useSearchParams } from 'next/navigation';
 import { signIn } from 'next-auth/react';
 import { useLocale } from 'next-intl';
 import Link from 'next/link';
+import { ChefHat, CheckCircle2, XCircle } from 'lucide-react';
 
 const authSchema = z.object({
   email: z.string().email(),
@@ -112,46 +113,52 @@ export function AuthForm({ type }: AuthFormProps) {
   const isPlanRegister = type === 'register' && (plan === 'PRO' || plan === 'ENTERPRISE');
 
   return (
-    <div className="w-full max-w-md p-8 space-y-6 bg-white rounded-lg shadow-md border">
-      <div className="text-center">
-        <h2 className="text-2xl font-bold">
+    <div className="w-full max-w-md p-8 md:p-10 space-y-7 bg-white rounded-2xl shadow-xl border border-gray-100/80">
+      <div className="text-center space-y-2">
+        <div className="inline-flex items-center justify-center w-12 h-12 rounded-2xl mb-2" style={{ backgroundColor: 'rgba(249,115,22,0.1)' }}>
+          <ChefHat className="h-6 w-6" style={{ color: '#F97316' }} />
+        </div>
+        <h2 className="font-jakarta text-2xl font-bold tracking-tight text-gray-900">
           {type === 'login' ? 'Sign In' : 'Create Account'}
         </h2>
         {isPlanRegister && (
-          <p className="text-sm text-orange-600 font-medium mt-1">
+          <p className="text-sm text-orange-600 font-medium">
             14-day free {plan === 'PRO' ? 'Pro' : 'Enterprise'} trial — no credit card required
           </p>
         )}
       </div>
 
       {verified && (
-        <div className="p-3 text-sm text-green-700 bg-green-50 rounded-md border border-green-200">
-          ✅ {locale === 'fr' ? 'Votre email a été vérifié avec succès ! Connectez-vous pour accéder à votre compte.' : 'Your email has been verified successfully! Sign in to access your account.'}
+        <div className="p-4 text-sm text-green-700 bg-green-50 rounded-xl border border-green-200 flex items-start gap-2.5">
+          <CheckCircle2 className="h-4 w-4 mt-0.5 flex-shrink-0 text-green-600" />
+          <span>{locale === 'fr' ? 'Votre email a été vérifié avec succès ! Connectez-vous pour accéder à votre compte.' : 'Your email has been verified successfully! Sign in to access your account.'}</span>
         </div>
       )}
 
       {error && (
-        <div className="p-3 text-sm text-red-500 bg-red-50 rounded-md">
-          {error}
+        <div className="p-4 text-sm text-red-600 bg-red-50 rounded-xl border border-red-100 flex items-start gap-2.5">
+          <XCircle className="h-4 w-4 mt-0.5 flex-shrink-0 text-red-500" />
+          <span>{error}</span>
         </div>
       )}
 
-      <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
+      <form onSubmit={handleSubmit(onSubmit)} className="space-y-5">
         {type === 'register' && (
           <>
             <div className="space-y-2">
-              <Label htmlFor="name">Full Name</Label>
-              <Input id="name" {...register('name')} placeholder="John Doe" />
+              <Label htmlFor="name" className="text-sm font-medium text-gray-700">Full Name</Label>
+              <Input id="name" {...register('name')} placeholder="John Doe" className="input-premium rounded-xl h-11" />
               {errors.name && (
                 <p className="text-sm text-red-500">{errors.name.message}</p>
               )}
             </div>
             <div className="space-y-2">
-              <Label htmlFor="businessName">Business Name</Label>
+              <Label htmlFor="businessName" className="text-sm font-medium text-gray-700">Business Name</Label>
               <Input
                 id="businessName"
                 {...register('businessName')}
                 placeholder="Joe's Food Truck"
+                className="input-premium rounded-xl h-11"
               />
               {errors.businessName && (
                 <p className="text-sm text-red-500">
@@ -163,12 +170,13 @@ export function AuthForm({ type }: AuthFormProps) {
         )}
 
         <div className="space-y-2">
-          <Label htmlFor="email">Email</Label>
+          <Label htmlFor="email" className="text-sm font-medium text-gray-700">Email</Label>
           <Input
             id="email"
             type="email"
             {...register('email')}
             placeholder="name@example.com"
+            className="input-premium rounded-xl h-11"
           />
           {errors.email && (
             <p className="text-sm text-red-500">{errors.email.message}</p>
@@ -176,25 +184,26 @@ export function AuthForm({ type }: AuthFormProps) {
         </div>
 
         <div className="space-y-2">
-          <Label htmlFor="password">Password</Label>
+          <Label htmlFor="password" className="text-sm font-medium text-gray-700">Password</Label>
           <Input
             id="password"
             type="password"
             {...register('password')}
-            placeholder="••••••"
+            placeholder="••••••••"
+            className="input-premium rounded-xl h-11"
           />
           {errors.password && (
             <p className="text-sm text-red-500">{errors.password.message}</p>
           )}
         </div>
 
-        <Button type="submit" className="w-full" disabled={loading}>
+        <Button type="submit" className="w-full rounded-xl h-11 font-semibold text-base transition-all duration-300" disabled={loading}>
           {loading
-            ? (isPlanRegister ? 'Creating account…' : 'Loading...')
+            ? (isPlanRegister ? 'Creating account...' : 'Loading...')
             : type === 'login'
             ? 'Sign In'
             : isPlanRegister
-            ? 'Start my free trial →'
+            ? 'Start my free trial'
             : 'Create Account'}
         </Button>
 
@@ -202,7 +211,7 @@ export function AuthForm({ type }: AuthFormProps) {
           <Button
             type="button"
             variant="outline"
-            className="w-full mt-2"
+            className="w-full mt-1 rounded-xl h-11 transition-all duration-300"
             onClick={async () => {
               setLoading(true);
               try {
@@ -220,23 +229,23 @@ export function AuthForm({ type }: AuthFormProps) {
             }}
             disabled={loading}
           >
-            🔑 Demo Admin
+            Demo Admin
           </Button>
         )}
       </form>
 
-      <div className="text-center text-sm">
+      <div className="text-center text-sm text-gray-500">
         {type === 'login' ? (
           <p>
             Don&apos;t have an account?{' '}
-            <Link href={`/${locale}/register`} className="text-blue-600 hover:underline">
+            <Link href={`/${locale}/register`} className="text-orange-600 font-medium hover:text-orange-700 transition-colors">
               Register
             </Link>
           </p>
         ) : (
           <p>
             Already have an account?{' '}
-            <Link href={`/${locale}/login`} className="text-blue-600 hover:underline">
+            <Link href={`/${locale}/login`} className="text-orange-600 font-medium hover:text-orange-700 transition-colors">
               Sign In
             </Link>
           </p>

@@ -34,29 +34,36 @@ function AnimatedBar({ width, color }: { width: number; color: string }) {
 function FAQItem({ question, answer }: { question: string; answer: string }) {
   const [open, setOpen] = useState(false);
   return (
-    <div style={{ borderBottom: '1px solid #E8E2DC' }}>
+    <div style={{ borderBottom: '1px solid #EDEBE8' }}>
       <button
         type="button"
         onClick={() => setOpen(o => !o)}
-        className="w-full flex items-center justify-between py-5 text-left gap-4"
+        className="w-full flex items-center justify-between py-6 text-left gap-4 group"
       >
-        <span className="font-semibold text-gray-900 text-sm md:text-base">{question}</span>
-        <ChevronDown
-          className="h-4 w-4 flex-shrink-0 transition-transform duration-300"
+        <span className="font-semibold text-gray-900 text-base transition-colors duration-200 group-hover:text-orange-600">{question}</span>
+        <div
+          className="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center transition-all duration-300"
           style={{
-            transform: open ? 'rotate(180deg)' : 'rotate(0deg)',
-            color: open ? '#F97316' : '#9CA3AF',
+            backgroundColor: open ? 'rgba(249,115,22,0.1)' : 'rgba(0,0,0,0.04)',
           }}
-        />
+        >
+          <ChevronDown
+            className="h-4 w-4 transition-transform duration-300"
+            style={{
+              transform: open ? 'rotate(180deg)' : 'rotate(0deg)',
+              color: open ? '#F97316' : '#9CA3AF',
+            }}
+          />
+        </div>
       </button>
       <div
         style={{
           maxHeight: open ? '400px' : '0px',
           overflow: 'hidden',
-          transition: 'max-height 0.35s cubic-bezier(0.22, 1, 0.36, 1)',
+          transition: 'max-height 0.4s cubic-bezier(0.22, 1, 0.36, 1)',
         }}
       >
-        <p className="pb-5 text-sm leading-relaxed" style={{ color: '#6B7280' }}>{answer}</p>
+        <p className="pb-6 text-sm md:text-base leading-relaxed" style={{ color: '#6B7280' }}>{answer}</p>
       </div>
     </div>
   );
@@ -135,54 +142,54 @@ export default function Home() {
         className="relative overflow-hidden flex items-center"
         style={{ backgroundColor: DARK, minHeight: '100svh' }}
       >
-        <div className="absolute inset-0 bg-dot-grid pointer-events-none opacity-30" />
+        <div className="absolute inset-0 bg-dot-grid pointer-events-none opacity-20" />
         <div
-          className="absolute top-0 right-0 w-[700px] h-[700px] pointer-events-none"
-          style={{ background: 'radial-gradient(ellipse at top right, rgba(249,115,22,0.17) 0%, transparent 65%)' }}
+          className="absolute top-0 right-0 w-[800px] h-[800px] pointer-events-none"
+          style={{ background: 'radial-gradient(ellipse at top right, rgba(249,115,22,0.14) 0%, transparent 60%)' }}
         />
         <div
-          className="absolute bottom-0 left-0 w-[500px] h-[500px] pointer-events-none"
-          style={{ background: 'radial-gradient(ellipse at bottom left, rgba(20,184,166,0.07) 0%, transparent 60%)' }}
+          className="absolute bottom-0 left-0 w-[600px] h-[600px] pointer-events-none"
+          style={{ background: 'radial-gradient(ellipse at bottom left, rgba(20,184,166,0.06) 0%, transparent 55%)' }}
         />
 
-        <div className="container relative mx-auto px-5 sm:px-8 lg:px-14 py-24 md:py-32">
+        <div className="container relative mx-auto px-5 sm:px-8 lg:px-16 py-28 md:py-36">
           <div className="grid lg:grid-cols-2 gap-16 items-center max-w-7xl mx-auto">
 
             {/* Left — copy */}
             <motion.div
-              className="space-y-8"
+              className="space-y-10"
               initial={{ opacity: 0, y: 24 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
             >
               <span
-                className="inline-flex items-center gap-1.5 rounded-full px-3 py-1 text-xs font-semibold border"
-                style={{ backgroundColor: 'rgba(249,115,22,0.1)', color: '#FDBA74', borderColor: 'rgba(249,115,22,0.25)' }}
+                className="inline-flex items-center gap-2 rounded-full px-4 py-1.5 text-xs font-semibold border"
+                style={{ backgroundColor: 'rgba(249,115,22,0.08)', color: '#FDBA74', borderColor: 'rgba(249,115,22,0.2)' }}
               >
-                <Flame className="h-3 w-3" /> {t('badge')}
+                <Flame className="h-3.5 w-3.5" /> {t('badge')}
               </span>
 
-              <h1 className="font-jakarta text-5xl md:text-6xl lg:text-[4.25rem] font-extrabold leading-[1.06] text-white">
+              <h1 className="font-jakarta text-5xl md:text-6xl lg:text-7xl font-extrabold leading-[1.04] tracking-tight text-white">
                 {(() => {
                   const parts = t('hero.title').split('.');
                   return (
                     <>
                       {parts[0]}.<br />
-                      <span style={{ color: ORANGE }}>{parts.slice(1).join('.').trim()}</span>
+                      <span className="text-gradient-orange">{parts.slice(1).join('.').trim()}</span>
                     </>
                   );
                 })()}
               </h1>
 
-              <p className="text-lg leading-relaxed max-w-lg" style={{ color: '#9CA3AF' }}>
+              <p className="text-lg md:text-xl leading-relaxed max-w-lg" style={{ color: '#8B8B8B' }}>
                 {t('hero.subtitle')}
               </p>
 
-              <div className="flex flex-col sm:flex-row gap-3">
+              <div className="flex flex-col sm:flex-row gap-4">
                 <Link href={`/${locale}/register?plan=PRO`}>
                   <button
-                    className="btn-landing btn-cta-primary btn-shimmer inline-flex items-center justify-center gap-2 rounded-xl font-bold px-8 py-3.5 text-white"
-                    style={{ backgroundColor: ORANGE, boxShadow: '0 8px 24px -4px rgba(249,115,22,0.45)' }}
+                    className="btn-landing btn-cta-primary btn-shimmer inline-flex items-center justify-center gap-2.5 rounded-full font-bold px-8 py-4 text-white text-base"
+                    style={{ backgroundColor: ORANGE, boxShadow: '0 8px 32px -4px rgba(249,115,22,0.45)' }}
                   >
                     {t('hero.ctaPrimary')}
                     <ArrowRight className="h-4 w-4" />
@@ -190,8 +197,8 @@ export default function Home() {
                 </Link>
                 <a href="#comment-ca-marche">
                   <button
-                    className="btn-landing btn-outline-dark inline-flex items-center justify-center rounded-xl font-semibold px-8 py-3.5 border"
-                    style={{ borderColor: 'rgba(255,255,255,0.12)', color: '#D1D5DB', backgroundColor: 'transparent' }}
+                    className="btn-landing btn-outline-dark inline-flex items-center justify-center rounded-full font-semibold px-8 py-4 border text-base"
+                    style={{ borderColor: 'rgba(255,255,255,0.1)', color: '#D1D5DB', backgroundColor: 'transparent' }}
                   >
                     {t('hero.ctaSecondary')}
                   </button>
@@ -315,10 +322,10 @@ export default function Home() {
           INTEGRATIONS TRUST BAR
           ══════════════════════════════════════ */}
       <section
-        className="py-5 relative"
+        className="py-6 relative"
         style={{ backgroundColor: '#FFFFFF', borderTop: '1px solid #F0EDE8', borderBottom: '1px solid #F0EDE8' }}
       >
-        <div className="container mx-auto px-5 sm:px-8 lg:px-14">
+        <div className="container mx-auto px-5 sm:px-8 lg:px-16">
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-5 flex-wrap">
             <p
               className="text-xs font-semibold uppercase tracking-widest whitespace-nowrap"
@@ -383,8 +390,8 @@ export default function Home() {
       {/* ══════════════════════════════════════
           TRUST BADGES — security & compliance
           ══════════════════════════════════════ */}
-      <section className="py-4" style={{ backgroundColor: '#FAFAF8' }}>
-        <div className="container mx-auto px-5 sm:px-8 lg:px-14">
+      <section className="py-5" style={{ backgroundColor: '#FAFAF8' }}>
+        <div className="container mx-auto px-5 sm:px-8 lg:px-16">
           <div className="flex flex-wrap items-center justify-center gap-6 sm:gap-8">
             {[
               { icon: <Shield className="h-4 w-4" />, label: t('trust.gdpr') },
@@ -405,10 +412,10 @@ export default function Home() {
       {/* ══════════════════════════════════════
           PROBLEM — white + chef photo
           ══════════════════════════════════════ */}
-      <section className="py-16 md:py-24 bg-white relative overflow-hidden">
-        <div className="absolute inset-0 bg-cross-hatch pointer-events-none" />
-        <div className="container relative mx-auto px-5 sm:px-8 lg:px-14">
-          <div className="grid md:grid-cols-2 gap-12 items-center max-w-5xl mx-auto">
+      <section className="py-20 md:py-32 bg-white relative overflow-hidden">
+        <div className="absolute inset-0 bg-cross-hatch pointer-events-none opacity-60" />
+        <div className="container relative mx-auto px-5 sm:px-8 lg:px-16">
+          <div className="grid md:grid-cols-2 gap-16 items-center max-w-5xl mx-auto">
 
             {/* Left — food truck chef photo */}
             <AnimatedSection className="relative order-2 md:order-1">
@@ -438,7 +445,7 @@ export default function Home() {
             {/* Right — pain points */}
             <AnimatedSection delay={0.15} className="space-y-8 order-1 md:order-2">
               <div>
-                <h2 className="font-jakarta text-3xl md:text-4xl font-bold mb-4 text-gray-900">
+                <h2 className="font-jakarta text-3xl md:text-[2.75rem] font-bold mb-5 text-gray-900 tracking-tight">
                   {t('problem.title')}
                 </h2>
                 <p className="text-lg text-gray-500 leading-relaxed">{t('problem.subtitle')}</p>
@@ -471,11 +478,11 @@ export default function Home() {
       {/* ══════════════════════════════════════
           HOW IT WORKS — dark, 4 steps with connecting lines
           ══════════════════════════════════════ */}
-      <section id="comment-ca-marche" className="py-16 md:py-24 relative" style={{ backgroundColor: DARK }}>
-        <div className="absolute inset-0 bg-dot-grid pointer-events-none opacity-25" />
-        <div className="container relative mx-auto px-5 sm:px-8 lg:px-14">
-          <AnimatedSection className="text-center max-w-3xl mx-auto mb-16">
-            <h2 className="font-jakarta text-3xl md:text-4xl font-bold mb-4 text-white">
+      <section id="comment-ca-marche" className="py-20 md:py-32 relative" style={{ backgroundColor: DARK }}>
+        <div className="absolute inset-0 bg-dot-grid pointer-events-none opacity-20" />
+        <div className="container relative mx-auto px-5 sm:px-8 lg:px-16">
+          <AnimatedSection className="text-center max-w-3xl mx-auto mb-20">
+            <h2 className="font-jakarta text-3xl md:text-[2.75rem] font-bold mb-5 text-white tracking-tight">
               {t('howItWorks.title')}
             </h2>
             <p className="text-lg leading-relaxed" style={{ color: '#9CA3AF' }}>
@@ -601,9 +608,9 @@ export default function Home() {
       {/* ══════════════════════════════════════
           PREDICTIONS — cream, analytics screenshot
           ══════════════════════════════════════ */}
-      <section id="predictions" style={{ backgroundColor: LIGHT }} className="py-16 md:py-24">
-        <div className="container mx-auto px-5 sm:px-8 lg:px-14">
-          <div className="grid md:grid-cols-2 gap-12 items-center max-w-5xl mx-auto">
+      <section id="predictions" style={{ backgroundColor: LIGHT }} className="py-20 md:py-32">
+        <div className="container mx-auto px-5 sm:px-8 lg:px-16">
+          <div className="grid md:grid-cols-2 gap-16 items-center max-w-5xl mx-auto">
             <AnimatedSection className="space-y-6">
               <div
                 className="inline-block p-3 rounded-xl"
@@ -611,7 +618,7 @@ export default function Home() {
               >
                 <TrendingUp className="h-7 w-7" style={{ color: TEAL }} />
               </div>
-              <h2 className="font-jakarta text-3xl md:text-4xl font-bold text-gray-900">
+              <h2 className="font-jakarta text-3xl md:text-[2.75rem] font-bold text-gray-900 tracking-tight">
                 {t('predictions.title')}
               </h2>
               <p className="text-lg text-gray-500 leading-relaxed">{t('predictions.subtitle')}</p>
@@ -664,14 +671,14 @@ export default function Home() {
       {/* ══════════════════════════════════════
           STOCK READINESS — white, status cards
           ══════════════════════════════════════ */}
-      <section className="py-16 md:py-24 bg-white relative">
-        <div className="absolute inset-0 bg-cross-hatch pointer-events-none" />
-        <div className="container relative mx-auto px-5 sm:px-8 lg:px-14">
-          <AnimatedSection className="text-center max-w-3xl mx-auto mb-12">
+      <section className="py-20 md:py-32 bg-white relative">
+        <div className="absolute inset-0 bg-cross-hatch pointer-events-none opacity-60" />
+        <div className="container relative mx-auto px-5 sm:px-8 lg:px-16">
+          <AnimatedSection className="text-center max-w-3xl mx-auto mb-16">
             <div className="inline-block p-3 rounded-xl mb-4" style={{ backgroundColor: 'rgba(249,115,22,0.1)' }}>
               <Package className="h-7 w-7" style={{ color: ORANGE }} />
             </div>
-            <h2 className="font-jakarta text-3xl md:text-4xl font-bold mb-4 text-gray-900">
+            <h2 className="font-jakarta text-3xl md:text-[2.75rem] font-bold mb-5 text-gray-900 tracking-tight">
               {t('readiness.title')}
             </h2>
             <p className="text-lg text-gray-500 leading-relaxed">{t('readiness.subtitle')}</p>
@@ -718,11 +725,11 @@ export default function Home() {
       {/* ══════════════════════════════════════
           FEATURES — dark, bento
           ══════════════════════════════════════ */}
-      <section id="fonctionnalites" className="py-16 md:py-24 relative" style={{ backgroundColor: DARK }}>
-        <div className="absolute inset-0 bg-dot-grid pointer-events-none opacity-25" />
-        <div className="container relative mx-auto px-5 sm:px-8 lg:px-14">
-          <AnimatedSection className="text-center max-w-3xl mx-auto mb-16">
-            <h2 className="font-jakarta text-3xl md:text-4xl font-bold mb-4 text-white">
+      <section id="fonctionnalites" className="py-20 md:py-32 relative" style={{ backgroundColor: DARK }}>
+        <div className="absolute inset-0 bg-dot-grid pointer-events-none opacity-20" />
+        <div className="container relative mx-auto px-5 sm:px-8 lg:px-16">
+          <AnimatedSection className="text-center max-w-3xl mx-auto mb-20">
+            <h2 className="font-jakarta text-3xl md:text-[2.75rem] font-bold mb-5 text-white tracking-tight">
               {t('features.title')}
             </h2>
             <p className="text-lg leading-relaxed" style={{ color: '#9CA3AF' }}>
@@ -730,7 +737,7 @@ export default function Home() {
             </p>
           </AnimatedSection>
 
-          <StaggerContainer className="grid md:grid-cols-3 gap-4 max-w-5xl mx-auto">
+          <StaggerContainer className="grid md:grid-cols-3 gap-5 max-w-5xl mx-auto">
             {/* Scanner — large card */}
             <StaggerItem className="md:col-span-2">
               <div className="rounded-2xl overflow-hidden h-full" style={{ border: '1px solid rgba(255,255,255,0.08)' }}>
@@ -835,10 +842,10 @@ export default function Home() {
           SUMUP INTEGRATION — dark blue accent
           ══════════════════════════════════════ */}
       <section
-        className="py-16 md:py-24 relative overflow-hidden"
+        className="py-20 md:py-32 relative overflow-hidden"
         style={{
-          background: `radial-gradient(ellipse 110% 70% at 0% 30%, rgba(0,182,255,0.20) 0%, transparent 50%),
-                       radial-gradient(ellipse 80% 60% at 100% 75%, rgba(0,182,255,0.13) 0%, transparent 50%),
+          background: `radial-gradient(ellipse 110% 70% at 0% 30%, rgba(0,182,255,0.16) 0%, transparent 50%),
+                       radial-gradient(ellipse 80% 60% at 100% 75%, rgba(0,182,255,0.10) 0%, transparent 50%),
                        #07111E`,
           borderTop: '1px solid rgba(0,182,255,0.10)',
           borderBottom: '1px solid rgba(0,182,255,0.08)',
@@ -846,7 +853,7 @@ export default function Home() {
       >
         <div className="absolute inset-0 bg-dot-grid pointer-events-none opacity-[0.35]" />
 
-        <div className="container relative mx-auto px-5 sm:px-8 lg:px-14">
+        <div className="container relative mx-auto px-5 sm:px-8 lg:px-16">
           <div className="grid md:grid-cols-2 gap-12 md:gap-16 items-center max-w-5xl mx-auto">
 
             {/* Left — copy */}
@@ -872,7 +879,7 @@ export default function Home() {
                     {t('sumupSection.badge')}
                   </div>
 
-                  <h2 className="font-jakarta text-3xl md:text-4xl font-bold text-white leading-tight mb-3">
+                  <h2 className="font-jakarta text-3xl md:text-[2.75rem] font-bold text-white leading-tight mb-3 tracking-tight">
                     {t('sumupSection.title')}
                   </h2>
                   <p className="text-base leading-relaxed" style={{ color: '#6B7280' }}>
@@ -1007,19 +1014,19 @@ export default function Home() {
       {/* ══════════════════════════════════════
           TESTIMONIALS — social proof
           ══════════════════════════════════════ */}
-      <section style={{ backgroundColor: LIGHT }} className="py-16 md:py-24">
-        <div className="container mx-auto px-5 sm:px-8 lg:px-14">
-          <AnimatedSection className="text-center max-w-3xl mx-auto mb-14">
-            <h2 className="font-jakarta text-3xl md:text-4xl font-bold mb-4 text-gray-900">
+      <section style={{ backgroundColor: LIGHT }} className="py-20 md:py-32">
+        <div className="container mx-auto px-5 sm:px-8 lg:px-16">
+          <AnimatedSection className="text-center max-w-3xl mx-auto mb-16">
+            <h2 className="font-jakarta text-3xl md:text-[2.75rem] font-bold mb-5 text-gray-900 tracking-tight">
               {t('testimonials.title')}
             </h2>
             <p className="text-lg text-gray-500 leading-relaxed">{t('testimonials.subtitle')}</p>
           </AnimatedSection>
 
-          <StaggerContainer className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+          <StaggerContainer className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
             {(['t1', 't2', 't3'] as const).map((key) => (
               <StaggerItem key={key}>
-                <div className="rounded-2xl p-7 h-full bg-white relative" style={{ border: '1px solid #E5E0DB' }}>
+                <div className="rounded-2xl p-8 h-full bg-white relative hover-lift" style={{ border: '1px solid #E5E0DB' }}>
                   <Quote className="h-8 w-8 mb-4" style={{ color: 'rgba(249,115,22,0.2)' }} />
                   <p className="text-sm text-gray-600 leading-relaxed mb-6 italic">
                     &ldquo;{t(`testimonials.${key}.quote`)}&rdquo;
@@ -1068,10 +1075,10 @@ export default function Home() {
       {/* ══════════════════════════════════════
           BEFORE / AFTER — conversion booster
           ══════════════════════════════════════ */}
-      <section className="py-16 md:py-24 bg-white">
-        <div className="container mx-auto px-5 sm:px-8 lg:px-14">
-          <AnimatedSection className="text-center max-w-3xl mx-auto mb-14">
-            <h2 className="font-jakarta text-3xl md:text-4xl font-bold mb-4 text-gray-900">
+      <section className="py-20 md:py-32 bg-white">
+        <div className="container mx-auto px-5 sm:px-8 lg:px-16">
+          <AnimatedSection className="text-center max-w-3xl mx-auto mb-16">
+            <h2 className="font-jakarta text-3xl md:text-[2.75rem] font-bold mb-5 text-gray-900 tracking-tight">
               {t('beforeAfter.title')}
             </h2>
             <p className="text-lg text-gray-500 leading-relaxed">{t('beforeAfter.subtitle')}</p>
@@ -1127,8 +1134,8 @@ export default function Home() {
       {/* ══════════════════════════════════════
           STATS STRIP — near-black, big numbers
           ══════════════════════════════════════ */}
-      <section className="py-14" style={{ backgroundColor: '#090604' }}>
-        <div className="container mx-auto px-5 sm:px-8 lg:px-14">
+      <section className="py-16 md:py-20" style={{ backgroundColor: '#090604' }}>
+        <div className="container mx-auto px-5 sm:px-8 lg:px-16">
           <AnimatedSection>
             <div className="grid grid-cols-3 gap-6 text-center max-w-2xl mx-auto">
               <div>
@@ -1157,19 +1164,19 @@ export default function Home() {
       {/* ══════════════════════════════════════
           PRICING — cream, 3 cards
           ══════════════════════════════════════ */}
-      <section id="tarifs" style={{ backgroundColor: LIGHT }} className="py-16 md:py-24">
-        <div className="container mx-auto px-5 sm:px-8 lg:px-14">
-          <AnimatedSection className="text-center max-w-3xl mx-auto mb-16">
-            <h2 className="font-jakarta text-3xl md:text-4xl font-bold mb-4 text-gray-900">
+      <section id="tarifs" style={{ backgroundColor: LIGHT }} className="py-20 md:py-32">
+        <div className="container mx-auto px-5 sm:px-8 lg:px-16">
+          <AnimatedSection className="text-center max-w-3xl mx-auto mb-20">
+            <h2 className="font-jakarta text-3xl md:text-[2.75rem] font-bold mb-5 text-gray-900 tracking-tight">
               {t('pricing.title')}
             </h2>
             <p className="text-lg text-gray-500 leading-relaxed">{t('pricing.subtitle')}</p>
           </AnimatedSection>
 
-          <StaggerContainer className="grid md:grid-cols-3 gap-5 max-w-4xl mx-auto items-stretch">
+          <StaggerContainer className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto items-stretch">
             {/* Free */}
             <StaggerItem>
-              <div className="rounded-2xl p-7 space-y-6 h-full bg-white" style={{ border: '1px solid #E5E0DB' }}>
+              <div className="rounded-2xl p-8 space-y-6 h-full bg-white hover-lift" style={{ border: '1px solid #E5E0DB' }}>
                 <div>
                   <h3 className="font-jakarta text-xl font-bold text-gray-900">{tp('free.title')}</h3>
                   <p className="text-sm text-gray-500 mt-1">{tp('free.description')}</p>
@@ -1186,7 +1193,7 @@ export default function Home() {
                   ))}
                 </ul>
                 <Link href={`/${locale}/register`} className="block">
-                  <button className="btn-landing w-full rounded-xl py-2.5 font-semibold text-sm border border-gray-200 text-gray-700 hover:bg-gray-50 transition-colors">
+                  <button className="btn-landing w-full rounded-full py-3 font-semibold text-sm border border-gray-200 text-gray-700 hover:bg-gray-50 transition-colors">
                     {t('pricing.ctaFree')}
                   </button>
                 </Link>
@@ -1226,7 +1233,7 @@ export default function Home() {
                   </ul>
                   <Link href={`/${locale}/register?plan=PRO`} className="block">
                     <button
-                      className="btn-landing btn-cta-primary btn-shimmer w-full rounded-xl py-2.5 font-bold text-sm text-white"
+                      className="btn-landing btn-cta-primary btn-shimmer w-full rounded-full py-3 font-bold text-sm text-white"
                       style={{ backgroundColor: ORANGE }}
                     >
                       {t('pricing.ctaPro')}
@@ -1238,7 +1245,7 @@ export default function Home() {
 
             {/* Enterprise */}
             <StaggerItem>
-              <div className="rounded-2xl p-7 space-y-6 h-full bg-white" style={{ border: '1px solid #E5E0DB' }}>
+              <div className="rounded-2xl p-8 space-y-6 h-full bg-white hover-lift" style={{ border: '1px solid #E5E0DB' }}>
                 <div>
                   <h3 className="font-jakarta text-xl font-bold text-gray-900">{tp('enterprise.title')}</h3>
                   <p className="text-sm text-gray-500 mt-1">{tp('enterprise.description')}</p>
@@ -1255,7 +1262,7 @@ export default function Home() {
                   ))}
                 </ul>
                 <a href="mailto:contact@foodtracks.io" className="block">
-                  <button className="btn-landing w-full rounded-xl py-2.5 font-semibold text-sm border border-gray-200 text-gray-700 hover:bg-gray-50 transition-colors">
+                  <button className="btn-landing w-full rounded-full py-3 font-semibold text-sm border border-gray-200 text-gray-700 hover:bg-gray-50 transition-colors">
                     {tp('contact')}
                   </button>
                 </a>
@@ -1272,10 +1279,10 @@ export default function Home() {
       {/* ══════════════════════════════════════
           FAQ — white, clean accordion
           ══════════════════════════════════════ */}
-      <section className="py-16 md:py-24 bg-white">
-        <div className="container mx-auto px-5 sm:px-8 lg:px-14">
-          <AnimatedSection className="text-center max-w-3xl mx-auto mb-12">
-            <h2 className="font-jakarta text-3xl md:text-4xl font-bold text-gray-900">
+      <section className="py-20 md:py-32 bg-white">
+        <div className="container mx-auto px-5 sm:px-8 lg:px-16">
+          <AnimatedSection className="text-center max-w-3xl mx-auto mb-16">
+            <h2 className="font-jakarta text-3xl md:text-[2.75rem] font-bold text-gray-900 tracking-tight">
               {t('faq.title')}
             </h2>
           </AnimatedSection>
@@ -1294,7 +1301,7 @@ export default function Home() {
       {/* ══════════════════════════════════════
           FINAL CTA — dark + food truck background
           ══════════════════════════════════════ */}
-      <section className="relative py-20 md:py-28 overflow-hidden" style={{ backgroundColor: DARK }}>
+      <section className="relative py-24 md:py-36 overflow-hidden" style={{ backgroundColor: DARK }}>
         <div className="absolute inset-0">
           <Image
             src="/Generated-Image-February-21_-2026-11_16AM.jpg"
@@ -1315,19 +1322,19 @@ export default function Home() {
         />
         <Particles />
 
-        <div className="container relative mx-auto px-5 sm:px-8 lg:px-14">
-          <AnimatedSection className="text-center max-w-3xl mx-auto space-y-8">
-            <h2 className="font-jakarta text-4xl md:text-5xl font-extrabold text-white leading-tight">
+        <div className="container relative mx-auto px-5 sm:px-8 lg:px-16">
+          <AnimatedSection className="text-center max-w-3xl mx-auto space-y-10">
+            <h2 className="font-jakarta text-4xl md:text-5xl lg:text-6xl font-extrabold text-white leading-tight tracking-tight">
               {t('cta.title')}
             </h2>
-            <p className="text-xl leading-relaxed" style={{ color: '#9CA3AF' }}>
+            <p className="text-xl leading-relaxed max-w-xl mx-auto" style={{ color: '#8B8B8B' }}>
               {t('cta.subtitle')}
             </p>
-            <div className="flex flex-col items-center gap-4">
+            <div className="flex flex-col items-center gap-5">
               <Link href={`/${locale}/register?plan=PRO`}>
                 <button
-                  className="btn-landing btn-cta-primary btn-shimmer inline-flex items-center justify-center gap-2 rounded-xl font-bold px-10 py-4 text-lg text-white"
-                  style={{ backgroundColor: ORANGE, boxShadow: '0 12px 36px -4px rgba(249,115,22,0.5)' }}
+                  className="btn-landing btn-cta-primary btn-shimmer inline-flex items-center justify-center gap-2.5 rounded-full font-bold px-12 py-4.5 text-lg text-white"
+                  style={{ backgroundColor: ORANGE, boxShadow: '0 12px 40px -4px rgba(249,115,22,0.5)' }}
                 >
                   {t('cta.button')}
                   <ArrowRight className="h-5 w-5" />
@@ -1345,10 +1352,10 @@ export default function Home() {
           FOOTER — darkest, 4-col
           ══════════════════════════════════════ */}
       <footer
-        className="py-12 relative"
+        className="py-16 relative"
         style={{ backgroundColor: '#070503', borderTop: '1px solid rgba(255,255,255,0.05)' }}
       >
-        <div className="container mx-auto px-5 sm:px-8 lg:px-14">
+        <div className="container mx-auto px-5 sm:px-8 lg:px-16">
           <div className="grid md:grid-cols-4 gap-8 mb-10 max-w-6xl mx-auto">
             <div>
               <div className="flex items-center gap-2 mb-4">
@@ -1417,7 +1424,7 @@ export default function Home() {
         <div className="px-4 pb-4 pt-1">
           <Link href={`/${locale}/register?plan=PRO`} className="block">
             <button
-              className="btn-landing btn-cta-primary btn-shimmer w-full rounded-xl font-bold py-3.5 text-white text-sm flex items-center justify-center gap-2"
+              className="btn-landing btn-cta-primary btn-shimmer w-full rounded-full font-bold py-3.5 text-white text-sm flex items-center justify-center gap-2"
               style={{ backgroundColor: ORANGE, boxShadow: '0 -4px 24px rgba(249,115,22,0.4)' }}
             >
               {t('stickyCtaMobile')}

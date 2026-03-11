@@ -127,11 +127,29 @@
   * {
     @apply border-border outline-ring/50;
   }
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
   body {
     @apply bg-background text-foreground;
   }
   button {
     cursor: pointer;
+  }
+  /* Premium focus-visible ring */
+  :focus-visible {
+    outline: 2px solid var(--ring);
+    outline-offset: 2px;
+    border-radius: 6px;
+    transition: outline-offset 0.15s ease;
+  }
+  /* Selection color */
+  ::selection {
+    background-color: rgba(249, 115, 22, 0.15);
+    color: inherit;
   }
 }
 
@@ -388,14 +406,14 @@ a {
 /* Glassmorphism card */
 .glass-card {
   background: rgba(255,255,255,0.7);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  border: 1px solid rgba(0,0,0,0.06);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  border: 1px solid rgba(0,0,0,0.05);
+  transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94), box-shadow 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 .glass-card:hover {
-  transform: translateY(-4px) scale(1.02);
-  box-shadow: 0 20px 40px -12px rgba(0,0,0,0.12);
+  transform: translateY(-2px);
+  box-shadow: 0 16px 40px -12px rgba(0,0,0,0.1);
 }
 
 /* Particles for CTA section */
@@ -476,13 +494,15 @@ a {
 /* Light card for dashboard widgets — clean, elevated look */
 .dash-card {
   background: #ffffff;
-  border: 1px solid rgba(0, 0, 0, 0.06);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  border-radius: 1rem;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04), 0 1px 2px rgba(0, 0, 0, 0.02);
-  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
 }
 .dash-card:hover {
-  border-color: rgba(0, 0, 0, 0.1);
-  box-shadow: 0 4px 12px -2px rgba(0, 0, 0, 0.08), 0 2px 4px -1px rgba(0, 0, 0, 0.04);
+  border-color: rgba(0, 0, 0, 0.08);
+  box-shadow: 0 8px 24px -8px rgba(0, 0, 0, 0.1), 0 2px 8px -2px rgba(0, 0, 0, 0.04);
+  transform: translateY(-1px);
 }
 
 /* Subtle grid background for dashboard */
@@ -495,8 +515,9 @@ a {
 /* Active nav link with orange accent — inside dark sidebar */
 .nav-active-glow {
   box-shadow: inset 3px 0 0 0 #f97316;
-  background: rgba(249, 115, 22, 0.12);
+  background: rgba(249, 115, 22, 0.10);
   color: #f97316;
+  border-radius: 0.75rem;
 }
 
 /* Card entrance animation */
@@ -687,8 +708,99 @@ body.keyboard-open .has-bottom-nav {
   overscroll-behavior-y: contain;
 }
 
+/* ═══════════════════════════════════════════
+   SKELETON LOADING
+   ═══════════════════════════════════════════ */
+@keyframes skeleton-pulse {
+  0% { opacity: 1; }
+  50% { opacity: 0.4; }
+  100% { opacity: 1; }
+}
+@keyframes skeleton-wave {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+.skeleton {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(90deg, var(--muted) 0%, var(--muted) 100%);
+  border-radius: 8px;
+}
+.skeleton::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, transparent 0%, rgba(255,255,255,0.4) 50%, transparent 100%);
+  animation: skeleton-wave 1.8s ease-in-out infinite;
+}
+.dark .skeleton::after {
+  background: linear-gradient(90deg, transparent 0%, rgba(255,255,255,0.06) 50%, transparent 100%);
+}
+
+/* ═══════════════════════════════════════════
+   APPLE-STYLE UTILITY CLASSES
+   ═══════════════════════════════════════════ */
+
+/* Smooth transitions for all interactive elements */
+.transition-apple {
+  transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+/* Premium hover lift for cards */
+.hover-lift {
+  transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+              box-shadow 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+.hover-lift:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 40px -12px rgba(0, 0, 0, 0.12),
+              0 4px 16px -4px rgba(0, 0, 0, 0.06);
+}
+
+/* Text gradient utility */
+.text-gradient-orange {
+  background: linear-gradient(135deg, #F97316 0%, #FB923C 40%, #FDBA74 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Subtle gradient backgrounds */
+.bg-gradient-subtle {
+  background: linear-gradient(180deg, rgba(249,115,22,0.03) 0%, transparent 50%);
+}
+
+/* Glass header effect */
+.glass-header {
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  background-color: rgba(28, 20, 16, 0.82);
+}
+
+/* Premium input focus */
+.input-premium {
+  transition: border-color 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+.input-premium:focus {
+  border-color: rgba(249, 115, 22, 0.5);
+  box-shadow: 0 0 0 3px rgba(249, 115, 22, 0.1),
+              0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+/* Section divider */
+.section-divider {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(0,0,0,0.06), transparent);
+}
+.dark .section-divider {
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.06), transparent);
+}
+
 /* Reduced motion */
 @media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
   .animate-float,
   .animate-float-delayed,
   .animate-float-slow,
@@ -698,11 +810,13 @@ body.keyboard-open .has-bottom-nav {
   .btn-shimmer::after,
   .animated-border::before,
   .particle,
-  .animate-card-in {
+  .animate-card-in,
+  .skeleton::after {
     animation: none !important;
   }
   .glass-card:hover,
-  .dash-card:hover {
+  .dash-card:hover,
+  .hover-lift:hover {
     transform: none;
   }
   .progress-animate {

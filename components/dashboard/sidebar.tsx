@@ -10,17 +10,17 @@ export async function Sidebar() {
   return (
     <div className="hidden glass-sidebar md:block">
       <div className="flex h-full max-h-screen flex-col gap-2">
-        <div className="flex h-14 items-center justify-between border-b border-white/10 px-4 lg:h-[60px] lg:px-6">
-          <Link href={`/${locale}`} className="flex items-center gap-2 font-semibold">
-            <Package2 className="h-6 w-6 text-orange-500" />
-            <span className="text-white">FoodTracks</span>
+        <div className="flex h-16 items-center justify-between border-b border-white/8 px-5 lg:px-6">
+          <Link href={`/${locale}`} className="flex items-center gap-2.5 font-semibold">
+            <Package2 className="h-5 w-5 text-orange-500" />
+            <span className="text-white font-jakarta text-lg tracking-tight">FoodTracks</span>
           </Link>
           <LanguageSwitcher />
         </div>
-        <div className="flex-1">
-          <NavLinks className="px-2 lg:px-4" />
+        <div className="flex-1 py-2">
+          <NavLinks className="px-3 lg:px-4" />
         </div>
-        <div className="border-t border-white/10 p-4 text-gray-300 [&_p]:text-gray-200 [&_span]:text-gray-400">
+        <div className="border-t border-white/8 p-4 text-gray-300 [&_p]:text-gray-200 [&_span]:text-gray-400">
           <LocationIndicator />
         </div>
       </div>
