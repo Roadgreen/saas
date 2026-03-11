@@ -5,6 +5,7 @@ declare module 'next-auth' {
     user: {
       businessId?: string;
       subscriptionTier?: string;
+      role?: string;
     } & DefaultSession['user'];
   }
 }
@@ -13,5 +14,6 @@ declare module 'next-auth/jwt' {
   interface JWT {
     businessId?: string;
     subscriptionTier?: string;
+    role?: string;
   }
 }

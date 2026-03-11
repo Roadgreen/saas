@@ -20,22 +20,30 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
     callbacks: {
         async jwt({ token, user }) {
             if (user) {
-                // On sign in, fetch the business and subscription tier
+                // On sign in, fetch the business, subscription tier, and role
                 const dbUser = await prisma.user.findUnique({
                     where: { email: user.email! },
                     include: { business: true },
                 });
-                if (dbUser?.business) {
-                    token.businessId = dbUser.business.id;
-                    token.subscriptionTier = dbUser.business.subscriptionTier;
+                if (dbUser) {
+                    token.role = dbUser.role;
+                    if (dbUser.business) {
+                        token.businessId = dbUser.business.id;
+                        token.subscriptionTier = dbUser.business.subscriptionTier;
+                    }
                 }
             }
             return token;
         },
         async session({ session, token }) {
-            if (token.businessId && session.user) {
-                session.user.businessId = token.businessId as string;
-                session.user.subscriptionTier = token.subscriptionTier as string;
+            if (session.user) {
+                if (token.role) {
+                    session.user.role = token.role as string;
+                }
+                if (token.businessId) {
+                    session.user.businessId = token.businessId as string;
+                    session.user.subscriptionTier = token.subscriptionTier as string;
+                }
             }
             return session;
         },

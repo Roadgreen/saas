@@ -12,8 +12,11 @@ export default async function AdminAnalyticsPage({
   const { locale } = await params;
   const session = await auth();
 
-  // Only allow the admin email — redirect everyone else
-  if (!session?.user?.email || session.user.email !== ADMIN_EMAIL) {
+  // Only allow admins — redirect everyone else
+  const isAdmin =
+    session?.user?.role === 'ADMIN' ||
+    session?.user?.email === ADMIN_EMAIL;
+  if (!session?.user?.email || !isAdmin) {
     redirect(`/${locale}/login`);
   }
 

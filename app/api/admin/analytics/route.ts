@@ -32,9 +32,12 @@ function periodToDaysAgo(period: string): number {
 }
 
 export async function GET(request: NextRequest) {
-  // Auth check
+  // Auth check — allow ADMIN role or the specific admin email
   const session = await auth();
-  if (!session?.user?.email || session.user.email !== ADMIN_EMAIL) {
+  const isAdmin =
+    session?.user?.role === 'ADMIN' ||
+    session?.user?.email === ADMIN_EMAIL;
+  if (!session?.user?.email || !isAdmin) {
     return NextResponse.json({ error: 'Forbidden' }, { status: 403 });
   }
 

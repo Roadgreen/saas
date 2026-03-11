@@ -207,31 +207,6 @@ export function AuthForm({ type }: AuthFormProps) {
             : 'Create Account'}
         </Button>
 
-        {type === 'login' && (
-          <Button
-            type="button"
-            variant="outline"
-            className="w-full mt-1 rounded-xl h-11 transition-all duration-300"
-            onClick={async () => {
-              setLoading(true);
-              try {
-                const result = await signIn('credentials', {
-                  email: 'admin@snaptrack.com',
-                  password: 'admin123',
-                  redirect: false,
-                });
-                if (result?.error) throw new Error('Demo login failed');
-                router.push(`/${locale}/dashboard`);
-              } catch {
-                setError('Demo login failed');
-                setLoading(false);
-              }
-            }}
-            disabled={loading}
-          >
-            Demo Admin
-          </Button>
-        )}
       </form>
 
       <div className="text-center text-sm text-gray-500">
