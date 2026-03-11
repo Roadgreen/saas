@@ -527,12 +527,12 @@ a {
   border: 1px solid rgba(0, 0, 0, 0.05);
   border-radius: 1rem;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04), 0 1px 2px rgba(0, 0, 0, 0.02);
-  transition: border-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s cubic-bezier(0.22, 1, 0.36, 1);
 }
 .dash-card:hover {
-  border-color: rgba(0, 0, 0, 0.08);
-  box-shadow: 0 8px 24px -8px rgba(0, 0, 0, 0.1), 0 2px 8px -2px rgba(0, 0, 0, 0.04);
-  transform: translateY(-1px);
+  border-color: rgba(249, 115, 22, 0.12);
+  box-shadow: 0 8px 24px -8px rgba(0, 0, 0, 0.1), 0 2px 8px -2px rgba(0, 0, 0, 0.04), 0 0 0 1px rgba(249, 115, 22, 0.06);
+  transform: scale(1.02);
 }
 
 /* Subtle grid background for dashboard */
@@ -544,10 +544,22 @@ a {
 
 /* Active nav link with orange accent — inside dark sidebar */
 .nav-active-glow {
-  box-shadow: inset 3px 0 0 0 #f97316;
-  background: rgba(249, 115, 22, 0.10);
-  color: #f97316;
+  background: rgba(249, 115, 22, 0.12);
+  color: #ffffff;
   border-radius: 0.75rem;
+  box-shadow: 0 0 12px rgba(249, 115, 22, 0.08);
+  position: relative;
+}
+.nav-active-glow::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 3px;
+  height: 60%;
+  background: #f97316;
+  border-radius: 0 2px 2px 0;
 }
 
 /* Card entrance animation */
@@ -557,6 +569,59 @@ a {
 }
 .animate-card-in {
   animation: card-entrance 0.4s ease-out both;
+}
+
+/* Dashboard table rows — subtle hover */
+.dash-card [data-slot="table-row"]:hover {
+  background: rgba(249, 115, 22, 0.03);
+}
+.dash-card [data-slot="table-row"] {
+  border-color: rgba(0, 0, 0, 0.04);
+  transition: background-color 0.15s ease;
+}
+.dash-card [data-slot="table-cell"] {
+  padding-top: 0.875rem;
+  padding-bottom: 0.875rem;
+}
+.dash-card [data-slot="table-head"] {
+  font-weight: 500;
+  font-size: 0.8125rem;
+  letter-spacing: 0.01em;
+  color: rgba(0, 0, 0, 0.5);
+  text-transform: none;
+}
+
+/* Dashboard typography — premium weights */
+.dash-title {
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  line-height: 1.2;
+}
+.dash-subtitle {
+  font-weight: 300;
+  color: rgba(0, 0, 0, 0.55);
+  line-height: 1.5;
+}
+.dash-label {
+  font-weight: 500;
+  font-size: 0.8125rem;
+  color: rgba(0, 0, 0, 0.55);
+}
+
+/* Dashboard inputs — uniform focus ring */
+.dash-card [data-slot="input"],
+.dash-card [data-slot="select-trigger"],
+.dash-card select {
+  border-radius: 0.75rem;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+.dash-card [data-slot="input"]:focus,
+.dash-card [data-slot="input"]:focus-visible,
+.dash-card [data-slot="select-trigger"]:focus,
+.dash-card select:focus {
+  border-color: rgba(249, 115, 22, 0.5);
+  box-shadow: 0 0 0 3px rgba(249, 115, 22, 0.1);
+  outline: none;
 }
 
 /* ═══════════════════════════════════════════
@@ -717,6 +782,17 @@ body.keyboard-open .has-bottom-nav {
     border-radius: 0 !important;
     margin: 0 !important;
   }
+
+  /* Touch-friendly interactive elements */
+  [data-slot="button"],
+  [data-slot="select-trigger"] {
+    min-height: 44px;
+  }
+
+  /* Cards stack properly on mobile */
+  .dash-card:hover {
+    transform: none;
+  }
 }
 
 /* GPS indicator pulse animation */
@@ -847,7 +923,8 @@ body.keyboard-open .has-bottom-nav {
   }
   .glass-card:hover,
   .dash-card:hover,
-  .hover-lift:hover {
+  .hover-lift:hover,
+  .feature-card-dark:hover {
     transform: none;
   }
   .progress-animate {

@@ -330,7 +330,7 @@ export function ProductTable({
       {/* Main Table Card */}
       <Card className="dash-card">
         <CardHeader className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 space-y-0 pb-4">
-          <CardTitle className="text-lg md:text-xl font-bold flex items-center gap-2">
+          <CardTitle className="text-lg md:text-xl font-semibold tracking-tight flex items-center gap-2">
             <Package className="h-5 w-5" />
             {t('inventory')}
           </CardTitle>

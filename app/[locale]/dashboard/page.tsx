@@ -126,10 +126,10 @@ export default async function Dashboard({
   return (
     <div className="flex-1 space-y-4 md:space-y-6">
       <div>
-        <h1 className="text-xl md:text-2xl font-bold tracking-tight">
+        <h1 className="text-xl md:text-2xl font-bold tracking-tight leading-tight">
           {t('welcome')}, {business.name}
         </h1>
-        <p className="text-xs md:text-sm text-muted-foreground mt-1">
+        <p className="text-xs md:text-sm text-muted-foreground mt-1 font-light">
           {t('subtitle')}
         </p>
       </div>

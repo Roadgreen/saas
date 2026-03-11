@@ -25,18 +25,18 @@ export function MobileNav() {
           <span className="sr-only">Toggle navigation menu</span>
         </Button>
       </SheetTrigger>
-      <SheetContent side="left" className="flex flex-col border-white/10" style={{ backgroundColor: '#0c0c14', color: '#e5e5e5' }}>
-        <nav className="grid gap-2 text-lg font-medium">
+      <SheetContent side="left" className="flex flex-col border-white/10 safe-area-top" style={{ backgroundColor: '#0c0c14', color: '#e5e5e5' }}>
+        <nav className="grid gap-1 text-lg font-medium">
           <Link
             href={`/${locale}`}
-            className="flex items-center gap-2 text-lg font-semibold mb-4"
+            className="flex items-center gap-2.5 text-lg font-semibold mb-6"
           >
-            <Package2 className="h-6 w-6 text-orange-500" />
-            <span className="text-white">FoodTracks</span>
+            <Package2 className="h-5 w-5 text-orange-500" />
+            <span className="text-white font-jakarta tracking-tight">FoodTracks</span>
           </Link>
           <NavLinks />
         </nav>
-        <div className="mt-auto border-t border-white/5 pt-4">
+        <div className="mt-auto border-t border-white/8 pt-4">
           <LocationIndicator />
         </div>
       </SheetContent>

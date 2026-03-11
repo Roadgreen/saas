@@ -115,7 +115,7 @@ export function SalesList({ orders, recipes, currency = 'EUR' }: SalesListProps)
   return (
     <Card className="dash-card">
       <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-        <CardTitle className="text-xl font-bold flex items-center gap-2">
+        <CardTitle className="text-xl font-semibold tracking-tight flex items-center gap-2">
           <TrendingUp className="h-5 w-5" />
           {t('title')}
         </CardTitle>
