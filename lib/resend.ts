@@ -20,7 +20,7 @@ function getResend(): Resend {
   return _resend;
 }
 
-const FROM = 'FoodTracks <no-reply@send.foodtracks.io>';
+const FROM = 'FoodTracks <no-reply@foodtracks.io>';
 
 // ─── Email Templates ──────────────────────────────────────────────────────────
 
