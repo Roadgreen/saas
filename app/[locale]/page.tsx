@@ -141,7 +141,7 @@ export default function Home() {
           ══════════════════════════════════════ */}
       <section
         className="relative overflow-hidden flex items-center"
-        style={{ backgroundColor: DARK, height: '100svh' }}
+        style={{ backgroundColor: DARK, minHeight: 'calc(100svh - 72px)' }}
       >
         <div className="absolute inset-0 bg-dot-grid pointer-events-none opacity-20" />
         <div
