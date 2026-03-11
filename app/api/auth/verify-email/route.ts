@@ -52,5 +52,5 @@ export async function GET(req: NextRequest) {
     console.error('[verify-email] Failed to send welcome email:', err);
   }
 
-  return NextResponse.redirect(`${appUrl}/${locale}/dashboard?verified=true`);
+  return NextResponse.redirect(`${appUrl}/${locale}/login?verified=true`);
 }

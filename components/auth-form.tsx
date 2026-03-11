@@ -30,6 +30,7 @@ export function AuthForm({ type }: AuthFormProps) {
   const locale = useLocale();
   const searchParams = useSearchParams();
   const plan = searchParams.get('plan'); // e.g. "PRO" or "ENTERPRISE"
+  const verified = searchParams.get('verified') === 'true';
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
 
@@ -122,6 +123,12 @@ export function AuthForm({ type }: AuthFormProps) {
           </p>
         )}
       </div>
+
+      {verified && (
+        <div className="p-3 text-sm text-green-700 bg-green-50 rounded-md border border-green-200">
+          ✅ {locale === 'fr' ? 'Votre email a été vérifié avec succès ! Connectez-vous pour accéder à votre compte.' : 'Your email has been verified successfully! Sign in to access your account.'}
+        </div>
+      )}
 
       {error && (
         <div className="p-3 text-sm text-red-500 bg-red-50 rounded-md">
