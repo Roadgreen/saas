@@ -187,7 +187,7 @@ export function QuickSalesGrid({ recipes }: QuickSalesGridProps) {
       </CardHeader>
       <CardContent className="space-y-4">
         {/* Recipe Grid */}
-        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-3">
+        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-2 sm:gap-3">
           {recipes.map((recipe) => {
             const cartItem = cart.get(recipe.id);
             return (
@@ -235,7 +235,7 @@ export function QuickSalesGrid({ recipes }: QuickSalesGridProps) {
                     <Button
                       variant="outline"
                       size="icon"
-                      className="h-7 w-7"
+                      className="h-9 w-9 sm:h-7 sm:w-7"
                       onClick={() => updateQuantity(item.recipe.id, -1)}
                     >
                       <Minus className="h-3 w-3" />
@@ -244,7 +244,7 @@ export function QuickSalesGrid({ recipes }: QuickSalesGridProps) {
                     <Button
                       variant="outline"
                       size="icon"
-                      className="h-7 w-7"
+                      className="h-9 w-9 sm:h-7 sm:w-7"
                       onClick={() => updateQuantity(item.recipe.id, 1)}
                     >
                       <Plus className="h-3 w-3" />

@@ -335,7 +335,7 @@ export function SalesScanner({ onSalesRecorded }: { onSalesRecorded?: () => void
                 {result && (
                     <div className="space-y-4 animate-in fade-in slide-in-from-bottom-4">
                         {/* Summary */}
-                        <div className="grid grid-cols-3 gap-3">
+                        <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
                             <div className="p-3 bg-blue-50 rounded-lg text-center border border-blue-200">
                                 <div className="text-2xl font-bold text-blue-700">{result.summary.totalQuantity}</div>
                                 <div className="text-xs text-blue-700/70">{t('totalSales')}</div>
