@@ -28,9 +28,12 @@ export function ProfitabilityChart({ data, currency = 'EUR' }: ProfitabilityChar
         return date.toLocaleDateString(locale, { month: 'short', day: 'numeric' });
     };
 
+    const isMobile = typeof window !== 'undefined' && window.innerWidth < 640;
+    const tickSize = isMobile ? 13 : 11;
+
     return (
-        <ResponsiveContainer width="100%" height={320}>
-            <AreaChart data={data} margin={{ top: 10, right: 20, left: 20, bottom: 0 }}>
+        <ResponsiveContainer width="100%" height={isMobile ? 260 : 320}>
+            <AreaChart data={data} margin={{ top: 10, right: 10, left: isMobile ? 5 : 20, bottom: 0 }}>
                 <defs>
                     <linearGradient id="revenueGrad" x1="0" y1="0" x2="0" y2="1">
                         <stop offset="5%" stopColor="#3b82f6" stopOpacity={0.2} />
@@ -49,23 +52,23 @@ export function ProfitabilityChart({ data, currency = 'EUR' }: ProfitabilityChar
                 <XAxis
                     dataKey="date"
                     tickFormatter={formatDate}
-                    tick={{ fontSize: 11 }}
+                    tick={{ fontSize: tickSize }}
                     tickLine={false}
                     axisLine={false}
                     interval="preserveStartEnd"
                 />
                 <YAxis
-                    tick={{ fontSize: 11 }}
+                    tick={{ fontSize: tickSize }}
                     tickLine={false}
                     axisLine={false}
                     tickFormatter={(v: number) => formatCurrencyShort(v, currency)}
-                    width={55}
+                    width={isMobile ? 45 : 55}
                 />
                 <Tooltip
                     formatter={(val, name) => [formatCurrency(Number(val), currency), name]}
                     labelFormatter={(label) => formatDate(String(label))}
                 />
-                <Legend />
+                <Legend wrapperStyle={{ fontSize: isMobile ? 13 : 12 }} />
                 <Area
                     type="monotone"
                     dataKey="revenue"

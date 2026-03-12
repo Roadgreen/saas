@@ -149,19 +149,19 @@ export default async function AnalyticsPage({
                     <div className="grid gap-3 md:gap-4 grid-cols-2 lg:grid-cols-4">
                         <Card className="dash-card">
                             <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-                                <CardTitle className="text-sm font-medium flex items-center gap-1.5">
+                                <CardTitle className="text-sm sm:text-base font-medium flex items-center gap-1.5">
                                     {t('totalRevenue')}
                                     <AnalyticsTooltip description={tHelp('analyticsRevenue')} />
                                 </CardTitle>
                                 <div className="rounded-md bg-blue-100 p-2">
-                                    <ShoppingCart className="h-4 w-4 text-blue-600" />
+                                    <ShoppingCart className="h-5 w-5 sm:h-4 sm:w-4 text-blue-600" />
                                 </div>
                             </CardHeader>
                             <CardContent>
-                                <div className="text-2xl font-bold text-blue-600">
+                                <div className="text-xl sm:text-2xl font-bold text-blue-600">
                                     {formatCurrency(totalRevenue, currency)}
                                 </div>
-                                <p className="text-xs text-muted-foreground mt-1">
+                                <p className="text-sm sm:text-xs text-muted-foreground mt-1">
                                     {t('periodLabel', { days })}
                                 </p>
                             </CardContent>
@@ -169,19 +169,19 @@ export default async function AnalyticsPage({
 
                         <Card className="dash-card">
                             <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-                                <CardTitle className="text-sm font-medium flex items-center gap-1.5">
+                                <CardTitle className="text-sm sm:text-base font-medium flex items-center gap-1.5">
                                     {t('totalCost')}
                                     <AnalyticsTooltip description={tHelp('analyticsCost')} />
                                 </CardTitle>
                                 <div className="rounded-md bg-red-100 p-2">
-                                    <DollarSign className="h-4 w-4 text-red-600" />
+                                    <DollarSign className="h-5 w-5 sm:h-4 sm:w-4 text-red-600" />
                                 </div>
                             </CardHeader>
                             <CardContent>
-                                <div className="text-2xl font-bold text-red-600">
+                                <div className="text-xl sm:text-2xl font-bold text-red-600">
                                     {formatCurrency(totalCost, currency)}
                                 </div>
-                                <p className="text-xs text-muted-foreground mt-1">
+                                <p className="text-sm sm:text-xs text-muted-foreground mt-1">
                                     {t('periodLabel', { days })}
                                 </p>
                             </CardContent>
@@ -189,19 +189,19 @@ export default async function AnalyticsPage({
 
                         <Card className="dash-card">
                             <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-                                <CardTitle className="text-sm font-medium flex items-center gap-1.5">
+                                <CardTitle className="text-sm sm:text-base font-medium flex items-center gap-1.5">
                                     {t('totalMargin')}
                                     <AnalyticsTooltip description={tHelp('analyticsMargin')} />
                                 </CardTitle>
                                 <div className="rounded-md bg-green-100 p-2">
-                                    <TrendingUp className="h-4 w-4 text-green-600" />
+                                    <TrendingUp className="h-5 w-5 sm:h-4 sm:w-4 text-green-600" />
                                 </div>
                             </CardHeader>
                             <CardContent>
-                                <div className="text-2xl font-bold text-green-600">
+                                <div className="text-xl sm:text-2xl font-bold text-green-600">
                                     {formatCurrency(totalMargin, currency)}
                                 </div>
-                                <p className="text-xs text-muted-foreground mt-1">
+                                <p className="text-sm sm:text-xs text-muted-foreground mt-1">
                                     {overallMarginPercent.toFixed(1)}% {t('marginRate')}
                                 </p>
                             </CardContent>
@@ -209,19 +209,19 @@ export default async function AnalyticsPage({
 
                         <Card className="dash-card">
                             <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-                                <CardTitle className="text-sm font-medium flex items-center gap-1.5">
+                                <CardTitle className="text-sm sm:text-base font-medium flex items-center gap-1.5">
                                     {t('avgDailyMargin')}
                                     <AnalyticsTooltip description={tHelp('analyticsAvgMargin')} />
                                 </CardTitle>
                                 <div className="rounded-md bg-purple-100 p-2">
-                                    <BarChart3 className="h-4 w-4 text-purple-600" />
+                                    <BarChart3 className="h-5 w-5 sm:h-4 sm:w-4 text-purple-600" />
                                 </div>
                             </CardHeader>
                             <CardContent>
-                                <div className="text-2xl font-bold text-blue-600">
+                                <div className="text-xl sm:text-2xl font-bold text-blue-600">
                                     {formatCurrency(avgDailyMargin, currency)}
                                 </div>
-                                <p className="text-xs text-muted-foreground mt-1">
+                                <p className="text-sm sm:text-xs text-muted-foreground mt-1">
                                     {t('perDay')}
                                 </p>
                             </CardContent>
@@ -230,23 +230,23 @@ export default async function AnalyticsPage({
 
                     {/* Summary cards row 2: best day, worst day, total waste */}
                     {activeDays.length > 0 && (
-                        <div className="grid gap-4 md:grid-cols-3">
+                        <div className="grid gap-4 grid-cols-1 sm:grid-cols-3">
                             {bestDay && (
                                 <Card className="dash-card">
                                     <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-                                        <CardTitle className="text-sm font-medium flex items-center gap-1.5">
+                                        <CardTitle className="text-sm sm:text-base font-medium flex items-center gap-1.5">
                                             {t('bestDay')}
                                             <AnalyticsTooltip description={tHelp('analyticsBestDay')} />
                                         </CardTitle>
                                         <div className="rounded-md bg-emerald-100 p-2">
-                                            <CalendarCheck className="h-4 w-4 text-emerald-600" />
+                                            <CalendarCheck className="h-5 w-5 sm:h-4 sm:w-4 text-emerald-600" />
                                         </div>
                                     </CardHeader>
                                     <CardContent>
-                                        <div className="text-2xl font-bold text-green-600">
+                                        <div className="text-xl sm:text-2xl font-bold text-green-600">
                                             {formatCurrency(bestDay.margin, currency)}
                                         </div>
-                                        <p className="text-xs text-muted-foreground mt-1">
+                                        <p className="text-sm sm:text-xs text-muted-foreground mt-1">
                                             {formatDate(bestDay.date)} — {t('bestDayLabel')}
                                         </p>
                                     </CardContent>
@@ -256,19 +256,19 @@ export default async function AnalyticsPage({
                             {worstDay && (
                                 <Card className="dash-card">
                                     <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-                                        <CardTitle className="text-sm font-medium flex items-center gap-1.5">
+                                        <CardTitle className="text-sm sm:text-base font-medium flex items-center gap-1.5">
                                             {t('worstDay')}
                                             <AnalyticsTooltip description={tHelp('analyticsWorstDay')} />
                                         </CardTitle>
                                         <div className="rounded-md bg-amber-100 p-2">
-                                            <CalendarX className="h-4 w-4 text-amber-600" />
+                                            <CalendarX className="h-5 w-5 sm:h-4 sm:w-4 text-amber-600" />
                                         </div>
                                     </CardHeader>
                                     <CardContent>
-                                        <div className="text-2xl font-bold text-amber-600">
+                                        <div className="text-xl sm:text-2xl font-bold text-amber-600">
                                             {formatCurrency(worstDay.margin, currency)}
                                         </div>
-                                        <p className="text-xs text-muted-foreground mt-1">
+                                        <p className="text-sm sm:text-xs text-muted-foreground mt-1">
                                             {formatDate(worstDay.date)} — {t('worstDayLabel')}
                                         </p>
                                     </CardContent>
@@ -277,19 +277,19 @@ export default async function AnalyticsPage({
 
                             <Card className="dash-card">
                                 <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-                                    <CardTitle className="text-sm font-medium flex items-center gap-1.5">
+                                    <CardTitle className="text-sm sm:text-base font-medium flex items-center gap-1.5">
                                         {t('detailWaste')}
                                         <AnalyticsTooltip description={tHelp('analyticsWaste')} />
                                     </CardTitle>
                                     <div className="rounded-md bg-orange-100 p-2">
-                                        <Trash2 className="h-4 w-4 text-orange-600" />
+                                        <Trash2 className="h-5 w-5 sm:h-4 sm:w-4 text-orange-600" />
                                     </div>
                                 </CardHeader>
                                 <CardContent>
-                                    <div className="text-2xl font-bold text-red-600">
+                                    <div className="text-xl sm:text-2xl font-bold text-red-600">
                                         {formatCurrency(totalWaste, currency)}
                                     </div>
-                                    <p className="text-xs text-muted-foreground mt-1">
+                                    <p className="text-sm sm:text-xs text-muted-foreground mt-1">
                                         {t('periodLabel', { days })}
                                     </p>
                                 </CardContent>
