@@ -39,9 +39,9 @@ export function ExpirationAnalysisCard({
     };
 
     return (
-        <div className="space-y-4">
+        <div className="space-y-3 md:space-y-4">
             {/* Summary mini-cards */}
-            <div className="grid gap-4 grid-cols-1 sm:grid-cols-3">
+            <div className="grid gap-2 md:gap-4 grid-cols-1 sm:grid-cols-3">
                 <Card className="bg-rose-50/50">
                     <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
                         <CardTitle className="text-sm sm:text-base font-medium">
@@ -108,12 +108,12 @@ export function ExpirationAnalysisCard({
             ) : (
                 <>
                     {/* Mobile: card layout */}
-                    <div className="sm:hidden space-y-3 max-h-[500px] overflow-auto">
+                    <div className="sm:hidden space-y-2 max-h-[500px] overflow-auto">
                         {data.rows.map((row) => (
                             <div
                                 key={row.productId}
                                 className={cn(
-                                    'rounded-xl border p-4 space-y-3',
+                                    'rounded-lg border p-3 space-y-2',
                                     row.remainingQty > 0 && 'border-red-300 bg-red-50/30'
                                 )}
                             >
@@ -131,7 +131,7 @@ export function ExpirationAnalysisCard({
                                     </div>
                                 </div>
 
-                                <div className="grid grid-cols-2 gap-3">
+                                <div className="grid grid-cols-2 gap-2">
                                     <div>
                                         <p className="text-sm text-muted-foreground">{t('expirationLocation')}</p>
                                         <p className="text-base">{row.locationName}</p>

@@ -37,14 +37,14 @@ export function DailyBreakdownTable({ data, currency = 'EUR' }: DailyBreakdownTa
     return (
         <>
             {/* Mobile: card layout */}
-            <div className="sm:hidden space-y-3 max-h-[500px] overflow-auto">
+            <div className="sm:hidden space-y-2 max-h-[500px] overflow-auto">
                 {reversed.map((day) => {
                     const hasData = day.revenue > 0 || day.cost > 0;
                     return (
                         <div
                             key={day.date}
                             className={cn(
-                                'rounded-xl border p-4 space-y-3',
+                                'rounded-lg border p-3 space-y-2',
                                 !hasData && 'opacity-40'
                             )}
                         >
@@ -52,7 +52,7 @@ export function DailyBreakdownTable({ data, currency = 'EUR' }: DailyBreakdownTa
                                 {formatDate(day.date)}
                             </div>
                             {hasData ? (
-                                <div className="grid grid-cols-2 gap-3">
+                                <div className="grid grid-cols-2 gap-2">
                                     <div>
                                         <p className="text-sm text-muted-foreground">{t('detailRevenue')}</p>
                                         <p className="text-base font-medium text-blue-600">

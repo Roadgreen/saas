@@ -137,7 +137,7 @@ export function PredictionAccuracyPanel({ metrics, isPremium }: PredictionAccura
                     {t('upgradeAccuracy')}
                 </CardTitle>
             </CardHeader>
-            <CardContent className="space-y-6">
+            <CardContent className="space-y-4 md:space-y-6">
                 {/* Section A - Predictability Score */}
                 <div className="flex items-center gap-4 p-4 bg-gray-50 rounded-lg border border-gray-100">
                     <div className={`text-4xl font-bold ${getScoreColor(metrics.predictabilityScore)}`}>

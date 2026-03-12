@@ -754,13 +754,21 @@ body.keyboard-open .has-bottom-nav {
 
 /* Tables horizontal scroll on mobile */
 @media (max-width: 768px) {
+  .dash-card {
+    border-radius: 0.75rem;
+  }
+
   .dash-card table {
     display: block;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
+    width: 100%;
   }
 
   /* Tighter card padding on mobile */
+  .dash-card [class*="CardHeader"] {
+    padding: 12px 12px 8px;
+  }
   .dash-card [class*="CardContent"] {
     padding: 12px;
   }

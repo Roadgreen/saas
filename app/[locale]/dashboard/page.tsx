@@ -124,7 +124,7 @@ export default async function Dashboard({
   const forecastDayLabel = tDays(nextOpenDayName as any);
 
   return (
-    <div className="flex-1 space-y-4 md:space-y-6">
+    <div className="flex-1 space-y-3 md:space-y-6">
       <div>
         <h1 className="text-xl md:text-2xl font-bold tracking-tight leading-tight">
           {t('welcome')}, {business.name}
@@ -146,14 +146,14 @@ export default async function Dashboard({
       {analytics && <AlertsWidget alerts={analytics.alerts} />}
 
       {analytics && (
-        <div className="grid gap-4 md:grid-cols-2">
+        <div className="grid gap-3 md:gap-4 md:grid-cols-2">
           <WasteMetricsCard waste={analytics.waste} currency={currency} />
           <SalesVsStockCard data={analytics.salesVsStock} currency={currency} />
         </div>
       )}
 
-      <div className="grid gap-4 grid-cols-1 lg:grid-cols-7">
-        <div className="lg:col-span-4 space-y-4">
+      <div className="grid gap-3 md:gap-4 grid-cols-1 lg:grid-cols-7">
+        <div className="lg:col-span-4 space-y-3 md:space-y-4">
           <UploadAndAnalyze />
           {analytics && (
             <SmartAlertsWidget
@@ -162,7 +162,7 @@ export default async function Dashboard({
             />
           )}
         </div>
-        <div className="lg:col-span-3 space-y-4">
+        <div className="lg:col-span-3 space-y-3 md:space-y-4">
           <PredictionsWidget
             predictions={predictions}
             isPremium={isPremium}
@@ -183,7 +183,7 @@ export default async function Dashboard({
         </div>
       </div>
 
-      <div className="grid gap-4 md:grid-cols-2">
+      <div className="grid gap-3 md:gap-4 md:grid-cols-2">
         <LocationsMapWrapper />
         <LocationPerformanceCard analytics={locationAnalytics} isPremium={isPremium} currency={currency} />
       </div>

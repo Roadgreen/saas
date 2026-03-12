@@ -158,7 +158,7 @@ export default function LocationsMap() {
           </Button>
         </Link>
       </CardHeader>
-      <div className="px-4 pb-2">
+      <div className="px-2 md:px-4 pb-2">
         <ContextualInfoCard
           message={tHelp('locationsInfo')}
           learnMore={tHelp('locationsLearnMore')}

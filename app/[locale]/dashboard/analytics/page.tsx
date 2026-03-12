@@ -102,7 +102,7 @@ export default async function AnalyticsPage({
     };
 
     return (
-        <div className="flex-1 space-y-6">
+        <div className="flex-1 space-y-3 md:space-y-6">
             <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
                 <div>
                     <h1 className="text-2xl font-bold tracking-tight">
@@ -146,7 +146,7 @@ export default async function AnalyticsPage({
             ) : (
                 <>
                     {/* Summary cards row 1: revenue, cost, margin, avg margin */}
-                    <div className="grid gap-3 md:gap-4 grid-cols-2 lg:grid-cols-4">
+                    <div className="grid gap-2 md:gap-4 grid-cols-2 lg:grid-cols-4">
                         <Card className="dash-card">
                             <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
                                 <CardTitle className="text-sm sm:text-base font-medium flex items-center gap-1.5">
@@ -230,7 +230,7 @@ export default async function AnalyticsPage({
 
                     {/* Summary cards row 2: best day, worst day, total waste */}
                     {activeDays.length > 0 && (
-                        <div className="grid gap-4 grid-cols-1 sm:grid-cols-3">
+                        <div className="grid gap-2 md:gap-4 grid-cols-1 sm:grid-cols-3">
                             {bestDay && (
                                 <Card className="dash-card">
                                     <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
