@@ -11,6 +11,7 @@ datasource db {
 enum Role {
   OWNER
   EMPLOYEE
+  ADMIN
 }
 
 enum ProductStatus {
