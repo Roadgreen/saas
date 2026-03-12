@@ -4,12 +4,13 @@ import { useState, useEffect, useMemo } from 'react';
 import Link from 'next/link';
 import { useTranslations, useLocale } from 'next-intl';
 import { useRouter } from 'next/navigation';
+import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
-import { Plus, Trash2, Package, Pencil, Search, ArrowUpDown, ArrowUp, ArrowDown, AlertTriangle, DollarSign, BarChart3, X, TrendingDown } from 'lucide-react';
+import { Plus, Trash2, Package, Pencil, Search, ArrowUpDown, ArrowUp, ArrowDown, AlertTriangle, DollarSign, BarChart3, X, TrendingDown, Calendar } from 'lucide-react';
 import { StockAdjustmentDialog } from '@/components/dashboard/StockAdjustmentDialog';
 import { formatCurrency, type CurrencyCode } from '@/lib/currency';
 import { toast } from 'sonner';
@@ -414,153 +415,275 @@ export function ProductTable({
               {t('filters.results', { count: 0, total: products.length })}
             </div>
           ) : (
-            <div className="overflow-x-auto">
-              <Table>
-                <TableHeader>
-                  <TableRow>
-                    <TableHead className="w-12">{t('image')}</TableHead>
-                    <TableHead>
-                      <button
-                        className="flex items-center hover:text-foreground transition-colors"
-                        onClick={() => handleSort('name')}
-                      >
-                        {t('name')}
-                        {getSortIcon('name')}
-                      </button>
-                    </TableHead>
-                    <TableHead>{t('category')}</TableHead>
-                    <TableHead className="text-right">
-                      <button
-                        className="flex items-center ml-auto hover:text-foreground transition-colors"
-                        onClick={() => handleSort('quantity')}
-                      >
-                        {t('quantity')}
-                        {getSortIcon('quantity')}
-                      </button>
-                    </TableHead>
-                    <TableHead className="text-right">
-                      <button
-                        className="flex items-center ml-auto hover:text-foreground transition-colors"
-                        onClick={() => handleSort('costPerUnit')}
-                      >
-                        {t('costPerUnit')}
-                        {getSortIcon('costPerUnit')}
-                      </button>
-                    </TableHead>
-                    <TableHead>
-                      <button
-                        className="flex items-center hover:text-foreground transition-colors"
-                        onClick={() => handleSort('expiryDate')}
-                      >
-                        {t('expiryDate')}
-                        {getSortIcon('expiryDate')}
-                      </button>
-                    </TableHead>
-                    <TableHead>
-                      <button
-                        className="flex items-center hover:text-foreground transition-colors"
-                        onClick={() => handleSort('status')}
-                      >
-                        {t('status')}
-                        {getSortIcon('status')}
-                      </button>
-                    </TableHead>
-                    <TableHead className="text-right">{t('actions')}</TableHead>
-                  </TableRow>
-                </TableHeader>
-                <TableBody>
-                  {filteredAndSorted.map((product) => {
-                    const low = isLowStock(product);
-                    const critical = isCriticalStock(product);
-                    const badge = getStockBadge(product);
-                    return (
-                      <TableRow
-                        key={product.id}
-                        className={critical ? 'bg-red-50/50' : low ? 'bg-orange-50/50' : ''}
-                      >
-                        <TableCell>
-                          {product.imageUrl ? (
-                            <div className="relative h-10 w-10 rounded overflow-hidden border">
-                              <img
-                                src={product.imageUrl}
-                                alt={product.name}
-                                className="h-full w-full object-cover"
-                              />
-                            </div>
-                          ) : (
-                            <div className="h-10 w-10 rounded border bg-muted flex items-center justify-center text-muted-foreground">
-                              <Package className="h-4 w-4" />
-                            </div>
-                          )}
-                        </TableCell>
-                        <TableCell className="font-medium">
+            <>
+              {/* Mobile Card Layout */}
+              <div className="md:hidden space-y-3">
+                {filteredAndSorted.map((product, index) => {
+                  const low = isLowStock(product);
+                  const critical = isCriticalStock(product);
+                  const badge = getStockBadge(product);
+                  const expiryColor = product.status === 'EXPIRED'
+                    ? 'text-red-500'
+                    : product.status === 'NEAR_EXPIRY'
+                      ? 'text-yellow-500'
+                      : 'text-muted-foreground';
+                  return (
+                    <motion.div
+                      key={product.id}
+                      initial={{ opacity: 0, y: 12 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      transition={{ duration: 0.2, delay: index * 0.03 }}
+                      className={`rounded-xl border border-border/60 p-4 ${
+                        critical ? 'bg-red-950/20 border-red-800/40' : low ? 'bg-orange-950/20 border-orange-800/40' : 'bg-[#1A1410]'
+                      }`}
+                    >
+                      {/* Row 1: Image + Name + Category */}
+                      <div className="flex items-center gap-3">
+                        {product.imageUrl ? (
+                          <div className="relative h-10 w-10 shrink-0 rounded-lg overflow-hidden border border-border/40">
+                            <img
+                              src={product.imageUrl}
+                              alt={product.name}
+                              className="h-full w-full object-cover"
+                            />
+                          </div>
+                        ) : (
+                          <div className="h-10 w-10 shrink-0 rounded-lg border border-border/40 bg-[#0D0905] flex items-center justify-center text-muted-foreground">
+                            <Package className="h-4 w-4" />
+                          </div>
+                        )}
+                        <div className="flex-1 min-w-0">
                           <div className="flex items-center gap-2 flex-wrap">
-                            {product.name}
+                            <span className="font-medium text-white truncate">{product.name}</span>
                             {badge}
                           </div>
-                          {product.demand && (low || critical) && (
-                            <div className="text-xs text-muted-foreground mt-0.5">
-                              {product.demand.coverageDays === Infinity
-                                ? null
-                                : t('coverageDays', { days: product.demand.coverageDays.toFixed(1) })}
-                            </div>
+                          {product.category && (
+                            <span className="inline-block mt-0.5 px-2 py-0.5 rounded-full text-xs bg-orange-500/15 text-orange-400">
+                              {product.category}
+                            </span>
                           )}
-                        </TableCell>
-                        <TableCell className="text-muted-foreground text-sm">
-                          {product.category || '-'}
-                        </TableCell>
-                        <TableCell className="text-right">
-                          <span className={critical ? 'text-red-600 font-medium' : low ? 'text-orange-600 font-medium' : ''}>
+                        </div>
+                        {/* Status badge */}
+                        <span className={`shrink-0 px-2 py-1 rounded-full text-xs font-medium ${statusClass(product.status)}`}>
+                          {t(`status_${product.status}` as any)}
+                        </span>
+                      </div>
+
+                      {/* Row 2: Quantity + Cost + Expiry */}
+                      <div className="mt-3 grid grid-cols-3 gap-2 text-sm">
+                        <div>
+                          <div className="text-muted-foreground text-xs">{t('quantity')}</div>
+                          <span className={`font-medium ${critical ? 'text-red-500' : low ? 'text-orange-500' : 'text-white'}`}>
                             {product.quantity} {product.unit}
                           </span>
-                        </TableCell>
-                        <TableCell className="text-right">
-                          {product.costPerUnit != null
-                            ? formatCurrency(product.costPerUnit, currency)
-                            : <span className="text-muted-foreground text-xs">{t('noCostSet')}</span>
-                          }
-                        </TableCell>
-                        <TableCell>
-                          {new Date(product.expiryDate).toLocaleDateString(locale, {
-                            year: 'numeric',
-                            month: 'short',
-                            day: 'numeric',
-                          })}
-                        </TableCell>
-                        <TableCell>
-                          <span className={`px-2 py-1 rounded-full text-xs font-medium ${statusClass(product.status)}`}>
-                            {t(`status_${product.status}` as any)}
+                        </div>
+                        <div>
+                          <div className="text-muted-foreground text-xs">{t('costPerUnit')}</div>
+                          <span className="text-white font-medium">
+                            {product.costPerUnit != null
+                              ? formatCurrency(product.costPerUnit, currency)
+                              : '-'}
                           </span>
-                        </TableCell>
-                        <TableCell>
-                          <div className="flex items-center justify-end gap-1">
-                            <StockAdjustmentDialog
-                              productId={product.id}
-                              productName={product.name}
-                              currentUnit={product.unit}
-                              currentQuantity={product.quantity}
-                            />
-                            <Link href={`/${locale}/dashboard/products/${product.id}`}>
-                              <Button variant="ghost" size="sm">
-                                <Pencil className="h-4 w-4" />
-                              </Button>
-                            </Link>
-                            <Button
-                              variant="ghost"
-                              size="sm"
-                              className="text-red-500 hover:text-red-700 hover:bg-red-50"
-                              onClick={() => handleDelete(product.id, product.name)}
-                            >
-                              <Trash2 className="h-4 w-4" />
-                            </Button>
+                        </div>
+                        <div>
+                          <div className="text-muted-foreground text-xs flex items-center gap-1">
+                            <Calendar className="h-3 w-3" />
+                            {t('expiryDate')}
                           </div>
-                        </TableCell>
-                      </TableRow>
-                    );
-                  })}
-                </TableBody>
-              </Table>
-            </div>
+                          <span className={`font-medium ${expiryColor}`}>
+                            {new Date(product.expiryDate).toLocaleDateString(locale, {
+                              month: 'short',
+                              day: 'numeric',
+                            })}
+                          </span>
+                        </div>
+                      </div>
+
+                      {/* Demand info */}
+                      {product.demand && (low || critical) && (
+                        <div className="text-xs text-muted-foreground mt-2">
+                          {product.demand.coverageDays === Infinity
+                            ? null
+                            : t('coverageDays', { days: product.demand.coverageDays.toFixed(1) })}
+                        </div>
+                      )}
+
+                      {/* Row 3: Action buttons */}
+                      <div className="mt-3 flex items-center justify-end gap-1 border-t border-border/30 pt-3">
+                        <StockAdjustmentDialog
+                          productId={product.id}
+                          productName={product.name}
+                          currentUnit={product.unit}
+                          currentQuantity={product.quantity}
+                        />
+                        <Link href={`/${locale}/dashboard/products/${product.id}`}>
+                          <Button variant="ghost" size="sm" className="h-11 w-11 p-0">
+                            <Pencil className="h-4 w-4" />
+                          </Button>
+                        </Link>
+                        <Button
+                          variant="ghost"
+                          size="sm"
+                          className="h-11 w-11 p-0 text-red-500 hover:text-red-700 hover:bg-red-950/50"
+                          onClick={() => handleDelete(product.id, product.name)}
+                        >
+                          <Trash2 className="h-4 w-4" />
+                        </Button>
+                      </div>
+                    </motion.div>
+                  );
+                })}
+              </div>
+
+              {/* Desktop Table Layout */}
+              <div className="hidden md:block overflow-x-auto">
+                <Table>
+                  <TableHeader>
+                    <TableRow>
+                      <TableHead className="w-12">{t('image')}</TableHead>
+                      <TableHead>
+                        <button
+                          className="flex items-center hover:text-foreground transition-colors"
+                          onClick={() => handleSort('name')}
+                        >
+                          {t('name')}
+                          {getSortIcon('name')}
+                        </button>
+                      </TableHead>
+                      <TableHead>{t('category')}</TableHead>
+                      <TableHead className="text-right">
+                        <button
+                          className="flex items-center ml-auto hover:text-foreground transition-colors"
+                          onClick={() => handleSort('quantity')}
+                        >
+                          {t('quantity')}
+                          {getSortIcon('quantity')}
+                        </button>
+                      </TableHead>
+                      <TableHead className="text-right">
+                        <button
+                          className="flex items-center ml-auto hover:text-foreground transition-colors"
+                          onClick={() => handleSort('costPerUnit')}
+                        >
+                          {t('costPerUnit')}
+                          {getSortIcon('costPerUnit')}
+                        </button>
+                      </TableHead>
+                      <TableHead>
+                        <button
+                          className="flex items-center hover:text-foreground transition-colors"
+                          onClick={() => handleSort('expiryDate')}
+                        >
+                          {t('expiryDate')}
+                          {getSortIcon('expiryDate')}
+                        </button>
+                      </TableHead>
+                      <TableHead>
+                        <button
+                          className="flex items-center hover:text-foreground transition-colors"
+                          onClick={() => handleSort('status')}
+                        >
+                          {t('status')}
+                          {getSortIcon('status')}
+                        </button>
+                      </TableHead>
+                      <TableHead className="text-right">{t('actions')}</TableHead>
+                    </TableRow>
+                  </TableHeader>
+                  <TableBody>
+                    {filteredAndSorted.map((product) => {
+                      const low = isLowStock(product);
+                      const critical = isCriticalStock(product);
+                      const badge = getStockBadge(product);
+                      return (
+                        <TableRow
+                          key={product.id}
+                          className={critical ? 'bg-red-50/50' : low ? 'bg-orange-50/50' : ''}
+                        >
+                          <TableCell>
+                            {product.imageUrl ? (
+                              <div className="relative h-10 w-10 rounded overflow-hidden border">
+                                <img
+                                  src={product.imageUrl}
+                                  alt={product.name}
+                                  className="h-full w-full object-cover"
+                                />
+                              </div>
+                            ) : (
+                              <div className="h-10 w-10 rounded border bg-muted flex items-center justify-center text-muted-foreground">
+                                <Package className="h-4 w-4" />
+                              </div>
+                            )}
+                          </TableCell>
+                          <TableCell className="font-medium">
+                            <div className="flex items-center gap-2 flex-wrap">
+                              {product.name}
+                              {badge}
+                            </div>
+                            {product.demand && (low || critical) && (
+                              <div className="text-xs text-muted-foreground mt-0.5">
+                                {product.demand.coverageDays === Infinity
+                                  ? null
+                                  : t('coverageDays', { days: product.demand.coverageDays.toFixed(1) })}
+                              </div>
+                            )}
+                          </TableCell>
+                          <TableCell className="text-muted-foreground text-sm">
+                            {product.category || '-'}
+                          </TableCell>
+                          <TableCell className="text-right">
+                            <span className={critical ? 'text-red-600 font-medium' : low ? 'text-orange-600 font-medium' : ''}>
+                              {product.quantity} {product.unit}
+                            </span>
+                          </TableCell>
+                          <TableCell className="text-right">
+                            {product.costPerUnit != null
+                              ? formatCurrency(product.costPerUnit, currency)
+                              : <span className="text-muted-foreground text-xs">{t('noCostSet')}</span>
+                            }
+                          </TableCell>
+                          <TableCell>
+                            {new Date(product.expiryDate).toLocaleDateString(locale, {
+                              year: 'numeric',
+                              month: 'short',
+                              day: 'numeric',
+                            })}
+                          </TableCell>
+                          <TableCell>
+                            <span className={`px-2 py-1 rounded-full text-xs font-medium ${statusClass(product.status)}`}>
+                              {t(`status_${product.status}` as any)}
+                            </span>
+                          </TableCell>
+                          <TableCell>
+                            <div className="flex items-center justify-end gap-1">
+                              <StockAdjustmentDialog
+                                productId={product.id}
+                                productName={product.name}
+                                currentUnit={product.unit}
+                                currentQuantity={product.quantity}
+                              />
+                              <Link href={`/${locale}/dashboard/products/${product.id}`}>
+                                <Button variant="ghost" size="sm">
+                                  <Pencil className="h-4 w-4" />
+                                </Button>
+                              </Link>
+                              <Button
+                                variant="ghost"
+                                size="sm"
+                                className="text-red-500 hover:text-red-700 hover:bg-red-50"
+                                onClick={() => handleDelete(product.id, product.name)}
+                              >
+                                <Trash2 className="h-4 w-4" />
+                              </Button>
+                            </div>
+                          </TableCell>
+                        </TableRow>
+                      );
+                    })}
+                  </TableBody>
+                </Table>
+              </div>
+            </>
           )}
         </CardContent>
       </Card>
