@@ -1,8 +1,15 @@
 import OpenAI from "openai";
 
-const openai = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY,
-});
+let _openai: OpenAI | null = null;
+
+function getOpenAI(): OpenAI {
+  if (!_openai) {
+    _openai = new OpenAI({
+      apiKey: process.env.OPENAI_API_KEY,
+    });
+  }
+  return _openai;
+}
 
 const SYSTEM_PROMPT = `You are a structured data extraction AI for a food business SaaS. 
 Analyze the image and return ONE SINGLE JSON OBJECT in one of these forms:
@@ -59,7 +66,7 @@ RULES:
 
 export async function analyzeImage(base64Image: string, contextHint = "auto") {
   try {
-    const response = await openai.chat.completions.create({
+    const response = await getOpenAI().chat.completions.create({
       model: "gpt-4o",
       messages: [
         {

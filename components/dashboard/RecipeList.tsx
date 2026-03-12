@@ -1,10 +1,11 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
+import { motion } from 'framer-motion';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table';
 import { CreateRecipeForm } from './CreateRecipeForm';
-import { ChefHat } from 'lucide-react';
+import { ChefHat, ArrowRight } from 'lucide-react';
 import { formatCurrency, type CurrencyCode } from '@/lib/currency';
 
 interface Ingredient {
@@ -56,7 +57,52 @@ export function RecipeList({ recipes, products, currency = 'EUR' }: RecipeListPr
             {t('noRecipes')}
           </div>
         ) : (
-          <div className="overflow-x-auto -mx-4 md:mx-0">
+          <>
+          {/* Mobile Card Layout */}
+          <div className="md:hidden space-y-3">
+            {recipes.map((recipe, index) => (
+              <motion.div
+                key={recipe.id}
+                initial={{ opacity: 0, y: 12 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.2, delay: index * 0.03 }}
+                className="rounded-xl border border-border/60 p-4 bg-[#1A1410]"
+              >
+                {/* Recipe name */}
+                <div className="font-semibold text-white text-lg leading-tight">
+                  {recipe.name}
+                </div>
+                {recipe.description && (
+                  <div className="text-sm text-muted-foreground mt-0.5">{recipe.description}</div>
+                )}
+
+                {/* Ingredient count */}
+                <div className="mt-2 text-sm text-muted-foreground">
+                  {recipe.ingredients.length} {t('table.ingredients').toLowerCase()}
+                </div>
+
+                {/* Cost -> Selling Price -> Margin */}
+                <div className="mt-3 flex items-center gap-2 text-sm flex-wrap">
+                  <span className="text-white font-medium">{formatCurrency(recipe.totalCost, currency)}</span>
+                  <ArrowRight className="h-3 w-3 text-muted-foreground shrink-0" />
+                  <span className="text-orange-400 font-medium">
+                    {recipe.sellingPrice ? formatCurrency(recipe.sellingPrice, currency) : '-'}
+                  </span>
+                  <ArrowRight className="h-3 w-3 text-muted-foreground shrink-0" />
+                  {recipe.grossMargin != null ? (
+                    <span className={`font-bold ${recipe.grossMargin < 70 ? 'text-red-500' : 'text-green-500'}`}>
+                      {recipe.grossMargin.toFixed(1)}%
+                    </span>
+                  ) : (
+                    <span className="text-muted-foreground">-</span>
+                  )}
+                </div>
+              </motion.div>
+            ))}
+          </div>
+
+          {/* Desktop Table Layout */}
+          <div className="hidden md:block overflow-x-auto">
           <Table className="min-w-[600px]">
             <TableHeader>
               <TableRow>
@@ -107,6 +153,7 @@ export function RecipeList({ recipes, products, currency = 'EUR' }: RecipeListPr
             </TableBody>
           </Table>
           </div>
+          </>
         )}
       </CardContent>
     </Card>

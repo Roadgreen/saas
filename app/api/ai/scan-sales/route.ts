@@ -4,9 +4,13 @@ import { prisma } from '@/lib/prisma';
 import OpenAI from 'openai';
 import { processDailySales } from '@/lib/consumption';
 
-const openai = new OpenAI({
-    apiKey: process.env.OPENAI_API_KEY,
-});
+let _openai: OpenAI | null = null;
+function getOpenAI(): OpenAI {
+    if (!_openai) {
+        _openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
+    }
+    return _openai;
+}
 
 const SALES_SCAN_PROMPT = `Tu es un assistant IA specialise dans l'extraction de donnees de ventes a partir d'images.
 
@@ -96,7 +100,7 @@ export async function POST(req: Request) {
         });
 
         // Call OpenAI Vision
-        const response = await openai.chat.completions.create({
+        const response = await getOpenAI().chat.completions.create({
             model: 'gpt-4o',
             messages: [
                 { role: 'system', content: SALES_SCAN_PROMPT },

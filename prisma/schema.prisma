@@ -12,6 +12,7 @@ enum Role {
   ADMIN
   OWNER
   EMPLOYEE
+  ADMIN
 }
 
 enum ProductStatus {
