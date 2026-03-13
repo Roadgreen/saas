@@ -44,6 +44,10 @@ model User {
   verificationToken       String?   @unique
   verificationTokenExpiry DateTime?
 
+  // Drip email sequence
+  emailsSent String[]
+  locale     String   @default("fr")
+
   businessId String?
   business   Business? @relation(fields: [businessId], references: [id])
 
