@@ -8,6 +8,7 @@ import { Alert, AlertDescription } from "@/components/ui/alert";
 import { AlertTriangle } from "lucide-react";
 import { isCurrencyCode, type CurrencyCode } from "@/lib/currency";
 import { EmptyStatePage } from "@/components/dashboard/EmptyStatePage";
+import { LimitReachedNudge } from "@/components/dashboard/LimitReachedNudge";
 
 export default async function RecipesPage({
   params
@@ -70,6 +71,11 @@ export default async function RecipesPage({
         <h2 className="text-2xl md:text-3xl font-bold tracking-tight">{t('title')}</h2>
       </div>
       <RecipeList recipes={recipes} products={products} currency={currency} />
+      <LimitReachedNudge
+        resource="recipes"
+        currentCount={recipes.length}
+        maxFree={10}
+      />
     </div>
   );
 }

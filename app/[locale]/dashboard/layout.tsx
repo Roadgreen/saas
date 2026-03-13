@@ -3,6 +3,8 @@ import { Sidebar } from "@/components/dashboard/sidebar";
 import { MobileNav } from "@/components/dashboard/mobile-nav";
 import { LocationProvider } from "@/components/providers/LocationProvider";
 import { EmailVerificationBanner } from "@/components/dashboard/EmailVerificationBanner";
+import { UpgradeBanner } from "@/components/dashboard/UpgradeBanner";
+import { DaysUsedNudge } from "@/components/dashboard/DaysUsedNudge";
 import { BottomNav } from "@/components/app/BottomNav";
 import { OnboardingModal } from "@/components/onboarding-modal";
 import { auth } from "@/auth";
@@ -22,15 +24,55 @@ export default async function DashboardLayout({
   let showVerificationBanner = false;
   let userEmail = "";
   let showOnboarding = false;
+  let showUpgradeBanner = false;
+  let trialDaysUsed: number | null = null;
+  let isTrialing = false;
 
   if (session?.user?.email) {
     const user = await prisma.user.findUnique({
       where: { email: session.user.email },
-      select: { emailVerified: true, email: true, onboardingCompleted: true },
+      select: {
+        emailVerified: true,
+        email: true,
+        onboardingCompleted: true,
+        role: true,
+        business: {
+          select: {
+            subscriptionTier: true,
+            subscriptionStatus: true,
+            trialEndsAt: true,
+            createdAt: true,
+          },
+        },
+      },
     });
     showVerificationBanner = !!user && !user.emailVerified;
     userEmail = user?.email ?? "";
     showOnboarding = !!user && !user.onboardingCompleted;
+
+    // Show upgrade banner for FREE users who are not admins
+    if (user?.business) {
+      const tier = user.business.subscriptionTier;
+      const isAdmin = user.role === "ADMIN";
+      showUpgradeBanner = tier === "FREE" && !isAdmin;
+
+      // Calculate trial days if user is trialing
+      if (user.business.subscriptionStatus === "TRIALING" && user.business.trialEndsAt) {
+        isTrialing = true;
+        const now = new Date();
+        const trialEnd = new Date(user.business.trialEndsAt);
+        const totalDays = 14;
+        const msLeft = trialEnd.getTime() - now.getTime();
+        const daysLeft = Math.max(0, Math.ceil(msLeft / (1000 * 60 * 60 * 24)));
+        trialDaysUsed = Math.max(1, totalDays - daysLeft + 1);
+      } else if (tier === "FREE") {
+        // For FREE users not yet trialing, show days since account creation
+        const created = new Date(user.business.createdAt);
+        const now = new Date();
+        const daysSinceCreation = Math.floor((now.getTime() - created.getTime()) / (1000 * 60 * 60 * 24));
+        trialDaysUsed = daysSinceCreation + 1;
+      }
+    }
   }
 
   return (
@@ -44,6 +86,12 @@ export default async function DashboardLayout({
               <span className="font-semibold text-white">FoodTracks</span>
             </div>
           </header>
+          {showUpgradeBanner && (
+            <UpgradeBanner
+              trialDaysUsed={trialDaysUsed}
+              isTrialing={isTrialing}
+            />
+          )}
           {showVerificationBanner && (
             <EmailVerificationBanner email={userEmail} />
           )}
@@ -54,6 +102,7 @@ export default async function DashboardLayout({
       </div>
       <BottomNav />
       {showOnboarding && <OnboardingModal />}
+      {showUpgradeBanner && <DaysUsedNudge daysUsed={trialDaysUsed} />}
     </LocationProvider>
   );
 }

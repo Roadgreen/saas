@@ -24,6 +24,8 @@ import { useSession } from 'next-auth/react';
 import Link from 'next/link';
 import { useLocationContext } from '@/components/providers/LocationProvider';
 import { ScannerTutorial } from '@/components/dashboard/ScannerTutorial';
+import { useAutoUpgradeNudge } from '@/hooks/useUpgradeNudge';
+import { UpgradeNudge } from '@/components/dashboard/UpgradeNudge';
 
 interface ScannedSale {
     scannedName: string;
@@ -54,6 +56,7 @@ export function SalesScanner({ onSalesRecorded }: { onSalesRecorded?: () => void
     const locale = useLocale();
     const { data: session } = useSession();
     const isPremium = session?.user?.subscriptionTier === 'PRO' || session?.user?.subscriptionTier === 'ENTERPRISE';
+    const scannerNudge = useAutoUpgradeNudge('scanner');
     const { currentLocation, weather } = useLocationContext();
     const [loading, setLoading] = useState(false);
     const [saving, setSaving] = useState(false);
@@ -181,33 +184,42 @@ export function SalesScanner({ onSalesRecorded }: { onSalesRecorded?: () => void
 
     if (!isPremium) {
         return (
-            <Card className="w-full relative overflow-hidden dash-card">
-                <div className="absolute inset-0 backdrop-blur-sm z-10 flex flex-col items-center justify-center bg-white/80 p-6 text-center">
-                    <Lock className="h-8 w-8 text-blue-600 mb-2" />
-                    <h3 className="font-bold text-lg text-blue-900">{tAI('upgradeTitle')}</h3>
-                    <p className="text-sm text-blue-700 mb-4 max-w-xs">{tAI('upgradeDesc')}</p>
-                    <Button asChild className="bg-blue-600 hover:bg-blue-700 text-white">
-                        <Link href={`/${locale}/pricing`}>{tAI('upgradeBtn')}</Link>
-                    </Button>
-                </div>
-                <CardHeader className="opacity-50">
-                    <CardTitle className="flex items-center gap-2">
-                        <ScanLine className="h-5 w-5 text-blue-600" />
-                        {t('scannerTitle')}
-                    </CardTitle>
-                    <CardDescription>{t('scannerDescription')}</CardDescription>
-                </CardHeader>
-                <CardContent className="opacity-50">
-                    <div className="border-2 border-dashed border-blue-200 rounded-xl p-8 text-center">
-                        <div className="flex flex-col items-center gap-3 text-muted-foreground">
-                            <div className="p-4 bg-blue-100 rounded-full">
-                                <Camera className="h-8 w-8 text-blue-600" />
-                            </div>
-                            <p className="font-medium">{t('takePhotoSales')}</p>
+            <>
+                <Card className="w-full relative overflow-hidden dash-card">
+                    <div className="absolute inset-0 backdrop-blur-sm z-10 flex flex-col items-center justify-center bg-[#0D0905]/80 p-6 text-center">
+                        <div className="rounded-full bg-orange-500/10 p-3 mb-3">
+                            <Lock className="h-6 w-6 text-orange-400" />
                         </div>
+                        <h3 className="font-bold text-base text-white">{tAI('upgradeTitle')}</h3>
+                        <p className="text-sm text-white/60 mb-4 max-w-xs">{tAI('upgradeDesc')}</p>
+                        <Button asChild className="bg-orange-500 hover:bg-orange-400 text-white">
+                            <Link href={`/${locale}/pricing`}>{tAI('upgradeBtn')}</Link>
+                        </Button>
                     </div>
-                </CardContent>
-            </Card>
+                    <CardHeader className="opacity-50">
+                        <CardTitle className="flex items-center gap-2">
+                            <ScanLine className="h-5 w-5 text-blue-600" />
+                            {t('scannerTitle')}
+                        </CardTitle>
+                        <CardDescription>{t('scannerDescription')}</CardDescription>
+                    </CardHeader>
+                    <CardContent className="opacity-50">
+                        <div className="border-2 border-dashed border-blue-200 rounded-xl p-8 text-center">
+                            <div className="flex flex-col items-center gap-3 text-muted-foreground">
+                                <div className="p-4 bg-blue-100 rounded-full">
+                                    <Camera className="h-8 w-8 text-blue-600" />
+                                </div>
+                                <p className="font-medium">{t('takePhotoSales')}</p>
+                            </div>
+                        </div>
+                    </CardContent>
+                </Card>
+                <UpgradeNudge
+                    type="scanner"
+                    open={scannerNudge.shouldShow}
+                    onClose={scannerNudge.dismiss}
+                />
+            </>
         );
     }
 

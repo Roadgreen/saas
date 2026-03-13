@@ -21,6 +21,8 @@ import {
   DialogTrigger,
 } from "@/components/ui/dialog";
 import type { DaySchedule } from '@/lib/schedule';
+import { useUpgradeNudge } from '@/hooks/useUpgradeNudge';
+import { UpgradeNudge } from '@/components/dashboard/UpgradeNudge';
 
 interface Location {
   id: string;
@@ -55,6 +57,9 @@ export function OperationsForm({ initialOpeningHours, initialLocations = [] }: O
     return defaults;
   });
   const [saving, setSaving] = useState(false);
+
+  // Upgrade nudge for locations (FREE users with 1+ location)
+  const locationNudge = useUpgradeNudge('locations');
 
   // Location management state
   const [isLocating, setIsLocating] = useState(false);
@@ -269,7 +274,14 @@ export function OperationsForm({ initialOpeningHours, initialLocations = [] }: O
             </div>
           )}
 
-          <Dialog open={open} onOpenChange={setOpen}>
+          <Dialog open={open} onOpenChange={(v) => {
+            // Intercept: if FREE user with 1+ locations, show upgrade nudge instead
+            if (v && locationNudge.isFreeUser && locations.length >= 1) {
+              locationNudge.show();
+              return;
+            }
+            setOpen(v);
+          }}>
             <DialogTrigger asChild>
               <Button variant="outline" className="w-full">
                 <MapPin className="mr-2 h-4 w-4" />
@@ -328,6 +340,12 @@ export function OperationsForm({ initialOpeningHours, initialLocations = [] }: O
           {tGlobal('save')}
         </Button>
       </div>
+
+      <UpgradeNudge
+        type="locations"
+        open={locationNudge.shouldShow}
+        onClose={locationNudge.dismiss}
+      />
     </div>
   );
 }

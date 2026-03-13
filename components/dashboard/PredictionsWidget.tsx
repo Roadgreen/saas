@@ -4,6 +4,8 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { TrendingUp, TrendingDown, Minus, Lock, Target } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 import { ContextualInfoCard } from './ContextualInfoCard';
+import { useAutoUpgradeNudge } from '@/hooks/useUpgradeNudge';
+import { UpgradeNudge } from '@/components/dashboard/UpgradeNudge';
 
 interface PredictionItem {
     recipeId: string;
@@ -40,6 +42,7 @@ function getRecipeDotClass(accuracy: number | undefined): string {
 export function PredictionsWidget({ predictions, isPremium, forecastDayName, forecastLocationName, accuracyMetrics }: PredictionsWidgetProps) {
     const t = useTranslations('Dashboard');
     const tHelp = useTranslations('ContextualHelp');
+    const predictionsNudge = useAutoUpgradeNudge('predictions');
 
     const title = forecastDayName
         ? t('forecastFor', { day: forecastDayName })
@@ -111,6 +114,11 @@ export function PredictionsWidget({ predictions, isPremium, forecastDayName, for
                     </div>
                 )}
             </CardContent>
+            <UpgradeNudge
+                type="predictions"
+                open={predictionsNudge.shouldShow}
+                onClose={predictionsNudge.dismiss}
+            />
         </Card>
     );
 }

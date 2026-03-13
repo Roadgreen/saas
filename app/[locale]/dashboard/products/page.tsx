@@ -8,6 +8,7 @@ import { isCurrencyCode, type CurrencyCode } from "@/lib/currency";
 import { getProductDemand } from "@/lib/stock-demand";
 import type { WeekSchedule } from "@/lib/schedule";
 import { EmptyStatePage } from "@/components/dashboard/EmptyStatePage";
+import { LimitReachedNudge } from "@/components/dashboard/LimitReachedNudge";
 
 const STATIC_LOW_STOCK_THRESHOLD = 5;
 
@@ -134,6 +135,11 @@ export default async function ProductsPage({
         }}
         filterOptions={{ categories, locations }}
         hasPredictions={hasPredictions}
+      />
+      <LimitReachedNudge
+        resource="products"
+        currentCount={enriched.length}
+        maxFree={50}
       />
     </div>
   );

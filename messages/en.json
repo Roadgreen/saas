@@ -983,5 +983,38 @@
             "subtitle": "Add your selling locations (markets, festivals, spots) and AI predicts demand based on location, weather and history.",
             "cta": "Get started!"
         }
+    },
+    "UpgradeBanner": {
+        "headline": "Upgrade to PRO — AI predictions, advanced analytics, unlimited locations",
+        "cta": "Free 14-day trial",
+        "dismiss": "Dismiss",
+        "trialCounter": "Day {current}/{total} of your free trial",
+        "featureLockedTitle": "Available with PRO",
+        "featureLockedDesc": "Unlock this feature with a PRO or Enterprise plan.",
+        "featureLockedCta": "Upgrade now"
+    },
+    "UpgradeNudges": {
+        "cta": "Upgrade to PRO",
+        "later": "Maybe later",
+        "locations": {
+            "title": "Unlimited locations with PRO",
+            "description": "You've reached the 1 location limit on the free plan. Upgrade to PRO to add as many locations as you need and manage your multi-site business."
+        },
+        "predictions": {
+            "title": "Unlock AI predictions",
+            "description": "Know exactly what to prepare tomorrow with artificial intelligence. AI predictions analyze your sales, weather, and trends to optimize your production."
+        },
+        "scanner": {
+            "title": "AI Scanner is available with PRO",
+            "description": "Take a photo of your receipts and let AI record your sales automatically. Save time every day with the smart scanner."
+        },
+        "days-used": {
+            "title": "You've been using FoodTracks for 7 days!",
+            "description": "You've discovered the basics. Upgrade to PRO to unlock AI predictions, smart scanner, advanced analytics, and much more."
+        },
+        "limit-reached": {
+            "title": "Limit reached ({resource})",
+            "description": "You've reached the free plan limit for {resource}. Upgrade to PRO for unlimited capacity and grow your business without constraints."
+        }
     }
 }

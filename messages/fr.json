@@ -983,5 +983,38 @@
             "subtitle": "Ajoutez vos emplacements de vente (marches, festivals, spots) et l'IA predit la demande selon le lieu, la meteo et l'historique.",
             "cta": "Commencer !"
         }
+    },
+    "UpgradeBanner": {
+        "headline": "Passez au PRO — Predictions IA, analytics avances, emplacements illimites",
+        "cta": "Essai gratuit 14 jours",
+        "dismiss": "Fermer",
+        "trialCounter": "Jour {current}/{total} de votre essai gratuit",
+        "featureLockedTitle": "Disponible avec PRO",
+        "featureLockedDesc": "Debloquez cette fonctionnalite avec un plan PRO ou Enterprise.",
+        "featureLockedCta": "Passer au PRO"
+    },
+    "UpgradeNudges": {
+        "cta": "Passer au PRO",
+        "later": "Plus tard",
+        "locations": {
+            "title": "Emplacements illimites avec PRO",
+            "description": "Vous avez atteint la limite d'1 emplacement sur le plan gratuit. Passez au PRO pour ajouter autant d'emplacements que vous le souhaitez et gerer votre activite multi-sites."
+        },
+        "predictions": {
+            "title": "Debloquez les predictions IA",
+            "description": "Sachez exactement quoi preparer demain grace a l'intelligence artificielle. Les predictions IA analysent vos ventes, la meteo et les tendances pour optimiser votre production."
+        },
+        "scanner": {
+            "title": "Le scanner IA est disponible avec PRO",
+            "description": "Photographiez vos tickets de caisse et laissez l'IA enregistrer vos ventes automatiquement. Gagnez du temps chaque jour avec le scanner intelligent."
+        },
+        "days-used": {
+            "title": "Vous utilisez FoodTracks depuis 7 jours !",
+            "description": "Vous avez decouvert les bases. Passez au PRO pour debloquer les predictions IA, le scanner intelligent, les analyses avancees et bien plus encore."
+        },
+        "limit-reached": {
+            "title": "Limite atteinte ({resource})",
+            "description": "Vous avez atteint la limite du plan gratuit pour {resource}. Passez au PRO pour des capacites illimitees et developper votre activite sans contraintes."
+        }
     }
 }
