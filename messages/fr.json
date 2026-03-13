@@ -8,7 +8,8 @@
         "exportData": "Exporter Données",
         "analytics": "Analyses",
         "integrations": "Intégrations",
-        "sumup": "SumUp"
+        "sumup": "SumUp",
+        "billing": "Facturation"
     },
     "Analytics": {
         "title": "Analyse de Rentabilité",
@@ -1016,5 +1017,38 @@
             "title": "Limite atteinte ({resource})",
             "description": "Vous avez atteint la limite du plan gratuit pour {resource}. Passez au PRO pour des capacites illimitees et developper votre activite sans contraintes."
         }
+    },
+    "Billing": {
+        "title": "Facturation & Abonnement",
+        "description": "Gerez votre abonnement, consultez vos factures et historique de paiements.",
+        "currentPlan": "Plan actuel",
+        "currentPlanDesc": "Details de votre abonnement en cours.",
+        "status": "Statut",
+        "startDate": "Date de debut",
+        "endDate": "Date de fin",
+        "trialEnds": "Fin de l'essai",
+        "daysRemaining": "{days} jours restants",
+        "statusActive": "Actif",
+        "statusTrialing": "Essai gratuit",
+        "statusCanceled": "Annule",
+        "statusPastDue": "Paiement en retard",
+        "upgradePro": "Passer au PRO",
+        "manageSubscription": "Gerer mon abonnement",
+        "paymentHistory": "Historique des paiements",
+        "paymentHistoryDesc": "Vos factures et paiements passes.",
+        "noInvoices": "Aucune facture pour le moment.",
+        "invoiceDate": "Date",
+        "invoiceNumber": "Facture",
+        "invoiceAmount": "Montant",
+        "invoiceStatus": "Statut",
+        "invoiceActions": "Actions",
+        "paid": "Paye",
+        "pending": "En attente",
+        "cancelTitle": "Annuler l'abonnement",
+        "cancelDesc": "Annulez votre abonnement. Vous conserverez l'acces jusqu'a la fin de la periode de facturation en cours.",
+        "cancelButton": "Annuler mon abonnement",
+        "cancelConfirmMessage": "Etes-vous sur ? Vous serez redirige vers le portail Stripe pour confirmer l'annulation.",
+        "cancelConfirm": "Oui, annuler",
+        "cancelKeep": "Garder mon abonnement"
     }
 }

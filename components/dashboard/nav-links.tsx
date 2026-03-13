@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { LayoutDashboard, Package, ChefHat, TrendingUp, Settings, FileDown, BarChart3, Plug, CreditCard } from 'lucide-react';
+import { LayoutDashboard, Package, ChefHat, TrendingUp, Settings, FileDown, BarChart3, Plug, CreditCard, Receipt } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { useTranslations, useLocale } from 'next-intl';
 import { useSession } from 'next-auth/react';
@@ -24,6 +24,7 @@ export function NavLinks({ className }: { className?: string }) {
     { name: t('sumup'), href: `/${locale}/dashboard/sumup`, icon: CreditCard },
     { name: t('integrations'), href: `/${locale}/dashboard/integrations`, icon: Plug },
     { name: t('settings'), href: `/${locale}/dashboard/settings`, icon: Settings },
+    { name: t('billing'), href: `/${locale}/dashboard/settings/billing`, icon: Receipt },
   ];
 
   if (isPremium) {

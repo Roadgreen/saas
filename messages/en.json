@@ -8,7 +8,8 @@
         "exportData": "Export Data",
         "analytics": "Analytics",
         "integrations": "Integrations",
-        "sumup": "SumUp"
+        "sumup": "SumUp",
+        "billing": "Billing"
     },
     "Analytics": {
         "title": "Profitability Analytics",
@@ -1016,5 +1017,38 @@
             "title": "Limit reached ({resource})",
             "description": "You've reached the free plan limit for {resource}. Upgrade to PRO for unlimited capacity and grow your business without constraints."
         }
+    },
+    "Billing": {
+        "title": "Billing & Subscription",
+        "description": "Manage your subscription, view invoices and payment history.",
+        "currentPlan": "Current Plan",
+        "currentPlanDesc": "Your active subscription details.",
+        "status": "Status",
+        "startDate": "Start Date",
+        "endDate": "End Date",
+        "trialEnds": "Trial Ends",
+        "daysRemaining": "{days} days remaining",
+        "statusActive": "Active",
+        "statusTrialing": "Trial",
+        "statusCanceled": "Canceled",
+        "statusPastDue": "Past Due",
+        "upgradePro": "Upgrade to PRO",
+        "manageSubscription": "Manage Subscription",
+        "paymentHistory": "Payment History",
+        "paymentHistoryDesc": "Your past invoices and payments.",
+        "noInvoices": "No invoices yet.",
+        "invoiceDate": "Date",
+        "invoiceNumber": "Invoice",
+        "invoiceAmount": "Amount",
+        "invoiceStatus": "Status",
+        "invoiceActions": "Actions",
+        "paid": "Paid",
+        "pending": "Pending",
+        "cancelTitle": "Cancel Subscription",
+        "cancelDesc": "Cancel your subscription. You will keep access until the end of the current billing period.",
+        "cancelButton": "Cancel my subscription",
+        "cancelConfirmMessage": "Are you sure? You will be redirected to the Stripe portal to confirm the cancellation.",
+        "cancelConfirm": "Yes, cancel",
+        "cancelKeep": "Keep my subscription"
     }
 }
