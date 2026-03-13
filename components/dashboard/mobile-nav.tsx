@@ -31,8 +31,8 @@ export function MobileNav() {
             href={`/${locale}`}
             className="flex items-center gap-2.5 text-lg font-semibold mb-6"
           >
-            <Package2 className="h-5 w-5 text-orange-500" />
-            <span className="text-white font-jakarta tracking-tight">FoodTracks</span>
+            <Package2 className="h-6 w-6 text-orange-500" />
+            <span className="text-white text-xl font-jakarta tracking-tight">FoodTracks</span>
           </Link>
           <NavLinks />
         </nav>
