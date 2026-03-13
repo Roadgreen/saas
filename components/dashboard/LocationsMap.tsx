@@ -145,7 +145,7 @@ export default function LocationsMap() {
   };
 
   return (
-    <Card className="col-span-4 md:col-span-2 lg:col-span-2 overflow-hidden dash-card">
+    <Card className="w-full overflow-hidden dash-card">
       <CardHeader className="flex flex-row items-center justify-between pb-2 z-10 relative">
         <CardTitle className="flex items-center gap-2 text-base font-semibold">
           <MapPin className="h-5 w-5 text-blue-500" />

@@ -77,7 +77,7 @@ export function UploadAndAnalyze() {
 
   if (!isPremium) {
     return (
-      <Card className="w-full max-w-md mx-auto relative overflow-hidden dash-card">
+      <Card className="w-full md:max-w-md md:mx-auto relative overflow-hidden dash-card">
         <div className="absolute inset-0 backdrop-blur-sm z-10 flex flex-col items-center justify-center bg-white/80 p-6 text-center">
           <Lock className="h-8 w-8 text-blue-600 mb-2" />
           <h3 className="font-bold text-lg text-blue-900">{tAI('upgradeTitle')}</h3>
@@ -105,7 +105,7 @@ export function UploadAndAnalyze() {
   }
 
   return (
-    <Card className="w-full max-w-md mx-auto">
+    <Card className="w-full md:max-w-md md:mx-auto">
       <CardHeader>
         <CardTitle className="flex items-center gap-2">
           <Camera className="h-5 w-5" />
