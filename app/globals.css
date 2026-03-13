@@ -649,10 +649,12 @@ a {
   left: 0;
   right: 0;
   z-index: 50;
-  background: #ffffff;
-  border-top: 1px solid rgba(0, 0, 0, 0.08);
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  border-top: 1px solid rgba(0, 0, 0, 0.06);
   padding-bottom: env(safe-area-inset-bottom, 0px);
-  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 -1px 20px rgba(0, 0, 0, 0.08);
 }
 .app-bottom-nav a,
 .app-bottom-nav button {
@@ -680,9 +682,11 @@ a {
 
 /* Dark mode bottom nav */
 .dark .app-bottom-nav {
-  background: #1a1a2e;
-  border-top-color: rgba(255, 255, 255, 0.08);
-  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.3);
+  background: rgba(13, 9, 5, 0.92);
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  border-top-color: rgba(255, 255, 255, 0.06);
+  box-shadow: 0 -1px 20px rgba(0, 0, 0, 0.4);
 }
 .dark .app-bottom-nav a,
 .dark .app-bottom-nav button {

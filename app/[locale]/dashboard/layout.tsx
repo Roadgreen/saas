@@ -6,6 +6,7 @@ import { EmailVerificationBanner } from "@/components/dashboard/EmailVerificatio
 import { UpgradeBanner } from "@/components/dashboard/UpgradeBanner";
 import { DaysUsedNudge } from "@/components/dashboard/DaysUsedNudge";
 import { BottomNav } from "@/components/app/BottomNav";
+import { DashboardShell } from "@/components/app/DashboardShell";
 import { OnboardingModal } from "@/components/onboarding-modal";
 import { auth } from "@/auth";
 import { prisma } from "@/lib/prisma";
@@ -96,7 +97,9 @@ export default async function DashboardLayout({
             <EmailVerificationBanner email={userEmail} />
           )}
           <main className="flex flex-1 flex-col gap-3 px-2 py-3 pb-4 md:gap-4 md:p-6 lg:gap-6 lg:p-8 max-w-full overflow-x-hidden">
-            {children}
+            <DashboardShell>
+              {children}
+            </DashboardShell>
           </main>
         </div>
       </div>
