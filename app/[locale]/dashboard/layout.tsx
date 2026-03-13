@@ -79,7 +79,7 @@ export default async function DashboardLayout({
     <LocationProvider>
       <div className="grid min-h-screen w-full bg-dashboard-grid md:grid-cols-[220px_1fr] lg:grid-cols-[280px_1fr]">
         <Sidebar />
-        <div className="flex flex-col min-w-0 has-bottom-nav md:!pb-0">
+        <div className="flex flex-col min-w-0" id="dashboard-content">
           <header className="sticky top-0 z-50 flex h-14 items-center gap-4 glass-sidebar safe-area-top px-4 lg:h-[60px] lg:px-6 md:hidden">
             <MobileNav />
             <div className="w-full flex-1">

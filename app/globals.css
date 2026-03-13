@@ -678,9 +678,33 @@ a {
   color: #F97316;
 }
 
-/* When bottom nav is present, add padding to content */
+/* Dark mode bottom nav */
+.dark .app-bottom-nav {
+  background: #1a1a2e;
+  border-top-color: rgba(255, 255, 255, 0.08);
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.3);
+}
+.dark .app-bottom-nav a,
+.dark .app-bottom-nav button {
+  color: #9CA3AF;
+}
+.dark .app-bottom-nav a.active,
+.dark .app-bottom-nav button.active {
+  color: #F97316;
+}
+.dark .app-bottom-nav a:hover,
+.dark .app-bottom-nav button:hover {
+  color: #F97316;
+}
+
+/* When bottom nav is present, add padding to content (mobile only) */
 .has-bottom-nav {
   padding-bottom: calc(64px + env(safe-area-inset-bottom, 0px));
+}
+@media (min-width: 768px) {
+  .has-bottom-nav {
+    padding-bottom: 0;
+  }
 }
 
 /* Mobile app header with safe area */

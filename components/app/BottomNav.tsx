@@ -1,5 +1,6 @@
 'use client';
 
+import { useEffect } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useLocale, useTranslations } from 'next-intl';
@@ -12,6 +13,20 @@ export function BottomNav() {
   const pathname = usePathname();
   const locale = useLocale();
   const t = useTranslations('Sidebar');
+
+  // Add bottom padding to content area when native bottom nav is visible
+  useEffect(() => {
+    const content = document.getElementById('dashboard-content');
+    if (!content) return;
+    if (isNative) {
+      content.classList.add('has-bottom-nav');
+    } else {
+      content.classList.remove('has-bottom-nav');
+    }
+    return () => {
+      content?.classList.remove('has-bottom-nav');
+    };
+  }, [isNative]);
 
   // Only show on native app
   if (!isNative) return null;

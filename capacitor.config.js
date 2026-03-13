@@ -10,14 +10,14 @@ const config = {
   plugins: {
     SplashScreen: {
       launchShowDuration: 2000,
-      backgroundColor: '#ffffff',
+      backgroundColor: '#16a34a',
       showSpinner: false,
       androidScaleType: 'CENTER_CROP',
       splashImmersive: true,
     },
     StatusBar: {
-      style: 'DARK',
-      backgroundColor: '#ffffff',
+      style: 'LIGHT',
+      backgroundColor: '#16a34a',
     },
     Keyboard: {
       resize: 'body',
