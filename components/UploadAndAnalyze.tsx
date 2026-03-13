@@ -3,13 +3,14 @@
 import { useState, useRef } from 'react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Camera, Upload, Loader2, CheckCircle, AlertCircle, X, Lock } from 'lucide-react';
+import { Camera, Upload, Loader2, CheckCircle, AlertCircle, X, Lock, ImageIcon } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
 
 import { useTranslations, useLocale } from 'next-intl';
 import { useSession } from 'next-auth/react';
 import { ScannerTutorial } from '@/components/dashboard/ScannerTutorial';
+import { useNativeCamera } from '@/hooks/useNativeCamera';
 
 export function UploadAndAnalyze() {
   const t = useTranslations('Dashboard');
@@ -17,6 +18,7 @@ export function UploadAndAnalyze() {
   const locale = useLocale();
   const { data: session } = useSession();
   const isPremium = session?.user?.subscriptionTier === 'PRO' || session?.user?.subscriptionTier === 'ENTERPRISE';
+  const { takePhoto, pickPhoto, isNative } = useNativeCamera();
   const [loading, setLoading] = useState(false);
   const [result, setResult] = useState<any>(null);
   const [error, setError] = useState<string | null>(null);
@@ -42,6 +44,26 @@ export function UploadAndAnalyze() {
     setError(null);
     if (fileInputRef.current) {
       fileInputRef.current.value = '';
+    }
+  };
+
+  const handleNativeCamera = async () => {
+    const file = await takePhoto();
+    if (file) {
+      setSelectedFile(file);
+      setPreview(URL.createObjectURL(file));
+      setResult(null);
+      setError(null);
+    }
+  };
+
+  const handleNativeGallery = async () => {
+    const file = await pickPhoto();
+    if (file) {
+      setSelectedFile(file);
+      setPreview(URL.createObjectURL(file));
+      setResult(null);
+      setError(null);
     }
   };
 
@@ -123,24 +145,45 @@ export function UploadAndAnalyze() {
 
         {!preview ? (
           <div className="flex flex-col gap-4">
-            <div
-              className="border-2 border-dashed border-slate-200 rounded-lg p-8 text-center hover:bg-slate-50 transition-colors cursor-pointer"
-              onClick={() => fileInputRef.current?.click()}
-            >
-              <div className="flex flex-col items-center gap-2 text-muted-foreground">
-                <Camera className="h-8 w-8 mb-2" />
-                <p className="font-medium">{t('takePhoto')}</p>
-                <p className="text-xs">{t('uploadDesc')}</p>
+            {isNative ? (
+              <div className="flex flex-col gap-3">
+                <div
+                  className="border-2 border-dashed border-slate-200 rounded-lg p-8 text-center hover:bg-slate-50 transition-colors cursor-pointer"
+                  onClick={handleNativeCamera}
+                >
+                  <div className="flex flex-col items-center gap-2 text-muted-foreground">
+                    <Camera className="h-8 w-8 mb-2" />
+                    <p className="font-medium">{t('takePhoto')}</p>
+                    <p className="text-xs">{t('uploadDesc')}</p>
+                  </div>
+                </div>
+                <Button variant="outline" onClick={handleNativeGallery} className="w-full">
+                  <ImageIcon className="mr-2 h-4 w-4" />
+                  {t('pickFromGallery')}
+                </Button>
               </div>
-            </div>
-            <input
-              ref={fileInputRef}
-              type="file"
-              accept="image/*"
-              capture="environment"
-              className="hidden"
-              onChange={handleFileSelect}
-            />
+            ) : (
+              <>
+                <div
+                  className="border-2 border-dashed border-slate-200 rounded-lg p-8 text-center hover:bg-slate-50 transition-colors cursor-pointer"
+                  onClick={() => fileInputRef.current?.click()}
+                >
+                  <div className="flex flex-col items-center gap-2 text-muted-foreground">
+                    <Camera className="h-8 w-8 mb-2" />
+                    <p className="font-medium">{t('takePhoto')}</p>
+                    <p className="text-xs">{t('uploadDesc')}</p>
+                  </div>
+                </div>
+                <input
+                  ref={fileInputRef}
+                  type="file"
+                  accept="image/*"
+                  capture="environment"
+                  className="hidden"
+                  onChange={handleFileSelect}
+                />
+              </>
+            )}
           </div>
         ) : (
           <div className="space-y-4">

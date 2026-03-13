@@ -17,6 +17,7 @@ import {
     Hash,
     MapPin,
     Lock,
+    ImageIcon,
 } from 'lucide-react';
 import Image from 'next/image';
 import { useTranslations, useLocale } from 'next-intl';
@@ -26,6 +27,7 @@ import { useLocationContext } from '@/components/providers/LocationProvider';
 import { ScannerTutorial } from '@/components/dashboard/ScannerTutorial';
 import { useAutoUpgradeNudge } from '@/hooks/useUpgradeNudge';
 import { UpgradeNudge } from '@/components/dashboard/UpgradeNudge';
+import { useNativeCamera } from '@/hooks/useNativeCamera';
 
 interface ScannedSale {
     scannedName: string;
@@ -58,6 +60,7 @@ export function SalesScanner({ onSalesRecorded }: { onSalesRecorded?: () => void
     const isPremium = session?.user?.subscriptionTier === 'PRO' || session?.user?.subscriptionTier === 'ENTERPRISE';
     const scannerNudge = useAutoUpgradeNudge('scanner');
     const { currentLocation, weather } = useLocationContext();
+    const { takePhoto, pickPhoto, isNative } = useNativeCamera();
     const [loading, setLoading] = useState(false);
     const [saving, setSaving] = useState(false);
     const [result, setResult] = useState<ScanResult | null>(null);
@@ -84,6 +87,26 @@ export function SalesScanner({ onSalesRecorded }: { onSalesRecorded?: () => void
         setError(null);
         if (fileInputRef.current) {
             fileInputRef.current.value = '';
+        }
+    };
+
+    const handleNativeCamera = async () => {
+        const file = await takePhoto();
+        if (file) {
+            setSelectedFile(file);
+            setPreview(URL.createObjectURL(file));
+            setResult(null);
+            setError(null);
+        }
+    };
+
+    const handleNativeGallery = async () => {
+        const file = await pickPhoto();
+        if (file) {
+            setSelectedFile(file);
+            setPreview(URL.createObjectURL(file));
+            setResult(null);
+            setError(null);
         }
     };
 
@@ -253,43 +276,83 @@ export function SalesScanner({ onSalesRecorded }: { onSalesRecorded?: () => void
 
                 {!preview ? (
                     <div className="flex flex-col gap-4">
-                        <div
-                            className="border-2 border-dashed border-blue-200 rounded-xl p-8 text-center hover:bg-blue-50/50 hover:border-blue-300 transition-all cursor-pointer"
-                            onClick={() => fileInputRef.current?.click()}
-                        >
-                            <div className="flex flex-col items-center gap-3 text-muted-foreground">
-                                <div className="p-4 bg-blue-100 rounded-full">
-                                    <Camera className="h-8 w-8 text-blue-600" />
+                        {isNative ? (
+                            <div className="flex flex-col gap-3">
+                                <div
+                                    className="border-2 border-dashed border-blue-200 rounded-xl p-8 text-center hover:bg-blue-50/50 hover:border-blue-300 transition-all cursor-pointer"
+                                    onClick={handleNativeCamera}
+                                >
+                                    <div className="flex flex-col items-center gap-3 text-muted-foreground">
+                                        <div className="p-4 bg-blue-100 rounded-full">
+                                            <Camera className="h-8 w-8 text-blue-600" />
+                                        </div>
+                                        <div>
+                                            <p className="font-medium text-gray-900">
+                                                {t('takePhotoSales')}
+                                            </p>
+                                            <p className="text-sm text-gray-500 mt-1">
+                                                {t('scanHint')}
+                                            </p>
+                                        </div>
+                                        <div className="flex gap-4 mt-2 text-xs text-gray-400">
+                                            <span className="flex items-center gap-1">
+                                                <FileText className="h-3 w-3" /> {t('hintPaper')}
+                                            </span>
+                                            <span className="flex items-center gap-1">
+                                                <Hash className="h-3 w-3" /> {t('hintTally')}
+                                            </span>
+                                            <span className="flex items-center gap-1">
+                                                <ScanLine className="h-3 w-3" /> {t('hintScreen')}
+                                            </span>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div>
-                                    <p className="font-medium text-gray-900">
-                                        {t('takePhotoSales')}
-                                    </p>
-                                    <p className="text-sm text-gray-500 mt-1">
-                                        {t('scanHint')}
-                                    </p>
-                                </div>
-                                <div className="flex gap-4 mt-2 text-xs text-gray-400">
-                                    <span className="flex items-center gap-1">
-                                        <FileText className="h-3 w-3" /> {t('hintPaper')}
-                                    </span>
-                                    <span className="flex items-center gap-1">
-                                        <Hash className="h-3 w-3" /> {t('hintTally')}
-                                    </span>
-                                    <span className="flex items-center gap-1">
-                                        <ScanLine className="h-3 w-3" /> {t('hintScreen')}
-                                    </span>
-                                </div>
+                                <Button variant="outline" onClick={handleNativeGallery} className="w-full">
+                                    <ImageIcon className="mr-2 h-4 w-4" />
+                                    {t('pickFromGallery')}
+                                </Button>
                             </div>
-                        </div>
-                        <input
-                            ref={fileInputRef}
-                            type="file"
-                            accept="image/*"
-                            capture="environment"
-                            className="hidden"
-                            onChange={handleFileSelect}
-                        />
+                        ) : (
+                            <>
+                                <div
+                                    className="border-2 border-dashed border-blue-200 rounded-xl p-8 text-center hover:bg-blue-50/50 hover:border-blue-300 transition-all cursor-pointer"
+                                    onClick={() => fileInputRef.current?.click()}
+                                >
+                                    <div className="flex flex-col items-center gap-3 text-muted-foreground">
+                                        <div className="p-4 bg-blue-100 rounded-full">
+                                            <Camera className="h-8 w-8 text-blue-600" />
+                                        </div>
+                                        <div>
+                                            <p className="font-medium text-gray-900">
+                                                {t('takePhotoSales')}
+                                            </p>
+                                            <p className="text-sm text-gray-500 mt-1">
+                                                {t('scanHint')}
+                                            </p>
+                                        </div>
+                                        <div className="flex gap-4 mt-2 text-xs text-gray-400">
+                                            <span className="flex items-center gap-1">
+                                                <FileText className="h-3 w-3" /> {t('hintPaper')}
+                                            </span>
+                                            <span className="flex items-center gap-1">
+                                                <Hash className="h-3 w-3" /> {t('hintTally')}
+                                            </span>
+                                            <span className="flex items-center gap-1">
+                                                <ScanLine className="h-3 w-3" /> {t('hintScreen')}
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <input
+                                    ref={fileInputRef}
+                                    type="file"
+                                    accept="image/*"
+                                    capture="environment"
+                                    className="hidden"
+                                    onChange={handleFileSelect}
+                                />
+                            </>
+                        )}
                     </div>
                 ) : (
                     <div className="space-y-4">

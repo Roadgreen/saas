@@ -8,6 +8,7 @@ import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import { toast } from 'sonner';
 import { getCurrentPosition, getDistanceFromLatLonInKm } from '@/lib/geolocation';
+import { useHaptic } from '@/hooks/useHaptic';
 
 interface Recipe {
   id: string;
@@ -33,6 +34,7 @@ interface QuickSalesGridProps {
 export function QuickSalesGrid({ recipes }: QuickSalesGridProps) {
   const t = useTranslations('QuickSales');
   const router = useRouter();
+  const { impact, notification } = useHaptic();
   const [cart, setCart] = useState<Map<string, CartItem>>(new Map());
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [currentLocation, setCurrentLocation] = useState<Location | null>(null);
@@ -90,6 +92,7 @@ export function QuickSalesGrid({ recipes }: QuickSalesGridProps) {
   };
 
   const addToCart = (recipe: Recipe) => {
+    impact('light');
     setCart(prev => {
       const newCart = new Map(prev);
       const existing = newCart.get(recipe.id);
@@ -153,6 +156,7 @@ export function QuickSalesGrid({ recipes }: QuickSalesGridProps) {
 
       if (!response.ok) throw new Error('Failed to save order');
 
+      notification('success');
       toast.success(t('orderSaved'));
       clearCart();
       router.refresh();

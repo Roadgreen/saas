@@ -100,6 +100,7 @@
         "processing": "Traitement...",
         "processImage": "Traiter l'image",
         "scanAnother": "Scanner une autre",
+        "pickFromGallery": "Choisir depuis la galerie",
         "ingredients": "ingrédients",
         "stockUpdated": "Le stock a été mis à jour automatiquement",
         "errorProcessing": "Erreur lors du traitement de l'image",
@@ -573,6 +574,7 @@
         "saving": "Enregistrement...",
         "saveAll": "Tout enregistrer",
         "scanAnother": "Nouveau scan",
+        "pickFromGallery": "Choisir depuis la galerie",
         "filters": {
             "title": "Filtres",
             "dateFrom": "Du",

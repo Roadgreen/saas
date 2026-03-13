@@ -12,6 +12,7 @@ import { useRouter } from 'next/navigation';
 import { ImageUpload } from '@/components/ui/image-upload';
 import { PRODUCT_UNITS } from '@/lib/units';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
+import { useHaptic } from '@/hooks/useHaptic';
 
 const getProductSchema = (t: any) => z.object({
   name: z.string().min(1, t('validation.nameRequired')),
@@ -38,6 +39,7 @@ export function ProductForm({ initialData, isEditing = false }: ProductFormProps
   const t = useTranslations('Products.form');
   const tProducts = useTranslations('Products');
   const tUnits = useTranslations('Products.units');
+  const { notification } = useHaptic();
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
@@ -87,6 +89,7 @@ export function ProductForm({ initialData, isEditing = false }: ProductFormProps
         throw new Error(errorData.error || 'Failed to save product');
       }
 
+      notification('success');
       router.push(`/${locale}/dashboard/products`);
       router.refresh();
     } catch (err: any) {

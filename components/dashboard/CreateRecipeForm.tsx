@@ -11,6 +11,7 @@ import { Label } from '@/components/ui/label';
 import { Sheet, SheetContent, SheetDescription, SheetHeader, SheetTitle, SheetTrigger } from '@/components/ui/sheet';
 import { Plus, Trash2, Loader2 } from 'lucide-react';
 import { useRouter } from 'next/navigation';
+import { useHaptic } from '@/hooks/useHaptic';
 
 const recipeSchema = z.object({
   name: z.string().min(1, "Name is required"),
@@ -40,6 +41,7 @@ export function CreateRecipeForm({ products }: CreateRecipeFormProps) {
   const [open, setOpen] = useState(false);
   const [loading, setLoading] = useState(false);
   const router = useRouter();
+  const { notification } = useHaptic();
 
   const form = useForm({
     resolver: zodResolver(recipeSchema),
@@ -67,6 +69,7 @@ export function CreateRecipeForm({ products }: CreateRecipeFormProps) {
 
       if (!response.ok) throw new Error('Failed to create recipe');
 
+      notification('success');
       form.reset();
       setOpen(false);
       router.refresh();

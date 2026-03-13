@@ -8,8 +8,8 @@ import { Button } from "@/components/ui/button";
 import { Switch } from "@/components/ui/switch";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { useState } from 'react';
-import { MapPin, Loader2, Trash2 } from "lucide-react";
-import { getCurrentPosition } from "@/lib/geolocation";
+import { MapPin, Loader2, Trash2, Navigation } from "lucide-react";
+import { useGeolocation } from "@/hooks/useGeolocation";
 import { useRouter } from 'next/navigation';
 import { toast } from 'sonner';
 import {
@@ -61,8 +61,10 @@ export function OperationsForm({ initialOpeningHours, initialLocations = [] }: O
   // Upgrade nudge for locations (FREE users with 1+ location)
   const locationNudge = useUpgradeNudge('locations');
 
+  // Geolocation hook
+  const { position: geoPosition, loading: geoLoading, getPosition } = useGeolocation();
+
   // Location management state
-  const [isLocating, setIsLocating] = useState(false);
   const [isSavingLocation, setIsSavingLocation] = useState(false);
   const [newLocation, setNewLocation] = useState<{ lat: number; lon: number } | null>(null);
   const [locationName, setLocationName] = useState("");
@@ -108,14 +110,25 @@ export function OperationsForm({ initialOpeningHours, initialLocations = [] }: O
   };
 
   const handleLocate = async () => {
-    setIsLocating(true);
-    try {
-      const coords = await getCurrentPosition();
+    const coords = await getPosition();
+    if (coords) {
       setNewLocation({ lat: coords.latitude, lon: coords.longitude });
-    } catch (error) {
-      console.error("Geolocation error:", error);
-    } finally {
-      setIsLocating(false);
+    }
+  };
+
+  // Auto-fill coordinates when dialog opens
+  const handleDialogOpen = async (v: boolean) => {
+    // Intercept: if FREE user with 1+ locations, show upgrade nudge instead
+    if (v && locationNudge.isFreeUser && locations.length >= 1) {
+      locationNudge.show();
+      return;
+    }
+    setOpen(v);
+    if (v && !newLocation) {
+      const coords = await getPosition();
+      if (coords) {
+        setNewLocation({ lat: coords.latitude, lon: coords.longitude });
+      }
     }
   };
 
@@ -274,14 +287,7 @@ export function OperationsForm({ initialOpeningHours, initialLocations = [] }: O
             </div>
           )}
 
-          <Dialog open={open} onOpenChange={(v) => {
-            // Intercept: if FREE user with 1+ locations, show upgrade nudge instead
-            if (v && locationNudge.isFreeUser && locations.length >= 1) {
-              locationNudge.show();
-              return;
-            }
-            setOpen(v);
-          }}>
+          <Dialog open={open} onOpenChange={handleDialogOpen}>
             <DialogTrigger asChild>
               <Button variant="outline" className="w-full">
                 <MapPin className="mr-2 h-4 w-4" />
@@ -309,10 +315,10 @@ export function OperationsForm({ initialOpeningHours, initialLocations = [] }: O
                     type="button"
                     variant="secondary"
                     onClick={handleLocate}
-                    disabled={isLocating}
+                    disabled={geoLoading}
                     className="w-full"
                   >
-                    {isLocating ? <Loader2 className="mr-2 h-4 w-4 animate-spin" /> : <MapPin className="mr-2 h-4 w-4" />}
+                    {geoLoading ? <Loader2 className="mr-2 h-4 w-4 animate-spin" /> : <Navigation className="mr-2 h-4 w-4" />}
                     {newLocation ? t('locations.positionFound') : t('locations.iAmHere')}
                   </Button>
                 </div>
