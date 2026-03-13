@@ -1,0 +1,10 @@
+Bienvenue dans FoodTracks !
+
+Cette première version inclut :
+- Gestion complète de votre inventaire
+- Tableau de bord avec suivi des ventes
+- Prédictions de demande par intelligence artificielle
+- Scan de produits par caméra
+- Gestion multi-emplacements avec GPS
+- Alertes de stock bas automatiques
+- Plan PRO avec fonctionnalités avancées

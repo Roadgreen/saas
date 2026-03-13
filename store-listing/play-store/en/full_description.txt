@@ -1,0 +1,35 @@
+FoodTracks is the smart app designed specifically for food trucks and mobile food businesses. Powered by artificial intelligence, FoodTracks transforms how you manage your business with powerful inventory management, sales tracking, and demand prediction tools.
+
+🔹 SMART INVENTORY MANAGEMENT
+• Track your inventory in real time with a simple, intuitive interface
+• Scan your products and receipts using your phone's camera
+• Get automatic alerts when stock is running low
+• Manage your suppliers and orders with ease
+
+🔹 AI-POWERED PREDICTIONS
+• Anticipate demand with our artificial intelligence algorithms
+• Optimize your purchases to reduce food waste
+• Analyze sales trends by location, day, and weather
+• Make data-driven decisions with confidence
+
+🔹 COMPREHENSIVE DASHBOARD
+• View your sales performance at a glance
+• Track revenue, margins, and profits
+• Compare performance across different locations
+• Export reports for your accounting needs
+
+🔹 MULTI-LOCATION SUPPORT
+• Manage multiple selling locations simultaneously
+• Automatic GPS position detection
+• Complete history per location
+
+🔹 PRO PLAN
+• Advanced predictions with machine learning
+• Detailed reports and in-depth analytics
+• Customizable smart alerts
+• Priority support
+
+FoodTracks is available for free with an optional PRO subscription to unlock all advanced features.
+
+Privacy Policy: https://foodtracks.io/privacy
+Terms of Use: https://foodtracks.io/terms

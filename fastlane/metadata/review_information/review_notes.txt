@@ -1,0 +1,14 @@
+FoodTracks is an inventory management and sales prediction app for food truck operators.
+
+To test the app:
+1. Create an account using any email address
+2. Navigate through the dashboard to see sales analytics
+3. Go to the Inventory section to manage stock items
+4. Check the Predictions tab to see AI-powered demand forecasts
+
+The app uses location services to detect the user's selling location (GPS).
+The app uses the camera for scanning products and receipts.
+
+No special hardware is required for testing.
+
+For PRO subscription testing, you can use a sandbox Apple ID.

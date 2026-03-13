@@ -48,7 +48,7 @@ export default async function TermsPage({ params }: { params: Promise<{ locale: 
           {isFr ? "Conditions Générales d'Utilisation" : 'Terms of Service'}
         </h1>
         <p className="text-sm text-gray-500 mb-8">
-          {isFr ? 'Dernière mise à jour : 22 février 2026' : 'Last updated: February 22, 2026'}
+          {isFr ? 'Dernière mise à jour : 13 mars 2026' : 'Last updated: March 13, 2026'}
         </p>
 
         <div className="prose prose-gray max-w-none space-y-6">
@@ -89,10 +89,20 @@ export default async function TermsPage({ params }: { params: Promise<{ locale: 
             <h2 className="text-xl font-semibold mb-3">
               {isFr ? '4. Abonnements et paiement' : '4. Subscriptions & Payment'}
             </h2>
+            <p className="text-gray-600 leading-relaxed mb-3">
+              {isFr
+                ? "FoodTracks propose un plan gratuit et un abonnement PRO. Les paiements sont traités par l'App Store (Apple) ou le Play Store (Google) selon votre appareil, ainsi que par Stripe pour les paiements web."
+                : 'FoodTracks offers a free plan and a PRO subscription. Payments are processed by the App Store (Apple) or Play Store (Google) depending on your device, as well as Stripe for web payments.'}
+            </p>
+            <p className="text-gray-600 leading-relaxed mb-3">
+              {isFr
+                ? "Le paiement est débité sur votre compte Apple ID ou Google Play lors de la confirmation d'achat. L'abonnement se renouvelle automatiquement sauf s'il est désactivé au moins 24 heures avant la fin de la période en cours."
+                : 'Payment is charged to your Apple ID or Google Play account at confirmation of purchase. Subscription automatically renews unless it is canceled at least 24 hours before the end of the current period.'}
+            </p>
             <p className="text-gray-600 leading-relaxed">
               {isFr
-                ? "FoodTracks propose un plan gratuit et des plans payants (Pro, Entreprise). Les paiements sont traités par Stripe. Vous pouvez annuler votre abonnement à tout moment depuis vos paramètres."
-                : 'FoodTracks offers a free plan and paid plans (Pro, Enterprise). Payments are processed by Stripe. You can cancel your subscription at any time from your settings.'}
+                ? "Vous pouvez gérer et annuler vos abonnements dans les réglages de votre compte Apple ID ou Google Play. Aucun remboursement n'est accordé pour les périodes partielles d'abonnement."
+                : 'You can manage and cancel your subscriptions in your Apple ID or Google Play account settings. No refunds are provided for partial subscription periods.'}
             </p>
           </section>
 

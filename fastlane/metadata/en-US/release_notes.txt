@@ -1,0 +1,10 @@
+Welcome to FoodTracks!
+
+This first release includes:
+- Complete inventory management
+- Sales tracking dashboard
+- AI-powered demand predictions
+- Camera-based product scanning
+- Multi-location management with GPS
+- Automatic low stock alerts
+- PRO plan with advanced features

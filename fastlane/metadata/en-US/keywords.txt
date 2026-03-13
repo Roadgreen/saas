@@ -1,0 +1,1 @@
+food truck,inventory,stock,management,prediction,AI,sales,restaurant,kitchen,mobile,business,food,POS,supplier

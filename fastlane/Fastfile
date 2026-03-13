@@ -1,0 +1,72 @@
+default_platform(:ios)
+
+platform :ios do
+  desc "Upload metadata to App Store Connect"
+  lane :upload_metadata do
+    deliver(
+      app_identifier: "io.foodtracks.app",
+      skip_binary_upload: true,
+      skip_screenshots: true,
+      force: true,
+      metadata_path: "./fastlane/metadata",
+      price_tier: 0,
+      primary_category: "BUSINESS",
+      secondary_category: "FOOD_AND_DRINK",
+      primary_first_sub_category: "FOOD_AND_DRINK_RESTAURANTS",
+      app_rating_config_path: "./fastlane/rating_config.json"
+    )
+  end
+
+  desc "Upload screenshots to App Store Connect"
+  lane :upload_screenshots do
+    deliver(
+      app_identifier: "io.foodtracks.app",
+      skip_binary_upload: true,
+      skip_metadata: true,
+      force: true,
+      screenshots_path: "./fastlane/screenshots"
+    )
+  end
+
+  desc "Submit app for review"
+  lane :submit_review do
+    deliver(
+      app_identifier: "io.foodtracks.app",
+      skip_binary_upload: true,
+      skip_screenshots: true,
+      skip_metadata: true,
+      submit_for_review: true,
+      automatic_release: false,
+      submission_information: {
+        add_id_info_uses_idfa: false,
+        export_compliance_uses_encryption: false,
+        export_compliance_is_exempt: true
+      }
+    )
+  end
+end
+
+platform :android do
+  desc "Upload metadata to Google Play Store"
+  lane :upload_metadata do
+    supply(
+      package_name: "io.foodtracks.app",
+      skip_upload_apk: true,
+      skip_upload_aab: true,
+      skip_upload_screenshots: true,
+      skip_upload_images: true,
+      metadata_path: "./store-listing/play-store"
+    )
+  end
+
+  desc "Upload screenshots to Google Play Store"
+  lane :upload_screenshots do
+    supply(
+      package_name: "io.foodtracks.app",
+      skip_upload_apk: true,
+      skip_upload_aab: true,
+      skip_upload_metadata: true,
+      metadata_path: "./store-listing/play-store"
+    )
+  end
+end

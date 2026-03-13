@@ -49,7 +49,7 @@ export default async function PrivacyPage({ params }: { params: Promise<{ locale
           {isFr ? 'Politique de Confidentialité' : 'Privacy Policy'}
         </h1>
         <p className="text-sm text-gray-500 mb-8">
-          {isFr ? 'Dernière mise à jour : 22 février 2026' : 'Last updated: February 22, 2026'}
+          {isFr ? 'Dernière mise à jour : 13 mars 2026' : 'Last updated: March 13, 2026'}
         </p>
 
         <div className="prose prose-gray max-w-none space-y-6">
@@ -99,7 +99,51 @@ export default async function PrivacyPage({ params }: { params: Promise<{ locale
 
           <section>
             <h2 className="text-xl font-semibold mb-3">
-              {isFr ? '5. Cookies' : '5. Cookies'}
+              {isFr ? '5. Utilisation de la caméra' : '5. Camera Usage'}
+            </h2>
+            <p className="text-gray-600 leading-relaxed">
+              {isFr
+                ? "L'application utilise la caméra de votre appareil pour scanner vos produits et tickets de caisse. Les images capturées sont traitées localement sur votre appareil et ne sont pas stockées ni transmises à nos serveurs."
+                : 'The app uses your device camera to scan products and receipts. Captured images are processed locally on your device and are not stored or transmitted to our servers.'}
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-xl font-semibold mb-3">
+              {isFr ? '6. Services tiers' : '6. Third-Party Services'}
+            </h2>
+            <p className="text-gray-600 leading-relaxed">
+              {isFr
+                ? "Nous utilisons les services tiers suivants : Stripe et SumUp pour le traitement des paiements, MongoDB Atlas pour l'hébergement des données, et Vercel pour l'hébergement de l'application. Ces services tiers ont leurs propres politiques de confidentialité."
+                : 'We use the following third-party services: Stripe and SumUp for payment processing, MongoDB Atlas for data hosting, and Vercel for application hosting. These third-party services have their own privacy policies.'}
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-xl font-semibold mb-3">
+              {isFr ? '7. Conservation des données' : '7. Data Retention'}
+            </h2>
+            <p className="text-gray-600 leading-relaxed">
+              {isFr
+                ? "Nous conservons vos données tant que votre compte est actif. Après suppression de votre compte, vos données personnelles seront définitivement supprimées sous 30 jours. Les données analytiques anonymisées peuvent être conservées pour améliorer le service."
+                : 'We retain your data for as long as your account is active. Upon account deletion, your personal data will be permanently removed within 30 days. Anonymized analytics data may be retained for service improvement.'}
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-xl font-semibold mb-3">
+              {isFr ? "8. Vie privée des enfants" : "8. Children's Privacy"}
+            </h2>
+            <p className="text-gray-600 leading-relaxed">
+              {isFr
+                ? "FoodTracks n'est pas destiné aux enfants de moins de 16 ans. Nous ne collectons pas sciemment d'informations personnelles d'enfants de moins de 16 ans."
+                : 'FoodTracks is not intended for children under 16. We do not knowingly collect personal information from children under 16.'}
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-xl font-semibold mb-3">
+              {isFr ? '9. Cookies' : '9. Cookies'}
             </h2>
             <p className="text-gray-600 leading-relaxed">
               {isFr
@@ -110,7 +154,7 @@ export default async function PrivacyPage({ params }: { params: Promise<{ locale
 
           <section>
             <h2 className="text-xl font-semibold mb-3">
-              {isFr ? '6. Contact' : '6. Contact'}
+              {isFr ? '10. Contact' : '10. Contact'}
             </h2>
             <p className="text-gray-600 leading-relaxed">
               {isFr

@@ -1,0 +1,40 @@
+FoodTracks est l'application intelligente conçue spécialement pour les food trucks et les commerces alimentaires itinérants. Grâce à l'intelligence artificielle, FoodTracks transforme la gestion de votre activité en vous offrant des outils puissants de gestion de stock, de suivi des ventes et de prédiction de la demande.
+
+GESTION DE STOCK INTELLIGENTE
+- Suivez votre inventaire en temps réel avec une interface simple et intuitive
+- Scannez vos produits et tickets de caisse avec la caméra de votre téléphone
+- Recevez des alertes automatiques lorsque vos stocks sont bas
+- Gérez vos fournisseurs et vos commandes facilement
+
+PRÉDICTIONS IA
+- Anticipez la demande grâce à nos algorithmes d'intelligence artificielle
+- Optimisez vos achats pour réduire le gaspillage alimentaire
+- Analysez les tendances de vente par emplacement, jour et météo
+- Prenez des décisions éclairées basées sur des données concrètes
+
+TABLEAU DE BORD COMPLET
+- Visualisez vos performances de vente en un coup d'œil
+- Suivez votre chiffre d'affaires, marges et bénéfices
+- Comparez les performances entre différents emplacements
+- Exportez vos rapports pour votre comptabilité
+
+MULTI-EMPLACEMENT
+- Gérez plusieurs emplacements de vente simultanément
+- Détection automatique de votre position GPS
+- Historique complet par emplacement
+
+FONCTIONNALITÉS PRO
+- Prédictions avancées avec apprentissage automatique
+- Rapports détaillés et analytics poussés
+- Alertes intelligentes personnalisables
+- Support prioritaire
+
+FoodTracks est disponible gratuitement avec un plan PRO optionnel pour débloquer toutes les fonctionnalités avancées.
+
+Abonnement PRO :
+- Le paiement sera débité sur votre compte Apple ID lors de la confirmation d'achat
+- L'abonnement se renouvelle automatiquement sauf s'il est désactivé au moins 24 heures avant la fin de la période en cours
+- Vous pouvez gérer et annuler vos abonnements dans les réglages de votre compte Apple ID
+
+Politique de confidentialité : https://foodtracks.io/privacy
+Conditions d'utilisation : https://foodtracks.io/terms
