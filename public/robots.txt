@@ -79,4 +79,4 @@ Allow: /llms-full.txt
 Disallow: /api/
 Disallow: /dashboard/
 
-Sitemap: https://www.foodtracks.io/sitemap.xml
+Sitemap: https://foodtracks.io/sitemap.xml

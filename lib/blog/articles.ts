@@ -3146,6 +3146,1073 @@ The question is no longer "is AI useful for a food truck?" but **"how long can y
       },
     ],
   },
+  {
+    slug: "reduire-gaspillage-food-truck-guide",
+    title: {
+      fr: "Comment reduire le gaspillage en food truck : guide complet",
+      en: "How to Reduce Waste in Your Food Truck: Complete Guide",
+    },
+    excerpt: {
+      fr: "Le gaspillage alimentaire coute en moyenne 8 000 euros par an a un food truck. Decouvrez les strategies concretes pour le reduire de 40% grace a la planification, la technologie et les bonnes pratiques.",
+      en: "Food waste costs an average food truck EUR8,000 per year. Discover actionable strategies to cut it by 40% through planning, technology, and best practices.",
+    },
+    category: { fr: "Gestion", en: "Management" },
+    date: "2026-03-14",
+    readTime: 11,
+    keywords: [
+      "reduire gaspillage food truck",
+      "comment reduire le gaspillage en food truck",
+      "gaspillage alimentaire food truck",
+      "food waste food truck",
+      "reduce food truck waste",
+      "anti-gaspillage restauration ambulante",
+      "zero dechet food truck",
+      "food truck sustainability",
+    ],
+    heroImage: "/blog/gestion-stock.png",
+    content: {
+      fr: `## Le gaspillage alimentaire : le tueur silencieux de marges en food truck
+
+Le gaspillage alimentaire est le probleme que tous les food truckers connaissent mais que peu mesurent reellement. En moyenne, **un food truck jette entre 15 et 25% de ses matieres premieres** chaque semaine. Sur un an, cela represente 6 000 a 10 000 euros partis a la poubelle.
+
+La bonne nouvelle ? Avec les bonnes strategies, vous pouvez reduire ce gaspillage de 40% ou plus, tout en ameliorant la satisfaction de vos clients.
+
+## Comprendre les sources du gaspillage
+
+### 1. La surproduction : le piege du "au cas ou"
+
+La premiere cause de gaspillage en food truck est la surproduction. Sans donnees fiables, la tentation est de preparer trop "pour etre sur de ne pas manquer". Resultat :
+
+- Des portions preparees et jamais vendues
+- Des ingredients coupes qui ne se conservent pas
+- Des sauces et accompagnements jetes en fin de service
+
+### 2. La mauvaise gestion des stocks
+
+Un frigo desorganise, des produits sans date de reception visible, des commandes faites "au feeling" : autant de facteurs qui generent du gaspillage structurel.
+
+### 3. Les pertes en preparation
+
+Epluchage excessif, portions mal calibrees, erreurs de recettes : la preparation est une source de pertes souvent sous-estimee.
+
+## Les 7 strategies pour reduire le gaspillage
+
+### Strategie 1 : Mesurez avant d'agir
+
+Vous ne pouvez pas ameliorer ce que vous ne mesurez pas. Pendant une semaine, notez systematiquement :
+- Ce que vous jetez a chaque fin de service (en poids ou en euros)
+- Les raisons du gaspillage (surproduction, peremption, preparation)
+- Les produits les plus concernes
+
+Cette simple action revele souvent des surprises. Beaucoup de food truckers decouvrent qu'un seul produit represente 30 a 40% de leur gaspillage total.
+
+### Strategie 2 : Utilisez la prediction IA pour vos preparations
+
+La technologie est votre meilleur allie contre le gaspillage. Un outil comme **FoodTracks** analyse vos ventes passees, la meteo et le type d'emplacement pour predire combien de portions preparer.
+
+Au lieu de preparer 80 burgers "au cas ou", l'IA vous dit : "Pour ce marche, un mardi ensoleille, prevoyez 52 a 58 burgers." La precision augmente avec le temps, car l'algorithme apprend vos patterns.
+
+### Strategie 3 : Adoptez la preparation par paliers
+
+Au lieu de tout preparer avant le service, decoupez votre preparation en paliers :
+
+- **Avant le service** : preparez 60% de votre estimation
+- **Apres 1h de service** : evaluez la demande et preparez le complement
+- **Derniere heure** : ne preparez que sur commande pour les plats longs
+
+Cette approche demande un peu plus d'organisation mais reduit le gaspillage de fin de service de 50%.
+
+### Strategie 4 : Creez un menu anti-gaspillage
+
+Concevez votre menu de facon a ce que les ingredients se croisent entre les plats :
+
+- Le poulet du wrap peut devenir la garniture de la salade
+- Les legumes du jour s'utilisent dans la soupe ET en accompagnement
+- Les restes de pain deviennent des croutons ou du pain perdu
+
+Un menu bien pense permet de **reutiliser 80% des ingredients** d'un plat a l'autre.
+
+### Strategie 5 : Appliquez le FIFO avec rigueur
+
+Le FIFO (First In, First Out) est la base de la gestion anti-gaspillage :
+
+1. Etiquetez chaque produit avec sa date de reception
+2. Placez les nouveaux arrivages derriere les anciens
+3. Verifiez les dates chaque matin avant le service
+4. Utilisez les alertes automatiques de peremption de FoodTracks
+
+### Strategie 6 : Negociez des livraisons plus frequentes
+
+Plutot que de commander en gros une fois par semaine, preferez des livraisons plus frequentes en plus petites quantites. Oui, le prix unitaire peut etre legerement plus eleve, mais les economies sur le gaspillage compensent largement.
+
+### Strategie 7 : Monetisez vos surplus
+
+Quand le gaspillage est inevitable, transformez-le en opportunite :
+
+- **Too Good To Go** : vendez vos invendus a prix reduit en fin de service
+- **Promotions flash** : -30% sur les dernieres portions via vos reseaux sociaux
+- **Dons** : donnez a des associations et beneficiez d'un avantage fiscal
+- **Compost** : les dechets organiques peuvent devenir du compost pour des jardins locaux
+
+## Mesurer votre progres
+
+Suivez ces indicateurs chaque semaine :
+
+- **Taux de gaspillage** : poids jete / poids achete (objectif : moins de 5%)
+- **Cout du gaspillage** : en euros, par service
+- **Ratio rupture/gaspillage** : l'equilibre entre trop et pas assez
+
+Avec FoodTracks, ces metriques sont calculees automatiquement et affichees dans votre tableau de bord. Vous pouvez voir l'evolution semaine apres semaine.
+
+## Les resultats concrets
+
+Les food truckers qui appliquent ces strategies constatent en general :
+
+- **-35 a 45% de gaspillage** des le premier mois
+- **+5 a 8% de marge brute** grace aux economies realisees
+- **Moins de stress** : vous savez exactement quoi preparer et en quelle quantite
+- **Meilleure qualite** : moins de produits stockes = plus de fraicheur
+
+## Conclusion
+
+Reduire le gaspillage en food truck n'est pas qu'une question d'ecologie — c'est un levier de rentabilite majeur. Chaque euro de gaspillage evite est un euro de marge en plus.
+
+Avec des outils comme [FoodTracks](https://foodtracks.io/fr/pricing), la prediction IA et le suivi automatise rendent cette optimisation accessible a tous, sans effort supplementaire au quotidien.`,
+      en: `## Food Waste: The Silent Margin Killer in Food Trucks
+
+Food waste is the problem every food trucker knows but few actually measure. On average, **a food truck throws away 15 to 25% of its raw materials** each week. Over a year, that is EUR6,000 to EUR10,000 going straight in the bin.
+
+The good news? With the right strategies, you can cut that waste by 40% or more, while also improving customer satisfaction.
+
+## Understanding the Sources of Waste
+
+### 1. Overproduction: The "Just in Case" Trap
+
+The number one cause of food truck waste is overproduction. Without reliable data, the temptation is to prepare too much "just to be safe." The result:
+
+- Portions prepared but never sold
+- Prepped ingredients that do not keep
+- Sauces and sides tossed at the end of service
+
+### 2. Poor Stock Management
+
+A disorganized fridge, products without visible reception dates, orders placed "by feel" — all factors that generate structural waste.
+
+### 3. Preparation Losses
+
+Excessive peeling, poorly calibrated portions, recipe errors — preparation is an often underestimated source of loss.
+
+## 7 Strategies to Reduce Waste
+
+### Strategy 1: Measure Before You Act
+
+You cannot improve what you do not measure. For one week, systematically record:
+- What you throw away at the end of each service (by weight or euros)
+- The reasons for waste (overproduction, expiration, preparation)
+- Which products are most affected
+
+This simple exercise often reveals surprises. Many food truckers discover that a single product accounts for 30 to 40% of their total waste.
+
+### Strategy 2: Use AI Prediction for Your Preparations
+
+Technology is your best ally against waste. A tool like **FoodTracks** analyzes your past sales, weather, and location type to predict how many portions to prepare.
+
+Instead of making 80 burgers "just in case," the AI tells you: "For this market, on a sunny Tuesday, plan 52 to 58 burgers." Accuracy improves over time as the algorithm learns your patterns.
+
+### Strategy 3: Adopt Staged Preparation
+
+Instead of preparing everything before service, break your prep into stages:
+
+- **Before service**: prepare 60% of your estimate
+- **After 1 hour of service**: assess demand and prepare the remainder
+- **Last hour**: only cook to order for longer dishes
+
+This approach requires slightly more organization but cuts end-of-service waste by 50%.
+
+### Strategy 4: Design an Anti-Waste Menu
+
+Design your menu so that ingredients overlap between dishes:
+
+- Wrap chicken can become salad topping
+- Vegetables of the day work in both soup AND as a side
+- Leftover bread becomes croutons or French toast
+
+A well-designed menu lets you **reuse 80% of ingredients** across dishes.
+
+### Strategy 5: Apply FIFO Rigorously
+
+FIFO (First In, First Out) is the foundation of anti-waste management:
+
+1. Label every product with its reception date
+2. Place new deliveries behind older stock
+3. Check dates every morning before service
+4. Use FoodTracks automatic expiration alerts
+
+### Strategy 6: Negotiate More Frequent Deliveries
+
+Rather than ordering in bulk once a week, prefer more frequent deliveries in smaller quantities. Yes, the unit price may be slightly higher, but savings on waste more than compensate.
+
+### Strategy 7: Monetize Your Surplus
+
+When waste is unavoidable, turn it into an opportunity:
+
+- **Too Good To Go**: sell unsold items at a discount at end of service
+- **Flash promotions**: -30% on final portions via your social media
+- **Donations**: give to charities and benefit from a tax advantage
+- **Composting**: organic waste can become compost for local gardens
+
+## Measuring Your Progress
+
+Track these metrics weekly:
+
+- **Waste rate**: weight discarded / weight purchased (target: under 5%)
+- **Cost of waste**: in euros, per service
+- **Stockout-to-waste ratio**: the balance between too much and not enough
+
+With FoodTracks, these metrics are calculated automatically and displayed on your dashboard. You can see the evolution week by week.
+
+## Concrete Results
+
+Food truckers who apply these strategies typically see:
+
+- **35 to 45% less waste** from the first month
+- **5 to 8% higher gross margin** thanks to savings
+- **Less stress**: you know exactly what to prepare and in what quantity
+- **Better quality**: less stock stored = more freshness
+
+## Conclusion
+
+Reducing waste in a food truck is not just about ecology — it is a major profitability lever. Every euro of waste avoided is an extra euro of margin.
+
+With tools like [FoodTracks](https://foodtracks.io/en/pricing), AI prediction and automated tracking make this optimization accessible to everyone, without extra daily effort.`,
+    },
+    keyTakeaways: {
+      fr: [
+        "Un food truck jette en moyenne 15 a 25% de ses matieres premieres, soit 6 000 a 10 000 euros par an",
+        "La prediction IA permet de reduire le gaspillage de 35 a 45% des le premier mois",
+        "La preparation par paliers (60% avant, complement en cours de service) reduit le gaspillage de fin de service de 50%",
+        "Un menu anti-gaspillage bien concu permet de reutiliser 80% des ingredients entre les plats",
+        "Le suivi du taux de gaspillage (objectif moins de 5%) est essentiel pour mesurer les progres",
+      ],
+      en: [
+        "A food truck wastes 15 to 25% of raw materials on average, costing EUR6,000 to EUR10,000 per year",
+        "AI prediction can reduce waste by 35 to 45% from the first month",
+        "Staged preparation (60% before, top-up during service) cuts end-of-service waste by 50%",
+        "A well-designed anti-waste menu reuses 80% of ingredients across dishes",
+        "Tracking waste rate (target under 5%) is essential to measure progress",
+      ],
+    },
+    faqItems: [
+      {
+        question: {
+          fr: "Comment reduire le gaspillage en food truck ?",
+          en: "How to reduce waste in a food truck?",
+        },
+        answer: {
+          fr: "Les 3 leviers principaux sont : utiliser la prediction IA pour ajuster les preparations, adopter la preparation par paliers (60% avant le service, complement en cours), et concevoir un menu ou les ingredients se croisent entre les plats. Avec ces methodes, la reduction atteint 35 a 45%.",
+          en: "The 3 main levers are: using AI prediction to adjust preparations, adopting staged preparation (60% before service, top-up during), and designing a menu where ingredients overlap between dishes. With these methods, reduction reaches 35 to 45%.",
+        },
+      },
+      {
+        question: {
+          fr: "Combien coute le gaspillage alimentaire pour un food truck ?",
+          en: "How much does food waste cost a food truck?",
+        },
+        answer: {
+          fr: "En moyenne, un food truck perd entre 6 000 et 10 000 euros par an a cause du gaspillage alimentaire, soit 15 a 25% du cout des matieres premieres. La surproduction et la mauvaise gestion des stocks sont les deux principales causes.",
+          en: "On average, a food truck loses EUR6,000 to EUR10,000 per year due to food waste, representing 15 to 25% of raw material costs. Overproduction and poor stock management are the two main causes.",
+        },
+      },
+      {
+        question: {
+          fr: "Quels outils utiliser pour reduire le gaspillage en food truck ?",
+          en: "What tools can reduce food truck waste?",
+        },
+        answer: {
+          fr: "FoodTracks combine prediction IA des ventes, suivi automatique des stocks et alertes de peremption pour reduire le gaspillage de 35 a 45%. L'application Too Good To Go permet aussi de monetiser les invendus en fin de service.",
+          en: "FoodTracks combines AI sales prediction, automatic stock tracking, and expiration alerts to reduce waste by 35 to 45%. The Too Good To Go app also helps monetize unsold items at the end of service.",
+        },
+      },
+    ],
+  },
+  {
+    slug: "logiciel-gestion-stock-food-truck",
+    title: {
+      fr: "Logiciel de gestion de stock pour food truck : le guide ultime",
+      en: "Food Truck Inventory Management Software: The Ultimate Guide",
+    },
+    excerpt: {
+      fr: "Comparatif et guide complet des logiciels de gestion de stock pour food truck. Decouvrez pourquoi un outil dedie est indispensable et comment choisir le bon.",
+      en: "Comprehensive comparison and guide to food truck inventory management software. Learn why a dedicated tool is essential and how to choose the right one.",
+    },
+    category: { fr: "Technologie", en: "Technology" },
+    date: "2026-03-13",
+    readTime: 13,
+    keywords: [
+      "logiciel gestion stock food truck",
+      "logiciel food truck",
+      "food truck inventory software",
+      "food truck stock management app",
+      "application gestion food truck",
+      "outil gestion stock restauration ambulante",
+      "food truck POS inventory",
+      "meilleur logiciel food truck",
+    ],
+    heroImage: "/blog/food-truck-digital.png",
+    content: {
+      fr: `## Pourquoi un logiciel de gestion de stock est devenu indispensable en food truck
+
+En 2026, gerer un food truck avec un carnet et un tableur Excel, c'est comme livrer des pizzas a cheval : ca fonctionne, mais vous etes deconnecte de la realite du marche.
+
+Un **logiciel de gestion de stock dedie aux food trucks** vous permet de :
+
+- Suivre votre inventaire en temps reel depuis votre telephone
+- Scanner vos factures fournisseurs au lieu de les saisir manuellement
+- Recevoir des alertes quand un produit approche de sa date limite
+- Calculer automatiquement vos marges par plat
+- Predire vos besoins grace a l'intelligence artificielle
+
+Le resultat ? **Moins de gaspillage, plus de marge et moins de temps perdu.**
+
+## Ce que doit offrir un bon logiciel de gestion de stock pour food truck
+
+### 1. Adapte a la mobilite
+
+Un food truck n'est pas un restaurant fixe. Votre logiciel doit fonctionner :
+
+- **Sur mobile** : smartphone ou tablette, meme en plein service
+- **Hors ligne** : pas toujours de connexion sur un marche
+- **En multi-emplacements** : suivre des stocks differents selon le lieu
+
+### 2. Scan et saisie rapide
+
+En food truck, le temps c'est de l'argent. Votre logiciel doit permettre :
+
+- Le **scan des codes-barres** pour ajouter des produits en secondes
+- Le **scan des factures par photo** (OCR + IA) pour la saisie automatique
+- La **saisie par lot** quand vous recevez une livraison complete
+
+### 3. Integration avec votre caisse
+
+Votre logiciel de stock doit se connecter a votre terminal de paiement (SumUp, Zettle, etc.) pour :
+
+- Deduire automatiquement les ingredients vendus du stock
+- Calculer les marges en temps reel
+- Croiser les ventes avec les niveaux de stock
+
+### 4. Alertes intelligentes
+
+Un bon outil vous previent avant les problemes :
+
+- **Stock bas** : un produit cle est presque epuise
+- **Peremption proche** : un ingredient arrive a sa DLC
+- **Variation de prix** : un fournisseur a augmente ses tarifs
+- **Rupture imminente** : au rythme actuel, vous serez en rupture pendant le service
+
+### 5. Predictions et analyses
+
+Le graal d'un logiciel de stock pour food truck :
+
+- Predictions de ventes par emplacement et par meteo
+- Suggestions de commandes optimisees
+- Historique de performance par plat
+- Tableau de bord de rentabilite globale
+
+## Comparatif des solutions disponibles
+
+### Les solutions generiques (Lightspeed, Toast, Square)
+
+**Avantages :**
+- Ecosystemes complets (caisse + stock + paiement)
+- Interfaces polies et documentation fournie
+
+**Inconvenients :**
+- Concus pour les restaurants fixes, pas pour la mobilite
+- Pas de prediction IA adaptee au food truck
+- Abonnements souvent chers (50 a 150 euros par mois)
+- Fonctions de stock basiques (pas de scan de factures)
+
+### Les tableurs et outils maison (Excel, Google Sheets)
+
+**Avantages :**
+- Gratuit
+- Totalement personnalisable
+
+**Inconvenients :**
+- Saisie 100% manuelle
+- Pas d'alertes automatiques
+- Pas de connexion avec la caisse
+- Erreurs frequentes
+- Tres chronophage (5 a 8 heures par semaine)
+
+### FoodTracks : la solution dediee food truck
+
+**Avantages :**
+- Concu specifiquement pour les food trucks et restaurants
+- Scan de factures par IA (OCR automatique)
+- Predictions de ventes basees sur l'historique, la meteo et les emplacements
+- Integration native avec SumUp
+- Alertes de peremption et de stock bas
+- Calcul de marge automatique par plat
+- Version gratuite pour demarrer
+- Application mobile optimisee
+
+**Tarif :** Gratuit (1 emplacement) ou 29 euros par mois (Pro, emplacements illimites)
+
+## Les fonctionnalites cles a evaluer
+
+### Critere 1 : Le temps de saisie quotidien
+
+Combien de temps passez-vous chaque jour a maintenir vos donnees a jour ? Avec un tableur, comptez 30 a 45 minutes. Avec un bon logiciel a scan automatique, **5 a 10 minutes suffisent**.
+
+### Critere 2 : La precision des stocks
+
+Un ecart de stock de 10% est courant avec une gestion manuelle. Un logiciel avec deduction automatique des ventes maintient la precision a **2 a 3% pres**.
+
+### Critere 3 : Le retour sur investissement
+
+Le calcul est simple :
+- Gaspillage reduit de 35% = 200 a 400 euros d'economie par mois
+- Temps gagne = 4 a 6 heures par semaine
+- Ruptures evitees = ventes supplementaires
+
+Un logiciel a 29 euros par mois se rembourse **des la premiere semaine**.
+
+## Comment migrer vers un logiciel de gestion de stock
+
+### Semaine 1 : Configuration initiale
+1. Creez votre compte et entrez vos produits principaux
+2. Scannez vos 5 dernieres factures fournisseurs
+3. Connectez votre terminal SumUp
+4. Entrez vos recettes avec les quantites d'ingredients
+
+### Semaine 2 : Rodage
+1. Utilisez le logiciel en parallele de votre ancienne methode
+2. Scannez chaque nouvelle facture a reception
+3. Verifiez que les niveaux de stock correspondent
+
+### Semaine 3 : Basculement
+1. Abandonnez l'ancienne methode
+2. Faites confiance aux alertes automatiques
+3. Commencez a utiliser les suggestions de commandes
+
+### Mois 2 et au-dela : Optimisation
+1. Utilisez les predictions de ventes pour vos preparations
+2. Analysez vos marges par plat et ajustez les prix
+3. Comparez la rentabilite de vos emplacements
+
+## Conclusion
+
+Un logiciel de gestion de stock pour food truck n'est plus un luxe — c'est un outil de survie dans un marche competitif. La difference entre un food truck qui fait 5% de marge et un qui fait 15%, c'est souvent la qualite de sa gestion.
+
+[FoodTracks](https://foodtracks.io/fr/pricing) offre tout ce dont un food trucker a besoin : scan intelligent, predictions IA, integration SumUp et suivi en temps reel — le tout avec une version gratuite pour commencer.`,
+      en: `## Why Inventory Management Software Has Become Essential for Food Trucks
+
+In 2026, managing a food truck with a notebook and an Excel spreadsheet is like delivering pizzas on horseback: it works, but you are disconnected from market reality.
+
+A **dedicated food truck inventory management tool** lets you:
+
+- Track your inventory in real time from your phone
+- Scan supplier invoices instead of entering them manually
+- Receive alerts when a product nears its expiration date
+- Automatically calculate your margins per dish
+- Predict your needs using artificial intelligence
+
+The result? **Less waste, higher margins, and less wasted time.**
+
+## What Good Food Truck Inventory Software Must Offer
+
+### 1. Built for Mobility
+
+A food truck is not a fixed restaurant. Your software must work:
+
+- **On mobile**: smartphone or tablet, even during service
+- **Offline**: you do not always have a connection at a market
+- **Multi-location**: track different stock levels by venue
+
+### 2. Fast Scanning and Entry
+
+In a food truck, time is money. Your software should allow:
+
+- **Barcode scanning** to add products in seconds
+- **Photo invoice scanning** (OCR + AI) for automatic entry
+- **Batch entry** when receiving a full delivery
+
+### 3. POS Integration
+
+Your stock software must connect to your payment terminal (SumUp, Zettle, etc.) to:
+
+- Automatically deduct sold ingredients from stock
+- Calculate margins in real time
+- Cross-reference sales with stock levels
+
+### 4. Smart Alerts
+
+A good tool warns you before problems arise:
+
+- **Low stock**: a key product is nearly depleted
+- **Approaching expiration**: an ingredient is nearing its use-by date
+- **Price variation**: a supplier has raised their prices
+- **Imminent stockout**: at the current pace, you will run out during service
+
+### 5. Predictions and Analytics
+
+The gold standard for food truck inventory software:
+
+- Sales predictions by location and weather
+- Optimized order suggestions
+- Per-dish performance history
+- Overall profitability dashboard
+
+## Comparing Available Solutions
+
+### Generic Solutions (Lightspeed, Toast, Square)
+
+**Pros:**
+- Complete ecosystems (POS + inventory + payment)
+- Polished interfaces and thorough documentation
+
+**Cons:**
+- Designed for fixed restaurants, not for mobility
+- No AI prediction tailored to food trucks
+- Often expensive subscriptions (EUR50 to EUR150 per month)
+- Basic stock features (no invoice scanning)
+
+### Spreadsheets and DIY Tools (Excel, Google Sheets)
+
+**Pros:**
+- Free
+- Fully customizable
+
+**Cons:**
+- 100% manual entry
+- No automatic alerts
+- No POS connection
+- Frequent errors
+- Very time-consuming (5 to 8 hours per week)
+
+### FoodTracks: The Dedicated Food Truck Solution
+
+**Pros:**
+- Built specifically for food trucks and restaurants
+- AI-powered invoice scanning (automatic OCR)
+- Sales predictions based on history, weather, and locations
+- Native SumUp integration
+- Expiration and low-stock alerts
+- Automatic per-dish margin calculation
+- Free tier to get started
+- Optimized mobile app
+
+**Pricing:** Free (1 location) or EUR29 per month (Pro, unlimited locations)
+
+## Key Features to Evaluate
+
+### Criterion 1: Daily Data Entry Time
+
+How much time do you spend each day keeping your data up to date? With a spreadsheet, count 30 to 45 minutes. With good software featuring automatic scanning, **5 to 10 minutes is enough**.
+
+### Criterion 2: Stock Accuracy
+
+A 10% stock discrepancy is common with manual management. Software with automatic sales deduction maintains accuracy to **within 2 to 3%**.
+
+### Criterion 3: Return on Investment
+
+The math is simple:
+- 35% less waste = EUR200 to EUR400 savings per month
+- Time saved = 4 to 6 hours per week
+- Avoided stockouts = additional sales
+
+Software at EUR29 per month pays for itself **within the first week**.
+
+## How to Migrate to Inventory Management Software
+
+### Week 1: Initial Setup
+1. Create your account and enter your main products
+2. Scan your last 5 supplier invoices
+3. Connect your SumUp terminal
+4. Enter your recipes with ingredient quantities
+
+### Week 2: Running In
+1. Use the software alongside your old method
+2. Scan each new invoice upon receipt
+3. Verify that stock levels match
+
+### Week 3: Switchover
+1. Drop the old method
+2. Trust the automatic alerts
+3. Start using order suggestions
+
+### Month 2 and Beyond: Optimization
+1. Use sales predictions for your preparations
+2. Analyze per-dish margins and adjust prices
+3. Compare location profitability
+
+## Conclusion
+
+Food truck inventory management software is no longer a luxury — it is a survival tool in a competitive market. The difference between a food truck making 5% margin and one making 15% often comes down to management quality.
+
+[FoodTracks](https://foodtracks.io/en/pricing) offers everything a food trucker needs: smart scanning, AI predictions, SumUp integration, and real-time tracking — all with a free tier to get started.`,
+    },
+    keyTakeaways: {
+      fr: [
+        "Un logiciel de gestion de stock dedie reduit le temps de saisie quotidien de 45 a 10 minutes",
+        "La precision des stocks passe de 90% (manuel) a 97-98% (automatise)",
+        "Un outil a 29 euros par mois se rembourse des la premiere semaine grace aux economies sur le gaspillage",
+        "Les criteres cles sont : mobilite, scan de factures, integration caisse, alertes intelligentes et predictions IA",
+        "FoodTracks est la seule solution concue specifiquement pour les food trucks avec prediction IA et scan OCR",
+      ],
+      en: [
+        "Dedicated inventory software cuts daily data entry time from 45 to 10 minutes",
+        "Stock accuracy goes from 90% (manual) to 97-98% (automated)",
+        "A EUR29/month tool pays for itself within the first week through waste savings",
+        "Key criteria are: mobility, invoice scanning, POS integration, smart alerts, and AI predictions",
+        "FoodTracks is the only solution built specifically for food trucks with AI prediction and OCR scanning",
+      ],
+    },
+    faqItems: [
+      {
+        question: {
+          fr: "Quel est le meilleur logiciel de gestion de stock pour food truck ?",
+          en: "What is the best inventory management software for food trucks?",
+        },
+        answer: {
+          fr: "FoodTracks est le logiciel le plus adapte aux food trucks car il combine scan de factures par IA, predictions de ventes, integration SumUp et suivi en temps reel. Il propose une version gratuite pour un emplacement et un abonnement Pro a 29 euros par mois.",
+          en: "FoodTracks is the most suitable software for food trucks as it combines AI invoice scanning, sales predictions, SumUp integration, and real-time tracking. It offers a free tier for one location and a Pro subscription at EUR29 per month.",
+        },
+      },
+      {
+        question: {
+          fr: "Combien coute un logiciel de gestion de stock pour food truck ?",
+          en: "How much does food truck inventory software cost?",
+        },
+        answer: {
+          fr: "Les prix varient de gratuit (FoodTracks version de base) a 150 euros par mois (solutions generiques comme Lightspeed). FoodTracks Pro coute 29 euros par mois avec emplacements illimites et toutes les fonctionnalites IA incluses.",
+          en: "Prices range from free (FoodTracks basic tier) to EUR150 per month (generic solutions like Lightspeed). FoodTracks Pro costs EUR29 per month with unlimited locations and all AI features included.",
+        },
+      },
+      {
+        question: {
+          fr: "Peut-on gerer le stock d'un food truck avec Excel ?",
+          en: "Can you manage food truck inventory with Excel?",
+        },
+        answer: {
+          fr: "C'est possible mais tres inefficace. Excel necessite 5 a 8 heures de saisie manuelle par semaine, n'offre pas d'alertes automatiques et genere des erreurs frequentes. Un logiciel dedie reduit ce temps a 1 heure par semaine avec une precision bien superieure.",
+          en: "It is possible but very inefficient. Excel requires 5 to 8 hours of manual entry per week, offers no automatic alerts, and generates frequent errors. Dedicated software reduces this time to 1 hour per week with much higher accuracy.",
+        },
+      },
+    ],
+  },
+  {
+    slug: "prediction-vente-food-truck-ia",
+    title: {
+      fr: "Prediction de vente en food truck par l'IA : comment ca fonctionne",
+      en: "AI Sales Prediction for Food Trucks: How It Works",
+    },
+    excerpt: {
+      fr: "Comprendre comment l'intelligence artificielle predit vos ventes de food truck en fonction de la meteo, du lieu et de l'historique. Guide pratique pour debutants.",
+      en: "Understand how artificial intelligence predicts your food truck sales based on weather, location, and history. A practical guide for beginners.",
+    },
+    category: { fr: "Technologie", en: "Technology" },
+    date: "2026-03-12",
+    readTime: 12,
+    keywords: [
+      "prediction vente food truck IA",
+      "prediction vente food truck",
+      "prevision ventes food truck",
+      "AI food truck sales prediction",
+      "food truck sales forecasting",
+      "machine learning food truck",
+      "intelligence artificielle ventes restauration",
+      "food truck demand forecasting",
+    ],
+    heroImage: "/blog/food-truck-digital.png",
+    content: {
+      fr: `## Predire ses ventes en food truck : la revolution IA
+
+Imaginez pouvoir savoir, chaque matin, exactement combien de portions preparer pour votre service. Pas de gaspillage, pas de rupture. C'est exactement ce que permet la **prediction de ventes par intelligence artificielle**.
+
+En 2026, cette technologie n'est plus reservee aux geants de la restauration rapide. Des outils comme FoodTracks mettent la puissance du machine learning entre les mains de chaque food trucker.
+
+## Comment fonctionne la prediction IA
+
+### Les donnees en entree
+
+Un algorithme de prediction de ventes analyse plusieurs types de donnees :
+
+**1. Votre historique de ventes**
+- Nombre de portions vendues par jour et par plat
+- Repartition horaire des ventes (rush du midi, pic de l'apres-midi)
+- Tendances saisonnieres (ete vs hiver, vacances vs periodes scolaires)
+
+**2. Les donnees contextuelles**
+- **Meteo** : temperature, pluie, vent, ensoleillement
+- **Jour de la semaine** : un mardi n'est pas un samedi
+- **Type d'emplacement** : marche, festival, zone de bureaux, campus
+- **Evenements speciaux** : jours feries, matchs, concerts a proximite
+
+**3. Les patterns detectes**
+L'IA identifie des correlations que l'humain ne voit pas :
+- "Quand il fait plus de 25 degres a cet emplacement, les ventes de salades augmentent de 45%"
+- "Le premier mercredi du mois sur ce marche, le trafic baisse de 20%"
+- "Apres un jour de pluie, le lendemain ensoleille genere 35% de ventes en plus"
+
+### Le processus de prediction
+
+1. **Collecte** : vos ventes sont enregistrees automatiquement via SumUp
+2. **Nettoyage** : l'IA elimine les donnees aberrantes (jours de panne, evenements exceptionnels)
+3. **Apprentissage** : l'algorithme detecte les patterns recurrents
+4. **Croisement** : les previsions meteo et le calendrier sont integres
+5. **Prediction** : un nombre de portions est suggere pour chaque plat, pour chaque service
+
+### La precision s'ameliore avec le temps
+
+Au debut, avec peu de donnees, les predictions sont approximatives (precision de 70 a 75%). Apres :
+
+- **2 semaines** : precision de 80%
+- **1 mois** : precision de 85 a 88%
+- **3 mois** : precision de 90 a 93%
+- **6 mois** : precision de 93 a 96%
+
+L'algorithme apprend constamment. Chaque service est une nouvelle donnee qui affine les predictions futures.
+
+## L'impact de la meteo sur les ventes
+
+### Les correlations prouvees
+
+La meteo est le facteur externe le plus influent sur les ventes d'un food truck. Voici les correlations moyennes observees :
+
+- **Pluie** : -25 a -40% de frequentation
+- **Temperature superieure a 30 degres** : +20% sur les boissons fraiches, -15% sur les plats chauds
+- **Vent fort** : -15% de frequentation (les gens restent a l'interieur)
+- **Premier beau jour apres la pluie** : +30 a +50% de frequentation
+
+### Comment l'IA utilise la meteo
+
+L'algorithme ne se contente pas de regarder "pluie ou soleil". Il analyse :
+
+- La temperature ressentie (en combinant temperature, vent et humidite)
+- Les previsions heure par heure pendant votre service
+- La tendance meteorologique (3 jours de pluie suivis d'un beau jour = affluence)
+- Les habitudes locales (dans certaines villes, la pluie n'arrete pas les clients)
+
+## L'impact de l'emplacement
+
+### Chaque spot a son profil de vente
+
+L'IA construit un profil unique pour chaque emplacement :
+
+- **Marche du mardi** : clientele reguliere, panier moyen de 11 euros, pic entre 11h et 13h
+- **Festival du week-end** : clientele ponctuelle, panier moyen de 15 euros, ventes reparties sur la journee
+- **Zone de bureaux** : rush intense entre 12h et 13h30, faible apres 14h
+
+Ces profils permettent d'ajuster non seulement les quantites mais aussi le menu propose. Sur un marche familial, privilegiez les petites portions et les menus enfants. En festival, proposez des formats genereux et des plats rapides a servir.
+
+## Cas pratique : une semaine avec la prediction IA
+
+### Lundi : Pas de service
+L'IA le sait et ne genere aucune prediction.
+
+### Mardi : Marche de quartier
+- Prevision meteo : 18 degres, couvert
+- Historique : moyenne de 65 couverts le mardi sur ce marche
+- Prediction IA : 58 a 62 couverts (ajustement a la baisse a cause du ciel couvert)
+- **Recommandation** : preparer 60 portions, privilegier les plats chauds
+
+### Mercredi : Zone de bureaux
+- Prevision meteo : 22 degres, ensoleille
+- Historique : moyenne de 85 couverts le mercredi
+- Prediction IA : 90 a 95 couverts (ajustement a la hausse grace au beau temps)
+- **Recommandation** : preparer 92 portions, ajouter des options salades
+
+### Samedi : Festival local
+- Prevision meteo : 25 degres, grand soleil
+- Historique : premier festival de la saison, pas de donnees specifiques
+- Prediction IA : 120 a 150 couverts (basee sur des festivals similaires)
+- **Recommandation** : preparer 135 portions en preparation initiale, prevoir des ingredients pour 30 supplementaires
+
+## Les limites de la prediction IA
+
+### Ce que l'IA ne peut pas predire
+
+Soyons honnetes, aucun algorithme n'est parfait. L'IA a du mal avec :
+
+- **Les evenements imprevisibles** : annulation d'un marche, travaux de voirie, manifestation
+- **Les nouveaux emplacements** : pas d'historique = prediction moins fiable
+- **Les changements de menu** : un nouveau plat n'a pas de donnees historiques
+- **Les cas extremes** : canicule record, tempete, pandemie
+
+### Comment gerer l'incertitude
+
+La prediction IA fournit toujours une **fourchette** (minimum - maximum), pas un chiffre unique. La bonne strategie :
+
+1. Preparez au niveau du minimum de la fourchette
+2. Ayez des ingredients prets pour le complement
+3. Surveillez les premieres ventes et ajustez en cours de service
+4. Notez les ecarts pour affiner les futures predictions
+
+## Comment demarrer avec la prediction IA
+
+### Etape 1 : Connectez vos donnees de vente (Jour 1)
+- Liez votre terminal SumUp a FoodTracks
+- Les ventes passees sont importees automatiquement
+- Plus vous avez d'historique, plus les predictions seront precises
+
+### Etape 2 : Configurez vos emplacements (Jour 1)
+- Ajoutez chaque emplacement ou vous vendez regulierement
+- Indiquez les jours et horaires de presence
+- L'IA associera automatiquement les ventes aux emplacements
+
+### Etape 3 : Laissez l'algorithme apprendre (Semaines 1 a 4)
+- Continuez a vendre normalement
+- L'IA collecte les donnees et detecte les patterns
+- Les premieres predictions apparaissent apres 1 semaine
+
+### Etape 4 : Suivez les recommandations (A partir du mois 2)
+- Consultez les predictions la veille de chaque service
+- Ajustez vos preparations en consequence
+- Comparez les resultats reels aux predictions
+
+## Le ROI de la prediction IA
+
+Les chiffres parlent d'eux-memes :
+
+- **Reduction du gaspillage** : 25 a 40% (economies directes sur les matieres premieres)
+- **Reduction des ruptures** : 50 a 60% (ventes supplementaires)
+- **Gain de temps** : 2 a 3 heures par semaine (plus de calculs manuels)
+- **ROI moyen** : la prediction IA genere 300 a 600 euros d'economie par mois
+
+Pour un outil comme FoodTracks a 29 euros par mois, le retour sur investissement est de **10 a 20 fois la mise**.
+
+## Conclusion
+
+La prediction de ventes par IA transforme la facon dont les food truckers preparent leurs services. Plus de cuisine "a l'aveugle", plus de gaspillage massif, plus de ruptures frustrantes.
+
+La technologie est mature, accessible et abordable. Avec [FoodTracks](https://foodtracks.io/fr/pricing), vous pouvez commencer gratuitement et voir les resultats des les premieres semaines.
+
+La seule question qui reste : **combien de services allez-vous encore faire a l'aveugle ?**`,
+      en: `## Predicting Food Truck Sales: The AI Revolution
+
+Imagine knowing each morning exactly how many portions to prepare for your service. No waste, no stockouts. That is exactly what **AI-powered sales prediction** makes possible.
+
+In 2026, this technology is no longer reserved for fast-food giants. Tools like FoodTracks put the power of machine learning in every food trucker's hands.
+
+## How AI Prediction Works
+
+### Input Data
+
+A sales prediction algorithm analyzes several types of data:
+
+**1. Your Sales History**
+- Number of portions sold per day and per dish
+- Hourly sales distribution (lunch rush, afternoon peak)
+- Seasonal trends (summer vs winter, holidays vs school periods)
+
+**2. Contextual Data**
+- **Weather**: temperature, rain, wind, sunshine
+- **Day of the week**: a Tuesday is not a Saturday
+- **Location type**: market, festival, office district, campus
+- **Special events**: public holidays, matches, nearby concerts
+
+**3. Detected Patterns**
+AI identifies correlations humans cannot see:
+- "When it is above 25 degrees at this location, salad sales increase by 45%"
+- "The first Wednesday of the month at this market, traffic drops by 20%"
+- "After a rainy day, the following sunny day generates 35% more sales"
+
+### The Prediction Process
+
+1. **Collection**: your sales are recorded automatically via SumUp
+2. **Cleaning**: the AI removes outlier data (breakdown days, exceptional events)
+3. **Learning**: the algorithm detects recurring patterns
+4. **Cross-referencing**: weather forecasts and the calendar are integrated
+5. **Prediction**: a portion count is suggested for each dish, for each service
+
+### Accuracy Improves Over Time
+
+At the start, with limited data, predictions are approximate (70 to 75% accuracy). After:
+
+- **2 weeks**: 80% accuracy
+- **1 month**: 85 to 88% accuracy
+- **3 months**: 90 to 93% accuracy
+- **6 months**: 93 to 96% accuracy
+
+The algorithm learns constantly. Every service is new data that refines future predictions.
+
+## The Impact of Weather on Sales
+
+### Proven Correlations
+
+Weather is the most influential external factor on food truck sales. Here are average observed correlations:
+
+- **Rain**: -25 to -40% footfall
+- **Temperature above 30 degrees**: +20% on cold drinks, -15% on hot dishes
+- **Strong wind**: -15% footfall (people stay indoors)
+- **First sunny day after rain**: +30 to +50% footfall
+
+### How AI Uses Weather
+
+The algorithm does not just look at "rain or sun." It analyzes:
+
+- Perceived temperature (combining temperature, wind, and humidity)
+- Hour-by-hour forecasts during your service
+- Weather trends (3 rainy days followed by a nice day = high turnout)
+- Local habits (in some cities, rain does not stop customers)
+
+## The Impact of Location
+
+### Every Spot Has Its Sales Profile
+
+AI builds a unique profile for each location:
+
+- **Tuesday market**: regular clientele, EUR11 average ticket, peak between 11am and 1pm
+- **Weekend festival**: one-time visitors, EUR15 average ticket, sales spread throughout the day
+- **Office district**: intense rush between noon and 1:30pm, quiet after 2pm
+
+These profiles allow adjusting not only quantities but also the menu offered. At a family market, favour small portions and kids' meals. At a festival, offer generous portions and quick-serve dishes.
+
+## Practical Case: A Week with AI Prediction
+
+### Monday: No Service
+The AI knows this and generates no prediction.
+
+### Tuesday: Neighbourhood Market
+- Weather forecast: 18 degrees, overcast
+- History: average 65 covers on Tuesdays at this market
+- AI prediction: 58 to 62 covers (downward adjustment due to overcast sky)
+- **Recommendation**: prepare 60 portions, favour hot dishes
+
+### Wednesday: Office District
+- Weather forecast: 22 degrees, sunny
+- History: average 85 covers on Wednesdays
+- AI prediction: 90 to 95 covers (upward adjustment thanks to good weather)
+- **Recommendation**: prepare 92 portions, add salad options
+
+### Saturday: Local Festival
+- Weather forecast: 25 degrees, bright sunshine
+- History: first festival of the season, no specific data
+- AI prediction: 120 to 150 covers (based on similar festivals)
+- **Recommendation**: prepare 135 portions initially, have ingredients for 30 extra
+
+## Limitations of AI Prediction
+
+### What AI Cannot Predict
+
+Let us be honest, no algorithm is perfect. AI struggles with:
+
+- **Unpredictable events**: market cancellations, roadworks, protests
+- **New locations**: no history = less reliable prediction
+- **Menu changes**: a new dish has no historical data
+- **Extreme cases**: record heatwave, storm, pandemic
+
+### How to Handle Uncertainty
+
+AI prediction always provides a **range** (minimum - maximum), not a single number. The right strategy:
+
+1. Prepare at the minimum of the range
+2. Have ingredients ready for the additional amount
+3. Monitor early sales and adjust during service
+4. Note discrepancies to refine future predictions
+
+## How to Get Started with AI Prediction
+
+### Step 1: Connect Your Sales Data (Day 1)
+- Link your SumUp terminal to FoodTracks
+- Past sales are imported automatically
+- The more history you have, the more accurate predictions will be
+
+### Step 2: Configure Your Locations (Day 1)
+- Add each location where you sell regularly
+- Indicate the days and hours of presence
+- The AI will automatically associate sales with locations
+
+### Step 3: Let the Algorithm Learn (Weeks 1 to 4)
+- Continue selling normally
+- The AI collects data and detects patterns
+- First predictions appear after 1 week
+
+### Step 4: Follow the Recommendations (From Month 2)
+- Check predictions the evening before each service
+- Adjust your preparations accordingly
+- Compare actual results to predictions
+
+## The ROI of AI Prediction
+
+The numbers speak for themselves:
+
+- **Waste reduction**: 25 to 40% (direct savings on raw materials)
+- **Stockout reduction**: 50 to 60% (additional sales)
+- **Time saved**: 2 to 3 hours per week (no more manual calculations)
+- **Average ROI**: AI prediction generates EUR300 to EUR600 in savings per month
+
+For a tool like FoodTracks at EUR29 per month, the return on investment is **10 to 20 times the cost**.
+
+## Conclusion
+
+AI sales prediction transforms how food truckers prepare for their services. No more cooking blind, no more massive waste, no more frustrating stockouts.
+
+The technology is mature, accessible, and affordable. With [FoodTracks](https://foodtracks.io/en/pricing), you can start for free and see results within the first weeks.
+
+The only question left: **how many more services will you run blind?**`,
+    },
+    keyTakeaways: {
+      fr: [
+        "La prediction IA atteint 90 a 96% de precision apres 3 a 6 mois d'utilisation",
+        "La meteo est le facteur externe le plus influent : la pluie reduit la frequentation de 25 a 40%",
+        "L'IA fournit une fourchette de prediction, pas un chiffre unique, pour gerer l'incertitude",
+        "Le ROI moyen est de 300 a 600 euros par mois d'economies, soit 10 a 20 fois le cout de l'outil",
+        "FoodTracks connecte les ventes SumUp, la meteo et l'historique pour des predictions automatiques",
+      ],
+      en: [
+        "AI prediction reaches 90 to 96% accuracy after 3 to 6 months of use",
+        "Weather is the most influential external factor: rain reduces footfall by 25 to 40%",
+        "AI provides a prediction range, not a single number, to handle uncertainty",
+        "Average ROI is EUR300 to EUR600 per month in savings, 10 to 20 times the tool cost",
+        "FoodTracks connects SumUp sales, weather, and history for automatic predictions",
+      ],
+    },
+    faqItems: [
+      {
+        question: {
+          fr: "Comment l'IA predit-elle les ventes d'un food truck ?",
+          en: "How does AI predict food truck sales?",
+        },
+        answer: {
+          fr: "L'IA croise votre historique de ventes, les previsions meteo, le type d'emplacement et le calendrier pour predire le nombre de portions a preparer. La precision atteint 90 a 96% apres quelques mois d'utilisation.",
+          en: "AI cross-references your sales history, weather forecasts, location type, and calendar to predict the number of portions to prepare. Accuracy reaches 90 to 96% after a few months of use.",
+        },
+      },
+      {
+        question: {
+          fr: "Combien de temps faut-il pour que la prediction IA soit fiable ?",
+          en: "How long does it take for AI prediction to be reliable?",
+        },
+        answer: {
+          fr: "Les premieres predictions apparaissent apres 1 semaine avec 70-75% de precision. Apres 1 mois, la precision atteint 85-88%. Apres 3 mois, elle depasse 90%. L'algorithme s'ameliore a chaque service.",
+          en: "First predictions appear after 1 week with 70-75% accuracy. After 1 month, accuracy reaches 85-88%. After 3 months, it exceeds 90%. The algorithm improves with every service.",
+        },
+      },
+      {
+        question: {
+          fr: "La meteo influence-t-elle vraiment les ventes d'un food truck ?",
+          en: "Does weather really influence food truck sales?",
+        },
+        answer: {
+          fr: "Oui, enormement. La pluie reduit la frequentation de 25 a 40%. Le premier beau jour apres une periode de pluie peut augmenter les ventes de 30 a 50%. L'IA de FoodTracks integre les previsions heure par heure pour ajuster les predictions.",
+          en: "Yes, enormously. Rain reduces footfall by 25 to 40%. The first sunny day after a rainy period can increase sales by 30 to 50%. FoodTracks AI integrates hour-by-hour forecasts to adjust predictions.",
+        },
+      },
+      {
+        question: {
+          fr: "Quel est le retour sur investissement de la prediction IA pour un food truck ?",
+          en: "What is the ROI of AI prediction for a food truck?",
+        },
+        answer: {
+          fr: "En moyenne, la prediction IA genere 300 a 600 euros d'economies par mois grace a la reduction du gaspillage (25-40%) et des ruptures de stock (50-60%). Pour un outil a 29 euros par mois, le ROI est de 10 a 20 fois la mise.",
+          en: "On average, AI prediction generates EUR300 to EUR600 in monthly savings through waste reduction (25-40%) and stockout reduction (50-60%). For a EUR29/month tool, the ROI is 10 to 20 times the investment.",
+        },
+      },
+    ],
+  },
 ];
 
 export function getArticleBySlug(slug: string): BlogArticle | undefined {

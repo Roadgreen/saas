@@ -68,7 +68,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     metadataBase: new URL(BASE_URL),
     alternates: {
       canonical: url,
-      languages: { [altLocale]: `${BASE_URL}/${altLocale}` },
+      languages: { fr: `${BASE_URL}/fr`, en: `${BASE_URL}/en` },
     },
     openGraph: {
       title: meta.title,

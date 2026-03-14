@@ -48,6 +48,6 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ['/api/', '/dashboard/'],
       },
     ],
-    sitemap: 'https://www.foodtracks.io/sitemap.xml',
+    sitemap: 'https://foodtracks.io/sitemap.xml',
   };
 }
