@@ -2755,6 +2755,397 @@ These 5 mistakes are fixable. You just need to start. And if you want to move fa
       },
     ],
   },
+  {
+    slug: "intelligence-artificielle-food-truck",
+    title: {
+      fr: "Comment l'intelligence artificielle révolutionne les food trucks",
+      en: "How Artificial Intelligence Is Revolutionizing Food Trucks",
+    },
+    excerpt: {
+      fr: "Découvrez comment l'IA transforme la gestion des food trucks : prédiction des ventes, optimisation des stocks, pricing dynamique et automatisation des tâches administratives.",
+      en: "Discover how AI is transforming food truck management: sales forecasting, inventory optimization, dynamic pricing, and administrative task automation.",
+    },
+    category: { fr: "Technologie", en: "Technology" },
+    date: "2026-03-14",
+    readTime: 14,
+    keywords: [
+      "intelligence artificielle food truck",
+      "IA food truck",
+      "AI food truck management",
+      "prédiction ventes food truck",
+      "food truck technology",
+      "automatisation food truck",
+      "machine learning restauration",
+      "food truck software AI",
+    ],
+    heroImage: "/blog/food-truck-digital.png",
+    content: {
+      fr: `## L'intelligence artificielle n'est plus réservée aux grandes chaînes de restauration
+
+Quand on parle d'intelligence artificielle dans la restauration, on pense souvent aux grandes chaînes comme McDonald's ou Starbucks qui investissent des millions. Mais en 2026, **l'IA est devenue accessible à tous les food truckers**, grâce à des outils comme FoodTracks qui intègrent des algorithmes puissants dans une interface simple.
+
+Le résultat ? Des food truckers indépendants qui prennent des décisions aussi précises que les directeurs de grandes enseignes — sans avoir besoin d'un data scientist.
+
+### Ce que l'IA change concrètement pour un food trucker
+
+L'intelligence artificielle appliquée au food truck, ce n'est pas de la science-fiction. C'est un ensemble d'outils pratiques qui vous aident à :
+
+- **Prévoir combien de portions préparer** pour chaque service
+- **Commander la bonne quantité** de matières premières
+- **Fixer les bons prix** en fonction de la demande
+- **Automatiser la paperasse** (factures, comptabilité, déclarations)
+- **Identifier vos meilleurs emplacements** grâce à l'analyse de données
+
+## 1. La prédiction des ventes : ne plus cuisiner à l'aveugle
+
+### Le problème classique
+
+Tout food trucker connaît ce dilemme : préparer trop et jeter, ou pas assez et perdre des ventes. Sans données fiables, vous cuisinez "au feeling" — et le feeling se trompe régulièrement.
+
+### Comment l'IA résout ce problème
+
+Les algorithmes de machine learning analysent vos données historiques pour prédire avec précision la demande de chaque service. Ils croisent :
+
+- **Vos ventes passées** par jour, créneau horaire et emplacement
+- **La météo prévue** (un jour de pluie = -30% de fréquentation en moyenne)
+- **Le calendrier** (jours fériés, vacances scolaires, événements locaux)
+- **Les tendances saisonnières** (plus de salades en été, plus de soupes en hiver)
+
+Avec FoodTracks, ces prédictions s'affinent automatiquement au fil du temps. Plus vous utilisez l'outil, plus il apprend vos patterns et plus ses prévisions deviennent précises.
+
+### Résultat concret
+
+Les food truckers qui utilisent la prédiction IA réduisent leur gaspillage de **25 à 40%** tout en diminuant les ruptures de stock de **60%**. C'est un double gain : moins de pertes ET plus de ventes.
+
+## 2. L'optimisation intelligente des stocks
+
+### Fini les commandes approximatives
+
+L'IA ne se contente pas de prédire vos ventes — elle traduit ces prédictions en **listes de commandes optimisées**. En tenant compte de :
+
+- Vos recettes et leurs ingrédients exacts
+- Les quantités nécessaires pour chaque service prévu
+- Les stocks restants dans votre camion
+- Les dates de péremption de vos produits actuels
+- Les délais de livraison de vos fournisseurs
+
+### Le scan intelligent des factures
+
+L'une des applications les plus concrètes de l'IA dans FoodTracks est le **scan automatique des factures fournisseurs**. Vous prenez une photo de votre facture, et l'IA :
+
+1. Reconnaît le fournisseur automatiquement
+2. Extrait chaque ligne de produit avec son prix
+3. Met à jour votre stock en temps réel
+4. Détecte les variations de prix anormales
+5. Alerte si un fournisseur a augmenté ses prix de plus de 5%
+
+Plus besoin de saisir manuellement vos factures dans un tableur. **En 10 secondes, votre stock est à jour.**
+
+## 3. Le pricing dynamique : vendre au bon prix au bon moment
+
+### Pourquoi le prix fixe vous fait perdre de l'argent
+
+Un burger à 12€, c'est bien. Mais est-ce que c'est le bon prix sur un marché de village le mardi matin ET lors d'un festival de musique le samedi soir ? Probablement pas.
+
+### Comment l'IA optimise vos prix
+
+Le pricing dynamique ne signifie pas changer vos prix toutes les heures. C'est plutôt **adapter votre stratégie tarifaire** en fonction du contexte :
+
+- **Emplacements premium** (festivals, zones touristiques) : l'IA suggère des prix plus élevés car la clientèle est moins sensible au prix
+- **Services calmes** (marchés en semaine) : l'IA recommande des formules ou des promotions pour augmenter le volume
+- **Fin de service** : l'IA peut suggérer des réductions sur les plats dont le stock doit être écoulé
+
+FoodTracks analyse votre historique de ventes par emplacement et vous recommande une **fourchette de prix optimale** pour chaque plat, dans chaque contexte.
+
+## 4. L'automatisation des tâches administratives
+
+### Le temps perdu en paperasse
+
+Un food trucker passe en moyenne **5 à 8 heures par semaine** sur des tâches administratives : saisie de factures, comptabilité, déclarations, suivi de stock. C'est du temps qui n'est pas consacré à la cuisine ou aux clients.
+
+### Ce que l'IA automatise
+
+- **Saisie des factures** : scan et extraction automatique (OCR + IA)
+- **Calcul des marges** : mis à jour en temps réel après chaque vente et chaque commande
+- **Rapports de performance** : générés automatiquement chaque semaine
+- **Alertes de péremption** : notifications push quand un produit approche de sa DLC
+- **Préparation comptable** : export des données au format de votre expert-comptable
+
+Avec FoodTracks, les food truckers réduisent leur temps administratif de **60 à 70%** — soit 3 à 5 heures gagnées par semaine.
+
+## 5. L'analyse des emplacements par les données
+
+### Chaque spot a son profil
+
+L'IA permet d'aller au-delà du simple "est-ce que j'ai bien vendu ici ?". Elle crée un **profil complet de chaque emplacement** :
+
+- Chiffre d'affaires moyen par service
+- Panier moyen des clients
+- Plats les plus vendus à cet endroit
+- Impact de la météo sur la fréquentation
+- Coût total (emplacement + déplacement + temps)
+- **Rentabilité nette par heure travaillée**
+
+Ce dernier indicateur est le plus important. Un marché où vous faites 400€ de CA en 3 heures est plus rentable qu'un festival où vous faites 800€ en 8 heures — à condition de prendre en compte tous les coûts.
+
+### Découvrir de nouveaux emplacements
+
+Certains outils d'IA vont encore plus loin en analysant les données démographiques, le trafic piéton et la concurrence pour **suggérer de nouveaux emplacements** potentiellement rentables. C'est le futur du food trucking, et il arrive vite.
+
+## Comment commencer avec l'IA dans votre food truck
+
+### Étape 1 : Digitalisez vos données (Semaine 1)
+- Connectez votre terminal SumUp à FoodTracks
+- Scannez vos 10 dernières factures fournisseurs
+- Entrez vos recettes avec les quantités exactes d'ingrédients
+
+### Étape 2 : Laissez l'IA apprendre (Semaines 2-4)
+- Continuez à scanner vos factures à chaque livraison
+- L'IA analyse vos ventes et commence à détecter des patterns
+- Consultez les premiers rapports de performance
+
+### Étape 3 : Suivez les recommandations (À partir du mois 2)
+- Utilisez les prévisions de vente pour ajuster vos préparations
+- Testez les recommandations de prix sur vos emplacements
+- Comparez vos résultats avant/après
+
+### Étape 4 : Optimisez en continu
+- L'IA s'améliore avec le temps — plus vous l'utilisez, plus elle est précise
+- Ajustez vos recettes et votre menu en fonction des données
+- Explorez de nouveaux emplacements suggérés par l'analyse
+
+## L'IA ne remplace pas le food trucker — elle le rend meilleur
+
+Soyons clairs : **l'intelligence artificielle ne va pas cuisiner à votre place**. Votre savoir-faire, votre créativité et votre relation avec les clients restent irremplaçables.
+
+Ce que l'IA fait, c'est éliminer les approximations et les tâches répétitives. Elle vous donne les bonnes informations au bon moment pour prendre de meilleures décisions. C'est comme avoir un assistant ultra-compétent qui analyse vos données 24h/24.
+
+## Conclusion
+
+L'intelligence artificielle n'est plus un luxe réservé aux grandes entreprises. En 2026, des outils comme [FoodTracks](https://foodtracks.io/fr/pricing) mettent la puissance de l'IA entre les mains de chaque food trucker.
+
+Les résultats sont concrets : **moins de gaspillage, plus de ventes, des marges optimisées et des heures de paperasse en moins**. Le tout pour le prix d'un café par jour.
+
+La question n'est plus "est-ce que l'IA est utile pour un food truck ?" mais **"combien de temps pouvez-vous encore vous en passer ?"**`,
+      en: `## Artificial Intelligence Is No Longer Reserved for Big Restaurant Chains
+
+When people talk about AI in the food industry, they often think of major chains like McDonald's or Starbucks investing millions. But in 2026, **AI has become accessible to every food trucker**, thanks to tools like FoodTracks that embed powerful algorithms into a simple interface.
+
+The result? Independent food truckers making decisions as precise as corporate directors — without needing a data scientist.
+
+### What AI Concretely Changes for a Food Trucker
+
+Artificial intelligence applied to food trucks isn't science fiction. It's a set of practical tools that help you:
+
+- **Predict how many portions to prepare** for each service
+- **Order the right quantity** of raw materials
+- **Set the right prices** based on demand
+- **Automate paperwork** (invoices, accounting, declarations)
+- **Identify your best locations** through data analysis
+
+## 1. Sales Forecasting: No More Cooking Blind
+
+### The Classic Problem
+
+Every food trucker knows this dilemma: prepare too much and waste, or not enough and lose sales. Without reliable data, you cook "by feel" — and feelings are regularly wrong.
+
+### How AI Solves This Problem
+
+Machine learning algorithms analyze your historical data to predict demand for each service with precision. They cross-reference:
+
+- **Your past sales** by day, time slot, and location
+- **Weather forecasts** (a rainy day = -30% footfall on average)
+- **The calendar** (public holidays, school vacations, local events)
+- **Seasonal trends** (more salads in summer, more soups in winter)
+
+With FoodTracks, these predictions automatically improve over time. The more you use the tool, the more it learns your patterns and the more accurate its forecasts become.
+
+### Concrete Results
+
+Food truckers using AI prediction reduce their waste by **25 to 40%** while decreasing stockouts by **60%**. It's a double win: fewer losses AND more sales.
+
+## 2. Intelligent Inventory Optimization
+
+### No More Approximate Orders
+
+AI doesn't just predict your sales — it translates those predictions into **optimized order lists**. Taking into account:
+
+- Your recipes and their exact ingredients
+- The quantities needed for each planned service
+- Remaining stock in your truck
+- Expiration dates of your current products
+- Delivery times from your suppliers
+
+### Smart Invoice Scanning
+
+One of the most concrete AI applications in FoodTracks is **automatic supplier invoice scanning**. You take a photo of your invoice, and the AI:
+
+1. Automatically recognizes the supplier
+2. Extracts each product line with its price
+3. Updates your stock in real time
+4. Detects abnormal price variations
+5. Alerts you if a supplier has raised prices by more than 5%
+
+No more manually entering invoices into a spreadsheet. **In 10 seconds, your inventory is up to date.**
+
+## 3. Dynamic Pricing: Sell at the Right Price at the Right Time
+
+### Why Fixed Pricing Costs You Money
+
+A burger at EUR12 is fine. But is it the right price at a village market on Tuesday morning AND at a music festival on Saturday night? Probably not.
+
+### How AI Optimizes Your Prices
+
+Dynamic pricing doesn't mean changing your prices every hour. It's about **adapting your pricing strategy** based on context:
+
+- **Premium locations** (festivals, tourist areas): AI suggests higher prices because customers are less price-sensitive
+- **Quiet services** (weekday markets): AI recommends deals or promotions to increase volume
+- **End of service**: AI can suggest discounts on dishes whose stock needs to be cleared
+
+FoodTracks analyzes your sales history by location and recommends an **optimal price range** for each dish, in each context.
+
+## 4. Automating Administrative Tasks
+
+### Time Lost on Paperwork
+
+A food trucker spends an average of **5 to 8 hours per week** on administrative tasks: entering invoices, accounting, declarations, inventory tracking. That's time not spent on cooking or serving customers.
+
+### What AI Automates
+
+- **Invoice entry**: automatic scanning and extraction (OCR + AI)
+- **Margin calculation**: updated in real time after every sale and order
+- **Performance reports**: generated automatically every week
+- **Expiration alerts**: push notifications when a product approaches its use-by date
+- **Accounting prep**: data export in your accountant's format
+
+With FoodTracks, food truckers reduce their administrative time by **60 to 70%** — that's 3 to 5 hours saved per week.
+
+## 5. Data-Driven Location Analysis
+
+### Every Spot Has Its Profile
+
+AI goes beyond simple "did I sell well here?" analysis. It creates a **complete profile for each location**:
+
+- Average revenue per service
+- Average customer ticket
+- Best-selling dishes at that location
+- Weather impact on footfall
+- Total cost (pitch fee + travel + time)
+- **Net profitability per hour worked**
+
+That last metric is the most important. A market where you make EUR400 in revenue over 3 hours is more profitable than a festival where you make EUR800 in 8 hours — once you factor in all costs.
+
+### Discovering New Locations
+
+Some AI tools go even further by analyzing demographic data, foot traffic, and competition to **suggest potentially profitable new locations**. This is the future of food trucking, and it's arriving fast.
+
+## How to Get Started with AI in Your Food Truck
+
+### Step 1: Digitize Your Data (Week 1)
+- Connect your SumUp terminal to FoodTracks
+- Scan your last 10 supplier invoices
+- Enter your recipes with exact ingredient quantities
+
+### Step 2: Let the AI Learn (Weeks 2-4)
+- Keep scanning invoices with every delivery
+- The AI analyzes your sales and starts detecting patterns
+- Review the first performance reports
+
+### Step 3: Follow the Recommendations (From Month 2)
+- Use sales forecasts to adjust your preparations
+- Test pricing recommendations at your locations
+- Compare your before/after results
+
+### Step 4: Continuously Optimize
+- AI improves over time — the more you use it, the more precise it gets
+- Adjust your recipes and menu based on data
+- Explore new locations suggested by the analysis
+
+## AI Doesn't Replace the Food Trucker — It Makes Them Better
+
+Let's be clear: **artificial intelligence isn't going to cook for you**. Your expertise, creativity, and customer relationships remain irreplaceable.
+
+What AI does is eliminate guesswork and repetitive tasks. It gives you the right information at the right time to make better decisions. It's like having an ultra-competent assistant analyzing your data 24/7.
+
+## Conclusion
+
+Artificial intelligence is no longer a luxury reserved for big corporations. In 2026, tools like [FoodTracks](https://foodtracks.io/en/pricing) put the power of AI in every food trucker's hands.
+
+The results are concrete: **less waste, more sales, optimized margins, and hours of paperwork eliminated**. All for the price of a coffee per day.
+
+The question is no longer "is AI useful for a food truck?" but **"how long can you afford to go without it?"**`,
+    },
+    keyTakeaways: {
+      fr: [
+        "L'IA permet de prédire les ventes et de réduire le gaspillage de 25 à 40% dans les food trucks",
+        "Le scan intelligent des factures met à jour le stock en 10 secondes au lieu de saisies manuelles",
+        "Le pricing dynamique adapte les prix selon l'emplacement, la météo et le type d'événement",
+        "Les food truckers réduisent leur temps administratif de 60 à 70% grâce à l'automatisation par IA",
+        "L'IA crée un profil de rentabilité nette par heure travaillée pour chaque emplacement",
+        "FoodTracks intègre des algorithmes de machine learning accessibles sans compétence technique",
+      ],
+      en: [
+        "AI enables sales prediction and reduces food truck waste by 25 to 40%",
+        "Smart invoice scanning updates inventory in 10 seconds instead of manual data entry",
+        "Dynamic pricing adapts prices based on location, weather, and event type",
+        "Food truckers reduce administrative time by 60 to 70% through AI automation",
+        "AI creates a net profitability-per-hour profile for each location",
+        "FoodTracks embeds machine learning algorithms accessible without technical skills",
+      ],
+    },
+    faqItems: [
+      {
+        question: {
+          fr: "Comment l'intelligence artificielle peut-elle aider un food truck ?",
+          en: "How can artificial intelligence help a food truck?",
+        },
+        answer: {
+          fr: "L'IA aide les food trucks de 5 façons principales : prédiction des ventes pour réduire le gaspillage, optimisation automatique des commandes de stock, pricing dynamique selon les emplacements et événements, automatisation des tâches administratives (scan de factures, comptabilité), et analyse de la rentabilité par emplacement.",
+          en: "AI helps food trucks in 5 main ways: sales prediction to reduce waste, automatic stock order optimization, dynamic pricing based on locations and events, administrative task automation (invoice scanning, accounting), and per-location profitability analysis.",
+        },
+      },
+      {
+        question: {
+          fr: "Est-ce que l'IA est accessible pour un food trucker indépendant ?",
+          en: "Is AI accessible for an independent food trucker?",
+        },
+        answer: {
+          fr: "Oui, en 2026, des outils comme FoodTracks intègrent l'IA directement dans une application simple d'utilisation. Il suffit de connecter son terminal SumUp et de scanner ses factures pour que l'IA commence à analyser vos données et à fournir des recommandations.",
+          en: "Yes, in 2026, tools like FoodTracks embed AI directly into an easy-to-use application. Simply connect your SumUp terminal and scan your invoices for the AI to start analyzing your data and providing recommendations.",
+        },
+      },
+      {
+        question: {
+          fr: "Combien de temps faut-il pour voir les résultats de l'IA sur son food truck ?",
+          en: "How long does it take to see AI results on your food truck?",
+        },
+        answer: {
+          fr: "Les premiers résultats sont visibles dès le premier mois : réduction du gaspillage et gain de temps sur la paperasse. Les prédictions de ventes deviennent vraiment précises après 4 à 6 semaines d'utilisation, quand l'algorithme a suffisamment de données.",
+          en: "First results are visible within the first month: waste reduction and time saved on paperwork. Sales predictions become truly accurate after 4 to 6 weeks of use, when the algorithm has enough data.",
+        },
+      },
+      {
+        question: {
+          fr: "L'IA peut-elle remplacer un food trucker ?",
+          en: "Can AI replace a food trucker?",
+        },
+        answer: {
+          fr: "Non. L'IA ne remplace pas le savoir-faire culinaire, la créativité ni la relation client. Elle élimine les approximations et les tâches répétitives pour permettre au food trucker de se concentrer sur ce qu'il fait de mieux : cuisiner et servir ses clients.",
+          en: "No. AI does not replace culinary expertise, creativity, or customer relationships. It eliminates guesswork and repetitive tasks so the food trucker can focus on what they do best: cooking and serving customers.",
+        },
+      },
+      {
+        question: {
+          fr: "Quel est le coût de l'IA pour un food truck ?",
+          en: "What does AI cost for a food truck?",
+        },
+        answer: {
+          fr: "Avec FoodTracks, l'IA est intégrée dans l'abonnement standard. Le retour sur investissement est rapide : la réduction du gaspillage et l'optimisation des prix compensent largement le coût de l'outil dès le premier mois.",
+          en: "With FoodTracks, AI is included in the standard subscription. The return on investment is quick: waste reduction and price optimization more than offset the tool's cost from the very first month.",
+        },
+      },
+    ],
+  },
 ];
 
 export function getArticleBySlug(slug: string): BlogArticle | undefined {
