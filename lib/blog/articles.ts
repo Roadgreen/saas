@@ -2360,6 +2360,401 @@ FoodTracks helps professionalize your services:
       },
     ],
   },
+  {
+    slug: "5-erreurs-rentabilite-food-truck",
+    title: {
+      fr: "5 erreurs qui tuent la rentabilit\u00e9 de votre food truck (et comment les corriger)",
+      en: "5 Mistakes That Kill Your Food Truck Profitability (And How to Fix Them)",
+    },
+    excerpt: {
+      fr: "Beaucoup de food truckers travaillent dur sans voir leurs marges progresser. Voici les 5 erreurs de rentabilité les plus fréquentes et les solutions concrètes pour y remédier.",
+      en: "Many food truck owners work long hours without seeing their margins grow. Here are the 5 most common profitability mistakes and practical solutions to fix them.",
+    },
+    category: { fr: "Rentabilité", en: "Profitability" },
+    date: "2026-03-14",
+    readTime: 14,
+    keywords: [
+      "rentabilité food truck",
+      "erreurs food truck",
+      "marge food truck",
+      "coût matière food truck",
+      "prix menu food truck",
+      "gaspillage food truck",
+      "food truck profitability",
+      "food truck mistakes",
+      "food truck profit margin",
+      "food truck pricing",
+    ],
+    heroImage: "/blog/erreurs-rentabilite.png",
+    content: {
+      fr: `## Pourquoi tant de food trucks peinent à être rentables
+
+Lancer un food truck, c'est excitant. Vous avez votre concept, votre camion, vos recettes. Les premiers mois, l'adrénaline fait oublier les chiffres. Et puis la réalité rattrape : les charges tombent, la trésorerie se tend, et vous commencez à vous demander si tout ça en vaut vraiment la peine.
+
+La bonne nouvelle ? Dans la grande majorité des cas, le problème ne vient pas du concept ou de la cuisine. Il vient d'erreurs de gestion que presque tous les food truckers commettent à leurs débuts. Des erreurs silencieuses qui grignotent vos marges jour après jour, sans que vous vous en rendiez compte.
+
+Voici les 5 erreurs les plus courantes, et surtout comment les corriger.
+
+## Erreur n.1 : Ne pas connaître son vrai coût matière
+
+C'est l'erreur la plus répandue et la plus coûteuse. Beaucoup de food truckers fixent leurs prix "au feeling", en se basant sur ce que font les concurrents ou sur un calcul approximatif du coût des ingrédients.
+
+Le problème, c'est que le coût matière réel est souvent 20 à 40% plus élevé que ce qu'on imagine. Pourquoi ? Parce qu'on oublie de compter :
+
+- Les sauces et condiments (ketchup, mayo, serviettes, barquettes)
+- Les pertes à la découpe et à la préparation
+- Les produits jetés en fin de service
+- Les variations de prix chez les fournisseurs
+
+### Comment corriger
+
+**Créez une fiche technique pour chaque recette.** Listez tous les ingrédients, même les plus petits, avec leur coût exact au gramme ou au litre. Incluez un coefficient de perte de 10 à 15% pour les produits frais.
+
+Votre coût matière devrait représenter **entre 25% et 35% du prix de vente**. Si vous êtes au-dessus de 35%, vous perdez de l'argent sur chaque vente.
+
+Avec [FoodTracks](https://foodtracks.io/fr/pricing), le calcul du coût matière est automatique. Vous scannez vos factures fournisseurs, vous renseignez vos recettes, et l'outil calcule votre marge réelle sur chaque plat. Plus besoin de tableur Excel.
+
+## Erreur n.2 : Proposer un menu trop large
+
+C'est tentant d'avoir un menu varié pour plaire à tout le monde. Mais en food truck, chaque plat supplémentaire a un coût caché :
+
+- Plus de matières premières à stocker (et donc plus de gaspillage potentiel)
+- Plus de temps de préparation
+- Plus de complexité pendant le rush
+- Plus de risques de rupture sur certains ingrédients
+
+Les food trucks les plus rentables ont généralement **entre 4 et 7 plats principaux**. C'est tout. Et c'est largement suffisant.
+
+### Comment corriger
+
+**Analysez vos ventes sur les 3 derniers mois.** Identifiez les plats qui représentent 80% de votre chiffre d'affaires. Ce sont vos "best-sellers". Les autres ? Posez-vous la question honnêtement : est-ce qu'ils justifient l'espace de stockage, le temps de préparation et le gaspillage qu'ils génèrent ?
+
+L'idéal est de fonctionner avec :
+- 4 à 6 plats principaux (dont 1 ou 2 végétariens)
+- 2 à 3 accompagnements
+- 2 à 3 boissons
+- 1 dessert optionnel
+
+Pensez "rotation" plutôt que "largeur". Changez 1 ou 2 plats chaque mois pour maintenir l'intérêt, mais gardez un coeur de menu stable.
+
+Avec le [suivi des ventes SumUp intégré dans FoodTracks](https://foodtracks.io/fr/pricing), vous voyez en un clin d'oeil quels plats performent et lesquels plombent vos marges.
+
+## Erreur n.3 : Mal gérer ses emplacements
+
+Tous les emplacements ne se valent pas, et pourtant beaucoup de food truckers s'accrochent à des spots peu rentables par habitude ou parce qu'ils ont peur de perdre leur place.
+
+Un bon emplacement, c'est un emplacement où le rapport entre le chiffre d'affaires généré et les coûts engagés (déplacement, emplacement, temps) est positif. Un marché où vous faites 300EUR de CA pour 4h de travail + 50EUR de frais d'emplacement + 30EUR d'essence, ça donne un CA net de 220EUR. Si votre coût matière est à 35%, il vous reste 143EUR pour couvrir vos charges fixes, votre salaire et vos cotisations. C'est très juste.
+
+### Comment corriger
+
+**Tenez un tableau de bord par emplacement.** Pour chaque spot, notez :
+
+- Le chiffre d'affaires réalisé
+- Le coût d'emplacement
+- Le coût de déplacement (essence + temps)
+- Le nombre de services
+- La météo du jour
+
+Après 2 mois, vous aurez une vision claire. Les emplacements en dessous de votre seuil de rentabilité doivent être remplacés par de nouveaux spots à tester.
+
+FoodTracks fait ce suivi automatiquement. En connectant votre [terminal SumUp](https://foodtracks.io/fr/pricing), chaque vente est géolocalisée et associée à un emplacement. Vous voyez instantanément quels spots sont vos pépites et lesquels sont des gouffres.
+
+## Erreur n.4 : Ignorer le gaspillage alimentaire
+
+Le gaspillage, c'est de l'argent qui part à la poubelle. Littéralement. Et en food truck, il prend plusieurs formes :
+
+- **Produits périmés** : vous avez trop commandé et ça finit à la poubelle
+- **Portions trop généreuses** : chaque 10g supplémentaire de viande, multiplié par 100 portions, c'est 1kg de matière première offerte
+- **Mauvaise conservation** : la chaîne du froid en camion est fragile
+- **Préparation excessive** : vous préparez pour 80 couverts et vous en faites 50
+
+Le gaspillage moyen dans la restauration est estimé à **10% du chiffre d'affaires**. Sur un food truck qui fait 100 000EUR de CA annuel, ça représente 10 000EUR jetés.
+
+### Comment corriger
+
+**Pesez tout pendant une semaine.** Oui, c'est contraignant, mais c'est révélateur. Pesez ce que vous jetez en fin de service, ce qui périme dans vos frigos, ce qui reste dans les bacs de préparation.
+
+Ensuite, agissez sur 3 leviers :
+
+1. **Ajustez vos commandes** en fonction de votre historique réel de ventes (pas de ce que vous espérez vendre)
+2. **Standardisez vos portions** avec des louches, cuillères et bacs calibrés
+3. **Surveillez vos dates de péremption** et adaptez votre menu pour écouler les produits proches de la DLC
+
+Le module de [gestion des stocks de FoodTracks](https://foodtracks.io/fr/pricing) vous alerte quand un produit approche de sa date limite. Et grâce aux prévisions basées sur l'IA, vous commandez au plus juste pour chaque service.
+
+## Erreur n.5 : Ne pas suivre ses chiffres (ou les suivre trop tard)
+
+C'est la mère de toutes les erreurs. Beaucoup de food truckers ne regardent leurs chiffres qu'une fois par mois, voire une fois par trimestre, quand le comptable leur envoie le bilan. À ce moment-là, il est trop tard pour réagir.
+
+Si vous découvrez en avril que votre marge a chuté en février, vous avez perdu 2 mois de revenus optimisables.
+
+### Comment corriger
+
+**Suivez 4 indicateurs clés chaque semaine** :
+
+1. **Chiffre d'affaires par service** : combien vous faites par heure travaillée
+2. **Coût matière en %** : le poids de vos ingrédients dans votre CA
+3. **Panier moyen** : combien dépense chaque client en moyenne
+4. **Nombre de couverts** : combien de clients vous servez par service
+
+Ces 4 chiffres suffisent pour piloter votre activité au quotidien. Si le coût matière dépasse 35%, il faut réagir. Si le panier moyen baisse, il faut revoir votre stratégie de vente (menu, upsell, formules).
+
+FoodTracks centralise tous ces indicateurs dans un [tableau de bord accessible sur mobile](https://foodtracks.io/fr/pricing). Vous voyez vos marges en temps réel, pas 3 mois plus tard.
+
+## Le plan d'action en 30 jours
+
+Vous ne pouvez pas tout corriger d'un coup. Voici un plan progressif :
+
+### Semaine 1 : Le diagnostic
+- Listez tous vos plats et calculez le coût matière réel de chacun
+- Notez le CA de chaque emplacement des 2 derniers mois
+- Pesez vos déchets alimentaires pendant 5 services
+
+### Semaine 2 : Le ménage
+- Supprimez les plats dont le coût matière dépasse 40%
+- Identifiez les 2 emplacements les moins rentables
+- Standardisez vos portions avec des outils de mesure
+
+### Semaine 3 : L'optimisation
+- Ajustez vos prix pour viser 28-32% de coût matière
+- Testez 1 ou 2 nouveaux emplacements pour remplacer les moins rentables
+- Mettez en place un suivi hebdomadaire de vos 4 indicateurs clés
+
+### Semaine 4 : L'automatisation
+- Configurez FoodTracks pour le scan de factures et le suivi SumUp
+- Paramétrez vos fiches techniques dans l'outil
+- Programmez un point chiffres de 15 minutes chaque lundi matin
+
+## Ce que ça change concrètement
+
+Les food truckers qui corrigent ces 5 erreurs voient généralement :
+
+- **Une hausse de marge de 8 à 15 points** en 2 à 3 mois
+- **Une réduction du gaspillage de 30 à 50%** dès le premier mois
+- **Un gain de temps de 3 à 5 heures par semaine** sur la gestion administrative
+- **Une meilleure trésorerie** grâce à des commandes optimisées
+
+Ce ne sont pas des promesses marketing. Ce sont les résultats constatés par les utilisateurs de FoodTracks qui ont pris le temps de mettre en place ces bonnes pratiques.
+
+## Conclusion
+
+La rentabilité d'un food truck ne dépend pas que de la qualité de votre cuisine ou du nombre de clients. Elle dépend surtout de votre capacité a maîtriser vos coûts, optimiser vos opérations et prendre des décisions basées sur des données réelles.
+
+Ces 5 erreurs sont corrigeables. Il suffit de commencer. Et si vous voulez aller plus vite, [FoodTracks est la pour vous accompagner](https://foodtracks.io/fr/pricing) -- gratuitement, sans engagement.`,
+      en: `## Why So Many Food Trucks Struggle to Be Profitable
+
+Launching a food truck is exciting. You have your concept, your truck, your recipes. For the first few months, adrenaline makes you forget the numbers. Then reality catches up: bills pile in, cash flow tightens, and you start wondering if it's all really worth it.
+
+The good news? In the vast majority of cases, the problem isn't the concept or the food. It's management mistakes that nearly every food truck owner makes early on. Silent mistakes that chip away at your margins day after day, without you even noticing.
+
+Here are the 5 most common mistakes, and more importantly, how to fix them.
+
+## Mistake #1: Not Knowing Your True Food Cost
+
+This is the most widespread and expensive mistake. Many food truckers set their prices "by feel," baséd on what competitors charge or a rough estimate of ingredient costs.
+
+The problem is that the real food cost is often 20 to 40% higher than what you imagine. Why? Because people forget to count:
+
+- Sauces and condiments (ketchup, mayo, napkins, containers)
+- Cutting and préparation losses
+- Products thrown away at end of service
+- Price variations from suppliers
+
+### How to Fix It
+
+**Create a recipe card for every dish.** List all ingredients, even the smallest ones, with their exact cost per gram or per liter. Include a 10 to 15% loss coefficient for fresh products.
+
+Your food cost should represent **between 25% and 35% of the selling price**. If you're above 35%, you're losing money on every sale.
+
+With [FoodTracks](https://foodtracks.io/en/pricing), food cost calculation is automatic. You scan your supplier invoices, enter your recipes, and the tool calculates your real margin on every dish. No more Excel spreadsheets.
+
+## Mistake #2: Offering Too Many Menu Items
+
+It's tempting to have a varied menu to please everyone. But in a food truck, every additional dish has a hidden cost:
+
+- More raw materials to store (and therefore more potential waste)
+- More préparation time
+- More complexity during rush hour
+- More risk of running out of specific ingredients
+
+The most profitable food trucks typically have **between 4 and 7 main dishes**. That's it. And it's more than enough.
+
+### How to Fix It
+
+**Analyze your sales over the past 3 months.** Identify the dishes that account for 80% of your revenue. These are your best-sellers. The rest? Ask yourself honestly: do they justify the storage space, prep time, and waste they generate?
+
+The ideal setup is:
+- 4 to 6 main dishes (including 1 or 2 végétarian options)
+- 2 to 3 sides
+- 2 to 3 drinks
+- 1 optional dessert
+
+Think "rotation" rather than "breadth." Change 1 or 2 dishes each month to keep things interesting, but maintain a stable core menu.
+
+With [SumUp sales tracking integrated into FoodTracks](https://foodtracks.io/en/pricing), you can see at a glance which dishes perform well and which ones drag down your margins.
+
+## Mistake #3: Poorly Managing Your Locations
+
+Not all spots are created equal, and yet many food truckers stick to unprofitable locations out of habit or fear of losing their spot.
+
+A good location is one where the ratio between revenue generated and costs incurred (travel, pitch fee, time) is positive. A market where you make EUR300 in revenue for 4 hours of work + EUR50 in pitch fees + EUR30 in gas gives you net revenue of EUR220. If your food cost is at 35%, you have EUR143 left to cover your fixed costs, your salary, and your social contributions. That's very tight.
+
+### How to Fix It
+
+**Keep a dashboard for each location.** For each spot, record:
+
+- Revenue generated
+- Pitch cost
+- Travel cost (fuel + time)
+- Number of services
+- Weather conditions
+
+After 2 months, you'll have a clear picture. Locations below your breakeven threshold should be replaced with new spots to test.
+
+FoodTracks does this tracking automatically. By connecting your [SumUp terminal](https://foodtracks.io/en/pricing), every sale is geolocated and linked to a location. You can instantly see which spots are goldmines and which ones are money pits.
+
+## Mistake #4: Ignoring Food Waste
+
+Waste is money going straight into the bin. Literally. And in a food truck, it takes several forms:
+
+- **Expired products**: you over-ordered and it ends up in the trash
+- **Oversized portions**: every extra 10g of meat, multiplied by 100 portions, is 1kg of free raw material
+- **Poor storage**: the cold chain in a truck is fragile
+- **Over-préparation**: you prep for 80 covers and serve 50
+
+Average waste in food service is estimated at **10% of revenue**. For a food truck doing EUR100,000 in annual revenue, that's EUR10,000 thrown away.
+
+### How to Fix It
+
+**Weigh everything for one week.** Yes, it's tedious, but it's eye-opening. Weigh what you throw out at the end of service, what expires in your fridges, what's left in prep containers.
+
+Then act on 3 levers:
+
+1. **Adjust your orders** baséd on your actual sales history (not what you hope to sell)
+2. **Standardize your portions** with calibrated ladles, spoons, and containers
+3. **Monitor your expiration dates** and adapt your menu to use products nearing their use-by date
+
+The [inventory management module in FoodTracks](https://foodtracks.io/en/pricing) alerts you when a product approaches its expiration date. And thanks to AI-powered forecasting, you order just the right amount for each service.
+
+## Mistake #5: Not Tracking Your Numbers (or Tracking Them Too Late)
+
+This is the mother of all mistakes. Many food truckers only look at their numbers once a month, or even once a quarter, when the accountant sends the balance sheet. By that point, it's too late to react.
+
+If you discover in April that your margin dropped in February, you've lost 2 months of optimizable revenue.
+
+### How to Fix It
+
+**Track 4 key metrics every week**:
+
+1. **Revenue per service**: how much you make per hour worked
+2. **Food cost percentage**: the weight of your ingredients in your revenue
+3. **Average ticket**: how much each customer spends on average
+4. **Cover count**: how many customers you serve per service
+
+These 4 numbers are enough to steer your business day to day. If food cost exceeds 35%, you need to act. If the average ticket drops, you need to rethink your sales strategy (menu engineering, upselling, combos).
+
+FoodTracks centralises all these metrics in a [mobile-friendly dashboard](https://foodtracks.io/en/pricing). You see your margins in real time, not 3 months later.
+
+## The 30-Day Action Plan
+
+You can't fix everything at once. Here's a progressive plan:
+
+### Week 1: The Diagnosis
+- List all your dishes and calculate the real food cost for each one
+- Note the revenue for each location over the last 2 months
+- Weigh your food waste for 5 services
+
+### Week 2: The Cleanup
+- Remove dishes with food costs above 40%
+- Identify your 2 least profitable locations
+- Standardize your portions with measuring tools
+
+### Week 3: The Optimization
+- Adjust your prices to target 28-32% food cost
+- Test 1 or 2 new locations to replace the least profitable ones
+- Set up weekly tracking of your 4 key metrics
+
+### Week 4: The Automation
+- Set up FoodTracks for invoice scanning and SumUp tracking
+- Enter your recipe cards into the tool
+- Schedule a 15-minute numbers review every Monday morning
+
+## What This Actually Changes
+
+Food truckers who fix these 5 mistakes typically see:
+
+- **A margin increase of 8 to 15 points** within 2 to 3 months
+- **A waste réduction of 30 to 50%** from the very first month
+- **A time savings of 3 to 5 hours per week** on administrative tasks
+- **Better cash flow** thanks to optimized ordering
+
+These aren't marketing promises. These are results observed by FoodTracks users who took the time to implement these best practices.
+
+## Conclusion
+
+A food truck's profitability doesn't just dépend on the quality of your food or the number of customers. It dépends above all on your ability to control your costs, optimize your opérations, and make décisions baséd on real data.
+
+These 5 mistakes are fixable. You just need to start. And if you want to move faster, [FoodTracks is here to help](https://foodtracks.io/en/pricing) -- free, no commitment required.`,
+    },
+    keyTakeaways: {
+      fr: [
+        "Le coût matière réel est souvent 20 à 40% plus élevé que ce qu'on imagine",
+        "Les food trucks les plus rentables ont entre 4 et 7 plats principaux maximum",
+        "Le gaspillage alimentaire représente en moyenne 10% du CA d'un food truck",
+        "Suivre 4 indicateurs clés chaque semaine suffit pour piloter sa rentabilité",
+        "FoodTracks automatise le suivi des marges, du gaspillage et des performances par emplacement",
+      ],
+      en: [
+        "Real food cost is often 20 to 40% higher than what owners estimate",
+        "The most profitable food trucks have between 4 and 7 main dishes maximum",
+        "Food waste represents an average of 10% of a food truck's revenue",
+        "Tracking 4 key metrics weekly is enough to steer profitability",
+        "FoodTracks automates margin tracking, waste monitoring, and per-location performance",
+      ],
+    },
+    faqItems: [
+      {
+        question: {
+          fr: "Quel est le coût matière ideal pour un food truck ?",
+          en: "What is the ideal food cost for a food truck?",
+        },
+        answer: {
+          fr: "Le coût matière ideal se situe entre 25% et 35% du prix de vente. Au-dessus de 35%, vous perdez de l'argent sur chaque plat vendu. Créez des fiches techniques pour chaque recette afin de calculér votre coût réel.",
+          en: "The ideal food cost is between 25% and 35% of the selling price. Above 35%, you're losing money on every dish sold. Create recipe cards for each dish to calculate your real cost.",
+        },
+      },
+      {
+        question: {
+          fr: "Combien de plats devrait proposer un food truck ?",
+          en: "How many dishes should a food truck offer?",
+        },
+        answer: {
+          fr: "Entre 4 et 7 plats principaux. Les food trucks les plus rentables gardent un menu restreint pour limiter le gaspillage, réduire les temps de préparation et simplifier la gestion des stocks.",
+          en: "Between 4 and 7 main dishes. The most profitable food trucks keep a limited menu to reduce waste, cut prep time, and simplify inventory management.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment savoir si un emplacement de food truck est rentable ?",
+          en: "How to know if a food truck location is profitable?",
+        },
+        answer: {
+          fr: "Tenez un tableau de bord par emplacement avec le CA réalisé, les frais d'emplacement, le coût de déplacement et la météo. Après 2 mois de suivi, remplacez les spots en dessous de votre seuil de rentabilité.",
+          en: "Keep a dashboard for each location tracking revenue, pitch fees, travel costs, and weather. After 2 months of tracking, replace spots below your breakeven threshold.",
+        },
+      },
+      {
+        question: {
+          fr: "Quels indicateurs suivre pour améliorer la rentabilité d'un food truck ?",
+          en: "What metrics should you track to improve food truck profitability?",
+        },
+        answer: {
+          fr: "Suivez 4 indicateurs chaque semaine : le chiffre d'affaires par service, le coût matière en pourcentage, le panier moyen et le nombre de couverts. FoodTracks centralise ces données en temps réel.",
+          en: "Track 4 metrics weekly: revenue per service, food cost percentage, average ticket, and cover count. FoodTracks centralises this data in real time.",
+        },
+      },
+    ],
+  },
 ];
 
 export function getArticleBySlug(slug: string): BlogArticle | undefined {
