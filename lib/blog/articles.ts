@@ -4213,6 +4213,248 @@ The only question left: **how many more services will you run blind?**`,
       },
     ],
   },
+  {
+    slug: "food-truck-saison-creuse-strategies",
+    title: {
+      fr: "Food Truck en Saison Creuse : 7 Strategies pour Maintenir votre Chiffre d'Affaires",
+      en: "Food Truck in the Off-Season: 7 Strategies to Maintain Your Revenue",
+    },
+    excerpt: {
+      fr: "La saison creuse ne doit pas rimer avec pertes. Decouvrez 7 strategies concretes pour garder votre food truck rentable toute l'annee, meme en hiver.",
+      en: "The off-season doesn't have to mean losses. Discover 7 concrete strategies to keep your food truck profitable year-round, even in winter.",
+    },
+    category: { fr: "Strategie", en: "Strategy" },
+    date: "2026-03-15",
+    readTime: 10,
+    keywords: ["food truck saison creuse", "food truck hiver", "rentabilite food truck toute annee", "food truck off season", "food truck winter strategies"],
+    heroImage: "/blog/saison-creuse.webp",
+    content: {
+      fr: `## Pourquoi la saison creuse fait peur aux food truckers
+
+Entre novembre et mars, la frequentation des marches et evenements en plein air chute de **40 a 60%** en France. Pour beaucoup de food truckers, c'est la periode ou les doutes s'installent : faut-il tout arreter et attendre le printemps ?
+
+**Non.** Les food truckers qui reussissent sont ceux qui transforment la saison creuse en opportunite. Voici comment.
+
+## Les 7 strategies qui fonctionnent
+
+### 1. Pivoter vers l'evenementiel prive
+
+L'hiver est la saison des fetes d'entreprise, des marches de Noel et des evenements prives. Ces prestations sont souvent **plus rentables** que les marches classiques :
+- Nombre de couverts garanti a l'avance
+- Prix par personne plus eleve (menu fixe)
+- Pas de concurrence directe sur place
+
+**Action concrete** : des septembre, contactez les entreprises locales, les comites d'entreprise et les organisateurs d'evenements. Proposez des formules claires avec menu, prix par personne et options.
+
+### 2. Adapter votre menu aux saisons
+
+Les clients veulent du reconfort en hiver. Adaptez votre carte :
+- Soupes, raclettes, plats mijotes
+- Boissons chaudes (chocolat, vin chaud, cafe gourmand)
+- Portions plus genereuses
+
+Un menu hivernal bien pense peut **augmenter votre panier moyen de 20 a 30%** car les clients depensent plus pour des plats chauds et copieux.
+
+### 3. Chercher des emplacements couverts
+
+Les marches couverts, les halles alimentaires et les zones commerciales couvertes sont vos allies en hiver :
+- Protection contre la meteo
+- Flux de clients regulier
+- Pas de dependance au beau temps
+
+Renseignez-vous aupres de votre mairie et des gestionnaires de centres commerciaux. Certains proposent des emplacements temporaires pour les food trucks.
+
+### 4. Developper la vente a emporter et la livraison
+
+En hiver, les gens commandent plus en ligne. Profitez-en :
+- Inscrivez-vous sur les plateformes de livraison (Uber Eats, Deliveroo)
+- Proposez la commande en ligne avec retrait sur place
+- Offrez la livraison dans un rayon de 5 km pour les commandes groupees
+
+**Attention** : les commissions des plateformes (25-30%) impactent vos marges. Privilegiez votre propre systeme de commande quand c'est possible.
+
+### 5. Creer des partenariats locaux
+
+Associez-vous avec d'autres commerces pour creer du trafic :
+- **Brasseries** : installez-vous sur leur parking les soirs de match
+- **Salles de sport** : proposez des menus healthy a la sortie
+- **Entreprises** : devenez le food truck attitre du dejeuner une fois par semaine
+- **Marches de Noel** : reservez votre emplacement des l'ete
+
+Ces partenariats garantissent un flux de clients meme quand le trafic de rue est faible.
+
+### 6. Optimiser vos couts fixes
+
+La saison creuse est le moment ideal pour revoir vos depenses :
+- **Renegociez vos assurances** (certaines proposent des tarifs saisonniers)
+- **Reduisez votre stock** au strict minimum pour eviter le gaspillage
+- **Planifiez vos achats** en fonction des services confirmes uniquement
+- **Utilisez un outil de prediction** comme FoodTracks pour ajuster vos commandes
+
+Avec FoodTracks, vous pouvez analyser vos ventes passees par periode et ajuster automatiquement vos previsions. En saison creuse, chaque euro economise sur le stock est un euro de marge preservee.
+
+### 7. Investir dans votre visibilite en ligne
+
+Profitez du temps libre pour renforcer votre presence :
+- Publiez regulierement sur Instagram et Facebook (recettes, coulisses, menu hivernal)
+- Collectez les avis Google de vos clients satisfaits
+- Mettez a jour votre site web et votre fiche Google Business
+- Creez une newsletter pour annoncer vos prochains emplacements
+
+Les food truckers qui communiquent en hiver repartent plus fort au printemps car leur audience est deja engagee.
+
+## Planifier sa saison creuse avec les donnees
+
+La cle pour survivre a la saison creuse, c'est l'**anticipation**. En analysant vos donnees des annees precedentes, vous pouvez :
+- Identifier les periodes les plus rentables meme en hiver
+- Savoir quels emplacements fonctionnent par temps froid
+- Prevoir votre tresorerie mois par mois
+- Ajuster votre stock pour eviter les pertes
+
+**FoodTracks** vous donne cette visibilite en croisant vos ventes SumUp, vos couts (via le scan de factures) et les previsions meteo. Vous savez exactement quand et ou vous installer pour maximiser vos revenus.
+
+## Conclusion
+
+La saison creuse n'est pas une fatalite. Avec les bonnes strategies — evenementiel, menu adapte, emplacements couverts, livraison et optimisation des couts — vous pouvez maintenir un chiffre d'affaires solide toute l'annee. Les meilleurs food truckers ne subissent pas l'hiver, ils le preparent.
+
+[Essayez FoodTracks gratuitement](https://foodtracks.io/fr/pricing) pour planifier votre saison creuse avec des donnees fiables.`,
+      en: `## Why the Off-Season Scares Food Truckers
+
+Between November and March, foot traffic at outdoor markets and events drops by **40 to 60%**. For many food truck operators, this is the period when doubts creep in: should you shut down and wait for spring?
+
+**No.** Successful food truckers are those who turn the off-season into an opportunity. Here's how.
+
+## 7 Strategies That Work
+
+### 1. Pivot to Private Events
+
+Winter is the season of corporate parties, Christmas markets, and private events. These gigs are often **more profitable** than regular markets:
+- Guaranteed headcount in advance
+- Higher price per person (set menu)
+- No direct competition on site
+
+**Action step**: from September, contact local businesses, works councils, and event planners. Offer clear packages with menu, price per person, and add-on options.
+
+### 2. Adapt Your Menu to the Season
+
+Customers want comfort food in winter. Adjust your offering:
+- Soups, stews, hearty dishes
+- Hot drinks (hot chocolate, mulled wine, specialty coffee)
+- Larger portions
+
+A well-designed winter menu can **increase your average order value by 20 to 30%** as customers spend more on warm, filling dishes.
+
+### 3. Find Covered Locations
+
+Indoor markets, food halls, and covered retail areas are your winter allies:
+- Weather protection
+- Steady customer flow
+- No dependence on sunshine
+
+Check with your local council and shopping centre managers. Some offer temporary spots for food trucks during winter months.
+
+### 4. Develop Takeaway and Delivery
+
+People order more online in winter. Take advantage:
+- Register on delivery platforms (Uber Eats, Deliveroo, DoorDash)
+- Offer online ordering with on-site pickup
+- Provide delivery within a 3-mile radius for group orders
+
+**Warning**: platform commissions (25-30%) impact your margins. Prefer your own ordering system when possible.
+
+### 5. Build Local Partnerships
+
+Partner with other businesses to drive traffic:
+- **Pubs/Bars**: set up in their car park on game nights
+- **Gyms**: offer healthy menus at closing time
+- **Offices**: become the weekly lunch food truck
+- **Christmas markets**: book your spot by summer
+
+These partnerships guarantee customer flow even when street traffic is low.
+
+### 6. Optimize Fixed Costs
+
+The off-season is the perfect time to review expenses:
+- **Renegotiate insurance** (some offer seasonal rates)
+- **Reduce stock** to the strict minimum to avoid waste
+- **Plan purchases** based on confirmed services only
+- **Use a prediction tool** like FoodTracks to adjust orders
+
+With FoodTracks, you can analyse past sales by period and automatically adjust forecasts. In the off-season, every penny saved on stock is a penny of margin preserved.
+
+### 7. Invest in Online Visibility
+
+Use your downtime to strengthen your presence:
+- Post regularly on Instagram and Facebook (recipes, behind-the-scenes, winter menu)
+- Collect Google reviews from satisfied customers
+- Update your website and Google Business profile
+- Create a newsletter to announce your next locations
+
+Food truckers who communicate during winter come back stronger in spring because their audience is already engaged.
+
+## Planning Your Off-Season with Data
+
+The key to surviving the off-season is **anticipation**. By analysing your data from previous years, you can:
+- Identify the most profitable periods even in winter
+- Know which locations work in cold weather
+- Forecast your cash flow month by month
+- Adjust stock to avoid losses
+
+**FoodTracks** gives you this visibility by combining your SumUp sales, costs (via invoice scanning), and weather forecasts. You know exactly when and where to set up to maximise revenue.
+
+## Conclusion
+
+The off-season is not inevitable decline. With the right strategies — private events, adapted menus, covered locations, delivery, and cost optimisation — you can maintain solid revenue year-round. The best food truckers don't suffer through winter; they prepare for it.
+
+[Try FoodTracks for free](https://foodtracks.io/en/pricing) to plan your off-season with reliable data.`,
+    },
+    keyTakeaways: {
+      fr: [
+        "La frequentation chute de 40 a 60% en saison creuse, mais ce n'est pas une fatalite",
+        "L'evenementiel prive (fetes d'entreprise, marches de Noel) est souvent plus rentable que les marches classiques",
+        "Un menu hivernal adapte peut augmenter le panier moyen de 20 a 30%",
+        "L'anticipation par les donnees est la cle : analyser les ventes passees pour prevoir la tresorerie et ajuster les stocks",
+      ],
+      en: [
+        "Foot traffic drops 40 to 60% in the off-season, but it doesn't have to mean losses",
+        "Private events (corporate parties, Christmas markets) are often more profitable than regular markets",
+        "An adapted winter menu can increase average order value by 20 to 30%",
+        "Data-driven anticipation is key: analyse past sales to forecast cash flow and adjust stock",
+      ],
+    },
+    faqItems: [
+      {
+        question: {
+          fr: "Comment rester rentable en food truck pendant l'hiver ?",
+          en: "How to stay profitable as a food truck during winter?",
+        },
+        answer: {
+          fr: "Combinez plusieurs strategies : pivotez vers l'evenementiel prive, adaptez votre menu avec des plats chauds, trouvez des emplacements couverts, et utilisez un outil comme FoodTracks pour optimiser vos couts et prevoir vos besoins.",
+          en: "Combine several strategies: pivot to private events, adapt your menu with warm dishes, find covered locations, and use a tool like FoodTracks to optimise costs and forecast needs.",
+        },
+      },
+      {
+        question: {
+          fr: "Quels sont les meilleurs emplacements pour un food truck en hiver ?",
+          en: "What are the best locations for a food truck in winter?",
+        },
+        answer: {
+          fr: "Les marches couverts, les halles alimentaires, les parkings de centres commerciaux, les zones d'entreprises pour le dejeuner, et les marches de Noel sont les emplacements les plus porteurs en hiver.",
+          en: "Indoor markets, food halls, shopping centre car parks, business district lunch spots, and Christmas markets are the most promising winter locations.",
+        },
+      },
+      {
+        question: {
+          fr: "Faut-il s'inscrire sur les plateformes de livraison en saison creuse ?",
+          en: "Should I register on delivery platforms during the off-season?",
+        },
+        answer: {
+          fr: "Oui, la livraison peut compenser la baisse de trafic en rue. Mais attention aux commissions (25-30%). Privilegiez votre propre systeme de commande en ligne pour garder vos marges, et utilisez les plateformes pour la visibilite.",
+          en: "Yes, delivery can offset reduced street traffic. But watch out for commissions (25-30%). Prefer your own online ordering system to protect margins, and use platforms for visibility.",
+        },
+      },
+    ],
+  },
 ];
 
 export function getArticleBySlug(slug: string): BlogArticle | undefined {
