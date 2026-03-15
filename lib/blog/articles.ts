@@ -4455,6 +4455,398 @@ The off-season is not inevitable decline. With the right strategies — private 
       },
     ],
   },
+  {
+    slug: "gerer-equipe-food-truck",
+    title: {
+      fr: "Comment Gerer son Equipe en Food Truck : Recrutement, Organisation et Motivation",
+      en: "How to Manage Your Food Truck Team: Hiring, Organization and Motivation",
+    },
+    excerpt: {
+      fr: "Recruter, former et fideliser une equipe en food truck est un defi unique. Decouvrez les meilleures pratiques pour construire une equipe performante dans un espace reduit.",
+      en: "Recruiting, training and retaining a food truck team is a unique challenge. Discover best practices for building a high-performing team in a compact workspace.",
+    },
+    category: { fr: "Gestion", en: "Management" },
+    date: "2026-03-15",
+    readTime: 11,
+    keywords: [
+      "gerer equipe food truck",
+      "recrutement food truck",
+      "management food truck",
+      "organisation equipe food truck",
+      "food truck team management",
+      "food truck hiring",
+      "food truck staff",
+    ],
+    heroImage: "/blog/food-truck-equipe.png",
+    content: {
+      fr: `## Pourquoi la gestion d'equipe est differente en food truck
+
+Gerer une equipe en food truck n'a rien a voir avec le management en restaurant classique. Vous travaillez dans **2 a 8 m2**, avec une equipe reduite (souvent 1 a 3 personnes), sous pression constante pendant le rush. Chaque membre doit etre polyvalent, rapide et autonome.
+
+Pourtant, beaucoup de food truckers negligent cet aspect. Resultat : un turnover eleve, des services chaotiques et une fatigue qui s'accumule. **Bien gerer votre equipe est aussi important que bien gerer votre menu.**
+
+## Recruter les bons profils pour un food truck
+
+### Les qualites essentielles
+
+En food truck, les competences techniques s'apprennent sur le tas. Ce qui compte vraiment :
+
+- **Polyvalence** : votre equipe doit savoir faire la cuisine, le service, l'encaissement et le nettoyage
+- **Resistance au stress** : le rush de midi en food truck est intense, dans un espace confine
+- **Autonomie** : impossible de micro-manager quand tout le monde est occupe
+- **Bonne humeur** : le contact client est permanent, un sourire fait la difference
+- **Ponctualite** : un retard de 15 minutes peut retarder tout le service
+
+### Ou trouver des candidats
+
+Les canaux classiques (Indeed, Pole Emploi) fonctionnent, mais les meilleurs profils viennent souvent de :
+
+- **Le bouche-a-oreille** entre food truckers — la communaute est solidaire
+- **Les ecoles hotelieres** — des stagiaires motives qui veulent de l'experience terrain
+- **Les reseaux sociaux** — un post Instagram ou Facebook montrant l'ambiance de votre truck attire les profils qui partagent vos valeurs
+- **Les forums et groupes Facebook** dedies aux food truckers
+
+### Les erreurs de recrutement a eviter
+
+1. **Recruter dans l'urgence** : ne prenez pas le premier candidat parce que vous en avez besoin demain
+2. **Negliger la periode d'essai** : un service test en conditions reelles vaut mieux qu'un long entretien
+3. **Oublier les softskills** : un excellent cuisinier qui ne supporte pas le stress du rush sera contre-productif
+
+## Organiser le travail dans un espace reduit
+
+### Definir des roles clairs
+
+Meme avec 2 personnes, chacun doit savoir exactement quoi faire :
+
+- **Poste cuisine** : preparation, cuisson, dressage
+- **Poste service** : prise de commande, encaissement, remise des plats
+- **Poste prep** : mise en place avant le service, nettoyage apres
+
+En duo, une personne prend la cuisine et l'autre le service. En trio, le troisieme gere la prep et vient en renfort la ou ca bloque.
+
+### Creer des procedures simples
+
+Documentez vos procedures de base :
+
+- **Checklist d'ouverture** : allumer les equipements, verifier les stocks, preparer les sauces
+- **Protocole rush** : qui fait quoi quand il y a 15 personnes qui attendent
+- **Checklist de fermeture** : nettoyage, rangement, comptage de caisse
+
+Avec **FoodTracks**, vous pouvez suivre vos ventes en temps reel via l'integration SumUp. Votre equipe sait exactement combien de portions ont ete vendues, ce qui reste en stock, et quand il faut ralentir les commandes d'un produit.
+
+### Optimiser les deplacements
+
+Dans un food truck, chaque pas compte. Organisez votre espace pour que :
+
+- Les ingredients les plus utilises soient a portee de main
+- Le parcours cuisine → service soit fluide (pas de croisements)
+- Chaque outil ait une place fixe (le fameux "une place pour chaque chose")
+
+## Former votre equipe efficacement
+
+### La formation sur le terrain
+
+Oubliez les manuels de 50 pages. En food truck, la formation se fait en conditions reelles :
+
+1. **Jour 1** : observation d'un service complet
+2. **Jour 2-3** : prise en main progressive d'un poste sous supervision
+3. **Jour 4-5** : autonomie sur le poste, avec feedback en fin de service
+4. **Semaine 2** : rotation sur les autres postes
+
+### Les competences a transmettre en priorite
+
+- **Hygiene et securite** : les regles HACCP sont non-negociables (voir notre [guide HACCP food truck](/fr/blog/hygiene-haccp-food-truck))
+- **Le menu** : chaque membre doit connaitre les ingredients, les allergenes, les prix
+- **L'encaissement** : savoir utiliser la caisse (SumUp, TPE) sans erreur
+- **La gestion des reclamations** : comment reagir face a un client mecontent
+
+### Utiliser la technologie pour faciliter la formation
+
+Un outil comme FoodTracks simplifie la formation car il centralise tout :
+
+- Les fiches recettes avec les quantites exactes
+- Le suivi des stocks en temps reel (plus besoin de compter a la main)
+- Les donnees de vente qui montrent objectivement les performances
+
+Un nouveau arrive ? Il consulte les recettes sur l'app, voit les ventes du jour, et comprend rapidement le rythme.
+
+## Motiver et fideliser votre equipe
+
+### Le turnover, fleau du food truck
+
+Le secteur de la restauration a un taux de turnover moyen de **70% par an**. En food truck, c'est souvent pire a cause des conditions difficiles : chaleur en ete, froid en hiver, horaires decales, travail physique.
+
+### Les leviers de motivation qui fonctionnent
+
+1. **La remuneration juste** : payez au-dessus du minimum si vous pouvez. Un bon equipier qui reste 2 ans vaut mieux que 4 debutants qui partent apres 3 mois
+2. **Les primes sur performance** : un pourcentage du CA au-dela d'un objectif motive tout le monde
+3. **L'autonomie** : laissez votre equipe proposer des idees de plats, d'ameliorations. L'implication cree l'engagement
+4. **L'ambiance** : en food truck, vous etes colle les uns aux autres. La bonne entente n'est pas un luxe, c'est une necessite
+5. **La reconnaissance** : un simple "merci, c'etait un bon service" fait plus que vous ne croyez
+
+### Gerer les conflits dans un espace confine
+
+En 4 m2, un desaccord peut vite devenir insupportable. Regles d'or :
+
+- **Jamais de conflits devant les clients** — on en parle apres le service
+- **Des roles clairs** evitent 80% des frictions
+- **Des debriefs reguliers** (5 min apres chaque service) permettent de vider les tensions
+
+## Les aspects legaux a ne pas oublier
+
+### Types de contrats adaptes
+
+- **CDI** : pour votre equipe permanente, c'est la stabilite
+- **CDD saisonnier** : parfait pour renforcer l'equipe en haute saison (avril-octobre)
+- **Extra** : pour les evenements ponctuels (festivals, mariages)
+- **Stage** : etudiants en ecole hoteliere, convention obligatoire
+
+### Les obligations legales
+
+- **Declaration prealable a l'embauche** (DPAE) aupres de l'URSSAF
+- **Visite medicale** d'embauche
+- **Formation hygiene** : au moins un membre de l'equipe doit avoir la formation HACCP
+- **Registre du personnel** a jour
+- **Respect du Code du travail** : temps de pause, duree maximale de travail, repos hebdomadaire
+
+### La planification des horaires
+
+Un planning clair et communique a l'avance est essentiel. En food truck, les horaires sont souvent irreguliers (marche le matin, festival le soir). Utilisez un outil simple (meme un Google Sheet partage) pour que chacun sache quand il travaille.
+
+## Le role de la technologie dans le management d'equipe
+
+### Centraliser les donnees pour mieux decider
+
+Avec **FoodTracks**, vous centralisez toutes les donnees de votre activite :
+
+- **Ventes par service** : identifiez vos meilleurs services pour adapter le staffing
+- **Marges par produit** : formez votre equipe a pousser les produits les plus rentables
+- **Predictions de ventes** : anticipez le nombre de couverts et adaptez votre equipe en consequence
+- **Suivi des stocks** : votre equipe sait en temps reel ce qui reste et peut adapter les recommandations
+
+### Mesurer pour progresser
+
+Les donnees ne mentent pas. En suivant vos performances service par service, vous pouvez :
+
+- Identifier les services ou l'equipe est en sous-effectif (temps de service long, mecontentement)
+- Reperer les pics d'activite pour planifier le bon nombre de personnes
+- Comparer les performances selon la composition de l'equipe
+
+## Conclusion
+
+Gerer une equipe en food truck demande des competences specifiques : recruter les bons profils, organiser le travail dans un espace reduit, former rapidement, et motiver au quotidien. C'est un investissement qui se rembourse largement en qualite de service, en fidélité client, et en tranquillite d'esprit.
+
+Ne sous-estimez pas l'humain dans votre business. Le meilleur menu du monde, servi par une equipe demotivee dans un service desorganise, ne vaut rien. A l'inverse, une equipe soudee et bien geree peut transformer un simple burger en experience memorable.
+
+[Essayez FoodTracks gratuitement](https://foodtracks.io/fr/pricing) pour donner a votre equipe les outils dont elle a besoin.`,
+      en: `## Why Team Management Is Different in a Food Truck
+
+Managing a food truck team has nothing in common with running a traditional restaurant crew. You work in **2 to 8 square metres**, with a small team (usually 1 to 3 people), under constant pressure during the rush. Every team member must be versatile, fast and autonomous.
+
+Yet many food truckers neglect this aspect. The result: high turnover, chaotic services and accumulating fatigue. **Managing your team well is just as important as managing your menu.**
+
+## Recruiting the Right Profiles for a Food Truck
+
+### Essential Qualities
+
+In a food truck, technical skills are learned on the job. What really matters:
+
+- **Versatility**: your team must handle cooking, serving, cash handling and cleaning
+- **Stress resistance**: the lunch rush in a food truck is intense, in a confined space
+- **Autonomy**: impossible to micro-manage when everyone is busy
+- **Positive attitude**: customer contact is constant — a smile makes all the difference
+- **Punctuality**: a 15-minute delay can push back the entire service
+
+### Where to Find Candidates
+
+Traditional channels (Indeed, LinkedIn) work, but the best profiles often come from:
+
+- **Word of mouth** between food truckers — the community is supportive
+- **Hospitality schools** — motivated interns looking for hands-on experience
+- **Social media** — an Instagram or Facebook post showing your truck's atmosphere attracts people who share your values
+- **Dedicated food truck forums and Facebook groups**
+
+### Hiring Mistakes to Avoid
+
+1. **Hiring in a rush**: don't take the first candidate because you need someone tomorrow
+2. **Skipping the trial period**: a real-world test service is worth more than a long interview
+3. **Ignoring soft skills**: an excellent cook who can't handle rush-hour stress will be counterproductive
+
+## Organising Work in a Compact Space
+
+### Define Clear Roles
+
+Even with just 2 people, everyone must know exactly what to do:
+
+- **Kitchen station**: prep, cooking, plating
+- **Service station**: order taking, payment, handing out dishes
+- **Prep station**: mise en place before service, cleaning after
+
+With two people, one handles the kitchen and the other handles service. With three, the third manages prep and provides backup wherever needed.
+
+### Create Simple Procedures
+
+Document your basic procedures:
+
+- **Opening checklist**: switch on equipment, check stock, prepare sauces
+- **Rush protocol**: who does what when 15 people are waiting
+- **Closing checklist**: cleaning, tidying, cash count
+
+With **FoodTracks**, you can track sales in real time via SumUp integration. Your team knows exactly how many portions have been sold, what remains in stock, and when to slow down orders for a product.
+
+### Optimise Movement
+
+In a food truck, every step counts. Organise your space so that:
+
+- The most-used ingredients are within arm's reach
+- The kitchen-to-service path is smooth (no crossing)
+- Every tool has a fixed spot (the famous "a place for everything")
+
+## Training Your Team Effectively
+
+### On-the-Job Training
+
+Forget 50-page manuals. In a food truck, training happens in real conditions:
+
+1. **Day 1**: observe a full service
+2. **Day 2-3**: gradually take over a station under supervision
+3. **Day 4-5**: work the station independently, with feedback after service
+4. **Week 2**: rotate to other stations
+
+### Priority Skills to Teach
+
+- **Hygiene and safety**: HACCP rules are non-negotiable (see our [HACCP food truck guide](/en/blog/hygiene-haccp-food-truck))
+- **The menu**: every team member must know ingredients, allergens and prices
+- **Payment handling**: using the POS (SumUp, card terminal) without errors
+- **Complaint handling**: how to respond to an unhappy customer
+
+### Using Technology to Simplify Training
+
+A tool like FoodTracks simplifies training by centralising everything:
+
+- Recipe cards with exact quantities
+- Real-time stock tracking (no more manual counting)
+- Sales data that objectively shows performance
+
+New team member? They check recipes on the app, see the day's sales, and quickly understand the rhythm.
+
+## Motivating and Retaining Your Team
+
+### Turnover: The Food Truck Plague
+
+The hospitality industry has an average turnover rate of **70% per year**. In food trucks, it's often worse due to tough conditions: heat in summer, cold in winter, irregular hours, physical work.
+
+### Motivation Levers That Work
+
+1. **Fair pay**: pay above minimum wage if you can. A good team member who stays 2 years is worth more than 4 beginners who leave after 3 months
+2. **Performance bonuses**: a percentage of revenue above a target motivates everyone
+3. **Autonomy**: let your team suggest dish ideas and improvements. Involvement creates engagement
+4. **Atmosphere**: in a food truck, you're working shoulder to shoulder. Good team spirit isn't a luxury — it's a necessity
+5. **Recognition**: a simple "thanks, that was a great service" goes further than you think
+
+### Managing Conflicts in a Confined Space
+
+In 4 square metres, a disagreement can quickly become unbearable. Golden rules:
+
+- **Never argue in front of customers** — discuss it after service
+- **Clear roles** prevent 80% of friction
+- **Regular debriefs** (5 minutes after each service) help release tension
+
+## Legal Aspects Not to Overlook
+
+### Contract Types That Fit
+
+- **Permanent contract**: for your core team — stability matters
+- **Seasonal fixed-term**: perfect for reinforcing the team in high season (April-October)
+- **Casual/Extra**: for one-off events (festivals, weddings)
+- **Internship**: hospitality students, formal agreement required
+
+### Legal Obligations
+
+- **Pre-hire declaration** with the relevant authorities
+- **Medical check-up** upon hiring
+- **Hygiene training**: at least one team member must hold HACCP certification
+- **Up-to-date staff register**
+- **Labour law compliance**: break times, maximum working hours, weekly rest
+
+### Scheduling
+
+A clear schedule communicated in advance is essential. In food trucks, hours are often irregular (morning market, evening festival). Use a simple tool (even a shared Google Sheet) so everyone knows when they're working.
+
+## The Role of Technology in Team Management
+
+### Centralise Data for Better Decisions
+
+With **FoodTracks**, you centralise all your business data:
+
+- **Sales per service**: identify your busiest services to adapt staffing
+- **Margins per product**: train your team to upsell the most profitable items
+- **Sales predictions**: anticipate covers and adjust your team accordingly
+- **Stock tracking**: your team knows in real time what's left and can adapt recommendations
+
+### Measure to Improve
+
+Data doesn't lie. By tracking performance service by service, you can:
+
+- Identify services where the team is understaffed (long service times, complaints)
+- Spot activity peaks to plan the right number of people
+- Compare performance based on team composition
+
+## Conclusion
+
+Managing a food truck team requires specific skills: recruiting the right profiles, organising work in a compact space, training quickly, and motivating daily. It's an investment that pays off in service quality, customer loyalty and peace of mind.
+
+Don't underestimate the human side of your business. The best menu in the world, served by a demotivated team during a disorganised service, is worthless. Conversely, a tight-knit, well-managed team can turn a simple burger into a memorable experience.
+
+[Try FoodTracks for free](https://foodtracks.io/en/pricing) to give your team the tools they need.`,
+    },
+    keyTakeaways: {
+      fr: [
+        "En food truck, la polyvalence et la resistance au stress sont plus importantes que les competences techniques pures",
+        "Des roles clairs et des procedures simples evitent 80% des frictions dans un espace confine",
+        "Le turnover en restauration atteint 70% par an — la remuneration juste et la reconnaissance sont les meilleurs leviers de retention",
+        "La technologie (FoodTracks, SumUp) simplifie la formation et donne a l'equipe une vision objective des performances",
+      ],
+      en: [
+        "In a food truck, versatility and stress resistance matter more than pure technical skills",
+        "Clear roles and simple procedures prevent 80% of friction in a confined space",
+        "Hospitality turnover reaches 70% per year — fair pay and recognition are the best retention levers",
+        "Technology (FoodTracks, SumUp) simplifies training and gives the team objective performance insights",
+      ],
+    },
+    faqItems: [
+      {
+        question: {
+          fr: "Combien de personnes faut-il pour gerer un food truck ?",
+          en: "How many people do you need to run a food truck?",
+        },
+        answer: {
+          fr: "La plupart des food trucks fonctionnent avec 1 a 3 personnes par service. En solo, vous gerez tout mais c'est epuisant. A deux, un cuisine et l'autre sert. A trois, vous pouvez gerer un rush important avec un poste de prep en renfort.",
+          en: "Most food trucks operate with 1 to 3 people per service. Solo, you handle everything but it's exhausting. With two, one cooks and the other serves. With three, you can handle a big rush with a prep station for backup.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment former rapidement un nouveau membre d'equipe en food truck ?",
+          en: "How to quickly train a new food truck team member?",
+        },
+        answer: {
+          fr: "Privilegiez la formation sur le terrain : jour 1 en observation, jours 2-3 en prise en main progressive, puis autonomie. Utilisez des checklists simples et un outil comme FoodTracks pour centraliser les recettes et le suivi des stocks.",
+          en: "Favour on-the-job training: day 1 observing, days 2-3 gradually taking over, then autonomy. Use simple checklists and a tool like FoodTracks to centralise recipes and stock tracking.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment reduire le turnover dans son food truck ?",
+          en: "How to reduce turnover in a food truck?",
+        },
+        answer: {
+          fr: "Payez au-dessus du minimum, offrez des primes sur performance, laissez votre equipe proposer des idees, maintenez une bonne ambiance, et surtout reconnaissez le travail bien fait. Un bon equipier qui reste 2 ans vaut mieux que 4 debutants.",
+          en: "Pay above minimum wage, offer performance bonuses, let your team suggest ideas, maintain a good atmosphere, and above all recognise good work. A good team member who stays 2 years is worth more than 4 beginners.",
+        },
+      },
+    ],
+  },
 ];
 
 export function getArticleBySlug(slug: string): BlogArticle | undefined {
