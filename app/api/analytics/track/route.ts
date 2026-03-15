@@ -148,14 +148,16 @@ async function ensureIndexesOnce() {
 }
 
 export async function POST(request: NextRequest) {
-  // Return 202 immediately — always fire-and-forget from client's perspective
-  // We do the actual work asynchronously after responding
   const rawBody = await request.text();
 
-  // Kick off processing without awaiting
-  processEvents(rawBody).catch(() => {
-    // Silently swallow errors — analytics must never break the app
-  });
+  // Must await processing before returning — on Vercel serverless,
+  // the function is frozen/killed once the response is sent, so
+  // fire-and-forget background work never completes.
+  try {
+    await processEvents(rawBody);
+  } catch {
+    // Analytics must never break the app — swallow errors silently
+  }
 
   return NextResponse.json({ ok: true }, { status: 202 });
 }

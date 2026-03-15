@@ -28,61 +28,60 @@ const LEGACY_EVENT_MAP: Record<string, EventType> = {
 };
 
 export async function trackEvent(event: string, data: Record<string, unknown> = {}) {
-  // Fire-and-forget — never block the API response
-  setImmediate(async () => {
-    try {
-      const type: EventType = LEGACY_EVENT_MAP[event] ?? 'feature_used';
+  // Await the insert — on Vercel serverless, setImmediate/background work
+  // is killed once the response is sent, so we must complete before returning.
+  try {
+    const type: EventType = LEGACY_EVENT_MAP[event] ?? 'feature_used';
 
-      const col = await getEventsCollection();
-      await col.insertOne({
-        eventId: crypto.randomUUID(),
-        type,
-        timestamp: new Date(),
-        sessionId: 'server',
-        pageViewId: 'server',
-        user: {
-          id: (data.userId as string) ?? null,
-          email: (data.email as string) ?? null,
-          businessId: (data.businessId as string) ?? null,
-          subscriptionTier: null,
-          role: null,
-          // Server-side events have no browser cookie context
-          anonymousId: null,
-          firstLandingPage: null,
-        },
-        page: {
-          url: '',
-          path: '',
-          search: '',
-          hash: '',
-          referrer: '',
-          locale: '',
-          title: '',
-          utmSource: null,
-          utmMedium: null,
-          utmCampaign: null,
-          utmTerm: null,
-          utmContent: null,
-        },
-        device: {
-          userAgent: 'server',
-          language: '',
-          timezone: '',
-          screenWidth: 0,
-          screenHeight: 0,
-          viewportWidth: 0,
-          viewportHeight: 0,
-          isMobile: false,
-          platform: 'server',
-        },
-        properties: {
-          // Preserve the original event name for filtering
-          serverEvent: event,
-          ...data,
-        },
-      });
-    } catch {
-      // Analytics must never break the app
-    }
-  });
+    const col = await getEventsCollection();
+    await col.insertOne({
+      eventId: crypto.randomUUID(),
+      type,
+      timestamp: new Date(),
+      sessionId: 'server',
+      pageViewId: 'server',
+      user: {
+        id: (data.userId as string) ?? null,
+        email: (data.email as string) ?? null,
+        businessId: (data.businessId as string) ?? null,
+        subscriptionTier: null,
+        role: null,
+        // Server-side events have no browser cookie context
+        anonymousId: null,
+        firstLandingPage: null,
+      },
+      page: {
+        url: '',
+        path: '',
+        search: '',
+        hash: '',
+        referrer: '',
+        locale: '',
+        title: '',
+        utmSource: null,
+        utmMedium: null,
+        utmCampaign: null,
+        utmTerm: null,
+        utmContent: null,
+      },
+      device: {
+        userAgent: 'server',
+        language: '',
+        timezone: '',
+        screenWidth: 0,
+        screenHeight: 0,
+        viewportWidth: 0,
+        viewportHeight: 0,
+        isMobile: false,
+        platform: 'server',
+      },
+      properties: {
+        // Preserve the original event name for filtering
+        serverEvent: event,
+        ...data,
+      },
+    });
+  } catch {
+    // Analytics must never break the app
+  }
 }
