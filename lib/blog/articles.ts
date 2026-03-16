@@ -4847,6 +4847,512 @@ Don't underestimate the human side of your business. The best menu in the world,
       },
     ],
   },
+  {
+    slug: "choisir-vehicule-food-truck",
+    title: {
+      fr: "Comment Choisir son Vehicule Food Truck : Guide Complet",
+      en: "How to Choose Your Food Truck Vehicle: Complete Guide",
+    },
+    excerpt: {
+      fr: "Camion, remorque ou triporteur ? Decouvrez comment choisir le bon vehicule pour votre food truck selon votre budget, votre concept et la reglementation en vigueur.",
+      en: "Truck, trailer or cargo bike? Discover how to choose the right vehicle for your food truck based on your budget, concept and current regulations.",
+    },
+    category: { fr: "Guide", en: "Guide" },
+    date: "2026-03-16",
+    readTime: 14,
+    keywords: [
+      "choisir vehicule food truck",
+      "quel camion food truck",
+      "amenagement food truck",
+      "budget food truck vehicule",
+      "food truck vehicle",
+      "food truck trailer",
+      "food truck budget",
+    ],
+    heroImage: "/blog/choisir-vehicule.png",
+    content: {
+      fr: `## Pourquoi le choix du vehicule est la decision la plus importante
+
+Le vehicule est le coeur de votre activite de food trucker. C'est a la fois votre cuisine, votre vitrine et votre outil de travail quotidien. **Un mauvais choix de vehicule peut plomber votre rentabilite pendant des annees**, tandis qu'un choix reflechi vous donne un avantage concurrentiel des le depart.
+
+Beaucoup de food truckers debutants se precipitent sur le premier camion qui "a l'air bien" sur Le Bon Coin. Resultat : des pannes a repetition, un amenagement inadapte a leur concept, et des frais imprevus qui grimpent. Ce guide vous aide a faire le bon choix, etape par etape.
+
+## Les differents types de vehicules food truck
+
+### Le camion amenage : le classique
+
+Le camion amenage (type Citroen HY, Mercedes Sprinter, Renault Master, Fiat Ducato) reste le choix le plus populaire. Il offre un bon compromis entre espace de travail, mobilite et image de marque.
+
+**Avantages :**
+- Autonomie totale : vous vous deplacez avec votre cuisine
+- Grande surface de travail (6 a 12 m2 selon le modele)
+- Image professionnelle qui inspire confiance
+- Possibilite de stockage integre
+
+**Inconvenients :**
+- Prix d'achat eleve (25 000 a 120 000 EUR selon l'etat et l'amenagement)
+- Consommation de carburant importante
+- Permis poids lourd parfois necessaire (au-dessus de 3,5 tonnes)
+- Entretien mecanique couteux
+
+**Budget indicatif :**
+- Occasion a amenager : 8 000 a 25 000 EUR (vehicule seul)
+- Occasion deja amenage : 20 000 a 60 000 EUR
+- Neuf cle en main : 50 000 a 120 000 EUR
+
+### La remorque food truck : la flexibilite
+
+La remorque est une alternative de plus en plus populaire, surtout pour les debutants. Vous la tractez avec un vehicule classique (utilitaire, SUV) et la deposez sur place.
+
+**Avantages :**
+- Prix plus accessible (10 000 a 50 000 EUR amenagee)
+- Pas de permis special (si PTAC < 3 500 kg avec vehicule tracteur)
+- Vehicule tracteur utilisable pour d'autres besoins
+- Entretien mecanique reduit (pas de moteur)
+- Possibilite de la laisser sur un emplacement fixe
+
+**Inconvenients :**
+- Maniabilite reduite lors des deplacements
+- Besoin d'un vehicule tracteur adapte
+- Espace parfois plus restreint
+- Moins de flexibilite pour les emplacements etroits
+
+**Budget indicatif :**
+- Remorque d'occasion amenagee : 8 000 a 25 000 EUR
+- Remorque neuve amenagee : 15 000 a 50 000 EUR
+- Vehicule tracteur (en plus) : 5 000 a 20 000 EUR
+
+### Le triporteur et le velo-cargo : la tendance urbaine
+
+Le triporteur electrique ou le velo-cargo sont parfaits pour les concepts legers en centre-ville : cafe, crepes, glaces, jus frais, hot-dogs.
+
+**Avantages :**
+- Prix d'entree tres bas (3 000 a 15 000 EUR)
+- Aucun permis special
+- Acces facile aux zones pietonnes et aux marches
+- Image ecologique tres appreciee des clients
+- Pas de carburant, entretien minimal
+
+**Inconvenients :**
+- Menu tres limite (preparation froide ou rechauffage simple)
+- Stockage minimal
+- Sensible a la meteo
+- Pas adapte aux gros volumes
+
+**Budget indicatif :**
+- Triporteur d'occasion : 2 000 a 6 000 EUR
+- Triporteur neuf amenage : 5 000 a 15 000 EUR
+
+## Neuf ou occasion : comment choisir
+
+### L'occasion : le choix pragmatique
+
+Pour un premier food truck, l'occasion est souvent le choix le plus sage. Vous limitez votre investissement initial et vous pouvez tester votre concept sans risquer un capital enorme.
+
+**Points de vigilance sur un vehicule d'occasion :**
+- Verifiez l'etat du moteur et de la boite de vitesses (faites faire un diagnostic)
+- Inspectez la cellule (corrosion, etancheite, etat des sols)
+- Verifiez la conformite de l'installation gaz et electrique
+- Demandez les factures d'entretien et d'amenagement
+- Testez tout le materiel de cuisine (frigos, plaque, friteuse)
+- Verifiez la date du dernier controle technique
+
+**Le piege du "pas cher" :** un camion a 8 000 EUR qui necessite 15 000 EUR de reparations n'est pas une affaire. Prevoyez toujours une enveloppe de 20 a 30% du prix d'achat pour les remises en etat.
+
+### Le neuf : l'investissement serein
+
+Un vehicule neuf amenage sur mesure par un professionnel vous garantit la conformite, la fiabilite et un amenagement parfaitement adapte a votre concept.
+
+**Quand choisir le neuf :**
+- Vous avez un budget solide (ou un financement valide)
+- Votre concept est bien defini et teste (par exemple apres une saison en occasion)
+- Vous visez une activite a long terme (5 ans minimum)
+- Vous voulez un amenagement sur mesure optimise
+
+**Financement :** la plupart des amenageurs proposent du leasing ou du credit-bail. Les mensualites varient de 500 a 1 500 EUR sur 48 a 72 mois. Integrez ces mensualites dans votre plan de tresorerie - un outil comme FoodTracks vous permet de suivre vos charges fixes et de verifier que votre activite peut absorber ce cout.
+
+## L'amenagement interieur : la cle de l'efficacite
+
+### Concevoir un plan de cuisine efficace
+
+L'amenagement est aussi important que le vehicule lui-meme. Un bon agencement vous fait gagner **2 a 5 secondes par commande**, ce qui represente des dizaines de commandes supplementaires par service.
+
+**Les regles d'or de l'amenagement :**
+1. **La marche en avant** : les aliments progressent toujours du stockage vers la preparation, puis la cuisson, et enfin le service, sans retour en arriere
+2. **Le triangle d'activite** : la zone de stockage, la zone de preparation et la zone de cuisson doivent former un triangle compact
+3. **L'ergonomie** : tout doit etre accessible sans se baisser ou se contorsionner. Le rush dure 2 a 3 heures, votre dos vous remerciera
+4. **La ventilation** : un systeme d'extraction performant est obligatoire et vital pour votre confort
+
+### Les equipements essentiels
+
+Voici une liste de base pour un food truck standard :
+- **Plan de travail inox** (obligatoire pour les normes HACCP)
+- **Bac a graisse** et systeme d'evacuation des eaux usees
+- **Refrigerateur professionnel** (ou vitrine refrigeree)
+- **Plaque de cuisson ou plancha** (gaz ou electrique)
+- **Friteuse** (si votre concept le necessite)
+- **Caisse enregistreuse** ou terminal de paiement (SumUp est tres populaire en food truck)
+- **Extincteur** et couverture anti-feu
+
+### Le budget amenagement
+
+Le cout de l'amenagement varie enormement selon le niveau de finition :
+- **Amenagement basique (DIY assiste)** : 5 000 a 15 000 EUR
+- **Amenagement professionnel standard** : 15 000 a 35 000 EUR
+- **Amenagement haut de gamme sur mesure** : 35 000 a 70 000 EUR
+
+N'oubliez pas d'inclure ces couts dans votre business plan. Avec FoodTracks, vous pouvez simuler differents scenarios de charges fixes pour voir quel niveau d'investissement est compatible avec votre previsionnel de chiffre d'affaires.
+
+## Normes et homologation : ce qu'il faut savoir
+
+### La carte grise et le PTAC
+
+Si votre vehicule depasse 3,5 tonnes de PTAC (Poids Total Autorise en Charge), vous aurez besoin d'un permis C. La plupart des food trucks modernes restent sous cette limite pour eviter cette contrainte.
+
+**Attention :** le poids de l'amenagement et du materiel s'ajoute au poids du vehicule a vide. Un Sprinter de 2,5 tonnes a vide peut facilement atteindre 3,4 tonnes une fois amenage et charge. Faites faire une pesee avant l'achat.
+
+### Les normes sanitaires (HACCP)
+
+Votre vehicule doit respecter les memes normes sanitaires qu'un restaurant fixe :
+- Surfaces lavables et non absorbantes (inox obligatoire)
+- Point d'eau potable avec eau chaude
+- Bac de lavage des mains separe
+- Systeme de conservation des temperatures (chaine du froid)
+- Bac a graisse pour les eaux usees
+
+La DDPP (Direction Departementale de la Protection des Populations) peut controler votre vehicule a tout moment. Conservez vos documents de tracabilite, votre plan HACCP et vos releves de temperature.
+
+### L'installation gaz
+
+Si vous utilisez du gaz (butane ou propane), l'installation doit etre realisee ou verifiee par un professionnel certifie. Vous devez disposer :
+- D'un certificat de conformite gaz
+- D'un detecteur de gaz fonctionnel
+- D'une ventilation haute et basse
+- D'un robinet d'arret d'urgence accessible
+
+### L'assurance
+
+Votre food truck necessite une assurance specifique qui couvre :
+- La responsabilite civile professionnelle
+- Le vehicule (avec la mention "amenage")
+- Le contenu (materiel et stock)
+- La perte d'exploitation (recommande)
+
+**Budget assurance** : comptez entre 1 200 et 3 000 EUR par an selon la couverture et la valeur du vehicule.
+
+## Comment etablir son budget total
+
+Voici un recapitulatif des fourchettes budgetaires pour demarrer :
+
+**Formule economique (triporteur ou remorque d'occasion) :**
+- Vehicule : 3 000 a 15 000 EUR
+- Amenagement : 2 000 a 8 000 EUR
+- Materiel de cuisine : 2 000 a 5 000 EUR
+- **Total : 7 000 a 28 000 EUR**
+
+**Formule intermediaire (camion d'occasion amenage) :**
+- Vehicule amenage : 20 000 a 45 000 EUR
+- Remise en etat et personnalisation : 3 000 a 10 000 EUR
+- Materiel complementaire : 2 000 a 5 000 EUR
+- **Total : 25 000 a 60 000 EUR**
+
+**Formule premium (camion neuf sur mesure) :**
+- Vehicule neuf : 25 000 a 50 000 EUR
+- Amenagement professionnel : 25 000 a 70 000 EUR
+- Materiel haut de gamme : 5 000 a 15 000 EUR
+- **Total : 55 000 a 135 000 EUR**
+
+A ces montants, ajoutez les frais fixes de demarrage : immatriculation, assurance (premiere annee), formation HACCP, creation de l'entreprise, stock initial. Prevoyez aussi une tresorerie de securite de 3 a 6 mois de charges fixes.
+
+Utilisez l'outil de suivi financier de FoodTracks pour planifier ces depenses et suivre votre retour sur investissement mois par mois. Le tableau de bord vous montre en un coup d'oeil si votre activite couvre bien vos charges, y compris le remboursement de votre vehicule.
+
+## 7 conseils pratiques avant d'acheter
+
+1. **Definissez votre concept avant de chercher un vehicule.** Le vehicule doit s'adapter a votre menu, pas l'inverse.
+2. **Visitez au moins 3 food trucks en activite.** Discutez avec les proprietaires, demandez ce qu'ils changeraient s'ils devaient recommencer.
+3. **Faites inspecter le vehicule par un mecanicien** independant avant tout achat d'occasion.
+4. **Calculez le cout total de possession** sur 3 ans (achat + amenagement + entretien + carburant + assurance), pas seulement le prix d'achat.
+5. **Verifiez les dimensions** par rapport aux emplacements que vous visez. Certains marches limitent la taille des vehicules.
+6. **Pensez a la revente.** Un vehicule bien amenage et bien entretenu se revend facilement. Les vehicules atypiques (bus, van vintage) sont plus difficiles a revendre.
+7. **Ne depensez pas tout dans le vehicule.** Gardez du budget pour le stock initial, le marketing et une tresorerie de securite.
+
+## Conclusion : un investissement a planifier avec soin
+
+Le choix de votre vehicule food truck est un investissement majeur qui conditionnera votre quotidien et votre rentabilite pendant des annees. Prenez le temps de bien definir vos besoins, de comparer les options et de calculer votre budget total avant de vous lancer.
+
+Commencez par votre concept, estimez votre chiffre d'affaires previsionnel, puis determinez le vehicule qui correspond a vos moyens et a vos ambitions. Un outil comme FoodTracks peut vous aider a structurer votre business plan, suivre vos depenses et verifier que vos previsions se confirment au fil des mois.
+
+Quel que soit votre choix, l'essentiel est de demarrer avec un vehicule fiable, conforme et adapte a votre offre. Vous pourrez toujours evoluer vers un vehicule plus grand ou plus equipe une fois votre activite rentable.`,
+      en: `## Why Choosing Your Vehicle Is the Most Important Decision
+
+Your vehicle is the heart of your food truck business. It is your kitchen, your shopfront and your daily workhorse all in one. **A poor vehicle choice can drag down your profitability for years**, while a thoughtful decision gives you a competitive edge from day one.
+
+Many first-time food truckers rush to buy the first truck that "looks right" on a marketplace. The result: repeated breakdowns, a layout that doesn't suit their concept, and unexpected costs that keep climbing. This guide helps you make the right choice, step by step.
+
+## The Different Types of Food Truck Vehicles
+
+### The converted truck: the classic choice
+
+A converted truck (Citroen HY, Mercedes Sprinter, Renault Master, Fiat Ducato and similar) remains the most popular option. It offers a solid balance of workspace, mobility and brand image.
+
+**Pros:**
+- Full autonomy - you travel with your kitchen
+- Large work area (6 to 12 sqm depending on the model)
+- Professional image that inspires customer trust
+- Built-in storage space
+
+**Cons:**
+- High purchase price (EUR 25,000 to 120,000 depending on condition and fit-out)
+- Significant fuel consumption
+- Heavy vehicle licence sometimes required (above 3.5 tonnes)
+- Expensive mechanical maintenance
+
+**Indicative budget:**
+- Second-hand, to be fitted out: EUR 8,000 to 25,000 (vehicle only)
+- Second-hand, already fitted out: EUR 20,000 to 60,000
+- New, turnkey: EUR 50,000 to 120,000
+
+### The food trailer: flexibility first
+
+Food trailers are an increasingly popular alternative, especially for beginners. You tow them with a regular vehicle (van, SUV) and drop them on site.
+
+**Pros:**
+- More affordable price (EUR 10,000 to 50,000 fitted out)
+- No special licence needed (if combined weight stays under 3,500 kg)
+- Towing vehicle can be used for other purposes
+- Less mechanical maintenance (no engine)
+- Can be left on a fixed pitch
+
+**Cons:**
+- Reduced manoeuvrability while towing
+- Requires a suitable towing vehicle
+- Sometimes less workspace
+- Less flexible for tight pitches
+
+**Indicative budget:**
+- Second-hand fitted trailer: EUR 8,000 to 25,000
+- New fitted trailer: EUR 15,000 to 50,000
+- Towing vehicle (on top): EUR 5,000 to 20,000
+
+### Cargo trikes and cargo bikes: the urban trend
+
+Electric cargo trikes and cargo bikes are perfect for lightweight urban concepts: coffee, crepes, ice cream, fresh juice, hot dogs.
+
+**Pros:**
+- Very low entry price (EUR 3,000 to 15,000)
+- No special licence required
+- Easy access to pedestrian zones and markets
+- Eco-friendly image that customers love
+- No fuel costs, minimal maintenance
+
+**Cons:**
+- Very limited menu (cold preparation or simple reheating)
+- Minimal storage
+- Weather-sensitive
+- Not suited for high volumes
+
+**Indicative budget:**
+- Second-hand cargo trike: EUR 2,000 to 6,000
+- New fitted cargo trike: EUR 5,000 to 15,000
+
+## New vs Second-Hand: How to Decide
+
+### Second-hand: the pragmatic choice
+
+For a first food truck, buying second-hand is often the wisest move. You cap your initial investment and can test your concept without risking a huge amount of capital.
+
+**Key checks on a second-hand vehicle:**
+- Have the engine and gearbox diagnosed by a mechanic
+- Inspect the body (corrosion, waterproofing, floor condition)
+- Verify gas and electrical installations are compliant
+- Ask for maintenance and fit-out invoices
+- Test all kitchen equipment (fridges, hob, fryer)
+- Check the latest roadworthiness test date
+
+**The "cheap" trap:** a truck at EUR 8,000 that needs EUR 15,000 in repairs is no bargain. Always set aside 20 to 30% of the purchase price for refurbishment.
+
+### Buying new: peace of mind
+
+A new vehicle custom-fitted by a professional guarantees compliance, reliability and a layout perfectly matched to your concept.
+
+**When to buy new:**
+- You have a solid budget (or approved financing)
+- Your concept is well-defined and tested (e.g. after a season using a second-hand truck)
+- You are planning long-term (5 years minimum)
+- You want a fully optimised custom layout
+
+**Financing:** most fit-out companies offer leasing or hire-purchase. Monthly payments range from EUR 500 to 1,500 over 48 to 72 months. Factor these payments into your cash-flow plan - a tool like FoodTracks lets you track your fixed costs and verify that your business can absorb the expense.
+
+## Interior Fit-Out: The Key to Efficiency
+
+### Designing an efficient kitchen layout
+
+The fit-out matters as much as the vehicle itself. A smart layout can save you **2 to 5 seconds per order**, which translates into dozens of extra orders per service.
+
+**Golden rules for your layout:**
+1. **Forward flow** - food always moves from storage to preparation, then cooking, then service, with no backtracking
+2. **The work triangle** - storage, prep and cooking zones should form a compact triangle
+3. **Ergonomics** - everything should be reachable without bending or twisting. The rush lasts 2 to 3 hours, and your back will thank you
+4. **Ventilation** - a high-performance extraction system is mandatory and vital for your comfort
+
+### Essential equipment
+
+Here is a baseline list for a standard food truck:
+- **Stainless-steel worktops** (required for food-safety standards)
+- **Grease trap** and waste-water disposal system
+- **Professional refrigerator** (or refrigerated display)
+- **Hob or griddle** (gas or electric)
+- **Deep fryer** (if your concept requires it)
+- **POS system** or payment terminal (SumUp is very popular among food truckers)
+- **Fire extinguisher** and fire blanket
+
+### Fit-out budget
+
+Fit-out costs vary widely depending on the level of finish:
+- **Basic (assisted DIY):** EUR 5,000 to 15,000
+- **Professional standard:** EUR 15,000 to 35,000
+- **High-end custom:** EUR 35,000 to 70,000
+
+Don't forget to include these costs in your business plan. With FoodTracks, you can simulate different fixed-cost scenarios to see which investment level is compatible with your revenue forecast.
+
+## Regulations and Approval: What You Need to Know
+
+### Vehicle registration and weight limits
+
+If your vehicle exceeds 3,500 kg gross vehicle weight, you will need a heavy-vehicle licence. Most modern food trucks stay under this limit to avoid the requirement.
+
+**Watch out:** the weight of the fit-out and equipment is added to the unladen vehicle weight. A Sprinter weighing 2,500 kg empty can easily reach 3,400 kg once fitted out and loaded. Get it weighed before purchasing.
+
+### Food-safety standards (HACCP)
+
+Your vehicle must meet the same hygiene standards as a fixed restaurant:
+- Washable, non-absorbent surfaces (stainless steel required)
+- Potable hot-and-cold water supply
+- Separate hand-washing basin
+- Temperature control system (cold chain)
+- Grease trap for waste water
+
+The relevant food-safety authority can inspect your vehicle at any time. Keep your traceability documents, HACCP plan and temperature logs up to date.
+
+### Gas installations
+
+If you use gas (butane or propane), the installation must be completed or inspected by a certified professional. You must have:
+- A gas-compliance certificate
+- A working gas detector
+- Upper and lower ventilation openings
+- An accessible emergency shut-off valve
+
+### Insurance
+
+Your food truck needs specialist insurance covering:
+- Professional liability
+- The vehicle (stated as "converted")
+- Contents (equipment and stock)
+- Loss of earnings (recommended)
+
+**Insurance budget:** expect EUR 1,200 to 3,000 per year depending on coverage and vehicle value.
+
+## How to Set Your Total Budget
+
+Here is a summary of budget ranges for getting started:
+
+**Economy formula (cargo trike or second-hand trailer):**
+- Vehicle: EUR 3,000 to 15,000
+- Fit-out: EUR 2,000 to 8,000
+- Kitchen equipment: EUR 2,000 to 5,000
+- **Total: EUR 7,000 to 28,000**
+
+**Mid-range formula (second-hand fitted truck):**
+- Fitted vehicle: EUR 20,000 to 45,000
+- Refurbishment and customisation: EUR 3,000 to 10,000
+- Additional equipment: EUR 2,000 to 5,000
+- **Total: EUR 25,000 to 60,000**
+
+**Premium formula (new custom truck):**
+- New vehicle: EUR 25,000 to 50,000
+- Professional fit-out: EUR 25,000 to 70,000
+- High-end equipment: EUR 5,000 to 15,000
+- **Total: EUR 55,000 to 135,000**
+
+On top of these amounts, add start-up fixed costs: registration, insurance (first year), food-safety training, business creation, initial stock. Also set aside 3 to 6 months of fixed costs as a cash reserve.
+
+Use the FoodTracks financial tracking tool to plan these expenses and monitor your return on investment month by month. The dashboard shows you at a glance whether your business is covering all costs, including vehicle repayments.
+
+## 7 Practical Tips Before You Buy
+
+1. **Define your concept before looking for a vehicle.** The vehicle must fit your menu, not the other way around.
+2. **Visit at least 3 operating food trucks.** Talk to the owners and ask what they would change if they could start over.
+3. **Have the vehicle inspected by an independent mechanic** before any second-hand purchase.
+4. **Calculate the total cost of ownership** over 3 years (purchase + fit-out + maintenance + fuel + insurance), not just the sticker price.
+5. **Check the dimensions** against the pitches you are targeting. Some markets limit vehicle size.
+6. **Think about resale value.** A well-fitted and well-maintained vehicle resells easily. Unusual vehicles (buses, vintage vans) are harder to resell.
+7. **Don't spend everything on the vehicle.** Keep budget for initial stock, marketing and a cash reserve.
+
+## Conclusion: An Investment Worth Planning Carefully
+
+Choosing your food truck vehicle is a major investment that will shape your daily life and profitability for years. Take the time to define your needs clearly, compare options and calculate your total budget before committing.
+
+Start with your concept, estimate your projected revenue, then determine which vehicle matches your means and ambitions. A tool like FoodTracks can help you structure your business plan, track expenses and verify that your projections hold up month after month.
+
+Whatever you choose, the key is to start with a reliable, compliant vehicle that suits your offering. You can always upgrade to a larger or better-equipped vehicle once your business is profitable.`,
+    },
+    keyTakeaways: {
+      fr: [
+        "Le budget total d'un food truck varie de 7 000 EUR (triporteur) a 135 000 EUR (camion neuf sur mesure) selon la formule choisie",
+        "Prevoyez toujours 20 a 30% du prix d'achat en plus pour les remises en etat sur un vehicule d'occasion",
+        "L'amenagement interieur est aussi important que le vehicule : un bon agencement fait gagner 2 a 5 secondes par commande",
+        "Verifiez imperativement la conformite gaz, electrique et sanitaire avant tout achat, meme en occasion",
+      ],
+      en: [
+        "The total food truck budget ranges from EUR 7,000 (cargo trike) to EUR 135,000 (new custom truck) depending on the formula chosen",
+        "Always set aside 20-30% of the purchase price for refurbishment on a second-hand vehicle",
+        "Interior fit-out matters as much as the vehicle itself - a good layout saves 2-5 seconds per order",
+        "Always verify gas, electrical and food-safety compliance before any purchase, even second-hand",
+      ],
+    },
+    faqItems: [
+      {
+        question: {
+          fr: "Quel budget prevoir pour un premier food truck ?",
+          en: "What budget should I plan for a first food truck?",
+        },
+        answer: {
+          fr: "Pour un premier food truck, comptez entre 7 000 et 60 000 EUR selon le type de vehicule. Une remorque ou un triporteur d'occasion demarre a 7 000 EUR, un camion d'occasion amenage coute entre 25 000 et 60 000 EUR. Ajoutez 3 a 6 mois de charges fixes en tresorerie de securite.",
+          en: "For a first food truck, budget between EUR 7,000 and 60,000 depending on the vehicle type. A second-hand trailer or cargo trike starts at EUR 7,000, while a second-hand fitted truck costs EUR 25,000 to 60,000. Add 3-6 months of fixed costs as a cash reserve.",
+        },
+      },
+      {
+        question: {
+          fr: "Faut-il un permis special pour conduire un food truck ?",
+          en: "Do you need a special licence to drive a food truck?",
+        },
+        answer: {
+          fr: "Si votre food truck reste sous 3,5 tonnes de PTAC (Poids Total Autorise en Charge), un permis B classique suffit. Au-dela, il faut un permis C. Attention, le poids de l'amenagement et du materiel s'ajoute au poids du vehicule a vide.",
+          en: "If your food truck stays under 3,500 kg gross vehicle weight, a standard car licence is enough. Above that, you need a heavy-vehicle licence. Remember that the weight of the fit-out and equipment is added to the unladen vehicle weight.",
+        },
+      },
+      {
+        question: {
+          fr: "Vaut-il mieux acheter un food truck neuf ou d'occasion ?",
+          en: "Is it better to buy a new or second-hand food truck?",
+        },
+        answer: {
+          fr: "Pour un premier food truck, l'occasion est souvent preferable pour limiter le risque financier. Prevoyez 20 a 30% du prix d'achat pour les remises en etat. Le neuf est recommande quand votre concept est valide, que vous visez le long terme et que vous avez un budget ou un financement solide.",
+          en: "For a first food truck, second-hand is often preferable to limit financial risk. Set aside 20-30% of the purchase price for refurbishment. Buying new is recommended when your concept is proven, you are planning long-term, and you have a solid budget or financing in place.",
+        },
+      },
+      {
+        question: {
+          fr: "Quelles normes doit respecter un vehicule food truck ?",
+          en: "What regulations must a food truck vehicle meet?",
+        },
+        answer: {
+          fr: "Un food truck doit respecter les normes HACCP (surfaces inox, eau potable chaude et froide, bac a mains, chaine du froid), la conformite de l'installation gaz (certificat obligatoire), et les regles de poids (PTAC). La DDPP peut controler votre vehicule a tout moment.",
+          en: "A food truck must comply with HACCP standards (stainless-steel surfaces, hot and cold potable water, hand-washing basin, cold chain), gas installation compliance (certificate required), and weight regulations. The food-safety authority can inspect your vehicle at any time.",
+        },
+      },
+    ],
+  },
 ];
 
 export function getArticleBySlug(slug: string): BlogArticle | undefined {
