@@ -763,7 +763,7 @@ export default function AdminErrorsDashboard() {
                                 {evt.properties?.targetText
                                   ? `"${String(evt.properties.targetText)}"`
                                   : t('rageClickOn')}{' '}
-                                {evt.properties?.count && `(${evt.properties.count}x)`}
+                                {evt.properties?.count != null ? `(${String(evt.properties.count)}x)` : null}
                               </span>
                             ) : (
                               <>
