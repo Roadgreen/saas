@@ -5353,6 +5353,501 @@ Whatever you choose, the key is to start with a reliable, compliant vehicle that
       },
     ],
   },
+  {
+    slug: "optimiser-marges-food-truck-analyse-donnees",
+    title: {
+      fr: "Comment Optimiser ses Marges en Food Truck Grâce à l'Analyse des Données",
+      en: "How to Optimize Food Truck Margins with Data Analysis",
+    },
+    excerpt: {
+      fr: "Découvrez comment exploiter vos données de ventes, de coûts et de stock pour augmenter vos marges en food truck de 10 à 25%. Méthodes concrètes et outils adaptés.",
+      en: "Learn how to leverage your sales, cost and inventory data to increase food truck margins by 10-25%. Practical methods and purpose-built tools.",
+    },
+    category: { fr: "Rentabilité", en: "Profitability" },
+    date: "2026-03-17",
+    readTime: 13,
+    keywords: [
+      "optimiser marges food truck",
+      "analyse données food truck",
+      "rentabilité food truck",
+      "coût matière food truck",
+      "marge bénéficiaire food truck",
+      "data analysis food truck",
+      "food truck profit margins",
+      "food truck cost optimization",
+    ],
+    heroImage: "/blog/rentabilite.png",
+    content: {
+      fr: `## Pourquoi l'analyse des données est devenue indispensable en food truck
+
+La plupart des food truckers fixent leurs prix au feeling, commandent leurs stocks à l'instinct et découvrent leur marge réelle… au moment du bilan comptable. Résultat : **des marges qui oscillent entre 5 et 15%**, alors qu'un food truck bien piloté peut atteindre **20 à 35% de marge nette**.
+
+La différence entre ces deux réalités tient en un mot : **les données**. Pas besoin d'être data scientist — il suffit de suivre quelques indicateurs clés et d'agir dessus chaque semaine.
+
+### Ce que vos données vous disent (et que vous ignorez probablement)
+
+Chaque jour de service génère une mine d'informations exploitables :
+- Quels plats se vendent le mieux et lesquels stagnent
+- Quel est votre coût matière réel par recette
+- Combien vous perdez en gaspillage chaque semaine
+- Quels emplacements sont rentables et lesquels vous coûtent de l'argent
+- À quel moment du service vos ventes décrochent
+
+Sans suivi, ces informations restent invisibles. Avec un outil comme **FoodTracks**, elles deviennent un tableau de bord actionnable.
+
+## Les 4 indicateurs clés pour piloter vos marges
+
+### 1. Le coût matière par plat
+
+Le coût matière est le nerf de la guerre en restauration. Il représente le prix de revient des ingrédients pour chaque plat vendu. **L'objectif idéal : rester entre 25 et 35% du prix de vente.**
+
+**Comment le calculer :**
+- Listez chaque ingrédient de votre recette avec la quantité exacte par portion
+- Multipliez par le prix d'achat unitaire (ramené au gramme ou au centilitre)
+- Additionnez le tout pour obtenir votre coût matière par portion
+- Divisez par le prix de vente TTC pour obtenir le ratio
+
+**Exemple concret :**
+- Burger classique : coût matière 2,80 EUR, vendu 9,50 EUR → ratio de 29,5% ✅
+- Bowl veggie : coût matière 3,20 EUR, vendu 8,00 EUR → ratio de 40% ❌ (trop élevé)
+
+Le bowl veggie à 40% de coût matière semble rentable car il se vend bien, mais il tire votre marge globale vers le bas. L'analyse des données révèle ce type de piège que le ressenti seul ne détecte pas.
+
+**Actions correctives :**
+- Renégocier le prix de certains ingrédients en achetant en plus gros volumes
+- Réduire légèrement les portions sans impact perceptible pour le client
+- Augmenter le prix de vente de 0,50 à 1 EUR si le marché le permet
+- Substituer un ingrédient coûteux par une alternative plus économique
+
+### 2. Le chiffre d'affaires par service et par emplacement
+
+Tous vos emplacements ne se valent pas. En croisant votre CA par jour avec le lieu, vous identifiez rapidement :
+- **Les emplacements rentables** : CA élevé, régulier, faible gaspillage
+- **Les emplacements piège** : bon CA apparent mais coûts cachés (trajet long, droit de place élevé, gaspillage important)
+- **Les emplacements à tester** : potentiel non exploité
+
+**Méthode d'analyse :**
+
+Pour chaque emplacement, calculez votre **marge nette réelle** en déduisant :
+- Le coût matière des produits vendus
+- Le droit de place ou la commission
+- Le carburant pour s'y rendre
+- Le temps de trajet (valorisé à votre taux horaire)
+- Le gaspillage du jour
+
+Un emplacement qui génère 800 EUR de CA mais vous coûte 450 EUR en charges directes est moins rentable qu'un emplacement à 500 EUR de CA avec seulement 200 EUR de charges.
+
+### 3. Le taux de gaspillage
+
+Le gaspillage alimentaire est un tueur silencieux de marges. **En moyenne, un food truck perd entre 5 et 12% de son stock** par semaine en produits jetés, périmés ou sur-préparés.
+
+**Comment le mesurer :**
+- Pesez ou comptez les produits jetés chaque jour
+- Notez la raison (péremption, sur-production, erreur de préparation, annulation)
+- Calculez la valeur perdue en euros
+- Rapportez-la à votre CA du jour
+
+**Les leviers pour réduire le gaspillage :**
+- Adapter les quantités préparées en fonction des prévisions de fréquentation
+- Utiliser les produits proches de la péremption en priorité (méthode FIFO)
+- Proposer des promotions flash en fin de service pour écouler les restes
+- Congeler les préparations qui le permettent
+- Réduire la carte pour limiter le nombre de références à gérer
+
+Avec FoodTracks, le suivi du gaspillage se fait automatiquement : le système compare vos achats (factures scannées) et vos ventes (données SumUp) pour calculer l'écart. Un écart anormal déclenche une alerte.
+
+### 4. Le ticket moyen et la composition des commandes
+
+Le ticket moyen est un indicateur puissant mais sous-exploité. Au-delà du montant brut, analysez **ce que commandent vos clients** :
+- Prennent-ils un accompagnement ? Une boisson ? Un dessert ?
+- Quels sont les combos les plus populaires ?
+- Y a-t-il des plats qui ne se vendent jamais seuls ?
+
+**Stratégies pour augmenter le ticket moyen :**
+- Proposer des formules (plat + boisson + dessert) avec un prix attractif
+- Mettre en avant les accompagnements au moment de la commande
+- Afficher les suggestions de combinaison sur votre carte
+- Proposer une taille supérieure pour un supplément modéré (effet "upsell")
+
+Un ticket moyen qui passe de 10 à 12 EUR représente **+20% de CA** sans servir un seul client de plus.
+
+## Mettre en place un tableau de bord hebdomadaire
+
+L'analyse des données n'a d'impact que si elle est régulière. Consacrez **30 minutes chaque lundi** à un bilan de la semaine précédente.
+
+### Les métriques à suivre chaque semaine
+
+- **CA total** et CA par emplacement
+- **Coût matière moyen** (ratio achats / ventes)
+- **Nombre de couverts** servis par service
+- **Ticket moyen** par service
+- **Gaspillage** en valeur et en pourcentage
+- **Marge brute** (CA moins coût matière)
+- **Top 3 et flop 3** des plats vendus
+
+### Comment interpréter les tendances
+
+Les chiffres d'une semaine isolée ne veulent pas dire grand-chose. C'est **l'évolution sur 4 à 8 semaines** qui révèle les vraies tendances :
+- Votre coût matière augmente progressivement ? Vos fournisseurs ont peut-être ajusté leurs prix sans que vous le remarquiez.
+- Votre ticket moyen baisse ? Vérifiez si vos formules sont toujours attractives.
+- Un emplacement décline ? Analysez si c'est saisonnier ou structurel.
+- Votre gaspillage augmente les lundis ? Vous commandez peut-être trop pour le week-end.
+
+FoodTracks génère ce tableau de bord automatiquement à partir de vos données de ventes et de factures. Plus besoin de tableur Excel : les tendances sont visibles en un coup d'œil.
+
+## Optimiser votre menu grâce aux données
+
+### La matrice de rentabilité des plats
+
+Classez chaque plat de votre carte selon deux axes :
+- **Popularité** (nombre de ventes par semaine)
+- **Rentabilité** (marge brute en euros par portion)
+
+Vous obtenez 4 catégories :
+
+**Stars** (populaires + rentables) : vos plats phares. Mettez-les en avant, ne changez rien.
+
+**Vaches à lait** (rentables mais peu vendus) : augmentez leur visibilité. Mettez-les en tête de carte, proposez-les en suggestion.
+
+**Pièges** (populaires mais peu rentables) : retravaillez la recette pour baisser le coût matière, ou augmentez légèrement le prix.
+
+**Poids morts** (ni populaires ni rentables) : supprimez-les de la carte. Moins de références = moins de gaspillage + plus de rapidité en cuisine.
+
+### Adapter le menu selon les emplacements
+
+Vos données de ventes par emplacement révèlent souvent des préférences locales :
+- Le marché du centre-ville achète plus de formules veggie
+- Le chantier du mardi préfère les portions XXL
+- Le festival du week-end génère plus de ventes de boissons
+
+Adaptez votre carte (ou au moins votre mise en avant) à chaque emplacement. C'est de la personnalisation data-driven qui booste directement votre CA et réduit votre gaspillage.
+
+## Négocier avec vos fournisseurs grâce à vos données
+
+### Connaître vos volumes réels
+
+Beaucoup de food truckers sous-estiment leur pouvoir de négociation. En analysant vos factures sur 3 à 6 mois, vous connaissez :
+- Votre volume d'achat mensuel par fournisseur
+- Les produits que vous achetez le plus
+- L'évolution des prix pratiqués
+
+Armé de ces chiffres, vous pouvez :
+- Demander un tarif dégressif sur vos produits les plus consommés
+- Comparer objectivement les offres entre fournisseurs
+- Identifier les hausses de prix et réagir rapidement
+- Regrouper vos commandes pour atteindre des seuils de remise
+
+### L'impact concret
+
+Une baisse de **3 à 5% sur vos achats** se répercute directement sur votre marge. Sur un food truck qui achète 3 000 EUR de matière première par mois, c'est **90 à 150 EUR d'économie mensuelle**, soit 1 000 à 1 800 EUR par an qui passent directement en bénéfice.
+
+## Les prédictions IA : anticiper plutôt que subir
+
+L'étape ultime de l'analyse des données, c'est la prédiction. Au lieu de réagir après coup, vous anticipez vos besoins grâce à l'intelligence artificielle.
+
+### Ce que la prédiction IA permet
+
+En analysant vos données historiques combinées à des facteurs externes, un outil comme FoodTracks peut prédire :
+- **Le nombre de couverts attendus** pour chaque service, selon l'emplacement, le jour et la météo
+- **Les quantités à commander** pour limiter le gaspillage tout en évitant les ruptures
+- **Les plats qui se vendront le mieux** selon le contexte du jour
+
+### Résultat concret
+
+Les food truckers qui utilisent les prédictions IA de FoodTracks constatent :
+- **-30% de gaspillage** grâce à des commandes ajustées
+- **+15% de marge** grâce à l'optimisation globale
+- **-1h par semaine** sur la planification des commandes
+
+## Plan d'action : par où commencer
+
+Pas besoin de tout mettre en place d'un coup. Voici un plan progressif en 4 semaines :
+
+### Semaine 1 : Mesurer vos coûts matière
+Créez une fiche technique pour chacun de vos plats. Calculez le coût matière et le ratio par rapport au prix de vente. Identifiez les plats au-dessus de 35%.
+
+### Semaine 2 : Suivre vos ventes par emplacement
+Notez votre CA, votre nombre de couverts et votre ticket moyen pour chaque service. Comparez les emplacements entre eux.
+
+### Semaine 3 : Mesurer le gaspillage
+Pesez ou estimez les produits jetés chaque jour. Calculez la valeur perdue et identifiez les causes principales.
+
+### Semaine 4 : Analyser et agir
+Compilez vos données du mois. Identifiez les 3 actions les plus impactantes et mettez-les en œuvre. Répétez chaque mois.
+
+Avec FoodTracks, ces 4 étapes se font en quelques clics : scan de factures, connexion SumUp, et le tableau de bord fait le reste.
+
+## Conclusion
+
+Optimiser ses marges en food truck n'est pas une question de chance ou de talent culinaire — c'est une question de **pilotage par les données**. En suivant régulièrement vos indicateurs clés (coût matière, CA par emplacement, gaspillage, ticket moyen), vous prenez des décisions éclairées qui améliorent votre rentabilité semaine après semaine.
+
+La bonne nouvelle : vous n'avez pas besoin d'être un expert en analyse de données. **Un bon outil fait le travail pour vous.** FoodTracks centralise vos ventes, vos achats et votre stock pour vous donner une vision claire et des recommandations actionnables.
+
+[Essayez FoodTracks gratuitement](https://foodtracks.io/fr/pricing) et commencez à piloter vos marges avec des données fiables.`,
+      en: `## Why Data Analysis Has Become Essential for Food Trucks
+
+Most food truck operators set prices based on gut feeling, order stock by instinct and discover their real margin only when the accountant finishes the annual review. The result: **margins hovering between 5 and 15%**, when a well-managed food truck can reach **20 to 35% net margin**.
+
+The difference between these two realities comes down to one word: **data**. You don't need to be a data scientist — you just need to track a few key metrics and act on them every week.
+
+### What Your Data Tells You (That You Probably Don't Know)
+
+Every day of service generates a goldmine of usable information:
+- Which dishes sell best and which ones stagnate
+- What your real food cost is per recipe
+- How much you lose to waste each week
+- Which pitches are profitable and which cost you money
+- At what point during service your sales drop off
+
+Without tracking, this information stays invisible. With a tool like **FoodTracks**, it becomes an actionable dashboard.
+
+## The 4 Key Metrics to Drive Your Margins
+
+### 1. Food Cost Per Dish
+
+Food cost is the cornerstone of restaurant profitability. It represents the ingredient cost for each dish sold. **The ideal target: stay between 25 and 35% of the selling price.**
+
+**How to calculate it:**
+- List every ingredient in your recipe with the exact quantity per portion
+- Multiply by the unit purchase price (per gram or centilitre)
+- Add everything up for your food cost per portion
+- Divide by the selling price (including tax) for the ratio
+
+**Real example:**
+- Classic burger: food cost EUR 2.80, sold at EUR 9.50 — ratio 29.5% ✅
+- Veggie bowl: food cost EUR 3.20, sold at EUR 8.00 — ratio 40% ❌ (too high)
+
+The veggie bowl at 40% food cost seems profitable because it sells well, but it drags your overall margin down. Data analysis reveals these traps that intuition alone cannot detect.
+
+**Corrective actions:**
+- Renegotiate ingredient prices by buying in larger volumes
+- Slightly reduce portions without a noticeable impact for the customer
+- Increase the selling price by EUR 0.50-1.00 if the market allows
+- Substitute an expensive ingredient with a more affordable alternative
+
+### 2. Revenue Per Service and Per Pitch
+
+Not all your pitches are equal. By cross-referencing daily revenue with location, you quickly identify:
+- **Profitable pitches**: high, consistent revenue, low waste
+- **Trap pitches**: apparently good revenue but hidden costs (long journey, high pitch fee, significant waste)
+- **Pitches to test**: untapped potential
+
+**Analysis method:**
+
+For each pitch, calculate your **real net margin** by deducting:
+- Food cost of products sold
+- Pitch fee or commission
+- Fuel to get there
+- Travel time (valued at your hourly rate)
+- The day's waste
+
+A pitch generating EUR 800 in revenue but costing EUR 450 in direct charges is less profitable than a pitch at EUR 500 with only EUR 200 in charges.
+
+### 3. Waste Rate
+
+Food waste is a silent margin killer. **On average, a food truck loses 5-12% of its stock** each week through discarded, expired or over-prepared products.
+
+**How to measure it:**
+- Weigh or count discarded products every day
+- Note the reason (expiry, overproduction, preparation error, cancellation)
+- Calculate the lost value in euros
+- Express it as a percentage of the day's revenue
+
+**Levers to reduce waste:**
+- Adjust prepared quantities based on footfall forecasts
+- Use products closest to expiry first (FIFO method)
+- Offer flash promotions at end of service to sell leftovers
+- Freeze preparations where possible
+- Reduce your menu to limit the number of items to manage
+
+With FoodTracks, waste tracking happens automatically: the system compares your purchases (scanned invoices) with your sales (SumUp data) to calculate the gap. An abnormal gap triggers an alert.
+
+### 4. Average Order Value and Order Composition
+
+Average order value is a powerful but underused metric. Beyond the raw number, analyse **what your customers order**:
+- Do they add a side? A drink? A dessert?
+- What are the most popular combos?
+- Are there dishes that never sell on their own?
+
+**Strategies to increase average order value:**
+- Offer meal deals (main + drink + dessert) at an attractive price
+- Highlight sides at the point of ordering
+- Display pairing suggestions on your menu
+- Offer an upgrade for a modest supplement (upsell effect)
+
+An average order that goes from EUR 10 to EUR 12 represents **+20% revenue** without serving a single extra customer.
+
+## Setting Up a Weekly Dashboard
+
+Data analysis only drives results when it is consistent. Spend **30 minutes every Monday** reviewing the previous week.
+
+### Metrics to Track Every Week
+
+- **Total revenue** and revenue by pitch
+- **Average food cost** (purchases/sales ratio)
+- **Covers served** per service
+- **Average order value** per service
+- **Waste** in value and percentage
+- **Gross margin** (revenue minus food cost)
+- **Top 3 and bottom 3** dishes sold
+
+### How to Read the Trends
+
+One week's figures in isolation mean little. It is the **trend over 4 to 8 weeks** that reveals real patterns:
+- Food cost creeping up? Your suppliers may have quietly raised prices.
+- Average order value declining? Check whether your meal deals are still attractive.
+- A pitch declining? Analyse whether it is seasonal or structural.
+- Waste spiking on Mondays? You may be over-ordering for the weekend.
+
+FoodTracks generates this dashboard automatically from your sales and invoice data. No more Excel spreadsheets — trends are visible at a glance.
+
+## Optimising Your Menu with Data
+
+### The Dish Profitability Matrix
+
+Rank each dish on your menu along two axes:
+- **Popularity** (number of sales per week)
+- **Profitability** (gross margin in euros per portion)
+
+You get 4 categories:
+
+**Stars** (popular + profitable): your hero dishes. Promote them, change nothing.
+
+**Cash cows** (profitable but low sales): increase their visibility. Move them to the top of the menu, suggest them actively.
+
+**Traps** (popular but low margin): rework the recipe to lower food cost, or raise the price slightly.
+
+**Dead weight** (neither popular nor profitable): remove them. Fewer items = less waste + faster kitchen.
+
+### Adapting the Menu by Pitch
+
+Your sales data by location often reveal local preferences:
+- The city-centre market buys more veggie options
+- The Tuesday construction-site pitch prefers XXL portions
+- The weekend festival generates more drink sales
+
+Adapt your menu (or at least your featured items) to each pitch. This is data-driven personalisation that directly boosts revenue and cuts waste.
+
+## Negotiating with Suppliers Using Your Data
+
+### Knowing Your Real Volumes
+
+Many food truckers underestimate their negotiating power. By analysing your invoices over 3-6 months, you know:
+- Your monthly purchase volume per supplier
+- The products you buy most
+- How prices have evolved
+
+Armed with these figures, you can:
+- Request volume discounts on your most-consumed products
+- Objectively compare offers across suppliers
+- Spot price increases and react quickly
+- Group orders to hit discount thresholds
+
+### The Concrete Impact
+
+A **3-5% reduction in purchasing costs** flows straight to your margin. For a food truck spending EUR 3,000 per month on ingredients, that is **EUR 90-150 saved monthly**, or EUR 1,000-1,800 per year going directly to profit.
+
+## AI Predictions: Anticipate Instead of React
+
+The ultimate level of data analysis is prediction. Instead of reacting after the fact, you anticipate your needs with artificial intelligence.
+
+### What AI Prediction Enables
+
+By analysing your historical data combined with external factors, a tool like FoodTracks can predict:
+- **Expected covers** for each service, based on pitch, day and weather
+- **Quantities to order** to limit waste while avoiding stockouts
+- **Which dishes will sell best** given the day's context
+
+### Concrete Results
+
+Food truckers using FoodTracks AI predictions see:
+- **-30% waste** thanks to adjusted ordering
+- **+15% margin** from overall optimisation
+- **-1 hour per week** on order planning
+
+## Action Plan: Where to Start
+
+You don't need to do everything at once. Here is a progressive 4-week plan:
+
+### Week 1: Measure Your Food Costs
+Create a recipe card for every dish. Calculate the food cost and the ratio against selling price. Identify any dish above 35%.
+
+### Week 2: Track Sales by Pitch
+Record your revenue, covers and average order value for each service. Compare pitches against each other.
+
+### Week 3: Measure Waste
+Weigh or estimate discarded products every day. Calculate the lost value and identify the main causes.
+
+### Week 4: Analyse and Act
+Compile your month's data. Identify the 3 highest-impact actions and implement them. Repeat every month.
+
+With FoodTracks, these 4 steps take just a few clicks: scan invoices, connect SumUp, and the dashboard does the rest.
+
+## Conclusion
+
+Optimising food truck margins is not about luck or culinary talent — it is about **data-driven management**. By regularly tracking your key metrics (food cost, revenue per pitch, waste, average order value), you make informed decisions that improve profitability week after week.
+
+The good news: you don't need to be a data analysis expert. **A good tool does the work for you.** FoodTracks centralises your sales, purchases and inventory to give you a clear picture and actionable recommendations.
+
+[Try FoodTracks for free](https://foodtracks.io/en/pricing) and start managing your margins with reliable data.`,
+    },
+    keyTakeaways: {
+      fr: [
+        "Un food truck bien piloté par les données peut atteindre 20 à 35% de marge nette, contre 5 à 15% sans suivi",
+        "Le coût matière idéal se situe entre 25 et 35% du prix de vente — au-delà, il faut agir sur la recette ou le prix",
+        "Un ticket moyen qui passe de 10 à 12 EUR représente +20% de CA sans client supplémentaire",
+        "30 minutes d'analyse hebdomadaire suffisent pour identifier les leviers d'optimisation les plus impactants",
+      ],
+      en: [
+        "A data-driven food truck can achieve 20-35% net margin, versus 5-15% without tracking",
+        "Ideal food cost sits between 25-35% of selling price — above that, adjust the recipe or the price",
+        "An average order increase from EUR 10 to EUR 12 means +20% revenue with zero extra customers",
+        "30 minutes of weekly analysis is enough to identify the highest-impact optimisation levers",
+      ],
+    },
+    faqItems: [
+      {
+        question: {
+          fr: "Quel est le coût matière idéal pour un food truck ?",
+          en: "What is the ideal food cost for a food truck?",
+        },
+        answer: {
+          fr: "Le coût matière idéal en food truck se situe entre 25 et 35% du prix de vente TTC. Au-dessus de 35%, votre marge est insuffisante et il faut revoir la recette, les quantités ou le prix de vente. Un outil comme FoodTracks calcule ce ratio automatiquement à partir de vos factures et ventes.",
+          en: "The ideal food cost for a food truck is between 25-35% of the selling price including tax. Above 35%, your margin is too thin and you need to rework the recipe, portions or selling price. A tool like FoodTracks calculates this ratio automatically from your invoices and sales.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment réduire le gaspillage alimentaire en food truck ?",
+          en: "How can I reduce food waste in my food truck?",
+        },
+        answer: {
+          fr: "Pour réduire le gaspillage, adaptez vos quantités préparées aux prévisions de fréquentation, appliquez la méthode FIFO, proposez des promotions flash en fin de service, congelez les préparations possibles et réduisez le nombre de plats à votre carte. En moyenne, un food truck perd 5 à 12% de son stock en gaspillage chaque semaine.",
+          en: "To reduce waste, adjust prepared quantities to footfall forecasts, apply the FIFO method, offer flash promotions at end of service, freeze preparations where possible and reduce the number of items on your menu. On average, a food truck loses 5-12% of its stock to waste each week.",
+        },
+      },
+      {
+        question: {
+          fr: "Quels indicateurs suivre pour améliorer la rentabilité de son food truck ?",
+          en: "Which metrics should I track to improve food truck profitability?",
+        },
+        answer: {
+          fr: "Les 4 indicateurs clés sont : le coût matière par plat (objectif 25-35%), le chiffre d'affaires par emplacement, le taux de gaspillage et le ticket moyen. Suivez-les chaque semaine et analysez les tendances sur 4 à 8 semaines pour prendre des décisions éclairées.",
+          en: "The 4 key metrics are: food cost per dish (target 25-35%), revenue per pitch, waste rate and average order value. Track them weekly and analyse trends over 4-8 weeks to make informed decisions.",
+        },
+      },
+      {
+        question: {
+          fr: "L'intelligence artificielle peut-elle vraiment aider un food truck ?",
+          en: "Can AI really help a food truck business?",
+        },
+        answer: {
+          fr: "Oui, l'IA prédictive analyse vos données historiques combinées à des facteurs externes (météo, jour, emplacement) pour prédire le nombre de couverts, les quantités à commander et les plats qui se vendront le mieux. Les utilisateurs de FoodTracks constatent -30% de gaspillage et +15% de marge grâce aux prédictions IA.",
+          en: "Yes, predictive AI analyses your historical data combined with external factors (weather, day, pitch) to forecast covers, order quantities and best-selling dishes. FoodTracks users report -30% waste and +15% margin improvement thanks to AI predictions.",
+        },
+      },
+    ],
+  },
 ];
 
 export function getArticleBySlug(slug: string): BlogArticle | undefined {
