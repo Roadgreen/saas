@@ -30,7 +30,10 @@ import {
   AlertTriangle,
   MousePointerClick,
   Bug,
+  ShieldAlert,
 } from 'lucide-react';
+import Link from 'next/link';
+import { useLocale } from 'next-intl';
 
 // ── Types ────────────────────────────────────────────────────────────────────
 
@@ -182,6 +185,7 @@ function shortenReferrer(ref: string): string {
 // ── Component ────────────────────────────────────────────────────────────────
 
 export default function AdminAnalyticsDashboard() {
+  const locale = useLocale();
   const [period, setPeriod] = useState<Period>('7d');
   const [overview, setOverview] = useState<Record<Period, OverviewData | null>>({
     today: null,
@@ -304,6 +308,14 @@ export default function AdminAnalyticsDashboard() {
               </button>
             ))}
           </div>
+          <Link
+            href={`/${locale}/admin/errors`}
+            className="flex items-center gap-2 px-3 py-2 rounded-lg border bg-card hover:bg-accent transition-colors text-sm font-medium text-red-600 dark:text-red-400"
+            title="Error Monitoring"
+          >
+            <ShieldAlert className="h-4 w-4" />
+            <span className="hidden sm:inline">Errors</span>
+          </Link>
           <button
             onClick={loadData}
             disabled={loading}

@@ -110,7 +110,15 @@ export default async function LocaleLayout({ children, params }: { children: Rea
       email: 'contact@foodtracks.io',
       contactType: 'customer service',
     },
-    sameAs: [],
+    sameAs: [
+      'https://www.instagram.com/foodtracks.io',
+      'https://www.facebook.com/profile.php?id=61576498498498',
+    ],
+    address: {
+      '@type': 'PostalAddress',
+      addressCountry: 'FR',
+    },
+    foundingDate: '2025',
   };
 
   const websiteJsonLd = {

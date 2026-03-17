@@ -77,6 +77,35 @@ export default async function PricingPage({
     ],
   };
 
+  const pricingFaqs = isFr
+    ? [
+        { q: 'Est-ce que FoodTracks est vraiment gratuit ?', a: 'Oui, le plan Gratuit est 100% gratuit sans limite de temps. Il inclut 1 utilisateur, 1 emplacement et la gestion de stock de base.' },
+        { q: 'Puis-je changer de plan a tout moment ?', a: 'Oui, vous pouvez passer au plan Pro ou revenir au plan Gratuit a tout moment depuis votre tableau de bord, sans engagement.' },
+        { q: 'Y a-t-il un essai gratuit pour le plan Pro ?', a: 'Oui, le plan Pro inclut un essai gratuit de 14 jours. Aucune carte bancaire requise pour commencer.' },
+        { q: 'Quels moyens de paiement acceptez-vous ?', a: 'Nous acceptons les cartes Visa, Mastercard et les paiements via Stripe. Toutes les transactions sont securisees.' },
+        { q: 'Puis-je obtenir un remboursement ?', a: 'Oui, si vous annulez dans les 14 premiers jours de votre abonnement Pro, vous etes integralement rembourse.' },
+      ]
+    : [
+        { q: 'Is FoodTracks really free?', a: 'Yes, the Free plan is 100% free with no time limit. It includes 1 user, 1 location, and basic stock management.' },
+        { q: 'Can I switch plans at any time?', a: 'Yes, you can upgrade to Pro or downgrade to Free anytime from your dashboard, with no commitment.' },
+        { q: 'Is there a free trial for the Pro plan?', a: 'Yes, the Pro plan includes a 14-day free trial. No credit card required to get started.' },
+        { q: 'What payment methods do you accept?', a: 'We accept Visa, Mastercard, and payments via Stripe. All transactions are secured.' },
+        { q: 'Can I get a refund?', a: 'Yes, if you cancel within the first 14 days of your Pro subscription, you get a full refund.' },
+      ];
+
+  const pricingFaqJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: pricingFaqs.map((faq) => ({
+      '@type': 'Question',
+      name: faq.q,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: faq.a,
+      },
+    })),
+  };
+
   const productJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Product',
@@ -117,6 +146,7 @@ export default async function PricingPage({
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(productJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(pricingFaqJsonLd) }} />
     <div className="flex flex-col min-h-screen">
       <LandingHeader />
       {/* Breadcrumb */}
@@ -183,6 +213,21 @@ export default async function PricingPage({
                 )}
               </CardFooter>
             </Card>
+          ))}
+        </div>
+      </div>
+
+      {/* Pricing FAQ */}
+      <div className="container mx-auto px-8 pb-12">
+        <h2 className="text-2xl font-bold text-center mb-8">{isFr ? 'Questions frequentes' : 'Frequently Asked Questions'}</h2>
+        <div className="max-w-2xl mx-auto space-y-4">
+          {pricingFaqs.map((faq, i) => (
+            <details key={i} className="group border rounded-lg">
+              <summary className="cursor-pointer px-6 py-4 font-medium text-gray-900 hover:text-primary transition-colors">
+                {faq.q}
+              </summary>
+              <p className="px-6 pb-4 text-gray-600">{faq.a}</p>
+            </details>
           ))}
         </div>
       </div>
