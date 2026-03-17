@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { LayoutDashboard, Package, ChefHat, TrendingUp, Settings, FileDown, BarChart3, Plug, CreditCard, Receipt } from 'lucide-react';
+import { LayoutDashboard, Package, ChefHat, TrendingUp, Settings, FileDown, BarChart3, Plug, CreditCard, Receipt, Bug } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { useTranslations, useLocale } from 'next-intl';
 import { useSession } from 'next-auth/react';
@@ -15,6 +15,8 @@ export function NavLinks({ className }: { className?: string }) {
 
   // @ts-ignore
   const isPremium = session?.user?.subscriptionTier === 'PRO' || session?.user?.subscriptionTier === 'ENTERPRISE';
+  // @ts-ignore
+  const isAdmin = session?.user?.role === 'ADMIN' || session?.user?.email === 'foodtracksio@gmail.com';
 
   const links = [
     { name: t('dashboard'), href: `/${locale}/dashboard`, icon: LayoutDashboard },
@@ -30,6 +32,10 @@ export function NavLinks({ className }: { className?: string }) {
   if (isPremium) {
     links.splice(4, 0, { name: t('analytics'), href: `/${locale}/dashboard/analytics`, icon: BarChart3 });
     links.push({ name: t('exportData'), href: '/api/export/csv', icon: FileDown });
+  }
+
+  if (isAdmin) {
+    links.push({ name: t('errorMonitoring'), href: `/${locale}/dashboard/admin/errors`, icon: Bug });
   }
 
   return (

@@ -9,7 +9,8 @@
         "analytics": "Analyses",
         "integrations": "Intégrations",
         "sumup": "SumUp",
-        "billing": "Facturation"
+        "billing": "Facturation",
+        "errorMonitoring": "Suivi des erreurs"
     },
     "Analytics": {
         "title": "Analyse de Rentabilité",

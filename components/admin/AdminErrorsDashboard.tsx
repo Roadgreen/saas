@@ -299,7 +299,7 @@ export default function AdminErrorsDashboard() {
       <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
         <div className="flex items-center gap-3">
           <Link
-            href={`/${locale}/admin/analytics`}
+            href={`/${locale}/dashboard/analytics`}
             className="p-2 rounded-lg border bg-card hover:bg-accent transition-colors"
             title={t('backToAnalytics')}
           >

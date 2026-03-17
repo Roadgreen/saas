@@ -9,7 +9,8 @@
         "analytics": "Analytics",
         "integrations": "Integrations",
         "sumup": "SumUp",
-        "billing": "Billing"
+        "billing": "Billing",
+        "errorMonitoring": "Error Monitoring"
     },
     "Analytics": {
         "title": "Profitability Analytics",
