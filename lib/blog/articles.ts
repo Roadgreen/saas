@@ -6782,6 +6782,385 @@ And with [FoodTracks](https://foodtracks.io/en/pricing), you manage this rotatio
       },
     ],
   },
+  {
+    slug: "choisir-bon-emplacement-food-truck",
+    title: {
+      fr: "Comment choisir le bon emplacement pour son food truck",
+      en: "How to Choose the Right Location for Your Food Truck",
+    },
+    excerpt: {
+      fr: "Choisir le bon emplacement est la decision la plus rentable que vous prendrez en food truck. Decouvrez une methode concrete pour analyser le flux pietonnais, la concurrence et les evenements afin de maximiser votre chiffre d'affaires.",
+      en: "Choosing the right location is the most profitable decision you will make as a food truck owner. Discover a practical method to analyze foot traffic, competition, and events to maximize your revenue.",
+    },
+    category: { fr: "Stratégie", en: "Strategy" },
+    date: "2026-03-17",
+    readTime: 14,
+    keywords: [
+      "choisir emplacement food truck",
+      "emplacement food truck rentable",
+      "food truck flux pieton",
+      "concurrence food truck",
+      "food truck evenement",
+      "analyse emplacement food truck",
+      "ou installer son food truck",
+      "spot food truck",
+    ],
+    heroImage: "/blog/choisir-emplacement.png",
+    content: {
+      fr: `## Pourquoi le choix de l'emplacement change tout
+
+Un food truck avec un excellent produit mais un mauvais emplacement fera moins de chiffre qu'un food truck moyen bien place. Ce n'est pas une opinion, c'est une realite confirmee par les donnees : **l'emplacement represente jusqu'a 80% de votre chiffre d'affaires**. Pourtant, beaucoup de food truckers choisissent leurs spots au hasard, par habitude ou par bouche-a-oreille.
+
+Dans cet article, on vous donne une methode structuree pour evaluer chaque emplacement avant de vous y installer. Fini les services a 150 euros sur un parking desert.
+
+## Etape 1 : Analyser le flux pieton
+
+Le flux pieton est le premier indicateur a evaluer. Sans passage, pas de clients. Mais attention : tous les flux ne se valent pas.
+
+### Ce qu'il faut observer
+
+- **Le volume** : combien de personnes passent devant votre spot potentiel entre 11h30 et 14h (ou sur votre creneau de vente) ?
+- **Le rythme** : les gens marchent-ils vite (trajet domicile-travail) ou lentement (balade, pause dejeuner) ? Un flux lent convertit mieux.
+- **Le profil** : s'agit-il de salaries, d'etudiants, de touristes, de familles ? Cela influence votre menu et votre panier moyen.
+
+### Comment mesurer concretement
+
+Rendez-vous sur le spot un jour de semaine et un jour de week-end. Comptez les passants sur des creneaux de 15 minutes. Multipliez par 4 pour obtenir le flux horaire. Visez au minimum **200 personnes par heure** sur votre creneau de vente pour un emplacement viable.
+
+**Astuce** : utilisez Google Maps aux heures d'affluence pour reperer les zones les plus frequentees autour de vous. La fonction "heures de pointe" des commerces a proximite donne aussi de bonnes indications.
+
+## Etape 2 : Etudier la concurrence sur place
+
+La concurrence n'est pas forcement un probleme. En fait, **un emplacement sans aucune offre de restauration peut etre un mauvais signe** : les gens n'ont peut-etre pas l'habitude de manger sur place.
+
+### Les questions a se poser
+
+- Combien de food trucks ou de restaurants sont deja presents dans un rayon de 200 metres ?
+- Quel type de cuisine proposent-ils ?
+- Quels sont leurs prix ?
+- Leur file d'attente est-elle longue (signe de forte demande) ?
+
+### Trouver votre avantage
+
+Le but n'est pas d'eviter la concurrence, mais de vous differencier. Si trois food trucks vendent des burgers, arrivez avec des tacos. Si tout le monde est a 12 euros, proposez une formule a 9 euros qui attire les etudiants.
+
+**Bon a savoir** : avec FoodTracks, vous pouvez comparer vos performances de vente par emplacement. Si votre CA chute sur un spot ou la concurrence s'est installee, les donnees vous le montrent en un coup d'oeil.
+
+## Etape 3 : Evaluer le potentiel evenementiel
+
+Les evenements sont les jours les plus rentables pour un food truck. Un festival, un marche de Noel ou un evenement sportif peut generer en un week-end ce que vous faites en deux semaines sur un emplacement fixe.
+
+### Types d'evenements a cibler
+
+- **Marches hebdomadaires et mensuels** : flux regulier et previsible
+- **Festivals et concerts** : CA exceptionnel (500 a 3 000 euros par jour)
+- **Evenements sportifs** : public captif avec un panier moyen eleve
+- **Evenements d'entreprise** : prestations traiteur avec marges confortables
+- **Marches de Noel et foires** : saison courte mais tres rentable
+
+### Comment obtenir les meilleurs spots evenementiels
+
+1. Contactez les mairies et offices de tourisme des votre inscription
+2. Suivez les pages Facebook et Instagram des organisateurs locaux
+3. Inscrivez-vous sur les plateformes de mise en relation (StreetFood Market, Food Trucks United)
+4. Participez aux associations de food truckers de votre region
+5. Demandez le plan d'implantation et choisissez un emplacement pres de l'entree ou des scenes principales
+
+## Etape 4 : Verifier les aspects pratiques
+
+Un emplacement peut etre ideal sur le papier mais impraticable au quotidien. Avant de vous engager, verifiez ces points essentiels.
+
+### Checklist pratique
+
+- **Acces electrique** : avez-vous besoin d'un branchement ? Y en a-t-il un sur place ?
+- **Acces eau** : indispensable pour le service et le nettoyage
+- **Stationnement** : la place est-elle assez grande pour votre camion ? Pouvez-vous manoeuvrer facilement ?
+- **Autorisation** : avez-vous besoin d'une autorisation municipale, d'un bail commercial ou d'une convention d'occupation ?
+- **Visibilite** : etes-vous visible depuis la rue principale ou cache derriere un batiment ?
+- **Securite** : le quartier est-il sur, surtout si vous travaillez en soiree ?
+
+### Le cout de l'emplacement
+
+Le prix d'un emplacement varie enormement :
+- **Marche municipal** : 10 a 50 euros par jour
+- **Zone privee (parking de supermarche)** : 20 a 100 euros par jour ou un pourcentage du CA
+- **Festival** : 100 a 500 euros par jour + parfois un pourcentage
+- **Emplacement gratuit (bord de route autorise)** : 0 euros, mais souvent moins de flux
+
+**Regle d'or** : le cout de l'emplacement ne devrait pas depasser **10% de votre CA previsionnel** sur ce spot.
+
+## Etape 5 : Tester avant de s'engager
+
+Ne signez jamais un bail ou un engagement longue duree sans avoir teste l'emplacement au moins 3 a 5 fois. Chaque service vous donne des donnees precieuses.
+
+### Ce qu'il faut mesurer pendant le test
+
+- **Chiffre d'affaires** par service
+- **Nombre de clients** (tickets)
+- **Panier moyen**
+- **Plats les plus vendus** (votre menu est-il adapte a la clientele locale ?)
+- **Heures de pointe** (a quelle heure commencez-vous a vendre, quand le flux retombe ?)
+- **Conditions meteo** et impact sur les ventes
+
+### Interpreter les resultats
+
+Un spot est rentable si votre marge nette apres couts (matiere premiere, emplacement, carburant, charges) est positive. Pour simplifier :
+
+- **CA inferieur a 250 euros** : emplacement a eviter sauf si les couts sont tres faibles
+- **CA entre 250 et 500 euros** : correct pour un jour de semaine
+- **CA entre 500 et 800 euros** : bon emplacement
+- **CA superieur a 800 euros** : excellent, a conserver absolument
+
+## Etape 6 : Utiliser les donnees pour optimiser vos choix
+
+Le meilleur moyen de choisir ses emplacements, c'est de se baser sur des donnees reelles plutot que sur l'intuition. Apres quelques semaines d'activite, vous avez deja une mine d'informations.
+
+### Ce que les donnees vous revelent
+
+En croisant vos ventes par emplacement avec d'autres facteurs (jour de la semaine, meteo, evenements a proximite), vous identifiez des tendances claires :
+- Le marche du mercredi rapporte 40% de plus quand il fait beau
+- Le spot devant la fac est excellent en periode scolaire mais mort pendant les vacances
+- Les festivals de musique generent 3 fois plus que les brocantes
+
+### Comment FoodTracks vous aide
+
+FoodTracks connecte vos ventes SumUp a vos emplacements et vous donne une vision claire de la rentabilite de chaque spot. Le module de **predictions IA** va plus loin : il croise vos historiques de vente avec la meteo prevue et les evenements a venir pour vous recommander les meilleurs emplacements chaque semaine.
+
+Concretement, vous ouvrez l'application et vous voyez :
+- Le **CA previsionnel** pour chaque emplacement prevu
+- Les **jours les plus rentables** selon la meteo annoncee
+- Les **alertes stock** adaptees au CA prevu (pour eviter les ruptures sur vos meilleurs jours)
+
+Nos utilisateurs qui utilisent les predictions pour choisir leurs emplacements constatent en moyenne **+20% de CA** par rapport a ceux qui choisissent au feeling.
+
+## Les erreurs a eviter absolument
+
+### S'enfermer dans la routine
+Beaucoup de food truckers font toujours les memes emplacements par habitude. Testez regulierement de nouveaux spots pour decouvrir des opportunites.
+
+### Ignorer la saisonnalite
+Un emplacement excellent en ete peut etre desertique en hiver. Adaptez votre planning d'emplacements a chaque saison.
+
+### Ne pas negocier
+Les emplacements prives se negocient. Proposez un pourcentage du CA plutot qu'un loyer fixe : c'est gagnant-gagnant pour vous et le proprietaire.
+
+### Negliger le bouche-a-oreille local
+Parlez aux commercants du quartier, aux habitants, aux autres food truckers. Ils connaissent les flux mieux que n'importe quelle etude.
+
+## Conclusion
+
+Choisir le bon emplacement, ce n'est ni de la chance ni de l'instinct. C'est une demarche methodique qui repose sur l'observation, le test et l'analyse des donnees. Prenez le temps d'evaluer chaque spot avec les criteres decrits dans cet article, et surtout, laissez les chiffres guider vos decisions.
+
+Avec FoodTracks, vous avez tous les outils pour transformer vos donnees de vente en decisions d'emplacement rentables. Plus besoin de deviner : vos chiffres vous disent exactement ou vous devez etre.
+
+[Essayez FoodTracks gratuitement](https://foodtracks.io/fr/pricing) et optimisez vos emplacements des cette semaine.`,
+      en: `## Why Location Choice Changes Everything
+
+A food truck with excellent food but a poor location will earn less than an average food truck in a great spot. This is not an opinion, it is a reality confirmed by data: **location accounts for up to 80% of your revenue**. Yet many food truck owners choose their spots randomly, out of habit, or through word of mouth.
+
+In this article, we give you a structured method to evaluate each location before setting up. No more 150-euro days in empty parking lots.
+
+## Step 1: Analyze Foot Traffic
+
+Foot traffic is the first indicator to evaluate. Without foot traffic, there are no customers. But not all traffic is equal.
+
+### What to Observe
+
+- **Volume**: how many people walk past your potential spot between 11:30 AM and 2 PM (or during your selling window)?
+- **Pace**: are people walking fast (commuting) or slowly (strolling, lunch break)? Slow traffic converts better.
+- **Profile**: are they office workers, students, tourists, families? This influences your menu and average ticket size.
+
+### How to Measure Concretely
+
+Visit the spot on a weekday and a weekend. Count pedestrians over 15-minute intervals. Multiply by 4 for the hourly rate. Aim for at least **200 people per hour** during your selling window for a viable spot.
+
+**Tip**: use Google Maps during peak hours to identify the busiest areas around you. The "popular times" feature of nearby businesses also provides useful insights.
+
+## Step 2: Study the On-Site Competition
+
+Competition is not necessarily a problem. In fact, **a location with zero food options can be a bad sign**: people may simply not be used to eating there.
+
+### Questions to Ask
+
+- How many food trucks or restaurants are already present within 200 meters?
+- What type of cuisine do they offer?
+- What are their prices?
+- Are their queues long (a sign of strong demand)?
+
+### Finding Your Advantage
+
+The goal is not to avoid competition but to differentiate yourself. If three trucks sell burgers, show up with tacos. If everyone charges 12 euros, offer a 9-euro meal deal that attracts students.
+
+**Good to know**: with FoodTracks, you can compare your sales performance by location. If your revenue drops at a spot where new competition has appeared, the data shows you at a glance.
+
+## Step 3: Evaluate Event Potential
+
+Events are the most profitable days for a food truck. A festival, Christmas market, or sports event can generate in one weekend what you make in two weeks at a fixed spot.
+
+### Types of Events to Target
+
+- **Weekly and monthly markets**: regular, predictable flow
+- **Festivals and concerts**: exceptional revenue (500 to 3,000 euros per day)
+- **Sports events**: captive audience with high average ticket
+- **Corporate events**: catering with comfortable margins
+- **Christmas markets and fairs**: short season but highly profitable
+
+### How to Get the Best Event Spots
+
+1. Contact city halls and tourist offices as soon as you register
+2. Follow local organizers on Facebook and Instagram
+3. Sign up on matchmaking platforms (StreetFood Market, Food Trucks United)
+4. Join food truck associations in your region
+5. Request the site map and choose a spot near the entrance or main stages
+
+## Step 4: Check the Practical Aspects
+
+A location can look ideal on paper but be impractical in day-to-day operations. Before committing, verify these essential points.
+
+### Practical Checklist
+
+- **Electrical access**: do you need a power hookup? Is one available on site?
+- **Water access**: essential for service and cleaning
+- **Parking**: is the space large enough for your truck? Can you maneuver easily?
+- **Permits**: do you need a municipal permit, a commercial lease, or an occupancy agreement?
+- **Visibility**: are you visible from the main road or hidden behind a building?
+- **Safety**: is the area safe, especially if you work in the evening?
+
+### The Cost of the Spot
+
+Location costs vary widely:
+- **Municipal market**: 10 to 50 euros per day
+- **Private zone (supermarket parking)**: 20 to 100 euros per day or a percentage of revenue
+- **Festival**: 100 to 500 euros per day + sometimes a percentage
+- **Free spot (authorized roadside)**: 0 euros, but usually less traffic
+
+**Golden rule**: location cost should not exceed **10% of your projected revenue** at that spot.
+
+## Step 5: Test Before Committing
+
+Never sign a lease or long-term commitment without testing the location at least 3 to 5 times. Each service provides valuable data.
+
+### What to Measure During Testing
+
+- **Revenue** per service
+- **Number of customers** (tickets)
+- **Average ticket size**
+- **Best-selling dishes** (is your menu suited to the local clientele?)
+- **Peak hours** (when do you start selling, when does traffic drop?)
+- **Weather conditions** and impact on sales
+
+### Interpreting Results
+
+A spot is profitable if your net margin after costs (ingredients, location fee, fuel, overheads) is positive. As a rule of thumb:
+
+- **Revenue below 250 euros**: avoid the spot unless costs are very low
+- **Revenue between 250 and 500 euros**: decent for a weekday
+- **Revenue between 500 and 800 euros**: good location
+- **Revenue above 800 euros**: excellent, keep it at all costs
+
+## Step 6: Use Data to Optimize Your Choices
+
+The best way to choose locations is to rely on real data rather than gut feeling. After a few weeks of activity, you already have a wealth of information.
+
+### What the Data Reveals
+
+By cross-referencing your sales per location with other factors (day of the week, weather, nearby events), you identify clear trends:
+- The Wednesday market earns 40% more when the weather is nice
+- The spot outside the university is excellent during term time but dead during holidays
+- Music festivals generate 3 times more than flea markets
+
+### How FoodTracks Helps
+
+FoodTracks connects your SumUp sales to your locations and gives you a clear view of each spot's profitability. The **AI prediction** module goes further: it cross-references your sales history with the weather forecast and upcoming events to recommend the best locations each week.
+
+In practice, you open the app and see:
+- The **projected revenue** for each planned location
+- The **most profitable days** based on the weather forecast
+- **Stock alerts** adapted to projected revenue (to avoid stockouts on your best days)
+
+Users who rely on predictions to choose their locations see an average of **+20% revenue** compared to those who choose by feel.
+
+## Mistakes to Avoid
+
+### Getting Stuck in Routine
+Many food truck owners always go to the same spots out of habit. Regularly test new locations to discover opportunities.
+
+### Ignoring Seasonality
+An excellent summer spot can be deserted in winter. Adapt your location schedule to each season.
+
+### Not Negotiating
+Private locations are negotiable. Offer a percentage of revenue instead of a fixed rent: it is a win-win for both you and the landlord.
+
+### Neglecting Local Word of Mouth
+Talk to local shop owners, residents, and other food truck operators. They know the traffic patterns better than any study.
+
+## Conclusion
+
+Choosing the right location is neither luck nor instinct. It is a methodical process based on observation, testing, and data analysis. Take the time to evaluate each spot with the criteria described in this article, and above all, let the numbers guide your decisions.
+
+With FoodTracks, you have all the tools to turn your sales data into profitable location decisions. No more guessing: your numbers tell you exactly where you need to be.
+
+[Try FoodTracks for free](https://foodtracks.io/en/pricing) and optimize your locations this week.`,
+    },
+    keyTakeaways: {
+      fr: [
+        "L'emplacement represente jusqu'a 80% du chiffre d'affaires d'un food truck",
+        "Visez un flux pieton minimum de 200 personnes par heure sur votre creneau de vente",
+        "Le cout de l'emplacement ne doit pas depasser 10% de votre CA previsionnel",
+        "Testez chaque spot 3 a 5 fois avant de vous engager sur la duree",
+        "Les predictions IA de FoodTracks permettent en moyenne +20% de CA en optimisant le choix des emplacements",
+      ],
+      en: [
+        "Location accounts for up to 80% of a food truck's revenue",
+        "Aim for a minimum foot traffic of 200 people per hour during your selling window",
+        "Location cost should not exceed 10% of your projected revenue",
+        "Test each spot 3 to 5 times before making a long-term commitment",
+        "FoodTracks AI predictions deliver an average +20% revenue by optimizing location choices",
+      ],
+    },
+    faqItems: [
+      {
+        question: {
+          fr: "Quel est le meilleur emplacement pour un food truck ?",
+          en: "What is the best location for a food truck?",
+        },
+        answer: {
+          fr: "Il n'y a pas d'emplacement universel. Le meilleur spot depend de votre cuisine, de votre cible et de votre region. Les zones de bureaux a l'heure du dejeuner, les marches hebdomadaires et les festivals sont generalement les plus rentables. L'essentiel est de tester plusieurs emplacements et de comparer les donnees de vente pour identifier ceux qui fonctionnent le mieux pour vous.",
+          en: "There is no universal best location. The ideal spot depends on your cuisine, your target audience, and your region. Office areas at lunchtime, weekly markets, and festivals are generally the most profitable. The key is to test multiple locations and compare sales data to identify what works best for you.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment savoir si un emplacement de food truck est rentable ?",
+          en: "How do you know if a food truck location is profitable?",
+        },
+        answer: {
+          fr: "Mesurez votre chiffre d'affaires, le nombre de clients et le panier moyen sur 3 a 5 services. Un spot est rentable quand votre marge nette (CA moins couts matiere, emplacement, carburant et charges) est positive. En general, un CA superieur a 500 euros par jour est un bon indicateur. FoodTracks vous aide a calculer la rentabilite nette de chaque emplacement automatiquement.",
+          en: "Measure your revenue, customer count, and average ticket over 3 to 5 services. A spot is profitable when your net margin (revenue minus ingredient costs, location fee, fuel, and overheads) is positive. Generally, revenue above 500 euros per day is a good indicator. FoodTracks helps you calculate the net profitability of each location automatically.",
+        },
+      },
+      {
+        question: {
+          fr: "Combien coute un emplacement pour un food truck ?",
+          en: "How much does a food truck location cost?",
+        },
+        answer: {
+          fr: "Les prix varient enormement : de 10 a 50 euros par jour pour un marche municipal, 20 a 100 euros pour un parking prive, et 100 a 500 euros pour un festival. La regle d'or est que le cout de l'emplacement ne doit pas depasser 10% de votre chiffre d'affaires previsionnel sur ce spot.",
+          en: "Prices vary widely: from 10 to 50 euros per day for a municipal market, 20 to 100 euros for private parking, and 100 to 500 euros for a festival. The golden rule is that location cost should not exceed 10% of your projected revenue at that spot.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment analyser la concurrence sur un emplacement de food truck ?",
+          en: "How do you analyze competition at a food truck location?",
+        },
+        answer: {
+          fr: "Comptez les food trucks et restaurants dans un rayon de 200 metres, notez leur type de cuisine et leurs prix. Une file d'attente longue chez un concurrent est un bon signe de demande. L'objectif n'est pas d'eviter la concurrence mais de proposer quelque chose de different. Avec FoodTracks, vous pouvez suivre l'evolution de votre CA par emplacement pour detecter l'impact de nouveaux concurrents.",
+          en: "Count food trucks and restaurants within 200 meters, note their cuisine type and prices. A long queue at a competitor is a good sign of demand. The goal is not to avoid competition but to offer something different. With FoodTracks, you can track your revenue per location to detect the impact of new competitors.",
+        },
+      },
+    ],
+  },
 ];
 
 export function getArticleBySlug(slug: string): BlogArticle | undefined {
