@@ -5,7 +5,7 @@
  * Protected: only foodtracksio@gmail.com can access.
  *
  * Query params:
- *   ?section=overview|top-pages|traffic-sources|devices|recent-events|funnel
+ *   ?section=overview|top-pages|traffic-sources|devices|recent-events|funnel|errors-rage-clicks
  *   &period=today|7d|30d  (default: 7d, used by overview)
  */
 
@@ -199,6 +199,89 @@ export async function GET(request: NextRequest) {
             { name: 'Registrations', count: registers },
             { name: 'Logins', count: logins },
           ],
+        });
+      }
+
+      // ── Errors & Rage Clicks ──
+      case 'errors-rage-clicks': {
+        const [recentErrors, recentRageClicks, errorCount, rageClickCount, topErrorMessages] = await Promise.all([
+          // Last 30 errors with full detail
+          col
+            .find({ type: 'error', timestamp: { $gte: since } })
+            .sort({ timestamp: -1 })
+            .limit(30)
+            .project({
+              _id: 0,
+              eventId: 1,
+              type: 1,
+              timestamp: 1,
+              sessionId: 1,
+              'page.path': 1,
+              'page.url': 1,
+              'user.email': 1,
+              'user.anonymousId': 1,
+              'device.userAgent': 1,
+              'device.isMobile': 1,
+              properties: 1,
+              error: 1,
+            })
+            .toArray(),
+          // Last 30 rage clicks
+          col
+            .find({ type: 'rage_click', timestamp: { $gte: since } })
+            .sort({ timestamp: -1 })
+            .limit(30)
+            .project({
+              _id: 0,
+              eventId: 1,
+              type: 1,
+              timestamp: 1,
+              sessionId: 1,
+              'page.path': 1,
+              'page.url': 1,
+              'user.email': 1,
+              'user.anonymousId': 1,
+              'device.isMobile': 1,
+              properties: 1,
+            })
+            .toArray(),
+          // Total error count in period
+          col.countDocuments({ type: 'error', timestamp: { $gte: since } }),
+          // Total rage click count in period
+          col.countDocuments({ type: 'rage_click', timestamp: { $gte: since } }),
+          // Top error messages (grouped)
+          col.aggregate([
+            { $match: { type: 'error', timestamp: { $gte: since } } },
+            {
+              $group: {
+                _id: '$error.message',
+                count: { $sum: 1 },
+                lastSeen: { $max: '$timestamp' },
+                severity: { $first: '$error.severity' },
+                errorType: { $first: '$error.type' },
+              },
+            },
+            { $sort: { count: -1 as const } },
+            { $limit: 10 },
+            {
+              $project: {
+                _id: 0,
+                message: '$_id',
+                count: 1,
+                lastSeen: 1,
+                severity: 1,
+                errorType: 1,
+              },
+            },
+          ]).toArray(),
+        ]);
+
+        return NextResponse.json({
+          recentErrors,
+          recentRageClicks,
+          errorCount,
+          rageClickCount,
+          topErrorMessages,
         });
       }
 

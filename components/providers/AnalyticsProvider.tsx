@@ -267,6 +267,61 @@ export function AnalyticsProvider({
     } catch { /* never break the app */ }
   }, [flush]);
 
+  // ── Global error capture ────────────────────────────────────────────────────
+  useEffect(() => {
+    // Capture uncaught JS errors
+    const onError = (event: ErrorEvent) => {
+      try {
+        const ref = `ERR_${Date.now()}_${Math.random().toString(36).slice(2, 8)}`;
+        track('error', {
+          source: 'window.onerror',
+          fileName: event.filename ?? null,
+          lineNo: event.lineno ?? null,
+          colNo: event.colno ?? null,
+        }, {
+          ref,
+          message: event.message || 'Unknown error',
+          stack: event.error?.stack ?? null,
+          type: 'runtime',
+          component: null,
+          severity: 'high',
+          digest: null,
+        });
+      } catch { /* never break the app */ }
+    };
+
+    // Capture unhandled promise rejections
+    const onUnhandledRejection = (event: PromiseRejectionEvent) => {
+      try {
+        const ref = `ERR_${Date.now()}_${Math.random().toString(36).slice(2, 8)}`;
+        const reason = event.reason;
+        const message =
+          reason instanceof Error ? reason.message :
+          typeof reason === 'string' ? reason :
+          'Unhandled promise rejection';
+        const stack = reason instanceof Error ? reason.stack ?? null : null;
+        track('error', {
+          source: 'unhandledrejection',
+        }, {
+          ref,
+          message,
+          stack,
+          type: 'runtime',
+          component: null,
+          severity: 'high',
+          digest: null,
+        });
+      } catch { /* never break the app */ }
+    };
+
+    window.addEventListener('error', onError);
+    window.addEventListener('unhandledrejection', onUnhandledRejection);
+    return () => {
+      window.removeEventListener('error', onError);
+      window.removeEventListener('unhandledrejection', onUnhandledRejection);
+    };
+  }, [track]);
+
   // ── Page view + exit + scroll ──────────────────────────────────────────────
   const prevPathRef      = useRef<string>('');
   const pageEnterTimeRef = useRef<number>(Date.now());

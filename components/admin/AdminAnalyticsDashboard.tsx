@@ -27,6 +27,9 @@ import {
   Activity,
   TrendingDown,
   RefreshCw,
+  AlertTriangle,
+  MousePointerClick,
+  Bug,
 } from 'lucide-react';
 
 // ── Types ────────────────────────────────────────────────────────────────────
@@ -66,6 +69,53 @@ interface RecentEvent {
 
 interface FunnelData {
   steps: { name: string; count: number }[];
+}
+
+interface ErrorEvent {
+  eventId: string;
+  type: string;
+  timestamp: string;
+  sessionId: string;
+  page?: { path: string; url: string };
+  user?: { email: string | null; anonymousId: string | null };
+  device?: { userAgent: string; isMobile: boolean };
+  properties?: Record<string, unknown>;
+  error?: {
+    ref: string;
+    message: string;
+    stack: string | null;
+    type: string;
+    component: string | null;
+    severity: string;
+    digest: string | null;
+  };
+}
+
+interface RageClickEvent {
+  eventId: string;
+  type: string;
+  timestamp: string;
+  sessionId: string;
+  page?: { path: string; url: string };
+  user?: { email: string | null; anonymousId: string | null };
+  device?: { isMobile: boolean };
+  properties?: Record<string, unknown>;
+}
+
+interface TopErrorMessage {
+  message: string;
+  count: number;
+  lastSeen: string;
+  severity: string;
+  errorType: string;
+}
+
+interface ErrorsRageClicksData {
+  recentErrors: ErrorEvent[];
+  recentRageClicks: RageClickEvent[];
+  errorCount: number;
+  rageClickCount: number;
+  topErrorMessages: TopErrorMessage[];
 }
 
 type Period = 'today' | '7d' | '30d';
@@ -113,6 +163,13 @@ function timeAgo(dateStr: string): string {
   return `${Math.floor(hrs / 24)}d ago`;
 }
 
+const SEVERITY_STYLES: Record<string, string> = {
+  critical: 'bg-red-600 text-white',
+  high: 'bg-red-100 text-red-800 dark:bg-red-900/40 dark:text-red-300',
+  medium: 'bg-amber-100 text-amber-800 dark:bg-amber-900/40 dark:text-amber-300',
+  low: 'bg-gray-100 text-gray-700 dark:bg-gray-800 dark:text-gray-300',
+};
+
 function shortenReferrer(ref: string): string {
   try {
     const url = new URL(ref);
@@ -136,6 +193,7 @@ export default function AdminAnalyticsDashboard() {
   const [devices, setDevices] = useState<DeviceData | null>(null);
   const [recentEvents, setRecentEvents] = useState<RecentEvent[]>([]);
   const [funnel, setFunnel] = useState<FunnelData | null>(null);
+  const [errorsRageClicks, setErrorsRageClicks] = useState<ErrorsRageClicksData | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
@@ -162,6 +220,7 @@ export default function AdminAnalyticsDashboard() {
         deviceData,
         events,
         funnelData,
+        errorsRageClicksData,
       ] = await Promise.all([
         fetchSection('overview', { period: 'today' }),
         fetchSection('overview', { period: '7d' }),
@@ -171,6 +230,7 @@ export default function AdminAnalyticsDashboard() {
         fetchSection('devices'),
         fetchSection('recent-events'),
         fetchSection('funnel'),
+        fetchSection('errors-rage-clicks'),
       ]);
 
       setOverview({
@@ -183,6 +243,7 @@ export default function AdminAnalyticsDashboard() {
       setDevices(deviceData);
       setRecentEvents(events);
       setFunnel(funnelData);
+      setErrorsRageClicks(errorsRageClicksData);
     } catch (err) {
       setError(err instanceof Error ? err.message : 'Failed to load analytics');
     } finally {
@@ -307,6 +368,216 @@ export default function AdminAnalyticsDashboard() {
           </CardContent>
         </Card>
       </div>
+
+      {/* ── Errors & Rage Clicks (prominent) ── */}
+      {!loading && errorsRageClicks && (errorsRageClicks.errorCount > 0 || errorsRageClicks.rageClickCount > 0) && (
+        <>
+          {/* Summary cards */}
+          <div className="grid gap-4 grid-cols-1 sm:grid-cols-2">
+            <Card className="border-red-200 dark:border-red-900/50">
+              <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
+                <CardTitle className="text-sm font-medium">JS Errors</CardTitle>
+                <div className="rounded-md bg-red-100 dark:bg-red-900/30 p-2">
+                  <Bug className="h-4 w-4 text-red-600 dark:text-red-400" />
+                </div>
+              </CardHeader>
+              <CardContent>
+                <div className="text-2xl font-bold text-red-600 dark:text-red-400">
+                  {formatNumber(errorsRageClicks.errorCount)}
+                </div>
+                <p className="text-xs text-muted-foreground mt-1">{PERIOD_LABELS[period]}</p>
+              </CardContent>
+            </Card>
+
+            <Card className="border-amber-200 dark:border-amber-900/50">
+              <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
+                <CardTitle className="text-sm font-medium">Rage Clicks</CardTitle>
+                <div className="rounded-md bg-amber-100 dark:bg-amber-900/30 p-2">
+                  <MousePointerClick className="h-4 w-4 text-amber-600 dark:text-amber-400" />
+                </div>
+              </CardHeader>
+              <CardContent>
+                <div className="text-2xl font-bold text-amber-600 dark:text-amber-400">
+                  {formatNumber(errorsRageClicks.rageClickCount)}
+                </div>
+                <p className="text-xs text-muted-foreground mt-1">{PERIOD_LABELS[period]}</p>
+              </CardContent>
+            </Card>
+          </div>
+
+          <div className="grid gap-4 grid-cols-1 lg:grid-cols-2">
+            {/* Top Error Messages */}
+            {errorsRageClicks.topErrorMessages.length > 0 && (
+              <Card className="border-red-200 dark:border-red-900/50">
+                <CardHeader>
+                  <CardTitle className="flex items-center gap-2">
+                    <AlertTriangle className="h-5 w-5 text-red-600" />
+                    Top Errors
+                    <span className="text-xs font-normal text-muted-foreground ml-2">
+                      (grouped by message)
+                    </span>
+                  </CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <div className="space-y-3 max-h-80 overflow-y-auto">
+                    {errorsRageClicks.topErrorMessages.map((err, i) => (
+                      <div
+                        key={i}
+                        className="rounded-lg border bg-card p-3 space-y-1"
+                      >
+                        <div className="flex items-start justify-between gap-2">
+                          <p className="text-sm font-medium break-all leading-snug">
+                            {err.message.length > 120 ? err.message.slice(0, 120) + '...' : err.message}
+                          </p>
+                          <span className="text-sm font-bold whitespace-nowrap">{err.count}x</span>
+                        </div>
+                        <div className="flex items-center gap-2 text-xs text-muted-foreground">
+                          <span
+                            className={`inline-block px-1.5 py-0.5 rounded text-xs font-medium ${
+                              SEVERITY_STYLES[err.severity] ?? SEVERITY_STYLES.low
+                            }`}
+                          >
+                            {err.severity}
+                          </span>
+                          <span>{err.errorType}</span>
+                          <span>Last seen {timeAgo(err.lastSeen)}</span>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </CardContent>
+              </Card>
+            )}
+
+            {/* Recent Rage Clicks */}
+            {errorsRageClicks.recentRageClicks.length > 0 && (
+              <Card className="border-amber-200 dark:border-amber-900/50">
+                <CardHeader>
+                  <CardTitle className="flex items-center gap-2">
+                    <MousePointerClick className="h-5 w-5 text-amber-600" />
+                    Recent Rage Clicks
+                  </CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <div className="space-y-3 max-h-80 overflow-y-auto">
+                    {errorsRageClicks.recentRageClicks.map((rc, i) => (
+                      <div
+                        key={i}
+                        className="rounded-lg border bg-card p-3 space-y-1"
+                      >
+                        <div className="flex items-start justify-between gap-2">
+                          <p className="text-sm font-medium truncate">
+                            {rc.page?.path ?? 'Unknown page'}
+                          </p>
+                          <span className="text-xs text-muted-foreground whitespace-nowrap">
+                            {timeAgo(rc.timestamp)}
+                          </span>
+                        </div>
+                        <div className="flex flex-wrap items-center gap-2 text-xs text-muted-foreground">
+                          {rc.properties?.count != null && (
+                            <span className="inline-block px-1.5 py-0.5 rounded bg-amber-100 text-amber-800 dark:bg-amber-900/40 dark:text-amber-300 font-medium">
+                              {String(rc.properties.count)} clicks
+                            </span>
+                          )}
+                          {rc.properties?.targetText != null && (
+                            <span className="truncate max-w-[200px]">
+                              on &quot;{String(rc.properties.targetText)}&quot;
+                            </span>
+                          )}
+                          {rc.properties?.component != null && (
+                            <span>{String(rc.properties.component)}</span>
+                          )}
+                          <span>
+                            {rc.user?.email
+                              ? rc.user.email
+                              : rc.user?.anonymousId
+                                ? rc.user.anonymousId.slice(0, 8) + '...'
+                                : 'anonymous'}
+                          </span>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </CardContent>
+              </Card>
+            )}
+          </div>
+
+          {/* Recent Errors (detailed) */}
+          {errorsRageClicks.recentErrors.length > 0 && (
+            <Card className="border-red-200 dark:border-red-900/50">
+              <CardHeader>
+                <CardTitle className="flex items-center gap-2">
+                  <Bug className="h-5 w-5 text-red-600" />
+                  Recent Errors
+                  <span className="text-xs font-normal text-muted-foreground ml-2">
+                    (last 30)
+                  </span>
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
+                <div className="overflow-x-auto">
+                  <table className="w-full text-sm">
+                    <thead>
+                      <tr className="border-b text-left text-muted-foreground">
+                        <th className="pb-2 pr-4 font-medium">Severity</th>
+                        <th className="pb-2 pr-4 font-medium">Message</th>
+                        <th className="pb-2 pr-4 font-medium">Page</th>
+                        <th className="pb-2 pr-4 font-medium">Ref</th>
+                        <th className="pb-2 font-medium text-right">Time</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {errorsRageClicks.recentErrors.map((evt, i) => (
+                        <tr
+                          key={i}
+                          className="border-b border-border/50 last:border-0 hover:bg-muted/50 transition-colors"
+                        >
+                          <td className="py-2 pr-4">
+                            <span
+                              className={`inline-block px-2 py-0.5 rounded-full text-xs font-medium ${
+                                SEVERITY_STYLES[evt.error?.severity ?? 'low'] ?? SEVERITY_STYLES.low
+                              }`}
+                            >
+                              {evt.error?.severity ?? 'unknown'}
+                            </span>
+                          </td>
+                          <td className="py-2 pr-4 max-w-[300px]">
+                            <p className="truncate text-sm" title={evt.error?.message}>
+                              {evt.error?.message ?? '-'}
+                            </p>
+                            {evt.error?.stack && (
+                              <details className="mt-1">
+                                <summary className="text-xs text-muted-foreground cursor-pointer hover:text-foreground">
+                                  Stack trace
+                                </summary>
+                                <pre className="mt-1 text-xs bg-muted p-2 rounded overflow-x-auto max-h-32 whitespace-pre-wrap break-all">
+                                  {evt.error.stack}
+                                </pre>
+                              </details>
+                            )}
+                          </td>
+                          <td className="py-2 pr-4 text-muted-foreground max-w-[150px] truncate">
+                            {evt.page?.path ?? '-'}
+                          </td>
+                          <td className="py-2 pr-4">
+                            <code className="text-xs bg-muted px-1.5 py-0.5 rounded">
+                              {evt.error?.ref ?? '-'}
+                            </code>
+                          </td>
+                          <td className="py-2 text-right text-muted-foreground whitespace-nowrap">
+                            {timeAgo(evt.timestamp)}
+                          </td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              </CardContent>
+            </Card>
+          )}
+        </>
+      )}
 
       {/* ── 2. Top Pages + 3. Traffic Sources ── */}
       <div className="grid gap-4 grid-cols-1 lg:grid-cols-2">
