@@ -7,18 +7,18 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const { locale } = await params;
   const isFr = locale === 'fr';
   const title = isFr
-    ? 'Comment ca marche — FoodTracks en 4 etapes'
-    : 'How It Works — FoodTracks in 4 Steps';
+    ? 'Comment ça marche — Gestion de Food Truck en 4 étapes simples'
+    : 'How It Works — Food Truck Management in 4 Simple Steps';
   const description = isFr
-    ? 'Decouvrez comment FoodTracks simplifie la gestion de votre food truck en 4 etapes : scan de produits, suivi de stock, predictions IA et analyse des marges.'
-    : 'Discover how FoodTracks simplifies food truck management in 4 steps: product scanning, stock tracking, AI predictions, and margin analytics.';
+    ? 'Découvrez comment FoodTracks simplifie la gestion de votre food truck : scan de produits, suivi de stock en temps réel, prédictions IA et optimisation des marges. Démarrez gratuitement.'
+    : 'Discover how FoodTracks simplifies food truck management: product scanning, real-time inventory tracking, AI predictions and margin optimization. Start for free.';
 
   return {
     title,
     description,
     keywords: isFr
-      ? ['comment fonctionne foodtracks', 'gestion food truck etapes', 'logiciel food truck', 'suivi stock food truck', 'predictions IA restauration']
-      : ['how foodtracks works', 'food truck management steps', 'food truck software', 'food truck stock tracking', 'AI predictions restaurant'],
+      ? ['comment gérer food truck', 'gestion food truck étapes', 'logiciel food truck fonctionnement', 'suivi stock food truck', 'prédictions IA restauration', 'application food truck gratuite']
+      : ['how to manage food truck', 'food truck management steps', 'food truck software how it works', 'food truck stock tracking', 'AI predictions restaurant', 'free food truck app'],
     alternates: {
       canonical: `${BASE_URL}/${locale}/comment-ca-marche`,
       languages: { fr: `${BASE_URL}/fr/comment-ca-marche`, en: `${BASE_URL}/en/comment-ca-marche` },
@@ -38,6 +38,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 export default async function CommentCaMarcheLayout({ children, params }: { children: React.ReactNode; params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const t = await getTranslations('HowItWorks');
+  const isFr = locale === 'fr';
 
   const howToJsonLd = {
     '@context': 'https://schema.org',
@@ -45,9 +46,14 @@ export default async function CommentCaMarcheLayout({ children, params }: { chil
     name: t('hero.title'),
     description: t('hero.subtitle'),
     totalTime: 'PT10M',
+    estimatedCost: {
+      '@type': 'MonetaryAmount',
+      currency: 'EUR',
+      value: '0',
+    },
     tool: [
       { '@type': 'HowToTool', name: 'FoodTracks App' },
-      { '@type': 'HowToTool', name: locale === 'fr' ? 'Smartphone ou ordinateur' : 'Smartphone or computer' },
+      { '@type': 'HowToTool', name: isFr ? 'Smartphone ou ordinateur' : 'Smartphone or computer' },
     ],
     step: [
       {
@@ -56,6 +62,7 @@ export default async function CommentCaMarcheLayout({ children, params }: { chil
         name: t('step1.title'),
         text: t('step1.desc'),
         url: `${BASE_URL}/${locale}/comment-ca-marche#step-1`,
+        image: `${BASE_URL}/dashboardfr.jpg`,
       },
       {
         '@type': 'HowToStep',
@@ -81,12 +88,48 @@ export default async function CommentCaMarcheLayout({ children, params }: { chil
     ],
   };
 
+  const breadcrumbJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'FoodTracks', item: `${BASE_URL}/${locale}` },
+      { '@type': 'ListItem', position: 2, name: isFr ? 'Comment ça marche' : 'How it works', item: `${BASE_URL}/${locale}/comment-ca-marche` },
+    ],
+  };
+
+  const localBusinessServiceJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Service',
+    name: isFr ? 'Gestion de food truck FoodTracks' : 'FoodTracks Food Truck Management',
+    description: isFr
+      ? 'Service de gestion de stock et de pilotage pour food trucks et restaurants ambulants. Prédictions IA, suivi en temps réel, scan de factures.'
+      : 'Inventory management and operations service for food trucks and mobile restaurants. AI predictions, real-time tracking, invoice scanning.',
+    provider: {
+      '@type': 'Organization',
+      name: 'FoodTracks',
+      url: BASE_URL,
+    },
+    serviceType: isFr ? 'Logiciel de gestion food truck' : 'Food truck management software',
+    areaServed: [
+      { '@type': 'Country', name: 'France' },
+      { '@type': 'Country', name: 'Belgium' },
+      { '@type': 'Country', name: 'Switzerland' },
+      { '@type': 'Country', name: 'Canada' },
+    ],
+    offers: {
+      '@type': 'Offer',
+      price: '0',
+      priceCurrency: 'EUR',
+      description: isFr ? 'Plan gratuit disponible' : 'Free plan available',
+      availability: 'https://schema.org/InStock',
+    },
+  };
+
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(howToJsonLd) }}
-      />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(howToJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessServiceJsonLd) }} />
       {children}
     </>
   );

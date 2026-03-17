@@ -4,8 +4,13 @@ import Image from 'next/image';
 import { ArrowLeft, Clock, Tag } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { blogArticles } from '@/lib/blog/articles';
+import { routing } from '@/i18n/routing';
 
 const BASE_URL = 'https://foodtracks.io';
+
+export async function generateStaticParams() {
+  return routing.locales.map((locale) => ({ locale }));
+}
 
 export async function generateMetadata({
   params,
@@ -15,11 +20,11 @@ export async function generateMetadata({
   const { locale } = await params;
   const isFr = locale === 'fr';
   const title = isFr
-    ? 'Blog Food Truck — Guides, conseils et astuces | FoodTracks'
-    : 'Food Truck Blog — Guides, Tips & Best Practices | FoodTracks';
+    ? 'Blog Gestion Food Truck — Guides, Conseils & Stratégies | FoodTracks'
+    : 'Food Truck Management Blog — Guides, Tips & Strategies | FoodTracks';
   const description = isFr
-    ? 'Guides pratiques, conseils et stratégies pour gérer et développer votre food truck : gestion de stock, emplacements, rentabilité, réglementation.'
-    : 'Practical guides, tips, and strategies to manage and grow your food truck: inventory management, locations, profitability, regulations.';
+    ? 'Guides pratiques et stratégies pour gérer votre food truck : gestion de stock, meilleurs emplacements, rentabilité, réglementation, prédictions de ventes et réduction du gaspillage.'
+    : 'Practical guides and strategies for food truck management: inventory control, best locations, profitability, regulations, sales predictions and waste reduction.';
 
   return {
     title,

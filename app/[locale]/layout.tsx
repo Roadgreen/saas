@@ -24,29 +24,41 @@ const jakarta = Plus_Jakarta_Sans({
 
 const metaByLocale: Record<string, { title: string; description: string; keywords: string[] }> = {
   en: {
-    title: "FoodTracks — Smart Inventory Management for Food Trucks & Restaurants",
-    description: "AI-powered sales predictions, real-time stock tracking, and margin analytics for food trucks and restaurants. Free to start.",
+    title: "FoodTracks — Food Truck Management Software | Inventory, Sales & AI Predictions",
+    description: "The #1 food truck management app. AI-powered sales predictions, real-time inventory tracking, invoice scanning and margin analytics. Free plan available — no credit card required.",
     keywords: [
+      "food truck management",
+      "food truck management software",
+      "food truck inventory management",
       "restaurant inventory management",
       "food truck stock tracking",
       "restaurant management software",
+      "food truck app",
       "food waste reduction",
-      "AI sales predictions",
+      "AI sales predictions food truck",
       "restaurant analytics",
       "inventory tracking app",
+      "food truck POS",
+      "mobile restaurant software",
     ],
   },
   fr: {
-    title: "FoodTracks — Gestion de stock intelligente pour food trucks & restaurants",
-    description: "Prédictions IA, suivi de stock en temps réel et analyse des marges pour food trucks et restaurants. Gratuit pour commencer.",
+    title: "FoodTracks — Logiciel de Gestion Food Truck | Stock, Ventes & Prédictions IA",
+    description: "L'application n°1 de gestion de food truck. Prédictions IA, suivi de stock en temps réel, scan de factures et analyse des marges. Plan gratuit disponible — sans carte bancaire.",
     keywords: [
+      "gestion food truck",
+      "logiciel gestion food truck",
       "gestion des stocks restaurant",
+      "logiciel food truck",
+      "application food truck",
       "inventaire restaurant logiciel",
       "suivi des stocks restauration",
       "application gestion restaurant",
       "réduction gaspillage alimentaire",
       "prédictions ventes restaurant",
-      "logiciel food truck",
+      "gestion restaurant ambulant",
+      "caisse food truck",
+      "logiciel restaurant mobile",
     ],
   },
 };
@@ -142,8 +154,12 @@ export default async function LocaleLayout({ children, params }: { children: Rea
     '@type': 'SoftwareApplication',
     name: 'FoodTracks',
     applicationCategory: 'BusinessApplication',
-    operatingSystem: 'Web',
+    applicationSubCategory: locale === 'fr' ? 'Gestion de stock restaurant' : 'Restaurant Inventory Management',
+    operatingSystem: 'Web, Android, iOS',
     url: BASE_URL,
+    description: locale === 'fr'
+      ? 'Logiciel de gestion de stock intelligent pour food trucks et restaurants. Prédictions IA, suivi en temps réel, scan de factures et analyse des marges.'
+      : 'Smart inventory management software for food trucks and restaurants. AI predictions, real-time tracking, invoice scanning and margin analytics.',
     offers: [
       {
         '@type': 'Offer',
@@ -151,6 +167,8 @@ export default async function LocaleLayout({ children, params }: { children: Rea
         priceCurrency: 'EUR',
         name: 'Free',
         description: locale === 'fr' ? '1 emplacement, fonctionnalités de base' : '1 location, basic features',
+        availability: 'https://schema.org/InStock',
+        url: `${BASE_URL}/${locale}/pricing`,
       },
       {
         '@type': 'Offer',
@@ -158,17 +176,66 @@ export default async function LocaleLayout({ children, params }: { children: Rea
         priceCurrency: 'EUR',
         name: 'Pro',
         description: locale === 'fr' ? 'Emplacements illimités, IA, analyses avancées' : 'Unlimited locations, AI, advanced analytics',
+        availability: 'https://schema.org/InStock',
+        priceValidUntil: '2027-12-31',
+        url: `${BASE_URL}/${locale}/pricing`,
       },
     ],
     aggregateRating: {
       '@type': 'AggregateRating',
       ratingValue: '4.8',
       ratingCount: '150',
+      bestRating: '5',
+      worstRating: '1',
     },
     featureList: locale === 'fr'
-      ? 'Prédictions IA, Suivi de stock en temps réel, Scan de factures, Intégration SumUp, Analyse des marges, Multi-emplacements'
-      : 'AI Predictions, Real-time stock tracking, Invoice scanning, SumUp integration, Margin analytics, Multi-location',
+      ? 'Prédictions IA, Suivi de stock en temps réel, Scan de factures, Intégration SumUp, Analyse des marges, Multi-emplacements, Alertes péremption, Export comptable'
+      : 'AI Predictions, Real-time stock tracking, Invoice scanning, SumUp integration, Margin analytics, Multi-location, Expiry alerts, Accounting export',
     screenshot: `${BASE_URL}/dashboardfr.jpg`,
+    softwareVersion: '2.0',
+    datePublished: '2025-01-01',
+    creator: {
+      '@type': 'Organization',
+      name: 'FoodTracks',
+      url: BASE_URL,
+    },
+  };
+
+  const localBusinessJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'LocalBusiness',
+    '@id': `${BASE_URL}/#localbusiness`,
+    name: 'FoodTracks',
+    description: locale === 'fr'
+      ? 'FoodTracks aide les food trucks et restaurants ambulants à gérer leur stock, prédire leurs ventes et optimiser leurs marges grâce à l\'intelligence artificielle.'
+      : 'FoodTracks helps food trucks and mobile restaurants manage inventory, predict sales and optimize margins with artificial intelligence.',
+    url: BASE_URL,
+    logo: `${BASE_URL}/logo.png`,
+    image: `${BASE_URL}/dashboardfr.jpg`,
+    telephone: '',
+    email: 'contact@foodtracks.io',
+    address: {
+      '@type': 'PostalAddress',
+      addressCountry: 'FR',
+    },
+    priceRange: locale === 'fr' ? 'Gratuit - 29€/mois' : 'Free - €29/mo',
+    servesCuisine: locale === 'fr' ? 'Service aux food trucks et restaurants' : 'Service for food trucks and restaurants',
+    areaServed: [
+      { '@type': 'Country', name: 'France' },
+      { '@type': 'Country', name: 'Belgium' },
+      { '@type': 'Country', name: 'Switzerland' },
+      { '@type': 'Country', name: 'Canada' },
+    ],
+    sameAs: [
+      'https://www.instagram.com/foodtracks.io',
+      'https://www.facebook.com/profile.php?id=61576498498498',
+    ],
+    openingHoursSpecification: {
+      '@type': 'OpeningHoursSpecification',
+      dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+      opens: '09:00',
+      closes: '18:00',
+    },
   };
 
   const speakableJsonLd = {
@@ -185,6 +252,24 @@ export default async function LocaleLayout({ children, params }: { children: Rea
       name: 'FoodTracks',
     },
   };
+
+  // Extract landing page FAQ from messages for FAQPage JSON-LD
+  const landingMessages = (messages as Record<string, unknown>)?.Landing as Record<string, unknown> | undefined;
+  const faqMessages = landingMessages?.faq as Record<string, unknown> | undefined;
+  const landingFaqJsonLd = faqMessages ? {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: [1, 2, 3, 4, 5, 6, 7]
+      .map((i) => {
+        const q = faqMessages[`q${i}`] as { question?: string; answer?: string } | undefined;
+        return q?.question && q?.answer ? {
+          '@type': 'Question',
+          name: q.question,
+          acceptedAnswer: { '@type': 'Answer', text: q.answer },
+        } : null;
+      })
+      .filter(Boolean),
+  } : null;
 
   return (
     <html lang={locale} suppressHydrationWarning>
@@ -218,6 +303,19 @@ export default async function LocaleLayout({ children, params }: { children: Rea
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableJsonLd) }}
         />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessJsonLd) }}
+        />
+        {landingFaqJsonLd && (
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(landingFaqJsonLd) }}
+          />
+        )}
+        <link rel="alternate" hrefLang="fr" href={`${BASE_URL}/fr`} />
+        <link rel="alternate" hrefLang="en" href={`${BASE_URL}/en`} />
+        <link rel="alternate" hrefLang="x-default" href={`${BASE_URL}/fr`} />
       </head>
       <body className={`${poppins.className} ${jakarta.variable} font-sans antialiased`}>
         <NextIntlClientProvider messages={messages}>

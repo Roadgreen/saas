@@ -23,8 +23,10 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       description,
       url: `${BASE_URL}/${locale}/guides`,
       siteName: 'FoodTracks',
+      images: [{ url: `${BASE_URL}/og-image.png`, width: 1200, height: 630 }],
       type: 'website',
     },
+    twitter: { card: 'summary_large_image', title, description, images: [`${BASE_URL}/og-image.png`] },
   };
 }
 
@@ -111,7 +113,35 @@ export default async function GuidesPage({ params }: { params: Promise<{ locale:
   const isFr = locale === 'fr';
   const guides = isFr ? GUIDES_FR : GUIDES_EN;
 
+  const breadcrumbJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'FoodTracks', item: `${BASE_URL}/${locale}` },
+      { '@type': 'ListItem', position: 2, name: isFr ? 'Guides' : 'Guides', item: `${BASE_URL}/${locale}/guides` },
+    ],
+  };
+
+  const itemListJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name: isFr ? 'Guides pratiques FoodTracks' : 'FoodTracks Practical Guides',
+    description: isFr
+      ? 'Guides pour maîtriser FoodTracks et optimiser la gestion de votre food truck.'
+      : 'Guides to master FoodTracks and optimize your food truck management.',
+    numberOfItems: guides.length,
+    itemListElement: guides.map((guide, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      name: guide.title,
+      description: guide.desc,
+    })),
+  };
+
   return (
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListJsonLd) }} />
     <div className="min-h-screen bg-white">
       <header className="border-b">
         <div className="container mx-auto px-4 py-4 flex items-center gap-2">
@@ -201,5 +231,6 @@ export default async function GuidesPage({ params }: { params: Promise<{ locale:
         </div>
       </main>
     </div>
+    </>
   );
 }

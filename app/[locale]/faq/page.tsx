@@ -8,10 +8,10 @@ const BASE_URL = 'https://foodtracks.io';
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
   const isFr = locale === 'fr';
-  const title = isFr ? 'FAQ — Questions frequentes' : 'FAQ — Frequently Asked Questions';
+  const title = isFr ? 'FAQ Food Truck — Questions Fréquentes sur FoodTracks' : 'Food Truck FAQ — Frequently Asked Questions | FoodTracks';
   const description = isFr
-    ? 'Trouvez les reponses a toutes vos questions sur FoodTracks : tarifs, fonctionnalites, securite, integrations et plus.'
-    : 'Find answers to all your questions about FoodTracks: pricing, features, security, integrations, and more.';
+    ? 'Réponses à toutes vos questions sur FoodTracks : tarifs, fonctionnalités de gestion de food truck, sécurité des données, intégrations SumUp/Stripe et plus encore.'
+    : 'Answers to all your questions about FoodTracks: pricing, food truck management features, data security, SumUp/Stripe integrations and more.';
 
   return {
     title,

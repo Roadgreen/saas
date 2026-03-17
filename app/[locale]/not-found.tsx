@@ -1,5 +1,15 @@
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import { ChefHat } from 'lucide-react';
+
+export const metadata: Metadata = {
+  title: 'Page Not Found — 404 | FoodTracks',
+  description: 'The page you are looking for does not exist or has been moved. Return to the FoodTracks homepage.',
+  robots: {
+    index: false,
+    follow: true,
+  },
+};
 
 export default function NotFound() {
   return (

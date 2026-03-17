@@ -13,10 +13,10 @@ const BASE_URL = 'https://foodtracks.io';
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
   const isFr = locale === 'fr';
-  const title = isFr ? 'Tarifs' : 'Pricing';
+  const title = isFr ? 'Tarifs Food Truck — Gratuit, Pro 29€/mois | FoodTracks' : 'Food Truck Software Pricing — Free, Pro €29/mo | FoodTracks';
   const description = isFr
-    ? 'Découvrez les plans FoodTracks : gratuit, Pro à 29€/mois et Entreprise. Gestion des stocks restaurant sans engagement.'
-    : 'Explore FoodTracks plans: Free, Pro at €29/mo, and Enterprise. Restaurant inventory management with no commitment.';
+    ? 'Comparez les plans FoodTracks pour votre food truck : plan Gratuit sans limite, Pro à 29€/mois avec IA et analyses avancées. Sans engagement, essai 14 jours.'
+    : 'Compare FoodTracks plans for your food truck: unlimited Free plan, Pro at €29/mo with AI and advanced analytics. No commitment, 14-day free trial.';
   return {
     title,
     description,

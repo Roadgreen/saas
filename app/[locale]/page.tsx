@@ -415,6 +415,7 @@ export default function Home() {
                   src="/Generated-Image-February-21_-2026-10_49AM.jpg"
                   alt="Food truck chef cooking"
                   fill
+                  sizes="(max-width: 768px) 100vw, 50vw"
                   className="object-cover"
                 />
                 <div
@@ -737,6 +738,7 @@ export default function Home() {
                     src="/smartphone-with-barcode-scanner-for-restaurant-inv.jpg"
                     alt="Mobile inventory scanning"
                     fill
+                    sizes="(max-width: 768px) 100vw, 66vw"
                     className="object-cover object-center"
                   />
                   <div
@@ -1298,6 +1300,7 @@ export default function Home() {
             src="/Generated-Image-February-21_-2026-11_16AM.jpg"
             alt="Food truck"
             fill
+            sizes="100vw"
             className="object-cover object-center opacity-20"
           />
           <div

@@ -5,12 +5,18 @@ import Image from 'next/image';
 import { ArrowLeft, Clock, Calendar, Tag } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { blogArticles, getArticleBySlug, getAllSlugs } from '@/lib/blog/articles';
+import { routing } from '@/i18n/routing';
 
 const BASE_URL = 'https://foodtracks.io';
 
 export async function generateStaticParams() {
-  return getAllSlugs().map((slug) => ({ slug }));
+  const slugs = getAllSlugs();
+  return routing.locales.flatMap((locale) =>
+    slugs.map((slug) => ({ locale, slug }))
+  );
 }
+
+export const dynamicParams = false;
 
 export async function generateMetadata({
   params,
@@ -379,6 +385,7 @@ function markdownToHtml(md: string): string {
     // Headers
     .replace(/^### (.+)$/gm, '<h3>$1</h3>')
     .replace(/^## (.+)$/gm, '<h2>$1</h2>')
+    .replace(/^# (.+)$/gm, '<h1>$1</h1>')
     // Bold
     .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
     // Italic
