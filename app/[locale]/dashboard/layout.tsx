@@ -10,6 +10,7 @@ import { DashboardShell } from "@/components/app/DashboardShell";
 import { OnboardingModal } from "@/components/onboarding-modal";
 import { auth } from "@/auth";
 import { prisma } from "@/lib/prisma";
+import { redirect } from "next/navigation";
 
 export const metadata: Metadata = {
   robots: { index: false, follow: false },
@@ -22,6 +23,12 @@ export default async function DashboardLayout({
 }) {
   // Check if the current user has verified their email
   const session = await auth();
+
+  // Redirect unauthenticated users to login (defense-in-depth, middleware handles this too)
+  if (!session?.user?.email) {
+    redirect('/login');
+  }
+
   let showVerificationBanner = false;
   let userEmail = "";
   let showOnboarding = false;

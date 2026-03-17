@@ -73,11 +73,11 @@ export default async function ProductsPage({
       category: p.category,
       quantity: p.quantity,
       unit: p.unit,
-      expiryDate: p.expiryDate.toISOString(),
+      expiryDate: p.expiryDate ? p.expiryDate.toISOString() : null,
       costPerUnit: p.costPerUnit,
-      status: calculateStatus(p.expiryDate),
+      status: p.expiryDate ? calculateStatus(p.expiryDate) : 'OK' as const,
       imageUrl: p.imageUrl,
-      locationName: p.location.name,
+      locationName: p.location?.name ?? '',
       demand: demand
         ? {
             coverageDays: demand.coverageDays,

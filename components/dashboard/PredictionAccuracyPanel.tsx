@@ -67,35 +67,37 @@ export function PredictionAccuracyPanel({ metrics, isPremium }: PredictionAccura
     if (!isPremium) {
         return (
             <Card className="relative overflow-hidden dash-card">
-                <div className="absolute inset-0 backdrop-blur-sm z-10 flex flex-col items-center justify-center bg-white/80 p-6 text-center">
-                    <Lock className="h-8 w-8 text-emerald-600 mb-2" />
-                    <h3 className="font-bold text-lg text-gray-900">{t('upgradeAccuracy')}</h3>
-                    <p className="text-sm text-gray-600 mb-4 max-w-xs">{t('upgradeAccuracyDesc')}</p>
-                    <Button asChild className="bg-emerald-600 hover:bg-emerald-700 text-white">
+                <div className="absolute inset-0 backdrop-blur-sm z-10 flex flex-col items-center justify-center bg-[#0D0905]/80 p-6 text-center">
+                    <div className="rounded-full bg-orange-500/10 p-3 mb-3">
+                        <Lock className="h-6 w-6 text-orange-400" />
+                    </div>
+                    <h3 className="font-bold text-base text-white">{t('upgradeAccuracy')}</h3>
+                    <p className="text-sm text-white/60 mb-4 max-w-xs">{t('upgradeAccuracyDesc')}</p>
+                    <Button asChild className="bg-orange-500 hover:bg-orange-400 text-white">
                         <Link href={`/${locale}/pricing`}>{t('upgradePremium')}</Link>
                     </Button>
                 </div>
 
                 {/* Fake blurred background content */}
-                <CardHeader className="opacity-50">
+                <CardHeader className="opacity-30">
                     <CardTitle className="flex items-center gap-2">
                         <Target className="h-5 w-5" />
                         {t('upgradeAccuracy')}
                     </CardTitle>
                 </CardHeader>
-                <CardContent className="opacity-50 space-y-4">
-                    <div className="flex items-center gap-4 p-3 bg-gray-50 rounded-lg border border-gray-100">
-                        <div className="text-3xl font-bold text-emerald-600">87</div>
+                <CardContent className="opacity-30 space-y-4">
+                    <div className="flex items-center gap-4 p-3 bg-white/5 rounded-lg border border-white/5">
+                        <div className="text-3xl font-bold text-orange-500">87</div>
                         <div>
                             <div className="text-sm font-medium">{t('predictabilityScore')}</div>
-                            <div className="text-xs text-emerald-600">{t('highPredictability')}</div>
+                            <div className="text-xs text-orange-400">{t('highPredictability')}</div>
                         </div>
                     </div>
-                    <div className="flex items-center gap-4 p-3 bg-gray-50 rounded-lg border border-gray-100">
+                    <div className="flex items-center gap-4 p-3 bg-white/5 rounded-lg border border-white/5">
                         <div className="text-sm text-muted-foreground">Crepe Classique</div>
                         <div className="text-sm font-medium text-green-600">92%</div>
                     </div>
-                    <div className="flex items-center gap-4 p-3 bg-gray-50 rounded-lg border border-gray-100">
+                    <div className="flex items-center gap-4 p-3 bg-white/5 rounded-lg border border-white/5">
                         <div className="text-sm text-muted-foreground">Galette Jambon</div>
                         <div className="text-sm font-medium text-yellow-600">74%</div>
                     </div>

@@ -1,5 +1,5 @@
 import { Composition } from "remotion";
-import { FoodTracksVideo } from "./FoodTracksVideo";
+import { FoodTracksVideo, TOTAL_FRAMES } from "./FoodTracksVideo";
 
 export const RemotionRoot: React.FC = () => {
   return (
@@ -7,7 +7,7 @@ export const RemotionRoot: React.FC = () => {
       <Composition
         id="FoodTracksReel"
         component={FoodTracksVideo}
-        durationInFrames={750}
+        durationInFrames={TOTAL_FRAMES}
         fps={30}
         width={1080}
         height={1920}
@@ -15,7 +15,7 @@ export const RemotionRoot: React.FC = () => {
       <Composition
         id="FoodTracksSquare"
         component={FoodTracksVideo}
-        durationInFrames={750}
+        durationInFrames={TOTAL_FRAMES}
         fps={30}
         width={1080}
         height={1080}

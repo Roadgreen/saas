@@ -123,25 +123,27 @@ export default async function AnalyticsPage({
 
             {!isPremium ? (
                 <Card className="relative overflow-hidden dash-card">
-                    <div className="absolute inset-0 backdrop-blur-sm z-10 flex flex-col items-center justify-center bg-white/80 p-8 text-center">
-                        <Lock className="h-10 w-10 text-emerald-600 mb-3" />
-                        <h3 className="font-bold text-xl text-emerald-900 mb-1">
+                    <div className="absolute inset-0 backdrop-blur-sm z-10 flex flex-col items-center justify-center bg-[#0D0905]/80 p-8 text-center">
+                        <div className="rounded-full bg-orange-500/10 p-3 mb-3">
+                            <Lock className="h-7 w-7 text-orange-400" />
+                        </div>
+                        <h3 className="font-bold text-xl text-white mb-1">
                             {t('upgradeTitle')}
                         </h3>
-                        <p className="text-sm text-emerald-700 mb-5 max-w-sm">
+                        <p className="text-sm text-white/60 mb-5 max-w-sm">
                             {t('upgradeDesc')}
                         </p>
-                        <Button asChild className="bg-emerald-600 hover:bg-emerald-700 text-white">
+                        <Button asChild className="bg-orange-500 hover:bg-orange-400 text-white">
                             <Link href={`/${locale}/pricing`}>{t('upgradeBtn')}</Link>
                         </Button>
                     </div>
-                    <CardHeader className="opacity-40">
+                    <CardHeader className="opacity-30">
                         <CardTitle className="flex items-center gap-2">
                             <BarChart3 className="h-5 w-5" />
                             {t('chartTitle')}
                         </CardTitle>
                     </CardHeader>
-                    <CardContent className="opacity-40 h-64 bg-gradient-to-br from-slate-100 to-white rounded-lg" />
+                    <CardContent className="opacity-30 h-64 bg-gradient-to-br from-white/5 to-white/[0.02] rounded-lg" />
                 </Card>
             ) : (
                 <>

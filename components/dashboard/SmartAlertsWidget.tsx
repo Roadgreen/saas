@@ -26,30 +26,32 @@ export function SmartAlertsWidget({ analysis, isPremium }: SmartAlertsWidgetProp
   if (!isPremium) {
     return (
       <Card className="relative overflow-hidden dash-card">
-        <div className="absolute inset-0 backdrop-blur-sm z-10 flex flex-col items-center justify-center bg-white/80 p-6 text-center">
-          <Lock className="h-8 w-8 text-emerald-600 mb-2" />
-          <h3 className="font-bold text-lg text-gray-900">{ts('upgradeTitle')}</h3>
-          <p className="text-sm text-gray-600 mb-4 max-w-xs">{ts('upgradeDesc')}</p>
-          <Button asChild className="bg-emerald-600 hover:bg-emerald-500 text-white">
+        <div className="absolute inset-0 backdrop-blur-sm z-10 flex flex-col items-center justify-center bg-[#0D0905]/80 p-6 text-center">
+          <div className="rounded-full bg-orange-500/10 p-3 mb-3">
+            <Lock className="h-6 w-6 text-orange-400" />
+          </div>
+          <h3 className="font-bold text-base text-white">{ts('upgradeTitle')}</h3>
+          <p className="text-sm text-white/60 mb-4 max-w-xs">{ts('upgradeDesc')}</p>
+          <Button asChild className="bg-orange-500 hover:bg-orange-400 text-white">
             <Link href={`/${locale}/pricing`}>{ts('upgradeBtn')}</Link>
           </Button>
         </div>
 
         <CardHeader className="opacity-30">
           <CardTitle className="flex items-center gap-2">
-            <Brain className="h-5 w-5 text-emerald-600" />
+            <Brain className="h-5 w-5 text-orange-500" />
             {ts('title')}
           </CardTitle>
         </CardHeader>
         <CardContent className="opacity-30 space-y-4">
-           <div className="flex items-start gap-3 p-3 bg-gray-50 rounded-lg border border-gray-100">
+           <div className="flex items-start gap-3 p-3 bg-white/5 rounded-lg border border-white/5">
               <Lightbulb className="h-5 w-5 text-yellow-600 mt-0.5" />
               <div>
                 <div className="font-medium">Tomatoes</div>
                 <div className="text-xs text-muted-foreground">{ts('rec_promo', { name: 'Tomatoes' })}</div>
               </div>
            </div>
-           <div className="flex items-start gap-3 p-3 bg-gray-50 rounded-lg border border-gray-100">
+           <div className="flex items-start gap-3 p-3 bg-white/5 rounded-lg border border-white/5">
               <Lightbulb className="h-5 w-5 text-yellow-600 mt-0.5" />
               <div>
                 <div className="font-medium">Chicken</div>
