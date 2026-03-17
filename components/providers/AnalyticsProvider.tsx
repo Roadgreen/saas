@@ -165,8 +165,8 @@ function findTrackableElement(target: EventTarget | null) {
 const BATCH_SIZE = 20;
 const FLUSH_INTERVAL_MS = 2000;
 const TRACK_URL = '/api/analytics/track';
-// Rage click: 3+ clicks within RAGE_WINDOW_MS and RAGE_RADIUS_PX
-const RAGE_WINDOW_MS = 1000;
+// Rage click: 3+ clicks with ≤500 ms between consecutive clicks, within RAGE_RADIUS_PX
+const RAGE_WINDOW_MS = 500;
 const RAGE_RADIUS_PX = 60;
 const RAGE_THRESHOLD = 3;
 
@@ -414,8 +414,8 @@ export function AnalyticsProvider({
         // ── Rage click detection ──────────────────────────────────────────
         const now = Date.now();
         clickBuf.push({ x: e.clientX, y: e.clientY, t: now });
-        // Keep only clicks within the time window
-        while (clickBuf.length > 0 && now - clickBuf[0].t > RAGE_WINDOW_MS) {
+        // Prune: remove from front while consecutive gap > 500ms
+        while (clickBuf.length >= 2 && clickBuf[1].t - clickBuf[0].t > RAGE_WINDOW_MS) {
           clickBuf.shift();
         }
         if (clickBuf.length >= RAGE_THRESHOLD) {
@@ -426,6 +426,10 @@ export function AnalyticsProvider({
           );
           if (allClose) {
             const el = findTrackableElement(e.target);
+            const targetEl = e.target as HTMLElement | null;
+            const selector = targetEl
+              ? `${targetEl.tagName?.toLowerCase() ?? ''}${targetEl.id ? `#${targetEl.id}` : ''}${targetEl.className ? `.${String(targetEl.className).split(' ').filter(Boolean).slice(0, 2).join('.')}` : ''}`
+              : null;
             track('rage_click', {
               x: Math.round(e.clientX),
               y: Math.round(e.clientY),
@@ -433,6 +437,7 @@ export function AnalyticsProvider({
               intervalMs: now - clickBuf[0].t,
               component: el?.dataset?.trackComponent ?? null,
               targetText: (el?.textContent ?? '').trim().slice(0, 60),
+              targetSelector: selector,
             });
             clickBuf.length = 0; // reset after reporting
           }
