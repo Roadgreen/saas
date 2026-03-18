@@ -3,6 +3,7 @@ import { Poppins, Plus_Jakarta_Sans } from "next/font/google";
 import "../globals.css";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
+import { headers } from "next/headers";
 import { Toaster } from "@/components/ui/sonner";
 import { SessionProvider } from "next-auth/react";
 import { AnalyticsProvider } from "@/components/providers/AnalyticsProvider";
@@ -69,7 +70,6 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const { locale } = await params;
   const meta = metaByLocale[locale] ?? metaByLocale.fr;
   const url = `${BASE_URL}/${locale}`;
-  const altLocale = locale === 'fr' ? 'en' : 'fr';
   return {
     title: {
       default: meta.title,
@@ -78,10 +78,6 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     description: meta.description,
     keywords: meta.keywords,
     metadataBase: new URL(BASE_URL),
-    alternates: {
-      canonical: url,
-      languages: { fr: `${BASE_URL}/fr`, en: `${BASE_URL}/en` },
-    },
     openGraph: {
       title: meta.title,
       description: meta.description,
@@ -107,6 +103,13 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 export default async function LocaleLayout({ children, params }: { children: React.ReactNode; params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const messages = await getMessages();
+
+  /* ─── Dynamic hreflang: derive current path from middleware header ─── */
+  const headersList = await headers();
+  const pathname = headersList.get('x-pathname') || `/${locale}`;
+  const pathWithoutLocale = pathname.replace(new RegExp(`^/${locale}`), '') || '';
+  const hrefFr = `${BASE_URL}/fr${pathWithoutLocale}`;
+  const hrefEn = `${BASE_URL}/en${pathWithoutLocale}`;
 
   const organizationJsonLd = {
     '@context': 'https://schema.org',
@@ -313,9 +316,9 @@ export default async function LocaleLayout({ children, params }: { children: Rea
             dangerouslySetInnerHTML={{ __html: JSON.stringify(landingFaqJsonLd) }}
           />
         )}
-        <link rel="alternate" hrefLang="fr" href={`${BASE_URL}/fr`} />
-        <link rel="alternate" hrefLang="en" href={`${BASE_URL}/en`} />
-        <link rel="alternate" hrefLang="x-default" href={`${BASE_URL}/fr`} />
+        <link rel="alternate" hrefLang="fr" href={hrefFr} />
+        <link rel="alternate" hrefLang="en" href={hrefEn} />
+        <link rel="alternate" hrefLang="x-default" href={hrefFr} />
       </head>
       <body className={`${poppins.className} ${jakarta.variable} font-sans antialiased`}>
         <NextIntlClientProvider messages={messages}>
