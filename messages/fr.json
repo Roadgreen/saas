@@ -1102,5 +1102,98 @@
         "showing": "Affichage",
         "of": "sur",
         "errorMonitoring": "Suivi des erreurs"
+    },
+    "SumUpIntegration": {
+        "hero": {
+            "badge": "Intégration officielle",
+            "title": "Connectez SumUp à votre food truck en 2 minutes",
+            "subtitle": "Synchronisez automatiquement vos ventes SumUp avec votre stock FoodTracks. Fini la double saisie — vos marges, recettes et inventaire se mettent à jour en temps réel.",
+            "cta": "Connecter SumUp gratuitement",
+            "ctaSecondary": "Voir comment ça marche",
+            "noCreditCard": "Sans carte bancaire · Plan gratuit disponible"
+        },
+        "steps": {
+            "title": "Comment ça marche",
+            "subtitle": "Trois étapes pour connecter votre terminal SumUp à FoodTracks et automatiser votre gestion.",
+            "step1": {
+                "title": "Connectez votre compte SumUp",
+                "desc": "Depuis votre tableau de bord FoodTracks, cliquez sur « Connecter SumUp ». Autorisez l'accès en quelques clics — aucune configuration technique requise."
+            },
+            "step2": {
+                "title": "Synchronisation automatique",
+                "desc": "Chaque vente SumUp est automatiquement importée dans FoodTracks. Le stock se met à jour en temps réel, sans intervention manuelle."
+            },
+            "step3": {
+                "title": "Analysez vos marges",
+                "desc": "Visualisez vos recettes, coûts et marges par produit, par jour ou par emplacement. Prenez des décisions basées sur des données réelles."
+            }
+        },
+        "benefits": {
+            "title": "Pourquoi connecter SumUp à FoodTracks ?",
+            "subtitle": "Tout ce dont vous avez besoin pour piloter votre food truck avec précision.",
+            "b1": {
+                "title": "Gain de temps",
+                "desc": "Plus de double saisie. Vos ventes SumUp alimentent automatiquement votre stock et vos analyses."
+            },
+            "b2": {
+                "title": "Sync en temps réel",
+                "desc": "Chaque transaction est synchronisée instantanément. Votre stock est toujours à jour, même en plein service."
+            },
+            "b3": {
+                "title": "Marges précises",
+                "desc": "Croisez automatiquement vos ventes et vos coûts d'achat pour connaître votre marge réelle par produit."
+            },
+            "b4": {
+                "title": "Données sécurisées",
+                "desc": "Connexion OAuth sécurisée. Vos données transitent par des serveurs européens conformes au RGPD."
+            },
+            "b5": {
+                "title": "Zéro friction",
+                "desc": "Aucun matériel supplémentaire. Si vous utilisez déjà SumUp, la connexion prend moins de 2 minutes."
+            },
+            "b6": {
+                "title": "Multi-emplacements",
+                "desc": "Gérez plusieurs food trucks ou points de vente avec un seul compte. Chaque emplacement a ses propres données."
+            }
+        },
+        "demo": {
+            "badge": "Aperçu en direct",
+            "title": "Vos ventes SumUp, directement dans FoodTracks",
+            "subtitle": "Visualisez en un coup d'œil vos revenus, le nombre de transactions et le rapprochement automatique avec votre stock.",
+            "bullet1": "Import automatique de chaque transaction SumUp",
+            "bullet2": "Rapprochement stock/ventes sans intervention",
+            "bullet3": "Tableau de bord des revenus par jour et par produit",
+            "bullet4": "Alertes quand le stock descend sous le seuil critique",
+            "syncLabel": "Synchronisation automatique",
+            "matchDesc": "Toutes les transactions sont rapprochées avec le stock"
+        },
+        "faq": {
+            "title": "Questions fréquentes sur l'intégration SumUp",
+            "q1": {
+                "question": "Comment connecter SumUp à FoodTracks ?",
+                "answer": "C'est très simple : depuis votre tableau de bord FoodTracks, allez dans Intégrations > SumUp et cliquez sur « Connecter ». Vous serez redirigé vers SumUp pour autoriser l'accès. L'ensemble du processus prend moins de 2 minutes."
+            },
+            "q2": {
+                "question": "Est-ce que l'intégration SumUp est gratuite ?",
+                "answer": "Oui, l'intégration SumUp est incluse dans tous les plans FoodTracks, y compris le plan gratuit. Aucun frais supplémentaire n'est facturé pour la connexion ou la synchronisation."
+            },
+            "q3": {
+                "question": "Quels terminaux SumUp sont compatibles ?",
+                "answer": "Tous les terminaux SumUp sont compatibles : SumUp Air, SumUp 3G, SumUp Solo, et les paiements via l'application SumUp sur smartphone. La synchronisation fonctionne avec tous les lecteurs de cartes SumUp."
+            },
+            "q4": {
+                "question": "La synchronisation est-elle en temps réel ?",
+                "answer": "Oui, chaque transaction SumUp est synchronisée automatiquement avec FoodTracks en quelques secondes. Votre stock, vos recettes et vos marges sont mis à jour en temps réel pendant le service."
+            },
+            "q5": {
+                "question": "Mes données sont-elles sécurisées ?",
+                "answer": "Absolument. La connexion utilise le protocole OAuth 2.0 (le même que Google ou Facebook). Vos données sont hébergées sur des serveurs européens conformes au RGPD. Nous ne stockons jamais vos identifiants SumUp."
+            }
+        },
+        "cta": {
+            "title": "Prêt à connecter SumUp à votre food truck ?",
+            "subtitle": "Rejoignez les food truckers qui ont automatisé leur gestion grâce à l'intégration SumUp + FoodTracks.",
+            "button": "Démarrer gratuitement avec SumUp"
+        }
     }
 }
