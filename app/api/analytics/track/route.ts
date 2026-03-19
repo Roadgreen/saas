@@ -142,38 +142,55 @@ async function ensureIndexesOnce() {
   try {
     await ensureAnalyticsIndexes();
     indexesEnsured = true;
-  } catch {
+  } catch (err) {
     // Non-critical — indexes will be created on next successful call
+    console.warn('[analytics/track] ensureAnalyticsIndexes failed:', err instanceof Error ? err.message : err);
   }
+}
+
+function extractIp(request: NextRequest): string | null {
+  const forwarded = request.headers.get('x-forwarded-for');
+  if (forwarded) {
+    // x-forwarded-for can be a comma-separated list; first entry is the client
+    const first = forwarded.split(',')[0].trim();
+    if (first) return first;
+  }
+  return request.headers.get('x-real-ip') ?? null;
 }
 
 export async function POST(request: NextRequest) {
   const rawBody = await request.text();
+  const ip = extractIp(request);
 
   // Must await processing before returning — on Vercel serverless,
   // the function is frozen/killed once the response is sent, so
   // fire-and-forget background work never completes.
   try {
-    await processEvents(rawBody);
-  } catch {
-    // Analytics must never break the app — swallow errors silently
+    await processEvents(rawBody, ip);
+  } catch (err) {
+    // Analytics must never break the app — but log so we can debug
+    console.error('[analytics/track] Failed to process events:', err instanceof Error ? err.message : err);
   }
 
   return NextResponse.json({ ok: true }, { status: 202 });
 }
 
-async function processEvents(rawBody: string): Promise<void> {
+async function processEvents(rawBody: string, ip: string | null): Promise<void> {
   await ensureIndexesOnce();
 
   let parsed: unknown;
   try {
     parsed = JSON.parse(rawBody);
   } catch {
-    return; // Malformed JSON — drop silently
+    console.warn('[analytics/track] Malformed JSON body — dropping');
+    return;
   }
 
   const result = BodySchema.safeParse(parsed);
-  if (!result.success) return; // Invalid schema — drop silently
+  if (!result.success) {
+    console.warn('[analytics/track] Zod validation failed:', result.error.issues.map(i => `${i.path.join('.')}: ${i.message}`).join(', '));
+    return;
+  }
 
   const payloads: TrackPayload[] = Array.isArray(result.data)
     ? result.data
@@ -195,7 +212,11 @@ async function processEvents(rawBody: string): Promise<void> {
     timestamp: new Date(), // server-authoritative
     sessionId: payload.sessionId,
     pageViewId: payload.pageViewId,
-    user: payload.user,
+    ip,
+    user: {
+      ...payload.user,
+      id: payload.user.id ?? null,
+    },
     page: payload.page,
     device: payload.device,
     properties: payload.properties,

@@ -150,6 +150,8 @@ export interface AnalyticsEvent {
   timestamp: Date;
   /** UUID persisted in sessionStorage — ties events to a browser session */
   sessionId: string;
+  /** Client IP from x-forwarded-for / x-real-ip — server-extracted */
+  ip: string | null;
   /**
    * UUID generated fresh on every page navigation.
    * Groups all events that happen on a single page visit:

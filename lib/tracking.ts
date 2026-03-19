@@ -40,6 +40,7 @@ export async function trackEvent(event: string, data: Record<string, unknown> = 
       timestamp: new Date(),
       sessionId: 'server',
       pageViewId: 'server',
+      ip: null,
       user: {
         id: (data.userId as string) ?? null,
         email: (data.email as string) ?? null,
