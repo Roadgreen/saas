@@ -426,6 +426,9 @@ export default async function InventoryManagementPage() {
               <Link href={`/${locale}/fonctionnalites/scan-factures`} className="text-sm font-medium text-orange-600 hover:text-orange-700 underline underline-offset-4">
                 {isFr ? 'Scan de factures' : 'Invoice Scanning'}
               </Link>
+              <Link href={`/${locale}/guides/gestion-food-truck`} className="text-sm font-medium text-orange-600 hover:text-orange-700 underline underline-offset-4">
+                {isFr ? 'Guide gestion food truck' : 'Food truck management guide'}
+              </Link>
               <Link href={`/${locale}/blog`} className="text-sm font-medium text-orange-600 hover:text-orange-700 underline underline-offset-4">
                 Blog
               </Link>

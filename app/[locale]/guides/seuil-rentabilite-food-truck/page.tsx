@@ -820,6 +820,12 @@ export default async function SeuilRentabilitePage({
                       : '→ AI sales predictions for food trucks',
                   },
                   {
+                    href: `/${locale}/guides/gestion-food-truck`,
+                    label: isFr
+                      ? '→ Guide complet : gérer son food truck en 2026'
+                      : '→ Complete guide: managing your food truck in 2026',
+                  },
+                  {
                     href: `/${locale}/comparatif/inpulse-vs-foodtracks`,
                     label: isFr
                       ? '→ FoodTracks vs Inpulse : quel logiciel choisir ?'

@@ -128,7 +128,7 @@ La gestion des stocks en food truck n'est pas une science exacte, mais avec les 
 
 [Essayez FoodTracks gratuitement](https://foodtracks.io/fr/pricing) et prenez le contrôle de vos stocks dès aujourd'hui.
 
-**À lire aussi :** [Comment réduire le gaspillage alimentaire dans votre food truck](/fr/blog/reduire-gaspillage-alimentaire-food-truck) · [Quel logiciel de gestion choisir ?](/fr/blog/logiciel-gestion-food-truck)`,
+**À lire aussi :** [Comment réduire le gaspillage alimentaire dans votre food truck](/fr/blog/reduire-gaspillage-alimentaire-food-truck) · [Quel logiciel de gestion choisir ?](/fr/blog/logiciel-gestion-food-truck) · [Guide complet : gestion food truck 2026](/fr/guides/gestion-food-truck)`,
       en: `## Why Inventory Management is Crucial for Food Trucks
 
 Inventory management is the backbone of any food truck operation. Unlike a traditional restaurant, you work with limited storage, perishable products, and variable demand depending on locations. **Poor management can reduce your margins by 15 to 30%.**
@@ -292,7 +292,7 @@ En 2025, un logiciel de gestion n'est plus optionnel pour un food truck qui veut
 
 [Testez FoodTracks gratuitement →](https://foodtracks.io/fr/pricing)
 
-**À lire aussi :** [Comment gérer le stock de son food truck](/fr/blog/comment-gerer-stock-food-truck) · [Connecter SumUp pour le suivi des ventes](/fr/blog/connecter-sumup-food-truck-suivi-ventes) · [Logiciel gestion stock food truck : notre guide](/fr/blog/logiciel-gestion-stock-food-truck)`,
+**À lire aussi :** [Comment gérer le stock de son food truck](/fr/blog/comment-gerer-stock-food-truck) · [Connecter SumUp pour le suivi des ventes](/fr/blog/connecter-sumup-food-truck-suivi-ventes) · [Logiciel gestion stock food truck : notre guide](/fr/blog/logiciel-gestion-stock-food-truck) · [Guide complet : gestion food truck 2026](/fr/guides/gestion-food-truck)`,
       en: `## Why Management Software is Essential for Food Trucks
 
 Running a food truck without dedicated tools is like driving without GPS. You can manage, but you waste time, money, and energy. In 2025, digital tools aren't a luxury — they're a necessity to stay competitive.
@@ -561,7 +561,9 @@ C'est là que beaucoup de food truckers galèrent. Entre les achats, les stocks,
 
 Ouvrir un food truck est une aventure passionnante et accessible. La clé du succès ? **Une bonne préparation et les bons outils.** Ne sous-estimez pas la partie gestion — c'est elle qui fait la différence entre un food truck qui survit et un food truck qui prospère.
 
-[Commencez avec FoodTracks — gratuit pour démarrer →](https://foodtracks.io/fr/pricing)`,
+[Commencez avec FoodTracks — gratuit pour démarrer →](https://foodtracks.io/fr/pricing)
+
+**À lire aussi :** [Guide complet : gestion food truck 2026](/fr/guides/gestion-food-truck) · [Calculer le seuil de rentabilité de son food truck](/fr/guides/seuil-rentabilite-food-truck)`,
       en: `## Starting a Food Truck: The Accessible Dream
 
 The food truck is one of the most dynamic restaurant models. With a lower initial investment than a traditional restaurant and unmatched flexibility, it attracts more and more entrepreneurs.

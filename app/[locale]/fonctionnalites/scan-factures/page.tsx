@@ -424,6 +424,9 @@ export default async function InvoiceScanningPage() {
               <Link href={`/${locale}/fonctionnalites/predictions-ventes`} className="text-sm font-medium text-orange-600 hover:text-orange-700 underline underline-offset-4">
                 {isFr ? 'Prédictions de ventes' : 'Sales Forecasting'}
               </Link>
+              <Link href={`/${locale}/guides/gestion-food-truck`} className="text-sm font-medium text-orange-600 hover:text-orange-700 underline underline-offset-4">
+                {isFr ? 'Guide gestion food truck' : 'Food truck management guide'}
+              </Link>
               <Link href={`/${locale}/blog`} className="text-sm font-medium text-orange-600 hover:text-orange-700 underline underline-offset-4">
                 Blog
               </Link>
