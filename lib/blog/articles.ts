@@ -7536,6 +7536,313 @@ Start small, measure everything, and move at your own pace. Your wallet and your
       },
     ],
   },
+  {
+    slug: "cout-charges-food-truck-mensuel",
+    title: {
+      fr: "Coût et charges d'un food truck par mois : le guide complet 2026",
+      en: "Food Truck Monthly Costs and Expenses: The Complete 2026 Guide",
+    },
+    excerpt: {
+      fr: "Loyer, carburant, matières premières, assurances, charges sociales... Découvrez le détail complet des charges mensuelles d'un food truck et comment les maîtriser pour préserver vos marges.",
+      en: "Rent, fuel, raw materials, insurance, social charges... Discover the full breakdown of monthly food truck expenses and how to control them to protect your margins.",
+    },
+    category: { fr: "Finance", en: "Finance" },
+    date: "2026-03-19",
+    readTime: 13,
+    keywords: [
+      "coût food truck mensuel",
+      "charges food truck par mois",
+      "budget food truck mensuel",
+      "dépenses food truck",
+      "charges fixes food truck",
+      "charges variables food truck",
+      "combien coûte un food truck par mois",
+      "rentabilité food truck charges",
+    ],
+    heroImage: "/blog/rentabilite.png",
+    content: {
+      fr: `## Combien coûte vraiment un food truck par mois ?
+
+Ouvrir un food truck, c'est séduisant. Mais avant de réaliser votre premier service, une question s'impose : **combien vais-je dépenser chaque mois pour faire tourner mon activité ?** Beaucoup de nouveaux food truckers sous-estiment leurs charges et se retrouvent à travailler dur sans générer de bénéfices réels.
+
+Ce guide vous donne une vue d'ensemble honnête et détaillée des charges mensuelles d'un food truck en France en 2026, avec des fourchettes réalistes et des conseils pour les maîtriser.
+
+## Les charges fixes : ce que vous payez quoi qu'il arrive
+
+Les charges fixes sont les dépenses qui ne varient pas (ou peu) selon votre chiffre d'affaires. Elles constituent votre "plancher" de coûts à couvrir avant de dégager le moindre euro de bénéfice.
+
+### Remboursement du véhicule et du matériel
+
+Si vous avez financé votre food truck par un crédit professionnel, la mensualité représente généralement entre **400 et 1 200 euros par mois** selon le montant emprunté et la durée du prêt. Un food truck d'occasion finançable à 30 000 euros sur 5 ans coûte environ 550 euros/mois. Un véhicule neuf aménagé à 80 000 euros sur 7 ans, c'est plus de 1 000 euros/mois.
+
+**Astuce** : si vous pouvez autofinancer une partie de l'achat grâce à des aides ou subventions, vous réduisez significativement cette charge. Consultez notre article sur le [financement food truck et les aides disponibles](/fr/blog/financer-food-truck-aides-subventions).
+
+### Assurances professionnelles
+
+Les assurances sont obligatoires et incontournables :
+
+- **Assurance véhicule professionnel** (camion + remorque éventuelle) : 150 à 350 euros/mois
+- **Responsabilité civile professionnelle** : 50 à 150 euros/mois
+- **Assurance des équipements** (friteuses, réfrigérateurs, etc.) : 30 à 80 euros/mois
+- **Multirisque professionnelle** : 80 à 200 euros/mois
+
+Total assurances : entre **300 et 780 euros par mois**, selon votre profil et votre couverture.
+
+### Charges sociales et cotisations
+
+En tant qu'indépendant (micro-entrepreneur ou EURL), vos cotisations sociales représentent environ **22 à 45% de votre chiffre d'affaires** en régime réel. En pratique, les food truckers génèrent entre 8 000 et 20 000 euros de CA mensuel. Les cotisations se situent donc entre **1 800 et 9 000 euros/mois**, ce qui en fait la charge principale.
+
+Si vous avez des salariés, ajoutez les charges patronales : environ **42% du salaire brut** par employé.
+
+### Abonnements et logiciels
+
+- Terminal de paiement SumUp : 0 (sans abonnement, commission sur transaction)
+- Logiciel de gestion food truck FoodTracks : à partir de 29 euros/mois
+- Comptabilité/expert-comptable : 100 à 250 euros/mois
+- Téléphonie et internet mobile : 30 à 60 euros/mois
+- Réseaux sociaux / outils marketing : 0 à 100 euros/mois
+
+Total logiciels et abonnements : **130 à 440 euros/mois**
+
+## Les charges variables : ce qui fluctue avec votre activité
+
+### Matières premières (coût d'achat des ingrédients)
+
+C'est votre principale charge variable et généralement votre premier poste de dépense opérationnel. En food truck, le **food cost** (ratio matières premières / chiffre d'affaires) se situe idéalement entre **28 et 35%**.
+
+Sur un CA de 10 000 euros/mois, cela représente entre 2 800 et 3 500 euros de courses. Sur 15 000 euros/mois : entre 4 200 et 5 250 euros.
+
+La clé pour maîtriser ce poste : des fiches techniques rigoureuses, des commandes précises et un suivi des stocks en temps réel. C'est exactement ce que permet **FoodTracks** avec son scan de factures et son module de gestion des stocks.
+
+### Carburant et déplacements
+
+Un food truck consomme entre 12 et 20 litres de gazole aux 100 km selon le véhicule et la charge. En comptant les trajets domicile-emplacement, emplacement-fournisseur et entre les spots, la facture mensuelle de carburant se situe entre **200 et 600 euros/mois** selon votre zone d'activité et votre planning.
+
+**À noter** : le générateur consomme aussi du carburant si vous travaillez sans branchement électrique. Prévoyez 50 à 150 euros supplémentaires.
+
+### Emballages et fournitures consommables
+
+Barquettes, couverts, serviettes, sacs, essuie-tout, gants, produits d'entretien... Ces petites dépenses s'accumulent. Budget réaliste : **150 à 400 euros/mois** selon votre volume d'activité et le type d'emballages choisis (plastique standard vs. compostable).
+
+### Entretien et réparations du véhicule
+
+Vidange, pneus, révisions, réparations d'équipements... En moyenne, prévoyez **150 à 400 euros/mois** en provisionnant pour les grosses réparations. Un food truck roule souvent plus de 30 000 km/an.
+
+## Récapitulatif : budget mensuel type d'un food truck
+
+| Poste | Bas | Moyen | Élevé |
+|-------|-----|-------|-------|
+| Remboursement véhicule | 400 € | 700 € | 1 200 € |
+| Assurances | 300 € | 500 € | 780 € |
+| Charges sociales | 1 800 € | 3 500 € | 6 000 € |
+| Matières premières | 2 800 € | 4 200 € | 7 000 € |
+| Carburant | 200 € | 380 € | 600 € |
+| Emballages/fournitures | 150 € | 250 € | 400 € |
+| Entretien véhicule | 150 € | 250 € | 400 € |
+| Logiciels/abonnements | 130 € | 250 € | 440 € |
+| **TOTAL** | **~6 000 €** | **~10 000 €** | **~17 000 €** |
+
+## Comment réduire ses charges sans sacrifier la qualité
+
+### 1. Optimiser le food cost grâce aux données
+
+La meilleure façon de baisser vos matières premières sans réduire la qualité, c'est d'acheter **exactement ce dont vous avez besoin**. Avec FoodTracks, les prédictions de vente par emplacement vous permettent d'ajuster vos commandes à la semaine, évitant le gaspillage et les ruptures.
+
+### 2. Négocier avec vos fournisseurs
+
+Regroupez vos commandes, achetez en volume et établissez des relations durables avec 2-3 fournisseurs principaux. Des remises de 5 à 15% sont courantes pour les clients réguliers.
+
+### 3. Planifier vos tournées efficacement
+
+Un planning d'emplacements bien construit réduit vos kilomètres parcourus. Regroupez vos spots par zone géographique et évitez les allers-retours inutiles. Le carburant économisé peut représenter 100 à 200 euros/mois.
+
+### 4. Surveiller vos marges en temps réel
+
+Ne découvrez pas en fin de mois que vous avez travaillé à perte. Avec un outil comme FoodTracks connecté à votre terminal SumUp, vous voyez en temps réel votre chiffre d'affaires, votre food cost et votre marge nette. Vous pouvez réagir immédiatement si un poste dérape.
+
+## Conclusion
+
+Les charges mensuelles d'un food truck se situent généralement entre **6 000 et 17 000 euros selon la taille de l'activité**. La clé de la rentabilité n'est pas de dépenser moins à tout prix, mais de **connaître précisément ses coûts** pour fixer les bons prix, optimiser ses commandes et prendre des décisions éclairées.
+
+Un food trucker qui maîtrise ses chiffres est un food trucker qui dure. Commencez par poser clairement vos charges fixes, mesurez votre food cost et utilisez un outil de gestion pour piloter votre activité au quotidien.
+
+[Essayez FoodTracks gratuitement](https://foodtracks.io/fr/pricing) et prenez le contrôle de vos finances dès aujourd'hui.`,
+      en: `## How Much Does a Food Truck Really Cost Per Month?
+
+Starting a food truck is exciting. But before your first service, one question is critical: **how much will I spend each month to keep my business running?** Many new food truck owners underestimate their expenses and end up working hard without generating real profits.
+
+This guide gives you an honest, detailed overview of monthly food truck expenses in 2026, with realistic ranges and tips to keep them under control.
+
+## Fixed Costs: What You Pay No Matter What
+
+Fixed costs are expenses that do not vary (or vary little) with your revenue. They form your "floor" of costs to cover before earning any profit.
+
+### Vehicle and Equipment Loan Repayments
+
+If you financed your food truck through a business loan, the monthly repayment typically runs between **€400 and €1,200 per month** depending on the loan amount and term. A second-hand food truck financed at €30,000 over 5 years costs around €550/month. A new fitted-out vehicle at €80,000 over 7 years costs over €1,000/month.
+
+**Tip**: if you can self-finance part of the purchase through grants or subsidies, you significantly reduce this burden. Check our article on [food truck financing and available grants](/en/blog/financer-food-truck-aides-subventions).
+
+### Professional Insurance
+
+Insurance is mandatory and non-negotiable:
+
+- **Commercial vehicle insurance** (truck and any trailer): €150–350/month
+- **Professional liability insurance**: €50–150/month
+- **Equipment insurance** (fryers, fridges, etc.): €30–80/month
+- **Multi-risk professional insurance**: €80–200/month
+
+Total insurance: between **€300 and €780 per month**, depending on your profile and coverage level.
+
+### Social Contributions and Taxes
+
+As a self-employed operator (sole trader or LLC), your social contributions represent approximately **22 to 45% of your revenue** under actual expense accounting. In practice, food trucks generate €8,000 to €20,000 in monthly revenue. Contributions therefore run between **€1,800 and €9,000/month**, making this your primary expense.
+
+If you have employees, add employer contributions: approximately **42% of gross salary** per employee.
+
+### Subscriptions and Software
+
+- SumUp payment terminal: €0 (no subscription, transaction commission only)
+- FoodTracks food truck management software: from €29/month
+- Accounting / accountant: €100–250/month
+- Mobile phone and internet: €30–60/month
+- Social media / marketing tools: €0–100/month
+
+Total software and subscriptions: **€130–440/month**
+
+## Variable Costs: What Fluctuates With Your Activity
+
+### Raw Materials (Ingredient Purchasing Costs)
+
+This is your main variable cost and typically your largest operational expense. In food trucking, the **food cost** (raw materials / revenue ratio) should ideally sit between **28 and 35%**.
+
+On a revenue of €10,000/month, this means €2,800 to €3,500 in ingredient purchases. At €15,000/month: €4,200 to €5,250.
+
+The key to controlling this: rigorous recipe cards, precise ordering, and real-time stock tracking. This is exactly what **FoodTracks** enables with its invoice scanning and inventory management module.
+
+### Fuel and Travel
+
+A food truck consumes 12 to 20 liters of diesel per 100 km depending on the vehicle and load. Counting trips home-to-spot, spot-to-supplier, and between locations, the monthly fuel bill runs between **€200 and €600/month** depending on your operating area and schedule.
+
+**Note**: your generator also consumes fuel if you work without an electrical connection. Budget an additional €50–150.
+
+### Packaging and Consumable Supplies
+
+Trays, cutlery, napkins, bags, paper towels, gloves, cleaning products... These small expenses add up. Realistic budget: **€150–400/month** depending on your volume and packaging type (standard plastic vs. compostable).
+
+### Vehicle Maintenance and Repairs
+
+Oil changes, tires, servicing, equipment repairs... On average, budget **€150–400/month** by setting aside funds for major repairs. A food truck often covers over 30,000 km/year.
+
+## Summary: Typical Monthly Food Truck Budget
+
+| Item | Low | Mid | High |
+|------|-----|-----|------|
+| Vehicle loan repayment | €400 | €700 | €1,200 |
+| Insurance | €300 | €500 | €780 |
+| Social contributions | €1,800 | €3,500 | €6,000 |
+| Raw materials | €2,800 | €4,200 | €7,000 |
+| Fuel | €200 | €380 | €600 |
+| Packaging/supplies | €150 | €250 | €400 |
+| Vehicle maintenance | €150 | €250 | €400 |
+| Software/subscriptions | €130 | €250 | €440 |
+| **TOTAL** | **~€6,000** | **~€10,000** | **~€17,000** |
+
+## How to Reduce Costs Without Sacrificing Quality
+
+### 1. Optimize Food Cost Through Data
+
+The best way to lower your ingredient spend without cutting quality is to buy **exactly what you need**. With FoodTracks, sales predictions by location let you adjust orders week by week, avoiding waste and stockouts.
+
+### 2. Negotiate With Your Suppliers
+
+Group your orders, buy in volume, and build lasting relationships with 2-3 main suppliers. Discounts of 5 to 15% are common for regular customers.
+
+### 3. Plan Your Routes Efficiently
+
+A well-structured location schedule reduces your mileage. Group your spots by geographic zone and avoid unnecessary back-and-forth trips. The fuel savings can represent €100–200/month.
+
+### 4. Monitor Your Margins in Real Time
+
+Don't discover at month's end that you worked at a loss. With a tool like FoodTracks connected to your SumUp terminal, you see your revenue, food cost, and net margin in real time. You can act immediately if a cost line goes off track.
+
+## Conclusion
+
+Monthly food truck expenses typically range between **€6,000 and €17,000 depending on the size of the operation**. The key to profitability is not spending less at all costs, but **knowing your costs precisely** so you can set the right prices, optimize your orders, and make informed decisions.
+
+A food trucker who controls their numbers is a food trucker who lasts. Start by clearly mapping your fixed costs, measure your food cost, and use a management tool to run your operation day to day.
+
+[Try FoodTracks for free](https://foodtracks.io/en/pricing) and take control of your finances today.`,
+    },
+    keyTakeaways: {
+      fr: [
+        "Les charges mensuelles d'un food truck se situent entre 6 000 et 17 000 euros selon la taille de l'activite",
+        "Le food cost ideal est de 28 a 35% du chiffre d'affaires pour preserver les marges",
+        "Les charges sociales representent 22 a 45% du CA et constituent souvent le poste le plus lourd",
+        "Les assurances professionnelles coutent entre 300 et 780 euros par mois selon la couverture",
+        "Avec FoodTracks, les food truckers realisent en moyenne 25% d'economies sur les matieres premieres",
+      ],
+      en: [
+        "Monthly food truck expenses range from €6,000 to €17,000 depending on the size of the operation",
+        "The ideal food cost is 28 to 35% of revenue to protect margins",
+        "Social contributions represent 22 to 45% of revenue and are often the heaviest expense",
+        "Professional insurance costs €300 to €780 per month depending on coverage",
+        "FoodTracks users save an average of 25% on raw material costs",
+      ],
+    },
+    faqItems: [
+      {
+        question: {
+          fr: "Combien coûte un food truck par mois en charges fixes ?",
+          en: "How much does a food truck cost per month in fixed expenses?",
+        },
+        answer: {
+          fr: "Les charges fixes d'un food truck comprennent le remboursement du vehicule (400 a 1 200 euros/mois), les assurances professionnelles (300 a 780 euros/mois), les logiciels et abonnements (130 a 440 euros/mois). Hors charges sociales, les charges fixes se situent entre 830 et 2 420 euros par mois.",
+          en: "A food truck's fixed costs include vehicle loan repayments (€400–1,200/month), professional insurance (€300–780/month), software and subscriptions (€130–440/month). Excluding social contributions, fixed costs run between €830 and €2,420 per month.",
+        },
+      },
+      {
+        question: {
+          fr: "Quel est le budget matières premières mensuel d'un food truck ?",
+          en: "What is a food truck's monthly raw material budget?",
+        },
+        answer: {
+          fr: "Le budget matieres premieres d'un food truck represente idealement 28 a 35% du chiffre d'affaires. Pour un CA de 10 000 euros par mois, cela equivaut a 2 800 a 3 500 euros d'achats d'ingredients. Ce ratio s'appelle le food cost et doit etre surveille en permanence pour preserver les marges.",
+          en: "A food truck's raw material budget should ideally represent 28 to 35% of revenue. For monthly revenue of €10,000, that equals €2,800 to €3,500 in ingredient purchases. This ratio is called food cost and must be monitored continuously to protect margins.",
+        },
+      },
+      {
+        question: {
+          fr: "Combien faut-il de chiffre d'affaires pour qu'un food truck soit rentable ?",
+          en: "How much revenue does a food truck need to be profitable?",
+        },
+        answer: {
+          fr: "Pour atteindre le seuil de rentabilite, un food truck doit couvrir toutes ses charges (fixes + variables). Avec des charges totales autour de 10 000 euros par mois, il faut generer au minimum 13 000 a 15 000 euros de CA pour degager un benefice reel, selon le taux de food cost et les charges sociales. Les food truckers les mieux geres atteignent 20 a 30% de marge nette.",
+          en: "To reach break-even, a food truck must cover all its costs (fixed + variable). With total expenses around €10,000/month, you need to generate at least €13,000 to €15,000 in revenue to make a real profit, depending on food cost rate and social contributions. The best-managed food trucks achieve 20 to 30% net margin.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment réduire les charges de son food truck ?",
+          en: "How to reduce food truck expenses?",
+        },
+        answer: {
+          fr: "Les leviers principaux sont : optimiser le food cost grace aux predictions de vente IA (eviter le gaspillage), negocier des remises fournisseurs sur les achats en volume, planifier les tournees pour reduire le carburant, et utiliser un logiciel comme FoodTracks pour suivre en temps reel le cout de chaque service et reagir rapidement aux derives.",
+          en: "The main levers are: optimize food cost through AI sales predictions (avoid waste), negotiate supplier discounts for bulk purchases, plan routes to reduce fuel costs, and use a management tool like FoodTracks to track the cost of each service in real time and react quickly to overruns.",
+        },
+      },
+      {
+        question: {
+          fr: "Quelle est la part des charges sociales dans les dépenses d'un food truck ?",
+          en: "What share of food truck expenses are social contributions?",
+        },
+        answer: {
+          fr: "Pour un food trucker independant, les charges sociales representent entre 22 et 45% du chiffre d'affaires selon le regime fiscal choisi (micro-entrepreneur ou regime reel). C'est souvent le poste le plus lourd apres les matieres premieres. Une bonne planification fiscale avec un expert-comptable specialise en restauration mobile peut permettre d'optimiser ce poste.",
+          en: "For a self-employed food truck operator, social contributions represent 22 to 45% of revenue depending on the tax structure chosen (sole trader or actual expense accounting). This is often the heaviest expense after raw materials. Good tax planning with an accountant specializing in mobile food businesses can help optimize this item.",
+        },
+      },
+    ],
+  },
 ];
 
 export function getArticleBySlug(slug: string): BlogArticle | undefined {
