@@ -1,9 +1,9 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import {
-  Shield, FileText, ArrowRight, CheckCircle2, ChefHat,
-  ChevronDown, Scale, ClipboardCheck, Euro, Building2,
-  Thermometer, AlertTriangle,
+  ChefHat, ArrowRight, CheckCircle2, TrendingUp, Package,
+  BarChart3, ChevronDown, MapPin, FileText, Brain, Shield,
+  Clock, Calculator,
 } from 'lucide-react';
 import { LandingHeader } from '@/components/landing/Header';
 import { routing } from '@/i18n/routing';
@@ -27,11 +27,11 @@ export async function generateMetadata({
   const isFr = locale === 'fr';
 
   const title = isFr
-    ? 'Réglementation Food Truck en France : Guide Complet 2026 | FoodTracks'
-    : 'Food Truck Regulations in France: Complete Guide 2026 | FoodTracks';
+    ? 'Réglementation Food Truck en France 2026 — Guide Complet | FoodTracks'
+    : 'Food Truck Regulations in France 2026 — Complete Guide | FoodTracks';
   const description = isFr
-    ? 'Guide complet des réglementations pour food trucks en France : permis, hygiène HACCP, assurances, TVA, normes de sécurité. Sources officielles et conseils pratiques.'
-    : 'Complete guide to food truck regulations in France: permits, HACCP hygiene, insurance, VAT, safety standards. Official sources and practical advice.';
+    ? 'Guide complet de la réglementation food truck en France : permis, hygiène HACCP, assurances, TVA, emplacements. Sources officielles et conseils pratiques pour être en règle.'
+    : 'Complete guide to food truck regulations in France: permits, HACCP hygiene, insurance, VAT, locations. Official sources and practical advice for full compliance.';
 
   return {
     title,
@@ -43,21 +43,15 @@ export async function generateMetadata({
           'hygiène food truck HACCP',
           'assurance food truck',
           'TVA food truck',
-          'carte commerçant ambulant',
-          'normes food truck',
-          'autorisation emplacement food truck',
-          'sécurité alimentaire food truck',
+          'licence food truck',
         ]
       : [
           'food truck regulations France',
           'food truck permits France',
-          'food truck HACCP hygiene',
+          'food truck hygiene HACCP',
           'food truck insurance France',
           'food truck VAT France',
-          'itinerant trader card France',
-          'food truck standards France',
-          'food truck location permit France',
-          'food safety food truck',
+          'food truck licence France',
         ],
     alternates: {
       canonical: `${BASE_URL}/${locale}/guides/food-truck-reglementation-france`,
@@ -77,8 +71,8 @@ export async function generateMetadata({
           width: 1200,
           height: 630,
           alt: isFr
-            ? 'Réglementation Food Truck en France 2026'
-            : 'Food Truck Regulations in France 2026',
+            ? 'Réglementation food truck en France 2026'
+            : 'Food truck regulations in France 2026',
         },
       ],
       type: 'article',
@@ -95,7 +89,7 @@ export async function generateMetadata({
 function FAQItem({ question, answer }: { question: string; answer: string }) {
   return (
     <details className="group" style={{ borderBottom: '1px solid #EDEBE8' }}>
-      <summary className="w-full flex items-center justify-between py-7 text-left gap-6 cursor-pointer list-none [&::-webkit-details-marker]:hidden">
+      <summary className="w-full flex items-center justify-between py-6 text-left gap-6 cursor-pointer list-none [&::-webkit-details-marker]:hidden">
         <span className="font-semibold text-gray-900 text-base md:text-lg group-hover:text-orange-600 transition-colors duration-200">
           {question}
         </span>
@@ -103,12 +97,12 @@ function FAQItem({ question, answer }: { question: string; answer: string }) {
           <ChevronDown className="h-4 w-4 text-gray-400 group-open:text-orange-500 group-open:rotate-180 transition-transform duration-300" />
         </div>
       </summary>
-      <p className="pb-8 text-sm md:text-base leading-[1.8] max-w-2xl text-gray-500">{answer}</p>
+      <p className="pb-7 text-sm md:text-base leading-relaxed max-w-2xl text-gray-600">{answer}</p>
     </details>
   );
 }
 
-export default async function ReglementationFrancePage({
+export default async function ReglementationFoodTruckPage({
   params,
 }: {
   params: Promise<{ locale: string }>;
@@ -132,7 +126,7 @@ export default async function ReglementationFrancePage({
       {
         '@type': 'ListItem',
         position: 3,
-        name: isFr ? 'Réglementation food truck' : 'Food truck regulations',
+        name: isFr ? 'Réglementation Food Truck' : 'Food Truck Regulations',
         item: `${BASE_URL}/${locale}/guides/food-truck-reglementation-france`,
       },
     ],
@@ -143,86 +137,119 @@ export default async function ReglementationFrancePage({
         {
           question: 'Quel statut juridique choisir pour un food truck ?',
           answer:
-            'Le choix dépend de votre situation : la micro-entreprise (auto-entrepreneur) est idéale pour démarrer avec un CA inférieur à 188 700 €, grâce à sa simplicité comptable et ses charges réduites. La SARL convient aux projets à plusieurs associés avec une responsabilité limitée. La SAS/SASU offre plus de souplesse pour la rémunération du dirigeant et l\'entrée d\'investisseurs. L\'EURL est adaptée à un entrepreneur seul souhaitant séparer patrimoine personnel et professionnel.',
+            'Le choix dépend de votre chiffre d\'affaires prévisionnel et de votre situation personnelle. L\'auto-entreprise (micro-entreprise) est idéale pour débuter avec un CA inférieur à 188 700 €/an grâce à sa simplicité administrative. Au-delà, ou si vous avez un associé, optez pour une SARL ou SAS qui offrent une meilleure protection du patrimoine personnel et davantage de flexibilité fiscale.',
         },
         {
           question: 'La carte de commerçant ambulant est-elle obligatoire ?',
           answer:
-            'Oui, la carte de commerçant ambulant est obligatoire dès que vous exercez votre activité en dehors de la commune de domiciliation de votre entreprise. Elle est délivrée par le Centre de Formalités des Entreprises (CFE) ou la Chambre des Métiers et de l\'Artisanat (CMA). Sa validité est de 4 ans et elle est renouvelable. Le coût est d\'environ 30 €. Si vous exercez uniquement dans votre commune de domiciliation, elle n\'est pas requise.',
+            'Oui, la carte de commerçant ambulant est obligatoire dès que vous exercez votre activité en dehors de la commune de domiciliation de votre entreprise. Elle est délivrée par le CFE compétent, valable 4 ans et renouvelable. Sans cette carte, vous risquez une amende pouvant aller jusqu\'à 1 500 € en cas de contrôle.',
+        },
+        {
+          question: 'Qui doit suivre la formation HACCP ?',
+          answer:
+            'Au moins une personne au sein de votre établissement doit avoir suivi une formation en hygiène alimentaire de 14 heures minimum, conformément au décret n° 2011-731. Cette formation couvre les principes HACCP, la méthode des 5M et la gestion des températures. Elle est dispensée par des organismes agréés et coûte entre 200 et 500 €.',
+        },
+        {
+          question: 'Quelles assurances sont obligatoires pour un food truck ?',
+          answer:
+            'L\'assurance Responsabilité Civile Professionnelle (RC Pro) est indispensable pour couvrir les dommages causés aux tiers (intoxication alimentaire, accident). L\'assurance du véhicule professionnel est également obligatoire. Il est fortement recommandé d\'ajouter une multirisque professionnelle (vol, incendie, bris de matériel) et une protection juridique. Comptez entre 1 200 et 3 000 €/an selon les garanties.',
+        },
+        {
+          question: 'Quel taux de TVA appliquer en food truck ?',
+          answer:
+            'La TVA en food truck dépend du type de vente. La restauration sur place et à emporter de plats préparés est soumise au taux de 10 %. Les produits alimentaires non préparés (boissons non alcoolisées, desserts emballés) bénéficient du taux réduit de 5,5 %. Les boissons alcoolisées sont au taux normal de 20 %. En micro-entreprise, vous pouvez bénéficier de la franchise en base de TVA.',
         },
         {
           question: 'Comment obtenir un emplacement sur la voie publique ?',
           answer:
-            'Pour occuper le domaine public, vous devez obtenir une Autorisation d\'Occupation Temporaire (AOT) auprès de la mairie. La demande se fait généralement en déposant un dossier à la mairie ou à la préfecture. Pour les marchés communaux, vous devez obtenir un droit de place auprès du placier municipal. Les tarifs varient selon les communes (de 5 à 30 € par jour en moyenne). Sur propriété privée (parking de supermarché, terrain privé), un accord écrit du propriétaire suffit.',
-        },
-        {
-          question: 'Quelles sont les normes d\'hygiène obligatoires ?',
-          answer:
-            'Depuis 2012, au moins une personne de l\'établissement doit avoir suivi une formation HACCP de 14 heures minimum. Vous devez mettre en place un Plan de Maîtrise Sanitaire (PMS) incluant la traçabilité des produits, le respect de la chaîne du froid (0 à 3°C pour les produits réfrigérés), le nettoyage et la désinfection réguliers. Votre food truck doit être déclaré auprès de la DDPP (Direction Départementale de la Protection des Populations) qui peut effectuer des contrôles inopinés.',
-        },
-        {
-          question: 'Quelles assurances sont obligatoires ?',
-          answer:
-            'La Responsabilité Civile Professionnelle (RC Pro) est indispensable pour couvrir les dommages causés aux tiers (intoxication alimentaire, accident). L\'assurance du véhicule aménagé est obligatoire et doit couvrir à la fois la circulation et l\'activité de vente. Une garantie protection juridique est fortement recommandée en cas de litige. Le coût total moyen se situe entre 1 500 et 3 000 € par an selon les garanties.',
-        },
-        {
-          question: 'Quel taux de TVA appliquer ?',
-          answer:
-            'La TVA applicable est de 10 % pour la vente de produits alimentaires préparés destinés à une consommation immédiate (plats, sandwichs, boissons non alcoolisées). Le taux passe à 5,5 % pour les produits alimentaires emballés destinés à une consommation différée. Les boissons alcoolisées sont soumises au taux normal de 20 %. En micro-entreprise, vous êtes exonéré de TVA en dessous du seuil de 36 800 € de CA annuel (franchise en base de TVA).',
+            'Pour stationner sur le domaine public, vous devez obtenir une Autorisation d\'Occupation Temporaire (AOT) ou une permission de voirie auprès de la mairie concernée. Le tarif varie de 5 à 30 €/jour selon les communes. Pour les marchés, il faut s\'inscrire auprès du placier municipal. Les délais d\'obtention varient de quelques jours à plusieurs mois selon la demande.',
         },
         {
           question: 'Quelles sont les normes de sécurité pour le véhicule ?',
           answer:
-            'Le véhicule doit passer un contrôle technique tous les deux ans (annuel pour les véhicules de plus de 3,5 tonnes). Les installations gaz doivent respecter la norme NF EN 203 avec un certificat de conformité. Vous devez disposer d\'au moins un extincteur de type ABC accessible. La ventilation et l\'extraction des fumées sont obligatoires. L\'installation électrique doit être conforme à la norme NF C 15-100. Un détecteur de gaz est fortement recommandé.',
+            'Le véhicule doit passer un contrôle technique tous les 2 ans (UTAC). L\'installation gaz doit être conforme aux normes NF et vérifiée annuellement. Un extincteur adapté est obligatoire à bord. Le système de ventilation et d\'extraction doit respecter les normes en vigueur, et le raccordement électrique doit être conforme aux normes NF C 15-100.',
         },
         {
-          question: 'Quels affichages sont obligatoires dans un food truck ?',
+          question: 'Combien coûte la création d\'un food truck en France ?',
           answer:
-            'Vous devez afficher les prix TTC de manière lisible et visible de l\'extérieur. La liste des 14 allergènes doit être accessible (affichage ou sur demande). L\'origine des viandes bovines doit être indiquée. Si vous servez des boissons alcoolisées, une licence de débit de boissons est nécessaire (licence « petite restauration » ou licence III/IV). Le numéro SIRET et la dénomination sociale doivent être visibles sur le véhicule.',
+            'Le budget total de lancement varie entre 30 000 et 120 000 € selon le type de véhicule (neuf ou occasion) et l\'aménagement. Les principaux postes sont : le véhicule aménagé (20 000–80 000 €), l\'équipement de cuisine (5 000–15 000 €), les frais administratifs et formations (1 000–3 000 €), le stock initial (1 000–3 000 €) et les assurances (1 200–3 000 €/an). Utilisez notre calculateur de seuil de rentabilité pour planifier votre investissement.',
         },
       ]
     : [
         {
-          question: 'What legal structure should you choose for a food truck?',
+          question: 'What legal status should I choose for a food truck in France?',
           answer:
-            'It depends on your situation: micro-enterprise (auto-entrepreneur) is ideal for starting out with revenue below EUR 188,700, thanks to simple bookkeeping and reduced charges. SARL suits multi-partner projects with limited liability. SAS/SASU offers more flexibility for director remuneration and investor entry. EURL is suited for solo entrepreneurs wanting to separate personal and professional assets.',
+            'The choice depends on your projected revenue and personal situation. The auto-entrepreneur (micro-enterprise) status is ideal for starting with annual revenue under €188,700 thanks to its administrative simplicity. Beyond that threshold, or if you have a partner, opt for a SARL or SAS which offer better personal asset protection and more tax flexibility.',
         },
         {
           question: 'Is the itinerant trader card mandatory?',
           answer:
-            'Yes, the carte de commerçant ambulant is mandatory as soon as you operate outside the municipality where your business is registered. It is issued by the CFE (Business Formalities Centre) or the CMA (Chamber of Crafts). It is valid for 4 years and renewable. The cost is approximately EUR 30. If you only operate within your registered municipality, it is not required.',
+            'Yes, the carte de commerçant ambulant is mandatory as soon as you operate outside the municipality where your business is registered. It is issued by the relevant CFE, valid for 4 years and renewable. Without this card, you risk a fine of up to €1,500 if inspected.',
         },
         {
-          question: 'How do you obtain a public space pitch?',
+          question: 'Who needs HACCP training?',
           answer:
-            'To occupy public land, you need an AOT (Temporary Occupation Authorisation) from the local town hall. The application is usually submitted to the municipality or prefecture. For municipal markets, you need a market pitch right from the market manager. Fees vary by municipality (EUR 5-30 per day on average). On private property (supermarket car parks, private land), a written agreement from the owner is sufficient.',
+            'At least one person in your establishment must have completed a minimum 14-hour food hygiene training course, in accordance with decree no. 2011-731. This training covers HACCP principles, the 5M method, and temperature management. It is delivered by approved organizations and costs between €200 and €500.',
         },
         {
-          question: 'What are the mandatory hygiene standards?',
+          question: 'What insurance is mandatory for a food truck?',
           answer:
-            'Since 2012, at least one person in the establishment must have completed a minimum 14-hour HACCP training. You must implement a Sanitary Control Plan (PMS) including product traceability, cold chain compliance (0-3 degrees C for refrigerated products), and regular cleaning and disinfection. Your food truck must be declared to the DDPP (Departmental Directorate for Consumer Protection) which may carry out unannounced inspections.',
+            'Professional Liability Insurance (RC Pro) is essential to cover third-party damages (food poisoning, accidents). Professional vehicle insurance is also mandatory. It is strongly recommended to add multi-risk professional insurance (theft, fire, equipment damage) and legal protection. Expect to pay between €1,200 and €3,000/year depending on coverage.',
         },
         {
-          question: 'What insurance is mandatory?',
+          question: 'What VAT rate applies to food trucks?',
           answer:
-            'Professional Liability Insurance (RC Pro) is essential to cover third-party damages (food poisoning, accidents). Commercial vehicle insurance is mandatory and must cover both driving and trading activity. Legal protection cover is strongly recommended for disputes. The average total cost is between EUR 1,500 and EUR 3,000 per year depending on coverage.',
+            'VAT for food trucks depends on the type of sale. On-site and takeaway prepared meals are subject to 10% VAT. Unprepared food products (non-alcoholic drinks, packaged desserts) benefit from the reduced 5.5% rate. Alcoholic beverages are at the standard 20% rate. Under micro-enterprise status, you may benefit from VAT exemption (franchise en base).',
         },
         {
-          question: 'What VAT rate applies?',
+          question: 'How do I get a public road pitch?',
           answer:
-            'VAT of 10% applies to prepared food products for immediate consumption (dishes, sandwiches, non-alcoholic drinks). The rate drops to 5.5% for packaged food products for deferred consumption. Alcoholic beverages are subject to the standard 20% rate. Under micro-enterprise status, you are VAT-exempt below the EUR 36,800 annual revenue threshold (franchise en base de TVA).',
+            'To set up on public land, you need a Temporary Occupation Authorization (AOT) or a road permit from the relevant municipality. The fee ranges from €5 to €30/day depending on the commune. For markets, you must register with the municipal market manager (placier). Processing times range from a few days to several months depending on demand.',
         },
         {
           question: 'What are the vehicle safety standards?',
           answer:
-            'The vehicle must pass a technical inspection every two years (annually for vehicles over 3.5 tonnes). Gas installations must comply with NF EN 203 standard with a compliance certificate. You must have at least one accessible ABC-type fire extinguisher. Ventilation and smoke extraction are mandatory. Electrical installation must comply with NF C 15-100 standard. A gas detector is strongly recommended.',
+            'The vehicle must pass a technical inspection every 2 years (UTAC). Gas installations must comply with NF standards and be checked annually. A suitable fire extinguisher is mandatory on board. The ventilation and extraction system must meet current standards, and electrical connections must comply with NF C 15-100 standards.',
         },
         {
-          question: 'What signage is mandatory in a food truck?',
+          question: 'How much does it cost to start a food truck in France?',
           answer:
-            'You must display prices including VAT in a legible manner visible from outside. The list of 14 allergens must be accessible (displayed or available on request). The origin of beef must be indicated. If serving alcoholic beverages, a drinks licence is required (licence "petite restauration" or licence III/IV). The SIRET number and company name must be visible on the vehicle.',
+            'The total startup budget ranges from €30,000 to €120,000 depending on the vehicle type (new or used) and fit-out. Main costs include: the fitted vehicle (€20,000–80,000), kitchen equipment (€5,000–15,000), administrative fees and training (€1,000–3,000), initial stock (€1,000–3,000), and insurance (€1,200–3,000/year). Use our break-even calculator to plan your investment.',
         },
       ];
+
+  const articleJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: isFr
+      ? 'Réglementation food truck en France 2026 — Guide complet'
+      : 'Food Truck Regulations in France 2026 — Complete Guide',
+    description: isFr
+      ? 'Guide complet de la réglementation food truck en France : permis, hygiène HACCP, assurances, TVA, emplacements.'
+      : 'Complete guide to food truck regulations in France: permits, HACCP hygiene, insurance, VAT, locations.',
+    datePublished: '2026-03-19',
+    dateModified: '2026-03-19',
+    author: { '@type': 'Organization', name: 'FoodTracks', url: BASE_URL },
+    publisher: {
+      '@type': 'Organization',
+      name: 'FoodTracks',
+      url: BASE_URL,
+      logo: { '@type': 'ImageObject', url: `${BASE_URL}/logo.png` },
+    },
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': `${BASE_URL}/${locale}/guides/food-truck-reglementation-france`,
+    },
+    inLanguage: locale,
+    image: `${BASE_URL}/og-image.png`,
+    about: {
+      '@type': 'Thing',
+      name: isFr ? 'Réglementation food truck France' : 'Food truck regulations France',
+    },
+    keywords: isFr
+      ? 'réglementation food truck France, permis food truck, hygiène food truck HACCP, assurance food truck, TVA food truck'
+      : 'food truck regulations France, food truck permits France, food truck hygiene HACCP, food truck insurance France, food truck VAT France',
+  };
 
   const faqJsonLd = {
     '@context': 'https://schema.org',
@@ -234,420 +261,915 @@ export default async function ReglementationFrancePage({
     })),
   };
 
-  /* ─── Guide sections data ──────────────────────────────── */
+  /* ─── Content sections ──────────────────────────────────── */
 
-  const sections = isFr
+  const pillars = isFr
     ? [
         {
-          id: 'statut-juridique',
-          icon: <Scale className="h-6 w-6" style={{ color: ORANGE }} />,
-          title: '1. Statut juridique et immatriculation',
-          intro:
-            'Le choix du statut juridique est la première étape pour lancer votre food truck. Il détermine votre régime fiscal, vos charges sociales et votre responsabilité.',
-          items: [
-            'Micro-entreprise (auto-entrepreneur) : idéal pour démarrer, CA plafonné à 188 700 € (vente) ou 77 700 € (services). Comptabilité simplifiée, pas de TVA sous le seuil de franchise.',
-            'SARL / EURL : responsabilité limitée aux apports, adaptée si vous avez un ou plusieurs associés. Capital social libre (1 € minimum).',
-            'SAS / SASU : souplesse statutaire maximale, facilite l\'entrée d\'investisseurs. Le dirigeant est assimilé salarié (meilleure protection sociale).',
-            'Inscription obligatoire au RCS (Registre du Commerce et des Sociétés) via le guichet unique de l\'INPI (formalites.entreprises.gouv.fr).',
-            'Code APE typique : 56.10C (restauration rapide) attribué par l\'INSEE lors de l\'immatriculation.',
-            'Délai moyen : 1 à 4 semaines pour obtenir votre extrait Kbis selon le statut choisi.',
-          ],
+          icon: <Package className="h-7 w-7" style={{ color: ORANGE }} />,
+          color: ORANGE,
+          title: 'Gestion des stocks',
+          desc: 'Suivre vos matières premières en temps réel, éviter ruptures et gaspillage, scanner vos arrivages.',
+          href: `/${locale}/fonctionnalites/gestion-stock`,
+          cta: 'En savoir plus',
         },
         {
-          id: 'carte-commercant',
-          icon: <FileText className="h-6 w-6" style={{ color: ORANGE }} />,
-          title: '2. Carte de commerçant ambulant',
-          intro:
-            'La carte de commerçant ambulant est un document administratif indispensable pour exercer une activité commerciale itinérante en dehors de votre commune de domiciliation.',
-          items: [
-            'Obligatoire dès que vous exercez en dehors de la commune où est domiciliée votre entreprise (article L.123-29 du Code de commerce).',
-            'Demande auprès du CFE (Centre de Formalités des Entreprises) ou de la CMA (Chambre des Métiers et de l\'Artisanat) selon votre activité.',
-            'Validité de 4 ans, renouvelable sur demande avant expiration.',
-            'Coût : environ 30 € (tarif fixé par arrêté).',
-            'Vous devez la présenter lors de tout contrôle sur la voie publique ou sur un marché.',
-            'Exception : si vous exercez uniquement dans votre commune de domiciliation, cette carte n\'est pas requise.',
-          ],
+          icon: <Brain className="h-7 w-7" style={{ color: '#8B5CF6' }} />,
+          color: '#8B5CF6',
+          title: 'Prévisions de ventes',
+          desc: 'Anticiper vos ventes grâce à l\'IA et adapter vos commandes à la météo et à vos emplacements.',
+          href: `/${locale}/fonctionnalites/predictions-ventes`,
+          cta: 'En savoir plus',
         },
         {
-          id: 'autorisations-emplacement',
-          icon: <Building2 className="h-6 w-6" style={{ color: ORANGE }} />,
-          title: '3. Autorisations d\'emplacement',
-          intro:
-            'L\'accès aux emplacements est soumis à des autorisations spécifiques selon que vous vous installez sur le domaine public, un marché ou une propriété privée.',
-          items: [
-            'Domaine public : Autorisation d\'Occupation Temporaire (AOT) délivrée par la mairie. Durée variable (journalière, mensuelle, annuelle). Redevance fixée par la commune.',
-            'Marchés communaux : inscription auprès du placier municipal, droit de place à payer (5 à 30 € / jour selon la commune et l\'emplacement).',
-            'Propriété privée : accord écrit du propriétaire (bail, convention). Pas d\'AOT nécessaire, mais respect du PLU (Plan Local d\'Urbanisme).',
-            'Événements et festivals : convention d\'occupation spécifique avec l\'organisateur. Vérifiez les assurances complémentaires requises.',
-            'Stationnement interdit devant les commerces alimentaires concurrents dans un périmètre défini par arrêté municipal.',
-            'Certaines communes imposent une charte graphique ou des horaires d\'ouverture pour les food trucks sur le domaine public.',
-          ],
+          icon: <FileText className="h-7 w-7" style={{ color: TEAL }} />,
+          color: TEAL,
+          title: 'Scan de factures',
+          desc: 'Numériser vos factures fournisseurs en 2 secondes pour mettre à jour votre stock automatiquement.',
+          href: `/${locale}/fonctionnalites/scan-factures`,
+          cta: 'En savoir plus',
         },
         {
-          id: 'hygiene-haccp',
-          icon: <ClipboardCheck className="h-6 w-6" style={{ color: ORANGE }} />,
-          title: '4. Normes d\'hygiène et HACCP',
-          intro:
-            'La sécurité alimentaire est encadrée par le règlement européen CE n°852/2004 et le paquet hygiène. Les food trucks sont soumis aux mêmes obligations que les restaurants.',
-          items: [
-            'Formation HACCP obligatoire : au moins une personne de l\'établissement doit avoir suivi une formation de 14 heures minimum (décret 2011-731). Organismes agréés par la DRAAF.',
-            'Plan de Maîtrise Sanitaire (PMS) : document obligatoire décrivant vos procédures d\'hygiène, de traçabilité, de gestion des non-conformités et de rappel produits.',
-            'Chaîne du froid : produits réfrigérés entre 0 et 3°C, surgelés à -18°C minimum. Relevés de température quotidiens obligatoires avec fiches d\'enregistrement.',
-            'Traçabilité : conserver les bons de livraison et étiquettes fournisseurs pendant 5 ans. Chaque produit doit pouvoir être retracé de l\'achat à la vente.',
-            'Déclaration DDPP : votre activité doit être déclarée auprès de la Direction Départementale de la Protection des Populations avant ouverture.',
-            'Contrôles inopinés : la DDPP peut inspecter votre food truck à tout moment. Les résultats sont publiés sur alim-confiance.gouv.fr.',
-            'Eau potable : accès obligatoire à de l\'eau potable courante pour la préparation et le lavage des mains (réservoir de 60 litres minimum recommandé).',
-          ],
+          icon: <Calculator className="h-7 w-7" style={{ color: GREEN }} />,
+          color: GREEN,
+          title: 'Seuil de rentabilité',
+          desc: 'Calculer votre point mort mensuel et journalier pour savoir combien vendre chaque jour.',
+          href: `/${locale}/guides/seuil-rentabilite-food-truck`,
+          cta: 'Calculer maintenant',
         },
         {
-          id: 'assurances',
-          icon: <Shield className="h-6 w-6" style={{ color: ORANGE }} />,
-          title: '5. Assurances obligatoires',
-          intro:
-            'Les assurances protègent votre activité, votre véhicule et les tiers. Certaines sont légalement obligatoires, d\'autres fortement recommandées.',
-          items: [
-            'Responsabilité Civile Professionnelle (RC Pro) : couvre les dommages corporels, matériels et immatériels causés à des tiers (intoxication alimentaire, brûlure d\'un client, etc.).',
-            'Assurance véhicule aménagé : obligatoire, elle doit couvrir le véhicule en circulation ET en stationnement pendant l\'activité de vente. Vérifiez que l\'aménagement intérieur est couvert.',
-            'Garantie protection juridique : couvre les frais de procédure en cas de litige avec un client, un fournisseur ou une administration.',
-            'Assurance perte d\'exploitation : recommandée pour couvrir la perte de revenus en cas de sinistre (incendie, panne longue, accident).',
-            'Multirisque professionnelle : formule globale incluant RC Pro, protection du matériel et de la marchandise.',
-            'Coût moyen : 1 500 à 3 000 € / an selon les garanties, la valeur du véhicule et votre chiffre d\'affaires.',
-          ],
+          icon: <ChefHat className="h-7 w-7" style={{ color: '#F59E0B' }} />,
+          color: '#F59E0B',
+          title: 'Guide gestion food truck',
+          desc: 'Le guide complet pour gérer votre food truck de A à Z : stocks, comptabilité, emplacements et outils.',
+          href: `/${locale}/guides/gestion-food-truck`,
+          cta: 'Lire le guide',
         },
         {
-          id: 'fiscalite-tva',
-          icon: <Euro className="h-6 w-6" style={{ color: ORANGE }} />,
-          title: '6. Fiscalité et TVA',
-          intro:
-            'La fiscalité des food trucks suit les règles de la restauration rapide. Le régime dépend de votre statut juridique et de votre chiffre d\'affaires.',
-          items: [
-            'TVA à 10 % : taux applicable à la vente de produits alimentaires préparés destinés à une consommation immédiate (plats, sandwichs, boissons non alcoolisées).',
-            'TVA à 5,5 % : applicable aux produits alimentaires emballés destinés à une consommation différée (bouteilles d\'eau, gâteaux emballés).',
-            'TVA à 20 % : taux normal applicable aux boissons alcoolisées.',
-            'Franchise en base de TVA : en micro-entreprise, exonération de TVA sous le seuil de 36 800 € de CA annuel (seuil majoré : 39 100 €).',
-            'Micro-entreprise : abattement forfaitaire de 71 % sur le CA pour les BIC vente (impôt sur le revenu sur 29 % du CA).',
-            'Régime réel simplifié : obligatoire au-delà des seuils micro. Déclarations de TVA trimestrielles ou annuelles.',
-            'CFE (Cotisation Foncière des Entreprises) : due chaque année, calculée sur la valeur locative du local professionnel ou sur un montant forfaitaire.',
-          ],
-        },
-        {
-          id: 'securite-vehicule',
-          icon: <Thermometer className="h-6 w-6" style={{ color: ORANGE }} />,
-          title: '7. Normes de sécurité du véhicule',
-          intro:
-            'Le véhicule aménagé doit respecter des normes strictes de sécurité pour la circulation, la cuisson et le stockage des denrées alimentaires.',
-          items: [
-            'Contrôle technique : tous les 2 ans pour les véhicules de moins de 3,5 tonnes PTAC, annuel au-delà. Le véhicule doit être immatriculé en catégorie « magasin » sur la carte grise.',
-            'Normes gaz : installations conformes à la norme NF EN 203. Certificat de conformité délivré par un organisme agréé (Qualigaz, etc.). Vérification annuelle obligatoire.',
-            'Extincteurs : au moins un extincteur de type ABC de 6 kg minimum, accessible et vérifié annuellement. Un extincteur supplémentaire près de la zone de cuisson est recommandé.',
-            'Ventilation et extraction : système de ventilation conforme pour évacuer les fumées et vapeurs de cuisson. Hotte aspirante obligatoire avec filtre à graisse.',
-            'Installation électrique : conforme à la norme NF C 15-100. Disjoncteur différentiel 30 mA obligatoire. Vérification par un organisme agréé (Consuel) lors de l\'aménagement.',
-            'Permis de conduire : permis B suffisant pour les véhicules de moins de 3,5 tonnes PTAC. Permis C requis au-delà, avec FIMO/FCO pour les conducteurs professionnels.',
-            'Détecteur de gaz : fortement recommandé (obligatoire dans certaines communes). Détecteur de monoxyde de carbone conseillé.',
-          ],
-        },
-        {
-          id: 'affichages-obligatoires',
-          icon: <AlertTriangle className="h-6 w-6" style={{ color: ORANGE }} />,
-          title: '8. Affichages obligatoires',
-          intro:
-            'Plusieurs informations doivent être affichées de manière visible et lisible dans et sur votre food truck pour être en conformité.',
-          items: [
-            'Prix TTC : affichage obligatoire des prix toutes taxes comprises, lisible depuis l\'extérieur du véhicule (arrêté du 3 décembre 1987).',
-            'Allergènes : la liste des 14 allergènes majeurs doit être accessible aux clients (affichage visible ou document disponible sur demande — règlement INCO UE n°1169/2011).',
-            'Origine des viandes : l\'origine des viandes bovines doit être indiquée (pays de naissance, d\'élevage et d\'abattage). Recommandé pour les autres viandes.',
-            'Licence débit de boissons : si vous vendez des boissons alcoolisées, la licence correspondante doit être affichée (petite licence restaurant, licence III ou IV).',
-            'Numéro SIRET : votre numéro d\'identification doit être visible sur le véhicule ou sur un document accessible.',
-            'Interdiction de vente d\'alcool aux mineurs : affichage obligatoire si vous vendez des boissons alcoolisées.',
-            'Règles de protection des données : si vous collectez des données clients (programme fidélité), mention RGPD obligatoire.',
-          ],
+          icon: <BarChart3 className="h-7 w-7" style={{ color: '#06B6D4' }} />,
+          color: '#06B6D4',
+          title: 'Suivi comptable',
+          desc: 'Exporter vos données de ventes, marges et coûts matières pour votre comptable ou déclaration.',
+          href: `/${locale}/fonctionnalites/scan-factures`,
+          cta: 'En savoir plus',
         },
       ]
     : [
         {
-          id: 'legal-structure',
-          icon: <Scale className="h-6 w-6" style={{ color: ORANGE }} />,
-          title: '1. Legal structure and registration',
-          intro:
-            'Choosing a legal structure is the first step to launching your food truck. It determines your tax regime, social charges and liability.',
-          items: [
-            'Micro-enterprise (auto-entrepreneur): ideal for starting out, revenue capped at EUR 188,700 (sales) or EUR 77,700 (services). Simplified accounting, no VAT below the franchise threshold.',
-            'SARL / EURL: liability limited to contributions, suitable if you have one or more partners. Minimum share capital of EUR 1.',
-            'SAS / SASU: maximum statutory flexibility, facilitates investor entry. The director is treated as an employee (better social protection).',
-            'Mandatory registration with the RCS (Trade and Companies Register) via the INPI one-stop shop (formalites.entreprises.gouv.fr).',
-            'Typical APE code: 56.10C (fast food) assigned by INSEE upon registration.',
-            'Average timeframe: 1 to 4 weeks to obtain your Kbis extract depending on the chosen structure.',
-          ],
+          icon: <Package className="h-7 w-7" style={{ color: ORANGE }} />,
+          color: ORANGE,
+          title: 'Inventory Management',
+          desc: 'Track raw materials in real time, avoid stockouts and waste, scan incoming deliveries.',
+          href: `/${locale}/fonctionnalites/gestion-stock`,
+          cta: 'Learn more',
         },
         {
-          id: 'trader-card',
-          icon: <FileText className="h-6 w-6" style={{ color: ORANGE }} />,
-          title: '2. Itinerant trader card (Carte de commerçant ambulant)',
-          intro:
-            'The itinerant trader card is an essential administrative document for carrying out mobile commercial activity outside your registered municipality.',
-          items: [
-            'Mandatory as soon as you operate outside the municipality where your business is registered (article L.123-29 of the Commercial Code).',
-            'Application through the CFE (Business Formalities Centre) or the CMA (Chamber of Crafts) depending on your activity.',
-            'Valid for 4 years, renewable upon request before expiry.',
-            'Cost: approximately EUR 30 (rate set by ministerial order).',
-            'You must present it during any inspection on public roads or at a market.',
-            'Exception: if you only operate within your registered municipality, this card is not required.',
-          ],
+          icon: <Brain className="h-7 w-7" style={{ color: '#8B5CF6' }} />,
+          color: '#8B5CF6',
+          title: 'Sales Forecasting',
+          desc: 'Predict your sales using AI and adapt orders based on weather and locations.',
+          href: `/${locale}/fonctionnalites/predictions-ventes`,
+          cta: 'Learn more',
         },
         {
-          id: 'location-permits',
-          icon: <Building2 className="h-6 w-6" style={{ color: ORANGE }} />,
-          title: '3. Location permits and authorisations',
-          intro:
-            'Access to pitches is subject to specific authorisations depending on whether you set up on public land, at a market or on private property.',
-          items: [
-            'Public land: AOT (Temporary Occupation Authorisation) issued by the town hall. Variable duration (daily, monthly, annual). Fee set by the municipality.',
-            'Municipal markets: registration with the market manager, pitch fee payable (EUR 5-30/day depending on municipality and location).',
-            'Private property: written agreement from the owner (lease, convention). No AOT needed, but PLU (Local Urban Plan) must be respected.',
-            'Events and festivals: specific occupation agreement with the organiser. Check any additional insurance requirements.',
-            'Parking prohibited in front of competing food businesses within a perimeter defined by municipal order.',
-            'Some municipalities impose graphic charter requirements or opening hours for food trucks on public land.',
-          ],
+          icon: <FileText className="h-7 w-7" style={{ color: TEAL }} />,
+          color: TEAL,
+          title: 'Invoice Scanning',
+          desc: 'Digitize supplier invoices in 2 seconds to automatically update your stock.',
+          href: `/${locale}/fonctionnalites/scan-factures`,
+          cta: 'Learn more',
         },
         {
-          id: 'hygiene-haccp',
-          icon: <ClipboardCheck className="h-6 w-6" style={{ color: ORANGE }} />,
-          title: '4. Hygiene standards and HACCP',
-          intro:
-            'Food safety is governed by EU Regulation EC No 852/2004 and the hygiene package. Food trucks are subject to the same obligations as restaurants.',
-          items: [
-            'Mandatory HACCP training: at least one person in the establishment must have completed a minimum 14-hour training course (decree 2011-731). Training bodies approved by DRAAF.',
-            'Sanitary Control Plan (PMS): mandatory document describing your hygiene procedures, traceability, non-conformity management and product recall protocols.',
-            'Cold chain: refrigerated products between 0 and 3 degrees C, frozen products at -18 degrees C minimum. Mandatory daily temperature logs with recording sheets.',
-            'Traceability: keep delivery notes and supplier labels for 5 years. Each product must be traceable from purchase to sale.',
-            'DDPP declaration: your activity must be declared to the Departmental Directorate for Consumer Protection before opening.',
-            'Unannounced inspections: the DDPP may inspect your food truck at any time. Results are published on alim-confiance.gouv.fr.',
-            'Drinking water: mandatory access to running drinking water for preparation and handwashing (minimum 60-litre tank recommended).',
-          ],
+          icon: <Calculator className="h-7 w-7" style={{ color: GREEN }} />,
+          color: GREEN,
+          title: 'Break-Even Point',
+          desc: 'Calculate your monthly and daily break-even threshold to know how much to sell each day.',
+          href: `/${locale}/guides/seuil-rentabilite-food-truck`,
+          cta: 'Calculate now',
         },
         {
-          id: 'insurance',
-          icon: <Shield className="h-6 w-6" style={{ color: ORANGE }} />,
-          title: '5. Mandatory insurance',
-          intro:
-            'Insurance protects your business, your vehicle and third parties. Some policies are legally required, others are strongly recommended.',
-          items: [
-            'Professional Liability Insurance (RC Pro): covers bodily, material and immaterial damage to third parties (food poisoning, customer burns, etc.).',
-            'Converted vehicle insurance: mandatory, must cover the vehicle in transit AND while stationary during trading. Ensure the interior conversion is covered.',
-            'Legal protection cover: covers legal costs in disputes with customers, suppliers or authorities.',
-            'Business interruption insurance: recommended to cover loss of income from an incident (fire, long breakdown, accident).',
-            'Multi-risk professional policy: comprehensive package including RC Pro, equipment and goods protection.',
-            'Average cost: EUR 1,500 to EUR 3,000/year depending on coverage, vehicle value and your turnover.',
-          ],
+          icon: <ChefHat className="h-7 w-7" style={{ color: '#F59E0B' }} />,
+          color: '#F59E0B',
+          title: 'Food Truck Management Guide',
+          desc: 'The complete guide to managing your food truck from A to Z: inventory, accounting, locations and tools.',
+          href: `/${locale}/guides/gestion-food-truck`,
+          cta: 'Read the guide',
         },
         {
-          id: 'tax-vat',
-          icon: <Euro className="h-6 w-6" style={{ color: ORANGE }} />,
-          title: '6. Tax and VAT',
-          intro:
-            'Food truck taxation follows fast-food catering rules. The regime depends on your legal structure and revenue.',
-          items: [
-            '10% VAT: applicable rate for prepared food products for immediate consumption (dishes, sandwiches, non-alcoholic drinks).',
-            '5.5% VAT: applicable to packaged food products for deferred consumption (water bottles, wrapped cakes).',
-            '20% VAT: standard rate applicable to alcoholic beverages.',
-            'VAT franchise (franchise en base): under micro-enterprise status, VAT exemption below EUR 36,800 annual revenue (increased threshold: EUR 39,100).',
-            'Micro-enterprise: flat-rate deduction of 71% on revenue for BIC sales (income tax on 29% of revenue).',
-            'Simplified real regime: mandatory above micro thresholds. Quarterly or annual VAT returns.',
-            'CFE (Business Property Tax): due annually, calculated on the rental value of the professional premises or a flat-rate amount.',
-          ],
+          icon: <BarChart3 className="h-7 w-7" style={{ color: '#06B6D4' }} />,
+          color: '#06B6D4',
+          title: 'Accounting Tracking',
+          desc: 'Export your sales data, margins and ingredient costs for your accountant or tax filing.',
+          href: `/${locale}/fonctionnalites/scan-factures`,
+          cta: 'Learn more',
         },
-        {
-          id: 'vehicle-safety',
-          icon: <Thermometer className="h-6 w-6" style={{ color: ORANGE }} />,
-          title: '7. Vehicle safety standards',
-          intro:
-            'The converted vehicle must meet strict safety standards for driving, cooking and food storage.',
-          items: [
-            'Technical inspection: every 2 years for vehicles under 3.5 tonnes GVW, annually above. The vehicle must be registered as "magasin" category on the registration document.',
-            'Gas standards: installations compliant with NF EN 203. Compliance certificate issued by an approved body (Qualigaz, etc.). Mandatory annual verification.',
-            'Fire extinguishers: at least one ABC-type extinguisher of 6 kg minimum, accessible and inspected annually. An additional extinguisher near the cooking area is recommended.',
-            'Ventilation and extraction: compliant ventilation system to evacuate cooking fumes and vapours. Extractor hood with grease filter mandatory.',
-            'Electrical installation: compliant with NF C 15-100 standard. 30 mA residual current device mandatory. Inspection by approved body (Consuel) upon conversion.',
-            'Driving licence: category B sufficient for vehicles under 3.5 tonnes GVW. Category C required above, with CPC (Certificate of Professional Competence) for professional drivers.',
-            'Gas detector: strongly recommended (mandatory in some municipalities). Carbon monoxide detector advised.',
-          ],
-        },
-        {
-          id: 'mandatory-signage',
-          icon: <AlertTriangle className="h-6 w-6" style={{ color: ORANGE }} />,
-          title: '8. Mandatory signage and displays',
-          intro:
-            'Several pieces of information must be displayed visually and legibly in and on your food truck to ensure compliance.',
-          items: [
-            'Prices including VAT: mandatory display of prices including all taxes, legible from outside the vehicle (order of 3 December 1987).',
-            'Allergens: the list of 14 major allergens must be accessible to customers (visible display or document available on request — EU INCO regulation No 1169/2011).',
-            'Meat origin: the origin of beef must be indicated (country of birth, rearing and slaughter). Recommended for other meats.',
-            'Drinks licence: if you sell alcoholic beverages, the corresponding licence must be displayed (petite licence restaurant, licence III or IV).',
-            'SIRET number: your identification number must be visible on the vehicle or on an accessible document.',
-            'No alcohol sales to minors: mandatory display if you sell alcoholic beverages.',
-            'Data protection rules: if you collect customer data (loyalty programme), GDPR notice is mandatory.',
-          ],
-        },
-      ];
-
-  const officialSources = isFr
-    ? [
-        { name: 'Service-Public.fr — Commerçant ambulant', url: 'https://www.service-public.fr/professionnels-entreprises/vosdroits/F22387' },
-        { name: 'INPI — Guichet unique des formalités', url: 'https://formalites.entreprises.gouv.fr/' },
-        { name: 'DDPP — Sécurité sanitaire', url: 'https://www.economie.gouv.fr/dgccrf/Les-fiches-pratiques' },
-        { name: 'CMA France — Chambre des Métiers', url: 'https://www.artisanat.fr/' },
-      ]
-    : [
-        { name: 'Service-Public.fr — Itinerant trader', url: 'https://www.service-public.fr/professionnels-entreprises/vosdroits/F22387' },
-        { name: 'INPI — One-stop business formalities', url: 'https://formalites.entreprises.gouv.fr/' },
-        { name: 'DDPP — Food safety', url: 'https://www.economie.gouv.fr/dgccrf/Les-fiches-pratiques' },
-        { name: 'CMA France — Chamber of Crafts', url: 'https://www.artisanat.fr/' },
       ];
 
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+      />
 
-      <LandingHeader />
+      <div className="min-h-screen" style={{ backgroundColor: '#FFFBF7' }}>
+        <LandingHeader />
 
-      <div className="min-h-screen" style={{ backgroundColor: '#FFFFFF' }}>
+        {/* ══════════════════════════════════════
+            BREADCRUMB
+            ══════════════════════════════════════ */}
+        <nav className="container mx-auto px-4 pt-6 pb-0" aria-label="Breadcrumb">
+          <ol className="flex items-center gap-2 text-sm text-gray-500 flex-wrap">
+            <li>
+              <Link href={`/${locale}`} className="hover:text-gray-700 transition-colors">
+                FoodTracks
+              </Link>
+            </li>
+            <li>/</li>
+            <li>
+              <Link href={`/${locale}/guides`} className="hover:text-gray-700 transition-colors">
+                {isFr ? 'Guides' : 'Guides'}
+              </Link>
+            </li>
+            <li>/</li>
+            <li className="text-gray-900 font-medium">
+              {isFr ? 'Réglementation Food Truck' : 'Food Truck Regulations'}
+            </li>
+          </ol>
+        </nav>
+
         {/* ══════════════════════════════════════
             HERO
             ══════════════════════════════════════ */}
-        <section
-          className="relative overflow-hidden py-24 md:py-36"
-          style={{
-            background: `radial-gradient(ellipse 110% 70% at 0% 30%, rgba(249,115,22,0.14) 0%, transparent 50%),
-                         radial-gradient(ellipse 80% 60% at 100% 75%, rgba(20,184,166,0.10) 0%, transparent 50%),
-                         ${DARK}`,
-          }}
-        >
-          <div className="absolute inset-0 bg-dot-grid pointer-events-none opacity-[0.35]" />
-          <div className="container relative mx-auto px-5 sm:px-8 lg:px-16">
-            <div className="max-w-4xl mx-auto text-center space-y-8">
-              <nav className="flex items-center justify-center gap-2 text-xs" style={{ color: '#6B7280' }}>
-                <Link href={`/${locale}`} className="hover:text-white transition-colors">FoodTracks</Link>
-                <span>/</span>
-                <Link href={`/${locale}/guides`} className="hover:text-white transition-colors">
-                  {isFr ? 'Guides' : 'Guides'}
-                </Link>
-                <span>/</span>
-                <span style={{ color: ORANGE }}>
-                  {isFr ? 'Réglementation' : 'Regulations'}
-                </span>
-              </nav>
+        <section className="container mx-auto px-4 pt-14 pb-10 max-w-4xl">
+          <div
+            className="inline-flex items-center gap-2 text-sm font-medium px-4 py-2 rounded-full mb-6"
+            style={{ backgroundColor: '#FFF3E8', color: ORANGE }}
+          >
+            <Shield className="h-4 w-4" />
+            {isFr ? 'Guide réglementaire · Mars 2026' : 'Regulatory guide · March 2026'}
+          </div>
 
-              <div
-                className="inline-flex items-center gap-2 rounded-full px-4 py-2 text-sm font-bold border"
-                style={{ backgroundColor: 'rgba(249,115,22,0.12)', borderColor: 'rgba(249,115,22,0.30)', color: ORANGE }}
-              >
-                <Shield className="h-4 w-4" />
-                {isFr ? 'Guide réglementaire · Mis à jour mars 2026' : 'Regulatory guide · Updated March 2026'}
-              </div>
+          <h1 className="font-jakarta text-4xl md:text-5xl font-extrabold tracking-tight text-gray-900 leading-tight mb-6">
+            {isFr
+              ? 'Réglementation food truck en France : le guide complet 2026'
+              : 'Food truck regulations in France: the complete 2026 guide'}
+          </h1>
 
-              <h1 className="font-jakarta text-4xl md:text-5xl lg:text-6xl font-extrabold text-white leading-tight tracking-tight">
-                {isFr
-                  ? 'Réglementation Food Truck en France'
-                  : 'Food Truck Regulations in France'}
-              </h1>
+          <p className="text-lg md:text-xl text-gray-600 leading-relaxed mb-8 max-w-3xl">
+            {isFr
+              ? 'Ouvrir et exploiter un food truck en France implique de respecter un cadre réglementaire précis : statut juridique, carte de commerçant ambulant, formation HACCP, assurances, TVA et autorisations d\'emplacement. Ce guide rassemble toutes les obligations légales à jour pour 2026, avec les sources officielles et des conseils pratiques.'
+              : 'Opening and operating a food truck in France requires compliance with a precise regulatory framework: legal status, itinerant trader card, HACCP training, insurance, VAT and location permits. This guide covers all current legal obligations for 2026, with official sources and practical advice.'}
+          </p>
 
-              <p className="text-lg md:text-xl max-w-3xl mx-auto leading-relaxed" style={{ color: '#9CA3AF' }}>
-                {isFr
-                  ? 'Le guide complet et à jour des obligations légales, sanitaires et fiscales pour exploiter un food truck en France en 2026. Sources officielles, conseils pratiques et check-lists.'
-                  : 'The complete, up-to-date guide to legal, sanitary and tax obligations for operating a food truck in France in 2026. Official sources, practical advice and checklists.'}
-              </p>
+          {/* TL;DR card */}
+          <div
+            className="rounded-2xl p-6 border-l-4 mb-10"
+            style={{ backgroundColor: '#FFF7ED', borderLeftColor: ORANGE }}
+          >
+            <p className="font-bold text-gray-900 text-sm mb-2 flex items-center gap-2">
+              <span style={{ color: ORANGE }}>TL;DR</span>
+              {isFr ? ' — Ce qu\'il faut retenir' : ' — Key Takeaways'}
+            </p>
+            <ul className="text-sm text-gray-700 leading-relaxed space-y-1.5 list-disc list-inside">
+              {isFr ? (
+                <>
+                  <li>L&apos;immatriculation au RCS et le choix du statut juridique (auto-entrepreneur, SARL, SAS) sont la première étape obligatoire.</li>
+                  <li>La carte de commerçant ambulant est requise dès que vous vendez hors de votre commune de domiciliation.</li>
+                  <li>La formation HACCP (14h minimum) est obligatoire pour au moins une personne de l&apos;équipe.</li>
+                  <li>L&apos;assurance RC Pro et l&apos;assurance véhicule professionnel sont les deux couvertures minimales obligatoires.</li>
+                  <li>Le taux de TVA applicable est de 10 % pour la restauration à emporter et 5,5 % pour les produits non préparés.</li>
+                </>
+              ) : (
+                <>
+                  <li>RCS registration and legal status choice (auto-entrepreneur, SARL, SAS) are the mandatory first step.</li>
+                  <li>The itinerant trader card is required as soon as you sell outside your registered municipality.</li>
+                  <li>HACCP training (minimum 14 hours) is mandatory for at least one team member.</li>
+                  <li>Professional liability (RC Pro) and professional vehicle insurance are the two minimum mandatory coverages.</li>
+                  <li>The applicable VAT rate is 10% for takeaway food and 5.5% for unprepared products.</li>
+                </>
+              )}
+            </ul>
+          </div>
+        </section>
 
-              <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
-                <Link href={`/${locale}/register`}>
-                  <button
-                    className="btn-landing btn-cta-primary btn-shimmer inline-flex items-center justify-center gap-3 rounded-full font-bold px-10 py-4 text-base text-white"
-                    style={{ backgroundColor: ORANGE, boxShadow: '0 16px 48px -4px rgba(249,115,22,0.4)' }}
+        {/* ══════════════════════════════════════
+            TABLE OF CONTENTS
+            ══════════════════════════════════════ */}
+        <section className="container mx-auto px-4 pb-12 max-w-4xl">
+          <div
+            className="rounded-2xl p-6"
+            style={{ backgroundColor: '#F8F6F3', border: '1px solid #E8E2DC' }}
+          >
+            <h2 className="font-jakarta text-lg font-bold text-gray-900 mb-4">
+              {isFr ? 'Sommaire' : 'Table of Contents'}
+            </h2>
+            <ol className="space-y-2 text-sm text-gray-700">
+              {(isFr
+                ? [
+                    'Statut juridique et immatriculation',
+                    'Carte de commerçant ambulant',
+                    'Formation et hygiène HACCP',
+                    'Assurances obligatoires',
+                    'TVA et obligations fiscales',
+                    'Autorisations d\'emplacement',
+                    'Normes véhicule et sécurité',
+                    'Questions fréquentes',
+                  ]
+                : [
+                    'Legal status & registration',
+                    'Itinerant trader card',
+                    'HACCP training & hygiene',
+                    'Mandatory insurance',
+                    'VAT & tax obligations',
+                    'Location permits',
+                    'Vehicle & safety standards',
+                    'Frequently asked questions',
+                  ]
+              ).map((item, i) => (
+                <li key={i} className="flex items-start gap-2">
+                  <span
+                    className="flex-shrink-0 w-5 h-5 rounded-full flex items-center justify-center text-xs font-bold text-white mt-0.5"
+                    style={{ backgroundColor: ORANGE }}
                   >
-                    <ChefHat className="h-5 w-5" />
-                    {isFr ? 'Gérez votre food truck' : 'Manage your food truck'}
-                  </button>
-                </Link>
-                <a
-                  href="#statut-juridique"
-                  className="inline-flex items-center gap-2 text-sm font-semibold transition-colors hover:text-white"
-                  style={{ color: '#9CA3AF' }}
-                >
-                  {isFr ? 'Lire le guide' : 'Read the guide'}
-                  <ArrowRight className="h-4 w-4" />
-                </a>
-              </div>
+                    {i + 1}
+                  </span>
+                  <span>{item}</span>
+                </li>
+              ))}
+            </ol>
+          </div>
+        </section>
+
+        {/* ══════════════════════════════════════
+            SECTION 1 — STATUT JURIDIQUE
+            ══════════════════════════════════════ */}
+        <section className="container mx-auto px-4 pb-14 max-w-4xl">
+          <h2
+            id="statut-juridique"
+            className="font-jakarta text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3"
+          >
+            <span
+              className="flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center text-white font-extrabold"
+              style={{ backgroundColor: ORANGE }}
+            >
+              1
+            </span>
+            {isFr ? 'Statut juridique et immatriculation' : 'Legal status & registration'}
+          </h2>
+
+          <div className="prose prose-lg prose-gray max-w-none prose-headings:font-bold prose-headings:text-gray-900 prose-p:text-gray-700 prose-li:text-gray-700 prose-strong:text-gray-900">
+            {isFr ? (
+              <>
+                <p>
+                  La première étape pour lancer votre food truck est de choisir un statut juridique adapté et de vous immatriculer. Ce choix impacte votre fiscalité, votre protection sociale et vos possibilités de développement.
+                </p>
+                <h3>Les statuts juridiques possibles</h3>
+                <ul>
+                  <li><strong>Auto-entrepreneur (micro-entreprise)</strong> : le plus simple pour débuter. Plafond de CA à 188 700 €/an pour les activités de vente. Charges sociales réduites (12,3 % du CA). Comptabilité simplifiée.</li>
+                  <li><strong>EURL (Entreprise Unipersonnelle à Responsabilité Limitée)</strong> : adaptée si vous êtes seul et souhaitez protéger votre patrimoine personnel. Imposition à l&apos;IR ou à l&apos;IS au choix.</li>
+                  <li><strong>SARL (Société à Responsabilité Limitée)</strong> : idéale si vous avez un associé. Responsabilité limitée aux apports. Structure bien encadrée juridiquement.</li>
+                  <li><strong>SAS (Société par Actions Simplifiée)</strong> : la plus flexible. Liberté statutaire, président assimilé salarié. Adaptée si vous prévoyez une forte croissance ou des investisseurs.</li>
+                </ul>
+                <h3>Démarches d&apos;immatriculation</h3>
+                <p>
+                  L&apos;immatriculation se fait via le guichet unique de l&apos;INPI (<a href="https://www.guichet-entreprises.fr" target="_blank" rel="noopener noreferrer" style={{ color: ORANGE }}>guichet-entreprises.fr</a>). Vous obtiendrez votre numéro SIRET et votre code APE <strong>56.10C</strong> (restauration de type rapide). L&apos;inscription au Registre du Commerce et des Sociétés (RCS) est obligatoire pour les activités commerciales.
+                </p>
+                <p>
+                  Pour estimer vos charges et votre rentabilité selon le statut choisi, utilisez notre{' '}
+                  <Link href={`/${locale}/guides/seuil-rentabilite-food-truck`} style={{ color: ORANGE }}>
+                    calculateur de seuil de rentabilité food truck
+                  </Link>.
+                </p>
+                <p className="text-sm text-gray-500">
+                  Source : <a href="https://www.service-public.fr/professionnels-entreprises/vosdroits/F23887" target="_blank" rel="noopener noreferrer" style={{ color: ORANGE }}>service-public.fr</a>
+                </p>
+              </>
+            ) : (
+              <>
+                <p>
+                  The first step to launching your food truck is choosing the right legal status and registering your business. This choice impacts your taxation, social protection and growth potential.
+                </p>
+                <h3>Available legal structures</h3>
+                <ul>
+                  <li><strong>Auto-entrepreneur (micro-enterprise)</strong>: the simplest to start with. Revenue cap at €188,700/year for sales activities. Reduced social charges (12.3% of revenue). Simplified accounting.</li>
+                  <li><strong>EURL (Single-Person Limited Liability Company)</strong>: suitable if you are alone and want to protect personal assets. Choice of income tax or corporate tax.</li>
+                  <li><strong>SARL (Limited Liability Company)</strong>: ideal if you have a partner. Liability limited to contributions. Well-regulated legal structure.</li>
+                  <li><strong>SAS (Simplified Joint-Stock Company)</strong>: the most flexible. Statutory freedom, president treated as employee. Suitable if you expect strong growth or investors.</li>
+                </ul>
+                <h3>Registration process</h3>
+                <p>
+                  Registration is done through the INPI one-stop shop (<a href="https://www.guichet-entreprises.fr" target="_blank" rel="noopener noreferrer" style={{ color: ORANGE }}>guichet-entreprises.fr</a>). You will receive your SIRET number and APE code <strong>56.10C</strong> (fast food service). Registration with the Trade and Companies Register (RCS) is mandatory for commercial activities.
+                </p>
+                <p>
+                  To estimate your costs and profitability based on your chosen status, use our{' '}
+                  <Link href={`/${locale}/guides/seuil-rentabilite-food-truck`} style={{ color: ORANGE }}>
+                    food truck break-even calculator
+                  </Link>.
+                </p>
+                <p className="text-sm text-gray-500">
+                  Source: <a href="https://www.service-public.fr/professionnels-entreprises/vosdroits/F23887" target="_blank" rel="noopener noreferrer" style={{ color: ORANGE }}>service-public.fr</a>
+                </p>
+              </>
+            )}
+          </div>
+        </section>
+
+        {/* ══════════════════════════════════════
+            SECTION 2 — CARTE COMMERCANT AMBULANT
+            ══════════════════════════════════════ */}
+        <section
+          className="py-14 relative"
+          style={{ backgroundColor: '#FAFAF8' }}
+        >
+          <div className="container mx-auto px-4 max-w-4xl">
+            <h2
+              id="carte-commercant"
+              className="font-jakarta text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3"
+            >
+              <span
+                className="flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center text-white font-extrabold"
+                style={{ backgroundColor: TEAL }}
+              >
+                2
+              </span>
+              {isFr ? 'Carte de commerçant ambulant' : 'Itinerant trader card'}
+            </h2>
+
+            <div className="prose prose-lg prose-gray max-w-none prose-headings:font-bold prose-headings:text-gray-900 prose-p:text-gray-700 prose-li:text-gray-700 prose-strong:text-gray-900">
+              {isFr ? (
+                <>
+                  <p>
+                    La carte de commerçant ambulant est un document indispensable pour tout food trucker exerçant en dehors de sa commune de domiciliation. Elle atteste de votre droit à pratiquer le commerce itinérant sur l&apos;ensemble du territoire français.
+                  </p>
+                  <h3>Qui est concerné ?</h3>
+                  <p>
+                    Tout commerçant ou artisan exerçant une activité ambulante <strong>en dehors de la commune de domiciliation de son entreprise</strong> doit détenir cette carte. Si vous ne vendez que dans votre commune d&apos;inscription, elle n&apos;est pas obligatoire.
+                  </p>
+                  <h3>Comment l&apos;obtenir ?</h3>
+                  <ul>
+                    <li><strong>Demande au CFE</strong> (Centre de Formalités des Entreprises) compétent ou directement via le guichet unique de l&apos;INPI.</li>
+                    <li><strong>Pièces à fournir</strong> : justificatif d&apos;identité, justificatif de domiciliation, extrait Kbis ou attestation d&apos;inscription au répertoire des métiers.</li>
+                    <li><strong>Coût</strong> : 30 € (timbre fiscal).</li>
+                    <li><strong>Délai</strong> : environ 1 mois après dépôt du dossier complet.</li>
+                    <li><strong>Validité</strong> : 4 ans, renouvelable sur demande avant expiration.</li>
+                  </ul>
+                  <h3>Sanctions en cas d&apos;absence</h3>
+                  <p>
+                    L&apos;absence de carte de commerçant ambulant en cas de contrôle peut entraîner une amende de <strong>1 500 €</strong> (contravention de 5e classe). Pensez à toujours la conserver dans votre véhicule.
+                  </p>
+                  <p className="text-sm text-gray-500">
+                    Source : <a href="https://www.service-public.fr/professionnels-entreprises/vosdroits/F22536" target="_blank" rel="noopener noreferrer" style={{ color: ORANGE }}>service-public.fr/professionnels-entreprises</a>
+                  </p>
+                </>
+              ) : (
+                <>
+                  <p>
+                    The carte de commerçant ambulant (itinerant trader card) is an essential document for any food truck operator working outside their registered municipality. It certifies your right to practice itinerant trade throughout France.
+                  </p>
+                  <h3>Who needs it?</h3>
+                  <p>
+                    Any trader or craftsperson conducting mobile business <strong>outside the municipality where their business is registered</strong> must hold this card. If you only sell in your registered municipality, it is not required.
+                  </p>
+                  <h3>How to obtain it?</h3>
+                  <ul>
+                    <li><strong>Apply at the CFE</strong> (Centre de Formalités des Entreprises) or directly through the INPI one-stop shop.</li>
+                    <li><strong>Required documents</strong>: ID proof, business address proof, Kbis extract or craft registry registration certificate.</li>
+                    <li><strong>Cost</strong>: €30 (tax stamp).</li>
+                    <li><strong>Processing time</strong>: approximately 1 month after submitting the complete file.</li>
+                    <li><strong>Validity</strong>: 4 years, renewable upon request before expiration.</li>
+                  </ul>
+                  <h3>Penalties for non-compliance</h3>
+                  <p>
+                    Not having the itinerant trader card during an inspection can result in a fine of <strong>€1,500</strong> (5th class offense). Always keep it in your vehicle.
+                  </p>
+                  <p className="text-sm text-gray-500">
+                    Source: <a href="https://www.service-public.fr/professionnels-entreprises/vosdroits/F22536" target="_blank" rel="noopener noreferrer" style={{ color: ORANGE }}>service-public.fr/professionnels-entreprises</a>
+                  </p>
+                </>
+              )}
             </div>
           </div>
         </section>
 
         {/* ══════════════════════════════════════
-            GUIDE CONTENT SECTIONS
+            SECTION 3 — HACCP
             ══════════════════════════════════════ */}
-        {sections.map((section, idx) => (
-          <section key={idx} className="py-16 bg-white">
-            <div className="container mx-auto px-5 sm:px-8 lg:px-16">
-              <div className="max-w-4xl mx-auto">
-                <div className="rounded-2xl p-8 md:p-12" style={{ backgroundColor: '#FAFAF8', border: '1px solid #EDEBE8' }}>
-                  <div className="flex items-start gap-4 mb-6">
-                    <div className="p-3 rounded-xl shrink-0" style={{ backgroundColor: 'rgba(249,115,22,0.10)', border: '1px solid rgba(249,115,22,0.20)' }}>
-                      {section.icon}
-                    </div>
-                    <div>
-                      <h2
-                        id={section.id}
-                        className="font-jakarta text-2xl md:text-3xl font-bold text-gray-900 mb-3"
-                      >
-                        {section.title}
-                      </h2>
-                      <p className="text-gray-600 leading-relaxed text-base md:text-lg">
-                        {section.intro}
-                      </p>
-                      <ul className="mt-4 space-y-3">
-                        {section.items.map((item, i) => (
-                          <li key={i} className="flex items-start gap-3">
-                            <CheckCircle2 className="h-5 w-5 flex-shrink-0 mt-0.5" style={{ color: GREEN }} />
-                            <span className="text-sm md:text-base text-gray-700 leading-relaxed">{item}</span>
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-        ))}
+        <section className="container mx-auto px-4 py-14 max-w-4xl">
+          <h2
+            id="haccp"
+            className="font-jakarta text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3"
+          >
+            <span
+              className="flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center text-white font-extrabold"
+              style={{ backgroundColor: '#F59E0B' }}
+            >
+              3
+            </span>
+            {isFr ? 'Formation et hygiène HACCP' : 'HACCP training & hygiene'}
+          </h2>
+
+          <div className="prose prose-lg prose-gray max-w-none prose-headings:font-bold prose-headings:text-gray-900 prose-p:text-gray-700 prose-li:text-gray-700 prose-strong:text-gray-900">
+            {isFr ? (
+              <>
+                <p>
+                  L&apos;hygiène alimentaire est au coeur de la réglementation food truck. Le règlement européen (CE) n° 852/2004 et le décret français n° 2011-731 imposent des obligations strictes en matière de formation et de pratiques d&apos;hygiène.
+                </p>
+                <h3>Formation HACCP obligatoire</h3>
+                <ul>
+                  <li><strong>Au moins une personne</strong> dans l&apos;établissement doit avoir suivi une formation en hygiène alimentaire de <strong>14 heures minimum</strong>.</li>
+                  <li>La formation est dispensée par des organismes enregistrés auprès de la DRAAF (Direction Régionale de l&apos;Alimentation, de l&apos;Agriculture et de la Forêt).</li>
+                  <li>Coût moyen : <strong>200 à 500 €</strong> selon l&apos;organisme et le format (présentiel ou en ligne).</li>
+                  <li>Sont exemptés : les titulaires d&apos;un diplôme en restauration (CAP, BEP, Bac Pro) ou d&apos;une expérience de 3 ans en tant que gérant d&apos;un établissement alimentaire.</li>
+                </ul>
+                <h3>Plan de Maîtrise Sanitaire (PMS)</h3>
+                <p>
+                  Le PMS est un document obligatoire qui décrit les mesures prises pour garantir la sécurité alimentaire. Il comprend :
+                </p>
+                <ul>
+                  <li>Les bonnes pratiques d&apos;hygiène (BPH) et de fabrication (BPF).</li>
+                  <li>Le plan HACCP avec l&apos;analyse des dangers et les points critiques.</li>
+                  <li>Le plan de nettoyage et de désinfection.</li>
+                  <li>La gestion de la traçabilité des matières premières.</li>
+                  <li>Les relevés de températures (frigos, cuisson, service).</li>
+                </ul>
+                <h3>Contrôles DDPP</h3>
+                <p>
+                  La Direction Départementale de la Protection des Populations (DDPP) peut effectuer des contrôles inopinés. En cas de manquement grave, vous risquez une fermeture administrative temporaire, une amende, voire des poursuites pénales. Tenez vos registres à jour et votre PMS accessible dans le véhicule.
+                </p>
+                <p>
+                  Pour automatiser le suivi de vos stocks et de la traçabilité, découvrez la{' '}
+                  <Link href={`/${locale}/fonctionnalites/gestion-stock`} style={{ color: ORANGE }}>
+                    gestion de stock FoodTracks
+                  </Link>.
+                </p>
+                <p className="text-sm text-gray-500">
+                  Source : <a href="https://agriculture.gouv.fr/la-formation-obligatoire-en-hygiene-alimentaire" target="_blank" rel="noopener noreferrer" style={{ color: ORANGE }}>agriculture.gouv.fr</a>
+                </p>
+              </>
+            ) : (
+              <>
+                <p>
+                  Food hygiene is at the heart of food truck regulations. European regulation (EC) No 852/2004 and French decree No 2011-731 impose strict obligations regarding training and hygiene practices.
+                </p>
+                <h3>Mandatory HACCP training</h3>
+                <ul>
+                  <li><strong>At least one person</strong> in the establishment must have completed a food hygiene training course of <strong>minimum 14 hours</strong>.</li>
+                  <li>Training is delivered by organizations registered with the DRAAF (Regional Directorate for Food, Agriculture and Forestry).</li>
+                  <li>Average cost: <strong>€200 to €500</strong> depending on the provider and format (in-person or online).</li>
+                  <li>Exemptions apply for holders of a catering diploma (CAP, BEP, Bac Pro) or 3 years of experience managing a food establishment.</li>
+                </ul>
+                <h3>Sanitary Control Plan (PMS)</h3>
+                <p>
+                  The PMS is a mandatory document describing the measures taken to ensure food safety. It includes:
+                </p>
+                <ul>
+                  <li>Good hygiene practices (GHP) and good manufacturing practices (GMP).</li>
+                  <li>The HACCP plan with hazard analysis and critical control points.</li>
+                  <li>The cleaning and disinfection schedule.</li>
+                  <li>Raw material traceability management.</li>
+                  <li>Temperature logs (fridges, cooking, service).</li>
+                </ul>
+                <h3>DDPP inspections</h3>
+                <p>
+                  The Departmental Directorate for Consumer Affairs (DDPP) can carry out unannounced inspections. In case of serious non-compliance, you risk temporary administrative closure, fines, or even criminal prosecution. Keep your records up to date and your PMS accessible in the vehicle.
+                </p>
+                <p>
+                  To automate stock tracking and traceability, discover{' '}
+                  <Link href={`/${locale}/fonctionnalites/gestion-stock`} style={{ color: ORANGE }}>
+                    FoodTracks inventory management
+                  </Link>.
+                </p>
+                <p className="text-sm text-gray-500">
+                  Source: <a href="https://agriculture.gouv.fr/la-formation-obligatoire-en-hygiene-alimentaire" target="_blank" rel="noopener noreferrer" style={{ color: ORANGE }}>agriculture.gouv.fr</a>
+                </p>
+              </>
+            )}
+          </div>
+        </section>
 
         {/* ══════════════════════════════════════
-            SOURCES OFFICIELLES
+            SECTION 4 — ASSURANCES
             ══════════════════════════════════════ */}
-        <section className="py-16" style={{ backgroundColor: '#FAFAF8' }}>
-          <div className="container mx-auto px-5 sm:px-8 lg:px-16">
-            <div className="max-w-4xl mx-auto">
-              <h2 className="font-jakarta text-2xl md:text-3xl font-bold text-gray-900 mb-8 text-center">
-                {isFr ? 'Sources officielles' : 'Official sources'}
+        <section
+          className="py-14 relative"
+          style={{ backgroundColor: '#FAFAF8' }}
+        >
+          <div className="container mx-auto px-4 max-w-4xl">
+            <h2
+              id="assurances"
+              className="font-jakarta text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3"
+            >
+              <span
+                className="flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center text-white font-extrabold"
+                style={{ backgroundColor: '#8B5CF6' }}
+              >
+                4
+              </span>
+              {isFr ? 'Assurances obligatoires' : 'Mandatory insurance'}
+            </h2>
+
+            <div className="prose prose-lg prose-gray max-w-none prose-headings:font-bold prose-headings:text-gray-900 prose-p:text-gray-700 prose-li:text-gray-700 prose-strong:text-gray-900">
+              {isFr ? (
+                <>
+                  <p>
+                    Les assurances sont un pilier de la protection de votre activité food truck. Certaines sont légalement obligatoires, d&apos;autres fortement recommandées pour couvrir les risques spécifiques à la restauration ambulante.
+                  </p>
+                  <h3>Assurances obligatoires</h3>
+                  <ul>
+                    <li><strong>Responsabilité Civile Professionnelle (RC Pro)</strong> : couvre les dommages corporels, matériels ou immatériels causés à des tiers dans le cadre de votre activité (intoxication alimentaire, brûlure d&apos;un client, dégât sur un emplacement). Coût moyen : 400 à 800 €/an.</li>
+                    <li><strong>Assurance véhicule professionnel</strong> : au minimum au tiers pour la circulation. Optez pour une formule tous risques incluant le contenu (équipement de cuisine, stock). Coût moyen : 800 à 2 000 €/an selon le véhicule.</li>
+                  </ul>
+                  <h3>Assurances recommandées</h3>
+                  <ul>
+                    <li><strong>Multirisque professionnelle</strong> : couvre vol, incendie, bris de matériel, dégâts des eaux, perte d&apos;exploitation. Indispensable pour protéger votre investissement.</li>
+                    <li><strong>Protection juridique</strong> : prend en charge les frais de justice en cas de litige avec un client, un fournisseur ou une collectivité.</li>
+                    <li><strong>Prévoyance et mutuelle TNS</strong> : si vous êtes travailleur non salarié, pensez à une couverture complémentaire santé et prévoyance.</li>
+                  </ul>
+                  <p>
+                    Intégrez le coût de vos assurances dans votre calcul de charges fixes. Notre{' '}
+                    <Link href={`/${locale}/guides/seuil-rentabilite-food-truck`} style={{ color: ORANGE }}>
+                      calculateur de seuil de rentabilité
+                    </Link>{' '}
+                    vous aide à déterminer le CA nécessaire pour couvrir l&apos;ensemble de vos charges.
+                  </p>
+                  <p className="text-sm text-gray-500">
+                    Source : <a href="https://www.service-public.fr/professionnels-entreprises/vosdroits/F23668" target="_blank" rel="noopener noreferrer" style={{ color: ORANGE }}>service-public.fr</a>
+                  </p>
+                </>
+              ) : (
+                <>
+                  <p>
+                    Insurance is a cornerstone of protecting your food truck business. Some policies are legally mandatory, others strongly recommended to cover risks specific to mobile catering.
+                  </p>
+                  <h3>Mandatory insurance</h3>
+                  <ul>
+                    <li><strong>Professional Liability Insurance (RC Pro)</strong>: covers bodily, material or immaterial damage caused to third parties during your business (food poisoning, customer burns, damage at a pitch). Average cost: €400–800/year.</li>
+                    <li><strong>Professional vehicle insurance</strong>: minimum third-party cover for driving. Opt for comprehensive cover including contents (kitchen equipment, stock). Average cost: €800–2,000/year depending on the vehicle.</li>
+                  </ul>
+                  <h3>Recommended insurance</h3>
+                  <ul>
+                    <li><strong>Multi-risk professional insurance</strong>: covers theft, fire, equipment damage, water damage, loss of business. Essential to protect your investment.</li>
+                    <li><strong>Legal protection</strong>: covers legal costs in case of disputes with a customer, supplier or municipality.</li>
+                    <li><strong>Health and disability cover (TNS)</strong>: if you are self-employed, consider complementary health and disability insurance.</li>
+                  </ul>
+                  <p>
+                    Include insurance costs in your fixed charges calculation. Our{' '}
+                    <Link href={`/${locale}/guides/seuil-rentabilite-food-truck`} style={{ color: ORANGE }}>
+                      break-even calculator
+                    </Link>{' '}
+                    helps you determine the revenue needed to cover all your costs.
+                  </p>
+                  <p className="text-sm text-gray-500">
+                    Source: <a href="https://www.service-public.fr/professionnels-entreprises/vosdroits/F23668" target="_blank" rel="noopener noreferrer" style={{ color: ORANGE }}>service-public.fr</a>
+                  </p>
+                </>
+              )}
+            </div>
+          </div>
+        </section>
+
+        {/* ══════════════════════════════════════
+            SECTION 5 — TVA
+            ══════════════════════════════════════ */}
+        <section className="container mx-auto px-4 py-14 max-w-4xl">
+          <h2
+            id="tva-fiscalite"
+            className="font-jakarta text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3"
+          >
+            <span
+              className="flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center text-white font-extrabold"
+              style={{ backgroundColor: '#EF4444' }}
+            >
+              5
+            </span>
+            {isFr ? 'TVA et obligations fiscales' : 'VAT & tax obligations'}
+          </h2>
+
+          <div className="prose prose-lg prose-gray max-w-none prose-headings:font-bold prose-headings:text-gray-900 prose-p:text-gray-700 prose-li:text-gray-700 prose-strong:text-gray-900">
+            {isFr ? (
+              <>
+                <p>
+                  La fiscalité d&apos;un food truck comporte plusieurs particularités, notamment en matière de TVA. Le taux applicable dépend du type de produit vendu et de la nature de la vente.
+                </p>
+                <h3>Franchise en base de TVA</h3>
+                <p>
+                  En micro-entreprise, vous bénéficiez de la franchise en base de TVA tant que votre CA ne dépasse pas <strong>91 900 €</strong> (seuil 2026 pour les activités de vente). Vous ne facturez pas de TVA et ne la récupérez pas sur vos achats. Au-delà de ce seuil, vous devenez redevable de la TVA.
+                </p>
+                <h3>Taux de TVA applicables</h3>
+                <ul>
+                  <li><strong>10 % (taux intermédiaire)</strong> : restauration sur place et vente à emporter de plats préparés destinés à une consommation immédiate (burgers, sandwichs, plats chauds, salades composées).</li>
+                  <li><strong>5,5 % (taux réduit)</strong> : produits alimentaires non préparés ou conditionnés pour une conservation (boissons non alcoolisées en bouteille, desserts emballés, conserves).</li>
+                  <li><strong>20 % (taux normal)</strong> : boissons alcoolisées, confiseries, certains produits à base de chocolat.</li>
+                </ul>
+                <h3>Obligations déclaratives</h3>
+                <ul>
+                  <li><strong>Micro-entreprise</strong> : déclaration mensuelle ou trimestrielle du CA sur autoentrepreneur.urssaf.fr.</li>
+                  <li><strong>Société</strong> : déclaration de TVA mensuelle ou trimestrielle (CA3 ou CA12), liasse fiscale annuelle.</li>
+                  <li><strong>Livre de recettes</strong> : obligatoire pour les micro-entrepreneurs, il consigne chronologiquement toutes les recettes encaissées.</li>
+                  <li><strong>Registre des achats</strong> : obligatoire pour les activités de vente, il détaille tous les achats de marchandises.</li>
+                </ul>
+                <p>
+                  FoodTracks simplifie votre suivi fiscal en important automatiquement vos ventes SumUp et en{' '}
+                  <Link href={`/${locale}/fonctionnalites/scan-factures`} style={{ color: ORANGE }}>
+                    scannant vos factures fournisseurs
+                  </Link>
+                  . Vos données de CA et de coûts matières sont toujours à jour pour vos déclarations.
+                </p>
+                <p className="text-sm text-gray-500">
+                  Source : <a href="https://www.impots.gouv.fr/professionnel/questions/quels-sont-les-taux-de-tva-en-vigueur-en-france-et-dans-lunion-europeenne" target="_blank" rel="noopener noreferrer" style={{ color: ORANGE }}>impots.gouv.fr</a>
+                </p>
+              </>
+            ) : (
+              <>
+                <p>
+                  Food truck taxation has several specificities, particularly regarding VAT. The applicable rate depends on the type of product sold and the nature of the sale.
+                </p>
+                <h3>VAT exemption (franchise en base)</h3>
+                <p>
+                  Under micro-enterprise status, you benefit from VAT exemption as long as your revenue does not exceed <strong>€91,900</strong> (2026 threshold for sales activities). You do not charge VAT and cannot reclaim it on purchases. Beyond this threshold, you become liable for VAT.
+                </p>
+                <h3>Applicable VAT rates</h3>
+                <ul>
+                  <li><strong>10% (intermediate rate)</strong>: on-site dining and takeaway of prepared meals intended for immediate consumption (burgers, sandwiches, hot dishes, composed salads).</li>
+                  <li><strong>5.5% (reduced rate)</strong>: unprepared or packaged food products for storage (bottled non-alcoholic beverages, packaged desserts, canned goods).</li>
+                  <li><strong>20% (standard rate)</strong>: alcoholic beverages, confectionery, certain chocolate-based products.</li>
+                </ul>
+                <h3>Reporting obligations</h3>
+                <ul>
+                  <li><strong>Micro-enterprise</strong>: monthly or quarterly revenue declaration on autoentrepreneur.urssaf.fr.</li>
+                  <li><strong>Company</strong>: monthly or quarterly VAT return (CA3 or CA12), annual tax return.</li>
+                  <li><strong>Revenue ledger</strong>: mandatory for micro-entrepreneurs, recording all receipts chronologically.</li>
+                  <li><strong>Purchase register</strong>: mandatory for sales activities, detailing all goods purchases.</li>
+                </ul>
+                <p>
+                  FoodTracks simplifies tax tracking by automatically importing your SumUp sales and{' '}
+                  <Link href={`/${locale}/fonctionnalites/scan-factures`} style={{ color: ORANGE }}>
+                    scanning your supplier invoices
+                  </Link>
+                  . Your revenue and ingredient cost data are always up to date for your filings.
+                </p>
+                <p className="text-sm text-gray-500">
+                  Source: <a href="https://www.impots.gouv.fr/professionnel/questions/quels-sont-les-taux-de-tva-en-vigueur-en-france-et-dans-lunion-europeenne" target="_blank" rel="noopener noreferrer" style={{ color: ORANGE }}>impots.gouv.fr</a>
+                </p>
+              </>
+            )}
+          </div>
+        </section>
+
+        {/* ══════════════════════════════════════
+            SECTION 6 — EMPLACEMENTS
+            ══════════════════════════════════════ */}
+        <section
+          className="py-14 relative"
+          style={{ backgroundColor: '#FAFAF8' }}
+        >
+          <div className="container mx-auto px-4 max-w-4xl">
+            <h2
+              id="autorisations-emplacement"
+              className="font-jakarta text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3"
+            >
+              <span
+                className="flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center text-white font-extrabold"
+                style={{ backgroundColor: GREEN }}
+              >
+                6
+              </span>
+              {isFr ? 'Autorisations d\'emplacement' : 'Location permits'}
+            </h2>
+
+            <div className="prose prose-lg prose-gray max-w-none prose-headings:font-bold prose-headings:text-gray-900 prose-p:text-gray-700 prose-li:text-gray-700 prose-strong:text-gray-900">
+              {isFr ? (
+                <>
+                  <p>
+                    Stationner un food truck sur la voie publique ou un terrain privé nécessite des autorisations spécifiques. Les règles varient d&apos;une commune à l&apos;autre, ce qui rend la veille réglementaire indispensable.
+                  </p>
+                  <h3>Sur le domaine public</h3>
+                  <ul>
+                    <li><strong>Permission de voirie</strong> : autorisation délivrée par la mairie pour occuper une portion de la voie publique avec un véhicule. Elle précise l&apos;emplacement exact, les horaires et la durée.</li>
+                    <li><strong>AOT (Autorisation d&apos;Occupation Temporaire)</strong> : titre administratif plus formel, souvent exigé pour des emplacements réguliers. Renouvelable et révocable par l&apos;administration.</li>
+                    <li><strong>Redevance d&apos;occupation</strong> : tarif variable selon les communes, de 5 à 30 €/jour en moyenne. Certaines mairies proposent des forfaits mensuels ou annuels.</li>
+                  </ul>
+                  <h3>Sur les marchés</h3>
+                  <ul>
+                    <li>Inscription auprès du <strong>placier municipal</strong> qui attribue les emplacements.</li>
+                    <li>Distinction entre <strong>abonnés</strong> (emplacement fixe garanti) et <strong>volants</strong> (emplacement attribué en fonction des disponibilités).</li>
+                    <li>Droits de place variables : de 10 à 50 €/marché selon la taille et la localisation.</li>
+                  </ul>
+                  <h3>Sur terrain privé</h3>
+                  <ul>
+                    <li><strong>Accord écrit du propriétaire</strong> : convention ou bail précisant les conditions (durée, redevance, obligations).</li>
+                    <li>Vérifiez que le terrain est compatible avec une activité de restauration (accès eau, électricité, respect du PLU).</li>
+                  </ul>
+                  <p>
+                    Chaque commune a ses propres règles. Renseignez-vous toujours auprès du service urbanisme ou du service des marchés de la mairie concernée avant de vous installer.
+                  </p>
+                  <p className="text-sm text-gray-500">
+                    Source : <a href="https://www.service-public.fr/professionnels-entreprises/vosdroits/F32276" target="_blank" rel="noopener noreferrer" style={{ color: ORANGE }}>service-public.fr</a>
+                  </p>
+                </>
+              ) : (
+                <>
+                  <p>
+                    Parking a food truck on public roads or private land requires specific authorizations. Rules vary from one municipality to another, making regulatory monitoring essential.
+                  </p>
+                  <h3>On public land</h3>
+                  <ul>
+                    <li><strong>Permission de voirie (road permit)</strong>: authorization issued by the municipality to occupy a portion of the public road with a vehicle. It specifies the exact location, hours and duration.</li>
+                    <li><strong>AOT (Temporary Occupation Authorization)</strong>: a more formal administrative title, often required for regular pitches. Renewable and revocable by the administration.</li>
+                    <li><strong>Occupation fee</strong>: variable rate depending on municipality, averaging €5–30/day. Some town halls offer monthly or annual packages.</li>
+                  </ul>
+                  <h3>At markets</h3>
+                  <ul>
+                    <li>Register with the <strong>municipal market manager (placier)</strong> who allocates pitches.</li>
+                    <li>Distinction between <strong>subscribers</strong> (guaranteed fixed pitch) and <strong>non-subscribers</strong> (pitch allocated based on availability).</li>
+                    <li>Pitch fees vary: €10–50/market depending on size and location.</li>
+                  </ul>
+                  <h3>On private land</h3>
+                  <ul>
+                    <li><strong>Written agreement from the owner</strong>: contract or lease specifying conditions (duration, fee, obligations).</li>
+                    <li>Verify that the land is compatible with food service (water access, electricity, compliance with local planning rules).</li>
+                  </ul>
+                  <p>
+                    Each municipality has its own rules. Always check with the urban planning department or market services of the relevant town hall before setting up.
+                  </p>
+                  <p className="text-sm text-gray-500">
+                    Source: <a href="https://www.service-public.fr/professionnels-entreprises/vosdroits/F32276" target="_blank" rel="noopener noreferrer" style={{ color: ORANGE }}>service-public.fr</a>
+                  </p>
+                </>
+              )}
+            </div>
+          </div>
+        </section>
+
+        {/* ══════════════════════════════════════
+            SECTION 7 — NORMES VEHICULE
+            ══════════════════════════════════════ */}
+        <section className="container mx-auto px-4 py-14 max-w-4xl">
+          <h2
+            id="normes-vehicule"
+            className="font-jakarta text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3"
+          >
+            <span
+              className="flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center text-white font-extrabold"
+              style={{ backgroundColor: '#06B6D4' }}
+            >
+              7
+            </span>
+            {isFr ? 'Normes véhicule et sécurité' : 'Vehicle & safety standards'}
+          </h2>
+
+          <div className="prose prose-lg prose-gray max-w-none prose-headings:font-bold prose-headings:text-gray-900 prose-p:text-gray-700 prose-li:text-gray-700 prose-strong:text-gray-900">
+            {isFr ? (
+              <>
+                <p>
+                  Votre food truck est à la fois un véhicule de transport et un local de restauration. Il doit donc répondre à un double ensemble de normes : celles du Code de la route et celles relatives à la sécurité des installations de cuisine.
+                </p>
+                <h3>Contrôle technique</h3>
+                <ul>
+                  <li><strong>Périodicité</strong> : tous les 2 ans pour les véhicules utilitaires légers (&lt; 3,5 t). Annuel pour les poids lourds (&gt; 3,5 t).</li>
+                  <li>Le contrôle est effectué dans un centre agréé UTAC-OTC.</li>
+                  <li>En cas de contre-visite, vous avez 2 mois pour effectuer les réparations et repasser le contrôle.</li>
+                </ul>
+                <h3>Installation gaz</h3>
+                <ul>
+                  <li>L&apos;installation gaz doit être <strong>conforme aux normes NF</strong> et vérifiée annuellement par un professionnel qualifié.</li>
+                  <li>Les tuyaux souples doivent être remplacés avant leur date de péremption.</li>
+                  <li>Un détecteur de gaz et un robinet d&apos;arrêt d&apos;urgence sont obligatoires.</li>
+                </ul>
+                <h3>Sécurité incendie</h3>
+                <ul>
+                  <li><strong>Extincteur</strong> : au minimum un extincteur à poudre ABC de 6 kg, accessible et vérifié annuellement.</li>
+                  <li>Une <strong>couverture anti-feu</strong> est recommandée à proximité des zones de cuisson.</li>
+                </ul>
+                <h3>Ventilation et extraction</h3>
+                <ul>
+                  <li>Un système de ventilation mécanique est obligatoire pour évacuer fumées, vapeurs et odeurs.</li>
+                  <li>La hotte d&apos;extraction doit être nettoyée régulièrement (au minimum tous les 3 mois).</li>
+                </ul>
+                <h3>Raccordement électrique</h3>
+                <ul>
+                  <li>L&apos;installation électrique doit être conforme à la norme <strong>NF C 15-100</strong>.</li>
+                  <li>Un différentiel 30 mA est obligatoire pour protéger contre les risques d&apos;électrocution.</li>
+                  <li>Si vous utilisez un groupe électrogène, il doit être placé à l&apos;extérieur du véhicule et correctement ventilé.</li>
+                </ul>
+                <p>
+                  Pour en savoir plus sur la gestion globale de votre food truck, consultez notre{' '}
+                  <Link href={`/${locale}/guides/gestion-food-truck`} style={{ color: ORANGE }}>
+                    guide complet de la gestion food truck
+                  </Link>.
+                </p>
+                <p className="text-sm text-gray-500">
+                  Source : <a href="https://www.ecologie.gouv.fr/controle-technique-des-vehicules" target="_blank" rel="noopener noreferrer" style={{ color: ORANGE }}>DREAL / ecologie.gouv.fr</a>
+                </p>
+              </>
+            ) : (
+              <>
+                <p>
+                  Your food truck is both a transport vehicle and a food service premises. It must therefore meet a dual set of standards: road traffic regulations and kitchen installation safety requirements.
+                </p>
+                <h3>Technical inspection</h3>
+                <ul>
+                  <li><strong>Frequency</strong>: every 2 years for light commercial vehicles (&lt; 3.5 t). Annual for heavy goods vehicles (&gt; 3.5 t).</li>
+                  <li>Inspection is carried out at an UTAC-OTC approved center.</li>
+                  <li>If a re-test is required, you have 2 months to make repairs and re-pass the inspection.</li>
+                </ul>
+                <h3>Gas installation</h3>
+                <ul>
+                  <li>The gas installation must be <strong>compliant with NF standards</strong> and checked annually by a qualified professional.</li>
+                  <li>Flexible hoses must be replaced before their expiry date.</li>
+                  <li>A gas detector and emergency shut-off valve are mandatory.</li>
+                </ul>
+                <h3>Fire safety</h3>
+                <ul>
+                  <li><strong>Fire extinguisher</strong>: at minimum one 6 kg ABC powder extinguisher, accessible and inspected annually.</li>
+                  <li>A <strong>fire blanket</strong> is recommended near cooking areas.</li>
+                </ul>
+                <h3>Ventilation and extraction</h3>
+                <ul>
+                  <li>A mechanical ventilation system is mandatory to evacuate smoke, steam and odors.</li>
+                  <li>The extraction hood must be cleaned regularly (at least every 3 months).</li>
+                </ul>
+                <h3>Electrical connection</h3>
+                <ul>
+                  <li>The electrical installation must comply with <strong>NF C 15-100</strong> standards.</li>
+                  <li>A 30 mA residual current device is mandatory to protect against electrocution.</li>
+                  <li>If using a generator, it must be placed outside the vehicle and properly ventilated.</li>
+                </ul>
+                <p>
+                  To learn more about overall food truck management, see our{' '}
+                  <Link href={`/${locale}/guides/gestion-food-truck`} style={{ color: ORANGE }}>
+                    complete food truck management guide
+                  </Link>.
+                </p>
+                <p className="text-sm text-gray-500">
+                  Source: <a href="https://www.ecologie.gouv.fr/controle-technique-des-vehicules" target="_blank" rel="noopener noreferrer" style={{ color: ORANGE }}>DREAL / ecologie.gouv.fr</a>
+                </p>
+              </>
+            )}
+          </div>
+        </section>
+
+        {/* ══════════════════════════════════════
+            PILLAR GRID (CTA CARDS)
+            ══════════════════════════════════════ */}
+        <section
+          className="py-16 relative"
+          style={{ backgroundColor: DARK }}
+        >
+          <div className="absolute inset-0 bg-dot-grid pointer-events-none opacity-20" />
+          <div className="container relative mx-auto px-5 sm:px-8 lg:px-16 max-w-5xl">
+            <div className="text-center mb-14">
+              <h2
+                className="font-jakarta text-3xl md:text-4xl font-bold text-white mb-4"
+              >
+                {isFr ? 'Outils pour gérer votre food truck en règle' : 'Tools to manage your food truck compliantly'}
               </h2>
-              <div className="grid sm:grid-cols-2 gap-4">
-                {officialSources.map((source, i) => (
-                  <a
-                    key={i}
-                    href={source.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center gap-3 p-5 rounded-xl bg-white transition-all hover:shadow-md group"
-                    style={{ border: '1px solid #EDEBE8' }}
+              <p className="text-lg" style={{ color: '#9CA3AF' }}>
+                {isFr
+                  ? 'Les outils essentiels pour automatiser votre gestion et rester conforme'
+                  : 'Essential tools to automate your management and stay compliant'}
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-3 gap-6">
+              {pillars.map((pillar, idx) => (
+                <Link
+                  key={idx}
+                  href={pillar.href}
+                  className="group rounded-2xl p-7 space-y-4 transition-all hover:scale-[1.02]"
+                  style={{
+                    backgroundColor: 'rgba(255,255,255,0.04)',
+                    border: '1px solid rgba(255,255,255,0.08)',
+                  }}
+                >
+                  <div
+                    className="p-3 rounded-xl w-fit"
+                    style={{ backgroundColor: `${pillar.color}18`, border: `1px solid ${pillar.color}30` }}
                   >
-                    <div className="p-2 rounded-lg shrink-0" style={{ backgroundColor: 'rgba(249,115,22,0.08)' }}>
-                      <FileText className="h-5 w-5" style={{ color: ORANGE }} />
-                    </div>
-                    <span className="text-sm font-medium text-gray-700 group-hover:text-orange-600 transition-colors">
-                      {source.name}
-                    </span>
-                    <ArrowRight className="h-4 w-4 ml-auto text-gray-400 group-hover:text-orange-500 group-hover:translate-x-1 transition-all" />
-                  </a>
-                ))}
-              </div>
+                    {pillar.icon}
+                  </div>
+                  <h3 className="font-jakarta text-lg font-bold text-white">{pillar.title}</h3>
+                  <p className="text-sm leading-relaxed" style={{ color: '#6B7280' }}>
+                    {pillar.desc}
+                  </p>
+                  <span
+                    className="inline-flex items-center gap-1.5 text-sm font-semibold"
+                    style={{ color: pillar.color }}
+                  >
+                    {pillar.cta}
+                    <ArrowRight className="h-3.5 w-3.5 group-hover:translate-x-1 transition-transform" />
+                  </span>
+                </Link>
+              ))}
             </div>
           </div>
         </section>
@@ -655,17 +1177,17 @@ export default async function ReglementationFrancePage({
         {/* ══════════════════════════════════════
             INTERNAL LINKS
             ══════════════════════════════════════ */}
-        <section className="py-10 bg-white">
+        <section className="py-10" style={{ backgroundColor: '#FAFAF8' }}>
           <div className="container mx-auto px-4 max-w-4xl">
             <p className="text-sm text-gray-400 mb-4 text-center">
               {isFr ? 'Aller plus loin' : 'Go further'}
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <Link
-                href={`/${locale}/guides/seuil-rentabilite-food-truck`}
+                href={`/${locale}/guides/gestion-food-truck`}
                 className="text-sm font-medium text-orange-600 hover:text-orange-700 underline underline-offset-4"
               >
-                {isFr ? 'Calculateur seuil de rentabilité' : 'Break-even calculator'}
+                {isFr ? 'Guide complet gestion food truck' : 'Complete food truck management guide'}
               </Link>
               <Link
                 href={`/${locale}/fonctionnalites/gestion-stock`}
@@ -686,22 +1208,10 @@ export default async function ReglementationFrancePage({
                 {isFr ? 'Scan de factures OCR' : 'OCR invoice scanning'}
               </Link>
               <Link
-                href={`/${locale}/ville/paris`}
+                href={`/${locale}/guides/seuil-rentabilite-food-truck`}
                 className="text-sm font-medium text-orange-600 hover:text-orange-700 underline underline-offset-4"
               >
-                {isFr ? 'Food truck Paris' : 'Food truck Paris'}
-              </Link>
-              <Link
-                href={`/${locale}/ville/lyon`}
-                className="text-sm font-medium text-orange-600 hover:text-orange-700 underline underline-offset-4"
-              >
-                {isFr ? 'Food truck Lyon' : 'Food truck Lyon'}
-              </Link>
-              <Link
-                href={`/${locale}/ville/bordeaux`}
-                className="text-sm font-medium text-orange-600 hover:text-orange-700 underline underline-offset-4"
-              >
-                {isFr ? 'Food truck Bordeaux' : 'Food truck Bordeaux'}
+                {isFr ? 'Calculateur seuil de rentabilité' : 'Break-even calculator'}
               </Link>
             </div>
           </div>
@@ -746,8 +1256,8 @@ export default async function ReglementationFrancePage({
             </h2>
             <p className="text-xl" style={{ color: '#8B8B8B' }}>
               {isFr
-                ? 'FoodTracks vous aide à respecter les normes : traçabilité automatique, suivi HACCP, gestion de stock conforme. Gratuit, sans carte bancaire.'
-                : 'FoodTracks helps you stay compliant: automatic traceability, HACCP tracking, compliant stock management. Free, no credit card.'}
+                ? 'FoodTracks automatise votre gestion de stock, vos prévisions et votre comptabilité. Restez en règle sans effort. Gratuit, sans carte bancaire.'
+                : 'FoodTracks automates your inventory management, forecasting and accounting. Stay compliant effortlessly. Free, no credit card.'}
             </p>
             <div className="flex flex-col items-center gap-4">
               <Link href={`/${locale}/register`}>
@@ -769,7 +1279,7 @@ export default async function ReglementationFrancePage({
             {/* Internal links in CTA */}
             <div className="mt-10 pt-8 border-t text-left" style={{ borderColor: 'rgba(255,255,255,0.08)' }}>
               <p className="text-sm font-semibold mb-4" style={{ color: '#9CA3AF' }}>
-                {isFr ? 'Guides liés' : 'Related guides'}
+                {isFr ? 'Articles liés' : 'Related guides'}
               </p>
               <ul className="space-y-2">
                 {[
@@ -780,22 +1290,22 @@ export default async function ReglementationFrancePage({
                       : '→ Complete food truck management guide',
                   },
                   {
-                    href: `/${locale}/guides/seuil-rentabilite-food-truck`,
-                    label: isFr
-                      ? '→ Calculateur seuil de rentabilité food truck'
-                      : '→ Food truck break-even calculator',
-                  },
-                  {
                     href: `/${locale}/fonctionnalites/gestion-stock`,
                     label: isFr
                       ? '→ Gestion de stock food truck en temps réel'
                       : '→ Real-time food truck stock management',
                   },
                   {
-                    href: `/${locale}/fonctionnalites/scan-factures`,
+                    href: `/${locale}/fonctionnalites/predictions-ventes`,
                     label: isFr
-                      ? '→ Scan de factures fournisseurs (OCR)'
-                      : '→ Supplier invoice scanning (OCR)',
+                      ? '→ Prédictions de ventes IA pour food trucks'
+                      : '→ AI sales predictions for food trucks',
+                  },
+                  {
+                    href: `/${locale}/guides/seuil-rentabilite-food-truck`,
+                    label: isFr
+                      ? '→ Calculateur seuil de rentabilité food truck'
+                      : '→ Food truck break-even calculator',
                   },
                 ].map((link, i) => (
                   <li key={i}>
