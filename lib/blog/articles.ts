@@ -12,6 +12,8 @@ export interface BlogArticle {
   keyTakeaways?: { fr: string[]; en: string[] };
   /** Per-article FAQ for rich snippets + AI citation (GEO) */
   faqItems?: { question: { fr: string; en: string }; answer: { fr: string; en: string } }[];
+  /** Slugs of related articles (same category/theme) for internal linking */
+  relatedSlugs?: string[];
 }
 
 export const blogArticles: BlogArticle[] = [
@@ -52,7 +54,7 @@ La première étape est de **mesurer précisément** ce que vous consommez par s
 - La quantité jetée (gaspillage)
 - Les ruptures de stock rencontrées
 
-Après quelques semaines, vous aurez une base solide pour vos commandes. Avec un outil comme **FoodTracks**, cette analyse se fait automatiquement grâce au scan de vos factures et au suivi de vos ventes via SumUp.
+Après quelques semaines, vous aurez une base solide pour vos commandes. Avec un outil comme **FoodTracks**, cette analyse se fait automatiquement grâce au [scan de vos factures](/fr/blog/scanner-factures-food-truck-gagner-temps) et au suivi de vos ventes via SumUp.
 
 ### 2. Adapter vos commandes à votre planning
 
@@ -85,7 +87,7 @@ Les données sont votre meilleur allié. En croisant :
 - La météo prévue
 - Le type d'événement
 
-Vous pouvez **prédire avec précision** vos besoins pour chaque service. C'est exactement ce que fait le module de prédictions de FoodTracks.
+Vous pouvez **prédire avec précision** vos besoins pour chaque service. C'est exactement ce que fait le module de prédictions de FoodTracks. Pour aller plus loin, lisez notre guide sur les [prédictions de vente par IA pour food trucks](/fr/blog/prediction-vente-food-truck-ia).
 
 ## Les erreurs les plus courantes
 
@@ -124,7 +126,9 @@ Nos utilisateurs constatent en moyenne :
 
 La gestion des stocks en food truck n'est pas une science exacte, mais avec les bons outils et les bonnes habitudes, vous pouvez transformer cette contrainte en avantage compétitif. **Commencez par mesurer, puis optimisez progressivement.**
 
-[Essayez FoodTracks gratuitement](https://foodtracks.io/fr/pricing) et prenez le contrôle de vos stocks dès aujourd'hui.`,
+[Essayez FoodTracks gratuitement](https://foodtracks.io/fr/pricing) et prenez le contrôle de vos stocks dès aujourd'hui.
+
+**À lire aussi :** [Comment réduire le gaspillage alimentaire dans votre food truck](/fr/blog/reduire-gaspillage-alimentaire-food-truck) · [Quel logiciel de gestion choisir ?](/fr/blog/logiciel-gestion-food-truck)`,
       en: `## Why Inventory Management is Crucial for Food Trucks
 
 Inventory management is the backbone of any food truck operation. Unlike a traditional restaurant, you work with limited storage, perishable products, and variable demand depending on locations. **Poor management can reduce your margins by 15 to 30%.**
@@ -193,6 +197,11 @@ FoodTracks is designed specifically for food truck operators, with automatic inv
         question: { fr: "Quelle est la meilleure méthode de gestion de stock pour un food truck ?", en: "What is the best inventory management method for a food truck?" },
         answer: { fr: "La combinaison FIFO + prédictions IA + scan de factures est la plus efficace. Cela permet de réduire le gaspillage de 40% en moyenne.", en: "The combination of FIFO + AI predictions + invoice scanning is most effective. This reduces waste by 40% on average." },
       },
+    ],
+    relatedSlugs: [
+      "reduire-gaspillage-food-truck-guide",
+      "logiciel-gestion-stock-food-truck",
+      "scanner-factures-food-truck-gagner-temps",
     ],
   },
   {
@@ -281,7 +290,9 @@ Si vous répondez "trop" à la première et "non" aux deux dernières, il est te
 
 En 2025, un logiciel de gestion n'est plus optionnel pour un food truck qui veut croître. **FoodTracks** se distingue par sa spécialisation food truck, son IA intégrée et son prix accessible.
 
-[Testez FoodTracks gratuitement →](https://foodtracks.io/fr/pricing)`,
+[Testez FoodTracks gratuitement →](https://foodtracks.io/fr/pricing)
+
+**À lire aussi :** [Comment gérer le stock de son food truck](/fr/blog/comment-gerer-stock-food-truck) · [Connecter SumUp pour le suivi des ventes](/fr/blog/connecter-sumup-food-truck-suivi-ventes) · [Logiciel gestion stock food truck : notre guide](/fr/blog/logiciel-gestion-stock-food-truck)`,
       en: `## Why Management Software is Essential for Food Trucks
 
 Running a food truck without dedicated tools is like driving without GPS. You can manage, but you waste time, money, and energy. In 2025, digital tools aren't a luxury — they're a necessity to stay competitive.
@@ -399,7 +410,9 @@ Si vous avez des employés, formez-les aux bonnes pratiques. Le gaspillage est s
 
 Réduire le gaspillage n'est pas qu'un geste écologique — c'est un levier de **rentabilité majeur**. Avec les bons outils et les bonnes habitudes, vous pouvez diviser vos pertes par 4.
 
-[Commencez à réduire vos pertes avec FoodTracks →](https://foodtracks.io/fr/pricing)`,
+[Commencez à réduire vos pertes avec FoodTracks →](https://foodtracks.io/fr/pricing)
+
+**À lire aussi :** [Guide complet de la gestion de stock food truck](/fr/blog/comment-gerer-stock-food-truck) · [Comment les prédictions IA optimisent vos commandes](/fr/blog/prediction-vente-food-truck-ia)`,
       en: `## Food Waste: A Silent Problem for Food Trucks
 
 In the restaurant industry, an average of **14% of purchased food is thrown away**. For a food truck spending €2,000 on raw materials monthly, that's **€280 in the bin**. Over a year: more than €3,300 in avoidable losses.
@@ -725,6 +738,11 @@ Key levers include knowing your true food cost (target under 30%), optimizing lo
         answer: { fr: "Un food truck bien géré vise une marge brute de 65-75% et une marge nette de 15-25%. Le coût matière (food cost) doit rester sous 30% du prix de vente. Le CA moyen d'un food truck en France est de 150 000 à 250 000€/an.", en: "A well-managed food truck targets 65-75% gross margin and 15-25% net margin. Food cost should stay under 30%. Average food truck revenue in France is €150,000-€250,000/year." },
       },
     ],
+    relatedSlugs: [
+      "5-erreurs-rentabilite-food-truck",
+      "optimiser-marges-food-truck-analyse-donnees",
+      "fixer-prix-menu-food-truck",
+    ],
   },
   {
     slug: "reglementation-food-truck-france",
@@ -879,6 +897,11 @@ FoodTracks helps you stay compliant by automating traceability, invoice archivin
         answer: { fr: "Un food truck doit respecter le plan HACCP, avoir un point d'eau potable, des surfaces en inox, une chambre froide ou réfrigérateur aux normes, et afficher les allergènes. La traçabilité des produits est obligatoire.", en: "A food truck must follow HACCP, have potable water, stainless steel surfaces, regulation refrigeration, and display allergens. Product traceability is mandatory." },
       },
     ],
+    relatedSlugs: [
+      "hygiene-haccp-food-truck",
+      "ouvrir-food-truck-guide-complet",
+      "comptabilite-food-truck-guide",
+    ],
   },
   {
     slug: "trouver-meilleurs-emplacements-food-truck",
@@ -997,6 +1020,11 @@ FoodTracks automatically compares location profitability, identifies peak times,
         answer: { fr: "Les festivals et événements sont les plus rentables (500-2000€/jour), suivis des marchés (200-800€/jour) et des zones de bureaux (300-700€/jour). La stratégie optimale combine emplacements fixes en semaine et événements le week-end.", en: "Festivals and events are most profitable (€500-2000/day), followed by markets (€200-800/day) and office zones (€300-700/day). The optimal strategy combines fixed weekday locations with weekend events." },
       },
     ],
+    relatedSlugs: [
+      "food-truck-saison-creuse-strategies",
+      "choisir-bon-emplacement-food-truck",
+      "menu-saisonnier-food-truck-guide",
+    ],
   },
   {
     slug: "scanner-factures-food-truck-gagner-temps",
@@ -1077,13 +1105,15 @@ Le scan de factures n'est que le point d'entrée. Une fois vos données dans Foo
 - **Prévisions de vente par emplacement**
 - **Dashboard de rentabilité**
 
-Tout est connecté. Vos factures alimentent vos stocks, vos stocks alimentent vos prévisions, vos prévisions alimentent vos commandes.
+Tout est connecté. Vos factures alimentent vos stocks, vos stocks alimentent vos prévisions, vos prévisions alimentent vos commandes. Découvrez aussi comment [l'IA révolutionne la gestion des food trucks](/fr/blog/intelligence-artificielle-food-truck) dans notre guide dédié.
 
 ## Conclusion
 
 Arrêtez de perdre du temps sur de la saisie manuelle. **Scannez, et passez à autre chose.** Votre énergie est mieux investie dans votre cuisine et vos clients.
 
-[Essayez le scan IA de FoodTracks — gratuit →](https://foodtracks.io/fr/pricing)`,
+[Essayez le scan IA de FoodTracks — gratuit →](https://foodtracks.io/fr/pricing)
+
+**À lire aussi :** [Comment gérer son stock en food truck](/fr/blog/comment-gerer-stock-food-truck) · [Connecter SumUp pour le suivi des ventes](/fr/blog/connecter-sumup-food-truck-suivi-ventes)`,
       en: `## Paperwork: The Food Trucker's Worst Enemy
 
 You didn't start a food truck to spend evenings entering invoices into spreadsheets. Yet that's the reality: **2-4 hours per week** lost to admin work.
@@ -1118,6 +1148,11 @@ You didn't start a food truck to spend evenings entering invoices into spreadshe
         question: { fr: "Comment scanner ses factures fournisseur en food truck ?", en: "How to scan supplier invoices for a food truck?" },
         answer: { fr: "Avec FoodTracks, il suffit de prendre une photo de la facture avec votre téléphone. L'IA extrait automatiquement les produits, quantités et prix en moins de 30 secondes, et met à jour votre stock.", en: "With FoodTracks, just take a photo of the invoice with your phone. AI automatically extracts products, quantities, and prices in under 30 seconds, updating your inventory." },
       },
+    ],
+    relatedSlugs: [
+      "connecter-sumup-food-truck-suivi-ventes",
+      "comment-gerer-stock-food-truck",
+      "logiciel-gestion-food-truck",
     ],
   },
   {
@@ -1190,7 +1225,9 @@ L'opération prend moins de 2 minutes et la synchronisation est continue.
 
 Vos données SumUp ont de la valeur — ne les laissez pas dormir. Connectez-les à FoodTracks et transformez chaque transaction en insight business.
 
-[Connectez SumUp à FoodTracks — gratuit →](https://foodtracks.io/fr/pricing)`,
+[Connectez SumUp à FoodTracks — gratuit →](https://foodtracks.io/fr/pricing)
+
+**À lire aussi :** [Comment gérer le stock de votre food truck](/fr/blog/comment-gerer-stock-food-truck) · [Améliorer la rentabilité de votre food truck](/fr/blog/rentabilite-food-truck-ameliorer) · [Scanner vos factures pour gagner du temps](/fr/blog/scanner-factures-food-truck-gagner-temps)`,
       en: `## SumUp: The Food Truck Payment Standard
 
 SumUp has become the go-to payment terminal for food trucks. Compact and affordable (no subscription, just 1.75% commission), it's essential. But your SumUp data is a **goldmine** for managing your business.
@@ -2926,7 +2963,9 @@ L'intelligence artificielle n'est plus un luxe réservé aux grandes entreprises
 
 Les résultats sont concrets : **moins de gaspillage, plus de ventes, des marges optimisées et des heures de paperasse en moins**. Le tout pour le prix d'un café par jour.
 
-La question n'est plus "est-ce que l'IA est utile pour un food truck ?" mais **"combien de temps pouvez-vous encore vous en passer ?"**`,
+La question n'est plus "est-ce que l'IA est utile pour un food truck ?" mais **"combien de temps pouvez-vous encore vous en passer ?"**
+
+**À lire aussi :** [Comment le scan IA de factures vous fait gagner 2h par semaine](/fr/blog/scanner-factures-food-truck-gagner-temps) · [Prédictions de ventes : le guide complet](/fr/blog/prediction-vente-food-truck-ia) · [Logiciel de gestion stock food truck : comparatif](/fr/blog/logiciel-gestion-stock-food-truck)`,
       en: `## Artificial Intelligence Is No Longer Reserved for Big Restaurant Chains
 
 When people talk about AI in the food industry, they often think of major chains like McDonald's or Starbucks investing millions. But in 2026, **AI has become accessible to every food trucker**, thanks to tools like FoodTracks that embed powerful algorithms into a simple interface.
@@ -3989,7 +4028,9 @@ La prediction de ventes par IA transforme la facon dont les food truckers prepar
 
 La technologie est mature, accessible et abordable. Avec [FoodTracks](https://foodtracks.io/fr/pricing), vous pouvez commencer gratuitement et voir les resultats des les premieres semaines.
 
-La seule question qui reste : **combien de services allez-vous encore faire a l'aveugle ?**`,
+La seule question qui reste : **combien de services allez-vous encore faire a l'aveugle ?**
+
+**A lire aussi :** [Comment l'IA revolutionne les food trucks](/fr/blog/intelligence-artificielle-food-truck) · [Comment gerer le stock de son food truck](/fr/blog/comment-gerer-stock-food-truck) · [Connecter SumUp pour des predictions plus precises](/fr/blog/connecter-sumup-food-truck-suivi-ventes)`,
       en: `## Predicting Food Truck Sales: The AI Revolution
 
 Imagine knowing each morning exactly how many portions to prepare for your service. No waste, no stockouts. That is exactly what **AI-powered sales prediction** makes possible.
@@ -4211,6 +4252,11 @@ The only question left: **how many more services will you run blind?**`,
           en: "On average, AI prediction generates EUR300 to EUR600 in monthly savings through waste reduction (25-40%) and stockout reduction (50-60%). For a EUR29/month tool, the ROI is 10 to 20 times the investment.",
         },
       },
+    ],
+    relatedSlugs: [
+      "intelligence-artificielle-food-truck",
+      "logiciel-gestion-stock-food-truck",
+      "reduire-gaspillage-alimentaire-food-truck",
     ],
   },
   {
