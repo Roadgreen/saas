@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import {
   MapPin, CheckCircle2, ArrowRight, Zap, BarChart3,
-  Package, ChefHat, ChevronDown, TrendingUp, Star, Waves,
+  Package, ChefHat, ChevronDown, TrendingUp, Star, Compass,
 } from 'lucide-react';
 import { LandingHeader } from '@/components/landing/Header';
 import { routing } from '@/i18n/routing';
@@ -26,44 +26,44 @@ export async function generateMetadata({
   const isFr = locale === 'fr';
 
   const title = isFr
-    ? 'Logiciel Gestion Food Truck Bordeaux — Quais & Événements | FoodTracks'
-    : 'Food Truck Management Software Bordeaux — Quays & Events | FoodTracks';
+    ? 'Logiciel Gestion Food Truck Nantes — Île de Nantes & Marchés | FoodTracks'
+    : 'Food Truck Management Software Nantes — Île de Nantes & Markets | FoodTracks';
   const description = isFr
-    ? 'Gérez votre food truck à Bordeaux avec FoodTracks : gestion de stock, prédictions IA adaptées aux événements des quais et à l\'agenda bordelais. Plan gratuit disponible.'
-    : 'Manage your Bordeaux food truck with FoodTracks: inventory management, AI predictions adapted to riverside events and Bordeaux\'s agenda. Free plan available.';
+    ? 'Gérez votre food truck à Nantes avec FoodTracks : stock en temps réel, prédictions IA adaptées aux événements nantais et aux marchés locaux. Plan gratuit disponible.'
+    : 'Manage your Nantes food truck with FoodTracks: real-time inventory, AI predictions adapted to Nantes events and local markets. Free plan available.';
 
   return {
     title,
     description,
     keywords: isFr
       ? [
-          'logiciel gestion food truck Bordeaux',
-          'application food truck Bordeaux',
-          'gestion stock food truck Bordeaux',
-          'prédictions ventes food truck Bordeaux',
-          'logiciel restauration mobile Bordeaux',
-          'food truck Nouvelle-Aquitaine',
+          'logiciel gestion food truck Nantes',
+          'application food truck Nantes',
+          'gestion stock food truck Nantes',
+          'prédictions ventes food truck Nantes',
+          'logiciel restauration mobile Nantes',
+          'food truck Pays de la Loire',
         ]
       : [
-          'food truck management software Bordeaux',
-          'food truck app Bordeaux',
-          'food truck inventory Bordeaux',
-          'food truck sales forecasting Bordeaux',
-          'mobile catering software Bordeaux France',
+          'food truck management software Nantes',
+          'food truck app Nantes',
+          'food truck inventory Nantes',
+          'food truck sales forecasting Nantes',
+          'mobile catering software Nantes France',
         ],
     alternates: {
-      canonical: `${BASE_URL}/${locale}/ville/bordeaux`,
+      canonical: `${BASE_URL}/${locale}/ville/nantes`,
       languages: {
-        fr: `${BASE_URL}/fr/ville/bordeaux`,
-        en: `${BASE_URL}/en/ville/bordeaux`,
+        fr: `${BASE_URL}/fr/ville/nantes`,
+        en: `${BASE_URL}/en/ville/nantes`,
       },
     },
     openGraph: {
       title,
       description,
-      url: `${BASE_URL}/${locale}/ville/bordeaux`,
+      url: `${BASE_URL}/${locale}/ville/nantes`,
       siteName: 'FoodTracks',
-      images: [{ url: `${BASE_URL}/og-image.png`, width: 1200, height: 630, alt: 'FoodTracks Bordeaux' }],
+      images: [{ url: `${BASE_URL}/og-image.png`, width: 1200, height: 630, alt: 'FoodTracks Nantes' }],
       type: 'website',
     },
     twitter: { card: 'summary_large_image', title, description },
@@ -86,7 +86,7 @@ function FAQItem({ question, answer }: { question: string; answer: string }) {
   );
 }
 
-export default async function BordeauxFoodTruckPage({
+export default async function NantesFoodTruckPage({
   params,
 }: {
   params: Promise<{ locale: string }>;
@@ -98,15 +98,15 @@ export default async function BordeauxFoodTruckPage({
   const localBusinessJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
-    name: 'FoodTracks — Bordeaux',
+    name: 'FoodTracks — Nantes',
     description: isFr
-      ? 'Logiciel de gestion pour food trucks opérant à Bordeaux et en région Nouvelle-Aquitaine.'
-      : 'Management software for food trucks operating in Bordeaux and the Nouvelle-Aquitaine region.',
-    url: `${BASE_URL}/${locale}/ville/bordeaux`,
+      ? 'Logiciel de gestion pour food trucks opérant à Nantes et en Pays de la Loire.'
+      : 'Management software for food trucks operating in Nantes and Pays de la Loire.',
+    url: `${BASE_URL}/${locale}/ville/nantes`,
     areaServed: {
       '@type': 'City',
-      name: 'Bordeaux',
-      sameAs: 'https://www.wikidata.org/wiki/Q1479',
+      name: 'Nantes',
+      sameAs: 'https://www.wikidata.org/wiki/Q12191',
     },
     brand: { '@type': 'Brand', name: 'FoodTracks' },
     offers: {
@@ -123,54 +123,54 @@ export default async function BordeauxFoodTruckPage({
     '@type': 'BreadcrumbList',
     itemListElement: [
       { '@type': 'ListItem', position: 1, name: 'FoodTracks', item: `${BASE_URL}/${locale}` },
-      { '@type': 'ListItem', position: 2, name: isFr ? 'Villes' : 'Cities', item: `${BASE_URL}/${locale}/ville/bordeaux` },
-      { '@type': 'ListItem', position: 3, name: 'Bordeaux', item: `${BASE_URL}/${locale}/ville/bordeaux` },
+      { '@type': 'ListItem', position: 2, name: isFr ? 'Villes' : 'Cities', item: `${BASE_URL}/${locale}/ville/nantes` },
+      { '@type': 'ListItem', position: 3, name: 'Nantes', item: `${BASE_URL}/${locale}/ville/nantes` },
     ],
   };
 
   const faqData = isFr
     ? [
         {
-          q: 'Quels sont les meilleurs emplacements pour un food truck à Bordeaux ?',
-          a: 'Bordeaux offre des emplacements stratégiques très prisés : les quais de la Garonne (Quai des Marques, Darwin Écosystème), la Place de la Victoire, le quartier Saint-Pierre, et les nombreux événements organisés autour du lac de Bordeaux. La ville est piétonne dans son centre historique classé UNESCO, ce qui crée des flux piétons exceptionnels propices à la street food.',
+          q: 'Quels sont les meilleurs emplacements pour un food truck à Nantes ?',
+          a: 'Nantes offre de nombreux emplacements stratégiques : le marché de Talensac, les quais de l\'Erdre, l\'île de Nantes, le quartier Bouffay, le Hangar à Bananes et les abords des campus universitaires. FoodTracks analyse vos ventes par emplacement pour identifier les plus rentables.',
         },
         {
-          q: 'Comment gérer les événements saisonniers à Bordeaux avec un food truck ?',
-          a: 'Bordeaux est une ville d\'événements : Bordeaux Fête le Vin (juin), les Fêtes du Fleuve, Darwin Événements, les concerts de la Rock School Barbey, et le marché des Capucins. FoodTracks intègre ces pics dans ses prédictions IA pour vous permettre d\'anticiper vos commandes fournisseurs et de vous positionner aux bons endroits aux bons moments.',
+          q: 'Comment gérer les pics liés aux événements culturels nantais ?',
+          a: 'Le Voyage à Nantes en été, La Folle Journée en janvier, les Rendez-vous de l\'Erdre et les spectacles de Royal de Luxe créent des afflux exceptionnels. FoodTracks intègre ces événements dans ses prédictions pour ajuster vos commandes fournisseurs.',
         },
         {
-          q: 'Comment optimiser son stock avec la forte culture viticole bordelaise ?',
-          a: 'Les Bordelais ont un goût prononcé pour la qualité alimentaire, fort de leur culture gastronomique et viticole. FoodTracks vous aide à identifier les produits premium qui se vendent le mieux à Bordeaux, à mesurer vos marges par produit et à synchroniser vos approvisionnements avec les producteurs locaux de Nouvelle-Aquitaine.',
+          q: 'FoodTracks est-il adapté aux food trucks des marchés nantais ?',
+          a: 'Oui. Que vous soyez au marché de Talensac le week-end ou sur un marché de quartier, FoodTracks gère plusieurs emplacements, synchronise votre stock en temps réel et fournit des prédictions de ventes par lieu et par jour.',
         },
         {
-          q: 'FoodTracks est-il adapté aux food trucks des quais de Bordeaux ?',
-          a: 'Oui. Les quais de la Garonne connaissent une forte affluence lors des belles journées et des événements, mais l\'activité peut être très différente par temps de pluie. FoodTracks prédit la demande en tenant compte des prévisions météo locales, vous permettant d\'ajuster vos quantités de façon précise et de réduire le gaspillage.',
+          q: 'Comment optimiser mon stock pour la saison universitaire ?',
+          a: 'Avec plus de 60 000 étudiants, le calendrier universitaire influence fortement la demande à Nantes. FoodTracks tient compte des périodes de cours, d\'examens et de vacances pour ajuster vos prédictions et éviter le gaspillage.',
         },
         {
-          q: 'Comment profiter du dynamisme de Darwin Écosystème pour mon food truck ?',
-          a: 'Darwin est un des lieux food truck les plus populaires de Bordeaux, avec une clientèle jeune et exigeante. FoodTracks vous permet de suivre vos performances par emplacement, de comparer vos ventes Darwin versus autres spots, et d\'ajuster votre offre selon les préférences du public de chaque lieu.',
+          q: 'Quel est le coût de FoodTracks pour un food truck nantais ?',
+          a: 'FoodTracks propose un plan gratuit complet pour démarrer, sans carte de crédit. Les plans payants incluent les prédictions IA avancées, le scan de factures illimité et le support prioritaire — adapté à tous les budgets.',
         },
       ]
     : [
         {
-          q: 'What are the best locations for a food truck in Bordeaux?',
-          a: 'Bordeaux offers prime strategic spots: the Garonne quays (Quai des Marques, Darwin Ecosystème), Place de la Victoire, the Saint-Pierre quarter, and the many events around Lac de Bordeaux. The city has a pedestrianised UNESCO-listed historic centre, creating exceptional foot traffic ideal for street food.',
+          q: 'What are the best locations for a food truck in Nantes?',
+          a: 'Nantes offers many strategic spots: Talensac market, the Erdre quays, Île de Nantes, Bouffay district, Hangar à Bananes and university campus areas. FoodTracks analyses your sales by location to identify the most profitable ones.',
         },
         {
-          q: 'How do I manage seasonal events in Bordeaux with a food truck?',
-          a: 'Bordeaux is an events city: Bordeaux Fête le Vin (June), Fêtes du Fleuve, Darwin Events, Rock School Barbey concerts, and the Marché des Capucins. FoodTracks integrates these peaks into its AI predictions so you can anticipate supplier orders and position yourself at the right spots at the right times.',
+          q: 'How do I manage peaks during Nantes cultural events?',
+          a: 'Le Voyage à Nantes in summer, La Folle Journée in January, Rendez-vous de l\'Erdre and Royal de Luxe shows create exceptional crowds. FoodTracks factors these events into its predictions to adjust your supplier orders.',
         },
         {
-          q: 'How do I optimise stock given Bordeaux\'s strong wine culture?',
-          a: 'Bordelais have a strong taste for food quality, shaped by their gastronomic and wine culture. FoodTracks helps you identify premium products that sell best in Bordeaux, measure margins by product and synchronise supplies with local Nouvelle-Aquitaine producers.',
+          q: 'Is FoodTracks suited to Nantes market food trucks?',
+          a: 'Yes. Whether you trade at Talensac market on weekends or neighbourhood markets, FoodTracks manages multiple locations, syncs your inventory in real time and provides sales predictions by location and day.',
         },
         {
-          q: 'Is FoodTracks suited to food trucks on the Bordeaux quays?',
-          a: 'Yes. The Garonne quays see strong footfall on sunny days and during events, but activity can vary greatly in wet weather. FoodTracks predicts demand factoring in local weather forecasts, letting you adjust quantities accurately and reduce waste.',
+          q: 'How do I optimise stock for the university season?',
+          a: 'With over 60,000 students, the university calendar strongly influences demand in Nantes. FoodTracks accounts for term times, exams and holidays to adjust your predictions and avoid waste.',
         },
         {
-          q: 'How do I capitalise on Darwin Écosystème\'s dynamism for my food truck?',
-          a: 'Darwin is one of Bordeaux\'s most popular food truck venues, with a young and discerning crowd. FoodTracks lets you track performance by location, compare Darwin sales versus other spots, and adjust your offering based on each venue\'s audience preferences.',
+          q: 'How much does FoodTracks cost for a Nantes food truck?',
+          a: 'FoodTracks offers a full free plan to get started, no credit card needed. Paid plans include advanced AI predictions, unlimited invoice scanning and priority support — suitable for every budget.',
         },
       ];
 
@@ -186,46 +186,46 @@ export default async function BordeauxFoodTruckPage({
 
   const benefits = [
     {
-      icon: <Waves className="h-6 w-6" style={{ color: TEAL }} />,
-      title: isFr ? 'Prédictions quais & événements' : 'Quays & events forecasting',
+      icon: <MapPin className="h-6 w-6" style={{ color: ORANGE }} />,
+      title: isFr ? 'Multi-emplacements nantais' : 'Multiple Nantes locations',
       desc: isFr
-        ? 'Anticipez les flux sur les quais de la Garonne selon la météo, les événements et la saison touristique.'
-        : 'Anticipate footfall on the Garonne quays based on weather, events and tourist season.',
+        ? 'Gérez marchés, quais, événements et campus avec un stock centralisé.'
+        : 'Manage markets, quays, events and campuses with centralised inventory.',
     },
     {
-      icon: <TrendingUp className="h-6 w-6" style={{ color: ORANGE }} />,
-      title: isFr ? 'Analyse par emplacement' : 'Location-by-location analysis',
+      icon: <TrendingUp className="h-6 w-6" style={{ color: TEAL }} />,
+      title: isFr ? 'Prédictions événements & saison' : 'Event & seasonal forecasting',
       desc: isFr
-        ? 'Comparez Darwin, les quais, les marchés — identifiez vos spots les plus rentables et optimisez votre planning.'
-        : 'Compare Darwin, quays, markets — identify your most profitable spots and optimise your schedule.',
+        ? 'L\'IA intègre Le Voyage à Nantes, La Folle Journée et le calendrier universitaire.'
+        : 'AI factors in Le Voyage à Nantes, La Folle Journée and the university calendar.',
     },
     {
       icon: <Package className="h-6 w-6" style={{ color: GREEN }} />,
-      title: isFr ? 'Zéro gaspillage' : 'Zero waste',
+      title: isFr ? 'Zéro rupture de stock' : 'Zero stockouts',
       desc: isFr
-        ? 'Prédictions météo intégrées pour ajuster vos quantités et ne jamais sur-stocker les jours de faible affluence.'
-        : 'Integrated weather forecasting to adjust quantities and never overstock on low-footfall days.',
+        ? 'Alertes proactives avant les marchés et festivals pour ne jamais manquer d\'ingrédients clés.'
+        : 'Proactive alerts before markets and festivals so you never run out of key ingredients.',
     },
     {
       icon: <BarChart3 className="h-6 w-6" style={{ color: '#8B5CF6' }} />,
-      title: isFr ? 'Marges & rentabilité' : 'Margins & profitability',
+      title: isFr ? 'Analyse de rentabilité' : 'Profitability analysis',
       desc: isFr
-        ? 'Suivez la rentabilité de chaque produit pour optimiser votre carte aux standards de la culture bordelaise.'
-        : 'Track profitability per product to optimise your menu to Bordeaux\'s quality standards.',
+        ? 'Suivez vos marges par produit et par emplacement pour maximiser votre rentabilité à Nantes.'
+        : 'Track margins by product and location to maximise profitability across Nantes.',
     },
     {
       icon: <Zap className="h-6 w-6" style={{ color: '#F59E0B' }} />,
-      title: isFr ? 'Scan fournisseurs locaux' : 'Local supplier scanning',
+      title: isFr ? 'Scan de factures fournisseurs' : 'Supplier invoice scanning',
       desc: isFr
-        ? 'Factures des producteurs de Nouvelle-Aquitaine scannées en quelques secondes pour une mise à jour instantanée du stock.'
-        : 'Invoices from Nouvelle-Aquitaine producers scanned in seconds for instant inventory updates.',
+        ? 'Scannez vos factures en quelques secondes pour mettre à jour votre stock automatiquement.'
+        : 'Scan invoices in seconds to update your inventory automatically.',
     },
     {
       icon: <Star className="h-6 w-6" style={{ color: ORANGE }} />,
-      title: isFr ? 'Gratuit pour démarrer' : 'Free to start',
+      title: isFr ? 'Plan gratuit sans limite' : 'Unlimited free plan',
       desc: isFr
-        ? 'Plan gratuit complet, sans carte de crédit. Idéal pour les food truckers bordelais qui débutent.'
-        : 'Full free plan, no credit card. Ideal for Bordeaux food truckers just starting out.',
+        ? 'Commencez gratuitement sans carte de crédit. Évoluez quand votre activité grandit.'
+        : 'Start free with no credit card. Upgrade as your business grows.',
     },
   ];
 
@@ -254,7 +254,7 @@ export default async function BordeauxFoodTruckPage({
             <nav className="flex items-center justify-center gap-2 text-xs" style={{ color: '#6B7280' }}>
               <Link href={`/${locale}`} className="hover:text-white transition-colors">FoodTracks</Link>
               <span>/</span>
-              <span style={{ color: ORANGE }}>Bordeaux</span>
+              <span style={{ color: ORANGE }}>Nantes</span>
             </nav>
 
             <div
@@ -262,19 +262,19 @@ export default async function BordeauxFoodTruckPage({
               style={{ backgroundColor: 'rgba(249,115,22,0.12)', borderColor: 'rgba(249,115,22,0.30)', color: ORANGE }}
             >
               <MapPin className="h-4 w-4" />
-              {isFr ? 'Food Trucks Bordelais' : 'Bordeaux Food Trucks'}
+              {isFr ? 'Food Trucks Nantais' : 'Nantes Food Trucks'}
             </div>
 
             <h1 className="font-jakarta text-4xl md:text-5xl lg:text-6xl font-extrabold text-white leading-tight tracking-tight">
               {isFr
-                ? <>Logiciel de gestion<br />food truck <span style={{ color: ORANGE }}>Bordeaux</span></>
-                : <>Food truck management<br />software for <span style={{ color: ORANGE }}>Bordeaux</span></>}
+                ? <>Logiciel de gestion<br />food truck <span style={{ color: ORANGE }}>Nantes</span></>
+                : <>Food truck management<br />software for <span style={{ color: ORANGE }}>Nantes</span></>}
             </h1>
 
             <p className="text-lg md:text-xl leading-relaxed max-w-2xl mx-auto" style={{ color: '#9CA3AF' }}>
               {isFr
-                ? 'Prédictions IA adaptées aux quais de la Garonne, à Darwin et aux événements bordelais. Réduisez le gaspillage et maximisez vos ventes sur chaque emplacement.'
-                : 'AI predictions adapted to the Garonne quays, Darwin and Bordeaux events. Cut waste and maximise sales at every location.'}
+                ? 'Stock en temps réel, prédictions IA adaptées aux événements nantais et au calendrier culturel. Réduisez le gaspillage et maximisez vos ventes — de Talensac à l\'île de Nantes.'
+                : 'Real-time inventory, AI predictions adapted to Nantes events and cultural calendar. Cut waste and maximise sales — from Talensac to Île de Nantes.'}
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -319,35 +319,35 @@ export default async function BordeauxFoodTruckPage({
                   className="p-3 rounded-xl shrink-0"
                   style={{ backgroundColor: 'rgba(20,184,166,0.10)', border: '1px solid rgba(20,184,166,0.20)' }}
                 >
-                  <Waves className="h-6 w-6" style={{ color: TEAL }} />
+                  <Compass className="h-6 w-6" style={{ color: TEAL }} />
                 </div>
                 <div>
                   <h2 className="font-jakarta text-2xl md:text-3xl font-bold text-gray-900 mb-3">
-                    {isFr ? 'Bordeaux : quais, événements et exigence gastronomique' : 'Bordeaux: quays, events and gastronomic excellence'}
+                    {isFr ? 'Nantes : créativité et street food à l\'ouest' : 'Nantes: creativity and street food in the west'}
                   </h2>
                   <p className="text-gray-600 leading-relaxed text-base md:text-lg">
                     {isFr
-                      ? 'Bordeaux est une ville en pleine transformation, dont le centre historique classé UNESCO attire chaque année plus de 6 millions de visiteurs. Les quais de la Garonne, réaménagés en espace piéton et de loisirs, sont devenus le lieu de référence pour la street food bordelaise. Darwin Écosystème, les fêtes du fleuve, les marchés nocturnes et les concerts créent des pics d\'activité intenses. L\'enjeu : être là au bon moment, avec le bon stock. FoodTracks vous donne les prédictions et les outils pour ne jamais rater une opportunité.'
-                      : 'Bordeaux is a city in full transformation, whose UNESCO-listed historic centre attracts over 6 million visitors per year. The Garonne quays, redesigned as a pedestrian and leisure space, have become the reference location for Bordeaux street food. Darwin Ecosystème, river festivals, night markets and concerts create intense activity peaks. The challenge: being in the right place at the right time, with the right stock. FoodTracks gives you the predictions and tools to never miss an opportunity.'}
+                      ? 'Sixième ville de France, Nantes est reconnue pour sa créativité — les Machines de l\'île, le Voyage à Nantes, Royal de Luxe — et une scène food truck en plein essor. Du marché de Talensac aux quais de l\'Erdre, en passant par l\'île de Nantes et le Hangar à Bananes, la demande varie selon la saison, les événements culturels et le calendrier universitaire. FoodTracks prédit ces variations et optimise vos opérations quotidiennes.'
+                      : 'France\'s sixth city, Nantes is renowned for its creativity — Machines de l\'île, Le Voyage à Nantes, Royal de Luxe — and a booming food truck scene. From Talensac market to the Erdre quays, through Île de Nantes and Hangar à Bananes, demand shifts with seasons, cultural events and the university calendar. FoodTracks predicts these variations and optimises your daily operations.'}
                   </p>
                 </div>
               </div>
               <div className="grid md:grid-cols-3 gap-6 mt-8">
                 {[
                   {
-                    stat: '6M+',
+                    stat: '3M+',
                     label: isFr ? 'visiteurs / an' : 'visitors / year',
-                    sub: isFr ? 'Centre UNESCO très fréquenté' : 'Highly visited UNESCO centre',
+                    sub: isFr ? 'Destination en forte croissance' : 'Fast-growing destination',
                   },
                   {
-                    stat: '50+',
-                    label: isFr ? 'événements annuels' : 'annual events',
-                    sub: isFr ? 'Quais, festivals, marchés' : 'Quays, festivals, markets',
+                    stat: '40+',
+                    label: isFr ? 'marchés hebdomadaires' : 'weekly markets',
+                    sub: isFr ? 'Du Talensac au Bouffay' : 'From Talensac to Bouffay',
                   },
                   {
-                    stat: '5e',
+                    stat: '6e',
                     label: isFr ? 'ville de France' : 'city in France',
-                    sub: isFr ? 'Marché food truck en forte croissance' : 'Rapidly growing food truck market',
+                    sub: isFr ? 'Scène food truck dynamique' : 'Dynamic food truck scene',
                   },
                 ].map((item, i) => (
                   <div key={i} className="text-center p-4">
@@ -373,13 +373,13 @@ export default async function BordeauxFoodTruckPage({
           <div className="text-center max-w-3xl mx-auto mb-20">
             <h2 className="font-jakarta text-3xl md:text-[2.75rem] font-bold mb-5 text-white tracking-tight">
               {isFr
-                ? 'Tout ce dont votre food truck bordelais a besoin'
-                : 'Everything your Bordeaux food truck needs'}
+                ? 'Tout ce dont votre food truck nantais a besoin'
+                : 'Everything your Nantes food truck needs'}
             </h2>
             <p className="text-lg leading-relaxed" style={{ color: '#9CA3AF' }}>
               {isFr
-                ? 'Une plateforme conçue pour les défis uniques de la scène street food bordelaise.'
-                : 'A platform designed for the unique challenges of Bordeaux\'s street food scene.'}
+                ? 'Une plateforme complète, pensée pour les contraintes uniques de Nantes.'
+                : 'A complete platform, designed for the unique constraints of Nantes.'}
             </p>
           </div>
 
@@ -428,34 +428,16 @@ export default async function BordeauxFoodTruckPage({
                 {isFr ? 'Scan de factures' : 'Invoice scanning'}
               </Link>
               <Link
-                href={`/${locale}/ville/paris`}
+                href={`/${locale}/ville/bordeaux`}
                 className="text-sm font-medium text-orange-600 hover:text-orange-700 underline underline-offset-4"
               >
-                {isFr ? 'FoodTracks à Paris' : 'FoodTracks in Paris'}
-              </Link>
-              <Link
-                href={`/${locale}/ville/lyon`}
-                className="text-sm font-medium text-orange-600 hover:text-orange-700 underline underline-offset-4"
-              >
-                {isFr ? 'FoodTracks à Lyon' : 'FoodTracks in Lyon'}
+                {isFr ? 'FoodTracks à Bordeaux' : 'FoodTracks in Bordeaux'}
               </Link>
               <Link
                 href={`/${locale}/ville/marseille`}
                 className="text-sm font-medium text-orange-600 hover:text-orange-700 underline underline-offset-4"
               >
                 {isFr ? 'FoodTracks à Marseille' : 'FoodTracks in Marseille'}
-              </Link>
-              <Link
-                href={`/${locale}/ville/nantes`}
-                className="text-sm font-medium text-orange-600 hover:text-orange-700 underline underline-offset-4"
-              >
-                {isFr ? 'FoodTracks à Nantes' : 'FoodTracks in Nantes'}
-              </Link>
-              <Link
-                href={`/${locale}/ville/toulouse`}
-                className="text-sm font-medium text-orange-600 hover:text-orange-700 underline underline-offset-4"
-              >
-                {isFr ? 'FoodTracks à Toulouse' : 'FoodTracks in Toulouse'}
               </Link>
             </div>
           </div>
@@ -469,7 +451,7 @@ export default async function BordeauxFoodTruckPage({
         <div className="container mx-auto px-5 sm:px-8 lg:px-16">
           <div className="text-center max-w-3xl mx-auto mb-20">
             <h2 className="font-jakarta text-3xl md:text-[2.75rem] font-bold text-gray-900 tracking-tight">
-              {isFr ? 'Questions fréquentes — Bordeaux' : 'FAQ — Bordeaux'}
+              {isFr ? 'Questions fréquentes — Nantes' : 'FAQ — Nantes'}
             </h2>
           </div>
           <div className="max-w-2xl mx-auto">
@@ -494,13 +476,13 @@ export default async function BordeauxFoodTruckPage({
           <div className="text-center max-w-3xl mx-auto space-y-10">
             <h2 className="font-jakarta text-4xl md:text-5xl lg:text-6xl font-extrabold text-white leading-tight tracking-tight">
               {isFr
-                ? <>Lancez-vous à <span style={{ color: ORANGE }}>Bordeaux</span></>
-                : <>Launch in <span style={{ color: ORANGE }}>Bordeaux</span></>}
+                ? <>Lancez-vous à <span style={{ color: ORANGE }}>Nantes</span></>
+                : <>Launch in <span style={{ color: ORANGE }}>Nantes</span></>}
             </h2>
             <p className="text-xl leading-[1.7] max-w-xl mx-auto" style={{ color: '#8B8B8B' }}>
               {isFr
-                ? 'Rejoignez les food truckers bordelais qui utilisent FoodTracks pour gérer leur stock et maximiser leurs ventes sur les quais et les événements.'
-                : 'Join Bordeaux food truckers using FoodTracks to manage their inventory and maximise sales on the quays and at events.'}
+                ? 'Rejoignez les food truckers nantais qui utilisent FoodTracks pour vendre plus et gaspiller moins.'
+                : 'Join Nantes food truckers using FoodTracks to sell more and waste less.'}
             </p>
             <div className="flex flex-col items-center gap-6">
               <Link href={`/${locale}/register`}>

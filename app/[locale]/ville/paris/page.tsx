@@ -439,6 +439,24 @@ export default async function ParisFoodTruckPage({
               >
                 {isFr ? 'FoodTracks à Bordeaux' : 'FoodTracks in Bordeaux'}
               </Link>
+              <Link
+                href={`/${locale}/ville/marseille`}
+                className="text-sm font-medium text-orange-600 hover:text-orange-700 underline underline-offset-4"
+              >
+                {isFr ? 'FoodTracks à Marseille' : 'FoodTracks in Marseille'}
+              </Link>
+              <Link
+                href={`/${locale}/ville/nantes`}
+                className="text-sm font-medium text-orange-600 hover:text-orange-700 underline underline-offset-4"
+              >
+                {isFr ? 'FoodTracks à Nantes' : 'FoodTracks in Nantes'}
+              </Link>
+              <Link
+                href={`/${locale}/ville/toulouse`}
+                className="text-sm font-medium text-orange-600 hover:text-orange-700 underline underline-offset-4"
+              >
+                {isFr ? 'FoodTracks à Toulouse' : 'FoodTracks in Toulouse'}
+              </Link>
             </div>
           </div>
         </div>

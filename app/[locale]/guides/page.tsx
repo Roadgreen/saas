@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { ChefHat, BookOpen, ScanLine, BarChart3, TrendingUp, MapPin, CreditCard, Package, ArrowLeft } from 'lucide-react';
+import { ChefHat, BookOpen, ScanLine, BarChart3, TrendingUp, MapPin, CreditCard, Package, ArrowLeft, Shield, Calculator, ArrowRight } from 'lucide-react';
 
 const BASE_URL = 'https://foodtracks.io';
 
@@ -199,6 +199,49 @@ export default async function GuidesPage({ params }: { params: Promise<{ locale:
               </div>
             );
           })}
+        </div>
+
+        {/* ── Deep guides ── */}
+        <div className="mt-16 mb-12">
+          <h2 className="text-2xl font-bold mb-6 text-center">
+            {isFr ? 'Guides approfondis' : 'In-depth guides'}
+          </h2>
+          <div className="grid sm:grid-cols-3 gap-4">
+            {[
+              {
+                icon: BookOpen,
+                href: `/${locale}/guides/gestion-food-truck`,
+                title: isFr ? 'Guide gestion food truck' : 'Food truck management guide',
+                desc: isFr ? 'Tout pour gérer votre activité au quotidien.' : 'Everything to manage your business daily.',
+              },
+              {
+                icon: Calculator,
+                href: `/${locale}/guides/seuil-rentabilite-food-truck`,
+                title: isFr ? 'Calculateur de rentabilité' : 'Break-even calculator',
+                desc: isFr ? 'Calculez votre seuil de rentabilité.' : 'Calculate your break-even point.',
+              },
+              {
+                icon: Shield,
+                href: `/${locale}/guides/food-truck-reglementation-france`,
+                title: isFr ? 'Réglementation en France' : 'French regulations',
+                desc: isFr ? 'Permis, hygiène, assurances, TVA.' : 'Permits, hygiene, insurance, VAT.',
+              },
+            ].map((g, i) => {
+              const Icon = g.icon;
+              return (
+                <Link key={i} href={g.href} className="group p-5 rounded-xl border border-gray-100 hover:border-orange-200 hover:shadow-sm transition-all">
+                  <div className="w-10 h-10 rounded-lg bg-orange-50 flex items-center justify-center mb-3">
+                    <Icon className="h-5 w-5 text-orange-500" />
+                  </div>
+                  <h3 className="font-semibold mb-1 group-hover:text-orange-600 transition-colors">{g.title}</h3>
+                  <p className="text-sm text-gray-500">{g.desc}</p>
+                  <span className="inline-flex items-center gap-1 text-sm text-orange-500 mt-2 font-medium">
+                    {isFr ? 'Lire' : 'Read'} <ArrowRight className="h-3 w-3" />
+                  </span>
+                </Link>
+              );
+            })}
+          </div>
         </div>
 
         <div className="text-center mt-12">

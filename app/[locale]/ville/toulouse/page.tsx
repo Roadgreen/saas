@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import {
   MapPin, CheckCircle2, ArrowRight, Zap, BarChart3,
-  Package, ChefHat, ChevronDown, TrendingUp, Star, Waves,
+  Package, ChefHat, ChevronDown, TrendingUp, Star, Rocket,
 } from 'lucide-react';
 import { LandingHeader } from '@/components/landing/Header';
 import { routing } from '@/i18n/routing';
@@ -26,44 +26,44 @@ export async function generateMetadata({
   const isFr = locale === 'fr';
 
   const title = isFr
-    ? 'Logiciel Gestion Food Truck Bordeaux — Quais & Événements | FoodTracks'
-    : 'Food Truck Management Software Bordeaux — Quays & Events | FoodTracks';
+    ? 'Logiciel Gestion Food Truck Toulouse — Capitole & Marchés Occitans | FoodTracks'
+    : 'Food Truck Management Software Toulouse — Capitole & Occitan Markets | FoodTracks';
   const description = isFr
-    ? 'Gérez votre food truck à Bordeaux avec FoodTracks : gestion de stock, prédictions IA adaptées aux événements des quais et à l\'agenda bordelais. Plan gratuit disponible.'
-    : 'Manage your Bordeaux food truck with FoodTracks: inventory management, AI predictions adapted to riverside events and Bordeaux\'s agenda. Free plan available.';
+    ? 'Gérez votre food truck à Toulouse avec FoodTracks : stock en temps réel, prédictions IA adaptées aux marchés toulousains et à la vie étudiante. Plan gratuit disponible.'
+    : 'Manage your Toulouse food truck with FoodTracks: real-time inventory, AI predictions adapted to Toulouse markets and student life. Free plan available.';
 
   return {
     title,
     description,
     keywords: isFr
       ? [
-          'logiciel gestion food truck Bordeaux',
-          'application food truck Bordeaux',
-          'gestion stock food truck Bordeaux',
-          'prédictions ventes food truck Bordeaux',
-          'logiciel restauration mobile Bordeaux',
-          'food truck Nouvelle-Aquitaine',
+          'logiciel gestion food truck Toulouse',
+          'application food truck Toulouse',
+          'gestion stock food truck Toulouse',
+          'prédictions ventes food truck Toulouse',
+          'logiciel restauration mobile Toulouse',
+          'food truck Occitanie',
         ]
       : [
-          'food truck management software Bordeaux',
-          'food truck app Bordeaux',
-          'food truck inventory Bordeaux',
-          'food truck sales forecasting Bordeaux',
-          'mobile catering software Bordeaux France',
+          'food truck management software Toulouse',
+          'food truck app Toulouse',
+          'food truck inventory Toulouse',
+          'food truck sales forecasting Toulouse',
+          'mobile catering software Toulouse France',
         ],
     alternates: {
-      canonical: `${BASE_URL}/${locale}/ville/bordeaux`,
+      canonical: `${BASE_URL}/${locale}/ville/toulouse`,
       languages: {
-        fr: `${BASE_URL}/fr/ville/bordeaux`,
-        en: `${BASE_URL}/en/ville/bordeaux`,
+        fr: `${BASE_URL}/fr/ville/toulouse`,
+        en: `${BASE_URL}/en/ville/toulouse`,
       },
     },
     openGraph: {
       title,
       description,
-      url: `${BASE_URL}/${locale}/ville/bordeaux`,
+      url: `${BASE_URL}/${locale}/ville/toulouse`,
       siteName: 'FoodTracks',
-      images: [{ url: `${BASE_URL}/og-image.png`, width: 1200, height: 630, alt: 'FoodTracks Bordeaux' }],
+      images: [{ url: `${BASE_URL}/og-image.png`, width: 1200, height: 630, alt: 'FoodTracks Toulouse' }],
       type: 'website',
     },
     twitter: { card: 'summary_large_image', title, description },
@@ -86,7 +86,7 @@ function FAQItem({ question, answer }: { question: string; answer: string }) {
   );
 }
 
-export default async function BordeauxFoodTruckPage({
+export default async function ToulouseFoodTruckPage({
   params,
 }: {
   params: Promise<{ locale: string }>;
@@ -98,15 +98,15 @@ export default async function BordeauxFoodTruckPage({
   const localBusinessJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
-    name: 'FoodTracks — Bordeaux',
+    name: 'FoodTracks — Toulouse',
     description: isFr
-      ? 'Logiciel de gestion pour food trucks opérant à Bordeaux et en région Nouvelle-Aquitaine.'
-      : 'Management software for food trucks operating in Bordeaux and the Nouvelle-Aquitaine region.',
-    url: `${BASE_URL}/${locale}/ville/bordeaux`,
+      ? 'Logiciel de gestion pour food trucks opérant à Toulouse et en Occitanie.'
+      : 'Management software for food trucks operating in Toulouse and Occitanie.',
+    url: `${BASE_URL}/${locale}/ville/toulouse`,
     areaServed: {
       '@type': 'City',
-      name: 'Bordeaux',
-      sameAs: 'https://www.wikidata.org/wiki/Q1479',
+      name: 'Toulouse',
+      sameAs: 'https://www.wikidata.org/wiki/Q7880',
     },
     brand: { '@type': 'Brand', name: 'FoodTracks' },
     offers: {
@@ -123,54 +123,54 @@ export default async function BordeauxFoodTruckPage({
     '@type': 'BreadcrumbList',
     itemListElement: [
       { '@type': 'ListItem', position: 1, name: 'FoodTracks', item: `${BASE_URL}/${locale}` },
-      { '@type': 'ListItem', position: 2, name: isFr ? 'Villes' : 'Cities', item: `${BASE_URL}/${locale}/ville/bordeaux` },
-      { '@type': 'ListItem', position: 3, name: 'Bordeaux', item: `${BASE_URL}/${locale}/ville/bordeaux` },
+      { '@type': 'ListItem', position: 2, name: isFr ? 'Villes' : 'Cities', item: `${BASE_URL}/${locale}/ville/toulouse` },
+      { '@type': 'ListItem', position: 3, name: 'Toulouse', item: `${BASE_URL}/${locale}/ville/toulouse` },
     ],
   };
 
   const faqData = isFr
     ? [
         {
-          q: 'Quels sont les meilleurs emplacements pour un food truck à Bordeaux ?',
-          a: 'Bordeaux offre des emplacements stratégiques très prisés : les quais de la Garonne (Quai des Marques, Darwin Écosystème), la Place de la Victoire, le quartier Saint-Pierre, et les nombreux événements organisés autour du lac de Bordeaux. La ville est piétonne dans son centre historique classé UNESCO, ce qui crée des flux piétons exceptionnels propices à la street food.',
+          q: 'Quels sont les meilleurs emplacements pour un food truck à Toulouse ?',
+          a: 'Toulouse offre des emplacements variés : la place du Capitole, le marché Victor Hugo, les quais de la Garonne à Saint-Cyprien, la Cité de l\'Espace, les campus universitaires (Paul Sabatier, Jean Jaurès) et les zones d\'activité d\'Airbus à Blagnac. FoodTracks analyse vos ventes par emplacement pour identifier les plus rentables.',
         },
         {
-          q: 'Comment gérer les événements saisonniers à Bordeaux avec un food truck ?',
-          a: 'Bordeaux est une ville d\'événements : Bordeaux Fête le Vin (juin), les Fêtes du Fleuve, Darwin Événements, les concerts de la Rock School Barbey, et le marché des Capucins. FoodTracks intègre ces pics dans ses prédictions IA pour vous permettre d\'anticiper vos commandes fournisseurs et de vous positionner aux bons endroits aux bons moments.',
+          q: 'Comment anticiper les variations de demande à Toulouse ?',
+          a: 'Entre les 130 000 étudiants qui rythmement l\'année universitaire, les salariés d\'Airbus et Thales, et les événements comme le Festival Rio Loco ou Toulouse Space Show, la demande fluctue fortement. FoodTracks intègre toutes ces données dans ses prédictions IA.',
         },
         {
-          q: 'Comment optimiser son stock avec la forte culture viticole bordelaise ?',
-          a: 'Les Bordelais ont un goût prononcé pour la qualité alimentaire, fort de leur culture gastronomique et viticole. FoodTracks vous aide à identifier les produits premium qui se vendent le mieux à Bordeaux, à mesurer vos marges par produit et à synchroniser vos approvisionnements avec les producteurs locaux de Nouvelle-Aquitaine.',
+          q: 'FoodTracks est-il adapté aux food trucks des marchés toulousains ?',
+          a: 'Oui. Que vous soyez au marché Victor Hugo, au marché Saint-Cyprien ou sur un marché de plein vent, FoodTracks gère plusieurs emplacements, synchronise votre stock en temps réel et fournit des prédictions de ventes par lieu et par jour.',
         },
         {
-          q: 'FoodTracks est-il adapté aux food trucks des quais de Bordeaux ?',
-          a: 'Oui. Les quais de la Garonne connaissent une forte affluence lors des belles journées et des événements, mais l\'activité peut être très différente par temps de pluie. FoodTracks prédit la demande en tenant compte des prévisions météo locales, vous permettant d\'ajuster vos quantités de façon précise et de réduire le gaspillage.',
+          q: 'Comment gérer mon stock pour les grands événements toulousains ?',
+          a: 'Le Festival Rio Loco, le Marathon de Toulouse, Toulouse Space Show ou les matchs au Stadium génèrent des volumes exceptionnels. FoodTracks anticipe ces pics et vous envoie des alertes pour commander suffisamment sans sur-stocker.',
         },
         {
-          q: 'Comment profiter du dynamisme de Darwin Écosystème pour mon food truck ?',
-          a: 'Darwin est un des lieux food truck les plus populaires de Bordeaux, avec une clientèle jeune et exigeante. FoodTracks vous permet de suivre vos performances par emplacement, de comparer vos ventes Darwin versus autres spots, et d\'ajuster votre offre selon les préférences du public de chaque lieu.',
+          q: 'Quel est le coût de FoodTracks pour un food truck toulousain ?',
+          a: 'FoodTracks propose un plan gratuit complet pour démarrer, sans carte de crédit. Les plans payants incluent les prédictions IA avancées, le scan de factures illimité et le support prioritaire — adapté à tous les budgets, du food trucker indépendant au groupe multi-véhicules.',
         },
       ]
     : [
         {
-          q: 'What are the best locations for a food truck in Bordeaux?',
-          a: 'Bordeaux offers prime strategic spots: the Garonne quays (Quai des Marques, Darwin Ecosystème), Place de la Victoire, the Saint-Pierre quarter, and the many events around Lac de Bordeaux. The city has a pedestrianised UNESCO-listed historic centre, creating exceptional foot traffic ideal for street food.',
+          q: 'What are the best locations for a food truck in Toulouse?',
+          a: 'Toulouse offers varied spots: Place du Capitole, Victor Hugo market, Saint-Cyprien Garonne quays, Cité de l\'Espace, university campuses (Paul Sabatier, Jean Jaurès) and Airbus business zones in Blagnac. FoodTracks analyses your sales by location to identify the most profitable ones.',
         },
         {
-          q: 'How do I manage seasonal events in Bordeaux with a food truck?',
-          a: 'Bordeaux is an events city: Bordeaux Fête le Vin (June), Fêtes du Fleuve, Darwin Events, Rock School Barbey concerts, and the Marché des Capucins. FoodTracks integrates these peaks into its AI predictions so you can anticipate supplier orders and position yourself at the right spots at the right times.',
+          q: 'How do I anticipate demand variations in Toulouse?',
+          a: 'Between 130,000 students shaping the academic year, Airbus and Thales employees, and events like Festival Rio Loco or Toulouse Space Show, demand fluctuates sharply. FoodTracks factors all this data into its AI predictions.',
         },
         {
-          q: 'How do I optimise stock given Bordeaux\'s strong wine culture?',
-          a: 'Bordelais have a strong taste for food quality, shaped by their gastronomic and wine culture. FoodTracks helps you identify premium products that sell best in Bordeaux, measure margins by product and synchronise supplies with local Nouvelle-Aquitaine producers.',
+          q: 'Is FoodTracks suited to Toulouse market food trucks?',
+          a: 'Yes. Whether you trade at Victor Hugo market, Saint-Cyprien market or open-air markets, FoodTracks manages multiple locations, syncs your inventory in real time and provides sales predictions by location and day.',
         },
         {
-          q: 'Is FoodTracks suited to food trucks on the Bordeaux quays?',
-          a: 'Yes. The Garonne quays see strong footfall on sunny days and during events, but activity can vary greatly in wet weather. FoodTracks predicts demand factoring in local weather forecasts, letting you adjust quantities accurately and reduce waste.',
+          q: 'How do I manage stock for major Toulouse events?',
+          a: 'Festival Rio Loco, the Toulouse Marathon, Toulouse Space Show or Stadium match days generate exceptional volumes. FoodTracks anticipates these peaks and sends alerts to order enough without over-stocking.',
         },
         {
-          q: 'How do I capitalise on Darwin Écosystème\'s dynamism for my food truck?',
-          a: 'Darwin is one of Bordeaux\'s most popular food truck venues, with a young and discerning crowd. FoodTracks lets you track performance by location, compare Darwin sales versus other spots, and adjust your offering based on each venue\'s audience preferences.',
+          q: 'How much does FoodTracks cost for a Toulouse food truck?',
+          a: 'FoodTracks offers a full free plan to get started, no credit card needed. Paid plans include advanced AI predictions, unlimited invoice scanning and priority support — suitable for every budget from solo operators to multi-truck groups.',
         },
       ];
 
@@ -186,46 +186,46 @@ export default async function BordeauxFoodTruckPage({
 
   const benefits = [
     {
-      icon: <Waves className="h-6 w-6" style={{ color: TEAL }} />,
-      title: isFr ? 'Prédictions quais & événements' : 'Quays & events forecasting',
+      icon: <MapPin className="h-6 w-6" style={{ color: ORANGE }} />,
+      title: isFr ? 'Multi-emplacements toulousains' : 'Multiple Toulouse locations',
       desc: isFr
-        ? 'Anticipez les flux sur les quais de la Garonne selon la météo, les événements et la saison touristique.'
-        : 'Anticipate footfall on the Garonne quays based on weather, events and tourist season.',
+        ? 'Gérez marchés, campus, événements et bords de Garonne avec un stock centralisé.'
+        : 'Manage markets, campuses, events and Garonne riverbanks with centralised inventory.',
     },
     {
-      icon: <TrendingUp className="h-6 w-6" style={{ color: ORANGE }} />,
-      title: isFr ? 'Analyse par emplacement' : 'Location-by-location analysis',
+      icon: <TrendingUp className="h-6 w-6" style={{ color: TEAL }} />,
+      title: isFr ? 'Prédictions campus & événements' : 'Campus & event forecasting',
       desc: isFr
-        ? 'Comparez Darwin, les quais, les marchés — identifiez vos spots les plus rentables et optimisez votre planning.'
-        : 'Compare Darwin, quays, markets — identify your most profitable spots and optimise your schedule.',
+        ? 'L\'IA intègre le calendrier universitaire, les salons aéronautiques et les festivals occitans.'
+        : 'AI factors in the university calendar, aerospace shows and Occitan festivals.',
     },
     {
       icon: <Package className="h-6 w-6" style={{ color: GREEN }} />,
-      title: isFr ? 'Zéro gaspillage' : 'Zero waste',
+      title: isFr ? 'Zéro rupture de stock' : 'Zero stockouts',
       desc: isFr
-        ? 'Prédictions météo intégrées pour ajuster vos quantités et ne jamais sur-stocker les jours de faible affluence.'
-        : 'Integrated weather forecasting to adjust quantities and never overstock on low-footfall days.',
+        ? 'Alertes proactives avant les marchés et festivals pour ne jamais manquer d\'ingrédients clés.'
+        : 'Proactive alerts before markets and festivals so you never run out of key ingredients.',
     },
     {
       icon: <BarChart3 className="h-6 w-6" style={{ color: '#8B5CF6' }} />,
-      title: isFr ? 'Marges & rentabilité' : 'Margins & profitability',
+      title: isFr ? 'Analyse de rentabilité' : 'Profitability analysis',
       desc: isFr
-        ? 'Suivez la rentabilité de chaque produit pour optimiser votre carte aux standards de la culture bordelaise.'
-        : 'Track profitability per product to optimise your menu to Bordeaux\'s quality standards.',
+        ? 'Suivez vos marges par produit et par emplacement pour maximiser votre rentabilité à Toulouse.'
+        : 'Track margins by product and location to maximise profitability across Toulouse.',
     },
     {
       icon: <Zap className="h-6 w-6" style={{ color: '#F59E0B' }} />,
-      title: isFr ? 'Scan fournisseurs locaux' : 'Local supplier scanning',
+      title: isFr ? 'Scan de factures fournisseurs' : 'Supplier invoice scanning',
       desc: isFr
-        ? 'Factures des producteurs de Nouvelle-Aquitaine scannées en quelques secondes pour une mise à jour instantanée du stock.'
-        : 'Invoices from Nouvelle-Aquitaine producers scanned in seconds for instant inventory updates.',
+        ? 'Scannez vos factures en quelques secondes pour mettre à jour votre stock automatiquement.'
+        : 'Scan invoices in seconds to update your inventory automatically.',
     },
     {
       icon: <Star className="h-6 w-6" style={{ color: ORANGE }} />,
-      title: isFr ? 'Gratuit pour démarrer' : 'Free to start',
+      title: isFr ? 'Plan gratuit sans limite' : 'Unlimited free plan',
       desc: isFr
-        ? 'Plan gratuit complet, sans carte de crédit. Idéal pour les food truckers bordelais qui débutent.'
-        : 'Full free plan, no credit card. Ideal for Bordeaux food truckers just starting out.',
+        ? 'Commencez gratuitement sans carte de crédit. Évoluez quand votre activité grandit.'
+        : 'Start free with no credit card. Upgrade as your business grows.',
     },
   ];
 
@@ -254,7 +254,7 @@ export default async function BordeauxFoodTruckPage({
             <nav className="flex items-center justify-center gap-2 text-xs" style={{ color: '#6B7280' }}>
               <Link href={`/${locale}`} className="hover:text-white transition-colors">FoodTracks</Link>
               <span>/</span>
-              <span style={{ color: ORANGE }}>Bordeaux</span>
+              <span style={{ color: ORANGE }}>Toulouse</span>
             </nav>
 
             <div
@@ -262,19 +262,19 @@ export default async function BordeauxFoodTruckPage({
               style={{ backgroundColor: 'rgba(249,115,22,0.12)', borderColor: 'rgba(249,115,22,0.30)', color: ORANGE }}
             >
               <MapPin className="h-4 w-4" />
-              {isFr ? 'Food Trucks Bordelais' : 'Bordeaux Food Trucks'}
+              {isFr ? 'Food Trucks Toulousains' : 'Toulouse Food Trucks'}
             </div>
 
             <h1 className="font-jakarta text-4xl md:text-5xl lg:text-6xl font-extrabold text-white leading-tight tracking-tight">
               {isFr
-                ? <>Logiciel de gestion<br />food truck <span style={{ color: ORANGE }}>Bordeaux</span></>
-                : <>Food truck management<br />software for <span style={{ color: ORANGE }}>Bordeaux</span></>}
+                ? <>Logiciel de gestion<br />food truck <span style={{ color: ORANGE }}>Toulouse</span></>
+                : <>Food truck management<br />software for <span style={{ color: ORANGE }}>Toulouse</span></>}
             </h1>
 
             <p className="text-lg md:text-xl leading-relaxed max-w-2xl mx-auto" style={{ color: '#9CA3AF' }}>
               {isFr
-                ? 'Prédictions IA adaptées aux quais de la Garonne, à Darwin et aux événements bordelais. Réduisez le gaspillage et maximisez vos ventes sur chaque emplacement.'
-                : 'AI predictions adapted to the Garonne quays, Darwin and Bordeaux events. Cut waste and maximise sales at every location.'}
+                ? 'Stock en temps réel, prédictions IA adaptées aux marchés toulousains et à la vie étudiante. Réduisez le gaspillage et maximisez vos ventes — du Capitole aux bords de Garonne.'
+                : 'Real-time inventory, AI predictions adapted to Toulouse markets and student life. Cut waste and maximise sales — from Capitole to the Garonne riverbanks.'}
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -317,18 +317,18 @@ export default async function BordeauxFoodTruckPage({
               <div className="flex items-start gap-4 mb-6">
                 <div
                   className="p-3 rounded-xl shrink-0"
-                  style={{ backgroundColor: 'rgba(20,184,166,0.10)', border: '1px solid rgba(20,184,166,0.20)' }}
+                  style={{ backgroundColor: 'rgba(249,115,22,0.10)', border: '1px solid rgba(249,115,22,0.20)' }}
                 >
-                  <Waves className="h-6 w-6" style={{ color: TEAL }} />
+                  <Rocket className="h-6 w-6" style={{ color: ORANGE }} />
                 </div>
                 <div>
                   <h2 className="font-jakarta text-2xl md:text-3xl font-bold text-gray-900 mb-3">
-                    {isFr ? 'Bordeaux : quais, événements et exigence gastronomique' : 'Bordeaux: quays, events and gastronomic excellence'}
+                    {isFr ? 'Toulouse : food trucks au cœur de la Ville Rose' : 'Toulouse: food trucks in the heart of the Pink City'}
                   </h2>
                   <p className="text-gray-600 leading-relaxed text-base md:text-lg">
                     {isFr
-                      ? 'Bordeaux est une ville en pleine transformation, dont le centre historique classé UNESCO attire chaque année plus de 6 millions de visiteurs. Les quais de la Garonne, réaménagés en espace piéton et de loisirs, sont devenus le lieu de référence pour la street food bordelaise. Darwin Écosystème, les fêtes du fleuve, les marchés nocturnes et les concerts créent des pics d\'activité intenses. L\'enjeu : être là au bon moment, avec le bon stock. FoodTracks vous donne les prédictions et les outils pour ne jamais rater une opportunité.'
-                      : 'Bordeaux is a city in full transformation, whose UNESCO-listed historic centre attracts over 6 million visitors per year. The Garonne quays, redesigned as a pedestrian and leisure space, have become the reference location for Bordeaux street food. Darwin Ecosystème, river festivals, night markets and concerts create intense activity peaks. The challenge: being in the right place at the right time, with the right stock. FoodTracks gives you the predictions and tools to never miss an opportunity.'}
+                      ? 'Quatrième ville de France et capitale de l\'aérospatiale, Toulouse attire plus de 6 millions de visiteurs par an. Avec le marché Victor Hugo, la place du Capitole, les bords de la Garonne et une population étudiante de plus de 130 000 personnes, la demande food truck est intense mais variable. Du Festival Rio Loco à Toulouse Space Show, en passant par le Marathon de Toulouse, FoodTracks anticipe les pics et optimise chaque service.'
+                      : 'France\'s fourth city and aerospace capital, Toulouse attracts over 6 million visitors a year. With the Victor Hugo market, Place du Capitole, Garonne riverbanks and a student population of over 130,000, food truck demand is intense but variable. From Festival Rio Loco to Toulouse Space Show and the Toulouse Marathon, FoodTracks anticipates peaks and optimises every service.'}
                   </p>
                 </div>
               </div>
@@ -337,17 +337,17 @@ export default async function BordeauxFoodTruckPage({
                   {
                     stat: '6M+',
                     label: isFr ? 'visiteurs / an' : 'visitors / year',
-                    sub: isFr ? 'Centre UNESCO très fréquenté' : 'Highly visited UNESCO centre',
+                    sub: isFr ? 'Ville rose et gastronomique' : 'Pink city & gastronomy',
                   },
                   {
-                    stat: '50+',
-                    label: isFr ? 'événements annuels' : 'annual events',
-                    sub: isFr ? 'Quais, festivals, marchés' : 'Quays, festivals, markets',
+                    stat: '70+',
+                    label: isFr ? 'marchés hebdomadaires' : 'weekly markets',
+                    sub: isFr ? 'Du Capitole à Saint-Cyprien' : 'From Capitole to Saint-Cyprien',
                   },
                   {
-                    stat: '5e',
+                    stat: '4e',
                     label: isFr ? 'ville de France' : 'city in France',
-                    sub: isFr ? 'Marché food truck en forte croissance' : 'Rapidly growing food truck market',
+                    sub: isFr ? 'Capitale aérospatiale et étudiante' : 'Aerospace & student capital',
                   },
                 ].map((item, i) => (
                   <div key={i} className="text-center p-4">
@@ -373,13 +373,13 @@ export default async function BordeauxFoodTruckPage({
           <div className="text-center max-w-3xl mx-auto mb-20">
             <h2 className="font-jakarta text-3xl md:text-[2.75rem] font-bold mb-5 text-white tracking-tight">
               {isFr
-                ? 'Tout ce dont votre food truck bordelais a besoin'
-                : 'Everything your Bordeaux food truck needs'}
+                ? 'Tout ce dont votre food truck toulousain a besoin'
+                : 'Everything your Toulouse food truck needs'}
             </h2>
             <p className="text-lg leading-relaxed" style={{ color: '#9CA3AF' }}>
               {isFr
-                ? 'Une plateforme conçue pour les défis uniques de la scène street food bordelaise.'
-                : 'A platform designed for the unique challenges of Bordeaux\'s street food scene.'}
+                ? 'Une plateforme complète, pensée pour les contraintes uniques de Toulouse.'
+                : 'A complete platform, designed for the unique constraints of Toulouse.'}
             </p>
           </div>
 
@@ -428,18 +428,6 @@ export default async function BordeauxFoodTruckPage({
                 {isFr ? 'Scan de factures' : 'Invoice scanning'}
               </Link>
               <Link
-                href={`/${locale}/ville/paris`}
-                className="text-sm font-medium text-orange-600 hover:text-orange-700 underline underline-offset-4"
-              >
-                {isFr ? 'FoodTracks à Paris' : 'FoodTracks in Paris'}
-              </Link>
-              <Link
-                href={`/${locale}/ville/lyon`}
-                className="text-sm font-medium text-orange-600 hover:text-orange-700 underline underline-offset-4"
-              >
-                {isFr ? 'FoodTracks à Lyon' : 'FoodTracks in Lyon'}
-              </Link>
-              <Link
                 href={`/${locale}/ville/marseille`}
                 className="text-sm font-medium text-orange-600 hover:text-orange-700 underline underline-offset-4"
               >
@@ -450,12 +438,6 @@ export default async function BordeauxFoodTruckPage({
                 className="text-sm font-medium text-orange-600 hover:text-orange-700 underline underline-offset-4"
               >
                 {isFr ? 'FoodTracks à Nantes' : 'FoodTracks in Nantes'}
-              </Link>
-              <Link
-                href={`/${locale}/ville/toulouse`}
-                className="text-sm font-medium text-orange-600 hover:text-orange-700 underline underline-offset-4"
-              >
-                {isFr ? 'FoodTracks à Toulouse' : 'FoodTracks in Toulouse'}
               </Link>
             </div>
           </div>
@@ -469,7 +451,7 @@ export default async function BordeauxFoodTruckPage({
         <div className="container mx-auto px-5 sm:px-8 lg:px-16">
           <div className="text-center max-w-3xl mx-auto mb-20">
             <h2 className="font-jakarta text-3xl md:text-[2.75rem] font-bold text-gray-900 tracking-tight">
-              {isFr ? 'Questions fréquentes — Bordeaux' : 'FAQ — Bordeaux'}
+              {isFr ? 'Questions fréquentes — Toulouse' : 'FAQ — Toulouse'}
             </h2>
           </div>
           <div className="max-w-2xl mx-auto">
@@ -494,13 +476,13 @@ export default async function BordeauxFoodTruckPage({
           <div className="text-center max-w-3xl mx-auto space-y-10">
             <h2 className="font-jakarta text-4xl md:text-5xl lg:text-6xl font-extrabold text-white leading-tight tracking-tight">
               {isFr
-                ? <>Lancez-vous à <span style={{ color: ORANGE }}>Bordeaux</span></>
-                : <>Launch in <span style={{ color: ORANGE }}>Bordeaux</span></>}
+                ? <>Lancez-vous à <span style={{ color: ORANGE }}>Toulouse</span></>
+                : <>Launch in <span style={{ color: ORANGE }}>Toulouse</span></>}
             </h2>
             <p className="text-xl leading-[1.7] max-w-xl mx-auto" style={{ color: '#8B8B8B' }}>
               {isFr
-                ? 'Rejoignez les food truckers bordelais qui utilisent FoodTracks pour gérer leur stock et maximiser leurs ventes sur les quais et les événements.'
-                : 'Join Bordeaux food truckers using FoodTracks to manage their inventory and maximise sales on the quays and at events.'}
+                ? 'Rejoignez les food truckers toulousains qui utilisent FoodTracks pour vendre plus et gaspiller moins.'
+                : 'Join Toulouse food truckers using FoodTracks to sell more and waste less.'}
             </p>
             <div className="flex flex-col items-center gap-6">
               <Link href={`/${locale}/register`}>
