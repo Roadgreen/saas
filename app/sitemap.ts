@@ -16,6 +16,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: '/support',          changeFrequency: 'monthly', priority: 0.5, lastModified: '2026-02-01' },
     { path: '/security',         changeFrequency: 'yearly',  priority: 0.4, lastModified: '2025-12-01' },
     { path: '/fonctionnalites/integration-sumup', changeFrequency: 'monthly', priority: 0.8, lastModified: '2026-03-18' },
+    { path: '/fonctionnalites/gestion-stock', changeFrequency: 'monthly', priority: 0.8, lastModified: '2026-03-19' },
+    { path: '/fonctionnalites/predictions-ventes', changeFrequency: 'monthly', priority: 0.8, lastModified: '2026-03-19' },
+    { path: '/fonctionnalites/scan-factures', changeFrequency: 'monthly', priority: 0.8, lastModified: '2026-03-19' },
     { path: '/privacy',          changeFrequency: 'yearly',  priority: 0.3, lastModified: '2025-12-01' },
     { path: '/terms',            changeFrequency: 'yearly',  priority: 0.3, lastModified: '2025-12-01' },
   ];

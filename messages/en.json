@@ -1195,5 +1195,266 @@
             "subtitle": "Join the food truckers who have automated their operations with the SumUp + FoodTracks integration.",
             "button": "Get started free with SumUp"
         }
+    },
+    "InventoryManagement": {
+        "hero": {
+            "badge": "Inventory Management",
+            "title": "Manage your food truck inventory in real time",
+            "subtitle": "Scan deliveries, set stock alerts and track your full inventory history. Reduce waste by 30% with FoodTracks.",
+            "cta": "Try for free",
+            "ctaSecondary": "See how it works",
+            "noCreditCard": "No credit card required · Free plan available"
+        },
+        "steps": {
+            "title": "How it works",
+            "subtitle": "Three steps to take full control of your food truck inventory.",
+            "step1": {
+                "title": "Scan your deliveries",
+                "desc": "Received a delivery? Scan the delivery note or supplier invoice. Your stock updates automatically."
+            },
+            "step2": {
+                "title": "Track in real time",
+                "desc": "Every sale and recipe prepared automatically decrements your stock. You always know exactly what you have left."
+            },
+            "step3": {
+                "title": "Get alerts",
+                "desc": "Set minimum thresholds per ingredient. FoodTracks alerts you before you run out so you never miss a sale."
+            }
+        },
+        "benefits": {
+            "title": "Why manage your stock with FoodTracks?",
+            "subtitle": "No more stockouts, waste or guesswork.",
+            "b1": {
+                "title": "Reduce waste by 30%",
+                "desc": "Track expiry dates and exact quantities. Order just what you need, at the right time."
+            },
+            "b2": {
+                "title": "Zero stockouts",
+                "desc": "Threshold alerts warn you before it's too late. Never turn away a customer again."
+            },
+            "b3": {
+                "title": "Full history",
+                "desc": "Find the history of every stock movement: entries, exits, adjustments and losses."
+            },
+            "b4": {
+                "title": "Instant scanning",
+                "desc": "Scan your invoices and delivery notes to update stock in 2 seconds."
+            },
+            "b5": {
+                "title": "Multi-location",
+                "desc": "Manage stock across multiple food trucks or kitchens from a single dashboard."
+            },
+            "b6": {
+                "title": "Sales-linked",
+                "desc": "Stock automatically decrements with every sale. No manual intervention needed."
+            }
+        },
+        "demo": {
+            "badge": "Live preview",
+            "title": "Your stock, always up to date",
+            "subtitle": "View your stock levels, alerts and movement history at a glance.",
+            "bullet1": "Automatic update with every sale",
+            "bullet2": "Smart alerts with configurable thresholds",
+            "bullet3": "Entry and exit history per ingredient",
+            "bullet4": "Monthly waste and loss reports"
+        },
+        "faq": {
+            "title": "Inventory management FAQ",
+            "q1": {
+                "question": "How does FoodTracks update stock automatically?",
+                "answer": "Every sale recorded in FoodTracks automatically decrements the ingredients used in the recipe. If you sell a burger, the quantities of bun, meat, lettuce and sauce are immediately deducted from your stock."
+            },
+            "q2": {
+                "question": "Can I set minimum stock alerts?",
+                "answer": "Yes, you can set a minimum threshold for each ingredient. When stock drops below the threshold, you receive a push notification and email to warn you before you run out."
+            },
+            "q3": {
+                "question": "How do I scan a delivery note?",
+                "answer": "From the FoodTracks mobile app, use your camera to scan your delivery note or invoice. The OCR automatically recognizes products and quantities and updates your stock."
+            },
+            "q4": {
+                "question": "Does FoodTracks handle expiry dates?",
+                "answer": "Yes, you can log expiry dates for each batch. FoodTracks alerts you before expiration and follows the FIFO method (first in, first out) to minimize waste."
+            }
+        },
+        "cta": {
+            "title": "Ready to master your inventory?",
+            "subtitle": "Join the food truckers who reduced their waste by 30% with FoodTracks.",
+            "button": "Get started free"
+        }
+    },
+    "SalesForecasting": {
+        "hero": {
+            "badge": "AI Predictions",
+            "title": "Forecast your food truck sales with AI",
+            "subtitle": "FoodTracks predicts your sales with 85% accuracy using weather, location and your sales history. Prepare just what you need, zero waste.",
+            "cta": "Try for free",
+            "ctaSecondary": "See how it works",
+            "noCreditCard": "No credit card required · Free plan available"
+        },
+        "steps": {
+            "title": "How it works",
+            "subtitle": "Our AI analyzes your data and external conditions to predict your sales with precision.",
+            "step1": {
+                "title": "Automatic data collection",
+                "desc": "FoodTracks collects your sales data, local weather and calendar events automatically."
+            },
+            "step2": {
+                "title": "AI analysis",
+                "desc": "Our algorithm cross-references your history, weather forecast and location to generate reliable predictions."
+            },
+            "step3": {
+                "title": "Actionable predictions",
+                "desc": "Receive sales estimates per product every morning. Adapt your preparations and supplier orders accordingly."
+            }
+        },
+        "benefits": {
+            "title": "Why use FoodTracks predictions?",
+            "subtitle": "Stop guessing. AI tells you exactly what to prepare.",
+            "b1": {
+                "title": "85% accuracy",
+                "desc": "Our machine learning model achieves 85% accuracy on daily sales predictions."
+            },
+            "b2": {
+                "title": "Weather-aware",
+                "desc": "Rain, heatwave or sunshine: AI adjusts its predictions based on your location's weather forecast."
+            },
+            "b3": {
+                "title": "Per product",
+                "desc": "Detailed predictions product by product. Know exactly how many burgers, crepes or drinks to prepare."
+            },
+            "b4": {
+                "title": "Reduce waste",
+                "desc": "Prepare just what you need. Our users reduce their food waste by 25% on average."
+            },
+            "b5": {
+                "title": "Optimize orders",
+                "desc": "Order the right quantities from your suppliers based on predictions, not intuition."
+            },
+            "b6": {
+                "title": "Smart history",
+                "desc": "The more you use FoodTracks, the more AI learns and refines its predictions for your specific business."
+            }
+        },
+        "demo": {
+            "badge": "Live preview",
+            "title": "Your sales predictions, every morning",
+            "subtitle": "Check estimates by product, day and location before you even open your food truck.",
+            "bullet1": "Daily predictions per product",
+            "bullet2": "Weather impact visible on each estimate",
+            "bullet3": "Predictions vs actual sales comparison",
+            "bullet4": "Supplier order suggestions"
+        },
+        "faq": {
+            "title": "Sales forecasting FAQ",
+            "q1": {
+                "question": "How does AI predict my sales?",
+                "answer": "Our machine learning algorithm analyzes your sales history, weather forecasts, day of the week, local events and your location to generate daily predictions. The more you sell with FoodTracks, the more accurate predictions become."
+            },
+            "q2": {
+                "question": "How accurate are the predictions?",
+                "answer": "On average, our predictions achieve 85% accuracy on daily sales. Accuracy increases over time as the AI learns your specific patterns."
+            },
+            "q3": {
+                "question": "Do I need a minimum history for predictions?",
+                "answer": "Predictions become available after 2 weeks of use. They improve significantly after 1 month, when the AI has enough data to identify your trends."
+            },
+            "q4": {
+                "question": "Do predictions account for weather?",
+                "answer": "Yes, weather is one of the most important factors. AI integrates the 7-day weather forecast to adjust its estimates. A rainy day can reduce your sales by 40% — FoodTracks knows this and tells you in advance."
+            }
+        },
+        "cta": {
+            "title": "Ready to forecast your sales?",
+            "subtitle": "Join the food truckers who prepare just what they need with FoodTracks AI predictions.",
+            "button": "Get started free"
+        }
+    },
+    "InvoiceScanning": {
+        "hero": {
+            "badge": "Invoice Scanning",
+            "title": "Digitize your food truck invoices in 2 seconds",
+            "subtitle": "Scan supplier invoices with FoodTracks OCR. Stock updates automatically, zero manual entry. 2 seconds per invoice.",
+            "cta": "Try for free",
+            "ctaSecondary": "See how it works",
+            "noCreditCard": "No credit card required · Free plan available"
+        },
+        "steps": {
+            "title": "How it works",
+            "subtitle": "Three steps to digitize your invoices and update your stock automatically.",
+            "step1": {
+                "title": "Photograph the invoice",
+                "desc": "Take a photo of your supplier invoice or delivery note from the FoodTracks mobile app."
+            },
+            "step2": {
+                "title": "Automatic OCR",
+                "desc": "AI recognizes products, quantities, prices and dates in 2 seconds. Review and confirm."
+            },
+            "step3": {
+                "title": "Stock updated",
+                "desc": "Stock updates automatically. Purchase prices are recorded to calculate your margins in real time."
+            }
+        },
+        "benefits": {
+            "title": "Why scan invoices with FoodTracks?",
+            "subtitle": "No more manual entry. Save time and eliminate errors.",
+            "b1": {
+                "title": "2 seconds per invoice",
+                "desc": "Our OCR processes an invoice in 2 seconds. No need to manually enter each line."
+            },
+            "b2": {
+                "title": "Zero manual entry",
+                "desc": "AI automatically recognizes products, quantities and prices. You just confirm."
+            },
+            "b3": {
+                "title": "Synced stock",
+                "desc": "Every scanned invoice updates your stock in real time. No forgetting, no errors."
+            },
+            "b4": {
+                "title": "Up-to-date purchase prices",
+                "desc": "Supplier prices are recorded with every scan. Your margins are always calculated on real data."
+            },
+            "b5": {
+                "title": "Automatic archiving",
+                "desc": "All your invoices are digitally archived. Find any invoice in a few clicks."
+            },
+            "b6": {
+                "title": "Multi-supplier",
+                "desc": "OCR recognizes invoice formats from all your suppliers. No specific configuration needed."
+            }
+        },
+        "demo": {
+            "badge": "Live preview",
+            "title": "Scan, confirm, updated",
+            "subtitle": "See how FoodTracks OCR turns paper invoices into actionable data.",
+            "bullet1": "Automatic product and quantity recognition",
+            "bullet2": "Real-time stock update",
+            "bullet3": "Supplier price history",
+            "bullet4": "Digital archive of all invoices"
+        },
+        "faq": {
+            "title": "Invoice scanning FAQ",
+            "q1": {
+                "question": "What types of invoices can I scan?",
+                "answer": "FoodTracks recognizes all common formats: supplier invoices, delivery notes, wholesale receipts. The OCR automatically adapts to the format, whether it's Metro, Sysco, US Foods or your local suppliers."
+            },
+            "q2": {
+                "question": "Is the OCR 100% reliable?",
+                "answer": "Our OCR achieves 97% accuracy. After each scan, you see a summary of detected products and quantities. You can correct if needed before confirming — it takes 5 seconds."
+            },
+            "q3": {
+                "question": "Are invoices stored?",
+                "answer": "Yes, every scanned invoice is digitally archived in your FoodTracks account. You can find them by date, supplier or product. Ideal for accounting and audits."
+            },
+            "q4": {
+                "question": "Does scanning update purchase prices?",
+                "answer": "Yes, with every scan, your ingredient unit prices are automatically updated. This lets FoodTracks calculate your real margins in real time, product by product."
+            }
+        },
+        "cta": {
+            "title": "Ready to say goodbye to manual entry?",
+            "subtitle": "Join the food truckers saving hours every week with FoodTracks invoice scanning.",
+            "button": "Get started free"
+        }
     }
 }

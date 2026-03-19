@@ -1195,5 +1195,266 @@
             "subtitle": "Rejoignez les food truckers qui ont automatisé leur gestion grâce à l'intégration SumUp + FoodTracks.",
             "button": "Démarrer gratuitement avec SumUp"
         }
+    },
+    "InventoryManagement": {
+        "hero": {
+            "badge": "Gestion de stock",
+            "title": "Gérez votre stock food truck en temps réel",
+            "subtitle": "Scannez vos arrivages, recevez des alertes de seuils et suivez l'historique complet de votre inventaire. Réduisez le gaspillage de 30 % avec FoodTracks.",
+            "cta": "Essayer gratuitement",
+            "ctaSecondary": "Voir comment ça marche",
+            "noCreditCard": "Sans carte bancaire · Plan gratuit disponible"
+        },
+        "steps": {
+            "title": "Comment ça marche",
+            "subtitle": "Trois étapes pour prendre le contrôle total de votre stock food truck.",
+            "step1": {
+                "title": "Scannez vos arrivages",
+                "desc": "Recevez une livraison ? Scannez le bon de livraison ou la facture fournisseur. Le stock se met à jour automatiquement."
+            },
+            "step2": {
+                "title": "Suivez en temps réel",
+                "desc": "Chaque vente, chaque recette préparée décrémente automatiquement votre stock. Vous savez exactement ce qu'il vous reste."
+            },
+            "step3": {
+                "title": "Recevez des alertes",
+                "desc": "Configurez des seuils minimaux par ingrédient. FoodTracks vous alerte avant la rupture pour ne jamais manquer de stock."
+            }
+        },
+        "benefits": {
+            "title": "Pourquoi gérer votre stock avec FoodTracks ?",
+            "subtitle": "Fini les ruptures de stock, le gaspillage et les approximations.",
+            "b1": {
+                "title": "Réduisez le gaspillage de 30 %",
+                "desc": "Suivez les dates de péremption et les quantités exactes. Commandez juste ce qu'il faut, au bon moment."
+            },
+            "b2": {
+                "title": "Zéro rupture de stock",
+                "desc": "Les alertes de seuils vous préviennent avant qu'il ne soit trop tard. Ne refusez plus jamais un client."
+            },
+            "b3": {
+                "title": "Historique complet",
+                "desc": "Retrouvez l'historique de chaque mouvement de stock : entrées, sorties, ajustements et pertes."
+            },
+            "b4": {
+                "title": "Scan instantané",
+                "desc": "Scannez vos factures et bons de livraison pour mettre à jour le stock en 2 secondes."
+            },
+            "b5": {
+                "title": "Multi-emplacements",
+                "desc": "Gérez le stock de plusieurs food trucks ou cuisines depuis un seul tableau de bord."
+            },
+            "b6": {
+                "title": "Lié aux ventes",
+                "desc": "Le stock se décrémente automatiquement à chaque vente. Pas d'intervention manuelle nécessaire."
+            }
+        },
+        "demo": {
+            "badge": "Aperçu en direct",
+            "title": "Votre stock, toujours à jour",
+            "subtitle": "Visualisez vos niveaux de stock, les alertes et l'historique des mouvements en un coup d'œil.",
+            "bullet1": "Mise à jour automatique à chaque vente",
+            "bullet2": "Alertes intelligentes par seuil configurable",
+            "bullet3": "Historique des entrées et sorties par ingrédient",
+            "bullet4": "Rapport de gaspillage et pertes mensuelles"
+        },
+        "faq": {
+            "title": "Questions fréquentes sur la gestion de stock",
+            "q1": {
+                "question": "Comment FoodTracks met-il à jour le stock automatiquement ?",
+                "answer": "Chaque vente enregistrée dans FoodTracks décrémente automatiquement les ingrédients utilisés dans la recette. Si vous vendez un burger, les quantités de pain, viande, salade et sauce sont déduites immédiatement de votre stock."
+            },
+            "q2": {
+                "question": "Puis-je configurer des alertes de stock minimum ?",
+                "answer": "Oui, vous pouvez définir un seuil minimum pour chaque ingrédient. Quand le stock passe en dessous, vous recevez une notification push et un email pour vous prévenir avant la rupture."
+            },
+            "q3": {
+                "question": "Comment scanner un bon de livraison ?",
+                "answer": "Depuis l'application mobile FoodTracks, utilisez l'appareil photo pour scanner votre bon de livraison ou facture. L'OCR reconnaît automatiquement les produits et quantités et met à jour votre stock."
+            },
+            "q4": {
+                "question": "FoodTracks gère-t-il les dates de péremption ?",
+                "answer": "Oui, vous pouvez enregistrer les dates de péremption de chaque lot. FoodTracks vous alerte avant l'expiration et suit la méthode FIFO (premier entré, premier sorti) pour minimiser le gaspillage."
+            }
+        },
+        "cta": {
+            "title": "Prêt à maîtriser votre stock ?",
+            "subtitle": "Rejoignez les food truckers qui ont réduit leur gaspillage de 30 % grâce à FoodTracks.",
+            "button": "Démarrer gratuitement"
+        }
+    },
+    "SalesForecasting": {
+        "hero": {
+            "badge": "Prédictions IA",
+            "title": "Anticipez vos ventes food truck avec l'IA",
+            "subtitle": "FoodTracks prédit vos ventes à 85 % de précision grâce à la météo, l'emplacement et votre historique. Préparez juste ce qu'il faut, zéro gaspillage.",
+            "cta": "Essayer gratuitement",
+            "ctaSecondary": "Voir comment ça marche",
+            "noCreditCard": "Sans carte bancaire · Plan gratuit disponible"
+        },
+        "steps": {
+            "title": "Comment ça marche",
+            "subtitle": "Notre IA analyse vos données et les conditions externes pour prédire vos ventes avec précision.",
+            "step1": {
+                "title": "Collecte automatique",
+                "desc": "FoodTracks collecte vos données de ventes, la météo locale et les événements du calendrier automatiquement."
+            },
+            "step2": {
+                "title": "Analyse IA",
+                "desc": "Notre algorithme croise votre historique, la météo prévue et votre emplacement pour générer des prédictions fiables."
+            },
+            "step3": {
+                "title": "Prédictions actionnables",
+                "desc": "Recevez chaque matin une estimation de vos ventes par produit. Adaptez vos préparations et vos commandes fournisseurs."
+            }
+        },
+        "benefits": {
+            "title": "Pourquoi utiliser les prédictions FoodTracks ?",
+            "subtitle": "Ne préparez plus au hasard. L'IA vous dit exactement quoi prévoir.",
+            "b1": {
+                "title": "85 % de précision",
+                "desc": "Notre modèle de machine learning atteint 85 % de précision sur les prédictions de ventes journalières."
+            },
+            "b2": {
+                "title": "Météo intégrée",
+                "desc": "Pluie, canicule ou beau temps : l'IA ajuste ses prédictions selon les prévisions météo de votre emplacement."
+            },
+            "b3": {
+                "title": "Par produit",
+                "desc": "Prédictions détaillées produit par produit. Sachez exactement combien de burgers, crêpes ou boissons préparer."
+            },
+            "b4": {
+                "title": "Réduction du gaspillage",
+                "desc": "Préparez juste ce qu'il faut. Nos utilisateurs réduisent leur gaspillage alimentaire de 25 % en moyenne."
+            },
+            "b5": {
+                "title": "Optimisation des commandes",
+                "desc": "Commandez les bonnes quantités à vos fournisseurs en vous basant sur les prédictions, pas sur l'intuition."
+            },
+            "b6": {
+                "title": "Historique intelligent",
+                "desc": "Plus vous utilisez FoodTracks, plus l'IA apprend et affine ses prédictions pour votre activité spécifique."
+            }
+        },
+        "demo": {
+            "badge": "Aperçu en direct",
+            "title": "Vos prédictions de ventes, chaque matin",
+            "subtitle": "Consultez les estimations par produit, par jour et par emplacement avant même d'ouvrir votre food truck.",
+            "bullet1": "Prédictions quotidiennes par produit",
+            "bullet2": "Impact météo visible sur chaque estimation",
+            "bullet3": "Comparaison prédictions vs ventes réelles",
+            "bullet4": "Suggestions de commandes fournisseurs"
+        },
+        "faq": {
+            "title": "Questions fréquentes sur les prédictions de ventes",
+            "q1": {
+                "question": "Comment l'IA prédit-elle mes ventes ?",
+                "answer": "Notre algorithme de machine learning analyse votre historique de ventes, les prévisions météo, le jour de la semaine, les événements locaux et votre emplacement pour générer des prédictions quotidiennes. Plus vous vendez avec FoodTracks, plus les prédictions s'affinent."
+            },
+            "q2": {
+                "question": "Quelle est la précision des prédictions ?",
+                "answer": "En moyenne, nos prédictions atteignent 85 % de précision sur les ventes journalières. La précision augmente au fil du temps à mesure que l'IA apprend vos patterns spécifiques."
+            },
+            "q3": {
+                "question": "Faut-il un historique minimum pour avoir des prédictions ?",
+                "answer": "Les prédictions commencent à être disponibles après 2 semaines d'utilisation. Elles s'améliorent significativement après 1 mois, lorsque l'IA dispose de suffisamment de données pour identifier vos tendances."
+            },
+            "q4": {
+                "question": "Les prédictions tiennent-elles compte de la météo ?",
+                "answer": "Oui, la météo est l'un des facteurs les plus importants. L'IA intègre les prévisions météo à 7 jours pour ajuster ses estimations. Un jour de pluie peut réduire vos ventes de 40 % — FoodTracks le sait et vous le dit à l'avance."
+            }
+        },
+        "cta": {
+            "title": "Prêt à anticiper vos ventes ?",
+            "subtitle": "Rejoignez les food truckers qui préparent juste ce qu'il faut grâce aux prédictions IA de FoodTracks.",
+            "button": "Démarrer gratuitement"
+        }
+    },
+    "InvoiceScanning": {
+        "hero": {
+            "badge": "Scan de factures",
+            "title": "Numérisez vos factures food truck en 2 secondes",
+            "subtitle": "Scannez vos factures fournisseurs avec l'OCR FoodTracks. Stock mis à jour automatiquement, zéro saisie manuelle. 2 secondes par facture.",
+            "cta": "Essayer gratuitement",
+            "ctaSecondary": "Voir comment ça marche",
+            "noCreditCard": "Sans carte bancaire · Plan gratuit disponible"
+        },
+        "steps": {
+            "title": "Comment ça marche",
+            "subtitle": "Trois étapes pour numériser vos factures et mettre à jour votre stock automatiquement.",
+            "step1": {
+                "title": "Photographiez la facture",
+                "desc": "Prenez en photo votre facture fournisseur ou votre bon de livraison depuis l'application mobile FoodTracks."
+            },
+            "step2": {
+                "title": "OCR automatique",
+                "desc": "L'intelligence artificielle reconnaît les produits, quantités, prix et dates en 2 secondes. Vérifiez et validez."
+            },
+            "step3": {
+                "title": "Stock mis à jour",
+                "desc": "Le stock se met à jour automatiquement. Les prix d'achat sont enregistrés pour calculer vos marges en temps réel."
+            }
+        },
+        "benefits": {
+            "title": "Pourquoi scanner vos factures avec FoodTracks ?",
+            "subtitle": "Fini la saisie manuelle. Gagnez du temps et éliminez les erreurs.",
+            "b1": {
+                "title": "2 secondes par facture",
+                "desc": "Notre OCR traite une facture en 2 secondes. Plus besoin de saisir manuellement chaque ligne."
+            },
+            "b2": {
+                "title": "Zéro saisie manuelle",
+                "desc": "L'IA reconnaît automatiquement les produits, quantités et prix. Vous n'avez qu'à valider."
+            },
+            "b3": {
+                "title": "Stock synchronisé",
+                "desc": "Chaque facture scannée met à jour votre stock en temps réel. Pas d'oubli, pas d'erreur."
+            },
+            "b4": {
+                "title": "Prix d'achat à jour",
+                "desc": "Les prix fournisseurs sont enregistrés à chaque scan. Vos marges sont toujours calculées sur des données réelles."
+            },
+            "b5": {
+                "title": "Archivage automatique",
+                "desc": "Toutes vos factures sont archivées numériquement. Retrouvez n'importe quelle facture en quelques clics."
+            },
+            "b6": {
+                "title": "Multi-fournisseurs",
+                "desc": "L'OCR reconnaît les formats de factures de tous vos fournisseurs. Aucune configuration spécifique requise."
+            }
+        },
+        "demo": {
+            "badge": "Aperçu en direct",
+            "title": "Scannez, validez, c'est mis à jour",
+            "subtitle": "Découvrez comment l'OCR FoodTracks transforme vos factures papier en données exploitables.",
+            "bullet1": "Reconnaissance automatique des produits et quantités",
+            "bullet2": "Mise à jour du stock en temps réel",
+            "bullet3": "Historique des prix fournisseurs",
+            "bullet4": "Archivage numérique de toutes les factures"
+        },
+        "faq": {
+            "title": "Questions fréquentes sur le scan de factures",
+            "q1": {
+                "question": "Quels types de factures peut-on scanner ?",
+                "answer": "FoodTracks reconnaît tous les formats courants : factures fournisseurs, bons de livraison, tickets de caisse grossiste. L'OCR s'adapte automatiquement au format, qu'il s'agisse de Metro, Promocash, Transgourmet ou vos fournisseurs locaux."
+            },
+            "q2": {
+                "question": "L'OCR est-il fiable à 100 % ?",
+                "answer": "Notre OCR atteint 97 % de précision. Après chaque scan, vous voyez un résumé des produits et quantités détectés. Vous pouvez corriger si nécessaire avant de valider — ça prend 5 secondes."
+            },
+            "q3": {
+                "question": "Les factures sont-elles conservées ?",
+                "answer": "Oui, chaque facture scannée est archivée numériquement dans votre compte FoodTracks. Vous pouvez les retrouver par date, fournisseur ou produit. Idéal pour la comptabilité et les contrôles."
+            },
+            "q4": {
+                "question": "Le scan met-il à jour les prix d'achat ?",
+                "answer": "Oui, à chaque scan, les prix unitaires de vos ingrédients sont mis à jour automatiquement. Cela permet à FoodTracks de calculer vos marges réelles en temps réel, produit par produit."
+            }
+        },
+        "cta": {
+            "title": "Prêt à dire adieu à la saisie manuelle ?",
+            "subtitle": "Rejoignez les food truckers qui économisent des heures chaque semaine grâce au scan de factures FoodTracks.",
+            "button": "Démarrer gratuitement"
+        }
     }
 }
