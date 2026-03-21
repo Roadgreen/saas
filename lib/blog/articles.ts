@@ -9060,6 +9060,304 @@ Take the time to calculate it for every item on your menu. Update it monthly. An
       "scanner-factures-food-truck-gagner-temps",
     ],
   },
+  {
+    slug: "application-gestion-stock-food-truck",
+    title: {
+      fr: "Application de gestion de stock pour food truck : le guide complet 2025",
+      en: "Food Truck Inventory Management App: The Complete 2025 Guide",
+    },
+    excerpt: {
+      fr: "Découvrez comment une application de gestion de stock peut transformer votre food truck : moins de gaspillage, plus de marge et un suivi en temps réel de vos matières premières.",
+      en: "Discover how an inventory management app can transform your food truck: less waste, higher margins, and real-time tracking of your raw materials.",
+    },
+    category: { fr: "Gestion", en: "Management" },
+    date: "2025-06-10",
+    readTime: 14,
+    keywords: [
+      "application gestion stock food truck",
+      "app inventaire food truck",
+      "gestion stock restaurant ambulant",
+      "food truck inventory app",
+      "stock management food truck",
+      "logiciel stock food truck",
+    ],
+    heroImage: "/blog/gestion-stock.png",
+    content: {
+      fr: `## Pourquoi une application de gestion de stock est devenue indispensable en food truck
+
+Gérer un food truck sans application de gestion de stock, c'est un peu comme conduire de nuit sans phares : on avance, mais on risque de percuter un obstacle à chaque instant. Selon la CCI France, **30 % des food trucks ferment dans les deux premières années**, et la mauvaise gestion des stocks figure parmi les trois causes principales.
+
+Une application de gestion de stock pour food truck permet de suivre en temps réel vos matières premières, d'anticiper vos commandes et de réduire le gaspillage alimentaire. En 2025, les outils se sont simplifiés : plus besoin d'être expert en informatique pour digitaliser son inventaire.
+
+## Les vrais coûts cachés d'une gestion de stock manuelle
+
+### Le gaspillage alimentaire silencieux
+
+Sans application, la plupart des food truckers sous-estiment leur gaspillage. Une étude menée auprès de 200 food trucks en France révèle que **le gaspillage moyen représente 8 à 12 % du chiffre d'affaires**. Sur un CA annuel de 120 000 €, cela représente entre 9 600 € et 14 400 € jetés chaque année.
+
+### Les ruptures de stock qui font fuir les clients
+
+À l'inverse, ne pas avoir assez de stock est tout aussi coûteux. Un client qui arrive devant votre camion et découvre que son plat préféré est en rupture ne revient pas toujours. On estime qu'une rupture de stock coûte en moyenne **3 à 5 fois le prix du plat** en manque à gagner cumulé (vente perdue + client non fidélisé).
+
+### Le temps perdu en comptage manuel
+
+Compter ses stocks à la main, c'est en moyenne **45 minutes par jour** pour un food truck classique. Sur un mois de 22 jours ouvrés, cela représente plus de 16 heures consacrées uniquement à l'inventaire — du temps que vous pourriez investir dans la cuisine, le marketing ou le repos.
+
+## Les fonctionnalités essentielles d'une bonne application de stock
+
+### 1. Suivi des stocks en temps réel
+
+L'application doit décrémenter automatiquement vos ingrédients à chaque vente. Lorsque vous vendez un burger, le système retire du stock : 1 pain, 150 g de viande, 30 g de cheddar, etc. Vous savez à tout moment ce qu'il vous reste.
+
+### 2. Alertes de seuil minimum
+
+Configurez un seuil d'alerte pour chaque ingrédient. Quand votre stock de pain descend sous les 20 unités, l'application vous prévient. Fini les mauvaises surprises en plein service.
+
+### 3. Gestion des dates de péremption (FIFO)
+
+Une bonne application applique la méthode **FIFO (First In, First Out)** : les ingrédients les plus anciens sont utilisés en premier. Elle vous alerte aussi lorsqu'un produit approche de sa date limite, vous permettant de l'intégrer dans un plat du jour ou une promotion.
+
+### 4. Historique et analyse des consommations
+
+L'application enregistre votre historique de consommation, ce qui permet d'identifier des tendances : quels jours consommez-vous le plus de frites ? Quelle sauce est sous-commandée ? Ces données sont de l'or pour optimiser vos commandes.
+
+### 5. Connexion avec la caisse et les fournisseurs
+
+Les meilleures applications se connectent à votre terminal de paiement (SumUp, Zettle) pour automatiser la mise à jour des stocks, et à vos fournisseurs pour passer commande en un clic.
+
+### 6. Mode hors-ligne
+
+En food truck, la connexion internet n'est pas toujours garantie. L'application doit fonctionner **hors-ligne** et synchroniser les données dès que le réseau revient.
+
+## Comment choisir son application de gestion de stock
+
+### Critère 1 : La simplicité d'utilisation
+
+Votre application doit être utilisable en 5 minutes, sans formation. Si l'interface est trop complexe, vous ne l'utiliserez pas — et un outil abandonné ne sert à rien.
+
+### Critère 2 : L'adaptation au food truck
+
+Méfiez-vous des logiciels conçus pour la restauration classique. Un food truck a des contraintes spécifiques : espace réduit, menu restreint mais rotatif, services sur différents emplacements, pas de connexion fixe. Votre application doit être pensée pour ce mode de fonctionnement.
+
+### Critère 3 : Le rapport qualité/prix
+
+En 2025, les prix varient de 0 € (tableur) à 150 €/mois (ERP complet). Pour un food truck solo, visez une solution entre **15 € et 40 €/mois** qui couvre le suivi des stocks, les alertes et l'analyse basique.
+
+### Critère 4 : Le support et les mises à jour
+
+Un outil qui n'évolue pas est un outil mort. Vérifiez que l'éditeur publie des mises à jour régulières et qu'un support réactif est disponible (chat, email, téléphone).
+
+## Mise en place pas à pas : digitaliser son stock en une semaine
+
+**Jour 1-2 : L'inventaire initial.** Listez tous vos ingrédients avec leur unité (kg, L, pièce) et comptez votre stock actuel. C'est le seul comptage manuel que vous aurez à faire.
+
+**Jour 3 : Configuration de l'application.** Entrez vos ingrédients, définissez les fiches recettes (un burger = x pain + y viande + z sauce) et paramétrez vos seuils d'alerte.
+
+**Jour 4-5 : Test en conditions réelles.** Faites tourner l'application pendant deux services et vérifiez que les décomptes automatiques correspondent à la réalité.
+
+**Jour 6-7 : Ajustements et formation.** Corrigez les écarts, ajustez les grammages si nécessaire, et formez votre équipe si vous en avez une.
+
+## L'impact concret sur votre rentabilité
+
+Les food trucks qui passent d'une gestion manuelle à une application de stock constatent en moyenne :
+
+- **Réduction du gaspillage de 25 à 40 %** dès les trois premiers mois
+- **Gain de temps de 30 à 45 minutes par jour** sur l'inventaire
+- **Amélioration de la marge brute de 3 à 5 points** grâce à des commandes mieux calibrées
+- **Zéro rupture de stock** sur les ingrédients clés grâce aux alertes
+
+Pour un food truck réalisant 10 000 € de CA mensuel, l'économie nette se situe entre **300 € et 500 € par mois**, soit un retour sur investissement en moins de deux semaines.
+
+## FoodTracks : l'application pensée pour les food trucks
+
+FoodTracks a été conçue spécifiquement pour les food trucks et petits restaurateurs mobiles. L'application vous permet de :
+
+- Scanner vos factures fournisseurs pour mettre à jour le stock automatiquement
+- Suivre votre food cost en temps réel, plat par plat
+- Recevoir des alertes intelligentes avant les ruptures
+- Analyser vos ventes et votre gaspillage sur un tableau de bord clair
+- Connecter votre terminal SumUp pour un suivi 100 % automatisé
+- Travailler hors-ligne, avec synchronisation automatique
+
+L'inscription est gratuite et la prise en main ne prend que 5 minutes. Rejoignez les centaines de food truckers qui ont déjà optimisé leur gestion de stock avec FoodTracks.
+
+## Conclusion
+
+Investir dans une application de gestion de stock n'est plus un luxe pour les food trucks en 2025 : c'est une nécessité économique. Entre le gaspillage évité, le temps gagné et les marges améliorées, le retour sur investissement est quasi immédiat. La clé est de choisir un outil simple, adapté au food truck et abordable — puis de s'y tenir dès le premier jour.`,
+      en: `## Why an Inventory Management App Has Become Essential for Food Trucks
+
+Running a food truck without an inventory management app is a bit like driving at night without headlights: you move forward, but you risk hitting an obstacle at every turn. According to industry data, **30% of food trucks close within their first two years**, and poor inventory management ranks among the top three causes.
+
+A food truck inventory management app lets you track raw materials in real time, anticipate orders, and reduce food waste. In 2025, these tools have become remarkably simple — you no longer need to be a tech expert to digitise your inventory.
+
+## The Hidden Costs of Manual Inventory Management
+
+### Silent Food Waste
+
+Without an app, most food truckers underestimate their waste. A study of 200 food trucks in France found that **average waste represents 8–12% of revenue**. On annual revenue of €120,000, that is between €9,600 and €14,400 thrown away every year.
+
+### Stockouts That Drive Customers Away
+
+On the flip side, not having enough stock is equally costly. A customer who arrives at your truck only to discover their favourite dish is unavailable does not always come back. It is estimated that a single stockout costs an average of **3–5 times the dish price** in cumulative lost revenue (missed sale + lost loyalty).
+
+### Time Wasted on Manual Counting
+
+Counting stock by hand takes an average of **45 minutes per day** for a typical food truck. Over a 22-day working month, that is more than 16 hours devoted solely to inventory — time you could invest in cooking, marketing, or rest.
+
+## Essential Features of a Good Inventory App
+
+### 1. Real-Time Stock Tracking
+
+The app should automatically decrement your ingredients with each sale. When you sell a burger, the system removes from stock: 1 bun, 150 g of meat, 30 g of cheddar, etc. You always know exactly what you have left.
+
+### 2. Minimum Threshold Alerts
+
+Set an alert threshold for each ingredient. When your bun stock drops below 20 units, the app notifies you. No more unpleasant surprises in the middle of service.
+
+### 3. Expiry Date Management (FIFO)
+
+A good app applies the **FIFO (First In, First Out)** method: the oldest ingredients are used first. It also alerts you when a product is approaching its use-by date, allowing you to incorporate it into a daily special or promotion.
+
+### 4. Consumption History and Analysis
+
+The app records your consumption history, enabling you to identify trends: which days do you use the most chips? Which sauce is consistently under-ordered? This data is gold for optimising your orders.
+
+### 5. Integration with POS and Suppliers
+
+The best apps connect to your payment terminal (SumUp, Zettle) to automate stock updates, and to your suppliers for one-click ordering.
+
+### 6. Offline Mode
+
+In a food truck, an internet connection is not always guaranteed. The app must work **offline** and sync data as soon as the network returns.
+
+## How to Choose Your Inventory Management App
+
+### Criterion 1: Ease of Use
+
+Your app should be usable within 5 minutes, without training. If the interface is too complex, you simply will not use it — and an abandoned tool is a useless tool.
+
+### Criterion 2: Food Truck Adaptation
+
+Beware of software designed for traditional restaurants. A food truck has specific constraints: limited space, a small but rotating menu, services at different locations, and no fixed internet connection. Your app needs to be designed for this way of working.
+
+### Criterion 3: Value for Money
+
+In 2025, prices range from €0 (spreadsheet) to €150/month (full ERP). For a solo food truck, aim for a solution between **€15 and €40/month** that covers stock tracking, alerts, and basic analytics.
+
+### Criterion 4: Support and Updates
+
+A tool that does not evolve is a dead tool. Check that the publisher releases regular updates and that responsive support is available (chat, email, phone).
+
+## Step-by-Step Setup: Digitise Your Stock in One Week
+
+**Days 1–2: The initial inventory.** List all your ingredients with their unit (kg, L, piece) and count your current stock. This is the only manual count you will ever have to do.
+
+**Day 3: App configuration.** Enter your ingredients, set up recipe cards (one burger = x buns + y meat + z sauce), and configure your alert thresholds.
+
+**Days 4–5: Real-world testing.** Run the app during two services and verify that the automatic deductions match reality.
+
+**Days 6–7: Adjustments and training.** Correct any discrepancies, adjust portion sizes if needed, and train your team if you have one.
+
+## The Concrete Impact on Your Profitability
+
+Food trucks that switch from manual management to a stock app typically see:
+
+- **25–40% reduction in waste** within the first three months
+- **30–45 minutes saved per day** on inventory tasks
+- **3–5 percentage point improvement in gross margin** thanks to better-calibrated orders
+- **Zero stockouts** on key ingredients thanks to alerts
+
+For a food truck generating €10,000 in monthly revenue, the net saving is between **€300 and €500 per month**, yielding a return on investment in under two weeks.
+
+## FoodTracks: The App Built for Food Trucks
+
+FoodTracks was designed specifically for food trucks and small mobile caterers. The app lets you:
+
+- Scan supplier invoices to update stock automatically
+- Track your food cost in real time, dish by dish
+- Receive smart alerts before stockouts occur
+- Analyse your sales and waste on a clear dashboard
+- Connect your SumUp terminal for fully automated tracking
+- Work offline, with automatic synchronisation
+
+Sign-up is free and setup takes just 5 minutes. Join the hundreds of food truckers who have already optimised their inventory management with FoodTracks.
+
+## Conclusion
+
+Investing in an inventory management app is no longer a luxury for food trucks in 2025 — it is an economic necessity. Between waste avoided, time saved, and improved margins, the return on investment is almost immediate. The key is to choose a simple, food-truck-adapted, and affordable tool — then stick with it from day one.`,
+    },
+    keyTakeaways: {
+      fr: [
+        "Le gaspillage alimentaire représente 8 à 12 % du CA d'un food truck — une application de stock peut le réduire de 25 à 40 %.",
+        "Une bonne application de gestion de stock doit fonctionner hors-ligne, se connecter à la caisse et alerter sur les seuils critiques.",
+        "Le passage au digital se fait en une semaine et génère un ROI dès le premier mois (300 à 500 € d'économie mensuelle).",
+        "FoodTracks est l'application pensée spécifiquement pour les food trucks : scan de factures, suivi du food cost et connexion SumUp.",
+      ],
+      en: [
+        "Food waste accounts for 8–12% of a food truck's revenue — a stock app can cut it by 25–40%.",
+        "A good inventory app must work offline, connect to the POS, and alert on critical thresholds.",
+        "Going digital takes one week and delivers ROI from month one (€300–500 monthly savings).",
+        "FoodTracks is the app built specifically for food trucks: invoice scanning, food cost tracking, and SumUp integration.",
+      ],
+    },
+    faqItems: [
+      {
+        question: {
+          fr: "Quelle est la meilleure application de gestion de stock pour food truck ?",
+          en: "What is the best inventory management app for food trucks?",
+        },
+        answer: {
+          fr: "La meilleure application est celle qui est conçue spécifiquement pour le food truck : mode hors-ligne, scan de factures, connexion caisse et suivi du food cost. FoodTracks réunit toutes ces fonctionnalités dans une interface simple et abordable.",
+          en: "The best app is one designed specifically for food trucks: offline mode, invoice scanning, POS connection, and food cost tracking. FoodTracks brings all these features together in a simple, affordable interface.",
+        },
+      },
+      {
+        question: {
+          fr: "Combien coûte une application de gestion de stock pour food truck ?",
+          en: "How much does a food truck inventory management app cost?",
+        },
+        answer: {
+          fr: "Les prix varient de 0 € (tableur gratuit) à 150 €/mois (ERP complet). Pour un food truck, le meilleur rapport qualité/prix se situe entre 15 € et 40 €/mois pour une solution spécialisée avec suivi en temps réel et alertes.",
+          en: "Prices range from €0 (free spreadsheet) to €150/month (full ERP). For a food truck, the best value sits between €15 and €40/month for a specialised solution with real-time tracking and alerts.",
+        },
+      },
+      {
+        question: {
+          fr: "Peut-on gérer le stock d'un food truck avec un simple tableur Excel ?",
+          en: "Can you manage food truck inventory with a simple Excel spreadsheet?",
+        },
+        answer: {
+          fr: "Oui, pour démarrer. Mais au-delà de 3-4 services par semaine, le tableur devient chronophage et source d'erreurs. Une application dédiée automatise les décomptes, envoie des alertes et vous fait gagner 30 à 45 minutes par jour.",
+          en: "Yes, to get started. But beyond 3–4 services per week, a spreadsheet becomes time-consuming and error-prone. A dedicated app automates deductions, sends alerts, and saves you 30–45 minutes per day.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment digitaliser le stock de son food truck en une semaine ?",
+          en: "How do you digitise food truck inventory in one week?",
+        },
+        answer: {
+          fr: "Jours 1-2 : inventaire initial de tous les ingrédients. Jour 3 : configuration de l'application et des fiches recettes. Jours 4-5 : test en conditions réelles pendant deux services. Jours 6-7 : ajustements et formation de l'équipe.",
+          en: "Days 1–2: initial inventory of all ingredients. Day 3: app configuration and recipe cards setup. Days 4–5: real-world testing during two services. Days 6–7: adjustments and team training.",
+        },
+      },
+      {
+        question: {
+          fr: "Une application de stock fonctionne-t-elle sans connexion internet ?",
+          en: "Does an inventory app work without an internet connection?",
+        },
+        answer: {
+          fr: "Les meilleures applications, comme FoodTracks, fonctionnent en mode hors-ligne. Les données sont stockées localement et synchronisées automatiquement dès que la connexion revient. C'est indispensable en food truck où le réseau n'est pas toujours fiable.",
+          en: "The best apps, like FoodTracks, work in offline mode. Data is stored locally and synced automatically once the connection returns. This is essential for food trucks where network reliability cannot be guaranteed.",
+        },
+      },
+    ],
+    relatedSlugs: [
+      "comment-gerer-stock-food-truck",
+      "logiciel-gestion-stock-food-truck",
+      "reduire-gaspillage-alimentaire-food-truck",
+    ],
+  },
 ];
 
 export function getArticleBySlug(slug: string): BlogArticle | undefined {
