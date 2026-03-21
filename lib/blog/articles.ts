@@ -8352,6 +8352,714 @@ The three first actions with immediate impact:
       "scanner-factures-food-truck-gagner-temps",
     ],
   },
+  {
+    slug: "tableau-de-bord-kpi-food-truck",
+    title: {
+      fr: "Tableau de bord food truck : les KPIs essentiels pour piloter votre activité",
+      en: "Food Truck Dashboard: Essential KPIs to Run Your Business",
+    },
+    excerpt: {
+      fr: "Chiffre d'affaires, marge brute, coût matière, taux de gaspillage… Découvrez quels indicateurs suivre chaque semaine pour rendre votre food truck rentable et prendre de meilleures décisions.",
+      en: "Revenue, gross margin, food cost, waste rate… Discover which indicators to track every week to make your food truck profitable and make better decisions.",
+    },
+    category: { fr: "Gestion", en: "Management" },
+    date: "2026-03-21",
+    readTime: 9,
+    keywords: [
+      "tableau de bord food truck",
+      "kpi food truck",
+      "indicateurs gestion food truck",
+      "food truck dashboard",
+      "suivi chiffre affaires food truck",
+    ],
+    heroImage: "/blog/tableau-de-bord-food-truck.png",
+    keyTakeaways: {
+      fr: [
+        "Un food truck rentable se pilote avec 5 à 7 KPIs clés suivis chaque semaine, pas chaque mois.",
+        "Le coût matière (food cost) doit rester sous 30-35% du CA pour maintenir une marge saine.",
+        "Le taux de gaspillage est l'indicateur le plus sous-estimé : 1% de réduction = +2% de marge nette en moyenne.",
+        "FoodTracks centralise automatiquement ces indicateurs en croisant vos factures, ventes SumUp et données météo.",
+      ],
+      en: [
+        "A profitable food truck is steered with 5 to 7 key KPIs tracked weekly, not monthly.",
+        "Food cost must stay below 30-35% of revenue to maintain a healthy margin.",
+        "Waste rate is the most underestimated metric: a 1% reduction equals +2% net margin on average.",
+        "FoodTracks automatically consolidates these indicators by cross-referencing your invoices, SumUp sales and weather data.",
+      ],
+    },
+    content: {
+      fr: `## Pourquoi un tableau de bord est indispensable pour votre food truck
+
+Beaucoup de food truckers gèrent leur activité à l'instinct : si le tiroir-caisse est plein en fin de journée, ça va. Mais cette approche a un coût invisible. **Sans indicateurs chiffrés, vous ne savez pas si vous gagnez ou perdez de l'argent à chaque service.**
+
+Un tableau de bord n'est pas réservé aux grandes entreprises. C'est simplement un ensemble de chiffres clés que vous consultez régulièrement pour prendre de meilleures décisions : quoi commander, où aller, quel plat retirer du menu, quand recruter.
+
+La bonne nouvelle : avec les outils actuels, construire ce tableau de bord ne prend plus des heures. Des solutions comme **FoodTracks** automatisent la collecte et le calcul de ces indicateurs en croisant vos factures fournisseurs et vos données de caisse SumUp.
+
+## Les 6 KPIs fondamentaux à suivre chaque semaine
+
+### 1. Chiffre d'affaires par service (CA/service)
+
+C'est le point de départ. Mais attention : ne regardez pas uniquement le total hebdomadaire. Comparez **service par service** et **emplacement par emplacement**. Un mardi sur le marché de Vincennes ne ressemble pas à un vendredi sur un festival.
+
+Objectif : identifier vos emplacements les plus rentables et ceux à éliminer.
+
+### 2. Coût matière (Food Cost %)
+
+Le food cost est le ratio entre ce que vous dépensez en matières premières et ce que vous encaissez. C'est l'indicateur le plus important de votre rentabilité.
+
+**Formule** : (Achats de la période / CA de la période) × 100
+
+- En dessous de 30% : excellente maîtrise
+- Entre 30 et 35% : acceptable, à surveiller
+- Au-dessus de 35% : problème à corriger rapidement
+
+Un food cost trop élevé révèle souvent un problème de sur-commande, de gaspillage ou de prix de vente mal calibrés.
+
+### 3. Taux de gaspillage
+
+C'est l'indicateur le plus sous-estimé. Notre [étude sur le coût réel du gaspillage](/fr/blog/etude-gaspillage-food-truck-cout-reel) montre que les food trucks français perdent en moyenne 238 € par mois en gaspillage non détecté.
+
+**Formule** : (Valeur des produits jetés / CA) × 100
+
+Un taux supérieur à 3% doit déclencher une action immédiate : révision des fiches techniques, ajustement des commandes, or adaptation du menu. Chaque point de réduction du gaspillage représente environ 2 points de marge nette supplémentaires.
+
+### 4. Marge brute par plat
+
+Tous vos plats ne se valent pas. Un burger vendu 12 € avec 4 € de matières premières dégage 8 € de marge brute (67%). Une salade vendue 10 € avec 5 € de coût matière ne dégage que 5 € (50%).
+
+Calculez la marge brute de chaque référence de votre menu et concentrez-vous sur la mise en avant des plats les plus rentables. C'est l'un des leviers les plus rapides pour améliorer votre résultat sans augmenter votre chiffre d'affaires.
+
+### 5. Ticket moyen
+
+Le ticket moyen (CA / nombre de clients) est un baromètre de votre stratégie commerciale. S'il baisse, c'est souvent le signe que les clients achètent moins d'extras, que votre offre de boissons est mal positionnée, ou que vous ne proposez pas assez d'upsell.
+
+Suivre l'évolution du ticket moyen par emplacement permet aussi de valider l'impact de vos actions marketing.
+
+### 6. Taux de rupture de stock
+
+À quelle fréquence êtes-vous en rupture en cours de service ? Chaque rupture est une vente perdue et une déception client. Si votre taux de rupture dépasse 5%, votre système de commande doit être revu.
+
+L'objectif n'est pas zéro rupture à tout prix (cela entraînerait du sur-stockage), mais de maintenir un équilibre entre disponibilité et gaspillage. C'est exactement ce qu'optimise le [module de gestion de stock de FoodTracks](/fr/fonctionnalites).
+
+## Comment construire votre tableau de bord en pratique
+
+### Option 1 : Le tableau de bord manuel (Excel / Notion)
+
+Si vous démarrez, un simple fichier avec 6 colonnes suffit :
+- Date du service
+- Emplacement
+- CA encaissé
+- Montant des achats du jour
+- Produits jetés (en valeur €)
+- Nombre de clients
+
+Prenez 15 minutes chaque soir pour le remplir. Au bout d'un mois, vous aurez des données exploitables.
+
+### Option 2 : Le tableau de bord automatisé avec FoodTracks
+
+L'approche manuelle fonctionne, mais elle a des limites : elle demande de la rigueur, elle est sujette aux erreurs, et elle ne vous donne pas accès aux prédictions.
+
+Avec FoodTracks, le tableau de bord se construit automatiquement en :
+1. **Scannant vos factures fournisseurs** pour calculer votre coût matière réel ([comment ça marche](/fr/blog/scanner-factures-food-truck-gagner-temps))
+2. **Connectant votre terminal SumUp** pour récupérer les ventes en temps réel
+3. **Croisant ces données avec la météo et votre historique** pour afficher des prédictions de vente pour chaque prochain service
+
+Vous accédez à tous vos KPIs depuis votre smartphone, sans ressaisie manuelle.
+
+## Quelle fréquence pour consulter vos indicateurs ?
+
+- **Quotidien** : CA du service, éventuels stocks critiques
+- **Hebdomadaire** : Food cost, taux de gaspillage, ticket moyen
+- **Mensuel** : Marge brute par plat, analyse des emplacements, bilan global
+
+Ne vous noyez pas dans les chiffres. Choisissez 3 indicateurs prioritaires ce mois-ci, travaillez-les, puis passez aux suivants. La régularité vaut mieux que la complexité.
+
+## Conclusion
+
+Un tableau de bord food truck efficace, ce n'est pas un outil réservé aux experts-comptables. C'est votre boussole quotidienne. Avec 6 KPIs suivis sérieusement, vous pouvez réduire votre gaspillage, augmenter vos marges et identifier vos meilleurs emplacements bien avant vos concurrents. Commencez simple, automatisez progressivement, et laissez les données guider vos décisions.`,
+      en: `## Why a Dashboard Is Essential for Your Food Truck
+
+Many food truckers run their business on instinct: if the cash drawer is full at the end of the day, things seem fine. But this approach carries a hidden cost. **Without measurable indicators, you don't know whether you're making or losing money at each service.**
+
+A dashboard isn't reserved for large businesses. It's simply a set of key numbers you review regularly to make better decisions: what to order, where to go, which dish to drop from the menu, when to hire.
+
+The good news: with today's tools, building that dashboard no longer takes hours. Solutions like **FoodTracks** automate data collection and calculation by cross-referencing your supplier invoices and SumUp till data.
+
+## The 6 Essential KPIs to Track Every Week
+
+### 1. Revenue per Service (Rev/Service)
+
+This is your starting point. But be careful: don't just look at the weekly total. Compare **service by service** and **location by location**. A Tuesday at the local market is nothing like a Friday at a festival.
+
+Goal: identify your most profitable spots and eliminate the duds.
+
+### 2. Food Cost Percentage
+
+Food cost is the ratio between what you spend on raw ingredients and what you take in. It is the single most important indicator of your profitability.
+
+**Formula**: (Purchases for the period / Revenue for the period) × 100
+
+- Below 30%: excellent control
+- Between 30–35%: acceptable, watch closely
+- Above 35%: a problem that needs fixing fast
+
+A food cost that is too high typically reveals over-ordering, waste, or incorrectly priced menu items.
+
+### 3. Waste Rate
+
+This is the most underestimated indicator. Our [study on the real cost of food truck waste](/en/blog/etude-gaspillage-food-truck-cout-reel) shows that French food trucks lose an average of €238 per month in undetected waste.
+
+**Formula**: (Value of discarded products / Revenue) × 100
+
+A rate above 3% should trigger immediate action: reviewing recipe cards, adjusting orders, or adapting the menu. Every percentage point reduction in waste translates to roughly 2 extra points of net margin.
+
+### 4. Gross Margin per Dish
+
+Not all your dishes are equal. A burger sold at €12 with €4 of ingredients yields €8 gross margin (67%). A salad sold at €10 with €5 in costs yields only €5 (50%).
+
+Calculate the gross margin for every item on your menu and focus on promoting the most profitable ones. This is one of the fastest levers to improve your bottom line without growing your revenue.
+
+### 5. Average Basket (Average Transaction Value)
+
+Average basket (Revenue / Number of customers) is a barometer of your commercial strategy. If it drops, it often signals that customers are buying fewer extras, your drinks offering is poorly positioned, or you are not upselling enough.
+
+Tracking average basket by location also validates the impact of your marketing actions.
+
+### 6. Stockout Rate
+
+How often do you run out of an item mid-service? Every stockout is a lost sale and a disappointed customer. If your stockout rate exceeds 5%, your ordering system needs rethinking.
+
+The goal is not zero stockouts at all costs — that would cause over-stocking — but to strike a balance between availability and waste. That is precisely what the [FoodTracks inventory management module](/en/fonctionnalites) optimises.
+
+## How to Build Your Dashboard in Practice
+
+### Option 1: The Manual Dashboard (Excel / Notion)
+
+If you are just starting out, a simple file with 6 columns is enough:
+- Service date
+- Location
+- Revenue collected
+- Amount spent on purchases that day
+- Products discarded (€ value)
+- Number of customers
+
+Spend 15 minutes each evening filling it in. After a month, you will have actionable data.
+
+### Option 2: The Automated Dashboard with FoodTracks
+
+The manual approach works, but it has limits: it requires discipline, it is prone to errors, and it gives you no access to predictions.
+
+With FoodTracks, the dashboard builds itself automatically by:
+1. **Scanning your supplier invoices** to calculate your real food cost ([how it works](/en/blog/scanner-factures-food-truck-gagner-temps))
+2. **Connecting your SumUp terminal** to retrieve sales in real time
+3. **Cross-referencing this data with weather and your history** to display sales predictions for every upcoming service
+
+You access all your KPIs from your smartphone, with no manual re-entry.
+
+## How Often Should You Check Your Indicators?
+
+- **Daily**: service revenue, any critical stock levels
+- **Weekly**: food cost, waste rate, average basket
+- **Monthly**: gross margin per dish, location analysis, overall summary
+
+Do not drown in numbers. Choose 3 priority indicators this month, work on them, then move to the next. Consistency beats complexity.
+
+## Conclusion
+
+An effective food truck dashboard is not a tool reserved for accountants. It is your daily compass. With 6 KPIs tracked seriously, you can reduce waste, increase margins, and identify your best locations well ahead of your competitors. Start simple, automate progressively, and let data guide your decisions.`,
+    },
+    faqItems: [
+      {
+        question: {
+          fr: "Quels sont les KPIs les plus importants pour un food truck ?",
+          en: "What are the most important KPIs for a food truck?",
+        },
+        answer: {
+          fr: "Les 6 indicateurs essentiels sont : le chiffre d'affaires par service, le coût matière (food cost %), le taux de gaspillage, la marge brute par plat, le ticket moyen et le taux de rupture de stock. Le food cost est souvent le plus critique à maîtriser.",
+          en: "The 6 essential indicators are: revenue per service, food cost percentage, waste rate, gross margin per dish, average basket, and stockout rate. Food cost is often the most critical to control.",
+        },
+      },
+      {
+        question: {
+          fr: "Quel food cost maximum pour être rentable en food truck ?",
+          en: "What is the maximum food cost to be profitable as a food truck?",
+        },
+        answer: {
+          fr: "Le food cost doit idéalement rester sous 30-35% du chiffre d'affaires. Au-delà de 35%, la marge brute devient insuffisante pour couvrir les charges fixes (carburant, entretien, assurances) et dégager un salaire correct.",
+          en: "Food cost should ideally stay below 30-35% of revenue. Beyond 35%, gross margin becomes insufficient to cover fixed costs (fuel, maintenance, insurance) and generate a reasonable income.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment calculer la marge brute d'un food truck ?",
+          en: "How do you calculate a food truck's gross margin?",
+        },
+        answer: {
+          fr: "Marge brute = CA - Coût matière. En pourcentage : (CA - Coût matière) / CA × 100. Exemple : 1 000 € de CA, 300 € de matières premières → marge brute de 700 € soit 70%. La marge nette tient ensuite compte des charges fixes.",
+          en: "Gross margin = Revenue - Food cost. As a percentage: (Revenue - Food cost) / Revenue × 100. Example: €1,000 revenue, €300 in raw materials → gross margin of €700, i.e. 70%. Net margin then accounts for fixed costs.",
+        },
+      },
+      {
+        question: {
+          fr: "Peut-on gérer un food truck sans logiciel de tableau de bord ?",
+          en: "Can you run a food truck without dashboard software?",
+        },
+        answer: {
+          fr: "Oui, un tableur Excel suffit pour démarrer. Mais au-delà de 3-4 services par semaine, la saisie manuelle devient chronophage et les erreurs s'accumulent. Un outil comme FoodTracks automatise ce travail en 5 minutes de configuration.",
+          en: "Yes, a spreadsheet is enough to start. But beyond 3-4 services per week, manual entry becomes time-consuming and errors accumulate. A tool like FoodTracks automates this work with 5 minutes of setup.",
+        },
+      },
+      {
+        question: {
+          fr: "Quelle fréquence pour analyser les KPIs d'un food truck ?",
+          en: "How often should you analyse food truck KPIs?",
+        },
+        answer: {
+          fr: "Le chiffre d'affaires et les stocks critiques se consultent quotidiennement. Le food cost, le taux de gaspillage et le ticket moyen s'analysent chaque semaine. La marge par plat et l'analyse des emplacements s'effectuent chaque mois.",
+          en: "Revenue and critical stock levels should be checked daily. Food cost, waste rate and average basket should be analysed weekly. Margin per dish and location analysis should be done monthly.",
+        },
+      },
+    ],
+    relatedSlugs: [
+      "comment-gerer-stock-food-truck",
+      "optimiser-marges-food-truck-analyse-donnees",
+      "etude-gaspillage-food-truck-cout-reel",
+    ],
+  },
+  {
+    slug: "calculer-cout-revient-recette-food-truck",
+    title: {
+      fr: "Comment calculer le coût de revient d'une recette en food truck",
+      en: "How to Calculate Recipe Cost in a Food Truck",
+    },
+    excerpt: {
+      fr: "Apprenez à calculer précisément le coût de revient de chaque recette de votre food truck pour fixer vos prix, protéger vos marges et éviter les mauvaises surprises.",
+      en: "Learn how to accurately calculate the cost of each food truck recipe to set your prices, protect your margins, and avoid costly surprises.",
+    },
+    category: { fr: "Gestion", en: "Management" },
+    date: "2026-03-21",
+    readTime: 14,
+    keywords: [
+      "coût de revient recette food truck",
+      "calculer food cost food truck",
+      "prix de revient plat food truck",
+      "marge recette food truck",
+      "calcul coût matière food truck",
+    ],
+    heroImage: "/blog/cout-revient-recette.png",
+    content: {
+      fr: `## Pourquoi calculer le coût de revient de chaque recette est indispensable
+
+Si vous ne connaissez pas le coût de revient exact de chaque plat que vous vendez, vous pilotez votre food truck à l'aveugle. **Selon une étude de l'UMIH, 40 % des food trucks qui ferment dans les deux premières années citent une mauvaise maîtrise des coûts matière comme facteur principal.**
+
+Le coût de revient, c'est le total de ce que vous coûte la fabrication d'une portion. Il inclut :
+- Le prix d'achat des ingrédients (matières premières)
+- Les pertes liées à la préparation (épluchures, parures, évaporation)
+- Les consommables (barquettes, serviettes, sauces en sachet)
+
+Connaître ce chiffre pour chaque recette vous permet de :
+- **Fixer des prix de vente cohérents** qui garantissent votre marge
+- **Identifier les plats qui vous font perdre de l'argent** sans que vous le sachiez
+- **Négocier avec vos fournisseurs** en sachant exactement combien chaque ingrédient pèse dans votre coût
+- **Adapter votre carte** en fonction de la rentabilité réelle de chaque produit
+
+## La formule de base du coût de revient
+
+La formule est simple en théorie :
+
+**Coût de revient = Σ (quantité d'ingrédient × prix unitaire) + coût des consommables**
+
+En pratique, il faut intégrer les rendements. Un kilo de pommes de terre brutes ne donne pas un kilo de frites. Voici la formule complète :
+
+**Coût réel d'un ingrédient = Prix d'achat au kg ÷ Rendement**
+
+### Exemple concret : le burger classique
+
+Prenons un burger vendu 9 € sur votre carte :
+
+| Ingrédient | Quantité | Prix unitaire | Rendement | Coût réel |
+|---|---|---|---|---|
+| Pain burger artisanal | 1 unité | 0,45 € | 100 % | 0,45 € |
+| Steak haché 150g | 150 g | 8,50 €/kg | 85 % (cuisson) | 1,50 € |
+| Cheddar | 30 g | 12,00 €/kg | 100 % | 0,36 € |
+| Salade | 20 g | 3,00 €/kg | 70 % (tri) | 0,09 € |
+| Tomate | 40 g | 2,50 €/kg | 90 % | 0,11 € |
+| Oignon | 15 g | 1,80 €/kg | 85 % | 0,03 € |
+| Sauce maison | 20 g | 4,00 €/kg | 100 % | 0,08 € |
+| Barquette + serviette | 1 lot | 0,18 € | — | 0,18 € |
+| **Total** | | | | **2,80 €** |
+
+**Food cost = 2,80 € ÷ 9,00 € = 31,1 %**
+
+Ce burger est dans la cible (sous 35 %). Mais sans ce calcul, impossible de le savoir.
+
+## Les 5 étapes pour calculer le coût de revient de toutes vos recettes
+
+### Étape 1 : Lister tous les ingrédients de chaque recette
+
+Créez une **fiche technique** pour chaque plat de votre carte. Cette fiche doit contenir :
+- Le nom de la recette
+- La liste complète des ingrédients avec les quantités exactes pour une portion
+- Les étapes de préparation (utile pour estimer les pertes)
+
+**Astuce** : pesez tout pendant une semaine de service réel. Les quantités « à l'œil » sont souvent 20 à 30 % supérieures aux quantités théoriques.
+
+### Étape 2 : Relever les prix d'achat réels
+
+Ne vous fiez pas aux prix catalogue. Utilisez vos **factures fournisseurs** réelles pour obtenir les prix effectivement payés. Les prix varient selon :
+- Les saisons (les légumes peuvent varier de 30 à 50 % sur l'année)
+- Les volumes commandés
+- Les promotions ponctuelles
+
+Mettez à jour vos prix au minimum **chaque mois**. Si vous utilisez un outil comme [FoodTracks](/fr), vos factures sont scannées automatiquement et les prix sont toujours à jour.
+
+### Étape 3 : Calculer les rendements
+
+Le rendement est le ratio entre le poids brut (ce que vous achetez) et le poids net (ce qui finit dans l'assiette). Voici les rendements moyens en food truck :
+
+| Catégorie | Rendement moyen |
+|---|---|
+| Viandes (cuisson grill) | 80–85 % |
+| Poissons (filetage) | 45–55 % |
+| Légumes (épluchage) | 70–90 % |
+| Herbes fraîches | 60–70 % |
+| Fromages | 95–100 % |
+| Féculents (cuisson) | 100 % (+ eau absorbée) |
+
+**Important** : ces rendements varient selon votre équipement et vos recettes. Mesurez les vôtres en pesant avant et après préparation pendant 3 à 5 services.
+
+### Étape 4 : Intégrer les consommables
+
+Les consommables sont souvent oubliés dans le calcul, mais ils s'additionnent vite :
+- Barquettes : 0,10 à 0,30 €
+- Couverts jetables : 0,05 à 0,10 €
+- Serviettes : 0,02 à 0,05 €
+- Sacs : 0,05 à 0,15 €
+- Sauces en sachets : 0,05 à 0,10 €
+
+Sur 100 services par jour, 0,30 € de consommables oubliés = **30 € de marge perdue par jour**, soit près de 800 € par mois.
+
+### Étape 5 : Calculer le food cost en pourcentage
+
+Une fois le coût de revient calculé, convertissez-le en pourcentage du prix de vente :
+
+**Food cost (%) = Coût de revient ÷ Prix de vente × 100**
+
+Les seuils de référence en food truck :
+
+| Food cost | Interprétation |
+|---|---|
+| < 25 % | Excellent — marge très confortable |
+| 25–30 % | Bon — objectif standard |
+| 30–35 % | Acceptable — à surveiller |
+| > 35 % | Danger — recette à retravailler |
+
+## Comment optimiser le coût de revient sans sacrifier la qualité
+
+### Jouer sur les portions
+
+Réduire les portions de 10 % est rarement perceptible par le client, mais l'impact sur le food cost est immédiat. Passez de 150 g à 135 g de viande sur un burger et vous économisez **0,13 € par portion**, soit 130 € pour 1 000 burgers vendus.
+
+### Substituer intelligemment
+
+Certains ingrédients premium peuvent être remplacés sans perte de qualité perçue :
+- Remplacer le cheddar AOP par un cheddar affiné de bonne qualité : **-40 % sur le poste fromage**
+- Utiliser des oignons rouges de saison plutôt que des échalotes : **-60 % sur le poste aromates**
+- Préparer vos sauces maison plutôt que d'acheter des sauces premium : **-50 % sur le poste sauces**
+
+### Négocier les volumes
+
+Regroupez vos achats et négociez des tarifs dégressifs. **À partir de 500 € d'achats mensuels chez un même fournisseur**, vous pouvez généralement obtenir 5 à 10 % de remise.
+
+### Réduire les pertes de préparation
+
+Formez-vous (ou formez votre équipe) aux techniques de découpe qui maximisent le rendement. Un bon épluchage de carottes donne 90 % de rendement contre 75 % pour un épluchage grossier.
+
+### Adapter la carte à la saison
+
+Les produits de saison coûtent **30 à 50 % moins cher** que les produits importés hors saison. Adaptez votre carte 4 fois par an pour profiter des meilleurs prix. Consultez notre guide [menu saisonnier en food truck](/fr/blog/menu-saisonnier-food-truck-guide) pour aller plus loin.
+
+## L'erreur classique : oublier de recalculer régulièrement
+
+Le coût de revient n'est pas un chiffre figé. Les prix des matières premières fluctuent constamment :
+- **Bœuf** : +15 % en moyenne sur 2024-2025
+- **Huile de friture** : variations de 20 à 40 % selon les périodes
+- **Légumes** : jusqu'à +100 % en cas d'intempéries
+
+Si vous ne recalculez pas vos coûts **au minimum chaque mois**, vos marges s'érodent silencieusement. Un food cost qui passe de 30 % à 35 % sur un CA de 8 000 €/mois, c'est **400 € de marge perdue** chaque mois.
+
+## Automatiser le calcul avec un logiciel adapté
+
+Calculer le coût de revient manuellement pour 10 à 15 recettes, avec des prix qui changent chaque mois, c'est un travail fastidieux de plusieurs heures. C'est exactement le type de tâche qu'un outil comme [FoodTracks](/fr) automatise :
+
+- **Scan de factures** : les prix sont mis à jour automatiquement à chaque livraison via la [numérisation de vos factures](/fr/blog/scanner-factures-food-truck-gagner-temps)
+- **Fiches techniques** : saisissez vos recettes une fois, les coûts se recalculent en temps réel
+- **Alertes** : recevez une notification quand un food cost dépasse votre seuil
+- **Historique** : suivez l'évolution de vos coûts de revient mois par mois
+
+Le résultat : vous passez de **3 heures de calculs manuels par semaine à 0**, et vos prix sont toujours alignés sur vos coûts réels.
+
+## Mettre en place vos fiches techniques : le modèle
+
+Voici la structure recommandée pour chaque fiche technique :
+
+1. **Nom de la recette** et photo
+2. **Nombre de portions** produites par la recette
+3. **Liste des ingrédients** : nom, quantité brute, unité, prix unitaire, rendement, coût net
+4. **Sous-total matières premières**
+5. **Consommables** : liste et coût
+6. **Coût de revient total** par portion
+7. **Prix de vente** et **food cost %**
+8. **Date de dernière mise à jour** des prix
+
+Gardez ces fiches à portée de main dans votre camion. Elles servent aussi de référence pour la préparation et garantissent la **régularité de vos portions** (et donc de vos coûts).
+
+## Conclusion : le coût de revient, votre indicateur n°1
+
+Le coût de revient est probablement **l'indicateur le plus important** de votre food truck. Il détermine directement votre marge brute, votre capacité à vous payer un salaire correct, et la viabilité long terme de votre activité.
+
+Prenez le temps de le calculer pour chaque recette de votre carte. Mettez-le à jour chaque mois. Et si le travail manuel vous décourage, [essayez FoodTracks gratuitement](/fr) pour automatiser cette tâche critique.
+
+**Vos marges vous remercieront.**`,
+      en: `## Why Calculating Recipe Cost Is Essential for Every Food Truck
+
+If you don't know the exact cost of every dish you sell, you're running your food truck blind. **According to industry research, 40% of food trucks that close within their first two years cite poor cost control as the primary factor.**
+
+Recipe cost (also called "food cost" or "cost of goods sold per dish") is the total expense to produce one serving. It includes:
+- The purchase price of ingredients (raw materials)
+- Preparation losses (peeling, trimming, evaporation)
+- Consumables (containers, napkins, sauce packets)
+
+Knowing this number for every recipe allows you to:
+- **Set prices that actually protect your margin**
+- **Identify dishes that secretly lose you money**
+- **Negotiate with suppliers** armed with data on exactly how each ingredient impacts your cost
+- **Adjust your menu** based on real profitability, not guesswork
+
+## The Basic Recipe Cost Formula
+
+The formula is simple in theory:
+
+**Recipe Cost = Σ (ingredient quantity × unit price) + consumables cost**
+
+In practice, you must factor in yields. One kilogram of raw potatoes doesn't produce one kilogram of fries. Here's the complete formula:
+
+**True ingredient cost = Purchase price per kg ÷ Yield**
+
+### Worked Example: The Classic Burger
+
+Let's take a burger priced at $12 on your menu:
+
+| Ingredient | Quantity | Unit Price | Yield | True Cost |
+|---|---|---|---|---|
+| Artisan burger bun | 1 unit | $0.55 | 100% | $0.55 |
+| Ground beef 150g | 150 g | $10.00/kg | 85% (cooking) | $1.76 |
+| Cheddar cheese | 30 g | $14.00/kg | 100% | $0.42 |
+| Lettuce | 20 g | $3.50/kg | 70% (sorting) | $0.10 |
+| Tomato | 40 g | $3.00/kg | 90% | $0.13 |
+| Onion | 15 g | $2.00/kg | 85% | $0.04 |
+| House sauce | 20 g | $5.00/kg | 100% | $0.10 |
+| Container + napkin | 1 set | $0.20 | — | $0.20 |
+| **Total** | | | | **$3.30** |
+
+**Food cost = $3.30 ÷ $12.00 = 27.5%**
+
+This burger is within the target range (under 35%). But without doing the math, there's no way to know.
+
+## The 5 Steps to Calculate Recipe Cost for Your Entire Menu
+
+### Step 1: List Every Ingredient in Each Recipe
+
+Create a **recipe card** (also called a "spec sheet") for every item on your menu. Each card should include:
+- The recipe name
+- A complete ingredient list with exact quantities per serving
+- Preparation steps (useful for estimating losses)
+
+**Pro tip**: weigh everything during an actual week of service. "Eyeball" quantities are typically 20–30% higher than what you think.
+
+### Step 2: Use Real Purchase Prices
+
+Don't rely on catalogue prices. Use your **actual supplier invoices** to get the prices you truly pay. Prices vary by:
+- Season (vegetables can fluctuate 30–50% over the year)
+- Order volumes
+- One-off promotions
+
+Update your prices **at least monthly**. If you use a tool like [FoodTracks](/en), your invoices are scanned automatically and prices stay current at all times.
+
+### Step 3: Calculate Yields
+
+Yield is the ratio between gross weight (what you buy) and net weight (what ends up in the dish). Here are average yields for food truck operations:
+
+| Category | Average Yield |
+|---|---|
+| Meats (grill cooking) | 80–85% |
+| Fish (filleting) | 45–55% |
+| Vegetables (peeling) | 70–90% |
+| Fresh herbs | 60–70% |
+| Cheeses | 95–100% |
+| Starches (cooking) | 100% (+ absorbed water) |
+
+**Important**: these yields vary based on your equipment and recipes. Measure your own by weighing before and after preparation over 3–5 services.
+
+### Step 4: Include Consumables
+
+Consumables are often forgotten in the calculation, but they add up fast:
+- Containers: $0.10–$0.35
+- Disposable cutlery: $0.05–$0.12
+- Napkins: $0.02–$0.06
+- Bags: $0.05–$0.18
+- Sauce packets: $0.05–$0.12
+
+Over 100 servings per day, $0.35 in forgotten consumables = **$35 in lost margin per day**, or roughly $900 per month.
+
+### Step 5: Convert to Food Cost Percentage
+
+Once you have the recipe cost, express it as a percentage of the selling price:
+
+**Food cost (%) = Recipe cost ÷ Selling price × 100**
+
+Benchmark thresholds for food trucks:
+
+| Food Cost | Interpretation |
+|---|---|
+| < 25% | Excellent — very comfortable margin |
+| 25–30% | Good — standard target |
+| 30–35% | Acceptable — monitor closely |
+| > 35% | Danger — rework the recipe |
+
+## How to Optimise Recipe Cost Without Sacrificing Quality
+
+### Adjust Portion Sizes
+
+Reducing portions by 10% is rarely noticed by customers, but the impact on food cost is immediate. Drop from 150g to 135g of beef on a burger and you save **$0.15 per serving**, or $150 across 1,000 burgers sold.
+
+### Substitute Strategically
+
+Some premium ingredients can be swapped without a noticeable quality loss:
+- Replace high-end cheddar with a quality aged alternative: **-40% on the cheese line**
+- Use seasonal red onions instead of shallots: **-60% on the aromatics line**
+- Make your sauces in-house instead of buying premium brands: **-50% on the sauce line**
+
+### Negotiate Volume Pricing
+
+Consolidate your purchases and negotiate tiered pricing. **Above $500/month with a single supplier**, you can typically secure a 5–10% discount.
+
+### Reduce Preparation Waste
+
+Train yourself (or your team) on cutting techniques that maximise yield. Proper carrot peeling gives 90% yield vs. 75% for rough peeling.
+
+### Build a Seasonal Menu
+
+Seasonal produce costs **30–50% less** than imported out-of-season products. Adjust your menu four times a year to benefit from the best prices. Check out our guide on [seasonal food truck menus](/en/blog/menu-saisonnier-food-truck-guide) for more details.
+
+## The Classic Mistake: Forgetting to Recalculate
+
+Recipe cost is not a fixed number. Raw material prices fluctuate constantly:
+- **Beef**: up 15% on average over 2024–2025
+- **Frying oil**: swings of 20–40% depending on the period
+- **Vegetables**: up to +100% during extreme weather events
+
+If you don't recalculate your costs **at least monthly**, your margins erode silently. A food cost that drifts from 30% to 35% on $10,000/month revenue means **$500 in lost margin** every single month.
+
+## Automate the Calculation With the Right Software
+
+Manually calculating recipe costs for 10–15 dishes, with prices changing every month, is tedious work that takes several hours. This is exactly the kind of task that a tool like [FoodTracks](/en) automates:
+
+- **Invoice scanning**: prices update automatically with every delivery via [automated invoice scanning](/en/blog/scanner-factures-food-truck-gagner-temps)
+- **Recipe cards**: enter your recipes once, and costs recalculate in real time
+- **Alerts**: get notified when a food cost exceeds your threshold
+- **History**: track how your recipe costs evolve month over month
+
+The result: you go from **3 hours of manual calculations per week to zero**, and your prices are always aligned with your actual costs.
+
+## Setting Up Your Recipe Cards: The Template
+
+Here's the recommended structure for each recipe card:
+
+1. **Recipe name** and photo
+2. **Number of servings** the recipe produces
+3. **Ingredient list**: name, gross quantity, unit, unit price, yield, net cost
+4. **Raw material subtotal**
+5. **Consumables**: list and cost
+6. **Total recipe cost** per serving
+7. **Selling price** and **food cost %**
+8. **Date of last price update**
+
+Keep these cards handy in your truck. They also serve as a preparation reference and ensure **portion consistency** (and therefore cost consistency).
+
+## Conclusion: Recipe Cost Is Your #1 Indicator
+
+Recipe cost is arguably **the single most important metric** for your food truck. It directly determines your gross margin, your ability to pay yourself a fair wage, and the long-term viability of your business.
+
+Take the time to calculate it for every item on your menu. Update it monthly. And if the manual work feels overwhelming, [try FoodTracks for free](/en) to automate this critical task.
+
+**Your margins will thank you.**`,
+    },
+    keyTakeaways: {
+      fr: [
+        "40 % des food trucks qui ferment citent une mauvaise maîtrise des coûts matière comme cause principale.",
+        "Le food cost doit rester sous 30-35 % du prix de vente pour garantir la rentabilité.",
+        "Les consommables oubliés (barquettes, serviettes) peuvent coûter 800 € de marge perdue par mois.",
+        "Recalculer ses coûts de revient chaque mois est indispensable car les prix des matières premières fluctuent de 15 à 100 % selon les périodes.",
+      ],
+      en: [
+        "40% of food trucks that close cite poor cost control as the primary factor.",
+        "Food cost should stay below 30-35% of selling price to ensure profitability.",
+        "Forgotten consumables (containers, napkins) can cost $900 in lost margin per month.",
+        "Recalculating recipe costs monthly is essential as raw material prices fluctuate 15-100% depending on the period.",
+      ],
+    },
+    faqItems: [
+      {
+        question: {
+          fr: "Comment calculer le coût de revient d'un plat en food truck ?",
+          en: "How do you calculate the cost of a dish in a food truck?",
+        },
+        answer: {
+          fr: "Additionnez le coût de chaque ingrédient (quantité × prix unitaire ÷ rendement) puis ajoutez les consommables (barquette, serviette). Par exemple, un burger avec 2,62 € de matières premières et 0,18 € de consommables a un coût de revient de 2,80 €. Divisez par le prix de vente pour obtenir le food cost en pourcentage.",
+          en: "Add up the cost of each ingredient (quantity × unit price ÷ yield) then add consumables (container, napkin). For example, a burger with $3.10 in raw materials and $0.20 in consumables has a recipe cost of $3.30. Divide by the selling price to get the food cost percentage.",
+        },
+      },
+      {
+        question: {
+          fr: "Quel est le food cost idéal pour un food truck ?",
+          en: "What is the ideal food cost for a food truck?",
+        },
+        answer: {
+          fr: "Le food cost idéal se situe entre 25 et 30 % du prix de vente. En dessous de 25 %, vos marges sont excellentes. Entre 30 et 35 %, c'est acceptable mais à surveiller. Au-delà de 35 %, la recette doit être retravaillée car la marge brute devient insuffisante pour couvrir les charges fixes.",
+          en: "The ideal food cost is between 25% and 30% of the selling price. Below 25%, your margins are excellent. Between 30-35% is acceptable but should be monitored. Above 35%, the recipe needs reworking as the gross margin becomes insufficient to cover fixed costs.",
+        },
+      },
+      {
+        question: {
+          fr: "À quelle fréquence faut-il recalculer ses coûts de revient ?",
+          en: "How often should you recalculate your recipe costs?",
+        },
+        answer: {
+          fr: "Au minimum chaque mois, car les prix des matières premières fluctuent constamment (bœuf +15 % en 2024-2025, légumes jusqu'à +100 % lors d'intempéries). Un outil comme FoodTracks automatise ce recalcul en scannant vos factures fournisseurs.",
+          en: "At least monthly, because raw material prices fluctuate constantly (beef +15% in 2024-2025, vegetables up to +100% during extreme weather). A tool like FoodTracks automates this recalculation by scanning your supplier invoices.",
+        },
+      },
+      {
+        question: {
+          fr: "Qu'est-ce que le rendement en cuisine et comment le calculer ?",
+          en: "What is kitchen yield and how do you calculate it?",
+        },
+        answer: {
+          fr: "Le rendement est le ratio entre le poids net utilisable et le poids brut acheté. Par exemple, 1 kg de pommes de terre épluchées à partir de 1,2 kg brut donne un rendement de 83 %. Pesez vos ingrédients avant et après préparation sur 3 à 5 services pour obtenir vos rendements réels.",
+          en: "Yield is the ratio between usable net weight and purchased gross weight. For example, 1 kg of peeled potatoes from 1.2 kg gross gives an 83% yield. Weigh your ingredients before and after preparation over 3-5 services to establish your actual yields.",
+        },
+      },
+    ],
+    relatedSlugs: [
+      "fixer-prix-menu-food-truck",
+      "optimiser-marges-food-truck-analyse-donnees",
+      "comment-gerer-stock-food-truck",
+      "reduire-gaspillage-food-truck-guide",
+      "scanner-factures-food-truck-gagner-temps",
+    ],
+  },
 ];
 
 export function getArticleBySlug(slug: string): BlogArticle | undefined {
