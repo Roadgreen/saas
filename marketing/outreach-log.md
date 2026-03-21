@@ -52,7 +52,7 @@ Suivi des contacts pour la prospection food trucks. Mis a jour manuellement apre
 
 ## Session 2026-03-21
 
-### France
+### France (batch 1 - agent Doji)
 
 | Date | Nom | Email | Pays | Statut | Notes |
 |------|-----|-------|------|--------|-------|
@@ -77,8 +77,44 @@ Suivi des contacts pour la prospection food trucks. Mis a jour manuellement apre
 | 2026-03-21 | Truck 2 Food | contact@truck-2-food.fr | FR | pending | 100% viandes francaises, Montpellier |
 | 2026-03-21 | Travel Food Truck | contact@travelfoodtruck.fr | FR | pending | Cuisine du monde, menus rotatifs, Grenoble |
 
+### France (batch 2 - Claude Code)
+
+| Date | Nom | Email | Pays | Statut | Notes |
+|------|-----|-------|------|--------|-------|
+| 2026-03-21 | Food Truck Marianna | foodtruck.marianna@gmail.com | FR | envoye | Cuisine mobile, Mimizan |
+| 2026-03-21 | Che Empanadas | foodtruckche@gmail.com | FR | envoye | Empanadas argentines, Paris |
+| 2026-03-21 | Sukhumvit | contact.sukhumvit@gmail.com | FR | envoye | Street food thai, Paris 11e |
+| 2026-03-21 | Puccia Foodtruck | puccia.foodtruck@gmail.com | FR | envoye | Cuisine italienne, puccia, Paris |
+| 2026-03-21 | Nomad Food | nomadfood44@gmail.com | FR | envoye | Traiteur evenementiel, Nantes |
+| 2026-03-21 | Il etait une fouee | iletaitunefouee@gmail.com | FR | envoye | Fouees au four a bois, Nantes / Vendee |
+| 2026-03-21 | La Kitchenette | contact@lakitchenette.net | FR | envoye | Cuisine italienne, Nice / Cote d'Azur |
+| 2026-03-21 | La Camionnette | contact@lacamionnette.com | FR | envoye | Brochettes et comptoir mobile, Lyon |
+| 2026-03-21 | Appelez-moi Jacques | pauline@foodtruck-crepes.fr | FR | envoye | Crepes artisanales, Grenoble |
+| 2026-03-21 | Food Trucks Villages Gourmands | foodtrucksvg@gmail.com | FR | envoye | Collectif de food trucks, Aix-en-Provence |
+| 2026-03-21 | Breizh Food | contactbzhfood@yahoo.com | FR | envoye | Specialites bretonnes, Bordeaux / Gironde |
+| 2026-03-21 | Foodies Truck | foodiestruck@gmail.com | FR | envoye | Restaurant mobile, Dijon |
+| 2026-03-21 | Chez Mes Soeurs | traiteur@chezmessoeurs.fr | FR | envoye | Traiteur et food truck, Dijon |
+| 2026-03-21 | Comme Autrefois | contact@commeautrefois.com | FR | envoye | Burgers traditionnels, Rouen |
+
+### UK (batch 2 - Claude Code)
+
+| Date | Nom | Email | Pays | Statut | Notes |
+|------|-----|-------|------|--------|-------|
+| 2026-03-21 | Lazeez Street Food | lazeezstreetfood@gmail.com | UK | envoye | Middle Eastern street food, Edinburgh |
+| 2026-03-21 | Bears Street Food | leetaylorwintercottage@hotmail.co.uk | UK | envoye | Event street food catering, Leeds / Barnsley |
+
+### USA (batch 2 - Claude Code)
+
+| Date | Nom | Email | Pays | Statut | Notes |
+|------|-----|-------|------|--------|-------|
+| 2026-03-21 | Food Truck Avenue | info@foodtruckavenue.com | US | envoye | Chef-driven food truck catering, Denver CO |
+| 2026-03-21 | Fresh Food Generation | catering@freshfoodgeneration.com | US | envoye | Healthy food truck catering, Boston MA |
+| 2026-03-21 | Wicked Tasty Trucks | Info@wickedtastytrucks.com | US | envoye | New England comfort food |
+| 2026-03-21 | MIAFTA | info@miafta.org | US | envoye | Miami Food Truck Association, Miami FL |
+
 ---
 
 ## Historique
 
-_Aucun contact precedent avant cette session._
+_Session 2026-03-19 : 20 emails envoyes (8 FR, 5 UK, 7 US)._
+_Session 2026-03-21 : 20 emails envoyes batch 2 (14 FR, 2 UK, 4 US) + 20 pending batch 1._
