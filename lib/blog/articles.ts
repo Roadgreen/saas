@@ -9358,6 +9358,559 @@ Investing in an inventory management app is no longer a luxury for food trucks i
       "reduire-gaspillage-alimentaire-food-truck",
     ],
   },
+  {
+    slug: "calcul-prix-vente-food-truck",
+    title: {
+      fr: "Comment calculer le prix de vente de vos plats en food truck",
+      en: "How to Calculate Your Food Truck Dish Prices",
+    },
+    excerpt: {
+      fr: "Apprenez à calculer précisément le prix de vente de vos plats en food truck : food cost, charges fixes, marge. Une méthode simple pour être rentable dès le premier service.",
+      en: "Learn to precisely calculate food truck dish prices: food cost, fixed costs, margins. A simple method to be profitable from your very first service.",
+    },
+    category: { fr: "Gestion", en: "Management" },
+    date: "2026-03-21",
+    readTime: 11,
+    keywords: ["calcul prix vente food truck", "food cost food truck", "fixer prix plat food truck", "rentabilité food truck prix"],
+    heroImage: "/blog/rentabilite.png",
+    content: {
+      fr: `## Pourquoi le prix de vente est crucial en food truck
+
+Fixer le bon prix de vente est **la décision la plus impactante** que vous prendrez pour votre food truck. Trop bas, vous travaillez à perte sans même le savoir. Trop haut, vous faites fuir la clientèle. Et pourtant, une majorité de food truckers fixent leurs prix au feeling, en copiant la concurrence ou en appliquant un coefficient approximatif.
+
+Le résultat ? **Près de 60 % des food trucks ferment dans les 3 premières années**, et la sous-tarification est l'une des causes principales. Quand vous vendez un burger à 8 € alors que votre coût réel (matières + charges) est de 7,50 €, votre marge de 50 centimes ne couvre même pas un imprévu.
+
+### Le piège de la sous-tarification
+
+En food truck, la tentation est grande de proposer des prix attractifs pour attirer du monde. Mais contrairement à un restaurant avec 80 couverts par service, vous servez souvent entre 50 et 120 clients par jour. **Chaque euro compte davantage.** Si vous perdez 1 € de marge sur chaque plat et servez 80 plats, ce sont 80 € par jour perdus — soit plus de 1 600 € par mois.
+
+### Ce que vous allez apprendre
+
+Dans cet article, nous allons voir **une méthode complète et concrète** pour calculer le prix de vente de vos plats en food truck :
+- La méthode du food cost pourcentage
+- L'intégration des charges fixes
+- Le calcul de la marge nette visée
+- Les ajustements psychologiques et concurrentiels
+- Les erreurs classiques à éviter
+
+## La méthode du food cost % : la base de tout
+
+Le food cost (ou coût matière) est le rapport entre le coût des ingrédients d'un plat et son prix de vente. C'est **l'indicateur n°1** de la rentabilité en restauration.
+
+### La formule
+
+**Food cost % = (Coût des matières premières / Prix de vente HT) × 100**
+
+En restauration rapide et food truck, le food cost cible se situe généralement **entre 25 % et 35 %**. Au-delà de 35 %, votre marge devient trop faible pour couvrir vos charges et vous rémunérer correctement.
+
+Pour trouver le prix de vente minimum à partir du coût matière :
+
+**Prix de vente minimum = Coût matière / Food cost cible**
+
+### Exemple concret : le burger signature
+
+Prenons un burger signature avec les ingrédients suivants :
+- Pain brioché : 0,45 €
+- Steak haché 150g : 1,20 €
+- Cheddar affiné : 0,30 €
+- Salade, tomate, oignon : 0,25 €
+- Sauce maison : 0,15 €
+- Emballage : 0,20 €
+- Frites + barquette : 0,45 €
+
+**Coût matière total : 3,00 €**
+
+Avec un food cost cible de 30 % :
+- Prix de vente minimum = 3,00 € / 0,30 = **10,00 € HT**
+- En TTC (TVA 10 %) : **11,00 €**
+
+Avec un food cost cible de 25 % (plus confortable) :
+- Prix de vente = 3,00 € / 0,25 = **12,00 € HT**
+
+**Important** : le food cost de 30 % est un maximum, pas un objectif. Plus il est bas, plus vous avez de marge pour absorber les imprévus.
+
+### Calculer le food cost de chaque plat
+
+Pour être précis, vous devez connaître le coût exact de chaque ingrédient dans chaque plat. Cela implique de :
+1. **Peser chaque composant** de vos recettes
+2. **Calculer le prix au kilo** de chaque ingrédient (en incluant les pertes de parage)
+3. **Mettre à jour régulièrement** les prix fournisseurs (les matières premières fluctuent)
+
+C'est un travail fastidieux mais indispensable. Un outil comme **FoodTracks** automatise ce calcul en scannant vos factures fournisseurs et en le rapprochant de vos fiches recettes.
+
+## Intégrer les charges fixes dans le prix
+
+Le food cost ne raconte qu'une partie de l'histoire. Pour fixer un prix réellement rentable, vous devez intégrer vos **charges fixes** — ces coûts qui tombent que vous vendiez 0 ou 200 plats.
+
+### Les charges fixes typiques d'un food truck
+
+| Poste | Coût mensuel moyen |
+|-------|-------------------|
+| Assurance véhicule + RC pro | 150 – 300 € |
+| Carburant / déplacements | 200 – 500 € |
+| Stationnement / emplacements | 200 – 800 € |
+| Amortissement véhicule | 300 – 600 € |
+| Amortissement matériel cuisine | 100 – 200 € |
+| Bouteille de gaz | 50 – 100 € |
+| Comptable | 100 – 200 € |
+| CFE et cotisations | 100 – 300 € |
+| Électricité / groupe électrogène | 50 – 150 € |
+| Communication / marketing | 50 – 150 € |
+
+**Total charges fixes estimé : 1 300 à 3 300 € / mois**
+
+### Répartir les charges fixes par plat
+
+Pour intégrer ces charges dans votre prix, divisez le total de vos charges fixes par le nombre de plats vendus par mois.
+
+**Charge fixe par plat = Total charges fixes / Nombre de plats vendus par mois**
+
+Exemple :
+- Charges fixes mensuelles : 2 000 €
+- Nombre de plats vendus par mois : 1 500 (environ 75 par service, 20 services/mois)
+- **Charge fixe par plat : 2 000 / 1 500 = 1,33 €**
+
+Cela signifie que chaque plat vendu doit couvrir au minimum 1,33 € de charges fixes **en plus** du coût matière.
+
+### Le prix plancher
+
+Le **prix plancher** est le prix minimum en dessous duquel vous perdez de l'argent :
+
+**Prix plancher = Coût matière + Charge fixe par plat**
+
+Pour notre burger : 3,00 € + 1,33 € = **4,33 €**
+
+Vendre en dessous de 4,33 € signifie travailler à perte. Mais ce prix plancher ne vous laisse aucune marge — c'est le strict minimum.
+
+## Calculer sa marge nette visée
+
+La marge nette, c'est ce qui reste **après avoir payé toutes les charges** (matières premières, charges fixes, et votre rémunération). C'est votre bénéfice réel.
+
+### Définir un objectif de marge nette
+
+En food truck, un objectif de marge nette réaliste se situe entre **10 % et 20 %** du chiffre d'affaires. Pour un food trucker solo, viser 15 % est un bon équilibre.
+
+### La formule complète du prix de vente
+
+**Prix de vente = (Coût matière + Charge fixe par plat) / (1 - Marge nette visée)**
+
+Pour notre burger avec une marge nette de 15 % :
+- Prix de vente = 4,33 € / (1 - 0,15)
+- Prix de vente = 4,33 € / 0,85
+- **Prix de vente = 5,09 € HT minimum**
+
+Attendez — ce prix est bien inférieur aux 10 € calculés avec le food cost. C'est normal : **la méthode du food cost donne un prix plus élevé car elle intègre implicitement les charges fixes et la marge.** En pratique, vous devez retenir le prix le plus élevé des deux méthodes.
+
+### Le bon prix pour notre burger
+
+En combinant les deux approches :
+- Prix minimum food cost (30 %) : **10,00 € HT**
+- Prix minimum charges + marge : **5,09 € HT**
+
+Le bon prix se situe donc **à partir de 10,00 € HT**, soit 11,00 € TTC. Ce prix vous garantit un food cost maîtrisé ET une marge suffisante pour couvrir vos charges fixes et dégager un bénéfice.
+
+**Vérification** : sur un burger vendu 11 € TTC (10 € HT) :
+- Coût matière : 3,00 € (food cost 30 %)
+- Charges fixes : 1,33 €
+- **Marge nette : 5,67 €, soit 56,7 % du HT**
+
+C'est confortable. Sur 1 500 plats/mois, cela représente **8 505 € de marge nette mensuelle** avant rémunération — un revenu solide pour un food trucker solo.
+
+## Ajustement psychologique et concurrentiel
+
+Le calcul mathématique est essentiel, mais le prix final doit aussi tenir compte de la **perception client** et du **positionnement marché**.
+
+### Les prix psychologiques
+
+Certains prix passent mieux que d'autres dans l'esprit du client :
+- **Les prix ronds** (10 €, 12 €) fonctionnent bien en food truck car ils facilitent le rendu de monnaie et accélèrent le service
+- **Les prix en .50** (10,50 €, 11,50 €) sont un bon compromis entre précision et fluidité
+- **Évitez les prix en .99** (9,99 €) qui font discount et ne correspondent pas à l'image street food artisanale
+
+### Adapter au positionnement
+
+Votre prix communique un message :
+- **8-10 €** : food truck économique, volume élevé, marges serrées
+- **10-13 €** : food truck de qualité, bon rapport qualité-prix — **la zone idéale pour la plupart**
+- **13-16 €** : food truck gastronomique ou premium, produits d'exception
+- **16 € et plus** : traiteur événementiel, positionnement luxe
+
+### L'analyse concurrentielle intelligente
+
+Regarder les prix des concurrents est utile, mais ne tombez pas dans le piège de les copier aveuglément. Analysez plutôt :
+- **Leurs portions** : un concurrent à 9 € avec une portion de 200g n'est pas moins cher que vous à 12 € avec 350g
+- **Leur qualité d'ingrédients** : produits frais vs industriels
+- **Leur emplacement** : un food truck en centre-ville a des charges plus élevées qu'en zone industrielle
+- **Leur ancienneté** : un food truck établi peut se permettre des marges plus faibles grâce au volume
+
+## Les erreurs classiques de tarification en food truck
+
+### Erreur n°1 : Sous-estimer les charges réelles
+
+Beaucoup de food truckers oublient d'intégrer :
+- L'amortissement du véhicule (même payé, il perd de la valeur et devra être remplacé)
+- Les réparations et l'entretien
+- Les jours sans service (météo, maladie, panne)
+- Les cotisations sociales et impôts
+
+**Solution** : listez TOUTES vos charges sur 12 mois et divisez par le nombre de plats réellement vendus — pas le nombre théorique.
+
+### Erreur n°2 : Copier les prix de la concurrence sans calculer
+
+Un concurrent peut vendre à 8 € parce qu'il :
+- Utilise des ingrédients bas de gamme
+- Ne se rémunère pas correctement
+- A un véhicule amorti depuis longtemps
+- Travaille à perte sans le savoir
+
+**Solution** : calculez VOTRE prix de revient avant de regarder la concurrence. Ajustez ensuite si nécessaire, mais jamais en dessous de votre prix plancher.
+
+### Erreur n°3 : Ne pas mettre à jour ses prix
+
+Les prix des matières premières changent constamment. Le prix de la viande, de l'huile, de la farine a considérablement augmenté ces dernières années. Si vous n'ajustez pas vos prix, votre food cost grimpe silencieusement.
+
+**Solution** : recalculez votre food cost **chaque mois** et ajustez vos prix au moins tous les trimestres.
+
+### Erreur n°4 : Avoir un menu trop large
+
+Plus vous avez de plats, plus c'est difficile de maîtriser les coûts. Chaque plat supplémentaire :
+- Augmente le stock nécessaire
+- Complexifie la gestion des péremptions
+- Ralentit le service
+
+**Solution** : concentrez-vous sur **5 à 8 plats maximum** et maîtrisez parfaitement le food cost de chacun.
+
+### Erreur n°5 : Ignorer les plats les moins rentables
+
+Dans chaque menu, certains plats sont bien plus rentables que d'autres. Si 40 % de vos ventes viennent de votre plat le moins rentable, votre marge globale en souffre.
+
+**Solution** : analysez la rentabilité plat par plat. Améliorez les plats les moins rentables (réduire les portions, changer un ingrédient) ou remplacez-les.
+
+## Automatiser le suivi de vos prix et marges
+
+Calculer le prix de vente une fois ne suffit pas. Pour rester rentable, vous devez **suivre vos indicateurs en continu** :
+- Food cost réel vs food cost théorique
+- Marge par plat et par service
+- Évolution des prix fournisseurs
+- Impact des promotions et formules
+
+Faire tout cela manuellement sur un tableur est possible mais chronophage et source d'erreurs. C'est exactement pour cela que **[FoodTracks](/)** a été conçu : en connectant votre caisse SumUp et en scannant vos factures fournisseurs, vous obtenez automatiquement votre food cost réel, votre marge par plat et des alertes quand un produit dépasse le seuil de rentabilité.
+
+**[Essayez FoodTracks gratuitement](/fr/register)** et maîtrisez vos prix dès votre prochain service.
+
+## Conclusion
+
+Calculer le prix de vente de vos plats n'est pas un exercice théorique — c'est la fondation de la pérennité de votre food truck. En appliquant la méthode du food cost, en intégrant vos charges fixes et en visant une marge nette réaliste, vous passez d'une gestion au feeling à une gestion professionnelle.
+
+**Retenez cette règle simple** : votre food cost ne doit jamais dépasser 30-35 %, et votre prix de vente doit couvrir matières + charges + marge. Si vous respectez cela, vous êtes sur la voie de la rentabilité.
+
+Le calcul initial prend du temps, mais il vous fera économiser des milliers d'euros par an. Et avec des outils comme FoodTracks pour automatiser le suivi, vous pouvez vous concentrer sur l'essentiel : régaler vos clients.`,
+      en: `## Why Dish Pricing Is Crucial for Food Trucks
+
+Setting the right selling price is **the most impactful decision** you will make for your food truck. Too low and you work at a loss without even realizing it. Too high and you scare away customers. Yet a majority of food truck operators set their prices by gut feeling, copying competitors, or applying a rough multiplier.
+
+The result? **Nearly 60% of food trucks close within the first 3 years**, and underpricing is one of the leading causes. When you sell a burger for €8 while your true cost (ingredients + overheads) is €7.50, your 50-cent margin does not even cover a single unexpected expense.
+
+### The Underpricing Trap
+
+In the food truck world, the temptation to offer attractive prices to draw crowds is strong. But unlike a sit-down restaurant with 80 covers per service, you typically serve between 50 and 120 customers per day. **Every euro matters more.** If you lose €1 of margin on each dish and serve 80 dishes, that is €80 per day gone — over €1,600 per month.
+
+### What You Will Learn
+
+In this article, we will cover **a complete, practical method** to calculate selling prices for your food truck dishes:
+- The food cost percentage method
+- Integrating fixed costs
+- Targeting a net margin
+- Psychological and competitive pricing adjustments
+- Classic mistakes to avoid
+
+## The Food Cost % Method: The Foundation
+
+Food cost is the ratio between the ingredient cost of a dish and its selling price. It is **the number-one indicator** of profitability in the food service industry.
+
+### The Formula
+
+**Food cost % = (Raw material cost / Selling price excl. tax) × 100**
+
+In quick-service restaurants and food trucks, the target food cost generally falls **between 25% and 35%**. Above 35%, your margin becomes too thin to cover overheads and pay yourself properly.
+
+To find the minimum selling price from the ingredient cost:
+
+**Minimum selling price = Ingredient cost / Target food cost**
+
+### Worked Example: The Signature Burger
+
+Consider a signature burger with the following ingredients:
+- Brioche bun: €0.45
+- 150g beef patty: €1.20
+- Aged cheddar: €0.30
+- Lettuce, tomato, onion: €0.25
+- House sauce: €0.15
+- Packaging: €0.20
+- Fries + tray: €0.45
+
+**Total ingredient cost: €3.00**
+
+With a target food cost of 30%:
+- Minimum selling price = €3.00 / 0.30 = **€10.00 excl. tax**
+- Including VAT (10%): **€11.00**
+
+With a target food cost of 25% (more comfortable):
+- Selling price = €3.00 / 0.25 = **€12.00 excl. tax**
+
+**Important**: a 30% food cost is a ceiling, not a target. The lower it is, the more margin you have to absorb the unexpected.
+
+### Calculating Food Cost for Every Dish
+
+To be accurate, you must know the exact cost of every ingredient in every dish. This means:
+1. **Weighing each component** of your recipes
+2. **Calculating the per-kilo price** of each ingredient (including trim loss)
+3. **Regularly updating** supplier prices (raw materials fluctuate)
+
+This is tedious but essential work. A tool like **FoodTracks** automates these calculations by scanning your supplier invoices and matching them to your recipe cards.
+
+## Integrating Fixed Costs Into Your Prices
+
+Food cost only tells part of the story. To set a genuinely profitable price, you must factor in your **fixed costs** — expenses that hit whether you sell 0 or 200 dishes.
+
+### Typical Food Truck Fixed Costs
+
+| Item | Average Monthly Cost |
+|------|---------------------|
+| Vehicle insurance + liability | €150 – €300 |
+| Fuel / travel | €200 – €500 |
+| Pitch / location fees | €200 – €800 |
+| Vehicle depreciation | €300 – €600 |
+| Kitchen equipment depreciation | €100 – €200 |
+| Gas bottle | €50 – €100 |
+| Accountant | €100 – €200 |
+| Business tax and contributions | €100 – €300 |
+| Electricity / generator | €50 – €150 |
+| Marketing / communications | €50 – €150 |
+
+**Estimated total fixed costs: €1,300 to €3,300 / month**
+
+### Spreading Fixed Costs Per Dish
+
+To integrate these costs into your price, divide total fixed costs by the number of dishes sold per month.
+
+**Fixed cost per dish = Total fixed costs / Dishes sold per month**
+
+Example:
+- Monthly fixed costs: €2,000
+- Dishes sold per month: 1,500 (roughly 75 per service, 20 services/month)
+- **Fixed cost per dish: €2,000 / 1,500 = €1.33**
+
+This means every dish sold must cover at least €1.33 of fixed costs **on top of** the ingredient cost.
+
+### The Floor Price
+
+The **floor price** is the minimum price below which you lose money:
+
+**Floor price = Ingredient cost + Fixed cost per dish**
+
+For our burger: €3.00 + €1.33 = **€4.33**
+
+Selling below €4.33 means working at a loss. But this floor price leaves zero margin — it is the bare minimum.
+
+## Calculating Your Target Net Margin
+
+Net margin is what remains **after paying all costs** (raw materials, fixed costs, and your own salary). It is your real profit.
+
+### Setting a Net Margin Target
+
+For food trucks, a realistic net margin target is between **10% and 20%** of revenue. For a solo operator, aiming for 15% is a good balance.
+
+### The Complete Selling Price Formula
+
+**Selling price = (Ingredient cost + Fixed cost per dish) / (1 - Target net margin)**
+
+For our burger with a 15% net margin target:
+- Selling price = €4.33 / (1 - 0.15)
+- Selling price = €4.33 / 0.85
+- **Selling price = €5.09 excl. tax minimum**
+
+Wait — this price is well below the €10 calculated using food cost. That is normal: **the food cost method yields a higher price because it implicitly covers fixed costs and margin.** In practice, you should always use the higher price from the two methods.
+
+### The Right Price for Our Burger
+
+Combining both approaches:
+- Minimum food cost price (30%): **€10.00 excl. tax**
+- Minimum costs + margin price: **€5.09 excl. tax**
+
+The right price is therefore **from €10.00 excl. tax**, i.e. €11.00 incl. tax. This price guarantees a controlled food cost AND enough margin to cover fixed costs and generate profit.
+
+**Verification**: on a burger sold at €11 incl. tax (€10 excl. tax):
+- Ingredient cost: €3.00 (30% food cost)
+- Fixed costs: €1.33
+- **Net margin: €5.67, i.e. 56.7% of excl. tax price**
+
+That is comfortable. Over 1,500 dishes/month, that represents **€8,505 in monthly net margin** before salary — a solid income for a solo food truck operator.
+
+## Psychological and Competitive Adjustments
+
+The mathematical calculation is essential, but the final price must also account for **customer perception** and **market positioning**.
+
+### Psychological Pricing
+
+Some prices work better than others in the customer's mind:
+- **Round prices** (€10, €12) work well for food trucks because they simplify change-making and speed up service
+- **Prices ending in .50** (€10.50, €11.50) are a good compromise between precision and fluidity
+- **Avoid .99 prices** (€9.99) which look discounted and do not match the artisanal street food image
+
+### Positioning Through Price
+
+Your price communicates a message:
+- **€8-10**: budget food truck, high volume, tight margins
+- **€10-13**: quality food truck, good value for money — **the sweet spot for most operators**
+- **€13-16**: gourmet or premium food truck, exceptional ingredients
+- **€16+**: event catering, luxury positioning
+
+### Smart Competitive Analysis
+
+Looking at competitor prices is useful, but do not fall into the trap of copying them blindly. Instead, analyse:
+- **Their portions**: a competitor at €9 with a 200g portion is not cheaper than you at €12 with 350g
+- **Their ingredient quality**: fresh vs industrial products
+- **Their location**: a city-centre food truck has higher overheads than one in an industrial zone
+- **Their tenure**: an established food truck can afford thinner margins thanks to volume
+
+## Classic Pricing Mistakes in Food Trucks
+
+### Mistake #1: Underestimating True Costs
+
+Many food truck operators forget to factor in:
+- Vehicle depreciation (even if paid off, it loses value and will need replacing)
+- Repairs and maintenance
+- Days without service (weather, illness, breakdowns)
+- Social contributions and taxes
+
+**Solution**: list ALL your costs over 12 months and divide by the number of dishes actually sold — not the theoretical number.
+
+### Mistake #2: Copying Competitor Prices Without Calculating
+
+A competitor may sell at €8 because they:
+- Use low-quality ingredients
+- Do not pay themselves properly
+- Have a vehicle that has been fully depreciated for years
+- Are working at a loss without knowing it
+
+**Solution**: calculate YOUR cost price before looking at the competition. Adjust afterwards if needed, but never below your floor price.
+
+### Mistake #3: Not Updating Prices
+
+Raw material prices change constantly. The cost of meat, oil, and flour has increased significantly in recent years. If you do not adjust your prices, your food cost creeps up silently.
+
+**Solution**: recalculate your food cost **every month** and adjust your prices at least every quarter.
+
+### Mistake #4: Having Too Many Menu Items
+
+The more dishes you offer, the harder it is to control costs. Each additional dish:
+- Increases required stock
+- Complicates expiry date management
+- Slows down service
+
+**Solution**: focus on **5 to 8 dishes maximum** and master the food cost of each one.
+
+### Mistake #5: Ignoring Least Profitable Dishes
+
+In every menu, some dishes are far more profitable than others. If 40% of your sales come from your least profitable dish, your overall margin suffers.
+
+**Solution**: analyse profitability dish by dish. Improve the least profitable ones (reduce portions, swap an ingredient) or replace them entirely.
+
+## Automate Your Price and Margin Tracking
+
+Calculating selling prices once is not enough. To stay profitable, you must **track your metrics continuously**:
+- Actual food cost vs theoretical food cost
+- Margin per dish and per service
+- Supplier price trends
+- Impact of promotions and meal deals
+
+Doing all this manually on a spreadsheet is possible but time-consuming and error-prone. This is exactly what **[FoodTracks](/)** was built for: by connecting your SumUp POS and scanning your supplier invoices, you automatically get your real food cost, margin per dish, and alerts when a product exceeds the profitability threshold.
+
+**[Try FoodTracks for free](/en/register)** and take control of your prices from your very next service.
+
+## Conclusion
+
+Calculating your dish selling prices is not an academic exercise — it is the foundation of your food truck's long-term survival. By applying the food cost method, integrating your fixed costs, and targeting a realistic net margin, you move from gut-feel management to professional management.
+
+**Remember this simple rule**: your food cost should never exceed 30-35%, and your selling price must cover ingredients + overheads + margin. If you respect that, you are on the path to profitability.
+
+The initial calculation takes time, but it will save you thousands of euros per year. And with tools like FoodTracks to automate the tracking, you can focus on what matters most: delighting your customers.`,
+    },
+    keyTakeaways: {
+      fr: [
+        "Le food cost cible en food truck doit rester entre 25 % et 35 % — au-delà, votre marge est insuffisante.",
+        "Prix plancher = coût matière + charges fixes par plat. Ne vendez jamais en dessous.",
+        "Recalculez votre food cost chaque mois et ajustez vos prix au moins chaque trimestre.",
+        "Limitez votre carte à 5-8 plats pour maîtriser parfaitement chaque coût de revient.",
+        "Utilisez un outil comme FoodTracks pour automatiser le suivi de vos marges en temps réel.",
+      ],
+      en: [
+        "Target food cost for a food truck should stay between 25% and 35% — above that, your margin is insufficient.",
+        "Floor price = ingredient cost + fixed costs per dish. Never sell below this.",
+        "Recalculate your food cost every month and adjust prices at least every quarter.",
+        "Limit your menu to 5-8 dishes to perfectly control each cost of goods.",
+        "Use a tool like FoodTracks to automate real-time margin tracking.",
+      ],
+    },
+    faqItems: [
+      {
+        question: {
+          fr: "Quel food cost viser pour un food truck rentable ?",
+          en: "What food cost should you target for a profitable food truck?",
+        },
+        answer: {
+          fr: "Le food cost idéal en food truck se situe entre 25 % et 30 % du prix de vente HT. À 25 %, vous avez une marge confortable qui absorbe les imprévus. À 35 %, c'est la limite haute : au-delà, vos charges fixes et votre rémunération ne sont plus couvertes. Pour un burger dont les ingrédients coûtent 3 €, visez un prix de vente HT d'au moins 10 € (food cost 30 %).",
+          en: "The ideal food cost for a food truck is between 25% and 30% of the selling price excluding tax. At 25%, you have a comfortable margin that absorbs unexpected costs. At 35%, you are at the upper limit: beyond that, your fixed costs and salary are no longer covered. For a burger with €3 in ingredients, aim for a selling price of at least €10 excl. tax (30% food cost).",
+        },
+      },
+      {
+        question: {
+          fr: "Comment calculer le prix plancher d'un plat en food truck ?",
+          en: "How do you calculate the floor price of a food truck dish?",
+        },
+        answer: {
+          fr: "Le prix plancher = coût des matières premières + charges fixes par plat. Pour obtenir les charges fixes par plat, additionnez toutes vos charges mensuelles (assurance, carburant, emplacements, amortissement, gaz, comptable, etc.) et divisez par le nombre total de plats vendus dans le mois. En dessous de ce prix, vous travaillez à perte.",
+          en: "The floor price = raw material cost + fixed costs per dish. To get the fixed cost per dish, add up all your monthly overheads (insurance, fuel, pitch fees, depreciation, gas, accountant, etc.) and divide by the total number of dishes sold that month. Below this price, you are working at a loss.",
+        },
+      },
+      {
+        question: {
+          fr: "Faut-il appliquer des prix ronds ou des prix en .99 en food truck ?",
+          en: "Should food trucks use round prices or .99 pricing?",
+        },
+        answer: {
+          fr: "Privilégiez les prix ronds (10 €, 12 €) ou en .50 (10,50 €). Ils facilitent le rendu de monnaie, accélèrent le service et correspondent mieux à l'image artisanale du food truck. Les prix en .99 font trop « discount » et ne s'accordent pas avec un positionnement street food de qualité.",
+          en: "Favour round prices (€10, €12) or .50 endings (€10.50). They simplify change-making, speed up service, and better match the artisanal food truck image. Prices ending in .99 look too 'discount' and do not suit a quality street food positioning.",
+        },
+      },
+      {
+        question: {
+          fr: "À quelle fréquence faut-il recalculer ses prix en food truck ?",
+          en: "How often should you recalculate food truck prices?",
+        },
+        answer: {
+          fr: "Recalculez votre food cost chaque mois en comparant le coût réel des matières premières à votre food cost théorique. Ajustez vos prix de vente au moins une fois par trimestre, ou immédiatement si le coût d'un ingrédient majeur augmente de plus de 10 %. Les matières premières fluctuent : ne pas ajuster vos prix grignote silencieusement votre marge.",
+          en: "Recalculate your food cost every month by comparing actual raw material costs to your theoretical food cost. Adjust your selling prices at least once per quarter, or immediately if a key ingredient cost rises by more than 10%. Raw material prices fluctuate: not adjusting your prices silently erodes your margin.",
+        },
+      },
+      {
+        question: {
+          fr: "Combien de plats maximum devrait proposer un food truck ?",
+          en: "How many dishes should a food truck offer at most?",
+        },
+        answer: {
+          fr: "Idéalement entre 5 et 8 plats. Un menu trop large augmente le stock nécessaire, complique la gestion des péremptions, ralentit le service et rend le suivi du food cost par plat quasi impossible. Mieux vaut 6 plats parfaitement maîtrisés qu'une carte de 15 plats dont la moitié perd de l'argent.",
+          en: "Ideally between 5 and 8 dishes. A menu that is too large increases required stock, complicates expiry management, slows down service, and makes per-dish food cost tracking nearly impossible. It is better to have 6 perfectly controlled dishes than a 15-item menu where half of them lose money.",
+        },
+      },
+    ],
+    relatedSlugs: [
+      "tableau-de-bord-kpi-food-truck",
+      "optimiser-marges-food-truck-analyse-donnees",
+      "etude-gaspillage-food-truck-cout-reel",
+    ],
+  },
 ];
 
 export function getArticleBySlug(slug: string): BlogArticle | undefined {
