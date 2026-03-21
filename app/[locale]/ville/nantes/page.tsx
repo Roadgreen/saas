@@ -26,8 +26,8 @@ export async function generateMetadata({
   const isFr = locale === 'fr';
 
   const title = isFr
-    ? 'Logiciel Gestion Food Truck Nantes — Île de Nantes & Marchés | FoodTracks'
-    : 'Food Truck Management Software Nantes — Île de Nantes & Markets | FoodTracks';
+    ? 'Logiciel Gestion Food Truck Nantes — Île de Nantes & Marchés'
+    : 'Food Truck Management Software Nantes — Île de Nantes & Markets';
   const description = isFr
     ? 'Gérez votre food truck à Nantes avec FoodTracks : stock en temps réel, prédictions IA adaptées aux événements nantais et aux marchés locaux. Plan gratuit disponible.'
     : 'Manage your Nantes food truck with FoodTracks: real-time inventory, AI predictions adapted to Nantes events and local markets. Free plan available.';

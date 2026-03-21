@@ -26,8 +26,8 @@ export async function generateMetadata({
   const isFr = locale === 'fr';
 
   const title = isFr
-    ? 'Logiciel Gestion Food Truck Strasbourg — Stock & Prédictions IA | FoodTracks'
-    : 'Food Truck Management Software Strasbourg — Inventory & AI Forecasting | FoodTracks';
+    ? 'Logiciel Gestion Food Truck Strasbourg — Stock & Prédictions IA'
+    : 'Food Truck Management Software Strasbourg — Inventory & AI Forecasting';
   const description = isFr
     ? 'Gérez votre food truck à Strasbourg avec FoodTracks : gestion de stock en temps réel, prédictions IA adaptées au Marché de Noël, au tourisme alsacien et à l\'Eurométropole. Plan gratuit disponible.'
     : 'Manage your Strasbourg food truck with FoodTracks: real-time inventory, AI predictions adapted to the Christmas Market, Alsatian tourism and the Eurometropolis. Free plan available.';

@@ -26,8 +26,8 @@ export async function generateMetadata({
   const isFr = locale === 'fr';
 
   const title = isFr
-    ? 'Logiciel Gestion Food Truck Lyon — Gastronomie & Festivals | FoodTracks'
-    : 'Food Truck Management Software Lyon — Gastronomy & Festivals | FoodTracks';
+    ? 'Logiciel Gestion Food Truck Lyon — Gastronomie & Festivals'
+    : 'Food Truck Management Software Lyon — Gastronomy & Festivals';
   const description = isFr
     ? 'Gérez votre food truck à Lyon avec FoodTracks : gestion de stock, prédictions IA adaptées à la scène gastronomique lyonnaise et aux festivals. Plan gratuit disponible.'
     : 'Manage your Lyon food truck with FoodTracks: inventory management, AI predictions adapted to Lyon\'s gastronomy scene and festivals. Free plan available.';

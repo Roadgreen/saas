@@ -26,8 +26,8 @@ export async function generateMetadata({
   const isFr = locale === 'fr';
 
   const title = isFr
-    ? 'Logiciel Gestion Food Truck Paris — Stock & Prédictions IA | FoodTracks'
-    : 'Food Truck Management Software Paris — Inventory & AI Forecasting | FoodTracks';
+    ? 'Logiciel Gestion Food Truck Paris — Stock & Prédictions IA'
+    : 'Food Truck Management Software Paris — Inventory & AI Forecasting';
   const description = isFr
     ? 'Gérez votre food truck à Paris avec FoodTracks : gestion de stock en temps réel, prédictions IA adaptées aux marchés parisiens et au tourisme. Plan gratuit disponible.'
     : 'Manage your Paris food truck with FoodTracks: real-time inventory, AI predictions adapted to Parisian markets and tourism. Free plan available.';

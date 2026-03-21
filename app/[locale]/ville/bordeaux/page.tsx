@@ -26,8 +26,8 @@ export async function generateMetadata({
   const isFr = locale === 'fr';
 
   const title = isFr
-    ? 'Logiciel Gestion Food Truck Bordeaux — Quais & Événements | FoodTracks'
-    : 'Food Truck Management Software Bordeaux — Quays & Events | FoodTracks';
+    ? 'Logiciel Gestion Food Truck Bordeaux — Quais & Événements'
+    : 'Food Truck Management Software Bordeaux — Quays & Events';
   const description = isFr
     ? 'Gérez votre food truck à Bordeaux avec FoodTracks : gestion de stock, prédictions IA adaptées aux événements des quais et à l\'agenda bordelais. Plan gratuit disponible.'
     : 'Manage your Bordeaux food truck with FoodTracks: inventory management, AI predictions adapted to riverside events and Bordeaux\'s agenda. Free plan available.';

@@ -20,8 +20,8 @@ export async function generateMetadata({
   const { locale } = await params;
   const isFr = locale === 'fr';
   const title = isFr
-    ? 'Blog Gestion Food Truck — Guides, Conseils & Stratégies | FoodTracks'
-    : 'Food Truck Management Blog — Guides, Tips & Strategies | FoodTracks';
+    ? 'Blog Gestion Food Truck — Guides, Conseils & Stratégies'
+    : 'Food Truck Management Blog — Guides, Tips & Strategies';
   const description = isFr
     ? 'Guides pratiques et stratégies pour gérer votre food truck : gestion de stock, meilleurs emplacements, rentabilité, réglementation, prédictions de ventes et réduction du gaspillage.'
     : 'Practical guides and strategies for food truck management: inventory control, best locations, profitability, regulations, sales predictions and waste reduction.';

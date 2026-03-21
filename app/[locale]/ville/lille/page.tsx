@@ -26,8 +26,8 @@ export async function generateMetadata({
   const isFr = locale === 'fr';
 
   const title = isFr
-    ? 'Logiciel Gestion Food Truck Lille — Stock & Prédictions IA | FoodTracks'
-    : 'Food Truck Management Software Lille — Inventory & AI Forecasting | FoodTracks';
+    ? 'Logiciel Gestion Food Truck Lille — Stock & Prédictions IA'
+    : 'Food Truck Management Software Lille — Inventory & AI Forecasting';
   const description = isFr
     ? 'Gérez votre food truck à Lille avec FoodTracks : gestion de stock en temps réel, prédictions IA adaptées à la Braderie, au marché de Wazemmes et à Lille Métropole. Plan gratuit disponible.'
     : 'Manage your Lille food truck with FoodTracks: real-time inventory, AI predictions adapted to the Braderie, Wazemmes market and Lille Métropole. Free plan available.';

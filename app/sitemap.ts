@@ -35,6 +35,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: '/comparatif/inpulse-vs-foodtracks',   changeFrequency: 'monthly', priority: 0.8, lastModified: '2026-03-15' },
     { path: '/comparatif/marketman-vs-foodtracks', changeFrequency: 'monthly', priority: 0.8, lastModified: '2026-03-15' },
     { path: '/comparatif/melba-vs-foodtracks',     changeFrequency: 'monthly', priority: 0.8, lastModified: '2026-03-20' },
+    { path: '/food-truck-management-software', changeFrequency: 'monthly', priority: 0.8, lastModified: '2026-03-15' },
     { path: '/privacy',          changeFrequency: 'yearly',  priority: 0.3, lastModified: '2025-12-01' },
     { path: '/terms',            changeFrequency: 'yearly',  priority: 0.3, lastModified: '2025-12-01' },
   ];

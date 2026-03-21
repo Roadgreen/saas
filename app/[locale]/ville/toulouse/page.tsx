@@ -26,8 +26,8 @@ export async function generateMetadata({
   const isFr = locale === 'fr';
 
   const title = isFr
-    ? 'Logiciel Gestion Food Truck Toulouse — Capitole & Marchés Occitans | FoodTracks'
-    : 'Food Truck Management Software Toulouse — Capitole & Occitan Markets | FoodTracks';
+    ? 'Logiciel Gestion Food Truck Toulouse — Capitole & Marchés Occitans'
+    : 'Food Truck Management Software Toulouse — Capitole & Occitan Markets';
   const description = isFr
     ? 'Gérez votre food truck à Toulouse avec FoodTracks : stock en temps réel, prédictions IA adaptées aux marchés toulousains et à la vie étudiante. Plan gratuit disponible.'
     : 'Manage your Toulouse food truck with FoodTracks: real-time inventory, AI predictions adapted to Toulouse markets and student life. Free plan available.';

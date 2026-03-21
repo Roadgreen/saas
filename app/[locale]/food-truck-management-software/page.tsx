@@ -24,8 +24,8 @@ export async function generateMetadata({
   const isFr = locale === 'fr';
 
   const title = isFr
-    ? 'Meilleur Logiciel de Gestion Food Truck 2026 | FoodTracks'
-    : 'Best Food Truck Management Software 2026 | FoodTracks UK & US';
+    ? 'Meilleur Logiciel de Gestion Food Truck 2026'
+    : 'Best Food Truck Management Software 2026 — UK & US';
   const description = isFr
     ? 'FoodTracks : le logiciel de gestion food truck le plus complet. IA prédictive, scan d\'inventaire, intégration SumUp. Réduit le gaspillage de 32%. Gratuit pour commencer.'
     : 'FoodTracks: #1 food truck management software for UK & US operators. AI demand forecasting, invoice scanning, SumUp integration. Reduces food waste by 32%, saves 2h/week on admin. Free plan, no credit card.';

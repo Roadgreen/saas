@@ -7,7 +7,7 @@ const BASE_URL = 'https://foodtracks.io';
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
   const isFr = locale === 'fr';
-  const title = isFr ? 'Guides — FoodTracks' : 'Guides — FoodTracks';
+  const title = isFr ? 'Guides Food Truck — Conseils, Tutoriels & Stratégies' : 'Food Truck Guides — Tips, Tutorials & Strategies';
   const description = isFr
     ? 'Guides pratiques pour maîtriser FoodTracks : scan de produits, gestion de stock, prédictions IA et plus.'
     : 'Practical guides to master FoodTracks: product scanning, stock management, AI predictions and more.';

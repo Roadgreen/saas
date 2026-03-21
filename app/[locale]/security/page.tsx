@@ -7,7 +7,7 @@ const BASE_URL = 'https://foodtracks.io';
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
   const isFr = locale === 'fr';
-  const title = isFr ? 'Sécurité des données — FoodTracks' : 'Data Security — FoodTracks';
+  const title = isFr ? 'Sécurité des Données Food Truck — Chiffrement & RGPD' : 'Food Truck Data Security — Encryption & GDPR Compliance';
   const description = isFr
     ? 'Découvrez comment FoodTracks protège vos données : chiffrement, hébergement européen, conformité RGPD.'
     : 'Learn how FoodTracks protects your data: encryption, European hosting, GDPR compliance.';

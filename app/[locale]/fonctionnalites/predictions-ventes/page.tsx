@@ -17,8 +17,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const { locale } = await params;
   const isFr = locale === 'fr';
   const title = isFr
-    ? 'Prédictions de Ventes Food Truck par IA — Météo & Historique | FoodTracks'
-    : 'AI Food Truck Sales Forecasting — Weather & History | FoodTracks';
+    ? 'Prédictions de Ventes Food Truck par IA — Météo & Historique'
+    : 'AI Food Truck Sales Forecasting — Weather & History';
   const description = isFr
     ? 'Anticipez vos ventes food truck à 85 % de précision grâce à l\'IA FoodTracks. Prédictions basées sur la météo, l\'emplacement et votre historique. Gratuit.'
     : 'Forecast your food truck sales with 85% accuracy using FoodTracks AI. Predictions based on weather, location and your history. Free.';

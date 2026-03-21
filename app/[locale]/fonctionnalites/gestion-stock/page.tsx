@@ -17,8 +17,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const { locale } = await params;
   const isFr = locale === 'fr';
   const title = isFr
-    ? 'Gestion de Stock Food Truck en Temps Réel — Alertes & Historique | FoodTracks'
-    : 'Real-Time Food Truck Inventory Management — Alerts & History | FoodTracks';
+    ? 'Gestion de Stock Food Truck en Temps Réel — Alertes & Historique'
+    : 'Real-Time Food Truck Inventory Management — Alerts & History';
   const description = isFr
     ? 'Gérez le stock de votre food truck en temps réel avec FoodTracks. Scan des arrivages, alertes de seuils, historique complet. Réduisez le gaspillage de 30 %. Gratuit.'
     : 'Manage your food truck inventory in real time with FoodTracks. Scan deliveries, threshold alerts, full history. Reduce waste by 30%. Free.';

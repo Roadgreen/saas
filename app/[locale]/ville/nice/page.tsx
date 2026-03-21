@@ -26,8 +26,8 @@ export async function generateMetadata({
   const isFr = locale === 'fr';
 
   const title = isFr
-    ? 'Logiciel Gestion Food Truck Nice — Stock & Prédictions IA | FoodTracks'
-    : 'Food Truck Management Software Nice — Inventory & AI Forecasting | FoodTracks';
+    ? 'Logiciel Gestion Food Truck Nice — Stock & Prédictions IA'
+    : 'Food Truck Management Software Nice — Inventory & AI Forecasting';
   const description = isFr
     ? 'Gérez votre food truck à Nice avec FoodTracks : gestion de stock en temps réel, prédictions IA adaptées à la Côte d\'Azur, au Carnaval de Nice et au tourisme estival. Plan gratuit disponible.'
     : 'Manage your Nice food truck with FoodTracks: real-time inventory, AI predictions adapted to the Côte d\'Azur, Nice Carnival and summer tourism. Free plan available.';

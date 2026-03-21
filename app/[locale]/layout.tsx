@@ -83,7 +83,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       description: meta.description,
       url,
       siteName: 'FoodTracks',
-      images: [{ url: `${BASE_URL}/og-image.png`, width: 1200, height: 630, alt: 'FoodTracks — Restaurant inventory management' }],
+      images: [{ url: `${BASE_URL}/og-image.png`, width: 1200, height: 630, alt: locale === 'fr' ? 'FoodTracks — Gestion de stock pour food trucks et restaurants' : 'FoodTracks — Inventory management for food trucks and restaurants' }],
       locale: locale === 'fr' ? 'fr_FR' : 'en_US',
       type: 'website',
     },

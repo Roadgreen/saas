@@ -27,8 +27,8 @@ export async function generateMetadata({
   const isFr = locale === 'fr';
 
   const title = isFr
-    ? 'Guide complet gestion food truck 2026 | FoodTracks'
-    : 'Complete Food Truck Management Guide 2026 | FoodTracks';
+    ? 'Guide Complet Gestion Food Truck 2026 — Stock, Ventes & Rentabilité'
+    : 'Complete Food Truck Management Guide 2026 — Inventory, Sales & Profit';
   const description = isFr
     ? 'Guide complet pour gérer votre food truck en 2026 : gestion des stocks, comptabilité, emplacements, prévisions de ventes, réglementation et outils. Tout ce qu\'il faut savoir pour optimiser et rentabiliser votre activité.'
     : 'Complete guide to managing your food truck in 2026: inventory management, accounting, locations, sales forecasting, regulations and tools. Everything you need to optimize and profitize your business.';

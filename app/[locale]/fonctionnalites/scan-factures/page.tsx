@@ -17,8 +17,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const { locale } = await params;
   const isFr = locale === 'fr';
   const title = isFr
-    ? 'Scan de Factures Food Truck — OCR Automatique | FoodTracks'
-    : 'Food Truck Invoice Scanning — Automatic OCR | FoodTracks';
+    ? 'Scan de Factures Food Truck — OCR Automatique'
+    : 'Food Truck Invoice Scanning — Automatic OCR';
   const description = isFr
     ? 'Numérisez vos factures fournisseurs en 2 secondes avec l\'OCR FoodTracks. Stock mis à jour automatiquement, zéro saisie manuelle. Gratuit.'
     : 'Digitize your supplier invoices in 2 seconds with FoodTracks OCR. Stock updates automatically, zero manual entry. Free.';

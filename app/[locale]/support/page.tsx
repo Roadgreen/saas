@@ -7,10 +7,10 @@ const BASE_URL = 'https://foodtracks.io';
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
   const isFr = locale === 'fr';
-  const title = isFr ? 'Support — FoodTracks' : 'Support — FoodTracks';
+  const title = isFr ? 'Support & Aide Food Truck — Contactez-nous' : 'Food Truck Software Support — Contact Us';
   const description = isFr
-    ? 'Besoin d\'aide avec FoodTracks ? Contactez notre équipe support ou consultez notre FAQ.'
-    : 'Need help with FoodTracks? Contact our support team or check our FAQ.';
+    ? 'Besoin d\'aide avec FoodTracks ? Contactez notre équipe support francophone par email, consultez notre FAQ ou parcourez nos guides pour food trucks et restaurants.'
+    : 'Need help with FoodTracks? Contact our French-speaking support team by email, check our FAQ or browse our guides for food trucks and restaurants.';
   return {
     title,
     description,

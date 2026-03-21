@@ -27,8 +27,8 @@ export async function generateMetadata({
   const isFr = locale === 'fr';
 
   const title = isFr
-    ? 'Réglementation Food Truck en France 2026 — Guide Complet | FoodTracks'
-    : 'Food Truck Regulations in France 2026 — Complete Guide | FoodTracks';
+    ? 'Réglementation Food Truck en France 2026 — Guide Complet'
+    : 'Food Truck Regulations in France 2026 — Complete Guide';
   const description = isFr
     ? 'Guide complet de la réglementation food truck en France : permis, hygiène HACCP, assurances, TVA, emplacements. Sources officielles et conseils pratiques pour être en règle.'
     : 'Complete guide to food truck regulations in France: permits, HACCP hygiene, insurance, VAT, locations. Official sources and practical advice for full compliance.';

@@ -10,8 +10,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const isFr = locale === 'fr';
   const title = isFr ? 'Politique de Confidentialité' : 'Privacy Policy';
   const description = isFr
-    ? 'Politique de confidentialité de FoodTracks. Comment nous protégeons vos données personnelles.'
-    : 'FoodTracks privacy policy. How we protect your personal data.';
+    ? 'Politique de confidentialité de FoodTracks : collecte, traitement et protection de vos données personnelles. Hébergement européen, conformité RGPD et droits des utilisateurs.'
+    : 'FoodTracks privacy policy: data collection, processing and protection of your personal information. European hosting, GDPR compliance and user rights.';
   return {
     title,
     description,

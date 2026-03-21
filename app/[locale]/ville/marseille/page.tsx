@@ -26,8 +26,8 @@ export async function generateMetadata({
   const isFr = locale === 'fr';
 
   const title = isFr
-    ? 'Logiciel Gestion Food Truck Marseille — Vieux-Port & Événements | FoodTracks'
-    : 'Food Truck Management Software Marseille — Old Port & Events | FoodTracks';
+    ? 'Logiciel Gestion Food Truck Marseille — Vieux-Port & Événements'
+    : 'Food Truck Management Software Marseille — Old Port & Events';
   const description = isFr
     ? 'Gérez votre food truck à Marseille avec FoodTracks : stock en temps réel, prédictions IA adaptées au Vieux-Port, aux calanques et aux événements provençaux. Gratuit.'
     : 'Manage your Marseille food truck with FoodTracks: real-time inventory, AI predictions adapted to the Old Port, calanques and Provençal events. Free plan.';

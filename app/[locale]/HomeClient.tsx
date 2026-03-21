@@ -1177,6 +1177,7 @@ export default function HomeClient() {
               <ul className="space-y-3 text-sm" style={{ color: '#4B5563' }}>
                 <li><a href="#fonctionnalites" className="hover:text-gray-300 transition-colors">{t('footer.features')}</a></li>
                 <li><Link href={`/${locale}/pricing`} className="hover:text-gray-300 transition-colors">{t('footer.pricing')}</Link></li>
+                <li><Link href={`/${locale}/comment-ca-marche`} className="hover:text-gray-300 transition-colors">{locale === 'fr' ? 'Comment ça marche' : 'How it works'}</Link></li>
                 <li><Link href={`/${locale}/security`} className="hover:text-gray-300 transition-colors">{t('footer.security')}</Link></li>
               </ul>
             </div>
@@ -1186,6 +1187,7 @@ export default function HomeClient() {
               <ul className="space-y-3 text-sm" style={{ color: '#4B5563' }}>
                 <li><Link href={`/${locale}/blog`} className="hover:text-gray-300 transition-colors">{t('footer.blog')}</Link></li>
                 <li><Link href={`/${locale}/guides`} className="hover:text-gray-300 transition-colors">{t('footer.guides')}</Link></li>
+                <li><Link href={`/${locale}/faq`} className="hover:text-gray-300 transition-colors">FAQ</Link></li>
                 <li><Link href={`/${locale}/support`} className="hover:text-gray-300 transition-colors">{t('footer.support')}</Link></li>
               </ul>
             </div>
@@ -1193,9 +1195,8 @@ export default function HomeClient() {
             <div>
               <h4 className="text-xs font-semibold uppercase tracking-wider mb-5" style={{ color: '#9CA3AF' }}>{t('footer.legal')}</h4>
               <ul className="space-y-3 text-sm" style={{ color: '#4B5563' }}>
-                <li><Link href={`/${locale}/privacy`} className="hover:text-gray-300 transition-colors">{t('footer.mentions')}</Link></li>
-                <li><Link href={`/${locale}/privacy`} className="hover:text-gray-300 transition-colors">{t('footer.privacy')}</Link></li>
                 <li><Link href={`/${locale}/terms`} className="hover:text-gray-300 transition-colors">{t('footer.terms')}</Link></li>
+                <li><Link href={`/${locale}/privacy`} className="hover:text-gray-300 transition-colors">{t('footer.privacy')}</Link></li>
               </ul>
             </div>
           </div>

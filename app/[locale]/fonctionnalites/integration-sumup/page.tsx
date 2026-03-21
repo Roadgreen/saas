@@ -18,8 +18,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const { locale } = await params;
   const isFr = locale === 'fr';
   const title = isFr
-    ? 'Intégration SumUp pour Food Truck — Connectez votre TPE | FoodTracks'
-    : 'SumUp Integration for Food Trucks — Connect Your Card Reader | FoodTracks';
+    ? 'Intégration SumUp pour Food Truck — Connectez votre TPE'
+    : 'SumUp Integration for Food Trucks — Connect Your Card Reader';
   const description = isFr
     ? 'Connectez votre terminal SumUp à FoodTracks pour synchroniser vos ventes automatiquement. Rapprochement automatique stock/ventes, analyses de marges en temps réel. Gratuit.'
     : 'Connect your SumUp terminal to FoodTracks to sync sales automatically. Automatic stock/sales reconciliation, real-time margin analytics. Free.';

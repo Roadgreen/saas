@@ -9,8 +9,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const isFr = locale === 'fr';
   const title = isFr ? "Conditions Générales d'Utilisation" : 'Terms of Service';
   const description = isFr
-    ? "Conditions générales d'utilisation de FoodTracks. Règles d'utilisation du service."
-    : 'FoodTracks terms of service. Rules for using the platform.';
+    ? "Conditions générales d'utilisation de FoodTracks, logiciel de gestion pour food trucks et restaurants. Règles d'utilisation du service, responsabilités et protection des données."
+    : 'FoodTracks terms of service for food truck and restaurant management software. Usage rules, responsibilities, data protection and subscription conditions.';
   return {
     title,
     description,
