@@ -9911,6 +9911,551 @@ The initial calculation takes time, but it will save you thousands of euros per 
       "etude-gaspillage-food-truck-cout-reel",
     ],
   },
+  {
+    slug: "planning-semaine-food-truck",
+    title: {
+      fr: "Planning semaine food truck : organiser ses services pour maximiser la rentabilité",
+      en: "Food Truck Weekly Planning: How to Schedule Your Services for Maximum Profitability",
+    },
+    excerpt: {
+      fr: "Apprenez à construire un planning hebdomadaire efficace pour votre food truck : choix des emplacements, rotation des menus, gestion des approvisionnements et équilibre vie pro/perso.",
+      en: "Learn to build an efficient weekly schedule for your food truck: location selection, menu rotation, supply management and work-life balance.",
+    },
+    category: { fr: "Organisation", en: "Operations" },
+    date: "2026-03-22",
+    readTime: 12,
+    keywords: [
+      "planning semaine food truck",
+      "organisation services food truck",
+      "planning food truck rentable",
+      "planning hebdomadaire food truck",
+      "organiser tournée food truck",
+    ],
+    heroImage: "/blog/food-truck-equipe.png",
+    content: {
+      fr: `## Pourquoi le planning hebdomadaire est la colonne vertébrale d'un food truck rentable
+
+La plupart des food truckers débutants gèrent leur semaine au jour le jour. Lundi matin : « Où je vais aujourd'hui ? » Mercredi soir : « J'ai trop commandé de tomates. » Vendredi : « J'ai raté l'événement qui aurait rapporté 1 500 € parce que je n'avais pas réservé l'emplacement. »
+
+Ce mode réactif coûte cher. **Un food trucker qui planifie sa semaine à l'avance génère en moyenne 20 à 35 % de chiffre d'affaires supplémentaire** par rapport à un collègue de même qualité qui improvise — simplement parce qu'il est au bon endroit, avec le bon stock, aux bons moments.
+
+Dans cet article, nous allons construire ensemble un **planning hebdomadaire type** pour un food truck solo ou en duo, en intégrant les emplacements, les approvisionnements, la préparation et les impératifs administratifs.
+
+### Ce que vous allez apprendre
+
+- La logique des 5 blocs hebdomadaires
+- Comment choisir et séquencer vos emplacements de la semaine
+- L'organisation des commandes fournisseurs en fonction du planning
+- La préparation en cuisine : quand et quoi faire
+- Les créneaux administratifs indispensables (comptabilité, réseaux sociaux, entretien)
+- Un exemple de planning complet sur 7 jours
+
+## Les 5 blocs du planning food truck
+
+Un planning food truck efficace repose sur **5 types de blocs** qu'il faut répartir intelligemment sur la semaine :
+
+1. **Services** — les prestations face aux clients (déjeuner, dîner, événement)
+2. **Approvisionnements** — commandes fournisseurs et récupération des livraisons
+3. **Préparation cuisine** — mise en place, pré-cuisson, marinade, confection de sauces
+4. **Administratif** — comptabilité, factures, réseaux sociaux, maintenance du véhicule
+5. **Récupération** — repos obligatoire pour tenir sur la durée
+
+Le piège classique : **remplir la semaine de services** sans laisser de place aux 4 autres blocs. Résultat : vous courrez après les commandes, vous préparez en catastrophe, et vous finissez épuisé avec un véhicule mal entretenu.
+
+## Bloc 1 : Planifier vos services de la semaine
+
+### Combien de services par semaine ?
+
+Un food trucker solo peut raisonnablement assurer **4 à 6 services par semaine** en maintenant qualité et santé. Au-delà, le risque de burn-out et d'accidents augmente fortement.
+
+| Profil | Services/semaine conseillés |
+|--------|----------------------------|
+| Solo débutant | 4 services |
+| Solo confirmé | 5 services |
+| Solo + aide occasionnelle | 5-6 services |
+| Duo permanent | 6-8 services |
+
+### La règle des 3 types d'emplacements
+
+Pour un planning équilibré, combinez chaque semaine :
+
+**1. Emplacements récurrents fixes (40-50 % du CA)**
+Ce sont vos emplacements « vache à lait » : zone industrielle le midi du lundi au jeudi, marché hebdomadaire, résidence privée avec accord. Ces spots génèrent un revenu prévisible avec un minimum de prospection.
+
+**2. Emplacements événementiels (30-40 % du CA)**
+Festivals, marchés spéciaux, événements d'entreprise, brocantes. Ces prestations demandent de l'anticipation (réservation 2 à 8 semaines à l'avance) mais offrent des volumes de vente 3 à 5 fois supérieurs à un service ordinaire.
+
+**3. Emplacements de développement (10-20 % du CA)**
+Nouveaux spots à tester, partenariats naissants, quartiers à prospecter. C'est l'investissement dans la croissance future.
+
+### Séquencer intelligemment la semaine
+
+Ne placez pas tous vos services en début de semaine. Voici une séquence optimale :
+
+- **Lundi** : service récurrent (rodage de la semaine, vérification des stocks réels)
+- **Mardi** : service récurrent ou événementiel
+- **Mercredi** : service + demi-journée administrative
+- **Jeudi** : service récurrent ou développement
+- **Vendredi** : service fort (fin de semaine = généralement meilleur volume)
+- **Samedi** : service événementiel si disponible, sinon repos
+- **Dimanche** : repos (sauf événement exceptionnel)
+
+### Réserver les emplacements à l'avance
+
+Les meilleurs emplacements se réservent. Pour ne pas rater un festival ou un emplacement stratégique :
+- **Marchés et halles** : contacter les mairies 1 à 3 mois à l'avance
+- **Événements privés** : répondre aux appels d'offres dès leur publication
+- **Zones industrielles** : visiter et prospecter en personne, idéalement hors service
+- **Applications dédiées** : Allo Resto, Street Food en France, ou simplement Google Maps pour identifier les flux
+
+## Bloc 2 : Synchroniser les approvisionnements avec le planning
+
+C'est ici que la plupart des food truckers perdent le plus d'argent. Commander sans planning = sur-stock qui périme = gaspillage. Commander trop juste = rupture en service = ventes perdues et clients déçus.
+
+### Le principe de la commande en cascade
+
+Votre planning de services détermine vos besoins en matières premières. La logique est simple :
+
+**Service du mardi → Commander le lundi matin au plus tard**
+**Service du jeudi → Commander le mercredi matin**
+**Service du vendredi et samedi → Commander le jeudi matin**
+
+Avec une livraison en J+1 de la plupart des grossistes, cette organisation vous garantit toujours des produits frais sans rupture.
+
+### Créer des fiches de commande par service
+
+Pour chaque emplacement type de votre planning, créez une **fiche de commande standard** :
+
+- Service zone industrielle 80 couverts : liste d'ingrédients pour 80 portions par plat
+- Service marché 120 couverts : liste adaptée
+- Événement festif 200 couverts : liste majorée
+
+Ces fiches s'ajustent ensuite en fonction des ventes réelles des semaines précédentes. Un outil comme **FoodTracks** permet d'automatiser ce calcul en comparant vos ventes historiques à vos stocks actuels et en générant la liste de commande optimale.
+
+### Regrouper les commandes fournisseurs
+
+Ne commandez pas tous les jours. Idéalement :
+- **1 à 2 commandes principales par semaine** (grossiste viandes/légumes)
+- **1 commande hebdomadaire** pour les produits secs et consommables
+- **Livraisons fournisseurs en début de semaine** (lundi/mardi) pour avoir de la visibilité
+
+Regrouper les commandes réduit les frais de livraison, vous permet de négocier des remises sur volume, et simplifie la gestion des factures.
+
+## Bloc 3 : Organiser la préparation cuisine
+
+La mise en place est souvent le parent pauvre du planning. Et pourtant, une bonne préparation est ce qui fait la différence entre un service fluide à 80 couverts/heure et un service chaotique à 30 couverts/heure.
+
+### Quand préparer ?
+
+La règle d'or : **ne jamais préparer le matin même du service** (sauf éléments de dernière minute). Le stress, le manque de temps et la fatigue font les erreurs.
+
+Voici une organisation type :
+
+**La veille au soir (1h30 – 2h)**
+- Décongélation des viandes si nécessaire
+- Marinade de la viande
+- Confection des sauces maison
+- Taille des légumes et mise en contenants
+- Vérification et chargement du véhicule
+
+**Le matin du service (45min)**
+- Préchauffage du matériel
+- Assemblage final des préparations
+- Mise en place du comptoir et affichage des prix
+- Test du matériel de paiement (TPE, caisse)
+
+### La préparation batch du début de semaine
+
+Certaines préparations se font **une fois en début de semaine** pour plusieurs services :
+- Sauces maison : se conservent 5-7 jours au réfrigérateur
+- Marinades : peuvent être préparées pour 3-4 jours
+- Découpes de légumes stables (oignons, poivrons) : 2-3 jours
+- Pains et viennoiseries : commandez à votre boulanger en une fois pour la semaine
+
+Cette logique de "batch cooking professionnel" peut vous faire économiser **3 à 4 heures par semaine** tout en améliorant la régularité de vos recettes.
+
+## Bloc 4 : Les créneaux administratifs indispensables
+
+Beaucoup de food truckers négligent l'administratif jusqu'à ce que ça devienne une urgence. Résultat : déclarations de TVA en retard, factures non saisies, réseaux sociaux abandonnés, véhicule en sous-entretien.
+
+### Planifier 2 créneaux admin par semaine
+
+**Créneau 1 — Administratif financier (1h, milieu de semaine)**
+- Saisie des factures fournisseurs de la semaine
+- Rapprochement des ventes (caisse vs commandes)
+- Mise à jour du tableau de bord (chiffre d'affaires, food cost, marge)
+- Préparation des paiements fournisseurs
+
+**Créneau 2 — Administratif opérationnel (1h, fin de semaine)**
+- Entretien et nettoyage approfondi du véhicule
+- Vérification du matériel (détartrage, contrôle des bouteilles de gaz)
+- Gestion des réseaux sociaux (posts de la semaine suivante)
+- Prospection emplacements et prise de contact événements futurs
+
+### L'entretien régulier qui évite les pannes
+
+Une panne de véhicule en plein service, c'est une journée de CA perdue plus les frais de réparation en urgence. **Un entretien hebdomadaire de 30 minutes** évite 80 % des pannes :
+- Vérification du niveau d'huile et des liquides
+- Contrôle de la pression des pneus
+- Test des équipements de cuisson (brûleurs, friteuse)
+- Nettoyage des filtres et hottes
+
+## Bloc 5 : Préserver ses créneaux de repos
+
+Le repos n'est pas du temps perdu — c'est du temps **productif pour la suite**. Un food trucker épuisé fait plus d'erreurs, est moins souriant avec les clients, et prend de mauvaises décisions.
+
+### La règle du jour off obligatoire
+
+Imposez-vous **au moins 1 jour sans aucune activité liée au food truck** chaque semaine. Ce jour doit être planifié comme un service — noté dans l'agenda, non négociable sauf urgence absolue.
+
+### Éviter le piège du "juste ce service de plus"
+
+La tentation de rajouter un service imprévu est forte quand une opportunité se présente. Mais :
+- Chaque service non planifié perturbe vos approvisionnements
+- Il réduit votre temps de préparation
+- Il empiète sur l'administratif ou le repos
+
+**Règle pratique** : n'acceptez un service imprévu que si vous avez le stock, l'énergie et si vous pouvez décaler (et non supprimer) un créneau admin.
+
+## Exemple de planning hebdomadaire complet
+
+Voici un planning type pour un food trucker solo en régime de croisière :
+
+| Jour | Matin | Après-midi/Soir |
+|------|-------|-----------------|
+| **Lundi** | Réception livraisons + rangement | Service déjeuner zone industrielle (11h-14h) |
+| **Mardi** | Commande fournisseurs | Préparation cuisine (2h) + Créneau admin financier (1h) |
+| **Mercredi** | Service déjeuner marché (10h-14h) | Repos |
+| **Jeudi** | Préparation cuisine (1h30) | Service déjeuner zone industrielle (11h-14h) |
+| **Vendredi** | Préparation cuisine (1h) | Service déjeuner + soirée événement (11h-14h / 18h-22h) |
+| **Samedi** | Service marché spécial (9h-15h) | Créneau admin opérationnel + entretien véhicule |
+| **Dimanche** | **REPOS TOTAL** | **REPOS TOTAL** |
+
+Ce planning représente **5 services**, 2 créneaux admin, 2 créneaux de préparation, et 1 jour de repos complet. Soit environ 45-50 heures de travail effectif — un rythme soutenable sur le long terme.
+
+### Adapter selon la saison
+
+En haute saison (printemps-été), vous pouvez pousser à 6 services en ajoutant le dimanche matin sur un marché. En basse saison (novembre-janvier), réduire à 4 services et consacrer le temps libéré à la prospection d'événements et à la mise à jour des menus.
+
+## Digitaliser son planning pour gagner en efficacité
+
+Un planning papier ou un simple Google Agenda fonctionne, mais montre rapidement ses limites. Les outils digitaux vous permettent :
+
+- **De synchroniser planning et stocks** : commander automatiquement en fonction des services prévus
+- **D'analyser la performance par emplacement** : quel spot rapporte le plus ? À quelle heure votre pic de vente se produit-il ?
+- **De recevoir des alertes** : stock sous seuil, prévisions météo défavorables, anniversaire d'un emplacement partenaire
+- **De suivre vos objectifs hebdomadaires** : chiffre d'affaires cible vs réalisé, jour par jour
+
+**[FoodTracks](/)** intègre votre historique de ventes SumUp avec vos données d'approvisionnement pour vous donner une vision claire de la performance de chaque service et vous aider à construire le planning optimal semaine après semaine.
+
+**[Essayez FoodTracks gratuitement](/fr/register)** et transformez votre planning hebdomadaire en véritable moteur de rentabilité.
+
+## Conclusion
+
+Le planning hebdomadaire n'est pas une contrainte bureaucratique — c'est l'outil qui transforme un food truck artisanal en entreprise rentable et sereine. En équilibrant services, approvisionnements, préparation, administratif et repos, vous passez d'un mode survie à un mode croissance.
+
+**La règle fondamentale** : planifiez votre semaine chaque dimanche soir en 20 minutes. Vérifiez vos emplacements confirmés, passez vos commandes, et identifiez vos créneaux de préparation. Ces 20 minutes vous en économiseront 10 fois plus dans la semaine.
+
+Un food truck qui tourne bien n'est pas forcément celui qui travaille le plus — c'est celui qui travaille le plus intelligemment.`,
+      en: `## Why Weekly Planning Is the Backbone of a Profitable Food Truck
+
+Most beginner food truck operators manage their week day by day. Monday morning: "Where should I go today?" Wednesday evening: "I over-ordered tomatoes." Friday: "I missed an event that would have brought in €1,500 because I didn't book the spot in advance."
+
+This reactive approach is costly. **A food truck operator who plans their week ahead generates on average 20 to 35% more revenue** than a colleague of equal quality who improvises — simply by being in the right place, with the right stock, at the right times.
+
+In this article, we will build together a **typical weekly schedule** for a solo or two-person food truck, integrating locations, supply management, kitchen prep, and administrative tasks.
+
+### What You Will Learn
+
+- The logic of the 5 weekly blocks
+- How to choose and sequence your weekly locations
+- Organising supplier orders around your schedule
+- Kitchen prep: when and what to prepare
+- Essential admin time slots (accounting, social media, maintenance)
+- A complete 7-day schedule example
+
+## The 5 Blocks of a Food Truck Schedule
+
+An effective food truck schedule rests on **5 types of blocks** that need to be distributed intelligently across the week:
+
+1. **Services** — customer-facing trading sessions (lunch, dinner, events)
+2. **Supplies** — supplier orders and receiving deliveries
+3. **Kitchen prep** — mise en place, pre-cooking, marinating, sauce-making
+4. **Admin** — accounting, invoices, social media, vehicle maintenance
+5. **Recovery** — mandatory rest to sustain performance over time
+
+The classic trap: **filling the week with services** without leaving room for the other 4 blocks. The result: you chase orders, prepare at the last minute, and end up exhausted with a poorly maintained vehicle.
+
+## Block 1: Planning Your Week's Services
+
+### How Many Services Per Week?
+
+A solo food truck operator can reasonably handle **4 to 6 services per week** while maintaining quality and health. Beyond that, burnout and accident risk increase significantly.
+
+| Profile | Recommended services/week |
+|---------|--------------------------|
+| Solo beginner | 4 services |
+| Established solo | 5 services |
+| Solo + occasional help | 5-6 services |
+| Permanent duo | 6-8 services |
+
+### The Rule of 3 Location Types
+
+For a balanced schedule, combine these each week:
+
+**1. Fixed recurring locations (40-50% of revenue)**
+These are your "cash cow" spots: an industrial estate at lunchtime Monday to Thursday, a weekly market, a private residential agreement. These spots generate predictable income with minimal prospecting.
+
+**2. Event locations (30-40% of revenue)**
+Festivals, special markets, corporate events, car boot sales. These require advance planning (booking 2 to 8 weeks ahead) but deliver sales volumes 3 to 5 times higher than a regular service.
+
+**3. Development locations (10-20% of revenue)**
+New spots to test, emerging partnerships, new neighbourhoods to explore. This is your investment in future growth.
+
+### Sequencing the Week Intelligently
+
+Do not schedule all your services at the start of the week. Here is an optimal sequence:
+
+- **Monday**: recurring service (getting the week going, checking actual stock)
+- **Tuesday**: recurring or event service
+- **Wednesday**: service + half-day of admin
+- **Thursday**: recurring or development service
+- **Friday**: strong service (end of week = generally better volume)
+- **Saturday**: event service if available, otherwise rest
+- **Sunday**: rest (except exceptional events)
+
+### Booking Locations in Advance
+
+The best locations get booked up. To avoid missing a festival or a strategic spot:
+- **Markets and halls**: contact town halls 1 to 3 months ahead
+- **Private events**: respond to calls for proposals as soon as they are published
+- **Industrial estates**: visit and prospect in person, ideally outside service times
+- **Dedicated apps**: local street food directories, or simply Google Maps to identify footfall
+
+## Block 2: Synchronising Supplies With Your Schedule
+
+This is where most food truck operators lose the most money. Ordering without a schedule = overstocked perishables = waste. Ordering too tight = stockouts mid-service = lost sales and disappointed customers.
+
+### The Cascade Ordering Principle
+
+Your service schedule determines your raw material needs. The logic is simple:
+
+**Tuesday service → Order Monday morning at the latest**
+**Thursday service → Order Wednesday morning**
+**Friday and Saturday services → Order Thursday morning**
+
+With next-day delivery from most wholesalers, this approach guarantees you always have fresh produce without stockouts.
+
+### Creating Standard Order Sheets Per Service
+
+For each typical location in your schedule, create a **standard order sheet**:
+
+- Industrial estate service, 80 covers: ingredient list for 80 portions per dish
+- Market service, 120 covers: adjusted list
+- Festival event, 200 covers: scaled-up list
+
+These sheets are then adjusted based on actual sales from previous weeks. A tool like **FoodTracks** automates this calculation by comparing your historical sales to your current stock and generating the optimal order list.
+
+### Consolidating Supplier Orders
+
+Do not order every day. Ideally:
+- **1 to 2 main orders per week** (meat/vegetable wholesaler)
+- **1 weekly order** for dry goods and consumables
+- **Supplier deliveries at the start of the week** (Monday/Tuesday) for full visibility
+
+Consolidating orders reduces delivery costs, lets you negotiate volume discounts, and simplifies invoice management.
+
+## Block 3: Organising Kitchen Prep
+
+Mise en place is often the neglected part of scheduling. Yet good preparation is what makes the difference between a smooth 80-covers-per-hour service and a chaotic 30-covers-per-hour service.
+
+### When to Prepare?
+
+The golden rule: **never prepare on the morning of a service** (except last-minute elements). Stress, time pressure and fatigue cause mistakes.
+
+Here is a typical organisation:
+
+**The evening before (1h30 – 2h)**
+- Defrost meat if needed
+- Marinate the meat
+- Make house sauces
+- Chop vegetables and store in containers
+- Check and load the vehicle
+
+**Morning of service (45 min)**
+- Pre-heat equipment
+- Final assembly of preparations
+- Set up the counter and display prices
+- Test payment equipment (card reader, till)
+
+### Batch Prep at the Start of the Week
+
+Some preparations are done **once at the start of the week** for multiple services:
+- House sauces: keep for 5-7 days in the fridge
+- Marinades: can be prepared for 3-4 days ahead
+- Stable vegetable cuts (onions, peppers): 2-3 days
+- Breads: order from your baker in one go for the whole week
+
+This "professional batch cooking" approach can save you **3 to 4 hours per week** while improving the consistency of your recipes.
+
+## Block 4: Essential Admin Time Slots
+
+Many food truck operators neglect admin until it becomes an emergency. The result: late VAT returns, unrecorded invoices, abandoned social media, under-maintained vehicles.
+
+### Schedule 2 Admin Slots Per Week
+
+**Slot 1 — Financial admin (1h, mid-week)**
+- Enter the week's supplier invoices
+- Reconcile sales (till vs orders)
+- Update your dashboard (revenue, food cost, margin)
+- Prepare supplier payments
+
+**Slot 2 — Operational admin (1h, end of week)**
+- Thorough vehicle cleaning and maintenance
+- Equipment checks (descaling, gas bottle check)
+- Social media management (schedule next week's posts)
+- Location prospecting and contact with future events
+
+### Regular Maintenance That Prevents Breakdowns
+
+A vehicle breakdown mid-service means a full day's revenue lost plus emergency repair costs. **A 30-minute weekly maintenance check** prevents 80% of breakdowns:
+- Check oil level and other fluids
+- Check tyre pressure
+- Test cooking equipment (burners, fryer)
+- Clean filters and extractor hoods
+
+## Block 5: Protecting Your Rest Periods
+
+Rest is not wasted time — it is **productive time for what comes next**. An exhausted food truck operator makes more mistakes, is less welcoming to customers, and makes worse decisions.
+
+### The Mandatory Day Off Rule
+
+Give yourself **at least 1 day with zero food-truck-related activity** each week. This day must be treated like a service — entered in the diary, non-negotiable except in absolute emergencies.
+
+### Avoiding the "Just One More Service" Trap
+
+The temptation to add an unplanned service when an opportunity arises is strong. But:
+- Every unplanned service disrupts your supply chain
+- It reduces your preparation time
+- It eats into admin or rest
+
+**Practical rule**: only accept an unplanned service if you have the stock, the energy, and you can shift (not cancel) an admin slot.
+
+## A Complete Weekly Schedule Example
+
+Here is a typical schedule for an established solo food truck operator:
+
+| Day | Morning | Afternoon / Evening |
+|-----|---------|---------------------|
+| **Monday** | Receive deliveries + stock away | Lunch service — industrial estate (11am–2pm) |
+| **Tuesday** | Supplier orders | Kitchen prep (2h) + Financial admin slot (1h) |
+| **Wednesday** | Lunch service — market (10am–2pm) | Rest |
+| **Thursday** | Kitchen prep (1h30) | Lunch service — industrial estate (11am–2pm) |
+| **Friday** | Kitchen prep (1h) | Lunch service + evening event (11am–2pm / 6pm–10pm) |
+| **Saturday** | Special market service (9am–3pm) | Operational admin + vehicle maintenance |
+| **Sunday** | **FULL REST** | **FULL REST** |
+
+This schedule covers **5 services**, 2 admin slots, 2 prep slots, and 1 full rest day. That amounts to roughly 45–50 hours of effective work — a sustainable pace over the long term.
+
+### Adapting by Season
+
+In peak season (spring-summer), you can push to 6 services by adding Sunday morning at a market. In low season (November-January), drop to 4 services and use the freed-up time for event prospecting and menu updates.
+
+## Digitising Your Schedule for Greater Efficiency
+
+A paper schedule or a simple Google Calendar works, but shows its limits quickly. Digital tools allow you to:
+
+- **Sync schedule and stock**: automatically trigger orders based on planned services
+- **Analyse performance by location**: which spot earns the most? At what time does your sales peak occur?
+- **Receive alerts**: stock below threshold, unfavourable weather forecasts, upcoming permit renewals
+- **Track weekly targets**: revenue target vs actual, day by day
+
+**[FoodTracks](/)** connects your SumUp sales history with your supply data to give you a clear view of each service's performance and help you build the optimal schedule week after week.
+
+**[Try FoodTracks for free](/en/register)** and turn your weekly schedule into a genuine profitability engine.
+
+## Conclusion
+
+A weekly schedule is not a bureaucratic constraint — it is the tool that transforms an artisanal food truck into a profitable, stress-free business. By balancing services, supplies, prep, admin, and rest, you move from survival mode to growth mode.
+
+**The fundamental rule**: plan your week every Sunday evening in 20 minutes. Confirm your booked locations, place your orders, and identify your prep slots. Those 20 minutes will save you 10 times as much during the week.
+
+A well-run food truck is not necessarily the one that works the hardest — it is the one that works the most intelligently.`,
+    },
+    keyTakeaways: {
+      fr: [
+        "Structurez votre semaine en 5 blocs : services, approvisionnements, préparation cuisine, administratif et repos.",
+        "Un food trucker solo ne devrait pas dépasser 5-6 services par semaine pour tenir sur la durée.",
+        "Combinez chaque semaine 3 types d'emplacements : récurrents fixes, événementiels, et de développement.",
+        "Préparez en batch le début de semaine pour économiser 3-4 heures et améliorer la régularité.",
+        "Planifiez 2 créneaux admin par semaine (financier + opérationnel) pour éviter les urgences.",
+      ],
+      en: [
+        "Structure your week into 5 blocks: services, supplies, kitchen prep, admin, and rest.",
+        "A solo food truck operator should not exceed 5-6 services per week to maintain stamina over time.",
+        "Combine 3 types of locations each week: fixed recurring, event-based, and development spots.",
+        "Batch prep at the start of the week saves 3-4 hours and improves recipe consistency.",
+        "Schedule 2 admin slots per week (financial + operational) to avoid last-minute crises.",
+      ],
+    },
+    faqItems: [
+      {
+        question: {
+          fr: "Combien de services par semaine pour un food truck solo ?",
+          en: "How many services per week for a solo food truck?",
+        },
+        answer: {
+          fr: "Un food trucker solo peut raisonnablement assurer 4 à 6 services par semaine. En dessous de 4, il est difficile d'atteindre la rentabilité sauf sur des événements très lucratifs. Au-delà de 6, le risque de burn-out augmente fortement et la qualité du service se dégrade. Le sweet spot pour un solo confirmé est de 5 services par semaine, avec un jour de repos complet garanti.",
+          en: "A solo food truck operator can reasonably handle 4 to 6 services per week. Below 4, it is hard to reach profitability unless the events are very lucrative. Above 6, burnout risk increases sharply and service quality degrades. The sweet spot for an established solo operator is 5 services per week, with one guaranteed full rest day.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment organiser ses commandes fournisseurs en food truck ?",
+          en: "How should a food truck organise supplier orders?",
+        },
+        answer: {
+          fr: "La bonne pratique est de grouper les commandes en 1-2 passages par semaine, basés sur votre planning de services. Commandez le matin précédant vos services pour recevoir en J+1. Créez des fiches de commande standard par type d'emplacement (80, 120, 200 couverts) et ajustez-les selon vos ventes réelles. Cette méthode réduit le gaspillage, optimise les frais de livraison et simplifie la comptabilité.",
+          en: "Best practice is to consolidate orders into 1-2 order runs per week, based on your service schedule. Order the morning before your services to receive next day. Create standard order sheets per location type (80, 120, 200 covers) and adjust them based on actual sales. This approach reduces waste, optimises delivery costs, and simplifies accounting.",
+        },
+      },
+      {
+        question: {
+          fr: "Quand faire la mise en place en food truck ?",
+          en: "When should a food truck do its mise en place?",
+        },
+        answer: {
+          fr: "Ne préparez jamais le matin même du service : le manque de temps et la pression entraînent des erreurs. La règle d'or est de faire la mise en place la veille au soir (1h30-2h) : marinades, sauces, découpe des légumes, chargement du véhicule. Le matin du service (45 min), il ne reste que le préchauffage, l'assemblage final et la vérification du matériel de paiement.",
+          en: "Never do mise en place on the morning of a service: time pressure and stress lead to mistakes. The golden rule is to prep the evening before (1h30-2h): marinades, sauces, vegetable cutting, loading the vehicle. On the morning of service (45 min), all that remains is pre-heating, final assembly, and checking payment equipment.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment éviter le burn-out en food truck ?",
+          en: "How can you avoid burnout as a food truck operator?",
+        },
+        answer: {
+          fr: "Le burn-out en food truck vient rarement d'un excès de travail ponctuel mais d'un rythme non soutenable sur plusieurs mois. Les protections essentielles : imposez-vous un jour off complet chaque semaine (non négociable), ne dépassez pas 6 services par semaine en solo, planifiez vos créneaux de repos comme des services, et n'acceptez les opportunités imprévues que si vous avez le stock ET l'énergie nécessaires.",
+          en: "Burnout in food trucks rarely comes from a single busy period but from an unsustainable pace sustained over months. Essential safeguards: enforce a full day off every week (non-negotiable), do not exceed 6 services per week when working solo, schedule rest periods like services, and only accept unplanned opportunities if you have both the stock AND the energy for them.",
+        },
+      },
+      {
+        question: {
+          fr: "Quel outil utiliser pour planifier sa semaine en food truck ?",
+          en: "What tool should you use to plan your food truck week?",
+        },
+        answer: {
+          fr: "Un simple Google Agenda peut suffire au démarrage. Mais pour connecter votre planning à vos stocks, vos ventes et vos objectifs financiers, un outil spécialisé comme FoodTracks est bien plus puissant : il intègre votre historique de ventes SumUp, vous alerte sur les stocks bas avant chaque service planifié, et vous permet de comparer les performances de vos différents emplacements pour optimiser votre planning semaine après semaine.",
+          en: "A simple Google Calendar can be enough to start. But to connect your schedule to your stock, sales, and financial targets, a specialist tool like FoodTracks is far more powerful: it integrates your SumUp sales history, alerts you to low stock before each planned service, and lets you compare performance across your different locations to optimise your schedule week after week.",
+        },
+      },
+    ],
+    relatedSlugs: [
+      "trouver-meilleurs-emplacements-food-truck",
+      "comment-gerer-stock-food-truck",
+      "food-truck-saison-creuse-strategies",
+    ],
+  },
 ];
 
 export function getArticleBySlug(slug: string): BlogArticle | undefined {
