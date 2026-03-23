@@ -10771,6 +10771,329 @@ With real data, your business plan goes from "theoretical document" to **practic
       "cout-charges-food-truck-mensuel",
     ],
   },
+  {
+    slug: "livraison-food-truck-uber-eats-deliveroo",
+    title: {
+      fr: "Livraison en food truck : comment se lancer sur Uber Eats, Deliveroo et les plateformes",
+      en: "Food Truck Delivery: How to Get Started on Uber Eats, Deliveroo and Delivery Platforms",
+    },
+    excerpt: {
+      fr: "Guide complet pour ajouter la livraison à votre food truck via Uber Eats, Deliveroo ou d'autres plateformes. Rentabilité, logistique, erreurs à éviter et stratégie gagnante.",
+      en: "Complete guide to adding delivery to your food truck via Uber Eats, Deliveroo or other platforms. Profitability, logistics, mistakes to avoid and winning strategy.",
+    },
+    category: { fr: "Stratégie", en: "Strategy" },
+    date: "2026-03-23",
+    readTime: 10,
+    keywords: [
+      "livraison food truck",
+      "food truck uber eats",
+      "food truck deliveroo",
+      "livraison plateforme food truck",
+      "food truck delivery platform",
+    ],
+    heroImage: "/blog/rentabilite.png",
+    content: {
+      fr: `# Livraison en food truck : comment se lancer sur Uber Eats, Deliveroo et les plateformes
+
+La livraison représente aujourd'hui **plus de 30 % du chiffre d'affaires de la restauration rapide** en France. Pourtant, la grande majorité des food trucks n'exploitent pas encore ce canal. Trop compliqué ? Pas assez rentable ? En réalité, intégrer la livraison à son activité de food truck est parfaitement faisable — à condition de s'y prendre intelligemment.
+
+Ce guide vous explique étape par étape comment ajouter Uber Eats, Deliveroo ou d'autres plateformes à votre food truck, quels plats proposer, comment rester rentable malgré les commissions, et quelles erreurs éviter absolument.
+
+## Pourquoi un food truck devrait proposer la livraison
+
+La livraison résout le problème fondamental du food truck : **la dépendance à l'emplacement physique**. Quand il pleut, quand votre spot habituel est annulé, ou simplement entre deux services, la livraison vous permet de continuer à vendre.
+
+Les avantages concrets :
+
+- **Revenus complémentaires** : 300 à 800 €/semaine de CA additionnel est réaliste pour un food truck actif sur une zone urbaine
+- **Visibilité gratuite** : votre food truck apparaît sur l'application devant des milliers d'utilisateurs de votre zone — c'est du marketing que vous ne payez qu'à la commande
+- **Lissage de l'activité** : la livraison comble les creux (après-midi, jours creux, intempéries)
+- **Test de nouveaux marchés** : avant de vous déplacer sur un nouveau quartier, testez-le en livraison pour valider la demande
+
+Bien sûr, la livraison n'est pas magique. Les commissions des plateformes (25 à 30 % en moyenne) grignotent vos marges. C'est pourquoi il faut une stratégie adaptée — pas simplement dupliquer votre carte physique sur l'application.
+
+## Uber Eats, Deliveroo, Just Eat : quelle plateforme choisir ?
+
+Chaque plateforme a ses spécificités. Voici un comparatif pratique pour les food trucks en France :
+
+| Critère | Uber Eats | Deliveroo | Just Eat |
+|---------|-----------|-----------|----------|
+| **Commission moyenne** | 25-30 % | 25-30 % | 15-25 % |
+| **Couverture géographique** | Très large | Grandes villes | Moyenne |
+| **Volume de commandes** | Élevé | Élevé en centre-ville | Modéré |
+| **Inscription food truck** | Possible avec adresse fixe | Possible avec cuisine partagée | Plus souple |
+| **Délai d'activation** | 1-3 semaines | 2-4 semaines | 1-2 semaines |
+
+**Notre recommandation** : commencez par **une seule plateforme** (celle qui domine votre zone). Maîtrisez le flux de commandes, optimisez votre carte, puis ajoutez une deuxième plateforme après 4 à 6 semaines.
+
+### Le point clé : l'adresse de retrait
+
+Les plateformes exigent une adresse fixe pour les retraits par les livreurs. Deux solutions pour un food truck :
+
+1. **Cuisine partagée (dark kitchen)** : vous louez un poste de travail dans une cuisine partagée quelques heures par jour (150-500 €/mois). Vous y produisez uniquement pour la livraison.
+2. **Emplacement récurrent fixe** : si vous avez un spot fixe quotidien (marché couvert, zone industrielle), vous pouvez l'utiliser comme adresse de retrait pendant vos heures de service.
+
+## Adapter sa carte pour la livraison : les règles d'or
+
+Ne mettez **jamais** votre carte complète sur une plateforme de livraison. La livraison a ses propres contraintes :
+
+### Ce qui fonctionne en livraison
+
+- **Plats qui voyagent bien** : burgers, bowls, wraps, plats en sauce, salades composées
+- **Emballages hermétiques** : investissez dans des contenants qui ne fuient pas et maintiennent la température (budget : 0,40-0,80 € par commande)
+- **Formules et menus** : les plateformes favorisent les restaurants qui proposent des combos (plat + boisson + dessert) car le panier moyen augmente
+
+### Ce qu'il faut éviter
+
+- **Fritures qui ramollissent** : frites, tempura, nems — sauf si vous utilisez des emballages ventilés spéciaux
+- **Plats à dresser minute** : tout ce qui perd son esthétique en 20 minutes de transport
+- **Trop de choix** : 6 à 10 plats maximum sur votre carte livraison
+
+### Ajuster vos prix
+
+La règle critique : **majorez vos prix de livraison de 15 à 25 %** par rapport à vos prix sur place. C'est une pratique standard et acceptée — les clients le savent. Cette majoration compense partiellement la commission de la plateforme.
+
+Exemple concret :
+- Burger sur place : 10,00 €
+- Burger en livraison : 12,50 € (+25 %)
+- Commission plateforme (30 %) : -3,75 €
+- Vous encaissez : 8,75 € (vs 10,00 € sur place)
+- Coût emballage : -0,60 €
+- **Net réel : 8,15 €** — soit une marge réduite mais un volume additionnel qui ne cannibalise pas vos ventes physiques
+
+## Organiser la logistique sans perturber le service sur place
+
+C'est le piège numéro un : la livraison qui désorganise votre service physique. Voici comment l'éviter :
+
+**1. Définissez des créneaux livraison distincts**
+Ne laissez pas les commandes arriver pendant votre rush de midi. Utilisez les paramètres de la plateforme pour :
+- Ouvrir la livraison de 11h à 11h45 (avant le rush)
+- Couper de 12h à 13h30 (rush sur place)
+- Rouvrir de 13h30 à 15h (après le rush)
+
+**2. Préparez en batch**
+Les commandes livraison sont souvent les mêmes plats. Préparez vos composants en série plutôt que commande par commande.
+
+**3. Dédiez une zone d'emballage**
+Même dans un food truck, isolez une zone pour l'assemblage livraison : emballages empilés, sacs pré-étiquetés, zone de dépôt pour les livreurs.
+
+**4. Utilisez une tablette dédiée**
+Ne gérez pas les commandes sur votre téléphone personnel. Une tablette dédiée (même d'occasion à 100 €) avec les applications des plateformes évite les oublis et les erreurs.
+
+## Mesurer la rentabilité réelle de la livraison
+
+Beaucoup de food truckers arrêtent la livraison après quelques semaines en pensant que "ça ne rapporte rien". En réalité, ils n'ont simplement pas mesuré correctement.
+
+Les indicateurs à suivre chaque semaine :
+
+- **CA livraison net** (après commission) : visez minimum 250 €/semaine pour que le canal soit viable
+- **Panier moyen** : en dessous de 15 €, vous perdez de l'argent. Poussez les formules.
+- **Nombre de commandes/heure** : en dessous de 3 commandes/heure, le canal n'est pas assez dense. Changez vos créneaux ou votre zone.
+- **Coût emballage par commande** : ne dépassez pas 5 % du prix de vente
+- **Taux d'annulation** : au-dessus de 5 %, vous avez un problème de temps de préparation
+
+**[FoodTracks](/)** vous permet de centraliser vos ventes sur place (SumUp) et vos revenus livraison pour obtenir une vue consolidée de votre rentabilité par canal et par jour. Identifiez en un coup d'œil quels créneaux livraison sont rentables et lesquels vous font perdre du temps.
+
+## Les erreurs qui coûtent cher aux food trucks en livraison
+
+Après avoir accompagné de nombreux food truckers, voici les erreurs les plus fréquentes :
+
+1. **Accepter toutes les commandes pendant le rush** : résultat, le service sur place se dégrade et vous perdez des clients fidèles
+2. **Ne pas majorer les prix** : vous absorbez 30 % de commission sur vos prix normaux = travail à perte
+3. **Ignorer les avis négatifs** : sur les plateformes, votre note détermine votre visibilité. En dessous de 4,5/5, vos commandes chutent drastiquement
+4. **Proposer trop de plats** : chaque plat ajouté complexifie votre logistique. Moins de plats = moins d'erreurs = meilleures notes
+5. **Oublier les coûts cachés** : emballages, tablette, éventuelle cuisine partagée, temps de gestion des litiges — intégrez tout dans votre calcul
+
+## Conclusion
+
+La livraison n'est pas un remplacement de votre activité de food truck — c'est un **canal complémentaire** qui, bien géré, peut ajouter 1 000 à 3 000 €/mois à votre chiffre d'affaires. La clé du succès : une carte réduite et adaptée, des prix majorés, des créneaux maîtrisés, et un suivi rigoureux de la rentabilité.
+
+Commencez petit : une plateforme, 6 plats, 2 créneaux par jour. Mesurez pendant un mois. Ajustez. Puis passez à l'échelle.
+
+**[Essayez FoodTracks gratuitement](/fr/register)** pour suivre vos ventes sur place et en livraison dans un seul tableau de bord, et identifiez les créneaux les plus rentables de votre semaine.`,
+      en: `# Food Truck Delivery: How to Get Started on Uber Eats, Deliveroo and Delivery Platforms
+
+Delivery now accounts for **over 30% of fast-food revenue** in many European markets. Yet the vast majority of food trucks still don't use this channel. Too complicated? Not profitable enough? In reality, adding delivery to your food truck business is perfectly doable — as long as you approach it smartly.
+
+This guide walks you through how to add Uber Eats, Deliveroo or other platforms to your food truck, which dishes to offer, how to stay profitable despite commissions, and which mistakes to avoid at all costs.
+
+## Why Your Food Truck Should Offer Delivery
+
+Delivery solves the food truck's fundamental problem: **dependence on physical location**. When it rains, when your usual spot is cancelled, or simply between services, delivery lets you keep selling.
+
+The concrete benefits:
+
+- **Additional revenue**: €300 to €800/week in extra turnover is realistic for an active food truck in an urban area
+- **Free visibility**: your food truck appears on the app in front of thousands of users in your area — marketing you only pay for per order
+- **Smoothing out activity**: delivery fills the gaps (afternoons, slow days, bad weather)
+- **Testing new markets**: before driving to a new neighbourhood, test it via delivery to validate demand
+
+Of course, delivery isn't magic. Platform commissions (25 to 30% on average) eat into your margins. That's why you need an adapted strategy — not simply duplicating your physical menu on the app.
+
+## Uber Eats, Deliveroo, Just Eat: Which Platform to Choose?
+
+Each platform has its own characteristics. Here's a practical comparison for food trucks:
+
+| Criteria | Uber Eats | Deliveroo | Just Eat |
+|----------|-----------|-----------|----------|
+| **Average commission** | 25-30% | 25-30% | 15-25% |
+| **Geographic coverage** | Very broad | Major cities | Medium |
+| **Order volume** | High | High in city centres | Moderate |
+| **Food truck signup** | Possible with fixed address | Possible with shared kitchen | More flexible |
+| **Activation time** | 1-3 weeks | 2-4 weeks | 1-2 weeks |
+
+**Our recommendation**: start with **one platform only** (whichever dominates your area). Master the order flow, optimise your menu, then add a second platform after 4 to 6 weeks.
+
+### The Key Point: Pickup Address
+
+Platforms require a fixed address for rider pickups. Two solutions for a food truck:
+
+1. **Shared kitchen (dark kitchen)**: rent a workstation in a shared kitchen for a few hours per day (€150-500/month). You produce exclusively for delivery there.
+2. **Fixed recurring location**: if you have a daily fixed spot (covered market, industrial estate), you can use it as a pickup address during your service hours.
+
+## Adapting Your Menu for Delivery: The Golden Rules
+
+**Never** put your full menu on a delivery platform. Delivery has its own constraints:
+
+### What Works for Delivery
+
+- **Dishes that travel well**: burgers, bowls, wraps, saucy dishes, composed salads
+- **Leak-proof packaging**: invest in containers that don't leak and maintain temperature (budget: €0.40-0.80 per order)
+- **Combos and meal deals**: platforms favour restaurants that offer bundles (main + drink + dessert) because the average basket increases
+
+### What to Avoid
+
+- **Fried items that go soggy**: chips, tempura, spring rolls — unless you use special ventilated packaging
+- **Plated-to-order dishes**: anything that loses its presentation after 20 minutes of transport
+- **Too much choice**: 6 to 10 items maximum on your delivery menu
+
+### Adjusting Your Prices
+
+The critical rule: **mark up your delivery prices by 15 to 25%** compared to your dine-in prices. This is standard practice and widely accepted — customers know it. This markup partially offsets the platform commission.
+
+Concrete example:
+- Burger on-site: €10.00
+- Burger on delivery: €12.50 (+25%)
+- Platform commission (30%): -€3.75
+- You receive: €8.75 (vs €10.00 on-site)
+- Packaging cost: -€0.60
+- **Actual net: €8.15** — a reduced margin but additional volume that doesn't cannibalise your physical sales
+
+## Organising Logistics Without Disrupting On-Site Service
+
+This is trap number one: delivery that disorganises your physical service. Here's how to avoid it:
+
+**1. Set Distinct Delivery Time Slots**
+Don't let orders come in during your lunch rush. Use the platform settings to:
+- Open delivery from 11am to 11:45am (before the rush)
+- Close from 12pm to 1:30pm (on-site rush)
+- Reopen from 1:30pm to 3pm (after the rush)
+
+**2. Batch Prepare**
+Delivery orders are often the same dishes. Prepare your components in batches rather than order by order.
+
+**3. Dedicate a Packaging Zone**
+Even in a food truck, isolate an area for delivery assembly: stacked packaging, pre-labelled bags, a deposit zone for riders.
+
+**4. Use a Dedicated Tablet**
+Don't manage orders on your personal phone. A dedicated tablet (even a second-hand one for €100) with the platform apps prevents forgotten orders and mistakes.
+
+## Measuring the True Profitability of Delivery
+
+Many food truckers quit delivery after a few weeks thinking "it doesn't make any money". In reality, they simply didn't measure correctly.
+
+Key metrics to track every week:
+
+- **Net delivery revenue** (after commission): aim for a minimum of €250/week for the channel to be viable
+- **Average basket**: below €15, you're losing money. Push the combo deals.
+- **Orders per hour**: below 3 orders/hour, the channel isn't dense enough. Change your time slots or your zone.
+- **Packaging cost per order**: don't exceed 5% of the selling price
+- **Cancellation rate**: above 5%, you have a preparation time problem
+
+**[FoodTracks](/)** lets you centralise your on-site sales (SumUp) and your delivery revenue to get a consolidated view of profitability by channel and by day. Spot at a glance which delivery slots are profitable and which ones waste your time.
+
+## Costly Mistakes Food Trucks Make with Delivery
+
+After working with many food truck operators, here are the most common mistakes:
+
+1. **Accepting all orders during the rush**: result — on-site service degrades and you lose loyal customers
+2. **Not marking up prices**: you absorb 30% commission on your normal prices = working at a loss
+3. **Ignoring negative reviews**: on platforms, your rating determines your visibility. Below 4.5/5, your orders drop dramatically
+4. **Offering too many dishes**: every added dish complicates your logistics. Fewer dishes = fewer mistakes = better ratings
+5. **Forgetting hidden costs**: packaging, tablet, potential shared kitchen, time spent on dispute management — factor everything into your calculations
+
+## Conclusion
+
+Delivery isn't a replacement for your food truck business — it's a **complementary channel** that, when well managed, can add €1,000 to €3,000/month to your revenue. The keys to success: a reduced, adapted menu, marked-up prices, controlled time slots, and rigorous profitability tracking.
+
+Start small: one platform, 6 dishes, 2 time slots per day. Measure for one month. Adjust. Then scale up.
+
+**[Try FoodTracks for free](/en/register)** to track your on-site and delivery sales in a single dashboard, and identify the most profitable time slots in your week.`,
+    },
+    keyTakeaways: {
+      fr: [
+        "Commencez par une seule plateforme de livraison et maîtrisez le flux avant d'en ajouter une deuxième.",
+        "Majorez vos prix livraison de 15 à 25 % pour compenser les commissions des plateformes (25-30 %).",
+        "Limitez votre carte livraison à 6-10 plats qui voyagent bien et investissez dans des emballages adaptés.",
+        "Ne laissez jamais les commandes livraison arriver pendant votre rush sur place — définissez des créneaux distincts.",
+        "Suivez votre CA livraison net, votre panier moyen et votre taux d'annulation chaque semaine pour piloter la rentabilité.",
+      ],
+      en: [
+        "Start with one delivery platform only and master the flow before adding a second one.",
+        "Mark up delivery prices by 15-25% to offset platform commissions (25-30%).",
+        "Limit your delivery menu to 6-10 dishes that travel well and invest in proper packaging.",
+        "Never let delivery orders come in during your on-site rush — set distinct time slots.",
+        "Track net delivery revenue, average basket, and cancellation rate weekly to manage profitability.",
+      ],
+    },
+    faqItems: [
+      {
+        question: {
+          fr: "Un food truck peut-il s'inscrire sur Uber Eats ou Deliveroo ?",
+          en: "Can a food truck sign up for Uber Eats or Deliveroo?",
+        },
+        answer: {
+          fr: "Oui, à condition de disposer d'une adresse fixe de retrait pour les livreurs. Les deux options les plus courantes sont la location d'un poste en cuisine partagée (150-500 €/mois) ou l'utilisation d'un emplacement récurrent fixe (marché couvert, zone industrielle) comme adresse de retrait pendant les heures de service. L'inscription prend généralement 1 à 4 semaines selon la plateforme.",
+          en: "Yes, provided you have a fixed pickup address for riders. The two most common options are renting a station in a shared kitchen (€150-500/month) or using a fixed recurring location (covered market, industrial estate) as a pickup address during service hours. Registration typically takes 1 to 4 weeks depending on the platform.",
+        },
+      },
+      {
+        question: {
+          fr: "Combien peut rapporter la livraison pour un food truck ?",
+          en: "How much can delivery earn for a food truck?",
+        },
+        answer: {
+          fr: "Un food truck actif en zone urbaine peut raisonnablement générer 300 à 800 € de chiffre d'affaires supplémentaire par semaine via la livraison, soit 1 000 à 3 000 €/mois. Après déduction des commissions (25-30 %), des emballages et des frais annexes, le revenu net additionnel se situe entre 600 et 2 000 €/mois. La clé est de majorer les prix de 15-25 % et de limiter la carte aux plats les plus rentables.",
+          en: "An active food truck in an urban area can realistically generate €300 to €800 in additional weekly revenue through delivery, or €1,000 to €3,000/month. After deducting commissions (25-30%), packaging, and ancillary costs, additional net income ranges from €600 to €2,000/month. The key is to mark up prices by 15-25% and limit the menu to the most profitable dishes.",
+        },
+      },
+      {
+        question: {
+          fr: "Quels plats de food truck sont adaptés à la livraison ?",
+          en: "Which food truck dishes are suitable for delivery?",
+        },
+        answer: {
+          fr: "Les plats qui voyagent le mieux sont les burgers, bowls, wraps, plats en sauce et salades composées. Évitez les fritures (frites, tempura) qui ramollissent pendant le transport, sauf avec des emballages ventilés spéciaux. Limitez votre carte livraison à 6-10 plats maximum et proposez des formules (plat + boisson + dessert) pour augmenter le panier moyen au-dessus de 15 €.",
+          en: "Dishes that travel best are burgers, bowls, wraps, saucy dishes, and composed salads. Avoid fried items (chips, tempura) that go soggy during transport, unless you use special ventilated packaging. Limit your delivery menu to 6-10 items maximum and offer combo deals (main + drink + dessert) to push the average basket above €15.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment éviter que la livraison perturbe le service sur place du food truck ?",
+          en: "How do you prevent delivery from disrupting on-site food truck service?",
+        },
+        answer: {
+          fr: "La règle d'or est de définir des créneaux livraison distincts : ouvrez la livraison avant et après votre rush sur place, mais coupez-la pendant les heures de pointe. Utilisez les paramètres de pause des plateformes. Dédiez aussi une zone d'emballage dans votre truck et utilisez une tablette séparée pour gérer les commandes livraison sans perturber votre flux de travail principal.",
+          en: "The golden rule is to set distinct delivery time slots: open delivery before and after your on-site rush, but close it during peak hours. Use the platform's pause settings. Also dedicate a packaging zone in your truck and use a separate tablet to manage delivery orders without disrupting your main workflow.",
+        },
+      },
+    ],
+    relatedSlugs: [
+      "rentabilite-food-truck-ameliorer",
+      "fixer-prix-menu-food-truck",
+      "food-truck-saison-creuse-strategies",
+    ],
+  },
 ];
 
 export function getArticleBySlug(slug: string): BlogArticle | undefined {
