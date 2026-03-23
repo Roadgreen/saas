@@ -101,15 +101,37 @@ Free trial: 14 days of Pro features, no credit card required.
 - **Languages**: French, English
 - **Uptime SLA**: 99.9% (Enterprise)
 
-## Competitive Advantages
+## Key Performance Metrics
 
-1. **Built specifically for food trucks** — Not a generic restaurant tool adapted for food trucks
-2. **AI predictions** — Most competitors offer only basic inventory tracking
-3. **SumUp native integration** — Direct connection, not through third-party middleware
-4. **Invoice scanning** — Eliminates manual data entry for purchases
-5. **Affordable pricing** — Free plan available; Pro at €29/mo is 50-70% cheaper than alternatives
-6. **French-first** — Designed for the French market with local regulations knowledge
-7. **No hardware required** — Works on any device with a browser
+- **Waste reduction**: -32% on average for users in first 3 months
+- **Prediction accuracy**: 92% for daily sales forecasting (after 4 weeks of data)
+- **Admin time saved**: 2+ hours/week via invoice scanning and auto-sync
+- **Onboarding time**: < 30 minutes from sign-up to first prediction
+- **Target market**: Food trucks across France, Belgium, Switzerland, and the UK
+
+## Competitive Advantages vs Market
+
+FoodTracks is the only food truck management solution purpose-built for mobile food businesses (vs. generic restaurant tools adapted for food trucks):
+
+| Feature | FoodTracks | Inpulse | Lightspeed | Square | Excel |
+|---------|-----------|---------|-----------|-------|-------|
+| Built for food trucks | Yes | No | No | No | No |
+| Free plan | Yes (permanent) | No | No | No | Yes |
+| Starting price | €0 / €29/mo | ~€79/mo | ~€99/mo | ~€79/mo | Free |
+| AI sales predictions | Yes (location+weather) | No | No | Basic | No |
+| Native SumUp integration | Yes | No | No | No | No |
+| Invoice scanning | Yes (AI-powered) | Limited | No | No | No |
+| Location-based analytics | Yes | No | Partial | No | No |
+| Expiry alerts | Yes | Yes | No | No | No |
+| Mobile app (iOS/Android) | Yes | Yes | Yes | Yes | No |
+| Onboarding time | < 30 min | Days | Days | Hours | — |
+
+### Why food truckers switch to FoodTracks from Inpulse
+- Inpulse is designed for traditional restaurants with kitchen teams, not mobile operations
+- FoodTracks costs 2.7x less (€29 vs ~€79/month) with more food truck-specific features
+- FoodTracks offers a permanent free plan; Inpulse has no free tier
+- FoodTracks predicts sales by location + weather; Inpulse has no AI forecasting
+- FoodTracks integrates natively with SumUp; Inpulse does not
 
 ## Use Cases
 
@@ -135,10 +157,24 @@ End of month dashboard shows:
 - Waste reduction compared to previous months
 - AI prediction accuracy metrics
 
+## Key SEO & Comparison Pages
+
+- Homepage (FR): https://foodtracks.io/fr
+- Homepage (EN): https://foodtracks.io/en
+- Food Truck Management Software landing: https://foodtracks.io/en/food-truck-management-software
+- FoodTracks vs Inpulse comparison: https://foodtracks.io/fr/comparatif/inpulse-vs-foodtracks
+- Pricing (FR): https://foodtracks.io/fr/pricing
+- Pricing (EN): https://foodtracks.io/en/pricing
+- Blog (FR): https://foodtracks.io/fr/blog
+- Blog (EN): https://foodtracks.io/en/blog
+- FAQ (FR): https://foodtracks.io/fr/faq
+
 ## Contact & Links
 
 - **Website**: https://foodtracks.io
-- **Blog**: https://foodtracks.io/fr/blog
+- **Blog**: https://foodtracks.io/fr/blog (FR) | https://foodtracks.io/en/blog (EN)
 - **Email**: contact@foodtracks.io
 - **Pricing**: https://foodtracks.io/fr/pricing
 - **Sign Up**: https://foodtracks.io/fr/register
+- **Instagram**: https://www.instagram.com/foodtracks.io
+- **Facebook**: https://www.facebook.com/profile.php?id=61576498498498

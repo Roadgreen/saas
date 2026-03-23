@@ -133,13 +133,6 @@ export default async function FoodTruckManagementSoftwarePage({
         url: `${BASE_URL}/${locale}/pricing`,
       },
     ],
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: '4.8',
-      ratingCount: '150',
-      bestRating: '5',
-      worstRating: '1',
-    },
     featureList: isFr
       ? 'Prédictions IA, Suivi de stock temps réel, Scan de factures, Intégration SumUp, Analyse des marges, Multi-emplacements, Alertes péremption, Export comptable'
       : 'AI Predictions, Real-time stock tracking, Invoice scanning, SumUp integration, Margin analytics, Multi-location, Expiry alerts, Accounting export',
@@ -435,8 +428,8 @@ export default async function FoodTruckManagementSoftwarePage({
           <div className="container mx-auto px-4 max-w-4xl">
             <div className="flex flex-wrap items-center justify-center gap-8 text-center">
               {[
-                { value: '150+', label: isFr ? 'food trucks actifs' : 'active food trucks' },
-                { value: '4.8/5', label: isFr ? 'note moyenne' : 'average rating' },
+                { value: '100%', label: isFr ? 'conçu pour les food trucks' : 'built for food trucks' },
+                { value: '€0', label: isFr ? 'pour commencer' : 'to get started' },
                 { value: '32%', label: isFr ? 'réduction gaspillage' : 'waste reduction' },
                 { value: '30min', label: isFr ? 'pour démarrer' : 'to get started' },
               ].map((item, i) => (

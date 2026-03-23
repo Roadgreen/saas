@@ -184,13 +184,6 @@ export default async function LocaleLayout({ children, params }: { children: Rea
         url: `${BASE_URL}/${locale}/pricing`,
       },
     ],
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: '4.8',
-      ratingCount: '150',
-      bestRating: '5',
-      worstRating: '1',
-    },
     featureList: locale === 'fr'
       ? 'Prédictions IA, Suivi de stock en temps réel, Scan de factures, Intégration SumUp, Analyse des marges, Multi-emplacements, Alertes péremption, Export comptable'
       : 'AI Predictions, Real-time stock tracking, Invoice scanning, SumUp integration, Margin analytics, Multi-location, Expiry alerts, Accounting export',

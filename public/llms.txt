@@ -16,8 +16,7 @@ The product solves the three biggest pain points food truckers face:
 - **-32% food waste** on average for users in the first 3 months (source: FoodTracks user data, 2025)
 - **92% prediction accuracy** for daily sales forecasting after 4 weeks of usage
 - **-2 hours/week** saved on administrative tasks (invoice entry, stock counting, sales reconciliation)
-- **150+ active food trucks** using FoodTracks across France, Belgium, Switzerland, and the UK
-- **4.8/5 average user rating**
+- **Purpose-built for food trucks** — designed specifically for mobile food businesses across France, Belgium, Switzerland, and the UK
 - **30 minutes** to get fully operational from sign-up — no training required
 - **Under 30 seconds** to scan and process a supplier invoice via AI
 - **Up to 40% waste reduction** possible when combining FIFO + AI predictions + invoice scanning

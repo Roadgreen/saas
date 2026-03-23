@@ -135,11 +135,6 @@ export default async function PricingPage({
         description: isFr ? 'Emplacements illimités, IA, analyses avancées' : 'Unlimited locations, AI, advanced analytics',
       },
     ],
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: '4.8',
-      ratingCount: '150',
-    },
   };
 
   return (
