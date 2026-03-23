@@ -853,18 +853,6 @@ export default function HomeClient() {
             ))}
           </StaggerContainer>
 
-          {/* Star rating */}
-          <AnimatedSection delay={0.3}>
-            <div className="flex items-center justify-center gap-2 mt-10">
-              <div className="flex gap-0.5">
-                {[1, 2, 3, 4, 5].map((i) => (
-                  <Star key={i} className="h-5 w-5 fill-current" style={{ color: '#F59E0B' }} />
-                ))}
-              </div>
-              <span className="text-sm font-semibold text-gray-700">4.8/5</span>
-              <span className="text-sm text-gray-500">— 150+ food truckers</span>
-            </div>
-          </AnimatedSection>
         </div>
       </section>
 
