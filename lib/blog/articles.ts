@@ -11776,6 +11776,399 @@ The real mistake would be not investing, and letting €150 to €300/month evap
       "cout-charges-food-truck-mensuel",
     ],
   },
+  {
+    slug: "recruter-personnel-food-truck",
+    title: {
+      fr: "Recruter du personnel pour son food truck : guide complet 2026",
+      en: "How to Hire Staff for Your Food Truck: Complete 2026 Guide",
+    },
+    excerpt: {
+      fr: "Quand et comment recruter pour votre food truck : profils à chercher, contrats adaptés, coût réel d'un employé et erreurs à éviter pour réussir votre premier recrutement.",
+      en: "When and how to hire for your food truck: the right profiles, suitable contracts, real cost of an employee, and mistakes to avoid for a successful first hire.",
+    },
+    category: { fr: "Ressources humaines", en: "Human Resources" },
+    date: "2026-03-25",
+    readTime: 10,
+    keywords: [
+      "recruter personnel food truck",
+      "embauche food truck",
+      "premier employé food truck",
+      "contrat saisonnier food truck",
+      "coût employé food truck",
+      "hire food truck staff",
+      "food truck employee",
+    ],
+    heroImage: "/blog/food-truck-equipe.png",
+    keyTakeaways: {
+      fr: [
+        "Le seuil de rentabilité pour recruter se situe généralement autour de 4 000-5 000 €/mois de CA : au-delà, un employé libère du temps et augmente la capacité de service.",
+        "Le coût réel d'un employé au SMIC dépasse de 40-50 % son salaire brut une fois les charges patronales incluses.",
+        "Le contrat extra (CDDU) est la formule la plus souple pour débuter, mais le CDI temps partiel offre plus de fidélité.",
+        "Définir précisément le poste, les horaires et les attentes avant de recruter évite la majorité des mauvaises expériences.",
+        "FoodTracks permet de mesurer l'impact du recrutement sur la rentabilité via le suivi du CA par service et des coûts de main-d'œuvre.",
+      ],
+      en: [
+        "The profitability threshold for hiring is typically around €4,000-5,000/month in revenue: beyond that, an employee frees up time and increases service capacity.",
+        "The real cost of an employee at minimum wage exceeds their gross salary by 40-50% once employer contributions are included.",
+        "The extra (casual) contract is the most flexible formula to start with, but a part-time permanent contract offers more loyalty.",
+        "Clearly defining the role, hours and expectations before recruiting avoids the majority of bad experiences.",
+        "FoodTracks lets you measure the impact of hiring on profitability by tracking revenue per service and labour costs.",
+      ],
+    },
+    faqItems: [
+      {
+        question: {
+          fr: "À quel moment dois-je recruter pour mon food truck ?",
+          en: "When should I hire staff for my food truck?",
+        },
+        answer: {
+          fr: "Le bon moment pour recruter est généralement quand vous atteignez 4 000 à 5 000 €/mois de chiffre d'affaires et que vous perdez des ventes faute de capacité, ou que vous passez plus de 60 heures par semaine sur l'activité. Un premier employé bien choisi peut augmenter votre CA de 20 à 40 % en vous permettant d'ouvrir plus de services ou d'être plus efficace pendant le rush.",
+          en: "The right time to hire is generally when you reach €4,000 to €5,000/month in revenue and you are losing sales due to lack of capacity, or when you are spending more than 60 hours per week on the business. A well-chosen first employee can increase your revenue by 20 to 40% by allowing you to open more services or be more efficient during the rush.",
+        },
+      },
+      {
+        question: {
+          fr: "Quel type de contrat utiliser pour un employé de food truck ?",
+          en: "What type of contract should I use for a food truck employee?",
+        },
+        answer: {
+          fr: "Pour débuter, le contrat d'extra (CDDU — Contrat à Durée Déterminée d'Usage) est le plus adapté : il permet d'employer quelqu'un ponctuellement, service par service, sans engagement long terme. Pour un profil régulier, le CDI à temps partiel (20-30h/semaine) offre plus de stabilité et favorise la fidélisation. Le CDD saisonnier est idéal pour les food truckers qui ont une forte saisonnalité (marchés d'été, festivals).",
+          en: "For starters, the casual contract (CDDU — fixed-term contract for customary use) is the most suitable: it allows you to employ someone on a one-off basis, service by service, without long-term commitment. For a regular profile, a part-time permanent contract (20-30 hours/week) offers more stability and encourages loyalty. The seasonal fixed-term contract is ideal for food truck operators with strong seasonality (summer markets, festivals).",
+        },
+      },
+      {
+        question: {
+          fr: "Combien coûte réellement un employé pour un food truck ?",
+          en: "What is the real cost of a food truck employee?",
+        },
+        answer: {
+          fr: "Pour un employé au SMIC (11,88 €/h brut en 2026), le coût total pour l'employeur est environ 1,45 fois le salaire brut. Pour un temps partiel de 25h/semaine, cela représente environ 1 900 à 2 000 €/mois tout compris (salaire net + charges patronales). À cela peuvent s'ajouter les indemnités de fin de contrat (10 % pour un CDD), la mutuelle d'entreprise et les éventuels frais de transport.",
+          en: "For an employee at minimum wage (€11.88/h gross in 2026), the total cost to the employer is approximately 1.45 times the gross salary. For 25 hours/week part-time, this represents approximately €1,900 to €2,000/month all-in (net salary + employer contributions). Additional costs may include end-of-contract indemnities (10% for a fixed-term contract), company health insurance and any transport costs.",
+        },
+      },
+      {
+        question: {
+          fr: "Où trouver des candidats pour travailler dans un food truck ?",
+          en: "Where can I find candidates to work in a food truck?",
+        },
+        answer: {
+          fr: "Les meilleures sources pour recruter un employé de food truck sont : les réseaux sociaux locaux (groupes Facebook de votre ville, Instagram), les écoles hôtelières et CAP restauration de votre région, le bouche-à-oreille auprès des autres food truckers et des marchés, France Travail (ex Pôle Emploi) avec une annonce bien rédigée, et les plateformes spécialisées restauration comme Combo ou Brigad pour les extras.",
+          en: "The best sources to recruit a food truck employee are: local social networks (Facebook groups for your city, Instagram), hotel schools and culinary vocational programmes in your area, word of mouth among other food truckers and market operators, France Travail (the public employment service) with a well-written listing, and specialist hospitality platforms like Combo or Brigad for casual staff.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment mesurer si mon recrutement est rentable ?",
+          en: "How do I measure whether my hire is profitable?",
+        },
+        answer: {
+          fr: "Pour mesurer la rentabilité d'un recrutement, comparez votre chiffre d'affaires par service avant et après l'embauche, en intégrant le coût total de l'employé dans vos charges. Avec FoodTracks, vous pouvez suivre le CA par service et calculer votre marge nette en tenant compte des coûts de personnel. Un recrutement est rentable si le CA supplémentaire généré (ou le temps libéré pour ouvrir des services supplémentaires) dépasse le coût de l'employé.",
+          en: "To measure the profitability of a hire, compare your revenue per service before and after hiring, factoring in the total cost of the employee into your expenses. With FoodTracks, you can track revenue per service and calculate your net margin taking into account staff costs. A hire is profitable if the additional revenue generated (or the time freed up to open additional services) exceeds the cost of the employee.",
+        },
+      },
+    ],
+    content: {
+      fr: `## Faut-il vraiment recruter pour son food truck ?
+
+Recruter est souvent perçu comme un cap difficile à franchir pour un food trucker solo. La peur des charges, des contraintes administratives et de la dépendance freine beaucoup de gérants qui travaillent déjà à la limite de leurs capacités.
+
+Pourtant, **le bon recrutement au bon moment peut transformer votre activité** : plus de services ouverts, moins de fatigue accumulée, et une croissance de chiffre d'affaires difficile à atteindre seul.
+
+Ce guide vous donne tous les éléments pour décider si vous êtes prêt à recruter, quel profil chercher, quel contrat utiliser — et comment mesurer si c'est rentable.
+
+## Les signaux qui indiquent qu'il est temps de recruter
+
+Avant de vous lancer dans un processus de recrutement, vérifiez que vous cochez au moins trois de ces signaux :
+
+- **Vous refusez des clients** pendant les rushes faute de capacité
+- **Vous travaillez plus de 55-60 heures par semaine** de façon régulière
+- **Vous ne pouvez pas ouvrir certains services** (marchés, festivals) faute de bras
+- **Votre CA stagne** malgré une demande croissante
+- **Vous avez atteint 4 000 à 5 000 €/mois** de chiffre d'affaires
+
+En dessous de ce seuil, un employé représente une charge difficile à absorber. Au-delà, le coût d'un temps partiel se couvre généralement par le CA supplémentaire généré.
+
+## Quel profil recruter en premier ?
+
+Le premier recrutement en food truck correspond souvent à l'un de ces deux profils :
+
+### L'assistant polyvalent (profil junior)
+
+C'est le profil le plus courant pour un premier recrutement. Son rôle : vous épauler pendant le service (prise de commande, assemblage, encaissement, nettoyage), vous permettre d'être plus rapide et d'ouvrir davantage de services.
+
+**Profil recherché** : motivé, à l'aise avec le contact client, disponible en semaine et week-end, sans expérience obligatoire en restauration. L'expérience peut se former rapidement avec vous.
+
+**Avantage** : coût moindre (SMIC), recrutement plus facile, pas besoin d'un profil cuisinier si vous gérez la production.
+
+### Le commis de cuisine / préparateur (profil intermédiaire)
+
+Si votre goulet d'étranglement est la production (vous êtes seul aux fourneaux et vous n'arrivez pas à suivre les commandes), un commis ou préparateur vous soulage en cuisine.
+
+**Profil recherché** : CAP cuisine ou expérience en restauration rapide, capacité à travailler dans un espace confiné, autonomie sur les préparations de base.
+
+**Avantage** : libère votre bande passante pour gérer la clientèle, améliore la qualité et la régularité des plats.
+
+## Les contrats adaptés au food truck
+
+Le droit du travail en France offre plusieurs formules bien adaptées à l'activité food truck :
+
+### Le contrat d'extra (CDDU)
+
+Le **Contrat à Durée Déterminée d'Usage** (CDDU) est la formule la plus souple pour commencer. Vous employez quelqu'un pour un service précis, sans engagement de régularité. Il est possible d'employer le même extra de façon récurrente.
+
+**Avantages** : flexibilité totale, adaptation à votre planning variable, idéal pour tester avant de s'engager davantage.
+
+**Inconvénients** : pas de fidélisation garantie, indemnité de précarité de 10 % à verser à chaque fin de contrat.
+
+### Le CDI à temps partiel
+
+Pour un collaborateur régulier, le **CDI temps partiel** (généralement 20 à 30 heures par semaine) est la formule qui fidélise le mieux. Vous définissez les jours et horaires types, avec possibilité d'heures complémentaires.
+
+**Avantages** : stabilité pour les deux parties, fidélisation, pas d'indemnité de précarité.
+
+**Inconvénients** : engagement plus fort, impossibilité de ne pas faire appel à la personne sans motif.
+
+### Le CDD saisonnier
+
+Si votre activité est fortement saisonnière (festivals d'été, marchés de Noël), le **CDD saisonnier** est taillé pour vous : il permet d'employer quelqu'un pour une saison définie, de 1 à 8 mois.
+
+**Avantages** : durée adaptée à votre saisonnalité, pas d'engagement hors saison.
+
+**Inconvénients** : renouvellement à gérer chaque saison, indemnité de fin de contrat si non renouvellement.
+
+## Le coût réel d'un employé en food truck
+
+C'est la question qui bloque le plus de food truckers. Voici les chiffres réels pour 2026 :
+
+### Pour un extra (CDDU) à 8h de service
+
+- Salaire brut : 8h × 11,88 € = **95,04 €**
+- Charges patronales (~45 %) : ~**42,77 €**
+- Indemnité de précarité (10 %) : **9,50 €**
+- **Coût total : ~147 € pour 8h de travail**, soit ~18,40 €/h tout compris
+
+### Pour un CDI temps partiel 25h/semaine
+
+- Salaire brut mensuel : ~**1 286 €**
+- Charges patronales (~45 %) : ~**579 €**
+- **Coût total employeur : ~1 865 €/mois**
+
+Pour qu'un temps partiel à 25h/semaine soit rentable sur un food truck générant 5 000 €/mois, il faut que l'employé permette de générer au moins **37 % de CA supplémentaire** — ce qui est tout à fait atteignable si son arrivée permet d'ouvrir 1 à 2 services de plus par semaine.
+
+## Où et comment recruter ?
+
+### Les canaux qui fonctionnent pour le food truck
+
+- **Réseaux sociaux locaux** : groupes Facebook de votre ville, votre compte Instagram. Un post authentique sur "je cherche un extra pour m'aider sur les marchés" génère souvent de bonnes candidatures organiques.
+- **Écoles hôtelières et CAP restauration** : les élèves en fin de formation cherchent des expériences pratiques. Contactez directement les établissements de votre secteur.
+- **Autres food truckers et marchés** : le bouche-à-oreille dans la communauté food truck est très efficace. Un profil recommandé par un confrère part avec une longueur d'avance.
+- **France Travail (ex Pôle Emploi)** : efficace pour les CDI et CDD, moins pour les extras.
+- **Plateformes spécialisées** : Brigad ou Combo pour trouver des extras en restauration rapidement.
+
+### Rédiger une annonce qui attire les bons profils
+
+Une bonne annonce pour un poste en food truck doit être **directe et honnête** sur les conditions : horaires décalés, station debout prolongée, espace de travail confiné, rush intenses. Les candidats qui répondent malgré ces contraintes sont généralement les plus adaptés.
+
+Incluez dans votre annonce :
+- Le type de cuisine et l'ambiance du food truck
+- Les horaires et jours typiques
+- Le type de contrat proposé
+- Ce que vous recherchez (sourire, réactivité, sens du service)
+- Ce que vous offrez (ambiance, apprentissage, rémunération)
+
+## Bien intégrer son premier employé
+
+Le premier mois est déterminant. Voici les bonnes pratiques :
+
+### Formez sur vos standards, pas les standards génériques
+
+Votre façon de préparer vos plats, votre façon d'accueillir les clients, votre façon de gérer le rush — c'est unique à votre concept. Prenez le temps d'expliquer et de montrer plutôt que de supposer que la personne "sait" parce qu'elle a de l'expérience.
+
+### Donnez un retour rapide
+
+En food truck, les problèmes doivent se corriger immédiatement. Un client mal accueilli, une portion non respectée — signalez-le directement et positivement après le service. Pas de non-dits.
+
+### Associez-le à vos données
+
+Partagez vos résultats de services avec votre employé : le CA du jour, le nombre de couverts, les retours clients. Un employé qui comprend les enjeux de rentabilité est naturellement plus impliqué. FoodTracks permet de visualiser ces données en temps réel via le [tableau de bord KPI](/fr/blog/tableau-de-bord-kpi-food-truck) pour piloter ensemble la performance.
+
+## Mesurer la rentabilité du recrutement
+
+Un recrutement est une décision business — elle doit se mesurer. Avant l'embauche, notez :
+
+- Votre CA moyen par service
+- Votre nombre de services par semaine
+- Votre temps de travail hebdomadaire
+
+Après 1 mois avec le nouvel employé, comparez :
+
+- Le CA par service (a-t-il augmenté grâce à un service plus rapide ?)
+- Le nombre de services (avez-vous pu en ouvrir de nouveaux ?)
+- Votre marge nette après coût employé
+
+Avec FoodTracks, vous pouvez suivre le [chiffre d'affaires par emplacement et par service](/fr/blog/optimiser-tournee-food-truck-rentabilite) pour mesurer précisément l'impact de chaque décision — y compris le recrutement.
+
+## Conclusion
+
+Recruter pour son food truck n'est pas une décision à prendre à la légère, mais ce n'est pas non plus un cap insurmontable. Le bon profil, le bon contrat et une intégration soignée peuvent transformer votre activité en vous permettant de passer un palier de croissance difficile à atteindre seul.
+
+Le secret : préparez votre recrutement aussi sérieusement que vous préparez vos recettes. Définissez le poste, les horaires, le budget, et mesurez l'impact sur votre rentabilité dès le premier mois.
+
+**[Essayez FoodTracks gratuitement](/fr/register)** pour piloter votre rentabilité avant, pendant et après votre premier recrutement.`,
+      en: `## Do You Really Need to Hire for Your Food Truck?
+
+Hiring is often seen as a difficult milestone for a solo food truck operator. Fear of employment costs, administrative constraints and dependency holds back many operators who are already working at the limit of their capacity.
+
+Yet **the right hire at the right time can transform your business**: more services open, less accumulated fatigue, and revenue growth that's hard to achieve alone.
+
+This guide gives you everything you need to decide whether you're ready to hire, what profile to look for, which contract to use — and how to measure whether it's profitable.
+
+## The Signs That It's Time to Hire
+
+Before launching into a recruitment process, check that you tick at least three of these signals:
+
+- **You are turning customers away** during rushes due to lack of capacity
+- **You are regularly working more than 55-60 hours per week**
+- **You cannot open certain services** (markets, festivals) due to lack of manpower
+- **Your revenue is stagnating** despite growing demand
+- **You have reached €4,000 to €5,000/month** in turnover
+
+Below this threshold, an employee represents a cost that is hard to absorb. Beyond it, the cost of a part-timer is generally covered by the additional revenue generated.
+
+## What Profile to Hire First?
+
+The first hire in a food truck typically falls into one of two profiles:
+
+### The Versatile Assistant (Junior Profile)
+
+This is the most common profile for a first hire. Their role: to support you during service (taking orders, assembly, checkout, cleaning), allowing you to be faster and to open more services.
+
+**Sought profile**: motivated, comfortable with customer contact, available on weekdays and weekends, no mandatory catering experience. Experience can be built quickly with you.
+
+**Advantage**: lower cost (minimum wage), easier recruitment, no need for a chef profile if you handle production yourself.
+
+### The Kitchen Assistant / Prep Cook (Intermediate Profile)
+
+If your bottleneck is production (you're alone on the stoves and can't keep up with orders), a kitchen assistant or prep cook takes the pressure off in the kitchen.
+
+**Sought profile**: culinary diploma or fast-food experience, ability to work in a confined space, autonomy on basic preparations.
+
+**Advantage**: frees your bandwidth to manage customers, improves quality and consistency of dishes.
+
+## Contracts Suited to the Food Truck
+
+French employment law offers several formulas well adapted to food truck operations:
+
+### The Casual Contract (CDDU)
+
+The **Contrat à Durée Déterminée d'Usage** (CDDU) is the most flexible formula to start with. You employ someone for a specific service, with no commitment to regularity. It is possible to employ the same casual worker recurrently.
+
+**Advantages**: total flexibility, adaptation to your variable schedule, ideal for testing before committing further.
+
+**Disadvantages**: no guaranteed loyalty, a 10% precarity indemnity to be paid at the end of each contract.
+
+### Part-Time Permanent Contract
+
+For a regular collaborator, a **part-time permanent contract** (generally 20 to 30 hours per week) is the formula that best encourages loyalty. You define the typical days and hours, with the possibility of additional hours.
+
+**Advantages**: stability for both parties, loyalty, no precarity indemnity.
+
+**Disadvantages**: stronger commitment, cannot choose not to call on the person without justification.
+
+### The Seasonal Fixed-Term Contract
+
+If your business is highly seasonal (summer festivals, Christmas markets), the **seasonal fixed-term contract** is tailor-made for you: it allows you to employ someone for a defined season, from 1 to 8 months.
+
+**Advantages**: duration adapted to your seasonality, no commitment outside the season.
+
+**Disadvantages**: renewal to manage each season, end-of-contract indemnity if not renewed.
+
+## The Real Cost of a Food Truck Employee
+
+This is the question that holds back most food truck operators. Here are the real figures for 2026:
+
+### For a Casual Worker (CDDU) at 8 Hours per Service
+
+- Gross salary: 8h × €11.88 = **€95.04**
+- Employer contributions (~45%): ~**€42.77**
+- Precarity indemnity (10%): **€9.50**
+- **Total cost: ~€147 for 8 hours of work**, i.e. ~€18.40/hour all-in
+
+### For a 25-Hour/Week Part-Time Permanent Contract
+
+- Monthly gross salary: ~**€1,286**
+- Employer contributions (~45%): ~**€579**
+- **Total employer cost: ~€1,865/month**
+
+For a 25-hour/week part-timer to be profitable on a food truck generating €5,000/month, the employee needs to enable at least **37% additional revenue** — which is entirely achievable if their arrival allows 1 to 2 additional services per week to be opened.
+
+## Where and How to Recruit?
+
+### The Channels That Work for Food Trucks
+
+- **Local social networks**: Facebook groups for your city, your Instagram account. An authentic post about "looking for a casual worker to help me at markets" often generates good organic applications.
+- **Hotel schools and culinary programmes**: students finishing their training are looking for hands-on experience. Contact establishments in your area directly.
+- **Other food truckers and market operators**: word of mouth in the food truck community is very effective. A profile recommended by a peer starts with a head start.
+- **France Travail (the public employment service)**: effective for permanent and fixed-term contracts, less so for casual work.
+- **Specialist platforms**: Brigad or Combo to find casual hospitality workers quickly.
+
+### Writing a Job Posting That Attracts the Right Profiles
+
+A good job posting for a food truck position should be **direct and honest** about the conditions: irregular hours, prolonged standing, confined workspace, intense rushes. Candidates who respond despite these constraints are generally the most suitable.
+
+Include in your posting:
+- The type of cuisine and the atmosphere of the food truck
+- Typical hours and days
+- The type of contract on offer
+- What you are looking for (friendliness, reactivity, customer focus)
+- What you offer (atmosphere, learning opportunities, remuneration)
+
+## Successfully Integrating Your First Employee
+
+The first month is critical. Here are best practices:
+
+### Train to Your Standards, Not Generic Standards
+
+Your way of preparing dishes, your way of welcoming customers, your way of managing the rush — these are unique to your concept. Take the time to explain and demonstrate rather than assuming the person "knows" because they have experience.
+
+### Give Rapid Feedback
+
+In a food truck, problems need to be corrected immediately. A customer poorly greeted, a portion not respected — flag it directly and positively after the service. No unspoken issues.
+
+### Involve Them in Your Data
+
+Share your service results with your employee: the day's revenue, the number of covers, customer feedback. An employee who understands the profitability stakes is naturally more engaged. FoodTracks lets you visualise this data in real time via the [KPI dashboard](/en/blog/tableau-de-bord-kpi-food-truck) to manage performance together.
+
+## Measuring the Profitability of the Hire
+
+A hire is a business decision — it must be measured. Before hiring, note:
+
+- Your average revenue per service
+- Your number of services per week
+- Your weekly working time
+
+After 1 month with the new employee, compare:
+
+- Revenue per service (has it increased thanks to faster service?)
+- Number of services (have you been able to open new ones?)
+- Your net margin after employee cost
+
+With FoodTracks, you can track [revenue by location and by service](/en/blog/optimiser-tournee-food-truck-rentabilite) to precisely measure the impact of each decision — including hiring.
+
+## Conclusion
+
+Hiring for your food truck is not a decision to take lightly, but it's not an insurmountable milestone either. The right profile, the right contract and a careful integration can transform your business by allowing you to cross a growth threshold that's hard to reach alone.
+
+The secret: prepare your recruitment as seriously as you prepare your recipes. Define the role, the hours, the budget, and measure the impact on your profitability from the very first month.
+
+**[Try FoodTracks for free](/en/register)** to manage your profitability before, during and after your first hire.`,
+    },
+    relatedSlugs: [
+      "gerer-equipe-food-truck",
+      "planning-semaine-food-truck",
+      "cout-charges-food-truck-mensuel",
+    ],
+  },
 ];
 
 export function getArticleBySlug(slug: string): BlogArticle | undefined {
