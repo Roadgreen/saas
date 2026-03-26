@@ -12169,6 +12169,411 @@ The secret: prepare your recruitment as seriously as you prepare your recipes. D
       "cout-charges-food-truck-mensuel",
     ],
   },
+  {
+    slug: "reseaux-sociaux-food-truck-strategie",
+    title: {
+      fr: "Réseaux sociaux food truck : la stratégie complète pour attirer plus de clients en 2026",
+      en: "Food Truck Social Media Strategy: The Complete Guide to Attract More Customers in 2026",
+    },
+    excerpt: {
+      fr: "Instagram, TikTok, Facebook : comment utiliser les réseaux sociaux pour développer votre food truck, fidéliser vos clients et remplir vos services — même sans budget publicitaire.",
+      en: "Instagram, TikTok, Facebook: how to use social media to grow your food truck, build customer loyalty and fill your services — even without an ad budget.",
+    },
+    category: { fr: "Marketing", en: "Marketing" },
+    date: "2026-03-26",
+    readTime: 11,
+    keywords: [
+      "réseaux sociaux food truck",
+      "instagram food truck",
+      "tiktok food truck",
+      "marketing food truck",
+      "communication food truck",
+      "food truck social media",
+      "attirer clients food truck",
+    ],
+    heroImage: "/blog/marketing-food-truck.png",
+    keyTakeaways: {
+      fr: [
+        "Instagram reste le réseau n°1 pour les food trucks : les Reels et Stories génèrent 3 à 5× plus de portée que les posts classiques.",
+        "Publier l'emplacement du jour en Stories est la fonctionnalité la plus utile pour convertir les abonnés en clients.",
+        "TikTok offre une portée organique exceptionnelle : une seule vidéo de cuisine en coulisses peut dépasser 50 000 vues sans budget.",
+        "La régularité (3 à 5 posts/semaine) prime sur la perfection : un contenu authentique filmé avec un smartphone surpasse souvent une production professionnelle.",
+        "FoodTracks permet de corréler vos pics d'engagement sur les réseaux avec vos données de vente pour identifier ce qui convertit vraiment.",
+      ],
+      en: [
+        "Instagram remains the #1 network for food trucks: Reels and Stories generate 3 to 5× more reach than standard posts.",
+        "Posting today's location in Stories is the most useful feature to convert followers into customers.",
+        "TikTok offers exceptional organic reach: a single behind-the-scenes cooking video can exceed 50,000 views with zero budget.",
+        "Consistency (3 to 5 posts/week) trumps perfection: authentic smartphone content often outperforms professional productions.",
+        "FoodTracks lets you correlate social media engagement peaks with your sales data to identify what truly converts.",
+      ],
+    },
+    faqItems: [
+      {
+        question: {
+          fr: "Quel réseau social est le plus efficace pour un food truck ?",
+          en: "Which social network is most effective for a food truck?",
+        },
+        answer: {
+          fr: "Instagram est le réseau le plus efficace pour un food truck en 2026, notamment grâce aux Reels (courtes vidéos) et aux Stories géolocalisées. TikTok monte en puissance pour la portée organique, surtout auprès des 18-35 ans. Facebook reste utile pour les groupes locaux et les événements. L'idéal est de commencer par Instagram, puis d'y ajouter TikTok une fois à l'aise avec la création de contenu vidéo.",
+          en: "Instagram is the most effective network for a food truck in 2026, particularly through Reels (short videos) and geolocated Stories. TikTok is gaining ground for organic reach, especially with 18-35 year olds. Facebook remains useful for local groups and events. The ideal approach is to start with Instagram, then add TikTok once you are comfortable with video content creation.",
+        },
+      },
+      {
+        question: {
+          fr: "Combien de fois par semaine faut-il poster pour son food truck ?",
+          en: "How often should a food truck post on social media?",
+        },
+        answer: {
+          fr: "La fréquence recommandée est de 3 à 5 publications par semaine sur Instagram, réparties entre Reels (1-2/semaine), Stories quotidiennes (emplacement du jour, coulisses) et posts de photos (1-2/semaine). Sur TikTok, visez 2 à 4 vidéos par semaine. La régularité est plus importante que la fréquence : mieux vaut 3 posts de qualité par semaine que 7 posts bâclés.",
+          en: "The recommended frequency is 3 to 5 publications per week on Instagram, split between Reels (1-2/week), daily Stories (today's location, behind the scenes) and photo posts (1-2/week). On TikTok, aim for 2 to 4 videos per week. Consistency matters more than frequency: 3 quality posts per week beats 7 rushed ones.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment trouver des idées de contenu pour son food truck sur les réseaux sociaux ?",
+          en: "How to find content ideas for a food truck on social media?",
+        },
+        answer: {
+          fr: "Les contenus qui performent le mieux en food truck sont : les coulisses de préparation (filmez vos recettes en accéléré), l'annonce de l'emplacement du jour, les réactions clients (avec accord), les nouveautés du menu, les anecdotes du terrain (galères, succès), et les before/after (transformation d'un ingrédient en plat fini). Utilisez les tendances TikTok adaptées à votre univers pour booster organiquement votre portée.",
+          en: "The best-performing food truck content includes: preparation behind the scenes (film your recipes in timelapse), today's location announcement, customer reactions (with permission), menu updates, field anecdotes (challenges, wins), and before/after transformations (ingredient to finished dish). Adapting TikTok trends to your universe organically boosts your reach.",
+        },
+      },
+      {
+        question: {
+          fr: "Faut-il un budget publicitaire pour promouvoir son food truck sur les réseaux sociaux ?",
+          en: "Do you need an advertising budget to promote a food truck on social media?",
+        },
+        answer: {
+          fr: "Non, un food truck peut très bien se développer sur les réseaux sociaux sans budget publicitaire, surtout sur TikTok et Instagram Reels où la portée organique est encore forte. Un budget de 50 à 100 €/mois boosting les posts de localisation sur Facebook peut être utile pour cibler les habitants de votre zone de chalandise. Mais la priorité reste le contenu authentique et régulier, qui ne coûte rien hormis du temps.",
+          en: "No, a food truck can grow on social media without an ad budget, especially on TikTok and Instagram Reels where organic reach is still strong. A budget of €50 to €100/month boosting location posts on Facebook can be useful for targeting residents in your catchment area. But the priority remains authentic, consistent content, which costs nothing but time.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment mesurer si mes réseaux sociaux rapportent vraiment des clients à mon food truck ?",
+          en: "How do I measure whether my social media is actually bringing customers to my food truck?",
+        },
+        answer: {
+          fr: "Le moyen le plus simple est de demander directement à vos nouveaux clients 'Comment vous avez entendu parler de nous ?' et de noter les réponses. Vous pouvez aussi créer un code promo exclusif réseaux sociaux et compter les utilisations. Avec FoodTracks, croisez vos données de vente par service avec vos pics d'engagement pour identifier si vos meilleurs posts correspondent à vos meilleurs services.",
+          en: "The simplest way is to directly ask new customers 'How did you hear about us?' and note the answers. You can also create a social-media-exclusive promo code and count uses. With FoodTracks, cross-reference your sales data per service with your engagement peaks to identify whether your best-performing posts correspond to your best services.",
+        },
+      },
+    ],
+    content: {
+      fr: `## Pourquoi les réseaux sociaux sont devenus indispensables pour un food truck
+
+Un food truck sans présence sur les réseaux sociaux en 2026, c'est comme un restaurant sans enseigne : vous existez, mais personne ne le sait. Contrairement à une adresse fixe que les clients peuvent trouver sur Google Maps, votre emplacement change chaque jour. **Les réseaux sociaux sont votre vitrine mobile** — le seul endroit où vos clients peuvent savoir où vous trouver ce matin.
+
+Mais la bonne nouvelle, c'est que les food trucks sont naturellement faits pour les réseaux sociaux. Le format visuel (des plats qui font envie, une ambiance authentique, des coulisses de cuisine), l'itinérance (un nouveau décor chaque jour), l'ancrage local (des clients qui reconnaissent les lieux) : tout ça crée du contenu engageant sans effort particulier.
+
+### Ce que les réseaux sociaux peuvent faire pour votre food truck
+
+- **Annoncer votre emplacement** à vos abonnés chaque matin
+- **Faire monter l'envie** avec des photos et vidéos appétissantes
+- **Fidéliser** une communauté qui attend vos mises à jour
+- **Recruter** de nouveaux clients dans votre zone de chalandise
+- **Gérer votre réputation** en répondant aux avis et commentaires
+
+## Instagram : le réseau incontournable pour les food trucks
+
+Instagram reste en 2026 le réseau le plus efficace pour les food trucks, et ce pour une raison simple : c'est une plateforme visuelle, et la nourriture est l'un des sujets les plus partagés du monde entier.
+
+### Le compte parfait pour un food truck
+
+Commencez par optimiser votre profil :
+
+- **Photo de profil** : votre logo ou une photo de votre camion reconnaissable
+- **Nom du compte** : prénom/nom du truck + ville si possible (ex: @BurgerBusMontpellier)
+- **Bio** : ce que vous faites, votre ville, comment vous trouver, un lien vers votre planning ou votre site
+- **Lien en bio** : une page simple avec votre planning de la semaine (Linktree, Notion public, etc.)
+
+### Les 3 types de contenu qui fonctionnent
+
+**1. Les Reels (vidéos courtes)**
+
+Les Reels sont le format qui génère le plus de portée organique sur Instagram. Pour un food truck, les idées ne manquent pas :
+- La préparation d'un plat en accéléré (30 secondes de transformation)
+- L'arrivée et l'installation du camion sur un nouveau spot
+- Le rush du midi filmé depuis l'intérieur
+- Une recette secrète révélée (avec la bonne dose de teasing)
+
+**2. Les Stories quotidiennes**
+
+Les Stories sont votre outil de communication en temps réel. Chaque matin, postez :
+- L'emplacement du jour avec géolocalisation
+- L'heure d'ouverture et l'heure de fermeture estimée
+- Le plat du jour ou la nouveauté
+
+Vos abonnés les plus engagés ouvrent vos Stories en premier. C'est votre newsletter mobile — sans les filtres spam.
+
+**3. Les posts de photos**
+
+Pour le feed Instagram, misez sur des photos appétissantes de vos plats, prises avec un bon éclairage naturel. Pas besoin d'être photographe : la lumière du jour, un fond simple et un smartphone récent suffisent. Ajoutez une description qui raconte une histoire (l'origine de la recette, l'anecdote du jour, un conseil).
+
+### Les hashtags à utiliser
+
+Combinez des hashtags de niche food truck avec des hashtags locaux :
+- **Food truck génériques** : #foodtruck #foodtrucklife #streetfood #foodtrucker
+- **Locaux** : #foodtrucklyon #streetfoodparis #foodtruckmarseille (adaptez à votre ville)
+- **Thématiques** : #burger #tacos #vegan #fait-maison selon votre concept
+
+Limitez-vous à 10-15 hashtags pertinents plutôt que d'en mettre 30 au hasard.
+
+## TikTok : la plateforme qui peut tout changer
+
+TikTok est la grande surprise de ces dernières années pour les food trucks. Plusieurs trucks français ont vu leur file d'attente tripler après qu'une vidéo soit devenue virale. Ce qui est remarquable, c'est que **la portée organique sur TikTok est encore exceptionnelle** : une bonne vidéo peut toucher des dizaines de milliers de personnes sans dépenser un centime.
+
+### Pourquoi TikTok fonctionne pour les food trucks
+
+L'algorithme TikTok ne favorise pas les gros comptes — il favorise le contenu engageant. Un food truck avec 200 abonnés peut générer 100 000 vues sur une vidéo si elle est bien construite. Et les vidéos de cuisine, de nourriture et de street food font partie des catégories les plus regardées.
+
+### Les formats TikTok qui marchent
+
+- **Le "making of"** : filmez la fabrication d'un plat de A à Z, avec une musique tendance
+- **Le défi** : "pouvez-vous deviner l'ingrédient secret de notre sauce ?"
+- **Les réactions clients** : filmez (avec accord) des clients qui goûtent pour la première fois
+- **Les coulisses** : la préparation avant ouverture, les achats au marché fournisseurs
+- **Les tendances** : adaptez les sons et challenges viraux à votre univers food truck
+
+**Astuce clé** : les 3 premières secondes de votre vidéo sont décisives. Commencez avec quelque chose de visuellement fort (le plat final, une réaction enthousiaste) avant de montrer la préparation.
+
+### Lier TikTok et votre localisation
+
+Mentionnez systématiquement votre ville et votre emplacement dans vos vidéos TikTok. Beaucoup de personnes découvrent des food trucks sur TikTok et se déplacent exprès pour les trouver. Ajoutez votre planning hebdomadaire en commentaire épinglé.
+
+## Facebook : l'outil des groupes locaux
+
+Facebook est moins glamour qu'Instagram ou TikTok, mais il reste **très utile pour les food trucks** sur deux aspects spécifiques :
+
+### Les groupes locaux
+
+Rejoignez et participez activement aux groupes Facebook de votre ville : "Bons plans [Ville]", "Sorties [Ville]", "Food [Ville]", etc. Postez-y vos emplacements et événements (en respectant les règles des groupes). Ce sont des communautés très actives où les recommandations ont un fort impact local.
+
+### La page Facebook et les événements
+
+Créez une page Facebook et utilisez la fonctionnalité **Événement** pour chaque marché, festival ou service spécial. Les événements Facebook se partagent facilement et touchent des personnes qui ne vous suivent pas encore.
+
+## La stratégie de contenu semaine par semaine
+
+Voici un planning type pour une présence cohérente sans y passer des heures :
+
+| Jour | Action | Réseau |
+|------|--------|--------|
+| Lundi | Story emplacement + photo plat du jour | Instagram |
+| Mardi | Reel (coulisses ou recette) | Instagram + TikTok |
+| Mercredi | Story emplacement | Instagram |
+| Jeudi | Post photo + question à la communauté | Instagram |
+| Vendredi | Vidéo TikTok (tendance adaptée) | TikTok |
+| Samedi | Story emplacement marché/festival | Instagram + Facebook |
+| Dimanche | Récap de la semaine + planning suivant | Instagram |
+
+Ce rythme représente environ **45 à 60 minutes de travail par semaine** — filmez en service, montez le soir ou entre deux services.
+
+## Les erreurs à éviter
+
+### Poster de façon irrégulière
+
+Rien n'est plus contre-productif que des comptes qui publient 5 fois en une semaine puis disparaissent pendant 3 semaines. L'algorithme pénalise l'irrégularité, et vos abonnés oublient.
+
+### Ne jamais annoncer l'emplacement
+
+C'est l'erreur la plus fréquente. Certains food truckers font de beaux posts de plats mais oublient de dire où ils seront. Résultat : l'envie est là, mais impossible de vous trouver.
+
+### Ignorer les commentaires et messages
+
+Répondre aux commentaires et DMs en moins de 24h booste votre algorithme **et** crée une relation de proximité avec vos clients. Un simple emoji ou une réponse courte suffit.
+
+### Négliger la qualité de l'image
+
+Pas besoin d'un reflex, mais la photo floue, mal éclairée ou mal cadrée nuit à votre image. Filmez en lumière naturelle, stabilisez votre téléphone, et évitez les filtres trop marqués.
+
+## Mesurer l'impact de vos réseaux sociaux sur votre activité
+
+La vraie question est : est-ce que vos réseaux sociaux ramènent réellement des clients ?
+
+### Les métriques à suivre sur les réseaux
+
+- **Portée** (combien de personnes voient vos posts)
+- **Taux d'engagement** (likes + commentaires / portée)
+- **Clics sur le lien en bio** (pour votre planning)
+- **Vues des Stories** (et taux de swipe-up si vous utilisez des liens)
+
+### Corréler avec vos données de vente
+
+Avec **FoodTracks**, vous pouvez suivre votre chiffre d'affaires par service et par emplacement. En croisant ces données avec vos statistiques de réseaux sociaux (les jours où vous avez posté un Reel viral vs. les services suivants), vous identifiez quels types de contenu convertissent réellement en clients.
+
+C'est ce type d'analyse data — connecter le marketing à la rentabilité — qui transforme une stratégie réseaux sociaux en investissement mesurable. Consultez notre guide sur le [tableau de bord KPI food truck](/fr/blog/tableau-de-bord-kpi-food-truck) pour aller plus loin.
+
+## Conclusion
+
+Les réseaux sociaux ne sont pas une option pour un food truck en 2026 — ils sont votre canal de communication principal. La bonne nouvelle : vous n'avez pas besoin d'un community manager ou d'un budget publicitaire pour commencer. Un smartphone, de l'authenticité et de la régularité suffisent à bâtir une communauté fidèle autour de votre truck.
+
+Commencez par Instagram (Stories quotidiennes pour l'emplacement + 1 Reel par semaine), ajoutez TikTok dès que vous êtes à l'aise avec la vidéo, et utilisez Facebook pour les groupes locaux. Et mesurez l'impact sur vos ventes avec FoodTracks pour ajuster ce qui fonctionne vraiment.
+
+**[Essayez FoodTracks gratuitement](/fr/register)** pour connecter votre marketing à vos performances de vente.
+
+**À lire aussi :** [Fidéliser ses clients en food truck](/fr/blog/fideliser-clients-food-truck) · [Choisir le bon emplacement food truck](/fr/blog/choisir-bon-emplacement-food-truck) · [Planning semaine food truck](/fr/blog/planning-semaine-food-truck)`,
+      en: `## Why Social Media Has Become Essential for Food Trucks
+
+A food truck without a social media presence in 2026 is like a restaurant without a sign: you exist, but nobody knows it. Unlike a fixed address that customers can find on Google Maps, your location changes every day. **Social media is your mobile storefront** — the only place where your customers can find out where you'll be this morning.
+
+The good news is that food trucks are naturally made for social media. The visual format (enticing dishes, authentic atmosphere, kitchen behind the scenes), the mobility (a new backdrop every day), the local connection (customers who recognise the places) — all of this creates engaging content without particular effort.
+
+### What Social Media Can Do for Your Food Truck
+
+- **Announce your location** to your followers every morning
+- **Build appetite** with appealing photos and videos
+- **Build loyalty** through a community that looks forward to your updates
+- **Attract new customers** in your catchment area
+- **Manage your reputation** by responding to reviews and comments
+
+## Instagram: The Essential Network for Food Trucks
+
+Instagram remains the most effective network for food trucks in 2026, for one simple reason: it's a visual platform, and food is one of the most shared topics in the world.
+
+### The Perfect Food Truck Account
+
+Start by optimising your profile:
+
+- **Profile picture**: your logo or a recognisable photo of your truck
+- **Account name**: truck name + city if possible (e.g. @BurgerBusMontpellier)
+- **Bio**: what you do, your city, how to find you, a link to your schedule or website
+- **Link in bio**: a simple page with your weekly schedule (Linktree, public Notion, etc.)
+
+### The 3 Types of Content That Work
+
+**1. Reels (Short Videos)**
+
+Reels are the format that generates the most organic reach on Instagram. For a food truck, ideas are plentiful:
+- Preparing a dish in timelapse (30 seconds of transformation)
+- Arriving and setting up the truck at a new spot
+- The lunchtime rush filmed from inside
+- A secret recipe revealed (with the right amount of teasing)
+
+**2. Daily Stories**
+
+Stories are your real-time communication tool. Every morning, post:
+- The day's location with geolocation
+- Opening time and estimated closing time
+- The dish of the day or new item
+
+Your most engaged followers open your Stories first. It's your mobile newsletter — without the spam filters.
+
+**3. Photo Posts**
+
+For your Instagram feed, focus on appetising photos of your dishes, taken in good natural light. No need to be a photographer: daylight, a simple background and a recent smartphone are enough. Add a description that tells a story (the origin of the recipe, the anecdote of the day, a tip).
+
+### Hashtags to Use
+
+Combine niche food truck hashtags with local hashtags:
+- **Generic food truck**: #foodtruck #foodtrucklife #streetfood #foodtrucker
+- **Local**: #foodtrucklondon #streetfoodnyc #foodtrucksydney (adapt to your city)
+- **Thematic**: #burger #tacos #vegan #homemade according to your concept
+
+Limit yourself to 10-15 relevant hashtags rather than randomly adding 30.
+
+## TikTok: The Platform That Can Change Everything
+
+TikTok has been a major surprise for food trucks in recent years. Several operators have seen their queues triple after a video went viral. What's remarkable is that **organic reach on TikTok is still exceptional**: a good video can reach tens of thousands of people without spending a penny.
+
+### Why TikTok Works for Food Trucks
+
+TikTok's algorithm doesn't favour big accounts — it favours engaging content. A food truck with 200 followers can generate 100,000 views on a video if it's well constructed. And cooking, food and street food videos are among the most watched categories.
+
+### TikTok Formats That Work
+
+- **The "making of"**: film the making of a dish from A to Z, with a trending track
+- **The challenge**: "can you guess the secret ingredient in our sauce?"
+- **Customer reactions**: film (with permission) customers trying your food for the first time
+- **Behind the scenes**: pre-opening prep, buying at the supplier market
+- **Trends**: adapt viral sounds and challenges to your food truck world
+
+**Key tip**: the first 3 seconds of your video are decisive. Start with something visually strong (the finished dish, an enthusiastic reaction) before showing the preparation.
+
+### Linking TikTok to Your Location
+
+Systematically mention your city and location in your TikTok videos. Many people discover food trucks on TikTok and travel specifically to find them. Add your weekly schedule in a pinned comment.
+
+## Facebook: The Local Groups Tool
+
+Facebook is less glamorous than Instagram or TikTok, but it remains **very useful for food trucks** in two specific ways:
+
+### Local Groups
+
+Join and actively participate in Facebook groups for your city: "Good Deals [City]", "Going Out [City]", "Food [City]", etc. Post your locations and events there (respecting group rules). These are very active communities where recommendations have a strong local impact.
+
+### Facebook Page and Events
+
+Create a Facebook page and use the **Event** feature for each market, festival or special service. Facebook events are easy to share and reach people who don't follow you yet.
+
+## The Week-by-Week Content Strategy
+
+Here's a typical schedule for a consistent presence without spending hours on it:
+
+| Day | Action | Network |
+|-----|--------|---------|
+| Monday | Location Story + dish photo | Instagram |
+| Tuesday | Reel (behind-the-scenes or recipe) | Instagram + TikTok |
+| Wednesday | Location Story | Instagram |
+| Thursday | Photo post + question to community | Instagram |
+| Friday | TikTok video (adapted trend) | TikTok |
+| Saturday | Market/festival location Story | Instagram + Facebook |
+| Sunday | Week recap + next week's schedule | Instagram |
+
+This rhythm represents around **45 to 60 minutes of work per week** — film during service, edit in the evening or between services.
+
+## Mistakes to Avoid
+
+### Posting Irregularly
+
+Nothing is more counterproductive than accounts that post 5 times in one week then disappear for 3 weeks. The algorithm penalises irregularity, and your followers forget you.
+
+### Never Announcing Your Location
+
+This is the most frequent mistake. Some food truck operators create beautiful dish posts but forget to say where they'll be. Result: the appetite is there, but impossible to find you.
+
+### Ignoring Comments and Messages
+
+Responding to comments and DMs within 24 hours boosts your algorithm **and** creates a personal relationship with your customers. A simple emoji or a short reply is enough.
+
+### Neglecting Image Quality
+
+You don't need a DSLR, but blurry, poorly lit or poorly framed photos hurt your image. Film in natural light, stabilise your phone, and avoid overly strong filters.
+
+## Measuring the Impact of Your Social Media on Your Business
+
+The real question is: does your social media actually bring in customers?
+
+### Metrics to Track on Social Networks
+
+- **Reach** (how many people see your posts)
+- **Engagement rate** (likes + comments / reach)
+- **Clicks on the link in bio** (for your schedule)
+- **Story views** (and swipe-up rate if you use links)
+
+### Correlating with Your Sales Data
+
+With **FoodTracks**, you can track your revenue per service and location. By cross-referencing this data with your social media statistics (days when you posted a viral Reel vs. the following services), you identify which types of content actually convert into customers.
+
+This type of data analysis — connecting marketing to profitability — transforms a social media strategy into a measurable investment. Check our guide on the [food truck KPI dashboard](/en/blog/tableau-de-bord-kpi-food-truck) to go further.
+
+## Conclusion
+
+Social media is not optional for a food truck in 2026 — it's your primary communication channel. The good news: you don't need a community manager or an advertising budget to start. A smartphone, authenticity and consistency are enough to build a loyal community around your truck.
+
+Start with Instagram (daily Stories for location + 1 Reel per week), add TikTok once you're comfortable with video, and use Facebook for local groups. Then measure the impact on your sales with FoodTracks to refine what truly works.
+
+**[Try FoodTracks for free](/en/register)** to connect your marketing to your sales performance.
+
+**Also read:** [Building customer loyalty for your food truck](/en/blog/fideliser-clients-food-truck) · [Choosing the right food truck location](/en/blog/choisir-bon-emplacement-food-truck) · [Food truck weekly planning](/en/blog/planning-semaine-food-truck)`,
+    },
+    relatedSlugs: [
+      "fideliser-clients-food-truck",
+      "choisir-bon-emplacement-food-truck",
+      "planning-semaine-food-truck",
+    ],
+  },
 ];
 
 export function getArticleBySlug(slug: string): BlogArticle | undefined {
