@@ -13714,6 +13714,448 @@ The SumUp + FoodTracks combination remains the reference for French food trucker
       "calcul-prix-vente-food-truck",
     ],
   },
+  {
+    slug: "emplacement-food-truck",
+    title: {
+      fr: "Emplacement food truck : comment choisir le bon endroit pour maximiser vos ventes",
+      en: "Food Truck Location: How to Choose the Best Spot to Maximize Sales",
+    },
+    excerpt: {
+      fr: "Où stationner son food truck ? Découvrez les critères clés pour choisir le bon emplacement food truck : flux piéton, réglementation, concurrence, saisonnalité et outils d'analyse pour optimiser votre chiffre d'affaires.",
+      en: "Where should you park your food truck? Discover the key criteria for choosing the best food truck location: foot traffic, regulations, competition, seasonality, and analytics tools to maximize your revenue.",
+    },
+    category: { fr: "Stratégie", en: "Strategy" },
+    date: "2026-03-29",
+    readTime: 11,
+    keywords: [
+      "emplacement food truck",
+      "où stationner food truck",
+      "food truck location",
+      "best spot food truck",
+      "emplacement marché food truck",
+      "autorisation food truck",
+      "food truck parking spot",
+      "food truck pitch",
+    ],
+    heroImage: "/blog/logiciel-gestion.png",
+    keyTakeaways: {
+      fr: [
+        "Le choix de l'emplacement représente jusqu'à 70 % du succès d'un food truck : un bon plat dans un mauvais endroit ne se vendra pas.",
+        "Privilégiez les zones à fort flux piéton récurrent (marchés, zones de bureaux, campus) plutôt que les lieux de passage ponctuel.",
+        "Vérifiez systématiquement la réglementation locale : autorisation de voirie, arrêté municipal, convention d'occupation — chaque commune a ses propres règles.",
+        "Analysez vos ventes par emplacement avec un outil comme FoodTracks pour identifier vos spots les plus rentables et abandonner ceux qui ne performent pas.",
+        "Diversifiez vos emplacements sur la semaine : marché le samedi, zone de bureaux le midi, événement le soir — c'est la rotation qui stabilise le chiffre d'affaires.",
+      ],
+      en: [
+        "Location accounts for up to 70% of a food truck's success: a great dish in a bad spot simply won't sell.",
+        "Prioritize areas with consistent, recurring foot traffic (markets, office districts, campuses) over one-time event locations.",
+        "Always check local regulations: street permits, municipal orders, occupancy agreements — every city has its own rules.",
+        "Track your sales by location with a tool like FoodTracks to identify your most profitable spots and drop underperformers.",
+        "Diversify your spots throughout the week: market on Saturday, office district at lunch, events in the evening — rotation is what stabilizes revenue.",
+      ],
+    },
+    faqItems: [
+      {
+        question: {
+          fr: "Quel est le meilleur emplacement pour un food truck ?",
+          en: "What is the best location for a food truck?",
+        },
+        answer: {
+          fr: "Le meilleur emplacement food truck combine un flux piéton élevé et récurrent, une faible concurrence directe, un accès facile pour votre véhicule et une autorisation administrative en règle. Les zones de bureaux à l'heure du déjeuner, les marchés hebdomadaires et les campus universitaires sont généralement les emplacements les plus rentables. L'idéal est de tester plusieurs spots pendant 2 à 3 semaines et d'analyser vos ventes avec un outil comme FoodTracks pour identifier objectivement les meilleurs.",
+          en: "The best food truck location combines high and recurring foot traffic, low direct competition, easy vehicle access, and valid permits. Office districts at lunchtime, weekly markets, and university campuses are typically the most profitable spots. Ideally, test several locations over 2–3 weeks and analyze your sales with a tool like FoodTracks to objectively identify the top performers.",
+        },
+      },
+      {
+        question: {
+          fr: "Faut-il une autorisation pour stationner un food truck ?",
+          en: "Do you need a permit to park a food truck?",
+        },
+        answer: {
+          fr: "Oui, dans la quasi-totalité des cas. Pour stationner sur la voie publique, vous devez obtenir une autorisation d'occupation temporaire (AOT) auprès de la mairie. Sur un terrain privé, une convention écrite avec le propriétaire est nécessaire. Sur un marché, c'est le placier municipal qui attribue les emplacements. Les sanctions en cas de stationnement non autorisé peuvent aller d'une amende de 135 € à la mise en fourrière du véhicule.",
+          en: "Yes, in almost all cases. To park on a public road, you need a temporary occupancy permit (AOT) from the city hall. On private land, a written agreement with the owner is required. At a market, the municipal market manager assigns pitches. Penalties for unauthorized parking can range from a €135 fine to having your vehicle towed.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment savoir si un emplacement food truck est rentable ?",
+          en: "How do you know if a food truck location is profitable?",
+        },
+        answer: {
+          fr: "Pour évaluer la rentabilité d'un emplacement, suivez trois indicateurs : le chiffre d'affaires réalisé sur le spot, le panier moyen par client, et le coût d'occupation (redevance, déplacement, temps de trajet). Avec FoodTracks, vous pouvez comparer automatiquement la performance de chaque emplacement et calculer votre marge nette par spot. Un emplacement est rentable quand votre marge nette dépasse 60 % du CA après déduction de toutes les charges liées au spot.",
+          en: "To assess a location's profitability, track three metrics: revenue generated at the spot, average ticket per customer, and occupancy cost (fees, travel, commute time). With FoodTracks, you can automatically compare each location's performance and calculate your net margin per spot. A location is profitable when your net margin exceeds 60% of revenue after deducting all spot-related costs.",
+        },
+      },
+      {
+        question: {
+          fr: "Combien d'emplacements différents un food truck doit-il avoir ?",
+          en: "How many different locations should a food truck have?",
+        },
+        answer: {
+          fr: "La plupart des food trucks rentables travaillent avec 4 à 7 emplacements en rotation sur la semaine. Cela permet de couvrir les différents créneaux (midi, soir, week-end) et de lisser les variations de fréquentation. Avoir trop peu d'emplacements vous rend dépendant d'un seul spot ; en avoir trop disperse vos efforts et réduit la fidélisation de votre clientèle. L'idéal est de construire un planning hebdomadaire stable avec 2-3 spots fixes et 1-2 spots événementiels.",
+          en: "Most profitable food trucks rotate between 4 to 7 locations throughout the week. This covers different time slots (lunch, evening, weekends) and smooths out foot traffic variations. Too few spots make you dependent on a single location; too many scatter your efforts and reduce customer loyalty. The ideal setup is a stable weekly schedule with 2–3 fixed spots and 1–2 event-based locations.",
+        },
+      },
+      {
+        question: {
+          fr: "Où stationner son food truck le soir et le week-end ?",
+          en: "Where should you park your food truck in the evening and on weekends?",
+        },
+        answer: {
+          fr: "Le soir, les meilleurs emplacements sont les zones de sortie de spectacles, cinémas et salles de concert, les quartiers de bars et restaurants, et les zones résidentielles denses (surtout le vendredi soir). Le week-end, les marchés artisanaux, brocantes, événements sportifs et parcs publics très fréquentés génèrent les meilleurs chiffres. Pensez aussi aux zones commerciales le samedi après-midi. Adaptez votre menu au contexte : plats rapides et street food le soir, offre plus familiale le week-end.",
+          en: "In the evening, the best spots are areas near theaters, cinemas, and concert halls, bar and restaurant districts, and dense residential neighborhoods (especially on Friday evenings). On weekends, artisan markets, flea markets, sports events, and busy public parks generate the best revenue. Also consider shopping areas on Saturday afternoons. Adapt your menu to the context: quick street food in the evening, more family-friendly offerings on weekends.",
+        },
+      },
+    ],
+    content: {
+      fr: `## Pourquoi l'emplacement est la décision la plus importante de votre food truck
+
+Si vous ne deviez retenir qu'une seule règle en food truck, ce serait celle-ci : **l'emplacement fait le chiffre d'affaires.** Vous pouvez avoir le meilleur burger de la ville, un branding impeccable et des avis 5 étoiles sur Google — si vous êtes stationné dans une rue déserte, vous ne vendrez rien.
+
+Les études sectorielles estiment que **le choix de l'emplacement représente jusqu'à 70 % du succès commercial** d'un food truck. C'est plus que la qualité du produit, plus que le prix, plus que le marketing. Un food truck moyen dans un excellent emplacement surpassera toujours un food truck excellent dans un mauvais emplacement.
+
+Dans cet article, nous allons vous donner une méthode concrète pour **identifier, tester et optimiser vos emplacements food truck** afin de maximiser votre chiffre d'affaires toute l'année.
+
+## Les 6 critères pour évaluer un emplacement food truck
+
+### 1. Le flux piéton : le critère numéro un
+
+Le premier facteur de succès, c'est le nombre de personnes qui passent devant votre truck. Mais attention : **tous les flux ne se valent pas.** Un flux de 1 000 personnes qui marchent vite vers le métro ne vaut pas un flux de 200 personnes qui flânent sur un marché.
+
+Ce qui compte :
+- **Le volume** : combien de personnes passent par heure sur le créneau de vente
+- **La vitesse** : un flux lent (marché, parc) convertit mieux qu'un flux rapide (gare, avenue)
+- **La récurrence** : un flux quotidien (bureaux) vaut mieux qu'un flux ponctuel (festival annuel)
+- **L'intention** : des gens qui cherchent à manger (zone de bureaux à midi) convertissent 5x mieux que des passants lambda
+
+**Astuce terrain :** Avant de vous engager sur un emplacement, allez compter les piétons sur le créneau visé. Installez-vous avec un compteur pendant 30 minutes à l'heure de pointe. Si vous comptez moins de 100 passages en 30 minutes, le spot est probablement trop faible.
+
+### 2. La concurrence directe et indirecte
+
+Un emplacement très fréquenté avec 5 food trucks et 10 restaurants autour ne sera pas forcément rentable. Analysez :
+
+- **Le nombre de concurrents directs** (autres food trucks, snacks, fast-food)
+- **Le type de cuisine proposée** : s'il y a déjà 3 trucks burger, ne venez pas avec un 4ème
+- **Les prix pratiqués** : si la zone est habituée à des prix très bas, votre marge sera compressée
+- **La qualité perçue** : un marché haut de gamme avec peu de concurrence est idéal
+
+**La règle d'or :** Visez les zones à forte demande et faible offre. Si un emplacement attire beaucoup de monde mais propose peu d'options de restauration rapide, c'est un signal fort.
+
+### 3. L'accessibilité et la logistique
+
+Un emplacement peut être parfait sur le papier mais impraticable en réalité :
+
+- **Accès véhicule** : votre truck fait 3,5 tonnes et 6 mètres de long — vérifiez que vous pouvez physiquement y accéder, manœuvrer et vous garer
+- **Branchement électrique** : avez-vous besoin d'une prise ? Le spot en propose-t-il une ?
+- **Point d'eau** : selon votre activité, un accès à l'eau peut être indispensable
+- **Temps de trajet** : un spot à 1h30 de votre base réduit votre rentabilité (carburant, temps, fatigue)
+- **Stationnement client** : en zone rurale ou périurbaine, un parking à proximité est un plus
+
+### 4. La réglementation locale
+
+C'est le point qui bloque le plus de food truckers débutants. **Vous ne pouvez pas stationner n'importe où.** Chaque type d'emplacement a ses propres règles :
+
+| Type d'emplacement | Autorisation requise | Où la demander |
+|---|---|---|
+| Voie publique | Autorisation d'Occupation Temporaire (AOT) | Mairie / Préfecture |
+| Marché | Attribution d'emplacement par le placier | Mairie / Service des marchés |
+| Terrain privé | Convention d'occupation | Propriétaire du terrain |
+| Zone commerciale | Accord du gestionnaire | Société de gestion du centre |
+| Événement | Contrat d'emplacement | Organisateur de l'événement |
+
+**Points de vigilance :**
+- L'AOT est généralement payante (redevance mensuelle ou annuelle) et révocable
+- Certaines communes interdisent purement et simplement la vente ambulante
+- Les règles changent d'une commune à l'autre — ce qui est autorisé à Lyon peut être interdit à Villeurbanne
+- Une amende pour stationnement non autorisé va de 135 € à la mise en fourrière
+
+**Conseil :** Contactez systématiquement la mairie avant de tester un nouvel emplacement. Demandez le service "commerce ambulant" ou "occupation du domaine public".
+
+### 5. La saisonnalité et la météo
+
+Un emplacement peut être excellent en été et désastreux en hiver. Prenez en compte :
+
+- **La saisonnalité du flux** : une plage est bondée en juillet, vide en novembre
+- **La protection météo** : un emplacement abrité (galerie, halle) résiste mieux à la pluie
+- **Les habitudes locales** : certains marchés n'existent qu'en été, d'autres toute l'année
+- **L'impact météo sur vos ventes** : en moyenne, la pluie fait baisser les ventes de 30 à 50 %
+
+**Pour aller plus loin :** Consultez notre article [Météo et ventes en food truck : quel impact réel ?](/fr/blog/meteo-ventes-food-truck-impact) pour des données chiffrées et des stratégies d'adaptation.
+
+### 6. Le potentiel de fidélisation
+
+Un bon emplacement, c'est aussi un endroit où vous pouvez **construire une clientèle régulière**. Les spots où vous revenez chaque semaine au même créneau permettent de fidéliser les clients, qui prennent l'habitude de venir vous voir.
+
+- Les zones de bureaux sont idéales pour la fidélisation : les salariés mangent au même endroit tous les jours
+- Les marchés hebdomadaires créent un rendez-vous régulier
+- Les spots événementiels ponctuels ne fidélisent pas — ils apportent du volume mais pas de récurrence
+
+## Les meilleurs types d'emplacements food truck
+
+### Zones de bureaux et business parks
+
+**Créneau :** Lundi à vendredi, 11h30-14h00
+**Potentiel :** ★★★★★
+
+C'est l'emplacement roi du food truck. Les salariés cherchent une alternative rapide et qualitative à la cantine. Le flux est massif, récurrent et prévisible. Le panier moyen est souvent élevé (12-16 €).
+
+**Comment y accéder :** Contactez le gestionnaire du parc d'activités ou le CE des entreprises. Certaines zones proposent des emplacements dédiés aux food trucks.
+
+### Marchés hebdomadaires
+
+**Créneau :** 1 à 3 matinées par semaine
+**Potentiel :** ★★★★☆
+
+Les marchés offrent un flux naturel de gens venus pour acheter. La fréquentation est régulière et la clientèle fidèle. L'inconvénient : les horaires sont matinaux (installation dès 6h) et les places sont souvent attribuées par ancienneté.
+
+### Campus universitaires
+
+**Créneau :** Lundi à vendredi, 11h30-14h00 (hors vacances)
+**Potentiel :** ★★★★☆
+
+Les étudiants sont une clientèle nombreuse, régulière et connectée (bouche-à-oreille sur les réseaux). Le panier moyen est plus bas (8-11 €) mais le volume compense. Attention à la fermeture pendant les vacances universitaires.
+
+### Événements et festivals
+
+**Créneau :** Ponctuel (week-ends, soirées)
+**Potentiel :** ★★★☆☆ à ★★★★★ (très variable)
+
+Le potentiel est énorme sur un gros événement (festival, foire, match) mais le risque est élevé : frais d'emplacement importants, météo incertaine, concurrence forte. Réservez les événements comme complément à vos spots fixes, pas comme base de votre planning.
+
+### Zones commerciales et retail parks
+
+**Créneau :** Mercredi, samedi, dimanche
+**Potentiel :** ★★★☆☆
+
+Le flux est important mais l'intention d'achat alimentaire est faible (les gens viennent pour faire du shopping). Fonctionne bien le samedi midi si peu de concurrence food sur place.
+
+## Méthode pratique : tester et optimiser vos emplacements
+
+### Étape 1 — Repérage terrain (semaine 1)
+
+1. Listez 8 à 10 emplacements potentiels dans votre zone de chalandise
+2. Visitez chaque spot sur le créneau visé et comptez le flux piéton
+3. Notez la concurrence, l'accessibilité et la réglementation
+4. Éliminez les spots qui posent un problème logistique ou réglementaire rédhibitoire
+
+### Étape 2 — Test commercial (semaines 2-4)
+
+1. Sélectionnez 5 à 6 spots et testez chacun au moins 2 fois
+2. Enregistrez chaque vente dans votre caisse connectée à [FoodTracks](https://foodtracks.io)
+3. Notez les conditions (météo, jour, heure, événement local)
+4. Après 2-3 passages, vous aurez une base de données fiable par spot
+
+### Étape 3 — Analyse et sélection (semaine 5)
+
+Avec FoodTracks, comparez pour chaque emplacement :
+- **CA moyen par service** : combien vous encaissez sur chaque spot
+- **Panier moyen** : le montant moyen par client
+- **Nombre de tickets** : le volume de clients servis
+- **Marge nette** : CA moins les coûts liés au spot (redevance, carburant, etc.)
+
+**Gardez les 4-5 meilleurs spots** et construisez votre planning hebdomadaire autour d'eux. Réévaluez tous les trimestres : un spot peut se dégrader (travaux, nouveau concurrent) ou s'améliorer (nouveau bureau, événement récurrent).
+
+### Étape 4 — Optimisation continue
+
+- **Testez un nouveau spot chaque mois** pour remplacer votre spot le plus faible
+- **Adaptez votre planning à la saison** : plus de spots extérieurs en été, plus de spots abrités en hiver
+- **Suivez l'impact météo** : annulez un spot exposé quand la pluie est annoncée, remplacez-le par un spot couvert
+- **Communiquez votre planning** sur Instagram et Google pour que vos clients sachent où vous trouver
+
+## Les erreurs classiques à éviter
+
+1. **Choisir un emplacement uniquement parce qu'il est gratuit** — un spot gratuit mais vide vous coûte plus cher (temps perdu, invendus) qu'un spot payant mais très fréquenté
+2. **Ne pas vérifier la réglementation avant de s'installer** — une amende ou une éviction gâche votre journée et votre réputation
+3. **Rester sur un mauvais spot par habitude** — si un emplacement ne performe pas après 3 tests, abandonnez-le sans hésiter
+4. **Négliger le temps de trajet** — un spot à 45 minutes vous coûte 1h30 aller-retour de temps non productif + carburant
+5. **Ne pas analyser ses données de vente par emplacement** — sans données, vous naviguez à l'aveugle. Utilisez FoodTracks pour comparer objectivement vos spots
+
+## Conclusion
+
+Le choix de vos emplacements food truck est la décision qui a **le plus d'impact sur votre chiffre d'affaires**. Ne laissez pas ce choix au hasard : adoptez une approche méthodique en testant, mesurant et optimisant chaque spot.
+
+**Avec FoodTracks, vous pouvez suivre vos ventes par emplacement, comparer la rentabilité de chaque spot et prendre des décisions basées sur des données réelles — pas sur des intuitions.**
+
+[Analysez vos emplacements avec FoodTracks →](/fr/pricing)
+
+**À lire aussi :** [Météo et ventes en food truck](/fr/blog/meteo-ventes-food-truck-impact) · [Comment gérer le stock de son food truck](/fr/blog/comment-gerer-stock-food-truck) · [Calculer le prix de vente de vos plats](/fr/blog/calcul-prix-vente-food-truck)`,
+      en: `## Why Location Is the Most Important Decision for Your Food Truck
+
+If there's one rule to remember in the food truck business, it's this: **location drives revenue.** You can have the best burger in town, flawless branding, and 5-star Google reviews — if you're parked on an empty street, you won't sell anything.
+
+Industry studies estimate that **location accounts for up to 70% of a food truck's commercial success.** That's more than product quality, more than pricing, more than marketing. An average food truck in an excellent location will always outperform an excellent food truck in a bad location.
+
+In this article, we'll give you a concrete method to **identify, test, and optimize your food truck locations** to maximize your revenue year-round.
+
+## The 6 Criteria for Evaluating a Food Truck Location
+
+### 1. Foot Traffic: The Number One Factor
+
+The first success factor is the number of people walking past your truck. But beware: **not all foot traffic is equal.** A flow of 1,000 people rushing to the subway isn't worth a flow of 200 people strolling through a market.
+
+What matters:
+- **Volume**: how many people pass by per hour during your selling window
+- **Speed**: slow traffic (markets, parks) converts better than fast traffic (train stations, avenues)
+- **Recurrence**: daily traffic (office areas) is worth more than occasional traffic (annual festival)
+- **Intent**: people looking for food (office district at noon) convert 5x better than random passersby
+
+**Field tip:** Before committing to a location, go count pedestrians during your target time slot. Stand with a counter for 30 minutes at peak hour. If you count fewer than 100 people in 30 minutes, the spot is probably too weak.
+
+### 2. Direct and Indirect Competition
+
+A busy location with 5 food trucks and 10 restaurants around it won't necessarily be profitable. Analyze:
+
+- **Number of direct competitors** (other food trucks, snack bars, fast food)
+- **Type of cuisine offered**: if there are already 3 burger trucks, don't show up with a 4th
+- **Price levels**: if the area is used to very low prices, your margin will be squeezed
+- **Perceived quality**: a high-end market with little competition is ideal
+
+**The golden rule:** Target areas with high demand and low supply. If a spot attracts lots of people but offers few quick-service food options, that's a strong signal.
+
+### 3. Accessibility and Logistics
+
+A location can look perfect on paper but be impractical in reality:
+
+- **Vehicle access**: your truck weighs 3.5 tons and is 6 meters long — verify you can physically access, maneuver, and park
+- **Electrical hookup**: do you need a power outlet? Does the spot offer one?
+- **Water supply**: depending on your operation, water access may be essential
+- **Travel time**: a spot 1.5 hours from your base reduces profitability (fuel, time, fatigue)
+- **Customer parking**: in rural or suburban areas, nearby parking is a plus
+
+### 4. Local Regulations
+
+This is the point that trips up most beginner food truckers. **You can't park just anywhere.** Each type of location has its own rules:
+
+| Location Type | Required Permit | Where to Apply |
+|---|---|---|
+| Public road | Temporary Occupancy Authorization (AOT) | City Hall / Prefecture |
+| Market | Pitch allocation by market manager | City Hall / Market Services |
+| Private land | Occupancy agreement | Property owner |
+| Shopping area | Manager's approval | Shopping center management |
+| Event | Pitch contract | Event organizer |
+
+**Key warnings:**
+- The AOT is usually paid (monthly or annual fee) and revocable
+- Some municipalities outright ban street food vending
+- Rules change from one city to the next — what's allowed in one town may be banned in the neighboring one
+- Fines for unauthorized parking range from €135 to vehicle impoundment
+
+**Tip:** Always contact the city hall before testing a new spot. Ask for the "street trading" or "public domain occupancy" department.
+
+### 5. Seasonality and Weather
+
+A location can be excellent in summer and disastrous in winter. Consider:
+
+- **Seasonal traffic patterns**: a beach is packed in July, empty in November
+- **Weather protection**: a sheltered spot (covered hall, arcade) holds up better in rain
+- **Local habits**: some markets only run in summer, others year-round
+- **Weather impact on sales**: on average, rain reduces sales by 30–50%
+
+**Further reading:** Check our article [Weather and Food Truck Sales: What's the Real Impact?](/en/blog/meteo-ventes-food-truck-impact) for hard data and adaptation strategies.
+
+### 6. Customer Loyalty Potential
+
+A good location is also a place where you can **build a regular customer base**. Spots where you return every week at the same time let you build loyalty, as customers develop the habit of coming to see you.
+
+- Office districts are ideal for loyalty: employees eat at the same place every day
+- Weekly markets create a regular appointment
+- One-off event spots don't build loyalty — they bring volume but not recurrence
+
+## The Best Types of Food Truck Locations
+
+### Office Districts and Business Parks
+
+**Time slot:** Monday to Friday, 11:30 AM – 2:00 PM
+**Potential:** ★★★★★
+
+This is the king of food truck locations. Office workers want a quick, quality alternative to the cafeteria. The traffic is massive, recurring, and predictable. The average ticket is often high ($14–18).
+
+**How to get in:** Contact the business park manager or company HR/works council. Some areas offer dedicated food truck pitches.
+
+### Weekly Markets
+
+**Time slot:** 1 to 3 mornings per week
+**Potential:** ★★★★☆
+
+Markets offer a natural flow of people who came to buy. Attendance is regular and the customer base is loyal. The downside: hours are early (setup from 6 AM) and spots are often allocated by seniority.
+
+### University Campuses
+
+**Time slot:** Monday to Friday, 11:30 AM – 2:00 PM (excluding holidays)
+**Potential:** ★★★★☆
+
+Students are a large, regular, and connected customer base (word-of-mouth on social media). The average ticket is lower ($9–12) but volume makes up for it. Watch out for university holiday closures.
+
+### Events and Festivals
+
+**Time slot:** Occasional (weekends, evenings)
+**Potential:** ★★★☆☆ to ★★★★★ (highly variable)
+
+The potential is enormous at a major event (festival, fair, sports match) but the risk is high: significant pitch fees, uncertain weather, intense competition. Use events as a complement to your fixed spots, not as the foundation of your schedule.
+
+### Shopping Areas and Retail Parks
+
+**Time slot:** Wednesday, Saturday, Sunday
+**Potential:** ★★★☆☆
+
+Traffic is high but food purchase intent is low (people come to shop for other things). Works well on Saturday at noon if there's little food competition on-site.
+
+## Practical Method: Test and Optimize Your Locations
+
+### Step 1 — Field Scouting (Week 1)
+
+1. List 8 to 10 potential locations in your catchment area
+2. Visit each spot during your target time slot and count foot traffic
+3. Note competition, accessibility, and regulations
+4. Eliminate spots with deal-breaking logistical or regulatory issues
+
+### Step 2 — Commercial Testing (Weeks 2–4)
+
+1. Select 5 to 6 spots and test each at least twice
+2. Record every sale in your POS connected to [FoodTracks](https://foodtracks.io)
+3. Note conditions (weather, day, time, local events)
+4. After 2–3 visits, you'll have a reliable database per spot
+
+### Step 3 — Analysis and Selection (Week 5)
+
+With FoodTracks, compare for each location:
+- **Average revenue per service**: how much you take in at each spot
+- **Average ticket**: the average amount per customer
+- **Number of tickets**: the volume of customers served
+- **Net margin**: revenue minus spot-related costs (fees, fuel, etc.)
+
+**Keep the top 4–5 spots** and build your weekly schedule around them. Reassess quarterly: a spot can degrade (construction, new competitor) or improve (new office building, recurring event).
+
+### Step 4 — Continuous Optimization
+
+- **Test a new spot every month** to replace your weakest one
+- **Adapt your schedule to the season**: more outdoor spots in summer, more sheltered spots in winter
+- **Track weather impact**: cancel an exposed spot when rain is forecast, replace it with a covered one
+- **Communicate your schedule** on Instagram and Google so customers know where to find you
+
+## Classic Mistakes to Avoid
+
+1. **Choosing a location just because it's free** — a free but empty spot costs more (wasted time, unsold stock) than a paid but busy spot
+2. **Not checking regulations before setting up** — a fine or eviction ruins your day and your reputation
+3. **Staying at a bad spot out of habit** — if a location doesn't perform after 3 tests, drop it without hesitation
+4. **Ignoring travel time** — a spot 45 minutes away costs you 1.5 hours of unproductive round-trip time + fuel
+5. **Not analyzing sales data by location** — without data, you're flying blind. Use FoodTracks to objectively compare your spots
+
+## Conclusion
+
+Choosing your food truck locations is the decision with **the biggest impact on your revenue**. Don't leave it to chance: adopt a methodical approach by testing, measuring, and optimizing each spot.
+
+**With FoodTracks, you can track sales by location, compare each spot's profitability, and make decisions based on real data — not gut feelings.**
+
+[Analyze your locations with FoodTracks →](/en/pricing)
+
+**Also read:** [Weather and Food Truck Sales](/en/blog/meteo-ventes-food-truck-impact) · [How to Manage Food Truck Inventory](/en/blog/comment-gerer-stock-food-truck) · [How to Calculate Your Dish Selling Price](/en/blog/calcul-prix-vente-food-truck)`,
+    },
+    relatedSlugs: [
+      "meteo-ventes-food-truck-impact",
+      "comment-gerer-stock-food-truck",
+      "calcul-prix-vente-food-truck",
+    ],
+  },
 ];
 
 export function getArticleBySlug(slug: string): BlogArticle | undefined {
