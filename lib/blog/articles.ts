@@ -14156,6 +14156,414 @@ Choosing your food truck locations is the decision with **the biggest impact on 
       "calcul-prix-vente-food-truck",
     ],
   },
+  {
+    slug: "formation-food-truck-obligatoire",
+    title: {
+      fr: "Formation food truck obligatoire : diplômes, permis et certifications pour ouvrir légalement en 2026",
+      en: "Mandatory Food Truck Training: Licenses, Permits and Certifications to Open Legally in 2026",
+    },
+    excerpt: {
+      fr: "Quelles formations sont obligatoires pour ouvrir un food truck en France ? Permis de conduire, hygiène alimentaire, formation HACCP, numéro SIRET… Voici le guide complet pour être en règle avant le premier service.",
+      en: "What training is mandatory to open a food truck in France? Driver's license, food hygiene, HACCP certification, business registration… Here is the complete guide to being legally compliant before your first service.",
+    },
+    category: { fr: "Réglementation", en: "Regulations" },
+    date: "2026-03-30",
+    readTime: 12,
+    keywords: [
+      "formation food truck obligatoire",
+      "diplome pour ouvrir food truck",
+      "permis food truck",
+      "formation hygiene alimentaire food truck",
+      "haccp food truck formation",
+      "ouvrir food truck legalement",
+      "certificat formation restauration mobile",
+      "food truck license requirements france",
+    ],
+    heroImage: "/blog/reglementation-food-truck.png",
+    keyTakeaways: {
+      fr: [
+        "Trois formations sont incontournables pour ouvrir un food truck légalement : le permis de conduire C ou léger selon le poids, la formation hygiène alimentaire HACCP (14h minimum), et le stage de préparation à l'installation (SPI) pour les non-diplômés en restauration.",
+        "La formation hygiène alimentaire est obligatoire depuis 2012 pour tout établissement de restauration commerciale — elle dure 14 heures et coûte entre 200 et 400 €.",
+        "Si votre food truck dépasse 3,5 tonnes (PTAC), le permis C (poids lourds) est obligatoire ; sous ce seuil, le permis B suffit.",
+        "FoodTracks vous aide à appliquer au quotidien les règles HACCP avec le suivi des températures, les alertes de péremption et la traçabilité des stocks.",
+      ],
+      en: [
+        "Three qualifications are essential to legally open a food truck: a driver's license (C or B depending on weight), HACCP food hygiene training (minimum 14 hours), and a business start-up course (SPI) if you have no catering diploma.",
+        "Food hygiene training has been mandatory since 2012 for any commercial catering business — it lasts 14 hours and costs between €200 and €400.",
+        "If your food truck exceeds 3.5 tonnes (GVW), a Class C (HGV) license is required; below that threshold, a standard Class B license is sufficient.",
+        "FoodTracks helps you apply HACCP rules daily with temperature tracking, expiry alerts, and stock traceability.",
+      ],
+    },
+    faqItems: [
+      {
+        question: {
+          fr: "Quelle formation est obligatoire pour ouvrir un food truck en France ?",
+          en: "What training is mandatory to open a food truck in France?",
+        },
+        answer: {
+          fr: "La formation hygiène alimentaire (HACCP, 14h) est la seule formation strictement obligatoire par la loi pour tout établissement de restauration commerciale, y compris les food trucks. En complément, le stage de préparation à l'installation (SPI) à la Chambre de Métiers est requis pour les artisans sans diplôme en restauration. Le permis de conduire adapté au poids du véhicule est également indispensable.",
+          en: "Food hygiene training (HACCP, 14 hours) is the only legally mandatory training for any commercial food business, including food trucks. Additionally, the business start-up course (SPI) at the Chamber of Trades is required for tradespeople without a catering qualification. The appropriate driver's license for the vehicle's weight is also essential.",
+        },
+      },
+      {
+        question: {
+          fr: "Combien coûte la formation hygiène alimentaire pour un food truck ?",
+          en: "How much does food hygiene training cost for a food truck?",
+        },
+        answer: {
+          fr: "La formation hygiène alimentaire HACCP pour food truck coûte en général entre 200 € et 400 € pour 14 heures de formation. Des organismes comme l'IFFSA, CCI Formation ou des centres agréés régionaux proposent cette formation en présentiel ou en distanciel. Elle peut être prise en charge partiellement par le CPF (Compte Personnel de Formation) ou l'AGEFICE pour les indépendants.",
+          en: "HACCP food hygiene training for food trucks generally costs between €200 and €400 for 14 hours of training. Organizations such as IFFSA, CCI Formation, or approved regional centers offer this training in person or online. It can be partially funded through the CPF (Personal Training Account) or AGEFICE for self-employed individuals.",
+        },
+      },
+      {
+        question: {
+          fr: "Faut-il le permis poids lourd pour conduire un food truck ?",
+          en: "Do you need a heavy goods vehicle license to drive a food truck?",
+        },
+        answer: {
+          fr: "Cela dépend du PTAC (Poids Total Autorisé en Charge) de votre véhicule. Si le PTAC est inférieur ou égal à 3,5 tonnes, le permis B (voiture) suffit. Au-delà de 3,5 tonnes, le permis C (poids lourds) est obligatoire. La majorité des food trucks sur camionnette (type Renault Master ou Mercedes Sprinter) restent sous 3,5 tonnes et ne nécessitent que le permis B.",
+          en: "It depends on the GVW (Gross Vehicle Weight) of your vehicle. If the GVW is 3.5 tonnes or less, a standard Class B (car) license is sufficient. Above 3.5 tonnes, a Class C (HGV) license is required. The majority of food trucks on vans (such as Renault Master or Mercedes Sprinter) remain under 3.5 tonnes and only require a Class B license.",
+        },
+      },
+      {
+        question: {
+          fr: "Est-ce qu'un CAP cuisine est obligatoire pour ouvrir un food truck ?",
+          en: "Is a catering qualification (CAP) required to open a food truck?",
+        },
+        answer: {
+          fr: "Non, un CAP cuisine n'est pas obligatoire pour ouvrir un food truck. En revanche, si vous n'avez pas de diplôme en restauration ni d'expérience professionnelle dans le secteur, vous devez obligatoirement suivre le stage de préparation à l'installation (SPI) de 5 jours à la Chambre de Métiers avant d'immatriculer votre entreprise artisanale. Le SPI couvre la gestion, la comptabilité et le cadre juridique.",
+          en: "No, a catering qualification (CAP) is not required to open a food truck. However, if you have no catering diploma or professional experience in the sector, you must complete the 5-day business start-up course (SPI) at the Chamber of Trades before registering your craft business. The SPI covers management, accounting, and the legal framework.",
+        },
+      },
+      {
+        question: {
+          fr: "Quels documents sont obligatoires pour ouvrir un food truck ?",
+          en: "What documents are mandatory to open a food truck?",
+        },
+        answer: {
+          fr: "Pour ouvrir un food truck légalement, vous avez besoin de : (1) un numéro SIRET (immatriculation auprès de l'URSSAF ou de la Chambre de Métiers), (2) l'attestation de formation hygiène alimentaire (HACCP), (3) une assurance responsabilité civile professionnelle, (4) une attestation de contrôle du gaz si vous utilisez des équipements à gaz, (5) le permis de conduire adapté, et (6) une autorisation d'occupation temporaire (AOT) ou une autorisation de marché pour chaque emplacement.",
+          en: "To legally open a food truck, you need: (1) a SIRET number (registration with URSSAF or the Chamber of Trades), (2) a food hygiene (HACCP) training certificate, (3) professional liability insurance, (4) a gas equipment inspection certificate if you use gas appliances, (5) the appropriate driver's license, and (6) a temporary occupancy permit (AOT) or market authorization for each location.",
+        },
+      },
+    ],
+    content: {
+      fr: `## Les formations obligatoires pour ouvrir un food truck en France
+
+Ouvrir un food truck ne s'improvise pas. Au-delà de l'idée, du concept et du véhicule, il existe un socle de **formations et certifications légalement obligatoires** sans lesquelles vous ne pouvez pas exercer en toute légalité. En 2026, les contrôles se sont renforcés : les préfectures, les DDPP (Directions Départementales de la Protection des Populations) et les mairies vérifient de plus en plus souvent les attestations des opérateurs ambulants.
+
+Ce guide vous détaille **tout ce qu'il faut valider avant votre premier service**, avec les coûts, les durées et les organismes compétents.
+
+## 1. La formation hygiène alimentaire (HACCP) : la seule vraiment obligatoire
+
+### Ce que dit la loi
+
+Depuis le **1er octobre 2012**, la loi impose à tout établissement de restauration commerciale — y compris les food trucks, camions pizza et autres commerces ambulants — d'avoir **au moins une personne formée à l'hygiène alimentaire** au sein de l'équipe. Cette obligation découle du règlement européen CE 852/2004 et de l'arrêté du 5 octobre 2011.
+
+Le référentiel officiel est la méthode **HACCP (Hazard Analysis Critical Control Points)** — en français : Analyse des dangers et points critiques pour leur maîtrise. L'objectif est de vous donner les outils pour identifier et contrôler les risques de contamination alimentaire à chaque étape de votre activité.
+
+### Ce que couvre la formation
+
+La formation dure **14 heures minimum** (2 jours) et aborde :
+- Les grands principes de la réglementation européenne et française
+- Les dangers biologiques, chimiques et physiques
+- La méthode HACCP et ses 7 principes
+- L'hygiène du personnel et des locaux
+- La chaîne du froid et les températures de conservation
+- La traçabilité et les enregistrements obligatoires
+- La gestion des déchets
+
+### Coût et financement
+
+| Format | Prix indicatif | Durée |
+|---|---|---|
+| Présentiel (organisme agréé) | 200 – 400 € | 2 jours (14h) |
+| En ligne (e-learning) | 100 – 250 € | 14h à votre rythme |
+| Formation intra-entreprise | Sur devis | Flexible |
+
+**Bonne nouvelle :** Cette formation est éligible au **CPF (Compte Personnel de Formation)**. Si vous avez des droits disponibles, vous pouvez la financer en totalité ou en partie via [moncompteformation.gouv.fr](https://www.moncompteformation.gouv.fr). Les travailleurs non-salariés peuvent également se tourner vers l'**AGEFICE** ou le **FAF PM** selon leur statut.
+
+### Où se former ?
+
+- **CCI Formation** (Chambres de Commerce et d'Industrie) : formation agréée dans toute la France
+- **IFFSA** (Institut de Formation de la Food Service Academy)
+- **Centres de formation agréés régionaux** (liste sur le site de la DRAAF de votre région)
+- **Plateformes e-learning** certifiées : Datadock, Qualiopi
+
+**Important :** Vérifiez que l'organisme est **certifié Qualiopi** pour que votre formation soit éligible aux financements publics.
+
+## 2. Le stage de préparation à l'installation (SPI) : pour les artisans sans diplôme
+
+### Qui est concerné ?
+
+Si vous vous immatriculez en tant qu'artisan (ce qui est le cas pour la plupart des food truckers qui cuisinent eux-mêmes), vous devez justifier d'une qualification professionnelle dans le métier de bouche. Concrètement :
+
+- **Vous avez un CAP, BEP, Bac Pro en cuisine ou restauration** → vous êtes dispensé du SPI
+- **Vous avez 3 ans d'expérience professionnelle dans le secteur** → vous pouvez être dispensé
+- **Aucune des deux conditions** → le **SPI est obligatoire** avant immatriculation
+
+### En quoi consiste le SPI ?
+
+Le Stage de Préparation à l'Installation est organisé par la **Chambre de Métiers et de l'Artisanat (CMA)** de votre département. Il dure **5 jours** (30 heures) et couvre :
+- La gestion comptable et financière d'une entreprise artisanale
+- Le cadre juridique et fiscal
+- Les aspects sociaux (cotisations, protection sociale)
+- La relation client et le développement commercial
+
+**Coût :** Environ 200 € (variable selon les départements). Une aide financière de l'AGEFICE est possible.
+
+## 3. Le permis de conduire adapté au véhicule
+
+### Permis B ou permis C ?
+
+Le type de permis requis dépend du **PTAC (Poids Total Autorisé en Charge)** de votre food truck :
+
+| PTAC du véhicule | Permis requis | Exemples de véhicules |
+|---|---|---|
+| ≤ 3,5 tonnes | **Permis B** (voiture) | Renault Master, Mercedes Sprinter, Ford Transit |
+| > 3,5 t et ≤ 7,5 t | **Permis C1** | Camions légers, certains food trucks sur porteur |
+| > 7,5 tonnes | **Permis C** (poids lourds) | Grands camions, semi-remorques |
+
+La grande majorité des food trucks en France sont aménagés sur des fourgons de moins de 3,5 tonnes et ne nécessitent donc que le **permis B**. Toutefois, certains trucks sur châssis porteur (cuisine étendue, équipements lourds) peuvent dépasser ce seuil.
+
+**Conseil :** Avant d'acheter votre véhicule, vérifiez toujours le PTAC dans les documents constructeur. Un food truck "chargé" (stocks, équipements, eaux usées) peut peser significativement plus que son poids à vide.
+
+### Le permis remorque (BE ou CE)
+
+Si vous utilisez une remorque pour transporter du matériel ou une terrasse mobile, le **permis BE** (voiture + remorque > 750 kg) peut être nécessaire. Renseignez-vous auprès de votre préfecture selon le poids de la remorque et de l'ensemble routier.
+
+## 4. Les autres formations recommandées (non obligatoires mais essentielles)
+
+### Formation aux premiers secours (PSC1)
+
+Non obligatoire mais **fortement recommandée**, surtout si vous travaillez seul ou avec des collaborateurs. En cas d'accident sur votre emplacement (brûlure, coupure grave, malaise client), être formé aux gestes de premiers secours peut sauver une vie.
+
+**Durée :** 7 heures | **Coût :** 50 – 80 € | **Organismes :** Croix-Rouge, Protection Civile, SAMU Social
+
+### Formation à la sécurité incendie
+
+Votre food truck est équipé de bonbonnes de gaz et/ou de friteuses. Le risque incendie est réel. Une formation aux extincteurs et à l'évacuation est vivement conseillée.
+
+**Durée :** 3 – 4 heures | **Coût :** 80 – 150 € | **Organismes :** centres de formation en sécurité agréés INRS
+
+### Initiation à la gestion comptable et aux outils de suivi
+
+De nombreux food truckers débutants sous-estiment l'aspect administratif du métier. Une journée de formation à la comptabilité de base, aux obligations fiscales (TVA, déclarations) et aux outils de suivi vous évitera de nombreux problèmes.
+
+**Avec [FoodTracks](/fr/pricing)**, le suivi de votre activité est automatisé : scan de factures, intégration SumUp, tableau de bord de rentabilité — vous avez toujours une vision claire de votre situation sans être comptable.
+
+## 5. Les obligations administratives connexes
+
+La formation ne suffit pas : vous devez aussi valider plusieurs démarches administratives avant d'ouvrir.
+
+### L'immatriculation
+
+Selon votre statut juridique :
+- **Auto-entrepreneur / micro-entrepreneur** → inscription en ligne sur [autoentrepreneur.urssaf.fr](https://www.autoentrepreneur.urssaf.fr)
+- **Artisan** → immatriculation au **Registre National des Entreprises (RNE)** via la CMA
+- **Société (SARL, SAS)** → immatriculation au RCS via le guichet unique des formalités d'entreprises
+
+### La déclaration d'activité auprès de la DDPP
+
+Tout établissement de restauration doit effectuer une **déclaration d'activité** auprès de la Direction Départementale de la Protection des Populations (DDPP) de son département, au minimum **1 mois avant l'ouverture**. Cette déclaration est distincte de l'immatriculation commerciale.
+
+### L'assurance professionnelle
+
+Elle n'est pas une formation, mais elle est **obligatoire** : la responsabilité civile professionnelle (RC Pro) couvre les dommages que vous pourriez causer à des tiers (intoxication alimentaire, accident sur votre emplacement). Comptez 500 à 1 500 € par an selon la couverture.
+
+## 6. Comment FoodTracks vous aide à appliquer les règles au quotidien
+
+Être formé, c'est bien. Appliquer les règles chaque jour, c'est mieux. C'est là qu'un outil comme FoodTracks entre en jeu.
+
+### La traçabilité des stocks
+
+Les règles HACCP imposent une traçabilité rigoureuse de vos produits : d'où ils viennent, quand ils ont été reçus, à quelle température ils ont été stockés. FoodTracks centralise ces informations automatiquement via le **scan de vos factures fournisseurs** et le suivi en temps réel de vos entrées de stock.
+
+### Le suivi des températures et des dates de péremption
+
+La chaîne du froid est un point critique du plan HACCP. FoodTracks vous envoie des **alertes automatiques** quand un produit approche de sa date limite de consommation (DLC ou DDM), vous permettant d'agir avant que le produit ne devienne un risque.
+
+### La gestion des non-conformités
+
+En cas de contrôle inopiné de la DDPP, vous devez être capable de présenter vos enregistrements HACCP. Avec FoodTracks, l'historique complet de vos stocks, commandes et ventes est disponible en quelques clics.
+
+## Récapitulatif : checklist formation & conformité pour ouvrir un food truck
+
+- [ ] **Formation hygiène alimentaire HACCP** (14h, organisme agréé Qualiopi) — obligatoire
+- [ ] **SPI à la CMA** (5 jours, 30h) — obligatoire si pas de diplôme ni expérience en restauration
+- [ ] **Permis de conduire adapté** (B si ≤ 3,5t, C si > 3,5t)
+- [ ] **Immatriculation** (URSSAF, CMA ou RCS selon statut)
+- [ ] **Déclaration DDPP** au moins 1 mois avant l'ouverture
+- [ ] **Assurance RC Pro** souscrite
+- [ ] **Attestation contrôle gaz** si équipements gaz à bord
+- [ ] **Formation premiers secours PSC1** (recommandé)
+- [ ] **Formation sécurité incendie** (recommandé)
+
+## Conclusion
+
+Ouvrir un food truck légalement en 2026 demande de cocher plusieurs cases obligatoires, mais aucune d'elles n'est insurmontable. La formation hygiène alimentaire HACCP (14h) est le seul vrai prérequis légal universel — elle est accessible, finançable via le CPF et se fait en 2 jours. Le reste (SPI, permis, immatriculation) est une question d'organisation.
+
+**Une fois en activité, FoodTracks vous accompagne pour appliquer les règles HACCP au quotidien** : traçabilité des stocks, alertes de péremption, suivi des fournisseurs — tout ce dont vous avez besoin pour passer un contrôle sanitaire sans stress.
+
+[Découvrez FoodTracks gratuitement →](/fr/pricing)
+
+**À lire aussi :** [Réglementation food truck France : le guide complet](/fr/blog/reglementation-food-truck-france) · [Hygiène et HACCP en food truck](/fr/blog/hygiene-haccp-food-truck) · [Ouvrir un food truck : le guide complet](/fr/blog/ouvrir-food-truck-guide-complet)`,
+      en: `## Mandatory Training to Open a Food Truck in France
+
+Opening a food truck is not something you improvise. Beyond the concept and the vehicle, there is a core set of **legally required qualifications and certifications** without which you cannot operate legally. In 2026, inspections have intensified: prefectures, DDPP (Departmental Directorates for the Protection of Populations), and local authorities increasingly check the credentials of mobile food operators.
+
+This guide details **everything you need to complete before your first service**, including costs, durations, and the relevant bodies.
+
+## 1. Food Hygiene Training (HACCP): The Only Truly Mandatory Qualification
+
+### What the Law Says
+
+Since **1 October 2012**, the law requires every commercial catering establishment — including food trucks, pizza trucks, and other mobile food vendors — to have **at least one person trained in food hygiene** on the team. This requirement stems from European Regulation CE 852/2004 and the ministerial order of 5 October 2011.
+
+The official framework is the **HACCP method (Hazard Analysis and Critical Control Points)**, which gives you the tools to identify and control contamination risks at every stage of your operation.
+
+### What the Training Covers
+
+Training lasts a **minimum of 14 hours** (2 days) and covers:
+- Key principles of European and French food safety regulations
+- Biological, chemical, and physical hazards
+- The HACCP method and its 7 principles
+- Personnel and premises hygiene
+- The cold chain and storage temperatures
+- Traceability and mandatory record-keeping
+- Waste management
+
+### Cost and Funding
+
+| Format | Indicative price | Duration |
+|---|---|---|
+| In-person (approved training center) | €200 – €400 | 2 days (14h) |
+| Online (e-learning) | €100 – €250 | 14h at your own pace |
+| In-house training | On request | Flexible |
+
+**Good news:** This training is eligible for the **CPF (Personal Training Account)**. If you have available rights, you can fund it fully or partially via [moncompteformation.gouv.fr](https://www.moncompteformation.gouv.fr). Self-employed workers can also contact **AGEFICE** or **FAF PM** depending on their status.
+
+### Where to Train
+
+- **CCI Formation** (Chambers of Commerce and Industry): approved training throughout France
+- **IFFSA** (Institut de Formation de la Food Service Academy)
+- **Approved regional training centers** (list available on your regional DRAAF website)
+- **Certified e-learning platforms**: Datadock, Qualiopi
+
+**Important:** Check that the training provider is **Qualiopi-certified** to ensure your training qualifies for public funding.
+
+## 2. The Business Start-Up Course (SPI): For Tradespeople Without a Qualification
+
+### Who Is Concerned?
+
+If you register as a craftsperson (which applies to most food truckers who cook their own food), you must demonstrate a professional qualification in the catering trade. In practice:
+
+- **You hold a CAP, BEP, or Bac Pro in cooking or catering** → you are exempt from the SPI
+- **You have 3 years of professional experience in the sector** → you may be exempt
+- **Neither of the above** → the **SPI is mandatory** before registration
+
+### What the SPI Involves
+
+The Business Start-Up Course (Stage de Préparation à l'Installation) is run by the **Chamber of Trades and Crafts (CMA)** in your department. It lasts **5 days** (30 hours) and covers:
+- Accounting and financial management for a craft business
+- The legal and tax framework
+- Social aspects (contributions, social protection)
+- Customer relations and business development
+
+**Cost:** Around €200 (varies by department). Financial assistance from AGEFICE may be available.
+
+## 3. The Appropriate Driver's License
+
+### Class B or Class C?
+
+The type of license required depends on the **GVW (Gross Vehicle Weight)** of your food truck:
+
+| Vehicle GVW | License required | Example vehicles |
+|---|---|---|
+| ≤ 3.5 tonnes | **Class B** (car license) | Renault Master, Mercedes Sprinter, Ford Transit |
+| > 3.5t and ≤ 7.5t | **Class C1** | Light trucks, some food trucks on carrier chassis |
+| > 7.5 tonnes | **Class C** (HGV license) | Large trucks, semi-trailers |
+
+The vast majority of food trucks in France are fitted out on vans under 3.5 tonnes and therefore only require a **Class B license**. However, some trucks on carrier chassis (extended kitchen, heavy equipment) may exceed this threshold.
+
+**Tip:** Before purchasing your vehicle, always check the GVW in the manufacturer's documents. A "loaded" food truck (stock, equipment, wastewater) can weigh significantly more than its empty weight.
+
+## 4. Other Recommended Training (Not Mandatory, But Essential)
+
+### First Aid Training (PSC1)
+
+Not mandatory but **strongly recommended**, especially if you work alone or with staff. In the event of an accident at your location (burn, serious cut, customer collapse), knowing first aid could save a life.
+
+**Duration:** 7 hours | **Cost:** €50 – €80 | **Providers:** Red Cross, Civil Protection, SAMU Social
+
+### Fire Safety Training
+
+Your food truck is equipped with gas cylinders and/or fryers. The fire risk is real. Training on extinguishers and evacuation is strongly advised.
+
+**Duration:** 3 – 4 hours | **Cost:** €80 – €150 | **Providers:** INRS-approved safety training centers
+
+## 5. Related Administrative Obligations
+
+Training alone is not enough: you must also complete several administrative steps before opening.
+
+### Business Registration
+
+Depending on your legal structure:
+- **Sole trader / micro-entrepreneur** → online registration at [autoentrepreneur.urssaf.fr](https://www.autoentrepreneur.urssaf.fr)
+- **Craftsperson** → registration in the **National Business Register (RNE)** via the CMA
+- **Company (SARL, SAS)** → registration via the business formalities single window
+
+### Declaration to the DDPP
+
+Every catering establishment must file an **activity declaration** with the Departmental Directorate for the Protection of Populations (DDPP) in its department, at least **1 month before opening**.
+
+### Professional Liability Insurance
+
+It is not a qualification, but it is **mandatory**: professional liability insurance (RC Pro) covers damage you may cause to third parties (food poisoning, accident at your location). Budget €500 to €1,500 per year depending on coverage.
+
+## 6. How FoodTracks Helps You Apply the Rules Daily
+
+Being trained is good. Applying the rules every day is better. That's where a tool like FoodTracks comes in.
+
+### Stock Traceability
+
+HACCP rules require rigorous traceability of your products: where they come from, when they were received, at what temperature they were stored. FoodTracks centralizes this information automatically via **supplier invoice scanning** and real-time stock tracking.
+
+### Expiry Date and Temperature Monitoring
+
+The cold chain is a critical control point in the HACCP plan. FoodTracks sends you **automatic alerts** when a product approaches its use-by date (DLC or DDM), allowing you to act before the product becomes a risk.
+
+### Handling Non-Conformities
+
+In the event of an unannounced DDPP inspection, you must be able to present your HACCP records. With FoodTracks, the complete history of your stock, orders, and sales is available in a few clicks.
+
+## Summary Checklist: Training and Compliance to Open a Food Truck
+
+- [ ] **HACCP food hygiene training** (14h, Qualiopi-approved provider) — mandatory
+- [ ] **SPI at the CMA** (5 days, 30h) — mandatory if no catering qualification or experience
+- [ ] **Appropriate driver's license** (B if ≤ 3.5t, C if > 3.5t)
+- [ ] **Business registration** (URSSAF, CMA or RCS depending on structure)
+- [ ] **DDPP declaration** at least 1 month before opening
+- [ ] **Professional liability insurance** taken out
+- [ ] **Gas equipment inspection certificate** if on-board gas appliances
+- [ ] **First aid training PSC1** (recommended)
+- [ ] **Fire safety training** (recommended)
+
+## Conclusion
+
+Opening a food truck legally in 2026 requires ticking several mandatory boxes, but none of them are insurmountable. Food hygiene (HACCP) training (14 hours) is the only universal legal prerequisite — it is accessible, fundable via the CPF, and completed in 2 days. The rest (SPI, license, registration) is simply a matter of organization.
+
+**Once up and running, FoodTracks helps you apply HACCP rules every day**: stock traceability, expiry alerts, supplier tracking — everything you need to pass a health inspection without stress.
+
+[Discover FoodTracks for free →](/en/pricing)
+
+**Also read:** [Food Truck Regulations in France: The Complete Guide](/en/blog/reglementation-food-truck-france) · [Hygiene and HACCP for Food Trucks](/en/blog/hygiene-haccp-food-truck) · [Opening a Food Truck: The Complete Guide](/en/blog/ouvrir-food-truck-guide-complet)`,
+    },
+    relatedSlugs: [
+      "reglementation-food-truck-france",
+      "hygiene-haccp-food-truck",
+      "ouvrir-food-truck-guide-complet",
+    ],
+  },
 ];
 
 export function getArticleBySlug(slug: string): BlogArticle | undefined {
