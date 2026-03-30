@@ -14564,6 +14564,470 @@ Opening a food truck legally in 2026 requires ticking several mandatory boxes, b
       "ouvrir-food-truck-guide-complet",
     ],
   },
+  {
+    slug: "fournisseurs-food-truck-guide",
+    title: {
+      fr: "Trouver les bons fournisseurs pour son food truck : le guide complet",
+      en: "How to Find the Right Suppliers for Your Food Truck: The Complete Guide",
+    },
+    excerpt: {
+      fr: "Comment choisir et négocier avec ses fournisseurs en food truck ? Grossistes, producteurs locaux, cash & carry… Découvrez comment réduire vos coûts matières et sécuriser vos approvisionnements.",
+      en: "How to choose and negotiate with your food truck suppliers? Wholesalers, local producers, cash & carry… Discover how to cut ingredient costs and secure your supply chain.",
+    },
+    category: { fr: "Gestion", en: "Management" },
+    date: "2026-03-30",
+    readTime: 13,
+    keywords: [
+      "fournisseurs food truck",
+      "trouver fournisseur restauration ambulante",
+      "grossiste food truck",
+      "approvisionnement food truck",
+      "food truck suppliers",
+      "négocier fournisseur food truck",
+      "producteurs locaux food truck",
+      "cash and carry food truck",
+    ],
+    heroImage: "/blog/food-truck-menu-rentable.png",
+    keyTakeaways: {
+      fr: [
+        "Le choix de vos fournisseurs impacte directement votre food cost : un écart de 10 % sur le prix des matières premières peut représenter plusieurs centaines d'euros de marge par mois.",
+        "Diversifier vos sources d'approvisionnement (grossiste + producteur local + cash & carry) vous protège contre les ruptures de stock et vous donne du levier pour négocier.",
+        "Négocier des tarifs préférentiels est accessible dès 2 000 à 3 000 € d'achats mensuels chez un même fournisseur — commencez à demander des remises après 3 mois de relation.",
+        "FoodTracks analyse automatiquement vos factures fournisseurs pour détecter les hausses de prix et mesurer l'évolution de votre food cost en temps réel.",
+      ],
+      en: [
+        "Your choice of suppliers directly impacts your food cost: a 10% difference in ingredient prices can represent hundreds of euros in margin each month.",
+        "Diversifying your supply sources (wholesaler + local producer + cash & carry) protects you from stockouts and gives you negotiating leverage.",
+        "Negotiating preferential rates is within reach from €2,000–€3,000 in monthly purchases with a single supplier — start asking for discounts after 3 months of business.",
+        "FoodTracks automatically analyses your supplier invoices to detect price increases and track your food cost evolution in real time.",
+      ],
+    },
+    faqItems: [
+      {
+        question: {
+          fr: "Où trouver des fournisseurs pour son food truck ?",
+          en: "Where can I find suppliers for my food truck?",
+        },
+        answer: {
+          fr: "Les principales sources sont les grossistes alimentaires (Metro, Promocash, Transgourmet), les marchés de gros (Rungis pour l'Île-de-France), les producteurs locaux (via les coopératives agricoles, les AMAP et les salons comme le SIRHA), et les plateformes B2B en ligne (Ankorstore, TastePro). Pour commencer, le cash & carry est le plus accessible car il ne nécessite aucun engagement de volume.",
+          en: "The main sources are food wholesalers (Metro, Promocash, Transgourmet), wholesale markets (Rungis for Île-de-France), local producers (via agricultural cooperatives, AMAPs and trade shows like SIRHA), and B2B online platforms (Ankorstore, TastePro). To start, cash & carry is the most accessible as it requires no volume commitment.",
+        },
+      },
+      {
+        question: {
+          fr: "Peut-on acheter chez Metro ou Promocash en tant que food trucker ?",
+          en: "Can food truckers buy from Metro or Promocash?",
+        },
+        answer: {
+          fr: "Oui, absolument. Metro et Promocash sont accessibles à tous les professionnels de la restauration, y compris les food truckers. Il suffit de présenter votre numéro SIRET, un extrait Kbis ou une attestation d'auto-entrepreneur, et une pièce d'identité lors de l'inscription. L'accès est ensuite libre et gratuit.",
+          en: "Yes, absolutely. Metro and Promocash are open to all food service professionals, including food truckers. Simply present your SIRET number, a business registration extract (Kbis) or self-employed certificate, and an ID when signing up. Access is then free and unrestricted.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment négocier de meilleurs prix avec ses fournisseurs ?",
+          en: "How do I negotiate better prices with suppliers?",
+        },
+        answer: {
+          fr: "La clé est de prouver votre régularité et votre volume. Après 2 à 3 mois d'achats réguliers, demandez un rendez-vous commercial et présentez vos historiques d'achat. Proposez un engagement de volume mensuel en échange d'une remise de 5 à 10 %. Comparez aussi les offres de plusieurs fournisseurs sur les mêmes références — cette concurrence est votre meilleur argument.",
+          en: "The key is to demonstrate consistency and volume. After 2–3 months of regular purchases, request a sales meeting and present your purchase history. Offer a monthly volume commitment in exchange for a 5–10% discount. Also compare offers from several suppliers on the same references — this competition is your best negotiating argument.",
+        },
+      },
+      {
+        question: {
+          fr: "Vaut-il mieux s'approvisionner en local ou chez un grossiste ?",
+          en: "Is it better to source locally or from a wholesaler?",
+        },
+        answer: {
+          fr: "Les deux approches sont complémentaires. Le grossiste offre des prix bas, une large gamme et une disponibilité constante — idéal pour vos produits secs et vos consommables. Le producteur local apporte un argument marketing fort (\"produits du terroir\"), souvent une meilleure fraîcheur, et parfois des tarifs compétitifs pour les fruits et légumes de saison. Combiner les deux est la stratégie la plus solide.",
+          en: "Both approaches are complementary. The wholesaler offers low prices, a wide range and constant availability — ideal for dry goods and consumables. The local producer brings a strong marketing argument ('local products'), often better freshness, and sometimes competitive prices for seasonal fruit and vegetables. Combining both is the strongest strategy.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment suivre l'évolution des prix de mes fournisseurs ?",
+          en: "How do I track changes in my supplier prices?",
+        },
+        answer: {
+          fr: "La méthode manuelle consiste à comparer vos factures mois par mois dans un tableau. Mais cette tâche est chronophage. Un outil comme FoodTracks scanne automatiquement vos factures et détecte les hausses de prix produit par produit, en vous alertant dès qu'un prix dévie de votre moyenne historique. Vous pouvez ainsi réagir rapidement en renégociant ou en changeant de fournisseur.",
+          en: "The manual method is to compare your invoices month by month in a spreadsheet. But this is time-consuming. A tool like FoodTracks automatically scans your invoices and detects price increases product by product, alerting you whenever a price deviates from your historical average. You can then react quickly by renegotiating or switching suppliers.",
+        },
+      },
+    ],
+    content: {
+      fr: `## Pourquoi vos fournisseurs déterminent votre rentabilité
+
+En food truck, les matières premières représentent **25 à 35 % de votre chiffre d'affaires**. C'est votre premier poste de charges variables — et le seul sur lequel vous pouvez agir rapidement sans toucher à votre menu ni à votre tarification.
+
+Un food trucker qui réduit son food cost de 30 % à 27 % sur un chiffre d'affaires mensuel de 8 000 € **économise 240 € de charges par mois**, soit près de 3 000 € par an. Cette économie passe presque entièrement en marge nette.
+
+Le choix de vos fournisseurs est donc stratégique. Pourtant, de nombreux food truckers s'approvisionnent dans la précipitation — supermarché du coin, fournisseur recommandé par un ami, sans jamais comparer ni négocier. Ce guide vous donne les clés pour structurer votre approvisionnement et optimiser vos coûts.
+
+## Les types de fournisseurs en restauration mobile
+
+### Le grossiste alimentaire traditionnel
+
+Les grands noms comme **Metro, Promocash** (groupe Carrefour) et **Transgourmet** sont accessibles à tous les professionnels de la restauration sur présentation de votre numéro SIRET. Ils offrent :
+- Des prix HT réservés aux professionnels, souvent 20 à 40 % moins chers que le détail
+- Une gamme très large (frais, sec, surgelé, emballage, hygiène)
+- Des horaires adaptés aux professionnels (ouverture dès 6h)
+- Des programmes fidélité et des remises sur volume
+
+**Idéal pour** : produits secs (farine, huile, épices), emballages, boissons, produits d'entretien.
+
+**Inconvénient** : les conditionnements sont souvent importants (caisse de 6 kg, bag-in-box de 10 L) — prévu pour des restaurants avec stockage, pas pour un food truck. Adaptez vos commandes.
+
+### Le marché de gros
+
+En Île-de-France, **Rungis** est la référence absolue. Dans d'autres régions, des marchés similaires existent (MIN de Lyon, Rouen, Bordeaux, Nantes). Les avantages :
+- **Fraîcheur maximale** : les produits arrivent directement des producteurs ou importateurs
+- **Prix très compétitifs** sur les fruits, légumes, viandes et poissons
+- **Choix de saison** : vous voyez ce qui est beau et abordable, et adaptez votre menu
+
+**Condition d'accès** : carte professionnelle obligatoire (numéro SIRET + inscription auprès du marché). L'accès se fait tôt le matin (souvent avant 9h).
+
+### Le cash & carry et les épiceries professionnelles
+
+Le cash & carry est le format le plus flexible pour un food trucker. Pas besoin de carte professionnelle dans tous les cas, pas d'engagement de volume, horaires larges. Des enseignes comme **Métro Express**, les grossistes locaux ou les coopératives d'achat proposent ce format.
+
+**Parfait pour** : les dépannages, les produits spécifiques à votre concept (épices rares, produits ethniques, sauces spéciales).
+
+### Les producteurs locaux
+
+S'approvisionner directement auprès de producteurs locaux est à la fois un argument **marketing** (valorisation du terroir, circuits courts) et parfois un avantage **économique** sur les produits de saison.
+
+Comment les trouver ?
+- **Les marchés de producteurs** dans votre région
+- **Les coopératives agricoles** (Biocoop Pro, coopératives fromières, etc.)
+- **Les plateformes comme Fermier.fr, La Ruche qui dit Oui Pro ou Agrilocal**
+- **Les salons professionnels** : SIRHA (Lyon), SIAL (Paris), Salon des Artisans
+
+**Astuce** : proposez à un producteur local un partenariat de mise en avant sur vos réseaux sociaux en échange d'un tarif préférentiel. Beaucoup sont sensibles à la visibilité.
+
+### Les plateformes B2B en ligne
+
+Des plateformes comme **Ankorstore** ou **TastePro** permettent de commander des produits alimentaires artisanaux (sauces, condiments, boissons) directement auprès de producteurs indépendants, avec des minimums de commande accessibles et une livraison à domicile.
+
+**Idéal pour** : les produits différenciants qui donnent une identité à votre menu (sauce piquante artisanale, confiture maison, boisson locale).
+
+## Comment sélectionner ses fournisseurs : la méthode
+
+### Étape 1 : Lister tous les ingrédients de votre menu
+
+Commencez par un inventaire exhaustif de tous les produits que vous utilisez, classés par catégorie :
+- **Produits frais** (viande, poisson, légumes, produits laitiers)
+- **Produits secs et épicerie** (farine, huile, épices, condiments)
+- **Produits surgelés**
+- **Emballages et consommables** (boîtes, couverts, serviettes, sacs)
+- **Boissons**
+
+Pour chaque produit, notez : la quantité mensuelle, le prix actuel unitaire et le fournisseur actuel.
+
+### Étape 2 : Comparer les prix sur vos références clés
+
+Ne comparez pas tout en même temps — concentrez-vous d'abord sur vos **10 produits les plus coûteux** (ceux qui pèsent le plus dans votre food cost). Sur ces références, faites demander des devis à 3 fournisseurs différents.
+
+Calculez le **prix au kilo ou à l'unité** pour comparer réellement — les conditionnements différents peuvent masquer un prix réel plus élevé.
+
+### Étape 3 : Évaluer la fiabilité, pas seulement le prix
+
+Un fournisseur moins cher mais peu fiable vous coûtera plus cher. Évaluez :
+- **La régularité des livraisons** : retard fréquents ? Ruptures soudaines ?
+- **La qualité constante** : même calibre de légumes, même fraîcheur de viande ?
+- **La réactivité** : rappel rapide en cas de problème ? SAV efficace ?
+- **La flexibilité** : accepte-t-il les petites commandes en cas de besoin urgent ?
+
+### Étape 4 : Ne jamais dépendre d'un seul fournisseur
+
+Pour chaque produit stratégique (vos ingrédients principaux), ayez toujours **au moins un fournisseur alternatif** identifié et testé. Si votre fournisseur de viande est en rupture ou augmente brutalement ses prix, vous devez pouvoir switcher en 24 heures.
+
+## Négocier avec ses fournisseurs : ce qui fonctionne vraiment
+
+### La règle des 3 mois
+
+Ne cherchez pas à négocier dès la première commande. Passez d'abord **3 mois de commandes régulières** pour construire une relation et montrer que vous êtes un client sérieux. Ensuite seulement, demandez un rendez-vous commercial.
+
+### Préparez votre négociation avec des données
+
+Arrivez avec :
+- L'historique de vos achats sur les 3 derniers mois (montant total, fréquence)
+- Une projection de vos besoins pour les 6 prochains mois
+- Les offres concurrentes sur vos références clés (sans mentir, mais en les montrant)
+
+Proposez un **engagement de volume mensuel** en échange d'une remise : "Je m'engage sur 1 500 € de commandes par mois, quelle remise pouvez-vous m'offrir ?"
+
+### Les leviers de négociation
+
+- **Le volume** : plus vous commandez, plus votre levier est fort
+- **La régularité** : un client prévisible vaut de l'or pour un fournisseur
+- **Le paiement rapide** : proposer de payer comptant (ou à 15 jours) peut valoir 1 à 2 % de remise
+- **Le référencement croisé** : parler positivement du fournisseur à d'autres food truckers de votre réseau
+
+### Ce qu'il est réaliste d'obtenir
+
+Sur vos premiers mois, visez :
+- **3 à 5 % de remise** chez un grossiste type Metro ou Promocash
+- **5 à 10 %** après 6 mois de relation et volume régulier
+- **Frais de port offerts** pour les livraisons à domicile à partir d'un certain seuil
+- **Délais de paiement à 30 jours** pour améliorer votre trésorerie
+
+## Suivre l'évolution des prix fournisseurs
+
+### Le problème des hausses silencieuses
+
+Les fournisseurs appliquent souvent des augmentations de prix progressives, parfois sans en informer clairement leurs clients. Une hausse de 5 % sur votre fromage, puis 3 % sur la viande, 4 % sur l'emballage : en cumulé, votre food cost peut grimper de plusieurs points sans que vous le réalisiez.
+
+### La méthode manuelle : le tableau de suivi
+
+À chaque facture, notez dans un tableau : la date, le fournisseur, le produit, la quantité et le prix unitaire. Comparez chaque mois avec le mois précédent. C'est efficace mais chronophage — compter 30 à 45 minutes par semaine.
+
+### La méthode automatique avec FoodTracks
+
+FoodTracks scanne automatiquement vos factures fournisseurs (photo ou PDF) et en extrait les informations clés. Le logiciel :
+- **Détecte les hausses de prix** produit par produit et vous alerte en temps réel
+- **Calcule votre food cost global** en croisant factures et ventes SumUp
+- **Génère des graphiques d'évolution** pour visualiser vos coûts sur 3, 6 ou 12 mois
+
+Cela vous permet de réagir immédiatement : renégocier avec le fournisseur, chercher une alternative, ou ajuster votre prix de vente avant que vos marges ne s'effritent. Pour aller plus loin sur le sujet, lisez notre article sur le [scan de factures pour food truck](/fr/blog/scanner-factures-food-truck-gagner-temps).
+
+## Construire des relations durables avec ses fournisseurs
+
+### Soyez un bon client
+
+Le meilleur levier de négociation, c'est d'être un client qu'on veut garder. Cela signifie :
+- **Payer dans les délais** (idéalement avant l'échéance)
+- **Donner de la visibilité** sur vos besoins à venir (planifier vos commandes)
+- **Signaler les problèmes** immédiatement et avec courtoisie, sans agressivité
+- **Recommander** votre fournisseur à d'autres food truckers quand il le mérite
+
+### Visitez vos fournisseurs
+
+Si vous achetez chez un producteur local ou un artisan, prenez le temps de visiter son exploitation ou atelier. Non seulement vous obtenez une meilleure compréhension de ce que vous servez, mais vous construisez une relation humaine qui facilite les négociations et les arrangements en cas de problème.
+
+### Participez aux événements professionnels
+
+Les salons comme le **SIRHA à Lyon** ou le **SIAL à Paris** sont des mines d'or pour :
+- Découvrir de nouveaux produits et fournisseurs
+- Rencontrer des commerciaux en face à face
+- Négocier des offres de lancement exclusives
+- Se tenir informé des tendances alimentaires
+
+## Organisation pratique de vos commandes
+
+### Définir un rythme d'approvisionnement
+
+Pour un food truck actif 4 à 5 jours par semaine, un rythme d'approvisionnement efficace est souvent :
+- **1 commande principale par semaine** pour les produits secs et les surgels
+- **2 passages au marché ou chez le grossiste par semaine** pour les produits frais
+- **1 commande mensuelle** pour les emballages et consommables (en gros volume)
+
+### Créer des fiches de commande type
+
+Pour chaque service ou semaine type, créez une fiche de commande avec les quantités habituelles. Modulez ensuite selon votre planning réel. Cela évite les oublis et les achats en panique.
+
+En combinant vos fiches de commande avec le suivi des stocks dans FoodTracks, vous pouvez générer une suggestion de commande automatique basée sur votre consommation réelle et le planning de la semaine à venir. Pour en savoir plus sur l'optimisation des stocks, consultez notre guide [comment gérer le stock de son food truck](/fr/blog/comment-gerer-stock-food-truck).
+
+## Conclusion
+
+Vos fournisseurs ne sont pas de simples prestataires — ce sont des partenaires qui influencent directement la qualité de ce que vous servez et la santé financière de votre food truck. Prendre le temps de les choisir, les comparer, les négocier et les suivre est un investissement qui se rentabilise rapidement.
+
+La clé est de structurer votre approvisionnement : **diversifier vos sources, créer des relations de confiance, négocier avec des données, et surveiller l'évolution des prix automatiquement.**
+
+**FoodTracks vous aide à garder le contrôle sur vos achats fournisseurs** : scan de factures, détection des hausses de prix, calcul automatique du food cost. Tout ce qu'il faut pour optimiser vos marges sans y passer des heures.
+
+[Essayer FoodTracks gratuitement →](/fr/tarifs)
+
+**À lire aussi :** [Comment gérer le stock de son food truck](/fr/blog/comment-gerer-stock-food-truck) · [Comment calculer le prix de vente de ses plats](/fr/blog/calcul-prix-vente-food-truck) · [Réduire le gaspillage alimentaire en food truck](/fr/blog/reduire-gaspillage-alimentaire-food-truck)`,
+      en: `## Why Your Suppliers Determine Your Profitability
+
+In a food truck business, raw ingredients represent **25 to 35% of your revenue**. It's your largest variable cost — and the one you can act on quickly without changing your menu or pricing.
+
+A food trucker who reduces their food cost from 30% to 27% on a monthly turnover of €8,000 **saves €240 in costs per month**, which is nearly €3,000 per year. Almost all of that saving goes straight to net margin.
+
+Choosing your suppliers is therefore strategic. Yet many food truckers source in a rush — corner supermarket, a friend's recommendation, never comparing or negotiating. This guide gives you the tools to structure your supply chain and optimise your costs.
+
+## Types of Suppliers in Mobile Catering
+
+### Traditional Food Wholesalers
+
+Major names like **Metro, Promocash** (Carrefour group) and **Transgourmet** are accessible to all food service professionals on presentation of your business registration number. They offer:
+- Pre-tax professional prices, often 20 to 40% cheaper than retail
+- A very wide range (fresh, dry, frozen, packaging, hygiene)
+- Professional opening hours (from 6am)
+- Loyalty programmes and volume discounts
+
+**Ideal for**: dry goods (flour, oil, spices), packaging, drinks, cleaning products.
+
+**Downside**: pack sizes are often large (6 kg cases, 10 L bag-in-box) — designed for restaurants with storage space, not a food truck. Adjust your orders accordingly.
+
+### Wholesale Markets
+
+In France, **Rungis** (Île-de-France) is the gold standard. Similar markets exist in other regions (MIN Lyon, Rouen, Bordeaux, Nantes). Advantages:
+- **Maximum freshness**: products come directly from producers or importers
+- **Very competitive prices** on fruit, vegetables, meat and fish
+- **Seasonal selection**: you see what looks great and is affordable, then adapt your menu
+
+**Access requirement**: professional card required (SIRET number + registration with the market). Access is early morning only (usually before 9am).
+
+### Cash & Carry and Professional Grocery Stores
+
+Cash & carry is the most flexible format for a food trucker. No professional card needed in all cases, no volume commitment, wide opening hours. Chains like **Metro Express**, local wholesalers or buying cooperatives offer this format.
+
+**Perfect for**: emergency restocking, products specific to your concept (rare spices, ethnic products, specialty sauces).
+
+### Local Producers
+
+Sourcing directly from local producers is both a **marketing argument** (local produce, short supply chains) and sometimes an **economic advantage** on seasonal products.
+
+How to find them:
+- **Local farmers' markets** in your region
+- **Agricultural cooperatives** (Biocoop Pro, dairy cooperatives, etc.)
+- **Platforms like Fermier.fr, La Ruche qui dit Oui Pro or Agrilocal**
+- **Trade shows**: SIRHA (Lyon), SIAL (Paris), regional artisan fairs
+
+**Tip**: offer a local producer a social media partnership — featuring their story and products — in exchange for a preferential rate. Many are very receptive to the visibility.
+
+### B2B Online Platforms
+
+Platforms like **Ankorstore** or **TastePro** let you order artisan food products (sauces, condiments, drinks) directly from independent producers, with accessible minimum orders and home delivery.
+
+**Ideal for**: differentiating products that give your menu an identity (artisan hot sauce, homemade jam, local drink).
+
+## How to Select Your Suppliers: The Method
+
+### Step 1: List All Your Menu Ingredients
+
+Start with an exhaustive inventory of every product you use, sorted by category:
+- **Fresh products** (meat, fish, vegetables, dairy)
+- **Dry goods and groceries** (flour, oil, spices, condiments)
+- **Frozen products**
+- **Packaging and consumables** (boxes, cutlery, napkins, bags)
+- **Drinks**
+
+For each product, note: monthly quantity, current unit price, and current supplier.
+
+### Step 2: Compare Prices on Your Key References
+
+Don't compare everything at once — start with your **10 most expensive products** (those with the biggest weight in your food cost). For these references, get quotes from 3 different suppliers.
+
+Calculate the **price per kilo or per unit** to make a real comparison — different pack sizes can hide a higher actual price.
+
+### Step 3: Evaluate Reliability, Not Just Price
+
+A cheaper but unreliable supplier will cost you more in the long run. Evaluate:
+- **Delivery consistency**: frequent delays? Sudden stockouts?
+- **Consistent quality**: same vegetable sizes, same meat freshness?
+- **Responsiveness**: quick callback when there's an issue? Efficient after-sales service?
+- **Flexibility**: will they accept small orders for urgent needs?
+
+### Step 4: Never Depend on a Single Supplier
+
+For every strategic product (your main ingredients), always have **at least one alternative supplier** identified and tested. If your meat supplier runs out of stock or suddenly raises prices, you must be able to switch within 24 hours.
+
+## Negotiating with Suppliers: What Actually Works
+
+### The 3-Month Rule
+
+Don't try to negotiate from your very first order. Place **3 months of regular orders** first to build a relationship and show you're a serious customer. Only then ask for a sales meeting.
+
+### Come Prepared with Data
+
+Arrive with:
+- Your purchase history over the past 3 months (total amount, frequency)
+- A projection of your needs for the next 6 months
+- Competing offers on your key references (honestly, not bluffing, but showing them)
+
+Offer a **monthly volume commitment** in exchange for a discount: "I'll commit to €1,500 in orders per month — what discount can you offer me?"
+
+### Negotiating Levers
+
+- **Volume**: the more you order, the stronger your position
+- **Regularity**: a predictable customer is worth their weight in gold to a supplier
+- **Fast payment**: offering to pay upfront (or within 15 days) can be worth a 1–2% discount
+- **Cross-referral**: recommending your supplier to other food truckers in your network when they deserve it
+
+### Realistic Targets
+
+In your first months, aim for:
+- **3 to 5% discount** at a wholesaler like Metro or Promocash
+- **5 to 10%** after 6 months of business and regular volume
+- **Free delivery** for home deliveries above a certain threshold
+- **30-day payment terms** to improve your cash flow
+
+## Tracking Supplier Price Changes
+
+### The Problem of Silent Price Increases
+
+Suppliers often apply gradual price increases, sometimes without clearly informing their clients. A 5% rise on your cheese, then 3% on meat, 4% on packaging: cumulatively, your food cost can climb several percentage points without you realising it.
+
+### The Manual Method: The Tracking Spreadsheet
+
+With each invoice, log in a spreadsheet: date, supplier, product, quantity and unit price. Compare each month to the previous one. Effective but time-consuming — expect 30 to 45 minutes per week.
+
+### The Automatic Method with FoodTracks
+
+FoodTracks automatically scans your supplier invoices (photo or PDF) and extracts the key information. The software:
+- **Detects price increases** product by product and alerts you in real time
+- **Calculates your overall food cost** by cross-referencing invoices and SumUp sales
+- **Generates trend charts** to visualise your costs over 3, 6 or 12 months
+
+This lets you react immediately: renegotiate with the supplier, find an alternative, or adjust your selling price before your margins erode. For more on this, read our article on [invoice scanning for food trucks](/en/blog/scanner-factures-food-truck-gagner-temps).
+
+## Building Lasting Relationships with Your Suppliers
+
+### Be a Good Customer
+
+The best negotiating lever is being a customer they want to keep. That means:
+- **Paying on time** (ideally before the due date)
+- **Giving visibility** on your upcoming needs (planning your orders in advance)
+- **Reporting problems** immediately and courteously, without aggression
+- **Recommending** your supplier to other food truckers when they deserve it
+
+### Visit Your Suppliers
+
+If you buy from a local producer or artisan, take time to visit their farm or workshop. Not only do you gain a better understanding of what you're serving, but you build a human relationship that makes negotiations and problem-solving much easier.
+
+### Attend Professional Events
+
+Trade shows like **SIRHA in Lyon** or **SIAL in Paris** are goldmines for:
+- Discovering new products and suppliers
+- Meeting sales reps face to face
+- Negotiating exclusive launch offers
+- Staying informed about food trends
+
+## Practical Order Management
+
+### Setting a Supply Rhythm
+
+For a food truck operating 4 to 5 days a week, an efficient supply rhythm is typically:
+- **1 main order per week** for dry goods and frozen products
+- **2 visits to the market or wholesaler per week** for fresh products
+- **1 monthly order** for packaging and consumables (in bulk volume)
+
+### Creating Template Order Sheets
+
+For each typical service or week, create an order sheet with standard quantities. Then adjust based on your actual schedule. This avoids forgotten items and panic purchases.
+
+By combining your order sheets with FoodTracks' stock tracking, you can generate automatic order suggestions based on your actual consumption and the coming week's schedule. For more on stock optimisation, see our guide on [how to manage your food truck inventory](/en/blog/comment-gerer-stock-food-truck).
+
+## Conclusion
+
+Your suppliers are not just service providers — they are partners who directly influence the quality of what you serve and the financial health of your food truck. Taking the time to choose them well, compare them, negotiate with them and monitor them is an investment that pays off quickly.
+
+The key is to structure your supply chain: **diversify your sources, build trust-based relationships, negotiate with data, and automatically monitor price changes.**
+
+**FoodTracks helps you stay in control of your supplier purchasing**: invoice scanning, price increase detection, automatic food cost calculation. Everything you need to optimise your margins without spending hours on admin.
+
+[Try FoodTracks for free →](/en/pricing)
+
+**Also read:** [How to Manage Food Truck Inventory](/en/blog/comment-gerer-stock-food-truck) · [How to Calculate Your Dish Prices](/en/blog/calcul-prix-vente-food-truck) · [Reducing Food Waste in Your Food Truck](/en/blog/reduire-gaspillage-alimentaire-food-truck)`,
+    },
+    relatedSlugs: [
+      "comment-gerer-stock-food-truck",
+      "calcul-prix-vente-food-truck",
+      "scanner-factures-food-truck-gagner-temps",
+    ],
+  },
 ];
 
 export function getArticleBySlug(slug: string): BlogArticle | undefined {
