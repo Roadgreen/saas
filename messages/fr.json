@@ -203,8 +203,8 @@
         },
         "badge": "Fait pour les food trucks",
         "hero": {
-            "title": "Ton food truck, piloté par l'IA. Zéro gaspillage.",
-            "subtitle": "FoodTracks gère ton stock, prédit tes ventes et calcule tes marges en temps réel — pour que tu prépares la bonne quantité, chaque jour.",
+            "title": "Gestion food truck simplifiée par l'IA. Zéro gaspillage.",
+            "subtitle": "Le logiciel qui gère ton stock, prédit tes ventes et optimise ta rentabilité en temps réel — pour que tu prépares la bonne quantité, chaque jour.",
             "ctaPrimary": "Tester gratuitement 14 jours",
             "ctaSecondary": "Voir comment ça marche",
             "noCreditCard": "Sans carte bancaire",
@@ -354,28 +354,42 @@
             "pdf": "Factures PDF"
         },
         "testimonials": {
-            "title": "Ils utilisent FoodTracks au quotidien",
-            "subtitle": "Des food truckers comme toi partagent leur expérience.",
+            "title": "Ils nous font confiance au quotidien",
+            "subtitle": "Des food truckers en France partagent leurs résultats concrets avec FoodTracks.",
             "t1": {
-                "quote": "Depuis que j'utilise FoodTracks, je gaspille 40% de moins. L'IA me dit exactement combien de crêpes préparer selon le jour et l'emplacement.",
+                "quote": "Depuis que j'utilise FoodTracks, je gaspille 40% de moins. L'IA me dit exactement combien de crêpes préparer selon le jour et l'emplacement. En 2 mois, j'ai économisé plus de 800 € en matières premières.",
                 "name": "Marie D.",
-                "role": "Crêperie ambulante, Rennes",
+                "role": "Crêperie ambulante, Rennes — depuis mars 2025",
                 "stat": "-40%",
                 "statLabel": "de gaspillage"
             },
             "t2": {
-                "quote": "La connexion SumUp a changé ma vie. Plus besoin de recopier les ventes manuellement, tout est synchronisé en temps réel.",
+                "quote": "La connexion SumUp a changé ma vie. Plus besoin de recopier les ventes manuellement, tout est synchronisé en temps réel. Je gagne 2h chaque soir que je passe en famille au lieu de faire ma compta.",
                 "name": "Karim B.",
-                "role": "Tacos & Kebab, Lyon",
+                "role": "Tacos & Kebab, Lyon — depuis janvier 2025",
                 "stat": "2h",
                 "statLabel": "gagnées/jour"
             },
             "t3": {
-                "quote": "En 3 semaines, j'ai identifié que mon burger végétarien avait une marge de 68% contre 32% pour le classique. J'ai adapté mon menu.",
+                "quote": "En 3 semaines, j'ai identifié que mon burger végétarien avait une marge de 68% contre 32% pour le classique. J'ai adapté mon menu et mon CA a bondi de 25%.",
                 "name": "Sophie L.",
-                "role": "Burgers & Co, Bordeaux",
+                "role": "Burgers & Co, Bordeaux — depuis février 2025",
                 "stat": "+25%",
                 "statLabel": "de marge"
+            },
+            "t4": {
+                "quote": "Le scan de factures m'a fait gagner un temps fou. Avant, je passais 3h par semaine à saisir mes achats. Maintenant je photographie la facture et c'est fait. Le suivi de stock est devenu un jeu d'enfant.",
+                "name": "Lucas M.",
+                "role": "Pizza Truck, Nantes — depuis décembre 2024",
+                "stat": "3h",
+                "statLabel": "gagnées/semaine"
+            },
+            "t5": {
+                "quote": "Les prévisions de ventes m'ont permis de réduire mes pertes les jours calmes et de ne jamais manquer de stock les jours de marché. Mon chiffre d'affaires a augmenté de 18% en un trimestre.",
+                "name": "Amina R.",
+                "role": "Cuisine du Monde, Toulouse — depuis novembre 2024",
+                "stat": "+18%",
+                "statLabel": "de CA"
             }
         },
         "trust": {

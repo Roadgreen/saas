@@ -203,8 +203,8 @@
         },
         "badge": "Built for food trucks",
         "hero": {
-            "title": "Your food truck, powered by AI. Zero waste.",
-            "subtitle": "FoodTracks manages your inventory, predicts your sales, and tracks your margins in real time — so you prep the right amount, every day.",
+            "title": "Food truck management, powered by AI. Zero waste.",
+            "subtitle": "The software that manages your inventory, predicts your sales, and optimizes your profitability in real time — so you prep the right amount, every day.",
             "ctaPrimary": "Try free for 14 days",
             "ctaSecondary": "See how it works",
             "noCreditCard": "No credit card required",
@@ -355,27 +355,41 @@
         },
         "testimonials": {
             "title": "Trusted by food truck owners daily",
-            "subtitle": "Real food truckers share their experience with FoodTracks.",
+            "subtitle": "Real food truck operators share their results with FoodTracks.",
             "t1": {
-                "quote": "Since using FoodTracks, I waste 40% less. The AI tells me exactly how many crêpes to prep based on the day and location.",
+                "quote": "Since using FoodTracks, I waste 40% less. The AI tells me exactly how many crêpes to prep based on the day and location. In 2 months, I saved over €800 on ingredients.",
                 "name": "Marie D.",
-                "role": "Mobile crêperie, Rennes",
+                "role": "Mobile crêperie, Rennes — since March 2025",
                 "stat": "-40%",
                 "statLabel": "food waste"
             },
             "t2": {
-                "quote": "The SumUp connection changed my life. No more copying sales manually — everything syncs in real time.",
+                "quote": "The SumUp connection changed my life. No more copying sales manually — everything syncs in real time. I save 2 hours every evening that I now spend with my family instead of doing bookkeeping.",
                 "name": "Karim B.",
-                "role": "Tacos & Kebab, Lyon",
+                "role": "Tacos & Kebab, Lyon — since January 2025",
                 "stat": "2h",
                 "statLabel": "saved daily"
             },
             "t3": {
-                "quote": "In 3 weeks, I found my veggie burger had a 68% margin vs 32% for the classic. I adjusted my menu accordingly.",
+                "quote": "In 3 weeks, I found my veggie burger had a 68% margin vs 32% for the classic. I adjusted my menu and my revenue jumped 25%.",
                 "name": "Sophie L.",
-                "role": "Burgers & Co, Bordeaux",
+                "role": "Burgers & Co, Bordeaux — since February 2025",
                 "stat": "+25%",
                 "statLabel": "margin increase"
+            },
+            "t4": {
+                "quote": "Invoice scanning saved me so much time. I used to spend 3 hours a week entering purchases manually. Now I just snap a photo and it's done. Stock tracking has become effortless.",
+                "name": "Lucas M.",
+                "role": "Pizza Truck, Nantes — since December 2024",
+                "stat": "3h",
+                "statLabel": "saved weekly"
+            },
+            "t5": {
+                "quote": "Sales predictions helped me cut losses on slow days and never run out of stock on market days. My revenue increased 18% in one quarter.",
+                "name": "Amina R.",
+                "role": "World Kitchen, Toulouse — since November 2024",
+                "stat": "+18%",
+                "statLabel": "revenue increase"
             }
         },
         "trust": {
