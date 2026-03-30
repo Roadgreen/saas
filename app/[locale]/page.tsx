@@ -15,10 +15,57 @@ const BASE_URL = 'https://foodtracks.io';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
+  const isFr = locale === 'fr';
+
+  const title = isFr
+    ? 'FoodTracks — Logiciel Gestion Food Truck France | Stock, Ventes & IA'
+    : 'FoodTracks — Food Truck Management Software | Inventory, Sales & AI';
+  const description = isFr
+    ? 'Application food truck gratuite : gestion stock, prévision ventes IA, optimiser rentabilité food truck. Essai 14 jours sans CB.'
+    : 'Free food truck inventory app: stock management, AI sales predictions, margin analytics. 14-day free trial, no credit card.';
+  const keywords = isFr
+    ? [
+        'logiciel gestion food truck france',
+        'application food truck gratuite',
+        'gestion stock food truck',
+        'prévision ventes food truck',
+        'optimiser rentabilité food truck',
+        'logiciel food truck',
+        'caisse enregistreuse food truck',
+        'gestion restaurant ambulant',
+      ]
+    : [
+        'food truck management software',
+        'food truck inventory app',
+        'food truck stock management',
+        'food truck sales predictions',
+        'food truck pos software',
+        'free food truck app',
+        'mobile restaurant management',
+      ];
+
   return {
+    title,
+    description,
+    keywords,
     alternates: {
       canonical: `${BASE_URL}/${locale}`,
       languages: { fr: `${BASE_URL}/fr`, en: `${BASE_URL}/en` },
+    },
+    openGraph: {
+      title,
+      description,
+      url: `${BASE_URL}/${locale}`,
+      siteName: 'FoodTracks',
+      images: [{ url: `${BASE_URL}/og-image.png`, width: 1200, height: 630, alt: isFr ? 'FoodTracks — Logiciel gestion food truck' : 'FoodTracks — Food truck management software' }],
+      locale: isFr ? 'fr_FR' : 'en_US',
+      type: 'website',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: [`${BASE_URL}/og-image.png`],
     },
   };
 }
