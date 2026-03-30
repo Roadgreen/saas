@@ -820,7 +820,7 @@ export default function HomeClient() {
           </AnimatedSection>
 
           <StaggerContainer className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-            {(['t1', 't2', 't3'] as const).map((key) => (
+            {(['t1', 't2', 't3', 't4', 't5'] as const).map((key) => (
               <StaggerItem key={key}>
                 <div className="rounded-2xl p-9 h-full bg-white relative hover-lift" style={{ border: '1px solid #E5E0DB' }}>
                   <Quote className="h-8 w-8 mb-4" style={{ color: 'rgba(249,115,22,0.2)' }} />
