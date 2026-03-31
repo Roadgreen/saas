@@ -15028,6 +15028,417 @@ The key is to structure your supply chain: **diversify your sources, build trust
       "scanner-factures-food-truck-gagner-temps",
     ],
   },
+  {
+    slug: "autorisation-stationnement-food-truck",
+    title: {
+      fr: "Autorisation de stationnement food truck : démarches, coûts et erreurs à éviter",
+      en: "Food Truck Parking Permit: Steps, Costs and Mistakes to Avoid",
+    },
+    excerpt: {
+      fr: "Permis de stationnement, occupation du domaine public, marché ou emplacement privé… Tout ce que vous devez savoir pour stationner légalement votre food truck en France.",
+      en: "Parking permit, public space occupation, market stall or private plot… Everything you need to know to legally park your food truck in France.",
+    },
+    category: { fr: "Réglementation", en: "Regulation" },
+    date: "2026-03-31",
+    readTime: 12,
+    keywords: [
+      "autorisation stationnement food truck",
+      "permis stationnement food truck",
+      "occupation domaine public food truck",
+      "emplacement food truck légal",
+      "AOT food truck",
+      "food truck parking permit france",
+      "droit de place food truck",
+      "stationner food truck ville",
+    ],
+    heroImage: "/blog/food-truck-emplacement.png",
+    keyTakeaways: {
+      fr: [
+        "Stationner un food truck sur la voie publique sans autorisation est une infraction passible d'une amende et de l'enlèvement du véhicule — chaque emplacement nécessite une démarche administrative spécifique.",
+        "Il existe trois grandes catégories d'emplacements : le domaine public communal (mairie), les marchés et foires (gestionnaire de marché), et les emplacements privés (accord du propriétaire).",
+        "Le droit de place pour un emplacement sur le domaine public varie de 5 € à plus de 80 € par jour selon la ville, la surface occupée et le passage piéton.",
+        "FoodTracks permet de suivre vos coûts d'emplacement par service pour calculer précisément la rentabilité de chaque spot et arbitrer entre vos différents emplacements.",
+      ],
+      en: [
+        "Parking a food truck on public roads without authorisation is an offence subject to a fine and vehicle removal — each location requires a specific administrative process.",
+        "There are three main categories of pitches: municipal public space (town hall), markets and fairs (market manager), and private land (landowner agreement).",
+        "The pitch fee for a public domain spot ranges from €5 to over €80 per day depending on the city, space occupied and footfall.",
+        "FoodTracks lets you track your pitch costs per service to precisely calculate the profitability of each spot and choose between your different locations.",
+      ],
+    },
+    faqItems: [
+      {
+        question: {
+          fr: "Faut-il une autorisation pour stationner un food truck ?",
+          en: "Do I need a permit to park a food truck?",
+        },
+        answer: {
+          fr: "Oui, dans la quasi-totalité des cas. Sur le domaine public (voie publique, trottoir, place), vous devez obtenir une Autorisation d'Occupation Temporaire (AOT) ou un droit de place auprès de la mairie ou du gestionnaire de l'espace. Sur un terrain privé, vous avez besoin d'un accord écrit du propriétaire. Seule exception : les événements privés sur propriété privée où l'organisateur a obtenu les autorisations nécessaires.",
+          en: "Yes, in virtually all cases. On public land (road, pavement, square), you must obtain a Temporary Occupation Authorisation (AOT) or pitch fee from the town hall or space manager. On private land, you need written agreement from the landowner. The only exception: private events on private property where the organiser has obtained the necessary permissions.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment obtenir une autorisation de stationnement pour food truck en mairie ?",
+          en: "How do I get a food truck parking permit from the town hall?",
+        },
+        answer: {
+          fr: "Rendez-vous au service voirie ou au service commerce de la mairie de la commune visée. Présentez votre demande écrite avec : le plan de l'emplacement souhaité, les dimensions de votre véhicule, vos jours et horaires d'exploitation, et vos documents professionnels (SIRET, permis d'exploitation, assurance). La mairie dispose d'un délai légal de 2 mois pour répondre — silence vaut refus. Anticipez vos demandes au moins 2 à 3 mois à l'avance.",
+          en: "Go to the roads service or commerce department of the relevant town hall. Submit a written request including: a plan of the desired location, your vehicle dimensions, your operating days and hours, and your professional documents (SIRET, operating licence, insurance). The town hall has a legal deadline of 2 months to respond — silence means refusal. Plan your applications at least 2 to 3 months in advance.",
+        },
+      },
+      {
+        question: {
+          fr: "Combien coûte un droit de place pour un food truck ?",
+          en: "How much does a food truck pitch fee cost?",
+        },
+        answer: {
+          fr: "Le droit de place varie selon la commune, la surface occupée (en m²) et l'achalandage du secteur. À titre indicatif : dans une petite commune, comptez 5 à 15 € par jour. Dans une ville moyenne, 15 à 40 € par jour. Dans une grande ville ou un emplacement premium (centre-ville, quartier touristique), entre 40 et 100 € voire plus par jour. Sur les marchés, le tarif est souvent calculé au mètre linéaire (1,5 à 5 € par mètre selon la ville).",
+          en: "The pitch fee varies by municipality, space occupied (in m²) and local footfall. Indicatively: in a small town, expect €5–€15 per day. In a medium-sized city, €15–€40 per day. In a large city or premium location (city centre, tourist district), €40–€100 or more per day. At markets, the fee is often calculated per linear metre (€1.50–€5 per metre depending on the city).",
+        },
+      },
+      {
+        question: {
+          fr: "Peut-on stationner un food truck sur un parking privé sans autorisation ?",
+          en: "Can I park a food truck in a private car park without permission?",
+        },
+        answer: {
+          fr: "Non. Même sur un terrain privé (parking de supermarché, zone commerciale, parking d'entreprise), vous avez besoin d'un accord écrit du propriétaire ou du gestionnaire. Exercer une activité commerciale sans cet accord constitue une occupation illicite. En pratique, négociez un contrat de sous-location ou un accord commercial avec le propriétaire, souvent contre une redevance fixe ou un pourcentage de votre chiffre d'affaires.",
+          en: "No. Even on private land (supermarket car park, retail zone, company car park), you need written agreement from the owner or manager. Trading without this agreement constitutes unlawful occupation. In practice, negotiate a sublease contract or commercial agreement with the owner, often in exchange for a fixed fee or a percentage of your turnover.",
+        },
+      },
+      {
+        question: {
+          fr: "Quelle est la différence entre une AOT et un droit de place ?",
+          en: "What is the difference between an AOT and a pitch fee?",
+        },
+        answer: {
+          fr: "L'Autorisation d'Occupation Temporaire (AOT) est un titre juridique délivré par la collectivité pour l'occupation d'une parcelle du domaine public sur une durée déterminée (souvent annuelle ou pluriannuelle). Le droit de place est une redevance ponctuelle, journalière ou hebdomadaire, perçue sur les marchés et foires. L'AOT est plus stable et sécurisante ; le droit de place est plus flexible mais sans garantie de reconduction.",
+          en: "The Temporary Occupation Authorisation (AOT) is a legal title issued by the local authority for occupying a plot of public land for a set period (often annual or multi-year). The pitch fee is a one-off, daily or weekly charge collected at markets and fairs. An AOT is more stable and secure; a pitch fee is more flexible but with no guarantee of renewal.",
+        },
+      },
+    ],
+    content: {
+      fr: `## Pourquoi les autorisations de stationnement sont cruciales pour votre food truck
+
+Lancer un food truck, c'est bien plus que cuisiner : c'est aussi naviguer dans un maillage d'obligations administratives qui conditionnent chaque service. **Le stationnement irrégulier est l'une des premières causes de fermeture administrative chez les jeunes food truckers.** Une amende, un enlèvement de véhicule ou un refus d'accès à un emplacement phare peut coûter plusieurs jours de chiffre d'affaires — voire plus.
+
+Ce guide vous donne la cartographie complète des autorisations nécessaires, les démarches à effectuer et les pièges à éviter pour stationner légalement et sereinement.
+
+## Les trois types d'emplacements et leurs règles
+
+### 1. Le domaine public communal
+
+C'est la voie publique, les places, les trottoirs, les esplanades : tout ce qui appartient à la commune. Pour y stationner avec un food truck à fins commerciales, vous avez besoin d'une **Autorisation d'Occupation Temporaire (AOT)** délivrée par la mairie.
+
+L'AOT est un acte unilatéral de la collectivité : elle peut la refuser sans motiver sa décision, la révoquer à tout moment, et elle n'est jamais définitivement acquise. Elle est **précaire et révocable** par nature.
+
+**Ce que vous devez fournir :**
+- Formulaire de demande (disponible en mairie ou sur le portail de la commune)
+- Plan de situation de l'emplacement souhaité
+- Dimensions et photos du véhicule
+- Jours, horaires et période d'exploitation demandés
+- Numéro SIRET et extrait Kbis
+- Permis d'exploitation (formation hygiène alimentaire obligatoire)
+- Attestation d'assurance responsabilité civile professionnelle
+- Contrôle technique du véhicule à jour
+
+**Délai :** 2 mois légaux. En pratique, prévoyez 2 à 3 mois d'anticipation. Certaines grandes villes ont des listes d'attente ou des appels à candidatures annuels.
+
+**Redevance :** calculée par la collectivité selon la surface occupée, l'emplacement et la durée. Demandez le barème tarifaire en mairie avant de déposer votre dossier.
+
+### 2. Les marchés, halles et foires
+
+Les marchés traditionnels (alimentaires, artisanaux) sont gérés soit par la mairie, soit par une association ou un gestionnaire délégué. La procédure diffère de l'AOT classique.
+
+**Comment intégrer un marché :**
+1. Identifiez le gestionnaire du marché (mairie, syndicat de marché, association)
+2. Demandez s'il existe des emplacements disponibles pour les "nouveaux métiers" (les food trucks sont parfois traités à part des stands classiques)
+3. Présentez votre concept et vos documents professionnels
+4. Signez un contrat de droit de place ou une convention
+
+**Le droit de place** est généralement calculé au mètre linéaire ou au mètre carré. Il est payé à chaque présence, parfois avec une cotisation annuelle en supplément.
+
+**Astuce :** certaines communes ont des marchés nocturnes, des marchés de créateurs ou des marchés bio où les food trucks sont particulièrement bienvenus et les emplacements plus accessibles que sur les marchés traditionnels.
+
+### 3. Les emplacements privés
+
+Parking de supermarché, zone commerciale, parking d'entreprise, terrain vague, propriété privée : pour exercer votre activité commerciale sur ces espaces, vous avez besoin d'un **accord écrit du propriétaire ou du gestionnaire**.
+
+**La forme juridique recommandée :**
+- Pour un emplacement régulier : une **convention d'occupation précaire** ou un contrat de **sous-location commerciale** avec le propriétaire
+- Pour un événement ponctuel : un simple bon de commande ou accord par email écrit suffit généralement
+
+**La contrepartie financière :**
+- Redevance fixe journalière ou mensuelle
+- Pourcentage du chiffre d'affaires réalisé sur le site (courant dans les zones commerciales : 5 à 15 %)
+- Combinaison des deux
+
+**Avantages des emplacements privés :**
+- Flexibilité contractuelle : vous négociez directement les conditions
+- Stabilité potentielle si l'accord est long terme
+- Parfois exclusivité pour votre concept sur le site
+
+## Le cas particulier des événements
+
+### Les événements organisés (festivals, marchés de Noël, brocantes)
+
+Ici, c'est l'organisateur de l'événement qui détient l'autorisation d'occupation du domaine public. Votre contrat est avec lui, pas avec la mairie. L'organisateur vous loue un emplacement dans le cadre de son événement.
+
+**Ce que vous devez fournir à l'organisateur :**
+- Attestation d'assurance RC Pro (souvent avec l'événement nommément assuré)
+- Permis d'exploitation
+- SIRET
+- Attestation de conformité du véhicule (parfois)
+- Parfois : une caution ou un acompte
+
+**Le tarif :** très variable selon la notoriété de l'événement, le nombre de jours et l'affluence attendue. Comptez de 150 € pour un petit marché local à plusieurs milliers d'euros pour un grand festival.
+
+### Les événements privés (mariages, séminaires d'entreprise, fêtes de quartier)
+
+Le client (particulier ou entreprise) loue vos services pour un service traiteur mobile. Si l'événement se déroule sur une propriété privée, l'organisateur gère les autorisations. Si c'est dans un espace public, l'organisateur doit obtenir l'AOT — ou vous devez le faire pour son compte.
+
+**Clarifiez toujours par écrit** qui est responsable des autorisations dans le contrat de prestation.
+
+## Les grandes villes : spécificités à connaître
+
+### Paris
+
+La Ville de Paris organise des **appels à candidatures** pour les emplacements fixes sur le domaine public. La liste d'attente peut être longue. Les emplacements "food truck" sont réglementés par arrêté municipal. Renseignez-vous auprès de la Direction de la Voirie et des Déplacements (DVD) et suivez les appels à projets de Paris & Co.
+
+### Lyon
+
+Lyon Métropole a mis en place un dispositif de **rotations d'emplacements** pour éviter la monopolisation. Des emplacements sont attribués à des food trucks pour des périodes déterminées, renouvelables sous conditions.
+
+### Bordeaux, Nantes, Toulouse, Marseille
+
+Ces grandes métropoles ont chacune leur procédure propre. Le point commun : **déposez votre dossier au service voirie ou au service commerce de la mairie centrale**, et non en mairie d'arrondissement.
+
+**Conseil pratique :** rejoignez les associations de food truckers de votre région (AFTC, FoodTruck Nation, associations locales). Elles disposent souvent d'une connaissance fine des procédures locales et peuvent vous accompagner.
+
+## Les erreurs les plus coûteuses à éviter
+
+### Erreur n°1 : s'installer sans autorisation "juste pour voir"
+
+Même pour un seul service, stationner sans autorisation vous expose à :
+- Une amende de police (contravention de 4ème classe, soit 135 € minimum)
+- L'enlèvement du véhicule aux frais du propriétaire
+- Un signalement à la Direction Départementale de la Protection des Populations (DDPP)
+- Une mise en cause de votre assurance en cas d'incident
+
+### Erreur n°2 : confondre accord oral et accord écrit
+
+Un propriétaire de parking qui vous dit "oui" à l'oral ne vous protège pas. Sans document signé, vous n'avez aucun recours si on vous demande de partir le jour J.
+
+### Erreur n°3 : sous-estimer le délai d'instruction
+
+Déposer votre demande une semaine avant l'ouverture prévue ne fonctionnera pas. Les délais légaux sont de 2 mois. Dans les grandes villes, prévoyez 3 à 4 mois.
+
+### Erreur n°4 : ne pas renouveler ses autorisations à temps
+
+Les AOT sont souvent annuelles. Certaines mairies n'envoient pas de rappel. Mettez un rappel dans votre agenda 3 mois avant l'expiration pour anticiper le renouvellement.
+
+### Erreur n°5 : ignorer le règlement de marché
+
+Chaque marché a son règlement intérieur. Il peut interdire certains types de cuisine (pour ne pas concurrencer les commerçants sédentaires), imposer des horaires stricts ou des contraintes d'installation. Lisez-le avant de signer.
+
+## Comment calculer la rentabilité de chaque emplacement
+
+Un emplacement avec un fort passage peut avoir un droit de place élevé qui rogne vos marges. À l'inverse, un emplacement moins coûteux mais avec peu de passage peut être décevant. La seule façon de savoir : **mesurer votre chiffre d'affaires net par emplacement**, après déduction du droit de place et des coûts variables.
+
+La formule de base :
+
+**Rentabilité emplacement = CA réalisé − Coût matières − Droit de place − Coûts variables (carburant, etc.)**
+
+Avec **FoodTracks**, vous pouvez enregistrer chaque service par emplacement, suivre votre CA via l'intégration SumUp, et ajouter le coût du droit de place pour calculer automatiquement la marge nette par spot. Après quelques semaines, vous disposez d'un classement objectif de vos emplacements — un outil de décision précieux pour arbitrer votre planning. Pour aller plus loin, consultez notre guide sur la [rentabilité du food truck](/fr/blog/rentabilite-food-truck-ameliorer) et notre article sur les [meilleurs emplacements food truck](/fr/blog/trouver-meilleurs-emplacements-food-truck).
+
+## Récapitulatif des documents à préparer
+
+Voici la liste des documents généralement demandés pour toute demande d'autorisation :
+
+| Document | Où l'obtenir |
+|----------|-------------|
+| Extrait Kbis ou attestation auto-entrepreneur | Infogreffe / URSSAF |
+| Permis d'exploitation (formation HACCP) | Organisme agréé |
+| Attestation RC Pro | Votre assureur |
+| Contrôle technique du véhicule | Centre de contrôle agréé |
+| Plan de l'emplacement souhaité | Vous-même (photo satellite + croquis) |
+| Photos du véhicule | Vous-même |
+| Attestation de conformité gaz/électricité | Organisme certificateur (Veritas, Apave) |
+
+## Conclusion
+
+La gestion des autorisations de stationnement est l'une des contraintes les moins visibles du métier de food trucker, mais l'une des plus importantes. **Un emplacement légal, bien choisi et rentable est la fondation de toute votre activité.**
+
+Anticipez vos démarches, constituez vos dossiers avec soin et suivez la rentabilité de chaque emplacement pour prendre les meilleures décisions. Avec un outil comme FoodTracks, vous avez une vision claire de ce que rapporte chaque spot après tous les coûts — pour ne garder que ceux qui font vraiment progresser votre food truck.
+
+[Essayer FoodTracks gratuitement →](/fr/tarifs)
+
+**À lire aussi :** [Trouver les meilleurs emplacements pour son food truck](/fr/blog/trouver-meilleurs-emplacements-food-truck) · [Réglementation food truck en France](/fr/blog/reglementation-food-truck-france) · [Améliorer la rentabilité de son food truck](/fr/blog/rentabilite-food-truck-ameliorer)`,
+      en: `## Why Parking Authorisations Are Critical for Your Food Truck
+
+Launching a food truck is about much more than cooking: it also means navigating a web of administrative requirements that govern every service. **Illegal parking is one of the most common reasons for administrative shutdown among new food truckers.** A fine, a towed vehicle or a refused access to a prime location can cost you several days of revenue — or more.
+
+This guide gives you a complete map of the required authorisations, the steps to take and the pitfalls to avoid so you can park legally and with peace of mind.
+
+## The Three Types of Locations and Their Rules
+
+### 1. Municipal Public Space
+
+This is the public road, squares, pavements, esplanades — everything belonging to the municipality. To park a food truck commercially on this land, you need a **Temporary Occupation Authorisation (AOT)** issued by the town hall (mairie).
+
+An AOT is a unilateral act by the local authority: it can refuse without giving reasons, revoke it at any time, and it is never permanently guaranteed. It is **precarious and revocable** by nature.
+
+**What you need to provide:**
+- Application form (available at the town hall or the municipality's online portal)
+- Site plan of the desired location
+- Vehicle dimensions and photographs
+- Requested operating days, hours and period
+- SIRET number and business registration extract (Kbis)
+- Operating licence (mandatory food hygiene training)
+- Professional public liability insurance certificate
+- Up-to-date vehicle technical inspection (CT)
+
+**Timeline:** 2 months by law. In practice, allow 2–3 months in advance. Some major cities have waiting lists or annual tender processes.
+
+**Fee:** calculated by the local authority based on the surface occupied, location and duration. Ask for the fee schedule at the town hall before submitting your application.
+
+### 2. Markets, Covered Halls and Fairs
+
+Traditional markets (food, craft) are managed either by the town hall or by an association or delegated manager. The process differs from the standard AOT.
+
+**How to join a market:**
+1. Identify the market manager (town hall, market syndicate, association)
+2. Ask whether spots are available for "new trades" (food trucks are sometimes handled separately from traditional stalls)
+3. Present your concept and professional documents
+4. Sign a pitch fee contract or agreement
+
+**The pitch fee** is usually calculated per linear metre or per square metre. It is paid at each attendance, sometimes with an additional annual subscription.
+
+**Tip:** some municipalities run night markets, designer markets or organic markets where food trucks are particularly welcome and spots are more accessible than at traditional markets.
+
+### 3. Private Locations
+
+Supermarket car parks, retail zones, company car parks, private land: to trade commercially on these spaces, you need **written agreement from the owner or manager**.
+
+**Recommended legal form:**
+- For regular spots: a **precarious occupancy agreement** or **commercial sublease contract** with the owner
+- For a one-off event: a simple purchase order or written email agreement is generally sufficient
+
+**Financial consideration:**
+- Fixed daily or monthly fee
+- Percentage of turnover generated on site (common in retail zones: 5–15%)
+- A combination of both
+
+**Advantages of private locations:**
+- Contractual flexibility: you negotiate terms directly
+- Potential stability if the agreement is long-term
+- Sometimes exclusivity for your concept on the site
+
+## The Special Case of Events
+
+### Organised Events (Festivals, Christmas Markets, Antique Fairs)
+
+Here, the event organiser holds the public space occupation authorisation. Your contract is with them, not the town hall. The organiser rents you a pitch within their event.
+
+**What you need to provide to the organiser:**
+- Professional liability insurance certificate (often with the event specifically named)
+- Operating licence
+- SIRET number
+- Vehicle compliance certificate (sometimes)
+- Sometimes: a deposit or advance payment
+
+**The fee:** highly variable depending on the event's reputation, number of days and expected footfall. Expect from €150 for a small local market to several thousand euros for a major festival.
+
+### Private Events (Weddings, Corporate Seminars, Neighbourhood Parties)
+
+The client (individual or company) hires your services for mobile catering. If the event takes place on private property, the organiser handles the permits. If it is in a public space, the organiser must obtain the AOT — or you must do so on their behalf.
+
+**Always clarify in writing** who is responsible for authorisations in your service contract.
+
+## Major Cities: Key Specifics to Know
+
+### Paris
+
+The City of Paris organises **calls for applications** for fixed spots on public land. Waiting lists can be long. "Food truck" locations are regulated by municipal decree. Enquire with the Directorate of Roads and Transportation (DVD) and follow the calls for projects from Paris & Co.
+
+### Lyon
+
+Lyon Métropole has implemented a **location rotation system** to prevent monopolisation. Spots are allocated to food trucks for defined periods, renewable under certain conditions.
+
+### Bordeaux, Nantes, Toulouse, Marseille
+
+Each of these major cities has its own procedure. The common thread: **submit your application to the roads service or commerce department of the central town hall**, not a district town hall.
+
+**Practical advice:** join food truck associations in your region (AFTC, FoodTruck Nation, local associations). They often have in-depth knowledge of local procedures and can guide you through the process.
+
+## The Most Costly Mistakes to Avoid
+
+### Mistake 1: Setting Up Without Authorisation "Just to Try"
+
+Even for a single service, parking without authorisation exposes you to:
+- A police fine (4th-class contravention, minimum €135)
+- Vehicle removal at the owner's expense
+- A report to the Departmental Directorate for Population Protection (DDPP)
+- Potential insurance issues in case of an incident
+
+### Mistake 2: Confusing Verbal and Written Agreement
+
+A car park owner who says "yes" verbally does not protect you. Without a signed document, you have no recourse if they ask you to leave on the day.
+
+### Mistake 3: Underestimating the Processing Time
+
+Submitting your application one week before your planned opening date will not work. The legal deadline is 2 months. In major cities, allow 3–4 months.
+
+### Mistake 4: Not Renewing Permits on Time
+
+AOTs are often annual. Some town halls do not send reminders. Set a calendar reminder 3 months before expiry to start the renewal process in time.
+
+### Mistake 5: Ignoring the Market Rules
+
+Every market has its internal regulations. These may prohibit certain types of cuisine (to avoid competing with permanent traders), impose strict hours or specific installation requirements. Read them before signing.
+
+## How to Calculate the Profitability of Each Location
+
+A high-footfall location may have a high pitch fee that eats into your margins. Conversely, a cheaper but low-footfall location may be disappointing. The only way to know: **measure your net revenue per location**, after deducting the pitch fee and variable costs.
+
+The basic formula:
+
+**Location profitability = Revenue − Ingredient costs − Pitch fee − Variable costs (fuel, etc.)**
+
+With **FoodTracks**, you can log each service by location, track your revenue through the SumUp integration, and add the pitch fee cost to automatically calculate the net margin per spot. After a few weeks, you have an objective ranking of your locations — a valuable decision-making tool for scheduling your calendar. For more, see our guide on [food truck profitability](/en/blog/rentabilite-food-truck-ameliorer) and our article on [finding the best food truck locations](/en/blog/trouver-meilleurs-emplacements-food-truck).
+
+## Summary of Documents to Prepare
+
+Here is the list of documents generally required for any authorisation application:
+
+| Document | Where to get it |
+|----------|----------------|
+| Business registration extract (Kbis) or self-employed certificate | Infogreffe / URSSAF |
+| Operating licence (HACCP training) | Approved training organisation |
+| Professional liability insurance certificate | Your insurer |
+| Vehicle technical inspection (CT) | Approved inspection centre |
+| Site plan of the desired location | Yourself (satellite photo + sketch) |
+| Vehicle photographs | Yourself |
+| Gas/electrical compliance certificate | Certification body (Veritas, Apave) |
+
+## Conclusion
+
+Managing parking authorisations is one of the least visible — but most important — constraints of the food truck trade. **A legal, well-chosen and profitable location is the foundation of your entire business.**
+
+Plan your applications well in advance, build your files carefully, and track the profitability of each location to make the best decisions. With a tool like FoodTracks, you have a clear picture of what each spot earns after all costs — so you only keep the ones that truly move your food truck forward.
+
+[Try FoodTracks for free →](/en/pricing)
+
+**Also read:** [Finding the Best Food Truck Locations](/en/blog/trouver-meilleurs-emplacements-food-truck) · [Food Truck Regulations in France](/en/blog/reglementation-food-truck-france) · [Improving Food Truck Profitability](/en/blog/rentabilite-food-truck-ameliorer)`,
+    },
+    relatedSlugs: [
+      "trouver-meilleurs-emplacements-food-truck",
+      "reglementation-food-truck-france",
+      "rentabilite-food-truck-ameliorer",
+      "choisir-bon-emplacement-food-truck",
+    ],
+  },
 ];
 
 export function getArticleBySlug(slug: string): BlogArticle | undefined {
