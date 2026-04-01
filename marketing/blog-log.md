@@ -11,3 +11,4 @@
 | 2026-03-30 | formation-food-truck-obligatoire | Formation food truck obligatoire : diplômes, permis et certifications pour ouvrir légalement en 2026 | publie |
 | 2026-03-30 | fournisseurs-food-truck-guide | Trouver les bons fournisseurs pour son food truck : le guide complet | publie |
 | 2026-03-31 | autorisation-stationnement-food-truck | Autorisation de stationnement food truck : démarches, coûts et erreurs à éviter | publie |
+| 2026-04-01 | fidelisation-clients-food-truck-email-sms | Fidéliser ses clients food truck par email et SMS : le guide pratique 2026 | publie |
