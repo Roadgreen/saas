@@ -15770,6 +15770,448 @@ Loyalty and operational management reinforce each other. For more depth, read ou
       "rentabilite-food-truck-ameliorer",
     ],
   },
+  {
+    slug: "tresorerie-food-truck-guide",
+    title: {
+      fr: "Gestion de trésorerie food truck : le guide complet pour ne jamais être à court de cash",
+      en: "Food Truck Cash Flow Management: The Complete Guide to Never Running Dry",
+    },
+    excerpt: {
+      fr: "Découvrez comment piloter votre trésorerie food truck mois par mois : plan de trésorerie, gestion des charges fixes, anticipation des creux saisonniers et outils concrets pour rester dans le vert.",
+      en: "Learn how to manage your food truck cash flow month by month: cash flow plan, fixed costs, seasonal slumps, and concrete tools to stay in the black.",
+    },
+    category: { fr: "Gestion", en: "Management" },
+    date: "2026-04-03",
+    readTime: 11,
+    keywords: [
+      "gestion trésorerie food truck",
+      "trésorerie food truck",
+      "plan de trésorerie food truck",
+      "cash flow food truck",
+      "gérer finances food truck",
+      "fonds de roulement food truck",
+      "anticiper charges food truck",
+      "food truck cash flow management",
+      "food truck treasury management",
+    ],
+    heroImage: "/blog/comptabilite-food-truck.png",
+    keyTakeaways: {
+      fr: [
+        "Un food truck rentable peut couler faute de trésorerie : chiffre d'affaires et cash disponible sont deux choses différentes.",
+        "Constituez un matelas de sécurité de 3 mois de charges fixes avant de lancer votre activité.",
+        "Un plan de trésorerie mensuel — même simple sur tableur — vous permet d'anticiper les creux et d'éviter les mauvaises surprises.",
+        "Les charges fixes représentent souvent 40 à 60 % du chiffre d'affaires : les identifier précisément est la première étape.",
+        "FoodTracks permet de croiser ventes réelles et charges pour calculer votre seuil de rentabilité service par service.",
+      ],
+      en: [
+        "A profitable food truck can still fail from cash flow problems: revenue and available cash are two different things.",
+        "Build a safety cushion of 3 months of fixed costs before launching your business.",
+        "A monthly cash flow plan — even a simple spreadsheet — lets you anticipate slumps and avoid nasty surprises.",
+        "Fixed costs often represent 40 to 60% of revenue: identifying them precisely is the first step.",
+        "FoodTracks lets you cross-reference real sales and costs to calculate your break-even point service by service.",
+      ],
+    },
+    faqItems: [
+      {
+        question: {
+          fr: "Quelle est la différence entre rentabilité et trésorerie pour un food truck ?",
+          en: "What is the difference between profitability and cash flow for a food truck?",
+        },
+        answer: {
+          fr: "Un food truck peut être rentable sur le papier mais en difficulté de trésorerie. La rentabilité mesure si vos revenus dépassent vos charges sur une période. La trésorerie mesure si vous avez l'argent disponible au moment où vous devez payer. Par exemple, vous faites un excellent mois en août (rentable), mais en septembre vos charges tombent (assurance annuelle, CT du camion, stock pour la rentrée) et votre compte est vide. C'est une crise de trésorerie malgré une activité saine. C'est pourquoi un plan de trésorerie prévisionnel est indispensable même quand l'activité se passe bien.",
+          en: "A food truck can be profitable on paper but in cash flow trouble. Profitability measures whether your revenue exceeds your costs over a period. Cash flow measures whether you have money available when you need to pay. For example, you have an excellent August (profitable), but in September your bills arrive (annual insurance, vehicle inspection, back-to-school stock) and your account is empty. That is a cash flow crisis despite a healthy business. This is why a cash flow forecast is essential even when things are going well.",
+        },
+      },
+      {
+        question: {
+          fr: "De combien de trésorerie de départ ai-je besoin pour ouvrir un food truck ?",
+          en: "How much starting cash do I need to open a food truck?",
+        },
+        answer: {
+          fr: "Au-delà du coût du véhicule et de l'aménagement, prévoyez un fonds de roulement couvrant au minimum 3 mois de charges fixes : loyer du local professionnel (si applicable), assurances, remboursement de crédit, carburant, abonnements. En pratique, pour un food truck avec 2 500 à 3 500 EUR de charges fixes mensuelles, comptez 7 500 à 10 500 EUR de trésorerie de sécurité. Ce matelas vous permet d'absorber les semaines sans service (météo, maladie, panne) et les mois de démarrage où la clientèle se construit.",
+          en: "Beyond the cost of the vehicle and fit-out, plan for working capital covering at least 3 months of fixed costs: workshop or kitchen rental (if applicable), insurance, loan repayments, fuel, subscriptions. In practice, for a food truck with €2,500 to €3,500 in monthly fixed costs, budget €7,500 to €10,500 as a safety cushion. This buffer lets you absorb weeks without service (weather, illness, breakdown) and the early months while your customer base builds.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment gérer les mois creux en food truck ?",
+          en: "How do I manage slow months in a food truck?",
+        },
+        answer: {
+          fr: "La clé est d'anticiper. Identifiez vos mois creux historiques (souvent janvier-février et août selon votre zone) et ajustez vos dépenses variables à l'avance : réduisez les commandes de stock, limitez les extras, mettez en pause les abonnements non essentiels. Sur le plan revenus, les mois creux sont le bon moment pour prospecter des événements privés, des marchés couverts ou des emplacements différents. Certains food truckers négocient aussi des partenariats avec des entreprises locales pour des livraisons de déjeuner en hiver, ce qui lisse le chiffre d'affaires.",
+          en: "The key is anticipation. Identify your historically slow months (often January-February and August depending on your area) and adjust variable spending in advance: reduce stock orders, limit extras, pause non-essential subscriptions. On the revenue side, slow months are the right time to prospect for private events, covered markets or different locations. Some food truckers also negotiate partnerships with local businesses for lunch deliveries in winter, which smooths out revenue.",
+        },
+      },
+      {
+        question: {
+          fr: "Quel outil simple utiliser pour suivre la trésorerie d'un food truck ?",
+          en: "What simple tool should I use to track a food truck's cash flow?",
+        },
+        answer: {
+          fr: "Pour commencer, une feuille de calcul Google Sheets ou Excel suffit : une colonne entrées, une colonne sorties, un solde courant. L'essentiel est de le mettre à jour chaque semaine. Pour aller plus loin, des outils comme Pennylane, Finom ou Shine proposent des tableaux de bord automatisés reliés à votre compte bancaire. FoodTracks complète cette vision en apportant les données côté ventes (chiffre d'affaires réel par service, food cost) que vous pouvez ensuite intégrer dans votre suivi de trésorerie.",
+          en: "To start, a Google Sheets or Excel spreadsheet is enough: one column for income, one for outgoings, a running balance. The key is to update it every week. To go further, tools like Pennylane, Finom or Shine offer automated dashboards linked to your bank account. FoodTracks complements this view by providing the sales data (actual revenue per service, food cost) that you can then integrate into your cash flow tracking.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment calculer le seuil de rentabilité mensuel de mon food truck ?",
+          en: "How do I calculate the monthly break-even point of my food truck?",
+        },
+        answer: {
+          fr: "Seuil de rentabilité = charges fixes mensuelles ÷ taux de marge sur coûts variables. Exemple : 3 000 EUR de charges fixes, 65 % de marge brute (food cost de 35 %) → seuil = 3 000 ÷ 0,65 = 4 615 EUR de chiffre d'affaires mensuel à atteindre avant de générer un euro de bénéfice. En dessous de ce seuil, vous perdez de l'argent même si votre activité semble tourner. Ce calcul doit être refait à chaque changement important (nouveau crédit, augmentation du carburant, changement de loyer).",
+          en: "Break-even = monthly fixed costs ÷ variable cost margin rate. Example: €3,000 in fixed costs, 65% gross margin (35% food cost) → break-even = €3,000 ÷ 0.65 = €4,615 monthly revenue needed before generating a single euro of profit. Below this threshold you are losing money even if the business seems to be running. This calculation must be redone with every significant change (new loan, fuel increase, rent change).",
+        },
+      },
+    ],
+    content: {
+      fr: `## Pourquoi la trésorerie tue plus de food trucks que le manque de clients
+
+On parle beaucoup de rentabilité dans les guides food truck. On parle peu de trésorerie. Pourtant, **la première cause d'échec des petites entreprises de restauration n'est pas un manque de clients, c'est un problème de cash** : des charges qui tombent avant que les recettes rentrent, un mois creux mal anticipé, un investissement imprévu qui vide le compte.
+
+Un food truck peut être rentable sur 12 mois et se retrouver en difficulté en janvier. C'est pour ça que piloter sa trésorerie est une compétence aussi importante que savoir cuisiner.
+
+## Comprendre vos flux de trésorerie
+
+La trésorerie, c'est la photographie de votre compte bancaire professionnel à un instant T. Elle résulte de deux flux :
+
+- **Entrées** : chiffre d'affaires encaissé (paiements CB, espèces, virements événements)
+- **Sorties** : toutes vos dépenses (charges fixes + variables + investissements ponctuels)
+
+### Les entrées d'un food truck
+
+Vos recettes sont généralement immédiates : les clients paient à la commande. C'est un avantage par rapport à d'autres secteurs où les factures sont payées à 30 ou 60 jours. **Mais attention** : si vous faites des événements privés ou des partenariats entreprises, les virements peuvent mettre 15 à 30 jours à arriver. Anticipez ce décalage.
+
+### Les sorties d'un food truck
+
+Deux catégories à bien distinguer :
+
+**Charges fixes** (identiques chaque mois, que vous travailliez ou non) :
+- Remboursement du crédit camion / leasing
+- Assurance professionnelle et véhicule
+- Loyer du local ou atelier de production (si applicable)
+- Abonnements logiciels (caisse, gestion, comptabilité)
+- Forfait téléphone professionnel
+- Comptable / expert-comptable
+
+**Charges variables** (proportionnelles à votre activité) :
+- Matières premières (food cost : 28 à 38 % du CA en moyenne)
+- Carburant et péages
+- Emballages et consommables
+- Droits de place et frais d'événements
+- Personnel occasionnel
+
+## Construire votre plan de trésorerie mensuel
+
+Le plan de trésorerie est un tableau prévisionnel mois par mois sur 12 mois. Il est simple à construire et indispensable.
+
+### Structure de base du tableau
+
+| Ligne | Janvier | Février | ... | Décembre |
+|-------|---------|---------|-----|----------|
+| CA prévu | | | | |
+| Charges fixes | | | | |
+| Charges variables | | | | |
+| Solde du mois | | | | |
+| **Solde cumulé** | | | | |
+
+La ligne **solde cumulé** est la plus importante : elle vous montre si à un moment de l'année votre compte peut passer en négatif, même si votre activité est globalement rentable.
+
+### Comment estimer votre chiffre d'affaires par mois
+
+Pour un food truck déjà en activité, basez-vous sur vos données réelles des 12 derniers mois. Identifiez vos meilleurs mois (juin-août, fêtes de fin d'année) et vos mois creux (janvier-février, août si vous êtes en zone urbaine).
+
+Pour un food truck en création, raisonnez par service :
+- Nombre de services prévus par semaine : 4 à 5 en moyenne
+- CA moyen par service : 300 à 800 € selon l'emplacement et le format
+- Exemple : 4 services × 500 € × 4 semaines = 8 000 € / mois
+
+Appliquez ensuite des coefficients saisonniers réalistes : janvier à 60-70 % de la moyenne, juin à 120-130 %.
+
+## Identifier et réduire vos charges fixes
+
+Les charges fixes sont votre ennemi en mois creux. Elles tombent même quand vous ne travaillez pas.
+
+### Audit de vos charges fixes
+
+Listez tout. Vraiment tout. Les food truckers oublient souvent :
+- La part annuelle de l'assurance (divisez par 12)
+- Le contrôle technique du camion (à provisionner mensuellement)
+- Les frais de comptabilité en fin d'année
+- Les abonnements qu'on ne résilie pas (logiciels, musicaux, etc.)
+
+**Objectif :** connaître votre "plancher mensuel" — le montant minimum à encaisser pour couvrir vos charges fixes. En dessous, vous consommez votre trésorerie.
+
+### Calcul de votre seuil de rentabilité
+
+Si vos charges fixes sont de 3 000 € par mois et votre food cost est de 35 % (marge brute : 65 %), votre seuil de rentabilité est :
+
+**3 000 € ÷ 0,65 = 4 615 € de CA mensuel**
+
+En dessous de ce seuil, chaque euro de CA encaissé ne couvre pas encore vos charges. Ce chiffre doit être votre boussole.
+
+## Gérer les mois creux sans paniquer
+
+Les mois creux sont prévisibles. La panique, elle, ne sert à rien.
+
+### Anticiper 3 mois à l'avance
+
+Regardez votre plan de trésorerie en novembre pour anticiper janvier-février. Si vous voyez que votre solde cumulé va passer sous zéro en février, agissez en décembre :
+- Réduisez vos commandes de stock (diminuez le volume, pas la qualité)
+- Mettez en pause les abonnements non essentiels
+- Négociez un délai avec votre expert-comptable si la facture annuelle tombe en janvier
+- Réservez vos dates sur des marchés couverts ou des événements d'entreprise pour janvier-février
+
+### Le matelas de sécurité : votre meilleure assurance
+
+**Règle d'or : 3 mois de charges fixes en réserve.** Si vos charges fixes sont de 3 000 € / mois, gardez 9 000 € sur un compte pro séparé (Livret A, compte épargne pro) que vous ne touchez pas sauf urgence réelle.
+
+Ce matelas absorbe :
+- Une panne sérieuse du camion (moteur, groupe froid) : 2 000 à 8 000 €
+- Un arrêt maladie de 3 semaines sans revenu
+- Un mois de météo catastrophique qui annule la moitié de vos services
+
+### Diversifier ses sources de revenus pour lisser la trésorerie
+
+Les food truckers qui résistent le mieux aux creux ont souvent plusieurs types de revenus :
+- **Services fixes** (marchés, emplacements récurrents) : base stable et prévisible
+- **Événements privés** (mariages, séminaires) : ticket élevé mais ponctuels
+- **Partenariats entreprises** (livraison de repas le midi) : revenus fixes en semaine
+- **Livraison à domicile** (Uber Eats, Deliveroo) : complément variable mais accessible
+
+Chaque flux compense les aléas des autres.
+
+## Les erreurs de trésorerie les plus fréquentes
+
+### Confondre CA et bénéfice
+
+"J'ai fait 10 000 € ce mois, je peux investir." Faux. Le CA brut ne tient pas compte du food cost (35 %), des charges fixes (3 000 €), de la TVA à reverser, des cotisations sociales. Votre cash disponible réel peut être proche de zéro même avec un bon mois.
+
+### Oublier la TVA
+
+En micro-entrepreneur, vous ne collectez pas de TVA (sous le seuil). Mais en société ou en régime réel, vous collectez 10 % de TVA sur les ventes et devez la reverser à l'État tous les mois ou trimestres. **Cette TVA n'est pas à vous.** Provisionnez-la sur un compte séparé dès l'encaissement.
+
+### Ne pas se payer un salaire fixe
+
+Beaucoup de food truckers se paient "ce qui reste". Résultat : les mois fastes, ils dépensent trop. Les mois creux, ils piochent dans la trésorerie professionnelle. Définissez un salaire fixe mensuel (même modeste au départ) et respectez-le.
+
+### Investir en haute saison
+
+La tentation est forte d'acheter le nouveau matériel en juillet quand la trésorerie est pleine. Mais si cet investissement vide votre matelas de sécurité, vous entrez en septembre vulnérable. Préférez financer les gros investissements en dehors des pics de dépenses.
+
+## Outils pour piloter votre trésorerie au quotidien
+
+### Le minimum : un tableur hebdomadaire
+
+Google Sheets ou Excel, mis à jour chaque vendredi. Deux colonnes : entrées de la semaine, sorties de la semaine. Solde cumulé. Ça prend 10 minutes. C'est indispensable.
+
+### Les néobanques pro avec suivi automatisé
+
+**Shine**, **Finom** ou **Qonto** proposent des tableaux de bord qui catégorisent automatiquement vos dépenses et vous donnent une vue en temps réel. Certaines s'intègrent avec votre logiciel de comptabilité (Pennylane, Indy).
+
+### FoodTracks pour la dimension ventes
+
+FoodTracks vous permet de suivre votre chiffre d'affaires réel par service, par emplacement, et de calculer votre food cost automatiquement via le scan de factures et l'intégration SumUp. Ces données alimentent votre plan de trésorerie côté "entrées" et vous donnent le food cost réel — indispensable pour calculer votre marge brute réelle.
+
+Concrètement, avec FoodTracks vous pouvez voir en un coup d'œil :
+- Votre CA de la semaine vs l'objectif
+- Votre food cost par rapport à votre budget
+- Les emplacements les plus rentables (pour optimiser votre planning et lisser votre CA)
+
+Cette vision opérationnelle complète votre suivi de trésorerie.
+
+## Plan d'action : 5 étapes pour reprendre le contrôle
+
+1. **Cette semaine** : listez toutes vos charges fixes et calculez votre plancher mensuel
+2. **Cette semaine** : calculez votre seuil de rentabilité (charges fixes ÷ marge brute)
+3. **Ce mois** : construisez un plan de trésorerie sur 12 mois (même imparfait)
+4. **Ce mois** : ouvrez un compte pro secondaire pour votre matelas de sécurité (objectif : 3 mois de charges)
+5. **En continu** : mettez à jour votre suivi chaque semaine, sans exception
+
+La trésorerie ne se pilote pas en mode pompier. Elle se pilote en mode prévention. Commencez maintenant, même avec des chiffres approximatifs — un plan imparfait vaut mieux que pas de plan du tout.
+
+Pour aller plus loin, consultez notre guide sur la [rentabilité food truck](/fr/blog/rentabilite-food-truck-ameliorer) et notre article sur la [comptabilité food truck](/fr/blog/comptabilite-food-truck-guide).
+
+[Essayez FoodTracks gratuitement →](/fr/pricing)
+
+**À lire aussi :** [Rentabilité food truck](/fr/blog/rentabilite-food-truck-ameliorer) · [Comptabilité food truck](/fr/blog/comptabilite-food-truck-guide) · [Financer son food truck](/fr/blog/financer-food-truck-aides-subventions)`,
+      en: `## Why Cash Flow Kills More Food Trucks Than a Lack of Customers
+
+There is a lot written about profitability in food truck guides. Very little about cash flow. Yet **the leading cause of failure in small food businesses is not a lack of customers — it is a cash problem**: bills due before receipts come in, a slow month that was not anticipated, an unexpected repair that empties the account.
+
+A food truck can be profitable over 12 months and still hit trouble in January. That is why managing cash flow is as important a skill as cooking.
+
+## Understanding Your Cash Flows
+
+Cash flow is a snapshot of your business bank account at a given moment. It results from two streams:
+
+- **Inflows**: revenue received (card payments, cash, event bank transfers)
+- **Outflows**: all your spending (fixed costs + variable costs + one-off investments)
+
+### Inflows for a Food Truck
+
+Your revenue is generally immediate: customers pay at the point of order. This is an advantage over sectors where invoices are paid at 30 or 60 days. **But watch out**: if you do private events or corporate partnerships, bank transfers can take 15 to 30 days to arrive. Anticipate this lag.
+
+### Outflows for a Food Truck
+
+Two categories to distinguish carefully:
+
+**Fixed costs** (the same every month, whether you work or not):
+- Truck loan repayment or lease
+- Professional and vehicle insurance
+- Workshop or production kitchen rent (if applicable)
+- Software subscriptions (POS, management, accounting)
+- Business phone plan
+- Accountant or bookkeeper
+
+**Variable costs** (proportional to your activity):
+- Raw materials (food cost: 28 to 38% of revenue on average)
+- Fuel and tolls
+- Packaging and consumables
+- Pitch fees and event costs
+- Occasional staff
+
+## Building Your Monthly Cash Flow Plan
+
+A cash flow plan is a 12-month forward-looking table. It is simple to build and essential to have.
+
+### Basic Table Structure
+
+| Row | January | February | ... | December |
+|-----|---------|----------|-----|----------|
+| Projected revenue | | | | |
+| Fixed costs | | | | |
+| Variable costs | | | | |
+| Monthly balance | | | | |
+| **Cumulative balance** | | | | |
+
+The **cumulative balance** row is the most important: it shows whether at any point in the year your account could go negative, even if your business is broadly profitable.
+
+### How to Estimate Revenue by Month
+
+For an existing food truck, base it on your real data from the last 12 months. Identify your best months (June–August, year-end holidays) and your slow months (January–February, August if you are in an urban area).
+
+For a food truck just starting out, reason by service:
+- Number of services per week: 4 to 5 on average
+- Average revenue per service: €300 to €800 depending on location and format
+- Example: 4 services × €500 × 4 weeks = €8,000 per month
+
+Then apply realistic seasonal factors: January at 60–70% of average, June at 120–130%.
+
+## Identifying and Reducing Your Fixed Costs
+
+Fixed costs are your enemy in slow months. They fall due even when you are not working.
+
+### Fixed Cost Audit
+
+List everything. Really everything. Food truckers often forget:
+- The annual portion of insurance (divide by 12)
+- Vehicle inspection (provision monthly)
+- Year-end accounting fees
+- Subscriptions you never cancel (software, streaming, etc.)
+
+**Goal**: know your "monthly floor" — the minimum amount you need to take in to cover your fixed costs. Below this, you are burning through your cash.
+
+### Calculating Your Break-Even Point
+
+If your fixed costs are €3,000 per month and your food cost is 35% (gross margin: 65%), your break-even point is:
+
+**€3,000 ÷ 0.65 = €4,615 monthly revenue**
+
+Below this threshold, every euro of revenue taken in still does not cover your costs. This number is your compass.
+
+## Managing Slow Months Without Panicking
+
+Slow months are predictable. Panic is not useful.
+
+### Anticipate 3 Months Ahead
+
+Check your cash flow plan in November to prepare for January–February. If you see that your cumulative balance will go negative in February, act in December:
+- Reduce stock orders (reduce volume, not quality)
+- Pause non-essential subscriptions
+- Negotiate a delay with your accountant if their annual invoice falls in January
+- Lock in dates at covered markets or corporate events for January–February
+
+### The Safety Cushion: Your Best Insurance
+
+**Golden rule: 3 months of fixed costs in reserve.** If your fixed costs are €3,000 per month, keep €9,000 in a separate business account (savings account, business reserve) that you do not touch except in a real emergency.
+
+This buffer absorbs:
+- A serious truck breakdown (engine, cold unit): €2,000 to €8,000
+- Three weeks of sick leave with no revenue
+- A month of catastrophic weather that cancels half your services
+
+### Diversifying Revenue to Smooth Cash Flow
+
+Food truckers who hold up best through slow periods tend to have multiple revenue streams:
+- **Fixed spots** (regular markets, recurring locations): stable, predictable base
+- **Private events** (weddings, corporate seminars): high ticket but one-off
+- **Corporate partnerships** (midday lunch deliveries): fixed weekly income
+- **Delivery platforms** (Uber Eats, Deliveroo): variable supplement but accessible
+
+Each stream offsets the ups and downs of the others.
+
+## The Most Common Cash Flow Mistakes
+
+### Confusing Revenue with Profit
+
+"I took in €10,000 this month, I can invest." Wrong. Gross revenue does not account for food cost (35%), fixed costs (€3,000), VAT to be remitted, social charges. Your actual available cash may be close to zero even after a good month.
+
+### Forgetting VAT
+
+As a micro-entrepreneur you do not collect VAT (below the threshold). But as a company or on the standard tax regime, you collect 10% VAT on sales and must remit it to the government every month or quarter. **That VAT is not yours.** Set it aside in a separate account as soon as you receive payment.
+
+### Not Paying Yourself a Fixed Salary
+
+Many food truckers pay themselves "whatever is left." In good months they overspend; in slow months they dip into business cash reserves. Set a fixed monthly salary (even modest at first) and stick to it.
+
+### Investing During Peak Season
+
+When July rolls around and cash is flowing, it is tempting to buy that new piece of kit. But if that investment wipes out your safety cushion, you enter September exposed. Prefer to finance major investments outside spending peaks.
+
+## Tools to Manage Your Cash Flow Day to Day
+
+### The Minimum: A Weekly Spreadsheet
+
+Google Sheets or Excel, updated every Friday. Two columns: income for the week, spending for the week. Running balance. It takes 10 minutes. It is non-negotiable.
+
+### Business Neobanks with Automated Tracking
+
+**Shine**, **Finom** or **Qonto** offer dashboards that automatically categorise your spending and give you a real-time view. Some integrate with your accounting software (Pennylane, Indy).
+
+### FoodTracks for the Sales Dimension
+
+FoodTracks lets you track your actual revenue by service, by location, and calculate your food cost automatically via invoice scanning and the SumUp integration. This data feeds the "inflows" side of your cash flow plan and gives you your real gross margin — essential for an accurate break-even calculation.
+
+In concrete terms, FoodTracks lets you see at a glance:
+- Your revenue for the week versus your target
+- Your food cost against your budget
+- Your most profitable locations (to optimise your schedule and smooth your revenue)
+
+This operational view completes your cash flow tracking.
+
+## Action Plan: 5 Steps to Get Back in Control
+
+1. **This week**: list all your fixed costs and calculate your monthly floor
+2. **This week**: calculate your break-even point (fixed costs ÷ gross margin)
+3. **This month**: build a 12-month cash flow plan (even if imperfect)
+4. **This month**: open a secondary business account for your safety cushion (target: 3 months of fixed costs)
+5. **Ongoing**: update your tracking every week, without exception
+
+Cash flow is not managed in firefighting mode. It is managed through prevention. Start now, even with approximate numbers — an imperfect plan is worth infinitely more than no plan at all.
+
+For more depth, read our guide on [food truck profitability](/en/blog/rentabilite-food-truck-ameliorer) and our article on [food truck accounting](/en/blog/comptabilite-food-truck-guide).
+
+[Try FoodTracks for free →](/en/pricing)
+
+**Also read:** [Food Truck Profitability](/en/blog/rentabilite-food-truck-ameliorer) · [Food Truck Accounting](/en/blog/comptabilite-food-truck-guide) · [Financing Your Food Truck](/en/blog/financer-food-truck-aides-subventions)`,
+    },
+    relatedSlugs: [
+      "rentabilite-food-truck-ameliorer",
+      "comptabilite-food-truck-guide",
+      "financer-food-truck-aides-subventions",
+      "cout-charges-food-truck-mensuel",
+    ],
+  },
 ];
 
 export function getArticleBySlug(slug: string): BlogArticle | undefined {
