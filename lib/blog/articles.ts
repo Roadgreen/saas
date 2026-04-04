@@ -16212,6 +16212,649 @@ For more depth, read our guide on [food truck profitability](/en/blog/rentabilit
       "cout-charges-food-truck-mensuel",
     ],
   },
+  {
+    slug: "equipement-food-truck-indispensable",
+    title: {
+      fr: "Équipement food truck indispensable : la liste complète pour bien démarrer en 2026",
+      en: "Essential Food Truck Equipment: The Complete Checklist to Start Right in 2026",
+    },
+    excerpt: {
+      fr: "Quels équipements sont vraiment indispensables pour un food truck ? De la friteuse au terminal de paiement, découvrez la liste complète, les critères de choix et les erreurs d'achat à éviter.",
+      en: "Which equipment is truly essential for a food truck? From the fryer to the payment terminal, discover the complete list, selection criteria and buying mistakes to avoid.",
+    },
+    category: { fr: "Matériel", en: "Equipment" },
+    date: "2026-04-04",
+    readTime: 10,
+    keywords: [
+      "équipement food truck indispensable",
+      "matériel food truck liste",
+      "équipement food truck pas cher",
+      "matériel obligatoire food truck",
+      "acheter équipement food truck",
+      "équiper un food truck",
+      "food truck equipment checklist",
+      "essential food truck equipment",
+      "food truck kitchen equipment",
+    ],
+    heroImage: "/blog/gestion-stock.png",
+    keyTakeaways: {
+      fr: [
+        "Le matériel représente 30 à 50 % du budget de lancement d'un food truck : anticiper la liste évite les achats impulsifs et les oublis coûteux.",
+        "Certains équipements sont obligatoires sur le plan réglementaire (hygiène, sécurité incendie) : leur absence peut entraîner la fermeture administrative.",
+        "L'occasion intelligente (matériel certifié, revu par un technicien) permet d'économiser 20 à 40 % sur le budget équipement.",
+        "Un terminal de paiement sans contact et un logiciel de caisse sont désormais incontournables pour la traçabilité et les statistiques de ventes.",
+      ],
+      en: [
+        "Equipment accounts for 30 to 50% of a food truck's launch budget: planning your list avoids impulse buys and costly omissions.",
+        "Some equipment is mandatory for regulatory compliance (hygiene, fire safety): absence can result in administrative closure.",
+        "Smart second-hand (certified, tech-reviewed equipment) can save 20 to 40% on your equipment budget.",
+        "A contactless payment terminal and POS software are now essential for traceability and sales analytics.",
+      ],
+    },
+    faqItems: [
+      {
+        question: {
+          fr: "Quel est le budget moyen pour équiper un food truck from scratch ?",
+          en: "What is the average budget to equip a food truck from scratch?",
+        },
+        answer: {
+          fr: "Hors véhicule et aménagement carrosserie, le budget matériel d'un food truck varie entre 15 000 et 40 000 EUR selon le concept. Un food truck burgers/frites nécessite friteuse, plancha, bac à sauce, réfrigérateur, vitrine chauffante — comptez 18 000 à 25 000 EUR neuf, ou 10 000 à 15 000 EUR en reconditionné de qualité. Un food truck cuisine asiatique avec wok professionnel peut monter à 30 000 EUR. La clé est de distinguer l'essentiel de démarrage (ce dont vous avez besoin dès le jour 1) du souhaitable (ce que vous ajouterez avec les premiers bénéfices).",
+          en: "Excluding the vehicle and bodywork fit-out, the equipment budget for a food truck ranges from €15,000 to €40,000 depending on the concept. A burger/fries truck needs a fryer, griddle, sauce wells, refrigerator and heated display — budget €18,000–€25,000 new, or €10,000–€15,000 for quality refurbished. An Asian food truck with a professional wok can reach €30,000. The key is distinguishing launch essentials (what you need from day one) from desirables (what you will add with early profits).",
+        },
+      },
+      {
+        question: {
+          fr: "Peut-on acheter du matériel de cuisine d'occasion pour un food truck ?",
+          en: "Can you buy second-hand kitchen equipment for a food truck?",
+        },
+        answer: {
+          fr: "Oui, c'est même recommandé pour maîtriser son budget de lancement. Mais il faut être sélectif : privilégiez le matériel professionnel d'occasion certifié (revu par un technicien agréé), disponible chez des revendeurs spécialisés comme Remy Équipements, Elvea ou sur des plateformes pro (Annonces Pro, Label Cuisine). Vérifiez toujours l'état du système de sécurité (thermostat, coupe-gaz), l'existence d'un certificat de conformité et la disponibilité des pièces détachées. Évitez le matériel domestique reconditionné : il n'est pas conçu pour un usage intensif en service.",
+          en: "Yes, and it is actually recommended to control your launch budget. But be selective: favour certified professional second-hand equipment (reviewed by an approved technician), available from specialist resellers like Remy Équipements, Elvea or professional platforms (Annonces Pro, Label Cuisine). Always check the safety system (thermostat, gas cut-off), the existence of a compliance certificate and spare parts availability. Avoid refurbished domestic equipment: it is not designed for intensive service use.",
+        },
+      },
+      {
+        question: {
+          fr: "Quels équipements sont obligatoires pour ouvrir un food truck légalement ?",
+          en: "What equipment is mandatory to legally open a food truck?",
+        },
+        answer: {
+          fr: "Sur le plan réglementaire, un food truck doit disposer de : un point d'eau avec eau chaude et savon (hygiène alimentaire), un système de réfrigération homologué maintenant les denrées à moins de 4 °C, un extincteur adapté aux feux de cuisine (classe F) accessible et contrôlé annuellement, une hotte avec filtre à graisse conforme à la norme NF EN 16282, et un système de traçabilité des températures. Selon le concept, une ventilation forcée et un détecteur de monoxyde de carbone peuvent être exigés. La DDPP (Direction Départementale de la Protection des Populations) peut contrôler à tout moment — assurez-vous d'être conforme dès le jour 1.",
+          en: "Legally, a food truck must have: a water point with hot water and soap (food hygiene), an approved refrigeration system keeping food below 4°C, a fire extinguisher suitable for kitchen fires (Class F) that is accessible and annually checked, a hood with a grease filter compliant with NF EN 16282, and a temperature traceability system. Depending on the concept, forced ventilation and a carbon monoxide detector may be required. The DDPP (local food safety authority) can inspect at any time — ensure compliance from day one.",
+        },
+      },
+      {
+        question: {
+          fr: "Faut-il un terminal de paiement spécifique pour un food truck ?",
+          en: "Do I need a specific payment terminal for a food truck?",
+        },
+        answer: {
+          fr: "Pas nécessairement « spécifique », mais adapté à vos contraintes terrain : autonomie suffisante (8 heures minimum), résistance aux chocs et aux variations de température, connectivité 4G (vous n'aurez pas toujours du Wi-Fi), et temps de transaction court (moins de 5 secondes) pour ne pas bloquer la file. SumUp Air, SumUp Solo et Square Reader sont parmi les plus utilisés en food truck. Si vous utilisez FoodTracks, l'intégration native avec SumUp vous permet de synchroniser ventes et stock automatiquement — c'est un gain de temps considérable en fin de service.",
+          en: "Not necessarily 'specific', but adapted to your field constraints: sufficient battery life (8 hours minimum), resistance to shock and temperature changes, 4G connectivity (you won't always have Wi-Fi), and short transaction time (under 5 seconds) to avoid blocking the queue. SumUp Air, SumUp Solo and Square Reader are among the most widely used in food trucks. If you use FoodTracks, the native SumUp integration lets you automatically sync sales and stock — a considerable time saving at the end of a service.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment entretenir le matériel de son food truck pour éviter les pannes ?",
+          en: "How do I maintain food truck equipment to avoid breakdowns?",
+        },
+        answer: {
+          fr: "La maintenance préventive est votre meilleure assurance contre les pannes en plein service. Établissez un calendrier hebdomadaire (nettoyage filtre hotte, vérification niveaux friteuse, test thermostat réfrigérateur) et mensuel (démontage grilles, vérification joints, purge condenseur). Faites réviser votre générateur et votre installation gaz chaque année par un professionnel agréé — c'est souvent obligatoire pour votre assurance. Notez les anomalies dès qu'elles apparaissent : un problème mineur ignoré devient une panne majeure en 2 semaines.",
+          en: "Preventive maintenance is your best insurance against mid-service breakdowns. Set up a weekly schedule (hood filter cleaning, fryer level check, refrigerator thermostat test) and a monthly one (grill disassembly, seal inspection, condenser purge). Have your generator and gas installation serviced annually by an approved technician — this is often required by your insurance. Log anomalies as soon as they appear: a minor problem ignored becomes a major breakdown within two weeks.",
+        },
+      },
+    ],
+    content: {
+      fr: `## Pourquoi bien choisir son équipement conditionne la réussite de votre food truck
+
+L'équipement est l'un des postes les plus stratégiques du budget de lancement d'un food truck. Trop léger, vous risquez les pannes en plein service et les non-conformités réglementaires. Trop lourd, vous immobilisez du capital qui manquera pour le fonds de roulement des premiers mois.
+
+**Le matériel représente en moyenne 30 à 50 % du budget de lancement**, hors véhicule et aménagement carrosserie. Anticiper une liste précise, distinguer l'essentiel du confort, et faire les bons arbitrages entre neuf et occasion : voilà les trois décisions qui détermineront votre point mort de départ.
+
+Ce guide vous donne la liste complète, les critères de choix et les erreurs classiques à éviter.
+
+## La liste des équipements indispensables pour un food truck
+
+### 1. Le poste de cuisson : le cœur de votre food truck
+
+Selon votre concept, votre poste de cuisson sera différent — mais il est toujours central :
+
+- **Plancha professionnelle** (hamburgers, wraps, galettes) : optez pour une surface inox d'au moins 60 x 40 cm, puissance minimale 3,5 kW. Budget : 500 à 2 000 EUR neuf.
+- **Friteuse professionnelle** (frites, beignets, tempura) : cuve de 8 à 12 litres, filtre à huile intégré pour prolonger la durée de vie de l'huile. Budget : 600 à 2 500 EUR.
+- **Four à pizza ou four à convection** : indispensable pour les food trucks pizza, bagels chauds ou burgers toastés. Budget : 1 200 à 4 000 EUR.
+- **Wok ou sauteuse professionnelle** : pour les concepts asiatiques ou les poêlées rapides. Budget : 800 à 3 000 EUR.
+- **Crêpière professionnelle** (diamètre 40 cm minimum) : pour les food trucks sucrés ou bretons. Budget : 400 à 1 500 EUR.
+
+**Conseil pratique** : ne prenez pas plus de postes de cuisson que votre espace le permet. Un food truck surchargé en matériel est un food truck lent et dangereux.
+
+### 2. La chaîne du froid : réglementaire et vitale
+
+La réfrigération est à la fois une obligation légale et un pilier de votre gestion des stocks :
+
+- **Réfrigérateur professionnel encastré** : maintien à moins de 4 °C, porte vitrée ou pleine, capacité 200 à 400 litres selon le volume d'activité. Budget : 800 à 2 500 EUR.
+- **Bacs gastronormes réfrigérés (bain-marie froid)** : pour les garnitures, sauces, fromages exposés au comptoir. Budget : 400 à 1 200 EUR.
+- **Congélateur coffre** (si vous travaillez avec des produits surgelés) : capacité 100 à 150 litres. Budget : 300 à 800 EUR.
+
+**Point réglementaire** : tous vos équipements de froid doivent être munis d'un thermomètre visible et enregistrer les températures (ou être contrôlés manuellement 2 fois par jour et consignés dans un registre). C'est exigé par la méthode HACCP.
+
+### 3. La hotte et la ventilation : obligatoires et souvent sous-estimées
+
+Une hotte conforme à la norme **NF EN 16282** est obligatoire dès que vous avez un poste de cuisson avec flamme ou forte chaleur. Elle protège vos équipes et empêche l'accumulation de graisse (risque incendie).
+
+- **Hotte aspirante professionnelle avec filtre à graisse** : dimensionnée pour couvrir la totalité du poste de cuisson + 20 cm de débord. Budget : 600 à 2 000 EUR selon la longueur.
+- **Extracteur d'air avec rejet extérieur** : le rejet doit être réalisé en dehors du camion et orienté vers le haut (pas vers les clients). Budget : 300 à 800 EUR.
+
+### 4. Le comptoir de service et la vitrine
+
+Le comptoir est l'interface entre votre cuisine et vos clients. Il doit être :
+
+- **En inox alimentaire** (obligatoire en zone de manipulation des aliments)
+- **Équipé d'un bac de plonge** avec eau chaude et froide (obligatoire pour le lavage des mains)
+- **Avec vitrine chauffante ou réfrigérée** selon votre concept (Budget : 400 à 1 500 EUR)
+
+### 5. Le matériel de sécurité incendie
+
+Obligatoire et non négociable :
+
+- **Extincteur de classe F** (feux de cuisson / huile) de 6 litres minimum, contrôlé annuellement
+- **Couverture anti-feu** à portée de main du poste de cuisson
+- **Détecteur de monoxyde de carbone** si générateur thermique ou brûleur à gaz dans un espace semi-fermé
+
+### 6. Le terminal de paiement et le logiciel de caisse
+
+En 2026, plus de 60 % des transactions en food truck se font sans contact. Un terminal de paiement mobile est indispensable :
+
+- **SumUp Air ou SumUp Solo** : les plus répandus en food truck, compatibles 4G, autonomie 8 heures. Budget : 50 à 150 EUR (matériel) + commission par transaction (1,69 %).
+- **Square Reader** : alternative compétitive, intégration e-commerce native si vous vendez aussi en ligne.
+
+Associez votre terminal à un **logiciel de caisse** conforme à la loi anti-fraude (obligation légale depuis 2018). Si vous utilisez **FoodTracks**, l'intégration SumUp est native : vos ventes, votre stock et votre food cost se synchronisent automatiquement après chaque service. Consultez notre guide sur le [logiciel de caisse pour food truck](/fr/blog/logiciel-caisse-enregistreuse-food-truck) pour comparer les options.
+
+### 7. Le matériel de stockage sec
+
+Moins spectaculaire mais tout aussi important :
+
+- **Étagères inox ou rayonnages plastique alimentaire** pour les produits secs (épices, conserves, emballages)
+- **Bacs hermétiques HACCP étiquetés** pour les produits ouverts
+- **Distributeur de film alimentaire et de gants** à portée immédiate
+
+## Neuf ou occasion : comment arbitrer ?
+
+### Ce qu'il faut acheter neuf
+
+- Tout ce qui touche à la sécurité (extincteur, détecteur CO, système de coupe-gaz)
+- Les équipements en contact direct avec les aliments si le reconditionnement n'est pas certifié
+- Le terminal de paiement (les modèles anciens sont parfois incompatibles avec les mises à jour des réseaux bancaires)
+
+### Ce qu'on peut acheter d'occasion
+
+- Réfrigérateurs et congélateurs professionnels (vérifiez le groupe froid et les joints)
+- Plancha, friteuse, four — à condition d'un contrôle technique par un professionnel agréé
+- Étagères, bacs gastronormes, ustensiles en inox
+
+**Où trouver du matériel pro d'occasion fiable** : enchères de liquidation judiciaire, revendeurs spécialisés (Elvea, Remy Équipements), marketplace pro (Annonces Pro, Occasion du Chef), groupes Facebook dédiés aux food truckers.
+
+## Les 5 erreurs d'achat les plus courantes
+
+### 1. Acheter le matériel avant de finaliser le concept
+Le matériel découle du menu, pas l'inverse. Définissez d'abord vos 5 à 8 plats de lancement, puis listez les équipements nécessaires. Changer de concept après l'achat peut coûter cher.
+
+### 2. Sous-estimer la puissance électrique nécessaire
+Un groupe électrogène insuffisant qui disjoncte en plein service, c'est le cauchemar. Calculez la puissance totale de tous vos équipements électriques simultanés et ajoutez 20 % de marge. En règle générale, comptez un groupe de 6 à 10 kVA pour un food truck standard.
+
+### 3. Oublier les petits équipements dans le budget
+Couteaux professionnels, planches à découper HACCP (couleurs différentes par type d'aliment), bacs de plonge, thermomètre sonde, gants, ficelles... Ces achats représentent facilement 1 500 à 3 000 EUR au total et sont rarement budgétés.
+
+### 4. Négliger l'entretien préventif
+Un food truck en activité intense sollicite ses équipements bien au-delà d'une cuisine de restaurant. Planifiez dès le départ un budget annuel de maintenance : 3 à 5 % de la valeur du matériel, soit 600 à 2 000 EUR selon l'équipement.
+
+### 5. Ne pas prévoir les pièces de rechange critiques
+Une courroie de friteuse, un joint de porte de réfrigérateur, une résistance de four : avoir ces pièces en stock évite 48 heures d'immobilisation si le fournisseur est en rupture. Identifiez les 3 ou 4 pièces critiques de chaque équipement dès l'achat.
+
+## Optimiser la gestion de votre matériel avec FoodTracks
+
+Bien équiper son food truck, c'est bien. Piloter l'utilisation de ce matériel au quotidien, c'est encore mieux.
+
+FoodTracks vous aide à croiser les données de ventes (via l'intégration SumUp) avec votre stock pour calculer votre **food cost réel par service**. En sachant exactement ce que chaque service consomme, vous pouvez :
+
+- Ajuster vos commandes fournisseurs pour éviter le sur-stockage (qui surchauffe les réfrigérateurs et génère du gaspillage)
+- Identifier les plats les moins rentables et décider d'adapter ou de supprimer
+- Anticiper les besoins de nettoyage (forte activité = filtres plus sollicités = maintenance plus fréquente)
+
+Pour aller plus loin : [Comment gérer le stock de son food truck](/fr/blog/comment-gerer-stock-food-truck) · [Fournisseurs food truck : le guide complet](/fr/blog/fournisseurs-food-truck-guide) · [Logiciel de caisse pour food truck](/fr/blog/logiciel-caisse-enregistreuse-food-truck)
+
+[Essayer FoodTracks gratuitement →](/fr/pricing)`,
+      en: `## Why Choosing the Right Equipment Determines Your Food Truck's Success
+
+Equipment is one of the most strategic line items in a food truck's launch budget. Too little and you risk mid-service breakdowns and regulatory non-compliance. Too much and you tie up capital that will be needed for working capital in the first months.
+
+**Equipment accounts for an average of 30 to 50% of the launch budget**, excluding the vehicle and bodywork fit-out. Planning a precise list, distinguishing essential from comfort items, and making the right calls between new and second-hand: these are the three decisions that will set your break-even point from day one.
+
+This guide gives you the complete list, selection criteria and classic buying mistakes to avoid.
+
+## The Complete List of Essential Food Truck Equipment
+
+### 1. The Cooking Station: The Heart of Your Food Truck
+
+Depending on your concept, your cooking station will look different — but it is always central:
+
+- **Professional griddle** (burgers, wraps, galettes): opt for a stainless steel surface of at least 60 x 40 cm, minimum power 3.5 kW. Budget: €500–€2,000 new.
+- **Professional fryer** (chips, fritters, tempura): 8 to 12-litre tank, integrated oil filter to extend oil life. Budget: €600–€2,500.
+- **Pizza or convection oven**: essential for pizza trucks, toasted bagels or warm burgers. Budget: €1,200–€4,000.
+- **Wok or professional sauté pan**: for Asian concepts or quick stir-fries. Budget: €800–€3,000.
+- **Professional crêpe maker** (minimum 40 cm diameter): for sweet or Breton food trucks. Budget: €400–€1,500.
+
+**Practical tip**: do not fit more cooking stations than your space allows. An overloaded food truck is a slow and dangerous one.
+
+### 2. The Cold Chain: Regulatory and Vital
+
+Refrigeration is both a legal obligation and a cornerstone of your stock management:
+
+- **Built-in professional refrigerator**: maintained below 4°C, glass or solid door, 200–400 litre capacity depending on activity volume. Budget: €800–€2,500.
+- **Refrigerated gastronorm wells (cold bain-marie)**: for garnishes, sauces and cheeses displayed at the counter. Budget: €400–€1,200.
+- **Chest freezer** (if you work with frozen products): 100–150 litre capacity. Budget: €300–€800.
+
+**Regulatory point**: all your cold equipment must be fitted with a visible thermometer and record temperatures (or be manually checked twice a day and logged). This is required by HACCP methodology.
+
+### 3. The Hood and Ventilation: Mandatory and Often Underestimated
+
+A hood compliant with the **NF EN 16282 standard** is mandatory as soon as you have a cooking station with open flame or intense heat. It protects your team and prevents grease build-up (fire risk).
+
+- **Professional extraction hood with grease filter**: sized to cover the entire cooking station plus 20 cm overhang on each side. Budget: €600–€2,000 depending on length.
+- **Air extractor with external discharge**: the discharge must exit the truck and be directed upwards (not towards customers). Budget: €300–€800.
+
+### 4. The Service Counter and Display Case
+
+The counter is the interface between your kitchen and your customers. It must be:
+
+- **Made of food-grade stainless steel** (mandatory in food-handling areas)
+- **Fitted with a sink** with hot and cold water (mandatory for handwashing)
+- **With a heated or refrigerated display case** depending on your concept (Budget: €400–€1,500)
+
+### 5. Fire Safety Equipment
+
+Mandatory and non-negotiable:
+
+- **Class F extinguisher** (cooking/oil fires), minimum 6 litres, checked annually
+- **Fire blanket** within arm's reach of the cooking station
+- **Carbon monoxide detector** if a thermal generator or gas burner is used in a semi-enclosed space
+
+### 6. The Payment Terminal and POS Software
+
+In 2026, over 60% of food truck transactions are contactless. A mobile payment terminal is essential:
+
+- **SumUp Air or SumUp Solo**: the most widely used in food trucks, 4G-compatible, 8-hour battery life. Budget: €50–€150 (hardware) + per-transaction commission (1.69%).
+- **Square Reader**: competitive alternative, native e-commerce integration if you also sell online.
+
+Pair your terminal with a **POS software solution** compliant with anti-fraud legislation (a legal obligation in France since 2018). If you use **FoodTracks**, the SumUp integration is native: your sales, stock and food cost sync automatically after every service. Check our guide on [food truck POS software](/en/blog/logiciel-caisse-enregistreuse-food-truck) to compare options.
+
+### 7. Dry Storage Equipment
+
+Less glamorous but just as important:
+
+- **Stainless steel or food-grade plastic shelving** for dry goods (spices, canned goods, packaging)
+- **Labelled HACCP-compliant airtight containers** for opened products
+- **Cling film dispenser and glove dispenser** within immediate reach
+
+## New or Second-Hand: How to Decide?
+
+### What to Buy New
+
+- Anything related to safety (extinguisher, CO detector, gas cut-off system)
+- Equipment in direct contact with food if reconditioning is not certified
+- The payment terminal (older models can be incompatible with bank network updates)
+
+### What You Can Buy Second-Hand
+
+- Professional refrigerators and freezers (check the compressor and door seals)
+- Griddle, fryer, oven — provided a certified technician has signed off on them
+- Shelving, gastronorm trays, stainless steel utensils
+
+**Where to find reliable professional second-hand equipment**: judicial liquidation auctions, specialist resellers (Elvea, Remy Équipements), professional marketplaces (Annonces Pro, Occasion du Chef), Facebook groups for food truckers.
+
+## The 5 Most Common Buying Mistakes
+
+### 1. Buying Equipment Before Finalising Your Concept
+Equipment follows from the menu, not the other way round. First define your 5 to 8 launch dishes, then list the equipment you need. Changing concept after purchase can be expensive.
+
+### 2. Underestimating Electrical Power Requirements
+An underpowered generator that trips mid-service is a nightmare. Calculate the total power of all your electrical equipment running simultaneously and add a 20% margin. As a rule of thumb, budget a 6 to 10 kVA generator for a standard food truck.
+
+### 3. Forgetting Small Equipment in the Budget
+Professional knives, HACCP cutting boards (different colours per food type), sink trays, probe thermometer, gloves, ties... These purchases add up to €1,500–€3,000 easily and are rarely budgeted.
+
+### 4. Neglecting Preventive Maintenance
+A food truck in heavy use puts its equipment under far more strain than a restaurant kitchen. Plan a maintenance budget from the start: 3 to 5% of equipment value per year, i.e. €600–€2,000 depending on your kit.
+
+### 5. Not Stocking Critical Spare Parts
+A fryer belt, a refrigerator door seal, an oven element: having these in stock avoids 48 hours of downtime if the supplier is out of stock. Identify the 3 or 4 critical spare parts for each piece of equipment at the time of purchase.
+
+## Optimising Your Equipment Management with FoodTracks
+
+Equipping your food truck well is good. Monitoring how that equipment is used day to day is even better.
+
+FoodTracks helps you cross-reference sales data (via SumUp integration) with your stock to calculate your **real food cost per service**. By knowing exactly what each service consumes, you can:
+
+- Adjust supplier orders to avoid over-stocking (which overloads refrigerators and generates waste)
+- Identify your least profitable dishes and decide whether to adapt or remove them
+- Anticipate cleaning needs (high activity = more filter use = more frequent maintenance)
+
+To go further: [How to Manage Food Truck Stock](/en/blog/comment-gerer-stock-food-truck) · [Food Truck Suppliers: The Complete Guide](/en/blog/fournisseurs-food-truck-guide) · [Food Truck POS Software](/en/blog/logiciel-caisse-enregistreuse-food-truck)
+
+[Try FoodTracks for free →](/en/pricing)`,
+    },
+    relatedSlugs: [
+      "comment-gerer-stock-food-truck",
+      "fournisseurs-food-truck-guide",
+      "logiciel-caisse-enregistreuse-food-truck",
+      "business-plan-food-truck",
+    ],
+  },
+  {
+    slug: "gestion-tresorerie-food-truck",
+    title: {
+      fr: "Gestion de trésorerie food truck : garder le contrôle de son cash-flow en 2026",
+      en: "Food Truck Cash Flow Management: Keep Control of Your Finances in 2026",
+    },
+    excerpt: {
+      fr: "La trésorerie est le nerf de la guerre pour tout food trucker. Découvrez comment anticiper vos dépenses, éviter les découverts et piloter votre cash-flow au quotidien.",
+      en: "Cash flow is the lifeblood of every food truck business. Learn how to anticipate expenses, avoid overdrafts and manage your finances day to day.",
+    },
+    category: { fr: "Gestion", en: "Management" },
+    date: "2026-04-04",
+    readTime: 10,
+    keywords: [
+      "gestion trésorerie food truck",
+      "cash flow food truck",
+      "trésorerie food truck",
+      "gérer finances food truck",
+      "tableau de bord food truck",
+      "food truck cash flow management",
+      "food truck finances",
+      "food truck budget management",
+    ],
+    heroImage: "/blog/gestion-stock.png",
+    keyTakeaways: {
+      fr: [
+        "La trésorerie, pas le bénéfice, détermine si votre food truck peut payer ses factures ce mois-ci — un truck rentable peut mourir faute de liquidités.",
+        "Gardez toujours un matelas de sécurité équivalent à 6 semaines de charges fixes (loyer du camion, assurance, carburant, fournisseurs).",
+        "Décalez vos grosses dépenses (assurance annuelle, révision camion) sur des mois à fort chiffre d'affaires (festivals, été).",
+        "Suivre ses ventes quotidiennes via FoodTracks et SumUp permet de détecter un creux de trésorerie 2 à 3 semaines avant qu'il devienne critique.",
+      ],
+      en: [
+        "Cash flow, not profit, determines whether your food truck can pay its bills this month — a profitable truck can still fail due to lack of liquidity.",
+        "Always keep a safety buffer equal to 6 weeks of fixed costs (truck lease, insurance, fuel, suppliers).",
+        "Shift major expenses (annual insurance, truck service) to high-revenue months (festivals, summer).",
+        "Tracking daily sales via FoodTracks and SumUp lets you spot a cash flow dip 2 to 3 weeks before it becomes critical.",
+      ],
+    },
+    faqItems: [
+      {
+        question: {
+          fr: "Quelle est la différence entre trésorerie et bénéfice en food truck ?",
+          en: "What is the difference between cash flow and profit in a food truck?",
+        },
+        answer: {
+          fr: "Le bénéfice, c'est ce qu'il reste après avoir déduit toutes vos charges de vos revenus sur une période donnée. La trésorerie, c'est l'argent réellement disponible sur votre compte bancaire à un instant T. Un food truck peut être bénéficiaire sur le papier mais se retrouver à découvert si ses clients professionnels (traiteur, entreprises) paient en fin de mois et que les fournisseurs exigent un règlement immédiat.",
+          en: "Profit is what remains after deducting all costs from revenue over a given period. Cash flow is the money actually available in your bank account at any given moment. A food truck can be profitable on paper but still face an overdraft if corporate catering clients pay at month-end while suppliers demand immediate payment.",
+        },
+      },
+      {
+        question: {
+          fr: "Combien de réserve de trésorerie un food truck doit-il avoir ?",
+          en: "How much cash reserve should a food truck have?",
+        },
+        answer: {
+          fr: "La règle professionnelle recommande l'équivalent de 6 à 8 semaines de charges fixes : loyer ou remboursement du crédit camion, assurances, carburant estimé, et une commande fournisseur moyenne. Pour un food truck avec 2 000 € de charges fixes mensuelles, cela représente un matelas de 3 000 à 4 000 € intouchable. En dessous, le moindre imprévu (panne, mauvaise météo sur 2 semaines) peut mettre l'activité en péril.",
+          en: "The professional rule recommends the equivalent of 6 to 8 weeks of fixed costs: truck lease or loan repayment, insurance, estimated fuel, and an average supplier order. For a food truck with €2,000 in monthly fixed costs, that means an untouchable buffer of €3,000 to €4,000. Below that, any unexpected event (breakdown, two weeks of bad weather) can put the business at risk.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment éviter les fins de mois difficiles avec un food truck ?",
+          en: "How do I avoid difficult end-of-month cash crunches with a food truck?",
+        },
+        answer: {
+          fr: "Trois actions concrètes : (1) Établissez un calendrier de vos charges fixes sur 12 mois et identifiez les mois 'chargés' (assurance annuelle, révision, renouvellement de licence). (2) En haute saison (été, festivals), mettez de côté 10 à 15 % de votre CA plutôt que de tout réinvestir. (3) Négociez des délais de paiement avec vos fournisseurs principaux — 15 jours supplémentaires peuvent suffire à lisser votre trésorerie.",
+          en: "Three concrete actions: (1) Build a 12-month calendar of your fixed costs and identify 'heavy' months (annual insurance, servicing, licence renewal). (2) In peak season (summer, festivals), set aside 10 to 15% of revenue rather than reinvesting everything. (3) Negotiate payment terms with your main suppliers — an extra 15 days can be enough to smooth your cash flow.",
+        },
+      },
+      {
+        question: {
+          fr: "Quel tableau de bord utiliser pour suivre sa trésorerie en food truck ?",
+          en: "What dashboard should I use to track cash flow in a food truck?",
+        },
+        answer: {
+          fr: "Un tableau Google Sheets ou Excel avec trois colonnes suffit pour commencer : recettes du jour, dépenses du jour, solde cumulé. Si vous utilisez SumUp pour encaisser, exportez vos ventes chaque semaine et renseignez vos dépenses manuellement. Pour aller plus loin, FoodTracks agrège vos données SumUp et vos factures fournisseurs pour vous donner une vision en temps réel de votre rentabilité par service.",
+          en: "A Google Sheets or Excel table with three columns is enough to start: daily income, daily expenses, cumulative balance. If you use SumUp to process payments, export your sales weekly and enter expenses manually. To go further, FoodTracks aggregates your SumUp data and supplier invoices to give you a real-time view of your profitability per service.",
+        },
+      },
+      {
+        question: {
+          fr: "La saisonnalité du food truck complique-t-elle vraiment la gestion de trésorerie ?",
+          en: "Does food truck seasonality really complicate cash flow management?",
+        },
+        answer: {
+          fr: "Oui, c'est l'un des défis majeurs. Un food truck peut faire 60 à 70 % de son chiffre annuel entre mai et septembre. Si les charges fixes (crédit, assurance) restent les mêmes en janvier, les revenus peuvent être 3 à 4 fois plus faibles. La solution est de construire un plan de trésorerie annuel dès janvier, en intégrant les mois creux et en planifiant les dépenses importantes uniquement en haute saison.",
+          en: "Yes, it is one of the major challenges. A food truck can generate 60 to 70% of its annual revenue between May and September. If fixed costs (loan, insurance) stay the same in January while revenue can be 3 to 4 times lower, the gap is dangerous. The solution is to build an annual cash flow plan from January, factoring in slow months and scheduling major expenses only during peak season.",
+        },
+      },
+    ],
+    content: {
+      fr: `## Pourquoi la trésorerie est plus importante que le bénéfice
+
+Un food truck peut être rentable sur le papier et se retrouver à court de liquidités. C'est le paradoxe de la trésorerie : **ce n'est pas le bénéfice qui paie vos fournisseurs ce mardi, c'est l'argent disponible sur votre compte**.
+
+En food truck, ce décalage est particulièrement fréquent :
+- Vous commandez vos matières premières en début de semaine (sortie d'argent immédiate)
+- Vous encaissez vos ventes en fin de semaine
+- Votre assurance annuelle tombe en mars, quand la saison démarre à peine
+
+Résultat : beaucoup de food truckers qui "marchent bien" se retrouvent à découvert en janvier-février ou après une grosse dépense imprévue.
+
+## Les 4 postes de dépenses qui déséquilibrent la trésorerie
+
+### 1. Les charges fixes mensuelles incompressibles
+
+Ce sont les dépenses que vous payez que vous travailliez ou non :
+- Remboursement du crédit ou loyer du camion
+- Assurance responsabilité civile et tous risques
+- Abonnements (logiciels, téléphone, GPS)
+- Charges sociales et cotisations RSI
+
+**Listez-les précisément** — beaucoup de food truckers sous-estiment ces charges de 20 à 30 % parce qu'ils oublient les prélèvements trimestriels ou annuels.
+
+### 2. Les achats matières premières
+
+C'est votre premier poste variable. En food truck, vous commandez souvent en début de semaine pour garantir la fraîcheur. Si le week-end est pluvieux et que votre service tombe, l'argent est déjà sorti pour des produits que vous ne vendrez pas.
+
+Avec [FoodTracks](/fr/pricing), vous suivez vos achats via le scan de factures et croisez cette donnée avec vos ventes SumUp. Vous identifiez rapidement les semaines où votre food cost dépasse votre seuil cible.
+
+### 3. Les dépenses exceptionnelles
+
+Une panne de frigo (800 à 2 000 €), un contrôle technique surprise, un renouvellement de licence... Ces dépenses arrivent rarement au bon moment. Sans réserve, elles peuvent bloquer votre activité.
+
+**Règle d'or** : provisionnez chaque mois 5 % de votre CA pour les imprévus techniques.
+
+### 4. La TVA et les charges sociales
+
+Les auto-entrepreneurs ne collectent pas de TVA, mais les food truckers soumis au régime réel doivent reverser la TVA collectée tous les trimestres. Si vous l'avez dépensée entre-temps, le choc de trésorerie peut être violent.
+
+**Astuce** : ouvrez un compte bancaire secondaire dédié à la TVA. À chaque encaissement, virez automatiquement 20 % (taux normal) ou 10 % (restauration) sur ce compte. Vous n'y touchez pas jusqu'au paiement de la TVA.
+
+## Construire un plan de trésorerie sur 12 mois
+
+### Étape 1 : Lister toutes vos charges par mois
+
+Sur un tableur, créez 12 colonnes (janvier à décembre). Pour chaque mois, indiquez :
+- Charges fixes récurrentes (identiques chaque mois)
+- Charges annuelles proratisées (assurance 1 200 €/an = 100 €/mois dans votre calcul)
+- Charges exceptionnelles prévues (révision annuelle en avril, renouvellement licence en juin)
+
+### Étape 2 : Estimer vos recettes mois par mois
+
+Basez-vous sur vos données historiques. Si vous démarrez, utilisez ces ratios moyens :
+- Novembre-février : 40 % du CA mensuel moyen
+- Mars-avril, octobre : 70 %
+- Mai-juin, septembre : 100 %
+- Juillet-août (avec festivals) : 130 à 150 %
+
+Avec FoodTracks, vous visualisez votre [historique de ventes par service et par emplacement](/fr/blog/planning-semaine-food-truck) pour affiner ces estimations mois après mois.
+
+### Étape 3 : Calculer le solde mensuel et le solde cumulé
+
+Soustrayez les charges des recettes chaque mois. Le solde cumulé vous montre si vous êtes à l'équilibre ou si un mois dans le creux va vous mettre en négatif.
+
+**Si un mois est prévu en négatif** : décalez une grosse dépense, activez une action commerciale (festival supplémentaire, prestation traiteur), ou renforcez votre réserve en amont.
+
+## Les bonnes pratiques quotidiennes
+
+### Suivre ses encaissements chaque jour
+
+Ne vous contentez pas de regarder votre solde bancaire en fin de mois. Notez chaque soir :
+- Chiffre d'affaires du jour
+- Dépenses du jour (carburant, achat marché, divers)
+- Solde de caisse
+
+Si vous utilisez SumUp, ces données sont automatiquement disponibles. [FoodTracks](/fr/pricing) les agrège et vous donne un tableau de bord hebdomadaire.
+
+### Anticiper les semaines à risque
+
+Semaine de mauvais temps prévu ? Service annulé pour cause de marché fermé ? C'est le moment d'ajuster vos commandes à la baisse et de reporter une dépense non urgente.
+
+L'avantage d'un suivi quotidien : vous détectez un problème de trésorerie **2 à 3 semaines avant** qu'il soit critique. Vous avez le temps d'agir.
+
+### Négocier avec vos fournisseurs
+
+Beaucoup de food truckers paient comptant par habitude. Or, même 15 jours de délai de paiement chez votre principal fournisseur peuvent transformer votre trésorerie. Osez demander — la plupart des fournisseurs locaux acceptent.
+
+Pour trouver les bons fournisseurs avec qui négocier, consultez notre guide : [Trouver les bons fournisseurs pour son food truck](/fr/blog/fournisseurs-food-truck-guide).
+
+## Financement et solutions d'urgence
+
+Si malgré tout vous faites face à une tension de trésorerie, quelques options existent :
+
+**L'affacturage** : si vous faites de la prestation traiteur avec facturation différée, certains établissements rachètent vos créances pour vous donner la liquidité immédiatement.
+
+**Le micro-crédit professionnel** : l'ADIE propose des prêts de 1 000 à 12 000 € avec des délais rapides, spécialement conçus pour les indépendants et food truckers.
+
+**Le report de charges** : en cas de difficulté passagère, l'URSSAF accepte souvent un étalement des cotisations sur demande motivée.
+
+## Intégrer FoodTracks dans votre gestion financière
+
+FoodTracks centralise vos ventes SumUp et vos factures fournisseurs pour calculer votre [food cost en temps réel](/fr/blog/calcul-prix-vente-food-truck). En croisant recettes et dépenses dans un seul outil, vous avez enfin une vision claire de votre trésorerie sans passer des heures sur un tableur.
+
+Commencez dès aujourd'hui : [essayez FoodTracks gratuitement →](/fr/pricing)`,
+      en: `## Why Cash Flow Matters More Than Profit
+
+A food truck can be profitable on paper and still run out of money. That is the cash flow paradox: **it is not profit that pays your suppliers this Tuesday — it is the money available in your account right now**.
+
+In food trucks, this gap shows up constantly:
+- You order your ingredients at the start of the week (money out immediately)
+- You collect your sales at the end of the week
+- Your annual insurance hits in March, just as the season is barely getting started
+
+The result: many food truckers who are "doing well" end up overdrawn in January–February or after an unexpected major expense.
+
+## The 4 Expense Categories That Disrupt Cash Flow
+
+### 1. Fixed Monthly Costs You Cannot Avoid
+
+These are the expenses you pay whether you work or not:
+- Truck loan repayment or lease
+- Liability and comprehensive insurance
+- Subscriptions (software, phone, GPS)
+- Social charges and self-employment contributions
+
+**List them precisely** — many food truckers underestimate these costs by 20 to 30% because they forget quarterly or annual direct debits.
+
+### 2. Ingredient Purchases
+
+This is your main variable cost. Food trucks typically order at the start of the week to ensure freshness. If the weekend is rainy and a service falls through, the money is already gone for products you will not sell.
+
+With [FoodTracks](/en/pricing), you track your purchases by scanning invoices and cross-reference this data with your SumUp sales. You can quickly spot weeks where your food cost exceeds your target threshold.
+
+### 3. Exceptional Expenses
+
+A fridge breakdown (€800 to €2,000), an unexpected roadworthiness test, a licence renewal... These expenses rarely come at a good time. Without a reserve, they can shut down your operation.
+
+**Golden rule**: set aside 5% of revenue every month for technical emergencies.
+
+### 4. VAT and Social Charges
+
+Auto-entrepreneurs do not collect VAT, but food truckers under the standard tax regime must pay back collected VAT every quarter. If you have spent it in the meantime, the cash flow shock can be severe.
+
+**Tip**: open a secondary bank account dedicated to VAT. Each time you get paid, automatically transfer 20% (standard rate) or 10% (catering rate) to that account. Do not touch it until the VAT payment is due.
+
+## Building a 12-Month Cash Flow Plan
+
+### Step 1: List All Your Costs Month by Month
+
+On a spreadsheet, create 12 columns (January to December). For each month, enter:
+- Recurring fixed costs (same every month)
+- Annual costs prorated (€1,200/year insurance = €100/month in your calculation)
+- Planned exceptional costs (annual service in April, licence renewal in June)
+
+### Step 2: Estimate Your Revenue Month by Month
+
+Use your historical data. If you are just starting out, these average ratios will help:
+- November–February: 40% of average monthly revenue
+- March–April, October: 70%
+- May–June, September: 100%
+- July–August (with festivals): 130 to 150%
+
+With FoodTracks, you can view your [sales history by service and location](/en/blog/planning-semaine-food-truck) to refine these estimates month after month.
+
+### Step 3: Calculate Monthly and Cumulative Balance
+
+Subtract costs from revenue for each month. The cumulative balance shows whether you are breaking even or whether a slow month will push you into the red.
+
+**If a month looks negative**: defer a large expense, activate a commercial action (extra festival, catering contract), or build up your reserve in advance.
+
+## Good Daily Habits
+
+### Track Your Takings Every Day
+
+Do not just check your bank balance at month-end. Note down every evening:
+- Revenue for the day
+- Expenses for the day (fuel, market purchases, miscellaneous)
+- Cash balance
+
+If you use SumUp, this data is automatically available. [FoodTracks](/en/pricing) aggregates it and gives you a weekly dashboard.
+
+### Anticipate Risky Weeks
+
+Bad weather forecast? Service cancelled because the market is closed? That is the time to scale back your orders and defer any non-urgent expense.
+
+The advantage of daily tracking: you detect a cash flow problem **2 to 3 weeks before** it becomes critical. You have time to act.
+
+### Negotiate With Your Suppliers
+
+Many food truckers pay cash out of habit. But even 15 extra days to pay your main supplier can transform your cash flow position. Ask — most local suppliers will agree.
+
+To find the right suppliers to negotiate with, see our guide: [Finding the Right Suppliers for Your Food Truck](/en/blog/fournisseurs-food-truck-guide).
+
+## Financing and Emergency Options
+
+If despite everything you face a cash flow crunch, some options exist:
+
+**Invoice factoring**: if you do catering work with deferred invoicing, some institutions will buy your receivables to give you liquidity immediately.
+
+**Professional micro-credit**: ADIE offers loans from €1,000 to €12,000 with fast turnaround, specifically designed for self-employed people and food truckers.
+
+**Deferral of charges**: in the event of temporary difficulty, URSSAF often accepts an instalment plan for contributions upon a motivated request.
+
+## Integrating FoodTracks Into Your Financial Management
+
+FoodTracks centralises your SumUp sales and supplier invoices to calculate your [real-time food cost](/en/blog/calcul-prix-vente-food-truck). By combining income and expenses in a single tool, you finally get a clear view of your cash flow without spending hours on a spreadsheet.
+
+Start today: [try FoodTracks for free →](/en/pricing)`,
+    },
+    relatedSlugs: [
+      "calcul-prix-vente-food-truck",
+      "fournisseurs-food-truck-guide",
+      "planning-semaine-food-truck",
+      "business-plan-food-truck",
+    ],
+  },
 ];
 
 export function getArticleBySlug(slug: string): BlogArticle | undefined {
