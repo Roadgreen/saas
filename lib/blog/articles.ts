@@ -16855,6 +16855,512 @@ Start today: [try FoodTracks for free →](/en/pricing)`,
       "business-plan-food-truck",
     ],
   },
+  {
+    slug: "food-truck-festival-organiser-service-profitable",
+    title: {
+      fr: "Food truck en festival : comment organiser un service rentable du planning à la clôture",
+      en: "Food Truck at a Festival: How to Run a Profitable Service from Planning to Close",
+    },
+    excerpt: {
+      fr: "Participer à un festival peut tripler votre chiffre d'affaires en un week-end — ou vous ruiner si vous n'êtes pas préparé. Découvrez la méthode complète pour rentabiliser chaque service en événementiel.",
+      en: "A festival can triple your revenue in a weekend — or break you if you're underprepared. Here is the complete method for running a profitable food truck at any outdoor event.",
+    },
+    category: { fr: "Stratégie", en: "Strategy" },
+    date: "2026-04-05",
+    readTime: 11,
+    keywords: [
+      "food truck festival rentable",
+      "organiser service food truck festival",
+      "food truck événement extérieur",
+      "rentabilité food truck festival",
+      "participation food truck festival",
+      "food truck festival profitable",
+      "food truck outdoor event",
+      "how to run a food truck at a festival",
+      "food truck event planning",
+    ],
+    heroImage: "/blog/food-truck-festival.png",
+    keyTakeaways: {
+      fr: [
+        "Un festival rentable commence 3 semaines avant le jour J : recrutement, commandes fournisseurs, pré-production et logistique doivent être calés avant de charger le camion.",
+        "Calculez votre seuil de rentabilité festival en intégrant les frais de participation, le carburant, le personnel supplémentaire et le surcroît de stock — beaucoup de food truckers sous-estiment ces coûts.",
+        "Un menu réduit à 4-6 produits best-sellers tourne 30% plus vite qu'un menu complet : la vitesse de service est votre levier n°1 en événementiel.",
+        "Suivre vos ventes en temps réel via FoodTracks et SumUp vous permet d'ajuster votre stock en cours d'événement et d'éviter les ruptures ou le gaspillage.",
+      ],
+      en: [
+        "A profitable festival starts 3 weeks before the day itself: recruitment, supplier orders, pre-production and logistics must all be locked in before you load the truck.",
+        "Calculate your festival break-even point including participation fees, fuel, extra staff and additional stock — many food truckers underestimate these costs.",
+        "A menu trimmed to 4–6 best-selling items runs 30% faster than a full menu: service speed is your number-one lever at events.",
+        "Tracking sales in real time via FoodTracks and SumUp lets you adjust stock mid-event and avoid both stockouts and waste.",
+      ],
+    },
+    faqItems: [
+      {
+        question: {
+          fr: "Combien coûte la participation à un festival en food truck ?",
+          en: "How much does it cost to participate in a festival with a food truck?",
+        },
+        answer: {
+          fr: "Les droits de place en festival varient considérablement : d'environ 150 EUR pour une petite fête locale à 1 500–3 000 EUR pour un grand festival de musique ou gastronomique. Certains organisateurs prennent un pourcentage du chiffre d'affaires (8 à 15 %) à la place ou en plus d'un forfait fixe. Avant de vous inscrire, calculez votre chiffre d'affaires minimum nécessaire pour couvrir ces frais, votre stock supplémentaire, le personnel et le carburant. En règle générale, un festival n'est rentable qu'à partir de 2 000 à 2 500 EUR de CA journalier.",
+          en: "Pitch fees at festivals vary widely: from around €150 for a small local fair to €1,500–€3,000 for a major music or food festival. Some organisers take a percentage of revenue (8–15%) instead of or on top of a fixed fee. Before signing up, calculate the minimum turnover you need to cover the fee, extra stock, staff and fuel. As a rule of thumb, a festival only becomes profitable from around €2,000–€2,500 in daily revenue.",
+        },
+      },
+      {
+        question: {
+          fr: "Quel menu proposer pour un food truck en festival ?",
+          en: "What menu should a food truck offer at a festival?",
+        },
+        answer: {
+          fr: "En festival, la règle d'or est de réduire votre menu à vos 4 à 6 produits les plus vendus et les plus rapides à préparer. Évitez les plats à la minute qui bloquent la chaîne. Privilégiez des formats faciles à manger debout (burgers, tacos, bowls, wraps). Préparez un maximum de composants à l'avance (sauces, garnitudes, viandes marinées). Un menu court améliore la vitesse de service, réduit le gaspillage et simplifie vos commandes fournisseurs — des points essentiels quand vous gérez 300 à 500 couverts par jour.",
+          en: "At a festival, the golden rule is to trim your menu to your 4 to 6 best-selling, fastest-to-prepare items. Avoid made-to-order dishes that block the line. Favour formats easy to eat standing up (burgers, tacos, bowls, wraps). Pre-prepare as many components as possible (sauces, toppings, marinated proteins). A short menu improves service speed, reduces waste and simplifies supplier orders — all critical when handling 300 to 500 covers a day.",
+        },
+      },
+      {
+        question: {
+          fr: "Faut-il des autorisations spécifiques pour vendre en festival ?",
+          en: "Are specific permits required to sell at a festival?",
+        },
+        answer: {
+          fr: "Oui. En plus de vos autorisations habituelles (permis d'exploiter, carte professionnelle, déclaration DDPP), vous aurez généralement besoin de l'accord écrit de l'organisateur du festival et d'une attestation de votre assurance couvrant l'événement. Certains festivals exigent aussi un certificat de conformité du véhicule (contrôle technique à jour, extincteur contrôlé) et une déclaration de présence en mairie si l'événement a lieu sur domaine public. Vérifiez ces points au minimum 3 semaines avant le festival.",
+          en: "Yes. On top of your usual licences (operator's permit, professional card, DDPP declaration), you will generally need written agreement from the festival organiser and an insurance certificate covering the event. Some festivals also require a vehicle compliance certificate (current MOT, checked extinguisher) and a presence declaration with the local authority if the event is on public land. Check these points at least 3 weeks before the festival.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment gérer son stock pour un festival de plusieurs jours ?",
+          en: "How do you manage stock for a multi-day festival?",
+        },
+        answer: {
+          fr: "Pour un festival de 2 à 3 jours, la gestion des stocks est critique. Commandez pour J+1 chaque soir en fonction des ventes réelles de la journée, pas uniquement sur vos prévisions initiales. Prévoyez un stock tampon de 20% pour les produits non périssables. Pour les frais, organisez une livraison fournisseur chaque matin ou identifiez un point de ravitaillement à moins de 30 minutes. Avec FoodTracks, vous pouvez suivre vos consommations en temps réel et passer commande depuis votre téléphone entre deux services — indispensable quand vous êtes sur site toute la journée.",
+          en: "For a 2–3 day festival, stock management is critical. Order for D+1 each evening based on actual sales from the day, not just your initial forecasts. Plan a 20% buffer for non-perishable products. For fresh items, arrange a supplier delivery each morning or identify a resupply point within 30 minutes. With FoodTracks, you can track consumption in real time and place orders from your phone between services — essential when you are on site all day.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment calculer si un festival est rentable avant d'y aller ?",
+          en: "How do you calculate whether a festival will be profitable before you go?",
+        },
+        answer: {
+          fr: "Utilisez cette formule simple : CA minimum = (droits de place + stock supplémentaire + salaires extra + carburant + amortissement usure camion) ÷ marge brute moyenne. Par exemple : droits 800 EUR + stock 1 200 EUR + extra 600 EUR + carburant 150 EUR = 2 750 EUR de coûts fixes festival. Avec une marge brute de 65%, vous devez générer au moins 4 230 EUR de CA pour être à l'équilibre. Si l'événement accueille 5 000 visiteurs sur 2 jours et que votre panier moyen est de 12 EUR, viser 400 couverts (4 800 EUR de CA) est réaliste. En dessous, passez votre tour.",
+          en: "Use this simple formula: minimum revenue = (pitch fee + extra stock + extra wages + fuel + truck wear allowance) ÷ average gross margin. For example: €800 pitch fee + €1,200 stock + €600 extra staff + €150 fuel = €2,750 in festival fixed costs. At a 65% gross margin, you need at least €4,230 in revenue to break even. If the event draws 5,000 visitors over 2 days and your average spend is €12, targeting 400 covers (€4,800 revenue) is realistic. Below that, skip it.",
+        },
+      },
+    ],
+    content: {
+      fr: `## Pourquoi les festivals sont une opportunité — et un piège — pour les food trucks
+
+Un grand festival de musique, un marché gastronomique ou une fête de village : ces événements font rêver beaucoup de food truckers. Concentrer un maximum de clients sur un seul emplacement, pendant 2 ou 3 jours, avec des files d'attente qui s'allongent naturellement. En théorie, c'est la recette idéale.
+
+En pratique, de nombreux food truckers rentrent d'un festival épuisés, avec des stocks gaspillés, un personnel payé à perte et un bénéfice net décevant — quand ce n'est pas une perte sèche. **La différence entre réussite et échec en festival tient à la préparation, pas à la chance.**
+
+Ce guide vous donne la méthode complète, de la sélection du festival à l'analyse post-événement.
+
+## Étape 1 : Sélectionner les bons festivals
+
+Tous les festivals ne se valent pas. Avant de postuler, évaluez chaque événement sur ces 5 critères :
+
+### Fréquentation et profil du public
+
+Un festival de 2 000 personnes n'a pas le même potentiel qu'un événement de 20 000 visiteurs. Mais la fréquentation brute ne suffit pas — vérifiez :
+- Le profil démographique (familles, jeunes, CSP+, étudiants ?)
+- La durée de présence sur site (les festivaliers qui dorment sur place dépensent 2 à 3 fois plus)
+- La présence d'autres food trucks concurrents sur le même type de cuisine
+
+### Le rapport droits de place / fréquentation
+
+Calculez le **coût par visiteur potentiel** : droits de place ÷ fréquentation annoncée. Un ratio inférieur à 0,20 EUR par visiteur est favorable. Au-delà de 0,50 EUR, soyez très prudent.
+
+### La logistique proposée par l'organisateur
+
+Un bon organisateur vous fournit :
+- Un emplacement délimité et sécurisé
+- Un accès eau et électricité (ou vous prévient à l'avance que vous devrez être autonome)
+- Un positionnement sur le plan avec visibilité optimale
+- Des informations sur les autres restaurateurs présents
+
+Méfiez-vous des organisateurs qui ne peuvent pas répondre à ces questions avant votre engagement.
+
+### L'historique de l'événement
+
+Un festival qui en est à sa 5ème édition avec des retours positifs vaut mieux qu'une première édition. Cherchez des avis d'autres food truckers qui y ont participé — les groupes Facebook et forums spécialisés regorgent de ces retours d'expérience.
+
+### L'adéquation avec votre concept
+
+Votre concept food truck correspond-il au public attendu ? Un burger gourmet à 14 EUR sera bien reçu dans un festival de musique électro-pop mais difficile à vendre dans une fête agricole. Un sandwich copieux à 8 EUR peut à l'inverse cartonner là où un concept premium échoue.
+
+## Étape 2 : Calculer votre seuil de rentabilité avant de vous engager
+
+C'est l'étape que la majorité des food truckers sautent — et c'est souvent la raison de leurs déceptions.
+
+### Les coûts festival à intégrer
+
+**Coûts fixes :**
+- Droits de place (forfait ou % CA)
+- Déplacement et carburant
+- Hébergement si le festival est loin (comptez 50–120 EUR/nuit)
+- Assurance complémentaire événementiel
+
+**Coûts variables :**
+- Stock supplémentaire (estimez un volant de 20% au-dessus de vos prévisions)
+- Salaires extra (personnel supplémentaire pour tenir la cadence)
+- Consommables (emballages, serviettes, gants — prévoyez large)
+- Pertes liées au gaspillage si vous avez mal anticipé
+
+### Le calcul du CA minimum
+
+Formule : **CA min = total des coûts festival ÷ marge brute moyenne**
+
+Exemple concret :
+- Droits de place : 900 EUR
+- Stock supplémentaire : 1 400 EUR
+- 2 extras × 2 jours × 80 EUR = 320 EUR
+- Carburant et déplacement : 180 EUR
+- **Total coûts festival : 2 800 EUR**
+
+Avec une marge brute de 68% : CA minimum = 2 800 ÷ 0,68 = **4 118 EUR pour être à l'équilibre**
+
+Si vous estimez faire 350 couverts sur 2 jours avec un ticket moyen de 13 EUR → 4 550 EUR de CA. Vous gagnez environ **430 EUR nets** pour 2 jours de travail intensif. Est-ce que ça vaut le coup ? C'est votre décision — au moins elle est éclairée.
+
+## Étape 3 : Préparer l'opérationnel 3 semaines avant
+
+La préparation d'un service en festival débute bien avant le jour J. Voici votre planning de préparation idéal.
+
+### J-21 : Confirmations et réservations
+
+- Confirmer votre inscription auprès de l'organisateur et obtenir le contrat écrit
+- Réserver l'hébergement si nécessaire
+- Planifier vos besoins en personnel supplémentaire et commencer le recrutement
+- Informer vos fournisseurs habituels de votre commande festival (certains ont besoin d'un préavis)
+
+### J-14 : Menu et stock
+
+- **Arrêtez votre menu festival** : idéalement 4 à 6 références, toutes rapides à exécuter
+- Calculez vos besoins en stock par référence sur la durée du festival (utilisez vos données de vente FoodTracks comme base)
+- Passez vos commandes fournisseurs avec une marge de sécurité de 15 à 20%
+- Préparez vos fiches techniques festival avec les quantités de pré-production
+
+### J-7 : Logistique et matériel
+
+- Vérifiez l'état de votre matériel (extincteur, réfrigération, groupe électrogène)
+- Préparez vos consommables (emballages, serviettes, gants en quantité festival)
+- Testez votre connectivité SumUp sur réseau 4G (le Wi-Fi des festivals est souvent saturé)
+- Briefez votre équipe sur le menu festival, les prix et les procédures accélérées
+
+### J-2 : Pré-production
+
+- Réalisez le maximum de pré-production possible : marinades, sauces, découpe des légumes
+- Vérifiez vos stocks avec une check-list précise
+- Chargez le camion et vérifiez la chaîne du froid
+
+## Étape 4 : Optimiser votre service sur place
+
+Une fois sur site, votre objectif est simple : **servir le plus de clients possible, le plus vite possible, sans sacrifier la qualité**.
+
+### La vitesse de service : votre priorité absolue
+
+En festival, une file d'attente de plus de 10 minutes dissuade les clients potentiels. Pour accélérer :
+
+- **Pré-packaging** : condiments, emballages ouverts, garnitures prêtes à l'emploi
+- **Division des postes** : un poste chaud, un poste assemblage/dressage, un poste encaissement
+- **Communication interne** : système simple de bons de commande ou d'écran de cuisine pour éviter les erreurs
+- **Menu en vitesse de croisière** : si un produit ralentit la chaîne, envisagez de le suspendre temporairement
+
+### Gestion des stocks en temps réel
+
+C'est là que FoodTracks fait la différence. En connectant vos ventes SumUp en direct, vous savez à tout moment :
+- Quel produit se vend le mieux
+- Quels ingrédients vous allez manquer
+- Votre CA en cours par rapport à votre objectif journalier
+
+Si vous voyez que les ventes d'un produit explosent, vous pouvez ajuster votre pré-production en fin de journée avant que le stock ne soit épuisé le lendemain.
+
+### Gérer les files et l'expérience client
+
+Une file bien gérée est une file qui avance. Quelques astuces :
+- **Affichage clair du menu** avec photos et prix (réduit le temps de décision à la caisse)
+- **Prise de commande en file** : un extra qui prend les commandes pendant que le client attend accélère considérablement le flux
+- **Communication proactive** : annoncez les ruptures de produits avant que le client arrive à la caisse
+
+## Étape 5 : Clôturer le festival et analyser vos résultats
+
+Le festival se termine — le travail analytique commence.
+
+### La clôture physique
+
+- Inventoriez vos stocks restants immédiatement (avant tout rangement)
+- Nettoyez et désinfectez le camion conformément à vos protocoles HACCP
+- Notez les incidents ou problèmes rencontrés pendant que c'est frais
+- Récupérez les avis de vos clients sur place si possible (QR code vers Google My Business)
+
+### L'analyse post-festival
+
+C'est l'étape que la plupart des food truckers négligent — et pourtant c'est elle qui fait progresser.
+
+Avec vos données FoodTracks, analysez :
+
+**Performance commerciale :**
+- CA total vs objectif
+- Ticket moyen réel vs estimé
+- Nombre de couverts par demi-journée
+- Top 3 produits vendus
+
+**Performance opérationnelle :**
+- Taux de gaspillage (stock acheté - stock vendu - stock restant)
+- Coût matière réel vs prévisionnel
+- Temps de service moyen (si vous avez pu le chronométrer)
+
+**Rentabilité nette :**
+- Bénéfice net après tous les coûts festival
+- Rentabilité par heure travaillée (vous et votre équipe)
+- Comparaison avec un week-end classique sur vos emplacements habituels
+
+### La décision de retour
+
+Sur la base de cette analyse, vous pouvez décider avec data à l'appui si ce festival mérite d'être reconduit l'année prochaine, et quelles améliorations apporter (menu, prix, personnel, position sur le site).
+
+## Les erreurs les plus fréquentes en festival
+
+### Sous-estimer les coûts indirects
+
+Le droit de place est visible, mais beaucoup d'autres coûts sont invisibles : usure accélérée du matériel, fatigue de l'équipe (et son impact sur la qualité), le temps passé à la préparation et au transport. Intégrez-les tous dans votre calcul.
+
+### Garder un menu trop large
+
+Un menu de 12 références en festival, c'est la garantie de ralentir votre service, d'augmenter votre gaspillage et de désorganiser votre équipe. Choisissez 4 à 6 incontournables et travaillez-les à la perfection.
+
+### Ne pas prévoir de back-up personnel
+
+Un extra qui appelle malade le matin du festival, c'est une catastrophe. Ayez toujours un contact de secours — un food trucker ami, un étudiant en restauration — que vous pouvez appeler en urgence.
+
+### Ignorer la logistique d'accès au site
+
+Certains festivals ont des règles strictes sur les horaires d'accès et de sortie des véhicules. Arrivez la veille si possible pour repérer votre emplacement, tester votre branchement électrique et organiser votre camion en conditions réelles.
+
+## Comment FoodTracks vous accompagne en festival
+
+FoodTracks est conçu pour les food truckers en mobilité. Pendant un festival :
+
+- **Suivi des ventes en direct** via SumUp : vous connaissez votre CA à la minute
+- **Alertes de stock** : FoodTracks calcule vos consommations théoriques et vous alerte quand vous approchez d'une rupture
+- **Rapport post-service automatique** : à la fermeture, vous avez un bilan complet CA/coût matière/marge
+- **Commande fournisseur** : passez votre commande de ravitaillement J+1 depuis votre téléphone en fin de soirée
+
+Pour compléter cette approche, lisez aussi notre guide sur [la planification de la semaine food truck](/fr/blog/planning-semaine-food-truck) et notre article sur [la tarification de votre menu](/fr/blog/fixer-prix-menu-food-truck).
+
+[Essayez FoodTracks gratuitement →](/fr/pricing)
+
+**À lire aussi :** [Food truck événementiel et traiteur](/fr/blog/food-truck-evenementiel-traiteur) · [Trouver les meilleurs emplacements](/fr/blog/trouver-meilleurs-emplacements-food-truck) · [Optimiser vos marges](/fr/blog/optimiser-marges-food-truck-analyse-donnees)`,
+      en: `## Why Festivals Are Both an Opportunity and a Trap for Food Trucks
+
+A major music festival, a food market or a village fair: these events are the stuff of many food truckers' dreams. Pack a maximum of customers into one location for two or three days, with queues forming naturally. In theory, it is the perfect recipe.
+
+In practice, many food truckers return from a festival exhausted, with wasted stock, wages paid at a loss and disappointing net profits — or an outright loss. **The difference between success and failure at a festival comes down to preparation, not luck.**
+
+This guide gives you the complete method, from selecting the right festival to analysing the results afterwards.
+
+## Step 1: Selecting the Right Festivals
+
+Not all festivals are equal. Before applying, evaluate each event against these 5 criteria.
+
+### Attendance and Audience Profile
+
+A 2,000-person festival has different potential from a 20,000-visitor event. But raw attendance is not enough — check:
+- The demographic profile (families, young adults, high earners, students?)
+- How long attendees stay on site (festival-goers who sleep on site spend 2 to 3 times more)
+- The presence of competing food trucks serving the same cuisine type
+
+### The Ratio of Pitch Fee to Attendance
+
+Calculate the **cost per potential visitor**: pitch fee ÷ announced attendance. A ratio below €0.20 per visitor is favourable. Above €0.50, be very cautious.
+
+### The Logistics Provided by the Organiser
+
+A good organiser provides:
+- A clearly defined and secured pitch
+- Access to water and electricity (or clearly tells you in advance that you must be self-sufficient)
+- A visible position on the site map
+- Information on other food vendors present
+
+Be wary of organisers who cannot answer these questions before you commit.
+
+### The Event's Track Record
+
+A festival in its fifth edition with positive reviews beats a first-time event. Look for feedback from food truckers who have participated — Facebook groups and specialist forums are full of this kind of first-hand experience.
+
+### The Fit With Your Concept
+
+Does your food truck concept match the expected audience? A gourmet burger at €14 will land well at an electro-pop music festival but be a tough sell at a rural agricultural fair. A hearty sandwich at €8 can conversely do brilliantly where a premium concept struggles.
+
+## Step 2: Calculate Your Break-Even Point Before Committing
+
+This is the step the majority of food truckers skip — and it is often the reason for their disappointment.
+
+### Festival Costs to Include
+
+**Fixed costs:**
+- Pitch fee (flat rate or % of revenue)
+- Travel and fuel
+- Accommodation if the festival is far away (budget €50–€120 per night)
+- Supplementary event insurance
+
+**Variable costs:**
+- Extra stock (plan a 20% buffer above your forecasts)
+- Extra staff wages (additional personnel to handle the pace)
+- Consumables (packaging, napkins, gloves — plan generously)
+- Wastage losses if you have misjudged demand
+
+### The Minimum Revenue Calculation
+
+Formula: **Minimum revenue = total festival costs ÷ average gross margin**
+
+Concrete example:
+- Pitch fee: €900
+- Extra stock: €1,400
+- 2 extras × 2 days × €80 = €320
+- Fuel and travel: €180
+- **Total festival costs: €2,800**
+
+With a gross margin of 68%: minimum revenue = €2,800 ÷ 0.68 = **€4,118 to break even**
+
+If you estimate 350 covers over 2 days at an average spend of €13 → €4,550 in revenue. You make roughly **€430 net** for 2 days of intensive work. Is it worth it? That is your call — at least it is an informed one.
+
+## Step 3: Prepare the Operation 3 Weeks in Advance
+
+Festival preparation begins well before the day itself. Here is your ideal preparation timeline.
+
+### D-21: Confirmations and Bookings
+
+- Confirm your registration with the organiser and obtain the written contract
+- Book accommodation if needed
+- Plan your extra staffing needs and start recruiting
+- Inform your regular suppliers of your festival order (some need advance notice)
+
+### D-14: Menu and Stock
+
+- **Finalise your festival menu**: ideally 4 to 6 items, all fast to execute
+- Calculate your stock needs per item for the duration of the festival (use your FoodTracks sales data as a baseline)
+- Place supplier orders with a 15–20% safety buffer
+- Prepare your festival recipe sheets with pre-production quantities
+
+### D-7: Logistics and Equipment
+
+- Check the condition of your equipment (fire extinguisher, refrigeration, generator)
+- Prepare your consumables (packaging, napkins, gloves in festival quantities)
+- Test your SumUp connectivity on 4G (festival Wi-Fi is often saturated)
+- Brief your team on the festival menu, prices and accelerated procedures
+
+### D-2: Pre-Production
+
+- Complete as much pre-production as possible: marinades, sauces, vegetable prep
+- Verify your stocks with a precise checklist
+- Load the truck and check the cold chain
+
+## Step 4: Optimise Your Service On Site
+
+Once on site, your goal is simple: **serve as many customers as possible, as fast as possible, without compromising quality**.
+
+### Service Speed: Your Absolute Priority
+
+At a festival, a queue longer than 10 minutes deters potential customers. To speed things up:
+
+- **Pre-packaging**: open condiments, prepared packaging, garnishes ready to go
+- **Station division**: one hot station, one assembly/plating station, one payment station
+- **Internal communication**: a simple ticket system or kitchen display screen to avoid errors
+- **Menu at cruising speed**: if one item slows the line, consider temporarily suspending it
+
+### Real-Time Stock Management
+
+This is where FoodTracks makes the difference. By connecting your SumUp sales live, you know at any moment:
+- Which product is selling fastest
+- Which ingredients you are running short on
+- Your live revenue against your daily target
+
+If you see one item selling faster than expected, you can adjust your pre-production at the end of the day before stock runs out the following morning.
+
+### Managing Queues and the Customer Experience
+
+A well-managed queue is a moving queue. A few tips:
+- **Clear menu display** with photos and prices (reduces decision time at the counter)
+- **In-queue order taking**: an extra staff member taking orders while customers wait significantly speeds up flow
+- **Proactive communication**: announce product run-outs before the customer reaches the counter
+
+## Step 5: Close the Festival and Analyse Your Results
+
+The festival ends — the analytical work begins.
+
+### Physical Close-Down
+
+- Inventory your remaining stock immediately (before any tidying up)
+- Clean and sanitise the truck in accordance with your HACCP procedures
+- Note any incidents or problems while they are still fresh
+- Collect customer reviews on site if possible (QR code to your Google Business Profile)
+
+### Post-Festival Analysis
+
+This is the step most food truckers neglect — yet it is the one that drives improvement.
+
+With your FoodTracks data, analyse:
+
+**Commercial performance:**
+- Total revenue vs target
+- Actual average spend vs estimate
+- Number of covers per half-day
+- Top 3 best-selling items
+
+**Operational performance:**
+- Waste rate (stock purchased – stock sold – stock remaining)
+- Actual food cost vs projected
+- Average service time (if you were able to track it)
+
+**Net profitability:**
+- Net profit after all festival costs
+- Profitability per hour worked (you and your team)
+- Comparison with a regular weekend on your usual pitches
+
+### The Return Decision
+
+Based on this analysis, you can decide with real data whether this festival deserves a return next year, and what improvements to make (menu, pricing, staffing, position on site).
+
+## The Most Common Mistakes at Festivals
+
+### Underestimating Indirect Costs
+
+The pitch fee is visible, but many other costs are not: accelerated equipment wear, team fatigue (and its impact on quality), the time spent on preparation and transport. Factor them all into your calculation.
+
+### Keeping Too Large a Menu
+
+A 12-item menu at a festival is a guaranteed recipe for slowing your service, increasing waste and disorganising your team. Choose 4 to 6 signature items and execute them perfectly.
+
+### Not Planning a Backup Staff Member
+
+An extra who calls in sick the morning of the festival is a disaster. Always have an emergency contact — a food trucker friend, a catering student — you can call at short notice.
+
+### Ignoring Site Access Logistics
+
+Some festivals have strict rules on vehicle access and exit times. Arrive the evening before if possible to locate your pitch, test your electrical connection and organise your truck under real conditions.
+
+## How FoodTracks Supports You at Festivals
+
+FoodTracks is built for food truckers on the move. During a festival:
+
+- **Live sales tracking** via SumUp: you know your revenue to the minute
+- **Stock alerts**: FoodTracks calculates your theoretical consumption and alerts you as you approach a stockout
+- **Automatic end-of-service report**: at closing time you have a complete revenue/food cost/margin summary
+- **Supplier ordering**: place your D+1 resupply order from your phone at the end of the evening
+
+To complement this approach, also read our guide on [food truck weekly planning](/en/blog/planning-semaine-food-truck) and our article on [setting your menu prices](/en/blog/fixer-prix-menu-food-truck).
+
+[Try FoodTracks for free →](/en/pricing)
+
+**Also read:** [Food Truck Catering and Events](/en/blog/food-truck-evenementiel-traiteur) · [Finding the Best Pitches](/en/blog/trouver-meilleurs-emplacements-food-truck) · [Optimising Your Margins](/en/blog/optimiser-marges-food-truck-analyse-donnees)`,
+    },
+    relatedSlugs: [
+      "food-truck-evenementiel-traiteur",
+      "trouver-meilleurs-emplacements-food-truck",
+      "planning-semaine-food-truck",
+      "fixer-prix-menu-food-truck",
+    ],
+  },
 ];
 
 export function getArticleBySlug(slug: string): BlogArticle | undefined {
