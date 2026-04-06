@@ -17361,6 +17361,394 @@ To complement this approach, also read our guide on [food truck weekly planning]
       "fixer-prix-menu-food-truck",
     ],
   },
+  {
+    slug: "contrats-entreprises-food-truck",
+    title: {
+      fr: "Décrocher des contrats entreprises pour son food truck : le guide complet 2026",
+      en: "How to Land Corporate Contracts for Your Food Truck: The Complete 2026 Guide",
+    },
+    excerpt: {
+      fr: "Découvrez comment prospecter les entreprises, rédiger une offre de restauration d'entreprise convaincante et sécuriser des contrats récurrents qui stabilisent votre chiffre d'affaires.",
+      en: "Learn how to prospect companies, craft a compelling corporate catering offer, and secure recurring contracts that stabilise your food truck revenue.",
+    },
+    category: { fr: "Stratégie", en: "Strategy" },
+    date: "2026-04-06",
+    readTime: 11,
+    keywords: [
+      "food truck contrat entreprise",
+      "restauration entreprise food truck",
+      "déjeuner entreprise food truck France",
+      "prospecter entreprises food truck",
+      "food truck b2b",
+      "corporate catering food truck France",
+    ],
+    heroImage: "/blog/food-truck-festival.png",
+    keyTakeaways: {
+      fr: [
+        "Un contrat entreprise garanti 20 à 50 couverts par service — c'est une base de revenus récurrente qui compense les jours creux.",
+        "La prospection directe (email + visite physique) reste la méthode la plus efficace pour décrocher un premier RDV.",
+        "Une offre entreprise doit inclure : menu adapté, prix négocié, ponctualité garantie et facturation simplifiée.",
+        "FoodTracks vous aide à calculer votre seuil de rentabilité par service pour ne jamais accepter un contrat à perte.",
+      ],
+      en: [
+        "A corporate contract guarantees 20–50 covers per service — a recurring revenue base that offsets slow days.",
+        "Direct outreach (email + in-person visit) remains the most effective way to land a first meeting.",
+        "A corporate offer must include: tailored menu, negotiated pricing, punctuality guarantee, and simplified invoicing.",
+        "FoodTracks helps you calculate your break-even per service so you never accept a contract at a loss.",
+      ],
+    },
+    faqItems: [
+      {
+        question: {
+          fr: "Combien facturer un repas d'entreprise en food truck ?",
+          en: "How much should I charge for a corporate food truck meal?",
+        },
+        answer: {
+          fr: "Le prix moyen d'un repas corporate food truck en France se situe entre 10 € et 18 € par personne selon le menu et le niveau de service. Intégrez toujours le déplacement, le temps de montage et votre seuil de rentabilité minimum avant de proposer un tarif.",
+          en: "The average price for a corporate food truck meal in France ranges from €10 to €18 per person depending on the menu and service level. Always factor in travel, setup time, and your minimum break-even before quoting.",
+        },
+      },
+      {
+        question: {
+          fr: "Faut-il un contrat écrit pour faire de la restauration d'entreprise ?",
+          en: "Do I need a written contract for corporate catering?",
+        },
+        answer: {
+          fr: "Oui, toujours. Un bon de commande ou un contrat simple suffit, mais il doit préciser la date, le lieu, le nombre de couverts minimum, le menu, le prix et les conditions d'annulation. Cela vous protège en cas de désistement de dernière minute.",
+          en: "Yes, always. A simple purchase order or contract is enough, but it must state the date, location, minimum covers, menu, price, and cancellation terms. This protects you against last-minute cancellations.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment trouver des entreprises à prospecter pour son food truck ?",
+          en: "How do I find companies to prospect for my food truck?",
+        },
+        answer: {
+          fr: "Commencez par les zones d'activités et parcs d'entreprises autour de vos emplacements habituels. Google Maps, LinkedIn et les annuaires de chambres de commerce sont d'excellents points de départ. Visez les entreprises de 20 à 200 salariés sans restaurant d'entreprise à proximité.",
+          en: "Start with business parks and industrial zones near your regular pitches. Google Maps, LinkedIn, and chamber of commerce directories are great starting points. Target companies with 20–200 employees who have no nearby company canteen.",
+        },
+      },
+      {
+        question: {
+          fr: "Puis-je me faire référencer sur les plateformes de restauration d'entreprise ?",
+          en: "Can I get listed on corporate catering platforms?",
+        },
+        answer: {
+          fr: "Oui. Des plateformes comme FoodChéri, PopChef ou Nestor (selon les villes) permettent aux food trucks de proposer leurs services à des entreprises abonnées. C'est une bonne porte d'entrée pour obtenir vos premiers clients corporate sans prospecter seul.",
+          en: "Yes. Platforms like FoodChéri, PopChef, or Nestor (depending on the city) let food trucks offer their services to subscribed companies. This is a good entry point to land your first corporate clients without solo prospecting.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment fidéliser une entreprise cliente sur le long terme ?",
+          en: "How do I retain a corporate client long-term?",
+        },
+        answer: {
+          fr: "Régularité, ponctualité et renouvellement du menu sont les trois piliers. Proposez un menu renouvelé toutes les 4 à 6 semaines, envoyez un récapitulatif mensuel de vos passages et restez joignable pour ajuster les quantités. Un client entreprise satisfait reste en moyenne 14 mois.",
+          en: "Consistency, punctuality, and menu rotation are the three pillars. Refresh your menu every 4–6 weeks, send a monthly summary of your visits, and stay reachable to adjust quantities. A satisfied corporate client stays for an average of 14 months.",
+        },
+      },
+    ],
+    content: {
+      fr: `## Pourquoi les contrats entreprises changent la donne pour votre food truck
+
+Vendre à la rue, c'est excitant — mais c'est aussi incertain. La météo, le flux piéton, la concurrence : autant de variables que vous ne maîtrisez pas. Les **contrats de restauration d'entreprise** (ou « corporate catering »), eux, offrent quelque chose de rare dans ce métier : **de la visibilité sur vos revenus**.
+
+Un seul contrat avec une PME de 50 salariés peut vous garantir **25 à 40 couverts par passage**, à un tarif négocié à l'avance. Multipliez par 2 ou 3 passages par semaine, et vous venez de sécuriser une base de chiffre d'affaires stable qui compense les jours creux.
+
+### Le marché en France : une opportunité sous-exploitée
+
+En France, **moins de 30 % des food truckers** font activement de la prospection B2B. Pourtant, le marché est immense : on compte plus de **3 millions d'entreprises** sur le territoire, dont une large majorité n'a pas accès à un restaurant d'entreprise ou à une cafétéria.
+
+Les parcs d'activités en périphérie des grandes villes, les zones industrielles, les campus d'entreprises — autant de territoires où vos concurrents ne vont pas, et où vous pouvez vous positionner comme **le partenaire déjeuner de référence**.
+
+## Identifier les bons prospects
+
+### Le profil idéal de l'entreprise cliente
+
+Toutes les entreprises ne sont pas de bons clients. Ciblez en priorité :
+
+- **20 à 200 salariés** — assez grande pour garantir un volume, assez petite pour que la décision soit rapide
+- **Pas de restaurant d'entreprise** ni de prestataire actuel (ou un prestataire insatisfaisant)
+- **Des horaires de bureau classiques** (9h-18h) avec une pause déjeuner réelle
+- **Situées dans un rayon de 15 à 30 km** de votre zone d'activité habituelle
+
+### Où les trouver
+
+- **Google Maps** : tapez « zone d'activités [votre ville] » et listez les entreprises visibles
+- **LinkedIn** : cherchez des décideurs RH ou office managers dans votre secteur géographique
+- **Chambres de commerce et d'industrie (CCI)** : elles publient des annuaires d'entreprises par zone
+- **Portails locaux** : certaines métropoles ont des répertoires d'entreprises accessibles gratuitement
+- **Bouche à oreille** : un client satisfait peut vous recommander à ses voisins de parc
+
+## Construire votre offre corporate
+
+### Ce que l'entreprise attend de vous
+
+Un dirigeant ou un RH qui accepte de vous recevoir a une question principale en tête : **est-ce que ce food truck sera fiable ?** Vous devez rassurer sur :
+
+- **La ponctualité** : arriver à l'heure, toujours, sans exception
+- **La régularité du menu** : pas le même plat deux semaines de suite
+- **La qualité constante** : ce que mange le directeur doit être identique à ce que mange l'employé
+- **La facturation simplifiée** : facture mensuelle groupée, pas un ticket par passage
+
+### Structurer votre offre en 3 niveaux
+
+Proposez systématiquement **3 formules** pour laisser le choix et augmenter votre panier moyen :
+
+1. **Formule Standard** — plat du jour + boisson : 11 à 13 €
+2. **Formule Complète** — entrée + plat + dessert + boisson : 14 à 17 €
+3. **Formule Premium** — menu personnalisé, service à table optionnel : à partir de 18 €
+
+Cette structure permet à l'entreprise de proposer à ses salariés **plusieurs niveaux de budget** tout en vous assurant un panier moyen élevé.
+
+### La question du minimum garanti
+
+Demandez toujours un **minimum garanti de couverts** (généralement 15 à 20 pour un premier contrat). Cela vous permet de calculer votre seuil de rentabilité et d'éviter de vous déplacer pour 8 repas. En échange, vous pouvez offrir un tarif légèrement préférentiel.
+
+Avec **FoodTracks**, vous pouvez calculer précisément votre coût de revient par repas et votre point mort par service, pour savoir exactement à partir de combien de couverts le déplacement est rentable.
+
+## La prospection : comment approcher les entreprises
+
+### L'email d'approche : court, concret, personnalisé
+
+Oubliez les longs emails de présentation. Voici un template qui fonctionne :
+
+**Objet :** Déjeuner au bureau pour vos équipes — [Votre nom du food truck]
+
+*Bonjour [Prénom],*
+
+*Je suis [prénom], gérant du food truck [Nom] basé à [ville]. Nous proposons des déjeuners [cuisine] directement dans les zones d'entreprises.*
+
+*Plusieurs sociétés autour de [nom du parc/zone] nous font confiance chaque semaine. Je serais ravi de vous proposer un service d'essai gratuit pour vos équipes — sans engagement.*
+
+*Disponible pour en discuter rapidement ?*
+
+*Cordialement, [Prénom]*
+
+### Le suivi : 80 % des contrats se concluent après relance
+
+Envoyez votre email, attendez **5 jours ouvrés**, puis relancez une fois. Si pas de réponse, passez à un **contact physique** : garez-vous à l'entrée de la zone d'activités et distribuez vos flyers directement aux salariés à l'heure du déjeuner. C'est souvent le meilleur moyen de déclencher une conversation avec un décideur.
+
+### La visite découverte : offrir un repas gratuit
+
+Proposez systématiquement un **service d'essai gratuit** (ou à prix réduit) pour les 10 à 20 premiers repas. C'est votre meilleure carte de visite. Un repas gratuit coûte peu, mais les retombées peuvent valoir des mois de contrat.
+
+## Formaliser le contrat
+
+### Les éléments indispensables
+
+Ne jamais démarrer un service corporate sans un accord écrit, même simple. Votre document doit préciser :
+
+- **Fréquence** : nombre de passages par semaine/mois
+- **Lieu exact** et conditions de stationnement
+- **Plage horaire** de service
+- **Nombre minimum garanti** de couverts
+- **Tarif unitaire** et modalités de facturation
+- **Conditions d'annulation** (délai de prévenance, pénalités)
+
+Un modèle de bon de commande simple suffit pour les premiers contrats. Consultez un juriste ou votre CCI pour des contrats plus complexes.
+
+### La facturation mensuelle : un argument de vente
+
+Proposer une **facturation mensuelle groupée** est un argument fort auprès des services comptables. Cela vous demande un peu d'organisation, mais c'est souvent décisif pour convaincre une entreprise de taille moyenne. FoodTracks vous aide à suivre vos passages et à préparer vos récapitulatifs mensuels facilement.
+
+## Fidéliser et développer votre portefeuille client B2B
+
+### Renouveler le menu régulièrement
+
+C'est le premier critère de satisfaction des salariés : ne pas manger la même chose chaque semaine. Planifiez un **renouvellement de menu toutes les 4 à 6 semaines**, avec un fond de carte stable (vos bestsellers) et des plats du moment qui tournent.
+
+### Demander des retours
+
+Après chaque mois, envoyez un email simple à votre contact entreprise :
+- *Qu'est-ce que les équipes ont préféré ce mois-ci ?*
+- *Y a-t-il des ajustements à faire (horaires, menu, quantités) ?*
+
+Cette démarche proactive rassure l'entreprise et vous positionne comme un **partenaire sérieux**, pas un simple prestataire.
+
+### Développer par recommandation
+
+Un client B2B satisfait est votre meilleur commercial. Demandez-lui explicitement s'il peut vous **recommander à d'autres entreprises** de son parc ou de son réseau. Proposez un geste commercial (un repas offert par recommandation transformée) pour encourager le bouche-à-oreille.
+
+## Les plateformes de mise en relation B2B
+
+Si la prospection directe vous intimide, des plateformes existent pour vous mettre en relation avec des entreprises :
+
+- **FoodChéri / Nestor** : plateformes de déjeuner d'entreprise présentes dans plusieurs villes françaises
+- **PopChef** : service de déjeuner pour entreprises avec des food trucks partenaires
+- **Too Good To Go Pro** : pour écouler vos invendus auprès de salariés
+- **Les marchés de producteurs d'entreprise** : certains grands groupes organisent des marchés internes — contactez leur service RH ou RSE
+
+Ces plateformes prennent une commission (généralement 15 à 25 %), mais elles gèrent la prospection à votre place et vous apportent des volumes garantis.
+
+## Suivre la rentabilité de vos contrats avec FoodTracks
+
+Tous les contrats ne se valent pas. Un service loin de votre zone habituelle peut sembler lucratif mais s'avérer déficitaire une fois le carburant, le temps de trajet et le minimum garanti non atteint calculés.
+
+Avec **FoodTracks**, vous pouvez :
+- **Enregistrer chaque emplacement** (y compris vos sites corporate) et comparer leur rentabilité réelle
+- **Calculer votre coût de revient** par repas en intégrant vos factures fournisseurs
+- **Suivre vos ventes via SumUp** pour avoir les chiffres exacts de chaque passage
+- **Identifier les créneaux les plus rentables** et décider quels contrats renouveler
+
+[Essayez FoodTracks gratuitement →](/fr/pricing)
+
+**À lire aussi :** [Fixer les prix de son menu food truck](/fr/blog/fixer-prix-menu-food-truck) · [Trouver les meilleurs emplacements](/fr/blog/trouver-meilleurs-emplacements-food-truck) · [Food truck en événementiel](/fr/blog/food-truck-evenementiel-traiteur)`,
+
+      en: `## Why Corporate Contracts Are a Game-Changer for Your Food Truck
+
+Street selling is exciting — but it's also unpredictable. Weather, footfall, competition: variables you can't control. **Corporate catering contracts**, on the other hand, offer something rare in this industry: **revenue visibility**.
+
+A single contract with a 50-employee SME can guarantee you **25 to 40 covers per visit**, at a pre-negotiated rate. Multiply that by 2 or 3 visits per week, and you've just secured a stable revenue base that compensates for slow days.
+
+### The French Market: An Underexploited Opportunity
+
+In France, **fewer than 30% of food truckers** actively pursue B2B prospecting. Yet the market is enormous: there are more than **3 million businesses** across the country, the vast majority of which have no access to a company canteen or cafeteria.
+
+Business parks on the outskirts of major cities, industrial zones, corporate campuses — these are territories your competitors avoid, where you can position yourself as **the go-to lunch partner**.
+
+## Identifying the Right Prospects
+
+### The Ideal Corporate Client Profile
+
+Not every company makes a good client. Prioritise:
+
+- **20 to 200 employees** — large enough for volume, small enough for fast decisions
+- **No company canteen** or current provider (or an unsatisfied one)
+- **Regular office hours** (9am–6pm) with a real lunch break
+- **Within 15–30 km** of your usual operating area
+
+### Where to Find Them
+
+- **Google Maps**: search "business park [your city]" and list the visible companies
+- **LinkedIn**: search for HR decision-makers or office managers in your geographic area
+- **Chambers of Commerce (CCI)**: they publish company directories by zone
+- **Local portals**: some metropolitan areas have freely accessible business directories
+- **Word of mouth**: a satisfied client can recommend you to their neighbours in the park
+
+## Building Your Corporate Offer
+
+### What the Company Expects from You
+
+A manager or HR professional who agrees to meet you has one main question: **can this food truck be relied upon?** You must reassure them on:
+
+- **Punctuality**: arrive on time, always, without exception
+- **Menu variety**: not the same dish two weeks in a row
+- **Consistent quality**: what the director eats must be identical to what the employee gets
+- **Simple invoicing**: a monthly grouped invoice, not a receipt per visit
+
+### Structuring Your Offer in 3 Tiers
+
+Always present **3 formulas** to give choice and increase your average spend:
+
+1. **Standard Formula** — dish of the day + drink: €11–13
+2. **Full Formula** — starter + main + dessert + drink: €14–17
+3. **Premium Formula** — customised menu, optional table service: from €18
+
+This structure allows the company to offer staff **multiple budget levels** while guaranteeing you a high average basket.
+
+### The Minimum Guarantee Question
+
+Always ask for a **minimum guaranteed cover count** (typically 15–20 for a first contract). This lets you calculate your break-even and avoid travelling for 8 meals. In exchange, you can offer a slightly preferential rate.
+
+With **FoodTracks**, you can precisely calculate your cost per meal and your break-even per service, so you know exactly how many covers make the trip worthwhile.
+
+## Prospecting: How to Approach Companies
+
+### The Outreach Email: Short, Concrete, Personalised
+
+Forget long introduction emails. Here's a template that works:
+
+**Subject:** Lunch at the office for your teams — [Your food truck name]
+
+*Hello [First name],*
+
+*I'm [first name], owner of [Food Truck Name] based in [city]. We provide [cuisine type] lunches directly at business parks.*
+
+*Several companies around [park/zone name] trust us every week. I'd love to offer your teams a free trial service — no commitment required.*
+
+*Available for a quick chat?*
+
+*Kind regards, [First name]*
+
+### Follow-up: 80% of Contracts Close After a Chase
+
+Send your email, wait **5 working days**, then follow up once. If no response, move to **physical contact**: park at the entrance to the business zone and hand out your flyers directly to employees at lunchtime. This is often the best way to spark a conversation with a decision-maker.
+
+### The Discovery Visit: Offering a Free Meal
+
+Always propose a **free (or reduced-price) trial service** for the first 10–20 meals. It's your best business card. A free meal costs little, but the returns can be worth months of contract.
+
+## Formalising the Contract
+
+### Essential Elements
+
+Never start a corporate service without a written agreement, even a simple one. Your document must specify:
+
+- **Frequency**: number of visits per week/month
+- **Exact location** and parking conditions
+- **Service time slot**
+- **Minimum guaranteed cover count**
+- **Unit rate** and invoicing terms
+- **Cancellation terms** (notice period, penalties)
+
+A simple purchase order template is enough for first contracts. Consult a lawyer or your CCI for more complex agreements.
+
+### Monthly Invoicing: A Sales Argument
+
+Offering a **grouped monthly invoice** is a strong argument with accounting departments. It requires a little organisation on your part, but it's often the deciding factor for mid-sized companies. FoodTracks helps you track your visits and prepare monthly summaries easily.
+
+## Retaining and Growing Your B2B Client Portfolio
+
+### Refresh the Menu Regularly
+
+This is employees' top satisfaction criterion: not eating the same thing every week. Plan a **menu refresh every 4–6 weeks**, with a stable backbone (your bestsellers) and rotating seasonal dishes.
+
+### Ask for Feedback
+
+After each month, send a simple email to your company contact:
+- *What did teams enjoy most this month?*
+- *Are there any adjustments needed (times, menu, quantities)?*
+
+This proactive approach reassures the company and positions you as a **serious partner**, not just a vendor.
+
+### Grow Through Referrals
+
+A satisfied B2B client is your best salesperson. Explicitly ask if they can **recommend you to other companies** in their park or network. Offer a commercial gesture (a free meal per successful referral) to encourage word of mouth.
+
+## B2B Matchmaking Platforms
+
+If direct prospecting feels daunting, platforms exist to connect you with companies:
+
+- **FoodChéri / Nestor**: corporate lunch platforms present in several French cities
+- **PopChef**: company lunch service with food truck partners
+- **Too Good To Go Pro**: to sell unsold stock to office workers
+- **Internal company markets**: some large groups organise internal markets — contact their HR or CSR department
+
+These platforms take a commission (typically 15–25%), but they handle prospecting for you and bring guaranteed volumes.
+
+## Tracking the Profitability of Your Contracts with FoodTracks
+
+Not all contracts are equal. A service far from your usual zone may look lucrative but prove unprofitable once fuel, travel time, and an unmet minimum guarantee are factored in.
+
+With **FoodTracks**, you can:
+- **Log each location** (including your corporate sites) and compare their real profitability
+- **Calculate your cost per meal** by integrating your supplier invoices
+- **Track sales via SumUp** to get exact figures for each visit
+- **Identify your most profitable slots** and decide which contracts to renew
+
+[Try FoodTracks for free →](/en/pricing)
+
+**Also read:** [Setting Your Food Truck Menu Prices](/en/blog/fixer-prix-menu-food-truck) · [Finding the Best Pitches](/en/blog/trouver-meilleurs-emplacements-food-truck) · [Food Truck Catering and Events](/en/blog/food-truck-evenementiel-traiteur)`,
+    },
+    relatedSlugs: [
+      "food-truck-evenementiel-traiteur",
+      "trouver-meilleurs-emplacements-food-truck",
+      "fixer-prix-menu-food-truck",
+      "optimiser-marges-food-truck-analyse-donnees",
+    ],
+  },
 ];
 
 export function getArticleBySlug(slug: string): BlogArticle | undefined {
