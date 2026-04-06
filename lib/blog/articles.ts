@@ -17749,6 +17749,877 @@ With **FoodTracks**, you can:
       "optimiser-marges-food-truck-analyse-donnees",
     ],
   },
+  {
+    slug: "comment-attirer-clients-food-truck",
+    title: {
+      fr: "Comment attirer des clients sur votre food truck : 10 stratégies efficaces",
+      en: "How to Attract Customers to Your Food Truck: 10 Proven Strategies",
+    },
+    excerpt: {
+      fr: "Découvrez 10 stratégies concrètes pour attirer plus de clients sur votre food truck : présence visuelle, réseaux sociaux, fidélisation, partenariats locaux et exploitation des données.",
+      en: "Discover 10 concrete strategies to attract more customers to your food truck: visual presence, social media, loyalty programmes, local partnerships and data-driven decisions.",
+    },
+    category: { fr: "Marketing", en: "Marketing" },
+    date: "2026-04-06",
+    readTime: 8,
+    keywords: [
+      "comment attirer des clients food truck",
+      "how to attract food truck customers",
+      "marketing food truck",
+      "fidélisation clients food truck",
+      "communication food truck",
+      "stratégie food truck",
+    ],
+    heroImage: "/blog/food-truck-festival.png",
+    keyTakeaways: {
+      fr: [
+        "Un food truck visible et identifiable (covering, logo, couleurs) génère jusqu'à 40 % de clients spontanés en plus.",
+        "Instagram et TikTok sont les canaux les plus efficaces pour créer une communauté locale autour de votre concept.",
+        "Choisir le bon emplacement au bon moment est la décision marketing la plus impactante que vous puissiez prendre.",
+        "Un programme de fidélité simple (carte tampon ou SMS) augmente la fréquence de visite de vos clients réguliers.",
+        "FoodTracks vous aide à identifier vos emplacements et horaires les plus rentables pour concentrer vos efforts là où ça compte.",
+      ],
+      en: [
+        "A visible and recognisable food truck (wrap, logo, colours) generates up to 40% more spontaneous customers.",
+        "Instagram and TikTok are the most effective channels for building a local community around your concept.",
+        "Choosing the right location at the right time is the single most impactful marketing decision you can make.",
+        "A simple loyalty programme (stamp card or SMS) increases visit frequency among your regular customers.",
+        "FoodTracks helps you identify your most profitable spots and time slots so you can focus your efforts where they matter most.",
+      ],
+    },
+    faqItems: [
+      {
+        question: {
+          fr: "Quelle est la meilleure stratégie pour attirer des clients sur un food truck qui vient d'ouvrir ?",
+          en: "What is the best strategy to attract customers to a newly opened food truck?",
+        },
+        answer: {
+          fr: "Pour un food truck qui débute, misez sur trois leviers : un covering accrocheur pour être reconnaissable immédiatement, une présence Instagram active avec des photos alléchantes avant même l'ouverture, et un emplacement stratégique à fort passage (marché, zone d'entreprises, événement local). Proposez une offre de lancement (tarif découverte ou portion gratuite) pour déclencher les premiers avis Google.",
+          en: "For a new food truck, focus on three levers: an eye-catching wrap so you're recognisable immediately, an active Instagram presence with mouth-watering photos even before opening, and a high-footfall strategic location (market, business zone, local event). Offer a launch promotion (discovery price or free portion) to generate your first Google reviews.",
+        },
+      },
+      {
+        question: {
+          fr: "Les réseaux sociaux sont-ils vraiment efficaces pour un food truck local ?",
+          en: "Are social media really effective for a local food truck?",
+        },
+        answer: {
+          fr: "Oui, à condition de publier régulièrement et localement. Instagram et TikTok permettent de toucher des milliers de personnes dans un rayon de quelques kilomètres grâce aux hashtags géolocalisés et aux reels. Un food truck actif sur les réseaux capte en moyenne 25 à 35 % de nouveaux clients venus « suite à un post ».",
+          en: "Yes, as long as you post regularly and locally. Instagram and TikTok allow you to reach thousands of people within a few kilometres thanks to geotagged hashtags and reels. A food truck active on social media captures on average 25–35% of new customers who came 'after seeing a post'.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment utiliser Google Business pour attirer plus de clients ?",
+          en: "How can I use Google Business to attract more customers?",
+        },
+        answer: {
+          fr: "Revendiquez et complétez votre fiche Google Business avec vos horaires, photos de vos plats, et répondez à tous les avis (même négatifs). Les recherches du type « food truck près de chez moi » affichent en priorité les fiches complètes et bien notées. Publiez vos emplacements de la semaine dans les posts Google pour que vos clients sachent où vous trouver.",
+          en: "Claim and complete your Google Business profile with your opening hours, food photos, and respond to all reviews (even negative ones). Searches like 'food truck near me' prioritise complete and well-rated profiles. Post your weekly locations in Google posts so customers know where to find you.",
+        },
+      },
+      {
+        question: {
+          fr: "Un programme de fidélité est-il rentable pour un food truck ?",
+          en: "Is a loyalty programme profitable for a food truck?",
+        },
+        answer: {
+          fr: "Absolument. Un client fidèle coûte 5 à 7 fois moins cher à conserver qu'un nouveau client à acquérir. Une simple carte tampon (1 repas offert pour 10 achetés) suffit à augmenter la fréquence de visite de 20 à 30 %. Les programmes SMS ou email permettent en plus de communiquer directement sur vos emplacements et promotions.",
+          en: "Absolutely. A loyal customer costs 5 to 7 times less to retain than a new customer to acquire. A simple stamp card (1 free meal for every 10 purchased) is enough to increase visit frequency by 20–30%. SMS or email programmes also let you communicate directly about your locations and promotions.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment trouver les meilleurs emplacements pour maximiser mes ventes ?",
+          en: "How do I find the best locations to maximise my sales?",
+        },
+        answer: {
+          fr: "L'emplacement idéal combine un fort trafic piéton, une faible concurrence directe et une clientèle correspondant à votre concept. Testez plusieurs spots, notez vos ventes et coûts pour chacun, et analysez les patterns sur 4 à 6 semaines. Avec FoodTracks, vous pouvez suivre la rentabilité de chaque emplacement en temps réel et identifier vos créneaux les plus profitables.",
+          en: "The ideal location combines high foot traffic, low direct competition, and a customer base that matches your concept. Test several spots, record your sales and costs for each, and analyse patterns over 4–6 weeks. With FoodTracks, you can track the profitability of each location in real time and identify your most profitable slots.",
+        },
+      },
+    ],
+    content: {
+      fr: `## Pourquoi attirer des clients reste le défi n°1 des food truckers
+
+Vous avez un concept solide, une cuisine délicieuse et un food truck impeccable. Pourtant, certains jours, les files d'attente restent courtes. La vérité ? **Avoir un bon produit ne suffit plus**. Dans un marché de plus en plus concurrentiel, attirer des clients demande une vraie stratégie — visible, régulière et multicanale.
+
+Ce guide vous présente **10 stratégies concrètes et actionnables** pour remplir votre comptoir, fidéliser votre clientèle et transformer votre food truck en destination incontournable.
+
+---
+
+## 1. Soignez votre identité visuelle et votre covering
+
+Votre food truck est votre meilleure publicité mobile. Avant même que vous ayez ouvert la fenêtre de service, les passants vous remarquent — ou ne vous remarquent pas.
+
+Un **covering professionnel** avec des couleurs vives, un logo mémorable et une typographie lisible peut générer jusqu'à **40 % de clients spontanés supplémentaires** par rapport à un véhicule banal. Investir dans votre identité visuelle, c'est investir dans votre acquisition client permanente.
+
+**Ce qui fonctionne :**
+- Des couleurs contrastées visibles à 50 mètres
+- Le nom du food truck lisible même en mouvement
+- Un visuel d'appel (photo de votre plat signature, slogan accrocheur)
+- Vos réseaux sociaux et un QR code vers votre menu ou programme fidélité
+
+Ne négligez pas non plus **la signalétique au sol** (panneau A, kakémono) et **l'éclairage** si vous travaillez en soirée.
+
+---
+
+## 2. Soyez actif sur Instagram et TikTok
+
+Les réseaux sociaux ne sont plus optionnels pour un food trucker ambitieux. Instagram et TikTok sont devenus les **moteurs de découverte locaux** les plus puissants pour votre activité.
+
+**Sur Instagram :**
+- Publiez 3 à 5 fois par semaine (photos de plats, coulisses, emplacements du jour)
+- Utilisez des hashtags locaux : #foodtruck[votre ville], #streetfood[région]
+- Géolocalisez chaque post à votre emplacement du jour
+- Stories quotidiennes pour annoncer où vous êtes
+
+**Sur TikTok :**
+- Les vidéos courtes de préparation de plats font des millions de vues
+- Un seul reel viral peut vous amener des centaines de nouveaux clients en quelques jours
+- Montrez votre personnalité : les clients achètent aussi chez vous parce qu'ils vous apprécient
+
+**Astuce FoodTracks :** Annoncez vos emplacements de la semaine sur vos stories le dimanche soir. Vos abonnés les plus fidèles planifieront leur pause déjeuner en conséquence.
+
+---
+
+## 3. Optimisez votre stratégie d'emplacement
+
+Le meilleur marketing du monde ne compensera jamais un mauvais emplacement. **Être au bon endroit, au bon moment, avec la bonne clientèle** est votre levier de croissance le plus puissant.
+
+**Les emplacements à fort potentiel :**
+- Marchés hebdomadaires et marchés de créateurs
+- Zones d'entreprises et parcs d'activités à l'heure du déjeuner
+- Abords d'universités et grandes écoles
+- Événements locaux (festivals, brocantes, fêtes de quartier)
+- Emplacements récurrents à heure fixe (les clients mémorisent votre planning)
+
+Testez chaque nouvel emplacement sur **4 à 6 semaines minimum** avant de conclure. Un spot peut être décevant le premier jour et excellent une fois que les clients ont intégré votre présence.
+
+Avec **FoodTracks**, vous pouvez enregistrer chaque emplacement, noter votre chiffre d'affaires et vos coûts par service, et identifier en quelques semaines vos spots les plus rentables.
+
+---
+
+## 4. Créez et entretenez votre fiche Google Business
+
+Quand quelqu'un cherche « food truck près de chez moi » ou « street food [votre ville] », est-ce que votre food truck apparaît ? Si vous n'avez pas de fiche Google Business complète et à jour, vous ratez des dizaines de clients chaque semaine.
+
+**Actions concrètes :**
+- Revendiquez votre fiche sur [Google Business Profile](https://business.google.com)
+- Ajoutez des photos de qualité de vos plats, de votre truck et de votre équipe
+- Renseignez vos horaires et mettez-les à jour dès qu'ils changent
+- Publiez des posts hebdomadaires avec vos emplacements du moment
+- **Répondez à chaque avis**, positif ou négatif, dans les 24 heures
+
+Les food trucks avec une fiche Google complète et bien notée (4,5+ étoiles) reçoivent en moyenne **3 fois plus de contacts** que ceux sans fiche.
+
+---
+
+## 5. Lancez un programme de fidélité
+
+Attirer un nouveau client coûte **5 à 7 fois plus cher** que de fidéliser un client existant. Un programme de fidélité simple est l'un des meilleurs retours sur investissement marketing disponibles.
+
+**Les formats qui fonctionnent :**
+- **Carte tampon physique** : 1 repas offert pour 10 achetés (simple, sans friction)
+- **Application de fidélité** (Fidme, Yollty) : suivi digital, notifications push
+- **Programme SMS** : envoyez un SMS de remerciement après le 5ᵉ achat avec un bon de réduction pour la prochaine visite
+
+**L'effet bonus :** un client avec une carte de fidélité en cours dépense en moyenne **15 à 20 % de plus** par visite pour maximiser ses points.
+
+---
+
+## 6. Faites du marketing par email et SMS
+
+L'email et le SMS restent les canaux les plus directs pour communiquer avec vos clients. Contrairement aux réseaux sociaux où l'algorithme décide qui voit quoi, **un SMS est lu dans les 3 minutes** dans 95 % des cas.
+
+**Comment collecter les contacts :**
+- Formulaire papier ou QR code sur votre comptoir
+- Inscription au programme de fidélité (numéro ou email obligatoire)
+- Concours ou jeu sur Instagram avec inscription par email
+
+**Quoi envoyer :**
+- Planning de la semaine (emplacements et horaires)
+- Nouvelles du menu ou plats saisonniers
+- Offres exclusives « abonnés » (réduction valable 48h)
+- Annulation ou changement d'emplacement de dernière minute
+
+Un SMS d'annonce d'emplacement envoyé à 500 abonnés peut générer **30 à 60 couverts supplémentaires** sur le service concerné.
+
+---
+
+## 7. Nouez des partenariats locaux
+
+Vous n'êtes pas seul dans votre quartier ou votre ville. D'autres acteurs locaux cherchent aussi à animer leurs espaces, fidéliser leurs clients ou offrir des avantages à leurs collaborateurs.
+
+**Partenariats à développer en priorité :**
+- **Entreprises et bureaux** : proposez vos services pour le déjeuner (voir notre guide sur les [contrats entreprises](/fr/blog/contrats-entreprises-food-truck))
+- **Salles de sport et studios de yoga** : offrez une réduction croisée (10 % sur votre menu pour leurs abonnés)
+- **Épiceries et commerces de proximité** : déposez vos flyers, affichez votre planning
+- **Brasseries locales** : proposez du food pairing ou co-animez un événement
+- **Influenceurs food locaux** : invitez-les à déjeuner gratuitement contre un post honnête
+
+Ces partenariats génèrent du **bouche-à-oreille qualifié** : les gens qui viennent grâce à une recommandation sont plus enclins à revenir et à partager.
+
+---
+
+## 8. Participez à des événements et festivals
+
+Les événements sont des accélérateurs de notoriété incomparables. En une journée de festival ou de marché nocturne, vous pouvez toucher des milliers de personnes qui ne vous connaissent pas encore.
+
+**Où postuler :**
+- Festivals de street food (Street Food Festival, Le Camion Qui Fume Festival, etc.)
+- Marchés de Noël et marchés estivaux
+- Brocantes et vide-greniers de quartier
+- Événements sportifs locaux (running, trail, triathlon)
+- Soirées d'entreprise et séminaires (voir notre guide sur [l'événementiel food truck](/fr/blog/food-truck-evenementiel-traiteur))
+
+**Conseil :** Préparez toujours des **flyers avec votre planning et QR code** Instagram à distribuer pendant l'événement. Un client conquis lors d'un festival qui repart sans aucun moyen de vous retrouver est une opportunité perdue.
+
+---
+
+## 9. Activez le bouche-à-oreille
+
+Le bouche-à-oreille est le canal marketing le plus ancien et le plus efficace. Il ne coûte rien — sauf une expérience client irréprochable et un peu d'audace pour demander à vos clients de vous recommander.
+
+**Comment l'activer activement :**
+- Demandez explicitement des avis Google à vos clients réguliers (un QR code sur votre comptoir suffit)
+- Remerciez publiquement ceux qui partagent vos posts ou vous taguent sur Instagram
+- Créez une **offre parrainage** : « Amenez un ami, repartez tous les deux avec un dessert offert »
+- Mettez en avant les avis clients sur vos visuels Instagram et votre fiche Google
+
+Un food truck avec **50 avis Google à 4,8 étoiles** convertit 3 fois plus de visiteurs de fiche que celui avec 12 avis à 4,2.
+
+---
+
+## 10. Utilisez les données pour affiner votre stratégie
+
+Les meilleurs food truckers ne se contentent pas de cuisiner : ils **analysent**. Quels emplacements sont les plus rentables ? Quels jours et horaires génèrent le plus de couverts ? Quel plat a le meilleur taux de marge ?
+
+Sans données, vous naviguez à vue. Avec des données, vous pouvez prendre des décisions marketing précises : concentrer vos efforts sur vos meilleurs créneaux, éliminer les emplacements non rentables, adapter votre carte à la demande réelle.
+
+**Ce que FoodTracks vous permet de faire :**
+- **Suivre vos ventes** service par service, emplacement par emplacement
+- **Analyser vos coûts** (matières premières, carburant, frais de place) pour calculer votre marge nette réelle
+- **Comparer vos emplacements** et identifier vos top performers
+- **Intégrer vos données SumUp** pour un suivi automatique et sans ressaisie
+- **Repérer les tendances** : créneaux en croissance, plats qui stagnent, périodes à fort potentiel
+
+Prendre une décision marketing basée sur 3 mois de données vaut mieux que 3 mois d'intuition.
+
+[Essayez FoodTracks gratuitement →](/fr/pricing)
+
+---
+
+## Conclusion : la régularité prime sur la perfection
+
+Attirer des clients sur votre food truck n'est pas une action ponctuelle : c'est un travail quotidien, régulier, sur plusieurs canaux à la fois. Vous n'avez pas besoin de tout faire en même temps.
+
+Commencez par **2 ou 3 stratégies** que vous pouvez tenir sur le long terme : une présence Instagram active, une fiche Google à jour, et un programme de fidélité simple. Ajoutez des leviers progressivement au fil des mois.
+
+Et surtout, **mesurez vos résultats**. Ce qui ne se mesure pas ne s'améliore pas.
+
+**À lire aussi :** [Fidélisation clients : email et SMS pour food trucks](/fr/blog/fidelisation-clients-food-truck-email-sms) · [Trouver les meilleurs emplacements](/fr/blog/trouver-meilleurs-emplacements-food-truck) · [Food truck événementiel](/fr/blog/food-truck-evenementiel-traiteur)`,
+      en: `## Why Attracting Customers Remains Food Truckers' #1 Challenge
+
+You have a solid concept, delicious food and an immaculate food truck. Yet some days, the queues stay short. The truth? **Having a great product is no longer enough**. In an increasingly competitive market, attracting customers requires a real strategy — visible, consistent and multi-channel.
+
+This guide presents **10 concrete, actionable strategies** to fill your counter, build customer loyalty and turn your food truck into a must-visit destination.
+
+---
+
+## 1. Polish Your Visual Identity and Wrap
+
+Your food truck is your best mobile advertisement. Before you've even opened the service hatch, passers-by notice you — or they don't.
+
+A **professional wrap** with bold colours, a memorable logo and legible typography can generate up to **40% more spontaneous customers** compared to a plain vehicle. Investing in your visual identity is investing in permanent customer acquisition.
+
+**What works:**
+- High-contrast colours visible from 50 metres away
+- Food truck name readable even in motion
+- A compelling visual (photo of your signature dish, catchy tagline)
+- Your social media handles and a QR code linking to your menu or loyalty programme
+
+Don't overlook **floor-level signage** (A-boards, pull-up banners) and **lighting** if you work evenings.
+
+---
+
+## 2. Be Active on Instagram and TikTok
+
+Social media is no longer optional for an ambitious food trucker. Instagram and TikTok have become the most powerful **local discovery engines** for your business.
+
+**On Instagram:**
+- Post 3–5 times a week (food photos, behind the scenes, today's location)
+- Use local hashtags: #foodtruck[yourcity], #streetfood[region]
+- Geotag every post at your location of the day
+- Daily Stories to announce where you are
+
+**On TikTok:**
+- Short preparation videos generate millions of views
+- One viral reel can bring you hundreds of new customers within days
+- Show your personality: customers buy from you partly because they like you
+
+**FoodTracks tip:** Announce your weekly locations on your Stories every Sunday evening. Your most loyal followers will plan their lunch breaks accordingly.
+
+---
+
+## 3. Optimise Your Location Strategy
+
+The best marketing in the world will never compensate for a bad location. **Being in the right place, at the right time, with the right customers** is your most powerful growth lever.
+
+**High-potential locations:**
+- Weekly markets and craft markets
+- Business zones and office parks at lunchtime
+- University campuses and grandes écoles
+- Local events (festivals, flea markets, neighbourhood fêtes)
+- Recurring spots at fixed times (customers memorise your schedule)
+
+Test each new location for a **minimum of 4–6 weeks** before drawing conclusions. A spot can be disappointing on day one and excellent once customers have integrated your presence.
+
+With **FoodTracks**, you can record each location, log your revenue and costs per service, and identify your most profitable spots within a few weeks.
+
+---
+
+## 4. Set Up and Maintain Your Google Business Profile
+
+When someone searches "food truck near me" or "street food [your city]", does your truck appear? If you don't have a complete, up-to-date Google Business profile, you're missing dozens of customers every week.
+
+**Concrete actions:**
+- Claim your profile on [Google Business Profile](https://business.google.com)
+- Add quality photos of your dishes, your truck and your team
+- Fill in your opening hours and update them whenever they change
+- Publish weekly posts with your current locations
+- **Respond to every review**, positive or negative, within 24 hours
+
+Food trucks with a complete, well-rated Google profile (4.5+ stars) receive on average **3 times more contacts** than those without a profile.
+
+---
+
+## 5. Launch a Loyalty Programme
+
+Attracting a new customer costs **5 to 7 times more** than retaining an existing one. A simple loyalty programme is one of the best marketing ROI tools available.
+
+**Formats that work:**
+- **Physical stamp card**: 1 free meal for every 10 purchased (simple, frictionless)
+- **Loyalty app** (Fidme, Yollty): digital tracking, push notifications
+- **SMS programme**: send a thank-you SMS after the 5th purchase with a discount for the next visit
+
+**Bonus effect:** a customer with an active loyalty card spends on average **15–20% more** per visit to maximise their points.
+
+---
+
+## 6. Use Email and SMS Marketing
+
+Email and SMS remain the most direct channels to communicate with your customers. Unlike social media where the algorithm decides who sees what, **an SMS is read within 3 minutes** in 95% of cases.
+
+**How to collect contacts:**
+- Paper form or QR code on your counter
+- Loyalty programme sign-up (phone number or email required)
+- Instagram competition or giveaway with email sign-up
+
+**What to send:**
+- Weekly schedule (locations and times)
+- Menu news or seasonal dishes
+- Exclusive "subscriber" offers (discount valid for 48 hours)
+- Last-minute cancellations or location changes
+
+An SMS announcing your location sent to 500 subscribers can generate **30–60 additional covers** for that service.
+
+---
+
+## 7. Build Local Partnerships
+
+You're not alone in your neighbourhood or city. Other local players are also looking to animate their spaces, retain their customers or offer perks to their staff.
+
+**Priority partnerships to develop:**
+- **Companies and offices**: offer your services for lunch (see our guide on [corporate contracts](/en/blog/contrats-entreprises-food-truck))
+- **Gyms and yoga studios**: offer a cross-discount (10% off your menu for their members)
+- **Local delis and convenience stores**: leave your flyers, display your schedule
+- **Local craft breweries**: propose food pairing or co-host an event
+- **Local food influencers**: invite them for a free lunch in exchange for an honest post
+
+These partnerships generate **qualified word of mouth**: people who come through a recommendation are more likely to return and share.
+
+---
+
+## 8. Attend Events and Festivals
+
+Events are unrivalled awareness accelerators. In a single festival or night market day, you can reach thousands of people who don't yet know you.
+
+**Where to apply:**
+- Street food festivals (Street Food Festival, Le Camion Qui Fume Festival, etc.)
+- Christmas markets and summer markets
+- Neighbourhood flea markets and car boot sales
+- Local sporting events (running races, trail runs, triathlons)
+- Corporate evenings and seminars (see our guide on [food truck events](/en/blog/food-truck-evenementiel-traiteur))
+
+**Tip:** Always prepare **flyers with your schedule and Instagram QR code** to hand out during the event. A customer won over at a festival who leaves with no way to find you again is a missed opportunity.
+
+---
+
+## 9. Activate Word of Mouth
+
+Word of mouth is the oldest and most effective marketing channel. It costs nothing — except a flawless customer experience and a little boldness in asking your customers to recommend you.
+
+**How to actively activate it:**
+- Explicitly ask regular customers for Google reviews (a QR code on your counter is enough)
+- Publicly thank those who share your posts or tag you on Instagram
+- Create a **referral offer**: "Bring a friend, you both get a free dessert"
+- Feature customer reviews on your Instagram visuals and Google profile
+
+A food truck with **50 Google reviews at 4.8 stars** converts 3 times more profile visitors than one with 12 reviews at 4.2.
+
+---
+
+## 10. Use Data to Sharpen Your Strategy
+
+The best food truckers don't just cook: they **analyse**. Which locations are most profitable? Which days and times generate the most covers? Which dish has the best margin?
+
+Without data, you're navigating blind. With data, you can make precise marketing decisions: concentrate your efforts on your best time slots, eliminate unprofitable locations, adapt your menu to real demand.
+
+**What FoodTracks lets you do:**
+- **Track your sales** service by service, location by location
+- **Analyse your costs** (ingredients, fuel, pitch fees) to calculate your real net margin
+- **Compare your locations** and identify your top performers
+- **Integrate your SumUp data** for automatic tracking with no manual re-entry
+- **Spot trends**: growing time slots, stagnating dishes, high-potential periods
+
+Making a marketing decision based on 3 months of data beats 3 months of intuition.
+
+[Try FoodTracks for free →](/en/pricing)
+
+---
+
+## Conclusion: Consistency Beats Perfection
+
+Attracting customers to your food truck is not a one-off action: it's daily, consistent work across multiple channels at once. You don't need to do everything at the same time.
+
+Start with **2 or 3 strategies** you can sustain over the long term: an active Instagram presence, an up-to-date Google profile, and a simple loyalty programme. Add levers progressively over the months.
+
+Above all, **measure your results**. What doesn't get measured doesn't improve.
+
+**Also read:** [Customer Loyalty: Email and SMS for Food Trucks](/en/blog/fidelisation-clients-food-truck-email-sms) · [Finding the Best Pitches](/en/blog/trouver-meilleurs-emplacements-food-truck) · [Food Truck Events and Catering](/en/blog/food-truck-evenementiel-traiteur)`,
+    },
+    relatedSlugs: [
+      "fidelisation-clients-food-truck-email-sms",
+      "trouver-meilleurs-emplacements-food-truck",
+      "food-truck-evenementiel-traiteur",
+      "optimiser-marges-food-truck-analyse-donnees",
+    ],
+  },
+  {
+    slug: "prix-de-revient-plat-food-truck",
+    title: {
+      fr: "Comment calculer le prix de revient d'un plat en food truck : guide complet 2026",
+      en: "How to Calculate the Cost Price of a Dish for Your Food Truck: Complete 2026 Guide",
+    },
+    excerpt: {
+      fr: "Apprenez à calculer précisément le coût de revient de chaque plat de votre food truck pour fixer des prix rentables, améliorer vos marges et arrêter de deviner.",
+      en: "Learn how to accurately calculate the cost price of every dish on your food truck menu to set profitable prices, improve margins, and stop guessing.",
+    },
+    category: { fr: "Finance", en: "Finance" },
+    date: "2026-04-06",
+    readTime: 11,
+    keywords: [
+      "prix de revient food truck",
+      "calculer coût revient plat food truck",
+      "fiche technique food truck",
+      "coût matière food truck",
+      "marge brute food truck",
+      "food truck dish cost calculation",
+      "food truck food cost percentage",
+    ],
+    heroImage: "/blog/comptabilite-food-truck.png",
+    keyTakeaways: {
+      fr: [
+        "Le coût de revient d'un plat = somme des ingrédients utilisés (coût matière) — il doit représenter 28 à 35 % du prix de vente TTC.",
+        "Sans fiche technique précise, vous fixez vos prix à l'aveugle et vous risquez de vendre à perte sans le savoir.",
+        "Le coût matière seul ne suffit pas : il faut aussi intégrer les charges indirectes (gaz, emballages, amortissement) pour connaître votre vraie rentabilité.",
+        "FoodTracks calcule automatiquement le coût matière de chaque plat à partir de vos factures scannées et de vos recettes.",
+      ],
+      en: [
+        "The cost price of a dish = sum of ingredients used (food cost) — it should represent 28–35% of the selling price.",
+        "Without an accurate recipe card, you're pricing blind and risk selling at a loss without knowing it.",
+        "Food cost alone isn't enough: indirect costs (gas, packaging, equipment depreciation) must also be factored in for true profitability.",
+        "FoodTracks automatically calculates the food cost of each dish from your scanned invoices and saved recipes.",
+      ],
+    },
+    faqItems: [
+      {
+        question: {
+          fr: "Quel est le taux de coût matière idéal en food truck ?",
+          en: "What is the ideal food cost percentage for a food truck?",
+        },
+        answer: {
+          fr: "En food truck, le coût matière idéal se situe entre 28 % et 35 % du prix de vente TTC. En dessous de 28 %, le client peut percevoir un manque de générosité. Au-dessus de 35 %, votre marge brute est trop faible pour absorber vos charges fixes et dégager un bénéfice.",
+          en: "For a food truck, the ideal food cost percentage is between 28% and 35% of the selling price (incl. VAT). Below 28%, customers may perceive poor value. Above 35%, your gross margin is too thin to cover fixed costs and generate profit.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment faire une fiche technique pour un plat food truck ?",
+          en: "How do I create a recipe card for a food truck dish?",
+        },
+        answer: {
+          fr: "Une fiche technique food truck liste tous les ingrédients d'un plat avec leur quantité exacte par portion et leur coût unitaire. Elle inclut aussi le rendement (perte à la cuisson, épluchage) pour calculer le coût net réel. Multipliez la quantité nette de chaque ingrédient par son prix au kilo, additionnez tout : vous obtenez le coût matière par portion.",
+          en: "A food truck recipe card lists every ingredient in a dish with its exact quantity per portion and unit cost. It also accounts for yield (cooking loss, trimming) to calculate the real net cost. Multiply the net quantity of each ingredient by its price per kilo, add everything up — that's your food cost per portion.",
+        },
+      },
+      {
+        question: {
+          fr: "Quelle différence entre coût de revient et coût matière en restauration ?",
+          en: "What is the difference between cost price and food cost in catering?",
+        },
+        answer: {
+          fr: "Le coût matière correspond uniquement au coût des ingrédients utilisés dans un plat. Le coût de revient est plus large : il inclut le coût matière plus les charges indirectes liées à la production (énergie, emballages, main-d'œuvre directe, amortissement du matériel). Pour fixer vos prix, commencez par le coût matière, puis intégrez les charges pour vérifier votre rentabilité globale.",
+          en: "Food cost refers only to the cost of ingredients used in a dish. Cost price is broader: it includes food cost plus indirect production costs (energy, packaging, direct labour, equipment depreciation). Start with food cost to price your dishes, then layer in overhead costs to verify overall profitability.",
+        },
+      },
+      {
+        question: {
+          fr: "Peut-on fixer ses prix uniquement selon la concurrence ?",
+          en: "Can I set my prices based solely on competitors?",
+        },
+        answer: {
+          fr: "Non. Fixer ses prix uniquement par rapport à la concurrence sans connaître son coût de revient est risqué : vous pouvez vendre à perte sans le savoir si vos charges sont plus élevées. La bonne méthode est hybride : calculez d'abord le prix plancher (coût de revient + marge cible), puis ajustez selon la valeur perçue et les prix du marché.",
+          en: "No. Pricing based purely on competitors without knowing your cost price is risky — you could be selling at a loss if your costs are higher. The right approach is hybrid: first calculate your floor price (cost price + target margin), then adjust for perceived value and market rates.",
+        },
+      },
+      {
+        question: {
+          fr: "Combien de temps prend le calcul du coût de revient manuellement ?",
+          en: "How long does it take to manually calculate dish cost prices?",
+        },
+        answer: {
+          fr: "Calculer manuellement le coût de revient de 10 plats prend en moyenne 2 à 4 heures, selon la complexité des recettes et la disponibilité des prix fournisseurs. Avec un outil comme FoodTracks, ce calcul est automatisé à partir des factures scannées et des recettes enregistrées, réduisant ce travail à quelques minutes.",
+          en: "Manually calculating the cost price of 10 dishes takes 2–4 hours on average, depending on recipe complexity and supplier price availability. With a tool like FoodTracks, this calculation is automated from scanned invoices and saved recipes, reducing the work to a few minutes.",
+        },
+      },
+    ],
+    content: {
+      fr: `## Pourquoi calculer le prix de revient est indispensable en food truck
+
+Beaucoup de food truckers fixent leurs prix à l'intuition, en regardant ce que font les concurrents ou en visant un chiffre "qui semble juste". Résultat : certains plats sont rentables, d'autres non — et personne ne sait lesquels. **Sans prix de revient calculé, vous pilotez à l'aveugle.**
+
+Le prix de revient vous dit exactement combien vous coûte la production d'un plat. À partir de là, vous pouvez fixer un prix de vente qui assure votre rentabilité, identifier vos plats les plus et les moins rentables, négocier intelligemment avec vos fournisseurs et prendre des décisions de menu basées sur des chiffres, pas des impressions.
+
+---
+
+## La différence entre coût matière et coût de revient
+
+Ces deux notions sont souvent confondues. Voici la distinction :
+
+- **Coût matière** : le coût des ingrédients qui composent un plat. C'est la base de tout calcul.
+- **Coût de revient** : le coût matière + les charges indirectes liées à la production (gaz, électricité, emballages, consommables, amortissement du matériel de cuisine).
+
+En restauration rapide et food truck, on travaille le plus souvent avec le **coût matière** comme indicateur principal, exprimé en pourcentage du prix de vente. L'objectif : maintenir ce ratio entre **28 % et 35 %**.
+
+---
+
+## Comment construire une fiche technique
+
+La fiche technique est le document fondamental du calcul des coûts. Elle liste, pour chaque plat :
+
+1. **La liste des ingrédients** (avec quantités exactes par portion)
+2. **Le prix unitaire** de chaque ingrédient (au kilo, au litre, à la pièce)
+3. **Le rendement** : perte à l'épluchage, à la cuisson, au découpage
+4. **Le coût net par portion**
+
+### Exemple concret : un burger food truck
+
+Prenons un burger vendu **12 € TTC**. Voici sa fiche technique :
+
+| Ingrédient | Quantité brute | Rendement | Quantité nette | Prix au kg | Coût |
+|---|---|---|---|---|---|
+| Pain brioche | 100 g | 100 % | 100 g | 4,00 €/kg | 0,40 € |
+| Steak haché | 180 g | 85 % | 153 g | 12,00 €/kg | 1,84 € |
+| Cheddar | 30 g | 100 % | 30 g | 14,00 €/kg | 0,42 € |
+| Salade | 20 g | 75 % | 15 g | 3,00 €/kg | 0,05 € |
+| Tomate | 40 g | 80 % | 32 g | 2,50 €/kg | 0,08 € |
+| Sauce maison | 20 g | 100 % | 20 g | 8,00 €/kg | 0,16 € |
+| Emballage | — | — | — | — | 0,25 € |
+| **Total** | | | | | **3,20 €** |
+
+**Coût matière** : 3,20 € pour un burger vendu 12 € TTC (soit 10 € HT avec une TVA à 20 %).
+
+**Taux de coût matière** = 3,20 / 10 = **32 %** — c'est dans la cible idéale.
+
+---
+
+## La formule du taux de coût matière
+
+La formule est simple :
+
+**Taux de coût matière (%) = Coût matière par portion ÷ Prix de vente HT × 100**
+
+Si votre taux dépasse 35 %, vous avez trois leviers :
+- **Revoir vos recettes** : réduire les grammages ou substituer un ingrédient coûteux
+- **Renégocier vos prix fournisseurs** (voir notre guide sur les [fournisseurs food truck](/fr/blog/fournisseurs-food-truck-guide))
+- **Augmenter vos prix de vente** en travaillant la valeur perçue
+
+---
+
+## Intégrer les charges indirectes
+
+Le coût matière ne représente qu'une partie du coût réel de production. Pour connaître votre **coût de revient complet**, ajoutez :
+
+### Les charges opérationnelles directes
+- **Gaz et propane** : comptez environ 0,10 à 0,30 € par plat selon votre type de cuisson
+- **Emballages et consommables** : boîtes, couverts, serviettes — souvent 0,20 à 0,50 € par couvert
+- **Fournitures d'entretien** : produits ménagers, gants, film alimentaire
+
+### L'amortissement du matériel
+Votre camion, votre plancha, votre friteuse — tout s'use. Divisez le coût d'achat par la durée de vie estimée pour obtenir un coût annuel, puis ramenez-le au coût par service ou par plat.
+
+Exemple : une plancha à 1 200 € amortie sur 5 ans = 240 €/an. Si vous faites 200 services par an, c'est **1,20 € par service** à répercuter.
+
+### La main-d'œuvre
+Si vous avez des salariés, leur coût horaire doit être intégré au coût de revient. Divisez le coût total (salaire brut + charges patronales) par le nombre de plats produits pendant leur présence.
+
+---
+
+## Le prix de vente minimum : votre prix plancher
+
+À partir de votre coût de revient complet, calculez votre **prix plancher** — le prix en dessous duquel vous vendez à perte :
+
+**Prix plancher HT = Coût de revient complet ÷ (1 - marge cible)**
+
+Si votre coût de revient complet est de 4,50 € et que vous visez une marge nette de 20 % :
+
+Prix plancher HT = 4,50 ÷ 0,80 = **5,63 € HT** → soit environ **6,75 € TTC** au taux réduit de 10 % applicable en restauration ambulante.
+
+Votre prix de vente réel (ici 12 €) doit être **au-dessus** de ce plancher. La différence correspond à votre marge nette, qui doit couvrir vos charges fixes (loyer commissaire, assurances, comptable…) et votre rémunération.
+
+---
+
+## Analyser vos plats : rentables vs. à risque
+
+Une fois vos fiches techniques établies, calculez le taux de coût matière de **chaque plat de votre menu**. Vous découvrirez souvent des surprises :
+
+- **Le plat star** (le plus vendu) peut avoir un mauvais taux s'il est sous-tarifé
+- **Le plat premium** peut être excellent en marge malgré un prix élevé
+- **Les accompagnements** (frites, boissons) ont souvent les meilleurs taux de marge
+
+Classez vos plats en quatre catégories :
+- **Stars** : forte vente + bonne marge → à promouvoir
+- **Vaches à lait** : forte marge mais faible vente → à mieux mettre en avant
+- **Interrogations** : forte vente mais faible marge → à re-pricer ou reformuler
+- **Poids morts** : faible vente et faible marge → à supprimer du menu
+
+---
+
+## Mettre à jour vos prix régulièrement
+
+Les prix des matières premières fluctuent. Un ingrédient qui coûtait 8 €/kg en janvier peut passer à 11 €/kg en juin. Si vous ne réactualisez pas vos fiches techniques, votre taux de coût matière dérive silencieusement.
+
+**Bonne pratique** : recalculez vos coûts à chaque renouvellement de fournisseur et à chaque changement de tarif significatif. Un audit trimestriel minimum est recommandé.
+
+Avec **FoodTracks**, ce suivi est automatisé : chaque facture scannée met à jour le prix des ingrédients dans vos recettes, et le coût matière de chaque plat se recalcule en temps réel. Vous êtes alerté dès qu'un plat dépasse votre seuil de rentabilité cible.
+
+---
+
+## Les erreurs classiques à éviter
+
+### Oublier le rendement
+100 g de viande achetée ne donnent pas 100 g dans l'assiette. La cuisson, la découpe et les parures réduisent le poids. Ne pas tenir compte du rendement sous-estime systématiquement votre coût réel.
+
+### Ignorer les emballages
+En food truck, les emballages représentent souvent 5 à 10 % du coût matière total. Ne pas les comptabiliser fausse toute votre analyse.
+
+### Travailler avec des prix TTC
+Les calculs de rentabilité se font toujours **hors taxes**. Utilisez les prix HT de vos factures fournisseurs et les prix HT de vente (sauf si vous n'êtes pas assujetti à la TVA).
+
+### Ne pas mettre à jour les fiches
+Une fiche technique créée il y a 18 mois avec des prix fournisseurs d'époque n'a aucune valeur si les coûts ont évolué.
+
+---
+
+## Comment FoodTracks automatise vos calculs de coût
+
+Créer et maintenir des fiches techniques manuellement prend du temps — 2 à 4 heures pour un menu de 10 plats, et autant à chaque mise à jour de tarifs. FoodTracks résout ce problème en trois étapes :
+
+1. **Scan des factures** : photographiez vos factures fournisseurs, FoodTracks extrait automatiquement les produits, quantités et prix
+2. **Création des recettes** : saisissez une fois les ingrédients et grammages de chaque plat
+3. **Calcul automatique** : le coût matière de chaque plat se met à jour en temps réel à chaque nouvelle facture
+
+Résultat : vous savez à tout moment quel plat est rentable, à quel taux, et vous êtes alerté dès qu'un ingrédient clé augmente.
+
+[Essayez FoodTracks gratuitement →](https://foodtracks.io/fr/pricing)
+
+---
+
+## Conclusion : le prix de revient, votre boussole financière
+
+Calculer le prix de revient de vos plats n'est pas une tâche réservée aux grands restaurants. C'est la base de tout business food truck sain. Sans cette donnée, vous ne pouvez pas savoir si vous gagnez vraiment de l'argent sur chaque plat vendu.
+
+Commencez par vos 5 plats les plus vendus. Construisez leur fiche technique, calculez leur coût matière, vérifiez votre taux. Vous aurez déjà une vision beaucoup plus claire de votre rentabilité — et les bases pour prendre de meilleures décisions.
+
+**À lire aussi :** [Gestion de trésorerie food truck](/fr/blog/tresorerie-food-truck-guide) · [Trouver les bons fournisseurs](/fr/blog/fournisseurs-food-truck-guide) · [Optimiser ses marges grâce aux données](/fr/blog/optimiser-marges-food-truck-analyse-donnees)`,
+      en: `## Why Calculating Cost Price Is Essential for Food Trucks
+
+Many food truckers set their prices by gut feeling, looking at what competitors charge or picking a number that "seems right". The result: some dishes are profitable, others aren't — and nobody knows which. **Without a calculated cost price, you're flying blind.**
+
+Cost price tells you exactly how much it costs to produce a dish. From there, you can set a selling price that ensures profitability, identify your most and least profitable dishes, negotiate smarter with suppliers, and make menu decisions based on numbers — not guesswork.
+
+---
+
+## The Difference Between Food Cost and Cost Price
+
+These two concepts are often confused. Here's the distinction:
+
+- **Food cost**: the cost of the ingredients that make up a dish. This is the foundation of all cost calculation.
+- **Cost price**: food cost + indirect production overheads (gas, electricity, packaging, consumables, equipment depreciation).
+
+In quick-service and food truck operations, **food cost** is the primary indicator, expressed as a percentage of the selling price. The target: keep this ratio between **28% and 35%**.
+
+---
+
+## How to Build a Recipe Card
+
+The recipe card is the fundamental document for cost calculation. For each dish, it lists:
+
+1. **All ingredients** (with exact quantities per portion)
+2. **The unit price** of each ingredient (per kilo, litre, or unit)
+3. **Yield**: loss from peeling, cooking shrinkage, trimming
+4. **Net cost per portion**
+
+### Practical Example: A Food Truck Burger
+
+Let's take a burger sold at **£11 / €12**. Here's the recipe card:
+
+| Ingredient | Gross qty | Yield | Net qty | Price/kg | Cost |
+|---|---|---|---|---|---|
+| Brioche bun | 100 g | 100% | 100 g | £4.00/kg | £0.40 |
+| Beef patty | 180 g | 85% | 153 g | £11.00/kg | £1.69 |
+| Cheddar | 30 g | 100% | 30 g | £13.00/kg | £0.39 |
+| Lettuce | 20 g | 75% | 15 g | £3.00/kg | £0.05 |
+| Tomato | 40 g | 80% | 32 g | £2.50/kg | £0.08 |
+| House sauce | 20 g | 100% | 20 g | £7.50/kg | £0.15 |
+| Packaging | — | — | — | — | £0.25 |
+| **Total** | | | | | **£3.01** |
+
+**Food cost**: £3.01 for a burger sold at £11.
+
+**Food cost %** = 3.01 / 11 = **27.4%** — right in the target zone.
+
+---
+
+## The Food Cost Percentage Formula
+
+The formula is simple:
+
+**Food cost % = Food cost per portion ÷ Selling price (excl. tax) × 100**
+
+If your food cost exceeds 35%, you have three levers:
+- **Revise your recipes**: reduce portion weights or substitute costly ingredients
+- **Renegotiate supplier prices** (see our guide on [food truck suppliers](/en/blog/fournisseurs-food-truck-guide))
+- **Increase selling prices** by improving perceived value
+
+---
+
+## Adding Indirect Costs
+
+Food cost is only part of the true production cost. To know your **full cost price**, add:
+
+### Direct Operational Costs
+- **Gas and fuel**: roughly £0.08–£0.25 per dish depending on cooking method
+- **Packaging and consumables**: boxes, cutlery, napkins — often £0.18–£0.45 per cover
+- **Cleaning and hygiene supplies**: detergents, gloves, food wrap
+
+### Equipment Depreciation
+Your truck, griddle, fryer — everything wears out. Divide the purchase cost by the estimated useful life to get an annual cost, then allocate it per service or per dish.
+
+Example: a griddle costing £1,100 depreciated over 5 years = £220/year. If you do 200 services a year, that's **£1.10 per service** to factor in.
+
+### Labour
+If you have staff, their hourly cost must be included in the cost price. Divide total labour cost (gross salary + employer contributions) by the number of dishes produced during their shift.
+
+---
+
+## Your Floor Price: The Minimum You Can Charge
+
+From your full cost price, calculate your **floor price** — the price below which you're selling at a loss:
+
+**Floor price = Full cost price ÷ (1 - target margin)**
+
+If your full cost price is £4.20 and you target a 20% net margin:
+
+Floor price = 4.20 ÷ 0.80 = **£5.25**
+
+Your actual selling price (here £11) must be **above** this floor. The difference is your net margin, which must cover fixed overheads (pitch fees, insurance, accountant…) and your own salary.
+
+---
+
+## Analysing Your Menu: Profitable vs. At-Risk Dishes
+
+Once your recipe cards are done, calculate the food cost percentage for **every dish on your menu**. You'll often find surprises:
+
+- **Your bestseller** may have a poor food cost if it's underpriced
+- **A premium dish** can have excellent margins despite a high price
+- **Sides** (chips, drinks) often carry the best margin percentages
+
+Classify your dishes into four categories:
+- **Stars**: high sales + good margin → promote actively
+- **Cash cows**: high margin but low volume → better positioning needed
+- **Question marks**: high volume but poor margin → re-price or reformulate
+- **Dead weight**: low volume and poor margin → remove from menu
+
+---
+
+## Update Your Prices Regularly
+
+Raw material prices fluctuate. An ingredient costing £8/kg in January may hit £11/kg in June. If you don't update your recipe cards, your food cost percentage drifts upward silently.
+
+**Best practice**: recalculate your costs with every supplier change and every significant price increase. A minimum quarterly audit is recommended.
+
+With **FoodTracks**, this tracking is automated: every scanned invoice updates ingredient prices in your recipes, and the food cost of each dish recalculates in real time. You're alerted the moment a dish exceeds your target food cost threshold.
+
+---
+
+## Classic Mistakes to Avoid
+
+### Forgetting Yield
+100 g of meat purchased does not equal 100 g on the plate. Cooking shrinkage, trimming, and prep losses reduce the usable weight. Ignoring yield consistently underestimates your real cost.
+
+### Overlooking Packaging
+In food trucks, packaging often represents 5–10% of total food cost. Leaving it out skews your entire analysis.
+
+### Working with Tax-Inclusive Prices
+All profitability calculations must be done **excluding VAT/tax**. Use the ex-tax prices from supplier invoices and ex-tax selling prices.
+
+### Not Updating Recipe Cards
+A recipe card created 18 months ago with outdated supplier prices is worthless if costs have moved on.
+
+---
+
+## How FoodTracks Automates Your Cost Calculations
+
+Building and maintaining recipe cards manually takes time — 2–4 hours for a 10-dish menu, and the same again with every price update. FoodTracks solves this in three steps:
+
+1. **Invoice scanning**: photograph your supplier invoices; FoodTracks automatically extracts products, quantities, and prices
+2. **Recipe creation**: enter your ingredients and portion weights once
+3. **Automatic calculation**: the food cost of each dish updates in real time with every new invoice
+
+Result: you know at any moment which dishes are profitable, at what rate, and you're alerted the instant a key ingredient price rises.
+
+[Try FoodTracks for free →](https://foodtracks.io/en/pricing)
+
+---
+
+## Conclusion: Cost Price — Your Financial Compass
+
+Calculating the cost price of your dishes isn't reserved for large restaurants. It's the foundation of any financially healthy food truck business. Without this data, you can't know whether you're truly making money on each dish sold.
+
+Start with your five bestselling dishes. Build their recipe cards, calculate their food cost, check your percentage. You'll immediately have a much clearer picture of your profitability — and the foundation for smarter decisions.
+
+**Also read:** [Food Truck Cash Flow Management](/en/blog/tresorerie-food-truck-guide) · [Finding the Right Suppliers](/en/blog/fournisseurs-food-truck-guide) · [Optimising Margins with Data](/en/blog/optimiser-marges-food-truck-analyse-donnees)`,
+    },
+    relatedSlugs: [
+      "tresorerie-food-truck-guide",
+      "fournisseurs-food-truck-guide",
+      "optimiser-marges-food-truck-analyse-donnees",
+      "cout-charges-food-truck-mensuel",
+    ],
+  },
 ];
 
 export function getArticleBySlug(slug: string): BlogArticle | undefined {
