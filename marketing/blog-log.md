@@ -2,6 +2,8 @@
 
 | Date | Slug | Title | Status |
 |------|------|-------|--------|
+| 2026-04-07 | gestion-invendus-food-truck | Gestion des invendus food truck : réduire les pertes en fin de service et protéger vos marges | publie |
+| 2026-04-06 | contrats-entreprises-food-truck | Décrocher des contrats entreprises pour son food truck : le guide complet 2026 | publie |
 | 2026-03-21 | calcul-prix-vente-food-truck | Comment calculer le prix de vente de vos plats en food truck | publie |
 | 2026-03-22 | planning-semaine-food-truck | Planning semaine food truck : organiser ses services pour maximiser la rentabilité | publie |
 | 2026-03-23 | business-plan-food-truck | Business plan food truck : le guide complet pour convaincre et réussir | publie |

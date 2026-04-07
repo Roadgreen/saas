@@ -18620,6 +18620,315 @@ Start with your five bestselling dishes. Build their recipe cards, calculate the
       "cout-charges-food-truck-mensuel",
     ],
   },
+  {
+    slug: "gestion-invendus-food-truck",
+    title: {
+      fr: "Gestion des invendus food truck : réduire les pertes en fin de service et protéger vos marges",
+      en: "Food Truck Unsold Stock Management: Reduce End-of-Service Losses and Protect Your Margins",
+    },
+    excerpt: {
+      fr: "Découvrez comment gérer efficacement vos invendus en food truck : stratégies anti-gaspillage, promotions flash, dons alimentaires et outils pour anticiper les quantités à préparer.",
+      en: "Learn how to effectively manage unsold stock in your food truck: anti-waste strategies, flash promotions, food donations, and tools to anticipate the right quantities to prepare.",
+    },
+    category: { fr: "Gestion", en: "Management" },
+    date: "2026-04-07",
+    readTime: 10,
+    keywords: [
+      "gestion invendus food truck",
+      "réduire pertes fin de service food truck",
+      "invendus restauration mobile",
+      "anti-gaspillage food truck",
+      "promotion fin de service food truck",
+      "food truck unsold stock",
+      "reduce food waste food truck",
+      "end of service food truck strategy",
+    ],
+    heroImage: "/blog/gestion-stock.png",
+    keyTakeaways: {
+      fr: [
+        "Les invendus représentent en moyenne 5 à 12 % du chiffre d'affaires d'un food truck — une perte directe sur votre marge.",
+        "La meilleure solution est l'anticipation : préparer la bonne quantité selon le service prévu grâce à l'historique de ventes.",
+        "Les promotions flash en fin de service (−20 à −30 %) permettent d'écouler les invendus tout en fidélisant les clients.",
+        "Le don alimentaire ouvre droit à une réduction d'impôt de 60 % de la valeur des denrées données (régime mécénat entreprises).",
+        "FoodTracks prédit vos besoins par service et vous alerte sur les produits à risque avant qu'ils ne deviennent des pertes.",
+      ],
+      en: [
+        "Unsold stock represents on average 5–12% of a food truck's revenue — a direct hit on your margin.",
+        "The best solution is anticipation: preparing the right quantity for each service based on sales history.",
+        "End-of-service flash promotions (−20 to −30%) help clear unsold items while building customer loyalty.",
+        "Food donations qualify for a 60% tax reduction on the value of donated goods (under French corporate philanthropy rules).",
+        "FoodTracks predicts your needs per service and alerts you to at-risk products before they become losses.",
+      ],
+    },
+    faqItems: [
+      {
+        question: {
+          fr: "Que faire avec les invendus alimentaires en fin de service food truck ?",
+          en: "What should I do with unsold food at the end of a food truck service?",
+        },
+        answer: {
+          fr: "Plusieurs options s'offrent à vous : proposer une promotion flash sur les réseaux sociaux ou via une appli anti-gaspi, offrir les invendus à votre équipe, les donner à une association habilitée (avec avantage fiscal), ou transformer les ingrédients en plat du lendemain si la conservation le permet. L'idéal est d'anticiper en amont via l'analyse de vos ventes passées pour ne préparer que ce que vous vendrez.",
+          en: "Several options are available: offer a flash promotion on social media or via an anti-waste app, give unsold items to your team, donate to an approved charity (with tax benefit), or repurpose ingredients into next-day specials if storage allows. The best approach is to anticipate upfront using your past sales data to only prepare what you'll sell.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment réduire les invendus en food truck sans perdre de clients ?",
+          en: "How can I reduce unsold stock in my food truck without losing customers?",
+        },
+        answer: {
+          fr: "La clé est de calibrer votre production selon le service prévu, pas au maximum de votre capacité. Analysez vos ventes par emplacement et par heure pour identifier vos pics. Adaptez votre menu aux services courts (moins de plats, rotation plus rapide) et utilisez un outil de prédiction pour affiner vos quantités semaine après semaine.",
+          en: "The key is to calibrate your production to the expected service, not to your maximum capacity. Analyse your sales by location and time slot to identify your peaks. Adapt your menu to short services (fewer dishes, faster turnover) and use a prediction tool to refine your quantities week after week.",
+        },
+      },
+      {
+        question: {
+          fr: "Les dons alimentaires sont-ils avantageux fiscalement pour un food truck ?",
+          en: "Are food donations tax-advantageous for a food truck?",
+        },
+        answer: {
+          fr: "Oui. En France, les entreprises qui donnent des denrées alimentaires à des associations habilitées (Restos du Cœur, Banque Alimentaire, etc.) bénéficient d'une réduction d'impôt égale à 60 % de la valeur des dons, dans la limite de 0,5 % du chiffre d'affaires HT. Pour un food trucker, cela peut représenter plusieurs centaines d'euros récupérés par an tout en réduisant ses pertes.",
+          en: "Yes. In France, businesses that donate food to approved charities (Restos du Cœur, Banque Alimentaire, etc.) benefit from a tax reduction equal to 60% of the value of donations, up to 0.5% of net revenue. For a food truck operator, this can amount to several hundred euros recovered per year while reducing losses.",
+        },
+      },
+      {
+        question: {
+          fr: "Quelle application anti-gaspillage peut aider un food truck ?",
+          en: "Which anti-waste app can help a food truck?",
+        },
+        answer: {
+          fr: "Des applications comme Too Good To Go permettent aux food trucks de vendre leurs invendus sous forme de paniers surprise à prix réduit (en général 3 à 5 €). C'est une solution rapide à mettre en place, sans frais fixes, qui génère du cash supplémentaire tout en améliorant votre image écoresponsable. À combiner avec un outil de gestion comme FoodTracks pour anticiper les quantités à mettre en vente.",
+          en: "Apps like Too Good To Go allow food trucks to sell unsold stock as surprise bags at reduced prices (typically €3–5). It's a quick solution with no fixed costs that generates additional cash while improving your eco-friendly image. Combine it with a management tool like FoodTracks to anticipate which quantities to list.",
+        },
+      },
+      {
+        question: {
+          fr: "Combien perdent les food trucks à cause des invendus chaque mois ?",
+          en: "How much do food trucks lose due to unsold stock each month?",
+        },
+        answer: {
+          fr: "Selon les données de nos utilisateurs FoodTracks, les pertes liées aux invendus et au gaspillage représentent entre 5 % et 12 % du chiffre d'affaires mensuel pour les food trucks qui ne suivent pas leurs stocks. Sur un CA mensuel de 8 000 €, cela équivaut à 400 à 960 € de pertes directes par mois — soit jusqu'à 11 500 € par an.",
+          en: "According to FoodTracks user data, losses from unsold stock and waste represent 5–12% of monthly revenue for food trucks that don't track their inventory. On a monthly turnover of €8,000, that equals €400–960 in direct losses per month — up to €11,500 per year.",
+        },
+      },
+    ],
+    content: {
+      fr: `## Les invendus : la perte silencieuse du food truck
+
+Chaque soir, après votre dernier service, regardez ce qui reste dans votre camion. Ces portions non vendues, ces ingrédients préparés qui ne partiront pas, représentent de l'argent que vous avez déjà dépensé — et que vous ne récupérerez pas.
+
+**En food truck, les invendus sont une réalité quotidienne.** Contrairement à un restaurant fixe, vous n'avez pas la possibilité de conserver facilement les préparations d'un jour à l'autre, ni d'adapter votre menu à la volée selon le flux de clients. Le résultat : des pertes qui grèvent silencieusement vos marges.
+
+Selon les données de FoodTracks, les food truckers qui ne suivent pas leurs stocks perdent en moyenne **5 à 12 % de leur chiffre d'affaires mensuel** en invendus et gaspillage. Sur 8 000 € de CA mensuel, c'est jusqu'à 960 € partis à la poubelle chaque mois.
+
+## Pourquoi les invendus se produisent-ils ?
+
+Avant de chercher des solutions, il faut comprendre les causes. Les invendus en food truck ont généralement quatre origines :
+
+### 1. Mauvaise estimation de la demande
+
+Vous produisez "à l'instinct", en vous basant sur une estimation approximative du nombre de clients attendus. Résultat : certains jours, vous surchargez votre production. Certains emplacements génèrent deux fois moins de passage qu'un autre, mais vous avez préparé la même quantité.
+
+### 2. Variabilité non anticipée
+
+La météo, un événement concurrent dans la ville, un marché annulé au dernier moment — autant de facteurs qui réduisent brutalement le flux de clients. Sans données historiques pour chaque emplacement, impossible d'anticiper ces variations.
+
+### 3. Menu trop large
+
+Un menu avec 12 plats différents vous force à préparer des ingrédients pour chaque option. Chaque plat non vendu emporte avec lui le coût de ses ingrédients spécifiques, souvent peu substituables.
+
+### 4. Absence de suivi en temps réel
+
+Sans outil de suivi, vous ne savez pas exactement ce qu'il vous reste en cours de service. Vous continuez à proposer des plats alors que les ingrédients sont presque épuisés — ou à l'inverse, vous préparez trop tard des portions que vous n'écoulerez pas.
+
+## 5 stratégies concrètes pour réduire vos invendus
+
+### 1. Anticiper avec l'analyse de données
+
+C'est la méthode la plus efficace : **préparer exactement ce que vous vendrez**. Pour ça, il vous faut de la data.
+
+Tenez un journal de bord par service : emplacement, météo, nombre de clients, ventes par plat, invendus. Après quelques semaines, des tendances apparaissent. Tel emplacement génère 40 couverts le mardi matin, 80 le vendredi midi. Ce festival attire 60 % de végétariens.
+
+**FoodTracks automatise cette analyse.** En croisant vos données de ventes (via l'intégration SumUp), vos emplacements et la météo, il vous suggère les quantités à préparer pour chaque service — éliminant le "à l'instinct" au profit de la précision.
+
+### 2. Adapter votre production en cours de service
+
+Ne préparez pas tout en début de service. Travaillez en flux progressif : commencez avec 60 % de votre production estimée, puis relancez par petites quantités selon le flux réel de clients.
+
+Cette technique de **production en continu** réduit mécaniquement les invendus en fin de service, surtout sur les plats complexes à longue durée de préparation.
+
+### 3. Activer les promotions flash en fin de service
+
+Quand il vous reste 30 minutes de service et des plats à écouler, les réseaux sociaux sont vos meilleurs alliés. Publiez une story Instagram ou un post Facebook : "Encore 8 portions de notre burger du jour — -25% jusqu'à 14h30."
+
+Cette technique fonctionne particulièrement bien si vous avez une communauté active d'habitués. Elle génère un dernier pic de clients et vous évite de jeter.
+
+**Conseil** : fixez un seuil de déclenchement. Par exemple, si à 45 minutes de la fin vous avez encore plus de 20 % de votre production initiale, vous lancez automatiquement une promo flash.
+
+### 4. Utiliser les applications anti-gaspillage
+
+Des plateformes comme **Too Good To Go** permettent aux food trucks de vendre leurs invendus sous forme de paniers surprise à prix réduit (3 à 6 €). Le principe :
+
+- Vous publiez une annonce en cours de service ("panier surprise disponible à 14h")
+- Des clients proches commandent via l'application
+- Ils récupèrent le panier à la fermeture
+
+C'est du chiffre d'affaires supplémentaire sur ce qui serait sinon jeté, et ça améliore votre image écoresponsable. Sans frais fixes : Too Good To Go prend une commission par panier vendu.
+
+### 5. Donner aux associations et défiscaliser
+
+Si une partie de vos invendus reste incontournable, pensez au **don alimentaire**. En France, toute entreprise qui donne des denrées alimentaires à une association habilitée (Restos du Cœur, Banque Alimentaire, Secours Catholique…) bénéficie d'une **réduction d'impôt de 60 %** de la valeur des dons (régime mécénat, article 238 bis du CGI), dans la limite de 0,5 % du chiffre d'affaires HT.
+
+Concrètement : si vous donnez 100 € de nourriture par mois (valeur comptable), vous récupérez 60 € en réduction d'impôt. Vos pertes effectives tombent à 40 €, au lieu de 100 €.
+
+Pour bénéficier de cet avantage :
+- Contactez une association habilitée dans votre zone
+- Demandez un reçu fiscal pour chaque don
+- Conservez la liste des produits donnés avec leur valeur comptable
+
+## Adapter votre menu pour réduire les risques
+
+La gestion des invendus passe aussi par des décisions structurelles sur votre offre :
+
+### Réduire le nombre de plats
+Un menu de 5 à 6 plats bien maîtrisés est plus facile à produire avec précision qu'un menu de 12 options. Moins de références = moins de risques d'invendus par plat.
+
+### Privilégier les ingrédients polyvalents
+Choisissez des ingrédients qui servent dans plusieurs plats. Un poulet mariné peut aller dans un wrap, une salade, un bowl. Si un plat ne se vend pas, ses ingrédients migrent vers les autres.
+
+### Créer un "plat du moment" de fin de service
+Identifiez en cours de service les ingrédients en surplus et proposez un plat bonus non affiché à la carte, à prix attractif. Ça crée aussi un effet de rareté apprécié des habitués.
+
+## Suivre vos invendus avec FoodTracks
+
+Pour agir sur les invendus, il faut d'abord les **mesurer**. FoodTracks vous permet de :
+
+- **Saisir vos invendus** après chaque service (par plat, par ingrédient)
+- **Calculer automatiquement la valeur des pertes** selon vos prix d'achat
+- **Identifier les plats problématiques** sur la durée
+- **Comparer vos prédictions vs réalité** pour affiner semaine après semaine
+
+En quelques semaines, vous saurez exactement quels plats génèrent le plus d'invendus, à quels emplacements et lors de quels types de services. Vous pourrez alors ajuster votre production avec précision.
+
+## Conclusion
+
+Les invendus en food truck ne sont pas une fatalité. Avec les bonnes méthodes — anticipation par les données, promotion flash, anti-gaspi, don associatif — vous pouvez réduire vos pertes de **50 à 70 %** en quelques semaines.
+
+La première étape ? **Commencer à mesurer.** Vous ne pouvez pas améliorer ce que vous ne mesurez pas. Ouvrez FoodTracks après votre prochain service, saisissez vos invendus, et laissez la data vous guider vers une gestion plus rentable.
+
+**À lire aussi :** [Comment gérer le stock de son food truck efficacement](/fr/blog/comment-gerer-stock-food-truck) · [Gestion de trésorerie food truck](/fr/blog/gestion-tresorerie-food-truck) · [Comment calculer le prix de revient d'un plat](/fr/blog/prix-de-revient-plat-food-truck)`,
+      en: `## Unsold Stock: The Silent Loss in Your Food Truck
+
+Every evening, after your last service, look at what's left in your truck. Those unsold portions, those prepared ingredients that won't go anywhere, represent money you've already spent — and won't recover.
+
+**In a food truck, unsold stock is a daily reality.** Unlike a fixed restaurant, you can't easily carry preparations from one day to the next, nor adapt your menu on the fly based on customer flow. The result: losses that silently erode your margins.
+
+According to FoodTracks data, food truckers who don't track their inventory lose an average of **5 to 12% of their monthly revenue** in unsold stock and waste. On €8,000 monthly turnover, that's up to €960 thrown away every month.
+
+## Why Does Unsold Stock Happen?
+
+Before looking for solutions, it's important to understand the causes. Unsold stock in food trucks generally has four origins:
+
+### 1. Poor Demand Estimation
+
+You produce "by instinct", based on an approximate estimate of expected customers. Result: some days you over-produce. Some locations generate half the footfall of another, but you've prepared the same quantity.
+
+### 2. Unanticipated Variability
+
+Weather, a competing event in the city, a market cancelled at the last minute — all factors that brutally reduce customer flow. Without historical data for each location, these variations are impossible to anticipate.
+
+### 3. Menu Too Wide
+
+A menu with 12 different dishes forces you to prepare ingredients for each option. Every unsold dish takes with it the cost of its specific ingredients, which are often hard to substitute.
+
+### 4. No Real-Time Tracking
+
+Without a tracking tool, you don't know exactly what you have left during service. You keep offering dishes when ingredients are nearly exhausted — or conversely, you prepare too late portions that won't sell.
+
+## 5 Concrete Strategies to Reduce Unsold Stock
+
+### 1. Anticipate with Data Analysis
+
+This is the most effective method: **prepare exactly what you'll sell**. For that, you need data.
+
+Keep a service log: location, weather, customer count, sales by dish, unsold items. After a few weeks, trends emerge. A given location generates 40 covers on Tuesday morning, 80 on Friday lunchtime. That festival attracts 60% vegetarians.
+
+**FoodTracks automates this analysis.** By cross-referencing your sales data (via SumUp integration), your locations and the weather, it suggests the quantities to prepare for each service — replacing guesswork with precision.
+
+### 2. Adapt Your Production During Service
+
+Don't prepare everything at the start of service. Work progressively: start with 60% of your estimated production, then relaunch in small batches based on actual customer flow.
+
+This **continuous production** technique mechanically reduces end-of-service unsold stock, especially for complex dishes with long preparation times.
+
+### 3. Activate Flash Promotions at End of Service
+
+When you have 30 minutes left and dishes to clear, social media is your best ally. Post an Instagram story or Facebook post: "Still 8 portions of today's burger — -25% until 2:30pm."
+
+This technique works particularly well if you have an active community of regulars. It generates a final customer peak and saves you from throwing food away.
+
+**Tip**: set a trigger threshold. For example, if 45 minutes before closing you still have more than 20% of your initial production left, automatically launch a flash promo.
+
+### 4. Use Anti-Waste Apps
+
+Platforms like **Too Good To Go** allow food trucks to sell unsold stock as surprise bags at reduced prices (€3–6). The concept:
+
+- You post a listing during service ("surprise bag available at 2pm")
+- Nearby customers order via the app
+- They pick up the bag at closing time
+
+It's additional revenue on what would otherwise be thrown away, and it improves your eco-friendly image. No fixed costs: Too Good To Go takes a commission per bag sold.
+
+### 5. Donate to Charities and Get Tax Benefits
+
+If some unsold stock remains unavoidable, consider **food donation**. In France, any business that donates food to an approved charity (Restos du Cœur, Banque Alimentaire, Secours Catholique…) benefits from a **60% tax reduction** on the value of donations (under corporate philanthropy rules, Article 238 bis of the General Tax Code), up to 0.5% of net revenue.
+
+In practice: if you donate €100 worth of food per month (book value), you recover €60 in tax reduction. Your effective loss drops to €40 instead of €100.
+
+To benefit from this:
+- Contact an approved charity in your area
+- Request a tax receipt for each donation
+- Keep a list of donated products with their book value
+
+## Adapting Your Menu to Reduce Risk
+
+Unsold stock management also involves structural decisions about your offering:
+
+### Reduce the Number of Dishes
+A menu of 5–6 well-mastered dishes is easier to produce precisely than a 12-option menu. Fewer references = less risk of unsold stock per dish.
+
+### Favour Versatile Ingredients
+Choose ingredients that work across multiple dishes. A marinated chicken can go into a wrap, a salad, a bowl. If one dish doesn't sell, its ingredients migrate to others.
+
+### Create an End-of-Service Special
+Identify surplus ingredients during service and offer an unadvertised bonus dish at an attractive price. It also creates a scarcity effect that regulars appreciate.
+
+## Tracking Unsold Stock with FoodTracks
+
+To act on unsold stock, you first need to **measure it**. FoodTracks allows you to:
+
+- **Log your unsold items** after each service (by dish, by ingredient)
+- **Automatically calculate the value of losses** based on your purchase prices
+- **Identify problematic dishes** over time
+- **Compare your predictions vs reality** to refine week after week
+
+Within a few weeks, you'll know exactly which dishes generate the most unsold stock, at which locations and during which types of service. You can then adjust your production with precision.
+
+## Conclusion
+
+Unsold stock in a food truck is not inevitable. With the right methods — data-driven anticipation, flash promotions, anti-waste apps, charitable donation — you can reduce your losses by **50 to 70%** within a few weeks.
+
+The first step? **Start measuring.** You can't improve what you don't measure. Open FoodTracks after your next service, log your unsold items, and let the data guide you towards more profitable management.
+
+**Also read:** [How to Manage Food Truck Inventory Efficiently](/en/blog/comment-gerer-stock-food-truck) · [Food Truck Cash Flow Management](/en/blog/gestion-tresorerie-food-truck) · [How to Calculate the Cost Price of a Dish](/en/blog/prix-de-revient-plat-food-truck)`,
+    },
+    relatedSlugs: [
+      "comment-gerer-stock-food-truck",
+      "gestion-tresorerie-food-truck",
+      "prix-de-revient-plat-food-truck",
+      "reduire-gaspillage-alimentaire-food-truck",
+    ],
+  },
 ];
 
 export function getArticleBySlug(slug: string): BlogArticle | undefined {
