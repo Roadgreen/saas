@@ -18929,6 +18929,364 @@ The first step? **Start measuring.** You can't improve what you don't measure. O
       "reduire-gaspillage-alimentaire-food-truck",
     ],
   },
+  {
+    slug: "horaires-ouverture-food-truck-maximiser-ventes",
+    title: {
+      fr: "Horaires d'ouverture food truck : comment les optimiser pour maximiser vos ventes",
+      en: "Food Truck Opening Hours: How to Optimise Them to Maximise Your Sales",
+    },
+    excerpt: {
+      fr: "Choisir les bons horaires d'ouverture peut faire la différence entre un service rentable et une journée à perte. Découvrez comment analyser vos créneaux, adapter vos heures à chaque emplacement et utiliser vos données de vente pour décider quand ouvrir.",
+      en: "Choosing the right opening hours can make the difference between a profitable service and a loss-making day. Learn how to analyse your time slots, adapt your hours to each location, and use your sales data to decide when to open.",
+    },
+    category: { fr: "Gestion", en: "Management" },
+    date: "2026-04-07",
+    readTime: 10,
+    keywords: [
+      "horaires ouverture food truck",
+      "horaires food truck optimaux",
+      "quand ouvrir son food truck",
+      "créneaux horaires food truck rentables",
+      "optimiser horaires food truck",
+      "food truck opening hours",
+      "best hours for food truck",
+      "food truck schedule optimisation",
+      "when to open a food truck",
+    ],
+    heroImage: "/blog/planning-food-truck.png",
+    keyTakeaways: {
+      fr: [
+        "Les créneaux du midi (11h30–14h) et du soir (18h30–21h) concentrent en moyenne 75 % du chiffre d'affaires d'un food truck en semaine.",
+        "Un créneau qui génère moins de 30 € de CA à l'heure coûte plus qu'il ne rapporte une fois les charges fixes incluses.",
+        "L'analyse de vos données de vente par heure et par emplacement est le seul moyen fiable de savoir quels créneaux supprimer ou prolonger.",
+        "Réduire ses horaires de 10 % pour se concentrer sur les pics peut augmenter la rentabilité de 15 à 20 %.",
+        "FoodTracks visualise vos ventes heure par heure pour chaque emplacement, vous permettant de prendre des décisions d'horaires basées sur des données réelles.",
+      ],
+      en: [
+        "Lunchtime (11:30am–2pm) and evening slots (6:30pm–9pm) account for an average of 75% of a food truck's weekly revenue.",
+        "A slot generating less than €30/hour in revenue costs more than it earns once fixed costs are included.",
+        "Analysing your sales data by hour and location is the only reliable way to know which slots to cut or extend.",
+        "Reducing hours by 10% to focus on peak times can increase profitability by 15–20%.",
+        "FoodTracks visualises your sales hour by hour for each location, enabling data-driven opening hour decisions.",
+      ],
+    },
+    faqItems: [
+      {
+        question: {
+          fr: "Quels sont les meilleurs horaires pour un food truck ?",
+          en: "What are the best opening hours for a food truck?",
+        },
+        answer: {
+          fr: "Les meilleurs créneaux varient selon l'emplacement, mais en règle générale : le midi de 11h30 à 14h00 représente le pic principal, suivi du soir de 18h30 à 21h00 pour les emplacements résidentiels ou festifs. Le matin (7h–9h30) fonctionne bien près des zones d'activité ou des marchés matinaux. L'analyse de vos données de vente par créneau est indispensable pour définir vos horaires optimaux.",
+          en: "The best time slots vary by location, but as a general rule: lunchtime from 11:30am to 2pm represents the main peak, followed by evening service from 6:30pm to 9pm for residential or event-based spots. Morning service (7am–9:30am) works well near business areas or morning markets. Analysing your sales data by time slot is essential to define your optimal hours.",
+        },
+      },
+      {
+        question: {
+          fr: "Combien d'heures par jour doit-on travailler avec un food truck pour être rentable ?",
+          en: "How many hours a day should you work with a food truck to be profitable?",
+        },
+        answer: {
+          fr: "La rentabilité n'est pas liée au nombre d'heures d'ouverture, mais à la densité de ventes par heure. Un food truck qui ouvre 4 heures sur des créneaux de forte demande sera souvent plus rentable qu'un food truck ouvert 10 heures en incluant des créneaux creux. En pratique, la plupart des food trucks rentables opèrent entre 2 et 3 services ciblés par jour, soit 6 à 8 heures de service effectif.",
+          en: "Profitability is not linked to the number of hours open, but to sales density per hour. A food truck that opens 4 hours during high-demand slots will often be more profitable than one open 10 hours including dead periods. In practice, most profitable food trucks run 2–3 targeted services per day, totalling 6–8 hours of actual service.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment savoir si un créneau horaire est rentable pour mon food truck ?",
+          en: "How do I know if a time slot is profitable for my food truck?",
+        },
+        answer: {
+          fr: "Calculez le chiffre d'affaires généré par heure sur ce créneau, puis comparez-le à votre coût horaire de fonctionnement (charges fixes ramenées à l'heure + coût matière). Si votre CA/heure est inférieur à ce seuil, le créneau est déficitaire. En pratique, un seuil de rentabilité horaire se situe généralement entre 80 € et 150 € de CA brut selon la taille du food truck et ses charges fixes.",
+          en: "Calculate the revenue generated per hour during that slot, then compare it to your hourly operating cost (fixed costs per hour + food cost). If your revenue per hour falls below this threshold, the slot is loss-making. In practice, a breakeven hourly threshold is typically between €80 and €150 in gross revenue depending on your food truck size and fixed costs.",
+        },
+      },
+      {
+        question: {
+          fr: "Faut-il ouvrir le week-end avec son food truck ?",
+          en: "Should a food truck open on weekends?",
+        },
+        answer: {
+          fr: "Le week-end présente un potentiel élevé mais aussi des contraintes différentes : marchés, festivals, emplacements résidentiels ou événementiels. La rentabilité du week-end dépend fortement de votre positionnement et de votre zone géographique. Certains food trucks réalisent 50 % de leur CA mensuel le week-end, d'autres moins de 20 %. Analysez vos données historiques par jour de semaine avant de fixer votre planning hebdomadaire.",
+          en: "Weekends offer high potential but also different constraints: markets, festivals, residential spots, or events. Weekend profitability depends heavily on your positioning and geographic area. Some food trucks generate 50% of their monthly revenue at weekends, others less than 20%. Analyse your historical data by day of the week before setting your weekly schedule.",
+        },
+      },
+    ],
+    content: {
+      fr: `## Le mythe de "plus on est ouvert, plus on gagne"
+
+Beaucoup de food truckers débutent avec la même conviction : il faut être présent le maximum d'heures pour maximiser les revenus. C'est une erreur classique qui peut coûter cher.
+
+En réalité, **chaque heure d'ouverture a un coût**. Gaz ou électricité pour maintenir l'équipement en température, usure du matériel, temps de travail (le vôtre ou celui de vos employés), carburant pour rester sur place. Si votre chiffre d'affaires horaire ne couvre pas ces coûts, vous perdez de l'argent en restant ouvert.
+
+La vraie question n'est pas "quand puis-je ouvrir ?" mais **"quels créneaux me permettent de vendre assez pour être rentable ?"**
+
+## Les grands créneaux d'un food truck : analyse par type
+
+### Le midi : le pic roi (11h30–14h00)
+
+Le service de midi est, dans la grande majorité des emplacements, **le créneau le plus rentable de la journée**. La demande est concentrée, le ticket moyen est prévisible, et la rotation des clients est rapide.
+
+Points forts :
+- Forte densité de clients en peu de temps
+- Ticket moyen stable (plateau déjeuner)
+- Idéal pour les emplacements bureaux, zones industrielles, marchés de plein air
+
+Limites :
+- Créneau court (souvent 90 minutes effectives)
+- Pression sur la production : il faut être prêt avant 11h30
+- Concurrence élevée sur les bons emplacements
+
+**Règle d'or** : si votre emplacement du midi ne génère pas au moins 80 % de votre objectif de CA journalier en 2 heures, questionnez-le.
+
+### Le matin : un créneau sous-exploité (7h–9h30)
+
+Le petit-déjeuner et le café sont souvent négligés par les food trucks, mais peuvent représenter **une source de revenus complémentaires** intéressante dans les bons contextes :
+
+- Zones d'activité industrielle ou logistique (ouvriers qui commencent tôt)
+- Marchés de producteurs matinaux
+- Gares ou axes de transit
+
+Ce créneau fonctionne rarement seul : il s'associe idéalement à un service de midi sur le même emplacement ou à proximité.
+
+### L'après-midi : généralement à éviter (14h–18h)
+
+Le creux de l'après-midi est le piège classique. Sauf exceptions (plages, centres commerciaux, emplacements touristiques), **la demande alimentaire est faible entre 14h et 18h**.
+
+Rester ouvert sur ce créneau par habitude ou "au cas où" génère des coûts sans CA correspondant. Mieux vaut fermer, préparer le service du soir, et reposer l'équipe.
+
+Exception : si vous êtes positionné sur une zone touristique à fort passage ou un campus étudiant, analysez vos données avant de décider.
+
+### Le soir : le second souffle (18h30–21h)
+
+Le service du soir est le **deuxième pic majeur**, particulièrement rentable pour les emplacements :
+- Résidentiels (familles qui cherchent une alternative au restaurant)
+- Festifs (food trucks en bord de plage, esplanades, événements culturels)
+- Nocturnes (fêtes, concerts, marchés de nuit)
+
+Le ticket moyen du soir est souvent plus élevé que le midi : les clients prennent plus de temps, commandent des boissons, et partagent parfois plusieurs plats.
+
+**Attention** : le service du soir exige souvent de mobiliser votre équipe tard. Intégrez le coût du travail nocturne dans votre calcul de rentabilité.
+
+## Comment analyser vos horaires actuels
+
+### Étape 1 : segmenter vos ventes par heure
+
+Pour chaque service de la semaine passée, calculez :
+- CA généré par tranche horaire (ex : 11h–12h, 12h–13h, 13h–14h)
+- Nombre de tickets par tranche
+- Ticket moyen par tranche
+
+Cela révèle souvent des surprises. Beaucoup de food truckers découvrent que 80 % de leur CA se concentre sur 2 heures d'un service de 4 heures.
+
+### Étape 2 : calculer votre seuil de rentabilité horaire
+
+Prenez vos charges fixes mensuelles (loyer box, assurance, amortissement véhicule, abonnements, etc.) et divisez-les par votre nombre d'heures d'ouverture mensuelles. Ajoutez votre coût matière moyen par heure (basé sur vos ventes habituelles).
+
+Vous obtenez votre **seuil de CA horaire minimum**. Sous ce seuil, chaque heure d'ouverture vous coûte de l'argent.
+
+Exemple :
+- Charges fixes : 2 400 €/mois
+- Heures d'ouverture : 120 h/mois
+- Coût fixe/heure : 20 €
+- Coût matière moyen : 35 % du CA
+- **Seuil de rentabilité** : 20 € ÷ (1 - 0,35) = **~31 € de CA/heure minimum**
+
+Si une tranche horaire génère moins de 31 €, elle est déficitaire.
+
+### Étape 3 : comparer emplacement par emplacement
+
+Un emplacement peut être très rentable le midi du mardi mais médiocre le jeudi matin. Ne généralisez pas : **analysez chaque combinaison emplacement × créneau × jour**.
+
+C'est là qu'un outil comme FoodTracks devient indispensable. En croisant vos données de vente SumUp avec vos emplacements et vos horaires, vous visualisez exactement quels créneaux méritent d'être maintenus, renforcés ou supprimés.
+
+## Les erreurs d'horaires les plus courantes
+
+### Ouvrir "par habitude"
+
+Vous êtes sur cet emplacement le mercredi matin depuis 6 mois. Mais avez-vous réellement vérifié si ce créneau est rentable ? Beaucoup de food truckers maintiennent des créneaux déficitaires par inertie ou par peur de "manquer quelque chose".
+
+**Solution** : revoyez vos horaires chaque mois avec les données du mois précédent.
+
+### Ne pas adapter les horaires à la saison
+
+En été, certains créneaux du soir deviennent très porteurs grâce aux longues soirées. En hiver, le midi s'impose encore plus. **Vos horaires optimaux en janvier ne sont pas vos horaires optimaux en juillet.**
+
+Créez un planning saisonnier, pas un planning fixe annuel.
+
+### Ignorer les événements locaux
+
+Un concert, un marché spécial, un match de football : ces événements peuvent transformer un créneau habituellement moyen en journée exceptionnelle — ou au contraire vider un emplacement normalement bon. Suivez l'agenda local et ajustez vos horaires en conséquence.
+
+## Optimiser progressivement, pas brutalement
+
+Changer vos horaires brusquement peut perturber vos clients habitués et faire chuter votre CA. La bonne approche est progressive :
+
+1. **Identifiez les 2-3 créneaux les moins performants** sur les 4 dernières semaines
+2. **Testez la suppression d'un créneau** pendant 2 semaines en observant l'impact global
+3. **Réinvestissez ce temps** dans la préparation, la prospection d'emplacements, ou du repos
+4. **Mesurez le delta de rentabilité** avant de passer au créneau suivant
+
+En général, supprimer 10 % des heures les moins rentables améliore la rentabilité globale de **15 à 20 %** — non pas en vendant plus, mais en dépensant moins d'énergie sur des créneaux peu porteurs.
+
+## Utiliser FoodTracks pour piloter vos horaires
+
+FoodTracks vous permet de visualiser vos ventes **heure par heure, emplacement par emplacement** en croisant vos données SumUp et vos notes de service. Vous identifiez :
+
+- Les créneaux où votre CA/heure dépasse votre seuil de rentabilité
+- Les emplacements à fort potentiel non encore exploités
+- Les jours de la semaine où vos services sont les plus efficaces
+
+En quelques semaines d'utilisation, vous avez une cartographie complète de vos créneaux. Vous pouvez construire un planning hebdomadaire optimisé — non pas basé sur l'intuition, mais sur la réalité de vos ventes.
+
+## Conclusion
+
+Les horaires d'ouverture d'un food truck ne sont pas une question de disponibilité, mais de **stratégie de rentabilité**. Moins mais mieux : concentrez-vous sur les créneaux où la demande est forte, le CA/heure élevé, et votre énergie bien investie.
+
+Commencez par analyser vos 4 dernières semaines de vente heure par heure. Identifiez vos créneaux déficitaires. Supprimez-en un, mesurez l'impact, et itérez. Votre rentabilité augmentera sans que vous ayez à vendre un seul plat de plus.
+
+**À lire aussi :** [Planning semaine food truck : organiser ses services pour maximiser la rentabilité](/fr/blog/planning-semaine-food-truck) · [Trouver les meilleurs emplacements food truck](/fr/blog/trouver-meilleurs-emplacements-food-truck) · [Tableau de bord KPI food truck](/fr/blog/tableau-de-bord-kpi-food-truck)`,
+      en: `## The Myth of "More Hours = More Revenue"
+
+Many food truckers start out with the same conviction: be present as many hours as possible to maximise revenue. This is a classic mistake that can be costly.
+
+In reality, **every hour of opening has a cost**. Gas or electricity to keep equipment at temperature, equipment wear, labour time (yours or your staff's), fuel to stay on location. If your hourly revenue doesn't cover these costs, you're losing money by staying open.
+
+The real question isn't "when can I open?" but **"which slots allow me to sell enough to be profitable?"**
+
+## Food Truck Time Slots: An Analysis by Type
+
+### Lunchtime: The King Peak (11:30am–2pm)
+
+The lunch service is, in the vast majority of locations, **the most profitable slot of the day**. Demand is concentrated, the average transaction is predictable, and customer turnover is rapid.
+
+Strengths:
+- High customer density in a short time
+- Stable average transaction (lunch plate)
+- Ideal for office locations, industrial zones, outdoor markets
+
+Limitations:
+- Short slot (often 90 effective minutes)
+- Production pressure: you need to be ready before 11:30am
+- High competition for the best spots
+
+**Golden rule**: if your lunchtime location doesn't generate at least 80% of your daily revenue target within 2 hours, question it.
+
+### Morning: An Underexploited Slot (7am–9:30am)
+
+Breakfast and coffee are often neglected by food trucks, but can represent **an interesting additional revenue stream** in the right contexts:
+
+- Industrial or logistics business zones (workers starting early)
+- Morning producer markets
+- Train stations or transit corridors
+
+This slot rarely works alone: it ideally pairs with a lunchtime service at the same or nearby location.
+
+### Afternoon: Generally to Avoid (2pm–6pm)
+
+The afternoon lull is the classic trap. Except in specific cases (beaches, shopping centres, tourist spots), **food demand is low between 2pm and 6pm**.
+
+Staying open during this slot out of habit or "just in case" generates costs without corresponding revenue. Better to close, prepare for the evening service, and let the team rest.
+
+Exception: if you're positioned at a high-footfall tourist area or student campus, analyse your data before deciding.
+
+### Evening: The Second Wind (6:30pm–9pm)
+
+The evening service is the **second major peak**, particularly profitable for:
+- Residential spots (families looking for a restaurant alternative)
+- Festive locations (beach-side food trucks, esplanades, cultural events)
+- Night-time venues (parties, concerts, night markets)
+
+The average evening transaction is often higher than at lunchtime: customers take more time, order drinks, and sometimes share multiple dishes.
+
+**Important**: evening service often requires mobilising your team late. Factor night-time labour costs into your profitability calculation.
+
+## How to Analyse Your Current Opening Hours
+
+### Step 1: Segment Your Sales by Hour
+
+For each service over the past week, calculate:
+- Revenue generated per hourly block (e.g. 11am–12pm, 12pm–1pm, 1pm–2pm)
+- Number of tickets per block
+- Average transaction per block
+
+This often reveals surprises. Many food truckers discover that 80% of their revenue concentrates into 2 hours of a 4-hour service.
+
+### Step 2: Calculate Your Hourly Breakeven
+
+Take your monthly fixed costs (storage unit rent, insurance, vehicle depreciation, subscriptions, etc.) and divide by your monthly opening hours. Add your average hourly food cost (based on usual sales).
+
+You get your **minimum hourly revenue threshold**. Below this threshold, every hour of opening costs you money.
+
+Example:
+- Fixed costs: €2,400/month
+- Opening hours: 120 hours/month
+- Fixed cost/hour: €20
+- Average food cost: 35% of revenue
+- **Breakeven threshold**: €20 ÷ (1 - 0.35) = **~€31 revenue/hour minimum**
+
+If a time block generates less than €31, it's loss-making.
+
+### Step 3: Compare Location by Location
+
+A location may be highly profitable at Tuesday lunchtime but poor on Thursday morning. Don't generalise: **analyse each location × slot × day combination**.
+
+This is where a tool like FoodTracks becomes essential. By cross-referencing your SumUp sales data with your locations and opening hours, you can visualise exactly which slots are worth keeping, expanding, or cutting.
+
+## The Most Common Opening Hour Mistakes
+
+### Opening Out of Habit
+
+You've been at that location on Wednesday mornings for 6 months. But have you actually verified whether that slot is profitable? Many food truckers maintain loss-making slots through inertia or fear of "missing out".
+
+**Solution**: review your hours every month using the previous month's data.
+
+### Not Adapting Hours to the Season
+
+In summer, certain evening slots become very strong thanks to long summer nights. In winter, the lunch service dominates even more. **Your optimal hours in January are not your optimal hours in July.**
+
+Build a seasonal schedule, not a fixed annual one.
+
+### Ignoring Local Events
+
+A concert, a special market, a football match: these events can transform a normally average slot into an exceptional day — or conversely empty a normally good location. Track the local agenda and adjust your hours accordingly.
+
+## Optimise Progressively, Not Brutally
+
+Changing your hours abruptly can disrupt regular customers and cause revenue to drop. The right approach is gradual:
+
+1. **Identify the 2–3 worst-performing slots** over the past 4 weeks
+2. **Test dropping one slot** for 2 weeks while monitoring the overall impact
+3. **Reinvest that time** in preparation, location prospecting, or rest
+4. **Measure the profitability delta** before moving to the next slot
+
+In general, removing 10% of the least profitable hours improves overall profitability by **15–20%** — not by selling more, but by spending less energy on low-yield slots.
+
+## Using FoodTracks to Manage Your Opening Hours
+
+FoodTracks lets you visualise your sales **hour by hour, location by location** by cross-referencing your SumUp data and service notes. You identify:
+
+- The slots where your hourly revenue exceeds your breakeven threshold
+- High-potential locations not yet fully exploited
+- The days of the week where your services are most efficient
+
+After a few weeks of use, you have a complete map of your slots. You can build an optimised weekly schedule — based not on gut feeling, but on the reality of your sales.
+
+## Conclusion
+
+Food truck opening hours are not a question of availability, but of **profitability strategy**. Less but better: focus on slots where demand is strong, hourly revenue is high, and your energy is well invested.
+
+Start by analysing your last 4 weeks of sales hour by hour. Identify your loss-making slots. Cut one, measure the impact, and iterate. Your profitability will increase without having to sell a single extra dish.
+
+**Also read:** [Food Truck Weekly Schedule: Organise Your Services to Maximise Profitability](/en/blog/planning-semaine-food-truck) · [Find the Best Food Truck Locations](/en/blog/trouver-meilleurs-emplacements-food-truck) · [Food Truck KPI Dashboard](/en/blog/tableau-de-bord-kpi-food-truck)`,
+    },
+    relatedSlugs: [
+      "planning-semaine-food-truck",
+      "trouver-meilleurs-emplacements-food-truck",
+      "tableau-de-bord-kpi-food-truck",
+      "optimiser-tournee-food-truck-rentabilite",
+    ],
+  },
 ];
 
 export function getArticleBySlug(slug: string): BlogArticle | undefined {
