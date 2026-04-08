@@ -16,3 +16,4 @@
 | 2026-03-31 | autorisation-stationnement-food-truck | Autorisation de stationnement food truck : démarches, coûts et erreurs à éviter | publie |
 | 2026-04-01 | fidelisation-clients-food-truck-email-sms | Fidéliser ses clients food truck par email et SMS : le guide pratique 2026 | publie |
 | 2026-04-04 | gestion-tresorerie-food-truck | Gestion de trésorerie food truck : garder le contrôle de son cash-flow en 2026 | publie |
+| 2026-04-08 | digitalisation-food-truck-outils-numeriques | Digitalisation food truck : les outils numériques pour gagner en efficacité et en rentabilité | publie |
