@@ -19670,6 +19670,421 @@ Connected payment, real-time inventory management, cash flow tracking and data c
       "logiciel-gestion-food-truck",
     ],
   },
+  {
+    slug: "recruter-premier-employe-food-truck",
+    title: {
+      fr: "Recruter son premier employé en food truck : guide complet 2026",
+      en: "Hiring Your First Food Truck Employee: Complete Guide 2026",
+    },
+    excerpt: {
+      fr: "Quand et comment recruter votre premier employé en food truck ? Contrat, salaire, missions, management : tout ce qu'il faut savoir pour franchir ce cap sans se tromper.",
+      en: "When and how to hire your first food truck employee? Contract, salary, duties, management: everything you need to know to take this step without mistakes.",
+    },
+    category: { fr: "Gestion", en: "Management" },
+    date: "2026-04-09",
+    readTime: 10,
+    keywords: [
+      "recruter employé food truck",
+      "premier salarié food truck",
+      "embauche food truck",
+      "contrat travail food truck",
+      "salaire employé food truck",
+      "manage employee food truck",
+      "hire food truck employee",
+      "food truck first employee",
+      "food truck staff management 2026",
+      "how to hire food truck worker",
+    ],
+    heroImage: "/blog/food-truck-equipe.png",
+    keyTakeaways: {
+      fr: [
+        "Le bon moment pour recruter un premier employé en food truck est généralement quand votre chiffre d'affaires dépasse 8 000 € par mois de façon régulière.",
+        "Un CDD saisonnier ou un contrat à temps partiel permet de tester la collaboration avant un CDI.",
+        "Le coût réel d'un salarié au SMIC est environ 1,7 fois son salaire brut, charges patronales incluses.",
+        "Une fiche de poste claire et un planning de formation évitent la majorité des conflits en début de collaboration.",
+        "FoodTracks permet de suivre la rentabilité par service pour mesurer l'impact concret du recrutement sur vos marges.",
+      ],
+      en: [
+        "The right time to hire a first food truck employee is generally when your monthly revenue consistently exceeds €8,000.",
+        "A fixed-term or part-time contract allows you to test the working relationship before committing to a permanent contract.",
+        "The real cost of an employee on minimum wage is about 1.7 times their gross salary, including employer contributions.",
+        "A clear job description and training schedule prevent most conflicts at the start of a working relationship.",
+        "FoodTracks lets you track profitability per service to measure the concrete impact of hiring on your margins.",
+      ],
+    },
+    faqItems: [
+      {
+        question: {
+          fr: "Quel est le bon moment pour recruter un premier employé en food truck ?",
+          en: "When is the right time to hire a first food truck employee?",
+        },
+        answer: {
+          fr: "Le signal le plus fiable est quand vous refusez des clients ou bâclez le service parce que vous êtes seul. En chiffres, un chiffre d'affaires mensuel régulier de 8 000 € ou plus sur trois mois consécutifs indique généralement que vous pouvez absorber le coût d'un premier salarié à temps partiel. Analysez aussi votre charge de travail hors service : préparation, nettoyage, administratif. Si tout ça dépasse 60 heures par semaine, c'est le signe qu'il faut déléguer.",
+          en: "The clearest signal is when you are turning away customers or rushing through service because you are working alone. In numbers, a consistent monthly revenue of €8,000 or more over three consecutive months generally indicates you can absorb the cost of a first part-time employee. Also analyse your workload outside service hours: prep, cleaning, admin. If all that exceeds 60 hours a week, it is a sign that you need to delegate.",
+        },
+      },
+      {
+        question: {
+          fr: "Quel contrat de travail choisir pour un employé de food truck ?",
+          en: "Which employment contract should I choose for a food truck employee?",
+        },
+        answer: {
+          fr: "Pour un premier recrutement, le CDD (contrat à durée déterminée) est souvent le meilleur choix : il offre de la flexibilité, notamment si votre activité est saisonnière. Si votre besoin est permanent, le CDI à temps partiel (20 ou 24 heures par semaine) permet de recruter sans trop de charge dès le départ. Le contrat d'apprentissage est aussi une excellente option pour former quelqu'un à votre poste tout en bénéficiant d'aides financières de l'État.",
+          en: "For a first hire, a fixed-term contract (CDD) is often the best choice: it offers flexibility, especially if your activity is seasonal. If the need is permanent, a part-time permanent contract (20 or 24 hours per week) allows you to hire without too much commitment from the start. An apprenticeship contract is also an excellent option for training someone in your role while benefiting from government financial support.",
+        },
+      },
+      {
+        question: {
+          fr: "Combien coûte vraiment un employé en food truck ?",
+          en: "How much does a food truck employee really cost?",
+        },
+        answer: {
+          fr: "Pour un salarié au SMIC (1 801,80 € brut en 2026), le coût total employeur est d'environ 2 100 à 2 200 € par mois, charges patronales comprises (environ 22 à 25 %). À cela s'ajoutent les éventuelles primes, les frais de repas, l'équipement (vêtements de travail) et la formation. En pratique, comptez entre 2 300 et 2 500 € par mois pour un employé à temps plein au salaire minimum. Ces coûts peuvent être partiellement compensés par les aides à l'embauche disponibles pour les TPE.",
+          en: "For an employee on minimum wage (€1,801.80 gross in 2026), the total employer cost is around €2,100 to €2,200 per month, including employer contributions (around 22 to 25%). On top of that, add any bonuses, meal costs, equipment (work clothing) and training. In practice, budget between €2,300 and €2,500 per month for a full-time minimum wage employee. These costs can be partially offset by small business hiring incentives.",
+        },
+      },
+      {
+        question: {
+          fr: "Quelles missions confier à son premier employé en food truck ?",
+          en: "What tasks should I assign to my first food truck employee?",
+        },
+        answer: {
+          fr: "Les premières missions à déléguer sont généralement celles qui ne requièrent pas votre expertise culinaire ou commerciale : la mise en place du poste de travail, le nettoyage du camion, la gestion des stocks, la prise de commande ou l'encaissement. En confiant ces tâches à un employé, vous vous libérez pour vous concentrer sur la cuisine, la relation client et le développement commercial — là où votre valeur ajoutée est la plus forte.",
+          en: "The first tasks to delegate are generally those that do not require your culinary or commercial expertise: setting up the workstation, cleaning the truck, managing stock, taking orders or processing payments. By handing these tasks to an employee, you free yourself to focus on cooking, customer relations and business development — where your added value is greatest.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment former efficacement un nouvel employé en food truck ?",
+          en: "How to effectively train a new food truck employee?",
+        },
+        answer: {
+          fr: "Commencez par une journée de shadowing : le nouvel employé vous observe en action pendant un service complet. Ensuite, inversez les rôles progressivement sur 2 à 3 services. Créez des fiches de poste simples pour chaque tâche récurrente (mise en place, encaissement, nettoyage). Définissez des critères de réussite clairs dès le début : rapidité de service, qualité de l'accueil, tenue du poste. Un retour hebdomadaire structuré pendant le premier mois accélère la montée en compétence et évite les incompréhensions.",
+          en: "Start with a shadowing day: the new employee observes you in action during a full service. Then progressively reverse roles over 2 to 3 services. Create simple task sheets for each recurring task (setup, payment, cleaning). Define clear success criteria from the start: service speed, welcome quality, workstation upkeep. A structured weekly debrief during the first month accelerates skill development and prevents misunderstandings.",
+        },
+      },
+    ],
+    content: {
+      fr: `## Passer de solo à employeur : un cap décisif
+
+Gérer seul son food truck, c'est la réalité de la grande majorité des food truckers au lancement. Vous cuisinez, vous encaissez, vous gérez les stocks, vous nettoyez le camion, vous postez sur les réseaux sociaux. Et progressivement, vous vous retrouvez à courir dans tous les sens, à refuser des services faute de temps, ou simplement à vous épuiser.
+
+Recruter un premier employé est l'une des décisions les plus structurantes de votre activité. C'est aussi l'une des plus intimidantes : coût, formalités, management, risque de se tromper de profil… Les freins ne manquent pas.
+
+Ce guide vous donne les clés pour aborder ce cap avec méthode, éviter les erreurs classiques et maximiser vos chances de réussite.
+
+## 1. Identifier le bon moment pour recruter
+
+### Les signaux d'alerte à ne pas ignorer
+
+Avant de penser contrat et salaire, posez-vous la question fondamentale : **êtes-vous limité par votre capacité humaine ?**
+
+Voici les signaux concrets qui indiquent qu'il est temps de recruter :
+- Vous refusez des services ou des marchés par manque de bras
+- Vous bâclez la préparation ou le nettoyage par manque de temps
+- Vous dépassez régulièrement 60 heures de travail par semaine
+- Votre qualité de service se dégrade (temps d'attente, erreurs de commande)
+- Vous n'avez plus le temps de gérer l'administratif correctement
+
+### Le seuil financier de référence
+
+Un salarié au SMIC à temps plein coûte environ **2 200 à 2 500 € par mois** (charges comprises). Pour que ce recrutement soit soutenable sans pression excessive, votre chiffre d'affaires mensuel devrait dépasser **8 000 € de façon régulière** sur au moins trois mois consécutifs.
+
+Si vous n'avez pas encore cette visibilité sur votre rentabilité, c'est le premier chantier à adresser. Un outil comme **FoodTracks** vous donne en temps réel votre CA, vos marges et vos coûts par service — indispensable avant de prendre une décision d'embauche. Pour aller plus loin, consultez notre guide sur la [gestion de trésorerie food truck](/fr/blog/gestion-tresorerie-food-truck).
+
+## 2. Définir le poste avant de recruter
+
+### Pourquoi une fiche de poste est indispensable
+
+Recruter sans fiche de poste, c'est recruter sans cap. Vous ne savez pas exactement ce que vous cherchez, le candidat ne sait pas ce qu'on attend de lui, et les malentendus s'accumulent dès le premier jour.
+
+Une bonne fiche de poste pour un employé de food truck doit préciser :
+- **Les missions principales** : prise de commande, encaissement, préparation froide, assemblage des plats, nettoyage
+- **Les horaires** : jours travaillés, amplitudes, coupures éventuelles
+- **Les compétences requises** : HACCP, expérience en restauration rapide, permis de conduire si besoin
+- **Les qualités attendues** : réactivité, sens du contact, résistance au stress
+
+### Les tâches à déléguer en priorité
+
+La logique est simple : déléguez d'abord ce qui ne nécessite pas votre expertise. Cela libère du temps pour ce que vous seul savez faire (votre cuisine signature, le contact avec les clients réguliers, le développement commercial).
+
+En pratique, les premières tâches à confier sont :
+- La mise en place du poste de travail avant le service
+- Le nettoyage du camion après le service
+- La gestion des commandes et de l'encaissement en service
+- Le suivi basique des stocks (réceptionner une livraison, faire un inventaire)
+
+## 3. Choisir le bon type de contrat
+
+### CDD ou CDI : quelle différence en pratique ?
+
+**Le CDD** est idéal pour un premier recrutement ou une activité saisonnière. Il peut durer de quelques semaines à 18 mois (renouvelable une fois). À son terme, si vous ne le renouvelez pas, le salarié perçoit une indemnité de fin de contrat équivalente à 10 % du salaire brut total.
+
+**Le CDI à temps partiel** (20 à 30 heures par semaine) est une bonne alternative si votre besoin est permanent mais pas à plein temps. Il offre plus de stabilité au salarié et souvent une meilleure qualité d'engagement.
+
+**Le contrat d'apprentissage** mérite d'être sérieusement envisagé : vous formez un jeune à votre métier, la rémunération est réduite (un pourcentage du SMIC selon l'âge), et vous bénéficiez d'aides financières pouvant atteindre **6 000 € la première année**.
+
+### Convention collective applicable
+
+Les food trucks relèvent en général de la **convention collective des hôtels, cafés, restaurants (HCR)**. Elle fixe les minima de salaire, les règles sur les repos, les heures supplémentaires et les avantages en nature (repas). Vérifiez que votre contrat est conforme à cette convention avant de le signer.
+
+## 4. Calculer le coût réel de votre recrutement
+
+### Le salaire brut n'est pas le coût total
+
+C'est l'erreur la plus classique des employeurs débutants : confondre salaire brut et coût employeur. En France, les charges patronales représentent environ **22 à 25 % du salaire brut** pour une TPE.
+
+Pour un salarié au SMIC (1 801,80 € brut en 2026) :
+- Charges patronales : ~400 €
+- **Coût employeur total : ~2 200 €/mois**
+
+Ajoutez à cela les coûts annexes souvent oubliés :
+- Tenue de travail et équipement de protection individuelle
+- Formation initiale (HACCP si non certifié, prise en main des outils)
+- Mutuelle d'entreprise obligatoire
+- Prime de transport si applicable
+
+**Budget réaliste : 2 300 à 2 500 €/mois** pour un premier salarié à temps plein.
+
+### Mesurer l'impact sur votre rentabilité
+
+Avant de signer, calculez le CA supplémentaire que ce recrutement doit générer pour s'autofinancer. Si votre employé vous permet de faire 2 services de plus par semaine à 600 € chacun, soit 4 800 € de CA mensuel supplémentaire, et que votre marge brute est de 65 %, vous générez 3 120 € de marge supplémentaire — de quoi couvrir le coût du salarié avec un peu de marge.
+
+Pour ce type de calcul, FoodTracks vous permet de suivre la rentabilité par service et de mesurer précisément l'impact d'un changement organisationnel sur vos marges.
+
+## 5. Trouver le bon profil
+
+### Où recruter ?
+
+Les canaux les plus efficaces pour les food trucks sont :
+- **Pôle Emploi / France Travail** : gratuit, large base de candidats, vous pouvez cibler les profils avec expérience en restauration
+- **Les réseaux sociaux** : une annonce sur votre page Instagram ou Facebook peut générer des candidatures qualifiées de personnes qui connaissent déjà votre concept
+- **Les écoles hôtelières et CFA** : idéal pour trouver un apprenti motivé
+- **Le bouche-à-oreille** : souvent la source la plus fiable — demandez à vos clients réguliers, à vos collègues food truckers
+
+### Les critères à ne pas négliger
+
+Au-delà des compétences techniques, en food truck les qualités humaines comptent autant :
+- **Résistance au stress** : le rush de service est intense
+- **Polyvalence** : encaissement, service, préparation — tout peut s'enchaîner
+- **Ponctualité et fiabilité** : un absent en service, c'est un désastre
+- **Sens du contact client** : votre employé est l'ambassadeur de votre marque
+
+Testez ces qualités dès l'entretien : proposez un essai rémunéré d'une demi-journée en conditions réelles.
+
+## 6. Intégrer et former votre premier employé
+
+### Les premières 48 heures sont déterminantes
+
+L'intégration d'un nouvel employé se joue dans les premiers jours. Un accueil soigné évite la désillusion rapide et pose les bases d'une collaboration durable.
+
+Préparez un **kit d'intégration** simple :
+- Tour du camion et des équipements
+- Présentation des règles d'hygiène et de sécurité
+- Explication du menu et des recettes
+- Remise des fiches de poste pour chaque tâche
+
+### Le shadowing comme méthode de formation
+
+La meilleure formation en food truck, c'est le terrain. Utilisez le **shadowing** :
+1. **Jour 1** : l'employé vous observe sur un service complet sans intervenir
+2. **Jours 2-3** : il fait les tâches sous votre supervision directe
+3. **Semaine 2** : il prend en charge progressivement certains postes de manière autonome
+
+Après chaque service, faites un débriefing de 10 minutes : ce qui a bien fonctionné, ce qui doit être amélioré. Ce rituel simple accélère massivement la progression.
+
+### Les erreurs de management à éviter
+
+- **Tout faire à la place de l'employé** quand quelque chose ne va pas : c'est contre-productif. Montrez, expliquez, laissez faire.
+- **Ne donner aucun retour** : sans feedback, personne ne s'améliore.
+- **Modifier le planning sans prévenir** : la vie d'un salarié se construit autour de son contrat. Respectez les horaires convenus.
+- **Ne pas formaliser les attentes** : si vous attendez quelque chose, dites-le explicitement. L'implicite génère des frustrations des deux côtés.
+
+## 7. Les démarches administratives obligatoires
+
+### La déclaration préalable à l'embauche (DPAE)
+
+Avant le premier jour de travail, vous devez effectuer une **DPAE** auprès de l'URSSAF. Elle se fait en ligne en quelques minutes. Ne jamais commencer un contrat sans cette déclaration : les sanctions en cas de travail dissimulé sont sévères (amende + redressement de cotisations).
+
+### Le registre du personnel
+
+Tout employeur doit tenir un registre du personnel mentionnant chaque salarié, la date d'entrée, le type de contrat et la date de sortie. Ce document peut être tenu sous format numérique.
+
+### La visite médicale
+
+Chaque nouvel embauché doit passer une visite médicale d'embauche auprès de la médecine du travail dans les 3 mois suivant la prise de poste (ou avant pour certains postes à risque).
+
+## Conclusion
+
+Recruter son premier employé en food truck est un cap qui change tout : plus de capacité, plus de services possibles, et enfin la possibilité de souffler. Mais c'est aussi une responsabilité réelle — financière, managériale, humaine.
+
+La clé du succès : **préparer avant d'agir**. Définissez le poste, choisissez le bon contrat, calculez le coût réel, intégrez avec méthode. Et suivez l'impact du recrutement sur votre rentabilité avec les bons outils — pour ne pas naviguer à vue.
+
+**À lire aussi :** [Gestion de trésorerie food truck](/fr/blog/gestion-tresorerie-food-truck) · [Planning semaine food truck](/fr/blog/planning-semaine-food-truck) · [Digitalisation food truck](/fr/blog/digitalisation-food-truck-outils-numeriques)`,
+      en: `## Going from Solo to Employer: A Decisive Step
+
+Running a food truck alone is the reality for most food truckers at launch. You cook, take payments, manage stock, clean the truck and post on social media. And gradually you find yourself running in all directions, turning down bookings for lack of time, or simply burning out.
+
+Hiring your first employee is one of the most structurally important decisions you will make. It is also one of the most daunting: cost, paperwork, management, the risk of hiring the wrong person — the obstacles are plentiful.
+
+This guide gives you the keys to approach this step methodically, avoid classic mistakes and maximise your chances of success.
+
+## 1. Identifying the Right Time to Hire
+
+### Warning Signs You Should Not Ignore
+
+Before thinking about contracts and salary, ask yourself the fundamental question: **are you limited by your human capacity?**
+
+Here are concrete signals that it is time to hire:
+- You are turning down bookings or markets for lack of hands
+- You are rushing preparation or cleaning for lack of time
+- You regularly exceed 60 working hours per week
+- Your service quality is declining (waiting times, order errors)
+- You no longer have time to manage admin properly
+
+### The Financial Reference Threshold
+
+A full-time minimum-wage employee costs around **€2,200 to €2,500 per month** (including contributions). For this hire to be financially sustainable without excessive pressure, your monthly revenue should consistently exceed **€8,000 for at least three consecutive months**.
+
+If you do not yet have this visibility on your profitability, that is the first thing to address. A tool like **FoodTracks** gives you real-time revenue, margins and costs per service — essential before making a hiring decision. For more, see our guide on [food truck cash flow management](/en/blog/gestion-tresorerie-food-truck).
+
+## 2. Defining the Role Before Recruiting
+
+### Why a Job Description is Essential
+
+Hiring without a job description means hiring without direction. You do not know exactly what you are looking for, the candidate does not know what is expected, and misunderstandings pile up from day one.
+
+A good job description for a food truck employee should specify:
+- **Main duties**: taking orders, payment processing, cold prep, dish assembly, cleaning
+- **Hours**: days worked, shift lengths, breaks
+- **Required skills**: food hygiene certificate, fast food experience, driving licence if needed
+- **Expected qualities**: responsiveness, customer service, stress tolerance
+
+### Tasks to Delegate First
+
+The logic is simple: delegate first what does not require your expertise. This frees up time for what only you can do (your signature dishes, relationships with regular customers, business development).
+
+In practice, the first tasks to hand over are:
+- Setting up the workstation before service
+- Cleaning the truck after service
+- Managing orders and payments during service
+- Basic stock management (receiving a delivery, doing an inventory count)
+
+## 3. Choosing the Right Contract Type
+
+### Fixed-Term vs Permanent: What Is the Practical Difference?
+
+**A fixed-term contract (CDD)** is ideal for a first hire or seasonal activity. It can last from a few weeks to 18 months (renewable once). At the end, if you do not renew it, the employee receives an end-of-contract bonus equivalent to 10% of total gross salary.
+
+**A part-time permanent contract (CDI)** at 20 to 30 hours per week is a good alternative if the need is ongoing but not full-time. It offers more stability to the employee and often better engagement quality.
+
+**An apprenticeship contract** is worth seriously considering: you train a young person in your trade, the pay is reduced (a percentage of minimum wage based on age), and you benefit from financial support that can reach **€6,000 in the first year**.
+
+### Applicable Collective Agreement
+
+Food trucks generally fall under the **hotels, cafes and restaurants (HCR) collective agreement**. It sets minimum salaries, rules on rest days, overtime and benefits in kind (meals). Make sure your contract complies with this agreement before signing.
+
+## 4. Calculating the Real Cost of Your Hire
+
+### Gross Salary Is Not the Total Cost
+
+This is the most classic mistake first-time employers make: confusing gross salary with the total employer cost. In France, employer contributions amount to around **22 to 25% of gross salary** for a small business.
+
+For a minimum-wage employee (€1,801.80 gross in 2026):
+- Employer contributions: ~€400
+- **Total employer cost: ~€2,200/month**
+
+Add the ancillary costs that are often overlooked:
+- Work clothing and personal protective equipment
+- Initial training (food hygiene if not certified, tool onboarding)
+- Mandatory company health insurance
+- Transport allowance if applicable
+
+**Realistic budget: €2,300 to €2,500 per month** for a first full-time employee.
+
+### Measuring the Impact on Your Profitability
+
+Before signing, calculate the additional revenue this hire needs to generate to pay for itself. If your employee allows you to do 2 extra services per week at €600 each — €4,800 extra monthly revenue — and your gross margin is 65%, you generate €3,120 in additional margin, enough to cover the employee cost with a little left over.
+
+For this kind of calculation, FoodTracks lets you track profitability per service and precisely measure the impact of an organisational change on your margins.
+
+## 5. Finding the Right Profile
+
+### Where to Recruit
+
+The most effective channels for food trucks are:
+- **France Travail (Pôle Emploi)**: free, large candidate base, you can target profiles with restaurant experience
+- **Social media**: a post on your Instagram or Facebook page can generate qualified applications from people who already know your concept
+- **Catering schools and apprenticeship centres**: ideal for finding a motivated apprentice
+- **Word of mouth**: often the most reliable source — ask your regular customers, fellow food truckers
+
+### Criteria Not to Overlook
+
+Beyond technical skills, in a food truck human qualities matter just as much:
+- **Stress tolerance**: the service rush is intense
+- **Versatility**: payment, service, prep — everything can come at once
+- **Punctuality and reliability**: one absent in service is a disaster
+- **Customer-facing skills**: your employee is an ambassador for your brand
+
+Test these qualities from the interview: offer a paid half-day trial in real conditions.
+
+## 6. Integrating and Training Your First Employee
+
+### The First 48 Hours Are Decisive
+
+The integration of a new employee is decided in the first few days. A careful welcome prevents rapid disillusionment and lays the groundwork for a lasting working relationship.
+
+Prepare a simple **onboarding kit**:
+- Tour of the truck and equipment
+- Presentation of hygiene and safety rules
+- Explanation of the menu and recipes
+- Task sheets for each key duty
+
+### Shadowing as a Training Method
+
+The best training in a food truck happens on the ground. Use **shadowing**:
+1. **Day 1**: the employee observes you throughout a full service without intervening
+2. **Days 2-3**: they do the tasks under your direct supervision
+3. **Week 2**: they progressively take charge of certain stations autonomously
+
+After each service, do a 10-minute debrief: what went well, what needs to improve. This simple ritual dramatically accelerates progress.
+
+### Management Mistakes to Avoid
+
+- **Doing everything yourself** when something is not right: it is counterproductive. Show, explain, let them do it.
+- **Giving no feedback**: without feedback, no one improves.
+- **Changing the schedule without warning**: an employee's life is built around their contract. Respect agreed hours.
+- **Not formalising expectations**: if you expect something, say it explicitly. Implicit expectations generate frustration on both sides.
+
+## 7. Mandatory Administrative Steps
+
+### Prior Declaration of Employment (DPAE)
+
+Before the first day of work, you must submit a **DPAE** to the URSSAF. It is done online in a few minutes. Never start a contract without this declaration: the penalties for undeclared work are severe (fine plus contribution arrears).
+
+### The Personnel Register
+
+Every employer must keep a personnel register listing each employee, their start date, contract type and end date. This document can be kept in digital format.
+
+### The Medical Examination
+
+Each new hire must undergo a pre-employment medical examination with the occupational health service within 3 months of taking up the post (or before for certain at-risk positions).
+
+## Conclusion
+
+Hiring your first food truck employee changes everything: more capacity, more services possible, and finally the chance to breathe. But it is also a real responsibility — financial, managerial and human.
+
+The key to success: **prepare before acting**. Define the role, choose the right contract, calculate the real cost, and integrate methodically. Then track the impact of the hire on your profitability with the right tools — so you are never flying blind.
+
+**Also read:** [Food Truck Cash Flow Management](/en/blog/gestion-tresorerie-food-truck) · [Food Truck Weekly Schedule](/en/blog/planning-semaine-food-truck) · [Food Truck Digitalisation](/en/blog/digitalisation-food-truck-outils-numeriques)`,
+    },
+    relatedSlugs: [
+      "gestion-tresorerie-food-truck",
+      "planning-semaine-food-truck",
+      "digitalisation-food-truck-outils-numeriques",
+      "contrats-entreprises-food-truck",
+    ],
+  },
 ];
 
 export function getArticleBySlug(slug: string): BlogArticle | undefined {
