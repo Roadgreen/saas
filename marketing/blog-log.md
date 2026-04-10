@@ -17,3 +17,5 @@
 | 2026-04-01 | fidelisation-clients-food-truck-email-sms | Fidéliser ses clients food truck par email et SMS : le guide pratique 2026 | publie |
 | 2026-04-04 | gestion-tresorerie-food-truck | Gestion de trésorerie food truck : garder le contrôle de son cash-flow en 2026 | publie |
 | 2026-04-08 | digitalisation-food-truck-outils-numeriques | Digitalisation food truck : les outils numériques pour gagner en efficacité et en rentabilité | publie |
+| 2026-04-09 | recruter-premier-employe-food-truck | Recruter son premier employé en food truck : guide complet 2026 | publie |
+| 2026-04-10 | choisir-emplacement-rentable-food-truck | Choisir un emplacement rentable pour son food truck : méthode et critères 2026 | publie |

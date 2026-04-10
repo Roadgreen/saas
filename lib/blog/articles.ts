@@ -20085,6 +20085,424 @@ The key to success: **prepare before acting**. Define the role, choose the right
       "contrats-entreprises-food-truck",
     ],
   },
+  {
+    slug: "choisir-emplacement-rentable-food-truck",
+    title: {
+      fr: "Choisir un emplacement rentable pour son food truck : méthode et critères 2026",
+      en: "How to Choose a Profitable Food Truck Location: Method & Criteria 2026",
+    },
+    excerpt: {
+      fr: "L'emplacement est la décision numéro un du food trucker. Découvrez comment évaluer la rentabilité d'un spot, les critères à analyser et les erreurs à éviter pour maximiser votre chiffre d'affaires.",
+      en: "Location is a food truck operator's most important decision. Learn how to assess a spot's profitability, which criteria to analyze, and which mistakes to avoid to maximize your revenue.",
+    },
+    category: { fr: "Stratégie", en: "Strategy" },
+    date: "2026-04-10",
+    readTime: 10,
+    keywords: [
+      "emplacement rentable food truck",
+      "choisir emplacement food truck",
+      "meilleur spot food truck",
+      "où stationner food truck",
+      "analyse emplacement food truck",
+      "rentabilité emplacement food truck",
+    ],
+    heroImage: "/blog/emplacement-food-truck.png",
+    content: {
+      fr: `## L'emplacement, le levier numéro un de votre rentabilité
+
+En food truck, vous ne vendez pas seulement de la nourriture — vous vendez de la présence au bon endroit, au bon moment. **Un emplacement mal choisi peut diviser votre chiffre d'affaires par trois**, quand le bon spot peut transformer un service ordinaire en record de caisse. Pourtant, la majorité des food truckers choisissent encore leurs emplacements à l'instinct, sans méthode structurée.
+
+Dans ce guide, vous allez découvrir comment évaluer scientifiquement un emplacement, les critères concrets à peser, et comment utiliser vos données de vente pour affiner votre stratégie au fil du temps.
+
+## Les 6 critères fondamentaux d'un bon emplacement
+
+### 1. Le flux piétonnier qualifié
+
+Le premier réflexe est de regarder le nombre de personnes qui passent. Mais attention : **le flux brut ne suffit pas, il faut qualifier ce flux**. Un spot avec 5 000 passages de cadres pressés le midi vaut souvent plus qu'un spot avec 20 000 passages de touristes en transit.
+
+Questions à se poser :
+- Quel est le profil des passants (âge, CSP, comportement d'achat) ?
+- À quelle heure le flux est-il maximum ?
+- Ce flux est-il régulier toute l'année ou saisonnier ?
+- Y a-t-il une correspondance entre ce que je vends et ce que ce public cherche ?
+
+**Méthode pratique** : passez 30 minutes sur place aux heures de pointe un jour de semaine et un week-end. Comptez les passages, observez les comportements, notez les enseignes de restauration alentour et leurs files d'attente.
+
+### 2. La concurrence directe et indirecte
+
+Un emplacement avec 5 food trucks déjà présents n'est pas forcément à fuir — cela peut signifier que la zone est porteuse. Mais vous devez analyser :
+- **Combien de concurrents directs** (même type de cuisine) ?
+- **Quelle est leur fréquentation visible** (files d'attente, plateaux vendus) ?
+- **Y a-t-il une offre manquante** que vous pourriez combler ?
+
+Un marché du midi avec 4 sandwicheries et aucune option asiatique ou végane est une opportunité, pas un obstacle.
+
+### 3. L'accessibilité et la visibilité physique
+
+Votre camion doit pouvoir **être vu de loin et atteint facilement**. Les meilleurs flux sont inutiles si les gens ne vous voient pas en arrivant sur la zone.
+
+Critères à vérifier :
+- Visibilité depuis les axes principaux d'arrivée
+- Possibilité de stationner avec dégagement suffisant (au moins 8 à 10 mètres de linéaire)
+- Accès PMR et facilité de circulation autour du camion
+- Présence d'un espace d'attente ou de consommation à proximité (bancs, pelouse, esplanade)
+
+### 4. Les générateurs de trafic environnants
+
+Certains emplacements bénéficient de "générateurs de trafic" qui amènent naturellement des clients potentiels. Identifiez-les dans un rayon de 500 mètres :
+
+- **Zones d'emploi** : bureaux, ZAC, zones industrielles (fort potentiel midi)
+- **Établissements scolaires** : lycées, universités, grandes écoles
+- **Équipements sportifs** : salles de sport, stades, piscines
+- **Lieux culturels** : musées, théâtres, cinémas
+- **Centres commerciaux** : galeries, marchés couverts
+- **Transports** : gares, arrêts de tram très fréquentés
+
+Plus il y a de générateurs cumulés, plus le potentiel est élevé — et moins vous dépendez d'un seul type de clientèle.
+
+### 5. Les conditions réglementaires et le coût d'accès
+
+Un emplacement rentable sur le papier peut devenir déficitaire si les contraintes réglementaires sont trop lourdes. Avant de vous engager, vérifiez :
+
+- **Autorisation de voirie** : domaine public (mairie) ou privé (propriétaire, gestionnaire) ?
+- **Durée de l'autorisation** : à la journée, mensuelle, annuelle ?
+- **Coût de la redevance** : comparez toujours avec votre CA prévisionnel (objectif : redevance < 5 à 8% du CA du service)
+- **Exclusivité ou non** : êtes-vous le seul food truck autorisé, ou en concurrence sur la même zone ?
+- **Contraintes horaires** : plages d'ouverture imposées, jours d'interdiction ?
+
+Pour aller plus loin sur la réglementation, consultez notre guide complet sur les [autorisations de stationnement food truck](/fr/blog/autorisation-stationnement-food-truck).
+
+### 6. L'historique et la saisonnalité
+
+Un emplacement en plein air peut être fantastique en été et désertique en hiver. Demandez-vous :
+- Comment ce spot se comporte-t-il en cas de mauvais temps ?
+- Y a-t-il des événements récurrents qui dopent ponctuellement la fréquentation ?
+- D'autres food truckers ont-ils opéré ici avant vous ? Pourquoi sont-ils partis ?
+
+## Comment calculer le potentiel de chiffre d'affaires d'un spot
+
+Avant d'investir du temps et de l'argent sur un nouvel emplacement, faites une **estimation prévisionnelle simple** :
+
+### Méthode des 3 scénarios
+
+1. **Scénario pessimiste** : flux faible, météo mitigée, clientèle pas encore habituée
+   - Ex. : 30 couverts × ticket moyen 10 € = 300 €/service
+
+2. **Scénario nominal** : conditions normales
+   - Ex. : 60 couverts × 10 € = 600 €/service
+
+3. **Scénario optimiste** : conditions idéales, événement, beau temps
+   - Ex. : 100 couverts × 10 € = 1 000 €/service
+
+Multipliez par le nombre de services mensuels prévus sur ce spot et comparez avec vos charges fixes + variables + redevance. Si le scénario nominal couvre largement vos coûts, l'emplacement mérite un test.
+
+### Le test terrain obligatoire
+
+Ne vous engagez jamais sur un emplacement récurrent sans **tester au moins 3 services** à des jours et horaires différents. Lors de ces tests, collectez :
+- Le nombre de couverts servis
+- Le ticket moyen
+- Les heures de pic et de creux
+- Les retours clients informels (ce qu'ils cherchaient, d'où ils viennent)
+
+Avec un outil comme **FoodTracks**, ces données sont automatiquement centralisées depuis votre terminal SumUp — vous pouvez comparer les performances de chaque emplacement sur un même tableau de bord.
+
+## Les types d'emplacements et leur rentabilité comparative
+
+### Le marché alimentaire hebdomadaire
+
+**Avantages** : flux régulier et prévisible, clientèle habituée à la dépense alimentaire, convivialité.
+**Inconvénients** : concurrence forte d'autres stands, redevance parfois élevée, horaires contraints.
+**Rentabilité moyenne** : bonne à condition d'être présent dès l'ouverture et d'avoir une offre différenciante.
+
+### La zone d'entreprises (déjeuner)
+
+**Avantages** : clientèle captive, ticket moyen souvent supérieur (12 à 15 €), faible concurrence si vous êtes le seul food truck.
+**Inconvénients** : ne fonctionne que le midi en semaine, télétravail peut faire varier le flux.
+**Rentabilité moyenne** : excellente si la zone compte 300+ salariés dans un rayon de 500 m.
+
+### L'événement ponctuel (festival, salon, concert)
+
+**Avantages** : fort volume sur une courte durée, ticket moyen élevé, visibilité de marque.
+**Inconvénients** : imprévisible, coûts d'accès parfois très élevés, préparation importante.
+**Rentabilité moyenne** : variable selon l'événement — toujours négocier les frais de participation.
+
+### Le spot en pied d'immeuble ou esplanade commerciale
+
+**Avantages** : flux piétonnier mixte, visibilité urbaine, possibilité de fidéliser un quartier.
+**Inconvénients** : autorisations complexes, météo dépendante, forte concurrence sédentaire à proximité.
+**Rentabilité moyenne** : bonne sur le long terme si vous construisez une base de clients réguliers.
+
+### Les partenariats avec entreprises ou collectivités
+
+**Avantages** : revenus garantis, planning prévisible, relation durable.
+**Inconvénients** : marges parfois négociées à la baisse, dépendance à un seul client.
+**Rentabilité moyenne** : stable et sécurisante — idéale pour lisser les variations saisonnières.
+
+Pour décrocher ces contrats, lisez notre guide sur les [contrats entreprises food truck](/fr/blog/contrats-entreprises-food-truck).
+
+## Construire votre portefeuille d'emplacements
+
+Le secret des food truckers les plus rentables n'est pas d'avoir **le** meilleur emplacement — c'est d'avoir **un portefeuille d'emplacements complémentaires** qui couvrent différents jours, horaires et clientèles.
+
+Une stratégie équilibrée combine typiquement :
+- 2 à 3 emplacements récurrents en semaine (zones d'entreprises, marchés)
+- 1 à 2 emplacements de week-end (marchés, zones de loisirs)
+- 1 à 2 événements ponctuels par mois (festivals, salons)
+
+Ce portefeuille vous protège contre la défaillance d'un seul spot et lisse votre chiffre d'affaires sur l'année. Combinez cette stratégie avec un [planning hebdomadaire optimisé](/fr/blog/planning-semaine-food-truck) pour maximiser votre rentabilité globale.
+
+## Suivre et comparer vos emplacements avec les données
+
+Une fois votre portefeuille construit, l'enjeu est de **piloter les performances de chaque spot**. Sans données, vous fonctionnez à l'instinct. Avec les données, vous prenez des décisions éclairées :
+
+- Quel emplacement génère le meilleur CA par heure de présence ?
+- Sur quel spot votre ticket moyen est-il le plus élevé ?
+- Quels emplacements souffrent des mauvaises conditions météo ?
+- Où fidélisez-vous le mieux votre clientèle ?
+
+FoodTracks croise automatiquement vos données de vente SumUp avec les emplacements, la météo et le calendrier d'événements pour vous donner une vision claire de chaque spot. Vous pouvez ainsi décider en connaissance de cause de garder, développer ou abandonner un emplacement.
+
+## Conclusion
+
+Choisir un emplacement rentable n'est pas une question de flair — c'est une discipline qui s'appuie sur des critères objectifs, des tests terrain et une analyse continue des données. **Mesurez, testez, comparez et ajustez.** Les food truckers qui réussissent sur le long terme sont ceux qui ont transformé leur gestion d'emplacements en processus systématique.
+
+Commencez par cartographier votre zone de chalandise, identifiez les générateurs de trafic, testez méthodiquement vos nouveaux spots, et utilisez vos données de vente pour arbitrer en continu.
+
+**À lire aussi :** [Horaires d'ouverture food truck : comment les optimiser](/fr/blog/horaires-ouverture-food-truck-maximiser-ventes) · [Planning semaine food truck](/fr/blog/planning-semaine-food-truck) · [Contrats entreprises food truck](/fr/blog/contrats-entreprises-food-truck)`,
+
+      en: `## Location: Your Number-One Profitability Lever
+
+In food trucking, you're not just selling food — you're selling presence at the right place, at the right time. **A poorly chosen location can divide your revenue by three**, while the right spot can turn an ordinary service into a record day. Yet most food truck operators still choose their locations by gut feeling, without a structured method.
+
+In this guide, you'll discover how to scientifically evaluate a location, the concrete criteria to weigh, and how to use your sales data to sharpen your strategy over time.
+
+## The 6 Fundamental Criteria for a Good Location
+
+### 1. Qualified Foot Traffic
+
+The first reflex is to look at how many people pass by. But be careful: **raw traffic volume isn't enough — you need to qualify that traffic**. A spot with 5,000 busy office workers at lunch is often worth more than one with 20,000 tourists just passing through.
+
+Questions to ask:
+- What is the profile of passers-by (age, income, buying behavior)?
+- At what time is traffic at its peak?
+- Is this traffic consistent year-round or seasonal?
+- Is there a match between what you sell and what this audience is looking for?
+
+**Practical method**: spend 30 minutes on-site during peak hours on a weekday and a weekend. Count the people, observe behaviors, note nearby food outlets and their queues.
+
+### 2. Direct and Indirect Competition
+
+A location with 5 food trucks already present isn't necessarily a red flag — it may mean the area is strong. But analyze:
+- **How many direct competitors** (same cuisine type)?
+- **What is their visible footfall** (queues, trays sold)?
+- **Is there a missing offering** that you could fill?
+
+A lunch market with four sandwich trucks and no Asian or vegan option is an opportunity, not an obstacle.
+
+### 3. Physical Accessibility and Visibility
+
+Your truck must be **visible from a distance and easy to reach**. The best traffic flows are useless if people don't spot you when arriving.
+
+Criteria to check:
+- Visibility from main approach routes
+- Ability to park with sufficient clearance (at least 8 to 10 metres of frontage)
+- Disability access and easy circulation around the truck
+- Presence of a waiting or consumption area nearby (benches, lawn, esplanade)
+
+### 4. Traffic Generators in the Surrounding Area
+
+Some locations benefit from "traffic generators" that naturally bring potential customers. Identify them within a 500-metre radius:
+
+- **Employment zones**: offices, business parks, industrial estates (strong lunch potential)
+- **Educational institutions**: high schools, universities, colleges
+- **Sports facilities**: gyms, stadiums, swimming pools
+- **Cultural venues**: museums, theatres, cinemas
+- **Shopping areas**: shopping centres, covered markets
+- **Transport hubs**: train stations, very busy tram stops
+
+The more generators stack up, the higher the potential — and the less dependent you are on a single customer type.
+
+### 5. Regulatory Conditions and Access Costs
+
+A location that looks profitable on paper can become loss-making if regulatory constraints are too heavy. Before committing, check:
+
+- **Road permit**: public domain (city hall) or private (owner, manager)?
+- **Duration of the permit**: daily, monthly, annual?
+- **Fee amount**: always compare with your projected revenue (target: fee < 5 to 8% of service revenue)
+- **Exclusivity or not**: are you the only food truck authorized, or competing on the same zone?
+- **Time restrictions**: mandatory opening hours, prohibited days?
+
+### 6. History and Seasonality
+
+An outdoor location can be fantastic in summer and deserted in winter. Ask yourself:
+- How does this spot perform in bad weather?
+- Are there recurring events that temporarily boost footfall?
+- Have other food trucks operated here before? Why did they leave?
+
+## Calculating a Spot's Revenue Potential
+
+Before investing time and money in a new location, do a **simple revenue forecast**:
+
+### The 3-Scenario Method
+
+1. **Pessimistic scenario**: low traffic, mixed weather, clientele not yet accustomed
+   - E.g.: 30 covers × average ticket £10 = £300/service
+
+2. **Nominal scenario**: normal conditions
+   - E.g.: 60 covers × £10 = £600/service
+
+3. **Optimistic scenario**: ideal conditions, event, good weather
+   - E.g.: 100 covers × £10 = £1,000/service
+
+Multiply by the number of monthly services planned at this spot and compare with your fixed + variable costs + fee. If the nominal scenario comfortably covers your costs, the location deserves a trial.
+
+### The Mandatory Field Test
+
+Never commit to a recurring location without **testing at least 3 services** at different days and times. During these tests, collect:
+- Number of covers served
+- Average ticket value
+- Peak and quiet hours
+- Informal customer feedback (what they were looking for, where they came from)
+
+With a tool like **FoodTracks**, this data is automatically consolidated from your SumUp terminal — you can compare each location's performance on a single dashboard.
+
+## Types of Locations and Their Comparative Profitability
+
+### The Weekly Food Market
+
+**Advantages**: regular and predictable traffic, clientele accustomed to food spending, friendly atmosphere.
+**Disadvantages**: strong competition from other stalls, sometimes high fees, constrained hours.
+**Average profitability**: good, provided you arrive at opening and offer something different.
+
+### The Business Park (Lunch)
+
+**Advantages**: captive clientele, average ticket often higher (£12 to £15), low competition if you are the only food truck.
+**Disadvantages**: works only at weekday lunchtimes, remote working can vary traffic.
+**Average profitability**: excellent if the zone has 300+ employees within 500 metres.
+
+### The One-Off Event (Festival, Exhibition, Concert)
+
+**Advantages**: high volume over a short period, high average ticket, brand visibility.
+**Disadvantages**: unpredictable, access costs sometimes very high, significant preparation required.
+**Average profitability**: variable depending on the event — always negotiate participation fees.
+
+### The Urban Esplanade or Commercial Footpath
+
+**Advantages**: mixed pedestrian traffic, urban visibility, ability to build a neighbourhood loyalty base.
+**Disadvantages**: complex permits, weather-dependent, strong sedentary competition nearby.
+**Average profitability**: good in the long run if you build a core of regular customers.
+
+### Partnerships with Companies or Local Authorities
+
+**Advantages**: guaranteed income, predictable schedule, lasting relationship.
+**Disadvantages**: margins sometimes negotiated down, dependence on a single client.
+**Average profitability**: stable and reassuring — ideal for smoothing seasonal variations.
+
+## Building Your Location Portfolio
+
+The secret of the most profitable food truck operators is not having **the** best location — it is having **a portfolio of complementary locations** that cover different days, time slots, and customer types.
+
+A balanced strategy typically combines:
+- 2 to 3 recurring weekday locations (business zones, markets)
+- 1 to 2 weekend locations (markets, leisure areas)
+- 1 to 2 one-off events per month (festivals, trade shows)
+
+This portfolio protects you against the failure of a single spot and smooths your revenue throughout the year.
+
+## Tracking and Comparing Your Locations with Data
+
+Once your portfolio is built, the challenge is to **track each spot's performance**. Without data, you rely on instinct. With data, you make informed decisions:
+
+- Which location generates the best revenue per hour of presence?
+- At which spot is your average ticket highest?
+- Which locations suffer most from bad weather?
+- Where do you build customer loyalty best?
+
+FoodTracks automatically cross-references your SumUp sales data with locations, weather, and event calendars to give you a clear picture of each spot. You can then make an informed decision to keep, grow, or drop a location.
+
+## Conclusion
+
+Choosing a profitable location is not a matter of instinct — it is a discipline based on objective criteria, field tests, and continuous data analysis. **Measure, test, compare, and adjust.** The food truck operators who succeed long-term are those who have turned their location management into a systematic process.
+
+Start by mapping your catchment area, identify traffic generators, methodically test new spots, and use your sales data to continuously make the best decisions.
+
+**Also read:** [Food Truck Opening Hours Optimization](/en/blog/horaires-ouverture-food-truck-maximiser-ventes) · [Food Truck Weekly Schedule](/en/blog/planning-semaine-food-truck) · [Food Truck Company Contracts](/en/blog/contrats-entreprises-food-truck)`,
+    },
+    keyTakeaways: {
+      fr: [
+        "L'emplacement est le facteur numéro un de rentabilité en food truck — il peut multiplier ou diviser votre CA par trois.",
+        "Qualifiez le flux piétonnier (profil, horaires, comportement) plutôt que de vous fier au volume brut.",
+        "Testez toujours au moins 3 services avant de vous engager sur un emplacement récurrent.",
+        "Un portefeuille de 4 à 6 emplacements complémentaires protège vos revenus et lisse la saisonnalité.",
+        "Pilotez vos spots avec les données de vente : CA par heure, ticket moyen, impact météo.",
+      ],
+      en: [
+        "Location is the number-one profitability factor in food trucking — it can multiply or divide your revenue by three.",
+        "Qualify foot traffic (profile, hours, behavior) rather than relying on raw volume.",
+        "Always test at least 3 services before committing to a recurring location.",
+        "A portfolio of 4 to 6 complementary locations protects your income and smooths seasonality.",
+        "Track your spots with sales data: revenue per hour, average ticket, weather impact.",
+      ],
+    },
+    faqItems: [
+      {
+        question: {
+          fr: "Comment trouver un bon emplacement pour son food truck ?",
+          en: "How do I find a good location for my food truck?",
+        },
+        answer: {
+          fr: "Analysez le flux piétonnier qualifié, la concurrence, les générateurs de trafic proches (bureaux, écoles, gares) et les conditions réglementaires. Testez toujours au moins 3 services avant de vous engager.",
+          en: "Analyze qualified foot traffic, competition, nearby traffic generators (offices, schools, stations), and regulatory conditions. Always test at least 3 services before committing.",
+        },
+      },
+      {
+        question: {
+          fr: "Quel est le coût normal d'une redevance de stationnement pour un food truck ?",
+          en: "What is a normal parking fee for a food truck?",
+        },
+        answer: {
+          fr: "Une redevance raisonnable représente entre 5 et 8% du chiffre d'affaires du service. Au-delà de 10%, l'emplacement risque de ne pas être rentable sauf si votre ticket moyen est très élevé.",
+          en: "A reasonable fee represents 5 to 8% of the service's revenue. Above 10%, the location may not be profitable unless your average ticket is very high.",
+        },
+      },
+      {
+        question: {
+          fr: "Combien d'emplacements un food truck devrait-il avoir ?",
+          en: "How many locations should a food truck have?",
+        },
+        answer: {
+          fr: "Un portefeuille idéal comprend 4 à 6 emplacements complémentaires : 2 à 3 en semaine, 1 à 2 le week-end et 1 à 2 événements ponctuels par mois. Cela lisse la saisonnalité et protège vos revenus.",
+          en: "An ideal portfolio has 4 to 6 complementary locations: 2 to 3 on weekdays, 1 to 2 at weekends, and 1 to 2 one-off events per month. This smooths seasonality and protects your income.",
+        },
+      },
+      {
+        question: {
+          fr: "Quel type d'emplacement est le plus rentable pour un food truck ?",
+          en: "Which type of location is most profitable for a food truck?",
+        },
+        answer: {
+          fr: "Les zones d'entreprises au déjeuner offrent souvent la meilleure rentabilité (ticket moyen 12-15€, clientèle captive) si la zone compte 300 salariés ou plus à 500 mètres. Les événements ponctuels peuvent générer plus de volume mais sont imprévisibles.",
+          en: "Business park locations at lunch often offer the best profitability (average ticket £12-15, captive clientele) if the zone has 300+ employees within 500 metres. One-off events can generate more volume but are unpredictable.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment comparer la performance de plusieurs emplacements food truck ?",
+          en: "How do I compare the performance of multiple food truck locations?",
+        },
+        answer: {
+          fr: "Utilisez le chiffre d'affaires par heure de présence comme indicateur principal. Croisez-le avec le ticket moyen, le nombre de couverts et la météo. Un outil comme FoodTracks centralise ces données automatiquement depuis votre terminal SumUp.",
+          en: "Use revenue per hour of presence as the main indicator. Cross-reference with average ticket, covers served, and weather. A tool like FoodTracks consolidates this data automatically from your SumUp terminal.",
+        },
+      },
+    ],
+    relatedSlugs: [
+      "horaires-ouverture-food-truck-maximiser-ventes",
+      "planning-semaine-food-truck",
+      "contrats-entreprises-food-truck",
+      "autorisation-stationnement-food-truck",
+    ],
+  },
 ];
 
 export function getArticleBySlug(slug: string): BlogArticle | undefined {
