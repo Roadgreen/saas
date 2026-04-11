@@ -20503,6 +20503,402 @@ Start by mapping your catchment area, identify traffic generators, methodically 
       "autorisation-stationnement-food-truck",
     ],
   },
+  {
+    slug: "augmenter-ventes-food-truck-sans-pub",
+    title: {
+      fr: "Comment augmenter les ventes de son food truck sans pub payante : 10 leviers concrets",
+      en: "How to Increase Food Truck Sales Without Paid Advertising: 10 Concrete Levers",
+    },
+    excerpt: {
+      fr: "Budget pub limité ? Découvrez 10 leviers éprouvés pour augmenter vos ventes en food truck sans dépenser un euro en publicité : bouche-à-oreille, réseaux sociaux, fidélisation, partenariats et optimisation data.",
+      en: "Limited ad budget? Discover 10 proven levers to increase your food truck sales without spending a cent on advertising: word-of-mouth, social media, loyalty, partnerships, and data optimisation.",
+    },
+    category: { fr: "Stratégie", en: "Strategy" },
+    date: "2026-04-11",
+    readTime: 11,
+    keywords: [
+      "augmenter ventes food truck",
+      "augmenter chiffre affaires food truck sans pub",
+      "stratégie vente food truck",
+      "booster ventes food truck",
+      "food truck plus rentable",
+      "attirer clients food truck gratuitement",
+    ],
+    heroImage: "/blog/marketing-food-truck.png",
+    content: {
+      fr: `## Vendre plus sans dépenser plus en pub : c'est possible
+
+La publicité payante (Google Ads, Facebook Ads, flyers distribués) peut donner l'illusion qu'elle est indispensable. En réalité, les food truckers les plus rentables misent avant tout sur des leviers organiques — ceux qui coûtent du temps, pas de l'argent. **Un food truck qui maîtrise ces leviers peut augmenter son chiffre d'affaires de 20 à 40% en quelques mois sans budget pub.**
+
+Ce guide passe en revue 10 leviers concrets, actionnables dès cette semaine.
+
+## Levier 1 : optimiser votre présence Google Maps
+
+Votre fiche Google Business Profile est gratuite et redoutablement efficace. Des milliers de personnes cherchent chaque jour "food truck près de moi" ou "food truck \[votre ville\]". Si votre fiche est incomplète, vous passez à côté d'un flux client direct.
+
+**Actions à mener :**
+- Remplissez 100% de votre fiche : horaires, photos récentes, description, catégories
+- Ajoutez des photos de vos plats chaque semaine (les fiches avec 10+ photos reçoivent 3× plus de clics)
+- Répondez à tous les avis, positifs comme négatifs, en moins de 48h
+- Publiez des "posts Google" chaque semaine pour signaler votre emplacement du jour
+
+Un food truck bien référencé sur Google Maps peut générer 15 à 25 nouveaux clients par semaine sans aucune dépense.
+
+## Levier 2 : transformer chaque client en ambassadeur
+
+Le bouche-à-oreille reste le canal d'acquisition le plus puissant en restauration. Mais il ne se produit pas tout seul — il se provoque.
+
+**Comment déclencher le bouche-à-oreille :**
+- Créez un moment mémorable : un petit mot sur le sac, un sourire sincère, un produit offert pour un anniversaire
+- Demandez explicitement à vos clients satisfaits de laisser un avis Google ("Si vous avez aimé, deux étoiles de plus nous aident beaucoup !")
+- Mettez en place un système de parrainage simple : "Amenez un ami = un dessert offert pour vous deux"
+- Portez un t-shirt ou tablier avec votre nom visible — chaque sortie devient une pub ambulante
+
+Un client fidèle qui recommande votre food truck à 3 personnes vaut bien plus qu'une campagne Facebook à 50€.
+
+## Levier 3 : publier du contenu Instagram et TikTok à haute fréquence
+
+Les réseaux sociaux sont gratuits. Ce qui coûte, c'est le temps — mais les retours peuvent être massifs pour un food truck.
+
+**Stratégie concrète :**
+- **TikTok** : filmez les "behind the scenes" de votre préparation, vos recettes signature, vos moments de rush. Les vidéos authentiques de food trucks font régulièrement des dizaines de milliers de vues
+- **Instagram Reels** : partagez les "nouveautés du jour", les arrivages de saison, les réactions de clients (avec accord)
+- **Stories quotidiennes** : annoncez votre emplacement du jour dès 8h le matin — certains clients s'organisent en fonction de vous
+- **Hashtags locaux** : \#foodtruck[votreville], \#streetfood[region], \#bonplan[ville] — recherchés par des locaux en quête d'idées
+
+La régularité bat la perfection : 5 publications simples par semaine valent mieux qu'une production soignée par mois. Pour aller plus loin, consultez notre guide sur le [marketing digital pour food truck](/fr/blog/marketing-digital-food-truck).
+
+## Levier 4 : construire une liste email ou SMS de clients fidèles
+
+Les réseaux sociaux peuvent disparaître ou réduire votre portée du jour au lendemain. Votre liste email ou SMS vous appartient — c'est votre actif marketing le plus précieux.
+
+**Comment construire cette liste :**
+- Proposez un avantage en échange d'une inscription : "Abonnez-vous à nos SMS pour recevoir notre emplacement du jour en avant-première"
+- Utilisez un QR code affiché sur votre camion qui pointe vers un formulaire simple
+- Collectez les emails lors de commandes en ligne ou de réservations pour événements
+
+**Ce que vous envoyez :**
+- L'emplacement et les horaires de la semaine (envoi le lundi matin)
+- La nouveauté ou le plat du jour
+- Les offres spéciales (jour anniversaire, météo exceptionnelle, déstockage fin de journée)
+
+Un fichier de 500 abonnés SMS actifs peut générer 30 à 50 couverts supplémentaires par semaine sur vos meilleurs services. Pour des stratégies complètes, lisez notre guide sur la [fidélisation clients food truck par email et SMS](/fr/blog/fidelisation-clients-food-truck-email-sms).
+
+## Levier 5 : nouer des partenariats locaux B2B
+
+Les partenariats avec des entreprises, associations ou collectivités sont une source de revenus réguliers et prévisibles — et ils se décrochent sans pub.
+
+**Types de partenariats à viser :**
+- **Restaurants d'entreprise** : proposez un service de food truck une ou deux fois par semaine dans les zones d'activité
+- **Salles de sport / clubs** : offrez un menu santé en partenariat avec une salle de fitness locale
+- **Écoles et universités** : service de midi sur les campus (moins réglementé que le domaine public)
+- **Agences événementielles** : référencez-vous comme prestataire traiteur pour mariages, séminaires, lancements de produits
+
+Un contrat entreprise régulier (même 2 services par semaine) peut représenter 20 à 30% de votre chiffre d'affaires annuel. Consultez notre guide complet sur les [contrats avec les entreprises](/fr/blog/contrats-entreprises-food-truck).
+
+## Levier 6 : optimiser votre menu pour augmenter le ticket moyen
+
+Augmenter le ticket moyen de 1,50€ sur 80 couverts par service, c'est +120€ par service, soit potentiellement +15 000€ par an. C'est l'un des leviers les plus sous-estimés.
+
+**Techniques d'optimisation de menu :**
+- **L'offre combo** : plat + boisson + dessert à prix packagé légèrement inférieur au cumul — le ticket moyen monte, la perception de valeur aussi
+- **L'item premium** : ajoutez une version "signature" ou "XL" de votre meilleur plat à +3€ — certains clients la choisiront systématiquement
+- **Le produit du jour** : un item limité crée l'urgence et incite à commander plus vite (et souvent plus)
+- **La disposition visuelle** : les articles à forte marge doivent être en haut et à gauche sur votre ardoise — c'est là que l'œil se pose en premier
+
+Pour approfondir ce sujet, lisez notre guide sur la [fixation des prix de menu food truck](/fr/blog/fixer-prix-menu-food-truck).
+
+## Levier 7 : mettre en avant vos avis clients partout
+
+Les avis en ligne sont une forme de publicité gratuite et crédible. 88% des consommateurs font autant confiance aux avis en ligne qu'aux recommandations personnelles.
+
+**Comment capitaliser sur vos avis :**
+- Affichez vos meilleures citations clients sur votre camion (panneau ou sticker)
+- Partagez les avis 5 étoiles en stories Instagram chaque semaine
+- Répondez publiquement aux avis négatifs avec calme et solutions — cela rassure autant que les avis positifs
+- Ajoutez un lien direct vers votre page Google Reviews dans votre bio Instagram
+
+Un food truck avec 4,8 étoiles et 150 avis attire des clients même sur un spot qu'il découvre pour la première fois.
+
+## Levier 8 : exploiter la saisonnalité et les événements locaux
+
+Chaque événement local est une opportunité de visibilité gratuite si vous savez vous positionner dessus.
+
+**Actions concrètes :**
+- Suivez l'agenda des événements de votre ville (marchés, festivals, braderies, salons) et candidatez tôt
+- Créez un plat ou une boisson thématique pour les grandes occasions (Noël, rentrée, Saint-Valentin, coupe du monde...) et communiquez dessus
+- En période creuse, proposez des offres flash sur vos réseaux : "Aujourd'hui uniquement, 2ème plat à -50%" — cela génère du buzz local
+- Collaborez avec d'autres food truckers sur des regroupements spontanés : deux camions complémentaires attirent plus de monde ensemble
+
+Pour gérer la saisonnalité, consultez notre guide [food truck saison creuse](/fr/blog/food-truck-saison-creuse-strategies).
+
+## Levier 9 : analyser vos données pour vendre là où ça marche
+
+Le meilleur investissement que vous puissiez faire pour augmenter vos ventes ne coûte pas un euro de pub — il s'appelle l'analyse de données.
+
+**Ce que vos données révèlent :**
+- Quels emplacements génèrent le meilleur chiffre d'affaires par heure de présence
+- Quels plats se vendent le mieux selon le jour, l'heure et la météo
+- Sur quels services votre ticket moyen est le plus élevé
+- Où vos clients les plus fidèles se trouvent
+
+Avec **FoodTracks**, ces analyses sont automatisées. L'outil croise vos données de vente SumUp avec vos emplacements, la météo et votre calendrier pour vous dire concrètement : *"Mardi sur la place du marché, vous vendez 40% de plus qu'un lundi en zone industrielle."* Vous ne dépensez pas en pub — vous allouez mieux votre temps de présence.
+
+Pour aller plus loin, lisez notre guide sur l'[analyse de données pour optimiser les marges food truck](/fr/blog/optimiser-marges-food-truck-analyse-donnees).
+
+## Levier 10 : créer une routine de communication hebdomadaire
+
+La régularité crée la confiance, et la confiance crée la fidélité. Un food truck qui communique régulièrement sans acheter de pub construit une audience qui revient semaine après semaine.
+
+**Le planning de communication hebdomadaire idéal :**
+
+| Jour | Action | Canal |
+|------|--------|-------|
+| Lundi matin | Planning de la semaine (emplacements + horaires) | SMS / Email / Instagram |
+| Mercredi | Photo du plat du jour | Instagram / TikTok |
+| Vendredi | Récap des succès de la semaine + teaser du week-end | Stories Instagram |
+| Dimanche soir | Rappel du planning de la semaine suivante | SMS abonnés |
+
+Ce planning prend 30 minutes par semaine. Sur une année, il construit une communauté engagée autour de votre food truck — sans dépenser un euro en publicité.
+
+## Mesurer vos progrès sans pub
+
+Pour savoir si ces leviers fonctionnent, suivez ces 3 indicateurs clés :
+1. **Nombre de couverts par service** (tendance mensuelle)
+2. **Ticket moyen** (avant / après optimisation menu)
+3. **Nombre d'avis Google** (indicateur de satisfaction et de visibilité)
+
+Si les trois progressent, vous êtes sur la bonne voie. FoodTracks consolide automatiquement les deux premiers depuis votre terminal SumUp — vous avez le pilotage sans la paperasse.
+
+## Conclusion
+
+Augmenter les ventes de son food truck sans pub payante n'est pas un mythe — c'est une discipline. Elle repose sur la qualité de votre expérience client, la régularité de votre communication, l'intelligence de vos partenariats et la maîtrise de vos données.
+
+**Commencez par 3 leviers cette semaine :** optimisez votre fiche Google Maps, lancez votre liste SMS, et analysez quel emplacement vous rapporte le plus par heure de présence. Ces trois actions seules peuvent transformer votre trajectoire en quelques semaines.
+
+**À lire aussi :** [Marketing digital food truck](/fr/blog/marketing-digital-food-truck) · [Fidélisation clients email/SMS](/fr/blog/fidelisation-clients-food-truck-email-sms) · [Optimiser marges avec les données](/fr/blog/optimiser-marges-food-truck-analyse-donnees)`,
+
+      en: `## Selling More Without Spending More on Ads: It's Possible
+
+Paid advertising (Google Ads, Facebook Ads, flyers) can create the illusion that it's indispensable. In reality, the most profitable food truck operators rely primarily on organic levers — those that cost time, not money. **A food truck that masters these levers can increase its revenue by 20 to 40% within a few months, with zero ad spend.**
+
+This guide covers 10 concrete, actionable levers you can activate this week.
+
+## Lever 1: Optimise Your Google Maps Presence
+
+Your Google Business Profile is free and incredibly effective. Thousands of people search every day for "food truck near me" or "food truck [your city]". If your profile is incomplete, you're missing a direct flow of customers.
+
+**Actions to take:**
+- Complete 100% of your profile: hours, recent photos, description, categories
+- Add photos of your dishes every week (profiles with 10+ photos receive 3× more clicks)
+- Respond to all reviews — positive and negative — within 48 hours
+- Post "Google updates" each week to signal your location of the day
+
+A well-listed food truck on Google Maps can generate 15 to 25 new customers per week with zero spend.
+
+## Lever 2: Turn Every Customer into an Ambassador
+
+Word of mouth remains the most powerful acquisition channel in food service. But it doesn't happen on its own — you have to provoke it.
+
+**How to trigger word of mouth:**
+- Create a memorable moment: a handwritten note on the bag, a genuine smile, a complimentary item for a birthday
+- Explicitly ask satisfied customers to leave a Google review ("If you enjoyed it, an extra star really helps us!")
+- Set up a simple referral system: "Bring a friend = a free dessert for both of you"
+- Wear a t-shirt or apron with your name visible — every outing becomes a mobile advertisement
+
+A loyal customer who recommends your food truck to 3 people is worth far more than a £50 Facebook campaign.
+
+## Lever 3: Post High-Frequency Instagram and TikTok Content
+
+Social networks are free. What costs is time — but the returns can be massive for a food truck.
+
+**Concrete strategy:**
+- **TikTok**: film behind-the-scenes prep, your signature recipes, your rush moments. Authentic food truck videos regularly reach tens of thousands of views
+- **Instagram Reels**: share "today's specials", seasonal arrivals, customer reactions (with consent)
+- **Daily Stories**: announce your location of the day from 8am — some customers plan their day around you
+- **Local hashtags**: #foodtruck[yourcity], #streetfood[region], #foodie[city] — searched by locals looking for ideas
+
+Consistency beats perfection: 5 simple posts per week beats one polished production per month.
+
+## Lever 4: Build an Email or SMS List of Loyal Customers
+
+Social networks can disappear or cut your reach overnight. Your email or SMS list belongs to you — it's your most valuable marketing asset.
+
+**How to build this list:**
+- Offer a benefit in exchange for sign-up: "Subscribe to our SMS to get our daily location before anyone else"
+- Use a QR code displayed on your truck pointing to a simple form
+- Collect emails during online orders or event bookings
+
+**What you send:**
+- The week's locations and hours (sent Monday morning)
+- The special item or dish of the day
+- Special offers (birthday discount, exceptional weather, end-of-day clearance)
+
+A list of 500 active SMS subscribers can generate 30 to 50 extra covers per week on your best services.
+
+## Lever 5: Build Local B2B Partnerships
+
+Partnerships with businesses, associations, or local authorities are a source of regular, predictable revenue — and they're secured without advertising.
+
+**Types of partnerships to target:**
+- **Corporate catering**: propose a food truck service one or two times a week in business parks
+- **Gyms / sports clubs**: offer a health-focused menu in partnership with a local fitness studio
+- **Schools and universities**: lunchtime service on campuses (often less regulated than public spaces)
+- **Event agencies**: register as a catering provider for weddings, seminars, product launches
+
+A regular corporate contract (even just 2 services per week) can represent 20 to 30% of your annual revenue.
+
+## Lever 6: Optimise Your Menu to Increase the Average Ticket
+
+Increasing your average ticket by £1.50 across 80 covers per service means +£120 per service — potentially +£15,000 per year. It's one of the most underestimated levers.
+
+**Menu optimisation techniques:**
+- **The combo offer**: main + drink + dessert at a bundled price slightly below the sum of parts — average ticket rises, perceived value does too
+- **The premium item**: add a "signature" or "XL" version of your best dish at +£3 — some customers will always choose it
+- **The daily special**: a limited item creates urgency and prompts faster (and often bigger) orders
+- **Visual placement**: high-margin items should appear at the top and left of your board — that's where the eye naturally lands first
+
+## Lever 7: Showcase Your Customer Reviews Everywhere
+
+Online reviews are a free, credible form of advertising. 88% of consumers trust online reviews as much as personal recommendations.
+
+**How to capitalise on your reviews:**
+- Display your best customer quotes on your truck (sign or sticker)
+- Share 5-star reviews in Instagram stories every week
+- Publicly respond to negative reviews calmly and with solutions — this reassures as much as positive reviews
+- Add a direct link to your Google Reviews page in your Instagram bio
+
+A food truck with 4.8 stars and 150 reviews attracts customers even at a brand new spot.
+
+## Lever 8: Exploit Seasonality and Local Events
+
+Every local event is a free visibility opportunity if you know how to position yourself.
+
+**Concrete actions:**
+- Follow your city's event calendar (markets, festivals, fairs, trade shows) and apply early
+- Create a themed dish or drink for major occasions (Christmas, back to school, Valentine's Day, World Cup...) and communicate around it
+- During quiet periods, offer flash deals on your networks: "Today only, 2nd dish at -50%" — this generates local buzz
+- Collaborate with other food trucks on spontaneous gatherings: two complementary trucks attract more people together
+
+## Lever 9: Analyse Your Data to Sell Where It Works
+
+The best investment you can make to increase your sales doesn't cost a penny in advertising — it's called data analysis.
+
+**What your data reveals:**
+- Which locations generate the best revenue per hour of presence
+- Which dishes sell best by day, time, and weather
+- On which services your average ticket is highest
+- Where your most loyal customers are
+
+With **FoodTracks**, these analyses are automated. The tool cross-references your SumUp sales data with your locations, weather, and calendar to tell you concretely: *"On Tuesday at the town market, you sell 40% more than on Monday in an industrial zone."* You're not spending on ads — you're allocating your time more intelligently.
+
+## Lever 10: Create a Weekly Communication Routine
+
+Consistency creates trust, and trust creates loyalty. A food truck that communicates regularly without buying ads builds an audience that comes back week after week.
+
+**The ideal weekly communication schedule:**
+
+| Day | Action | Channel |
+|-----|--------|---------|
+| Monday morning | Week's schedule (locations + hours) | SMS / Email / Instagram |
+| Wednesday | Photo of the dish of the day | Instagram / TikTok |
+| Friday | Weekly highlights recap + weekend teaser | Instagram Stories |
+| Sunday evening | Reminder of the following week's schedule | SMS subscribers |
+
+This schedule takes 30 minutes per week. Over a year, it builds an engaged community around your food truck — without spending a penny on advertising.
+
+## Measuring Your Progress Without Ads
+
+To know whether these levers are working, track these 3 key indicators:
+1. **Covers per service** (monthly trend)
+2. **Average ticket** (before / after menu optimisation)
+3. **Number of Google reviews** (satisfaction and visibility indicator)
+
+If all three are growing, you're on the right track. FoodTracks automatically consolidates the first two from your SumUp terminal — you get the insights without the admin.
+
+## Conclusion
+
+Increasing your food truck sales without paid advertising is not a myth — it's a discipline. It rests on the quality of your customer experience, the regularity of your communication, the intelligence of your partnerships, and your mastery of data.
+
+**Start with 3 levers this week:** optimise your Google Maps profile, launch your SMS list, and analyse which location earns you the most per hour of presence. These three actions alone can transform your trajectory within weeks.
+
+**Also read:** [Food Truck Digital Marketing](/en/blog/marketing-digital-food-truck) · [Customer Loyalty via Email/SMS](/en/blog/fidelisation-clients-food-truck-email-sms) · [Optimise Margins with Data](/en/blog/optimiser-marges-food-truck-analyse-donnees)`,
+    },
+    keyTakeaways: {
+      fr: [
+        "Un food truck peut augmenter ses ventes de 20 à 40% sans budget pub en maîtrisant 10 leviers organiques.",
+        "La fiche Google Maps gratuite peut générer 15 à 25 nouveaux clients par semaine si elle est optimisée.",
+        "Une liste SMS de 500 abonnés actifs peut produire 30 à 50 couverts supplémentaires par semaine.",
+        "Augmenter le ticket moyen de 1,50€ sur 80 couverts représente potentiellement +15 000€ par an.",
+        "La régularité de la communication (30 min/semaine) bat n'importe quelle campagne publicitaire ponctuelle.",
+      ],
+      en: [
+        "A food truck can increase sales by 20 to 40% with no ad budget by mastering 10 organic levers.",
+        "A free, well-optimised Google Maps profile can generate 15 to 25 new customers per week.",
+        "An SMS list of 500 active subscribers can produce 30 to 50 extra covers per week.",
+        "Increasing the average ticket by £1.50 across 80 covers represents a potential +£15,000 per year.",
+        "Communication consistency (30 min/week) beats any one-off advertising campaign.",
+      ],
+    },
+    faqItems: [
+      {
+        question: {
+          fr: "Comment augmenter les ventes de son food truck sans publicité payante ?",
+          en: "How can I increase my food truck sales without paid advertising?",
+        },
+        answer: {
+          fr: "Optimisez votre fiche Google Maps, construisez une liste SMS ou email, publiez régulièrement sur Instagram et TikTok, développez des partenariats B2B locaux et analysez vos données de vente pour concentrer votre présence là où le CA est le plus élevé.",
+          en: "Optimise your Google Maps profile, build an SMS or email list, post regularly on Instagram and TikTok, develop local B2B partnerships, and analyse your sales data to focus your presence where revenue is highest.",
+        },
+      },
+      {
+        question: {
+          fr: "Quel levier gratuit est le plus efficace pour un food truck ?",
+          en: "Which free lever is most effective for a food truck?",
+        },
+        answer: {
+          fr: "La fiche Google Business Profile optimisée est souvent le levier le plus rapide : elle capte des personnes en intention d'achat immédiate (\"food truck près de moi\"). Combinée à une liste SMS pour fidéliser, c'est un duo redoutablement efficace.",
+          en: "An optimised Google Business Profile is often the fastest lever: it captures people with immediate buying intent ("food truck near me"). Combined with an SMS list for retention, it's a remarkably effective duo.",
+        },
+      },
+      {
+        question: {
+          fr: "Les réseaux sociaux génèrent-ils vraiment des ventes pour un food truck ?",
+          en: "Do social media really generate sales for a food truck?",
+        },
+        answer: {
+          fr: "Oui, à condition d'être régulier et local. Les stories quotidiennes annonçant votre emplacement, les TikToks de coulisses et les hashtags locaux créent une audience fidèle qui vient spécialement pour vous. La régularité (5 posts/semaine) est plus importante que la qualité de production.",
+          en: "Yes, provided you're consistent and local. Daily stories announcing your location, behind-the-scenes TikToks, and local hashtags build a loyal audience that comes specifically for you. Consistency (5 posts/week) matters more than production quality.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment augmenter le ticket moyen de son food truck ?",
+          en: "How can I increase my food truck's average ticket?",
+        },
+        answer: {
+          fr: "Proposez des offres combo (plat + boisson + dessert packagés), ajoutez une version premium de votre best-seller, mettez en avant un plat du jour en quantité limitée et placez vos articles à forte marge en haut à gauche de votre ardoise. Une hausse de 1,50€ sur 80 couverts représente +120€ par service.",
+          en: "Offer combo deals (main + drink + dessert bundled), add a premium version of your best-seller, highlight a limited daily special, and place high-margin items at the top left of your board. A £1.50 increase across 80 covers means +£120 per service.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment utiliser les données pour vendre plus en food truck ?",
+          en: "How can I use data to sell more with my food truck?",
+        },
+        answer: {
+          fr: "Analysez votre chiffre d'affaires par emplacement, par jour et par météo pour identifier où et quand vous vendez le mieux. Un outil comme FoodTracks croise automatiquement vos ventes SumUp avec ces variables — vous pouvez ainsi concentrer votre planning sur vos emplacements et créneaux les plus rentables.",
+          en: "Analyse your revenue by location, day, and weather to identify where and when you sell best. A tool like FoodTracks automatically cross-references your SumUp sales with these variables — you can then focus your schedule on your most profitable locations and time slots.",
+        },
+      },
+    ],
+    relatedSlugs: [
+      "marketing-digital-food-truck",
+      "fidelisation-clients-food-truck-email-sms",
+      "optimiser-marges-food-truck-analyse-donnees",
+      "choisir-emplacement-rentable-food-truck",
+    ],
+  },
 ];
 
 export function getArticleBySlug(slug: string): BlogArticle | undefined {
