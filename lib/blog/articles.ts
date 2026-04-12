@@ -20899,6 +20899,382 @@ Increasing your food truck sales without paid advertising is not a myth — it's
       "choisir-emplacement-rentable-food-truck",
     ],
   },
+  {
+    slug: "menu-food-truck-rentable",
+    title: {
+      fr: "Comment créer un menu food truck rentable : sélection, prix et psychologie de la carte",
+      en: "How to Create a Profitable Food Truck Menu: Selection, Pricing, and Menu Psychology",
+    },
+    excerpt: {
+      fr: "Un menu food truck rentable, c'est moins de plats, mieux choisis, avec des marges maîtrisées. Découvrez comment construire une carte qui vend mieux, réduit le gaspillage et booste votre ticket moyen.",
+      en: "A profitable food truck menu means fewer dishes, better chosen, with controlled margins. Learn how to build a menu that sells more, reduces waste, and boosts your average ticket.",
+    },
+    category: { fr: "Rentabilité", en: "Profitability" },
+    date: "2026-04-12",
+    readTime: 11,
+    keywords: [
+      "menu food truck rentable",
+      "créer carte food truck",
+      "prix menu food truck",
+      "food truck menu exemple",
+      "combien de plats food truck",
+      "psychologie menu food truck",
+      "marge food truck",
+    ],
+    heroImage: "/blog/menu-food-truck.png",
+    content: {
+      fr: `## Pourquoi votre menu est votre levier de rentabilité le plus puissant
+
+Dans un food truck, tout part du menu. L'approvisionnement, la gestion des stocks, la rapidité de service, le gaspillage alimentaire, le ticket moyen... chaque euro de marge commence et finit par un choix de carte. **Un menu mal construit peut réduire votre rentabilité de 20 à 35%. Un menu bien construit, au contraire, peut être votre meilleur commercial.**
+
+Ce guide vous donne une méthode concrète pour construire ou retravailler votre menu en partant des chiffres, pas des intuitions.
+
+## La règle d'or : moins c'est plus
+
+L'erreur classique du food trucker débutant est de proposer trop de plats. La logique semble bonne ("plus de choix = plus de clients satisfaits"), mais en pratique c'est l'inverse.
+
+Un menu trop long engendre :
+- Des stocks plus complexes à gérer et plus de gaspillage
+- Un temps de préparation allongé qui ralentit le service
+- Une difficulté à maîtriser la qualité sur tous les plats
+- Un client perdu dans le choix qui finit par prendre "n'importe quoi"
+
+**La règle empirique des food truckers rentables : 5 à 8 plats principaux maximum.** Au-delà, vous perdez en efficacité sans gagner en chiffre d'affaires. Les chaînes de restauration rapide qui génèrent les meilleures marges (In-N-Out, Shake Shack à leurs débuts) ont toutes démarré avec des menus minimalistes.
+
+## Étape 1 : identifier vos plats stars et vos plats boulets
+
+Avant de retravailler votre menu, analysez ce que vous vendez réellement. Classez chaque plat selon deux critères :
+- Sa **popularité** (volume de ventes)
+- Sa **marge** (prix de vente moins coût matière)
+
+Cela vous donne quatre catégories :
+
+| | Forte marge | Faible marge |
+|---|---|---|
+| **Forte popularité** | Etoiles (gardez et mettez en avant) | Vaches (volumes mais peu rentables) |
+| **Faible popularité** | Enigmes (potentiel caché) | Chiens (à supprimer) |
+
+Les "étoiles" sont vos plats phares : mettez-les en avant sur votre ardoise, dans vos communications et dans vos combos. Les "chiens" gonflent vos stocks et votre charge de travail sans rien rapporter : supprimez-les sans hésiter.
+
+Avec **FoodTracks**, cette analyse se fait automatiquement en croisant vos données de vente SumUp avec vos coûts d'approvisionnement. Consultez notre guide sur le [calcul du coût de revient de vos recettes](/fr/blog/calculer-cout-revient-recette-food-truck) pour mettre en place ce suivi.
+
+## Étape 2 : calculer la marge réelle de chaque plat
+
+La marge d'un plat se calcule simplement :
+
+**Marge brute = Prix de vente HT moins Coût matière (ingrédients)**
+
+En food truck, votre coût matière devrait représenter **28 à 35% du prix de vente** pour rester rentable. Au-delà de 38%, vous travaillez pour payer vos fournisseurs.
+
+Exemple concret :
+- Burger signature vendu 10€ HT
+- Coût matière : pain (0,35€) + steak (1,80€) + garnitures (0,60€) + emballage (0,20€) = **2,95€**
+- Coût matière en % : 2,95 / 10 = **29,5%** (bonne marge)
+- Marge brute par burger : **7,05€**
+
+Si ce burger est votre plat le plus vendu (disons 60 par service), il génère **423€ de marge brute par service**. C'est votre pilier rentabilité.
+
+Pour aller plus loin sur la tarification, lisez notre guide complet sur [comment calculer le prix de vente de vos plats](/fr/blog/calcul-prix-vente-food-truck).
+
+## Étape 3 : construire une carte équilibrée
+
+Un bon menu food truck respecte une structure simple :
+
+**Structure recommandée :**
+- 1 à 2 plats "entrée de gamme" (volume, accessibles, marges correctes)
+- 2 à 3 plats "coeur de carte" (vos best-sellers, marges élevées)
+- 1 plat "premium" (pour augmenter le ticket moyen sur les clients qui cherchent la signature)
+- 2 à 3 accompagnements ou extras (frites, sauces, suppléments)
+- 1 à 2 desserts ou boissons maison (marges souvent très élevées : 70 à 80%)
+
+Cette structure vous permet de couvrir différents budgets client tout en maximisant votre marge globale. Elle s'adapte aussi facilement selon la saison en changeant seulement 1 ou 2 plats.
+
+## Étape 4 : utiliser la psychologie du menu
+
+La mise en forme de votre ardoise influence directement ce que vos clients commandent. Ce n'est pas de la manipulation : c'est du design au service de vos ventes.
+
+### Positionnement visuel
+
+L'oeil du client se pose naturellement en **haut à gauche** d'une carte (effet de lecture). Placez votre plat le plus rentable à cet endroit.
+
+Évitez les colonnes de prix alignées : l'oeil compare et choisit toujours le moins cher. Préférez des prix intégrés dans la description du plat.
+
+### Ancrage de prix
+
+Placez votre plat premium **en premier** sur la carte. Même si peu de clients le prennent, il ancre la perception de valeur et rend les autres plats "raisonnables" par comparaison.
+
+Exemple : si votre menu débute par un "Burger Black Angus XXL" à 16€, votre burger classique à 10€ semblera une bonne affaire. Sans le burger premium, ce même plat à 10€ peut paraître cher.
+
+### Nommer vos plats pour raconter une histoire
+
+Un plat avec un nom descriptif et évocateur se vend mieux qu'un plat générique.
+
+Exemples :
+- "Burger" vs "Le Fondant au Comté" : l'un vend un produit, l'autre vend une expérience
+- "Frites" vs "Frites maison au sel de Guérande" : l'un justifie +0,50€, l'autre non
+
+Le storytelling de la carte augmente la perception de valeur et justifie des prix légèrement plus élevés.
+
+## Étape 5 : les combos pour augmenter le ticket moyen
+
+Les offres combo sont votre arme la plus efficace pour augmenter le ticket moyen sans effort commercial. Le principe est simple : packager plusieurs produits à un prix légèrement inférieur à la somme des parties.
+
+**Exemple :**
+- Burger seul : 10€
+- Boisson seule : 2,50€
+- Dessert seul : 3€
+- Total séparé : 15,50€
+- Combo "Formule Midi" : 13,50€
+
+Le client économise 2€ et perçoit une bonne affaire. Vous augmentez votre ticket de 3,50€ en vendant des produits à forte marge (boisson maison, dessert) que le client n'aurait peut-être pas pris.
+
+En food truck, **une bonne stratégie combo peut augmenter votre ticket moyen de 15 à 25%** sur les services du midi. Sur 70 couverts à +3€, c'est 210€ de chiffre d'affaires supplémentaire par service.
+
+## Étape 6 : adapter votre menu selon les emplacements
+
+Un menu unique pour tous vos emplacements est une erreur courante. Les attentes varient selon le contexte :
+
+- **Zone d'entreprises (midi)** : rapidité, formule complète, prix entre 10 et 14€. Les clients ont 30 minutes.
+- **Marché de week-end** : produits locaux mis en avant, portion généreuse, ambiance "plaisir". Le budget est plus souple.
+- **Festival ou événement** : un ou deux plats signature uniquement, service ultra-rapide. La rentabilité vient du volume.
+- **Soirée ou concert** : carte courte, produits nomades faciles à manger debout, boissons en avant.
+
+Adapter même partiellement votre carte selon le contexte peut augmenter vos ventes de 10 à 20% sur certains services. C'est une des analyses que permet FoodTracks en croisant votre carte avec vos données de vente par emplacement.
+
+## Quand et comment faire évoluer son menu
+
+Le menu n'est pas figé. Révisez-le :
+- **Tous les trimestres** : pour intégrer les produits de saison et retirer les plats peu vendus
+- **Après chaque analyse mensuelle** : si un plat représente moins de 5% de vos ventes depuis 6 semaines, supprimez-le
+- **Avant une ouverture de nouvelle zone** : si vous prospectez un nouvel emplacement, étudiez le profil client local avant de choisir votre carte
+
+N'ayez pas peur de supprimer des plats que vous aimez mais que vos clients ne commandent pas. Un menu est un outil commercial, pas un livre de cuisine personnel.
+
+## Ce qu'un bon menu change concrètement
+
+Un menu bien construit et suivi avec des données, c'est :
+- Moins de gaspillage alimentaire (stocks concentrés sur moins de références)
+- Un service plus rapide (moins de préparations différentes)
+- Un ticket moyen plus élevé (combos et positionnement psychologique)
+- Une meilleure maîtrise des coûts (suivi marge par plat)
+- Des clients plus satisfaits (choix clair, plats mieux exécutés)
+
+Ce n'est pas un hasard si les food trucks les plus rentables sont souvent ceux qui font une ou deux choses, mais très bien.`,
+
+      en: `## Why Your Menu Is Your Most Powerful Profitability Lever
+
+In a food truck, everything starts with the menu. Sourcing, inventory management, service speed, food waste, average ticket size -- every euro of margin begins and ends with a menu decision. **A poorly built menu can reduce your profitability by 20 to 35%. A well-built one, on the other hand, can be your best salesperson.**
+
+This guide gives you a concrete method to build or rework your menu starting from numbers, not intuitions.
+
+## The Golden Rule: Less Is More
+
+The classic beginner food trucker mistake is offering too many dishes. The logic seems sound ("more choice = more satisfied customers"), but in practice the opposite is true.
+
+An overly long menu leads to:
+- More complex inventory with more waste
+- Longer preparation times that slow service
+- Difficulty maintaining quality across all dishes
+- Customers lost in the choice who end up ordering "anything"
+
+**The rule of thumb among profitable food truckers: 5 to 8 main dishes maximum.** Beyond that, you lose efficiency without gaining revenue. The fast-food chains with the best margins (In-N-Out, early Shake Shack) all started with minimalist menus.
+
+## Step 1: Identify Your Stars and Your Dead Weight
+
+Before reworking your menu, analyse what you actually sell. Classify each dish on two criteria:
+- Its **popularity** (sales volume)
+- Its **margin** (selling price minus ingredient cost)
+
+This gives you four categories:
+
+| | High margin | Low margin |
+|---|---|---|
+| **High popularity** | Stars (keep and promote) | Cash cows (volume, but less profitable) |
+| **Low popularity** | Puzzles (hidden potential) | Dogs (remove) |
+
+"Stars" are your flagship dishes: feature them prominently on your board, in your communications, and in combos. "Dogs" inflate your inventory and workload without contributing -- remove them without hesitation.
+
+With **FoodTracks**, this analysis is done automatically by cross-referencing your SumUp sales data with your supply costs. See our guide on [calculating the cost price of your recipes](/en/blog/calculer-cout-revient-recette-food-truck) to set up this tracking.
+
+## Step 2: Calculate the Real Margin for Each Dish
+
+A dish's margin is straightforward to calculate:
+
+**Gross margin = Selling price (excl. tax) minus ingredient cost**
+
+In a food truck, your ingredient cost should represent **28 to 35% of the selling price** to remain profitable. Above 38%, you are working to pay your suppliers.
+
+Concrete example:
+- Signature burger sold at £10 excl. tax
+- Ingredient cost: bun (£0.35) + patty (£1.80) + toppings (£0.60) + packaging (£0.20) = **£2.95**
+- Ingredient cost as %: 2.95 / 10 = **29.5%** (good margin)
+- Gross margin per burger: **£7.05**
+
+If this burger is your best-seller (say, 60 per service), it generates **£423 in gross margin per service**. That is your profitability pillar.
+
+For a deeper dive into pricing, read our complete guide on [how to calculate your dish selling prices](/en/blog/calcul-prix-vente-food-truck).
+
+## Step 3: Build a Balanced Menu
+
+A good food truck menu follows a simple structure:
+
+**Recommended structure:**
+- 1 to 2 "entry-level" dishes (volume-driven, accessible, decent margins)
+- 2 to 3 "core" dishes (your best-sellers, high margins)
+- 1 "premium" dish (to increase the average ticket for customers seeking the signature experience)
+- 2 to 3 sides or extras (fries, sauces, add-ons)
+- 1 to 2 desserts or house drinks (often very high margins: 70 to 80%)
+
+This structure lets you cover different customer budgets while maximising your overall margin. It also adapts easily to the seasons by changing just one or two dishes.
+
+## Step 4: Use Menu Psychology
+
+How your board is laid out directly influences what your customers order. This is not manipulation -- it is design in service of your sales.
+
+### Visual placement
+
+The customer's eye naturally lands in the **top left** of a menu (reading pattern). Place your most profitable dish there.
+
+Avoid aligned price columns: the eye will compare and always choose the cheapest. Instead, embed prices within the dish description.
+
+### Price anchoring
+
+Place your premium dish **first** on the menu. Even if few customers order it, it anchors the perception of value and makes the other dishes seem "reasonable" by comparison.
+
+Example: if your menu opens with a "Black Angus XXL Burger" at £16, your classic burger at £10 feels like a good deal. Without the premium burger, that same £10 dish can feel expensive.
+
+### Name your dishes to tell a story
+
+A dish with a descriptive, evocative name sells better than a generic one.
+
+Examples:
+- "Burger" vs "The Melted Comté" -- one sells a product, the other sells an experience
+- "Fries" vs "Homemade Fries with Guérande Sea Salt" -- one justifies a +£0.50 premium, the other does not
+
+Menu storytelling increases perceived value and justifies slightly higher prices.
+
+## Step 5: Combos to Boost the Average Ticket
+
+Combo offers are your most effective weapon for increasing the average ticket without any sales effort. The principle is simple: bundle several products at a price slightly below the sum of the parts.
+
+**Example:**
+- Burger alone: £10
+- Drink alone: £2.50
+- Dessert alone: £3
+- Separate total: £15.50
+- "Lunch Deal" combo: £13.50
+
+The customer saves £2 and perceives a good deal. You increase your ticket by £3.50 by selling high-margin products (house drink, dessert) that the customer might not have ordered separately.
+
+In a food truck, **a good combo strategy can increase your average ticket by 15 to 25%** on lunchtime services. On 70 covers at +£3, that is £210 in extra revenue per service.
+
+## Step 6: Adapt Your Menu to Each Location
+
+A single menu for all your locations is a common mistake. Expectations vary by context:
+
+- **Business district (lunch)**: speed, complete meal deal, £10 to £14. Customers have 30 minutes.
+- **Weekend market**: locally sourced products, generous portions, "treat yourself" atmosphere. Budgets are more flexible.
+- **Festival or event**: one or two signature dishes only, ultra-fast service. Profitability comes from volume.
+- **Evening or concert**: short menu, easy-to-eat-standing items, drinks prominent.
+
+Even partially adapting your menu to the context can increase sales by 10 to 20% on certain services. This is one of the analyses FoodTracks enables by cross-referencing your menu with your sales data by location.
+
+## When and How to Evolve Your Menu
+
+Your menu is not set in stone. Revise it:
+- **Every quarter**: to incorporate seasonal products and remove slow sellers
+- **After each monthly analysis**: if a dish has represented less than 5% of sales for 6 weeks, remove it
+- **Before entering a new area**: if you are prospecting a new location, study the local customer profile before finalising your menu
+
+Do not be afraid to remove dishes you love but your customers do not order. A menu is a commercial tool, not a personal recipe book.
+
+## What a Good Menu Changes Concretely
+
+A well-built menu tracked with data means:
+- Less food waste (inventory focused on fewer references)
+- Faster service (fewer different preparations)
+- A higher average ticket (combos and psychological positioning)
+- Better cost control (margin tracking per dish)
+- More satisfied customers (clearer choice, better-executed dishes)
+
+It is no coincidence that the most profitable food trucks are often the ones that do one or two things -- but extremely well.`,
+    },
+    keyTakeaways: {
+      fr: [
+        "Un menu food truck rentable compte 5 à 8 plats maximum pour limiter le gaspillage et accélérer le service.",
+        "Le coût matière d'un plat doit représenter 28 à 35% du prix de vente pour maintenir une bonne marge.",
+        "Placer vos plats les plus rentables en haut à gauche de votre ardoise augmente leur taux de commande.",
+        "Un système de combos bien conçu peut augmenter le ticket moyen de 15 à 25% sur les services du midi.",
+        "Analyser vos ventes par plat chaque mois vous permet de supprimer les plats boulets et valoriser vos stars.",
+      ],
+      en: [
+        "A profitable food truck menu has 5 to 8 dishes maximum to limit waste and speed up service.",
+        "Ingredient cost should represent 28 to 35% of the selling price to maintain a good margin.",
+        "Placing your most profitable dishes at the top left of your board increases their order rate.",
+        "A well-designed combo strategy can increase the average ticket by 15 to 25% on lunchtime services.",
+        "Analysing your sales by dish every month lets you remove dead-weight dishes and promote your stars.",
+      ],
+    },
+    faqItems: [
+      {
+        question: {
+          fr: "Combien de plats doit avoir un menu food truck rentable ?",
+          en: "How many dishes should a profitable food truck menu have?",
+        },
+        answer: {
+          fr: "Un menu food truck rentable compte idéalement 5 à 8 plats principaux. Au-delà, vous complexifiez la gestion des stocks, ralentissez le service et diluez la qualité. Les food trucks les plus performants se concentrent sur un ou deux plats signature et les déclinent intelligemment.",
+          en: "A profitable food truck menu ideally has 5 to 8 main dishes. Beyond that, you complicate inventory management, slow down service, and dilute quality. The best-performing food trucks focus on one or two signature dishes and expand on them intelligently.",
+        },
+      },
+      {
+        question: {
+          fr: "Quel pourcentage du prix de vente doit représenter le coût matière en food truck ?",
+          en: "What percentage of the selling price should ingredient cost represent in a food truck?",
+        },
+        answer: {
+          fr: "En food truck, le coût matière (ingrédients + emballage) doit représenter entre 28 et 35% du prix de vente hors taxe pour maintenir une rentabilité correcte. Au-delà de 38%, vos marges deviennent insuffisantes pour couvrir vos charges fixes. En dessous de 25%, le rapport qualité-prix peut pénaliser votre image.",
+          en: "In a food truck, ingredient cost (ingredients plus packaging) should represent between 28 and 35% of the selling price excl. tax to maintain decent profitability. Above 38%, your margins become insufficient to cover fixed costs. Below 25%, the value-for-money ratio may hurt your image.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment augmenter le ticket moyen grâce au menu ?",
+          en: "How can I increase the average ticket through the menu?",
+        },
+        answer: {
+          fr: "Les deux leviers les plus efficaces sont les offres combo (packager plat + boisson + dessert à un prix légèrement inférieur au total) et le positionnement visuel (mettre les plats les plus rentables en haut à gauche de votre ardoise). Un plat premium affiché en tête de menu ancre aussi la perception de valeur et rend les autres plats plus attractifs.",
+          en: "The two most effective levers are combo offers (bundling main + drink + dessert at a price slightly below the total) and visual placement (putting your most profitable dishes at the top left of your board). A premium dish listed first on the menu also anchors value perception and makes the other dishes more attractive.",
+        },
+      },
+      {
+        question: {
+          fr: "Faut-il adapter son menu selon l'emplacement du food truck ?",
+          en: "Should I adapt my menu depending on the food truck location?",
+        },
+        answer: {
+          fr: "Oui, c'est fortement recommandé. Un emplacement en zone d'entreprises au déjeuner appelle une carte courte, rapide et des formules complètes à prix contenu. Un marché de week-end permet des plats plus élaborés et des prix plus élevés. Un festival exige un ou deux plats signature uniquement pour tenir le rythme. Adapter même partiellement votre menu au contexte peut augmenter vos ventes de 10 à 20%.",
+          en: "Yes, it is strongly recommended. A business district location at lunchtime calls for a short, fast menu and affordable complete meal deals. A weekend market allows more elaborate dishes and higher prices. A festival requires just one or two signature dishes to maintain pace. Even partially adapting your menu to the context can increase sales by 10 to 20%.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment savoir quels plats supprimer de sa carte ?",
+          en: "How do I know which dishes to remove from my menu?",
+        },
+        answer: {
+          fr: "Classez vos plats selon leur popularité (volume de ventes) et leur marge brute. Tout plat qui représente moins de 5% de vos ventes depuis plus de 6 semaines ET dont la marge est faible est un candidat à la suppression. Avec FoodTracks, cette analyse est automatisée à partir de vos données de vente SumUp et de vos coûts d'approvisionnement.",
+          en: "Classify your dishes by popularity (sales volume) and gross margin. Any dish that has represented less than 5% of your sales for more than 6 weeks AND has a low margin is a candidate for removal. With FoodTracks, this analysis is automated using your SumUp sales data and your supply costs.",
+        },
+      },
+    ],
+    relatedSlugs: [
+      "calculer-cout-revient-recette-food-truck",
+      "calcul-prix-vente-food-truck",
+      "optimiser-marges-food-truck-analyse-donnees",
+      "augmenter-ventes-food-truck-sans-pub",
+      "cout-charges-food-truck-mensuel",
+    ],
+  },
 ];
 
 export function getArticleBySlug(slug: string): BlogArticle | undefined {
