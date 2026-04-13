@@ -21682,6 +21682,364 @@ Start by mapping your suppliers, set your order cadence, and equip yourself with
       "optimiser-marges-food-truck-analyse-donnees",
     ],
   },
+  {
+    slug: "gestion-allergenes-food-truck",
+    title: {
+      fr: "Gestion des allergènes en food truck : obligations, affichage et bonnes pratiques",
+      en: "Food Truck Allergen Management: Legal Requirements, Labeling & Best Practices",
+    },
+    excerpt: {
+      fr: "Découvrez comment respecter la réglementation sur les allergènes en food truck (INCO), afficher correctement vos ingrédients et sécuriser vos clients allergiques sans ralentir votre service.",
+      en: "Learn how to comply with allergen regulations in your food truck (EU FIC), display ingredients correctly, and safely serve allergic customers without slowing down service.",
+    },
+    category: { fr: "Réglementation", en: "Regulations" },
+    date: "2026-04-13",
+    readTime: 10,
+    keywords: [
+      "gestion allergènes food truck",
+      "affichage allergènes food truck",
+      "réglementation allergènes restauration ambulante",
+      "liste 14 allergènes obligatoire",
+      "INCO food truck",
+      "food truck allergen management",
+      "food truck allergen labeling",
+      "EU food allergen regulations food truck",
+      "14 major allergens food truck",
+      "allergen compliance street food",
+    ],
+    heroImage: "/blog/hygiene-food-truck.png",
+    content: {
+      fr: `## Pourquoi la gestion des allergènes est incontournable en food truck
+
+Chaque année en France, les allergies alimentaires provoquent plus de **10 000 hospitalisations**. En tant que food trucker, vous êtes légalement responsable de l'information que vous donnez à vos clients sur la présence d'allergènes dans vos plats.
+
+Depuis le règlement européen INCO (n° 1169/2011) transposé en droit français, **tout professionnel de la restauration — y compris les food trucks — doit informer le consommateur sur les 14 allergènes majeurs** présents dans ses préparations.
+
+Ne pas respecter cette obligation, c'est risquer :
+- Une **amende de 450 à 1 500 €** par infraction constatée lors d'un contrôle DDPP
+- Une **mise en demeure** avec fermeture temporaire possible
+- Un **accident allergique grave**, avec les conséquences judiciaires et humaines que cela implique
+
+## Les 14 allergènes à déclarer obligatoirement
+
+Le règlement INCO impose de signaler la présence de ces 14 substances dans toute préparation vendue :
+
+| N° | Allergène | Exemples courants en food truck |
+|----|-----------|-------------------------------|
+| 1 | **Gluten** | Pain burger, wraps, panure, sauce soja |
+| 2 | **Crustacés** | Crevettes, bisque, sauce cocktail |
+| 3 | **Œufs** | Mayonnaise, pâte à crêpe, panure |
+| 4 | **Poissons** | Fish & chips, sauce Worcestershire |
+| 5 | **Arachides** | Sauce satay, huile d'arachide |
+| 6 | **Soja** | Sauce soja, tofu, huile de soja, lécithine |
+| 7 | **Lait** | Fromage, crème, beurre, béchamel |
+| 8 | **Fruits à coque** | Noix, amandes, noisettes, pesto |
+| 9 | **Céleri** | Bouillon cube, assaisonnement, crudités |
+| 10 | **Moutarde** | Vinaigrette, marinade, sauce |
+| 11 | **Graines de sésame** | Pain burger, houmous, huile de sésame |
+| 12 | **Anhydride sulfureux / sulfites** | Vin blanc en cuisine, fruits secs, vinaigre |
+| 13 | **Lupin** | Farine de lupin dans certains pains |
+| 14 | **Mollusques** | Calamars, moules, sauce d'huître |
+
+**Attention** : les contaminations croisées comptent aussi. Si vous faites cuire vos frites dans la même huile que vos beignets de crevettes, vos frites contiennent potentiellement des crustacés.
+
+## Comment afficher les allergènes dans votre food truck
+
+### Les 3 options légales
+
+Le règlement vous laisse le choix du support, tant que l'information est **accessible avant l'achat** :
+
+**1. Affichage sur le menu / la carte**
+La méthode la plus simple : indiquer les allergènes directement sur votre ardoise ou votre menu imprimé, en face de chaque plat. Utilisez les pictogrammes normalisés ou les numéros des allergènes.
+
+*Exemple :* Burger Classic — Bœuf, cheddar, salade, tomate, sauce maison **(1, 3, 7, 10, 11)**
+
+**2. Registre consultable**
+Un classeur ou un document accessible au client sur demande, détaillant les allergènes par plat. Cette option est moins pratique en food truck car elle ralentit le service.
+
+**3. Mention orale + panneau d'information**
+Vous pouvez informer verbalement le client **à condition** qu'un panneau visible indique : *"Les informations sur les allergènes sont disponibles sur demande auprès du personnel."* Peu recommandée comme méthode unique — un rush et un oubli suffisent à créer un incident.
+
+### La meilleure pratique pour un food truck
+
+Combinez les approches **1 et 3** : affichez les allergènes sur votre carte ET ajoutez un panneau invitant les clients allergiques à se signaler. En cas de doute, vérifiez systématiquement la fiche technique de votre recette.
+
+Avec **FoodTracks**, chaque recette enregistrée dans l'application peut inclure la liste de ses ingrédients et les allergènes associés. Vous pouvez exporter et imprimer une fiche allergène à jour pour chaque plat.
+
+## Mettre en place un système de gestion des allergènes
+
+### Étape 1 : Recenser tous vos ingrédients
+
+Pour chaque recette de votre carte, listez **tous les ingrédients**, y compris ceux des sauces achetées, des pains industriels et des assaisonnements. Un ketchup standard contient du vinaigre (sulfites) ; un pain burger classique contient du sésame et du gluten.
+
+**Astuce** : photographiez ou scannez systématiquement les étiquettes de vos produits fournisseurs. FoodTracks permet de scanner vos factures et d'associer les informations produit à vos recettes.
+
+### Étape 2 : Créer une fiche technique par recette
+
+Chaque fiche doit contenir :
+- La liste exhaustive des ingrédients
+- Les allergènes présents (en gras ou surlignés)
+- Le poids par portion
+- Le coût matière (utile pour votre rentabilité)
+
+Cette fiche est votre **preuve de conformité** en cas de contrôle. Elle vous protège aussi juridiquement si un client fait une réaction.
+
+### Étape 3 : Former votre équipe
+
+Si vous avez des employés ou des extras, ils doivent **savoir répondre** à la question "Est-ce que ce plat contient du gluten ?" sans hésiter. Organisez un briefing rapide :
+- Où trouver la fiche allergènes de chaque plat
+- Quoi faire si un client signale une allergie (vérifier la fiche, proposer un plat sûr, avertir en cuisine)
+- Les gestes d'urgence en cas de réaction allergique sévère (appeler le 15, position latérale de sécurité)
+
+### Étape 4 : Prévenir les contaminations croisées
+
+En food truck, l'espace réduit rend les contaminations croisées plus probables. Mettez en place :
+
+- **Des ustensiles dédiés** : une spatule pour les galettes avec gluten, une autre pour les galettes sans
+- **Un ordre de préparation** : préparez d'abord les plats "sans allergènes" avant ceux qui en contiennent
+- **Un nettoyage entre les préparations** : essuyez les surfaces et changez de gants entre deux préparations différentes
+- **Un stockage séparé** : les ingrédients allergènes majeurs (fruits à coque, arachides) doivent être stockés dans des contenants fermés et séparés
+
+## Que faire quand vous changez de recette ou de fournisseur
+
+Un des pièges les plus courants : vous changez de fournisseur de pain et le nouveau contient du sésame alors que l'ancien n'en contenait pas. Votre affichage devient faux du jour au lendemain.
+
+**La règle** : à chaque changement de fournisseur ou de recette, **mettez à jour vos fiches allergènes immédiatement**. Avec FoodTracks, vos recettes sont centralisées : modifier un ingrédient met automatiquement à jour la liste des allergènes associés.
+
+## Les contrôles : à quoi vous attendre
+
+La DDPP (Direction Départementale de la Protection des Populations) peut contrôler votre food truck à tout moment, y compris pendant un service en festival ou sur un marché.
+
+Les inspecteurs vérifient :
+- La présence d'un affichage ou d'un support d'information sur les allergènes
+- La cohérence entre votre carte et vos fiches techniques
+- Votre capacité à répondre aux questions sur les allergènes
+- Les conditions de stockage et de préparation (contaminations croisées)
+
+**Préparez-vous** : gardez toujours vos fiches techniques à jour et accessibles dans le camion. Un classeur propre avec une fiche par plat fait toute la différence.
+
+## Allergènes et offre "sans" : une opportunité commerciale
+
+Proposer une option **sans gluten**, **sans lactose** ou **végane** n'est pas seulement une contrainte — c'est un **levier de différenciation**. La demande de plats sans allergènes explose :
+
+- **8 % des Français** déclarent une allergie ou une intolérance alimentaire
+- **30 % des consommateurs** cherchent à réduire leur consommation de gluten ou de lactose
+- Les clients allergiques sont **fidèles** : quand ils trouvent un food truck qui les accueille en sécurité, ils reviennent
+
+Affichez clairement vos options "sans" sur votre carte. Certains food trucks font du sans-gluten leur argument principal — et remplissent leur service avec une clientèle captive.
+
+## Conclusion
+
+La gestion des allergènes en food truck n'est pas une paperasse de plus — c'est une obligation légale, une protection pour vos clients, et un outil de différenciation commerciale. Commencez par recenser vos ingrédients, créez vos fiches techniques, et formez votre équipe.
+
+Avec **FoodTracks**, vous centralisez vos recettes, associez les allergènes automatiquement et gardez vos fiches à jour en permanence.
+
+[Essayez FoodTracks gratuitement](https://foodtracks.io/fr/pricing) et sécurisez la gestion de vos allergènes dès aujourd'hui.
+
+**À lire aussi :** [Hygiène et HACCP en food truck](/fr/blog/hygiene-haccp-food-truck) · [Formation obligatoire food truck](/fr/blog/formation-food-truck-obligatoire) · [Réglementation food truck en France](/fr/blog/reglementation-food-truck-france)`,
+      en: `## Why Allergen Management Is Non-Negotiable for Food Trucks
+
+Every year in Europe, food allergies cause thousands of hospitalizations and dozens of fatalities. As a food truck operator, you are legally responsible for informing customers about the allergens present in your dishes.
+
+Under the EU Food Information for Consumers (FIC) Regulation No. 1169/2011, **every food professional — including food trucks — must inform consumers about the 14 major allergens** present in their preparations.
+
+Failing to comply means risking:
+- **Fines** from health inspectors during routine checks
+- **Temporary closure** orders for serious violations
+- A **severe allergic reaction**, with potential legal liability and devastating human consequences
+
+## The 14 Allergens You Must Declare
+
+The FIC regulation mandates disclosure of these 14 substances in every dish sold:
+
+| # | Allergen | Common Food Truck Examples |
+|---|----------|--------------------------|
+| 1 | **Gluten** | Burger buns, wraps, breading, soy sauce |
+| 2 | **Crustaceans** | Shrimp, bisque, cocktail sauce |
+| 3 | **Eggs** | Mayonnaise, crêpe batter, breading |
+| 4 | **Fish** | Fish & chips, Worcestershire sauce |
+| 5 | **Peanuts** | Satay sauce, peanut oil |
+| 6 | **Soybeans** | Soy sauce, tofu, soybean oil, lecithin |
+| 7 | **Milk** | Cheese, cream, butter, béchamel |
+| 8 | **Tree nuts** | Walnuts, almonds, hazelnuts, pesto |
+| 9 | **Celery** | Stock cubes, seasoning blends, crudités |
+| 10 | **Mustard** | Vinaigrette, marinades, sauces |
+| 11 | **Sesame seeds** | Burger buns, hummus, sesame oil |
+| 12 | **Sulphur dioxide / sulphites** | White wine in cooking, dried fruits, vinegar |
+| 13 | **Lupin** | Lupin flour in some breads |
+| 14 | **Molluscs** | Calamari, mussels, oyster sauce |
+
+**Important**: cross-contamination counts too. If you fry your chips in the same oil as your shrimp fritters, your chips potentially contain crustaceans.
+
+## How to Display Allergen Information in Your Food Truck
+
+### The 3 Legal Options
+
+Regulations allow you to choose the format, as long as information is **accessible before purchase**:
+
+**1. Display on the menu board**
+The simplest method: indicate allergens directly on your board or printed menu next to each dish. Use standardized pictograms or allergen numbers.
+
+*Example:* Classic Burger — Beef, cheddar, lettuce, tomato, house sauce **(1, 3, 7, 10, 11)**
+
+**2. Allergen register**
+A binder or document available to customers on request, detailing allergens per dish. Less practical for food trucks as it slows down service.
+
+**3. Verbal information + notice sign**
+You can inform customers verbally **provided** a visible sign states: *"Allergen information is available on request from our staff."* Not recommended as the sole method — one rush-hour lapse can cause an incident.
+
+### Best Practice for Food Trucks
+
+Combine approaches **1 and 3**: display allergens on your menu board AND post a sign inviting allergic customers to speak up. When in doubt, always check the recipe's technical sheet.
+
+With **FoodTracks**, every recipe recorded in the app can include its ingredient list and associated allergens. You can export and print an up-to-date allergen sheet for each dish.
+
+## Setting Up an Allergen Management System
+
+### Step 1: Inventory All Your Ingredients
+
+For every recipe on your menu, list **every ingredient**, including those in purchased sauces, commercial breads, and seasonings. Standard ketchup contains vinegar (sulphites); a typical burger bun contains sesame and gluten.
+
+**Tip**: systematically photograph or scan the labels of your supplier products. FoodTracks lets you scan invoices and link product information to your recipes.
+
+### Step 2: Create a Technical Sheet for Each Recipe
+
+Each sheet should include:
+- The exhaustive ingredient list
+- Allergens present (highlighted or in bold)
+- Weight per portion
+- Ingredient cost (useful for profitability)
+
+This sheet is your **proof of compliance** during inspections. It also protects you legally if a customer has a reaction.
+
+### Step 3: Train Your Team
+
+If you have employees or temporary staff, they must be able to **answer confidently** when asked "Does this dish contain gluten?" Run a quick briefing:
+- Where to find the allergen sheet for each dish
+- What to do if a customer reports an allergy (check the sheet, suggest a safe dish, alert the kitchen)
+- Emergency response for a severe allergic reaction (call emergency services, recovery position)
+
+### Step 4: Prevent Cross-Contamination
+
+In a food truck, limited space makes cross-contamination more likely. Implement:
+
+- **Dedicated utensils**: one spatula for gluten-containing patties, another for gluten-free
+- **Preparation order**: prepare allergen-free dishes first, then those containing allergens
+- **Cleaning between preparations**: wipe surfaces and change gloves between different preparations
+- **Separate storage**: major allergens (tree nuts, peanuts) should be stored in sealed, separate containers
+
+## What to Do When You Change a Recipe or Supplier
+
+One of the most common traps: you switch bread suppliers and the new one contains sesame while the old one did not. Your allergen display becomes inaccurate overnight.
+
+**The rule**: every time you change a supplier or recipe, **update your allergen sheets immediately**. With FoodTracks, your recipes are centralized — modifying an ingredient automatically updates the associated allergen list.
+
+## Inspections: What to Expect
+
+Health inspectors can visit your food truck at any time, including during a busy festival service or at a market.
+
+Inspectors check:
+- Whether allergen information is displayed or available
+- Consistency between your menu and your technical sheets
+- Your ability to answer allergen-related questions
+- Storage and preparation conditions (cross-contamination risk)
+
+**Be prepared**: always keep your technical sheets up to date and accessible in the truck. A clean binder with one sheet per dish makes all the difference.
+
+## Allergen-Free Options: A Commercial Opportunity
+
+Offering a **gluten-free**, **lactose-free**, or **vegan** option is not just a constraint — it is a **differentiation lever**. Demand for allergen-free dishes is surging:
+
+- **Up to 10% of adults** in Europe report a food allergy or intolerance
+- **Around 30% of consumers** are actively reducing gluten or dairy intake
+- Allergic customers are **loyal**: when they find a food truck that serves them safely, they come back
+
+Clearly display your allergen-free options on your menu. Some food trucks make gluten-free their main selling point — and fill every service with a dedicated customer base.
+
+## Conclusion
+
+Allergen management in a food truck is not more red tape — it is a legal obligation, a safeguard for your customers, and a powerful tool for commercial differentiation. Start by inventorying your ingredients, create your technical sheets, and train your team.
+
+With **FoodTracks**, you centralize your recipes, automatically associate allergens, and keep your sheets permanently up to date.
+
+[Try FoodTracks for free](https://foodtracks.io/en/pricing) and secure your allergen management today.
+
+**Read also:** [Hygiene & HACCP for food trucks](/en/blog/hygiene-haccp-food-truck) · [Mandatory food truck training](/en/blog/formation-food-truck-obligatoire) · [Food truck regulations in France](/en/blog/reglementation-food-truck-france)`,
+    },
+    keyTakeaways: {
+      fr: [
+        "Les 14 allergènes majeurs doivent être déclarés obligatoirement sur chaque plat vendu en food truck selon le règlement INCO.",
+        "Le non-respect de l'affichage des allergènes expose à des amendes de 450 à 1 500 € par infraction et à une fermeture temporaire.",
+        "Chaque changement de fournisseur ou de recette impose une mise à jour immédiate des fiches allergènes.",
+        "Proposer des options sans gluten ou sans lactose fidélise une clientèle captive et différencie votre food truck.",
+      ],
+      en: [
+        "The 14 major allergens must be declared for every dish sold from a food truck under the EU FIC regulation.",
+        "Non-compliance with allergen labeling can result in fines, temporary closure, and serious legal liability.",
+        "Every supplier or recipe change requires an immediate update to your allergen sheets.",
+        "Offering gluten-free or dairy-free options builds loyalty with a dedicated, underserved customer base.",
+      ],
+    },
+    faqItems: [
+      {
+        question: {
+          fr: "Quels sont les 14 allergènes à déclarer obligatoirement en food truck ?",
+          en: "What are the 14 allergens that must be declared in a food truck?",
+        },
+        answer: {
+          fr: "Les 14 allergènes réglementaires sont : gluten, crustacés, œufs, poissons, arachides, soja, lait, fruits à coque, céleri, moutarde, graines de sésame, anhydride sulfureux et sulfites, lupin et mollusques. Ils doivent être signalés pour chaque plat vendu, y compris les sauces et accompagnements.",
+          en: "The 14 regulated allergens are: gluten, crustaceans, eggs, fish, peanuts, soybeans, milk, tree nuts, celery, mustard, sesame seeds, sulphur dioxide and sulphites, lupin, and molluscs. They must be declared for every dish sold, including sauces and sides.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment afficher les allergènes sur la carte de mon food truck ?",
+          en: "How should I display allergens on my food truck menu?",
+        },
+        answer: {
+          fr: "La méthode la plus efficace est d'indiquer les numéros ou pictogrammes des allergènes directement à côté de chaque plat sur votre carte, combinée à un panneau invitant les clients allergiques à se signaler. Un registre détaillé consultable sur demande complète le dispositif.",
+          en: "The most effective method is to display allergen numbers or pictograms directly next to each dish on your menu board, combined with a sign inviting allergic customers to speak up. A detailed register available on request completes the system.",
+        },
+      },
+      {
+        question: {
+          fr: "Que risque un food truck qui ne respecte pas l'affichage des allergènes ?",
+          en: "What are the penalties for a food truck that doesn't comply with allergen labeling?",
+        },
+        answer: {
+          fr: "En France, le non-respect de l'obligation d'information sur les allergènes expose à une amende de 450 à 1 500 € par infraction constatée par la DDPP. En cas de récidive ou de manquement grave, une mise en demeure avec fermeture temporaire du food truck est possible. Un accident allergique engage aussi la responsabilité civile et pénale de l'exploitant.",
+          en: "Non-compliance with allergen information requirements can result in fines per violation found during health inspections. Repeat or serious offences can lead to temporary closure orders. An allergic incident can also trigger the operator's civil and criminal liability.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment éviter les contaminations croisées d'allergènes en food truck ?",
+          en: "How do you prevent allergen cross-contamination in a food truck?",
+        },
+        answer: {
+          fr: "Utilisez des ustensiles dédiés par type de préparation, préparez les plats sans allergènes en premier, nettoyez les surfaces et changez de gants entre chaque préparation, et stockez les allergènes majeurs (arachides, fruits à coque) dans des contenants fermés et séparés.",
+          en: "Use dedicated utensils for each preparation type, prepare allergen-free dishes first, clean surfaces and change gloves between preparations, and store major allergens (peanuts, tree nuts) in sealed, separate containers.",
+        },
+      },
+      {
+        question: {
+          fr: "Faut-il mettre à jour l'affichage des allergènes quand on change de fournisseur ?",
+          en: "Do I need to update allergen displays when I change suppliers?",
+        },
+        answer: {
+          fr: "Oui, impérativement. Un changement de fournisseur peut modifier la composition d'un ingrédient (par exemple un nouveau pain contenant du sésame). Vérifiez les étiquettes de chaque nouveau produit et mettez à jour vos fiches allergènes et votre affichage immédiatement. FoodTracks centralise vos recettes et met automatiquement à jour les allergènes lorsqu'un ingrédient est modifié.",
+          en: "Yes, absolutely. A supplier change can alter an ingredient's composition (e.g., a new bread containing sesame). Check the labels of every new product and update your allergen sheets and displays immediately. FoodTracks centralizes your recipes and automatically updates allergens when an ingredient is modified.",
+        },
+      },
+    ],
+    relatedSlugs: [
+      "hygiene-haccp-food-truck",
+      "formation-food-truck-obligatoire",
+      "reglementation-food-truck-france",
+      "calculer-cout-revient-recette-food-truck",
+      "menu-food-truck-rentable",
+    ],
+  },
 ];
 
 export function getArticleBySlug(slug: string): BlogArticle | undefined {
