@@ -20858,7 +20858,7 @@ Increasing your food truck sales without paid advertising is not a myth — it's
         },
         answer: {
           fr: "La fiche Google Business Profile optimisée est souvent le levier le plus rapide : elle capte des personnes en intention d'achat immédiate (\"food truck près de moi\"). Combinée à une liste SMS pour fidéliser, c'est un duo redoutablement efficace.",
-          en: "An optimised Google Business Profile is often the fastest lever: it captures people with immediate buying intent ("food truck near me"). Combined with an SMS list for retention, it's a remarkably effective duo.",
+          en: "An optimised Google Business Profile is often the fastest lever: it captures people with immediate buying intent (\"food truck near me\"). Combined with an SMS list for retention, it's a remarkably effective duo.",
         },
       },
       {
