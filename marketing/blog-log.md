@@ -22,3 +22,4 @@
 | 2026-04-11 | augmenter-ventes-food-truck-sans-pub | Comment augmenter les ventes de son food truck sans pub payante : 10 leviers concrets | publie |
 | 2026-04-12 | menu-food-truck-rentable | Comment créer un menu food truck rentable : sélection, prix et psychologie de la carte | publie |
 | 2026-04-13 | gestion-allergenes-food-truck | Gestion des allergènes en food truck : obligations, affichage et bonnes pratiques | publie |
+| 2026-04-15 | rotation-stock-food-truck | Optimiser la rotation des stocks en food truck : méthode complète pour réduire le gaspillage et améliorer vos marges | publie |

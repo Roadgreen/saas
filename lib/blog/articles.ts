@@ -22401,6 +22401,384 @@ In 2026, with digital tools accessible from €0/month and the ability to integr
       "tableau-de-bord-kpi-food-truck",
     ],
   },
+  {
+    slug: "rotation-stock-food-truck",
+    title: {
+      fr: "Optimiser la rotation des stocks en food truck : méthode complète pour réduire le gaspillage et améliorer vos marges",
+      en: "Optimising Food Truck Stock Rotation: A Complete Method to Reduce Waste and Improve Your Margins",
+    },
+    excerpt: {
+      fr: "Maîtriser la rotation de vos stocks est l'une des clés les plus puissantes pour améliorer la rentabilité de votre food truck. Découvrez une méthode concrète pour éviter les pertes, respecter la chaîne du froid et maximiser chaque euro investi en matières premières.",
+      en: "Mastering stock rotation is one of the most powerful levers for improving your food truck's profitability. Discover a concrete method to avoid losses, maintain the cold chain, and maximise every euro invested in raw materials.",
+    },
+    category: { fr: "Gestion", en: "Management" },
+    date: "2026-04-15",
+    readTime: 10,
+    keywords: [
+      "rotation stock food truck",
+      "optimiser rotation stock food truck",
+      "gestion stock food truck",
+      "FIFO food truck",
+      "réduire gaspillage food truck",
+      "food truck inventory rotation",
+      "stock rotation food truck",
+      "pertes matières premières food truck",
+    ],
+    heroImage: "/blog/gestion-stock.png",
+    keyTakeaways: {
+      fr: [
+        "Une mauvaise rotation des stocks peut représenter 8 à 15 % de pertes sur votre chiffre d'affaires en matières premières.",
+        "La méthode FIFO (premier entré, premier sorti) est le standard incontournable : les produits les plus anciens doivent systématiquement sortir en premier.",
+        "Étiqueter chaque produit avec sa date de réception prend 2 minutes et peut éviter des centaines d'euros de pertes par mois.",
+        "Adapter vos commandes à votre planning de la semaine est plus efficace que de commander en quantité fixe.",
+        "FoodTracks vous alerte automatiquement quand un produit approche de sa date limite, vous permettant d'adapter votre menu avant qu'il ne soit trop tard.",
+      ],
+      en: [
+        "Poor stock rotation can represent 8 to 15% in losses on your raw material spend.",
+        "The FIFO method (first in, first out) is the essential standard: the oldest products must always leave first.",
+        "Labelling each product with its receipt date takes 2 minutes and can prevent hundreds of euros in monthly losses.",
+        "Adapting your orders to your weekly schedule is more effective than ordering in fixed quantities.",
+        "FoodTracks automatically alerts you when a product is approaching its use-by date, allowing you to adapt your menu before it's too late.",
+      ],
+    },
+    faqItems: [
+      {
+        question: {
+          fr: "Qu'est-ce que la rotation des stocks en food truck ?",
+          en: "What is stock rotation in a food truck?",
+        },
+        answer: {
+          fr: "La rotation des stocks désigne la fréquence à laquelle vos matières premières sont utilisées et renouvelées. Une bonne rotation signifie que vous utilisez vos produits avant qu'ils n'arrivent à péremption, en respectant l'ordre d'arrivée (méthode FIFO). En food truck, où l'espace est limité et les produits souvent frais, une rotation rapide et maîtrisée est indispensable pour éviter le gaspillage et les pertes financières.",
+          en: "Stock rotation refers to how frequently your raw materials are used and replenished. Good rotation means using products before they expire, respecting the order of arrival (FIFO method). In a food truck, where space is limited and products are often fresh, rapid and controlled rotation is essential to avoid waste and financial losses.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment appliquer la méthode FIFO dans un petit camion ?",
+          en: "How do you apply the FIFO method in a small truck?",
+        },
+        answer: {
+          fr: "Dans un espace réduit, l'organisation physique est la clé. Rangez les nouveaux produits au fond de votre frigo ou de vos placards, et les plus anciens devant. Utilisez des bacs étiquetés par date. Si votre espace est vraiment limité, créez deux zones clairement délimitées : 'à utiliser d'abord' et 'stock de réserve'. Même sans système informatique, cette organisation visuelle suffit à réduire significativement vos pertes.",
+          en: "In a limited space, physical organisation is key. Place new products at the back of your fridge or cupboards, and older ones at the front. Use date-labelled containers. If your space is truly tight, create two clearly marked zones: 'use first' and 'reserve stock'. Even without a digital system, this visual organisation is enough to significantly reduce your losses.",
+        },
+      },
+      {
+        question: {
+          fr: "À quelle fréquence faut-il faire un inventaire en food truck ?",
+          en: "How often should a food truck do an inventory check?",
+        },
+        answer: {
+          fr: "Un inventaire complet hebdomadaire est le minimum recommandé pour un food truck actif. Pour les produits frais à durée de vie courte (viande, poisson, produits laitiers), un contrôle visuel quotidien avant chaque service est essentiel. L'objectif n'est pas de compter pour compter, mais de détecter les anomalies : produit oublié, quantité surprise, rupture imminente.",
+          en: "A full weekly inventory is the minimum recommended for an active food truck. For fresh products with short shelf lives (meat, fish, dairy), a visual check before each service is essential. The goal isn't to count for the sake of counting, but to detect anomalies: forgotten products, unexpected quantities, imminent stockouts.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment réduire le gaspillage en fin de service ?",
+          en: "How do you reduce waste at the end of a service?",
+        },
+        answer: {
+          fr: "Plusieurs leviers sont efficaces : adapter votre production à la demande prévisible (basé sur vos données passées), proposer une 'ardoise du jour' pour écouler les produits proches de la péremption, congeler ce qui peut l'être si votre équipement le permet, ou encore donner à une association locale ce que vous ne pouvez pas conserver (avec possibilité de déduction fiscale). L'essentiel est d'anticiper plutôt que de réagir en urgence.",
+          en: "Several levers are effective: adapting your production to predictable demand (based on your historical data), offering a 'daily special' to clear products close to expiry, freezing what can be frozen if your equipment allows, or donating to a local food bank what you cannot keep (with potential tax deductions). The key is to anticipate rather than react at the last minute.",
+        },
+      },
+      {
+        question: {
+          fr: "Quel lien entre rotation des stocks et rentabilité du food truck ?",
+          en: "What is the link between stock rotation and food truck profitability?",
+        },
+        answer: {
+          fr: "La rotation des stocks impacte directement votre coût matière, qui représente généralement 28 à 38 % de votre chiffre d'affaires. Une amélioration de 5 points de votre taux de perte (de 12 % à 7 %) se traduit directement par une meilleure marge brute. Sur 10 000 € de CA mensuel, cela représente 500 € de marge supplémentaire chaque mois — soit 6 000 € par an sans vendre un plat de plus.",
+          en: "Stock rotation directly impacts your food cost, which typically represents 28 to 38% of your revenue. A 5-point improvement in your waste rate (from 12% to 7%) directly translates into better gross margin. On €10,000 in monthly revenue, that's €500 in additional margin every month — or €6,000 per year without selling a single extra dish.",
+        },
+      },
+    ],
+    content: {
+      fr: `## Pourquoi la rotation des stocks est un levier de rentabilité souvent négligé
+
+Quand on parle de rentabilité en food truck, on pense immédiatement aux prix de vente, aux emplacements, à la communication. La gestion de la rotation des stocks est rarement la première chose qui vient à l'esprit — et c'est précisément là que beaucoup de food truckers laissent de l'argent sur la table.
+
+En moyenne, **8 à 15 % des matières premières achetées finissent à la poubelle** dans les petites unités de restauration. Pour un food truck qui dépense 3 000 € par mois en approvisionnement, cela représente entre 240 et 450 € de pertes mensuelles directes. Sur un an, c'est l'équivalent de plusieurs semaines de marge brute évaporée.
+
+La bonne nouvelle ? Une grande partie de ces pertes est évitable avec des pratiques simples et des outils adaptés.
+
+## Qu'est-ce que la rotation des stocks et pourquoi est-ce critique en food truck ?
+
+La **rotation des stocks** désigne la fréquence à laquelle vos matières premières sont consommées et renouvelées. Un taux de rotation élevé signifie que vous utilisez rapidement ce que vous achetez — ce qui est idéal pour les produits frais. Un taux faible indique que des produits restent longtemps dans votre camion, augmentant le risque de péremption.
+
+En food truck, trois facteurs rendent la rotation encore plus critique qu'en restaurant classique :
+
+- **Espace limité** : vous ne pouvez pas stocker des semaines de stock "au cas où"
+- **Produits majoritairement frais** : viandes, légumes, sauces maison ont une durée de vie courte
+- **Variabilité de la demande** : un service de 80 couverts un mardi et 200 le samedi d'un festival ne nécessitent pas les mêmes quantités
+
+## La méthode FIFO : le fondement de toute bonne rotation
+
+La **méthode FIFO** (First In, First Out — premier entré, premier sorti) est la base. Le principe : les produits achetés en premier doivent être utilisés en premier.
+
+### Mise en pratique dans votre camion
+
+**Rangement physique** : quand vous réceptionnez une nouvelle livraison, placez les nouveaux produits au fond et ramenez les anciens devant. C'est simple, mais ça change tout.
+
+**Étiquetage systématique** : chaque produit conditionné reçoit une étiquette avec la date de réception. Utilisez un simple rouleau d'étiquettes de couleur (rouge pour J+2, orange pour J+5, vert pour la semaine).
+
+**Zones dédiées dans le frigo** : créez une zone "à utiliser en priorité" (produits ouverts ou proches de la date limite) et une zone "stock de réserve" (produits encore en sécurité).
+
+### Les produits à surveiller en priorité
+
+Tous les produits ne se valent pas en termes de risque :
+
+- **Critique (J+1 à J+3)** : viandes crues, poissons, œufs battus, crèmes ouvertes, sauces maison
+- **Moyen terme (J+3 à J+7)** : légumes découpés, fromages ouverts, préparations cuites
+- **Longue conservation** : condiments en bouteille, épices, produits secs
+
+Concentrez votre énergie de contrôle sur la première catégorie.
+
+## Adapter vos commandes pour optimiser la rotation
+
+La meilleure façon d'éviter les pertes n'est pas de mieux gérer les produits qui périment — c'est de **ne pas en acheter trop**. La surcommande est la cause principale d'une mauvaise rotation.
+
+### Commandez en fonction de votre planning, pas par habitude
+
+Beaucoup de food truckers commandent chaque semaine les mêmes quantités "par habitude". C'est une erreur. Votre planning de la semaine doit dicter vos commandes :
+
+- **Semaine légère (2-3 services)** : commandez 60-70 % de votre base
+- **Semaine standard (4-5 services)** : commandez 100 % de votre base
+- **Semaine chargée (festival, événement)** : commandez 130-150 % de votre base avec anticipation
+
+### Calculez vos consommations réelles par service
+
+Pour chaque ingrédient clé, notez pendant 4 semaines :
+- La quantité utilisée par service
+- La quantité jetée (gaspillage)
+- Les ruptures rencontrées
+
+Vous obtenez une **consommation moyenne par service** qui devient la base de vos commandes. C'est fastidieux à faire manuellement — c'est exactement là que FoodTracks vous fait gagner du temps en automatisant ce suivi à partir de vos ventes SumUp.
+
+## Techniques concrètes pour améliorer votre taux de rotation
+
+### 1. La "règle du fond de panier"
+
+Avant chaque service, faites un tour rapide de vos stocks. Identifiez les produits qui arrivent en fin de vie. Intégrez-les dans votre menu du jour : plat du jour, suggestion spéciale, portion plus généreuse sur un accompagnement. **Transformer un produit en risque en plat du jour vous permet de le valoriser plutôt que de le jeter.**
+
+### 2. La congélation stratégique
+
+Tout ne peut pas être congelé, mais certains produits le supportent bien : viandes portionnées, bouillons, sauces cuites, pains. Si vous avez un équipement adapté, la congélation est un filet de sécurité puissant contre les pertes de fin de semaine.
+
+Vérifiez au préalable les réglementations sanitaires applicables à votre activité.
+
+### 3. Les portions standardisées
+
+Une des causes de gaspillage souvent invisibles : **les portions non standardisées**. Si votre cuisinier dose la viande à l'œil, les portions varient de 20 à 30 % selon les services. Utilisez des grammages et des contenants calibrés. Vous réduisez le gaspillage, améliorez la cohérence de votre offre et facilitez vos prévisions d'achat.
+
+### 4. Le menu "anti-gaspillage" de fin de semaine
+
+Le vendredi ou avant une période de fermeture, proposez un menu simplifié qui permet d'écouler les restes de la semaine de façon cohérente et appétissante. Une "assiette du marché" ou un "bowl du moment" peut devenir un rendez-vous attendu par vos clients réguliers — et vous fait économiser sur l'approvisionnement de la semaine suivante.
+
+## Les indicateurs à suivre pour piloter votre rotation
+
+Pour améliorer votre rotation, vous devez la mesurer. Voici les trois indicateurs essentiels :
+
+### Taux de perte matières
+
+**Formule** : (Matières jetées ÷ Matières achetées) × 100
+
+Visez un taux inférieur à 5 % pour les produits frais. Au-dessus de 10 %, une révision de vos pratiques s'impose.
+
+### Taux de rotation par produit
+
+**Formule** : Quantité utilisée sur la période ÷ Stock moyen sur la période
+
+Un taux élevé signifie que vous vendez vite. Un taux faible sur un produit frais est un signal d'alarme.
+
+### Coût matière réel vs coût théorique
+
+Votre **coût matière théorique** est calculé à partir de vos fiches recettes et de vos ventes. Votre **coût matière réel** inclut les pertes. L'écart entre les deux révèle le coût réel de votre gaspillage. Sur FoodTracks, ce calcul est automatisé : vous voyez en temps réel si votre coût matière réel dérive par rapport à votre cible.
+
+## Intégrer la rotation des stocks dans votre routine quotidienne
+
+La rotation des stocks ne doit pas être un projet ponctuel — c'est une **discipline quotidienne qui prend 10 à 15 minutes par service** si elle est bien intégrée :
+
+**Avant le service** :
+- Contrôle visuel des zones froides (2 min)
+- Identification des produits à utiliser en priorité (2 min)
+- Ajustement de la préparation si nécessaire (variable)
+
+**Après le service** :
+- Comptage rapide des restes (3 min)
+- Mise à jour de votre suivi de consommation (2 min)
+- Décision sur les produits à congeler ou à intégrer au lendemain (2 min)
+
+**En fin de semaine** :
+- Inventaire complet (15-20 min)
+- Calcul des pertes de la semaine
+- Ajustement des quantités de commande pour la semaine suivante
+
+## Comment FoodTracks simplifie la gestion de la rotation
+
+FoodTracks a été conçu pour résoudre précisément ces défis quotidiens. En connectant vos données de vente SumUp et vos achats, la plateforme vous permet de :
+
+- **Visualiser votre consommation réelle** par ingrédient et par service
+- **Recevoir des alertes automatiques** quand un produit approche de sa date limite
+- **Comparer votre coût matière théorique et réel** pour quantifier vos pertes
+- **Générer des prévisions de commande** adaptées à votre planning de la semaine
+
+En quelques semaines d'utilisation, vous disposez d'une base de données complète sur vos habitudes de consommation. Vous ne commandez plus au feeling — vous commandez avec précision.
+
+## Conclusion
+
+Optimiser la rotation de vos stocks en food truck n'est pas une question de technologie sophistiquée ou de processus complexes. C'est avant tout une question de **rigueur quotidienne, d'organisation physique et de suivi des données**.
+
+Commencez par les bases : méthode FIFO, étiquetage systématique, inventaire hebdomadaire. Puis ajoutez progressivement les indicateurs qui vous permettront de mesurer et d'améliorer votre performance. En réduisant vos pertes de seulement 5 points, vous pouvez récupérer plusieurs centaines d'euros de marge chaque mois — sans vendre un seul plat de plus.
+
+**À lire aussi :** [Comment gérer le stock de son food truck efficacement](/fr/blog/comment-gerer-stock-food-truck) · [Gestion des invendus food truck](/fr/blog/gestion-invendus-food-truck) · [Comment créer un menu food truck rentable](/fr/blog/menu-food-truck-rentable)`,
+      en: `## Why Stock Rotation Is an Overlooked Profitability Lever
+
+When talking about food truck profitability, the first thoughts go to selling prices, locations, and marketing. Stock rotation management is rarely the first thing that comes to mind — and that's precisely where many food truck operators leave money on the table.
+
+On average, **8 to 15% of purchased raw materials end up in the bin** in small food service operations. For a food truck spending €3,000 per month on supplies, that represents €240 to €450 in direct monthly losses. Over a year, that's the equivalent of several weeks' worth of gross margin simply evaporating.
+
+The good news? A large proportion of these losses can be avoided with simple practices and the right tools.
+
+## What Is Stock Rotation and Why Is It Critical in a Food Truck?
+
+**Stock rotation** refers to how frequently your raw materials are consumed and replenished. A high rotation rate means you're quickly using what you buy — which is ideal for fresh products. A low rate indicates products are sitting in your truck for a long time, increasing the risk of expiry.
+
+In a food truck, three factors make rotation even more critical than in a traditional restaurant:
+
+- **Limited space**: you can't stockpile weeks of inventory "just in case"
+- **Mostly fresh products**: meats, vegetables, and homemade sauces have a short shelf life
+- **Variable demand**: a service of 80 covers on a Tuesday and 200 at a Saturday festival do not require the same quantities
+
+## The FIFO Method: The Foundation of Good Stock Rotation
+
+The **FIFO method** (First In, First Out) is the foundation. The principle: products bought first must be used first.
+
+### Practical Implementation in Your Truck
+
+**Physical arrangement**: when you receive a new delivery, place new products at the back and bring older ones to the front. Simple, but transformative.
+
+**Systematic labelling**: every packaged product receives a label with its receipt date. Use a simple roll of colour-coded stickers (red for D+2, orange for D+5, green for the rest of the week).
+
+**Dedicated fridge zones**: create a "use first" zone (open products or those close to their use-by date) and a "reserve stock" zone (products still safely within date).
+
+### Products to Monitor First
+
+Not all products carry the same risk:
+
+- **Critical (D+1 to D+3)**: raw meats, fish, beaten eggs, opened creams, homemade sauces
+- **Medium term (D+3 to D+7)**: pre-cut vegetables, opened cheeses, cooked preparations
+- **Long shelf life**: bottled condiments, spices, dry goods
+
+Focus your monitoring effort on the first category.
+
+## Adapting Your Orders to Optimise Rotation
+
+The best way to avoid losses isn't to better manage expiring products — it's to **not buy too much in the first place**. Over-ordering is the primary cause of poor stock rotation.
+
+### Order Based on Your Schedule, Not Out of Habit
+
+Many food truck operators order the same quantities week after week "out of habit". This is a mistake. Your weekly schedule should dictate your orders:
+
+- **Light week (2–3 services)**: order 60–70% of your base amount
+- **Standard week (4–5 services)**: order 100% of your base
+- **Busy week (festival, event)**: order 130–150% of your base with advance planning
+
+### Calculate Your Actual Consumption Per Service
+
+For each key ingredient, track over 4 weeks:
+- Quantity used per service
+- Quantity discarded (waste)
+- Stockouts encountered
+
+You get an **average consumption per service** that becomes the basis of your orders. This is tedious to do manually — which is exactly where FoodTracks saves you time by automating this tracking from your SumUp sales data.
+
+## Concrete Techniques to Improve Your Rotation Rate
+
+### 1. The "Bottom-of-the-Basket" Rule
+
+Before each service, do a quick walkthrough of your stock. Identify products nearing the end of their life. Work them into your daily menu: dish of the day, special suggestion, a more generous serving of a side. **Turning an at-risk product into the dish of the day lets you value it rather than bin it.**
+
+### 2. Strategic Freezing
+
+Not everything can be frozen, but some products handle it well: portioned meats, stocks, cooked sauces, bread rolls. If you have the right equipment, freezing is a powerful safety net against end-of-week losses.
+
+Check the food safety regulations applicable to your operation beforehand.
+
+### 3. Standardised Portions
+
+One of the most invisible causes of waste: **non-standardised portions**. If your cook eyeballs the meat, portions can vary by 20 to 30% across services. Use calibrated weights and containers. You reduce waste, improve consistency, and make purchasing forecasts easier.
+
+### 4. The End-of-Week "Zero Waste" Menu
+
+On Fridays or before a closure period, offer a simplified menu that clears the week's remaining stock in a coherent, appetising way. A "market plate" or "moment bowl" can become a favourite with your regulars — and saves on the following week's ordering.
+
+## Key Indicators to Track Your Rotation
+
+To improve your rotation, you need to measure it. Here are the three essential metrics:
+
+### Waste Rate
+
+**Formula**: (Discarded materials ÷ Purchased materials) × 100
+
+Target a rate below 5% for fresh products. Above 10%, a review of your practices is overdue.
+
+### Rotation Rate Per Product
+
+**Formula**: Quantity used during the period ÷ Average stock during the period
+
+A high rate means you're selling quickly. A low rate on a fresh product is a warning signal.
+
+### Actual vs Theoretical Food Cost
+
+Your **theoretical food cost** is calculated from your recipe cards and sales. Your **actual food cost** includes losses. The gap between the two reveals the true cost of your waste. On FoodTracks, this calculation is automated: you see in real time whether your actual food cost is drifting from your target.
+
+## Integrating Stock Rotation into Your Daily Routine
+
+Stock rotation shouldn't be a one-off project — it's a **daily discipline that takes 10 to 15 minutes per service** once properly embedded:
+
+**Before service**:
+- Visual check of cold storage zones (2 min)
+- Identify products to use first (2 min)
+- Adjust prep if needed (variable)
+
+**After service**:
+- Quick count of leftover stock (3 min)
+- Update your consumption log (2 min)
+- Decide what to freeze or carry over to the next day (2 min)
+
+**End of week**:
+- Full inventory (15–20 min)
+- Calculate week's losses
+- Adjust order quantities for the following week
+
+## How FoodTracks Simplifies Rotation Management
+
+FoodTracks was designed to solve precisely these daily challenges. By connecting your SumUp sales data and purchases, the platform allows you to:
+
+- **Visualise your actual consumption** by ingredient and by service
+- **Receive automatic alerts** when a product is approaching its use-by date
+- **Compare theoretical and actual food costs** to quantify your losses
+- **Generate order forecasts** adapted to your weekly schedule
+
+After a few weeks of use, you have a complete data set on your consumption patterns. You no longer order by gut feeling — you order with precision.
+
+## Conclusion
+
+Optimising stock rotation in your food truck is not about sophisticated technology or complex processes. It's fundamentally about **daily discipline, physical organisation, and data tracking**.
+
+Start with the basics: FIFO method, systematic labelling, weekly inventory. Then gradually add the metrics that will allow you to measure and improve your performance. By reducing your losses by just 5 percentage points, you can recover several hundred euros in margin every month — without selling a single extra dish.
+
+**Further reading:** [How to Manage Food Truck Inventory Efficiently](/en/blog/comment-gerer-stock-food-truck) · [Food Truck Unsold Items Management](/en/blog/gestion-invendus-food-truck) · [How to Create a Profitable Food Truck Menu](/en/blog/menu-food-truck-rentable)`,
+    },
+    relatedSlugs: [
+      "comment-gerer-stock-food-truck",
+      "gestion-invendus-food-truck",
+      "menu-food-truck-rentable",
+      "calcul-prix-vente-food-truck",
+      "gestion-tresorerie-food-truck",
+    ],
+  },
 ];
 
 export function getArticleBySlug(slug: string): BlogArticle | undefined {
