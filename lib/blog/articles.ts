@@ -22779,6 +22779,450 @@ Start with the basics: FIFO method, systematic labelling, weekly inventory. Then
       "gestion-tresorerie-food-truck",
     ],
   },
+  {
+    slug: "charges-variables-food-truck",
+    title: {
+      fr: "Charges variables food truck : identifier, réduire et optimiser ses coûts pour améliorer sa rentabilité en 2026",
+      en: "Food Truck Variable Costs: How to Identify, Reduce and Optimise Your Expenses to Boost Profitability in 2026",
+    },
+    excerpt: {
+      fr: "Les charges variables représentent souvent plus de 50 % du chiffre d'affaires d'un food truck. Apprenez à les identifier, les calculer et les réduire avec des méthodes concrètes et des exemples chiffrés.",
+      en: "Variable costs often account for over 50% of a food truck's revenue. Learn how to identify, calculate and reduce them with practical methods and real-world examples.",
+    },
+    category: { fr: "Gestion", en: "Management" },
+    date: "2026-04-16",
+    readTime: 12,
+    keywords: [
+      "charges variables food truck",
+      "food truck variable costs",
+      "coûts matières premières food truck",
+      "optimiser les charges food truck",
+      "réduire les coûts en food truck",
+      "food truck cost management",
+      "food truck expense reduction",
+    ],
+    heroImage: "/blog/charges-variables.png",
+    keyTakeaways: {
+      fr: [
+        "Les charges variables représentent en moyenne 50 à 65 % du CA d'un food truck — c'est le premier levier de rentabilité.",
+        "Le coût matière ne devrait pas dépasser 25 à 35 % du prix de vente TTC pour maintenir des marges saines.",
+        "Les emballages, le carburant et la main-d'œuvre extra sont des charges variables souvent sous-estimées.",
+        "Calculer son taux de charges variables chaque semaine permet de détecter les dérives avant qu'elles n'impactent la trésorerie.",
+        "FoodTracks automatise le suivi des charges variables en temps réel grâce au scan de factures et à l'intégration SumUp.",
+      ],
+      en: [
+        "Variable costs average 50–65% of a food truck's revenue — they're your number-one profitability lever.",
+        "Food cost should stay between 25–35% of the tax-inclusive selling price to maintain healthy margins.",
+        "Packaging, fuel and casual labour are variable costs that operators frequently underestimate.",
+        "Calculating your variable cost ratio weekly lets you catch drift before it hits cash flow.",
+        "FoodTracks automates real-time variable cost tracking through invoice scanning and SumUp integration.",
+      ],
+    },
+    faqItems: [
+      {
+        question: {
+          fr: "Quelle est la différence entre charges fixes et charges variables en food truck ?",
+          en: "What is the difference between fixed and variable costs in a food truck?",
+        },
+        answer: {
+          fr: "Les charges fixes (assurance, leasing, abonnements) restent constantes quel que soit votre volume de ventes. Les charges variables (matières premières, emballages, carburant) évoluent proportionnellement à votre activité : plus vous vendez, plus elles augmentent.",
+          en: "Fixed costs (insurance, lease, subscriptions) stay the same regardless of sales volume. Variable costs (raw materials, packaging, fuel) move in proportion to your activity: the more you sell, the higher they go.",
+        },
+      },
+      {
+        question: {
+          fr: "Quel pourcentage du CA les charges variables doivent-elles représenter ?",
+          en: "What percentage of revenue should variable costs represent?",
+        },
+        answer: {
+          fr: "En food truck, les charges variables représentent généralement entre 50 et 65 % du CA. L'objectif est de les maintenir en dessous de 60 % pour dégager une marge suffisante après déduction des charges fixes.",
+          en: "In a food truck, variable costs typically range from 50 to 65% of revenue. The goal is to keep them below 60% so you have enough margin left after deducting fixed costs.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment réduire le coût des matières premières en food truck ?",
+          en: "How can I reduce raw material costs in my food truck?",
+        },
+        answer: {
+          fr: "Négociez avec vos fournisseurs sur les volumes, comparez les prix régulièrement, utilisez des produits de saison, optimisez vos fiches techniques pour limiter le grammage inutile et suivez votre gaspillage avec un outil comme FoodTracks.",
+          en: "Negotiate volume discounts with suppliers, compare prices regularly, use seasonal produce, optimise your recipe cards to eliminate unnecessary portions, and track waste with a tool like FoodTracks.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment calculer le coût matière d'un plat en food truck ?",
+          en: "How do I calculate the food cost of a dish in a food truck?",
+        },
+        answer: {
+          fr: "Additionnez le coût de chaque ingrédient utilisé dans la recette (en fonction du grammage exact), puis divisez par le prix de vente TTC. Le résultat, exprimé en pourcentage, est votre ratio de coût matière. Visez 25 à 35 %.",
+          en: "Add up the cost of every ingredient in the recipe (based on exact weights), then divide by the tax-inclusive selling price. The result, expressed as a percentage, is your food cost ratio. Aim for 25–35%.",
+        },
+      },
+      {
+        question: {
+          fr: "Quels outils utiliser pour suivre ses charges variables en food truck ?",
+          en: "What tools can I use to track variable costs in a food truck?",
+        },
+        answer: {
+          fr: "FoodTracks est la solution la plus adaptée : il scanne vos factures fournisseurs, se connecte à votre caisse SumUp et calcule automatiquement vos ratios de charges variables par service, par semaine et par mois.",
+          en: "FoodTracks is the best-fit solution: it scans your supplier invoices, connects to your SumUp POS and automatically calculates your variable cost ratios per service, per week and per month.",
+        },
+      },
+    ],
+    relatedSlugs: [
+      "gestion-tresorerie-food-truck",
+      "calcul-prix-vente-food-truck",
+      "gestion-invendus-food-truck",
+      "rotation-stock-food-truck",
+    ],
+    content: {
+      fr: `## Pourquoi les charges variables sont cruciales en food truck
+
+En food truck, la rentabilité se joue souvent à quelques points de pourcentage. Et ces points, ce sont vos **charges variables** qui les déterminent. Contrairement aux charges fixes — loyer du local de commissariat, assurance, leasing du camion — les charges variables évoluent en fonction de votre activité. Plus vous vendez, plus elles augmentent. Mais surtout : **plus vous les maîtrisez, plus votre marge progresse**.
+
+Beaucoup de food truckers connaissent leur chiffre d'affaires et leur bénéfice en fin de mois, mais peu savent précisément combien leur coûte chaque plat vendu, chaque kilomètre parcouru, chaque barquette utilisée. Or c'est exactement dans ce niveau de détail que se cachent les gains de rentabilité.
+
+Dans cet article, nous allons passer en revue **toutes les charges variables d'un food truck**, vous montrer comment les calculer, et surtout vous donner **7 leviers concrets** pour les réduire — sans sacrifier la qualité.
+
+## Les principales charges variables d'un food truck
+
+### 1. Matières premières (coût matière)
+
+C'est le poste le plus important : il représente **25 à 40 % du prix de vente** d'un plat selon le type de cuisine. Le coût matière inclut tous les ingrédients nécessaires à la préparation de vos recettes.
+
+**Exemples concrets :**
+- Un burger artisanal vendu 10 € avec un coût matière de 3,20 € → ratio de 32 %
+- Un bowl poké vendu 13 € avec un coût matière de 4,50 € → ratio de 34,6 %
+- Des frites maison vendues 4 € avec un coût matière de 0,80 € → ratio de 20 %
+
+Le coût matière se calcule grâce à vos **fiches techniques** : chaque recette doit lister les ingrédients avec le grammage exact et le prix au kilo. Consultez notre guide détaillé sur le [calcul du prix de vente en food truck](/fr/blog/calcul-prix-vente-food-truck).
+
+### 2. Emballages et consommables
+
+Barquettes, serviettes, sacs kraft, couverts jetables, gobelets… Ces coûts semblent minimes à l'unité, mais ils s'accumulent vite. **Comptez 0,30 à 0,80 € par commande** en moyenne.
+
+Sur un food truck réalisant 80 commandes par service et 4 services par semaine, cela représente :
+- 80 × 0,50 € × 4 = **160 € par semaine**, soit **640 € par mois**
+
+Ce poste est souvent sous-estimé car les food truckers l'intègrent rarement dans leurs fiches techniques.
+
+### 3. Carburant et déplacements
+
+Le carburant est une charge variable directe : plus vous vous déplacez, plus vous dépensez. Il faut distinguer :
+- **Le carburant pour le déplacement** vers les emplacements (gasoil du camion)
+- **Le gaz ou l'électricité** pour la cuisson pendant le service
+- **Les frais de péage** éventuels
+
+Un food truck consomme en moyenne **20 à 30 litres aux 100 km**. Si vous parcourez 200 km par semaine, cela représente environ **120 à 160 € par semaine** en carburant.
+
+### 4. Main-d'œuvre variable
+
+Si vous employez des extras pour les services à forte affluence (festivals, marchés du week-end), leur rémunération constitue une charge variable. Cela inclut :
+- Le salaire brut de l'extra
+- Les charges sociales associées
+- Les éventuels avantages en nature (repas)
+
+**Astuce** : calculez le coût total employeur (salaire + charges) par heure pour chaque type de service afin de savoir précisément à partir de quel CA un extra devient rentable.
+
+### 5. Commissions sur les ventes
+
+Si vous utilisez des plateformes de livraison (Uber Eats, Deliveroo) ou un terminal de paiement, les commissions sont des charges variables :
+- **Plateformes de livraison** : 15 à 30 % de commission
+- **Terminal de paiement (SumUp)** : 1,75 % par transaction
+- **Commissions de marché** : certains emplacements prennent un pourcentage du CA
+
+## Comment calculer son taux de charges variables
+
+### La formule de base
+
+Le **taux de charges variables** se calcule ainsi :
+
+**Taux de charges variables = (Total des charges variables ÷ Chiffre d'affaires) × 100**
+
+### Exemple chiffré complet
+
+Prenons un food truck qui réalise un CA de **4 000 € par semaine** :
+
+| Poste | Montant | % du CA |
+|-------|---------|---------|
+| Matières premières | 1 320 € | 33 % |
+| Emballages | 160 € | 4 % |
+| Carburant | 140 € | 3,5 % |
+| Main-d'œuvre extra | 280 € | 7 % |
+| Commissions TPE | 70 € | 1,75 % |
+| **Total charges variables** | **1 970 €** | **49,25 %** |
+
+Dans cet exemple, le food truck conserve une **marge sur coûts variables de 50,75 %**, soit 2 030 € par semaine pour couvrir les charges fixes et dégager un bénéfice.
+
+### Le seuil de rentabilité variable
+
+Pour chaque service, calculez votre **marge sur coûts variables** :
+
+**Marge sur coûts variables = CA du service – Charges variables du service**
+
+Si cette marge est inférieure à votre quote-part de charges fixes pour ce service, le service n'est pas rentable. C'est un indicateur clé pour décider de maintenir ou d'abandonner un emplacement. Retrouvez plus de détails dans notre article sur la [gestion de trésorerie food truck](/fr/blog/gestion-tresorerie-food-truck).
+
+## 7 leviers pour réduire ses charges variables
+
+### 1. Optimiser ses fiches techniques
+
+Chaque gramme compte. En réduisant de 10 % le grammage de certains ingrédients coûteux (sans impact sur la qualité perçue), vous pouvez **économiser 2 à 3 points de coût matière**.
+
+**Action concrète** : pesez systématiquement chaque ingrédient pendant une semaine et comparez avec votre fiche technique théorique. Les écarts sont souvent surprenants.
+
+### 2. Négocier avec ses fournisseurs
+
+Ne vous contentez pas d'un seul fournisseur. **Comparez au minimum 3 devis** pour vos 10 produits les plus consommés. Les écarts de prix peuvent atteindre 15 à 25 % d'un fournisseur à l'autre.
+
+Quelques leviers de négociation :
+- Commander en plus grande quantité (mais attention au gaspillage — voir notre article sur la [rotation des stocks](/fr/blog/rotation-stock-food-truck))
+- S'engager sur un volume mensuel
+- Payer comptant plutôt qu'à 30 jours
+- Acheter en direct auprès de producteurs locaux
+
+### 3. Réduire le gaspillage alimentaire
+
+Le gaspillage, c'est de l'argent jeté. **Chaque euro de matière première gaspillée augmente directement votre taux de charges variables.** Mettez en place :
+- Un suivi quotidien des pertes par produit
+- Des portions standardisées
+- Une carte réduite pour limiter la diversité des stocks
+- L'utilisation des restes dans des plats du jour
+
+Consultez notre guide complet sur la [gestion des invendus en food truck](/fr/blog/gestion-invendus-food-truck).
+
+### 4. Optimiser ses trajets et emplacements
+
+Chaque kilomètre inutile coûte environ **0,50 à 0,80 €** (carburant + usure). Rationalisez vos déplacements :
+- Regroupez vos services par zone géographique
+- Évaluez la rentabilité réelle de chaque emplacement (CA – charges variables du déplacement)
+- Abandonnez les emplacements dont la marge sur coûts variables ne couvre pas les charges fixes allouées
+
+### 5. Choisir les bons emballages
+
+Passez en revue vos emballages et cherchez des alternatives plus économiques **sans sacrifier l'image de marque** :
+- Achetez en gros (palettes) plutôt qu'au carton
+- Testez les emballages compostables en gros volume (souvent moins chers au-delà de 5 000 unités)
+- Réduisez le nombre de formats différents pour profiter des effets de volume
+
+### 6. Maîtriser la main-d'œuvre variable
+
+Pour chaque service avec un extra, calculez le **seuil de rentabilité** :
+- Coût de l'extra pour le service (ex : 80 €)
+- Marge supplémentaire générée grâce à l'extra (plus de clients servis, plus de ventes)
+- Si la marge supplémentaire < coût de l'extra → le service est plus rentable en solo
+
+### 7. Suivre ses indicateurs chaque semaine
+
+La clé de la maîtrise des charges variables, c'est la **régularité du suivi**. Chaque semaine, analysez :
+- Votre taux de coût matière réel vs théorique
+- Votre coût d'emballage par commande
+- Votre dépense carburant par service
+- Votre ratio charges variables / CA global
+
+**Sans mesure, pas d'amélioration possible.**
+
+## Utiliser FoodTracks pour suivre ses charges en temps réel
+
+FoodTracks a été conçu pour donner aux food truckers une **visibilité totale sur leurs charges variables**, sans passer des heures sur Excel.
+
+### Ce que FoodTracks fait pour vous
+
+| Fonctionnalité | Impact sur les charges variables |
+|----------------|--------------------------------|
+| **Scan de factures fournisseurs** | Calcul automatique du coût matière réel par ingrédient |
+| **Intégration SumUp** | Rapprochement ventes / achats en temps réel |
+| **Fiches techniques** | Coût matière théorique vs réel par recette |
+| **Alertes de dérive** | Notification quand un ratio dépasse le seuil fixé |
+| **Tableau de bord hebdomadaire** | Vue synthétique de toutes vos charges variables |
+
+### Résultats constatés par nos utilisateurs
+
+- **-18 % de coût matière** en moyenne après 3 mois d'utilisation
+- **-30 % de temps** consacré au suivi administratif
+- **Identification de 200 à 500 € de charges cachées** par mois
+
+## Conclusion
+
+Les charges variables sont le **levier de rentabilité numéro un** de votre food truck. Contrairement aux charges fixes, vous avez un contrôle direct et immédiat sur elles. Chaque point de pourcentage gagné sur votre taux de charges variables se traduit directement en bénéfice supplémentaire.
+
+Commencez par **mesurer** (vous ne pouvez pas améliorer ce que vous ne mesurez pas), puis **optimisez** poste par poste avec les 7 leviers présentés dans cet article. Et pour automatiser tout ce suivi, [essayez FoodTracks gratuitement](https://foodtracks.io/fr/pricing).
+
+**À lire aussi :** [Gestion de trésorerie food truck](/fr/blog/gestion-tresorerie-food-truck) · [Calculer le prix de vente de vos plats](/fr/blog/calcul-prix-vente-food-truck) · [Gestion des invendus food truck](/fr/blog/gestion-invendus-food-truck)`,
+      en: `## Why Variable Costs Are Crucial for Food Trucks
+
+In the food truck business, profitability often comes down to a few percentage points. And those points are determined by your **variable costs**. Unlike fixed costs — commissary rent, insurance, truck lease — variable costs move in line with your activity. The more you sell, the higher they climb. But more importantly: **the better you control them, the wider your margin grows**.
+
+Many food truck operators know their revenue and end-of-month profit, but few can tell you exactly how much each dish sold, each kilometre driven, or each takeaway container actually costs them. Yet it is precisely at that level of detail where profitability gains hide.
+
+In this article, we will walk through **every variable cost in a food truck operation**, show you how to calculate them, and give you **7 concrete levers** to reduce them — without sacrificing quality.
+
+## The Main Variable Costs in a Food Truck
+
+### 1. Raw Materials (Food Cost)
+
+This is the biggest line item, typically **25 to 40% of the selling price** depending on your cuisine. Food cost covers every ingredient that goes into your recipes.
+
+**Real-world examples:**
+- A gourmet burger sold at €10 with a food cost of €3.20 → 32% ratio
+- A poké bowl sold at €13 with a food cost of €4.50 → 34.6% ratio
+- Hand-cut fries sold at €4 with a food cost of €0.80 → 20% ratio
+
+Food cost is calculated through **recipe cards**: each recipe must list ingredients with exact weights and the cost per kilogram. See our detailed guide on [calculating food truck selling prices](/en/blog/calcul-prix-vente-food-truck).
+
+### 2. Packaging and Consumables
+
+Containers, napkins, kraft bags, disposable cutlery, cups… These costs seem trivial per unit but add up fast. **Budget €0.30–0.80 per order** on average.
+
+For a food truck doing 80 orders per service and 4 services per week, that works out to:
+- 80 × €0.50 × 4 = **€160 per week**, or **€640 per month**
+
+This line item is frequently underestimated because operators rarely include it in their recipe cards.
+
+### 3. Fuel and Travel
+
+Fuel is a direct variable cost: the more you drive, the more you spend. Distinguish between:
+- **Driving fuel** to reach your pitch (truck diesel)
+- **Gas or electricity** for cooking during service
+- **Toll charges** where applicable
+
+A food truck typically consumes **20–30 litres per 100 km**. If you cover 200 km per week, that means roughly **€120–160 per week** in fuel.
+
+### 4. Casual Labour
+
+If you hire extra hands for busy services (festivals, weekend markets), their pay is a variable cost. This includes:
+- Gross wages
+- Employer payroll taxes
+- Any benefits in kind (staff meals)
+
+**Tip**: calculate the total employer cost (wages + taxes) per hour for each service type so you know exactly at what revenue threshold an extra becomes profitable.
+
+### 5. Sales Commissions
+
+If you use delivery platforms (Uber Eats, Deliveroo) or a payment terminal, commissions are variable costs:
+- **Delivery platforms**: 15–30% commission
+- **Payment terminal (SumUp)**: 1.75% per transaction
+- **Market commissions**: some pitches take a percentage of revenue
+
+## How to Calculate Your Variable Cost Ratio
+
+### The Basic Formula
+
+The **variable cost ratio** is:
+
+**Variable cost ratio = (Total variable costs ÷ Revenue) × 100**
+
+### Full Worked Example
+
+Take a food truck generating **€4,000 per week**:
+
+| Line item | Amount | % of revenue |
+|-----------|--------|--------------|
+| Raw materials | €1,320 | 33% |
+| Packaging | €160 | 4% |
+| Fuel | €140 | 3.5% |
+| Casual labour | €280 | 7% |
+| POS commissions | €70 | 1.75% |
+| **Total variable costs** | **€1,970** | **49.25%** |
+
+In this example the food truck retains a **contribution margin of 50.75%** — €2,030 per week to cover fixed costs and generate profit.
+
+### The Variable Break-Even Point
+
+For each service, calculate your **contribution margin**:
+
+**Contribution margin = Service revenue – Service variable costs**
+
+If this margin is less than the allocated share of fixed costs for that service, it is unprofitable. This is a key metric for deciding whether to keep or drop a pitch. Read more in our article on [food truck cash flow management](/en/blog/gestion-tresorerie-food-truck).
+
+## 7 Levers to Reduce Your Variable Costs
+
+### 1. Optimise Your Recipe Cards
+
+Every gram matters. By trimming 10% off the weight of certain expensive ingredients (without affecting perceived quality), you can **save 2–3 percentage points on food cost**.
+
+**Action step**: weigh every ingredient systematically for one week and compare with your theoretical recipe card. The gaps are often eye-opening.
+
+### 2. Negotiate With Suppliers
+
+Never rely on a single supplier. **Get at least 3 quotes** for your 10 most-used products. Price differences can reach 15–25% between suppliers.
+
+Some negotiation levers:
+- Order in larger quantities (but watch waste — see our article on [stock rotation](/en/blog/rotation-stock-food-truck))
+- Commit to a monthly volume
+- Pay on delivery instead of net-30
+- Buy direct from local producers
+
+### 3. Reduce Food Waste
+
+Waste is money in the bin. **Every euro of wasted raw material directly increases your variable cost ratio.** Put in place:
+- Daily waste tracking by product
+- Standardised portions
+- A smaller menu to limit stock variety
+- Using leftovers in daily specials
+
+Check out our full guide on [food truck unsold items management](/en/blog/gestion-invendus-food-truck).
+
+### 4. Optimise Routes and Pitches
+
+Every unnecessary kilometre costs roughly **€0.50–0.80** (fuel + wear). Rationalise your travel:
+- Cluster services by geographical area
+- Evaluate the real profitability of each pitch (revenue – variable travel costs)
+- Drop pitches whose contribution margin does not cover allocated fixed costs
+
+### 5. Choose the Right Packaging
+
+Review your packaging and look for more cost-effective alternatives **without compromising brand image**:
+- Buy in bulk (pallets) rather than by the case
+- Try compostable packaging in high volume (often cheaper above 5,000 units)
+- Reduce the number of different formats to benefit from volume effects
+
+### 6. Control Casual Labour Costs
+
+For every service with extra staff, calculate the **break-even point**:
+- Extra's cost for the service (e.g. €80)
+- Additional margin generated thanks to the extra (more customers served, higher sales)
+- If additional margin < extra's cost → the service is more profitable solo
+
+### 7. Track Your KPIs Every Week
+
+The key to controlling variable costs is **consistent tracking**. Every week, review:
+- Your actual vs. theoretical food cost ratio
+- Your packaging cost per order
+- Your fuel spend per service
+- Your overall variable cost / revenue ratio
+
+**If you don't measure it, you can't improve it.**
+
+## Using FoodTracks to Monitor Costs in Real Time
+
+FoodTracks was built to give food truck operators **complete visibility over their variable costs** without spending hours in spreadsheets.
+
+### What FoodTracks Does for You
+
+| Feature | Impact on variable costs |
+|---------|------------------------|
+| **Supplier invoice scanning** | Automatic real food cost per ingredient |
+| **SumUp integration** | Real-time sales vs. purchases reconciliation |
+| **Recipe cards** | Theoretical vs. actual food cost per recipe |
+| **Drift alerts** | Notifications when a ratio exceeds your threshold |
+| **Weekly dashboard** | Summary view of all your variable costs |
+
+### Results Reported by Our Users
+
+- **-18% food cost** on average after 3 months
+- **-30% time** spent on administrative tracking
+- **€200–500 in hidden costs identified** per month
+
+## Conclusion
+
+Variable costs are the **number-one profitability lever** for your food truck. Unlike fixed costs, you have direct and immediate control over them. Every percentage point you shave off your variable cost ratio translates straight into additional profit.
+
+Start by **measuring** (you cannot improve what you do not measure), then **optimise** item by item using the 7 levers outlined in this article. And to automate the entire process, [try FoodTracks for free](https://foodtracks.io/en/pricing).
+
+**Further reading:** [Food Truck Cash Flow Management](/en/blog/gestion-tresorerie-food-truck) · [How to Calculate Food Truck Selling Prices](/en/blog/calcul-prix-vente-food-truck) · [Food Truck Unsold Items Management](/en/blog/gestion-invendus-food-truck)`,
+    },
+  },
 ];
 
 export function getArticleBySlug(slug: string): BlogArticle | undefined {
