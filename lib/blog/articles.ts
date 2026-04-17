@@ -23223,6 +23223,355 @@ Start by **measuring** (you cannot improve what you do not measure), then **opti
 **Further reading:** [Food Truck Cash Flow Management](/en/blog/gestion-tresorerie-food-truck) · [How to Calculate Food Truck Selling Prices](/en/blog/calcul-prix-vente-food-truck) · [Food Truck Unsold Items Management](/en/blog/gestion-invendus-food-truck)`,
     },
   },
+  {
+    slug: "google-my-business-food-truck",
+    title: {
+      fr: "Google My Business food truck : comment optimiser votre fiche pour attirer plus de clients locaux en 2026",
+      en: "Google My Business for Food Trucks: How to Optimise Your Listing to Attract More Local Customers in 2026",
+    },
+    excerpt: {
+      fr: "Votre fiche Google My Business est souvent le premier contact entre votre food truck et un client potentiel. Découvrez comment l'optimiser pour apparaître en tête des recherches locales, collecter des avis et convertir les internautes en clients.",
+      en: "Your Google My Business listing is often the first contact between your food truck and a potential customer. Learn how to optimise it to rank top in local searches, collect reviews, and convert online visitors into customers.",
+    },
+    category: { fr: "Marketing", en: "Marketing" },
+    date: "2026-04-17",
+    readTime: 11,
+    keywords: [
+      "google my business food truck",
+      "fiche google my business food truck",
+      "optimiser fiche google food truck",
+      "référencement local food truck",
+      "avis clients food truck google",
+      "food truck google maps",
+      "visibilité locale food truck",
+      "food truck local SEO",
+    ],
+    heroImage: "/blog/marketing-food-truck.png",
+    keyTakeaways: {
+      fr: [
+        "Une fiche Google My Business complète et à jour peut multiplier par 3 à 5 le nombre de clics vers votre food truck dans les résultats locaux.",
+        "Les avis Google sont le facteur numéro 1 de confiance pour un nouveau client — chaque avis compte, surtout les 10 premiers.",
+        "Publier des photos récentes (plats, camion, équipe) augmente significativement le taux d'engagement sur votre fiche.",
+        "Mettre à jour vos horaires avant chaque service évite les mauvaises surprises et les avis négatifs liés à une fiche obsolète.",
+        "Les posts Google My Business (actualités, offres) sont très peu utilisés par les food trucks — c'est une opportunité de visibilité gratuite à saisir.",
+      ],
+      en: [
+        "A complete, up-to-date Google My Business listing can multiply clicks to your food truck by 3 to 5 in local results.",
+        "Google reviews are the number-one trust factor for a new customer — every review counts, especially the first 10.",
+        "Posting recent photos (dishes, truck, team) significantly increases engagement on your listing.",
+        "Updating your hours before each service prevents bad surprises and negative reviews from an outdated listing.",
+        "Google My Business posts (news, offers) are barely used by food trucks — it's a free visibility opportunity waiting to be seized.",
+      ],
+    },
+    faqItems: [
+      {
+        question: {
+          fr: "Faut-il vraiment créer une fiche Google My Business pour son food truck ?",
+          en: "Do I really need a Google My Business listing for my food truck?",
+        },
+        answer: {
+          fr: "Oui, c'est indispensable. La grande majorité des recherches de proximité (\"food truck près de moi\", \"burger à emporter [ville]\") passent par Google Maps et le Pack Local. Sans fiche, vous êtes invisible pour ces recherches. La création est gratuite et prend moins d'une heure. C'est l'un des rares canaux marketing où le ROI est immédiat et mesurable.",
+          en: "Yes, it is essential. The vast majority of proximity searches ('food truck near me', 'takeaway burger [city]') go through Google Maps and the Local Pack. Without a listing, you are invisible for these searches. Creating one is free and takes under an hour. It is one of the few marketing channels where the ROI is immediate and measurable.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment gérer les horaires sur Google My Business quand mon food truck change d'emplacement chaque jour ?",
+          en: "How do I manage hours on Google My Business when my food truck changes location every day?",
+        },
+        answer: {
+          fr: "C'est le défi spécifique des food trucks itinérants. La solution recommandée : mettez des horaires 'généraux' larges (ex : Lun-Sam 11h-15h) et utilisez les Posts Google pour annoncer votre emplacement du jour. Certains food truckers créent également un compte Google Maps pour chaque emplacement fixe récurrent. L'essentiel est de ne jamais laisser un client se déplacer pour rien à cause d'une fiche inexacte.",
+          en: "This is the specific challenge for mobile food trucks. The recommended solution: set broad 'general' hours (e.g., Mon-Sat 11am-3pm) and use Google Posts to announce your location for the day. Some food truckers also create a Google Maps listing for each recurring fixed pitch. The key is to never let a customer make a wasted journey because of an inaccurate listing.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment obtenir plus d'avis Google pour mon food truck ?",
+          en: "How do I get more Google reviews for my food truck?",
+        },
+        answer: {
+          fr: "La méthode la plus efficace est la plus simple : demandez en direct. À la fin du service, dites à vos clients satisfaits que leur avis compte vraiment. Affichez un QR code pointant vers votre formulaire d'avis Google sur votre camion et vos emballages. Vous pouvez aussi envoyer un message de remerciement par SMS ou WhatsApp avec le lien direct. Ne proposez jamais de contrepartie (remise, cadeau) en échange d'un avis — c'est contraire aux conditions Google.",
+          en: "The most effective method is the simplest: ask directly. At the end of service, tell satisfied customers that their review really matters. Display a QR code pointing to your Google review form on your truck and packaging. You can also send a thank-you message by SMS or WhatsApp with the direct link. Never offer an incentive (discount, gift) in exchange for a review — that is against Google's terms.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment répondre à un avis négatif sur Google ?",
+          en: "How should I respond to a negative Google review?",
+        },
+        answer: {
+          fr: "Répondez toujours, rapidement (sous 48h) et calmement. Commencez par remercier le client pour son retour, reconnaissez le problème sans vous excuser de manière excessive, et proposez une solution concrète (rappel, geste commercial discret). N'entrez jamais dans une dispute publique. Les futurs clients lisent les réponses autant que les avis — une réponse professionnelle à un avis négatif peut en réalité renforcer la confiance.",
+          en: "Always respond, quickly (within 48 hours) and calmly. Start by thanking the customer for their feedback, acknowledge the problem without over-apologising, and offer a concrete solution (a call, a discreet goodwill gesture). Never engage in a public argument. Future customers read responses as much as reviews — a professional reply to a negative review can actually build trust.",
+        },
+      },
+      {
+        question: {
+          fr: "Les Posts Google My Business servent-ils vraiment à quelque chose pour un food truck ?",
+          en: "Do Google My Business Posts actually help a food truck?",
+        },
+        answer: {
+          fr: "Oui, bien plus qu'on ne le pense. Les posts apparaissent directement dans le panel de votre fiche lorsqu'un internaute vous recherche sur Google ou Google Maps. Pour un food truck, ils sont idéaux pour annoncer votre emplacement du lendemain, un menu spécial, un événement ou une promotion. Un post hebdomadaire suffit à montrer à Google que votre fiche est active, ce qui favorise votre classement local.",
+          en: "Yes, much more than people think. Posts appear directly in your listing panel when someone searches for you on Google or Google Maps. For a food truck, they are ideal for announcing your next day's location, a special menu, an event, or a promotion. One post per week is enough to signal to Google that your listing is active, which helps your local ranking.",
+        },
+      },
+    ],
+    relatedSlugs: [
+      "reseaux-sociaux-food-truck-strategie",
+      "programme-fidelite-food-truck",
+      "augmenter-ventes-food-truck-sans-pub",
+      "emplacement-food-truck",
+    ],
+    content: {
+      fr: `## Pourquoi Google My Business est le canal marketing le plus sous-exploité des food trucks
+
+Quand on est food trucker, le temps manque. Entre la préparation des commandes, les services, la gestion des stocks et la comptabilité, la communication digitale passe souvent au second plan. Pourtant, **votre fiche Google My Business travaille pour vous 24h/24, même quand vous êtes en plein service**.
+
+Aujourd'hui, plus de **80 % des consommateurs** font une recherche Google avant de se rendre dans un point de restauration inconnu. Les requêtes de type "food truck près de moi", "burger à emporter Paris 11" ou "food truck marché [nom de ville]" génèrent des milliers de recherches chaque mois en France. Si votre fiche n'est pas optimisée, vous laissez passer ces clients potentiels.
+
+La bonne nouvelle : contrairement à la publicité payante ou aux campagnes Instagram, optimiser Google My Business ne coûte rien — juste quelques heures de mise en place et 15 minutes par semaine de maintenance.
+
+## Créer et revendiquer votre fiche Google My Business
+
+### Étape 1 : créer votre compte
+
+Rendez-vous sur [business.google.com](https://business.google.com) et connectez-vous avec votre compte Google. Cliquez sur "Ajouter votre entreprise" et renseignez :
+- Le **nom exact** de votre food truck (tel qu'il apparaît sur votre camion et vos réseaux sociaux)
+- La **catégorie principale** : choisissez "Food truck" ou, à défaut, la catégorie qui correspond à votre cuisine (ex : "Restaurant de burgers", "Restauration rapide")
+- Votre **numéro de téléphone** et votre **site web** (ou votre page FoodTracks / lien de réservation)
+
+### Étape 2 : vérifier votre fiche
+
+Google doit vérifier que vous êtes bien le propriétaire. Les méthodes disponibles sont :
+- **Carte postale** (la plus courante) : Google envoie un code à une adresse postale
+- **Vidéo en direct** : vous montrez votre camion et vos documents en appel vidéo
+- **Téléphone** : moins courant pour les food trucks sans adresse fixe
+
+Pour un food truck itinérant sans adresse commerciale fixe, utilisez votre adresse de domiciliation ou votre commissaire-priseur. L'important est que la vérification aboutisse.
+
+### Étape 3 : paramétrer votre zone de service
+
+Contrairement à un restaurant avec pignon sur rue, votre food truck se déplace. Dans les paramètres de votre fiche, activez l'option **"Zone de service"** plutôt que d'afficher une adresse fixe. Renseignez les villes, arrondissements ou codes postaux où vous opérez régulièrement.
+
+## Les 7 éléments clés d'une fiche optimisée
+
+### 1. Le nom de l'établissement
+
+Utilisez **exactement** le nom commercial de votre food truck — sans y ajouter des mots-clés artificiellement (ex : "Le Burger du Chef — Food Truck Paris"). Google pénalise le keyword stuffing dans les noms d'établissement. La clarté prime.
+
+### 2. La description (750 caractères)
+
+La description est un champ libre où vous pouvez parler de votre concept, votre cuisine, vos valeurs. Intégrez naturellement vos mots-clés principaux :
+- Type de cuisine
+- Villes ou quartiers couverts
+- Ce qui vous distingue (produits locaux, recettes maison, etc.)
+
+**Exemple efficace :** *"Food truck spécialisé dans les burgers artisanaux et les frites maison, présent sur les marchés et événements de Lyon et sa région. Ingrédients sourcés localement, recettes élaborées par notre chef. Retrouvez-nous chaque semaine sur notre page Instagram pour connaître nos emplacements."*
+
+### 3. Les photos
+
+C'est l'élément le plus impactant sur le taux de clic. Les fiches avec plus de 100 photos reçoivent **en moyenne 520 % plus d'appels** que celles sans photos (source : Google). Pour un food truck, visez au minimum :
+- 5 photos de vos plats phares (éclairage naturel, fond propre)
+- 2-3 photos de votre camion en situation (service, marché)
+- 1-2 photos de votre équipe en action
+- 1 photo de votre logo ou de votre enseigne
+
+Renouvelez vos photos régulièrement — Google favorise les fiches dont le contenu est récent.
+
+### 4. Les horaires
+
+Mettez des horaires représentatifs de votre activité habituelle. Pour les jours d'absence, utilisez la fonction **"Fermeture exceptionnelle"** plutôt que de modifier les horaires de base. Si votre planning varie chaque semaine, combinez :
+- Horaires généraux larges (ex : Mar-Sam 11h30-14h30)
+- Posts hebdomadaires pour préciser les emplacements
+
+Une fiche avec des horaires inexacts est l'une des premières causes d'avis négatifs.
+
+### 5. Les attributs
+
+Les attributs sont des caractéristiques visibles directement sur votre fiche : paiement par carte, commande en ligne, accessible en fauteuil roulant, terrasse, etc. Cochez tous ceux qui s'appliquent — ils apparaissent dans les résultats de recherche et influencent les filtres Google Maps.
+
+### 6. Le lien de commande ou de réservation
+
+Si vous utilisez un lien de pré-commande (via FoodTracks, Instagram ou un autre outil), ajoutez-le dans la section **"URL de commande"** de votre fiche. C'est un bouton d'action visible directement sur votre fiche — un levier de conversion direct.
+
+### 7. La catégorie secondaire
+
+En plus de votre catégorie principale, ajoutez des catégories secondaires qui correspondent à votre activité : "Traiteur", "Restauration événementielle", "Service de livraison de repas", selon ce que vous proposez. Chaque catégorie supplémentaire augmente votre surface d'apparition dans les recherches.
+
+## Collecter des avis : la stratégie concrète
+
+Les avis Google sont le facteur de confiance numéro un pour un nouveau client. Une étude BrightLocal (2025) indique que **88 % des consommateurs font autant confiance aux avis en ligne qu'aux recommandations personnelles**. Pour un food truck, les avis sont encore plus déterminants : un client qui vous découvre en cherchant sur Google n'a aucune autre référence.
+
+### Obtenir votre lien d'avis direct
+
+Dans votre tableau de bord Google My Business, cliquez sur "Obtenir plus d'avis" pour générer un **lien court** que vous pouvez partager directement. Raccourcissez-le avec Bitly si besoin.
+
+### Les 4 canaux pour demander des avis
+
+**En face à face** : à la fin du service, pendant que le client attend sa commande ou paie, dites simplement : *"Si vous avez été satisfait, un avis Google nous aide vraiment à nous faire connaître — il y a un QR code sur le camion."*
+
+**QR code physique** : imprimez un QR code pointant vers votre lien d'avis et affichez-le sur votre camion, votre comptoir et vos emballages. C'est la solution la plus efficace car elle est passive — vous n'avez rien à faire.
+
+**SMS / WhatsApp** : si vous avez un groupe de clients fidèles, envoyez un message de remerciement après chaque service avec le lien direct. Court, chaleureux, efficace.
+
+**Réseaux sociaux** : une story Instagram mensuelle rappelant à votre communauté qu'un avis Google est le meilleur moyen de vous soutenir gratuitement.
+
+### Répondre à tous les avis
+
+Répondez à **chaque avis** — positif comme négatif. Pour les avis positifs, une réponse courte et personnalisée suffit. Pour les avis négatifs, appliquez la méthode CAPA : Calme, Accusé-réception, Proposition d'action. N'entrez jamais dans une dispute publique.
+
+## Les Posts Google My Business : le secret le plus mal gardé
+
+Les Posts GMB sont des mini-publications visibles directement dans votre fiche. Peu de food trucks les utilisent — c'est votre avantage concurrentiel immédiat.
+
+**Types de posts utiles pour un food truck :**
+- **"Actualité"** : annonce de votre emplacement du lendemain
+- **"Offre"** : promotion flash du weekend
+- **"Événement"** : participation à un marché ou festival
+- **"Produit"** : mise en avant d'un nouveau plat du menu
+
+Un post dure 7 jours avant d'être archivé. L'idéal est de **publier 1 à 2 posts par semaine** — cela suffit à montrer à Google que votre fiche est active et à maintenir votre classement local.
+
+## Mesurer vos performances avec Google Insights
+
+Le tableau de bord Google My Business inclut des **statistiques gratuites** sur votre fiche :
+- Nombre de vues (recherche Google + Maps)
+- Actions réalisées (appels, itinéraires, clics vers votre site)
+- Requêtes de recherche qui ont déclenché votre fiche
+- Comparaison avec d'autres établissements similaires
+
+Consultez ces données une fois par mois pour identifier ce qui fonctionne. Si une requête spécifique génère beaucoup de vues, intégrez ce terme dans votre description ou vos posts.
+
+## L'intégration avec FoodTracks
+
+FoodTracks est conçu pour vous faire gagner du temps sur la gestion opérationnelle — stock, commandes fournisseurs, suivi des ventes — afin que vous puissiez consacrer plus d'énergie à la partie commerciale et marketing. En réduisant le temps passé sur l'administration, vous libérez 30 à 60 minutes par jour que vous pouvez investir dans votre visibilité locale.
+
+**À lire aussi :** [Stratégie réseaux sociaux food truck](/fr/blog/reseaux-sociaux-food-truck-strategie) · [Augmenter ses ventes sans pub payante](/fr/blog/augmenter-ventes-food-truck-sans-pub) · [Programme de fidélité food truck](/fr/blog/programme-fidelite-food-truck)`,
+      en: `## Why Google My Business Is the Most Under-Used Marketing Channel for Food Trucks
+
+When you run a food truck, time is scarce. Between prep, service, stock management, and accounting, digital communication often takes a back seat. Yet your **Google My Business listing works for you 24/7, even while you're in the middle of a service**.
+
+Today, over **80% of consumers** do a Google search before visiting an unfamiliar food outlet. Queries like "food truck near me", "takeaway burger [city]", or "food truck market [town name]" generate thousands of monthly searches. If your listing isn't optimised, you're letting those potential customers walk past.
+
+The good news: unlike paid advertising or Instagram campaigns, optimising Google My Business costs nothing — just a few hours of setup and 15 minutes a week to maintain.
+
+## Creating and Claiming Your Google My Business Listing
+
+### Step 1: Create your account
+
+Go to [business.google.com](https://business.google.com) and sign in with your Google account. Click "Add your business" and fill in:
+- The **exact name** of your food truck (as it appears on your truck and social media)
+- The **primary category**: choose "Food truck" or the closest match for your cuisine (e.g., "Burger restaurant", "Fast food restaurant")
+- Your **phone number** and **website** (or your FoodTracks / booking link)
+
+### Step 2: Verify your listing
+
+Google must confirm you own the business. Available verification methods:
+- **Postcard** (most common): Google sends a code to a postal address
+- **Live video call**: you show your truck and documents on a video call
+- **Phone**: less common for food trucks without a fixed address
+
+For an itinerant food truck with no fixed commercial address, use your registered business address. The important thing is that verification completes successfully.
+
+### Step 3: Set up your service area
+
+Unlike a restaurant with a fixed premises, your food truck moves. In your listing settings, enable the **"Service area"** option rather than displaying a fixed address. Enter the cities, districts, or postcodes where you operate regularly.
+
+## The 7 Key Elements of an Optimised Listing
+
+### 1. Business name
+
+Use **exactly** your food truck's trading name — do not stuff keywords into it artificially (e.g., "The Chef's Burger — Best Food Truck Paris"). Google penalises keyword stuffing in business names. Clarity comes first.
+
+### 2. Description (750 characters)
+
+The description is a free-text field where you can talk about your concept, cuisine, and values. Naturally integrate your main keywords:
+- Type of cuisine
+- Cities or areas you cover
+- What sets you apart (local produce, homemade recipes, etc.)
+
+**Effective example:** *"Artisan burger and hand-cut chip food truck serving markets and events across Lyon and the surrounding region. Locally sourced ingredients, chef-crafted recipes. Follow our Instagram page for weekly location updates."*
+
+### 3. Photos
+
+This is the highest-impact element for click-through rate. Listings with more than 100 photos receive **on average 520% more calls** than those with no photos (source: Google). For a food truck, aim for a minimum of:
+- 5 photos of your signature dishes (natural light, clean background)
+- 2–3 photos of your truck in action (service, market)
+- 1–2 photos of your team at work
+- 1 photo of your logo or signage
+
+Refresh your photos regularly — Google favours listings with recent content.
+
+### 4. Hours
+
+Set hours that reflect your typical activity. For days off, use the **"Special closure"** feature rather than editing your base hours. If your schedule changes every week, combine:
+- Broad general hours (e.g., Tue–Sat 11:30am–2:30pm)
+- Weekly posts to specify locations
+
+Inaccurate hours are one of the leading causes of negative reviews for food trucks.
+
+### 5. Attributes
+
+Attributes are characteristics displayed directly on your listing: card payments accepted, online ordering, wheelchair accessible, outdoor seating, etc. Tick all that apply — they appear in search results and influence Google Maps filters.
+
+### 6. Order or booking link
+
+If you use a pre-order link (via FoodTracks, Instagram, or another tool), add it in the **"Order URL"** section of your listing. It becomes an action button visible directly on your listing — a direct conversion lever.
+
+### 7. Secondary category
+
+In addition to your primary category, add secondary categories that match your activity: "Caterer", "Event catering service", "Meal delivery service", depending on what you offer. Each additional category increases your exposure surface in searches.
+
+## Collecting Reviews: The Concrete Strategy
+
+Google reviews are the number-one trust factor for a new customer. A BrightLocal study (2025) found that **88% of consumers trust online reviews as much as personal recommendations**. For a food truck, reviews are even more decisive: a customer who discovers you via Google has no other reference point.
+
+### Get your direct review link
+
+In your Google My Business dashboard, click "Get more reviews" to generate a **short link** you can share directly. Shorten it with Bitly if needed.
+
+### The 4 channels for requesting reviews
+
+**Face to face**: at the end of service, while the customer is waiting for their order or paying, simply say: *"If you enjoyed it, a Google review really helps us get noticed — there's a QR code on the truck."*
+
+**Physical QR code**: print a QR code pointing to your review link and display it on your truck, counter, and packaging. This is the most effective solution because it's passive — you don't need to do anything.
+
+**SMS / WhatsApp**: if you have a loyal customer group, send a short thank-you message after each service with the direct link. Short, warm, effective.
+
+**Social media**: a monthly Instagram story reminding your community that a Google review is the best free way to support you.
+
+### Respond to every review
+
+Reply to **every review** — positive and negative. For positive reviews, a short personalised response is enough. For negative reviews, apply the ACRA method: Acknowledge, be Calm, accept Responsibility, propose Action. Never engage in a public argument.
+
+## Google My Business Posts: The Best-Kept Secret
+
+GMB Posts are mini-publications visible directly in your listing panel. Very few food trucks use them — this is your immediate competitive advantage.
+
+**Useful post types for a food truck:**
+- **"Update"**: tomorrow's location announcement
+- **"Offer"**: weekend flash promotion
+- **"Event"**: participation in a market or festival
+- **"Product"**: spotlight on a new menu item
+
+A post lasts 7 days before being archived. The ideal cadence is **1 to 2 posts per week** — enough to signal to Google that your listing is active and maintain your local ranking.
+
+## Measuring Performance with Google Insights
+
+The Google My Business dashboard includes **free statistics** on your listing:
+- Number of views (Google Search + Maps)
+- Actions taken (calls, directions, website clicks)
+- Search queries that triggered your listing
+- Comparison with similar businesses
+
+Review these figures once a month to understand what's working. If a specific query is generating a lot of views, integrate that term into your description or posts.
+
+## The FoodTracks Connection
+
+FoodTracks is designed to save you time on operational management — stock, supplier orders, sales tracking — so you can devote more energy to the commercial and marketing side. By reducing administrative time, you free up 30 to 60 minutes a day to invest in your local visibility.
+
+**Further reading:** [Food Truck Social Media Strategy](/en/blog/reseaux-sociaux-food-truck-strategie) · [Increase Sales Without Paid Advertising](/en/blog/augmenter-ventes-food-truck-sans-pub) · [Food Truck Loyalty Programme](/en/blog/programme-fidelite-food-truck)`,
+    },
+  },
 ];
 
 export function getArticleBySlug(slug: string): BlogArticle | undefined {
