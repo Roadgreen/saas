@@ -524,7 +524,11 @@
             "button": "Export CSV",
             "success": "Exported {count, plural, one {# recipe} other {# recipes}}",
             "empty": "Nothing to export"
-        }
+        },
+        "duplicate": "Duplicate",
+        "duplicateSuffix": "(copy)",
+        "duplicateSuccess": "\"{name}\" duplicated",
+        "duplicateError": "Could not duplicate recipe"
     },
     "QuickSales": {
         "title": "Quick Add",

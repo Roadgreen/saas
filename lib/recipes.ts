@@ -7,6 +7,7 @@ export interface RecipeWithDetails {
     sellingPrice: number | null;
     ingredients: {
         id: string;
+        productId: string;
         quantity: number;
         unit: string;
         product: {

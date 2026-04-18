@@ -2,19 +2,20 @@
 
 import { useState, useMemo, useEffect, useRef } from 'react';
 import { useTranslations } from 'next-intl';
-import { usePathname, useSearchParams } from 'next/navigation';
+import { usePathname, useRouter, useSearchParams } from 'next/navigation';
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table';
 import { CreateRecipeForm } from './CreateRecipeForm';
-import { ChefHat, ArrowRight, Download, Search, TrendingDown } from 'lucide-react';
+import { ChefHat, ArrowRight, Copy, Download, Search, TrendingDown } from 'lucide-react';
 import { formatCurrency, type CurrencyCode } from '@/lib/currency';
 import { toast } from 'sonner';
 
 interface Ingredient {
   id: string;
+  productId: string;
   quantity: number;
   unit: string;
   product: {
@@ -47,9 +48,11 @@ interface RecipeListProps {
 export function RecipeList({ recipes, products, currency = 'EUR' }: RecipeListProps) {
   const t = useTranslations('Recipes');
   const pathname = usePathname();
+  const router = useRouter();
   const searchParams = useSearchParams();
   const [search, setSearch] = useState(() => searchParams.get('q') ?? '');
   const [lowMarginOnly, setLowMarginOnly] = useState(() => searchParams.get('low') === '1');
+  const [duplicatingId, setDuplicatingId] = useState<string | null>(null);
   const searchInputRef = useRef<HTMLInputElement | null>(null);
 
   // Keyboard "/" → focus search
@@ -101,6 +104,34 @@ export function RecipeList({ recipes, products, currency = 'EUR' }: RecipeListPr
     () => recipes.filter(r => r.grossMargin != null && r.grossMargin < 70).length,
     [recipes]
   );
+
+  const handleDuplicate = async (recipe: Recipe) => {
+    setDuplicatingId(recipe.id);
+    try {
+      const suffix = t('duplicateSuffix');
+      const response = await fetch('/api/recipes', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          name: `${recipe.name} ${suffix}`,
+          description: recipe.description ?? undefined,
+          sellingPrice: recipe.sellingPrice ?? 0,
+          ingredients: recipe.ingredients.map(i => ({
+            productId: i.productId,
+            quantity: i.quantity,
+            unit: i.unit,
+          })),
+        }),
+      });
+      if (!response.ok) throw new Error('failed');
+      toast.success(t('duplicateSuccess', { name: recipe.name }));
+      router.refresh();
+    } catch {
+      toast.error(t('duplicateError'));
+    } finally {
+      setDuplicatingId(null);
+    }
+  };
 
   const handleExportCSV = () => {
     if (filtered.length === 0) {
@@ -242,6 +273,20 @@ export function RecipeList({ recipes, products, currency = 'EUR' }: RecipeListPr
                     <span className="text-muted-foreground">-</span>
                   )}
                 </div>
+
+                <div className="mt-3 flex justify-end">
+                  <Button
+                    type="button"
+                    variant="ghost"
+                    size="sm"
+                    className="gap-1.5 h-8"
+                    onClick={() => handleDuplicate(recipe)}
+                    disabled={duplicatingId === recipe.id}
+                  >
+                    <Copy className="h-3.5 w-3.5" />
+                    {t('duplicate')}
+                  </Button>
+                </div>
               </motion.div>
             ))}
           </div>
@@ -291,7 +336,18 @@ export function RecipeList({ recipes, products, currency = 'EUR' }: RecipeListPr
                     ) : '-'}
                   </TableCell>
                   <TableCell className="text-right">
-                    {/* Actions like Edit/Delete can be added here */}
+                    <Button
+                      type="button"
+                      variant="ghost"
+                      size="sm"
+                      className="gap-1.5"
+                      onClick={() => handleDuplicate(recipe)}
+                      disabled={duplicatingId === recipe.id}
+                      aria-label={t('duplicate')}
+                    >
+                      <Copy className="h-3.5 w-3.5" />
+                      <span className="hidden lg:inline">{t('duplicate')}</span>
+                    </Button>
                   </TableCell>
                 </TableRow>
               ))}

@@ -524,7 +524,11 @@
             "button": "Exporter CSV",
             "success": "Export de {count, plural, one {# recette} other {# recettes}}",
             "empty": "Rien à exporter"
-        }
+        },
+        "duplicate": "Dupliquer",
+        "duplicateSuffix": "(copie)",
+        "duplicateSuccess": "« {name} » dupliquée",
+        "duplicateError": "Impossible de dupliquer la recette"
     },
     "QuickSales": {
         "title": "Ajout Rapide",
