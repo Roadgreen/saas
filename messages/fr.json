@@ -498,6 +498,8 @@
         "profitability": "Rentabilité",
         "lowMargin": "Marge Faible",
         "profileIncomplete": "Veuillez compléter votre profil établissement.",
+        "createError": "Impossible de créer la recette. Réessayez.",
+        "createSuccess": "Recette créée",
         "table": {
             "name": "Nom",
             "ingredients": "Ingrédients",
@@ -588,6 +590,8 @@
         "edit": "Modifier",
         "editSale": "Modifier la vente",
         "editDescription": "Modifiez les détails de cette vente.",
+        "updateError": "Impossible de mettre à jour la vente. Réessayez.",
+        "updateSuccess": "Vente mise à jour",
         "table": {
             "date": "Date",
             "items": "Articles",
@@ -666,6 +670,7 @@
         "save": "Enregistrer les modifications",
         "invite": "Inviter un membre",
         "edit": "Modifier",
+        "profileIncomplete": "Veuillez compléter le profil de votre établissement.",
         "Profile": {
             "identity": {
                 "title": "Identité de l'établissement",

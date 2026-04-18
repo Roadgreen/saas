@@ -11,6 +11,7 @@ import { Label } from '@/components/ui/label';
 import { Sheet, SheetContent, SheetDescription, SheetHeader, SheetTitle, SheetTrigger } from '@/components/ui/sheet';
 import { Pencil, Loader2 } from 'lucide-react';
 import { useRouter } from 'next/navigation';
+import { toast } from 'sonner';
 
 const getEditSalesSchema = (t: any) => z.object({
   recipeId: z.string().min(1, t('validation.recipeRequired')),
@@ -80,10 +81,12 @@ export function EditSalesForm({ item, recipes }: EditSalesFormProps) {
 
       if (!response.ok) throw new Error('Failed to update item');
 
+      toast.success(t('updateSuccess'));
       setOpen(false);
       router.refresh();
     } catch (error) {
       console.error(error);
+      toast.error(t('updateError'));
     } finally {
       setLoading(false);
     }

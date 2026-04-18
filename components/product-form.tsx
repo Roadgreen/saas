@@ -117,7 +117,7 @@ export function ProductForm({ initialData, isEditing = false }: ProductFormProps
 
       <div className="space-y-2">
         <Label htmlFor="name">{t('name')}</Label>
-        <Input id="name" {...register('name')} placeholder={t('namePlaceholder')} />
+        <Input id="name" autoFocus {...register('name')} placeholder={t('namePlaceholder')} />
         {errors.name && (
           <p className="text-sm text-red-500">{errors.name.message as string}</p>
         )}

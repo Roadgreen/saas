@@ -12,6 +12,7 @@ import { Sheet, SheetContent, SheetDescription, SheetHeader, SheetTitle, SheetTr
 import { Plus, Trash2, Loader2 } from 'lucide-react';
 import { useRouter } from 'next/navigation';
 import { useHaptic } from '@/hooks/useHaptic';
+import { toast } from 'sonner';
 
 const recipeSchema = z.object({
   name: z.string().min(1, "Name is required"),
@@ -70,11 +71,13 @@ export function CreateRecipeForm({ products }: CreateRecipeFormProps) {
       if (!response.ok) throw new Error('Failed to create recipe');
 
       notification('success');
+      toast.success(t('createSuccess'));
       form.reset();
       setOpen(false);
       router.refresh();
     } catch (error) {
       console.error(error);
+      toast.error(t('createError'));
     } finally {
       setLoading(false);
     }

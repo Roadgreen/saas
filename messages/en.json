@@ -498,6 +498,8 @@
         "noRecipes": "No recipes found. Create your first one!",
         "search": "Search recipes...",
         "profileIncomplete": "Please complete your business profile.",
+        "createError": "Could not create recipe. Please try again.",
+        "createSuccess": "Recipe created",
         "table": {
             "name": "Name",
             "ingredients": "Ingredients",
@@ -588,6 +590,8 @@
         "edit": "Edit",
         "editSale": "Edit Sale",
         "editDescription": "Update the details of this sale.",
+        "updateError": "Could not update sale. Please try again.",
+        "updateSuccess": "Sale updated",
         "table": {
             "date": "Date",
             "items": "Items",
@@ -666,6 +670,7 @@
         "save": "Save Changes",
         "invite": "Invite Member",
         "edit": "Edit",
+        "profileIncomplete": "Please complete your business profile.",
         "Profile": {
             "identity": {
                 "title": "Business Identity",

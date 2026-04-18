@@ -29,7 +29,7 @@ export default async function SettingsPage({
   const t = await getTranslations('Settings');
 
   if (!user?.business) {
-    return <div className="p-8">Please complete your business profile.</div>;
+    return <div className="p-8 text-muted-foreground">{t('profileIncomplete')}</div>;
   }
 
   const settings = (user.business.settings as Record<string, unknown>) ?? {};
