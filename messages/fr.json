@@ -666,6 +666,11 @@
             "items": "{count} articles",
             "results": "{count} sur {total} résultats",
             "noResults": "Aucun résultat avec ces filtres."
+        },
+        "export": {
+            "button": "Exporter CSV",
+            "success": "Export de {count, plural, one {# commande} other {# commandes}}",
+            "empty": "Rien à exporter"
         }
     },
     "Settings": {

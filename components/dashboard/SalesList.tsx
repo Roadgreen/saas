@@ -9,8 +9,9 @@ import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
 import { RecordSalesForm } from './RecordSalesForm';
 import { EditSalesForm } from './EditSalesForm';
-import { TrendingUp, MapPin, CloudSun, X, Filter, ChevronDown, ChevronRight, ShoppingBag } from 'lucide-react';
+import { TrendingUp, MapPin, CloudSun, X, Filter, ChevronDown, ChevronRight, ShoppingBag, Download } from 'lucide-react';
 import { formatCurrency, type CurrencyCode } from '@/lib/currency';
+import { toast } from 'sonner';
 
 interface OrderItem {
   id: string;
@@ -101,6 +102,52 @@ export function SalesList({ orders, recipes, currency = 'EUR' }: SalesListProps)
     setLocationFilter('');
   };
 
+  const handleExportCSV = () => {
+    if (filteredOrders.length === 0) {
+      toast.message(t('export.empty'));
+      return;
+    }
+    // One row per order item (flat, analytics-friendly)
+    const header = ['orderId', 'date', 'location', 'recipe', 'quantity', 'unitPrice', 'subtotal', 'orderTotal'];
+    const esc = (v: string | number | null | undefined) => {
+      const s = v == null ? '' : String(v);
+      return /[",\n]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s;
+    };
+    const lines: string[] = [header.join(',')];
+    for (const order of filteredOrders) {
+      const dateStr = new Date(order.date).toISOString();
+      const locationName = order.location?.name ?? '';
+      const orderTotal = order.totalRevenue != null ? order.totalRevenue.toFixed(2) : '';
+      if (order.items.length === 0) {
+        lines.push([order.id, dateStr, locationName, '', '', '', '', orderTotal].map(esc).join(','));
+      } else {
+        for (const item of order.items) {
+          lines.push([
+            order.id,
+            dateStr,
+            locationName,
+            item.recipe.name,
+            item.quantity,
+            item.unitPrice != null ? item.unitPrice.toFixed(2) : '',
+            item.subtotal != null ? item.subtotal.toFixed(2) : '',
+            orderTotal,
+          ].map(esc).join(','));
+        }
+      }
+    }
+    const csv = '\uFEFF' + lines.join('\n');
+    const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `sales-${new Date().toISOString().slice(0, 10)}.csv`;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+    toast.success(t('export.success', { count: filteredOrders.length }));
+  };
+
   const toggleExpand = (orderId: string) => {
     setExpandedOrders(prev => {
       const next = new Set(prev);
@@ -115,12 +162,23 @@ export function SalesList({ orders, recipes, currency = 'EUR' }: SalesListProps)
 
   return (
     <Card className="dash-card">
-      <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
+      <CardHeader className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 space-y-0 pb-2">
         <CardTitle className="text-xl font-semibold tracking-tight flex items-center gap-2">
           <TrendingUp className="h-5 w-5" />
           {t('title')}
         </CardTitle>
-        <RecordSalesForm recipes={recipes} />
+        <div className="flex w-full sm:w-auto items-center gap-2">
+          <Button
+            variant="outline"
+            onClick={handleExportCSV}
+            disabled={orders.length === 0}
+            className="flex-1 sm:flex-none"
+          >
+            <Download className="w-4 h-4 mr-2" />
+            {t('export.button')}
+          </Button>
+          <RecordSalesForm recipes={recipes} />
+        </div>
       </CardHeader>
       <CardContent className="space-y-4">
         {/* Filter Bar */}
