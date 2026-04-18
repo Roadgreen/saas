@@ -221,6 +221,8 @@ export default function HomeClient() {
                   fill
                   sizes="(max-width: 768px) 100vw, 50vw"
                   className="object-cover"
+                  priority
+                  fetchPriority="high"
                 />
                 <div
                   className="absolute inset-0"
