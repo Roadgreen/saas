@@ -28,6 +28,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: '/ville/strasbourg',   changeFrequency: 'monthly', priority: 0.8, lastModified: '2026-03-19' },
     { path: '/ville/lille',        changeFrequency: 'monthly', priority: 0.8, lastModified: '2026-03-19' },
     { path: '/ville/nice',         changeFrequency: 'monthly', priority: 0.8, lastModified: '2026-03-19' },
+    { path: '/ville/rennes',       changeFrequency: 'monthly', priority: 0.8, lastModified: '2026-04-18' },
+    { path: '/ville/montpellier',  changeFrequency: 'monthly', priority: 0.8, lastModified: '2026-04-18' },
     { path: '/guides/gestion-food-truck', changeFrequency: 'monthly', priority: 0.8, lastModified: '2026-03-15' },
     { path: '/guides/seuil-rentabilite-food-truck', changeFrequency: 'monthly', priority: 0.8, lastModified: '2026-03-15' },
     { path: '/guides/food-truck-reglementation-france', changeFrequency: 'monthly', priority: 0.8, lastModified: '2026-03-19' },
