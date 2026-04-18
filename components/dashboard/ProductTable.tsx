@@ -518,6 +518,9 @@ export function ProductTable({
               <Button className="w-full sm:w-auto">
                 <Plus className="w-4 h-4 mr-2" />
                 {t('addProduct')}
+                <kbd className="ml-2 hidden md:inline-flex items-center rounded border border-white/30 bg-white/10 px-1 py-0.5 text-[10px] font-mono">
+                  N
+                </kbd>
               </Button>
             </Link>
           </div>

@@ -104,6 +104,9 @@ export function CreateRecipeForm({ products }: CreateRecipeFormProps) {
         <Button>
           <Plus className="mr-2 h-4 w-4" />
           {t('create')}
+          <kbd className="ml-2 hidden md:inline-flex items-center rounded border border-white/30 bg-white/10 px-1 py-0.5 text-[10px] font-mono">
+            N
+          </kbd>
         </Button>
       </SheetTrigger>
       <SheetContent className="w-[400px] sm:w-[540px] overflow-y-auto">
