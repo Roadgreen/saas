@@ -29,8 +29,38 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ['/api/', '/dashboard/'],
       },
       {
+        userAgent: 'Perplexity-User',
+        allow: ['/', '/fr/blog/', '/en/blog/', '/llms.txt', '/llms-full.txt'],
+        disallow: ['/api/', '/dashboard/'],
+      },
+      {
+        userAgent: 'OAI-SearchBot',
+        allow: ['/', '/fr/blog/', '/en/blog/', '/llms.txt', '/llms-full.txt'],
+        disallow: ['/api/', '/dashboard/'],
+      },
+      {
         userAgent: 'Google-Extended',
         allow: ['/', '/fr/blog/', '/en/blog/', '/llms.txt', '/llms-full.txt'],
+      },
+      {
+        userAgent: 'Applebot-Extended',
+        allow: ['/', '/fr/blog/', '/en/blog/', '/llms.txt', '/llms-full.txt'],
+        disallow: ['/api/', '/dashboard/'],
+      },
+      {
+        userAgent: 'Meta-ExternalAgent',
+        allow: ['/', '/fr/blog/', '/en/blog/', '/llms.txt', '/llms-full.txt'],
+        disallow: ['/api/', '/dashboard/'],
+      },
+      {
+        userAgent: 'DuckAssistBot',
+        allow: ['/', '/fr/blog/', '/en/blog/', '/llms.txt', '/llms-full.txt'],
+        disallow: ['/api/', '/dashboard/'],
+      },
+      {
+        userAgent: 'MistralAI-User',
+        allow: ['/', '/fr/blog/', '/en/blog/', '/llms.txt', '/llms-full.txt'],
+        disallow: ['/api/', '/dashboard/'],
       },
       {
         userAgent: 'Amazonbot',
