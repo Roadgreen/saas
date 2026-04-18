@@ -157,10 +157,14 @@ export default async function BlogArticlePage({
     ],
   };
 
-  // Find related articles (same category, excluding current)
-  const related = blogArticles
-    .filter((a) => a.slug !== slug)
-    .slice(0, 3);
+  // Find related articles: prefer same category, fall back to any recent
+  const sameCategory = blogArticles.filter(
+    (a) => a.slug !== slug && a.category[lang] === article.category[lang]
+  );
+  const fallback = blogArticles.filter(
+    (a) => a.slug !== slug && a.category[lang] !== article.category[lang]
+  );
+  const related = [...sameCategory, ...fallback].slice(0, 3);
 
   return (
     <>
