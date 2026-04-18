@@ -893,6 +893,11 @@
             "selectAll": "Tout sélectionner",
             "deleteError": "Certaines suppressions ont échoué"
         },
+        "export": {
+            "button": "Exporter CSV",
+            "success": "Export de {count, plural, one {# produit} other {# produits}}",
+            "empty": "Rien à exporter"
+        },
         "sort": {
             "name": "Trier par nom",
             "quantity": "Trier par quantité",

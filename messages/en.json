@@ -893,6 +893,11 @@
             "selectAll": "Select all",
             "deleteError": "Some deletions failed"
         },
+        "export": {
+            "button": "Export CSV",
+            "success": "Exported {count, plural, one {# product} other {# products}}",
+            "empty": "Nothing to export"
+        },
         "sort": {
             "name": "Sort by name",
             "quantity": "Sort by quantity",

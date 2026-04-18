@@ -10,7 +10,7 @@ import { Input } from '@/components/ui/input';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
-import { Plus, Trash2, Package, Pencil, Search, ArrowUpDown, ArrowUp, ArrowDown, AlertTriangle, DollarSign, BarChart3, X, TrendingDown, Calendar } from 'lucide-react';
+import { Plus, Trash2, Package, Pencil, Search, ArrowUpDown, ArrowUp, ArrowDown, AlertTriangle, DollarSign, BarChart3, X, TrendingDown, Calendar, Download } from 'lucide-react';
 import { StockAdjustmentDialog } from '@/components/dashboard/StockAdjustmentDialog';
 import { formatCurrency, type CurrencyCode } from '@/lib/currency';
 import { toast } from 'sonner';
@@ -316,6 +316,43 @@ export function ProductTable({
     });
   };
 
+  const handleExportCSV = () => {
+    const rows = filteredAndSorted;
+    if (rows.length === 0) {
+      toast.message(t('export.empty'));
+      return;
+    }
+    const header = ['name', 'category', 'quantity', 'unit', 'costPerUnit', 'expiryDate', 'status', 'location'];
+    const esc = (v: string | number | null | undefined) => {
+      const s = v == null ? '' : String(v);
+      return /[",\n]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s;
+    };
+    const lines = [
+      header.join(','),
+      ...rows.map(p => [
+        p.name,
+        p.category ?? '',
+        p.quantity,
+        p.unit,
+        p.costPerUnit ?? '',
+        p.expiryDate ? new Date(p.expiryDate).toISOString().slice(0, 10) : '',
+        p.status,
+        p.locationName,
+      ].map(esc).join(',')),
+    ];
+    const csv = '\uFEFF' + lines.join('\n');
+    const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `products-${new Date().toISOString().slice(0, 10)}.csv`;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+    toast.success(t('export.success', { count: rows.length }));
+  };
+
   const statusClass = (status: string) => {
     switch (status) {
       case 'OK': return 'bg-green-100 text-green-800';
@@ -467,12 +504,23 @@ export function ProductTable({
             <Package className="h-5 w-5" />
             {t('inventory')}
           </CardTitle>
-          <Link href={`/${locale}/dashboard/products/new`}>
-            <Button className="w-full sm:w-auto">
-              <Plus className="w-4 h-4 mr-2" />
-              {t('addProduct')}
+          <div className="flex w-full sm:w-auto items-center gap-2">
+            <Button
+              variant="outline"
+              className="flex-1 sm:flex-none"
+              onClick={handleExportCSV}
+              disabled={products.length === 0}
+            >
+              <Download className="w-4 h-4 mr-2" />
+              {t('export.button')}
             </Button>
-          </Link>
+            <Link href={`/${locale}/dashboard/products/new`} className="flex-1 sm:flex-none">
+              <Button className="w-full sm:w-auto">
+                <Plus className="w-4 h-4 mr-2" />
+                {t('addProduct')}
+              </Button>
+            </Link>
+          </div>
         </CardHeader>
         <CardContent>
           {/* Bulk action bar (desktop only; appears when any row is selected) */}
