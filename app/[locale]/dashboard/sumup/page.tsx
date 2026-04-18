@@ -18,7 +18,6 @@ import {
   Settings,
 } from "lucide-react";
 import Link from "next/link";
-import { getLocale } from "next-intl/server";
 
 export default async function SumUpPage({
   params,
@@ -41,7 +40,8 @@ export default async function SumUpPage({
   const currency: CurrencyCode = isCurrencyCode(bSettings.currency) ? bSettings.currency : "EUR";
   const isConnected = !!business.sumupAccessToken;
 
-  const since30 = new Date(Date.now() - 30 * 24 * 60 * 60 * 1000);
+  const since30 = new Date();
+  since30.setDate(since30.getDate() - 30);
 
   const [transactions, internalOrders] = isConnected
     ? await Promise.all([
@@ -108,14 +108,16 @@ export default async function SumUpPage({
               </Link>
             </>
           ) : (
-            <a
-              href="/api/sumup/connect"
-              className="flex items-center gap-2 text-sm font-medium text-white rounded-full px-4 py-2 transition-all hover:opacity-90"
-              style={{ background: "#00B6FF" }}
-            >
-              <Link2 className="h-4 w-4" />
-              Connecter SumUp
-            </a>
+            <form action="/api/sumup/connect" method="GET">
+              <button
+                type="submit"
+                className="flex items-center gap-2 text-sm font-medium text-white rounded-full px-4 py-2 transition-all hover:opacity-90"
+                style={{ background: "#00B6FF" }}
+              >
+                <Link2 className="h-4 w-4" />
+                Connecter SumUp
+              </button>
+            </form>
           )}
         </div>
       </div>
@@ -160,15 +162,17 @@ export default async function SumUpPage({
                 ))}
               </ul>
             </div>
-            <a
-              href="/api/sumup/connect"
-              className="relative mt-6 flex items-center justify-center gap-2 rounded-xl px-5 py-3 text-sm font-semibold text-white transition-all hover:opacity-90 hover:-translate-y-0.5"
-              style={{ background: "#00B6FF" }}
-            >
-              <Link2 className="h-4 w-4" />
-              Connecter avec SumUp
-              <ArrowRight className="h-4 w-4 ml-auto" />
-            </a>
+            <form action="/api/sumup/connect" method="GET" className="relative mt-6">
+              <button
+                type="submit"
+                className="w-full flex items-center justify-center gap-2 rounded-xl px-5 py-3 text-sm font-semibold text-white transition-all hover:opacity-90 hover:-translate-y-0.5"
+                style={{ background: "#00B6FF" }}
+              >
+                <Link2 className="h-4 w-4" />
+                Connecter avec SumUp
+                <ArrowRight className="h-4 w-4 ml-auto" />
+              </button>
+            </form>
           </div>
 
           {/* How it works */}

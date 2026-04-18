@@ -44,7 +44,8 @@ export default async function SalesPage({
   const bSettings = (user.business.settings as Record<string, unknown>) ?? {};
   const currency: CurrencyCode = isCurrencyCode(bSettings.currency) ? bSettings.currency : 'EUR';
 
-  const since90 = new Date(Date.now() - 90 * 24 * 60 * 60 * 1000);
+  const since90 = new Date();
+  since90.setDate(since90.getDate() - 90);
 
   // Fetch Orders, Recipes, and SumUp transactions in parallel
   const [orders, recipes, sumupTransactions] = await Promise.all([

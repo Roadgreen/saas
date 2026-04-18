@@ -11,7 +11,7 @@ import {
   CheckCircle2, MapPin, AlertTriangle,
   TrendingUp, XCircle, Package, ScanLine, BarChart3, Clock, Zap,
   ChevronDown, ChefHat, CreditCard, Smartphone, Monitor, FileText,
-  ArrowRight, Shield, Star, Quote,
+  ArrowRight, Shield, Quote,
 } from "lucide-react";
 
 /* ─── Animated progress bar ─── */

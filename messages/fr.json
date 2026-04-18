@@ -1,4 +1,10 @@
 {
+    "ErrorPage": {
+        "title": "Une erreur est survenue",
+        "description": "Une erreur inattendue s'est produite. Veuillez réessayer.",
+        "ref": "Réf",
+        "tryAgain": "Réessayer"
+    },
     "Sidebar": {
         "dashboard": "Tableau de bord",
         "stock": "Stock",

@@ -1,7 +1,8 @@
 'use client';
 
-import { useEffect, useRef } from 'react';
+import { useEffect, useState } from 'react';
 import { ChefHat } from 'lucide-react';
+import { useTranslations } from 'next-intl';
 import { generateErrorRef } from '@/lib/analytics-events';
 
 /** Read a cookie value safely */
@@ -19,11 +20,11 @@ export default function Error({
   error: Error & { digest?: string };
   reset: () => void;
 }) {
-  const errorRefRef = useRef<string>('');
+  const [errorRef] = useState<string>(() => generateErrorRef());
+  const t = useTranslations('ErrorPage');
 
   useEffect(() => {
-    const ref = generateErrorRef();
-    errorRefRef.current = ref;
+    const ref = errorRef;
 
     // Resolve anonymous identity from cookies (same as AnalyticsProvider)
     const anonymousId = getCookie('ft_uid') ?? null;
@@ -89,26 +90,24 @@ export default function Error({
 
     // Log with reference for easy server-log filtering
     console.error(`[${ref}]`, error);
-  }, [error]);
+  }, [error, errorRef]);
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-50">
       <div className="text-center space-y-6 px-4">
         <ChefHat className="h-16 w-16 mx-auto text-orange-500" />
-        <h2 className="text-3xl font-bold text-gray-900">Something went wrong</h2>
-        <p className="text-gray-500 max-w-md mx-auto">
-          An unexpected error occurred. Please try again.
-        </p>
-        {errorRefRef.current && (
+        <h2 className="text-3xl font-bold text-gray-900">{t('title')}</h2>
+        <p className="text-gray-500 max-w-md mx-auto">{t('description')}</p>
+        {errorRef && (
           <p className="text-xs text-gray-400 font-mono select-all">
-            Ref: {errorRefRef.current}
+            {t('ref')}: {errorRef}
           </p>
         )}
         <button
           onClick={reset}
           className="inline-flex items-center justify-center rounded-xl font-bold px-8 py-3 text-white bg-orange-500 hover:bg-orange-600 transition-colors"
         >
-          Try again
+          {t('tryAgain')}
         </button>
       </div>
     </div>

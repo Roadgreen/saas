@@ -41,14 +41,20 @@ export async function getAnalytics(businessId: string) {
         include: { recipe: { include: { ingredients: { include: { product: true } } } } },
     });
 
-    const totalRevenue = sales.reduce((acc: number, sale: any) => acc + (sale.totalRevenue || 0), 0);
+    let totalRevenue = 0;
+    let totalStockUsedCost = 0;
+    const consumptionByProduct: Record<string, number> = {};
 
-    const totalStockUsedCost = sales.reduce((acc: number, sale: any) => {
-        const recipeCost = sale.recipe.ingredients.reduce((rAcc: number, ing: any) => {
-            return rAcc + (ing.quantity * (ing.product.costPerUnit || 0));
-        }, 0);
-        return acc + (sale.quantity * recipeCost);
-    }, 0);
+    for (const sale of sales) {
+        totalRevenue += sale.totalRevenue ?? 0;
+        let recipeCost = 0;
+        for (const ing of sale.recipe.ingredients) {
+            recipeCost += ing.quantity * (ing.product.costPerUnit ?? 0);
+            consumptionByProduct[ing.productId] =
+                (consumptionByProduct[ing.productId] ?? 0) + sale.quantity * ing.quantity;
+        }
+        totalStockUsedCost += sale.quantity * recipeCost;
+    }
 
     // 3. Waste Rate per Ingredient
     // Get all waste events for the week
@@ -72,17 +78,6 @@ export async function getAnalytics(businessId: string) {
         }
         wasteByProduct[event.productId].wasteQty += event.quantity;
         wasteByProduct[event.productId].wasteCost += (event.quantity * (event.product.costPerUnit || 0));
-    });
-
-    // Calculate consumption (from sales) per product
-    const consumptionByProduct: Record<string, number> = {};
-    sales.forEach((sale: any) => {
-        sale.recipe.ingredients.forEach((ing: any) => {
-            if (!consumptionByProduct[ing.productId]) {
-                consumptionByProduct[ing.productId] = 0;
-            }
-            consumptionByProduct[ing.productId] += (sale.quantity * ing.quantity);
-        });
     });
 
     // Calculate Rate
@@ -116,9 +111,9 @@ export async function getAnalytics(businessId: string) {
         },
     });
 
-    expiringProducts.forEach(product => {
-        alerts.push({ type: 'EXPIRING_SOON', name: product.name, rate: '0' } as any);
-    });
+    for (const product of expiringProducts) {
+        alerts.push({ type: 'EXPIRING_SOON', name: product.name, rate: '0' });
+    }
 
     // 5. Simple Dashboard Metrics
     const currentStockCount = await prisma.product.count({
@@ -139,29 +134,6 @@ export async function getAnalytics(businessId: string) {
             totalRevenue: true,
         },
     });
-
-    interface WasteEventWithProduct {
-        quantity: number;
-        product: {
-            costPerUnit: number | null;
-            name: string;
-        };
-        productId: string;
-    }
-
-    interface SaleWithRecipe {
-        quantity: number;
-        totalRevenue: number | null;
-        recipe: {
-            ingredients: {
-                quantity: number;
-                product: {
-                    costPerUnit: number | null;
-                };
-                productId: string;
-            }[];
-        };
-    }
 
     interface SmartAnalysisItem {
         type: string;
