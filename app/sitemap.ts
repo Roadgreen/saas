@@ -19,6 +19,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: '/fonctionnalites/gestion-stock', changeFrequency: 'monthly', priority: 0.8, lastModified: '2026-03-19' },
     { path: '/fonctionnalites/predictions-ventes', changeFrequency: 'monthly', priority: 0.8, lastModified: '2026-03-19' },
     { path: '/fonctionnalites/scan-factures', changeFrequency: 'monthly', priority: 0.8, lastModified: '2026-03-19' },
+    { path: '/ville',              changeFrequency: 'monthly', priority: 0.7, lastModified: '2026-04-18' },
     { path: '/ville/paris',       changeFrequency: 'monthly', priority: 0.8, lastModified: '2026-03-15' },
     { path: '/ville/lyon',        changeFrequency: 'monthly', priority: 0.8, lastModified: '2026-03-15' },
     { path: '/ville/bordeaux',    changeFrequency: 'monthly', priority: 0.8, lastModified: '2026-03-15' },
