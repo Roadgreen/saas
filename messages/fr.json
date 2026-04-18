@@ -18,6 +18,26 @@
         "billing": "Facturation",
         "errorMonitoring": "Suivi des erreurs"
     },
+    "CommandPalette": {
+        "title": "Palette de commandes",
+        "description": "Naviguez et lancez des actions rapidement",
+        "placeholder": "Rechercher une page ou une action...",
+        "navigation": "Navigation",
+        "quickActions": "Actions rapides",
+        "noResults": "Aucun résultat",
+        "newProduct": "Nouveau produit",
+        "newProductDesc": "Ajouter un ingrédient au stock",
+        "newRecipe": "Nouvelle recette",
+        "newRecipeDesc": "Créer une recette et son coût",
+        "recordSale": "Enregistrer une vente",
+        "recordSaleDesc": "Aller à l'écran des ventes",
+        "scanInvoice": "Scanner une facture",
+        "scanInvoiceDesc": "Import OCR depuis le tableau de bord",
+        "exportDesc": "Télécharger vos données en CSV",
+        "navigate": "naviguer",
+        "select": "sélectionner",
+        "shortcutHint": "Astuce : Cmd+K ouvre la palette"
+    },
     "Analytics": {
         "title": "Analyse de Rentabilité",
         "subtitle": "Suivez vos recettes, coûts et marges dans le temps.",

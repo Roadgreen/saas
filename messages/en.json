@@ -18,6 +18,26 @@
         "billing": "Billing",
         "errorMonitoring": "Error Monitoring"
     },
+    "CommandPalette": {
+        "title": "Command palette",
+        "description": "Navigate and run actions quickly",
+        "placeholder": "Search a page or action...",
+        "navigation": "Navigation",
+        "quickActions": "Quick actions",
+        "noResults": "No results",
+        "newProduct": "New product",
+        "newProductDesc": "Add an ingredient to stock",
+        "newRecipe": "New recipe",
+        "newRecipeDesc": "Create a recipe with costs",
+        "recordSale": "Record a sale",
+        "recordSaleDesc": "Go to the sales screen",
+        "scanInvoice": "Scan invoice",
+        "scanInvoiceDesc": "OCR import from the dashboard",
+        "exportDesc": "Download your data as CSV",
+        "navigate": "navigate",
+        "select": "select",
+        "shortcutHint": "Tip: Cmd+K opens the palette"
+    },
     "Analytics": {
         "title": "Profitability Analytics",
         "subtitle": "Track your revenue, costs and margins over time.",

@@ -8,6 +8,7 @@ import { DaysUsedNudge } from "@/components/dashboard/DaysUsedNudge";
 import { BottomNav } from "@/components/app/BottomNav";
 import { DashboardShell } from "@/components/app/DashboardShell";
 import { OnboardingModal } from "@/components/onboarding-modal";
+import { CommandPalette } from "@/components/dashboard/CommandPalette";
 import { auth } from "@/auth";
 import { prisma } from "@/lib/prisma";
 import { redirect } from "next/navigation";
@@ -113,6 +114,7 @@ export default async function DashboardLayout({
       <BottomNav />
       {showOnboarding && <OnboardingModal />}
       {showUpgradeBanner && <DaysUsedNudge daysUsed={trialDaysUsed} />}
+      <CommandPalette />
     </LocationProvider>
   );
 }
