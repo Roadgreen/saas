@@ -329,7 +329,26 @@
             "q7": {
                 "question": "FoodTracks fonctionne avec SumUp ?",
                 "answer": "Oui ! FoodTracks s'intègre directement avec SumUp via OAuth. Tes transactions sont automatiquement importées, tes recettes matchées, et ton stock déduit. Connecte ton terminal SumUp en quelques secondes depuis les paramètres → Intégrations."
+            },
+            "q8": {
+                "question": "Je peux exporter mes données ?",
+                "answer": "Oui, à tout moment. Tes ventes, ton stock et tes recettes sont exportables en CSV ou PDF depuis le dashboard. Tes données t'appartiennent — conformément au RGPD, tu peux demander leur suppression complète en un email."
+            },
+            "q9": {
+                "question": "Combien de temps pour une réponse du support ?",
+                "answer": "Moins de 2 heures en semaine, et généralement moins de 24h le week-end. On répond nous-mêmes — pas de chatbot, pas de ticket qui traîne. Écris-nous à contact@foodtracks.io."
             }
+        },
+        "reassurance": {
+            "title": "Trois engagements, zéro bullshit",
+            "subtitle": "On a bossé dans le food truck avant de construire FoodTracks. On sait ce qui fait fuir les gérants des outils SaaS.",
+            "card1Title": "Tes données t'appartiennent",
+            "card1Desc": "Export CSV/PDF en un clic, suppression complète sur simple demande. RGPD-compliant, serveurs en Europe, chiffrement AES-256. Pas de revente, pas de partage.",
+            "card2Title": "Sans risque, vraiment",
+            "card2Desc": "14 jours d'essai gratuit sans carte bancaire. Si tu passes en payant et que ça ne te convient pas dans les 30 jours, on te rembourse intégralement. Sans questions.",
+            "card3Title": "Un support humain",
+            "card3Desc": "Pas de chatbot. Pas de ticket qui traîne. Réponse en moins de 2h en semaine, par le fondateur lui-même ou son équipe. Écris-nous à contact@foodtracks.io.",
+            "guarantee": "30 jours satisfait ou remboursé, sans questions"
         },
         "cta": {
             "title": "Fini les approximations. Place à la certitude.",

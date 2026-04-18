@@ -329,7 +329,26 @@
             "q7": {
                 "question": "Does FoodTracks work with SumUp?",
                 "answer": "Yes! FoodTracks integrates directly with SumUp via OAuth. Your transactions are automatically imported, recipes matched, and stock deducted. Connect your SumUp terminal in seconds from Settings → Integrations."
+            },
+            "q8": {
+                "question": "Can I export my data?",
+                "answer": "Yes, anytime. Your sales, stock, and recipes can be exported to CSV or PDF from the dashboard. Your data belongs to you — per GDPR, you can request complete deletion via a single email."
+            },
+            "q9": {
+                "question": "How fast is support?",
+                "answer": "Under 2 hours on weekdays, usually under 24h on weekends. We answer ourselves — no chatbot, no lingering tickets. Reach us at contact@foodtracks.io."
             }
+        },
+        "reassurance": {
+            "title": "Three commitments, zero bullshit",
+            "subtitle": "We ran a food truck before building FoodTracks. We know what makes owners run away from SaaS tools.",
+            "card1Title": "Your data is yours",
+            "card1Desc": "One-click CSV/PDF export, full deletion on request. GDPR-compliant, EU servers, AES-256 encryption. No reselling, no sharing.",
+            "card2Title": "Truly risk-free",
+            "card2Desc": "14-day free trial, no credit card. If you go paid and it doesn't fit within 30 days, full refund. No questions asked.",
+            "card3Title": "Human support",
+            "card3Desc": "No chatbot. No lingering tickets. Reply within 2h on weekdays, directly from the founder or his team. Reach us at contact@foodtracks.io.",
+            "guarantee": "30-day money-back guarantee, no questions asked"
         },
         "cta": {
             "title": "Stop guessing. Start knowing.",

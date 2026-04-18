@@ -1057,6 +1057,61 @@ export default function HomeClient() {
           <AnimatedSection delay={0.3}>
             <p className="text-center text-sm text-gray-400 mt-8">{t('pricing.disclaimer')}</p>
           </AnimatedSection>
+
+          {/* Money-back guarantee badge */}
+          <AnimatedSection delay={0.4}>
+            <div className="flex justify-center mt-6">
+              <div
+                className="inline-flex items-center gap-2 rounded-full px-5 py-2.5 text-sm font-semibold"
+                style={{ backgroundColor: '#F0FDF4', border: '1px solid #BBF7D0', color: '#15803D' }}
+              >
+                <Shield className="h-4 w-4" />
+                {t('reassurance.guarantee')}
+              </div>
+            </div>
+          </AnimatedSection>
+        </div>
+      </section>
+
+      {/* ══════════════════════════════════════
+          REASSURANCE — 3 commitments, builds trust
+          ══════════════════════════════════════ */}
+      <section className="py-24 md:py-32 bg-white">
+        <div className="container mx-auto px-5 sm:px-8 lg:px-16">
+          <AnimatedSection className="text-center max-w-3xl mx-auto mb-16">
+            <h2 className="font-jakarta text-3xl md:text-[2.75rem] font-bold mb-5 text-gray-900 tracking-tight">
+              {t('reassurance.title')}
+            </h2>
+            <p className="text-lg text-gray-500 leading-relaxed">{t('reassurance.subtitle')}</p>
+          </AnimatedSection>
+
+          <StaggerContainer className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+            {[
+              { icon: Shield, titleKey: 'card1Title', descKey: 'card1Desc', color: '#10B981', bg: '#ECFDF5', border: '#A7F3D0' },
+              { icon: CheckCircle2, titleKey: 'card2Title', descKey: 'card2Desc', color: '#F97316', bg: '#FFF7ED', border: '#FED7AA' },
+              { icon: ChefHat, titleKey: 'card3Title', descKey: 'card3Desc', color: '#6366F1', bg: '#EEF2FF', border: '#C7D2FE' },
+            ].map(({ icon: Icon, titleKey, descKey, color, bg, border }) => (
+              <StaggerItem key={titleKey}>
+                <div
+                  className="rounded-2xl p-7 h-full transition-all duration-200 hover:shadow-md"
+                  style={{ backgroundColor: bg, border: `1px solid ${border}` }}
+                >
+                  <div
+                    className="inline-flex h-11 w-11 items-center justify-center rounded-xl mb-5"
+                    style={{ backgroundColor: 'white', border: `1px solid ${border}` }}
+                  >
+                    <Icon className="h-5 w-5" style={{ color }} />
+                  </div>
+                  <h3 className="font-jakarta text-lg font-bold text-gray-900 mb-2.5">
+                    {t(`reassurance.${titleKey}`)}
+                  </h3>
+                  <p className="text-sm text-gray-600 leading-relaxed">
+                    {t(`reassurance.${descKey}`)}
+                  </p>
+                </div>
+              </StaggerItem>
+            ))}
+          </StaggerContainer>
         </div>
       </section>
 
@@ -1071,7 +1126,7 @@ export default function HomeClient() {
             </h2>
           </AnimatedSection>
           <div className="max-w-2xl mx-auto">
-            {(['q1', 'q2', 'q3', 'q4', 'q5', 'q6', 'q7'] as const).map((key) => (
+            {(['q1', 'q2', 'q3', 'q4', 'q5', 'q6', 'q7', 'q8', 'q9'] as const).map((key) => (
               <FAQItem
                 key={key}
                 question={t(`faq.${key}.question`)}
