@@ -10,8 +10,11 @@ import {
     TableHeader,
     TableRow,
 } from '@/components/ui/table';
+import { Button } from '@/components/ui/button';
+import { Download } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { formatCurrency, type CurrencyCode } from '@/lib/currency';
+import { toast } from 'sonner';
 
 interface DailyBreakdownTableProps {
     data: DailyProfitability[];
@@ -34,8 +37,53 @@ export function DailyBreakdownTable({ data, currency = 'EUR' }: DailyBreakdownTa
     // Show most recent first
     const reversed = [...data].reverse();
 
+    const handleExportCSV = () => {
+        if (data.length === 0) {
+            toast.message(t('exportEmpty'));
+            return;
+        }
+        const header = ['date', 'revenue', 'cost', 'margin', 'marginPercent', 'wasteCost'];
+        const esc = (v: string | number | null | undefined) => {
+            const s = v == null ? '' : String(v);
+            return /[",\n]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s;
+        };
+        const lines = [
+            header.join(','),
+            ...data.map(d => [
+                d.date,
+                d.revenue.toFixed(2),
+                d.cost.toFixed(2),
+                d.margin.toFixed(2),
+                d.marginPercent.toFixed(2),
+                d.wastesCost.toFixed(2),
+            ].map(esc).join(',')),
+        ];
+        const csv = '\uFEFF' + lines.join('\n');
+        const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = `daily-breakdown-${new Date().toISOString().slice(0, 10)}.csv`;
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+        toast.success(t('exportSuccess', { count: data.length }));
+    };
+
     return (
         <>
+            <div className="flex justify-end mb-2">
+                <Button
+                    variant="outline"
+                    size="sm"
+                    onClick={handleExportCSV}
+                    disabled={data.length === 0}
+                >
+                    <Download className="w-4 h-4 mr-1.5" />
+                    {t('exportCSV')}
+                </Button>
+            </div>
             {/* Mobile: card layout */}
             <div className="sm:hidden space-y-2 max-h-[500px] overflow-auto">
                 {reversed.map((day) => {
