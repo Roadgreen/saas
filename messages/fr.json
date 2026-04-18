@@ -671,6 +671,12 @@
             "button": "Exporter CSV",
             "success": "Export de {count, plural, one {# commande} other {# commandes}}",
             "empty": "Rien à exporter"
+        },
+        "totals": {
+            "revenue": "Chiffre d'affaires",
+            "orders": "Commandes",
+            "items": "Articles",
+            "avg": "Panier moyen"
         }
     },
     "Settings": {

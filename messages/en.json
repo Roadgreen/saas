@@ -671,6 +671,12 @@
             "button": "Export CSV",
             "success": "Exported {count, plural, one {# order} other {# orders}}",
             "empty": "Nothing to export"
+        },
+        "totals": {
+            "revenue": "Revenue",
+            "orders": "Orders",
+            "items": "Items",
+            "avg": "Avg. order"
         }
     },
     "Settings": {

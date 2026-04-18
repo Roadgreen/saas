@@ -96,6 +96,17 @@ export function SalesList({ orders, recipes, currency = 'EUR' }: SalesListProps)
 
   const hasFilters = dateFrom || dateTo || locationFilter;
 
+  // Running totals for the current filter set — shown as a summary strip
+  const filteredTotals = useMemo(() => {
+    let revenue = 0;
+    let itemCount = 0;
+    for (const order of filteredOrders) {
+      revenue += order.totalRevenue ?? 0;
+      for (const item of order.items) itemCount += item.quantity;
+    }
+    return { revenue, itemCount, orderCount: filteredOrders.length };
+  }, [filteredOrders]);
+
   const clearFilters = () => {
     setDateFrom('');
     setDateTo('');
@@ -238,6 +249,34 @@ export function SalesList({ orders, recipes, currency = 'EUR' }: SalesListProps)
         {hasFilters && (
           <div className="text-sm text-muted-foreground">
             {t('filters.results', { count: filteredOrders.length, total: orders.length })}
+          </div>
+        )}
+
+        {/* Filtered totals strip */}
+        {filteredOrders.length > 0 && (
+          <div className="flex flex-wrap items-baseline gap-4 rounded-md border border-border/50 bg-muted/30 px-3 py-2 text-sm">
+            <div>
+              <span className="text-muted-foreground">{t('totals.revenue')}: </span>
+              <span className="font-semibold text-green-600 tabular-nums">
+                {formatCurrency(filteredTotals.revenue, currency)}
+              </span>
+            </div>
+            <div>
+              <span className="text-muted-foreground">{t('totals.orders')}: </span>
+              <span className="font-semibold tabular-nums">{filteredTotals.orderCount}</span>
+            </div>
+            <div>
+              <span className="text-muted-foreground">{t('totals.items')}: </span>
+              <span className="font-semibold tabular-nums">{filteredTotals.itemCount}</span>
+            </div>
+            {filteredTotals.orderCount > 0 && (
+              <div className="ml-auto">
+                <span className="text-muted-foreground">{t('totals.avg')}: </span>
+                <span className="font-semibold tabular-nums">
+                  {formatCurrency(filteredTotals.revenue / filteredTotals.orderCount, currency)}
+                </span>
+              </div>
+            )}
           </div>
         )}
 
