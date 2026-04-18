@@ -865,6 +865,12 @@
             "clear": "Effacer les filtres",
             "results": "{count} sur {total} produits"
         },
+        "chips": {
+            "lowStock": "Stock bas",
+            "expiring": "Expire bientôt",
+            "noCategory": "Sans catégorie",
+            "outOfStock": "Rupture"
+        },
         "sort": {
             "name": "Trier par nom",
             "quantity": "Trier par quantité",

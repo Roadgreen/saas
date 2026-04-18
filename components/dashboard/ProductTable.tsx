@@ -79,6 +79,7 @@ export function ProductTable({
   const [statusFilter, setStatusFilter] = useState<string>('all');
   const [categoryFilter, setCategoryFilter] = useState<string>('all');
   const [locationFilter, setLocationFilter] = useState<string>('all');
+  const [quickChip, setQuickChip] = useState<'lowStock' | 'expiring' | 'noCategory' | 'outOfStock' | null>(null);
 
   // Sort
   const [sortField, setSortField] = useState<SortField | null>(null);
@@ -148,6 +149,20 @@ export function ProductTable({
       result = result.filter(p => p.locationName === locationFilter);
     }
 
+    if (quickChip === 'lowStock') {
+      result = result.filter(p =>
+        p.quantity > 0 && (p.demand
+          ? p.demand.coverageDays < 1.5
+          : (!hasPredictions && p.quantity <= 5))
+      );
+    } else if (quickChip === 'expiring') {
+      result = result.filter(p => p.status === 'NEAR_EXPIRY' || p.status === 'EXPIRED');
+    } else if (quickChip === 'noCategory') {
+      result = result.filter(p => !p.category);
+    } else if (quickChip === 'outOfStock') {
+      result = result.filter(p => p.quantity === 0);
+    }
+
     if (sortField) {
       result = [...result].sort((a, b) => {
         let cmp = 0;
@@ -173,15 +188,32 @@ export function ProductTable({
     }
 
     return result;
-  }, [products, search, statusFilter, categoryFilter, locationFilter, sortField, sortDirection]);
+  }, [products, search, statusFilter, categoryFilter, locationFilter, quickChip, hasPredictions, sortField, sortDirection]);
 
-  const hasActiveFilters = search || statusFilter !== 'all' || categoryFilter !== 'all' || locationFilter !== 'all';
+  const hasActiveFilters = search || statusFilter !== 'all' || categoryFilter !== 'all' || locationFilter !== 'all' || quickChip !== null;
 
   const clearFilters = () => {
     setSearch('');
     setStatusFilter('all');
     setCategoryFilter('all');
     setLocationFilter('all');
+    setQuickChip(null);
+  };
+
+  // Counts for chip badges (computed once from the full set, independent of current filters)
+  const chipCounts = useMemo(() => {
+    let lowStock = 0, expiring = 0, noCategory = 0, outOfStock = 0;
+    for (const p of products) {
+      if (p.quantity === 0) outOfStock++;
+      else if (p.demand ? p.demand.coverageDays < 1.5 : (!hasPredictions && p.quantity <= 5)) lowStock++;
+      if (p.status === 'NEAR_EXPIRY' || p.status === 'EXPIRED') expiring++;
+      if (!p.category) noCategory++;
+    }
+    return { lowStock, expiring, noCategory, outOfStock };
+  }, [products, hasPredictions]);
+
+  const toggleChip = (chip: typeof quickChip) => {
+    setQuickChip(prev => prev === chip ? null : chip);
   };
 
   const statusClass = (status: string) => {
@@ -343,6 +375,52 @@ export function ProductTable({
           </Link>
         </CardHeader>
         <CardContent>
+          {/* Quick-filter chips */}
+          {(chipCounts.lowStock + chipCounts.expiring + chipCounts.noCategory + chipCounts.outOfStock) > 0 && (
+            <div className="flex flex-wrap gap-2 mb-3">
+              {chipCounts.outOfStock > 0 && (
+                <ChipButton
+                  active={quickChip === 'outOfStock'}
+                  onClick={() => toggleChip('outOfStock')}
+                  tone="red"
+                  icon={<AlertTriangle className="h-3 w-3" />}
+                  label={t('chips.outOfStock')}
+                  count={chipCounts.outOfStock}
+                />
+              )}
+              {chipCounts.lowStock > 0 && (
+                <ChipButton
+                  active={quickChip === 'lowStock'}
+                  onClick={() => toggleChip('lowStock')}
+                  tone="amber"
+                  icon={<TrendingDown className="h-3 w-3" />}
+                  label={t('chips.lowStock')}
+                  count={chipCounts.lowStock}
+                />
+              )}
+              {chipCounts.expiring > 0 && (
+                <ChipButton
+                  active={quickChip === 'expiring'}
+                  onClick={() => toggleChip('expiring')}
+                  tone="orange"
+                  icon={<Calendar className="h-3 w-3" />}
+                  label={t('chips.expiring')}
+                  count={chipCounts.expiring}
+                />
+              )}
+              {chipCounts.noCategory > 0 && (
+                <ChipButton
+                  active={quickChip === 'noCategory'}
+                  onClick={() => toggleChip('noCategory')}
+                  tone="gray"
+                  icon={<Package className="h-3 w-3" />}
+                  label={t('chips.noCategory')}
+                  count={chipCounts.noCategory}
+                />
+              )}
+            </div>
+          )}
+
           {/* Search + Filters */}
           <div className="flex flex-col sm:flex-row gap-3 mb-4">
             <div className="relative flex-1">
@@ -688,5 +766,71 @@ export function ProductTable({
         </CardContent>
       </Card>
     </div>
+  );
+}
+
+type ChipTone = 'red' | 'amber' | 'orange' | 'gray';
+
+function ChipButton({
+  active,
+  onClick,
+  tone,
+  icon,
+  label,
+  count,
+}: {
+  active: boolean;
+  onClick: () => void;
+  tone: ChipTone;
+  icon: React.ReactNode;
+  label: string;
+  count: number;
+}) {
+  const palette: Record<ChipTone, { activeBg: string; activeText: string; activeBorder: string; idleText: string; idleBorder: string }> = {
+    red: {
+      activeBg: 'bg-red-500/15',
+      activeText: 'text-red-600 dark:text-red-300',
+      activeBorder: 'border-red-500/40',
+      idleText: 'text-red-600/90 dark:text-red-300/80',
+      idleBorder: 'border-red-500/20',
+    },
+    amber: {
+      activeBg: 'bg-amber-500/15',
+      activeText: 'text-amber-700 dark:text-amber-300',
+      activeBorder: 'border-amber-500/40',
+      idleText: 'text-amber-700/90 dark:text-amber-300/80',
+      idleBorder: 'border-amber-500/20',
+    },
+    orange: {
+      activeBg: 'bg-orange-500/15',
+      activeText: 'text-orange-600 dark:text-orange-300',
+      activeBorder: 'border-orange-500/40',
+      idleText: 'text-orange-600/90 dark:text-orange-300/80',
+      idleBorder: 'border-orange-500/20',
+    },
+    gray: {
+      activeBg: 'bg-muted',
+      activeText: 'text-foreground',
+      activeBorder: 'border-foreground/30',
+      idleText: 'text-muted-foreground',
+      idleBorder: 'border-border',
+    },
+  };
+  const p = palette[tone];
+  return (
+    <button
+      type="button"
+      onClick={onClick}
+      aria-pressed={active}
+      className={`inline-flex items-center gap-1.5 rounded-full border px-2.5 py-1 text-xs font-medium transition-colors active:scale-[0.97] ${
+        active ? `${p.activeBg} ${p.activeText} ${p.activeBorder}` : `bg-transparent ${p.idleText} ${p.idleBorder} hover:bg-muted/40`
+      }`}
+    >
+      {icon}
+      {label}
+      <span className={`ml-0.5 rounded-full px-1.5 py-px text-[10px] font-semibold tabular-nums ${active ? 'bg-background/60' : 'bg-muted/60'}`}>
+        {count}
+      </span>
+    </button>
   );
 }
