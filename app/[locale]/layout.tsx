@@ -80,6 +80,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const { locale } = await params;
   const meta = metaByLocale[locale] ?? metaByLocale.fr;
   const url = `${BASE_URL}/${locale}`;
+  const ogImage = `${BASE_URL}/og-image.png`;
   return {
     title: {
       default: meta.title,
@@ -88,24 +89,40 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     description: meta.description,
     keywords: meta.keywords,
     metadataBase: new URL(BASE_URL),
+    alternates: {
+      canonical: url,
+      languages: {
+        fr: `${BASE_URL}/fr`,
+        en: `${BASE_URL}/en`,
+        'x-default': `${BASE_URL}/fr`,
+      },
+    },
     openGraph: {
       title: meta.title,
       description: meta.description,
       url,
       siteName: 'FoodTracks',
-      images: [{ url: `${BASE_URL}/og-image.png`, width: 1200, height: 630, alt: locale === 'fr' ? 'FoodTracks — Gestion de stock pour food trucks et restaurants' : 'FoodTracks — Inventory management for food trucks and restaurants' }],
+      images: [{ url: ogImage, width: 1200, height: 630, alt: locale === 'fr' ? 'FoodTracks — Gestion de stock pour food trucks et restaurants' : 'FoodTracks — Inventory management for food trucks and restaurants' }],
       locale: locale === 'fr' ? 'fr_FR' : 'en_US',
+      alternateLocale: locale === 'fr' ? ['en_US', 'en_GB'] : ['fr_FR'],
       type: 'website',
     },
     twitter: {
       card: 'summary_large_image',
       title: meta.title,
       description: meta.description,
-      images: [`${BASE_URL}/og-image.png`],
+      images: [ogImage],
     },
     robots: {
       index: true,
       follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+        'max-snippet': -1,
+        'max-image-preview': 'large',
+        'max-video-preview': -1,
+      },
     },
   };
 }
@@ -120,6 +137,56 @@ export default async function LocaleLayout({ children, params }: { children: Rea
   const pathWithoutLocale = pathname.replace(new RegExp(`^/${locale}`), '') || '';
   const hrefFr = `${BASE_URL}/fr${pathWithoutLocale}`;
   const hrefEn = `${BASE_URL}/en${pathWithoutLocale}`;
+
+  /* ─── BreadcrumbList JSON-LD, derived from the URL ─── */
+  const breadcrumbLabel = (segment: string): string => {
+    // Human-readable label for path segments, with special-casing for known slugs
+    const known: Record<string, { fr: string; en: string }> = {
+      blog: { fr: 'Blog', en: 'Blog' },
+      pricing: { fr: 'Tarifs', en: 'Pricing' },
+      faq: { fr: 'FAQ', en: 'FAQ' },
+      guides: { fr: 'Guides', en: 'Guides' },
+      support: { fr: 'Support', en: 'Support' },
+      security: { fr: 'Sécurité', en: 'Security' },
+      privacy: { fr: 'Confidentialité', en: 'Privacy' },
+      terms: { fr: "Conditions d'utilisation", en: 'Terms' },
+      comparatif: { fr: 'Comparatifs', en: 'Comparisons' },
+      fonctionnalites: { fr: 'Fonctionnalités', en: 'Features' },
+      ville: { fr: 'Villes', en: 'Cities' },
+      'comment-ca-marche': { fr: 'Comment ça marche', en: 'How it works' },
+      'food-truck-management-software': { fr: 'Logiciel food truck', en: 'Food Truck Management Software' },
+    };
+    const hit = known[segment];
+    if (hit) return locale === 'fr' ? hit.fr : hit.en;
+    // Decode + prettify slug: "ouvrir-food-truck-auto-entrepreneur" → "Ouvrir food truck auto entrepreneur"
+    const decoded = decodeURIComponent(segment).replace(/-/g, ' ');
+    return decoded.charAt(0).toUpperCase() + decoded.slice(1);
+  };
+
+  const segments = pathWithoutLocale.split('/').filter(Boolean);
+  const breadcrumbItems: { '@type': 'ListItem'; position: number; name: string; item: string }[] = [
+    {
+      '@type': 'ListItem',
+      position: 1,
+      name: locale === 'fr' ? 'Accueil' : 'Home',
+      item: `${BASE_URL}/${locale}`,
+    },
+  ];
+  let cursor = `${BASE_URL}/${locale}`;
+  segments.forEach((seg, idx) => {
+    cursor += `/${seg}`;
+    breadcrumbItems.push({
+      '@type': 'ListItem',
+      position: idx + 2,
+      name: breadcrumbLabel(seg),
+      item: cursor,
+    });
+  });
+  const breadcrumbJsonLd = breadcrumbItems.length > 1 ? {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: breadcrumbItems,
+  } : null;
 
   const organizationJsonLd = {
     '@context': 'https://schema.org',
@@ -226,12 +293,22 @@ export default async function LocaleLayout({ children, params }: { children: Rea
     },
     priceRange: locale === 'fr' ? 'Gratuit - 29€/mois' : 'Free - €29/mo',
     servesCuisine: locale === 'fr' ? 'Service aux food trucks et restaurants' : 'Service for food trucks and restaurants',
-    areaServed: [
-      { '@type': 'Country', name: 'France' },
-      { '@type': 'Country', name: 'Belgium' },
-      { '@type': 'Country', name: 'Switzerland' },
-      { '@type': 'Country', name: 'Canada' },
-    ],
+    areaServed: locale === 'fr'
+      ? [
+          { '@type': 'Country', name: 'France' },
+          { '@type': 'Country', name: 'Belgium' },
+          { '@type': 'Country', name: 'Switzerland' },
+          { '@type': 'Country', name: 'Luxembourg' },
+          { '@type': 'Country', name: 'Canada' },
+        ]
+      : [
+          { '@type': 'Country', name: 'United Kingdom' },
+          { '@type': 'Country', name: 'United States' },
+          { '@type': 'Country', name: 'Canada' },
+          { '@type': 'Country', name: 'Australia' },
+          { '@type': 'Country', name: 'New Zealand' },
+          { '@type': 'Country', name: 'Ireland' },
+        ],
     sameAs: [
       'https://www.instagram.com/foodtracks.io',
       'https://www.facebook.com/profile.php?id=61576498498498',
@@ -317,6 +394,12 @@ export default async function LocaleLayout({ children, params }: { children: Rea
           <script
             type="application/ld+json"
             dangerouslySetInnerHTML={{ __html: JSON.stringify(landingFaqJsonLd) }}
+          />
+        )}
+        {breadcrumbJsonLd && (
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
           />
         )}
         <link rel="alternate" hrefLang="fr" href={hrefFr} />
