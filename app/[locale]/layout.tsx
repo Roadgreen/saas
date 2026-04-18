@@ -354,6 +354,35 @@ export default async function LocaleLayout({ children, params }: { children: Rea
       .filter(Boolean),
   } : null;
 
+  // Review JSON-LD (landing page only) — real customer testimonials wired to the SoftwareApplication entity.
+  // Helps LLM engines (Perplexity, ChatGPT, Claude) cite concrete outcomes when answering questions about FoodTracks.
+  const testimonialsMessages = landingMessages?.testimonials as Record<string, unknown> | undefined;
+  const isLandingPage = pathWithoutLocale === '' || pathWithoutLocale === '/';
+  const reviewsJsonLd = (isLandingPage && testimonialsMessages) ? (['t1', 't2', 't3', 't4', 't5']
+    .map((k) => {
+      const tst = testimonialsMessages[k] as { quote?: string; name?: string; role?: string } | undefined;
+      if (!tst?.quote || !tst?.name) return null;
+      return {
+        '@context': 'https://schema.org',
+        '@type': 'Review',
+        itemReviewed: {
+          '@type': 'SoftwareApplication',
+          name: 'FoodTracks',
+          applicationCategory: 'BusinessApplication',
+        },
+        author: { '@type': 'Person', name: tst.name, jobTitle: tst.role ?? undefined },
+        reviewBody: tst.quote,
+        inLanguage: locale === 'fr' ? 'fr-FR' : 'en-US',
+        reviewRating: {
+          '@type': 'Rating',
+          ratingValue: 5,
+          bestRating: 5,
+          worstRating: 1,
+        },
+      };
+    })
+    .filter(Boolean)) : null;
+
   return (
     <html lang={locale} suppressHydrationWarning>
       <head>
@@ -402,6 +431,13 @@ export default async function LocaleLayout({ children, params }: { children: Rea
             dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
           />
         )}
+        {reviewsJsonLd && reviewsJsonLd.map((review, i) => (
+          <script
+            key={`review-${i}`}
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(review) }}
+          />
+        ))}
         <link rel="alternate" hrefLang="fr" href={hrefFr} />
         <link rel="alternate" hrefLang="en" href={hrefEn} />
         <link rel="alternate" hrefLang="x-default" href={hrefFr} />
