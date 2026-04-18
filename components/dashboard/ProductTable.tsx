@@ -81,6 +81,9 @@ export function ProductTable({
   const [locationFilter, setLocationFilter] = useState<string>('all');
   const [quickChip, setQuickChip] = useState<'lowStock' | 'expiring' | 'noCategory' | 'outOfStock' | null>(null);
 
+  // Bulk selection
+  const [selectedIds, setSelectedIds] = useState<Set<string>>(new Set());
+
   // Sort
   const [sortField, setSortField] = useState<SortField | null>(null);
   const [sortDirection, setSortDirection] = useState<SortDirection>('asc');
@@ -248,6 +251,71 @@ export function ProductTable({
     setQuickChip(prev => prev === chip ? null : chip);
   };
 
+  const toggleSelect = (id: string) => {
+    setSelectedIds(prev => {
+      const next = new Set(prev);
+      if (next.has(id)) next.delete(id); else next.add(id);
+      return next;
+    });
+  };
+
+  const toggleSelectAllVisible = () => {
+    setSelectedIds(prev => {
+      const visibleIds = filteredAndSorted.map(p => p.id);
+      const allSelected = visibleIds.length > 0 && visibleIds.every(id => prev.has(id));
+      if (allSelected) {
+        const next = new Set(prev);
+        visibleIds.forEach(id => next.delete(id));
+        return next;
+      }
+      const next = new Set(prev);
+      visibleIds.forEach(id => next.add(id));
+      return next;
+    });
+  };
+
+  const handleBulkDelete = () => {
+    const ids = Array.from(selectedIds);
+    if (ids.length === 0) return;
+    const snapshot = products;
+    let undone = false;
+
+    // Optimistic removal
+    setProducts(prev => prev.filter(p => !selectedIds.has(p.id)));
+    setSelectedIds(new Set());
+
+    const timer = window.setTimeout(async () => {
+      if (undone) return;
+      try {
+        const results = await Promise.all(
+          ids.map(id => fetch(`/api/products/${id}`, { method: 'DELETE' }).then(r => r.ok).catch(() => false))
+        );
+        if (results.some(ok => !ok)) {
+          toast.error(t('bulk.deleteError'));
+          router.refresh();
+        } else {
+          router.refresh();
+        }
+      } catch {
+        setProducts(snapshot);
+        toast.error(t('bulk.deleteError'));
+      }
+    }, 5000);
+
+    toast.success(t('bulk.deletePending', { count: ids.length }), {
+      duration: 5000,
+      action: {
+        label: t('undo'),
+        onClick: () => {
+          undone = true;
+          window.clearTimeout(timer);
+          setProducts(snapshot);
+          toast.message(t('restored'));
+        },
+      },
+    });
+  };
+
   const statusClass = (status: string) => {
     switch (status) {
       case 'OK': return 'bg-green-100 text-green-800';
@@ -407,6 +475,29 @@ export function ProductTable({
           </Link>
         </CardHeader>
         <CardContent>
+          {/* Bulk action bar (desktop only; appears when any row is selected) */}
+          {selectedIds.size > 0 && (
+            <div className="hidden md:flex items-center justify-between gap-3 mb-3 rounded-lg border border-orange-500/30 bg-orange-500/5 px-3 py-2">
+              <span className="text-sm font-medium text-orange-700 dark:text-orange-300">
+                {t('bulk.selected', { count: selectedIds.size })}
+              </span>
+              <div className="flex items-center gap-2">
+                <Button variant="ghost" size="sm" onClick={() => setSelectedIds(new Set())}>
+                  {t('bulk.clearSelection')}
+                </Button>
+                <Button
+                  variant="destructive"
+                  size="sm"
+                  onClick={handleBulkDelete}
+                  className="gap-1.5"
+                >
+                  <Trash2 className="h-3.5 w-3.5" />
+                  {t('bulk.deleteSelected')}
+                </Button>
+              </div>
+            </div>
+          )}
+
           {/* Quick-filter chips */}
           {(chipCounts.lowStock + chipCounts.expiring + chipCounts.noCategory + chipCounts.outOfStock) > 0 && (
             <div className="flex flex-wrap gap-2 mb-3">
@@ -650,6 +741,18 @@ export function ProductTable({
                 <Table>
                   <TableHeader>
                     <TableRow>
+                      <TableHead className="w-10">
+                        <input
+                          type="checkbox"
+                          aria-label={t('bulk.selectAll')}
+                          className="h-4 w-4 rounded border-input accent-orange-500 cursor-pointer"
+                          checked={
+                            filteredAndSorted.length > 0 &&
+                            filteredAndSorted.every(p => selectedIds.has(p.id))
+                          }
+                          onChange={toggleSelectAllVisible}
+                        />
+                      </TableHead>
                       <TableHead className="w-12">{t('image')}</TableHead>
                       <TableHead>
                         <button
@@ -708,8 +811,18 @@ export function ProductTable({
                       return (
                         <TableRow
                           key={product.id}
-                          className={critical ? 'bg-red-50/50' : low ? 'bg-orange-50/50' : ''}
+                          data-selected={selectedIds.has(product.id) ? "true" : undefined}
+                          className={`${critical ? 'bg-red-50/50' : low ? 'bg-orange-50/50' : ''} data-[selected=true]:bg-orange-500/5`}
                         >
+                          <TableCell>
+                            <input
+                              type="checkbox"
+                              aria-label={product.name}
+                              className="h-4 w-4 rounded border-input accent-orange-500 cursor-pointer"
+                              checked={selectedIds.has(product.id)}
+                              onChange={() => toggleSelect(product.id)}
+                            />
+                          </TableCell>
                           <TableCell>
                             {product.imageUrl ? (
                               <div className="relative h-10 w-10 rounded overflow-hidden border">

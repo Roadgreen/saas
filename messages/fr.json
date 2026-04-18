@@ -885,6 +885,14 @@
             "noCategory": "Sans catégorie",
             "outOfStock": "Rupture"
         },
+        "bulk": {
+            "selected": "{count, plural, one {# sélectionné} other {# sélectionnés}}",
+            "deleteSelected": "Supprimer",
+            "clearSelection": "Désélectionner",
+            "deletePending": "{count, plural, one {# produit supprimé} other {# produits supprimés}}",
+            "selectAll": "Tout sélectionner",
+            "deleteError": "Certaines suppressions ont échoué"
+        },
         "sort": {
             "name": "Trier par nom",
             "quantity": "Trier par quantité",

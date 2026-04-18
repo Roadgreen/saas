@@ -885,6 +885,14 @@
             "noCategory": "No category",
             "outOfStock": "Out of stock"
         },
+        "bulk": {
+            "selected": "{count, plural, one {# selected} other {# selected}}",
+            "deleteSelected": "Delete",
+            "clearSelection": "Clear selection",
+            "deletePending": "{count, plural, one {# product deleted} other {# products deleted}}",
+            "selectAll": "Select all",
+            "deleteError": "Some deletions failed"
+        },
         "sort": {
             "name": "Sort by name",
             "quantity": "Sort by quantity",
