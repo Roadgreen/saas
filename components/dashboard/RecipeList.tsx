@@ -2,11 +2,13 @@
 
 import { useTranslations } from 'next-intl';
 import { motion } from 'framer-motion';
+import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table';
 import { CreateRecipeForm } from './CreateRecipeForm';
-import { ChefHat, ArrowRight } from 'lucide-react';
+import { ChefHat, ArrowRight, Download } from 'lucide-react';
 import { formatCurrency, type CurrencyCode } from '@/lib/currency';
+import { toast } from 'sonner';
 
 interface Ingredient {
   id: string;
@@ -42,6 +44,41 @@ interface RecipeListProps {
 export function RecipeList({ recipes, products, currency = 'EUR' }: RecipeListProps) {
   const t = useTranslations('Recipes');
 
+  const handleExportCSV = () => {
+    if (recipes.length === 0) {
+      toast.message(t('export.empty'));
+      return;
+    }
+    const header = ['name', 'description', 'ingredientsCount', 'ingredients', 'cost', 'sellingPrice', 'grossMarginPct'];
+    const esc = (v: string | number | null | undefined) => {
+      const s = v == null ? '' : String(v);
+      return /[",\n]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s;
+    };
+    const lines = [
+      header.join(','),
+      ...recipes.map(r => [
+        r.name,
+        r.description ?? '',
+        r.ingredients.length,
+        r.ingredients.map(i => `${i.quantity} ${i.unit} ${i.product.name}`).join(' | '),
+        r.totalCost.toFixed(2),
+        r.sellingPrice != null ? r.sellingPrice.toFixed(2) : '',
+        r.grossMargin != null ? r.grossMargin.toFixed(1) : '',
+      ].map(esc).join(',')),
+    ];
+    const csv = '\uFEFF' + lines.join('\n');
+    const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `recipes-${new Date().toISOString().slice(0, 10)}.csv`;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+    toast.success(t('export.success', { count: recipes.length }));
+  };
+
   return (
     <Card className="dash-card">
       <CardHeader className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 space-y-0 pb-2">
@@ -49,7 +86,18 @@ export function RecipeList({ recipes, products, currency = 'EUR' }: RecipeListPr
           <ChefHat className="h-5 w-5" />
           {t('title')}
         </CardTitle>
-        <CreateRecipeForm products={products} />
+        <div className="flex w-full sm:w-auto items-center gap-2">
+          <Button
+            variant="outline"
+            className="flex-1 sm:flex-none"
+            onClick={handleExportCSV}
+            disabled={recipes.length === 0}
+          >
+            <Download className="w-4 h-4 mr-2" />
+            {t('export.button')}
+          </Button>
+          <CreateRecipeForm products={products} />
+        </div>
       </CardHeader>
       <CardContent>
         {recipes.length === 0 ? (

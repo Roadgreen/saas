@@ -516,6 +516,11 @@
             "ingredients": "Ingrédients",
             "cost": "Coût",
             "actions": "Actions"
+        },
+        "export": {
+            "button": "Exporter CSV",
+            "success": "Export de {count, plural, one {# recette} other {# recettes}}",
+            "empty": "Rien à exporter"
         }
     },
     "QuickSales": {
