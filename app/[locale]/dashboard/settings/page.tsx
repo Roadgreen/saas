@@ -10,12 +10,21 @@ import { TeamSettings } from "@/components/settings/TeamSettings";
 import { ConfigForm } from "@/components/settings/ConfigForm";
 import { IntelligenceForm } from "@/components/settings/IntelligenceForm";
 
+const VALID_TABS = ['profile', 'operations', 'team', 'configuration', 'intelligence'] as const;
+type SettingsTab = typeof VALID_TABS[number];
+
 export default async function SettingsPage({
   params,
+  searchParams,
 }: {
   params: Promise<{ locale: string }>;
+  searchParams: Promise<{ tab?: string }>;
 }) {
   const { locale } = await params;
+  const { tab } = await searchParams;
+  const activeTab: SettingsTab = (VALID_TABS as readonly string[]).includes(tab ?? '')
+    ? (tab as SettingsTab)
+    : 'profile';
   const session = await auth();
   if (!session?.user?.email) {
     redirect(`/${locale}/login`);
@@ -50,7 +59,7 @@ export default async function SettingsPage({
         </p>
       </div>
 
-      <Tabs defaultValue="profile" className="space-y-4">
+      <Tabs defaultValue={activeTab} className="space-y-4">
         <div className="overflow-x-auto -mx-4 px-4 md:mx-0 md:px-0 scrollbar-hide">
           <TabsList className="inline-flex w-auto min-w-full md:grid md:w-full md:grid-cols-5 h-auto">
             <TabsTrigger value="profile" className="flex flex-col gap-1.5 py-2.5 px-3 min-w-[80px] md:min-w-0">
