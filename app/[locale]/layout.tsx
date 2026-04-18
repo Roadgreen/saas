@@ -155,6 +155,20 @@ export default async function LocaleLayout({ children, params }: { children: Rea
       ville: { fr: 'Villes', en: 'Cities' },
       'comment-ca-marche': { fr: 'Comment ça marche', en: 'How it works' },
       'food-truck-management-software': { fr: 'Logiciel food truck', en: 'Food Truck Management Software' },
+      // Feature landing pages
+      'integration-sumup': { fr: 'Intégration SumUp', en: 'SumUp Integration' },
+      'gestion-stock': { fr: 'Gestion de stock', en: 'Stock Management' },
+      'predictions-ventes': { fr: 'Prédictions de ventes', en: 'Sales Predictions' },
+      'scan-factures': { fr: 'Scan de factures', en: 'Invoice Scanning' },
+      // Top guides
+      'gestion-food-truck': { fr: 'Gestion de food truck', en: 'Food Truck Management' },
+      'seuil-rentabilite-food-truck': { fr: 'Seuil de rentabilité', en: 'Break-Even Point' },
+      'food-truck-reglementation-france': { fr: 'Réglementation France', en: 'French Regulations' },
+      'ouvrir-food-truck-auto-entrepreneur': { fr: 'Ouvrir en auto-entrepreneur', en: 'Open as Sole Trader' },
+      // Comparison pages
+      'inpulse-vs-foodtracks': { fr: 'Inpulse vs FoodTracks', en: 'Inpulse vs FoodTracks' },
+      'marketman-vs-foodtracks': { fr: 'MarketMan vs FoodTracks', en: 'MarketMan vs FoodTracks' },
+      'melba-vs-foodtracks': { fr: 'Melba vs FoodTracks', en: 'Melba vs FoodTracks' },
     };
     const hit = known[segment];
     if (hit) return locale === 'fr' ? hit.fr : hit.en;
