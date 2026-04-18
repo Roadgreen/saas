@@ -1,7 +1,8 @@
 'use client';
 
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useEffect, useRef } from 'react';
 import { useTranslations } from 'next-intl';
+import { usePathname, useSearchParams } from 'next/navigation';
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -45,8 +46,40 @@ interface RecipeListProps {
 
 export function RecipeList({ recipes, products, currency = 'EUR' }: RecipeListProps) {
   const t = useTranslations('Recipes');
-  const [search, setSearch] = useState('');
-  const [lowMarginOnly, setLowMarginOnly] = useState(false);
+  const pathname = usePathname();
+  const searchParams = useSearchParams();
+  const [search, setSearch] = useState(() => searchParams.get('q') ?? '');
+  const [lowMarginOnly, setLowMarginOnly] = useState(() => searchParams.get('low') === '1');
+  const searchInputRef = useRef<HTMLInputElement | null>(null);
+
+  // Keyboard "/" → focus search
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key !== '/' || e.metaKey || e.ctrlKey || e.altKey) return;
+      const target = e.target as HTMLElement | null;
+      if (target && (target.tagName === 'INPUT' || target.tagName === 'TEXTAREA' || target.isContentEditable || target.tagName === 'SELECT')) return;
+      e.preventDefault();
+      searchInputRef.current?.focus();
+    };
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+  }, []);
+
+  // Persist filters to URL for shareable views
+  const urlSyncTimer = useRef<number | null>(null);
+  useEffect(() => {
+    if (urlSyncTimer.current) window.clearTimeout(urlSyncTimer.current);
+    urlSyncTimer.current = window.setTimeout(() => {
+      const sp = new URLSearchParams();
+      if (search) sp.set('q', search);
+      if (lowMarginOnly) sp.set('low', '1');
+      const qs = sp.toString();
+      window.history.replaceState(null, '', qs ? `${pathname}?${qs}` : pathname);
+    }, 200);
+    return () => {
+      if (urlSyncTimer.current) window.clearTimeout(urlSyncTimer.current);
+    };
+  }, [search, lowMarginOnly, pathname]);
 
   const filtered = useMemo(() => {
     let r = recipes;
@@ -136,11 +169,15 @@ export function RecipeList({ recipes, products, currency = 'EUR' }: RecipeListPr
             <div className="relative flex-1">
               <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
               <Input
+                ref={searchInputRef}
                 placeholder={t('search')}
                 value={search}
                 onChange={(e) => setSearch(e.target.value)}
-                className="pl-9"
+                className="pl-9 pr-10"
               />
+              <kbd className="absolute right-3 top-1/2 -translate-y-1/2 hidden md:inline-flex items-center rounded border border-border bg-muted/50 px-1.5 py-0.5 text-[10px] font-mono text-muted-foreground pointer-events-none">
+                /
+              </kbd>
             </div>
             {lowMarginCount > 0 && (
               <Button
