@@ -528,7 +528,12 @@
         "duplicate": "Duplicate",
         "duplicateSuffix": "(copy)",
         "duplicateSuccess": "\"{name}\" duplicated",
-        "duplicateError": "Could not duplicate recipe"
+        "duplicateError": "Could not duplicate recipe",
+        "delete": "Delete",
+        "deletePending": "\"{name}\" deleted",
+        "deleteError": "Could not delete recipe",
+        "undo": "Undo",
+        "restored": "Recipe restored"
     },
     "QuickSales": {
         "title": "Quick Add",

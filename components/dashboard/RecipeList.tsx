@@ -9,7 +9,7 @@ import { Input } from '@/components/ui/input';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table';
 import { CreateRecipeForm } from './CreateRecipeForm';
-import { ChefHat, ArrowRight, Copy, Download, Search, TrendingDown } from 'lucide-react';
+import { ChefHat, ArrowRight, Copy, Download, Search, Trash2, TrendingDown } from 'lucide-react';
 import { formatCurrency, type CurrencyCode } from '@/lib/currency';
 import { toast } from 'sonner';
 
@@ -45,15 +45,21 @@ interface RecipeListProps {
   currency?: CurrencyCode;
 }
 
-export function RecipeList({ recipes, products, currency = 'EUR' }: RecipeListProps) {
+export function RecipeList({ recipes: initialRecipes, products, currency = 'EUR' }: RecipeListProps) {
   const t = useTranslations('Recipes');
   const pathname = usePathname();
   const router = useRouter();
   const searchParams = useSearchParams();
+  const [recipes, setRecipes] = useState<Recipe[]>(initialRecipes);
   const [search, setSearch] = useState(() => searchParams.get('q') ?? '');
   const [lowMarginOnly, setLowMarginOnly] = useState(() => searchParams.get('low') === '1');
   const [duplicatingId, setDuplicatingId] = useState<string | null>(null);
   const searchInputRef = useRef<HTMLInputElement | null>(null);
+
+  // Keep local state in sync when server data changes (e.g. after router.refresh)
+  useEffect(() => {
+    setRecipes(initialRecipes);
+  }, [initialRecipes]);
 
   // Keyboard "/" → focus search
   useEffect(() => {
@@ -104,6 +110,42 @@ export function RecipeList({ recipes, products, currency = 'EUR' }: RecipeListPr
     () => recipes.filter(r => r.grossMargin != null && r.grossMargin < 70).length,
     [recipes]
   );
+
+  const handleDelete = (recipe: Recipe) => {
+    const snapshot = recipes;
+    let undone = false;
+
+    setRecipes(prev => prev.filter(r => r.id !== recipe.id));
+
+    const timer = window.setTimeout(async () => {
+      if (undone) return;
+      try {
+        const res = await fetch(`/api/recipes/${recipe.id}`, { method: 'DELETE' });
+        if (!res.ok) {
+          setRecipes(snapshot);
+          toast.error(t('deleteError'));
+        } else {
+          router.refresh();
+        }
+      } catch {
+        setRecipes(snapshot);
+        toast.error(t('deleteError'));
+      }
+    }, 5000);
+
+    toast.success(t('deletePending', { name: recipe.name }), {
+      duration: 5000,
+      action: {
+        label: t('undo'),
+        onClick: () => {
+          undone = true;
+          window.clearTimeout(timer);
+          setRecipes(snapshot);
+          toast.message(t('restored'));
+        },
+      },
+    });
+  };
 
   const handleDuplicate = async (recipe: Recipe) => {
     setDuplicatingId(recipe.id);
@@ -274,7 +316,7 @@ export function RecipeList({ recipes, products, currency = 'EUR' }: RecipeListPr
                   )}
                 </div>
 
-                <div className="mt-3 flex justify-end">
+                <div className="mt-3 flex justify-end gap-1">
                   <Button
                     type="button"
                     variant="ghost"
@@ -285,6 +327,16 @@ export function RecipeList({ recipes, products, currency = 'EUR' }: RecipeListPr
                   >
                     <Copy className="h-3.5 w-3.5" />
                     {t('duplicate')}
+                  </Button>
+                  <Button
+                    type="button"
+                    variant="ghost"
+                    size="sm"
+                    className="h-8 w-8 p-0 text-red-500 hover:text-red-700 hover:bg-red-950/50"
+                    onClick={() => handleDelete(recipe)}
+                    aria-label={t('delete')}
+                  >
+                    <Trash2 className="h-4 w-4" />
                   </Button>
                 </div>
               </motion.div>
@@ -336,18 +388,30 @@ export function RecipeList({ recipes, products, currency = 'EUR' }: RecipeListPr
                     ) : '-'}
                   </TableCell>
                   <TableCell className="text-right">
-                    <Button
-                      type="button"
-                      variant="ghost"
-                      size="sm"
-                      className="gap-1.5"
-                      onClick={() => handleDuplicate(recipe)}
-                      disabled={duplicatingId === recipe.id}
-                      aria-label={t('duplicate')}
-                    >
-                      <Copy className="h-3.5 w-3.5" />
-                      <span className="hidden lg:inline">{t('duplicate')}</span>
-                    </Button>
+                    <div className="flex justify-end gap-1">
+                      <Button
+                        type="button"
+                        variant="ghost"
+                        size="sm"
+                        className="gap-1.5"
+                        onClick={() => handleDuplicate(recipe)}
+                        disabled={duplicatingId === recipe.id}
+                        aria-label={t('duplicate')}
+                      >
+                        <Copy className="h-3.5 w-3.5" />
+                        <span className="hidden lg:inline">{t('duplicate')}</span>
+                      </Button>
+                      <Button
+                        type="button"
+                        variant="ghost"
+                        size="sm"
+                        className="text-red-500 hover:text-red-700 hover:bg-red-50"
+                        onClick={() => handleDelete(recipe)}
+                        aria-label={t('delete')}
+                      >
+                        <Trash2 className="h-4 w-4" />
+                      </Button>
+                    </div>
                   </TableCell>
                 </TableRow>
               ))}

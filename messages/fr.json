@@ -528,7 +528,12 @@
         "duplicate": "Dupliquer",
         "duplicateSuffix": "(copie)",
         "duplicateSuccess": "« {name} » dupliquée",
-        "duplicateError": "Impossible de dupliquer la recette"
+        "duplicateError": "Impossible de dupliquer la recette",
+        "delete": "Supprimer",
+        "deletePending": "« {name} » supprimée",
+        "deleteError": "Impossible de supprimer la recette",
+        "undo": "Annuler",
+        "restored": "Recette restaurée"
     },
     "QuickSales": {
         "title": "Ajout Rapide",
