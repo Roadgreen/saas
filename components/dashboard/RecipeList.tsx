@@ -1,12 +1,14 @@
 'use client';
 
+import { useState, useMemo } from 'react';
 import { useTranslations } from 'next-intl';
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
+import { Input } from '@/components/ui/input';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table';
 import { CreateRecipeForm } from './CreateRecipeForm';
-import { ChefHat, ArrowRight, Download } from 'lucide-react';
+import { ChefHat, ArrowRight, Download, Search, TrendingDown } from 'lucide-react';
 import { formatCurrency, type CurrencyCode } from '@/lib/currency';
 import { toast } from 'sonner';
 
@@ -43,9 +45,32 @@ interface RecipeListProps {
 
 export function RecipeList({ recipes, products, currency = 'EUR' }: RecipeListProps) {
   const t = useTranslations('Recipes');
+  const [search, setSearch] = useState('');
+  const [lowMarginOnly, setLowMarginOnly] = useState(false);
+
+  const filtered = useMemo(() => {
+    let r = recipes;
+    if (search.trim()) {
+      const q = search.toLowerCase();
+      r = r.filter(recipe =>
+        recipe.name.toLowerCase().includes(q) ||
+        (recipe.description && recipe.description.toLowerCase().includes(q)) ||
+        recipe.ingredients.some(i => i.product.name.toLowerCase().includes(q))
+      );
+    }
+    if (lowMarginOnly) {
+      r = r.filter(recipe => recipe.grossMargin != null && recipe.grossMargin < 70);
+    }
+    return r;
+  }, [recipes, search, lowMarginOnly]);
+
+  const lowMarginCount = useMemo(
+    () => recipes.filter(r => r.grossMargin != null && r.grossMargin < 70).length,
+    [recipes]
+  );
 
   const handleExportCSV = () => {
-    if (recipes.length === 0) {
+    if (filtered.length === 0) {
       toast.message(t('export.empty'));
       return;
     }
@@ -56,7 +81,7 @@ export function RecipeList({ recipes, products, currency = 'EUR' }: RecipeListPr
     };
     const lines = [
       header.join(','),
-      ...recipes.map(r => [
+      ...filtered.map(r => [
         r.name,
         r.description ?? '',
         r.ingredients.length,
@@ -76,7 +101,7 @@ export function RecipeList({ recipes, products, currency = 'EUR' }: RecipeListPr
     a.click();
     document.body.removeChild(a);
     URL.revokeObjectURL(url);
-    toast.success(t('export.success', { count: recipes.length }));
+    toast.success(t('export.success', { count: filtered.length }));
   };
 
   return (
@@ -106,9 +131,44 @@ export function RecipeList({ recipes, products, currency = 'EUR' }: RecipeListPr
           </div>
         ) : (
           <>
+          {/* Search + filter row */}
+          <div className="flex flex-col sm:flex-row gap-2 mb-4">
+            <div className="relative flex-1">
+              <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
+              <Input
+                placeholder={t('search')}
+                value={search}
+                onChange={(e) => setSearch(e.target.value)}
+                className="pl-9"
+              />
+            </div>
+            {lowMarginCount > 0 && (
+              <Button
+                type="button"
+                variant={lowMarginOnly ? 'default' : 'outline'}
+                size="sm"
+                onClick={() => setLowMarginOnly(v => !v)}
+                className="gap-1.5 shrink-0"
+                aria-pressed={lowMarginOnly}
+              >
+                <TrendingDown className="h-3.5 w-3.5" />
+                {t('lowMargin')}
+                <span className="ml-1 rounded-full bg-background/60 px-1.5 py-px text-[10px] font-semibold tabular-nums">
+                  {lowMarginCount}
+                </span>
+              </Button>
+            )}
+          </div>
+
+          {filtered.length === 0 ? (
+            <div className="text-center py-10 text-muted-foreground text-sm">
+              {t('noRecipes')}
+            </div>
+          ) : (
+          <>
           {/* Mobile Card Layout */}
           <div className="md:hidden space-y-3">
-            {recipes.map((recipe, index) => (
+            {filtered.map((recipe, index) => (
               <motion.div
                 key={recipe.id}
                 initial={{ opacity: 0, y: 12 }}
@@ -163,7 +223,7 @@ export function RecipeList({ recipes, products, currency = 'EUR' }: RecipeListPr
               </TableRow>
             </TableHeader>
             <TableBody>
-              {recipes.map((recipe) => (
+              {filtered.map((recipe) => (
                 <TableRow key={recipe.id}>
                   <TableCell className="font-medium">
                     <div>{recipe.name}</div>
@@ -201,6 +261,8 @@ export function RecipeList({ recipes, products, currency = 'EUR' }: RecipeListPr
             </TableBody>
           </Table>
           </div>
+          </>
+          )}
           </>
         )}
       </CardContent>
