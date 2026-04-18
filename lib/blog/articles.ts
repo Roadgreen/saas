@@ -23572,6 +23572,524 @@ FoodTracks is designed to save you time on operational management — stock, sup
 **Further reading:** [Food Truck Social Media Strategy](/en/blog/reseaux-sociaux-food-truck-strategie) · [Increase Sales Without Paid Advertising](/en/blog/augmenter-ventes-food-truck-sans-pub) · [Food Truck Loyalty Programme](/en/blog/programme-fidelite-food-truck)`,
     },
   },
+  {
+    slug: "seuil-rentabilite-food-truck-calcul",
+    title: {
+      fr: "Seuil de rentabilité food truck : méthode de calcul et plan pour l'atteindre",
+      en: "Food Truck Break-Even Point: How to Calculate It and a Plan to Reach It",
+    },
+    excerpt: {
+      fr: "Combien devez-vous vendre chaque jour pour couvrir vos charges ? Apprenez à calculer précisément votre seuil de rentabilité en food truck et mettez en place un plan d'action concret pour l'atteindre durablement.",
+      en: "How much do you need to sell each day to cover your costs? Learn to precisely calculate your food truck break-even point and build a concrete action plan to reach it sustainably.",
+    },
+    category: { fr: "Rentabilité", en: "Profitability" },
+    date: "2026-04-18",
+    readTime: 13,
+    keywords: [
+      "seuil de rentabilité food truck",
+      "calculer seuil rentabilité food truck",
+      "point mort food truck",
+      "rentabilité food truck calcul",
+      "combien vendre food truck",
+      "charges food truck",
+      "marge food truck",
+      "break-even food truck",
+    ],
+    heroImage: "/blog/rentabilite.png",
+    keyTakeaways: {
+      fr: [
+        "Le seuil de rentabilité est le chiffre d'affaires minimum à réaliser pour couvrir 100 % de vos charges — en dessous, vous perdez de l'argent.",
+        "En food truck, le seuil de rentabilité mensuel se situe généralement entre 8 000 € et 15 000 € selon votre modèle et vos charges fixes.",
+        "La formule clé : Seuil de rentabilité = Charges fixes ÷ Taux de marge sur coût variable.",
+        "Réduire son food cost de 5 points (ex : 35 % → 30 %) peut abaisser votre seuil de rentabilité de 15 à 20 %.",
+        "Suivre votre seuil de rentabilité par service (et non seulement par mois) vous permet d'agir en temps réel sur vos emplacements et votre planning.",
+      ],
+      en: [
+        "The break-even point is the minimum revenue needed to cover 100% of your costs — below it, you are losing money.",
+        "For a food truck, the monthly break-even is typically between €8,000 and €15,000 depending on your model and fixed costs.",
+        "The key formula: Break-even = Fixed costs ÷ Contribution margin ratio.",
+        "Cutting food cost by 5 percentage points (e.g., 35% → 30%) can lower your break-even by 15 to 20%.",
+        "Tracking your break-even per service — not just per month — lets you act in real time on locations and scheduling.",
+      ],
+    },
+    faqItems: [
+      {
+        question: {
+          fr: "Qu'est-ce que le seuil de rentabilité pour un food truck ?",
+          en: "What is the break-even point for a food truck?",
+        },
+        answer: {
+          fr: "Le seuil de rentabilité (ou point mort) est le montant de chiffre d'affaires à partir duquel votre food truck cesse de perdre de l'argent. En dessous de ce seuil, chaque euro de vente ne couvre pas l'intégralité de vos charges. Au-dessus, vous dégagez un bénéfice. En food truck, il se calcule en divisant vos charges fixes mensuelles par votre taux de marge sur coûts variables.",
+          en: "The break-even point is the revenue level at which your food truck stops losing money. Below it, each euro of sales does not fully cover your costs. Above it, you generate profit. For a food truck, it is calculated by dividing your monthly fixed costs by your contribution margin ratio.",
+        },
+      },
+      {
+        question: {
+          fr: "Quel est le seuil de rentabilité moyen d'un food truck en France ?",
+          en: "What is the average break-even point for a food truck in France?",
+        },
+        answer: {
+          fr: "En France, le seuil de rentabilité d'un food truck se situe généralement entre 8 000 € et 15 000 € par mois, selon le niveau de charges fixes (remboursement de prêt, loyer de commissariat, personnel) et le food cost pratiqué. Un food truck solo avec peu de charges fixes peut atteindre son seuil dès 6 000 €/mois, tandis qu'un truck avec salarié et financement bancaire aura souvent besoin de 12 000 à 14 000 €/mois.",
+          en: "In France, a food truck's break-even point typically falls between €8,000 and €15,000 per month, depending on fixed costs (loan repayments, commissary rent, staff) and food cost. A solo food truck with low fixed costs may reach break-even at €6,000/month, while a truck with an employee and bank financing often needs €12,000 to €14,000/month.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment réduire son seuil de rentabilité en food truck ?",
+          en: "How do you lower your break-even point in a food truck?",
+        },
+        answer: {
+          fr: "Il existe deux leviers : réduire les charges fixes (renégocier un prêt, mutualiser une cuisine centrale, supprimer un abonnement inutile) et améliorer la marge sur coût variable (optimiser les recettes, réduire le gaspillage, revoir les prix de vente). Une baisse du food cost de 35 % à 30 % sur un CA de 12 000 €/mois représente 600 € de marge supplémentaire par mois — soit une réduction directe de votre point mort.",
+          en: "There are two levers: reduce fixed costs (renegotiate a loan, share a commissary kitchen, cancel unnecessary subscriptions) and improve your contribution margin (optimise recipes, reduce waste, review selling prices). Cutting food cost from 35% to 30% on €12,000/month revenue means €600 more margin per month — a direct reduction of your break-even.",
+        },
+      },
+      {
+        question: {
+          fr: "Combien de clients par service faut-il pour être rentable en food truck ?",
+          en: "How many customers per service do you need to be profitable in a food truck?",
+        },
+        answer: {
+          fr: "Cela dépend de votre ticket moyen. Si votre ticket moyen est de 12 € et que votre seuil de rentabilité mensuel est de 10 000 € sur 20 services, il vous faut réaliser 500 € par service, soit environ 42 couverts. Si vous avez 3 services par semaine (12/mois), le besoin monte à 833 € par service, soit 70 couverts. D'où l'importance de maximiser le ticket moyen (dessert, boisson, supplément) autant que le volume.",
+          en: "It depends on your average ticket. If your average ticket is €12 and your monthly break-even is €10,000 over 20 services, you need €500 per service — around 42 customers. With 3 services per week (12/month), the target rises to €833 per service, or 70 customers. This is why maximising the average ticket (dessert, drink, add-on) matters as much as volume.",
+        },
+      },
+      {
+        question: {
+          fr: "Faut-il calculer un seuil de rentabilité par service ou par mois ?",
+          en: "Should you calculate a break-even per service or per month?",
+        },
+        answer: {
+          fr: "Les deux sont utiles mais pour des raisons différentes. Le seuil mensuel vous donne une vision globale pour votre comptabilité et votre trésorerie. Le seuil par service est l'outil opérationnel : il vous permet de savoir, dès la fin d'un service, si vous avez été rentable sur cet emplacement ce jour-là. C'est ce deuxième indicateur qui pilote vos décisions de planning et d'emplacements au quotidien.",
+          en: "Both are useful but for different reasons. The monthly break-even gives you an overall view for accounting and cash flow. The per-service break-even is the operational tool: it tells you, right after a service, whether that location was profitable that day. This second indicator drives your daily scheduling and location decisions.",
+        },
+      },
+    ],
+    relatedSlugs: [
+      "rentabilite-food-truck-ameliorer",
+      "charges-variables-food-truck",
+      "cout-charges-food-truck-mensuel",
+      "calcul-prix-vente-food-truck",
+      "tableau-de-bord-kpi-food-truck",
+    ],
+    content: {
+      fr: `## Pourquoi le seuil de rentabilité est le chiffre le plus important de votre food truck
+
+Beaucoup de food truckers connaissent leur chiffre d'affaires, certains suivent leur food cost — mais très peu savent avec précision **combien ils doivent vendre pour ne pas perdre d'argent**. Ce chiffre s'appelle le seuil de rentabilité (ou point mort), et c'est la boussole financière de votre activité.
+
+Sans lui, vous pilotez à vue. Avec lui, vous savez exactement :
+- Si un emplacement est rentable avant même la fin du service
+- À partir de quel moment du mois vous commencez à générer du bénéfice réel
+- Quel impact aura une hausse de prix ou une réduction de food cost
+
+Voici la méthode complète pour le calculer — et surtout, pour l'atteindre.
+
+## Les deux types de charges à distinguer
+
+Avant de faire le calcul, vous devez séparer vos charges en deux catégories.
+
+### Les charges fixes
+
+Les charges fixes sont les coûts que vous supportez **quel que soit votre niveau d'activité** — même si vous ne vendez rien un mois donné, elles sont dues.
+
+En food truck, vos charges fixes typiques incluent :
+- **Remboursement du prêt** (crédit-bail ou emprunt pour le camion)
+- **Loyer de la cuisine centrale** (commissariat ou laboratoire)
+- **Assurances** (RC pro, véhicule, multirisque)
+- **Abonnements** (logiciel de caisse, comptabilité, téléphonie)
+- **Cotisations sociales minimales** (SSI si vous êtes en TNS)
+- **Loyer d'un box ou entrepôt** si vous en avez un
+- **Salaire d'un employé fixe** (hors variable)
+
+**Exemple de charges fixes mensuelles d'un food truck solo :**
+
+| Poste | Montant mensuel |
+|-------|----------------|
+| Remboursement crédit-bail camion | 650 € |
+| Cuisine centrale | 350 € |
+| Assurances | 180 € |
+| Abonnements divers | 120 € |
+| Cotisations sociales minimales | 400 € |
+| **Total charges fixes** | **1 700 €** |
+
+### Les charges variables
+
+Les charges variables **évoluent proportionnellement à votre activité**. Plus vous vendez, plus elles augmentent.
+
+En food truck, les principales charges variables sont :
+- **Coût des matières premières** (food cost) — généralement 28 à 38 % du CA
+- **Emballages et consommables** (boîtes, serviettes, couverts) — 2 à 4 %
+- **Carburant** (déplacements jusqu'aux emplacements)
+- **Droits de place** (marchés, événements) — souvent 5 à 12 % du CA
+- **Commissions TPE** (SumUp ou autre) — environ 1,69 %
+
+**Exemple de structure de coûts variables (sur 100 € de CA) :**
+
+| Poste variable | % du CA |
+|----------------|---------|
+| Matières premières | 32 % |
+| Emballages | 3 % |
+| Carburant | 3 % |
+| Droits de place | 8 % |
+| Commission TPE | 2 % |
+| **Total charges variables** | **48 %** |
+
+La **marge sur coût variable** est donc de **52 %** (100 % - 48 %).
+
+## La formule du seuil de rentabilité
+
+Une fois que vous connaissez vos charges fixes et votre taux de marge sur coût variable, le calcul est simple :
+
+> **Seuil de rentabilité (€) = Charges fixes ÷ Taux de marge sur coût variable**
+
+Avec notre exemple :
+- Charges fixes : **1 700 €/mois**
+- Taux de marge sur coût variable : **52 %** (soit 0,52)
+
+**Seuil de rentabilité = 1 700 ÷ 0,52 = 3 269 €/mois**
+
+Cela signifie que ce food truck doit réaliser **au moins 3 269 € de chiffre d'affaires par mois** pour couvrir toutes ses charges. Au-delà, chaque euro de CA supplémentaire génère 52 centimes de bénéfice brut.
+
+> **Note** : cet exemple correspond à un food trucker seul, sans salarié et avec un crédit-bail modéré. Avec un employé à mi-temps (+600 €/mois de charges fixes), le seuil monterait à environ 4 423 €/mois.
+
+## Calculer le seuil de rentabilité par service
+
+Le seuil mensuel est utile pour votre comptabilité. Mais pour piloter votre activité au quotidien, il faut descendre à l'**échelle du service**.
+
+### Étape 1 : calculez votre seuil mensuel
+
+Comme vu ci-dessus : **Charges fixes ÷ Taux de marge sur coût variable**.
+
+### Étape 2 : divisez par votre nombre de services mensuels
+
+Si vous faites en moyenne **18 services par mois** (environ 4 à 5 par semaine) :
+
+**Seuil par service = 3 269 ÷ 18 = 182 €**
+
+Vous devez donc réaliser **au moins 182 € de CA par service** pour ne pas perdre d'argent sur ce service.
+
+### Étape 3 : traduisez en nombre de clients
+
+Si votre **ticket moyen** est de 11 € :
+
+**Nombre de clients nécessaire = 182 ÷ 11 = 17 couverts minimum**
+
+À partir du 17e couvert, vous commencez à dégager de la marge réelle.
+
+## Les leviers pour abaisser votre seuil de rentabilité
+
+Il existe deux façons de réduire votre point mort : **diminuer les charges fixes** ou **améliorer la marge sur coût variable**.
+
+### Levier 1 : réduire les charges fixes
+
+| Action | Impact estimé |
+|--------|--------------|
+| Renégocier le taux de son crédit-bail | -50 à -100 €/mois |
+| Partager une cuisine centrale avec un autre food trucker | -100 à -200 €/mois |
+| Résilier des abonnements inutilisés | -30 à -80 €/mois |
+| Optimiser ses assurances (comparaison annuelle) | -20 à -50 €/mois |
+
+### Levier 2 : améliorer la marge sur coût variable
+
+**Réduire le food cost** est le levier le plus puissant. Voici l'impact concret d'une baisse de 5 points de food cost sur votre seuil :
+
+| Food cost | Taux de marge (avec autres charges variables à 16 %) | Seuil mensuel (charges fixes 1 700 €) |
+|-----------|------------------------------------------------------|---------------------------------------|
+| 38 % | 46 % | **3 696 €** |
+| 35 % | 49 % | **3 469 €** |
+| 32 % | 52 % | **3 269 €** |
+| 28 % | 56 % | **3 036 €** |
+
+Passer de 38 % à 32 % de food cost, c'est **660 € de seuil en moins à atteindre chaque mois**.
+
+Pour réduire votre food cost, les actions concrètes sont :
+- **Négocier vos tarifs fournisseurs** en achetant en plus grandes quantités ou en changeant de fournisseur
+- **Réduire le gaspillage** grâce à une meilleure gestion des stocks et des prévisions de vente (voir notre guide sur la [rotation des stocks en food truck](/fr/blog/rotation-stock-food-truck))
+- **Revoir les grammages** de chaque recette avec des fiches techniques précises
+- **Éliminer les plats à faible marge** de votre menu
+
+### Levier 3 : augmenter le ticket moyen
+
+Augmenter votre ticket moyen ne réduit pas le seuil en valeur absolue, mais **réduit le nombre de clients nécessaires** pour l'atteindre.
+
+Si vous passez d'un ticket moyen de 11 € à 13 € (en ajoutant une boisson ou un dessert) :
+- Avant : 17 couverts nécessaires par service (à 11 €)
+- Après : 14 couverts nécessaires par service (à 13 €)
+
+C'est 3 clients de moins à trouver pour être rentable sur chaque service.
+
+## Calculer le seuil de rentabilité emplacement par emplacement
+
+Votre seuil de rentabilité global est une moyenne. Mais en réalité, **certains emplacements sont bien plus rentables que d'autres** — et certains vous font perdre de l'argent à chaque service.
+
+Pour chaque emplacement, calculez :
+1. **CA réalisé** lors des derniers services
+2. **Coût de l'emplacement** (droit de place)
+3. **Coût de déplacement** (carburant × distance × 2)
+4. **Coût de préparation** si vous avez une cuisine centrale distante
+
+**CA net de l'emplacement = CA brut - droits de place - carburant**
+
+Comparez ce CA net à votre **seuil de rentabilité par service**. Si le CA net est systématiquement en dessous, l'emplacement n'est pas rentable et doit être remplacé ou repositionné (jour différent, horaire différent, tarif différent).
+
+Avec **FoodTracks**, vous pouvez suivre automatiquement votre CA par emplacement via l'intégration SumUp, ce qui vous donne une vision claire de la rentabilité de chaque spot sans calcul manuel.
+
+## Construire un plan d'action pour atteindre votre seuil
+
+Connaître son seuil de rentabilité est une chose. Le construire en plan d'action opérationnel en est une autre. Voici une méthode en 4 étapes.
+
+### Étape 1 : calculez votre seuil actuel (30 minutes)
+
+Listez toutes vos charges fixes du dernier mois. Calculez votre taux de marge sur coût variable sur les 3 derniers mois. Appliquez la formule.
+
+### Étape 2 : mesurez votre CA actuel par service
+
+Extrayez vos données SumUp ou de caisse pour chaque service des 3 derniers mois. Comparez chaque service à votre seuil par service.
+
+### Étape 3 : identifiez les 3 plus gros leviers
+
+À partir de l'analyse, identifiez les actions qui auront le plus d'impact :
+- Y a-t-il des emplacements chroniquement sous le seuil à éliminer ?
+- Votre food cost est-il au-dessus de 35 % ? (Levier prioritaire)
+- Avez-vous des charges fixes réductibles sans impact sur l'activité ?
+
+### Étape 4 : mettez en place un suivi hebdomadaire
+
+Le seuil de rentabilité n'est pas un calcul annuel — c'est un indicateur de pilotage. Revoyez-le chaque mois et comparez chaque semaine votre CA réel à votre objectif hebdomadaire de CA minimum.
+
+**Objectif hebdomadaire = Seuil mensuel ÷ 4,3**
+
+Avec notre exemple : 3 269 ÷ 4,3 = **760 €/semaine minimum** à réaliser pour être à l'équilibre.
+
+## Comment FoodTracks vous aide à piloter votre seuil de rentabilité
+
+FoodTracks centralise les données dont vous avez besoin pour calculer et suivre votre seuil de rentabilité en temps réel :
+
+- **Suivi des ventes par service** via l'intégration SumUp — vous voyez votre CA dès la fin du service
+- **Scan des factures fournisseurs** — votre food cost est calculé automatiquement sans saisie manuelle
+- **Dashboard de rentabilité** — CA, charges, marge : tout au même endroit
+- **Analyse par emplacement** — identifiez vos spots rentables et ceux qui vous coûtent de l'argent
+
+Résultat : vous n'avez plus besoin d'un tableur complexe pour savoir si vous avez été rentable aujourd'hui. L'information est disponible en quelques secondes.
+
+[Essayez FoodTracks gratuitement →](https://foodtracks.io/fr/pricing)
+
+## Conclusion
+
+Le seuil de rentabilité est le chiffre financier le plus actionnable de votre food truck. Il ne vous dira pas combien vous gagnez — il vous dira ce que vous devez faire pour ne pas perdre. **Calculez-le une fois, puis pilotez dessus chaque semaine.**
+
+Les food truckers qui atteignent régulièrement leur point mort — et le dépassent — ont tous un point en commun : ils connaissent leurs chiffres précisément et prennent des décisions basées sur des données, pas sur des impressions.
+
+**À lire aussi :** [Charges variables food truck](/fr/blog/charges-variables-food-truck) · [Comment calculer le coût de revient d'une recette](/fr/blog/calculer-cout-revient-recette-food-truck) · [Tableau de bord KPI food truck](/fr/blog/tableau-de-bord-kpi-food-truck) · [Optimiser ses marges grâce à l'analyse de données](/fr/blog/optimiser-marges-food-truck-analyse-donnees)`,
+      en: `## Why the Break-Even Point is the Most Important Number in Your Food Truck
+
+Many food truck operators know their revenue, some track their food cost — but very few know precisely **how much they need to sell to avoid losing money**. That number is called the break-even point, and it is the financial compass of your business.
+
+Without it, you are flying blind. With it, you know exactly:
+- Whether a location is profitable before the service even ends
+- From which point in the month you start generating real profit
+- What impact a price rise or food cost reduction will have
+
+Here is the complete method to calculate it — and more importantly, to reach it.
+
+## The Two Types of Costs to Distinguish
+
+Before doing the calculation, you need to split your costs into two categories.
+
+### Fixed costs
+
+Fixed costs are costs you bear **regardless of your activity level** — even if you sell nothing in a given month, they are still due.
+
+In a food truck, typical fixed costs include:
+- **Loan repayment** (hire purchase or bank loan for the truck)
+- **Commissary kitchen rent** (central kitchen or laboratory)
+- **Insurance** (professional liability, vehicle, multi-risk)
+- **Subscriptions** (POS software, accounting, telephony)
+- **Minimum social contributions** (self-employed contributions)
+- **Storage unit or garage rent** if applicable
+- **Fixed employee salary** (excluding variable pay)
+
+**Example of monthly fixed costs for a solo food truck:**
+
+| Item | Monthly amount |
+|------|----------------|
+| Truck hire purchase repayment | €650 |
+| Commissary kitchen | €350 |
+| Insurance | €180 |
+| Various subscriptions | €120 |
+| Minimum social contributions | €400 |
+| **Total fixed costs** | **€1,700** |
+
+### Variable costs
+
+Variable costs **increase proportionally with your activity**. The more you sell, the higher they are.
+
+In a food truck, the main variable costs are:
+- **Raw material cost** (food cost) — typically 28 to 38% of revenue
+- **Packaging and consumables** (boxes, napkins, cutlery) — 2 to 4%
+- **Fuel** (travel to locations)
+- **Pitch fees** (markets, events) — often 5 to 12% of revenue
+- **Card payment commissions** (SumUp or similar) — around 1.69%
+
+**Example variable cost structure (per €100 of revenue):**
+
+| Variable item | % of revenue |
+|---------------|-------------|
+| Raw materials | 32% |
+| Packaging | 3% |
+| Fuel | 3% |
+| Pitch fees | 8% |
+| Card commission | 2% |
+| **Total variable costs** | **48%** |
+
+The **contribution margin ratio** is therefore **52%** (100% - 48%).
+
+## The Break-Even Formula
+
+Once you know your fixed costs and contribution margin ratio, the calculation is straightforward:
+
+> **Break-even (€) = Fixed costs ÷ Contribution margin ratio**
+
+Using our example:
+- Fixed costs: **€1,700/month**
+- Contribution margin ratio: **52%** (0.52)
+
+**Break-even = 1,700 ÷ 0.52 = €3,269/month**
+
+This means the food truck must generate **at least €3,269 in monthly revenue** to cover all costs. Beyond that, every additional euro of revenue generates 52 cents of gross profit.
+
+> **Note**: this example applies to a solo food truck operator with no employee and a moderate hire purchase. With a part-time employee (+€600/month in fixed costs), the break-even would rise to approximately €4,423/month.
+
+## Calculating the Break-Even Per Service
+
+The monthly break-even is useful for accounting. But to run your business day to day, you need to get down to the **per-service level**.
+
+### Step 1: calculate your monthly break-even
+
+As above: **Fixed costs ÷ Contribution margin ratio**.
+
+### Step 2: divide by your number of monthly services
+
+If you average **18 services per month** (around 4 to 5 per week):
+
+**Break-even per service = 3,269 ÷ 18 = €182**
+
+You must therefore generate **at least €182 per service** to avoid losing money on that service.
+
+### Step 3: translate into number of customers
+
+If your **average ticket** is €11:
+
+**Customers needed = 182 ÷ 11 = 17 minimum**
+
+From the 17th customer onwards, you start generating real margin.
+
+## Levers to Lower Your Break-Even Point
+
+There are two ways to reduce your break-even: **cut fixed costs** or **improve your contribution margin**.
+
+### Lever 1: reduce fixed costs
+
+| Action | Estimated impact |
+|--------|-----------------|
+| Renegotiate hire purchase rate | -€50 to -€100/month |
+| Share a commissary kitchen with another food trucker | -€100 to -€200/month |
+| Cancel unused subscriptions | -€30 to -€80/month |
+| Optimise insurance (annual comparison) | -€20 to -€50/month |
+
+### Lever 2: improve contribution margin
+
+**Reducing food cost** is the most powerful lever. Here is the concrete impact of a 5-point food cost reduction on your break-even:
+
+| Food cost | Margin rate (with other variable costs at 16%) | Monthly break-even (fixed costs €1,700) |
+|-----------|------------------------------------------------|----------------------------------------|
+| 38% | 46% | **€3,696** |
+| 35% | 49% | **€3,469** |
+| 32% | 52% | **€3,269** |
+| 28% | 56% | **€3,036** |
+
+Moving from 38% to 32% food cost means **€660 less to reach every month**.
+
+Concrete actions to reduce food cost:
+- **Negotiate supplier prices** by buying in larger quantities or switching suppliers
+- **Reduce waste** through better stock management and demand forecasting
+- **Review portion sizes** in each recipe with precise recipe cards
+- **Remove low-margin dishes** from your menu
+
+### Lever 3: increase the average ticket
+
+Increasing your average ticket does not reduce the break-even in absolute terms, but **reduces the number of customers you need** to reach it.
+
+If you move from an average ticket of €11 to €13 (by adding a drink or dessert):
+- Before: 17 customers needed per service (at €11)
+- After: 14 customers needed per service (at €13)
+
+That is 3 fewer customers to find to be profitable on every service.
+
+## Calculating Break-Even Location by Location
+
+Your overall break-even is an average. In reality, **some locations are far more profitable than others** — and some lose you money on every service.
+
+For each location, calculate:
+1. **Revenue generated** in recent services
+2. **Pitch cost** (market fees)
+3. **Travel cost** (fuel × distance × 2)
+4. **Preparation cost** if you have a distant commissary
+
+**Net location revenue = Gross revenue - pitch fees - fuel**
+
+Compare this net revenue to your **break-even per service**. If it is consistently below, the location is not profitable and must be replaced or repositioned (different day, different time, different pricing).
+
+With **FoodTracks**, you can automatically track revenue by location via SumUp integration, giving you a clear view of each spot's profitability without manual calculation.
+
+## Building an Action Plan to Reach Your Break-Even
+
+Knowing your break-even is one thing. Turning it into an operational action plan is another. Here is a 4-step method.
+
+### Step 1: calculate your current break-even (30 minutes)
+
+List all your fixed costs from last month. Calculate your contribution margin ratio over the last 3 months. Apply the formula.
+
+### Step 2: measure your current revenue per service
+
+Pull your SumUp or POS data for each service over the last 3 months. Compare each service to your per-service break-even.
+
+### Step 3: identify the 3 biggest levers
+
+From the analysis, identify the actions with the greatest impact:
+- Are there locations consistently below break-even that should be dropped?
+- Is your food cost above 35%? (Priority lever)
+- Do you have reducible fixed costs with no impact on operations?
+
+### Step 4: set up weekly tracking
+
+The break-even is not an annual calculation — it is a management indicator. Revisit it monthly and compare your actual weekly revenue to your minimum weekly revenue target.
+
+**Weekly target = Monthly break-even ÷ 4.3**
+
+Using our example: 3,269 ÷ 4.3 = **€760/week minimum** to break even.
+
+## How FoodTracks Helps You Track Your Break-Even
+
+FoodTracks centralises the data you need to calculate and monitor your break-even in real time:
+
+- **Sales tracking per service** via SumUp integration — you see your revenue as soon as the service ends
+- **Supplier invoice scanning** — your food cost is calculated automatically, no manual entry
+- **Profitability dashboard** — revenue, costs, margin: everything in one place
+- **Location analysis** — identify your profitable spots and those that are costing you money
+
+Result: you no longer need a complex spreadsheet to know whether you were profitable today. The information is available in seconds.
+
+[Try FoodTracks for free →](https://foodtracks.io/en/pricing)
+
+## Conclusion
+
+The break-even point is the most actionable financial figure in your food truck business. It does not tell you how much you earn — it tells you what you need to do to avoid losing money. **Calculate it once, then use it to steer your business every week.**
+
+Food truck operators who consistently hit their break-even — and exceed it — all share one thing: they know their numbers precisely and make decisions based on data, not gut feeling.
+
+**Further reading:** [Food Truck Variable Costs](/en/blog/charges-variables-food-truck) · [How to Calculate Recipe Cost Price](/en/blog/calculer-cout-revient-recette-food-truck) · [Food Truck KPI Dashboard](/en/blog/tableau-de-bord-kpi-food-truck) · [Optimise Margins with Data Analysis](/en/blog/optimiser-marges-food-truck-analyse-donnees)`,
+    },
+  },
 ];
 
 export function getArticleBySlug(slug: string): BlogArticle | undefined {
