@@ -26,7 +26,7 @@ export function SmartAlertsWidget({ analysis, isPremium }: SmartAlertsWidgetProp
   if (!isPremium) {
     return (
       <Card className="relative overflow-hidden dash-card">
-        <div className="absolute inset-0 backdrop-blur-sm z-10 flex flex-col items-center justify-center bg-[#0D0905]/80 p-6 text-center">
+        <div className="absolute inset-0 backdrop-blur-[2px] z-10 flex flex-col items-center justify-center bg-[#0D0905]/70 p-6 text-center">
           <div className="rounded-full bg-orange-500/10 p-3 mb-3">
             <Lock className="h-6 w-6 text-orange-400" />
           </div>

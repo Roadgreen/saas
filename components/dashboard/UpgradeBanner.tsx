@@ -37,7 +37,7 @@ export function UpgradeBanner({ trialDaysUsed, trialDaysTotal = 14, isTrialing }
 
         <Link
           href={`/${locale}/pricing`}
-          className="shrink-0 rounded-lg bg-orange-500 px-4 py-1.5 text-xs font-semibold text-white shadow-sm transition-colors hover:bg-orange-400 active:bg-orange-600"
+          className="shrink-0 rounded-lg bg-orange-500 px-4 py-1.5 text-xs font-semibold text-white shadow-sm transition-all duration-150 hover:bg-orange-400 active:scale-95 active:bg-orange-600"
         >
           {t('cta')}
         </Link>

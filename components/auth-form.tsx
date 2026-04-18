@@ -11,7 +11,7 @@ import { useRouter, useSearchParams } from 'next/navigation';
 import { signIn } from 'next-auth/react';
 import { useLocale } from 'next-intl';
 import Link from 'next/link';
-import { ChefHat, CheckCircle2, XCircle } from 'lucide-react';
+import { ChefHat, CheckCircle2, XCircle, Loader2 } from 'lucide-react';
 
 const authSchema = z.object({
   email: z.string().email(),
@@ -287,15 +287,20 @@ export function AuthForm({ type }: AuthFormProps) {
         </div>
 
         <Button type="submit" className="w-full rounded-xl h-11 font-semibold text-base transition-all duration-300" disabled={loading}>
-          {loading
-            ? (isPlanRegister
+          {loading ? (
+            <span className="inline-flex items-center gap-2">
+              <Loader2 className="h-4 w-4 animate-spin" aria-hidden="true" />
+              {isPlanRegister
                 ? (isFr ? 'Création du compte...' : 'Creating account...')
-                : (isFr ? 'Chargement...' : 'Loading...'))
-            : type === 'login'
-            ? (isFr ? 'Se connecter' : 'Sign In')
-            : isPlanRegister
-            ? (isFr ? 'Démarrer mon essai gratuit' : 'Start my free trial')
-            : (isFr ? 'Créer un compte' : 'Create Account')}
+                : (isFr ? 'Chargement...' : 'Loading...')}
+            </span>
+          ) : type === 'login' ? (
+            isFr ? 'Se connecter' : 'Sign In'
+          ) : isPlanRegister ? (
+            isFr ? 'Démarrer mon essai gratuit' : 'Start my free trial'
+          ) : (
+            isFr ? 'Créer un compte' : 'Create Account'
+          )}
         </Button>
 
       </form>

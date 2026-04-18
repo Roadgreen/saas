@@ -123,7 +123,7 @@ export function LocationIndicator() {
               selectManual(val || null);
               if (!val) setShowSelect(false);
             }}
-            className="w-full h-8 rounded-md border border-white/10 bg-white/5 px-2 text-xs font-medium text-gray-200 focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-1"
+            className="w-full h-8 rounded-md border border-white/10 bg-white/5 px-2 text-xs font-medium text-gray-200 outline-none transition-all focus-visible:border-orange-500 focus-visible:ring-2 focus-visible:ring-orange-500/40 hover:border-white/20"
           >
             <option value="">
               {mode === 'manual' ? t('switchToGPS') : t('selectLocation')}
