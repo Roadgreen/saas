@@ -1,9 +1,9 @@
 'use client';
 
-import { useState, useEffect, useMemo } from 'react';
+import { useState, useEffect, useMemo, useRef } from 'react';
 import Link from 'next/link';
 import { useTranslations, useLocale } from 'next-intl';
-import { useRouter } from 'next/navigation';
+import { useRouter, useSearchParams, usePathname } from 'next/navigation';
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -72,14 +72,19 @@ export function ProductTable({
   const t = useTranslations('Products');
   const locale = useLocale();
   const router = useRouter();
+  const pathname = usePathname();
+  const searchParams = useSearchParams();
   const [products, setProducts] = useState(initialProducts);
 
-  // Filters
-  const [search, setSearch] = useState('');
-  const [statusFilter, setStatusFilter] = useState<string>('all');
-  const [categoryFilter, setCategoryFilter] = useState<string>('all');
-  const [locationFilter, setLocationFilter] = useState<string>('all');
-  const [quickChip, setQuickChip] = useState<'lowStock' | 'expiring' | 'noCategory' | 'outOfStock' | null>(null);
+  // Filters — initial values hydrated from URL so the view is shareable/bookmarkable
+  const [search, setSearch] = useState(() => searchParams.get('q') ?? '');
+  const [statusFilter, setStatusFilter] = useState<string>(() => searchParams.get('status') ?? 'all');
+  const [categoryFilter, setCategoryFilter] = useState<string>(() => searchParams.get('cat') ?? 'all');
+  const [locationFilter, setLocationFilter] = useState<string>(() => searchParams.get('loc') ?? 'all');
+  const [quickChip, setQuickChip] = useState<'lowStock' | 'expiring' | 'noCategory' | 'outOfStock' | null>(() => {
+    const chip = searchParams.get('chip');
+    return chip === 'lowStock' || chip === 'expiring' || chip === 'noCategory' || chip === 'outOfStock' ? chip : null;
+  });
 
   // Bulk selection
   const [selectedIds, setSelectedIds] = useState<Set<string>>(new Set());
@@ -93,15 +98,43 @@ export function ProductTable({
     setProducts(initialProducts);
   }, [initialProducts]);
 
-  // Keyboard shortcut: "n" → new product (ignore when typing in fields)
+  // Persist filters to the URL so the current view can be bookmarked/shared.
+  // Uses replaceState (no history noise, no network) debounced lightly for the search input.
+  const urlSyncTimer = useRef<number | null>(null);
+  useEffect(() => {
+    if (urlSyncTimer.current) window.clearTimeout(urlSyncTimer.current);
+    urlSyncTimer.current = window.setTimeout(() => {
+      const sp = new URLSearchParams();
+      if (search) sp.set('q', search);
+      if (statusFilter !== 'all') sp.set('status', statusFilter);
+      if (categoryFilter !== 'all') sp.set('cat', categoryFilter);
+      if (locationFilter !== 'all') sp.set('loc', locationFilter);
+      if (quickChip) sp.set('chip', quickChip);
+      const qs = sp.toString();
+      const next = qs ? `${pathname}?${qs}` : pathname;
+      window.history.replaceState(null, '', next);
+    }, 200);
+    return () => {
+      if (urlSyncTimer.current) window.clearTimeout(urlSyncTimer.current);
+    };
+  }, [search, statusFilter, categoryFilter, locationFilter, quickChip, pathname]);
+
+  const searchInputRef = useRef<HTMLInputElement | null>(null);
+
+  // Keyboard shortcuts: "n" → new product, "/" → focus search (ignore when typing in fields)
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
-      if (e.key.toLowerCase() !== 'n') return;
       if (e.metaKey || e.ctrlKey || e.altKey) return;
       const target = e.target as HTMLElement | null;
-      if (target && (target.tagName === 'INPUT' || target.tagName === 'TEXTAREA' || target.isContentEditable || target.tagName === 'SELECT')) return;
-      e.preventDefault();
-      router.push(`/${locale}/dashboard/products/new`);
+      const typing = target && (target.tagName === 'INPUT' || target.tagName === 'TEXTAREA' || target.isContentEditable || target.tagName === 'SELECT');
+      if (typing) return;
+      if (e.key.toLowerCase() === 'n') {
+        e.preventDefault();
+        router.push(`/${locale}/dashboard/products/new`);
+      } else if (e.key === '/') {
+        e.preventDefault();
+        searchInputRef.current?.focus();
+      }
     };
     window.addEventListener('keydown', onKey);
     return () => window.removeEventListener('keydown', onKey);
@@ -600,11 +633,15 @@ export function ProductTable({
             <div className="relative flex-1">
               <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
               <Input
+                ref={searchInputRef}
                 placeholder={t('search')}
                 value={search}
                 onChange={(e) => setSearch(e.target.value)}
-                className="pl-9"
+                className="pl-9 pr-10"
               />
+              <kbd className="absolute right-3 top-1/2 -translate-y-1/2 hidden md:inline-flex items-center rounded border border-border bg-muted/50 px-1.5 py-0.5 text-[10px] font-mono text-muted-foreground pointer-events-none">
+                /
+              </kbd>
             </div>
             <Select value={statusFilter} onValueChange={setStatusFilter}>
               <SelectTrigger className="w-full sm:w-[160px]">
