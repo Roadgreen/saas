@@ -1,6 +1,7 @@
 import { auth } from "@/auth";
 import { prisma } from "@/lib/prisma";
 import { redirect } from "next/navigation";
+import { getTranslations } from "next-intl/server";
 import { SumUpDailyWidget } from "@/components/dashboard/SumUpDailyWidget";
 import { SumUpSalesList } from "@/components/dashboard/SumUpSalesList";
 import { isCurrencyCode, formatCurrency, type CurrencyCode } from "@/lib/currency";
@@ -34,6 +35,9 @@ export default async function SumUpPage({
   });
 
   if (!user?.business) redirect(`/${locale}/dashboard`);
+
+  const t = await getTranslations("SumUp.page");
+  const tBase = await getTranslations("SumUp");
 
   const business = user.business;
   const bSettings = (business.settings as Record<string, unknown>) ?? {};
@@ -84,7 +88,7 @@ export default async function SumUpPage({
           <div>
             <h1 className="text-2xl font-bold tracking-tight">SumUp</h1>
             <p className="text-sm text-muted-foreground mt-0.5">
-              Synchronisation des paiements par terminal
+              {t("subtitle")}
             </p>
           </div>
         </div>
@@ -94,7 +98,7 @@ export default async function SumUpPage({
             <>
               <div className="flex items-center gap-1.5 text-xs text-green-700 bg-green-50 border border-green-200 rounded-full px-3 py-1.5 font-medium">
                 <CheckCircle2 className="h-3.5 w-3.5" />
-                Connecté
+                {tBase("connected")}
                 {business.sumupMerchantCode && (
                   <span className="text-green-500 font-mono ml-0.5">· {business.sumupMerchantCode}</span>
                 )}
@@ -104,7 +108,7 @@ export default async function SumUpPage({
                 className="flex items-center gap-1.5 text-xs text-muted-foreground border border-border rounded-full px-3 py-1.5 hover:bg-muted/50 transition-colors"
               >
                 <Settings className="h-3 w-3" />
-                Gérer
+                {t("manage")}
               </Link>
             </>
           ) : (
@@ -115,7 +119,7 @@ export default async function SumUpPage({
                 style={{ background: "#00B6FF" }}
               >
                 <Link2 className="h-4 w-4" />
-                Connecter SumUp
+                {tBase("connectBtn")}
               </button>
             </form>
           )}
@@ -140,18 +144,17 @@ export default async function SumUpPage({
                 <CreditCard className="h-7 w-7 text-[#00B6FF]" />
               </div>
               <div>
-                <h2 className="text-xl font-bold">Connectez votre terminal SumUp</h2>
+                <h2 className="text-xl font-bold">{t("heroTitle")}</h2>
                 <p className="text-sm text-muted-foreground mt-1.5 leading-relaxed">
-                  Synchronisez automatiquement vos ventes par carte avec FoodTracks. Vos recettes
-                  sont matchées, votre stock déduit.
+                  {t("heroDesc")}
                 </p>
               </div>
               <ul className="space-y-2">
                 {[
-                  { icon: Zap, text: "Sync automatique des transactions" },
-                  { icon: Target, text: "Matching recettes intelligent" },
-                  { icon: BarChart3, text: "Comparaison SumUp vs ventes internes" },
-                  { icon: Activity, text: "Statistiques en temps réel" },
+                  { icon: Zap, text: t("feat1") },
+                  { icon: Target, text: t("feat2") },
+                  { icon: BarChart3, text: t("feat3") },
+                  { icon: Activity, text: t("feat4") },
                 ].map(({ icon: Icon, text }) => (
                   <li key={text} className="flex items-center gap-2 text-sm text-muted-foreground">
                     <div className="h-5 w-5 rounded-md bg-[#00B6FF]/10 flex items-center justify-center shrink-0">
@@ -169,7 +172,7 @@ export default async function SumUpPage({
                 style={{ background: "#00B6FF" }}
               >
                 <Link2 className="h-4 w-4" />
-                Connecter avec SumUp
+                {t("connectLong")}
                 <ArrowRight className="h-4 w-4 ml-auto" />
               </button>
             </form>
@@ -178,25 +181,25 @@ export default async function SumUpPage({
           {/* How it works */}
           <div className="space-y-3">
             <p className="text-sm font-semibold text-muted-foreground uppercase tracking-wide px-1">
-              Comment ça marche
+              {t("howItWorks")}
             </p>
             {[
               {
                 step: "1",
-                title: "Autorisez l'accès",
-                desc: "Connectez-vous avec votre compte SumUp via OAuth sécurisé.",
+                title: t("step1Title"),
+                desc: t("step1Desc"),
                 color: "bg-[#00B6FF]/10 text-[#00B6FF] border-[#00B6FF]/20",
               },
               {
                 step: "2",
-                title: "Configurez les correspondances",
-                desc: "Associez vos produits SumUp à vos recettes FoodTracks.",
+                title: t("step2Title"),
+                desc: t("step2Desc"),
                 color: "bg-orange-50 text-orange-600 border-orange-100",
               },
               {
                 step: "3",
-                title: "Synchronisez",
-                desc: "Vos transactions sont importées et les stocks déduits automatiquement.",
+                title: t("step3Title"),
+                desc: t("step3Desc"),
                 color: "bg-green-50 text-green-600 border-green-100",
               },
             ].map(({ step, title, desc, color }) => (
@@ -223,7 +226,7 @@ export default async function SumUpPage({
             <div className="dash-card rounded-xl p-6 animate-card-in" style={{ animationDelay: "0ms" }}>
               <div className="flex items-center justify-between mb-3">
                 <p className="text-[11px] font-semibold text-muted-foreground uppercase tracking-wide">
-                  Revenus 30j
+                  {t("kpiRevenue")}
                 </p>
                 <div className="h-7 w-7 rounded-lg bg-[#00B6FF]/10 flex items-center justify-center">
                   <TrendingUp className="h-3.5 w-3.5 text-[#00B6FF]" />
@@ -232,28 +235,28 @@ export default async function SumUpPage({
               <p className="text-2xl font-bold text-[#00B6FF] tabular-nums">
                 {formatCurrency(totalRevenue, currency)}
               </p>
-              <p className="text-xs text-muted-foreground mt-1">via SumUp</p>
+              <p className="text-xs text-muted-foreground mt-1">{t("viaSumUp")}</p>
             </div>
 
             {/* Transactions */}
             <div className="dash-card rounded-xl p-6 animate-card-in" style={{ animationDelay: "50ms" }}>
               <div className="flex items-center justify-between mb-3">
                 <p className="text-[11px] font-semibold text-muted-foreground uppercase tracking-wide">
-                  Transactions
+                  {t("kpiTx")}
                 </p>
                 <div className="h-7 w-7 rounded-lg bg-blue-50 flex items-center justify-center">
                   <Activity className="h-3.5 w-3.5 text-blue-500" />
                 </div>
               </div>
               <p className="text-2xl font-bold tabular-nums">{txCount}</p>
-              <p className="text-xs text-muted-foreground mt-1">30 derniers jours</p>
+              <p className="text-xs text-muted-foreground mt-1">{t("last30d")}</p>
             </div>
 
             {/* Match rate */}
             <div className="dash-card rounded-xl p-6 animate-card-in" style={{ animationDelay: "100ms" }}>
               <div className="flex items-center justify-between mb-3">
                 <p className="text-[11px] font-semibold text-muted-foreground uppercase tracking-wide">
-                  Taux de match
+                  {t("matchRate")}
                 </p>
                 <div
                   className={`h-7 w-7 rounded-lg flex items-center justify-center ${
@@ -299,7 +302,7 @@ export default async function SumUpPage({
                 />
               </div>
               <p className="text-xs text-muted-foreground">
-                {matchedCount}/{txCount} recettes identifiées
+                {t("matchedOf", { matched: matchedCount, total: txCount })}
               </p>
             </div>
 
@@ -307,14 +310,14 @@ export default async function SumUpPage({
             <div className="dash-card rounded-xl p-6 animate-card-in" style={{ animationDelay: "150ms" }}>
               <div className="flex items-center justify-between mb-3">
                 <p className="text-[11px] font-semibold text-muted-foreground uppercase tracking-wide">
-                  Panier moyen
+                  {t("avgBasket")}
                 </p>
                 <div className="h-7 w-7 rounded-lg bg-orange-50 flex items-center justify-center">
                   <BarChart3 className="h-3.5 w-3.5 text-orange-500" />
                 </div>
               </div>
               <p className="text-2xl font-bold tabular-nums">{formatCurrency(avgTx, currency)}</p>
-              <p className="text-xs text-muted-foreground mt-1">par transaction</p>
+              <p className="text-xs text-muted-foreground mt-1">{t("perTransaction")}</p>
             </div>
           </div>
 
@@ -324,15 +327,15 @@ export default async function SumUpPage({
               <Target className="h-4 w-4 text-amber-500 shrink-0 mt-0.5" />
               <div>
                 <p className="font-semibold text-amber-800">
-                  {txCount - matchedCount} transaction{txCount - matchedCount > 1 ? "s" : ""} sans recette associée
+                  {t("unmatchedAlert", { count: txCount - matchedCount })}
                 </p>
                 <p className="text-amber-600 text-xs mt-0.5">
-                  Configurez les correspondances pour améliorer l&apos;analyse.{" "}
+                  {t("configureHint")}{" "}
                   <Link
                     href={`/${locale}/dashboard/settings?tab=integrations`}
                     className="underline underline-offset-2 font-medium hover:text-amber-800"
                   >
-                    Configurer →
+                    {t("configure")}
                   </Link>
                 </p>
               </div>
@@ -343,11 +346,12 @@ export default async function SumUpPage({
           {business.sumupConnectedAt && (
             <div className="flex items-center gap-2 text-xs text-muted-foreground">
               <Calendar className="h-3.5 w-3.5" />
-              Connecté depuis le{" "}
-              {new Date(business.sumupConnectedAt).toLocaleDateString("fr-FR", {
-                day: "numeric",
-                month: "long",
-                year: "numeric",
+              {t("connectedSinceLabel", {
+                date: new Date(business.sumupConnectedAt).toLocaleDateString(locale, {
+                  day: "numeric",
+                  month: "long",
+                  year: "numeric",
+                }),
               })}
             </div>
           )}
@@ -368,17 +372,16 @@ export default async function SumUpPage({
               <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-muted/60 mx-auto">
                 <CreditCard className="h-6 w-6 text-muted-foreground" />
               </div>
-              <p className="font-semibold">Aucune transaction ce mois-ci</p>
+              <p className="font-semibold">{t("noTxTitle")}</p>
               <p className="text-sm text-muted-foreground max-w-xs mx-auto">
-                Synchronisez vos transactions SumUp ou insérez des données de test depuis les
-                paramètres.
+                {t("noTxDesc")}
               </p>
               <Link
                 href={`/${locale}/dashboard/settings?tab=integrations`}
                 className="inline-flex items-center gap-2 text-sm font-medium text-[#00B6FF] hover:underline mt-2"
               >
                 <Settings className="h-3.5 w-3.5" />
-                Aller aux paramètres
+                {t("goToSettings")}
               </Link>
             </div>
           )}
