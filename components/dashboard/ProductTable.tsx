@@ -90,24 +90,56 @@ export function ProductTable({
     setProducts(initialProducts);
   }, [initialProducts]);
 
-  const handleDelete = async (productId: string, productName: string) => {
-    if (!confirm(t('deleteConfirm'))) return;
+  // Keyboard shortcut: "n" → new product (ignore when typing in fields)
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key.toLowerCase() !== 'n') return;
+      if (e.metaKey || e.ctrlKey || e.altKey) return;
+      const target = e.target as HTMLElement | null;
+      if (target && (target.tagName === 'INPUT' || target.tagName === 'TEXTAREA' || target.isContentEditable || target.tagName === 'SELECT')) return;
+      e.preventDefault();
+      router.push(`/${locale}/dashboard/products/new`);
+    };
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+  }, [router, locale]);
 
+  const handleDelete = (productId: string, productName: string) => {
+    const snapshot = products;
+    let undone = false;
+
+    // Optimistic removal
     setProducts(prev => prev.filter(p => p.id !== productId));
 
-    try {
-      const res = await fetch(`/api/products/${productId}`, { method: 'DELETE' });
-      if (!res.ok) {
-        setProducts(initialProducts);
+    // Defer the actual DELETE by 5s so the user can undo
+    const timer = window.setTimeout(async () => {
+      if (undone) return;
+      try {
+        const res = await fetch(`/api/products/${productId}`, { method: 'DELETE' });
+        if (!res.ok) {
+          setProducts(snapshot);
+          toast.error(t('deleteError'));
+        } else {
+          router.refresh();
+        }
+      } catch {
+        setProducts(snapshot);
         toast.error(t('deleteError'));
-      } else {
-        toast.success(t('deleteSuccess', { name: productName }));
-        router.refresh();
       }
-    } catch {
-      setProducts(initialProducts);
-      toast.error(t('deleteError'));
-    }
+    }, 5000);
+
+    toast.success(t('deletePending', { name: productName }), {
+      duration: 5000,
+      action: {
+        label: t('undo'),
+        onClick: () => {
+          undone = true;
+          window.clearTimeout(timer);
+          setProducts(snapshot);
+          toast.message(t('restored'));
+        },
+      },
+    });
   };
 
   const handleSort = (field: SortField) => {

@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useTranslations } from 'next-intl';
 import { useForm, useFieldArray } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
@@ -14,18 +14,18 @@ import { useRouter } from 'next/navigation';
 import { useHaptic } from '@/hooks/useHaptic';
 import { toast } from 'sonner';
 
-const recipeSchema = z.object({
-  name: z.string().min(1, "Name is required"),
+const getRecipeSchema = (t: (key: string) => string) => z.object({
+  name: z.string().min(1, t('validation.nameRequired')),
   description: z.string().optional(),
-  sellingPrice: z.coerce.number().min(0, "Price must be positive").default(0),
+  sellingPrice: z.coerce.number().min(0, t('validation.priceMin')).default(0),
   ingredients: z.array(z.object({
-    productId: z.string().min(1, "Product is required"),
-    quantity: z.coerce.number().min(0.001, "Quantity must be greater than 0"),
-    unit: z.string().min(1, "Unit is required"),
-  })).min(1, "At least one ingredient is required"),
+    productId: z.string().min(1, t('validation.productRequired')),
+    quantity: z.coerce.number().min(0.001, t('validation.quantityMin')),
+    unit: z.string().min(1, t('validation.unitRequired')),
+  })).min(1, t('validation.ingredientsMin')),
 });
 
-type RecipeFormValues = z.infer<typeof recipeSchema>;
+type RecipeFormValues = z.infer<ReturnType<typeof getRecipeSchema>>;
 
 interface Product {
   id: string;
@@ -45,7 +45,7 @@ export function CreateRecipeForm({ products }: CreateRecipeFormProps) {
   const { notification } = useHaptic();
 
   const form = useForm({
-    resolver: zodResolver(recipeSchema),
+    resolver: zodResolver(getRecipeSchema(t)),
     defaultValues: {
       name: '',
       description: '',
@@ -58,6 +58,21 @@ export function CreateRecipeForm({ products }: CreateRecipeFormProps) {
     control: form.control,
     name: "ingredients",
   });
+
+  // Keyboard shortcut: "n" → open create sheet
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key.toLowerCase() !== 'n') return;
+      if (e.metaKey || e.ctrlKey || e.altKey) return;
+      if (open) return;
+      const target = e.target as HTMLElement | null;
+      if (target && (target.tagName === 'INPUT' || target.tagName === 'TEXTAREA' || target.isContentEditable || target.tagName === 'SELECT')) return;
+      e.preventDefault();
+      setOpen(true);
+    };
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+  }, [open]);
 
   const onSubmit = async (data: RecipeFormValues) => {
     setLoading(true);
@@ -152,7 +167,7 @@ export function CreateRecipeForm({ products }: CreateRecipeFormProps) {
                       form.register(`ingredients.${index}.productId`).onChange(e);
                     }}
                   >
-                    <option value="">Select product</option>
+                    <option value="">{t('selectProduct')}</option>
                     {products.map((product) => (
                       <option key={product.id} value={product.id}>
                         {product.name}
@@ -160,7 +175,7 @@ export function CreateRecipeForm({ products }: CreateRecipeFormProps) {
                     ))}
                   </select>
                   {form.formState.errors.ingredients?.[index]?.productId && (
-                    <p className="text-sm text-red-500">Required</p>
+                    <p className="text-sm text-red-500">{t('required')}</p>
                   )}
                 </div>
 
@@ -169,7 +184,7 @@ export function CreateRecipeForm({ products }: CreateRecipeFormProps) {
                     type="number"
                     step="0.001"
                     {...form.register(`ingredients.${index}.quantity`, { valueAsNumber: true })}
-                    placeholder="Qty"
+                    placeholder={t('qtyPlaceholder')}
                   />
                 </div>
 

@@ -500,6 +500,17 @@
         "profileIncomplete": "Veuillez compléter votre profil établissement.",
         "createError": "Impossible de créer la recette. Réessayez.",
         "createSuccess": "Recette créée",
+        "validation": {
+            "nameRequired": "Le nom est requis",
+            "priceMin": "Le prix doit être positif",
+            "productRequired": "Produit requis",
+            "quantityMin": "La quantité doit être supérieure à 0",
+            "unitRequired": "Unité requise",
+            "ingredientsMin": "Au moins un ingrédient est requis"
+        },
+        "selectProduct": "Choisir un produit",
+        "qtyPlaceholder": "Qté",
+        "required": "Requis",
         "table": {
             "name": "Nom",
             "ingredients": "Ingrédients",
@@ -810,6 +821,9 @@
         "deleteConfirm": "Êtes-vous sûr de vouloir supprimer ce produit ?",
         "deleteSuccess": "{name} supprimé",
         "deleteError": "Échec de la suppression",
+        "deletePending": "{name} supprimé",
+        "undo": "Annuler",
+        "restored": "Suppression annulée",
         "image": "Image",
         "name": "Nom",
         "category": "Catégorie",
