@@ -111,6 +111,10 @@ model Business {
   subscriptionTier     SubscriptionTier     @default(FREE)
   subscriptionStatus   SubscriptionStatus   @default(ACTIVE)
   subscriptionEndDate  DateTime?
+  // "monthly" | "yearly" — nullable for FREE/legacy rows. Stripe is source
+  // of truth; we mirror it so we can segment analytics & show the right
+  // renewal copy in /dashboard/settings without hitting Stripe every time.
+  subscriptionBilling  String?
 
   stripeCustomerId     String?  @unique
   stripeSubscriptionId String?  @unique

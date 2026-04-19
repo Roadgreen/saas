@@ -23,6 +23,7 @@ export async function POST(req: NextRequest) {
       const session = event.data.object as Stripe.Checkout.Session;
       const businessId = session.metadata?.businessId;
       const tier = session.metadata?.tier;
+      const billing = session.metadata?.billing === 'yearly' ? 'yearly' : 'monthly';
 
       if (businessId && tier && session.subscription) {
         // Retrieve the subscription to know if it's trialing or active
@@ -37,6 +38,7 @@ export async function POST(req: NextRequest) {
           data: {
             subscriptionTier: tier as 'PRO' | 'ENTERPRISE',
             subscriptionStatus: isTrialing ? 'TRIALING' : 'ACTIVE',
+            subscriptionBilling: billing,
             stripeSubscriptionId: session.subscription as string,
             ...(trialEnd ? { trialEndsAt: trialEnd } : {}),
           },
@@ -58,10 +60,18 @@ export async function POST(req: NextRequest) {
 
       const trialEnd = sub.trial_end ? new Date(sub.trial_end * 1000) : null;
 
+      // Mirror any billing-cadence change (e.g. user upgrades monthly → yearly
+      // via Stripe customer portal). Metadata may be absent on legacy subs.
+      const billingMeta = sub.metadata?.billing;
+      const billing =
+        billingMeta === 'yearly' ? 'yearly' :
+        billingMeta === 'monthly' ? 'monthly' : undefined;
+
       await prisma.business.update({
         where: { id: businessId },
         data: {
           subscriptionStatus: status as 'ACTIVE' | 'TRIALING' | 'PAST_DUE' | 'CANCELED',
+          ...(billing ? { subscriptionBilling: billing } : {}),
           ...(trialEnd ? { trialEndsAt: trialEnd } : {}),
           // When trial ends and becomes active, clear the trialEndsAt
           ...(sub.status === 'active' && !sub.trial_end ? { trialEndsAt: null } : {}),
@@ -80,6 +90,7 @@ export async function POST(req: NextRequest) {
         data: {
           subscriptionTier: 'FREE',
           subscriptionStatus: 'CANCELED',
+          subscriptionBilling: null,
           stripeSubscriptionId: null,
         },
       });
