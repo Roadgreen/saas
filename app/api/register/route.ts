@@ -30,6 +30,19 @@ export async function POST(req: Request) {
         const body = await req.json();
         const parsed = RegisterSchema.parse(body);
         const { email, password } = parsed;
+
+        // Second rate-limit layer, keyed on the email. IP-only limits can be
+        // bypassed by residential-proxy pools and used to flood a target
+        // inbox with verification emails (→ Resend rep damage).
+        const emailKey = email.trim().toLowerCase();
+        const emailLimit = rateLimit(`register-email:${emailKey}`, { window: 60_000, max: 3 });
+        if (emailLimit.limited) {
+            return NextResponse.json(
+                { error: 'Too many requests. Please try again later.' },
+                { status: 429, headers: { 'Retry-After': String(emailLimit.retryAfter) } }
+            );
+        }
+
         // Derive defaults so the user isn't forced to fill them at signup
         const emailLocal = email.split('@')[0];
         const name = parsed.name ?? emailLocal;

@@ -29,11 +29,17 @@ const DRIP_SCHEDULE: { dayOffset: number; emailId: DripEmailId }[] = [
 
 export async function GET(request: Request) {
   // ── Auth: Vercel cron secret ────────────────────────────────────────
+  // Fail-closed: if CRON_SECRET isn't configured, we refuse to run rather
+  // than accepting any request (previous logic skipped auth entirely when
+  // the env var was missing, which would let anyone trigger drip blasts).
+  if (!process.env.CRON_SECRET) {
+    return NextResponse.json(
+      { error: 'CRON_SECRET not configured — refusing to run' },
+      { status: 500 }
+    );
+  }
   const authHeader = request.headers.get('authorization');
-  if (
-    process.env.CRON_SECRET &&
-    authHeader !== `Bearer ${process.env.CRON_SECRET}`
-  ) {
+  if (authHeader !== `Bearer ${process.env.CRON_SECRET}`) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
   }
 
