@@ -6,11 +6,15 @@ import { trackEvent } from '@/lib/tracking';
 import { rateLimit, getClientIp } from '@/lib/rate-limit';
 import { sendVerificationEmail } from '@/lib/resend';
 
+// Only email + password are truly required. Name and businessName are
+// optional on the marketing form (less friction = higher conversion) —
+// we fill sensible defaults below if omitted. User can change both
+// later from /dashboard/settings.
 const RegisterSchema = z.object({
     email: z.string().email(),
     password: z.string().min(8),
-    name: z.string().min(2),
-    businessName: z.string().min(2),
+    name: z.string().trim().min(2).optional().or(z.literal('').transform(() => undefined)),
+    businessName: z.string().trim().min(2).optional().or(z.literal('').transform(() => undefined)),
 });
 
 export async function POST(req: Request) {
@@ -24,7 +28,12 @@ export async function POST(req: Request) {
 
     try {
         const body = await req.json();
-        const { email, password, name, businessName } = RegisterSchema.parse(body);
+        const parsed = RegisterSchema.parse(body);
+        const { email, password } = parsed;
+        // Derive defaults so the user isn't forced to fill them at signup
+        const emailLocal = email.split('@')[0];
+        const name = parsed.name ?? emailLocal;
+        const businessName = parsed.businessName ?? (parsed.name ? `${parsed.name}'s Business` : 'My Business');
 
         const existingUser = await prisma.user.findUnique({
             where: { email },

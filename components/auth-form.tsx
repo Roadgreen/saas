@@ -235,18 +235,25 @@ export function AuthForm({ type }: AuthFormProps) {
         {type === 'register' && (
           <>
             <div className="space-y-2">
-              <Label htmlFor="name" className="text-sm font-medium text-white/80">{isFr ? 'Nom complet' : 'Full Name'}</Label>
-              <Input id="name" {...register('name')} placeholder="John Doe" className="input-premium rounded-xl h-11 bg-white/5 border-white/15 text-white placeholder:text-white/30" />
+              <Label htmlFor="name" className="text-sm font-medium text-white/80 flex items-center gap-2">
+                {isFr ? 'Nom complet' : 'Full Name'}
+                <span className="text-xs font-normal text-white/40">{isFr ? '(facultatif)' : '(optional)'}</span>
+              </Label>
+              <Input id="name" {...register('name')} placeholder="John Doe" autoComplete="name" className="input-premium rounded-xl h-11 bg-white/5 border-white/15 text-white placeholder:text-white/30" />
               {errors.name && (
                 <p className="text-sm text-red-500">{errors.name.message}</p>
               )}
             </div>
             <div className="space-y-2">
-              <Label htmlFor="businessName" className="text-sm font-medium text-white/80">{isFr ? "Nom de l'établissement" : 'Business Name'}</Label>
+              <Label htmlFor="businessName" className="text-sm font-medium text-white/80 flex items-center gap-2">
+                {isFr ? "Nom de l'établissement" : 'Business Name'}
+                <span className="text-xs font-normal text-white/40">{isFr ? '(facultatif)' : '(optional)'}</span>
+              </Label>
               <Input
                 id="businessName"
                 {...register('businessName')}
                 placeholder="Joe's Food Truck"
+                autoComplete="organization"
                 className="input-premium rounded-xl h-11 bg-white/5 border-white/15 text-white placeholder:text-white/30"
               />
               {errors.businessName && (
@@ -265,6 +272,8 @@ export function AuthForm({ type }: AuthFormProps) {
             type="email"
             {...register('email')}
             placeholder="name@example.com"
+            autoComplete="email"
+            inputMode="email"
             className="input-premium rounded-xl h-11 bg-white/5 border-white/15 text-white placeholder:text-white/30"
           />
           {errors.email && (
@@ -279,8 +288,12 @@ export function AuthForm({ type }: AuthFormProps) {
             type="password"
             {...register('password')}
             placeholder="••••••••"
+            autoComplete={type === 'register' ? 'new-password' : 'current-password'}
             className="input-premium rounded-xl h-11 bg-white/5 border-white/15 text-white placeholder:text-white/30"
           />
+          {type === 'register' && !errors.password && (
+            <p className="text-xs text-white/40">{isFr ? '8 caractères minimum' : 'At least 8 characters'}</p>
+          )}
           {errors.password && (
             <p className="text-sm text-red-500">{errors.password.message}</p>
           )}
