@@ -6,11 +6,16 @@ const BASE_URL = 'https://foodtracks.io';
 export default function sitemap(): MetadataRoute.Sitemap {
   const locales = ['fr', 'en'];
 
+  // Pages that change whenever we ship → always-fresh `lastModified`.
+  // Static/evergreen pages keep a hand-rolled date so crawlers don't think
+  // we're re-editing /terms every deploy.
+  const today = new Date().toISOString().slice(0, 10);
+
   const routes: { path: string; changeFrequency: MetadataRoute.Sitemap[number]['changeFrequency']; priority: number; lastModified: string }[] = [
-    { path: '',                  changeFrequency: 'weekly',  priority: 1.0, lastModified: '2026-03-30' },
-    { path: '/pricing',          changeFrequency: 'monthly', priority: 0.9, lastModified: '2026-03-30' },
+    { path: '',                  changeFrequency: 'weekly',  priority: 1.0, lastModified: today },
+    { path: '/pricing',          changeFrequency: 'monthly', priority: 0.9, lastModified: today },
     { path: '/comment-ca-marche', changeFrequency: 'monthly', priority: 0.8, lastModified: '2026-03-30' },
-    { path: '/blog',             changeFrequency: 'weekly',  priority: 0.8, lastModified: '2026-03-30' },
+    { path: '/blog',             changeFrequency: 'weekly',  priority: 0.8, lastModified: today },
     { path: '/faq',              changeFrequency: 'monthly', priority: 0.7, lastModified: '2026-02-15' },
     { path: '/guides',           changeFrequency: 'monthly', priority: 0.7, lastModified: '2026-02-15' },
     { path: '/support',          changeFrequency: 'monthly', priority: 0.5, lastModified: '2026-02-01' },
