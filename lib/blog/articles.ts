@@ -24090,6 +24090,468 @@ Food truck operators who consistently hit their break-even — and exceed it —
 **Further reading:** [Food Truck Variable Costs](/en/blog/charges-variables-food-truck) · [How to Calculate Recipe Cost Price](/en/blog/calculer-cout-revient-recette-food-truck) · [Food Truck KPI Dashboard](/en/blog/tableau-de-bord-kpi-food-truck) · [Optimise Margins with Data Analysis](/en/blog/optimiser-marges-food-truck-analyse-donnees)`,
     },
   },
+  {
+    slug: "gerer-plusieurs-food-trucks-flotte",
+    title: {
+      fr: "Gérer plusieurs food trucks : passer de 1 à 2+ camions sans perdre le contrôle",
+      en: "Managing Multiple Food Trucks: Scaling from 1 to 2+ Trucks Without Losing Control",
+    },
+    excerpt: {
+      fr: "Vous avez rentabilisé votre premier food truck et vous envisagez d'en ouvrir un deuxième ? Découvrez comment structurer votre flotte, déléguer efficacement et maintenir la rentabilité quand vous passez à plusieurs camions.",
+      en: "You've made your first food truck profitable and are thinking about opening a second? Learn how to structure your fleet, delegate effectively, and maintain profitability as you scale to multiple trucks.",
+    },
+    category: { fr: "Stratégie", en: "Strategy" },
+    date: "2026-04-19",
+    readTime: 12,
+    keywords: [
+      "gérer plusieurs food trucks",
+      "flotte food truck",
+      "passer 2 food trucks",
+      "développer food truck deuxième camion",
+      "ouvrir deuxième food truck",
+      "food truck fleet management",
+      "scale food truck business",
+      "déléguer food truck",
+      "organisation flotte food truck",
+      "rentabilité plusieurs food trucks",
+    ],
+    heroImage: "/blog/food-truck-equipe.png",
+    keyTakeaways: {
+      fr: [
+        "Ajouter un deuxième food truck double vos coûts fixes mais pas forcément vos revenus — la rentabilité du second camion dépend entièrement de votre capacité à déléguer et à standardiser.",
+        "Le passage à 2 camions exige un chef cuisinier ou manager de confiance sur chaque truck : c'est le recrutement le plus critique de votre développement.",
+        "Centraliser les achats et la production (cuisine centrale) réduit le food cost de 8 à 15 % sur l'ensemble de la flotte.",
+        "Un système de suivi en temps réel (stocks, ventes, emplacements) devient indispensable dès que vous ne pouvez plus être sur place partout.",
+        "La règle d'or : votre premier truck doit dégager une marge nette d'au moins 15 % avant d'en ouvrir un second — sinon vous multipliez vos problèmes, pas vos profits.",
+      ],
+      en: [
+        "Adding a second food truck doubles your fixed costs but not necessarily your revenue — the second truck's profitability depends entirely on your ability to delegate and standardise.",
+        "Moving to 2 trucks requires a trusted head chef or manager on each truck: this is the most critical hire in your expansion.",
+        "Centralising purchasing and production (central kitchen) reduces food cost by 8–15% across the fleet.",
+        "A real-time tracking system (stock, sales, locations) becomes essential once you can no longer be on-site everywhere.",
+        "The golden rule: your first truck must generate a net margin of at least 15% before opening a second — otherwise you multiply your problems, not your profits.",
+      ],
+    },
+    faqItems: [
+      {
+        question: {
+          fr: "Combien de temps faut-il avant d'ouvrir un deuxième food truck ?",
+          en: "How long before opening a second food truck?",
+        },
+        answer: {
+          fr: "En général, il faut au moins 12 à 18 mois d'exploitation rentable du premier camion avant d'envisager un deuxième. Ce délai permet de stabiliser vos process, de former une équipe fiable et de constituer une trésorerie suffisante pour absorber les imprévus du lancement.",
+          en: "Generally, you need at least 12 to 18 months of profitable operation of the first truck before considering a second. This time allows you to stabilise your processes, train a reliable team, and build enough cash reserves to absorb unexpected launch costs.",
+        },
+      },
+      {
+        question: {
+          fr: "Quel est le coût d'un deuxième food truck ?",
+          en: "What is the cost of a second food truck?",
+        },
+        answer: {
+          fr: "Le budget d'un deuxième food truck varie de 40 000 € à 150 000 € selon qu'il s'agit d'un camion d'occasion aménagé ou d'un véhicule neuf sur mesure. Ajoutez les coûts de recrutement (1 à 2 personnes), les autorisations de stationnement, et prévoyez 3 à 6 mois de trésorerie de sécurité.",
+          en: "The budget for a second food truck ranges from €40,000 to €150,000 depending on whether it is a used converted vehicle or a new custom build. Add recruitment costs (1–2 people), parking permits, and budget 3–6 months of safety cash reserves.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment gérer les stocks de plusieurs food trucks ?",
+          en: "How to manage stock across multiple food trucks?",
+        },
+        answer: {
+          fr: "La solution la plus efficace est la centralisation : une cuisine ou un entrepôt central prépare et distribue les produits à chaque camion chaque matin. Coupler cela à un logiciel de gestion des stocks comme FoodTracks permet de suivre les consommations par camion, d'anticiper les commandes et d'éviter les ruptures ou le sur-stockage.",
+          en: "The most effective solution is centralisation: a central kitchen or warehouse prepares and distributes products to each truck every morning. Pairing this with a stock management app like FoodTracks allows you to track consumption per truck, anticipate orders, and avoid stockouts or over-stocking.",
+        },
+      },
+      {
+        question: {
+          fr: "Faut-il créer une structure juridique différente pour chaque food truck ?",
+          en: "Do you need a different legal structure for each food truck?",
+        },
+        answer: {
+          fr: "Non, il est tout à fait possible de faire tourner plusieurs camions sous une seule entité juridique (SARL, SAS…). Cela simplifie la comptabilité et la gestion administrative. Certains opérateurs créent une holding pour structurer l'ensemble, mais c'est rarement nécessaire avant d'avoir 4 à 5 camions.",
+          en: "No, it is entirely possible to operate several trucks under a single legal entity (SARL, SAS…). This simplifies accounting and administration. Some operators create a holding company to structure the whole, but this is rarely necessary before reaching 4–5 trucks.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment maintenir la qualité quand on a plusieurs food trucks ?",
+          en: "How to maintain quality across multiple food trucks?",
+        },
+        answer: {
+          fr: "La standardisation est la clé : fiches techniques détaillées pour chaque recette, formation rigoureuse des équipes, contrôles qualité réguliers et audits terrains. Une cuisine centrale garantit l'homogénéité des produits. Le suivi des avis clients (Google, réseaux sociaux) par camion vous alerte sur les écarts de qualité.",
+          en: "Standardisation is key: detailed recipe cards for every dish, rigorous team training, regular quality checks, and field audits. A central kitchen ensures product consistency. Monitoring customer reviews (Google, social media) per truck alerts you to quality deviations.",
+        },
+      },
+    ],
+    relatedSlugs: [
+      "gerer-equipe-food-truck",
+      "rentabilite-food-truck-ameliorer",
+      "logiciel-gestion-food-truck",
+      "optimiser-marges-food-truck-analyse-donnees",
+      "recruter-premier-employe-food-truck",
+    ],
+    content: {
+      fr: `## Pourquoi passer à plusieurs food trucks ?
+
+Gérer un seul food truck rentable est déjà une vraie réussite. Mais une fois que votre modèle est rodé, la tentation de dupliquer est forte : plus de camions = plus de chiffre d'affaires, plus de visibilité, et une position plus solide sur votre marché.
+
+En réalité, **passer de 1 à 2 food trucks est l'une des transitions les plus délicates** que vous vivrez en tant qu'entrepreneur. Mal anticipée, elle peut mettre en danger l'ensemble de votre activité. Bien préparée, elle peut doubler vos revenus nets en 18 à 24 mois.
+
+Ce guide vous donne les clés pour réussir ce passage à l'échelle.
+
+## Les signaux qui indiquent que vous êtes prêt
+
+Avant de signer quoi que ce soit, vérifiez que vous remplissez ces conditions :
+
+- **Votre premier truck dégage une marge nette d'au moins 15 %** depuis 6 mois consécutifs minimum
+- **Vous avez un manager ou chef de confiance** capable de gérer le premier camion sans vous
+- **Votre trésorerie est positive et stable** — vous n'avez pas besoin de revenus du second truck pour payer les charges du premier
+- **Vos process sont documentés** : recettes, procédures d'ouverture/fermeture, gestion des stocks, relation fournisseurs
+- **Vous avez testé la délégation** : êtes-vous déjà parti une semaine en laissant le truck tourner ? Si ce n'est pas encore possible, ce n'est pas le moment d'ouvrir un deuxième camion
+
+### La règle des 15 %
+
+Un food truck bien géré devrait dégager entre 10 et 20 % de marge nette. Si vous êtes en dessous de 10 %, résoudre vos problèmes de rentabilité sur le truck 1 est toujours plus efficace et moins risqué qu'ouvrir un truck 2. La croissance n'est pas le remède à la sous-performance.
+
+## La structure organisationnelle : le changement le plus important
+
+### Vous ne pouvez pas être partout
+
+C'est la réalité brutale du passage à 2 camions : **vous devez accepter de ne plus tout contrôler personnellement**. Si vous êtes du genre à tout vérifier vous-même, c'est le moment de travailler sur votre capacité à déléguer.
+
+Chaque truck a besoin d'un responsable opérationnel présent à chaque service :
+
+| Rôle | Missions |
+|------|----------|
+| Responsable truck 1 | Ouvre, gère le service, ferme, remonte les infos |
+| Responsable truck 2 | Idem, en totale autonomie |
+| Vous (gérant) | Coordination, approvisionnement, commercial, suivi KPIs |
+
+### Le recrutement le plus critique de votre développement
+
+Votre responsable de truck n'est pas juste un employé supplémentaire — c'est la personne qui va incarner votre marque auprès de vos clients. Elle doit :
+
+- Maîtriser toutes vos recettes et standards qualité
+- Être capable de gérer une équipe (même de 1 à 2 personnes)
+- Savoir gérer les imprévus (panne, rupture, affluence inattendue)
+- Partager vos valeurs en termes de service client
+
+**Ne précipitez pas ce recrutement.** Mieux vaut retarder l'ouverture du second truck de 3 mois que de le confier à quelqu'un qui n'est pas prêt.
+
+## Centraliser pour gagner en efficacité
+
+### La cuisine centrale : le levier qui change tout
+
+La plupart des opérateurs multi-trucks rentables ont un point commun : **une cuisine ou un local central** où se fait la préparation en amont. Concrètement :
+
+- Les sauces, marinades, pâtes à pain, pré-découpes et autres préparations sont réalisées au central
+- Chaque matin, les camions partent avec leurs dotations du jour
+- Le gaspillage est réduit car les quantités sont calculées globalement
+- La qualité est homogène, car la production ne dépend plus du cuisinier sur place
+
+Le food cost peut baisser de **8 à 15 %** grâce à cette centralisation, car vous bénéficiez de meilleures conditions d'achat (volumes plus importants) et réduisez les doublons.
+
+### Centraliser les achats fournisseurs
+
+Avec 2 trucks, votre volume d'achat double. Renegociez vos tarifs fournisseurs en vous appuyant sur ces nouveaux volumes. Visez :
+
+- Un ou deux fournisseurs principaux par catégorie (viandes, légumes, produits secs)
+- Des livraisons au local central plutôt que sur chaque emplacement
+- Des conditions de paiement élargies (30 jours nets plutôt que comptant)
+
+Pour aller plus loin sur ce sujet : [Comment optimiser ses commandes fournisseurs en food truck](/fr/blog/optimiser-commandes-fournisseurs-food-truck).
+
+## Suivre la performance par camion
+
+### Des KPIs distincts pour chaque truck
+
+Dès que vous avez 2 camions, vous devez être capable de comparer leurs performances pour prendre de bonnes décisions. Les indicateurs clés à suivre par truck :
+
+- **Chiffre d'affaires par service**
+- **Ticket moyen**
+- **Food cost (%) par semaine**
+- **Gaspillage par service**
+- **Marge nette par mois**
+
+Si un camion performe systématiquement moins bien que l'autre, posez-vous la question : est-ce l'emplacement ? Le responsable ? Le menu ? Les horaires ?
+
+### L'importance d'un outil de gestion centralisé
+
+Gérer 2 trucks à la main (tableaux Excel, notes papier) devient rapidement ingérable. Vous avez besoin d'un outil qui :
+
+- Consolide les ventes des 2 trucks en temps réel (connexion SumUp ou autre TPE)
+- Suit les stocks de chaque camion séparément
+- Génère des alertes en cas de rupture ou de dérive du food cost
+- Vous permet de voir d'un coup d'œil si chaque truck atteint son objectif quotidien
+
+FoodTracks est conçu pour les opérateurs multi-emplacements : vous gérez plusieurs camions depuis une seule interface, avec une vue consolidée et des alertes automatiques. Découvrez le [tableau de bord KPI food truck](/fr/blog/tableau-de-bord-kpi-food-truck) pour comprendre quels indicateurs suivre.
+
+## L'aspect financier : ce que changent 2 trucks
+
+### Doubler les coûts fixes, pas forcément les revenus
+
+Un deuxième truck signifie :
+
+- Un deuxième loyer de emplacement ou des frais de stationnement supplémentaires
+- 1 à 2 salaires de plus (minimum)
+- Une assurance véhicule supplémentaire
+- Des charges d'entretien doublées
+
+Ces coûts fixes arrivent **avant que le second truck ne génère son premier euro**. Calculez votre nouveau seuil de rentabilité global, en intégrant les charges des deux camions.
+
+### Financer le second truck
+
+Plusieurs options :
+
+1. **Autofinancement** — si votre trésorerie le permet (idéal, pas de charge de remboursement)
+2. **Prêt bancaire classique** — entre 3 et 7 ans, taux actuels autour de 4 à 6 %
+3. **Crédit-bail (leasing)** — loyer mensuel sans apport, mais vous ne devenez propriétaire qu'en fin de contrat
+4. **Aides publiques** — BPI France, aides régionales, exonérations pour création d'emploi
+
+Pour en savoir plus : [Financer son food truck : aides et subventions](/fr/blog/financer-food-truck-aides-subventions).
+
+### Le cash-flow pendant la montée en charge
+
+Le second truck mettra en général **3 à 6 mois** avant d'atteindre son régime de croisière. Pendant cette période, prévoyez une trésorerie de sécurité couvrant au minimum 3 mois de charges fixes totales (truck 1 + truck 2).
+
+## Les erreurs les plus courantes à éviter
+
+### Ouvrir trop tôt
+
+C'est l'erreur numéro 1. L'enthousiasme après une bonne saison pousse à vouloir aller vite. Prenez le temps de stabiliser vos process et d'avoir le bon manager en place avant de signer quoi que ce soit.
+
+### Négliger le premier camion
+
+Paradoxalement, l'ouverture du second truck détourne souvent l'attention du premier. Assurez-vous que les deux ont des responsables opérationnels solides.
+
+### Copier-coller sans adapter
+
+Un emplacement qui marche pour le truck 1 ne marchera pas forcément pour le truck 2. Faites votre étude d'emplacement sérieusement, comme vous l'avez fait pour le premier.
+
+### Sous-estimer la complexité RH
+
+2 camions = au moins 2 à 4 personnes en plus. Les plannings, les congés, les remplacements, les conflits... La gestion humaine devient un métier à part entière. Lisez notre guide sur [la gestion d'équipe en food truck](/fr/blog/gerer-equipe-food-truck).
+
+## Plan d'action pour passer à 2 trucks
+
+### 6 mois avant l'ouverture
+
+- Auditer la rentabilité du truck 1 (marge nette, food cost, trésorerie)
+- Identifier et former votre futur responsable du truck 1
+- Lancer la recherche du ou des responsables du truck 2
+- Étudier les emplacements potentiels et les marchés cibles
+
+### 3 mois avant
+
+- Sécuriser le financement
+- Acquérir ou commander le véhicule
+- Déposer les demandes d'autorisations de stationnement
+- Mettre en place la cuisine ou le local central si besoin
+- Former les équipes sur les standards et les recettes
+
+### 1 mois avant
+
+- Réaliser des services tests avec le nouveau truck (soft launch)
+- Tester les process de coordination (communication entre trucks, remontée des stocks)
+- Paramétrer votre outil de gestion pour le suivi multi-truck
+- Communiquer sur l'ouverture du nouveau camion (réseaux sociaux, clients existants)
+
+### Le jour J et après
+
+- Être présent les premières semaines pour accompagner l'équipe du truck 2
+- Faire un point hebdomadaire avec chaque responsable
+- Ajuster emplacements, planning et menu en fonction des premiers retours
+- Suivre les KPIs de près et agir vite si les chiffres ne sont pas au rendez-vous
+
+## Conclusion
+
+Gérer plusieurs food trucks, c'est avant tout **gérer des hommes et des femmes**, des process et des données — pas seulement des camions. La réussite de votre flotte dépend de votre capacité à bâtir une organisation solide avant même d'ouvrir le second truck.
+
+Les opérateurs qui réussissent ce passage à l'échelle ont tous un point commun : ils ont investi dans les bons outils et les bonnes personnes **avant** d'avoir besoin d'eux.
+
+**Pour aller plus loin :** [Gestion d'équipe food truck](/fr/blog/gerer-equipe-food-truck) · [Améliorer la rentabilité de son food truck](/fr/blog/rentabilite-food-truck-ameliorer) · [Logiciel de gestion food truck](/fr/blog/logiciel-gestion-food-truck)`,
+      en: `## Why Scale to Multiple Food Trucks?
+
+Running a single profitable food truck is already a genuine achievement. But once your model is proven, the temptation to duplicate it is strong: more trucks means more revenue, more visibility, and a stronger market position.
+
+The reality is that **scaling from 1 to 2 food trucks is one of the trickiest transitions** you will face as an entrepreneur. Done without preparation, it can put your entire business at risk. Done right, it can double your net income within 18 to 24 months.
+
+This guide gives you the keys to making this scale-up a success.
+
+## Signals That You Are Ready
+
+Before signing anything, check that you meet these conditions:
+
+- **Your first truck generates a net margin of at least 15%** for 6 consecutive months minimum
+- **You have a trusted manager or head chef** capable of running the first truck without you
+- **Your cash flow is positive and stable** — you do not need the second truck's revenue to pay the first truck's bills
+- **Your processes are documented**: recipes, opening/closing procedures, stock management, supplier relationships
+- **You have already tested delegation**: have you taken a week off while the truck ran without you? If that is not yet possible, it is not time to open a second truck
+
+### The 15% Rule
+
+A well-run food truck should generate between 10 and 20% net margin. If you are below 10%, fixing profitability on truck 1 is always more effective and less risky than opening truck 2. Growth is not a remedy for underperformance.
+
+## Organisational Structure: The Most Important Change
+
+### You Cannot Be Everywhere
+
+This is the blunt reality of scaling to 2 trucks: **you must accept no longer personally controlling everything**. If you tend to check everything yourself, now is the time to work on your ability to delegate.
+
+Each truck needs an on-site operational lead at every service:
+
+| Role | Responsibilities |
+|------|-----------------|
+| Truck 1 manager | Opens, runs service, closes, reports back |
+| Truck 2 manager | Same, in full autonomy |
+| You (owner) | Coordination, purchasing, sales, KPI monitoring |
+
+### The Most Critical Hire in Your Expansion
+
+Your truck manager is not just another employee — they are the person who will embody your brand for your customers. They must:
+
+- Master all your recipes and quality standards
+- Be able to manage a small team (even 1–2 people)
+- Handle unexpected situations (breakdowns, stockouts, unexpected crowds)
+- Share your values in terms of customer service
+
+**Do not rush this hire.** It is better to delay the second truck's opening by 3 months than to hand it to someone who is not ready.
+
+## Centralise to Gain Efficiency
+
+### The Central Kitchen: The Game-Changing Lever
+
+Most profitable multi-truck operators share one thing: **a central kitchen or prep space**. In practice:
+
+- Sauces, marinades, bread dough, pre-cuts and other prep work are done centrally
+- Each morning, trucks leave with their day's supply
+- Waste is reduced because quantities are calculated across the fleet
+- Quality is consistent, since production no longer depends on the on-site cook
+
+Food cost can drop by **8–15%** through this centralisation, as you benefit from better purchasing conditions (higher volumes) and eliminate duplicate work.
+
+### Centralising Supplier Purchasing
+
+With 2 trucks, your purchase volumes double. Renegotiate your supplier terms based on these new volumes. Target:
+
+- One or two main suppliers per category (meat, vegetables, dry goods)
+- Deliveries to the central location rather than each spot
+- Extended payment terms (net 30 rather than immediate payment)
+
+For more on this: [How to Optimize Supplier Orders for Your Food Truck](/en/blog/optimiser-commandes-fournisseurs-food-truck).
+
+## Tracking Performance by Truck
+
+### Separate KPIs for Each Truck
+
+As soon as you have 2 trucks, you need to compare their performance to make good decisions. Key metrics to track per truck:
+
+- **Revenue per service**
+- **Average ticket**
+- **Food cost (%) per week**
+- **Waste per service**
+- **Net margin per month**
+
+If one truck consistently underperforms the other, ask yourself: is it the location? The manager? The menu? The hours?
+
+### The Importance of a Centralised Management Tool
+
+Managing 2 trucks manually (Excel sheets, paper notes) quickly becomes unmanageable. You need a tool that:
+
+- Consolidates sales from both trucks in real time (SumUp or other POS connection)
+- Tracks stock for each truck separately
+- Generates alerts in case of stockout or food cost drift
+- Lets you see at a glance whether each truck is hitting its daily target
+
+FoodTracks is built for multi-location operators: manage several trucks from a single dashboard, with consolidated views and automatic alerts. See our [food truck KPI dashboard guide](/en/blog/tableau-de-bord-kpi-food-truck) to understand which metrics to track.
+
+## The Financial Side: What Changes With 2 Trucks
+
+### Doubling Fixed Costs, Not Necessarily Revenue
+
+A second truck means:
+
+- A second location fee or additional parking costs
+- 1 to 2 extra salaries (minimum)
+- An additional vehicle insurance policy
+- Doubled maintenance charges
+
+These fixed costs arrive **before the second truck generates its first euro**. Recalculate your total break-even, incorporating both trucks' fixed costs.
+
+### Financing the Second Truck
+
+Several options:
+
+1. **Self-financing** — if your cash reserves allow it (ideal: no repayment burden)
+2. **Bank loan** — 3 to 7 years, current rates around 4–6%
+3. **Leasing** — monthly payment without a deposit, but you only own the vehicle at end of contract
+4. **Public grants** — BPI France, regional aid, job creation incentives
+
+For more: [How to Finance Your Food Truck: Grants and Subsidies](/en/blog/financer-food-truck-aides-subventions).
+
+### Cash Flow During the Ramp-Up
+
+The second truck will typically take **3 to 6 months** to reach cruising speed. During that period, budget a safety cash reserve covering at least 3 months of total fixed costs (truck 1 + truck 2).
+
+## The Most Common Mistakes to Avoid
+
+### Opening Too Early
+
+This is the number one mistake. Enthusiasm after a good season pushes you to move fast. Take the time to stabilise your processes and have the right manager in place before signing anything.
+
+### Neglecting the First Truck
+
+Paradoxically, opening the second truck often diverts attention from the first. Make sure both have solid operational leads.
+
+### Copy-Pasting Without Adapting
+
+A location that works for truck 1 will not necessarily work for truck 2. Do your location research properly, just as you did for the first one.
+
+### Underestimating HR Complexity
+
+2 trucks = at least 2 to 4 extra people. Schedules, holidays, cover, conflicts… People management becomes a profession in itself. Read our guide on [food truck team management](/en/blog/gerer-equipe-food-truck).
+
+## Action Plan for Scaling to 2 Trucks
+
+### 6 Months Before Opening
+
+- Audit truck 1's profitability (net margin, food cost, cash flow)
+- Identify and train your future truck 1 manager
+- Start recruiting truck 2's manager(s)
+- Research potential locations and target markets
+
+### 3 Months Before
+
+- Secure financing
+- Purchase or order the vehicle
+- File parking permit applications
+- Set up the central kitchen or prep space if needed
+- Train teams on standards and recipes
+
+### 1 Month Before
+
+- Run test services with the new truck (soft launch)
+- Test coordination processes (inter-truck communication, stock reporting)
+- Set up your management tool for multi-truck tracking
+- Communicate the new truck's opening (social media, existing customers)
+
+### Launch Day and Beyond
+
+- Be present in the first weeks to support truck 2's team
+- Hold weekly check-ins with each manager
+- Adjust locations, schedule and menu based on early feedback
+- Monitor KPIs closely and act fast if numbers are not on target
+
+## Conclusion
+
+Managing multiple food trucks is fundamentally about **managing people, processes and data** — not just vehicles. Your fleet's success depends on building a solid organisation before the second truck even opens.
+
+Operators who successfully make this scale-up all share one thing: they invested in the right tools and the right people **before** they needed them.
+
+**Further reading:** [Food Truck Team Management](/en/blog/gerer-equipe-food-truck) · [How to Improve Food Truck Profitability](/en/blog/rentabilite-food-truck-ameliorer) · [Food Truck Management Software](/en/blog/logiciel-gestion-food-truck)`,
+    },
+  },
 ];
 
 export function getArticleBySlug(slug: string): BlogArticle | undefined {

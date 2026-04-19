@@ -23,4 +23,5 @@
 | 2026-04-12 | menu-food-truck-rentable | Comment créer un menu food truck rentable : sélection, prix et psychologie de la carte | publie |
 | 2026-04-13 | gestion-allergenes-food-truck | Gestion des allergènes en food truck : obligations, affichage et bonnes pratiques | publie |
 | 2026-04-15 | rotation-stock-food-truck | Optimiser la rotation des stocks en food truck : méthode complète pour réduire le gaspillage et améliorer vos marges | publie |
+| 2026-04-19 | gerer-plusieurs-food-trucks-flotte | Gérer plusieurs food trucks : passer de 1 à 2+ camions sans perdre le contrôle | publie |
 | 2026-04-16 | charges-variables-food-truck | Charges variables food truck : identifier, réduire et optimiser ses coûts | publie |
