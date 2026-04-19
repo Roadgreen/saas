@@ -158,8 +158,55 @@ function extractIp(request: NextRequest): string | null {
   return request.headers.get('x-real-ip') ?? null;
 }
 
+/**
+ * Anonymise the IP for GDPR-friendly storage.
+ *   IPv4  → zero out the last octet   (1.2.3.4   → 1.2.3.0)
+ *   IPv6  → zero out the last 80 bits (drop interface + subnet identifiers)
+ * Still useful for country/region geo but can no longer identify a user.
+ */
+function anonymizeIp(ip: string | null): string | null {
+  if (!ip) return null;
+  if (ip.includes('.')) {
+    const parts = ip.split('.');
+    if (parts.length === 4) return `${parts[0]}.${parts[1]}.${parts[2]}.0`;
+    return null;
+  }
+  if (ip.includes(':')) {
+    const groups = ip.split(':');
+    // Keep the first 3 hextets (48 bits) — plenty for geo, not enough for identity
+    return `${groups.slice(0, 3).join(':')}::`;
+  }
+  return null;
+}
+
+/**
+ * Strip sensitive keys from user-supplied `properties`. Client code should
+ * never send these — but we cannot trust the client. Belt-and-braces.
+ */
+const SENSITIVE_KEY_RE = /pass(word)?|secret|token|api[_-]?key|authori[sz]ation|credit[_-]?card|cvv|ssn|bearer/i;
+function sanitizeProperties(props: Record<string, unknown>): Record<string, unknown> {
+  const out: Record<string, unknown> = {};
+  for (const [key, value] of Object.entries(props)) {
+    if (SENSITIVE_KEY_RE.test(key)) continue;
+    out[key] = value;
+  }
+  return out;
+}
+
+// 256KB: comfortably fits a batch of 50 events (~2KB each) with headroom,
+// hard-caps runaway payloads (including bots trying to fill the DB).
+const MAX_BODY_BYTES = 256 * 1024;
+
 export async function POST(request: NextRequest) {
+  const contentLength = Number(request.headers.get('content-length') ?? 0);
+  if (contentLength > MAX_BODY_BYTES) {
+    return NextResponse.json({ ok: false, error: 'payload too large' }, { status: 413 });
+  }
+
   const rawBody = await request.text();
+  if (rawBody.length > MAX_BODY_BYTES) {
+    return NextResponse.json({ ok: false, error: 'payload too large' }, { status: 413 });
+  }
   const ip = extractIp(request);
 
   // Must await processing before returning — on Vercel serverless,
@@ -205,6 +252,8 @@ async function processEvents(rawBody: string, ip: string | null): Promise<void> 
 
   const col = await getEventsCollection();
 
+  const anonIp = anonymizeIp(ip);
+
   // Build event documents — server always stamps the timestamp
   const events: AnalyticsEvent[] = payloads.map((payload) => ({
     eventId: crypto.randomUUID(),
@@ -212,14 +261,14 @@ async function processEvents(rawBody: string, ip: string | null): Promise<void> 
     timestamp: new Date(), // server-authoritative
     sessionId: payload.sessionId,
     pageViewId: payload.pageViewId,
-    ip,
+    ip: anonIp,
     user: {
       ...payload.user,
       id: payload.user.id ?? null,
     },
     page: payload.page,
     device: payload.device,
-    properties: payload.properties,
+    properties: sanitizeProperties(payload.properties),
     ...(payload.error ? { error: payload.error } : {}),
   }));
 

@@ -58,6 +58,15 @@ export async function getEventsCollection(): Promise<Collection<AnalyticsEvent>>
  * Call once on app startup (or via a migration script).
  * Safe to call multiple times — MongoDB ignores existing indexes.
  */
+/**
+ * Retention: events auto-expire after this many days.
+ * 400 days = enough for year-over-year comparison, aligned with
+ * GDPR "data minimisation" and standard analytics retention policies.
+ * Change requires dropping + recreating the TTL index (Mongo only
+ * allows updating expireAfterSeconds via collMod, not createIndexes).
+ */
+const RETENTION_DAYS = 400;
+
 export async function ensureAnalyticsIndexes(): Promise<void> {
   const col = await getEventsCollection();
 
@@ -85,5 +94,11 @@ export async function ensureAnalyticsIndexes(): Promise<void> {
     // UTM attribution queries
     { key: { 'page.utmSource': 1, timestamp: -1 }, name: 'utm_source_timestamp', sparse: true },
     { key: { 'page.utmCampaign': 1, timestamp: -1 }, name: 'utm_campaign_timestamp', sparse: true },
+    // TTL: auto-delete events past retention window (GDPR + cost control)
+    {
+      key: { timestamp: 1 },
+      name: 'timestamp_ttl',
+      expireAfterSeconds: RETENTION_DAYS * 24 * 60 * 60,
+    },
   ]);
 }

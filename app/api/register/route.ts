@@ -37,7 +37,9 @@ export async function POST(req: Request) {
             );
         }
 
-        const hashedPassword = await bcrypt.hash(password, 10);
+        // Cost factor 12: ~250ms per hash on modern hardware — aligns with
+        // OWASP 2025 guidance for bcrypt. 10 was too low given GPU progress.
+        const hashedPassword = await bcrypt.hash(password, 12);
 
         // Generate a secure verification token (32 random bytes → hex string)
         const verificationToken = Array.from(
