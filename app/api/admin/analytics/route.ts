@@ -52,23 +52,25 @@ export async function GET(request: NextRequest) {
     switch (section) {
       // ── Overview: unique visitors, sessions, page views ──
       case 'overview': {
-        const [visitors, sessions, pageViews] = await Promise.all([
-          col.distinct('user.anonymousId', {
-            timestamp: { $gte: since },
-            'user.anonymousId': { $ne: null },
-          }),
-          col.distinct('sessionId', {
-            timestamp: { $gte: since },
-          }),
-          col.countDocuments({
-            type: 'page_view',
-            timestamp: { $gte: since },
-          }),
+        // Use $group + $count instead of distinct() — distinct() returns
+        // the full list of unique IDs (blows memory at scale), whereas
+        // the pipeline streams and just returns the count.
+        const countUnique = (field: string, extraMatch: Record<string, unknown> = {}) =>
+          col.aggregate<{ n: number }>([
+            { $match: { timestamp: { $gte: since }, [field]: { $ne: null }, ...extraMatch } },
+            { $group: { _id: `$${field}` } },
+            { $count: 'n' },
+          ]).toArray();
+
+        const [visitorsRes, sessionsRes, pageViews] = await Promise.all([
+          countUnique('user.anonymousId'),
+          countUnique('sessionId'),
+          col.countDocuments({ type: 'page_view', timestamp: { $gte: since } }),
         ]);
 
         return NextResponse.json({
-          visitors: visitors.length,
-          sessions: sessions.length,
+          visitors: visitorsRes[0]?.n ?? 0,
+          sessions: sessionsRes[0]?.n ?? 0,
           pageViews,
           period,
         });

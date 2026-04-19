@@ -118,19 +118,23 @@ const BodySchema = z.union([
 // — Simple in-memory rate limiter (per sessionId, resets per minute) —
 const rateLimitMap = new Map<string, { count: number; resetAt: number }>();
 const MAX_EVENTS_PER_MINUTE = 200;
+// Tighter ceiling per-IP so rotating sessionIds can't fan-out the attack:
+// 1000 events/min per IP = 50 tabs × 20 events each, comfortably above
+// real usage but blocks synthetic floods.
+const MAX_EVENTS_PER_IP_PER_MINUTE = 1000;
 
-function isRateLimited(sessionId: string): boolean {
+function isRateLimited(key: string, max: number): boolean {
   const now = Date.now();
-  const entry = rateLimitMap.get(sessionId);
+  const entry = rateLimitMap.get(key);
 
   if (!entry || now > entry.resetAt) {
-    rateLimitMap.set(sessionId, { count: 1, resetAt: now + 60_000 });
+    rateLimitMap.set(key, { count: 1, resetAt: now + 60_000 });
     return false;
   }
 
   entry.count += 1;
 
-  if (entry.count > MAX_EVENTS_PER_MINUTE) return true;
+  if (entry.count > max) return true;
 
   return false;
 }
@@ -247,8 +251,10 @@ async function processEvents(rawBody: string, ip: string | null): Promise<void> 
 
   const sessionId = payloads[0].sessionId;
 
-  // Rate limit check
-  if (isRateLimited(sessionId)) return;
+  // Rate limit: drop floods from a single session OR from a single IP
+  // (guards against sessionId rotation bypass).
+  if (isRateLimited(`s:${sessionId}`, MAX_EVENTS_PER_MINUTE)) return;
+  if (ip && isRateLimited(`i:${ip}`, MAX_EVENTS_PER_IP_PER_MINUTE)) return;
 
   const col = await getEventsCollection();
 
