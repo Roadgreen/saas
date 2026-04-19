@@ -64,6 +64,7 @@ export function AuthForm({ type }: AuthFormProps) {
   const searchParams = useSearchParams();
   const plan = searchParams.get('plan'); // e.g. "PRO" or "ENTERPRISE"
   const verified = searchParams.get('verified') === 'true';
+  const resetSuccess = searchParams.get('reset') === 'success';
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
   const [oauthLoading, setOauthLoading] = useState<string | null>(null);
@@ -223,6 +224,13 @@ export function AuthForm({ type }: AuthFormProps) {
         </div>
       )}
 
+      {resetSuccess && type === 'login' && (
+        <div className="p-4 text-sm text-green-300 bg-green-900/30 rounded-xl border border-green-700/50 flex items-start gap-2.5">
+          <CheckCircle2 className="h-4 w-4 mt-0.5 flex-shrink-0 text-green-600" />
+          <span>{isFr ? 'Mot de passe réinitialisé. Connectez-vous avec votre nouveau mot de passe.' : 'Password reset. Sign in with your new password.'}</span>
+        </div>
+      )}
+
       {error && (
         <div className="p-4 text-sm text-red-300 bg-red-900/30 rounded-xl border border-red-700/50 flex items-start gap-2.5">
           <XCircle className="h-4 w-4 mt-0.5 flex-shrink-0 text-red-500" />
@@ -333,7 +341,17 @@ export function AuthForm({ type }: AuthFormProps) {
         </div>
 
         <div className="space-y-2">
-          <Label htmlFor="password" className="text-sm font-medium text-white/80">{isFr ? 'Mot de passe' : 'Password'}</Label>
+          <div className="flex items-center justify-between">
+            <Label htmlFor="password" className="text-sm font-medium text-white/80">{isFr ? 'Mot de passe' : 'Password'}</Label>
+            {type === 'login' && (
+              <Link
+                href={`/${locale}/forgot-password`}
+                className="text-xs text-orange-600 hover:text-orange-700 font-medium transition-colors"
+              >
+                {isFr ? 'Mot de passe oublié ?' : 'Forgot password?'}
+              </Link>
+            )}
+          </div>
           <Input
             id="password"
             type="password"

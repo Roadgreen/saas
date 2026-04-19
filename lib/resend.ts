@@ -125,6 +125,62 @@ export async function sendVerificationEmail({
   console.log('[resend] Verification email sent:', data?.id, '→', to);
 }
 
+// ─── Send Password Reset Email ────────────────────────────────────────────────
+
+export async function sendPasswordResetEmail({
+  to,
+  name,
+  resetUrl,
+}: {
+  to: string;
+  name: string | null;
+  resetUrl: string;
+}): Promise<void> {
+  const firstName = (name ?? to).split(' ')[0];
+
+  const html = baseTemplate(`
+    <h1 style="margin:0 0 8px;font-size:24px;font-weight:700;color:#1a1a1a;">
+      Reset your password
+    </h1>
+    <p style="margin:0 0 24px;font-size:15px;color:#6b7280;line-height:1.6;">
+      Hi ${firstName}, we received a request to reset the password for your FoodTracks account.
+      Click the button below to choose a new one. The link is valid for 1 hour.
+    </p>
+
+    <table width="100%" cellpadding="0" cellspacing="0">
+      <tr>
+        <td align="center" style="padding:8px 0 32px;">
+          <a href="${resetUrl}"
+             style="display:inline-block;background:#f97316;color:#ffffff;font-size:15px;font-weight:700;text-decoration:none;border-radius:10px;padding:14px 36px;">
+            Reset my password
+          </a>
+        </td>
+      </tr>
+    </table>
+
+    <p style="margin:0 0 8px;font-size:13px;color:#9ca3af;">
+      If you didn't request this, you can safely ignore this email — your password won't change.
+    </p>
+    <p style="margin:0;font-size:13px;color:#d1d5db;word-break:break-all;">
+      Or copy this URL: ${resetUrl}
+    </p>
+  `);
+
+  const { data, error } = await getResend().emails.send({
+    from: FROM,
+    to,
+    subject: `Reset your FoodTracks password`,
+    html,
+  });
+
+  if (error) {
+    console.error('[resend] Failed to send password reset email:', error);
+    throw new Error(`Resend API error: ${error.message}`);
+  }
+
+  console.log('[resend] Password reset email sent:', data?.id, '→', to);
+}
+
 // ─── Send Welcome Email (after verification) ──────────────────────────────────
 
 export async function sendWelcomeEmail({

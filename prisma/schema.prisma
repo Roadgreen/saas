@@ -45,6 +45,12 @@ model User {
   verificationToken       String?   @unique
   verificationTokenExpiry DateTime?
 
+  // Password reset — single-use token + expiry. Nulled on use so a leaked
+  // link can't be replayed, and on next reset request a fresh token is
+  // generated.
+  resetPasswordToken       String?   @unique
+  resetPasswordTokenExpiry DateTime?
+
   // Push notifications
   pushToken String?
 
