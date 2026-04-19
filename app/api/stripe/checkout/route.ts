@@ -10,13 +10,21 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
     }
 
-    const { tier, locale } = await req.json();
+    const { tier, locale, billing } = await req.json();
 
-    const priceMap: Record<string, string | undefined> = {
+    // Yearly price IDs are optional env vars. If the tier is requested yearly
+    // but no yearly price is configured, fall back to the monthly price so
+    // checkout still works (rather than 400-ing the user).
+    const isYearly = billing === 'yearly';
+    const monthlyMap: Record<string, string | undefined> = {
       PRO: process.env.STRIPE_PRO_PRICE_ID,
       ENTERPRISE: process.env.STRIPE_ENTERPRISE_PRICE_ID,
     };
-    const priceId = priceMap[tier];
+    const yearlyMap: Record<string, string | undefined> = {
+      PRO: process.env.STRIPE_PRO_PRICE_ID_YEARLY,
+      ENTERPRISE: process.env.STRIPE_ENTERPRISE_PRICE_ID_YEARLY,
+    };
+    const priceId = (isYearly && yearlyMap[tier]) || monthlyMap[tier];
     if (!priceId) {
       return NextResponse.json({ error: `Prix non configuré pour le plan ${tier}. Ajoutez STRIPE_PRO_PRICE_ID dans votre .env` }, { status: 400 });
     }
@@ -67,9 +75,9 @@ export async function POST(req: NextRequest) {
       line_items: [{ price: priceId, quantity: 1 }],
       success_url: `${appUrl}/${locale}/dashboard?payment=success`,
       cancel_url: `${appUrl}/${locale}/pricing`,
-      metadata: { businessId: business.id, tier },
+      metadata: { businessId: business.id, tier, billing: isYearly ? 'yearly' : 'monthly' },
       subscription_data: {
-        metadata: { businessId: business.id, tier },
+        metadata: { businessId: business.id, tier, billing: isYearly ? 'yearly' : 'monthly' },
         trial_period_days: 14,
       },
       // Show trial info on Stripe's hosted checkout page

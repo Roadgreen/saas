@@ -566,6 +566,8 @@
             "title": "Pro",
             "description": "For growing food trucks",
             "price": "29€",
+            "priceYearly": "24€",
+            "priceYearlyTotal": "290€",
             "features": [
                 "Unlimited Users",
                 "Unlimited Locations",
@@ -587,7 +589,15 @@
         },
         "subscribe": "Subscribe",
         "contact": "Contact Sales",
-        "currentPlan": "Current Plan"
+        "currentPlan": "Current Plan",
+        "billing": {
+            "monthly": "Monthly",
+            "yearly": "Yearly",
+            "savingsBadge": "–17%",
+            "perMonth": "/mo",
+            "billedAnnually": "Billed {total}/yr — 2 months free",
+            "toggleAria": "Choose billing frequency"
+        }
     },
     "AIScanner": {
         "upgradeTitle": "Unlock AI Scanner",

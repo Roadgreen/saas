@@ -12,6 +12,8 @@ interface CheckoutButtonProps {
   disabled?: boolean;
   isCurrentPlan?: boolean;
   currentPlanLabel?: string;
+  /** Billing cadence selected on the pricing grid. Ignored for FREE. */
+  billing?: 'monthly' | 'yearly';
 }
 
 export function CheckoutButton({
@@ -21,6 +23,7 @@ export function CheckoutButton({
   disabled,
   isCurrentPlan,
   currentPlanLabel,
+  billing,
 }: CheckoutButtonProps) {
   const [loading, setLoading] = useState(false);
   const locale = useLocale();
@@ -39,7 +42,7 @@ export function CheckoutButton({
       const res = await fetch('/api/stripe/checkout', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ tier, locale }),
+        body: JSON.stringify({ tier, locale, billing }),
       });
 
       if (res.status === 401) {

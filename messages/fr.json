@@ -566,6 +566,8 @@
             "title": "Pro",
             "description": "Pour les food trucks en croissance",
             "price": "29€",
+            "priceYearly": "24€",
+            "priceYearlyTotal": "290€",
             "features": [
                 "Utilisateurs Illimités",
                 "Emplacements Illimités",
@@ -587,7 +589,15 @@
         },
         "subscribe": "S'abonner",
         "contact": "Contacter les Ventes",
-        "currentPlan": "Plan Actuel"
+        "currentPlan": "Plan Actuel",
+        "billing": {
+            "monthly": "Mensuel",
+            "yearly": "Annuel",
+            "savingsBadge": "–17%",
+            "perMonth": "/mois",
+            "billedAnnually": "Facturé {total}/an — 2 mois offerts",
+            "toggleAria": "Choisir la fréquence de facturation"
+        }
     },
     "AIScanner": {
         "upgradeTitle": "Débloquer le Scanner IA",
