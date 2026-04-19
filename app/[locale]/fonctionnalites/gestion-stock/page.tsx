@@ -72,7 +72,7 @@ export default async function InventoryManagementPage() {
     '@type': 'BreadcrumbList',
     itemListElement: [
       { '@type': 'ListItem', position: 1, name: 'FoodTracks', item: `${BASE_URL}/${locale}` },
-      { '@type': 'ListItem', position: 2, name: isFr ? 'Fonctionnalités' : 'Features', item: `${BASE_URL}/${locale}` },
+      { '@type': 'ListItem', position: 2, name: isFr ? 'Fonctionnalités' : 'Features', item: `${BASE_URL}/${locale}/fonctionnalites` },
       { '@type': 'ListItem', position: 3, name: isFr ? 'Gestion de stock' : 'Inventory Management', item: `${BASE_URL}/${locale}/fonctionnalites/gestion-stock` },
     ],
   };
