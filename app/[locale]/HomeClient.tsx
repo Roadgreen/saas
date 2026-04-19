@@ -1234,6 +1234,7 @@ export default function HomeClient() {
                 <li><Link href={`/${locale}/guides`} className="hover:text-gray-300 transition-colors">{t('footer.guides')}</Link></li>
                 <li><Link href={`/${locale}/faq`} className="hover:text-gray-300 transition-colors">FAQ</Link></li>
                 <li><Link href={`/${locale}/ville`} className="hover:text-gray-300 transition-colors">{locale === 'fr' ? 'Par ville' : 'By city'}</Link></li>
+                <li><Link href={`/${locale}/comparatif`} className="hover:text-gray-300 transition-colors">{locale === 'fr' ? 'Comparatifs' : 'Comparisons'}</Link></li>
                 <li><Link href={`/${locale}/support`} className="hover:text-gray-300 transition-colors">{t('footer.support')}</Link></li>
               </ul>
             </div>
