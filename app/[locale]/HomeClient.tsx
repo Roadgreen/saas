@@ -1220,7 +1220,7 @@ export default function HomeClient() {
             <div>
               <h4 className="text-xs font-semibold uppercase tracking-wider mb-5" style={{ color: '#9CA3AF' }}>{t('footer.product')}</h4>
               <ul className="space-y-3 text-sm" style={{ color: '#4B5563' }}>
-                <li><a href="#fonctionnalites" className="hover:text-gray-300 transition-colors">{t('footer.features')}</a></li>
+                <li><Link href={`/${locale}/fonctionnalites`} className="hover:text-gray-300 transition-colors">{t('footer.features')}</Link></li>
                 <li><Link href={`/${locale}/pricing`} className="hover:text-gray-300 transition-colors">{t('footer.pricing')}</Link></li>
                 <li><Link href={`/${locale}/comment-ca-marche`} className="hover:text-gray-300 transition-colors">{locale === 'fr' ? 'Comment ça marche' : 'How it works'}</Link></li>
                 <li><Link href={`/${locale}/security`} className="hover:text-gray-300 transition-colors">{t('footer.security')}</Link></li>
