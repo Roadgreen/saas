@@ -206,7 +206,7 @@ export default async function GuidesPage({ params }: { params: Promise<{ locale:
           <h2 className="text-2xl font-bold mb-6 text-center">
             {isFr ? 'Guides approfondis' : 'In-depth guides'}
           </h2>
-          <div className="grid sm:grid-cols-3 gap-4">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
             {[
               {
                 icon: BookOpen,
@@ -225,6 +225,12 @@ export default async function GuidesPage({ params }: { params: Promise<{ locale:
                 href: `/${locale}/guides/food-truck-reglementation-france`,
                 title: isFr ? 'Réglementation en France' : 'French regulations',
                 desc: isFr ? 'Permis, hygiène, assurances, TVA.' : 'Permits, hygiene, insurance, VAT.',
+              },
+              {
+                icon: CreditCard,
+                href: `/${locale}/guides/ouvrir-food-truck-auto-entrepreneur`,
+                title: isFr ? 'Ouvrir en auto-entrepreneur' : 'Open as sole trader',
+                desc: isFr ? 'Statut, démarches et charges.' : 'Status, paperwork and charges.',
               },
             ].map((g, i) => {
               const Icon = g.icon;
