@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Loader2 } from 'lucide-react';
 import { useLocale } from 'next-intl';
+import { toast } from 'sonner';
 
 interface CheckoutButtonProps {
   tier: string;
@@ -53,9 +54,9 @@ export function CheckoutButton({
       if (!res.ok) {
         try {
           const err = await res.json();
-          alert(err.error ?? `Erreur ${res.status}`);
+          toast.error(err.error ?? `Error ${res.status}`);
         } catch {
-          alert(`Erreur serveur (${res.status}) — vérifie la console du terminal`);
+          toast.error(`Server error (${res.status})`);
         }
         return;
       }

@@ -551,6 +551,7 @@
         "title": "Simple Pricing",
         "subtitle": "Choose the plan that fits your business.",
         "popular": "Popular",
+        "trustLine": "14-day Pro trial — email reminder 2 days before your trial ends. Cancel anytime in one click from your dashboard.",
         "free": {
             "title": "Free",
             "description": "Perfect for getting started",
