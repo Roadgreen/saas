@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { getTranslations } from 'next-intl/server';
 import {
-  Flame, TrendingUp, CreditCard, ArrowRight,
+  Flame, TrendingUp, CreditCard, ArrowRight, Check,
 } from "lucide-react";
 import type { Metadata } from 'next';
 import HomeClient from './HomeClient';
@@ -139,7 +139,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
                 {t('hero.subtitle')}
               </p>
 
-              <div className="flex flex-col sm:flex-row gap-4">
+              <div className="flex flex-col sm:flex-row gap-4 items-start sm:items-center">
                 <Link href={`/${locale}/register?plan=PRO`}>
                   <button
                     className="btn-landing btn-cta-primary btn-shimmer inline-flex items-center justify-center gap-3 rounded-full font-bold px-10 py-4.5 text-white text-base"
@@ -149,15 +149,34 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
                     <ArrowRight className="h-4.5 w-4.5" />
                   </button>
                 </Link>
+                {/* Secondary CTA de-emphasised: smaller padding + ghost style
+                    so the primary orange button wins the eye unambiguously */}
                 <a href="#comment-ca-marche">
                   <button
-                    className="btn-landing btn-outline-dark inline-flex items-center justify-center rounded-full font-semibold px-10 py-4.5 border text-base"
-                    style={{ borderColor: 'rgba(255,255,255,0.1)', color: '#D1D5DB', backgroundColor: 'transparent' }}
+                    className="btn-landing inline-flex items-center justify-center rounded-full font-medium px-6 py-3 text-sm transition-colors hover:text-white"
+                    style={{ color: '#9CA3AF', backgroundColor: 'transparent' }}
                   >
                     {t('hero.ctaSecondary')}
                   </button>
                 </a>
               </div>
+
+              {/* Reassurance row — directly below the CTA so objections are
+                  neutralised at the exact moment of decision. */}
+              <ul className="flex flex-wrap items-center gap-x-5 gap-y-2 text-xs pt-1" style={{ color: '#9CA3AF' }}>
+                <li className="inline-flex items-center gap-1.5">
+                  <Check className="h-3.5 w-3.5" style={{ color: '#22C55E' }} />
+                  {t('hero.noCreditCard')}
+                </li>
+                <li className="inline-flex items-center gap-1.5">
+                  <Check className="h-3.5 w-3.5" style={{ color: '#22C55E' }} />
+                  {t('hero.moneyBack')}
+                </li>
+                <li className="inline-flex items-center gap-1.5">
+                  <Check className="h-3.5 w-3.5" style={{ color: '#22C55E' }} />
+                  {t('hero.cancelAnytime')}
+                </li>
+              </ul>
 
             </div>
 

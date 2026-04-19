@@ -2,6 +2,33 @@
 
 ---
 
+## 2026-04-19 — Post dimanche (11h42)
+
+**Topic:** emplacements | **Template:** beforeafter
+
+**Choix stratégique:** Analytics récents montrent que le blog "équipement food truck" et "financer food truck" performent via Google organique (SEO). Le topic `emplacements` a été sélectionné automatiquement par le script (random). Pertinent pour un dimanche : les food truckers planifient leur semaine et pensent à leurs spots.
+
+**Image:** `/home/roadgreen/.openclaw/workspace/instagram-posts/20260419_1142-emplacements.png`
+Générée via Imagen 4 (Gemini). Scène : deux food trucks (busy corner vs empty street). Overlay texte: "Data > Feeling"
+
+**Caption (360 chars):**
+> AVANT FoodTracks :
+> Tu te poses au hasard et tu espères. Tu fais tout au feeling.
+>
+> APRÈS FoodTracks :
+> Tu sais exactement quel spot marche quel jour. Zéro stress.
+>
+> La différence ? Des données. Pas de la chance.
+>
+> Lien en bio → foodtracks.io
+>
+> #foodtruck #streetfood #avantapres #transformation #foodtrucklife #foodtruck #emplacement #data #foodtracksio
+
+**Instagram:** ERREUR — Cannot find "Créer" button (Chrome headless — session verrouillée ou layout Instagram modifié)
+**Facebook:** OK — Photo ID: `122109715893071748`
+
+---
+
 ## 2026-03-21 — Post midi
 
 **Topic:** rentabilite | **Template:** painpoint
