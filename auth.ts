@@ -6,6 +6,7 @@ import Apple from 'next-auth/providers/apple';
 import { z } from 'zod';
 import { prisma } from '@/lib/prisma';
 import bcrypt from 'bcryptjs';
+import { rateLimit, getClientIp } from '@/lib/rate-limit';
 
 async function getUser(email: string) {
     try {
@@ -16,6 +17,12 @@ async function getUser(email: string) {
         throw new Error('Failed to fetch user.');
     }
 }
+
+// Pre-computed bcrypt hash of a random string — used to burn CPU on
+// missing-user logins so attackers cannot distinguish "unknown email"
+// from "wrong password" by timing. Cost 12 matches the real hashes.
+const DUMMY_BCRYPT_HASH =
+    '$2b$12$CwTycUXWue0Thq9StjUM0uJ8NdLg0FtYxeBQvX0wM3KOlF2mFl7IG';
 
 export const { handlers, auth, signIn, signOut } = NextAuth({
     ...authConfig,
@@ -153,22 +160,38 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
             clientSecret: process.env.APPLE_SECRET!,
         }),
         Credentials({
-            async authorize(credentials) {
+            async authorize(credentials, request) {
                 const parsedCredentials = z
                     .object({ email: z.string().email(), password: z.string().min(8) })
                     .safeParse(credentials);
 
-                if (parsedCredentials.success) {
-                    const { email, password } = parsedCredentials.data;
-                    const user = await getUser(email);
-                    if (!user) return null;
-                    if (!user.password) return null; // OAuth-only user, no password
-                    const passwordsMatch = await bcrypt.compare(password, user.password);
+                if (!parsedCredentials.success) return null;
 
-                    if (passwordsMatch) return user;
+                const { email, password } = parsedCredentials.data;
+
+                // Brute-force defence: cap attempts per IP + per email.
+                // 10 tries/5 min is generous enough for fat-fingered humans
+                // but stops credential stuffing cold.
+                const ip = request ? getClientIp(request as unknown as Request) : 'unknown';
+                const ipLimit = rateLimit(`login-ip:${ip}`, { window: 5 * 60_000, max: 10 });
+                const emailLimit = rateLimit(`login-email:${email.toLowerCase()}`, { window: 5 * 60_000, max: 10 });
+                if (ipLimit.limited || emailLimit.limited) {
+                    // next-auth swallows the return value; the client sees
+                    // a generic CredentialsSignin error — which is what we want.
+                    return null;
                 }
 
-                return null;
+                const user = await getUser(email);
+
+                // Constant-time-ish: always run bcrypt.compare, even when
+                // the user doesn't exist or is OAuth-only, so attackers
+                // can't enumerate valid emails from response timing.
+                const passwordHash = user?.password || DUMMY_BCRYPT_HASH;
+                const passwordsMatch = await bcrypt.compare(password, passwordHash);
+
+                if (!user || !user.password || !passwordsMatch) return null;
+
+                return user;
             },
         }),
     ],
