@@ -183,7 +183,7 @@ export default async function BlogArticlePage({
         />
       )}
 
-      <div className="min-h-screen" style={{ backgroundColor: '#FFFBF7' }}>
+      <div className="min-h-screen pb-24 md:pb-0" style={{ backgroundColor: '#FFFBF7' }}>
         {/* Breadcrumb */}
         <nav className="container mx-auto px-4 pt-6 pb-2" aria-label="Breadcrumb">
           <ol className="flex items-center gap-2 text-sm text-gray-500">
@@ -316,7 +316,10 @@ export default async function BlogArticlePage({
             </div>
           )}
 
-          {/* CTA */}
+          {/* CTA — end of article. Links directly to /register (not /pricing)
+              to cut an extra click out of the funnel, with a utm-style query
+              param so we can attribute signups back to the blog post that
+              drove them. */}
           <div className="mt-12 p-8 rounded-2xl text-center" style={{ backgroundColor: '#FF6B3510', border: '1px solid #FF6B3530' }}>
             <h3 className="text-xl font-bold text-gray-900 mb-2">
               {isFr
@@ -325,12 +328,15 @@ export default async function BlogArticlePage({
             </h3>
             <p className="text-gray-600 mb-4">
               {isFr
-                ? 'Essayez FoodTracks gratuitement — aucune carte bancaire requise.'
-                : 'Try FoodTracks for free — no credit card required.'}
+                ? 'Essai Pro 14 jours offert — sans carte bancaire, annulation en 1 clic.'
+                : '14-day free Pro trial — no credit card, cancel in one click.'}
             </p>
-            <Link href={`/${locale}/pricing`}>
+            <Link
+              href={`/${locale}/register?utm_source=blog&utm_medium=article_cta&utm_campaign=${slug}`}
+              data-track-component="blog-cta-end"
+            >
               <Button className="text-white font-semibold px-6 py-2.5" style={{ backgroundColor: '#FF6B35' }}>
-                {isFr ? 'Commencer gratuitement' : 'Start for free'}
+                {isFr ? 'Démarrer mon essai gratuit' : 'Start my free trial'}
               </Button>
             </Link>
           </div>
@@ -374,6 +380,21 @@ export default async function BlogArticlePage({
             </div>
           </section>
         )}
+
+        {/* Mobile sticky CTA — blog traffic is overwhelmingly mobile, and by
+            the time a reader reaches the end-of-article CTA they've often
+            already bounced. A persistent footer keeps the trial one tap away. */}
+        <div className="fixed inset-x-0 bottom-0 z-40 border-t bg-white/95 backdrop-blur px-4 py-3 shadow-lg md:hidden">
+          <Link
+            href={`/${locale}/register?utm_source=blog&utm_medium=sticky_cta&utm_campaign=${slug}`}
+            data-track-component="blog-cta-sticky-mobile"
+            className="flex items-center justify-center"
+          >
+            <Button className="w-full text-white font-semibold" style={{ backgroundColor: '#FF6B35' }}>
+              {isFr ? 'Essai gratuit 14 jours' : 'Start 14-day free trial'}
+            </Button>
+          </Link>
+        </div>
       </div>
     </>
   );
