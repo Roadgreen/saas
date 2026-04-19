@@ -16,8 +16,9 @@ export type EventType =
   | 'link_click'         // auto: any <a>
   | 'rage_click'         // auto: 3+ rapid clicks in same zone (frustration signal)
   // Forms
-  | 'form_submit'
-  | 'form_error'
+  | 'form_view'          // form became visible (mount) — funnel step 1
+  | 'form_submit'        // user clicked submit — funnel step 2
+  | 'form_error'         // submit failed (server, validation, auth) — funnel leak
   // Features
   | 'feature_used'
   | 'search'
@@ -192,8 +193,9 @@ export interface TrackPayload {
  * rage_click      : { x, y, count, intervalMs, component }
  * scroll_depth    : { depthPct: 25 | 50 | 75 | 100 }  — auto-captured
  * widget_visible  : { widget, visibilityRatio }  — via useWidgetTracking()
- * form_submit     : { formName, success, fieldCount }
- * form_error      : { formName, field, errorMessage }
+ * form_view       : { formName, plan? }  — funnel step 1
+ * form_submit     : { formName, success, fieldCount }  — funnel step 2
+ * form_error      : { formName, errorMessage, phase: 'validation' | 'server' }  — leak
  * api_call        : { endpoint, method, status, durationMs }
  * error           : see AnalyticsError (.error field)
  * auth_login      : { method: 'credentials' }

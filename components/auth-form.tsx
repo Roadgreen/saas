@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { z } from 'zod';
@@ -12,6 +12,7 @@ import { signIn } from 'next-auth/react';
 import { useLocale } from 'next-intl';
 import Link from 'next/link';
 import { ChefHat, CheckCircle2, XCircle, Loader2 } from 'lucide-react';
+import { useAnalytics } from '@/hooks/useAnalytics';
 
 const authSchema = z.object({
   email: z.string().email(),
@@ -66,8 +67,17 @@ export function AuthForm({ type }: AuthFormProps) {
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
   const [oauthLoading, setOauthLoading] = useState<string | null>(null);
+  const { track } = useAnalytics();
 
   const isFr = locale === 'fr';
+
+  // Funnel step 1: form became visible. Fires once per mount. Lets us
+  // measure viewed → submitted → succeeded at each step instead of just
+  // page_view → (nothing).
+  useEffect(() => {
+    track('form_view', { formName: type, plan: plan ?? null });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   const {
     register,
@@ -80,12 +90,19 @@ export function AuthForm({ type }: AuthFormProps) {
   const handleOAuthSignIn = async (provider: string) => {
     setOauthLoading(provider);
     setError(null);
+    // OAuth submit: the flow leaves the page before we'd see success, so we
+    // only log the attempt here. Successful OAuth logins are attributed
+    // via auth_login emitted from the callback side when sessions appear
+    // on the next page load.
+    track('form_submit', { formName: `${type}_oauth`, success: false, provider });
     try {
       await signIn(provider, {
         callbackUrl: `/${locale}/dashboard`,
       });
     } catch {
-      setError(isFr ? 'Erreur de connexion. Veuillez réessayer.' : 'Sign in failed. Please try again.');
+      const msg = isFr ? 'Erreur de connexion. Veuillez réessayer.' : 'Sign in failed. Please try again.';
+      setError(msg);
+      track('form_error', { formName: `${type}_oauth`, errorMessage: msg, provider, phase: 'server' });
       setOauthLoading(null);
     }
   };
@@ -93,6 +110,12 @@ export function AuthForm({ type }: AuthFormProps) {
   const onSubmit = async (data: AuthFormData) => {
     setLoading(true);
     setError(null);
+
+    // Funnel step 2: user clicked submit. We emit success=false here; a
+    // second form_submit fires with success=true only after the full flow
+    // (API + auto-login) completes, giving us a clean "attempted → succeeded"
+    // ratio.
+    track('form_submit', { formName: type, success: false, plan: plan ?? null });
 
     try {
       if (type === 'register') {
@@ -117,6 +140,11 @@ export function AuthForm({ type }: AuthFormProps) {
         if (signInResult?.error) {
           throw new Error(signInResult.error);
         }
+
+        // Funnel success — fire BEFORE navigation, sendBeacon on unload
+        // will flush it. auth_register is the "north star" conversion event.
+        track('auth_register', { plan: plan ?? null });
+        track('form_submit', { formName: type, success: true, plan: plan ?? null });
 
         // If a plan was requested, launch Stripe checkout directly
         if (plan === 'PRO' || plan === 'ENTERPRISE') {
@@ -148,10 +176,19 @@ export function AuthForm({ type }: AuthFormProps) {
           throw new Error('Invalid credentials');
         }
 
+        track('auth_login', { method: 'credentials' });
+        track('form_submit', { formName: type, success: true });
+
         router.push(`/${locale}/dashboard`);
       }
     } catch (err: unknown) {
-      setError(err instanceof Error ? err.message : 'An error occurred');
+      const message = err instanceof Error ? err.message : 'An error occurred';
+      setError(message);
+      track('form_error', {
+        formName: type,
+        errorMessage: message.slice(0, 200),
+        phase: 'server',
+      });
     } finally {
       setLoading(false);
     }
@@ -231,7 +268,21 @@ export function AuthForm({ type }: AuthFormProps) {
         <div className="flex-1 h-px bg-white/10" />
       </div>
 
-      <form onSubmit={handleSubmit(onSubmit)} className="space-y-5">
+      <form
+        onSubmit={handleSubmit(onSubmit, (fieldErrors) => {
+          // Client-side validation failed — log each failing field so we can
+          // see which ones trip users up most (typed email? short password?).
+          for (const [field, err] of Object.entries(fieldErrors)) {
+            track('form_error', {
+              formName: type,
+              field,
+              errorMessage: (err?.message ?? 'invalid').toString().slice(0, 120),
+              phase: 'validation',
+            });
+          }
+        })}
+        className="space-y-5"
+      >
         {type === 'register' && (
           <>
             <div className="space-y-2">
