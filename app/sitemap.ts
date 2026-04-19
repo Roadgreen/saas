@@ -35,6 +35,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: '/guides/seuil-rentabilite-food-truck', changeFrequency: 'monthly', priority: 0.8, lastModified: '2026-03-15' },
     { path: '/guides/food-truck-reglementation-france', changeFrequency: 'monthly', priority: 0.8, lastModified: '2026-03-19' },
     { path: '/guides/ouvrir-food-truck-auto-entrepreneur', changeFrequency: 'monthly', priority: 0.8, lastModified: '2026-03-20' },
+    { path: '/comparatif',                          changeFrequency: 'monthly', priority: 0.7, lastModified: '2026-04-19' },
     { path: '/comparatif/inpulse-vs-foodtracks',   changeFrequency: 'monthly', priority: 0.8, lastModified: '2026-03-15' },
     { path: '/comparatif/marketman-vs-foodtracks', changeFrequency: 'monthly', priority: 0.8, lastModified: '2026-03-15' },
     { path: '/comparatif/melba-vs-foodtracks',     changeFrequency: 'monthly', priority: 0.8, lastModified: '2026-03-20' },
