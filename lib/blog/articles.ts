@@ -24552,6 +24552,356 @@ Operators who successfully make this scale-up all share one thing: they invested
 **Further reading:** [Food Truck Team Management](/en/blog/gerer-equipe-food-truck) · [How to Improve Food Truck Profitability](/en/blog/rentabilite-food-truck-ameliorer) · [Food Truck Management Software](/en/blog/logiciel-gestion-food-truck)`,
     },
   },
+  {
+    slug: "adapter-menu-food-truck-meteo",
+    title: {
+      fr: "Adapter son menu food truck selon la météo : la méthode pour vendre plus par tous les temps",
+      en: "Adapting Your Food Truck Menu to the Weather: How to Sell More in Any Conditions",
+    },
+    excerpt: {
+      fr: "La météo influence directement vos ventes en food truck. Apprenez à adapter votre menu, vos stocks et votre communication en fonction des conditions climatiques pour maximiser votre chiffre d'affaires quelle que soit la saison.",
+      en: "Weather directly impacts your food truck sales. Learn how to adapt your menu, stock and communication to weather conditions to maximise revenue in every season.",
+    },
+    category: { fr: "Stratégie", en: "Strategy" },
+    date: "2026-04-20",
+    readTime: 9,
+    keywords: [
+      "adapter menu food truck météo",
+      "food truck menu weather",
+      "ventes food truck pluie",
+      "menu food truck saison",
+      "food truck weather sales",
+      "adapter offre food truck température",
+      "food truck seasonal menu",
+    ],
+    heroImage: "/blog/adapter-menu-meteo.png",
+    keyTakeaways: {
+      fr: [
+        "La météo peut faire varier vos ventes de ±40 % selon la saison — anticiper plutôt que subir est la clé.",
+        "Un menu météo-adapté (plats chauds en hiver, fraîcheur en été) augmente le panier moyen et réduit les invendus.",
+        "La pluie ne signifie pas zéro vente : positionnement abrité, click & collect et livraison compensent le passage piéton.",
+        "Ajustez vos commandes fournisseurs 48 h à l'avance en consultant les prévisions météo — économie directe sur le gaspillage.",
+        "FoodTracks croise automatiquement météo et historique de ventes pour vous suggérer les bons volumes à commander.",
+      ],
+      en: [
+        "Weather can shift your sales by ±40% depending on the season — anticipating beats reacting every time.",
+        "A weather-adapted menu (hot dishes in winter, cool options in summer) raises average spend and cuts leftovers.",
+        "Rain doesn't mean zero revenue: sheltered positioning, click & collect and delivery offset the drop in foot traffic.",
+        "Adjust supplier orders 48 hours ahead by checking weather forecasts — a direct saving on food waste.",
+        "FoodTracks automatically cross-references weather data and sales history to suggest the right order quantities.",
+      ],
+    },
+    faqItems: [
+      {
+        question: {
+          fr: "La météo a-t-elle vraiment un impact significatif sur les ventes d'un food truck ?",
+          en: "Does weather really have a significant impact on food truck sales?",
+        },
+        answer: {
+          fr: "Oui, très significatif. Des études de terrain montrent que la fréquentation extérieure peut baisser de 30 à 50 % par temps de pluie ou de froid intense. À l'inverse, une belle journée ensoleillée en semaine peut doubler votre passage habituel. Anticiper ces variations est essentiel pour ajuster vos stocks et votre personnel.",
+          en: "Yes, very significantly. Field studies show that outdoor footfall can drop 30–50% on rainy or very cold days. Conversely, a sunny weekday can double your usual traffic. Anticipating these swings is essential for adjusting stock and staffing.",
+        },
+      },
+      {
+        question: {
+          fr: "Quels plats proposer en food truck quand il fait très chaud ?",
+          en: "What dishes should a food truck offer when it is very hot?",
+        },
+        answer: {
+          fr: "Par forte chaleur, misez sur les options fraîches et légères : salades, bowls, wraps froids, boissons glacées, smoothies et desserts glacés. Réduisez les cuissons longues qui surchauffent le camion et ralentissent le service. Les clients cherchent de la fraîcheur rapide.",
+          en: "In intense heat, focus on fresh and light options: salads, bowls, cold wraps, iced drinks, smoothies and frozen desserts. Cut down on long cooking processes that overheat the truck and slow service. Customers want quick refreshment.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment maintenir ses ventes en food truck les jours de pluie ?",
+          en: "How can a food truck maintain sales on rainy days?",
+        },
+        answer: {
+          fr: "Plusieurs leviers : positionnez-vous sous un auvent ou dans une zone couverte, activez le click & collect ou la livraison, communiquez sur les réseaux sociaux en temps réel pour annoncer votre présence malgré la pluie, et proposez des offres groupées (menu complet à prix réduit) pour inciter à venir.",
+          en: "Several levers work: position under a canopy or covered area, activate click & collect or delivery, post on social media in real time to confirm you are open despite the rain, and offer combo deals (full meal at a discount) to incentivise the trip.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment ajuster mes commandes fournisseurs en fonction des prévisions météo ?",
+          en: "How do I adjust supplier orders based on weather forecasts?",
+        },
+        answer: {
+          fr: "Consultez les prévisions météo à 3-5 jours lors de votre passation de commandes hebdomadaire. Si du beau temps est prévu, commandez 15 à 25 % de plus sur vos produits phares. Si de la pluie est annoncée, réduisez vos volumes périssables et privilégiez des produits à plus longue durée de conservation.",
+          en: "Check the 3–5-day forecast when placing your weekly orders. If good weather is expected, order 15–25% more of your core products. If rain is forecast, cut perishable volumes and favour longer shelf-life items.",
+        },
+      },
+      {
+        question: {
+          fr: "Faut-il un menu différent été / hiver pour un food truck ?",
+          en: "Should a food truck have different summer and winter menus?",
+        },
+        answer: {
+          fr: "Pas nécessairement un menu entièrement différent, mais au minimum 20 à 30 % des références devraient changer selon la saison. L'idée est de garder vos bestsellers toute l'année et d'ajouter des plats saisonniers adaptés : soupe et plat chaud en hiver, option glacée et salade en été. Cela fidélise les clients réguliers qui retrouvent de la nouveauté.",
+          en: "Not necessarily a completely different menu, but at least 20–30% of items should rotate with the season. Keep your year-round bestsellers and add seasonal dishes: soup and a hot main in winter, an iced option and salad in summer. This keeps regulars coming back for something new.",
+        },
+      },
+    ],
+    relatedSlugs: [
+      "choisir-emplacement-rentable-food-truck",
+      "menu-food-truck-rentable",
+      "gestion-invendus-food-truck",
+      "rotation-stock-food-truck",
+    ],
+    content: {
+      fr: `## Pourquoi la météo est un facteur clé pour votre food truck
+
+Si vous opérez en extérieur, la météo n'est pas simplement une question de confort : c'est un **levier de rentabilité direct**. Par beau temps, les terrasses se remplissent, les marchés bondent et les passants s'arrêtent spontanément. Par temps de pluie ou de froid, la fréquentation peut chuter de 30 à 50 %.
+
+La bonne nouvelle ? Cette variable est **prévisible**. Et un food trucker qui anticipe la météo prend une longueur d'avance sur ses concurrents qui la subissent.
+
+Dans cet article, on vous donne une méthode concrète pour adapter votre menu, vos commandes et votre stratégie commerciale en fonction des conditions climatiques — et ainsi **vendre plus par tous les temps**.
+
+## L'impact mesurable de la météo sur les ventes
+
+Avant d'adapter quoi que ce soit, il faut comprendre comment la météo affecte vos ventes spécifiquement. Tout le monde n'est pas impacté de la même façon : un food truck garé dans une zone de bureaux avec des clients captifs souffre moins qu'un camion sur un marché en plein air.
+
+**Quelques tendances générales :**
+- Au-dessus de 20 °C avec du soleil : passage en hausse de 20 à 40 % par rapport à la moyenne
+- En dessous de 5 °C ou pluie modérée : baisse de 25 à 40 %
+- Pluie forte ou vent violent : baisse pouvant atteindre 60 à 70 %
+
+La première chose à faire est de **croiser votre historique de ventes avec les conditions météo passées**. Avec FoodTracks, cette analyse est automatique : l'application intègre des données météo et les corrèle à vos données de vente pour vous montrer vos patterns réels.
+
+Consultez aussi notre guide sur le [choix d'emplacement rentable pour food truck](/fr/blog/choisir-emplacement-rentable-food-truck) — certains spots sont naturellement plus résilients aux intempéries.
+
+## Construire un menu météo-adapté
+
+### Le principe des "ancres saisonnières"
+
+L'idée est simple : gardez **70 % d'un menu stable** toute l'année (vos bestsellers, votre signature dish) et faites tourner **30 % selon la saison et la météo**. Ce sont vos "ancres saisonnières" — des plats ou boissons qui répondent directement aux besoins du moment.
+
+### Par temps chaud (> 22 °C, soleil)
+
+- **Misez sur la fraîcheur** : salades repas, bowls, wraps froids, poke bowls
+- **Boissons glacées** : limonades maison, smoothies, eau infusée, thé glacé
+- **Formats légers** : demi-portions, formules "snack" pour les clients pressés qui veulent manger sans être lourds
+- **Desserts rafraîchissants** : fruits frais, sorbets, glaces artisanales
+
+**Conseil pratique** : par forte chaleur, simplifiez aussi vos préparations. Les cuissons longues surchauffent votre espace de travail et ralentissent le service. Privilégiez l'assemblage rapide.
+
+### Par temps froid (< 10 °C) ou nuageux
+
+- **Plats chauds et réconfortants** : soupes, tartines gratinées, plats mijotés, currys
+- **Boissons chaudes** : café, chocolat chaud, tisanes, bouillons
+- **Protéines généreuses** : les clients cherchent de l'énergie pour affronter le froid — sandwichs généreux, plats avec des glucides
+- **Formats à emporter rapidement** : en hiver, les clients ne s'attardent pas, ils veulent partir vite avec quelque chose de chaud en main
+
+### Les jours de pluie : ne pas abandonner le terrain
+
+La pluie est le principal ennemi du food trucker en extérieur. Mais quelques ajustements peuvent limiter la casse :
+
+- **Positionnez-vous sous un auvent ou une structure couverte** si votre emplacement le permet
+- **Activez le click & collect** : permettez aux clients de commander en avance depuis leur bureau et de venir chercher leur repas en 30 secondes
+- **Communiquez en temps réel** sur vos réseaux sociaux : un simple post "On est là malgré la pluie !" avec une photo attire les clients hésitants
+- **Proposez une offre spéciale "mauvais temps"** : menu complet à prix réduit, boisson chaude offerte — incitez à faire l'effort de se déplacer
+
+## Adapter ses commandes fournisseurs à la météo
+
+L'impact de la météo sur les ventes doit se répercuter directement sur **vos commandes fournisseurs**. Commander trop par mauvais temps, c'est jeter de l'argent par les fenêtres. Commander trop peu par beau temps, c'est rater des ventes.
+
+### La règle des 48 heures
+
+Consultez systématiquement les prévisions météo à **3-5 jours** lors de votre passation de commande hebdomadaire. Définissez deux niveaux :
+
+**Beau temps annoncé :**
+- Commandez 15 à 25 % de plus sur vos produits phares
+- Anticipez les boissons et desserts — ils s'écoulent plus vite par temps chaud
+- Augmentez les quantités d'ingrédients frais pour vos plats d'été
+
+**Mauvais temps prévu :**
+- Réduisez les volumes périssables (légumes frais, viandes) de 20 à 30 %
+- Stockez davantage de produits à longue durée de conservation
+- Favorisez les plats pouvant se préparer en avance et se réchauffer facilement
+
+Pour aller plus loin sur l'optimisation des stocks, consultez notre guide sur la [rotation des stocks en food truck](/fr/blog/rotation-stock-food-truck).
+
+## Communiquer sur la météo pour attirer des clients
+
+La météo est aussi un **levier marketing sous-utilisé**. Voici comment l'exploiter :
+
+### En temps réel sur les réseaux sociaux
+
+- Par beau temps : photo ensoleillée de votre emplacement avec votre plat phare — "Installez-vous, on a sorti la terrasse mobile !"
+- Par mauvais temps : montrez que vous êtes courageux et présents — "Pluie ou soleil, on est là ! Et il fait bien chaud dedans..."
+- Utilisez les stories Instagram pour annoncer votre ouverture du jour avec une mention météo
+
+### En prévenant vos clients fidèles
+
+Si vous avez une liste de diffusion email ou SMS, prévenez vos abonnés la veille d'une belle journée. Un message simple comme "Demain soleil et 24 °C, on sera sur [Place X] avec notre menu d'été 🌞" peut faire la différence. Consultez notre guide sur la [fidélisation clients par email et SMS](/fr/blog/fidelisation-clients-food-truck-email-sms).
+
+## Créer un "plan météo" pour chaque scénario
+
+Pour ne plus improviser, documentez un plan météo simple avec 3 scénarios :
+
+**Scénario A — Beau temps (> 18 °C, soleil)**
+- Menu en avant : plats frais, boissons glacées
+- Commande fournisseur : +20 %
+- Communication : post J-1 sur les réseaux + stories live
+
+**Scénario B — Temps mitigé (nuageux, 10-18 °C)**
+- Menu standard : equilibre chaud/froid
+- Commande fournisseur : base normale
+- Communication : pas de message spécifique
+
+**Scénario C — Mauvais temps (pluie, < 10 °C, vent)**
+- Menu en avant : plats chauds, boissons chaudes
+- Commande fournisseur : -20 % sur périssables
+- Communication : message "on est là" + offre spéciale mauvais temps
+- Option : activer click & collect ou livraison
+
+## Utiliser les données pour affiner votre stratégie
+
+La méthode ci-dessus devient encore plus précise quand elle est nourrie par des **données réelles**. Après quelques mois de suivi, vous saurez exactement :
+
+- Quel est votre seuil de température de rupture (en dessous de X °C, votre CA baisse de Y %)
+- Quels plats se vendent mieux par temps chaud vs froid
+- Quel est l'impact réel de la pluie sur votre emplacement spécifique vs un autre
+
+**FoodTracks** fait ce travail pour vous en croisant automatiquement les données météo de votre zone avec votre historique de ventes. Le résultat : des suggestions de commandes personnalisées avant chaque service, tenant compte des prévisions météo — plus de gaspillage, moins de ruptures.
+
+Découvrez aussi comment [réduire vos invendus en fin de service](/fr/blog/gestion-invendus-food-truck) pour aller encore plus loin sur la réduction des pertes.
+
+## Conclusion
+
+La météo n'est pas une fatalité pour un food trucker bien préparé. En adaptant votre menu, vos commandes et votre communication selon les conditions climatiques, vous transformez une contrainte en avantage compétitif.
+
+Les food truckers qui réussissent à maintenir leur rentabilité toute l'année ne sont pas ceux qui ont de la chance avec la météo : ce sont ceux qui ont **un plan pour chaque scénario**.
+
+**À lire aussi :** [Choisir un emplacement rentable](/fr/blog/choisir-emplacement-rentable-food-truck) · [Créer un menu rentable](/fr/blog/menu-food-truck-rentable) · [Gestion des invendus](/fr/blog/gestion-invendus-food-truck) · [Rotation des stocks](/fr/blog/rotation-stock-food-truck)`,
+      en: `## Why Weather is a Key Factor for Your Food Truck
+
+If you operate outdoors, weather isn't just a comfort issue — it's a **direct profitability driver**. In good weather, terraces fill up, markets buzz and passers-by stop spontaneously. In rain or cold, foot traffic can drop by 30 to 50%.
+
+The good news? This variable is **predictable**. And a food trucker who anticipates the weather gains a clear edge over competitors who simply react to it.
+
+In this article we give you a practical method to adapt your menu, orders and commercial strategy to weather conditions — so you can **sell more in any weather**.
+
+## The Measurable Impact of Weather on Sales
+
+Before changing anything, you need to understand how weather affects your specific sales. Not every truck is impacted the same way: a food truck parked in an office district with a captive audience suffers less than one at an outdoor market.
+
+**Some general patterns:**
+- Above 20 °C with sunshine: footfall up 20–40% compared to average
+- Below 5 °C or moderate rain: drop of 25–40%
+- Heavy rain or strong wind: drop of up to 60–70%
+
+The first step is to **cross-reference your sales history with past weather conditions**. With FoodTracks this analysis is automatic: the app integrates weather data and correlates it with your sales data to reveal your real patterns.
+
+Also check out our guide on [choosing a profitable food truck location](/en/blog/choisir-emplacement-rentable-food-truck) — some spots are naturally more resilient to bad weather.
+
+## Building a Weather-Adapted Menu
+
+### The "seasonal anchor" principle
+
+The idea is simple: keep **70% of a stable menu** year-round (your bestsellers, your signature dish) and rotate **30% by season and weather**. These are your "seasonal anchors" — dishes or drinks that directly respond to the needs of the moment.
+
+### In hot weather (> 22 °C, sunshine)
+
+- **Lean into freshness**: meal salads, bowls, cold wraps, poke bowls
+- **Iced drinks**: homemade lemonades, smoothies, infused water, iced tea
+- **Lighter formats**: half-portions, snack combos for customers who want to eat without feeling heavy
+- **Refreshing desserts**: fresh fruit, sorbets, artisan ice cream
+
+**Practical tip**: in intense heat, simplify your preparations too. Long cooking processes overheat your workspace and slow service. Favour quick assembly.
+
+### In cold weather (< 10 °C) or overcast conditions
+
+- **Hot, comforting dishes**: soups, gratinated toasts, slow-cooked stews, curries
+- **Hot drinks**: coffee, hot chocolate, herbal teas, broths
+- **Generous proteins**: customers want energy to fight the cold — hearty sandwiches, carb-rich dishes
+- **Quick-to-grab formats**: in winter customers don't linger — they want to be off fast with something hot in hand
+
+### Rainy days: don't abandon the field
+
+Rain is the outdoor food trucker's main enemy. But a few adjustments can limit the damage:
+
+- **Position under a canopy or covered structure** if your location allows
+- **Activate click & collect**: let customers order ahead from their desk and pick up in 30 seconds
+- **Communicate in real time** on social media: a simple post saying "We're here despite the rain!" with a photo draws hesitant customers in
+- **Run a "bad weather" special**: full meal at a reduced price, free hot drink — give people a reason to make the trip
+
+## Adapting Supplier Orders to the Weather
+
+The weather's impact on sales should feed directly into **your supplier orders**. Over-ordering in bad weather is throwing money away. Under-ordering in good weather means missed sales.
+
+### The 48-hour rule
+
+Systematically check the **3–5-day forecast** when placing your weekly order. Define two levels:
+
+**Good weather forecast:**
+- Order 15–25% more of your core products
+- Anticipate drinks and desserts — they move faster in warm weather
+- Increase quantities of fresh ingredients for your summer dishes
+
+**Bad weather expected:**
+- Cut perishable volumes (fresh vegetables, meat) by 20–30%
+- Stock more long shelf-life products
+- Favour dishes that can be prepped ahead and reheated easily
+
+For more on stock optimisation, see our guide on [food truck stock rotation](/en/blog/rotation-stock-food-truck).
+
+## Using Weather as a Marketing Lever
+
+Weather is also an **underused marketing tool**. Here is how to exploit it:
+
+### In real time on social media
+
+- Good weather: a sunny photo of your location with your flagship dish — "Come sit down, we've set up the mobile terrace!"
+- Bad weather: show that you're brave and present — "Rain or shine, we're here! And it's lovely and warm inside..."
+- Use Instagram Stories to announce your daily opening with a weather mention
+
+### By alerting your loyal customers
+
+If you have an email or SMS subscriber list, let them know the evening before a beautiful day. A simple message like "Tomorrow sun and 24 °C, we'll be at [Square X] with our summer menu" can make all the difference. See our guide on [customer loyalty via email and SMS](/en/blog/fidelisation-clients-food-truck-email-sms).
+
+## Creating a "Weather Plan" for Every Scenario
+
+To stop improvising, document a simple weather plan with 3 scenarios:
+
+**Scenario A — Good weather (> 18 °C, sunshine)**
+- Menu focus: fresh dishes, iced drinks
+- Supplier order: +20%
+- Communication: post the day before on social + live stories
+
+**Scenario B — Mixed weather (overcast, 10–18 °C)**
+- Standard menu: balance of hot and cold
+- Supplier order: normal base
+- Communication: no specific message
+
+**Scenario C — Bad weather (rain, < 10 °C, wind)**
+- Menu focus: hot dishes, hot drinks
+- Supplier order: −20% on perishables
+- Communication: "we're open" message + bad-weather special
+- Option: activate click & collect or delivery
+
+## Using Data to Sharpen Your Strategy
+
+The method above becomes even more precise when fed with **real data**. After a few months of tracking you will know exactly:
+
+- What your weather-driven break point is (below temperature X, your revenue drops by Y%)
+- Which dishes sell better in hot vs cold weather
+- What the actual impact of rain is on your specific location vs another
+
+**FoodTracks** does this work for you by automatically cross-referencing weather data for your area with your sales history. The result: personalised order suggestions before every service, factoring in the forecast — less waste, fewer stockouts.
+
+Also explore how to [reduce unsold food at end of service](/en/blog/gestion-invendus-food-truck) to go even further on loss reduction.
+
+## Conclusion
+
+Weather is not a fatality for a well-prepared food trucker. By adapting your menu, orders and communication to weather conditions you turn a constraint into a competitive advantage.
+
+Food truckers who maintain their profitability year-round are not the ones who get lucky with the weather: they are the ones who have **a plan for every scenario**.
+
+**Further reading:** [Choose a Profitable Location](/en/blog/choisir-emplacement-rentable-food-truck) · [Create a Profitable Menu](/en/blog/menu-food-truck-rentable) · [Leftover Management](/en/blog/gestion-invendus-food-truck) · [Stock Rotation](/en/blog/rotation-stock-food-truck)`,
+    },
+  },
 ];
 
 export function getArticleBySlug(slug: string): BlogArticle | undefined {
