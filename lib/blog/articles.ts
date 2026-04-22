@@ -25353,6 +25353,423 @@ The good news: you don't need an accounting degree. You need a method, portion-w
 **Further reading:** [Calculate Your Dish Selling Prices](/en/blog/calcul-prix-vente-food-truck) · [Food Truck Cash Flow Management](/en/blog/gestion-tresorerie-food-truck) · [Variable Costs Food Truck](/en/blog/charges-variables-food-truck) · [Profitable Food Truck Menu](/en/blog/menu-food-truck-rentable)`,
     },
   },
+  {
+    slug: "formation-haccp-food-truck",
+    title: {
+      fr: "Formation HACCP food truck : obligations, contenu et où se former en 2026",
+      en: "HACCP Training for Food Trucks: Requirements, Content and Where to Train in 2026",
+    },
+    excerpt: {
+      fr: "La formation HACCP est obligatoire pour tout food trucker manipulant des denrées alimentaires. Découvrez ce qu'elle couvre, combien elle coûte, et comment l'obtenir rapidement pour ouvrir en toute légalité.",
+      en: "HACCP training is mandatory for any food trucker handling food products. Find out what it covers, how much it costs, and how to obtain it quickly to operate legally.",
+    },
+    category: { fr: "Réglementation", en: "Regulation" },
+    date: "2026-04-22",
+    readTime: 10,
+    keywords: [
+      "formation HACCP food truck",
+      "formation hygiène alimentaire food truck obligatoire",
+      "HACCP food truck",
+      "permis hygiène food truck",
+      "formation haccp restauration mobile",
+      "food truck HACCP training",
+      "food hygiene certificate food truck",
+      "food safety training food truck",
+    ],
+    heroImage: "/blog/formation-haccp-food-truck.png",
+    keyTakeaways: {
+      fr: [
+        "La formation HACCP est obligatoire depuis 2012 pour tout établissement de restauration, y compris les food trucks.",
+        "Elle dure au minimum 14 heures (2 jours) et coûte entre 150 € et 400 € selon l'organisme.",
+        "Elle est finançable à 100 % via le CPF ou les fonds AGEFICE / FIFPL pour les auto-entrepreneurs.",
+        "Le non-respect expose à une fermeture administrative immédiate lors d'un contrôle de la DDPP.",
+        "La certification doit être renouvelée si vous embauchez un salarié : ce dernier doit aussi être formé.",
+      ],
+      en: [
+        "HACCP training has been mandatory since 2012 for all food service businesses, including food trucks.",
+        "It lasts a minimum of 14 hours (2 days) and costs between €150 and €400 depending on the provider.",
+        "It can be 100% funded through CPF or AGEFICE / FIFPL funds for self-employed operators.",
+        "Non-compliance can result in immediate administrative closure during a DDPP inspection.",
+        "Certification must be extended to any employee you hire — they need to be trained too.",
+      ],
+    },
+    faqItems: [
+      {
+        question: {
+          fr: "La formation HACCP est-elle vraiment obligatoire pour un food truck ?",
+          en: "Is HACCP training really mandatory for a food truck?",
+        },
+        answer: {
+          fr: "Oui, depuis le décret du 24 juin 2011 (entré en vigueur en octobre 2012), au moins une personne dans chaque établissement de restauration commerciale — y compris les food trucks et camions de snacking — doit justifier d'une formation en hygiène alimentaire adaptée à l'activité. À défaut, l'établissement peut être fermé administrativement.",
+          en: "Yes, since the decree of 24 June 2011 (in force from October 2012), at least one person in every commercial food service establishment — including food trucks and snack vans — must hold a food hygiene training certificate relevant to their activity. Failure to comply can result in administrative closure.",
+        },
+      },
+      {
+        question: {
+          fr: "Combien de temps dure la formation HACCP food truck ?",
+          en: "How long does HACCP training for food trucks take?",
+        },
+        answer: {
+          fr: "La durée minimale réglementaire est de 14 heures, soit 2 jours de formation. Certains organismes proposent des formats condensés sur 1 jour (7-8 heures) qui ne sont pas conformes à la réglementation. Privilégiez toujours les formations de 14 heures minimum délivrées par un organisme agréé et référencé sur Mon Compte Formation (CPF).",
+          en: "The minimum regulatory duration is 14 hours, i.e. 2 days of training. Some providers offer condensed 1-day formats (7–8 hours) that do not meet the regulatory standard. Always choose training of at least 14 hours from an approved provider listed on Mon Compte Formation (CPF).",
+        },
+      },
+      {
+        question: {
+          fr: "Peut-on passer la formation HACCP en ligne ?",
+          en: "Can HACCP training be done online?",
+        },
+        answer: {
+          fr: "Oui, la formation HACCP peut se faire à distance en e-learning depuis 2020. Elle doit cependant respecter le référentiel officiel du Ministère de l'Agriculture et être dispensée par un organisme habilité. De nombreuses plateformes proposent des formations éligibles CPF entièrement en ligne, avec un examen final et une attestation de formation.",
+          en: "Yes, HACCP training can be done remotely via e-learning since 2020. It must, however, comply with the official Ministry of Agriculture framework and be provided by an approved body. Many platforms offer CPF-eligible training entirely online, with a final exam and a training certificate.",
+        },
+      },
+      {
+        question: {
+          fr: "Quelle est la différence entre le permis d'exploitation et la formation HACCP ?",
+          en: "What is the difference between the operating licence and HACCP training?",
+        },
+        answer: {
+          fr: "Le permis d'exploitation concerne la vente d'alcool (nécessaire si vous vendez de la bière, du vin, etc.). La formation HACCP concerne l'hygiène alimentaire. Ce sont deux obligations distinctes : vous pouvez avoir besoin des deux, ou uniquement de la formation HACCP si vous ne vendez pas d'alcool.",
+          en: "The operating licence (permis d'exploitation) relates to alcohol sales (needed if you sell beer, wine, etc.). HACCP training relates to food hygiene. These are two separate obligations: you may need both, or only HACCP training if you do not sell alcohol.",
+        },
+      },
+      {
+        question: {
+          fr: "Mon employé doit-il aussi passer la formation HACCP ?",
+          en: "Does my employee also need HACCP training?",
+        },
+        answer: {
+          fr: "La loi exige qu'au moins une personne dans l'établissement soit formée. Si vous êtes seul, c'est vous. Si vous embauchez, soit vous avez déjà la formation, soit l'un de vos salariés doit l'obtenir. En pratique, il est fortement recommandé que tout le personnel manipulant des aliments soit formé, notamment pour passer les contrôles sanitaires sans difficulté.",
+          en: "The law requires at least one person per establishment to be trained. If you work alone, that's you. If you hire staff, either you already hold the certificate, or one of your employees must obtain it. In practice, it is strongly recommended that all food-handling staff be trained, especially to pass health inspections without issue.",
+        },
+      },
+    ],
+    content: {
+      fr: `## Pourquoi la formation HACCP est indispensable pour votre food truck
+
+Ouvrir un food truck sans formation HACCP, c'est prendre un risque énorme : fermeture administrative, amende, et surtout, atteinte à la réputation de votre activité. Depuis octobre 2012, la réglementation française impose à tout professionnel de la restauration commerciale — camion de street food inclus — de justifier d'une **formation en hygiène alimentaire**.
+
+Pourtant, beaucoup de nouveaux food truckers l'ignorent ou la confondent avec d'autres certifications. Ce guide fait le point complet.
+
+## Qu'est-ce que la méthode HACCP ?
+
+**HACCP** signifie *Hazard Analysis and Critical Control Points* (Analyse des dangers et maîtrise des points critiques). C'est une méthode de gestion de la sécurité alimentaire développée dans les années 1960 pour la NASA, puis adoptée par l'industrie agroalimentaire mondiale.
+
+En food truck, l'application de la méthode HACCP se traduit par :
+- **Identifier** les risques biologiques (bactéries, virus), chimiques (produits nettoyants) et physiques (corps étrangers) à chaque étape de la préparation
+- **Surveiller** les points critiques : température de cuisson, chaîne du froid, hygiène des mains
+- **Mettre en place des mesures correctives** en cas d'écart
+- **Tracer** les informations pour prouver votre conformité lors d'un contrôle
+
+## Quelles sont les obligations légales pour un food truck ?
+
+Le cadre légal repose sur deux textes :
+
+### Le règlement européen CE n°852/2004
+Il impose à tous les opérateurs du secteur alimentaire de mettre en place des procédures basées sur les principes HACCP. Il est directement applicable en France.
+
+### Le décret français du 24 juin 2011
+Il précise que **au moins un membre du personnel** de chaque établissement de restauration commerciale doit avoir suivi une formation en hygiène alimentaire adaptée. Cette obligation s'applique à :
+- Les restaurants fixes
+- Les food trucks et camions snacking
+- Les stands alimentaires sur marchés
+- Les dark kitchens et cuisines partagées
+
+**L'autorité de contrôle** est la DDPP (Direction Départementale de la Protection des Populations). En cas de manquement, elle peut prononcer une fermeture administrative immédiate.
+
+## Que couvre la formation HACCP food truck ?
+
+### Le référentiel officiel (14 heures minimum)
+
+La formation doit couvrir les thèmes suivants, définis par le Ministère de l'Agriculture :
+
+**Module 1 — Aliments et risques pour le consommateur**
+- Microbiologie des aliments : bactéries pathogènes, moisissures, virus
+- Toxi-infections alimentaires collectives (TIAC) : causes, symptômes, conséquences légales
+- Les risques chimiques et physiques
+
+**Module 2 — Les fondamentaux de la réglementation**
+- Le paquet hygiène européen
+- Les obligations de traçabilité
+- La déclaration d'activité auprès de la DDPP
+
+**Module 3 — Le plan de maîtrise sanitaire (PMS)**
+- L'analyse des dangers par étape (diagramme de fabrication)
+- Les bonnes pratiques d'hygiène (BPH) : lavage des mains, tenues, nettoyage
+- La gestion de la chaîne du froid et du chaud
+- Les procédures de nettoyage et désinfection (plan de nettoyage)
+- La traçabilité des produits et des températures
+
+**Module 4 — Application en restauration mobile**
+- Spécificités du food truck : eau, évacuation, stockage en espace réduit
+- Gestion des allergènes (étiquetage, affichage obligatoire)
+- Gestion des déchets et huiles usagées
+
+### Ce que vous serez capable de faire à l'issue de la formation
+- Rédiger votre Plan de Maîtrise Sanitaire (document obligatoire)
+- Tenir à jour vos fiches de températures
+- Former vos employés aux bonnes pratiques
+- Répondre sereinement à un contrôle de la DDPP
+
+## Combien coûte la formation HACCP ?
+
+| Format | Durée | Prix moyen | Éligible CPF |
+|--------|-------|-----------|--------------|
+| Présentiel (2 jours) | 14 h | 250 à 400 € | Oui |
+| E-learning | 14 h | 150 à 250 € | Oui |
+| Blended (mix distanciel + présentiel) | 14 h | 200 à 350 € | Oui |
+
+### Comment la financer ?
+
+**Via le CPF (Compte Personnel de Formation)**
+Si vous avez des droits CPF (salariés, demandeurs d'emploi), la formation peut être prise en charge à 100 %. Rendez-vous sur [moncompteformation.gouv.fr](https://www.moncompteformation.gouv.fr) et cherchez "formation hygiène alimentaire restauration".
+
+**Via l'AGEFICE**
+Les auto-entrepreneurs du commerce et de l'artisanat peuvent solliciter l'AGEFICE pour financer leur formation. Prise en charge jusqu'à 400 € selon votre situation.
+
+**Via le FIFPL**
+Les professions libérales peuvent s'adresser au FIFPL. Les food truckers en EURL ou SASU peuvent également y être éligibles selon leur code APE.
+
+**Via Pôle Emploi / France Travail**
+Si vous êtes en création d'activité après une période de chômage, France Travail peut financer la formation dans le cadre de votre projet de retour à l'emploi.
+
+## Où trouver une formation HACCP reconnue ?
+
+### Organismes nationaux agréés
+
+- **AFPA** (Association nationale pour la Formation Professionnelle des Adultes) — présente dans toutes les régions
+- **CCI Formation** (Chambres de Commerce et d'Industrie) — formations adaptées aux TPE et auto-entrepreneurs
+- **UMIH Formation** (Union des Métiers et des Industries de l'Hôtellerie)
+- **Greta** (réseau de l'Éducation Nationale)
+
+### Plateformes e-learning CPF recommandées
+
+- **Demos** : formation 100 % en ligne, éligible CPF, attestation reconnue
+- **Formaposte / La Poste Formation** : reconnu pour les formations réglementaires
+- Tout organisme référencé Qualiopi sur [data.gouv.fr/qualiopi](https://annuaire-entreprises.data.gouv.fr)
+
+### Comment vérifier la légitimité d'un organisme
+
+Avant de vous inscrire, vérifiez :
+1. La certification **Qualiopi** (obligatoire pour les formations financées depuis janvier 2022)
+2. La mention "Éligible CPF" sur le programme
+3. La durée : **minimum 14 heures** (méfiez-vous des formations "en 1 jour" ou "en 4 heures")
+4. La remise d'une **attestation de formation** utilisable lors des contrôles
+
+## Les erreurs fréquentes à éviter
+
+### Confondre HACCP et permis d'exploitation
+Le permis d'exploitation est requis pour vendre de l'alcool (bière, vin, cocktails). La formation HACCP concerne l'hygiène alimentaire. Ce sont deux formations distinctes.
+
+### Se fier à une formation trop courte
+Des organismes peu sérieux proposent des "certifications HACCP" en quelques heures pour quelques dizaines d'euros. Ces documents ne valent rien lors d'un contrôle DDPP. La durée minimale réglementaire est de **14 heures**.
+
+### Oublier de déclarer son activité à la DDPP
+La formation HACCP va de pair avec la **déclaration d'activité** auprès de la DDPP de votre département (formulaire Cerfa n°13984). Sans cette déclaration, vous exercez illégalement même si vous êtes formé.
+
+### Ne pas mettre à jour son Plan de Maîtrise Sanitaire (PMS)
+Le PMS est un document vivant. Si vous changez de menu, de fournisseur ou d'équipement, mettez-le à jour. En contrôle, un PMS obsolète est presque aussi problématique qu'un PMS absent.
+
+## La formation HACCP et FoodTracks : un duo gagnant
+
+La formation HACCP vous apprend à **gérer les risques alimentaires**. FoodTracks vous aide à **automatiser la traçabilité** au quotidien :
+
+- **Gestion des dates de péremption** : alertes automatiques avant expiration
+- **Suivi des températures** : intégration avec vos relevés de frigos
+- **Traçabilité des lots** : quel fournisseur, quelle date de livraison, quel stock restant
+- **Plan de nettoyage** : planification et historique des opérations de désinfection
+
+En cas de contrôle DDPP, vous pouvez présenter un historique complet en quelques secondes — un atout majeur pour clôturer l'inspection sans mise en demeure.
+
+[Découvrez comment FoodTracks facilite votre conformité HACCP →](/fr/register?utm_source=blog&utm_medium=article_cta&utm_campaign=formation-haccp-food-truck)
+
+## Checklist : êtes-vous en conformité HACCP ?
+
+Avant votre premier service, cochez chaque point :
+
+- [ ] Formation HACCP de 14 h minimum obtenue (attestation en main)
+- [ ] Déclaration d'activité déposée à la DDPP
+- [ ] Plan de Maîtrise Sanitaire (PMS) rédigé et à jour
+- [ ] Fiches de relevé de températures opérationnelles
+- [ ] Affichage des allergènes visible pour les clients
+- [ ] Plan de nettoyage et désinfection affiché dans le camion
+- [ ] Contrat de collecte des huiles usagées signé
+- [ ] Stock de produits nettoyants conformes (fiches techniques disponibles)
+
+## Conclusion
+
+La formation HACCP n'est pas une formalité administrative de plus. C'est la base de toute activité de restauration mobile sérieuse. Elle vous protège, protège vos clients et crédibilise votre food truck auprès des organisateurs d'événements, des mairies et des entreprises qui vous invitent sur leurs espaces.
+
+Bonne nouvelle : elle est accessible, finançable à 100 % et de plus en plus disponible en ligne. Il n'y a aucune raison de la repousser.
+
+**À lire aussi :** [Autorisation de stationnement food truck](/fr/blog/autorisation-stationnement-food-truck) · [Formation food truck obligatoire](/fr/blog/formation-food-truck-obligatoire) · [Gestion des allergènes en food truck](/fr/blog/gestion-allergenes-food-truck) · [Business plan food truck](/fr/blog/business-plan-food-truck)`,
+      en: `## Why HACCP Training is Non-Negotiable for Your Food Truck
+
+Opening a food truck without HACCP training means taking an enormous risk: administrative closure, fines, and above all, lasting damage to your reputation. Since October 2012, French regulations have required every commercial food service professional — including street food trucks — to hold a **food hygiene training certificate**.
+
+Yet many new food truckers are unaware of this, or confuse it with other certifications. This guide sets the record straight.
+
+## What is the HACCP Method?
+
+**HACCP** stands for *Hazard Analysis and Critical Control Points*. It is a food safety management method developed in the 1960s for NASA, then adopted worldwide by the food industry.
+
+For a food truck, applying HACCP means:
+- **Identifying** biological (bacteria, viruses), chemical (cleaning products) and physical (foreign bodies) hazards at every stage of food preparation
+- **Monitoring** critical control points: cooking temperature, cold chain, hand hygiene
+- **Implementing corrective measures** when a deviation occurs
+- **Recording** information to demonstrate compliance during an inspection
+
+## Legal Requirements for a Food Truck
+
+The legal framework rests on two texts:
+
+### European Regulation EC No 852/2004
+This requires all food business operators to implement procedures based on HACCP principles. It applies directly in France.
+
+### French Decree of 24 June 2011
+This specifies that **at least one member of staff** in every commercial food service establishment must have completed food hygiene training appropriate to their activity. This applies to:
+- Fixed restaurants
+- Food trucks and snack vans
+- Food stalls at markets
+- Dark kitchens and shared kitchens
+
+**The enforcement authority** is the DDPP (Departmental Directorate for the Protection of Populations). Failure to comply can trigger immediate administrative closure.
+
+## What Does HACCP Training for Food Trucks Cover?
+
+### The Official Curriculum (14 hours minimum)
+
+Training must cover the following topics, defined by the French Ministry of Agriculture:
+
+**Module 1 — Food and Consumer Risk**
+- Food microbiology: pathogenic bacteria, moulds, viruses
+- Collective food-borne illness outbreaks (TIAC): causes, symptoms, legal consequences
+- Chemical and physical hazards
+
+**Module 2 — Regulatory Fundamentals**
+- The European Hygiene Package
+- Traceability obligations
+- Registration of your business with the DDPP
+
+**Module 3 — The Food Safety Management Plan (PMS)**
+- Hazard analysis by process step (flow diagram)
+- Good Hygiene Practices (GHP): handwashing, protective clothing, cleaning
+- Cold and hot chain management
+- Cleaning and disinfection procedures (cleaning schedule)
+- Product and temperature traceability
+
+**Module 4 — Application in Mobile Food Service**
+- Food truck specifics: water supply, waste disposal, storage in limited space
+- Allergen management (mandatory labelling and display)
+- Waste and used cooking oil management
+
+### What You Will Be Able to Do After Training
+- Draft your Food Safety Management Plan (a mandatory document)
+- Maintain up-to-date temperature logs
+- Train staff in good practices
+- Handle a DDPP inspection with confidence
+
+## How Much Does HACCP Training Cost?
+
+| Format | Duration | Average cost | CPF eligible |
+|--------|----------|-------------|--------------|
+| In-person (2 days) | 14 h | €250–€400 | Yes |
+| E-learning | 14 h | €150–€250 | Yes |
+| Blended (remote + in-person) | 14 h | €200–€350 | Yes |
+
+### Funding Options
+
+**CPF (Personal Training Account)**
+If you have CPF entitlements (employees, jobseekers), the training can be fully funded. Go to [moncompteformation.gouv.fr](https://www.moncompteformation.gouv.fr) and search for "formation hygiène alimentaire restauration".
+
+**AGEFICE**
+Self-employed traders and craftspeople can apply to AGEFICE for funding. Up to €400 of coverage depending on your situation.
+
+**FIFPL**
+Liberal professions can approach FIFPL. Food truckers operating as EURL or SASU may also be eligible depending on their APE code.
+
+**Pôle Emploi / France Travail**
+If you are creating a business after a period of unemployment, France Travail can fund training as part of your back-to-work project.
+
+## Where to Find an Accredited HACCP Training Programme?
+
+### National Approved Providers
+
+- **AFPA** (National Association for Vocational Training) — present in every region
+- **CCI Formation** (Chambers of Commerce) — training tailored to sole traders and micro-businesses
+- **UMIH Formation** (Hotel and Catering Industry Union)
+- **Greta** (National Education network)
+
+### Recommended CPF-eligible E-learning Platforms
+
+- **Demos**: 100% online, CPF-eligible, recognised certificate
+- **Formaposte / La Poste Formation**: recognised for regulatory training
+- Any Qualiopi-certified provider listed at [data.gouv.fr](https://annuaire-entreprises.data.gouv.fr)
+
+### How to Verify a Provider's Legitimacy
+
+Before enrolling, check:
+1. **Qualiopi certification** (mandatory for funded training since January 2022)
+2. The "CPF-eligible" label on the course description
+3. Duration: **minimum 14 hours** (beware of "1-day" or "4-hour" certifications)
+4. Issuance of a **training certificate** that can be shown during inspections
+
+## Common Mistakes to Avoid
+
+### Confusing HACCP with the Operating Licence
+The operating licence (permis d'exploitation) is required for selling alcohol (beer, wine, cocktails). HACCP training relates to food hygiene. They are two separate qualifications.
+
+### Accepting Courses That Are Too Short
+Some disreputable providers offer "HACCP certifications" in a few hours for a few dozen euros. These documents carry no weight in a DDPP inspection. The minimum regulatory duration is **14 hours**.
+
+### Forgetting to Register with the DDPP
+HACCP training goes hand in hand with **registering your business** with your local DDPP (form Cerfa No 13984). Without this registration, you are operating illegally even if you hold a training certificate.
+
+### Failing to Update Your Food Safety Management Plan
+The PMS is a living document. If you change your menu, suppliers or equipment, update it accordingly. During an inspection, an outdated PMS is almost as problematic as a missing one.
+
+## HACCP Training and FoodTracks: A Winning Combination
+
+HACCP training teaches you to **manage food safety risks**. FoodTracks helps you **automate day-to-day traceability**:
+
+- **Expiry date management**: automatic alerts before products expire
+- **Temperature tracking**: integration with your fridge logs
+- **Batch traceability**: which supplier, delivery date, remaining stock
+- **Cleaning schedule**: planning and history of disinfection operations
+
+If the DDPP shows up, you can present a complete history in seconds — a major advantage for closing the inspection without a formal notice.
+
+[Discover how FoodTracks simplifies your HACCP compliance →](/en/register?utm_source=blog&utm_medium=article_cta&utm_campaign=formation-haccp-food-truck)
+
+## Compliance Checklist: Are You HACCP-Ready?
+
+Before your first service, tick every box:
+
+- [ ] HACCP training of at least 14 hours completed (certificate in hand)
+- [ ] Business registered with the DDPP
+- [ ] Food Safety Management Plan (PMS) drafted and up to date
+- [ ] Temperature monitoring logs operational
+- [ ] Allergen information visibly displayed for customers
+- [ ] Cleaning and disinfection schedule posted in the truck
+- [ ] Used cooking oil collection contract signed
+- [ ] Compliant cleaning products stocked (technical data sheets available)
+
+## Conclusion
+
+HACCP training is not just another administrative box to tick. It is the foundation of any serious mobile food business. It protects you, protects your customers, and boosts your credibility with event organisers, local authorities, and the companies that invite you to their sites.
+
+The good news: it is accessible, can be 100% funded, and is increasingly available online. There is no reason to put it off.
+
+**Further reading:** [Food Truck Parking Authorisation](/en/blog/autorisation-stationnement-food-truck) · [Mandatory Food Truck Training](/en/blog/formation-food-truck-obligatoire) · [Allergen Management in Food Trucks](/en/blog/gestion-allergenes-food-truck) · [Food Truck Business Plan](/en/blog/business-plan-food-truck)`,
+    },
+    relatedSlugs: [
+      "formation-food-truck-obligatoire",
+      "autorisation-stationnement-food-truck",
+      "gestion-allergenes-food-truck",
+      "business-plan-food-truck",
+    ],
+  },
 ];
 
 export function getArticleBySlug(slug: string): BlogArticle | undefined {
