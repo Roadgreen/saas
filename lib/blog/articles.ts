@@ -24902,6 +24902,457 @@ Food truckers who maintain their profitability year-round are not the ones who g
 **Further reading:** [Choose a Profitable Location](/en/blog/choisir-emplacement-rentable-food-truck) · [Create a Profitable Menu](/en/blog/menu-food-truck-rentable) · [Leftover Management](/en/blog/gestion-invendus-food-truck) · [Stock Rotation](/en/blog/rotation-stock-food-truck)`,
     },
   },
+  {
+    slug: "cout-de-revient-food-truck",
+    title: {
+      fr: "Coût de revient food truck : comment le calculer et l'optimiser pour préserver vos marges",
+      en: "Food Truck Cost of Goods: How to Calculate and Optimize It to Protect Your Margins",
+    },
+    excerpt: {
+      fr: "Le coût de revient est l'indicateur clé de la rentabilité d'un food truck. Découvrez comment le calculer précisément, identifier les postes qui plombent vos marges, et les leviers concrets pour l'optimiser sans sacrifier la qualité.",
+      en: "Cost of goods (food cost) is the key profitability indicator for any food truck. Learn how to calculate it accurately, spot the items eroding your margins, and apply concrete levers to optimize it without sacrificing quality.",
+    },
+    category: { fr: "Rentabilité", en: "Profitability" },
+    date: "2026-04-22",
+    readTime: 11,
+    keywords: [
+      "coût de revient food truck",
+      "food cost food truck",
+      "ratio matières premières food truck",
+      "calculer coût revient plat food truck",
+      "marges food truck",
+      "food truck cost of goods",
+      "food cost ratio food truck",
+      "optimiser food cost",
+    ],
+    heroImage: "/blog/cout-de-revient-food-truck.png",
+    keyTakeaways: {
+      fr: [
+        "Le food cost idéal en food truck se situe entre 28 % et 35 % du prix de vente HT.",
+        "Pour calculer le coût de revient d'un plat, additionnez le coût de chaque ingrédient selon les grammages réels utilisés.",
+        "Les 3 principaux postes de dérive : les pertes à la préparation, le gaspillage en fin de service et les prix fournisseurs non renegociés.",
+        "Réduire le food cost de 3 points sur un CA de 80 000 €/an représente 2 400 € de marge supplémentaire.",
+        "FoodTracks calcule automatiquement votre food cost par plat en croisant vos factures fournisseurs et vos ventes.",
+      ],
+      en: [
+        "The ideal food cost for a food truck sits between 28% and 35% of the pre-tax selling price.",
+        "To calculate a dish's cost, add up the cost of each ingredient based on actual portion weights used.",
+        "The 3 main cost-drift sources: prep losses, end-of-service waste, and supplier prices never renegotiated.",
+        "Cutting food cost by 3 percentage points on €80,000/year revenue means €2,400 in extra margin.",
+        "FoodTracks automatically calculates your food cost per dish by cross-referencing supplier invoices with your sales data.",
+      ],
+    },
+    faqItems: [
+      {
+        question: {
+          fr: "Quel est le food cost idéal pour un food truck ?",
+          en: "What is the ideal food cost for a food truck?",
+        },
+        answer: {
+          fr: "Le food cost idéal pour un food truck se situe généralement entre 28 % et 35 % du prix de vente hors taxe. En dessous de 28 %, vous risquez de sacrifier la qualité perçue. Au-delà de 35 %, vos charges fixes (carburant, location, salaires) risquent de rendre votre activité déficitaire.",
+          en: "The ideal food cost for a food truck generally sits between 28% and 35% of the pre-tax selling price. Below 28%, you risk sacrificing perceived quality. Above 35%, your fixed costs (fuel, pitch fees, wages) may push the business into the red.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment calculer le coût de revient d'un plat en food truck ?",
+          en: "How do you calculate the cost of a dish in a food truck?",
+        },
+        answer: {
+          fr: "Listez chaque ingrédient du plat avec son grammage exact, multipliez par le prix d'achat unitaire (au kg ou au litre), puis additionnez tous les postes. Divisez ensuite ce total par votre prix de vente HT pour obtenir votre ratio. N'oubliez pas d'inclure les pertes à la préparation (épluchage, cuisson) en appliquant un coefficient de perte.",
+          en: "List each ingredient in the dish with its exact portion weight, multiply by the unit purchase price (per kg or litre), then add all items together. Divide the total by your pre-tax selling price to get your food cost ratio. Don't forget to account for prep losses (peeling, cooking shrinkage) by applying a waste coefficient.",
+        },
+      },
+      {
+        question: {
+          fr: "Quelle est la différence entre coût de revient et food cost ?",
+          en: "What is the difference between cost of goods and food cost?",
+        },
+        answer: {
+          fr: "Le food cost désigne le ratio entre le coût des matières premières et le prix de vente (exprimé en %). Le coût de revient est la valeur absolue (en euros) du coût de fabrication d'un plat, sans le rapport au prix de vente. En pratique, les deux termes sont souvent utilisés de façon interchangeable dans la restauration.",
+          en: "Food cost refers to the ratio between ingredient costs and the selling price (expressed as a %). Cost of goods is the absolute value (in euros or dollars) of producing a dish, without reference to the selling price. In practice, the two terms are often used interchangeably in the restaurant trade.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment réduire le food cost sans baisser la qualité ?",
+          en: "How can you reduce food cost without lowering quality?",
+        },
+        answer: {
+          fr: "Plusieurs leviers permettent de réduire le food cost sans toucher à la qualité : renegocier les tarifs fournisseurs, standardiser les grammages, réduire le gaspillage en fin de service, adapter les quantités commandées à la météo et aux emplacements, et concevoir un menu ingénieuré où les plats stars ont un food cost inférieur.",
+          en: "Several levers help reduce food cost without touching quality: renegotiate supplier rates, standardise portion weights, reduce end-of-service waste, adapt order quantities to weather and location, and engineer your menu so star dishes carry a lower food cost.",
+        },
+      },
+      {
+        question: {
+          fr: "Faut-il calculer le food cost par plat ou de façon globale ?",
+          en: "Should you calculate food cost per dish or overall?",
+        },
+        answer: {
+          fr: "Les deux sont utiles mais complémentaires. Le food cost global vous donne une vue d'ensemble de votre rentabilité. Le food cost par plat vous permet d'identifier les produits qui tirent la moyenne vers le haut et d'ajuster vos prix ou vos recettes en conséquence.",
+          en: "Both are useful but complementary. The overall food cost gives a snapshot of your profitability. The per-dish food cost lets you identify which items drag the average up and adjust prices or recipes accordingly.",
+        },
+      },
+    ],
+    content: {
+      fr: `## Pourquoi le coût de revient est l'indicateur n°1 de la rentabilité food truck
+
+Un food truck peut avoir un chiffre d'affaires flatteur et quand même perdre de l'argent. La raison la plus fréquente ? Un **coût de revient mal maîtrisé**. En restauration rapide mobile, les charges fixes (carburant, assurance, location des emplacements, amortissement du camion) ne laissent qu'une fenêtre étroite de marge. Si vos matières premières représentent 40 % de vos recettes au lieu de 30 %, cette différence de 10 points peut transformer un bénéfice en déficit.
+
+Pourtant, moins de 3 food truckers sur 10 calculent leur food cost de façon rigoureuse. Beaucoup fonctionnent à l'intuition — "ça me semble rentable" — sans jamais poser les chiffres.
+
+Ce guide change ça.
+
+## Qu'est-ce que le coût de revient en food truck ?
+
+Le **coût de revient** (ou **food cost**) désigne le montant total dépensé en matières premières pour produire les plats vendus sur une période donnée, exprimé en valeur absolue (€) ou en ratio (% du chiffre d'affaires HT).
+
+### La formule de base
+
+**Food cost (€) = Achats matières premières de la période + Stock initial − Stock final**
+
+**Food cost (%) = Food cost (€) ÷ Chiffre d'affaires HT × 100**
+
+**Exemple concret :**
+- Stock initial : 800 €
+- Achats de la semaine : 1 200 €
+- Stock final : 500 €
+- Food cost (€) = 800 + 1 200 − 500 = **1 500 €**
+- CA HT de la semaine : 4 500 €
+- Food cost (%) = 1 500 ÷ 4 500 × 100 = **33 %**
+
+Un food cost à 33 % est dans la fourchette acceptable pour un food truck. Mais savoir que votre food cost est de 33 % en global ne suffit pas — il faut descendre au niveau de chaque plat.
+
+## Comment calculer le coût de revient par plat
+
+C'est là que la majorité des food truckers décroche. Le calcul plat par plat paraît fastidieux, mais c'est la seule façon d'identifier ce qui dégrade vraiment vos marges.
+
+### Étape 1 : Listez tous les ingrédients avec les grammages exacts
+
+Pour chaque plat de votre menu, notez chaque ingrédient et la quantité utilisée **en grammes ou millilitres**. Soyez précis : 120 g de viande ou 150 g fait une différence significative sur le coût.
+
+### Étape 2 : Calculez le coût unitaire de chaque ingrédient
+
+Divisez le prix d'achat par le poids ou volume de l'unité achetée.
+
+**Exemple :** Vous achetez 5 kg de poulet à 18 €. Le coût est de 18 ÷ 5 000 = **0,0036 €/g**.
+
+Si votre recette utilise 130 g de poulet : 130 × 0,0036 = **0,47 €**
+
+### Étape 3 : Appliquez le coefficient de perte
+
+Tout ingrédient subit des pertes : épluchage, cuisson, découpe. Un poulet brut perd environ 30 % à la cuisson. Si vous achetez 130 g de poulet brut pour obtenir 90 g de poulet cuit dans l'assiette, vous devez intégrer ce rendement dans votre calcul.
+
+**Formule :** Quantité brute nécessaire = Quantité nette ÷ (1 − taux de perte)
+
+- 90 g net ÷ (1 − 0,30) = **128,6 g brut à commander**
+
+### Étape 4 : Additionnez tous les ingrédients
+
+| Ingrédient | Grammage | Coût unitaire | Coût recette |
+|---|---|---|---|
+| Poulet (brut) | 130 g | 0,0036 €/g | 0,47 € |
+| Pain burger | 1 pièce | 0,28 €/u | 0,28 € |
+| Salade | 25 g | 0,0042 €/g | 0,10 € |
+| Tomate | 40 g | 0,0022 €/g | 0,09 € |
+| Sauce maison | 20 g | 0,0060 €/g | 0,12 € |
+| **Total** | | | **1,06 €** |
+
+### Étape 5 : Calculez votre food cost ratio
+
+Prix de vente HT de votre burger : 6,60 €
+
+Food cost = 1,06 ÷ 6,60 × 100 = **16,1 %**
+
+Excellent. Ce plat a un food cost très bas, ce qui compense les plats avec un ratio plus élevé.
+
+## Les benchmarks par type de food truck
+
+| Concept | Food cost cible | Fourchette acceptable |
+|---|---|---|
+| Burger / Sandwich | 28 – 32 % | ≤ 35 % |
+| Tacos / Mexican | 30 – 34 % | ≤ 37 % |
+| Poké bowl / Healthy | 34 – 38 % | ≤ 40 % |
+| Crêpes / Desserts | 22 – 28 % | ≤ 32 % |
+| Pizza ambulante | 26 – 30 % | ≤ 33 % |
+
+Les plats "healthy" à base de protéines fraîches ont naturellement un food cost plus élevé. C'est pourquoi votre prix de vente et votre volume de service doivent compenser.
+
+## Les 5 raisons qui font dériver le food cost
+
+### 1. Les grammages non standardisés
+
+Sans fiche recette standardisée, chaque cuisinier dose différemment. 10 g de viande supplémentaires par burger × 100 burgers/jour × 250 jours = **250 kg de viande gaspillée par an**, soit souvent 1 000 à 2 000 € de marge perdue.
+
+### 2. Le gaspillage en fin de service
+
+Les produits préparés non vendus (frites, sauces, préparations chaudes) sont une perte sèche. Sur un service, préparer 20 portions de trop peut représenter 15 à 30 € de perte directe. Multipliez par 200 services/an : **3 000 à 6 000 € évaporés**.
+
+Lire aussi : [Gestion des invendus food truck](/fr/blog/gestion-invendus-food-truck)
+
+### 3. Les prix fournisseurs jamais renegociés
+
+Vous achetez au même tarif depuis 18 mois ? Les prix des matières premières fluctuent. Un fournisseur qui vous a augmenté de 5 % sans que vous le renegociez a directement impacté votre food cost sans que vous vous en rendiez compte.
+
+### 4. Le manque de suivi des stocks
+
+Sans inventaire régulier, vous ne savez pas ce qui disparaît (casse, vol, péremption non détectée). Un food trucker sur cinq sous-estime ses pertes de 10 à 15 %.
+
+### 5. Un menu non "ingénié"
+
+Tous vos plats ne contribuent pas de façon égale à votre marge. Si vos best-sellers ont un food cost de 38 % et vos plats marginaux un food cost de 20 %, l'optimisation passe par la mise en avant des seconds.
+
+## 6 leviers concrets pour réduire votre food cost
+
+### Levier 1 : Créer des fiches recettes standardisées
+
+Une fiche recette par plat, avec les grammages exacts par ingrédient. Plastifiées, affichées au poste de travail. C'est non négociable si vous voulez un food cost maîtrisé.
+
+### Levier 2 : Peser systématiquement les portions
+
+Une balance de cuisine au poste de dressage n'est pas un luxe — c'est un outil de contrôle des coûts. Investissement : 30 à 50 €. Retour sur investissement : quelques semaines.
+
+### Levier 3 : Renegocier vos tarifs fournisseurs tous les 6 mois
+
+Demandez des devis à 2 ou 3 fournisseurs concurrents chaque semestre. Même si vous ne changez pas, le simple fait de demander une renegociation vous permet souvent d'obtenir 3 à 7 % de remise.
+
+Lire aussi : [Trouver les bons fournisseurs pour son food truck](/fr/blog/fournisseurs-food-truck-guide)
+
+### Levier 4 : Adapter vos commandes à la demande réelle
+
+Commander en excès, c'est gaspiller. Commander insuffisamment, c'est perdre des ventes. L'idéal : croiser votre planning de la semaine, la météo, et vos historiques de ventes pour affiner vos quantités.
+
+FoodTracks automatise cette analyse en croisant vos données de ventes SumUp, vos factures fournisseurs et les prévisions météo pour vous suggérer des quantités à commander avant chaque service.
+
+### Levier 5 : Réduire le gaspillage en fin de service
+
+Travaillez en flux tiré plutôt qu'en stock : préparez vos bases au fur et à mesure de la demande plutôt qu'en totalité en début de service. Mettez en place une "carte de fin de service" avec des tarifs légèrement réduits 30 min avant la fermeture.
+
+Lire aussi : [Optimiser la rotation des stocks en food truck](/fr/blog/rotation-stock-food-truck)
+
+### Levier 6 : Ingénieriser votre menu
+
+Analysez vos plats selon deux axes : popularité (nombre de ventes) et marge (food cost). Quatre catégories émergent :
+- **Stars** : très vendus, bonne marge → mettez-les en avant
+- **Vaches à lait** : très vendus, marge faible → augmentez légèrement le prix ou reformulez
+- **Puzzles** : peu vendus, bonne marge → améliorez la visibilité sur la carte
+- **Poids morts** : peu vendus, marge faible → supprimez ou reformulez radicalement
+
+Lire aussi : [Comment créer un menu food truck rentable](/fr/blog/menu-food-truck-rentable)
+
+## L'impact chiffré d'une optimisation du food cost
+
+Voici ce que représente concrètement une réduction de votre food cost de 3 points :
+
+| CA annuel HT | Food cost actuel | Food cost optimisé | Gain annuel |
+|---|---|---|---|
+| 60 000 € | 36 % | 33 % | **1 800 €** |
+| 80 000 € | 36 % | 33 % | **2 400 €** |
+| 120 000 € | 36 % | 33 % | **3 600 €** |
+| 200 000 € | 36 % | 33 % | **6 000 €** |
+
+3 points de food cost gagnés, c'est souvent plusieurs semaines de salaire récupérées — sans augmenter votre chiffre d'affaires d'un euro.
+
+## Comment FoodTracks calcule votre food cost automatiquement
+
+Calculer le food cost manuellement est faisable. Mais le faire semaine après semaine, plat par plat, en croisant les prix fournisseurs qui changent régulièrement — c'est chronophage.
+
+**FoodTracks** automatise cette chaîne :
+1. Vous scannez vos factures fournisseurs (ou les importez depuis votre boîte mail)
+2. FoodTracks extrait les prix et les met à jour dans votre base de données ingrédients
+3. Vos ventes SumUp alimentent l'outil en temps réel
+4. Votre food cost par plat et global se met à jour automatiquement
+5. Vous recevez une alerte si un plat dépasse votre seuil de food cost cible
+
+Résultat : vous passez de 3h de tableur par semaine à un tableau de bord consulté en 5 minutes.
+
+## Conclusion
+
+Le coût de revient est la boussole de votre rentabilité. Sans le calculer — par plat et de façon globale — vous naviguez à l'aveugle. Avec les bons outils et les bonnes méthodes, réduire son food cost de 3 à 5 points est à la portée de tout food trucker sérieux.
+
+La bonne nouvelle : vous n'avez pas besoin d'un diplôme de comptable. Vous avez besoin d'une méthode, de la discipline sur les grammages, et d'un suivi régulier de vos achats et de vos ventes.
+
+**À lire ensuite :** [Calculer le prix de vente de vos plats](/fr/blog/calcul-prix-vente-food-truck) · [Gestion de trésorerie food truck](/fr/blog/gestion-tresorerie-food-truck) · [Charges variables food truck](/fr/blog/charges-variables-food-truck) · [Menu food truck rentable](/fr/blog/menu-food-truck-rentable)`,
+      en: `## Why Cost of Goods Is the #1 Profitability Indicator for Food Trucks
+
+A food truck can post impressive revenue and still lose money. The most common reason? **Poorly controlled food cost**. In mobile fast food, fixed costs (fuel, insurance, pitch fees, truck depreciation) leave only a narrow margin window. If your ingredients account for 40% of revenue instead of 30%, that 10-point gap can turn a profit into a loss.
+
+Yet fewer than 3 in 10 food truckers calculate their food cost rigorously. Many operate on gut feel — "it feels profitable" — without ever putting the numbers down.
+
+This guide changes that.
+
+## What Is Food Cost in a Food Truck?
+
+**Food cost** refers to the total amount spent on ingredients to produce the dishes sold over a given period, expressed either as an absolute value (€/$) or as a ratio (% of pre-tax revenue).
+
+### The Basic Formula
+
+**Food cost (€) = Opening stock + Purchases for the period − Closing stock**
+
+**Food cost (%) = Food cost (€) ÷ Pre-tax revenue × 100**
+
+**Concrete example:**
+- Opening stock: €800
+- Purchases for the week: €1,200
+- Closing stock: €500
+- Food cost (€) = 800 + 1,200 − 500 = **€1,500**
+- Pre-tax revenue for the week: €4,500
+- Food cost (%) = 1,500 ÷ 4,500 × 100 = **33%**
+
+A 33% food cost is within the acceptable range for a food truck. But knowing your overall food cost is 33% isn't enough — you need to go down to individual dish level.
+
+## How to Calculate Food Cost Per Dish
+
+This is where most food truckers give up. Per-dish calculation seems tedious, but it is the only way to identify what is genuinely eroding your margins.
+
+### Step 1: List Every Ingredient with Exact Weights
+
+For each dish on your menu, note every ingredient and the quantity used **in grams or millilitres**. Be precise: 120 g of meat vs 150 g makes a significant difference in cost.
+
+### Step 2: Calculate the Unit Cost of Each Ingredient
+
+Divide the purchase price by the weight or volume of the unit bought.
+
+**Example:** You buy 5 kg of chicken for €18. The cost is 18 ÷ 5,000 = **€0.0036/g**.
+
+If your recipe uses 130 g of chicken: 130 × 0.0036 = **€0.47**
+
+### Step 3: Apply the Waste Coefficient
+
+Every ingredient incurs losses: peeling, cooking shrinkage, trimming. Chicken loses roughly 30% in cooking. If you buy 130 g of raw chicken to get 90 g of cooked chicken on the plate, you need to build this yield into your calculation.
+
+**Formula:** Raw quantity needed = Net quantity ÷ (1 − waste rate)
+
+- 90 g net ÷ (1 − 0.30) = **128.6 g raw to order**
+
+### Step 4: Add Up All Ingredients
+
+| Ingredient | Weight | Unit cost | Recipe cost |
+|---|---|---|---|
+| Chicken (raw) | 130 g | €0.0036/g | €0.47 |
+| Burger bun | 1 unit | €0.28/unit | €0.28 |
+| Lettuce | 25 g | €0.0042/g | €0.10 |
+| Tomato | 40 g | €0.0022/g | €0.09 |
+| House sauce | 20 g | €0.0060/g | €0.12 |
+| **Total** | | | **€1.06** |
+
+### Step 5: Calculate Your Food Cost Ratio
+
+Pre-tax selling price of your burger: €6.60
+
+Food cost = 1.06 ÷ 6.60 × 100 = **16.1%**
+
+Excellent. This dish has a very low food cost, which offsets dishes with a higher ratio.
+
+## Benchmarks by Food Truck Concept
+
+| Concept | Target food cost | Acceptable range |
+|---|---|---|
+| Burger / Sandwich | 28 – 32% | ≤ 35% |
+| Tacos / Mexican | 30 – 34% | ≤ 37% |
+| Poke bowl / Healthy | 34 – 38% | ≤ 40% |
+| Crêpes / Desserts | 22 – 28% | ≤ 32% |
+| Mobile pizza | 26 – 30% | ≤ 33% |
+
+Healthy concepts built around fresh proteins naturally carry a higher food cost. That's why your selling price and service volume need to compensate.
+
+## The 5 Reasons Food Cost Drifts Out of Control
+
+### 1. Non-Standardised Portion Weights
+
+Without a standardised recipe card, every cook portions differently. An extra 10 g of meat per burger × 100 burgers/day × 250 days = **250 kg of meat wasted per year** — often €1,000 to €2,000 in lost margin.
+
+### 2. End-of-Service Waste
+
+Prepared but unsold products (fries, sauces, hot preparations) are a direct loss. On a single service, over-preparing 20 portions can represent €15–30 in direct loss. Multiply by 200 services/year: **€3,000 to €6,000 evaporated**.
+
+Also read: [Food Truck Leftover Management](/en/blog/gestion-invendus-food-truck)
+
+### 3. Supplier Prices Never Renegotiated
+
+Still buying at the same rates as 18 months ago? Raw material prices fluctuate. A supplier who quietly raised prices by 5% without you renegotiating has directly hit your food cost without you noticing.
+
+### 4. Lack of Stock Tracking
+
+Without regular stocktaking, you don't know what's disappearing (breakage, theft, undetected spoilage). One in five food truckers underestimates losses by 10–15%.
+
+### 5. An Un-Engineered Menu
+
+Not all your dishes contribute equally to your margin. If your best-sellers carry a 38% food cost and your marginal dishes carry 20%, optimisation means promoting the latter.
+
+## 6 Concrete Levers to Reduce Your Food Cost
+
+### Lever 1: Create Standardised Recipe Cards
+
+One recipe card per dish, with exact ingredient weights. Laminated and posted at the prep station. Non-negotiable if you want a controlled food cost.
+
+### Lever 2: Systematically Weigh Portions
+
+A kitchen scale at the plating station is not a luxury — it is a cost-control tool. Investment: €30–50. Return on investment: a few weeks.
+
+### Lever 3: Renegotiate Supplier Rates Every 6 Months
+
+Get quotes from 2–3 competing suppliers every semester. Even if you don't switch, simply asking for a renegotiation typically wins you 3–7% off.
+
+Also read: [Finding the Right Suppliers for Your Food Truck](/en/blog/fournisseurs-food-truck-guide)
+
+### Lever 4: Match Your Orders to Real Demand
+
+Over-ordering means waste. Under-ordering means lost sales. The sweet spot: cross your weekly schedule, the weather forecast, and your sales history to fine-tune quantities.
+
+FoodTracks automates this analysis by cross-referencing your SumUp sales data, supplier invoices and weather forecasts to suggest order quantities before every service.
+
+### Lever 5: Reduce End-of-Service Waste
+
+Work in pull flow rather than push: prepare your bases progressively as demand comes in, rather than all at once at the start of service. Introduce a "last 30 minutes menu" with slightly reduced prices to clear remaining stock before closing.
+
+Also read: [Optimising Stock Rotation in Your Food Truck](/en/blog/rotation-stock-food-truck)
+
+### Lever 6: Engineer Your Menu
+
+Analyse your dishes on two axes: popularity (number of sales) and margin (food cost). Four categories emerge:
+- **Stars**: high volume, good margin → highlight them
+- **Cash cows**: high volume, low margin → raise the price slightly or reformulate
+- **Puzzles**: low volume, good margin → improve visibility on the menu
+- **Dogs**: low volume, low margin → remove or radically reformulate
+
+Also read: [How to Create a Profitable Food Truck Menu](/en/blog/menu-food-truck-rentable)
+
+## The Quantified Impact of a Food Cost Optimisation
+
+Here is what reducing your food cost by 3 points actually means:
+
+| Annual pre-tax revenue | Current food cost | Optimised food cost | Annual gain |
+|---|---|---|---|
+| €60,000 | 36% | 33% | **€1,800** |
+| €80,000 | 36% | 33% | **€2,400** |
+| €120,000 | 36% | 33% | **€3,600** |
+| €200,000 | 36% | 33% | **€6,000** |
+
+3 food cost points saved often equates to several weeks' salary recovered — without growing your revenue by a single euro.
+
+## How FoodTracks Calculates Your Food Cost Automatically
+
+Calculating food cost manually is doable. But doing it week after week, dish by dish, while supplier prices change regularly — that's time-consuming.
+
+**FoodTracks** automates the chain:
+1. You scan your supplier invoices (or import them from your inbox)
+2. FoodTracks extracts prices and updates your ingredient database
+3. Your SumUp sales feed into the tool in real time
+4. Your per-dish and overall food cost update automatically
+5. You receive an alert when a dish exceeds your target food cost threshold
+
+Result: you go from 3 hours of spreadsheet work per week to a dashboard checked in 5 minutes.
+
+## Conclusion
+
+Food cost is the compass of your profitability. Without calculating it — per dish and overall — you are navigating blind. With the right tools and the right methods, reducing food cost by 3 to 5 points is within reach of any serious food trucker.
+
+The good news: you don't need an accounting degree. You need a method, portion-weight discipline, and regular tracking of your purchases and sales.
+
+**Further reading:** [Calculate Your Dish Selling Prices](/en/blog/calcul-prix-vente-food-truck) · [Food Truck Cash Flow Management](/en/blog/gestion-tresorerie-food-truck) · [Variable Costs Food Truck](/en/blog/charges-variables-food-truck) · [Profitable Food Truck Menu](/en/blog/menu-food-truck-rentable)`,
+    },
+  },
 ];
 
 export function getArticleBySlug(slug: string): BlogArticle | undefined {
