@@ -25770,6 +25770,353 @@ The good news: it is accessible, can be 100% funded, and is increasingly availab
       "business-plan-food-truck",
     ],
   },
+  {
+    slug: "food-truck-vegan-menu-rentable",
+    title: {
+      fr: "Comment créer un menu vegan rentable pour son food truck",
+      en: "How to Create a Profitable Vegan Menu for Your Food Truck",
+    },
+    excerpt: {
+      fr: "Le marché du street food vegan explose en France. Découvrez comment concevoir un menu végétalien rentable, maîtriser vos coûts de revient, attirer une clientèle fidèle et vous démarquer sur n'importe quel emplacement.",
+      en: "The vegan street food market is booming in France. Learn how to design a profitable plant-based menu, control your food costs, attract loyal customers, and stand out at any location.",
+    },
+    category: { fr: "Menu & Rentabilité", en: "Menu & Profitability" },
+    date: "2026-04-23",
+    readTime: 10,
+    keywords: [
+      "food truck vegan rentable",
+      "menu vegan food truck",
+      "street food végétalien",
+      "créer menu vegan food truck",
+      "food truck végétarien marges",
+      "vegan food truck profitable",
+      "plant-based food truck menu",
+      "vegan street food france",
+    ],
+    heroImage: "/blog/gestion-stock.png",
+    keyTakeaways: {
+      fr: [
+        "Le marché du food vegan en France affiche une croissance annuelle de 20 % — une opportunité directe pour les food truckers.",
+        "Un menu vegan bien conçu peut atteindre des marges brutes de 70 à 75 %, supérieures à la plupart des concepts carnés.",
+        "Concentrez-vous sur 6 à 8 plats phares : variété et lisibilité valent mieux que des cartes de 20 références.",
+        "La maîtrise du coût de revient de chaque recette est la clé pour fixer des prix rentables sans freiner l'acte d'achat.",
+        "La communication autour des valeurs (environnement, bien-être animal) convertit les curieux en clients réguliers.",
+      ],
+      en: [
+        "The vegan food market in France grows at 20% annually — a direct opportunity for food truckers.",
+        "A well-designed vegan menu can reach gross margins of 70–75%, higher than most meat-based concepts.",
+        "Focus on 6 to 8 signature dishes: variety and readability beat a 20-item menu.",
+        "Knowing the exact cost of each recipe is key to setting profitable prices without deterring purchases.",
+        "Communicating around values (environment, animal welfare) turns curious passers-by into regulars.",
+      ],
+    },
+    content: {
+      fr: `## Pourquoi se lancer dans le food truck vegan en 2025 ?
+
+Le marché du vegan en France ne cesse de progresser. Selon les chiffres du GFI Europe et des panels distributeurs, les ventes de produits végétaux ont crû de **20 % en moyenne par an** depuis 2020. En street food, la tendance est encore plus marquée : les festivals, marchés bio et zones d'affaires affichent une demande croissante pour une alimentation sans viande, sans produits laitiers et respectueuse de l'environnement.
+
+Pour un food trucker, c'est une double opportunité : **capter une clientèle peu couverte** et **améliorer ses marges**, car les matières premières végétales sont généralement moins coûteuses que les protéines animales.
+
+### Un potentiel de marge élevé
+
+Un burger bœuf classique mobilise 2,50 à 3,50 € de matière première pour un prix de vente de 9 à 11 €. Un burger vegan à base de galette de légumineuses maison revient souvent à **1,20 à 1,80 €** de matières premières pour un prix de vente équivalent. Résultat : **une marge brute de 70 à 75 %** contre 60 à 65 % pour le carnivore.
+
+## Les fondamentaux d'un menu vegan food truck rentable
+
+### 1. Choisir un concept fort et lisible
+
+Le menu vegan doit raconter une histoire. Quelques exemples de positionnements gagnants :
+- **Bowl & Wraps végétaux** : couleurs, fraîcheur, personnalisation
+- **Burgers vegans** : le plus populaire en street food, facilement reconnaissable
+- **Cuisine du monde végétale** : falafel, daal, tacos au jackfruit, maki végétarien
+- **Street food comfort food vegan** : frites premium, hot-dogs végétaux, nachos fromage de cajou
+
+Un concept clair se vend mieux qu'une carte fourre-tout. Vos clients doivent comprendre en 10 secondes ce que vous proposez.
+
+### 2. Construire une carte courte et rentable
+
+**6 à 8 références** est la taille idéale pour un food truck vegan :
+- 3 à 4 plats principaux (burger, bowl, wrap, plateau...)
+- 1 à 2 sides (frites, salade, soupe)
+- 1 dessert ou boisson signature
+
+Une carte courte, c'est moins de gaspillage, moins de références à stocker, et une expérience client plus rapide. En food truck, la rapidité de service est un avantage concurrentiel direct.
+
+### 3. Calculer le coût de revient de chaque recette
+
+C'est **l'étape la plus critique**. Pour chaque plat, vous devez connaître exactement :
+- Le coût des ingrédients par portion
+- Les pertes (épluchage, cuisson)
+- Le coût de l'emballage
+
+**Exemple pour un bowl vegan à 10 € :**
+- Céréales (quinoa, riz) : 0,40 €
+- Légumes rôtis : 0,70 €
+- Protéine (pois chiches, tempeh) : 0,55 €
+- Sauce maison : 0,25 €
+- Emballage : 0,30 €
+- **Total matières premières : 2,20 €**
+- **Marge brute : 7,80 € soit 78 %**
+
+Avec [FoodTracks](/fr/fonctionnalites), vous pouvez scanner vos factures fournisseurs et calculer automatiquement le coût de revient de chaque recette pour ajuster vos prix en temps réel. Voir aussi notre guide complet sur le [calcul du prix de revient d'un plat food truck](/fr/blog/calculer-cout-revient-recette-food-truck).
+
+## Sourcing : trouver les bons fournisseurs végétaux
+
+### Circuits courts et grossistes bio
+
+Pour rester rentable, le sourcing est décisif :
+- **Marchés de gros bio** (Rungis, MIN locaux) : prix compétitifs sur les légumes de saison
+- **Grossistes spécialisés végétaux** : Biocoop Pro, Greenweez Pro, Ecotone
+- **Coopératives agricoles locales** : négocier des contrats hebdomadaires avec 2 ou 3 maraîchers
+
+**Astuce** : adaptez votre menu à la saisonnalité pour réduire le coût des matières premières de 20 à 30 %. Un bowl d'automne aux courges coûte deux fois moins cher qu'un bowl d'été aux fraises hors saison.
+
+### Protéines végétales économiques
+
+Les protéines sont le poste clé d'un menu vegan :
+- **Légumineuses** (pois chiches, lentilles, haricots) : le moins cher, le plus nutritif
+- **Tofu fumé** : polyvalent, se travaille chaud ou froid
+- **Tempeh** : fermenté, riche en protéines, tendance croissante
+- **Jackfruit** : texture viande, idéal pour les "pulled pork" vegans
+- **Seitan maison** : économique si vous le préparez vous-même
+
+## Positionnement et communication : attirer les clients
+
+### Afficher clairement les valeurs
+
+Les clients vegans et flexitariens ne cherchent pas seulement un repas — ils cherchent une adhésion à des valeurs. Communiquez sur :
+- Vos fournisseurs locaux (nom de l'exploitation, région)
+- Le fait-maison (sauces, galettes, desserts)
+- L'absence de déchets animaux (packaging recyclable ou compostable)
+
+### Cibler les bons emplacements
+
+Certains emplacements sont naturellement plus favorables au concept vegan :
+- **Quartiers bobo / écoresponsables** : forte demande, panier moyen élevé
+- **Campus universitaires** : clientèle jeune, sensible aux alternatives à la viande
+- **Festivals et marchés bio** : votre clientèle cible est déjà là
+- **Parcs d'entreprises** avec politiques RSE : les salariés en télétravail ou dans des sièges sociaux cherchent souvent des alternatives saines
+
+Pour trouver les emplacements les plus rentables, consultez notre guide sur [comment choisir un emplacement rentable pour son food truck](/fr/blog/choisir-emplacement-rentable-food-truck).
+
+### Réseaux sociaux : mise en scène visuelle
+
+Le vegan se prête parfaitement à une communication Instagram et TikTok :
+- **Photos overhead** de bowls colorés
+- **Vidéos de préparation** (assemblage du burger, sauce qui coule)
+- **Stories "behind the scenes"** chez vos maraîchers
+
+Les contenus vegans génèrent en moyenne **3 à 5 fois plus d'engagement** que les contenus carnés sur Instagram, selon les études de social media marketing food.
+
+## Gérer les invendus et limiter le gaspillage
+
+L'un des avantages des recettes végétales est leur **versatilité** : des légumes rôtis non vendus le midi peuvent devenir la base d'une soupe en fin de service. Un surplus de pois chiches peut être transformé en houmous pour le lendemain.
+
+Mettre en place un système de suivi des invendus vous permettra de détecter rapidement quels plats se vendent mal et d'ajuster vos quantités. FoodTracks vous envoie des alertes automatiques en fin de service pour anticiper le gaspillage — lisez notre guide sur la [gestion des invendus en food truck](/fr/blog/gestion-invendus-food-truck).
+
+## Checklist lancement d'un food truck vegan rentable
+
+Avant votre premier service, vérifiez :
+
+- [ ] Concept défini et nom/identité visuelle clairs
+- [ ] Carte de 6 à 8 références max, testée sur vos proches
+- [ ] Coût de revient calculé pour chaque plat (marge brute > 65 %)
+- [ ] Fournisseurs végétaux identifiés et tarifs négociés
+- [ ] Emplacements ciblés selon votre clientèle idéale
+- [ ] Packaging recyclable ou compostable commandé
+- [ ] Compte Instagram créé et premiers posts publiés
+- [ ] Logiciel de gestion configuré (suivi stock, invendus, ventes)
+
+## Conclusion
+
+Créer un food truck vegan rentable n'est pas plus complexe qu'un food truck classique — c'est même souvent plus simple en termes de coûts matières et de gestion des stocks. La clé est de **construire un concept fort**, de **maîtriser ses coûts de revient**, et de **communiquer autour de valeurs authentiques**.
+
+Le marché est là, la demande progresse chaque année, et les marges peuvent être excellentes. Il ne vous reste plus qu'à passer à l'action.
+
+**À lire aussi :** [Calculer le coût de revient d'une recette food truck](/fr/blog/calculer-cout-revient-recette-food-truck) · [Gestion des invendus food truck](/fr/blog/gestion-invendus-food-truck) · [Trouver les meilleurs emplacements food truck](/fr/blog/trouver-meilleurs-emplacements-food-truck) · [Menu food truck rentable](/fr/blog/menu-food-truck-rentable)`,
+      en: `## Why Launch a Vegan Food Truck in 2025?
+
+The vegan market in France continues to grow. According to GFI Europe and retail panel data, plant-based product sales have grown at **20% per year on average** since 2020. In street food, the trend is even stronger: festivals, organic markets and business districts show increasing demand for meat-free, dairy-free and environmentally conscious food.
+
+For a food truck operator, this represents a dual opportunity: **reaching an underserved customer base** and **improving margins**, since plant-based raw materials are generally less expensive than animal proteins.
+
+### High Margin Potential
+
+A classic beef burger uses €2.50 to €3.50 in raw materials for a selling price of €9 to €11. A vegan burger made from a homemade legume patty typically costs **€1.20 to €1.80** in ingredients for the same selling price. The result: **a gross margin of 70–75%** compared to 60–65% for meat-based equivalents.
+
+## Fundamentals of a Profitable Vegan Food Truck Menu
+
+### 1. Choose a Strong, Readable Concept
+
+A vegan menu must tell a story. Some winning positioning examples:
+- **Plant-based Bowls & Wraps**: colour, freshness, customisation
+- **Vegan Burgers**: the most popular in street food, instantly recognisable
+- **Vegetable World Cuisine**: falafel, daal, jackfruit tacos, vegetarian maki
+- **Vegan Comfort Food**: premium fries, veggie hot-dogs, cashew cheese nachos
+
+A clear concept sells better than a catch-all menu. Your customers should understand within 10 seconds what you offer.
+
+### 2. Build a Short, Profitable Menu
+
+**6 to 8 items** is the ideal size for a vegan food truck:
+- 3 to 4 mains (burger, bowl, wrap, platter…)
+- 1 to 2 sides (fries, salad, soup)
+- 1 signature dessert or drink
+
+A short menu means less waste, fewer references to stock, and a faster customer experience. In a food truck, speed of service is a direct competitive advantage.
+
+### 3. Calculate the Cost of Each Recipe
+
+This is **the most critical step**. For each dish, you must know exactly:
+- Ingredient cost per portion
+- Losses from preparation (peeling, cooking)
+- Packaging cost
+
+**Example for a vegan bowl priced at €10:**
+- Grains (quinoa, rice): €0.40
+- Roasted vegetables: €0.70
+- Protein (chickpeas, tempeh): €0.55
+- Homemade sauce: €0.25
+- Packaging: €0.30
+- **Total raw material cost: €2.20**
+- **Gross margin: €7.80 or 78%**
+
+With [FoodTracks](/en/fonctionnalites), you can scan your supplier invoices and automatically calculate the cost of each recipe to adjust your prices in real time. See also our complete guide on [calculating the cost of a food truck recipe](/en/blog/calculer-cout-revient-recette-food-truck).
+
+## Sourcing: Finding the Right Plant-Based Suppliers
+
+### Local Channels and Organic Wholesalers
+
+Sourcing is decisive for staying profitable:
+- **Organic wholesale markets** (Rungis, local MIN): competitive prices on seasonal vegetables
+- **Specialist plant-based wholesalers**: Biocoop Pro, Greenweez Pro, Ecotone
+- **Local agricultural cooperatives**: negotiate weekly contracts with 2 or 3 market gardeners
+
+**Tip**: adapt your menu to seasonality to reduce raw material costs by 20–30%. An autumn squash bowl costs twice as much less than an out-of-season summer strawberry bowl.
+
+### Affordable Plant Proteins
+
+Proteins are the key line item in a vegan menu:
+- **Legumes** (chickpeas, lentils, beans): cheapest, most nutritious
+- **Smoked tofu**: versatile, works hot or cold
+- **Tempeh**: fermented, protein-rich, growing trend
+- **Jackfruit**: meat-like texture, ideal for vegan pulled "pork"
+- **Homemade seitan**: cost-effective if you prepare it yourself
+
+## Positioning and Communication: Attracting Customers
+
+### Clearly Display Your Values
+
+Vegan and flexitarian customers are not just looking for a meal — they are looking for alignment with values. Communicate about:
+- Your local suppliers (farm name, region)
+- Homemade items (sauces, patties, desserts)
+- Zero animal waste (recyclable or compostable packaging)
+
+### Target the Right Locations
+
+Some locations are naturally more favourable to a vegan concept:
+- **Trendy / eco-conscious neighbourhoods**: high demand, high average basket
+- **University campuses**: young customers receptive to meat alternatives
+- **Organic festivals and markets**: your target audience is already there
+- **Business parks with CSR policies**: employees in HQ offices often look for healthy alternatives
+
+To find the most profitable locations, see our guide on [how to choose a profitable location for your food truck](/en/blog/choisir-emplacement-rentable-food-truck).
+
+### Social Media: Visual Storytelling
+
+Vegan food lends itself perfectly to Instagram and TikTok:
+- **Overhead photos** of colourful bowls
+- **Preparation videos** (burger assembly, sauce drizzle)
+- **Behind-the-scenes stories** at your market garden suppliers
+
+Vegan content generates on average **3 to 5 times more engagement** than meat-based content on Instagram, according to food social media marketing studies.
+
+## Managing Unsold Stock and Reducing Waste
+
+One of the advantages of plant-based recipes is their **versatility**: roasted vegetables not sold at lunch can become the base of a soup at the end of service. Leftover chickpeas can be turned into hummus for the next day.
+
+Setting up an unsold stock tracking system will let you quickly spot which dishes are underperforming and adjust your quantities. FoodTracks sends automatic alerts at the end of service to anticipate waste — read our guide on [managing unsold stock in a food truck](/en/blog/gestion-invendus-food-truck).
+
+## Launch Checklist for a Profitable Vegan Food Truck
+
+Before your first service, check:
+
+- [ ] Concept defined with clear name and visual identity
+- [ ] Menu of 6 to 8 references max, tested on friends and family
+- [ ] Cost of each dish calculated (gross margin > 65%)
+- [ ] Plant-based suppliers identified and prices negotiated
+- [ ] Target locations chosen based on your ideal customer profile
+- [ ] Recyclable or compostable packaging ordered
+- [ ] Instagram account created with first posts published
+- [ ] Management software configured (stock tracking, waste, sales)
+
+## Conclusion
+
+Launching a profitable vegan food truck is no more complex than a traditional food truck — in fact, it is often simpler in terms of raw material costs and inventory management. The key is to **build a strong concept**, **master your recipe costs**, and **communicate around authentic values**.
+
+The market is there, demand grows every year, and margins can be excellent. All that remains is to take action.
+
+**Further reading:** [Calculate Food Truck Recipe Costs](/en/blog/calculer-cout-revient-recette-food-truck) · [Managing Unsold Stock in a Food Truck](/en/blog/gestion-invendus-food-truck) · [Finding the Best Food Truck Locations](/en/blog/trouver-meilleurs-emplacements-food-truck) · [Profitable Food Truck Menu](/en/blog/menu-food-truck-rentable)`,
+    },
+    faqItems: [
+      {
+        question: {
+          fr: "Est-ce qu'un food truck vegan est plus rentable qu'un food truck classique ?",
+          en: "Is a vegan food truck more profitable than a traditional food truck?",
+        },
+        answer: {
+          fr: "Oui, potentiellement. Les matières premières végétales (légumineuses, céréales, légumes) sont moins chères que les protéines animales, ce qui permet d'atteindre des marges brutes de 70 à 75 %. Un food truck carné tourne généralement autour de 60 à 65 % de marge brute sur ses plats principaux.",
+          en: "Yes, potentially. Plant-based raw materials (legumes, grains, vegetables) are cheaper than animal proteins, allowing gross margins of 70 to 75%. A meat-based food truck typically achieves around 60 to 65% gross margin on its main dishes.",
+        },
+      },
+      {
+        question: {
+          fr: "Quels plats vegans se vendent le mieux en street food ?",
+          en: "Which vegan dishes sell best in street food?",
+        },
+        answer: {
+          fr: "Les burgers vegans, les bowls végétaux et les wraps sont les best-sellers en street food vegan. Le falafel, le jackfruit effiloché et les galettes de légumineuses maison séduisent une large clientèle, y compris les flexitariens et les curieux.",
+          en: "Vegan burgers, plant-based bowls and wraps are the best sellers in vegan street food. Falafel, pulled jackfruit and homemade legume patties appeal to a wide audience including flexitarians and the curious.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment trouver des fournisseurs de produits végétaux pour mon food truck ?",
+          en: "How do I find plant-based product suppliers for my food truck?",
+        },
+        answer: {
+          fr: "Commencez par les marchés de gros bio (Rungis ou MIN locaux), les grossistes spécialisés comme Biocoop Pro ou Greenweez Pro, et les coopératives agricoles locales. Négocier des contrats hebdomadaires avec 2 ou 3 maraîchers de proximité est souvent la solution la plus économique.",
+          en: "Start with organic wholesale markets (Rungis or local MIN), specialist wholesalers such as Biocoop Pro or Greenweez Pro, and local agricultural cooperatives. Negotiating weekly contracts with 2 or 3 nearby market gardeners is often the most cost-effective solution.",
+        },
+      },
+      {
+        question: {
+          fr: "Faut-il un équipement spécifique pour cuisiner vegan en food truck ?",
+          en: "Do I need specific equipment to cook vegan food in a food truck?",
+        },
+        answer: {
+          fr: "Non, l'équipement d'un food truck vegan est similaire à celui d'un food truck classique : plancha, friteuse, réfrigération. La principale différence est l'absence de grill à viande et la nécessité de bien séparer les zones de préparation si vous proposez aussi des options non-veganes.",
+          en: "No, the equipment for a vegan food truck is similar to a traditional one: flat grill, fryer, refrigeration. The main difference is the absence of a meat grill and the need to properly separate preparation zones if you also offer non-vegan options.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment attirer les clients non-vegans dans un food truck vegan ?",
+          en: "How do I attract non-vegan customers to a vegan food truck?",
+        },
+        answer: {
+          fr: "Mettez en avant la gourmandise plutôt que l'idéologie : des photos appétissantes, un burger bien garni, une sauce généreuse. Évitez un discours militant et parlez plutôt de 'fait-maison', de 'produits locaux' et de 'fraîcheur'. Les flexitariens représentent 30 à 40 % de votre clientèle potentielle.",
+          en: "Emphasise indulgence rather than ideology: appetising photos, a well-loaded burger, a generous sauce. Avoid militant messaging and instead talk about 'homemade', 'local produce' and 'freshness'. Flexitarians represent 30 to 40% of your potential customer base.",
+        },
+      },
+    ],
+    relatedSlugs: [
+      "calculer-cout-revient-recette-food-truck",
+      "menu-food-truck-rentable",
+      "gestion-invendus-food-truck",
+      "trouver-meilleurs-emplacements-food-truck",
+    ],
+  },
 ];
 
 export function getArticleBySlug(slug: string): BlogArticle | undefined {
