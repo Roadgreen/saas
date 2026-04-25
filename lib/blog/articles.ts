@@ -26117,6 +26117,284 @@ The market is there, demand grows every year, and margins can be excellent. All 
       "trouver-meilleurs-emplacements-food-truck",
     ],
   },
+  {
+    slug: "augmenter-ticket-moyen-food-truck",
+    title: {
+      fr: "Comment augmenter le ticket moyen de votre food truck (sans baisser vos prix)",
+      en: "How to Increase Your Food Truck's Average Order Value (Without Cutting Prices)",
+    },
+    excerpt: {
+      fr: "Découvrez 7 techniques concrètes pour vendre plus à chaque client de votre food truck : upsell, combos, vente additionnelle et psychologie des prix.",
+      en: "7 proven techniques to sell more to every food truck customer: upselling, combos, add-ons, and pricing psychology.",
+    },
+    category: { fr: "Rentabilité", en: "Profitability" },
+    date: "2026-04-25",
+    readTime: 10,
+    keywords: [
+      "ticket moyen food truck",
+      "augmenter ventes food truck",
+      "upsell food truck",
+      "average order value food truck",
+      "food truck upselling",
+    ],
+    heroImage: "/blog/ticket-moyen.png",
+    content: {
+      fr: `## Pourquoi le ticket moyen est votre levier de rentabilité le plus rapide
+
+En food truck, vous avez deux façons d'augmenter votre chiffre d'affaires : attirer plus de clients, ou vendre plus à chaque client. La deuxième option est **deux fois moins coûteuse** et souvent négligée.
+
+Le ticket moyen en food truck tourne généralement autour de **8 à 15 €**. Augmenter ce chiffre de 2 € seulement sur 80 clients par service, c'est **160 € de CA supplémentaire par jour**, sans un seul client de plus.
+
+## 7 techniques pour augmenter votre ticket moyen
+
+### 1. La question réflexe : "Et avec ça ?"
+
+C'est la technique la plus simple et la plus efficace. Formez-vous (et votre équipe) à poser systématiquement cette question après chaque commande :
+
+- "Et avec ça, une boisson fraîche ?"
+- "Je vous mets une sauce maison en plus ?"
+- "Vous prenez le dessert ?"
+
+Statistiquement, **20 à 30% des clients** disent oui quand on leur propose quelque chose. Sans la question, le taux est de 0%.
+
+### 2. Les combos intelligents
+
+Un combo bien construit pousse le client à dépenser plus tout en ayant l'impression de faire une bonne affaire. La recette :
+
+- **Plat + boisson + dessert** à un prix légèrement inférieur à la somme des trois
+- Mettez en avant l'économie réalisée ("Combo économique : -1,50€")
+- Placez les combos en tête de votre menu, pas en bas
+
+Exemple : burger 8€ + boisson 2,50€ + cookie 1,50€ = 12€. Proposez le combo à 10,50€. Le client passe de 8€ à 10,50€. Votre ticket monte de 31%.
+
+### 3. L'upsell sur la taille ou la qualité
+
+Proposez deux versions de votre produit phare :
+
+- **Version standard** vs **version premium** (+2 à 3€ avec un ingrédient différenciant)
+- Taille "normale" vs taille "maxi"
+- Sauce classique vs sauce maison artisanale
+
+La clé : la version premium doit avoir une **histoire courte et mémorable** ("notre sauce au piment fumé, faite maison le matin"). Les gens paient pour la qualité perçue, pas seulement la quantité.
+
+### 4. Les extras à forte marge
+
+Identifiez les ingrédients à très faible coût mais forte valeur perçue :
+
+- Supplément avocat : coût 0,40€, prix de vente 1,20€ → marge 67%
+- Fromage supplémentaire : coût 0,15€, prix de vente 0,80€ → marge 81%
+- Sauce maison : coût 0,10€, prix de vente 0,80€ → marge 87%
+
+Listez ces extras visiblement sur votre menu ou votre ardoise. Ne les proposez pas seulement à l'oral — les clients timides ne demanderont jamais.
+
+### 5. La psychologie du prix
+
+Quelques règles simples issues du neuromarketing :
+
+- **Évitez le symbole €** sur les prix : "8" vend mieux que "8,00 €"
+- **Prix en 9** : 9,90€ est perçu comme nettement moins cher que 10€
+- **Ancrage** : placez toujours votre plat le plus cher en premier sur le menu. Tout le reste semble raisonnable en comparaison
+- **Pas de menu trop long** : au-delà de 7 options, les clients choisissent moins et dépensent moins
+
+### 6. Le dessert et la boisson comme déclencheurs
+
+La boisson et le dessert sont les deux postes qui font le plus varier le ticket moyen. Pourtant, beaucoup de food truckers ne les proposent pas activement.
+
+Astuce : affichez le dessert visuellement (photo ou produit visible). Un cookie posé sur le comptoir se vend seul. Une mention sur le tableau ne vend presque rien.
+
+Pour les boissons, proposez une alternative premium à votre boisson standard : limonade maison, jus pressé, thé glacé artisanal. Un écart de 1€ sur la boisson, c'est +8% de ticket moyen si 80% de vos clients prennent une boisson.
+
+### 7. Suivez votre ticket moyen avec précision
+
+Vous ne pouvez pas améliorer ce que vous ne mesurez pas. Avec un outil comme **FoodTracks** connecté à votre terminal SumUp, vous voyez en temps réel :
+
+- Votre ticket moyen par service
+- Votre ticket moyen par jour de la semaine
+- L'impact de chaque changement de menu ou de tarif
+
+Si vous testez un nouveau combo un vendredi, vous saurez dès le samedi matin si ça a fonctionné — chiffres à l'appui.
+
+## Combien peut-on gagner concrètement ?
+
+Prenons un food truck avec 80 clients par service, 5 services par semaine, ticket moyen actuel : 11€.
+
+| Action | Gain par client | CA hebdo supplémentaire |
+|--------|----------------|------------------------|
+| Question systématique (20% de oui) | +0,50€ | +200€ |
+| Combo proposé (15% de oui) | +1,20€ | +720€ |
+| Extra haute marge (25% de oui) | +0,30€ | +120€ |
+| **Total** | **+2€** | **+1 040€/semaine** |
+
+Une augmentation de ticket moyen de 2€ seulement représente **plus de 4 000€ de CA mensuel supplémentaire** pour ce food truck — sans un seul client de plus.
+
+## Par où commencer ?
+
+1. **Calculez votre ticket moyen actuel** (total CA ÷ nombre de transactions)
+2. **Choisissez une seule technique** à tester cette semaine
+3. **Mesurez l'impact** avant d'en ajouter une autre
+
+La constance bat la complexité. Une question supplémentaire posée systématiquement génère plus que dix techniques appliquées une fois.`,
+      en: `## Why Average Order Value Is Your Fastest Profitability Lever
+
+In food trucks, there are two ways to grow revenue: attract more customers, or sell more to each customer. The second option is **twice as cost-effective** and often overlooked.
+
+Average food truck order values typically sit between **€8 and €15**. Increasing that by just €2 across 80 customers per service means **€160 in extra daily revenue** — without a single new customer.
+
+## 7 Techniques to Increase Your Average Order Value
+
+### 1. The Reflex Question: "Anything Else?"
+
+This is the simplest and most effective technique. Train yourself (and your team) to always ask after every order:
+
+- "Would you like a cold drink with that?"
+- "Can I add our house sauce?"
+- "Do you want a dessert today?"
+
+Statistically, **20 to 30% of customers** say yes when asked. Without the question, the rate is 0%.
+
+### 2. Smart Combos
+
+A well-designed combo nudges customers to spend more while feeling they're getting a deal. The formula:
+
+- **Main + drink + dessert** at a price slightly below the sum of all three
+- Highlight the saving ("Combo deal: save €1.50")
+- Put combos at the top of your menu, not the bottom
+
+Example: burger €8 + drink €2.50 + cookie €1.50 = €12. Offer the combo at €10.50. The customer goes from €8 to €10.50 — a 31% ticket increase.
+
+### 3. Upsell on Size or Quality
+
+Offer two versions of your signature item:
+
+- **Standard** vs **premium** (+€2–3 with a differentiating ingredient)
+- Regular size vs large size
+- Classic sauce vs artisan house sauce
+
+The key: the premium version needs a **short, memorable story** ("our smoked chili sauce, made fresh every morning"). People pay for perceived quality, not just quantity.
+
+### 4. High-Margin Add-Ons
+
+Identify low-cost ingredients with high perceived value:
+
+- Extra avocado: cost €0.40, sell for €1.20 → 67% margin
+- Extra cheese: cost €0.15, sell for €0.80 → 81% margin
+- House sauce: cost €0.10, sell for €0.80 → 87% margin
+
+List these add-ons visibly on your menu board. Don't just mention them verbally — shy customers will never ask.
+
+### 5. Pricing Psychology
+
+A few simple rules from neuromarketing:
+
+- **Drop the currency symbol**: "8" outsells "€8.00"
+- **Charm pricing**: €9.90 feels significantly cheaper than €10
+- **Anchoring**: always put your most expensive item first on the menu — everything else seems reasonable by comparison
+- **Keep menus short**: beyond 7 options, customers choose less and spend less
+
+### 6. Desserts and Drinks as Revenue Triggers
+
+Drinks and desserts are the two items that most affect average order value. Yet many food truckers don't actively promote them.
+
+Tip: display desserts visually (a photo or an actual product on the counter). A cookie sitting on the counter sells itself. A line on a chalkboard sells almost nothing.
+
+For drinks, offer a premium alternative to your standard beverage: homemade lemonade, freshly squeezed juice, artisan iced tea. A €1 uplift on drinks is +8% average order value if 80% of your customers get a drink.
+
+### 7. Track Your Average Order Value Precisely
+
+You can't improve what you don't measure. With a tool like **FoodTracks** connected to your SumUp terminal, you see in real time:
+
+- Your average order value per service
+- Your average order value by day of the week
+- The impact of every menu or pricing change
+
+If you test a new combo on Friday, you'll know by Saturday morning whether it worked — backed by real numbers.
+
+## How Much Can You Actually Earn?
+
+Take a food truck with 80 customers per service, 5 services per week, current average order: €11.
+
+| Action | Gain per customer | Extra weekly revenue |
+|--------|------------------|---------------------|
+| Systematic question (20% yes) | +€0.50 | +€200 |
+| Combo offer (15% yes) | +€1.20 | +€720 |
+| High-margin add-on (25% yes) | +€0.30 | +€120 |
+| **Total** | **+€2** | **+€1,040/week** |
+
+A €2 average order increase alone represents **over €4,000 in extra monthly revenue** for this food truck — with zero new customers.
+
+## Where to Start?
+
+1. **Calculate your current average order value** (total revenue ÷ number of transactions)
+2. **Pick one technique** to test this week
+3. **Measure the impact** before adding another
+
+Consistency beats complexity. One extra question asked every time generates more than ten techniques applied once.`,
+    },
+    keyTakeaways: {
+      fr: [
+        "Augmenter le ticket moyen de 2€ sur 80 clients par jour = +4 000€/mois sans nouveau client",
+        "La question 'Et avec ça ?' convertit 20 à 30% des clients en acheteurs supplémentaires",
+        "Les extras à haute marge (sauce, fromage, avocat) peuvent dépasser 80% de marge brute",
+        "Les combos augmentent le ticket de 15 à 30% en donnant l'impression d'une bonne affaire",
+        "Mesurer son ticket moyen avec FoodTracks permet de tester et valider chaque technique",
+      ],
+      en: [
+        "Increasing average order value by €2 across 80 daily customers = +€4,000/month with no new customers",
+        "The question 'Anything else?' converts 20–30% of customers into additional buyers",
+        "High-margin add-ons (sauce, cheese, avocado) can exceed 80% gross margin",
+        "Combos increase tickets by 15–30% while giving customers a sense of value",
+        "Tracking average order value with FoodTracks lets you test and validate every technique",
+      ],
+    },
+    faqItems: [
+      {
+        question: {
+          fr: "Quel est le ticket moyen d'un food truck en France ?",
+          en: "What is the average order value of a food truck in France?",
+        },
+        answer: {
+          fr: "Le ticket moyen d'un food truck en France se situe généralement entre 8 et 15 €, selon le type de cuisine et l'emplacement. Les food trucks gastronomiques ou en zone urbaine dense dépassent souvent 13-14 €.",
+          en: "The average food truck order value in France typically ranges from €8 to €15, depending on cuisine type and location. Gourmet or urban food trucks often exceed €13–14.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment calculer le ticket moyen de son food truck ?",
+          en: "How do you calculate average order value for a food truck?",
+        },
+        answer: {
+          fr: "Le ticket moyen se calcule simplement : chiffre d'affaires total ÷ nombre de transactions. Avec FoodTracks connecté à SumUp, ce chiffre est disponible en temps réel sans calcul manuel.",
+          en: "Average order value is simple to calculate: total revenue ÷ number of transactions. With FoodTracks connected to SumUp, this figure is available in real time with no manual calculation.",
+        },
+      },
+      {
+        question: {
+          fr: "Quelle est la meilleure technique pour augmenter le ticket moyen en food truck ?",
+          en: "What is the best technique to increase average order value in a food truck?",
+        },
+        answer: {
+          fr: "La technique la plus simple et la plus efficace est la question systématique 'Et avec ça ?' posée après chaque commande. Elle augmente la valeur du ticket sans nécessiter de changement de menu ni de formation complexe.",
+          en: "The simplest and most effective technique is systematically asking 'Anything else?' after every order. It increases order value with no menu changes or complex training required.",
+        },
+      },
+      {
+        question: {
+          fr: "Les combos fonctionnent-ils vraiment pour augmenter le chiffre d'affaires d'un food truck ?",
+          en: "Do combos really work to increase food truck revenue?",
+        },
+        answer: {
+          fr: "Oui, les combos augmentent le ticket moyen de 15 à 30% en moyenne quand ils sont bien positionnés. La clé est de les mettre en tête de menu et de valoriser l'économie réalisée par le client.",
+          en: "Yes, combos increase average order value by 15–30% on average when positioned correctly. The key is to place them at the top of the menu and highlight the saving for the customer.",
+        },
+      },
+    ],
+    relatedSlugs: [
+      "rentabilite-food-truck-ameliorer",
+      "fixer-prix-menu-food-truck",
+      "menu-food-truck-rentable",
+      "seuil-rentabilite-food-truck-calcul",
+    ],
+  },
 ];
 
 export function getArticleBySlug(slug: string): BlogArticle | undefined {
