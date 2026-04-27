@@ -26714,6 +26714,445 @@ The key: **choose the format that fits your clientele**, offer a genuine reward,
       "rentabilite-food-truck-ameliorer",
     ],
   },
+  {
+    slug: "logiciel-caisse-food-truck",
+    title: {
+      fr: "Logiciel de caisse food truck : comment bien choisir votre TPE et votre caisse en 2026",
+      en: "Food Truck POS System: How to Choose the Right Till and Card Reader in 2026",
+    },
+    excerpt: {
+      fr: "Terminal de paiement, logiciel de caisse, application de gestion… Tour d'horizon des solutions adaptées aux food trucks pour encaisser vite, suivre vos ventes et préserver vos marges.",
+      en: "Card reader, POS software, management app… A complete overview of solutions tailored to food trucks to collect payments quickly, track sales, and protect your margins.",
+    },
+    category: { fr: "Gestion", en: "Management" },
+    date: "2026-04-27",
+    readTime: 11,
+    keywords: [
+      "logiciel caisse food truck",
+      "TPE food truck",
+      "caisse enregistreuse food truck",
+      "terminal paiement food truck",
+      "food truck POS system",
+      "best POS for food truck",
+      "caisse SumUp food truck",
+    ],
+    heroImage: "/blog/logiciel-gestion.png",
+    keyTakeaways: {
+      fr: [
+        "Un bon logiciel de caisse food truck doit être mobile, rapide à l'encaissement et capable de fonctionner hors ligne.",
+        "SumUp est la solution la plus répandue chez les food truckers français grâce à ses faibles frais et son hardware compact.",
+        "Connecter votre caisse à un outil de gestion comme FoodTracks vous permet de suivre vos marges en temps réel, service par service.",
+        "Le coût total d'un système de caisse food truck va du matériel (30-300 €) aux frais de transaction (1,69 % à 2,75 % selon la solution).",
+        "Une caisse conforme à la loi française (NF 525) est obligatoire pour les assujettis à la TVA depuis 2018.",
+      ],
+      en: [
+        "A good food truck POS must be mobile, fast at checkout, and able to work offline.",
+        "SumUp is the most widely used solution among French food truckers thanks to its low fees and compact hardware.",
+        "Connecting your till to a management tool like FoodTracks lets you track your margins in real time, service by service.",
+        "The total cost of a food truck POS system ranges from hardware (€30–300) to transaction fees (1.69% to 2.75% depending on the solution).",
+        "A till compliant with French law (NF 525) has been mandatory for VAT-registered businesses since 2018.",
+      ],
+    },
+    faqItems: [
+      {
+        question: {
+          fr: "Quel logiciel de caisse choisir pour un food truck débutant ?",
+          en: "What POS system should a beginner food trucker choose?",
+        },
+        answer: {
+          fr: "Pour un débutant, SumUp ou Square sont les choix les plus simples : installation en 10 minutes, frais à la transaction (pas d'abonnement fixe), et hardware léger. SumUp Air coûte environ 39 € et accepte les paiements par carte, sans contact et Apple/Google Pay.",
+          en: "For a beginner, SumUp or Square are the simplest choices: 10-minute setup, pay-per-transaction fees (no fixed subscription), and lightweight hardware. The SumUp Air costs around €39 and accepts card, contactless, and Apple/Google Pay payments.",
+        },
+      },
+      {
+        question: {
+          fr: "La loi française oblige-t-elle les food trucks à avoir une caisse certifiée ?",
+          en: "Does French law require food trucks to have a certified till?",
+        },
+        answer: {
+          fr: "Oui, depuis le 1er janvier 2018, tout professionnel assujetti à la TVA doit utiliser un logiciel de caisse ou un système d'encaissement certifié NF 525 (ou équivalent). Une attestation de l'éditeur ou une certification d'un organisme accrédité est exigée en cas de contrôle fiscal. Les micro-entrepreneurs non assujettis à la TVA en sont exemptés.",
+          en: "Yes, since 1 January 2018, any VAT-registered professional must use a certified POS software or till system (NF 525 or equivalent). An attestation from the software publisher or certification from an accredited body is required in the event of a tax audit. Micro-entrepreneurs not subject to VAT are exempt.",
+        },
+      },
+      {
+        question: {
+          fr: "Peut-on encaisser sans connexion internet en food truck ?",
+          en: "Can you take payments without an internet connection in a food truck?",
+        },
+        answer: {
+          fr: "Oui, la plupart des terminaux modernes (SumUp, Square, Zettle) fonctionnent en mode hors-ligne pour les paiements par carte : les transactions sont stockées localement et synchronisées dès que la connexion est rétablie. Pour les espèces, aucune connexion n'est bien sûr nécessaire. Vérifiez toutefois les limites de montant autorisées en mode hors-ligne selon votre contrat.",
+          en: "Yes, most modern terminals (SumUp, Square, Zettle) work in offline mode for card payments: transactions are stored locally and synced as soon as the connection is restored. For cash, no connection is needed of course. Do check the offline transaction amount limits permitted under your contract.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment connecter ma caisse food truck à mon logiciel de gestion ?",
+          en: "How do I connect my food truck till to my management software?",
+        },
+        answer: {
+          fr: "Cela dépend de la solution choisie. FoodTracks se connecte nativement à SumUp via API : vos ventes remontent automatiquement, service par service, sans saisie manuelle. Pour d'autres caisses, une exportation CSV journalière suffit souvent. L'idéal est une connexion en temps réel pour piloter vos marges au quotidien.",
+          en: "It depends on the solution chosen. FoodTracks connects natively to SumUp via API: your sales sync automatically, service by service, without manual entry. For other tills, a daily CSV export is often sufficient. The ideal is a real-time connection so you can monitor your margins every day.",
+        },
+      },
+      {
+        question: {
+          fr: "Quels sont les frais réels d'un terminal de paiement pour food truck ?",
+          en: "What are the real costs of a payment terminal for a food truck?",
+        },
+        answer: {
+          fr: "Il faut distinguer trois postes : (1) le hardware (terminal ou lecteur de carte : 39 € à 299 €), (2) les frais de transaction (de 1,69 % avec SumUp à 2,75 % avec certaines offres Square), et (3) éventuellement un abonnement mensuel (0 € à 69 €/mois selon les fonctionnalités). Pour un food truck réalisant 5 000 € de CA mensuel, les frais de transaction représentent environ 85 à 140 € par mois.",
+          en: "There are three cost categories: (1) hardware (terminal or card reader: €39 to €299), (2) transaction fees (from 1.69% with SumUp to 2.75% with some Square plans), and (3) optionally a monthly subscription (€0 to €69/month depending on features). For a food truck turning over €5,000 per month, transaction fees represent roughly €85 to €140 per month.",
+        },
+      },
+    ],
+    relatedSlugs: [
+      "application-gestion-stock-food-truck",
+      "cout-de-revient-food-truck",
+      "augmenter-ticket-moyen-food-truck",
+      "seuil-rentabilite-food-truck-calcul",
+    ],
+    content: {
+      fr: `## Pourquoi le choix de votre caisse est une décision stratégique
+
+En food truck, votre caisse enregistreuse n'est pas un simple outil pour encaisser. C'est la **colonne vertébrale de votre pilotage financier** : chaque transaction enregistrée est une donnée qui vous permet de comprendre vos meilleures heures, vos plats les plus rentables, et l'évolution de votre chiffre d'affaires service par service.
+
+Pourtant, de nombreux food truckers choisissent leur TPE (terminal de paiement électronique) sur un seul critère : le prix du lecteur de carte. C'est une erreur fréquente qui peut coûter cher à long terme — en frais cachés, en données manquantes, et en temps de saisie manuelle.
+
+Ce guide vous aide à choisir la bonne solution en 2026, en tenant compte de la réglementation française, des coûts réels, et de l'intégration avec vos outils de gestion.
+
+---
+
+## Ce que doit faire votre caisse food truck (et ce que beaucoup oublient)
+
+### Les fonctions de base
+
+Un logiciel de caisse adapté au food truck doit :
+
+- **Encaisser rapidement** : en plein service, vous n'avez pas 30 secondes à perdre par commande. L'interface doit être tactile, intuitive, avec des raccourcis par plat.
+- **Accepter tous les moyens de paiement** : carte bancaire (sans contact, puce), Apple Pay, Google Pay, et espèces.
+- **Fonctionner hors ligne** : les zones de marché ou de festival ont souvent une connexion instable. Votre terminal doit stocker les transactions en local.
+- **Éditer des tickets de caisse** : légalement obligatoire sur demande du client, et utile pour votre comptabilité.
+
+### Les fonctions souvent négligées
+
+Au-delà de l'encaissement, une bonne caisse food truck devrait aussi :
+
+- **Suivre les ventes par article** : savoir que vous avez vendu 47 burgers et 23 salades ce service, c'est la base du pilotage.
+- **Exporter vos données** : vers votre comptable, votre application de gestion, ou votre tableur.
+- **Gérer les remises et codes promo** : si vous animez des programmes de fidélité.
+- **Être certifiée NF 525** : obligatoire si vous êtes assujetti à la TVA (voir section réglementation ci-dessous).
+
+---
+
+## Les principales solutions en 2026 : comparatif honnête
+
+### SumUp — Le standard du food truck français
+
+SumUp est de loin la solution la plus utilisée par les food truckers en France. Ses atouts :
+
+- **Hardware compact et robuste** : le SumUp Air (39 €) et le SumUp Solo (79 €) s'insèrent facilement dans n'importe quel espace de travail.
+- **Frais de transaction parmi les plus bas** : 1,69 % par transaction (sans abonnement), ou abonnement à 25 €/mois pour passer à 0,99 %.
+- **Application caisse gratuite** : SumUp POS Lite est incluse, avec gestion des articles et statistiques de base.
+- **Intégration FoodTracks native** : vos ventes SumUp remontent automatiquement dans FoodTracks pour un suivi en temps réel de vos marges.
+
+**Limite** : les fonctionnalités de gestion avancée (stocks, fiches techniques) nécessitent un outil complémentaire comme FoodTracks.
+
+### Square — Puissant mais plus cher
+
+Square propose un écosystème complet (caisse, stocks, réservations, marketing) mais ses frais sont plus élevés (1,75 % à 2,75 %) et son hardware moins adapté à l'usage intensif en extérieur.
+
+**Idéal pour** : les food trucks qui font aussi de la vente en ligne ou ont plusieurs points de vente.
+
+### Zettle by PayPal — Le milieu de gamme
+
+Zettle (ex-iZettle) propose un terminal à 79 € avec des frais à 1,75 % par transaction. Son intégration avec PayPal est un avantage si vous avez déjà un compte professionnel PayPal.
+
+**Idéal pour** : les food truckers qui reçoivent des paiements en ligne via PayPal.
+
+### Caisse iPad dédiée (Lightspeed, Tiller, Zelty)
+
+Ces solutions sont conçues pour la restauration : gestion des tables, fiches techniques, multi-caisse. Elles sont **trop lourdes et trop chères** (49 à 149 €/mois) pour la grande majorité des food trucks. À réserver aux opérateurs avec plusieurs camions ou un point de vente fixe en parallèle.
+
+---
+
+## La réglementation française : ce que vous devez savoir
+
+### La loi anti-fraude TVA (2018)
+
+Depuis le **1er janvier 2018**, tout professionnel assujetti à la TVA doit utiliser un logiciel de caisse ou un système d'encaissement qui respecte les conditions d'**inaltérabilité, sécurisation, conservation et archivage** des données.
+
+Le logiciel doit être **certifié NF 525** (par un organisme accrédité) ou faire l'objet d'une **attestation individuelle de l'éditeur** conforme au modèle fiscal.
+
+En cas de contrôle, l'absence de certification peut entraîner une **amende de 7 500 €** et une obligation de mise en conformité sous 60 jours.
+
+**Bonne nouvelle** : SumUp, Square et Zettle fournissent tous des attestations de conformité à la réglementation française. Vérifiez que votre version de l'application est à jour.
+
+### Les micro-entrepreneurs non assujettis à la TVA
+
+Si vous êtes en franchise de base de TVA (CA < 37 500 € pour les activités de restauration), vous n'êtes **pas soumis** à l'obligation de certification NF 525. Vous pouvez donc utiliser n'importe quel outil d'encaissement.
+
+---
+
+## Connecter votre caisse à votre pilotage financier
+
+### Le piège du silo de données
+
+Le problème des food truckers qui n'utilisent que leur terminal de paiement : les données restent **enfermées dans l'application de la caisse**. Vous pouvez voir votre CA du jour, mais pas :
+
+- Votre marge réelle par plat (après déduction du coût des matières premières)
+- L'évolution de votre food cost semaine après semaine
+- Vos meilleurs emplacements par rapport à vos coûts d'approvisionnement
+
+### FoodTracks + SumUp : le combo gagnant
+
+En connectant SumUp à **FoodTracks**, chaque vente enregistrée à la caisse alimente automatiquement votre tableau de bord de gestion :
+
+1. **Ventes importées en temps réel** : CA par service, par plat, par heure
+2. **Marges calculées automatiquement** : FoodTracks croise vos ventes avec vos factures fournisseurs (importées par scan ou photo)
+3. **Alertes de dérive** : si votre food cost dépasse votre seuil cible, vous êtes alerté
+4. **Bilan par emplacement** : comparez la rentabilité de vos différents spots
+
+Ce suivi automatisé vous économise **2 à 3 heures de saisie manuelle par semaine** et vous donne une vision claire de votre rentabilité réelle — pas juste de votre chiffre d'affaires.
+
+---
+
+## Les erreurs à éviter lors du choix de votre caisse
+
+### Erreur 1 : Choisir uniquement sur le prix du hardware
+
+Le lecteur de carte à 29 € peut sembler attractif, mais si ses frais de transaction sont à 2,75 % contre 1,69 % pour SumUp, sur 5 000 € de CA mensuel cela représente **53 € de frais supplémentaires par mois**, soit 636 € par an.
+
+### Erreur 2 : Négliger le mode hors-ligne
+
+Un festival ou un marché de plein air peut avoir une couverture réseau médiocre. Si votre terminal ne fonctionne pas hors connexion, vous perdez des ventes — et votre réputation. Testez toujours le mode hors-ligne avant votre premier service.
+
+### Erreur 3 : Ne pas récupérer vos données
+
+Certains food truckers ne regardent jamais les statistiques de leur caisse. C'est une mine d'or inexploitée : vos 5 articles les plus vendus, vos heures de pointe, votre panier moyen… Ces données doivent alimenter vos décisions de menu et de planning.
+
+### Erreur 4 : Ignorer la certification NF 525
+
+Si vous êtes assujetti à la TVA, un simple tableur ou une caisse non certifiée vous expose à une amende. Vérifiez la conformité de votre solution avant d'ouvrir.
+
+---
+
+## Comment mettre en place votre caisse food truck en 5 étapes
+
+1. **Évaluez votre volume de transactions** : moins de 50 transactions/jour → SumUp Air suffit. Plus de 100 → envisagez SumUp Solo ou un système avec imprimante.
+2. **Vérifiez votre statut TVA** : si vous êtes assujetti, assurez-vous que votre solution est certifiée NF 525.
+3. **Configurez votre catalogue articles** : entrez tous vos plats avec leur prix dans l'application caisse. Cela vous donnera des statistiques par article dès le premier service.
+4. **Connectez FoodTracks** : liez votre compte SumUp à FoodTracks pour synchroniser vos ventes et démarrer le suivi de vos marges.
+5. **Testez en mode hors-ligne** : coupez le Wi-Fi et la 4G, effectuez une transaction test, puis reconnectez pour vérifier la synchronisation.
+
+---
+
+## Combien coûte réellement un système de caisse food truck ?
+
+Voici un exemple concret pour un food truck réalisant **5 000 € de CA mensuel** :
+
+| Solution | Hardware | Frais/mois (1,69 %) | Abonnement | Total/mois |
+|---|---|---|---|---|
+| SumUp Air (sans abo) | 39 € (unique) | 84,50 € | 0 € | ~87 € |
+| SumUp Pro (avec abo) | 39 € (unique) | 49,50 € (0,99 %) | 25 € | ~77 € |
+| Square | 49 € (unique) | 87,50 € (1,75 %) | 0 € | ~91 € |
+| Zettle | 79 € (unique) | 87,50 € (1,75 %) | 0 € | ~95 € |
+
+**Conclusion** : pour un food truck en croissance, l'abonnement SumUp Pro rentabilise dès 3 500 € de CA mensuel. En dessous, restez sur la formule sans abonnement.
+
+---
+
+## Ce que FoodTracks apporte à votre caisse
+
+Un logiciel de caisse enregistre vos **recettes**. FoodTracks enregistre vos **marges**.
+
+La différence ? FoodTracks croise vos ventes (importées depuis SumUp) avec vos **achats fournisseurs** (scannés depuis vos factures) pour calculer en temps réel :
+
+- Votre **food cost** par service et par semaine
+- Vos **plats les plus rentables** (pas juste les plus vendus)
+- Votre **marge brute réelle** après matières premières
+- Les **dérives de stock** (gaspillage, vol, erreurs de portions)
+
+C'est la différence entre savoir que vous avez fait 800 € de CA samedi et savoir que vous avez gagné 312 € de marge — ou perdu 40 € à cause d'un gaspillage évitable.
+
+---
+
+## Conclusion : votre caisse, point de départ d'un pilotage intelligent
+
+Choisir son logiciel de caisse food truck, c'est choisir la qualité des données sur lesquelles vous allez piloter votre activité. Un terminal simple et peu cher peut suffire à encaisser — mais seul un système connecté à votre gestion vous permet de **comprendre et améliorer votre rentabilité**.
+
+En 2026, le duo SumUp + FoodTracks s'impose comme la référence pour les food truckers français qui veulent professionnaliser leur gestion sans exploser leur budget. Commencez par connecter vos deux outils et regardez vos marges sous un nouveau jour dès votre prochain service.`,
+
+      en: `## Why Your POS Choice Is a Strategic Decision
+
+In a food truck, your till is not just a tool for collecting payments. It is the **backbone of your financial management**: every recorded transaction is a data point that lets you understand your best hours, your most profitable dishes, and how your revenue evolves service by service.
+
+Yet many food truckers choose their card reader on a single criterion: the price of the hardware. This is a common mistake that can be costly in the long run — in hidden fees, missing data, and manual entry time.
+
+This guide helps you choose the right solution in 2026, taking into account French regulations, real costs, and integration with your management tools.
+
+---
+
+## What Your Food Truck POS Must Do (and What Many Overlook)
+
+### The basics
+
+A POS system adapted to a food truck must:
+
+- **Process payments quickly**: in the middle of a service, you cannot afford 30 seconds per order. The interface must be touch-based, intuitive, with shortcuts per dish.
+- **Accept all payment methods**: bank card (contactless, chip), Apple Pay, Google Pay, and cash.
+- **Work offline**: market or festival venues often have unstable connectivity. Your terminal must store transactions locally.
+- **Print or send receipts**: legally required on request in France, and useful for your accounting.
+
+### The often-overlooked features
+
+Beyond payment collection, a good food truck POS should also:
+
+- **Track sales by item**: knowing you sold 47 burgers and 23 salads in a service is the foundation of performance monitoring.
+- **Export your data**: to your accountant, your management app, or your spreadsheet.
+- **Handle discounts and promo codes**: if you run loyalty programmes.
+- **Be NF 525-certified**: mandatory if you are VAT-registered (see the regulation section below).
+
+---
+
+## The Main Solutions in 2026: An Honest Comparison
+
+### SumUp — The French food truck standard
+
+SumUp is by far the most widely used solution by food truckers in France. Its strengths:
+
+- **Compact and robust hardware**: the SumUp Air (€39) and SumUp Solo (€79) fit easily into any workspace.
+- **Among the lowest transaction fees**: 1.69% per transaction (no subscription), or a €25/month subscription to drop to 0.99%.
+- **Free POS app**: SumUp POS Lite is included, with item management and basic statistics.
+- **Native FoodTracks integration**: your SumUp sales sync automatically into FoodTracks for real-time margin tracking.
+
+**Limitation**: advanced management features (stock, recipe costing) require a complementary tool like FoodTracks.
+
+### Square — Powerful but more expensive
+
+Square offers a complete ecosystem (POS, stock, bookings, marketing) but its fees are higher (1.75% to 2.75%) and its hardware is less suited to heavy outdoor use.
+
+**Best for**: food trucks that also sell online or have multiple points of sale.
+
+### Zettle by PayPal — The mid-range option
+
+Zettle (formerly iZettle) offers a terminal at €79 with fees of 1.75% per transaction. Its PayPal integration is an advantage if you already have a PayPal business account.
+
+**Best for**: food truckers who receive online payments via PayPal.
+
+### Dedicated iPad POS (Lightspeed, Tiller, Zelty)
+
+These solutions are designed for restaurants: table management, recipe costing, multi-till setups. They are **too heavy and too expensive** (€49 to €149/month) for the vast majority of food trucks. Reserve them for operators with several trucks or a fixed venue alongside.
+
+---
+
+## French Regulations: What You Need to Know
+
+### The anti-VAT-fraud law (2018)
+
+Since **1 January 2018**, any VAT-registered professional must use POS software or a payment collection system that meets the requirements of **immutability, security, retention and archiving** of data.
+
+The software must be **NF 525-certified** (by an accredited body) or come with an **individual publisher attestation** compliant with the tax authority's template.
+
+In the event of an audit, the absence of certification can result in a **€7,500 fine** and a requirement to comply within 60 days.
+
+**Good news**: SumUp, Square and Zettle all provide compliance attestations for French regulations. Make sure your app version is up to date.
+
+### Micro-entrepreneurs not subject to VAT
+
+If you operate under the VAT exemption threshold (turnover < €37,500 for catering activities), you are **not subject** to the NF 525 certification requirement. You can therefore use any payment collection tool.
+
+---
+
+## Connecting Your POS to Your Financial Management
+
+### The data silo trap
+
+The problem for food truckers who use only their payment terminal: data stays **locked inside the till app**. You can see your day's revenue, but not:
+
+- Your real margin per dish (after deducting the cost of ingredients)
+- How your food cost evolves week by week
+- Your best locations relative to your sourcing costs
+
+### FoodTracks + SumUp: the winning combination
+
+By connecting SumUp to **FoodTracks**, every sale recorded at the till automatically feeds your management dashboard:
+
+1. **Sales imported in real time**: revenue by service, by dish, by hour
+2. **Margins calculated automatically**: FoodTracks cross-references your sales with your supplier invoices (imported by scan or photo)
+3. **Drift alerts**: if your food cost exceeds your target threshold, you are notified
+4. **Profit per location**: compare the profitability of your different spots
+
+This automated tracking saves you **2 to 3 hours of manual data entry per week** and gives you a clear picture of your real profitability — not just your revenue.
+
+---
+
+## Mistakes to Avoid When Choosing Your POS
+
+### Mistake 1: Choosing on hardware price alone
+
+The €29 card reader might seem attractive, but if its transaction fees are 2.75% versus SumUp's 1.69%, on €5,000 monthly revenue that means **€53 in extra fees per month**, or €636 per year.
+
+### Mistake 2: Overlooking offline mode
+
+A festival or outdoor market can have poor network coverage. If your terminal does not work without a connection, you lose sales — and your reputation. Always test offline mode before your first service.
+
+### Mistake 3: Not retrieving your data
+
+Some food truckers never look at their till statistics. It is an untapped goldmine: your 5 best-selling items, your peak hours, your average basket… This data should inform your menu and planning decisions.
+
+### Mistake 4: Ignoring NF 525 certification
+
+If you are VAT-registered, a simple spreadsheet or non-certified till exposes you to a fine. Check your solution's compliance before opening.
+
+---
+
+## How to Set Up Your Food Truck POS in 5 Steps
+
+1. **Assess your transaction volume**: fewer than 50 transactions/day → SumUp Air is sufficient. More than 100 → consider the SumUp Solo or a system with a printer.
+2. **Check your VAT status**: if you are VAT-registered, ensure your solution is NF 525-certified.
+3. **Configure your item catalogue**: enter all your dishes with their prices in the POS app. This gives you per-item statistics from your very first service.
+4. **Connect FoodTracks**: link your SumUp account to FoodTracks to sync your sales and start tracking your margins.
+5. **Test offline mode**: switch off Wi-Fi and mobile data, run a test transaction, then reconnect to verify synchronisation.
+
+---
+
+## What Does a Food Truck POS System Really Cost?
+
+Here is a concrete example for a food truck turning over **€5,000 per month**:
+
+| Solution | Hardware | Fees/month (rate) | Subscription | Total/month |
+|---|---|---|---|---|
+| SumUp Air (no sub) | €39 (one-off) | €84.50 (1.69%) | €0 | ~€87 |
+| SumUp Pro (with sub) | €39 (one-off) | €49.50 (0.99%) | €25 | ~€77 |
+| Square | €49 (one-off) | €87.50 (1.75%) | €0 | ~€91 |
+| Zettle | €79 (one-off) | €87.50 (1.75%) | €0 | ~€95 |
+
+**Conclusion**: for a growing food truck, the SumUp Pro subscription pays for itself from €3,500 of monthly revenue. Below that, stay on the no-subscription plan.
+
+---
+
+## What FoodTracks Adds to Your POS
+
+A POS system records your **revenue**. FoodTracks records your **margins**.
+
+The difference? FoodTracks cross-references your sales (imported from SumUp) with your **supplier purchases** (scanned from your invoices) to calculate in real time:
+
+- Your **food cost** per service and per week
+- Your **most profitable dishes** (not just the best-sellers)
+- Your **real gross margin** after ingredients
+- **Stock drifts** (waste, theft, portioning errors)
+
+That is the difference between knowing you made €800 in revenue on Saturday and knowing you earned €312 in margin — or lost €40 to avoidable waste.
+
+---
+
+## Conclusion: Your POS, the Starting Point for Smart Management
+
+Choosing your food truck POS system means choosing the quality of the data on which you will run your business. A simple, inexpensive terminal may be enough to collect payments — but only a system connected to your management tools lets you **understand and improve your profitability**.
+
+In 2026, the SumUp + FoodTracks combination stands out as the reference for French food truckers who want to professionalise their management without blowing their budget. Start by connecting your two tools and see your margins in a new light from your very next service.`,
+    },
+  },
 ];
 
 export function getArticleBySlug(slug: string): BlogArticle | undefined {
