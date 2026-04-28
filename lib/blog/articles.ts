@@ -27153,8 +27153,6 @@ Choosing your food truck POS system means choosing the quality of the data on wh
 In 2026, the SumUp + FoodTracks combination stands out as the reference for French food truckers who want to professionalise their management without blowing their budget. Start by connecting your two tools and see your margins in a new light from your very next service.`,
     },
   },
-];
-
   {
     slug: "tableau-de-bord-food-truck-rentabilite",
     title: {
