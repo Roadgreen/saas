@@ -27155,6 +27155,372 @@ In 2026, the SumUp + FoodTracks combination stands out as the reference for Fren
   },
 ];
 
+  {
+    slug: "tableau-de-bord-food-truck-rentabilite",
+    title: {
+      fr: "Tableau de bord food truck : comment piloter la rentabilité de son camion en 2026",
+      en: "Food Truck Dashboard: How to Track and Improve Your Profitability in 2026",
+    },
+    excerpt: {
+      fr: "Découvrez comment construire et utiliser un tableau de bord food truck efficace pour surveiller vos marges, vos ventes et vos coûts — et prendre les bonnes décisions au bon moment.",
+      en: "Learn how to build and use an effective food truck dashboard to monitor your margins, sales and costs — and make the right decisions at the right time.",
+    },
+    category: { fr: "Gestion", en: "Management" },
+    date: "2026-04-28",
+    readTime: 10,
+    keywords: [
+      "tableau de bord food truck",
+      "pilotage rentabilité food truck",
+      "suivi ventes food truck",
+      "KPI food truck",
+      "gestion food truck 2026",
+    ],
+    heroImage: "/blog/gestion-stock.png",
+    content: {
+      fr: `## Pourquoi un tableau de bord est indispensable pour votre food truck
+
+Gérer un food truck sans tableau de bord, c'est naviguer à l'aveugle. Vous savez que vous avez servi 80 couverts samedi, mais est-ce que vous saviez **en temps réel** que votre marge sur le menu du jour était à 28% au lieu des 42% habituels ? Probablement pas.
+
+Un tableau de bord food truck bien construit transforme des données brutes — ventes, achats, gaspillage, emplacements — en **décisions concrètes** : quel service supprimer, quel plat mettre en avant, quand réapprovisionner.
+
+En 2026, avec l'intégration des TPE connectés (SumUp, Square) et des outils comme **FoodTracks**, ce pilotage en temps réel est accessible même aux indépendants qui gèrent seuls leur camion.
+
+## Les 6 KPIs essentiels à suivre dans votre tableau de bord
+
+### 1. Le chiffre d'affaires par service
+
+C'est le premier indicateur, et le plus évident. Mais il faut aller plus loin que le total quotidien : suivez le **CA par emplacement, par jour de la semaine et par période** (heure de pointe vs. heure creuse).
+
+Un CA en hausse ne signifie pas forcément une rentabilité améliorée. Un service à 900 € avec 35% de marge vaut mieux qu'un service à 1 200 € avec 18%.
+
+### 2. Le coût matière (food cost)
+
+Le coût matière est le rapport entre ce que vous avez acheté et ce que vous avez vendu. La formule :
+
+**Food cost (%) = Achats consommés / Chiffre d'affaires × 100**
+
+En food truck, un food cost sain se situe entre **25% et 35%**. Au-delà, votre marge brute s'effondre. En dessous de 20%, vous risquez de sacrifier la qualité perçue.
+
+Avec FoodTracks, le food cost est calculé automatiquement à partir de vos factures scannées et de vos données de vente SumUp — pas besoin de tableur.
+
+### 3. La marge brute par plat
+
+Tous vos plats ne sont pas égaux. Une analyse par référence vous montre lesquels tirent votre rentabilité vers le haut et lesquels la plombent.
+
+- **Stars** : fort volume, forte marge — à mettre en avant sur la carte
+- **Vaches à lait** : fort volume, marge faible — à réévaluer (portion, prix, recette)
+- **Niches** : faible volume, forte marge — à promouvoir
+- **Poids morts** : faible volume, faible marge — à supprimer sans hésiter
+
+### 4. Le taux de gaspillage
+
+Le gaspillage alimentaire est l'ennemi silencieux de la rentabilité. Chaque produit jeté est de l'argent qui part à la poubelle. Suivez :
+
+- La quantité jetée par ingrédient chaque semaine
+- Le coût total du gaspillage en euros
+- Les tendances (est-ce que ça empire ?)
+
+Objectif : **moins de 3% du coût matière total**. Les food truckers qui utilisent des alertes de péremption et des prédictions IA atteignent cet objectif dès les premières semaines.
+
+### 5. Le revenu moyen par client (ticket moyen)
+
+Le ticket moyen = CA total / nombre de transactions. C'est un indicateur clé de votre capacité à **upseller** : boissons, desserts, suppléments.
+
+Un ticket moyen faible peut indiquer une carte mal construite, un personnel insuffisamment formé à la vente, ou un menu peu lisible.
+
+### 6. La rentabilité par emplacement
+
+Pas tous les emplacements ne se valent. Certains marchés sont bondés mais votre marge y est faible (coûts de déplacement élevés, frais d'emplacement importants, clientèle peu encline à dépenser). D'autres semblent tranquilles mais génèrent un excellent ratio CA/coûts.
+
+Calculez pour chaque emplacement :
+- CA réalisé
+- Coûts fixes liés (emplacement, carburant, personnel si applicable)
+- Marge nette estimée
+
+Et décidez en conséquence lesquels conserver, développer ou abandonner.
+
+## Comment construire son tableau de bord food truck pas à pas
+
+### Étape 1 : Centraliser vos données de vente
+
+La base de tout tableau de bord, c'est la donnée de vente. Connectez votre TPE (SumUp, Square, Zettle) à un outil de gestion qui récupère automatiquement les transactions. Évitez la saisie manuelle — elle est chronophage et source d'erreurs.
+
+**FoodTracks** se synchronise nativement avec SumUp : chaque vente remonte en temps réel dans votre tableau de bord.
+
+### Étape 2 : Alimenter vos données d'achat
+
+Sans données d'achat, pas de calcul de marge. Scannez ou importez vos factures fournisseurs dès leur réception. Un outil avec reconnaissance IA (comme FoodTracks) extrait automatiquement les lignes de produit, les quantités et les prix — 0 saisie manuelle.
+
+### Étape 3 : Définir vos indicateurs prioritaires
+
+Pas besoin de suivre 50 métriques. Choisissez les **5 à 8 KPIs** qui ont le plus d'impact sur votre activité et concentrez-vous dessus. Pour la majorité des food truckers, ce sont :
+
+1. CA journalier / hebdomadaire
+2. Food cost global (%)
+3. Marge brute par plat
+4. Taux de gaspillage (%)
+5. Ticket moyen
+6. Rentabilité par emplacement
+
+### Étape 4 : Fixer des seuils d'alerte
+
+Un tableau de bord passif ne sert à rien. Configurez des **alertes** pour être prévenu quand un indicateur sort de la zone verte :
+
+- Food cost > 35% → alerte immédiate
+- Gaspillage > 5% → alerte hebdomadaire
+- Ticket moyen en baisse de > 10% → revue du menu
+- Produit proche de la péremption → alerte J-2
+
+### Étape 5 : Analyser en hebdomadaire, ajuster en mensuel
+
+Consultez votre tableau de bord **chaque semaine** pour les décisions opérationnelles (menu du jour, ajustement des commandes). Faites une revue **mensuelle** pour les décisions stratégiques (abandonner un emplacement, retirer un plat, renégocier un fournisseur).
+
+## Les erreurs classiques dans le pilotage d'un food truck
+
+### Confondre CA et rentabilité
+
+Un food trucker qui fait 5 000 € de CA en semaine peut très bien dégager moins de bénéfice qu'un autre qui en fait 3 200 €. Le CA ne dit rien sur vos marges. **Pilotez toujours en marge**, pas en chiffre brut.
+
+### Négliger les coûts indirects
+
+Carburant, assurance, entretien du véhicule, abonnements logiciels, frais bancaires — ces coûts sont invisibles dans un suivi de ventes basique mais ils grèvent votre rentabilité réelle. Intégrez-les dans votre tableau de bord, même de façon forfaitaire.
+
+### Ne regarder les données qu'en fin de mois
+
+Attendre la fin du mois pour analyser vos résultats, c'est comme regarder dans le rétroviseur après l'accident. Le pilotage en temps réel (ou au moins hebdomadaire) vous permet de corriger le tir avant que les pertes ne s'accumulent.
+
+### Ignorer la saisonnalité
+
+Vos performances d'avril ne sont pas comparables à celles de novembre. Comparez toujours **N vs N-1** (même période de l'année précédente), pas seulement N vs N-1 mois.
+
+## FoodTracks : le tableau de bord conçu pour les food truckers
+
+FoodTracks intègre nativement tous les éléments décrits dans cet article :
+
+- **Synchronisation SumUp en temps réel** pour les ventes
+- **Scan IA des factures** pour le suivi des achats et du food cost
+- **Alertes de péremption** pour réduire le gaspillage
+- **Prédictions de vente** par emplacement et conditions météo
+- **Dashboard de rentabilité** avec food cost, marges et tickets moyens
+
+Nos utilisateurs réduisent leur food cost de **8 à 12 points** en moyenne dans les 60 premiers jours, simplement en rendant leurs données visibles et actionnables.
+
+## Conclusion
+
+Un tableau de bord food truck n'est pas un outil réservé aux grandes enseignes. C'est un levier accessible à tout indépendant qui veut **arrêter de naviguer à l'aveugle** et commencer à piloter son activité avec des données fiables.
+
+Commencez simple : 5 KPIs, des données synchronisées, des alertes configurées. Et ajustez au fil des semaines. La rentabilité de votre camion n'attend que ça.`,
+
+      en: `## Why a Dashboard is Essential for Your Food Truck
+
+Running a food truck without a dashboard is like navigating blind. You know you served 80 covers on Saturday, but did you know **in real time** that your margin on the daily special was 28% instead of the usual 42%? Probably not.
+
+A well-built food truck dashboard turns raw data — sales, purchases, waste, locations — into **concrete decisions**: which service to cut, which dish to promote, when to reorder.
+
+In 2026, with connected POS systems (SumUp, Square) and tools like **FoodTracks**, this real-time monitoring is accessible even to solo operators running their truck alone.
+
+## The 6 Essential KPIs to Track in Your Dashboard
+
+### 1. Revenue Per Service
+
+This is the first and most obvious indicator — but you need to go beyond the daily total. Track **revenue by location, day of the week, and time period** (peak hours vs. off-peak).
+
+Rising revenue doesn't necessarily mean improved profitability. A £900 service with 35% margin beats a £1,200 service with 18%.
+
+### 2. Food Cost
+
+Food cost is the ratio between what you purchased and what you sold:
+
+**Food cost (%) = Consumed purchases / Revenue × 100**
+
+For a food truck, a healthy food cost sits between **25% and 35%**. Above that, your gross margin collapses. Below 20%, you risk sacrificing perceived quality.
+
+With FoodTracks, food cost is calculated automatically from your scanned invoices and SumUp sales data — no spreadsheet needed.
+
+### 3. Gross Margin Per Dish
+
+Not all your dishes are equal. A per-item analysis shows which ones drive profitability up and which ones drag it down.
+
+- **Stars**: high volume, high margin — feature them prominently on the menu
+- **Cash cows**: high volume, low margin — reconsider (portion, price, recipe)
+- **Niches**: low volume, high margin — promote actively
+- **Dead weight**: low volume, low margin — cut without hesitation
+
+### 4. Waste Rate
+
+Food waste is the silent enemy of profitability. Every thrown-out product is money in the bin. Track:
+
+- Quantity discarded per ingredient each week
+- Total waste cost in pounds/euros
+- Trends (is it getting worse?)
+
+Target: **less than 3% of total food cost**. Food truckers using expiry alerts and AI predictions reach this benchmark within the first few weeks.
+
+### 5. Average Basket Size (Ticket Value)
+
+Average ticket = Total revenue / Number of transactions. This is a key indicator of your ability to **upsell**: drinks, desserts, add-ons.
+
+A low average ticket may point to a poorly structured menu, a team undertrained in suggestive selling, or an unclear menu board.
+
+### 6. Profitability Per Location
+
+Not all locations are created equal. Some markets are packed but your margin is thin (high travel costs, expensive pitch fees, price-sensitive customers). Others feel quiet but generate an excellent revenue-to-cost ratio.
+
+For each location, calculate:
+- Revenue generated
+- Related fixed costs (pitch fee, fuel, staff if applicable)
+- Estimated net margin
+
+Then decide which ones to keep, grow, or drop.
+
+## How to Build Your Food Truck Dashboard Step by Step
+
+### Step 1: Centralise Your Sales Data
+
+The foundation of any dashboard is sales data. Connect your POS (SumUp, Square, Zettle) to a management tool that automatically pulls in transactions. Avoid manual entry — it's time-consuming and error-prone.
+
+**FoodTracks** syncs natively with SumUp: every sale flows into your dashboard in real time.
+
+### Step 2: Feed In Your Purchase Data
+
+Without purchase data, there's no margin calculation. Scan or import your supplier invoices as soon as they arrive. A tool with AI recognition (like FoodTracks) automatically extracts product lines, quantities, and prices — zero manual entry.
+
+### Step 3: Define Your Priority Indicators
+
+You don't need to track 50 metrics. Choose the **5 to 8 KPIs** with the biggest impact on your business and focus on those. For most food truckers, that means:
+
+1. Daily / weekly revenue
+2. Overall food cost (%)
+3. Gross margin per dish
+4. Waste rate (%)
+5. Average basket
+6. Profitability per location
+
+### Step 4: Set Alert Thresholds
+
+A passive dashboard is useless. Configure **alerts** to be notified when an indicator leaves the green zone:
+
+- Food cost > 35% → immediate alert
+- Waste > 5% → weekly alert
+- Average basket down > 10% → menu review
+- Product approaching expiry → J-2 alert
+
+### Step 5: Review Weekly, Adjust Monthly
+
+Consult your dashboard **every week** for operational decisions (daily menu, order adjustments). Do a **monthly review** for strategic decisions (dropping a location, cutting a dish, renegotiating a supplier).
+
+## Classic Mistakes in Food Truck Management
+
+### Confusing Revenue and Profitability
+
+A food trucker with £5,000 weekly revenue can easily net less profit than one with £3,200. Revenue tells you nothing about your margins. **Always manage on margin**, not gross figures.
+
+### Ignoring Indirect Costs
+
+Fuel, insurance, vehicle maintenance, software subscriptions, banking fees — these costs are invisible in a basic sales tracker but they erode your real profitability. Integrate them into your dashboard, even as flat-rate estimates.
+
+### Only Looking at Data at Month End
+
+Waiting until end of month to analyse results is like looking in the rear-view mirror after the crash. Real-time (or at least weekly) monitoring lets you course-correct before losses stack up.
+
+### Ignoring Seasonality
+
+Your April performance isn't comparable to November. Always compare **YoY** (same period last year), not just month-on-month.
+
+## FoodTracks: The Dashboard Built for Food Truckers
+
+FoodTracks natively integrates everything described in this article:
+
+- **Real-time SumUp sync** for sales
+- **AI invoice scanning** for purchase and food cost tracking
+- **Expiry alerts** to cut waste
+- **Sales predictions** by location and weather conditions
+- **Profitability dashboard** with food cost, margins and average baskets
+
+Our users reduce their food cost by **8 to 12 points** on average in the first 60 days, simply by making their data visible and actionable.
+
+## Conclusion
+
+A food truck dashboard isn't a tool reserved for large chains. It's a lever accessible to any independent operator who wants to **stop flying blind** and start managing with reliable data.
+
+Start simple: 5 KPIs, synced data, configured alerts. Then refine over the weeks. Your truck's profitability is just waiting for it.`,
+    },
+    keyTakeaways: {
+      fr: [
+        "Un food cost entre 25% et 35% est la cible à atteindre pour préserver vos marges",
+        "Piloter en marge, pas en CA brut — un service à 900 € rentable vaut mieux qu'un service à 1 200 € déficitaire",
+        "Le gaspillage alimentaire représente jusqu'à 10% du CA sans suivi actif",
+        "5 à 8 KPIs suffisent : food cost, marge par plat, gaspillage, ticket moyen, rentabilité par emplacement",
+        "Comparez toujours N vs N-1 (même période de l'an passé) pour neutraliser la saisonnalité",
+      ],
+      en: [
+        "A food cost between 25% and 35% is the target to preserve your margins",
+        "Manage on margin, not gross revenue — a profitable £900 service beats a loss-making £1,200 one",
+        "Food waste can represent up to 10% of revenue without active tracking",
+        "5 to 8 KPIs are enough: food cost, margin per dish, waste, average basket, profitability per location",
+        "Always compare YoY (same period last year) to neutralise seasonality",
+      ],
+    },
+    faqItems: [
+      {
+        question: {
+          fr: "Quels sont les KPIs essentiels pour piloter un food truck ?",
+          en: "What are the essential KPIs for managing a food truck?",
+        },
+        answer: {
+          fr: "Les 6 KPIs prioritaires sont : le chiffre d'affaires par service, le food cost (%), la marge brute par plat, le taux de gaspillage, le ticket moyen et la rentabilité par emplacement.",
+          en: "The 6 priority KPIs are: revenue per service, food cost (%), gross margin per dish, waste rate, average basket size, and profitability per location.",
+        },
+      },
+      {
+        question: {
+          fr: "Quel est un bon food cost pour un food truck ?",
+          en: "What is a good food cost for a food truck?",
+        },
+        answer: {
+          fr: "Un food cost sain pour un food truck se situe entre 25% et 35% du chiffre d'affaires. Au-delà de 35%, les marges brutes sont insuffisantes pour couvrir les charges fixes.",
+          en: "A healthy food cost for a food truck is between 25% and 35% of revenue. Above 35%, gross margins are insufficient to cover fixed costs.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment suivre la rentabilité d'un emplacement food truck ?",
+          en: "How do you track the profitability of a food truck location?",
+        },
+        answer: {
+          fr: "Pour chaque emplacement, calculez le CA réalisé moins les coûts directs (frais d'emplacement, carburant, personnel). Comparez ensuite les ratios marge nette/CA entre emplacements pour identifier ceux à développer ou abandonner.",
+          en: "For each location, calculate revenue minus direct costs (pitch fee, fuel, staff). Then compare net margin/revenue ratios across locations to identify which to grow or drop.",
+        },
+      },
+      {
+        question: {
+          fr: "Peut-on construire un tableau de bord food truck sans comptable ?",
+          en: "Can you build a food truck dashboard without an accountant?",
+        },
+        answer: {
+          fr: "Oui. Des outils comme FoodTracks centralisent automatiquement ventes (SumUp), achats (scan de factures) et calculent les marges en temps réel — sans compétences comptables requises.",
+          en: "Yes. Tools like FoodTracks automatically centralise sales (SumUp), purchases (invoice scanning) and calculate margins in real time — no accounting skills required.",
+        },
+      },
+      {
+        question: {
+          fr: "À quelle fréquence analyser son tableau de bord food truck ?",
+          en: "How often should you review your food truck dashboard?",
+        },
+        answer: {
+          fr: "Consultez votre tableau de bord chaque semaine pour les ajustements opérationnels (menu, commandes). Faites une revue stratégique mensuelle pour les décisions de fond (emplacements, carte, fournisseurs).",
+          en: "Review your dashboard weekly for operational adjustments (menu, orders). Conduct a monthly strategic review for fundamental decisions (locations, menu, suppliers).",
+        },
+      },
+    ],
+    relatedSlugs: [
+      "calcul-prix-vente-food-truck",
+      "gestion-tresorerie-food-truck",
+      "charges-variables-food-truck",
+    ],
+  },
+];
+
 export function getArticleBySlug(slug: string): BlogArticle | undefined {
   return blogArticles.find((a) => a.slug === slug);
 }

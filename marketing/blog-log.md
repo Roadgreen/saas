@@ -2,6 +2,7 @@
 
 | Date | Slug | Title | Status |
 |------|------|-------|--------|
+| 2026-04-23 | food-truck-vegan-menu-rentable | Comment créer un menu vegan rentable pour son food truck | publie |
 | 2026-04-07 | horaires-ouverture-food-truck-maximiser-ventes | Horaires d'ouverture food truck : comment les optimiser pour maximiser vos ventes | publie |
 | 2026-04-07 | gestion-invendus-food-truck | Gestion des invendus food truck : réduire les pertes en fin de service et protéger vos marges | publie |
 | 2026-04-06 | contrats-entreprises-food-truck | Décrocher des contrats entreprises pour son food truck : le guide complet 2026 | publie |
@@ -27,4 +28,5 @@
 | 2026-04-20 | adapter-menu-food-truck-meteo | Adapter son menu food truck selon la météo : la méthode pour vendre plus par tous les temps | publie |
 | 2026-04-16 | charges-variables-food-truck | Charges variables food truck : identifier, réduire et optimiser ses coûts | publie |
 | 2026-04-22 | cout-de-revient-food-truck | Coût de revient food truck : comment le calculer et l'optimiser pour préserver vos marges | publie |
+| 2026-04-28 | tableau-de-bord-food-truck-rentabilite | Tableau de bord food truck : comment piloter la rentabilité de son camion en 2026 | publie |
 | 2026-04-22 | formation-haccp-food-truck | Formation HACCP food truck : obligations, contenu et où se former en 2026 | publie |
