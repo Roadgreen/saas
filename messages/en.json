@@ -232,9 +232,9 @@
         },
         "badge": "Built for food trucks",
         "hero": {
-            "title": "Food truck management, powered by AI. Zero waste.",
-            "subtitle": "The software that manages your inventory, predicts your sales, and optimizes your profitability in real time — so you prep the right amount, every day.",
-            "ctaPrimary": "Try free for 14 days",
+            "title": "No more 'how much should I prep ?'. AI gives you the answer each morning.",
+            "subtitle": "Tailored to your spot, your day, and your weather. 5h/week saved, zero morning stress — no more guessing.",
+            "ctaPrimary": "See tomorrow's forecast",
             "ctaSecondary": "See how it works",
             "noCreditCard": "No credit card required",
             "freeToStart": "100% free to start",

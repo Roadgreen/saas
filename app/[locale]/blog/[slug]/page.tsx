@@ -333,9 +333,16 @@ export default async function BlogArticlePage({
             </p>
             <Link
               href={`/${locale}/register?utm_source=blog&utm_medium=article_cta&utm_campaign=${slug}`}
-              data-track-component="blog-cta-end"
             >
-              <Button className="text-white font-semibold px-6 py-2.5" style={{ backgroundColor: '#FF6B35' }}>
+              {/* data-track-* must live on the <button> itself: the click
+                  bubbles to the inner <button>, not the outer <a>, so the
+                  AnalyticsProvider was attributing zero clicks to this CTA. */}
+              <Button
+                className="text-white font-semibold px-6 py-2.5"
+                style={{ backgroundColor: '#FF6B35' }}
+                data-track-component="blog-cta-end"
+                data-track-name={slug}
+              >
                 {isFr ? 'Démarrer mon essai gratuit' : 'Start my free trial'}
               </Button>
             </Link>
@@ -387,10 +394,14 @@ export default async function BlogArticlePage({
         <div className="fixed inset-x-0 bottom-0 z-40 border-t bg-white/95 backdrop-blur px-4 py-3 shadow-lg md:hidden">
           <Link
             href={`/${locale}/register?utm_source=blog&utm_medium=sticky_cta&utm_campaign=${slug}`}
-            data-track-component="blog-cta-sticky-mobile"
             className="flex items-center justify-center"
           >
-            <Button className="w-full text-white font-semibold" style={{ backgroundColor: '#FF6B35' }}>
+            <Button
+              className="w-full text-white font-semibold"
+              style={{ backgroundColor: '#FF6B35' }}
+              data-track-component="blog-cta-sticky-mobile"
+              data-track-name={slug}
+            >
               {isFr ? 'Essai gratuit 14 jours' : 'Start 14-day free trial'}
             </Button>
           </Link>

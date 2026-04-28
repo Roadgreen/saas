@@ -140,10 +140,16 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4 items-start sm:items-center">
-                <Link href={`/${locale}/register?plan=PRO`}>
+                {/* Primary CTA points to /demo to honor the new hero copy
+                    ("Voir ma prévision de demain"). The demo page itself
+                    funnels to /register via its final CTA, removing the
+                    expectation-mismatch we had with a direct registration
+                    form behind a "see the forecast" promise. */}
+                <Link href={`/${locale}/demo?utm_source=home&utm_medium=hero_primary`}>
                   <button
                     className="btn-landing btn-cta-primary btn-shimmer inline-flex items-center justify-center gap-3 rounded-full font-bold px-10 py-4.5 text-white text-base"
                     style={{ backgroundColor: ORANGE, boxShadow: '0 12px 40px -4px rgba(249,115,22,0.5)' }}
+                    data-track-component="home-hero-cta-primary"
                   >
                     {t('hero.ctaPrimary')}
                     <ArrowRight className="h-4.5 w-4.5" />
@@ -155,6 +161,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
                   <button
                     className="btn-landing inline-flex items-center justify-center rounded-full font-medium px-6 py-3 text-sm transition-colors hover:text-white"
                     style={{ color: '#9CA3AF', backgroundColor: 'transparent' }}
+                    data-track-component="home-hero-cta-secondary"
                   >
                     {t('hero.ctaSecondary')}
                   </button>
