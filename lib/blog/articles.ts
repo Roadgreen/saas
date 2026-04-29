@@ -27517,6 +27517,309 @@ Start simple: 5 KPIs, synced data, configured alerts. Then refine over the weeks
       "charges-variables-food-truck",
     ],
   },
+  {
+    slug: "assurance-food-truck-guide",
+    title: {
+      fr: "Assurance food truck : guide complet pour bien vous couvrir",
+      en: "Food Truck Insurance: Complete Guide to Getting the Right Coverage",
+    },
+    excerpt: {
+      fr: "Quelles assurances sont obligatoires pour un food truck ? RC pro, assurance véhicule, multirisque… Découvrez comment vous protéger sans surpayer.",
+      en: "Which insurance policies are mandatory for a food truck? Liability, vehicle, multi-risk… Learn how to protect yourself without overpaying.",
+    },
+    category: { fr: "Réglementation", en: "Regulations" },
+    date: "2026-04-29",
+    readTime: 10,
+    keywords: [
+      "assurance food truck",
+      "rc pro food truck",
+      "assurance véhicule food truck",
+      "assurance multirisque food truck",
+      "assurance obligatoire food truck",
+    ],
+    heroImage: "/blog/assurance-food-truck.png",
+    content: {
+      fr: `## Pourquoi l'assurance est cruciale pour un food trucker
+
+Gérer un food truck, c'est cumuler plusieurs activités à risques : la conduite d'un poids lourd aménagé, la manipulation d'aliments, la vente au public dans des lieux variés. **Une seule erreur — un client blessé, un incendie, un accident de la route — peut mettre fin à votre activité si vous n'êtes pas correctement assuré.**
+
+Pourtant, beaucoup de food truckers sous-estiment leurs besoins ou souscrivent des contrats inadaptés. Ce guide vous explique exactement ce dont vous avez besoin.
+
+## Les assurances obligatoires pour un food truck
+
+### 1. La responsabilité civile professionnelle (RC Pro)
+
+La RC Pro est **obligatoire pour toute activité commerciale** en France. Elle couvre les dommages que vous pourriez causer à des tiers dans le cadre de votre activité :
+
+- Un client glisse devant votre stand et se blesse
+- Un produit alimentaire cause une intoxication
+- Vous endommagez du matériel sur un marché (stands voisins, mobilier urbain)
+
+**Tarif moyen** : entre 400 € et 800 €/an selon votre chiffre d'affaires et votre activité.
+
+### 2. L'assurance véhicule (obligatoire pour circuler)
+
+Votre food truck est avant tout un véhicule. Vous devez au minimum une **assurance au tiers**, mais en pratique, une **assurance tous risques** est fortement recommandée car votre véhicule représente votre outil de travail.
+
+Points à vérifier dans votre contrat :
+- Couverture du véhicule **en stationnement** (différente de la conduite)
+- Couverture du **matériel embarqué** (friteuses, réfrigérateurs, etc.)
+- **Usage professionnel** clairement mentionné (sinon votre contrat peut être nul)
+
+**Tarif moyen** : entre 1 200 € et 2 500 €/an pour un camion aménagé de 3,5 à 7,5 tonnes.
+
+## Les assurances fortement recommandées
+
+### 3. L'assurance multirisque professionnelle
+
+Elle regroupe en un seul contrat plusieurs garanties essentielles :
+- **Bris de machine** : panne de votre équipement de cuisson
+- **Dommages aux biens professionnels** : vol, incendie, dégât des eaux
+- **Perte d'exploitation** : indemnisation si vous ne pouvez plus travailler suite à un sinistre
+- **Protection juridique** : prise en charge des litiges avec clients, fournisseurs, autorités
+
+La perte d'exploitation est souvent négligée mais peut être **la garantie la plus importante** : si votre camion est immobilisé 3 semaines après un accident, elle compense votre manque à gagner.
+
+**Tarif moyen** : entre 600 € et 1 500 €/an selon les garanties choisies.
+
+### 4. La protection sociale du dirigeant
+
+Si vous êtes auto-entrepreneur ou gérant TNS, votre protection sociale de base est insuffisante en cas d'arrêt maladie ou d'accident. Envisagez :
+- Une **mutuelle santé** adaptée aux indépendants
+- Une **prévoyance** couvrant l'incapacité de travail
+- Une **assurance décès/invalidité**
+
+## Comment choisir son assurance food truck
+
+### Comparer les contrats spécialisés
+
+Évitez les contrats généralistes "auto + RC pro" vendus séparément. Plusieurs assureurs proposent des **contrats dédiés food truck** qui regroupent toutes les garanties nécessaires à prix négocié :
+
+- **Hiscox** : bonne couverture RC pro pour les métiers de bouche
+- **AXA Pro** : contrats multirisques professionnels
+- **Allianz** : offres adaptées aux véhicules de restauration
+- **MAAF Pro** : accessible aux jeunes entreprises
+
+### Les questions à poser à votre assureur
+
+Avant de signer, vérifiez systématiquement :
+
+1. **Le matériel embarqué est-il couvert ?** Et jusqu'à quel montant ?
+2. **La couverture s'étend-elle aux événements ?** Certains contrats excluent les festivals ou les marchés
+3. **La perte d'exploitation est-elle incluse ?** Et pour quelle durée maximale ?
+4. **Quelle est la franchise** en cas de sinistre ?
+5. **Le véhicule est-il couvert pendant les réparations** chez un carrossier ?
+
+### Calculer le bon niveau de couverture
+
+Le montant de votre couverture RC pro doit correspondre à votre exposition :
+- CA < 100 k€/an → garantie de 500 k€ à 1 M€ suffit
+- CA entre 100 k€ et 300 k€ → garantie de 1 M€ à 2 M€ recommandée
+- CA > 300 k€ → garantie de 3 M€ et plus, surtout si événementiel
+
+## Les erreurs classiques à éviter
+
+### Déclarer un usage "personnel" pour votre véhicule
+
+C'est la faute la plus courante et la plus grave. Si votre assureur découvre que vous utilisez votre camion à des fins professionnelles sans l'avoir déclaré, il peut **refuser d'indemniser un sinistre** et résilier votre contrat.
+
+### Négliger le contenu embarqué
+
+Le matériel de cuisine professionnel (four à pizza, plancha, réfrigérateur professionnel) représente souvent **30 000 € à 80 000 €**. Vérifiez que votre contrat couvre bien ce montant.
+
+### Oublier de mettre à jour votre contrat
+
+Si vous agrandissez votre activité, recrutez du personnel ou changez de véhicule, **informez votre assureur sous 15 jours**. Un changement non déclaré peut invalider vos garanties.
+
+## Budget total assurance food truck
+
+Pour un food truck standard avec une activité de 100 k€ à 200 k€/an, comptez :
+
+| Assurance | Budget annuel estimé |
+|---|---|
+| RC Pro | 500 – 700 € |
+| Véhicule tous risques | 1 200 – 2 000 € |
+| Multirisque pro | 700 – 1 200 € |
+| Prévoyance dirigeant | 600 – 1 000 € |
+| **Total** | **3 000 – 4 900 €/an** |
+
+Soit environ **250 à 400 €/mois**, à intégrer dans vos charges fixes. Avec un outil comme **FoodTracks**, vous pouvez [suivre vos charges mensuelles](/fr/blog/cout-charges-food-truck-mensuel) et vérifier que vos assurances restent dans les ratios sains de votre activité.
+
+## Conclusion
+
+L'assurance n'est pas un luxe — c'est la fondation sur laquelle repose la pérennité de votre food truck. Un sinistre non couvert peut effacer des années de travail en quelques jours. Prenez le temps de comparer les offres, de lire les exclusions, et de choisir un contrat qui couvre vraiment votre réalité opérationnelle.`,
+      en: `## Why Insurance Is Critical for Food Truckers
+
+Running a food truck means combining several high-risk activities: driving a converted heavy vehicle, handling food, and selling to the public in various locations. **A single mistake — an injured customer, a fire, a road accident — can end your business if you're not properly covered.**
+
+Yet many food truckers underestimate their needs or take out unsuitable policies. This guide explains exactly what you need.
+
+## Mandatory Insurance for a Food Truck
+
+### 1. Professional Liability Insurance (Public Liability)
+
+Professional liability is **mandatory for any commercial activity** in France and strongly recommended everywhere. It covers damages you might cause to third parties in the course of your business:
+
+- A customer slips in front of your stand and gets injured
+- A food product causes food poisoning
+- You damage equipment at a market (neighbouring stalls, street furniture)
+
+**Average cost**: between €400 and €800/year depending on your turnover and activity.
+
+### 2. Vehicle Insurance (Mandatory to Drive)
+
+Your food truck is first and foremost a vehicle. You need at minimum **third-party insurance**, but in practice **comprehensive insurance** is strongly recommended since your vehicle is your primary business tool.
+
+Key points to check in your policy:
+- Coverage when the vehicle is **parked** (different from driving)
+- Coverage of **on-board equipment** (fryers, refrigerators, etc.)
+- **Professional use** clearly stated (otherwise your policy may be void)
+
+**Average cost**: between €1,200 and €2,500/year for a converted truck between 3.5 and 7.5 tonnes.
+
+## Highly Recommended Insurance
+
+### 3. Professional Multi-Risk Insurance
+
+This combines several essential coverages in a single policy:
+- **Equipment breakdown**: failure of your cooking equipment
+- **Business property damage**: theft, fire, water damage
+- **Business interruption**: compensation if you can't work following a claim
+- **Legal protection**: covering disputes with customers, suppliers, authorities
+
+Business interruption is often overlooked but can be **the most important coverage**: if your truck is off the road for 3 weeks after an accident, it compensates for your lost income.
+
+**Average cost**: between €600 and €1,500/year depending on the coverage chosen.
+
+### 4. Owner/Director Personal Protection
+
+If you're self-employed or a sole trader, your basic social protection is inadequate in case of illness or accident. Consider:
+- A **health insurance** plan tailored to the self-employed
+- **Income protection** covering inability to work
+- **Life/disability insurance**
+
+## How to Choose Your Food Truck Insurance
+
+### Compare Specialist Policies
+
+Avoid generic "auto + liability" contracts sold separately. Several insurers offer **dedicated food truck policies** that bundle all necessary coverages at a negotiated price:
+
+- **Hiscox**: good professional liability for food businesses
+- **AXA Pro**: professional multi-risk contracts
+- **Allianz**: solutions for catering vehicles
+- **MAAF Pro**: accessible to young businesses
+
+### Questions to Ask Your Insurer
+
+Before signing, always check:
+
+1. **Is on-board equipment covered?** Up to what amount?
+2. **Does coverage extend to events?** Some policies exclude festivals or markets
+3. **Is business interruption included?** For how long maximum?
+4. **What is the excess** in case of a claim?
+5. **Is the vehicle covered during repairs** at a workshop?
+
+### Calculating the Right Level of Coverage
+
+Your professional liability coverage amount should match your exposure:
+- Turnover < €100k/year → €500k to €1M coverage is sufficient
+- Turnover between €100k and €300k → €1M to €2M recommended
+- Turnover > €300k → €3M and above, especially for events
+
+## Classic Mistakes to Avoid
+
+### Declaring "Personal" Use for Your Vehicle
+
+This is the most common and most serious error. If your insurer discovers you're using your truck for business without declaring it, they can **refuse to pay a claim** and cancel your policy.
+
+### Underestimating On-Board Contents
+
+Professional kitchen equipment (pizza oven, griddle, commercial refrigerator) often represents **€30,000 to €80,000**. Make sure your policy covers this amount.
+
+### Forgetting to Update Your Policy
+
+If you expand your activity, hire staff, or change vehicles, **notify your insurer within 15 days**. An undeclared change can invalidate your coverage.
+
+## Total Food Truck Insurance Budget
+
+For a standard food truck with turnover of €100k to €200k/year, budget for:
+
+| Insurance | Estimated Annual Cost |
+|---|---|
+| Professional liability | €500 – €700 |
+| Comprehensive vehicle | €1,200 – €2,000 |
+| Professional multi-risk | €700 – €1,200 |
+| Director income protection | €600 – €1,000 |
+| **Total** | **€3,000 – €4,900/year** |
+
+Around **€250 to €400/month**, to integrate into your fixed costs. With a tool like **FoodTracks**, you can [track your monthly expenses](/en/blog/cout-charges-food-truck-mensuel) and make sure your insurance stays within healthy ratios for your business.
+
+## Conclusion
+
+Insurance isn't a luxury — it's the foundation on which the longevity of your food truck rests. An uncovered claim can wipe out years of work in a matter of days. Take the time to compare offers, read the exclusions, and choose a policy that truly covers your operational reality.`,
+    },
+    keyTakeaways: {
+      fr: [
+        "La RC Pro et l'assurance véhicule sont obligatoires pour tout food truck en activité.",
+        "L'assurance multirisque pro avec perte d'exploitation est fortement recommandée : elle couvre la panne matérielle et l'arrêt d'activité.",
+        "Budget assurance food truck : environ 3 000 à 4 900 €/an pour une activité de 100-200 k€.",
+        "Toujours déclarer l'usage professionnel de votre véhicule, sous peine d'annulation des garanties.",
+      ],
+      en: [
+        "Professional liability and vehicle insurance are mandatory for any operating food truck.",
+        "Professional multi-risk insurance with business interruption is strongly recommended: it covers equipment failure and loss of income.",
+        "Food truck insurance budget: approximately €3,000 to €4,900/year for a €100-200k turnover business.",
+        "Always declare professional use of your vehicle, or risk having your coverage voided.",
+      ],
+    },
+    faqItems: [
+      {
+        question: {
+          fr: "Quelle assurance est obligatoire pour un food truck ?",
+          en: "What insurance is mandatory for a food truck?",
+        },
+        answer: {
+          fr: "Deux assurances sont obligatoires : la responsabilité civile professionnelle (RC Pro) pour couvrir les dommages causés à des tiers, et l'assurance véhicule (au minimum au tiers) pour pouvoir circuler sur la voie publique.",
+          en: "Two types of insurance are mandatory: professional liability (public liability) to cover damages caused to third parties, and vehicle insurance (at minimum third-party) to legally drive on public roads.",
+        },
+      },
+      {
+        question: {
+          fr: "Combien coûte l'assurance pour un food truck ?",
+          en: "How much does food truck insurance cost?",
+        },
+        answer: {
+          fr: "Pour un food truck avec un CA de 100 à 200 k€, comptez entre 3 000 et 4 900 €/an en combinant RC pro, assurance véhicule tous risques, multirisque professionnelle et prévoyance du dirigeant.",
+          en: "For a food truck with €100k to €200k in turnover, budget between €3,000 and €4,900/year combining public liability, comprehensive vehicle, professional multi-risk, and director income protection.",
+        },
+      },
+      {
+        question: {
+          fr: "L'assurance couvre-t-elle le matériel de cuisine embarqué ?",
+          en: "Does insurance cover the kitchen equipment on board?",
+        },
+        answer: {
+          fr: "Pas automatiquement. Vous devez vérifier que votre contrat inclut explicitement une garantie 'bris de machine' et 'dommages aux biens professionnels' couvrant le matériel embarqué, avec un plafond suffisant (30 000 à 80 000 € en général).",
+          en: "Not automatically. You must verify that your policy explicitly includes 'equipment breakdown' and 'business property damage' coverage for on-board equipment, with a sufficient limit (generally €30,000 to €80,000).",
+        },
+      },
+      {
+        question: {
+          fr: "Peut-on utiliser une assurance auto classique pour son food truck ?",
+          en: "Can you use a standard car insurance policy for your food truck?",
+        },
+        answer: {
+          fr: "Non. Un food truck doit être déclaré pour usage professionnel. Un contrat auto classique déclaré en usage personnel sera nul en cas de sinistre professionnel. Choisissez un contrat explicitement adapté aux véhicules de restauration ambulante.",
+          en: "No. A food truck must be declared for professional use. A standard car policy declared for personal use will be void in case of a professional claim. Choose a policy explicitly suited to mobile catering vehicles.",
+        },
+      },
+    ],
+    relatedSlugs: [
+      "reglementation-food-truck-france",
+      "cout-charges-food-truck-mensuel",
+      "ouvrir-food-truck-guide-complet",
+    ],
+  },
 ];
 
 export function getArticleBySlug(slug: string): BlogArticle | undefined {
