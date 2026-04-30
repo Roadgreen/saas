@@ -27820,6 +27820,445 @@ Insurance isn't a luxury — it's the foundation on which the longevity of your 
       "ouvrir-food-truck-guide-complet",
     ],
   },
+  {
+    slug: "louer-food-truck-evenement-prive-tarifs",
+    title: {
+      fr: "Louer son food truck pour un événement privé : tarifs, organisation et conseils",
+      en: "Renting Your Food Truck for a Private Event: Pricing, Logistics and Tips",
+    },
+    excerpt: {
+      fr: "Mariage, séminaire d'entreprise, anniversaire : louer son food truck pour des événements privés est un levier rentable souvent sous-exploité. Découvrez comment fixer vos tarifs, organiser la prestation et sécuriser vos contrats.",
+      en: "Wedding, corporate seminar, birthday party: renting your food truck for private events is a profitable lever many operators overlook. Learn how to set your rates, organise the service and lock in solid contracts.",
+    },
+    category: { fr: "Développement commercial", en: "Business Development" },
+    date: "2026-04-30",
+    readTime: 10,
+    keywords: [
+      "louer food truck événement privé",
+      "food truck mariage tarif",
+      "food truck séminaire entreprise",
+      "prix location food truck privatisation",
+      "food truck événementiel rentable",
+      "private event food truck hire",
+      "food truck wedding catering price",
+      "food truck corporate event",
+    ],
+    heroImage: "/blog/gestion-stock.png",
+    keyTakeaways: {
+      fr: [
+        "Un événement privé peut rapporter 2 à 5 fois le revenu d'un service de rue de durée équivalente.",
+        "La tarification idéale combine un forfait minimum garanti + un pourcentage sur le chiffre d'affaires réalisé.",
+        "Un contrat écrit avec acompte est indispensable pour sécuriser chaque prestation.",
+        "Calculez vos coûts réels (déplacement, mise en place, personnel) avant de fixer votre prix minimum.",
+        "Les plateformes spécialisées et les agences événementielles sont vos meilleurs canaux d'acquisition clients.",
+      ],
+      en: [
+        "A private event can generate 2 to 5 times the revenue of an equivalent street service.",
+        "The ideal pricing structure combines a guaranteed minimum fee plus a percentage of revenue generated.",
+        "A written contract with a deposit is essential to secure every booking.",
+        "Calculate your actual costs (travel, setup, staffing) before setting your minimum price.",
+        "Specialist platforms and event agencies are your best client acquisition channels.",
+      ],
+    },
+    content: {
+      fr: `## Pourquoi proposer la privatisation de votre food truck ?
+
+La plupart des food truckers pensent d'abord aux marchés, aux emplacements fixes et aux festivals. Pourtant, la **prestation événementielle privée** est souvent le segment le plus rentable du calendrier. Une privatisation pour un mariage ou un séminaire d'entreprise peut représenter **2 à 5 fois le chiffre d'affaires** d'un service de rue de même durée, avec une demande prévisible et un risque météo mutualisé sur un contrat ferme.
+
+### Les types d'événements privés les plus courants
+
+- **Mariages** : le segment premium par excellence, panier moyen élevé, clientèle exigeante mais fidèle (recommandations)
+- **Séminaires et team-buildings d'entreprise** : fort volume, récurrence possible si vous travaillez bien
+- **Anniversaires et fêtes privées** : demande croissante pour des formats originaux et conviviaux
+- **Vernissages, inaugurations, soirées de lancement** : image et visibilité en prime
+- **Événements associatifs et sportifs privés** : volume modeste mais régulier
+
+## Comment fixer le bon tarif pour une privatisation
+
+C'est la question que tous les food truckers se posent — et la réponse dépend de votre structure de coûts réelle.
+
+### Calculer votre coût de revient de la prestation
+
+Avant de communiquer un tarif, établissez le **coût réel de la prestation** :
+
+- **Matières premières** : selon le nombre de personnes et votre menu
+- **Déplacement** : carburant + amortissement du camion (compter 0,40 à 0,60 €/km)
+- **Temps de mise en place et de nettoyage** : souvent 1 à 2 h non payées si non facturées
+- **Heures de personnel supplémentaire** : 11 à 15 €/h brut pour un extra
+- **Consommables spéciaux** : packaging événementiel, serviettes, nappes
+- **Marge de sécurité** : 15 à 20 % pour les imprévus
+
+Pour chaque recette servie lors de l'événement, assurez-vous d'avoir calculé votre coût de revient unitaire. FoodTracks vous permet de [calculer automatiquement le coût de revient de chaque plat](/fr/blog/calculer-cout-revient-recette-food-truck) en scannant vos factures fournisseurs.
+
+### Les modèles de tarification
+
+Il existe trois grandes approches tarifaires pour les privatisations :
+
+**1. Le forfait fixe tout compris**
+Vous fixez un prix global pour la prestation (ex. : 1 500 € pour 4 h, 80 personnes, menu unique). Simple à communiquer, rassurant pour le client. Idéal pour les petites jauges (<60 personnes) avec un menu standardisé.
+
+**2. Le minimum garanti + pourcentage CA**
+Vous demandez un minimum garanti (ex. : 800 €) et prenez un pourcentage du CA au-dessus de ce seuil (ex. : 70 % du CA). Ce modèle protège votre plancher de rentabilité tout en vous laissant profiter si la consommation est forte. Très courant pour les mariages.
+
+**3. Le forfait par tête**
+Un prix par personne (ex. : 18 à 25 € / convive selon le menu). Simple à expliquer, mais nécessite que le client s'engage sur un nombre minimum de couverts. Prévoyez toujours un **minimum de couverts garanti** (ex. : 40 personnes minimum).
+
+### Grille tarifaire indicative 2026
+
+| Type d'événement | Durée | Personnes | Fourchette de prix |
+|---|---|---|---|
+| Anniversaire privé | 3 h | 30-50 | 700 – 1 200 € |
+| Séminaire entreprise | 4 h | 50-100 | 1 200 – 2 500 € |
+| Mariage (cocktail) | 4-5 h | 80-150 | 2 000 – 5 000 € |
+| Mariage (repas complet) | 6-8 h | 80-150 | 4 000 – 9 000 € |
+| Inauguration / soirée | 3 h | 50-80 | 1 000 – 2 000 € |
+
+Ces fourchettes varient selon la région (Paris > Province), le concept (premium > street food basique) et les options (service à table, personnel dédié, personnalisation de la carte).
+
+## Organiser la prestation : les points incontournables
+
+### Repérage du lieu
+
+Avant de confirmer, **visitez ou faites visiter le lieu** (ou demandez des photos précises) :
+- Accès camion : hauteur, largeur, revêtement (pelouse, pavés...)
+- Source d'électricité disponible (16 ou 32A) ou groupe électrogène nécessaire
+- Point d'eau pour la plonge
+- Zone de travail et distance par rapport aux convives
+- Stationnement pour votre véhicule personnel si différent du food truck
+
+### Logistique du menu
+
+Pour les privatisations, optez pour un menu simplifié et adapté :
+- **2 à 3 plats maximum** pour garantir la fluidité du service
+- Privilégiez les plats à fort rendement (préparation rapide, cuisson à la minute)
+- Prévoyez une option végétarienne systématiquement
+- Adaptez les quantités : comptez 10 à 15 % de marge sur le nombre de couverts annoncé
+
+Pour aller plus loin sur la conception d'une carte rentable, consultez notre guide sur le [menu food truck rentable](/fr/blog/menu-food-truck-rentable).
+
+### Personnel
+
+Pour une prestation de 80 personnes ou plus, prévoyez **au moins 2 personnes en service** (un à la cuisson, un à la prise de commande et l'encaissement). Pour un mariage > 100 personnes avec service à table, comptez 3 à 4 personnes.
+
+Nos conseils pour recruter et gérer votre personnel d'appoint sont détaillés dans le guide [recruter son premier employé food truck](/fr/blog/recruter-premier-employe-food-truck).
+
+## Sécuriser la prestation : le contrat indispensable
+
+Ne partez jamais en prestation privée sans contrat signé. Voici les clauses essentielles :
+
+### Les éléments obligatoires du contrat
+
+- **Identité des parties** : vous (SIRET, raison sociale) et le client
+- **Date, lieu et horaires** : heure d'arrivée, de mise en place, de service, de fin et de départ
+- **Prestation exacte** : menu détaillé, nombre de convives minimum garanti, prix total
+- **Acompte** : 30 à 50 % à la signature, solde 7 à 15 jours avant l'événement
+- **Conditions d'annulation** :
+  - Annulation > 30 jours : remboursement de l'acompte (ou avoir)
+  - Annulation entre 15 et 30 jours : 50 % de l'acompte conservé
+  - Annulation < 15 jours : acompte intégralement conservé + 20 % du solde
+- **Force majeure** : définir les cas (intempéries extrêmes, panne mécanique)
+- **Clause météo** : si l'événement est en extérieur, précisez qui supporte le risque
+
+### L'acompte : votre filet de sécurité
+
+Un acompte de 30 à 50 % est non négociable. Sans lui, vous risquez de bloquer un week-end entier de service pour une prestation annulée au dernier moment. L'acompte couvre vos achats de matières premières et votre manque à gagner.
+
+Pour mieux gérer votre trésorerie autour de ces acomptes, consultez notre guide [gestion de trésorerie food truck](/fr/blog/gestion-tresorerie-food-truck).
+
+## Trouver des clients pour vos privatisations
+
+### Les canaux principaux
+
+**Plateformes spécialisées**
+Plusieurs plateformes mettent en relation food truckers et organisateurs d'événements en France :
+- **FoodTruckFacile** : annuaire et demandes de devis
+- **Foodtrucklocator.fr** : référencement gratuit + demandes entrantes
+- **Mariages.net / La Mariée en Colère** : pour le segment mariage
+- **Weddingwire** et **Zankyou** : présence utile sur les secteurs premium
+
+**Agences événementielles**
+Contactez directement les agences événementielles et wedding planners de votre région. Proposez-leur un tarif "partenaire" légèrement inférieur (5 à 10 %) en échange d'une recommandation régulière. Une bonne relation avec deux ou trois agences peut vous apporter 10 à 20 privatisations par an.
+
+**Les entreprises locales**
+Les DRH et responsables communication d'entreprises de +50 salariés organisent régulièrement des événements internes (team-building, anniversaires d'entreprise, soirées de fin d'année). Une prospection directe via LinkedIn ou email peut ouvrir des contrats récurrents.
+
+Pour les contrats entreprises, lisez notre guide complet : [décrocher des contrats entreprises pour son food truck](/fr/blog/contrats-entreprises-food-truck).
+
+**Le bouche-à-oreille et les réseaux sociaux**
+Publiez vos prestations événementielles sur Instagram et Facebook avec des photos soignées. Un mariage réussi photographié sur place peut générer 5 à 10 demandes de devis spontanées. Tagguez le lieu, le wedding planner, le photographe — le contenu se diffuse naturellement dans leur réseau.
+
+### Construire un kit de présentation
+
+Pour convaincre efficacement, préparez un **kit prestataire** :
+- PDF 2 pages : concept, photos de prestations passées, formules et tarifs indicatifs
+- Fiche technique du camion (dimensions, puissance électrique, capacité de service/heure)
+- Références clients (avec accord) et avis Google
+- Coordonnées directes (téléphone + email dédié événementiel)
+
+## Optimiser la rentabilité de vos privatisations
+
+### Proposer des options et modules
+
+Le tarif de base peut être complété par des options :
+- **Service à table** : +5 à 8 € / convive
+- **Personnalisation de la carte** (logo client sur les emballages, plat signature) : forfait 200 à 500 €
+- **Animation live** (démonstration de cuisine, atelier pizza...) : forfait 300 à 800 €
+- **Location de mobilier** (si vous en disposez) : tables, tabourets hauts, éclairage
+
+### Grouper les prestations sur le même week-end
+
+Si vous faites un mariage le samedi, proposez au client un "brunch du lendemain" le dimanche. Si vous êtes sur une zone industrielle pour un team-building, contactez les entreprises voisines pour un service de midi le même jour. La mutualisation des déplacements améliore significativement la rentabilité de la journée.
+
+### Suivre le chiffre d'affaires par type de prestation
+
+Analysez régulièrement quelle catégorie d'événements vous est la plus rentable (marge nette après coûts réels). Avec FoodTracks, vous pouvez taguer vos services par type et comparer les performances — marchés, rue, festivals et privatisations — pour orienter votre prospection vers les segments les plus profitables.
+
+## Checklist avant chaque privatisation
+
+- [ ] Contrat signé + acompte encaissé
+- [ ] Repérage du lieu confirmé (accès, électricité, eau)
+- [ ] Menu validé avec le client + options végétariennes prévues
+- [ ] Quantités commandées avec marge de 10-15 %
+- [ ] Personnel confirmé (et contrat de travail pour les extras)
+- [ ] Matériel vérifié (groupe électrogène si nécessaire, rallonges, extincteur)
+- [ ] Assurance responsabilité civile professionnelle à jour
+- [ ] Itinéraire et horaire de départ du dépôt calculés
+
+## Conclusion
+
+Proposer votre food truck à la privatisation est l'une des décisions les plus rentables que vous puissiez prendre. Le revenu par heure travaillée est supérieur, la demande est prévisible, et chaque prestation réussie génère de nouvelles recommandations.
+
+La clé est de **structurer votre offre**, de **sécuriser chaque prestation par un contrat** et de **calculer précisément votre rentabilité** avant de vous engager. Un événement mal tarifé peut vous coûter plus cher qu'il ne rapporte — la rigueur sur les coûts est non négociable.
+
+**À lire aussi :** [Contrats entreprises pour food truck](/fr/blog/contrats-entreprises-food-truck) · [Food truck événementiel](/fr/blog/food-truck-festival-organiser-service-profitable) · [Gestion de trésorerie food truck](/fr/blog/gestion-tresorerie-food-truck) · [Menu food truck rentable](/fr/blog/menu-food-truck-rentable)`,
+      en: `## Why Offer Private Event Hire for Your Food Truck?
+
+Most food truck operators think first about markets, fixed spots and festivals. Yet **private event catering** is often the most profitable segment in the calendar. A wedding or corporate seminar booking can generate **2 to 5 times the revenue** of an equivalent street service, with predictable demand and weather risk absorbed by a firm contract.
+
+### The Most Common Types of Private Events
+
+- **Weddings**: the premium segment par excellence — high average spend, demanding but loyal clients (referrals)
+- **Corporate seminars and team-building days**: high volume, potential for repeat business
+- **Birthday parties and private celebrations**: growing demand for original, convivial formats
+- **Vernissages, inaugurations, launch parties**: bonus visibility and brand exposure
+- **Private sporting and association events**: modest but regular volume
+
+## How to Set the Right Rate for a Private Booking
+
+This is the question every food trucker asks — and the answer depends on your actual cost structure.
+
+### Calculate Your Real Cost Per Event
+
+Before quoting a price, establish the **actual cost of the service**:
+
+- **Raw materials**: based on guest count and your menu
+- **Travel**: fuel + vehicle depreciation (allow €0.40 to €0.60/km)
+- **Setup and clean-up time**: often 1 to 2 hours unbilled if not explicitly charged
+- **Extra staff hours**: €11 to €15/hour gross for casual workers
+- **Special consumables**: event-grade packaging, napkins, tablecloths
+- **Contingency margin**: 15 to 20% for unexpected costs
+
+For every dish served at the event, make sure you have calculated the unit cost of each recipe. FoodTracks lets you [automatically calculate the cost of each dish](/en/blog/calculer-cout-revient-recette-food-truck) by scanning your supplier invoices.
+
+### Pricing Models
+
+There are three main pricing approaches for private events:
+
+**1. Fixed all-inclusive package**
+You set a global price for the service (e.g. €1,500 for 4 hours, 80 guests, set menu). Simple to communicate, reassuring for the client. Ideal for smaller groups (<60 people) with a standardised menu.
+
+**2. Guaranteed minimum + revenue share**
+You charge a guaranteed minimum (e.g. €800) and take a percentage of revenue above that threshold (e.g. 70% of sales). This model protects your profitability floor while letting you benefit from higher consumption. Very common for weddings.
+
+**3. Per-head rate**
+A price per person (e.g. €18 to €25/guest depending on the menu). Easy to explain, but requires the client to commit to a minimum headcount. Always include a **minimum guaranteed cover count** (e.g. 40 guests minimum).
+
+### Indicative Pricing Grid 2026
+
+| Event Type | Duration | Guests | Price Range |
+|---|---|---|---|
+| Private birthday party | 3 h | 30–50 | €700 – €1,200 |
+| Corporate seminar | 4 h | 50–100 | €1,200 – €2,500 |
+| Wedding (cocktail reception) | 4–5 h | 80–150 | €2,000 – €5,000 |
+| Wedding (full meal service) | 6–8 h | 80–150 | €4,000 – €9,000 |
+| Inauguration / evening event | 3 h | 50–80 | €1,000 – €2,000 |
+
+These ranges vary by region (Paris > regions), concept (premium vs basic street food) and options (table service, dedicated staff, custom menu).
+
+## Organising the Service: Key Logistics
+
+### Site Reconnaissance
+
+Before confirming, **visit the venue** (or request detailed photos and specifications):
+- Vehicle access: height, width, surface (grass, cobblestones…)
+- Electricity supply: 16A or 32A available, or generator required
+- Water access for washing up
+- Service area and distance from guests
+- Parking for your personal vehicle if separate from the truck
+
+### Menu Logistics
+
+For private events, opt for a simplified, adapted menu:
+- **2 to 3 dishes maximum** to guarantee smooth service flow
+- Prioritise high-yield dishes (fast prep, cooked to order)
+- Always include a vegetarian option
+- Adjust quantities: budget 10 to 15% above the announced headcount
+
+For more on building a profitable menu, see our guide on [profitable food truck menus](/en/blog/menu-food-truck-rentable).
+
+### Staffing
+
+For a service of 80 or more guests, plan for **at least 2 people on service** (one cooking, one taking orders and handling payment). For a wedding with over 100 guests and table service, allow 3 to 4 people.
+
+## Securing the Booking: The Essential Contract
+
+Never start a private event without a signed contract. Here are the essential clauses:
+
+### Mandatory Contract Elements
+
+- **Party details**: your business (SIRET, company name) and the client
+- **Date, venue and times**: arrival, setup, service start, service end, departure
+- **Exact scope**: detailed menu, minimum guaranteed guest count, total price
+- **Deposit**: 30 to 50% at signing, balance due 7 to 15 days before the event
+- **Cancellation terms**:
+  - Cancellation > 30 days: deposit refunded (or credited)
+  - Cancellation 15–30 days: 50% of deposit retained
+  - Cancellation < 15 days: full deposit retained + 20% of balance
+- **Force majeure**: define applicable cases (extreme weather, mechanical breakdown)
+- **Weather clause**: for outdoor events, specify who bears the risk
+
+### The Deposit: Your Safety Net
+
+A 30 to 50% deposit is non-negotiable. Without it, you risk blocking an entire weekend for a last-minute cancellation. The deposit covers your ingredient purchases and your lost earnings opportunity.
+
+For managing your cash flow around these deposits, see our guide on [food truck cash flow management](/en/blog/gestion-tresorerie-food-truck).
+
+## Finding Private Event Clients
+
+### Main Acquisition Channels
+
+**Specialist platforms**
+Several platforms connect food truck operators with event organisers in France:
+- **FoodTruckFacile**: directory and quote requests
+- **Foodtrucklocator.fr**: free listing + inbound leads
+- **Mariages.net / La Mariée en Colère**: for the wedding segment
+- **Weddingwire** and **Zankyou**: useful presence in the premium sector
+
+**Event agencies and wedding planners**
+Contact event agencies and wedding planners in your area directly. Offer a "partner" rate slightly below your standard (5 to 10%) in exchange for regular referrals. A good relationship with two or three agencies can bring 10 to 20 private bookings per year.
+
+**Local businesses**
+HR managers and communications leads at companies with 50+ employees regularly organise internal events (team-building, company anniversaries, year-end parties). Direct outreach via LinkedIn or email can open recurring contracts.
+
+For corporate contracts, read our full guide: [landing corporate contracts for your food truck](/en/blog/contrats-entreprises-food-truck).
+
+**Word of mouth and social media**
+Post your event catering on Instagram and Facebook with polished photos. A well-photographed wedding can generate 5 to 10 spontaneous quote requests. Tag the venue, the wedding planner, the photographer — the content spreads naturally through their networks.
+
+### Build a Presentation Kit
+
+To convert prospects efficiently, prepare a **vendor kit**:
+- 2-page PDF: concept, photos of past events, packages and indicative pricing
+- Truck technical sheet (dimensions, electrical power, service capacity per hour)
+- Client references (with consent) and Google reviews
+- Direct contact details (phone + dedicated events email)
+
+## Maximising the Profitability of Your Private Events
+
+### Offer Options and Add-ons
+
+The base rate can be supplemented with options:
+- **Table service**: +€5 to €8 per guest
+- **Menu customisation** (client logo on packaging, signature dish): €200 to €500 flat fee
+- **Live animation** (cooking demo, pizza workshop…): €300 to €800 flat fee
+- **Furniture rental** (if available): high tables, bar stools, lighting
+
+### Group Events on the Same Weekend
+
+If you're doing a wedding on Saturday, offer the client a "next-day brunch" on Sunday. If you're at a business park for a team-building day, contact neighbouring companies for a lunchtime service the same day. Sharing travel costs across multiple bookings significantly improves the day's overall profitability.
+
+### Track Revenue by Event Type
+
+Regularly analyse which event category is most profitable for you (net margin after actual costs). With FoodTracks, you can tag your services by type and compare performance across markets, street spots, festivals and private events — to focus your prospecting on the most profitable segments.
+
+## Pre-Event Checklist
+
+- [ ] Contract signed and deposit received
+- [ ] Site visit confirmed (access, electricity, water)
+- [ ] Menu validated with client, vegetarian options planned
+- [ ] Ingredients ordered with 10–15% buffer
+- [ ] Staff confirmed (and employment contracts signed for casual workers)
+- [ ] Equipment checked (generator if needed, extension cables, fire extinguisher)
+- [ ] Professional liability insurance up to date
+- [ ] Route and departure time from depot calculated
+
+## Conclusion
+
+Offering private event hire is one of the most profitable decisions you can make as a food truck operator. Revenue per hour worked is higher, demand is predictable, and every successful event generates fresh referrals.
+
+The key is to **structure your offer**, **secure every booking with a contract** and **calculate your profitability precisely** before committing. A poorly priced event can cost you more than it earns — cost rigour is non-negotiable.
+
+**Further reading:** [Corporate contracts for food trucks](/en/blog/contrats-entreprises-food-truck) · [Food truck event catering](/en/blog/food-truck-festival-organiser-service-profitable) · [Food truck cash flow management](/en/blog/gestion-tresorerie-food-truck) · [Profitable food truck menu](/en/blog/menu-food-truck-rentable)`,
+    },
+    faqItems: [
+      {
+        question: {
+          fr: "Quel est le tarif moyen pour louer un food truck pour un mariage ?",
+          en: "What is the average cost to hire a food truck for a wedding?",
+        },
+        answer: {
+          fr: "Le tarif moyen pour un food truck lors d'un mariage varie entre 2 000 et 9 000 € selon la durée (cocktail ou repas complet), le nombre de convives (80 à 150 personnes) et le concept. Un cocktail de 4 h pour 100 personnes tourne généralement autour de 2 500 à 4 000 €.",
+          en: "The average cost to hire a food truck for a wedding ranges from €2,000 to €9,000 depending on duration (cocktail or full meal service), guest count (80 to 150 people) and the concept. A 4-hour cocktail reception for 100 guests typically runs €2,500 to €4,000.",
+        },
+      },
+      {
+        question: {
+          fr: "Faut-il un contrat pour une prestation food truck privée ?",
+          en: "Is a contract required for a private food truck booking?",
+        },
+        answer: {
+          fr: "Oui, absolument. Un contrat signé avec acompte est indispensable pour toute privatisation. Il précise le menu, les horaires, le nombre de convives garanti, les conditions d'annulation et les modalités de paiement. Sans contrat, vous n'avez aucun recours en cas d'annulation de dernière minute.",
+          en: "Yes, absolutely. A signed contract with a deposit is essential for any private booking. It specifies the menu, hours, guaranteed guest count, cancellation terms and payment conditions. Without a contract, you have no recourse in the event of a last-minute cancellation.",
+        },
+      },
+      {
+        question: {
+          fr: "Quel acompte demander pour une privatisation food truck ?",
+          en: "What deposit should I request for a private food truck booking?",
+        },
+        answer: {
+          fr: "La pratique standard est de demander 30 à 50 % du montant total à la signature du contrat, le solde étant réglé 7 à 15 jours avant l'événement. L'acompte couvre vos achats de matières premières et protège votre journée en cas d'annulation tardive.",
+          en: "Standard practice is to request 30 to 50% of the total at contract signing, with the balance due 7 to 15 days before the event. The deposit covers your ingredient purchases and protects your booking in case of late cancellation.",
+        },
+      },
+      {
+        question: {
+          fr: "Combien de personnes peut servir un food truck lors d'un événement ?",
+          en: "How many guests can a food truck serve at an event?",
+        },
+        answer: {
+          fr: "Un food truck seul peut servir confortablement 80 à 120 personnes sur un service de 4 à 5 h avec 2 personnes en équipe. Pour des jauges supérieures (150 à 300 personnes), il faut soit multiplier les food trucks, soit allonger la durée du service, soit proposer un buffet en complément du service à la commande.",
+          en: "A single food truck can comfortably serve 80 to 120 guests over a 4 to 5-hour service with a 2-person team. For larger capacities (150 to 300 guests), you need to either add more trucks, extend the service duration, or supplement the made-to-order service with a buffet.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment trouver des clients pour privatiser son food truck ?",
+          en: "How do I find clients to book my food truck privately?",
+        },
+        answer: {
+          fr: "Les meilleurs canaux sont les plateformes spécialisées (FoodTruckFacile, Foodtrucklocator.fr), les agences événementielles et wedding planners locaux, la prospection directe auprès des DRH d'entreprises de plus de 50 salariés, et Instagram où les photos de prestations génèrent des demandes spontanées.",
+          en: "The best channels are specialist platforms (FoodTruckFacile, Foodtrucklocator.fr), local event agencies and wedding planners, direct outreach to HR managers at companies with 50+ employees, and Instagram where event photos generate spontaneous enquiries.",
+        },
+      },
+    ],
+    relatedSlugs: [
+      "contrats-entreprises-food-truck",
+      "food-truck-festival-organiser-service-profitable",
+      "gestion-tresorerie-food-truck",
+      "menu-food-truck-rentable",
+    ],
+  },
 ];
 
 export function getArticleBySlug(slug: string): BlogArticle | undefined {
