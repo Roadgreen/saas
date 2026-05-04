@@ -313,8 +313,8 @@
             }
         },
         "pricingTease": {
-            "title": "Start for free, upgrade when you're ready",
-            "subtitle": "No credit card. 14-day Pro trial included. Cancel in 1 click.",
+            "title": "€9.99 first month, then €19.99",
+            "subtitle": "Launch offer for the first 50 shops. No credit card, 14-day Pro trial included, cancel in 1 click.",
             "cta": "See pricing"
         },
         "faq": {
@@ -553,9 +553,15 @@
     },
     "Pricing": {
         "title": "Simple Pricing",
-        "subtitle": "Choose the plan that fits your business.",
+        "subtitle": "Choose the plan that fits your shop.",
         "popular": "Popular",
-        "trustLine": "14-day Pro trial — email reminder 2 days before your trial ends. Cancel anytime in one click from your dashboard.",
+        "trustLine": "14-day Pro trial — no credit card. Email reminder 2 days before trial ends. Cancel anytime in one click.",
+        "launchOffer": {
+            "badge": "Launch offer",
+            "headline": "€9.99 your first month",
+            "subline": "then €19.99/month — cancel anytime",
+            "explainer": "The first 50 shops to join FoodTracks pay €9.99 for their first month after the free trial, then €19.99/month."
+        },
         "free": {
             "title": "Free",
             "description": "Perfect for getting started",
@@ -569,13 +575,17 @@
         },
         "pro": {
             "title": "Pro",
-            "description": "For growing food trucks",
-            "price": "29€",
-            "priceYearly": "24€",
-            "priceYearlyTotal": "290€",
+            "description": "For growing food businesses",
+            "price": "€19.99",
+            "priceLaunch": "€9.99",
+            "priceLaunchNote": "your first month, then €19.99/month",
+            "priceStrike": "€29",
+            "priceYearly": "€16",
+            "priceYearlyTotal": "€192",
             "features": [
                 "Unlimited Users",
                 "Unlimited Locations",
+                "AI Forecasts + Weather",
                 "Advanced Analytics",
                 "AI Sales Import",
                 "Priority Support"
@@ -598,7 +608,7 @@
         "billing": {
             "monthly": "Monthly",
             "yearly": "Yearly",
-            "savingsBadge": "–17%",
+            "savingsBadge": "–20%",
             "perMonth": "/mo",
             "billedAnnually": "Billed {total}/yr — 2 months free",
             "toggleAria": "Choose billing frequency"

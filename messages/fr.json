@@ -313,8 +313,8 @@
             }
         },
         "pricingTease": {
-            "title": "Commence gratuitement, passe Pro quand tu veux",
-            "subtitle": "Sans carte bancaire. 14 jours d'essai Pro offerts. Annulable en 1 clic.",
+            "title": "9,99€ le premier mois, puis 19,99€",
+            "subtitle": "Offre lancement pour les 50 premiers commerces. Sans carte bancaire, 14 jours d'essai Pro offerts, annulable en 1 clic.",
             "cta": "Voir les tarifs"
         },
         "faq": {
@@ -553,9 +553,15 @@
     },
     "Pricing": {
         "title": "Tarifs Simples",
-        "subtitle": "Choisissez le plan adapté à votre activité.",
+        "subtitle": "Choisissez le plan adapté à votre commerce.",
         "popular": "Populaire",
-        "trustLine": "Essai Pro 14 jours — rappel email 2 jours avant la fin de la période d'essai. Annulation en 1 clic depuis votre tableau de bord.",
+        "trustLine": "Essai Pro 14 jours sans carte bancaire — rappel email 2 jours avant la fin. Annulation en 1 clic.",
+        "launchOffer": {
+            "badge": "Offre lancement",
+            "headline": "9,99€ le premier mois",
+            "subline": "puis 19,99€/mois — annulable à tout moment",
+            "explainer": "Les 50 premiers commerces qui rejoignent FoodTracks paient 9,99€ leur premier mois après l'essai gratuit, puis 19,99€/mois."
+        },
         "free": {
             "title": "Gratuit",
             "description": "Parfait pour démarrer",
@@ -569,13 +575,17 @@
         },
         "pro": {
             "title": "Pro",
-            "description": "Pour les food trucks en croissance",
-            "price": "29€",
-            "priceYearly": "24€",
-            "priceYearlyTotal": "290€",
+            "description": "Pour les commerces alimentaires en croissance",
+            "price": "19,99€",
+            "priceLaunch": "9,99€",
+            "priceLaunchNote": "le premier mois, puis 19,99€/mois",
+            "priceStrike": "29€",
+            "priceYearly": "16€",
+            "priceYearlyTotal": "192€",
             "features": [
                 "Utilisateurs Illimités",
                 "Emplacements Illimités",
+                "Prévisions IA + Météo",
                 "Analyses Avancées",
                 "Import IA des Ventes",
                 "Support Prioritaire"
@@ -598,7 +608,7 @@
         "billing": {
             "monthly": "Mensuel",
             "yearly": "Annuel",
-            "savingsBadge": "–17%",
+            "savingsBadge": "–20%",
             "perMonth": "/mois",
             "billedAnnually": "Facturé {total}/an — 2 mois offerts",
             "toggleAria": "Choisir la fréquence de facturation"

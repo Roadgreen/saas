@@ -10,10 +10,12 @@ const BASE_URL = 'https://foodtracks.io';
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
   const isFr = locale === 'fr';
-  const title = isFr ? 'Tarifs Food Truck — Gratuit, Pro 29€/mois' : 'Food Truck Software Pricing — Free, Pro €29/mo';
+  const title = isFr
+    ? 'Tarifs FoodTracks — Gratuit ou Pro 19,99€/mois (9,99€ le premier mois)'
+    : 'FoodTracks Pricing — Free or Pro €19.99/mo (€9.99 first month)';
   const description = isFr
-    ? 'Comparez les plans FoodTracks pour votre food truck : plan Gratuit sans limite, Pro à 29€/mois avec IA et analyses avancées. Sans engagement, essai 14 jours.'
-    : 'Compare FoodTracks plans for your food truck: unlimited Free plan, Pro at €29/mo with AI and advanced analytics. No commitment, 14-day free trial.';
+    ? 'Comparez les plans FoodTracks pour boulangers, food trucks, snacks, glaciers, cafés et marchés : plan Gratuit sans limite, Pro à 19,99€/mois avec IA — offre lancement à 9,99€ le premier mois. Essai 14 jours sans CB.'
+    : 'Compare FoodTracks plans for bakeries, food trucks, snack bars, ice cream shops, cafés and market stalls: unlimited Free plan, Pro at €19.99/mo with AI — launch offer €9.99 first month. 14-day free trial, no credit card.';
   return {
     title,
     description,
@@ -118,12 +120,14 @@ export default async function PricingPage({
       {
         '@type': 'Offer',
         name: 'Pro',
-        price: '29',
+        price: '19.99',
         priceCurrency: 'EUR',
         priceValidUntil: '2027-12-31',
         availability: 'https://schema.org/InStock',
         url: `${BASE_URL}/${locale}/pricing`,
-        description: isFr ? 'Emplacements illimités, IA, analyses avancées' : 'Unlimited locations, AI, advanced analytics',
+        description: isFr
+          ? 'Emplacements illimités, IA, analyses avancées. Offre lancement : 9,99€ le premier mois.'
+          : 'Unlimited locations, AI, advanced analytics. Launch offer: €9.99 first month.',
       },
     ],
   };

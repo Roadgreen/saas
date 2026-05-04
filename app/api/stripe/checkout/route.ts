@@ -69,17 +69,38 @@ export async function POST(req: NextRequest) {
       });
     }
 
+    // Launch offer: apply 50% off the first invoice for PRO monthly subscribers,
+    // bringing the first paid month from 19.99€ to 9.99€. The coupon ID is read
+    // from STRIPE_LAUNCH_COUPON_ID. Create it in Stripe with: 50% off, duration
+    // "once" so it only applies to the first invoice after the trial.
+    const launchCouponId = process.env.STRIPE_LAUNCH_COUPON_ID;
+    const applyLaunchOffer =
+      tier === 'PRO' && !isYearly && Boolean(launchCouponId);
+
     const checkoutSession = await stripe.checkout.sessions.create({
       customer: customerId,
       mode: 'subscription',
       line_items: [{ price: priceId, quantity: 1 }],
       success_url: `${appUrl}/${locale}/dashboard?payment=success`,
       cancel_url: `${appUrl}/${locale}/pricing`,
-      metadata: { businessId: business.id, tier, billing: isYearly ? 'yearly' : 'monthly' },
+      metadata: {
+        businessId: business.id,
+        tier,
+        billing: isYearly ? 'yearly' : 'monthly',
+        launchOffer: applyLaunchOffer ? '1' : '0',
+      },
       subscription_data: {
-        metadata: { businessId: business.id, tier, billing: isYearly ? 'yearly' : 'monthly' },
+        metadata: {
+          businessId: business.id,
+          tier,
+          billing: isYearly ? 'yearly' : 'monthly',
+          launchOffer: applyLaunchOffer ? '1' : '0',
+        },
         trial_period_days: 14,
       },
+      ...(applyLaunchOffer && launchCouponId
+        ? { discounts: [{ coupon: launchCouponId }] }
+        : {}),
       // Show trial info on Stripe's hosted checkout page
       consent_collection: { terms_of_service: 'none' },
     });
