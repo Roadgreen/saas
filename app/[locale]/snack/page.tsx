@@ -18,7 +18,7 @@ export async function generateMetadata({
   const keywords = config.keywords[locale as 'fr' | 'en'] ?? config.keywords.fr;
 
   return {
-    title: content.metaTitle,
+    title: { absolute: content.metaTitle },
     description: content.metaDescription,
     keywords: keywords.join(', '),
     alternates: {
