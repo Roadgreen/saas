@@ -18,30 +18,37 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const isFr = locale === 'fr';
 
   const title = isFr
-    ? 'FoodTracks — Logiciel Gestion Food Truck France | Stock, Ventes & IA'
-    : 'FoodTracks — Food Truck Management Software | Inventory, Sales & AI';
+    ? 'FoodTracks — Logiciel Gestion Commerce Alimentaire | Boulangerie, Food Truck, Snack, Glacier & IA'
+    : 'FoodTracks — Food Business Management Software | Bakery, Food Truck, Snack, Ice Cream & AI';
   const description = isFr
-    ? 'Application food truck gratuite : gestion stock, prévision ventes IA, optimiser rentabilité food truck. Essai 14 jours sans CB.'
-    : 'Free food truck inventory app: stock management, AI sales predictions, margin analytics. 14-day free trial, no credit card.';
+    ? 'Prévisions IA, gestion stock, ventes et rentabilité pour boulangers, food trucks, snacks, glaciers, cafés et marchés. Économisez 5h/semaine, divisez vos invendus par 2. Essai 14 jours sans CB.'
+    : 'AI forecasts, stock management, sales and margins for bakeries, food trucks, snack bars, ice cream shops, cafés and market stalls. Save 5h/week, halve your waste. 14-day free trial, no credit card.';
   const keywords = isFr
     ? [
         'logiciel gestion food truck france',
         'application food truck gratuite',
-        'gestion stock food truck',
+        'logiciel gestion boulangerie',
+        'gestion stock boulangerie',
         'prévision ventes food truck',
+        'logiciel glacier snack',
+        'gestion café commerce alimentaire',
+        'logiciel marchand marché',
+        'prévisions IA commerce alimentaire',
         'optimiser rentabilité food truck',
-        'logiciel food truck',
-        'caisse enregistreuse food truck',
-        'gestion restaurant ambulant',
+        'réduire invendus boulangerie',
+        'gestion stock snack sandwicherie',
       ]
     : [
         'food truck management software',
+        'bakery management software',
+        'food business ai forecasts',
+        'snack bar inventory app',
+        'ice cream shop stock management',
+        'cafe sales predictions',
+        'market stall management app',
         'food truck inventory app',
-        'food truck stock management',
-        'food truck sales predictions',
-        'food truck pos software',
-        'free food truck app',
-        'mobile restaurant management',
+        'reduce food waste ai',
+        'small food business software',
       ];
 
   return {
@@ -57,7 +64,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       description,
       url: `${BASE_URL}/${locale}`,
       siteName: 'FoodTracks',
-      images: [{ url: `${BASE_URL}/og-image.png`, width: 1200, height: 630, alt: isFr ? 'FoodTracks — Logiciel gestion food truck' : 'FoodTracks — Food truck management software' }],
+      images: [{ url: `${BASE_URL}/og-image.png`, width: 1200, height: 630, alt: isFr ? 'FoodTracks — Logiciel gestion commerce alimentaire indépendant' : 'FoodTracks — Independent food business management software' }],
       locale: isFr ? 'fr_FR' : 'en_US',
       type: 'website',
     },
@@ -248,7 +255,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
                 className="absolute -top-3 -right-3 flex items-center gap-1.5 rounded-full px-3 py-1.5 text-xs font-bold shadow-xl"
                 style={{ backgroundColor: ORANGE, color: '#fff' }}
               >
-                <TrendingUp className="h-3 w-3" /> {t('hero.accuracyStat')} accuracy
+                <TrendingUp className="h-3 w-3" /> {t('hero.accuracyStat')} {t('hero.accuracyLabel')}
               </div>
 
               {/* SumUp sync badge */}

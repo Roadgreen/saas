@@ -172,9 +172,10 @@ export default function HowItWorksPage() {
 
           <AnimatedSection delay={0.2}>
             <Link
-              href={`/${locale}/pricing`}
+              href={`/${locale}/register?utm_source=comment-ca-marche&utm_medium=cta`}
               className="inline-flex items-center gap-2 px-8 py-4 rounded-full text-base font-semibold text-white transition-all hover:scale-105 hover:shadow-lg"
               style={{ backgroundColor: '#FF6B35' }}
+              data-track-component="cmt-ca-marche-cta"
             >
               {t('cta.button')}
               <ArrowRight className="w-5 h-5" />

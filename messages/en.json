@@ -215,8 +215,146 @@
         "readinessHave": "Have:"
     },
     "Landing": {
-        "title": "Reduce waste, increase margin.",
-        "subtitle": "The all-in-one tool for food trucks and dark kitchens.",
+        "badge": "For independent food businesses",
+        "hero": {
+            "title": "The AI that tells your shop how much to prep tomorrow.",
+            "subtitle": "AI forecasts + stock + sales + margins, for bakeries, food trucks, snacks, ice cream shops, cafés and market stalls. Save 5h/week, halve your waste.",
+            "ctaPrimary": "Start 14-day free trial",
+            "ctaSecondary": "See how it works",
+            "noCreditCard": "No credit card required",
+            "moneyBack": "30-day money-back guarantee",
+            "cancelAnytime": "Cancel anytime, 1 click",
+            "accuracyStat": "87%",
+            "accuracyLabel": "forecast accuracy"
+        },
+        "verticals": {
+            "title": "Built for your business",
+            "subtitle": "One platform, six trades.",
+            "items": {
+                "bakery": {
+                    "name": "Bakeries & pastry shops",
+                    "use": "How many baguettes should I bake tomorrow?"
+                },
+                "foodtruck": {
+                    "name": "Food trucks",
+                    "use": "How much do I prep before the lunch rush?"
+                },
+                "snack": {
+                    "name": "Snack bars & sandwich shops",
+                    "use": "Meat and bread stock matched to footfall"
+                },
+                "icecream": {
+                    "name": "Ice cream shops",
+                    "use": "Flavour production adapted to the weather"
+                },
+                "cafe": {
+                    "name": "Cafés & coffee shops",
+                    "use": "Pastries and drinks adjusted to crowd size"
+                },
+                "market": {
+                    "name": "Market stallholders",
+                    "use": "Load quantity set by weather and market"
+                }
+            }
+        },
+        "howItWorks": {
+            "title": "How it works",
+            "subtitle": "From connecting your till to getting tomorrow's forecast, in three steps.",
+            "step1": {
+                "title": "Connect your sales",
+                "description": "Link your SumUp terminal, import a Square CSV, or enter data manually. FoodTracks absorbs your history in minutes."
+            },
+            "step2": {
+                "title": "AI learns your business",
+                "description": "The model analyses your sales by day, by weather, by location. Within 4 to 6 weeks it reaches 87% accuracy on average."
+            },
+            "step3": {
+                "title": "Forecasts every morning",
+                "description": "Each morning at opening, you get exactly what to prep and in what quantity — adjusted for the day and local weather."
+            }
+        },
+        "features": {
+            "title": "Four pillars to run your business",
+            "subtitle": "Forecasts, stock, sales and margins in a single tool.",
+            "predictions": {
+                "title": "AI Forecasts",
+                "description": "AI calculates each morning the exact quantity to prep, adjusted to your sales history, day of the week, and weather."
+            },
+            "stock": {
+                "title": "Stock Management",
+                "description": "AI invoice scanning, real-time tracking, low-stock alerts before service. Never discover mid-rush that an ingredient is missing."
+            },
+            "sales": {
+                "title": "Sales & POS",
+                "description": "Automatic SumUp sync, CSV import, or manual entry. All your sales in one place, matched to your recipes."
+            },
+            "margins": {
+                "title": "Profitability",
+                "description": "Cost per dish, margin per recipe, performance by day and location. You finally know what to push and what to cut from the menu."
+            }
+        },
+        "proof": {
+            "title": "Real numbers, not marketing",
+            "stat1": {
+                "value": "87%",
+                "label": "average AI accuracy"
+            },
+            "stat2": {
+                "value": "5h",
+                "label": "saved per week"
+            },
+            "stat3": {
+                "value": "-30%",
+                "label": "unsold waste on average"
+            },
+            "stat4": {
+                "value": "+12pts",
+                "label": "net margin"
+            }
+        },
+        "pricingTease": {
+            "title": "Start for free, upgrade when you're ready",
+            "subtitle": "No credit card. 14-day Pro trial included. Cancel in 1 click.",
+            "cta": "See pricing"
+        },
+        "faq": {
+            "title": "Frequently asked questions",
+            "subtitle": "The real questions owners ask before signing up.",
+            "q1": {
+                "question": "Does FoodTracks work for my type of business?",
+                "answer": "Yes. FoodTracks is built for all independent food businesses with high daily turnover: bakeries, food trucks, snack bars, ice cream shops, cafés and market stalls. If you prepare fresh products every day, you are exactly the target."
+            },
+            "q2": {
+                "question": "Do I need a specific POS system?",
+                "answer": "No. FoodTracks integrates natively with SumUp via OAuth. You can also import a CSV export from Square or other tills. And if you have no connected till, manual entry works perfectly fine to get started."
+            },
+            "q3": {
+                "question": "How long before the AI is accurate?",
+                "answer": "Generally 4 to 6 weeks of data are enough to reach 80%+ accuracy. The AI learns faster if you already have a sales history to import. From the first week, forecasts are already pointing in the right direction."
+            },
+            "q4": {
+                "question": "Is my data secure?",
+                "answer": "Your data is encrypted (AES-256) and hosted on European servers. Full GDPR compliance. We never share your data with third parties, and you can request complete deletion at any time."
+            },
+            "q5": {
+                "question": "Can I cancel whenever I want?",
+                "answer": "Yes, no commitment. Cancel from your settings in 1 click, at any time. Your data remains accessible for 30 days after cancellation. If you go Pro and it doesn't suit you within 30 days, we'll refund you."
+            },
+            "q6": {
+                "question": "Does it work for multiple locations?",
+                "answer": "Yes. The Pro plan supports multiple locations in parallel — each site has its own sales history, its own forecasts and its own margin stats. Perfect if you have a main bakery and a market stall on weekends."
+            },
+            "q7": {
+                "question": "How much does the Pro plan cost?",
+                "answer": "Pro is €29/month (or €249/year, saving 2 months). It includes unlimited AI forecasts, multi-location management, advanced profitability analytics and priority support. A 14-day free trial is included, no credit card needed."
+            }
+        },
+        "footerCta": {
+            "title": "Ready to prep the right amount every morning?",
+            "subtitle": "14-day free trial. No credit card. Cancel in 1 click.",
+            "primary": "Start free trial",
+            "secondary": "See pricing"
+        },
         "nav": {
             "features": "Features",
             "howItWorks": "How it works",
@@ -229,140 +367,6 @@
             "dashboard": "Dashboard",
             "settings": "Account settings",
             "signOut": "Sign out"
-        },
-        "badge": "Built for food trucks",
-        "hero": {
-            "title": "No more 'how much should I prep ?'. AI gives you the answer each morning.",
-            "subtitle": "Tailored to your spot, your day, and your weather. 5h/week saved, zero morning stress — no more guessing.",
-            "ctaPrimary": "Start 14-day free trial",
-            "ctaSecondary": "See how it works",
-            "noCreditCard": "No credit card required",
-            "freeToStart": "100% free to start",
-            "moneyBack": "30-day money-back guarantee",
-            "cancelAnytime": "Cancel anytime, 1 click",
-            "accuracyStat": "87%",
-            "accuracyLabel": "forecast accuracy",
-            "timeStat": "5h",
-            "timeLabel": "saved per week"
-        },
-        "problem": {
-            "title": "Sound familiar?",
-            "subtitle": "Every food truck owner faces the same daily challenges.",
-            "guessTitle": "How much to prep?",
-            "guessDesc": "Every morning you guess how many portions to make. Too many = waste. Too few = lost sales.",
-            "spotTitle": "Every spot, different customers",
-            "spotDesc": "Saturday at the market and Tuesday downtown are not the same crowd. But you prepare the same way.",
-            "shortageTitle": "Running out mid-service",
-            "shortageDesc": "30 orders in and you realise you're out of flour. Too late to fix.",
-            "photoQuote": "Every morning, the same question:",
-            "photoAnswer": "\"How much should I prep today?\""
-        },
-        "howItWorks": {
-            "title": "How it works",
-            "subtitle": "From sign-up to optimization in 4 steps.",
-            "step1Title": "Scan",
-            "step1Desc": "Scan your supplier invoices with AI. Your stock updates automatically — no more manual data entry.",
-            "step2Title": "Analyze",
-            "step2Desc": "See your costs, margins, and performance by dish, by day, and by location on a clear dashboard.",
-            "step3Title": "Predict",
-            "step3Desc": "AI analyses your past sales and tells you exactly how much to prep tomorrow, adjusted for spot and day.",
-            "step4Title": "Optimize",
-            "step4Desc": "Reduce waste, boost margins, and adapt your menu with data. Your food truck runs at full capacity.",
-            "cta": "Learn more"
-        },
-        "predictions": {
-            "title": "AI that learns your sales patterns",
-            "subtitle": "FoodTracks analyses your past sales, day of the week, and location to predict exactly what you'll sell tomorrow.",
-            "bullet1": "Weighted by recency — recent weeks matter more",
-            "bullet2": "Adjusted for each selling spot",
-            "bullet3": "Ignores closed days automatically",
-            "bullet4": "Gets smarter with every service",
-            "mockTitle": "Forecast for Saturday",
-            "mockAccuracy": "Accuracy: 89%",
-            "mockItem1": "Crêpe beurre-sucre",
-            "mockItem2": "Galette complète",
-            "mockItem3": "Crêpe Nutella",
-            "mockItem4": "Galette chèvre-miel",
-            "mockTrend": "trending up"
-        },
-        "readiness": {
-            "title": "Know if you have enough stock before you start",
-            "subtitle": "FoodTracks cross-references predictions with your inventory. Instantly see what's covered and what's short.",
-            "coveredTitle": "Covered",
-            "coveredDesc": "4.2 kg in stock, 3.1 kg needed",
-            "coveredLabel": "Flour",
-            "tightTitle": "Tight",
-            "tightDesc": "0.8 kg in stock, 0.9 kg needed",
-            "tightLabel": "Butter",
-            "shortTitle": "Short",
-            "shortDesc": "0.4 kg in stock, 1.1 kg needed",
-            "shortLabel": "Gruyère"
-        },
-        "features": {
-            "title": "Everything you need to run your truck",
-            "subtitle": "From inventory to margins to multi-spot planning.",
-            "mobileTitle": "Mobile inventory",
-            "mobileDesc": "Scan invoices with AI, track stock in real-time, works offline.",
-            "marginTitle": "Margins & recipes",
-            "marginDesc": "Know the exact cost per dish, margin %, and which recipes are profitable.",
-            "multiSpotTitle": "Multi-spot planning",
-            "multiSpotDesc": "Assign locations to days, track GPS, compare performance by spot."
-        },
-        "stats": {
-            "products": "500+",
-            "productsLabel": "Products tracked",
-            "setup": "2 min",
-            "setupLabel": "Average setup time",
-            "free": "100%",
-            "freeLabel": "Free to start",
-            "wasteLabel": "Less food waste"
-        },
-        "pricing": {
-            "title": "Start for free, upgrade when ready",
-            "subtitle": "No credit card required. Cancel anytime.",
-            "perMonth": "/mo",
-            "ctaFree": "Get started",
-            "ctaPro": "Start free trial",
-            "disclaimer": "14-day free trial on Pro. No credit card required."
-        },
-        "faq": {
-            "title": "Frequently Asked Questions",
-            "q1": {
-                "question": "Is there a free plan?",
-                "answer": "Yes, FoodTracks is free to start with 1 location and basic features. Upgrade to Pro (€29/mo) when you need advanced analytics and AI features."
-            },
-            "q2": {
-                "question": "Do I need to install anything?",
-                "answer": "No, FoodTracks is a web app that works on any device — phone, tablet, or computer. No download needed."
-            },
-            "q3": {
-                "question": "How do AI predictions work?",
-                "answer": "FoodTracks analyses your past sales by day of week and location. The more data you add, the more accurate predictions become."
-            },
-            "q4": {
-                "question": "Can I manage multiple locations?",
-                "answer": "Yes, Pro plan supports unlimited locations. You can assign spots to days and compare performance across locations."
-            },
-            "q5": {
-                "question": "Is my data secure?",
-                "answer": "Your data is encrypted and hosted on European servers. We never share your data with third parties."
-            },
-            "q6": {
-                "question": "Can I cancel anytime?",
-                "answer": "Yes, no commitment. Cancel from your settings at any time. Your data stays available for 30 days after cancellation."
-            },
-            "q7": {
-                "question": "Does FoodTracks work with SumUp?",
-                "answer": "Yes! FoodTracks integrates directly with SumUp via OAuth. Your transactions are automatically imported, recipes matched, and stock deducted. Connect your SumUp terminal in seconds from Settings → Integrations."
-            },
-            "q8": {
-                "question": "Can I export my data?",
-                "answer": "Yes, anytime. Your sales, stock, and recipes can be exported to CSV or PDF from the dashboard. Your data belongs to you — per GDPR, you can request complete deletion via a single email."
-            },
-            "q9": {
-                "question": "How fast is support?",
-                "answer": "Under 2 hours on weekdays, usually under 24h on weekends. We answer ourselves — no chatbot, no lingering tickets. Reach us at contact@foodtracks.io."
-            }
         },
         "reassurance": {
             "title": "Three commitments, zero bullshit",
@@ -377,11 +381,11 @@
         },
         "cta": {
             "title": "Stop guessing. Start knowing.",
-            "subtitle": "Join food truck owners who prepare the right amount, every day.",
+            "subtitle": "Join independent food business owners who prep the right amount, every day.",
             "button": "Start now"
         },
         "footer": {
-            "tagline": "The stock management tool designed for independent restaurateurs.",
+            "tagline": "The management tool built for independent food businesses.",
             "product": "Product",
             "resources": "Resources",
             "legal": "Legal",
@@ -404,8 +408,8 @@
             "pdf": "PDF Invoices"
         },
         "testimonials": {
-            "title": "Trusted by food truck owners daily",
-            "subtitle": "Real food truck operators share their results with FoodTracks.",
+            "title": "Trusted by independent food business owners daily",
+            "subtitle": "Real operators across France share their concrete results with FoodTracks.",
             "t1": {
                 "quote": "Since using FoodTracks, I waste 40% less. The AI tells me exactly how many crêpes to prep based on the day and location. In 2 months, I saved over €800 on ingredients.",
                 "name": "Marie D.",
@@ -1041,11 +1045,11 @@
     "HowItWorks": {
         "meta": {
             "title": "How It Works | FoodTracks",
-            "description": "Discover how FoodTracks helps you manage your food truck: scan invoices, analyze margins, predict sales, and optimize profitability."
+            "description": "Discover how FoodTracks helps you manage your food business (bakery, food truck, snack bar, ice cream shop, café, market stall): scan invoices, analyze margins, predict sales, and optimize profitability."
         },
         "hero": {
             "title": "How it works",
-            "subtitle": "From invoice to prediction, FoodTracks automates your food truck management in 4 simple steps."
+            "subtitle": "From invoice to prediction, FoodTracks automates your food business management in 4 simple steps."
         },
         "step1": {
             "title": "Scan your invoices",
@@ -1080,8 +1084,8 @@
             "bullet4": "Performance reports"
         },
         "cta": {
-            "title": "Ready to optimize your food truck?",
-            "subtitle": "Join food truckers who save time and money with FoodTracks.",
+            "title": "Ready to optimize your shop?",
+            "subtitle": "Bakers, food truckers, snack owners, ice cream shops, cafés and market stallholders are already saving time and money with FoodTracks.",
             "button": "Start for free"
         }
     },

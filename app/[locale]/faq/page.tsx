@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
 import { LandingHeader } from '@/components/landing/Header';
+import Link from 'next/link';
 import { blogArticles } from '@/lib/blog/articles';
 
 const BASE_URL = 'https://foodtracks.io';
@@ -8,10 +9,12 @@ const BASE_URL = 'https://foodtracks.io';
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
   const isFr = locale === 'fr';
-  const title = isFr ? 'FAQ Food Truck — Questions Fréquentes sur la Gestion' : 'Food Truck FAQ — Frequently Asked Questions';
+  const title = isFr
+    ? 'FAQ — Questions Fréquentes sur FoodTracks (Boulangerie, Food Truck, Snack, Glacier, Café, Marché)'
+    : 'FAQ — Frequently Asked Questions about FoodTracks (Bakery, Food Truck, Snack, Ice Cream, Café, Market)';
   const description = isFr
-    ? 'Réponses à toutes vos questions sur FoodTracks : tarifs, fonctionnalités de gestion de food truck, sécurité des données, intégrations SumUp/Stripe et plus encore.'
-    : 'Answers to all your questions about FoodTracks: pricing, food truck management features, data security, SumUp/Stripe integrations and more.';
+    ? 'Réponses à toutes vos questions sur FoodTracks : compatibilité boulangerie, snack, glacier, café et marché, tarifs, fonctionnalités de gestion, sécurité des données, intégrations SumUp/Stripe et plus encore.'
+    : 'Answers to all your questions about FoodTracks: compatibility for bakeries, snack bars, ice cream shops, cafés and market stalls, pricing, management features, data security, SumUp/Stripe integrations and more.';
 
   return {
     title,
@@ -52,6 +55,56 @@ export default async function FAQPage({ params }: { params: Promise<{ locale: st
     })),
   };
 
+  // Multi-vertical compatibility FAQs
+  const compatibilityFaqs: FAQCategory = {
+    title: isFr ? 'Compatibilité avec mon commerce' : 'Compatibility with my business',
+    items: isFr
+      ? [
+          {
+            question: 'FoodTracks fonctionne-t-il pour une boulangerie ou pâtisserie ?',
+            answer: 'Oui. FoodTracks est conçu pour les boulangers : prévisions de production (combien de baguettes demain ?), suivi des ingrédients, gestion des invendus et rentabilité par référence. L\'IA intègre les effets météo et saisonnalité pour affiner les quantités à préparer.',
+          },
+          {
+            question: 'Est-ce que ça marche pour un snack ou une sandwicherie ?',
+            answer: 'Oui. Vous pouvez suivre vos stocks de viandes, pains et garnitures, et recevoir chaque matin une estimation de la fréquentation pour ajuster vos achats. L\'intégration SumUp importe vos ventes automatiquement.',
+          },
+          {
+            question: 'Je tiens un glacier — FoodTracks peut m\'aider ?',
+            answer: 'Absolument. L\'IA de FoodTracks prend en compte la météo pour ajuster les prévisions de production par parfum. Moins de gaspillage en fin de journée, meilleure maîtrise des coûts matière en haute saison.',
+          },
+          {
+            question: 'J\'ai un café ou coffee shop — est-ce adapté ?',
+            answer: 'Oui, FoodTracks gère aussi bien les boissons que la pâtisserie et la restauration légère. Prévisions d\'affluence, stock de matières premières, et suivi de marge par produit, tout dans un seul tableau de bord.',
+          },
+          {
+            question: 'Je suis marchand sur les marchés — ça peut m\'aider ?',
+            answer: 'Oui. FoodTracks vous aide à décider la quantité à charger selon la météo, le marché et votre historique. Fini les rotations excessives ou les invendus à rapporter. Fonctionne sans connexion permanente, synchronisation à la fin du marché.',
+          },
+        ]
+      : [
+          {
+            question: 'Does FoodTracks work for a bakery or pastry shop?',
+            answer: 'Yes. FoodTracks is designed for bakers: production forecasts (how many loaves tomorrow?), ingredient tracking, waste management, and margin per product. The AI factors in weather and seasonality to fine-tune how much to prepare.',
+          },
+          {
+            question: 'Does it work for a snack bar or sandwich shop?',
+            answer: 'Yes. You can track your stocks of meats, breads, and fillings, and receive a daily footfall estimate to adjust your purchases. The SumUp integration automatically imports your sales.',
+          },
+          {
+            question: 'I run an ice cream shop — can FoodTracks help me?',
+            answer: 'Absolutely. FoodTracks AI factors in the weather to adjust production forecasts by flavour. Less end-of-day waste, better control of ingredient costs during peak season.',
+          },
+          {
+            question: 'I have a café or coffee shop — is it a good fit?',
+            answer: 'Yes, FoodTracks handles drinks, pastries, and light food equally well. Footfall forecasts, raw material stock, and margin tracking per product, all in one dashboard.',
+          },
+          {
+            question: 'I sell at market stalls — can it help me?',
+            answer: 'Yes. FoodTracks helps you decide how much to load up based on the weather, the specific market, and your history. No more over-stocking or leftover produce to carry back. Works without a permanent connection, syncing at the end of market day.',
+          },
+        ],
+  };
+
   // Pricing FAQs
   const pricingFaqs: FAQCategory = {
     title: isFr ? 'Tarifs et abonnements' : 'Pricing & Plans',
@@ -88,7 +141,7 @@ export default async function FAQPage({ params }: { params: Promise<{ locale: st
     items: blogFaqItems,
   };
 
-  const categories = [generalFaqs, pricingFaqs];
+  const categories = [generalFaqs, compatibilityFaqs, pricingFaqs];
   if (blogFaqs.items.length > 0) categories.push(blogFaqs);
 
   // Aggregate all FAQs for JSON-LD
@@ -154,6 +207,28 @@ export default async function FAQPage({ params }: { params: Promise<{ locale: st
                 </div>
               </section>
             ))}
+          </div>
+
+          {/* ─── End CTA ─── */}
+          <div className="mt-14 rounded-2xl p-8 text-center" style={{ backgroundColor: '#0D0905' }}>
+            <h2 className="text-2xl font-bold text-white mb-3">
+              {isFr
+                ? 'Prêt à optimiser votre commerce ?'
+                : 'Ready to optimise your shop?'}
+            </h2>
+            <p className="text-base mb-6" style={{ color: '#B8B0A8' }}>
+              {isFr
+                ? 'Boulangerie, food truck, snack, glacier, café ou marché — essayez FoodTracks 14 jours gratuitement.'
+                : 'Bakery, food truck, snack bar, ice cream shop, café or market stall — try FoodTracks free for 14 days.'}
+            </p>
+            <Link
+              href={`/${locale}/register?utm_source=faq&utm_medium=cta-end`}
+              className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full text-base font-semibold text-white transition-all hover:scale-105 hover:shadow-lg"
+              style={{ backgroundColor: '#F97316' }}
+              data-track-component="faq-cta-end"
+            >
+              {isFr ? 'Essai gratuit 14 jours' : 'Start free 14-day trial'}
+            </Link>
           </div>
         </div>
       </div>

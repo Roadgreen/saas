@@ -215,8 +215,146 @@
         "readinessHave": "Stock :"
     },
     "Landing": {
-        "title": "Réduisez le gaspillage, augmentez votre marge.",
-        "subtitle": "L'outil tout-en-un pour food trucks et dark kitchens.",
+        "badge": "Pour les commerces alimentaires indépendants",
+        "hero": {
+            "title": "L'IA qui dit à ton commerce combien préparer demain.",
+            "subtitle": "Prévisions IA + stock + ventes + rentabilité, pour boulangers, food trucks, snacks, glaciers, cafés et marchés. 5h/semaine économisées, invendus divisés par 2.",
+            "ctaPrimary": "Essai gratuit 14 jours",
+            "ctaSecondary": "Voir comment ça marche",
+            "noCreditCard": "Sans carte bancaire",
+            "moneyBack": "30 jours satisfait ou remboursé",
+            "cancelAnytime": "Annulation en 1 clic",
+            "accuracyStat": "87%",
+            "accuracyLabel": "précision des prévisions"
+        },
+        "verticals": {
+            "title": "Conçu pour ton commerce",
+            "subtitle": "Une seule plateforme, six métiers.",
+            "items": {
+                "bakery": {
+                    "name": "Boulangeries & pâtisseries",
+                    "use": "Combien de baguettes je sors demain ?"
+                },
+                "foodtruck": {
+                    "name": "Food trucks",
+                    "use": "Combien je prépare avant le rush du midi ?"
+                },
+                "snack": {
+                    "name": "Snacks & sandwicheries",
+                    "use": "Stock viandes et pains ajusté à la fréquentation"
+                },
+                "icecream": {
+                    "name": "Glaciers",
+                    "use": "Production parfums adaptée à la météo"
+                },
+                "cafe": {
+                    "name": "Cafés & coffee shops",
+                    "use": "Pâtisseries et boissons ajustées à l'affluence"
+                },
+                "market": {
+                    "name": "Marchands de marché",
+                    "use": "Quantité chargée selon météo et marché"
+                }
+            }
+        },
+        "howItWorks": {
+            "title": "Comment ça marche",
+            "subtitle": "De la connexion de ta caisse aux prévisions du lendemain, en trois étapes.",
+            "step1": {
+                "title": "Connecte tes ventes",
+                "description": "Relie ton terminal SumUp, importe un CSV Square ou saisis manuellement. FoodTracks absorbe l'historique en quelques minutes."
+            },
+            "step2": {
+                "title": "L'IA apprend ton commerce",
+                "description": "Le modèle analyse tes ventes par jour, par météo, par emplacement. En 4 à 6 semaines, il atteint 87% de précision en moyenne."
+            },
+            "step3": {
+                "title": "Prévisions chaque matin",
+                "description": "Chaque jour à l'ouverture, tu reçois exactement quoi préparer et en quelle quantité — ajusté au jour J et à la météo locale."
+            }
+        },
+        "features": {
+            "title": "Quatre piliers pour piloter ton commerce",
+            "subtitle": "Prévisions, stock, ventes et rentabilité dans un seul outil.",
+            "predictions": {
+                "title": "Prévisions IA",
+                "description": "L'IA calcule chaque matin la quantité exacte à préparer, ajustée à ton historique de ventes, au jour de la semaine et à la météo."
+            },
+            "stock": {
+                "title": "Gestion du stock",
+                "description": "Scan factures par IA, suivi en temps réel, alertes de rupture avant le service. Fini de découvrir en plein rush qu'il manque un ingrédient."
+            },
+            "sales": {
+                "title": "Ventes & POS",
+                "description": "Sync automatique SumUp, import CSV, ou saisie manuelle. Toutes tes ventes dans un seul endroit, matchées avec tes recettes."
+            },
+            "margins": {
+                "title": "Rentabilité",
+                "description": "Coût par plat, marge par recette, performance par jour et par emplacement. Tu sais enfin quoi vendre plus et quoi supprimer du menu."
+            }
+        },
+        "proof": {
+            "title": "Des chiffres concrets, pas du marketing",
+            "stat1": {
+                "value": "87%",
+                "label": "précision IA en moyenne"
+            },
+            "stat2": {
+                "value": "5h",
+                "label": "économisées par semaine"
+            },
+            "stat3": {
+                "value": "-30%",
+                "label": "d'invendus en moyenne"
+            },
+            "stat4": {
+                "value": "+12pts",
+                "label": "de marge nette"
+            }
+        },
+        "pricingTease": {
+            "title": "Commence gratuitement, passe Pro quand tu veux",
+            "subtitle": "Sans carte bancaire. 14 jours d'essai Pro offerts. Annulable en 1 clic.",
+            "cta": "Voir les tarifs"
+        },
+        "faq": {
+            "title": "Questions fréquentes",
+            "subtitle": "Les vraies questions que posent les patrons avant de s'inscrire.",
+            "q1": {
+                "question": "FoodTracks marche pour mon type de commerce ?",
+                "answer": "Oui. FoodTracks est conçu pour tous les petits commerces alimentaires indépendants à forte rotation : boulangeries, food trucks, snacks, glaciers, cafés et marchands de marché. Si tu prépares des produits frais chaque jour, tu es exactement la cible."
+            },
+            "q2": {
+                "question": "Je dois avoir un POS particulier ?",
+                "answer": "Non. FoodTracks s'intègre nativement avec SumUp via OAuth. Tu peux aussi importer un export CSV depuis Square ou d'autres caisses. Et si tu n'as pas de caisse connectée, la saisie manuelle fonctionne très bien pour démarrer."
+            },
+            "q3": {
+                "question": "Combien de temps avant que l'IA soit précise ?",
+                "answer": "En général 4 à 6 semaines de données suffisent pour atteindre une précision de 80%+. L'IA apprend plus vite si tu as déjà un historique de ventes à importer. Dès la première semaine, les prévisions sont déjà orientées dans le bon sens."
+            },
+            "q4": {
+                "question": "Mes données sont sécurisées ?",
+                "answer": "Tes données sont chiffrées (AES-256) et hébergées sur des serveurs européens. Conformité RGPD complète. On ne partage jamais tes données avec des tiers, et tu peux demander leur suppression complète à tout moment."
+            },
+            "q5": {
+                "question": "Je peux annuler quand je veux ?",
+                "answer": "Oui, sans engagement. Annule depuis tes paramètres en 1 clic, à n'importe quel moment. Tes données restent accessibles pendant 30 jours après l'annulation. Si tu passes Pro et que ça ne convient pas dans les 30 jours, on te rembourse."
+            },
+            "q6": {
+                "question": "Ça marche si j'ai plusieurs établissements ?",
+                "answer": "Oui. Le plan Pro supporte plusieurs établissements en parallèle — chaque lieu a son propre historique de ventes, ses propres prévisions et ses propres stats de marge. Idéal si tu as une boulangerie principale et un stand de marché le week-end."
+            },
+            "q7": {
+                "question": "Combien coûte la version Pro ?",
+                "answer": "La version Pro est à 29 €/mois (ou 249 €/an, soit 2 mois offerts). Elle inclut les prévisions IA illimitées, la gestion multi-établissements, les analyses de rentabilité avancées et le support prioritaire. Un essai gratuit de 14 jours est inclus, sans carte bancaire."
+            }
+        },
+        "footerCta": {
+            "title": "Prêt à préparer la bonne quantité chaque matin ?",
+            "subtitle": "Essai gratuit 14 jours. Sans carte bancaire. Annulable en 1 clic.",
+            "primary": "Démarrer l'essai gratuit",
+            "secondary": "Voir les tarifs"
+        },
         "nav": {
             "features": "Fonctionnalités",
             "howItWorks": "Comment ça marche",
@@ -229,140 +367,6 @@
             "dashboard": "Tableau de bord",
             "settings": "Paramètres du compte",
             "signOut": "Se déconnecter"
-        },
-        "badge": "Fait pour les food trucks",
-        "hero": {
-            "title": "Plus jamais 'combien je prépare ?'. L'IA te répond chaque matin.",
-            "subtitle": "Adapté à ton spot, ton jour et ta météo. 5h/semaine récupérées, zéro stress du matin — sans devoir deviner.",
-            "ctaPrimary": "Essai gratuit 14 jours",
-            "ctaSecondary": "Voir comment ça marche",
-            "noCreditCard": "Sans carte bancaire",
-            "freeToStart": "100% gratuit pour commencer",
-            "moneyBack": "30 jours satisfait ou remboursé",
-            "cancelAnytime": "Annulation en 1 clic",
-            "accuracyStat": "87%",
-            "accuracyLabel": "précision des prévisions",
-            "timeStat": "5h",
-            "timeLabel": "économisées/semaine"
-        },
-        "problem": {
-            "title": "Ça te parle ?",
-            "subtitle": "Chaque gérant de food truck fait face aux mêmes défis quotidiens.",
-            "guessTitle": "Combien préparer ?",
-            "guessDesc": "Chaque matin tu devines combien de portions faire. Trop = gaspillage. Pas assez = ventes perdues.",
-            "spotTitle": "Chaque spot, ses clients",
-            "spotDesc": "Le samedi au marché et le mardi en centre-ville, c'est pas la même clientèle. Mais tu prépares pareil.",
-            "shortageTitle": "Rupture en plein service",
-            "shortageDesc": "30 commandes et tu réalises qu'il n'y a plus de farine. Trop tard pour réagir.",
-            "photoQuote": "Chaque matin, la même question :",
-            "photoAnswer": "\"Combien est-ce que je prépare aujourd'hui ?\""
-        },
-        "howItWorks": {
-            "title": "Comment ça marche",
-            "subtitle": "De l'inscription à l'optimisation en 4 étapes.",
-            "step1Title": "Scanner",
-            "step1Desc": "Scanne tes factures fournisseur avec l'IA. Ton stock se met à jour automatiquement — fini la saisie manuelle.",
-            "step2Title": "Analyser",
-            "step2Desc": "Visualise tes coûts, marges et performances par plat, par jour et par emplacement sur un tableau de bord clair.",
-            "step3Title": "Prédire",
-            "step3Desc": "L'IA analyse tes ventes passées et te dit exactement combien préparer demain, ajusté selon le spot et le jour.",
-            "step4Title": "Optimiser",
-            "step4Desc": "Réduis le gaspillage, augmente tes marges et adapte ton menu grâce aux données. Ton food truck tourne à plein régime.",
-            "cta": "Découvrir en détail"
-        },
-        "predictions": {
-            "title": "L'IA qui apprend tes habitudes de vente",
-            "subtitle": "FoodTracks analyse tes ventes passées, le jour de la semaine et l'emplacement pour prédire exactement ce que tu vendras demain.",
-            "bullet1": "Pondéré par récence — les semaines récentes comptent plus",
-            "bullet2": "Ajusté pour chaque emplacement de vente",
-            "bullet3": "Ignore les jours fermés automatiquement",
-            "bullet4": "S'améliore à chaque service",
-            "mockTitle": "Prévisions pour Samedi",
-            "mockAccuracy": "Précision : 89%",
-            "mockItem1": "Crêpe beurre-sucre",
-            "mockItem2": "Galette complète",
-            "mockItem3": "Crêpe Nutella",
-            "mockItem4": "Galette chèvre-miel",
-            "mockTrend": "en hausse"
-        },
-        "readiness": {
-            "title": "Vérifie ton stock avant de commencer",
-            "subtitle": "FoodTracks croise les prévisions avec ton inventaire. Vois instantanément ce qui est couvert et ce qui manque.",
-            "coveredTitle": "Couvert",
-            "coveredDesc": "4,2 kg en stock, 3,1 kg nécessaires",
-            "coveredLabel": "Farine",
-            "tightTitle": "Juste",
-            "tightDesc": "0,8 kg en stock, 0,9 kg nécessaires",
-            "tightLabel": "Beurre",
-            "shortTitle": "Insuffisant",
-            "shortDesc": "0,4 kg en stock, 1,1 kg nécessaires",
-            "shortLabel": "Gruyère"
-        },
-        "features": {
-            "title": "Tout ce qu'il faut pour gérer ton truck",
-            "subtitle": "De l'inventaire aux marges en passant par le planning multi-spot.",
-            "mobileTitle": "Inventaire mobile",
-            "mobileDesc": "Scanne tes factures avec l'IA, suis le stock en temps réel, fonctionne hors connexion.",
-            "marginTitle": "Marges & recettes",
-            "marginDesc": "Connais le coût exact par plat, le % de marge, et quelles recettes sont rentables.",
-            "multiSpotTitle": "Planning multi-spot",
-            "multiSpotDesc": "Assigne des emplacements aux jours, suis le GPS, compare les performances par spot."
-        },
-        "stats": {
-            "products": "500+",
-            "productsLabel": "Produits suivis",
-            "setup": "2 min",
-            "setupLabel": "Temps de mise en route",
-            "free": "100%",
-            "freeLabel": "Gratuit pour commencer",
-            "wasteLabel": "De gaspillage en moins"
-        },
-        "pricing": {
-            "title": "Commence gratuitement, passe Pro quand tu veux",
-            "subtitle": "Sans carte bancaire. Annulable à tout moment.",
-            "perMonth": "/mois",
-            "ctaFree": "Commencer",
-            "ctaPro": "Essai gratuit",
-            "disclaimer": "14 jours d'essai gratuit sur Pro. Sans carte bancaire."
-        },
-        "faq": {
-            "title": "Questions fréquentes",
-            "q1": {
-                "question": "Il y a un plan gratuit ?",
-                "answer": "Oui, FoodTracks est gratuit pour commencer avec 1 emplacement et les fonctionnalités de base. Passe en Pro (29€/mois) quand tu as besoin des analyses avancées et de l'IA."
-            },
-            "q2": {
-                "question": "Je dois installer quelque chose ?",
-                "answer": "Non, FoodTracks est une app web qui marche sur tous tes appareils — téléphone, tablette ou ordinateur. Rien à télécharger."
-            },
-            "q3": {
-                "question": "Comment marchent les prédictions IA ?",
-                "answer": "FoodTracks analyse tes ventes passées par jour de la semaine et par emplacement. Plus tu ajoutes de données, plus les prédictions sont précises."
-            },
-            "q4": {
-                "question": "Je peux gérer plusieurs emplacements ?",
-                "answer": "Oui, le plan Pro supporte un nombre illimité d'emplacements. Tu peux assigner des spots aux jours et comparer les performances par lieu."
-            },
-            "q5": {
-                "question": "Mes données sont sécurisées ?",
-                "answer": "Tes données sont chiffrées et hébergées sur des serveurs européens. On ne partage jamais tes données avec des tiers."
-            },
-            "q6": {
-                "question": "Je peux annuler à tout moment ?",
-                "answer": "Oui, sans engagement. Annule depuis tes paramètres quand tu veux. Tes données restent accessibles pendant 30 jours après annulation."
-            },
-            "q7": {
-                "question": "FoodTracks fonctionne avec SumUp ?",
-                "answer": "Oui ! FoodTracks s'intègre directement avec SumUp via OAuth. Tes transactions sont automatiquement importées, tes recettes matchées, et ton stock déduit. Connecte ton terminal SumUp en quelques secondes depuis les paramètres → Intégrations."
-            },
-            "q8": {
-                "question": "Je peux exporter mes données ?",
-                "answer": "Oui, à tout moment. Tes ventes, ton stock et tes recettes sont exportables en CSV ou PDF depuis le dashboard. Tes données t'appartiennent — conformément au RGPD, tu peux demander leur suppression complète en un email."
-            },
-            "q9": {
-                "question": "Combien de temps pour une réponse du support ?",
-                "answer": "Moins de 2 heures en semaine, et généralement moins de 24h le week-end. On répond nous-mêmes — pas de chatbot, pas de ticket qui traîne. Écris-nous à contact@foodtracks.io."
-            }
         },
         "reassurance": {
             "title": "Trois engagements, zéro bullshit",
@@ -377,11 +381,11 @@
         },
         "cta": {
             "title": "Fini les approximations. Place à la certitude.",
-            "subtitle": "Rejoins les gérants de food trucks qui préparent la bonne quantité, chaque jour.",
+            "subtitle": "Rejoins les commerçants indépendants qui préparent la bonne quantité, chaque jour.",
             "button": "Commencer maintenant"
         },
         "footer": {
-            "tagline": "L'outil de gestion de stock pensé pour les restaurateurs indépendants.",
+            "tagline": "L'outil de gestion pensé pour les petits commerces alimentaires indépendants.",
             "product": "Produit",
             "resources": "Ressources",
             "legal": "Légal",
@@ -405,7 +409,7 @@
         },
         "testimonials": {
             "title": "Ils nous font confiance au quotidien",
-            "subtitle": "Des food truckers en France partagent leurs résultats concrets avec FoodTracks.",
+            "subtitle": "Des commerçants indépendants en France partagent leurs résultats concrets avec FoodTracks.",
             "t1": {
                 "quote": "Depuis que j'utilise FoodTracks, je gaspille 40% de moins. L'IA me dit exactement combien de crêpes préparer selon le jour et l'emplacement. En 2 mois, j'ai économisé plus de 800 € en matières premières.",
                 "name": "Marie D.",
@@ -1041,11 +1045,11 @@
     "HowItWorks": {
         "meta": {
             "title": "Comment ça marche | FoodTracks",
-            "description": "Découvrez comment FoodTracks vous aide à gérer votre food truck : scanner vos factures, analyser vos marges, prédire vos ventes et optimiser votre rentabilité."
+            "description": "Découvrez comment FoodTracks vous aide à gérer votre commerce alimentaire (boulangerie, food truck, snack, glacier, café, marché) : scanner vos factures, analyser vos marges, prédire vos ventes et optimiser votre rentabilité."
         },
         "hero": {
             "title": "Comment ça marche",
-            "subtitle": "De la facture à la prédiction, FoodTracks automatise la gestion de votre food truck en 4 étapes simples."
+            "subtitle": "De la facture à la prédiction, FoodTracks automatise la gestion de votre commerce en 4 étapes simples."
         },
         "step1": {
             "title": "Scannez vos factures",
@@ -1080,8 +1084,8 @@
             "bullet4": "Rapports de performance"
         },
         "cta": {
-            "title": "Prêt à optimiser votre food truck ?",
-            "subtitle": "Rejoignez les food truckers qui gagnent du temps et de l'argent avec FoodTracks.",
+            "title": "Prêt à optimiser votre commerce ?",
+            "subtitle": "Boulangers, food truckers, snackeurs, glaciers, cafetiers et marchands de marché gagnent déjà du temps et de l'argent avec FoodTracks.",
             "button": "Commencer gratuitement"
         }
     },

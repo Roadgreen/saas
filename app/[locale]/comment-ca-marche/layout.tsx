@@ -7,18 +7,18 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const { locale } = await params;
   const isFr = locale === 'fr';
   const title = isFr
-    ? 'Comment ça marche — Gestion de Food Truck en 4 étapes simples'
-    : 'How It Works — Food Truck Management in 4 Simple Steps';
+    ? 'Comment ça marche — Gestion de commerce alimentaire en 4 étapes simples'
+    : 'How It Works — Food Business Management in 4 Simple Steps';
   const description = isFr
-    ? 'Découvrez comment FoodTracks simplifie la gestion de votre food truck : scan de produits, suivi de stock en temps réel, prédictions IA et optimisation des marges. Démarrez gratuitement.'
-    : 'Discover how FoodTracks simplifies food truck management: product scanning, real-time inventory tracking, AI predictions and margin optimization. Start for free.';
+    ? 'Découvrez comment FoodTracks simplifie la gestion de votre boulangerie, food truck, snack, glacier, café ou marché : scan de factures, suivi de stock en temps réel, prévisions IA et optimisation des marges. Démarrez gratuitement.'
+    : 'Discover how FoodTracks simplifies management for bakeries, food trucks, snack bars, ice cream shops, cafés and market stalls: invoice scanning, real-time stock tracking, AI forecasts and margin optimisation. Start for free.';
 
   return {
     title,
     description,
     keywords: isFr
-      ? ['comment gérer food truck', 'gestion food truck étapes', 'logiciel food truck fonctionnement', 'suivi stock food truck', 'prédictions IA restauration', 'application food truck gratuite']
-      : ['how to manage food truck', 'food truck management steps', 'food truck software how it works', 'food truck stock tracking', 'AI predictions restaurant', 'free food truck app'],
+      ? ['comment gérer food truck', 'gestion boulangerie logiciel', 'logiciel commerce alimentaire fonctionnement', 'suivi stock snack glacier café', 'prévisions IA restauration', 'application gestion commerce gratuite', 'logiciel food truck', 'gestion marchand de marché']
+      : ['how to manage food truck', 'bakery management software', 'food business management steps', 'stock tracking snack café ice cream shop', 'AI predictions restaurant', 'free food business app', 'food truck management software', 'market stall management'],
     alternates: {
       canonical: `${BASE_URL}/${locale}/comment-ca-marche`,
       languages: { fr: `${BASE_URL}/fr/comment-ca-marche`, en: `${BASE_URL}/en/comment-ca-marche` },
@@ -100,16 +100,16 @@ export default async function CommentCaMarcheLayout({ children, params }: { chil
   const localBusinessServiceJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Service',
-    name: isFr ? 'Gestion de food truck FoodTracks' : 'FoodTracks Food Truck Management',
+    name: isFr ? 'Gestion de commerce alimentaire FoodTracks' : 'FoodTracks Food Business Management',
     description: isFr
-      ? 'Service de gestion de stock et de pilotage pour food trucks et restaurants ambulants. Prédictions IA, suivi en temps réel, scan de factures.'
-      : 'Inventory management and operations service for food trucks and mobile restaurants. AI predictions, real-time tracking, invoice scanning.',
+      ? 'Service de gestion de stock et de pilotage pour boulangers, food trucks, snacks, glaciers, cafés et marchés. Prévisions IA, suivi en temps réel, scan de factures.'
+      : 'Inventory management and operations service for bakeries, food trucks, snack bars, ice cream shops, cafés and market stalls. AI forecasts, real-time tracking, invoice scanning.',
     provider: {
       '@type': 'Organization',
       name: 'FoodTracks',
       url: BASE_URL,
     },
-    serviceType: isFr ? 'Logiciel de gestion food truck' : 'Food truck management software',
+    serviceType: isFr ? 'Logiciel de gestion commerce alimentaire' : 'Food business management software',
     areaServed: [
       { '@type': 'Country', name: 'France' },
       { '@type': 'Country', name: 'Belgium' },

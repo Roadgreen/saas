@@ -14,9 +14,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const routes: { path: string; changeFrequency: MetadataRoute.Sitemap[number]['changeFrequency']; priority: number; lastModified: string }[] = [
     { path: '',                  changeFrequency: 'weekly',  priority: 1.0, lastModified: today },
     { path: '/pricing',          changeFrequency: 'monthly', priority: 0.9, lastModified: today },
-    { path: '/comment-ca-marche', changeFrequency: 'monthly', priority: 0.8, lastModified: '2026-03-30' },
+    { path: '/comment-ca-marche', changeFrequency: 'monthly', priority: 0.8, lastModified: today },
     { path: '/blog',             changeFrequency: 'weekly',  priority: 0.8, lastModified: today },
-    { path: '/faq',              changeFrequency: 'monthly', priority: 0.7, lastModified: '2026-02-15' },
+    { path: '/faq',              changeFrequency: 'monthly', priority: 0.7, lastModified: today },
     { path: '/guides',           changeFrequency: 'monthly', priority: 0.7, lastModified: '2026-02-15' },
     { path: '/support',          changeFrequency: 'monthly', priority: 0.5, lastModified: '2026-02-01' },
     { path: '/security',         changeFrequency: 'yearly',  priority: 0.4, lastModified: '2025-12-01' },

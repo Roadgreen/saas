@@ -8,10 +8,11 @@ import { useInView } from 'framer-motion';
 import { AnimatedSection, StaggerContainer, StaggerItem } from '@/components/landing/AnimatedSection';
 import { CountUp } from '@/components/landing/CountUp';
 import {
-  CheckCircle2, MapPin, AlertTriangle,
-  TrendingUp, XCircle, Package, ScanLine, BarChart3, Clock, Zap,
+  CheckCircle2,
+  TrendingUp, Package, ScanLine, BarChart3, Zap,
   ChevronDown, ChefHat, CreditCard, Smartphone, Monitor, FileText,
-  ArrowRight, Shield, Quote,
+  ArrowRight, Shield,
+  Wheat, Truck, Sandwich, IceCream, Coffee, Tent,
 } from "lucide-react";
 
 /* ─── Animated progress bar ─── */
@@ -106,10 +107,7 @@ const SUMUP   = '#00B6FF';
 
 export default function HomeClient() {
   const t  = useTranslations('Landing');
-  const tp = useTranslations('Pricing');
   const locale = useLocale();
-
-  const dashboardSrc = locale === 'fr' ? '/dashboardfr.jpg' : '/dashboarden.jpg';
 
   return (
     <>
@@ -205,6 +203,55 @@ export default function HomeClient() {
       </section>
 
       {/* ══════════════════════════════════════
+          POUR QUI ? — 6 verticals grid
+          ══════════════════════════════════════ */}
+      <section className="py-24 md:py-36 bg-white relative overflow-hidden">
+        <div className="absolute inset-0 bg-cross-hatch pointer-events-none opacity-40" />
+        <div className="container relative mx-auto px-5 sm:px-8 lg:px-16">
+          <AnimatedSection className="text-center max-w-3xl mx-auto mb-16">
+            <h2 className="font-jakarta text-3xl md:text-[2.75rem] font-bold mb-5 text-gray-900 tracking-tight">
+              {t('verticals.title')}
+            </h2>
+            <p className="text-lg text-gray-500 leading-relaxed">{t('verticals.subtitle')}</p>
+          </AnimatedSection>
+
+          <StaggerContainer className="grid grid-cols-2 md:grid-cols-3 gap-5 max-w-4xl mx-auto">
+            {([
+              { key: 'bakery',    Icon: Wheat    },
+              { key: 'foodtruck', Icon: Truck    },
+              { key: 'snack',     Icon: Sandwich },
+              { key: 'icecream',  Icon: IceCream },
+              { key: 'cafe',      Icon: Coffee   },
+              { key: 'market',    Icon: Tent     },
+            ] as const).map(({ key, Icon }) => (
+              <StaggerItem key={key}>
+                <div
+                  className="rounded-2xl p-6 h-full flex flex-col gap-4 hover-lift transition-all duration-200"
+                  style={{ backgroundColor: '#FAFAF8', border: '1px solid #E5E0DB' }}
+                  data-track-component={`home-verticals-${key}`}
+                >
+                  <div
+                    className="inline-flex h-11 w-11 items-center justify-center rounded-xl"
+                    style={{ backgroundColor: 'rgba(249,115,22,0.08)', border: '1px solid rgba(249,115,22,0.15)' }}
+                  >
+                    <Icon className="h-5 w-5" style={{ color: ORANGE }} />
+                  </div>
+                  <div>
+                    <h3 className="font-jakarta font-bold text-gray-900 text-base mb-1">
+                      {t(`verticals.items.${key}.name`)}
+                    </h3>
+                    <p className="text-sm text-gray-500 leading-relaxed">
+                      {t(`verticals.items.${key}.use`)}
+                    </p>
+                  </div>
+                </div>
+              </StaggerItem>
+            ))}
+          </StaggerContainer>
+        </div>
+      </section>
+
+      {/* ══════════════════════════════════════
           PROBLEM — white + chef photo
           ══════════════════════════════════════ */}
       <section className="py-24 md:py-36 bg-white relative overflow-hidden">
@@ -288,14 +335,14 @@ export default function HomeClient() {
             </p>
           </AnimatedSection>
 
-          <StaggerContainer className="relative grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-5 max-w-6xl mx-auto">
+          <StaggerContainer className="relative grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-8 max-w-5xl mx-auto">
             {/* Connecting line on desktop */}
             <div
-              className="hidden md:block absolute top-16 left-[12.5%] right-[12.5%] h-0.5"
-              style={{ background: `linear-gradient(to right, ${ORANGE}, ${ORANGE}, ${TEAL}, ${TEAL})`, opacity: 0.3 }}
+              className="hidden md:block absolute top-16 left-[16.67%] right-[16.67%] h-0.5"
+              style={{ background: `linear-gradient(to right, ${ORANGE}, ${ORANGE}, ${TEAL})`, opacity: 0.3 }}
             />
 
-            {/* Step 1 — Scanner */}
+            {/* Step 1 */}
             <StaggerItem>
               <div className="relative flex flex-col items-center text-center space-y-5">
                 <div
@@ -310,16 +357,15 @@ export default function HomeClient() {
                 >
                   <ScanLine className="h-10 w-10" style={{ color: ORANGE }} />
                 </div>
-                <h3 className="font-jakarta text-xl font-bold text-white">{t('howItWorks.step1Title')}</h3>
-                <p className="text-sm leading-relaxed max-w-[220px]" style={{ color: '#9CA3AF' }}>{t('howItWorks.step1Desc')}</p>
-                {/* Mobile arrow */}
+                <h3 className="font-jakarta text-xl font-bold text-white">{t('howItWorks.step1.title')}</h3>
+                <p className="text-sm leading-relaxed max-w-[220px]" style={{ color: '#9CA3AF' }}>{t('howItWorks.step1.description')}</p>
                 <div className="md:hidden flex justify-center pt-2">
                   <ArrowRight className="h-5 w-5 rotate-90" style={{ color: 'rgba(249,115,22,0.5)' }} />
                 </div>
               </div>
             </StaggerItem>
 
-            {/* Step 2 — Analyser */}
+            {/* Step 2 */}
             <StaggerItem>
               <div className="relative flex flex-col items-center text-center space-y-5">
                 <div
@@ -334,16 +380,15 @@ export default function HomeClient() {
                 >
                   <BarChart3 className="h-10 w-10" style={{ color: ORANGE }} />
                 </div>
-                <h3 className="font-jakarta text-xl font-bold text-white">{t('howItWorks.step2Title')}</h3>
-                <p className="text-sm leading-relaxed max-w-[220px]" style={{ color: '#9CA3AF' }}>{t('howItWorks.step2Desc')}</p>
-                {/* Mobile arrow */}
+                <h3 className="font-jakarta text-xl font-bold text-white">{t('howItWorks.step2.title')}</h3>
+                <p className="text-sm leading-relaxed max-w-[220px]" style={{ color: '#9CA3AF' }}>{t('howItWorks.step2.description')}</p>
                 <div className="md:hidden flex justify-center pt-2">
                   <ArrowRight className="h-5 w-5 rotate-90" style={{ color: 'rgba(249,115,22,0.5)' }} />
                 </div>
               </div>
             </StaggerItem>
 
-            {/* Step 3 — Prédire */}
+            {/* Step 3 */}
             <StaggerItem>
               <div className="relative flex flex-col items-center text-center space-y-5">
                 <div
@@ -358,44 +403,23 @@ export default function HomeClient() {
                 >
                   <TrendingUp className="h-10 w-10" style={{ color: TEAL }} />
                 </div>
-                <h3 className="font-jakarta text-xl font-bold text-white">{t('howItWorks.step3Title')}</h3>
-                <p className="text-sm leading-relaxed max-w-[220px]" style={{ color: '#9CA3AF' }}>{t('howItWorks.step3Desc')}</p>
-                {/* Mobile arrow */}
-                <div className="md:hidden flex justify-center pt-2">
-                  <ArrowRight className="h-5 w-5 rotate-90" style={{ color: 'rgba(20,184,166,0.5)' }} />
-                </div>
-              </div>
-            </StaggerItem>
-
-            {/* Step 4 — Optimiser */}
-            <StaggerItem>
-              <div className="relative flex flex-col items-center text-center space-y-5">
-                <div
-                  className="relative z-10 w-14 h-14 rounded-full flex items-center justify-center font-bold text-lg text-white shadow-lg"
-                  style={{ backgroundColor: TEAL, boxShadow: `0 0 24px rgba(20,184,166,0.35)` }}
-                >
-                  4
-                </div>
-                <div
-                  className="p-4 rounded-2xl"
-                  style={{ backgroundColor: 'rgba(20,184,166,0.12)', border: '1px solid rgba(20,184,166,0.2)' }}
-                >
-                  <Zap className="h-10 w-10" style={{ color: TEAL }} />
-                </div>
-                <h3 className="font-jakarta text-xl font-bold text-white">{t('howItWorks.step4Title')}</h3>
-                <p className="text-sm leading-relaxed max-w-[220px]" style={{ color: '#9CA3AF' }}>{t('howItWorks.step4Desc')}</p>
+                <h3 className="font-jakarta text-xl font-bold text-white">{t('howItWorks.step3.title')}</h3>
+                <p className="text-sm leading-relaxed max-w-[220px]" style={{ color: '#9CA3AF' }}>{t('howItWorks.step3.description')}</p>
               </div>
             </StaggerItem>
           </StaggerContainer>
 
           {/* CTA button */}
           <AnimatedSection className="text-center mt-14">
-            <Link href={`/${locale}/comment-ca-marche`}>
+            <Link
+              href={`/${locale}/register?utm_source=home&utm_medium=howitworks`}
+              data-track-component="home-howitworks-cta"
+            >
               <button
                 className="btn-landing inline-flex items-center justify-center gap-2 rounded-xl font-semibold px-8 py-3.5 border transition-colors duration-200"
                 style={{ borderColor: 'rgba(249,115,22,0.4)', color: ORANGE, backgroundColor: 'rgba(249,115,22,0.08)' }}
               >
-                {t('howItWorks.cta')}
+                {t('hero.ctaPrimary')}
                 <ArrowRight className="h-4 w-4" />
               </button>
             </Link>
@@ -404,123 +428,7 @@ export default function HomeClient() {
       </section>
 
       {/* ══════════════════════════════════════
-          PREDICTIONS — cream, analytics screenshot
-          ══════════════════════════════════════ */}
-      <section id="predictions" style={{ backgroundColor: LIGHT }} className="py-24 md:py-36">
-        <div className="container mx-auto px-5 sm:px-8 lg:px-16">
-          <div className="grid md:grid-cols-2 gap-16 items-center max-w-5xl mx-auto">
-            <AnimatedSection className="space-y-6">
-              <div
-                className="inline-block p-3 rounded-xl"
-                style={{ backgroundColor: 'rgba(20,184,166,0.1)' }}
-              >
-                <TrendingUp className="h-7 w-7" style={{ color: TEAL }} />
-              </div>
-              <h2 className="font-jakarta text-3xl md:text-[2.75rem] font-bold text-gray-900 tracking-tight">
-                {t('predictions.title')}
-              </h2>
-              <p className="text-lg text-gray-500 leading-relaxed">{t('predictions.subtitle')}</p>
-              <ul className="space-y-3">
-                {(['bullet1', 'bullet2', 'bullet3', 'bullet4'] as const).map((key) => (
-                  <li key={key} className="flex items-start gap-3">
-                    <CheckCircle2 className="h-5 w-5 mt-0.5 flex-shrink-0" style={{ color: TEAL }} />
-                    <span className="text-gray-700">{t(`predictions.${key}`)}</span>
-                  </li>
-                ))}
-              </ul>
-              <Link href={`/${locale}/register?plan=PRO`}>
-                <button
-                  className="btn-landing btn-cta-primary inline-flex items-center gap-2 rounded-xl font-bold px-6 py-3 text-white"
-                  style={{ backgroundColor: ORANGE }}
-                >
-                  {t('hero.ctaPrimary')}
-                </button>
-              </Link>
-            </AnimatedSection>
-
-            <AnimatedSection delay={0.2} className="relative">
-              <div
-                className="relative rounded-2xl overflow-hidden shadow-xl"
-                style={{ border: '1px solid #E5E0DB' }}
-              >
-                <Image
-                  src={dashboardSrc}
-                  alt="FoodTracks dashboard analytics"
-                  width={700}
-                  height={480}
-                  className="w-full"
-                />
-              </div>
-              <div
-                className="absolute top-4 -right-4 rounded-xl px-4 py-3 shadow-xl bg-white"
-                style={{ border: '1px solid #E5E0DB' }}
-              >
-                <div className="font-jakarta text-2xl font-extrabold" style={{ color: TEAL }}>
-                  {t('hero.accuracyStat')}
-                </div>
-                <div className="text-xs text-gray-500">{t('hero.accuracyLabel')}</div>
-              </div>
-            </AnimatedSection>
-          </div>
-        </div>
-      </section>
-
-      {/* ══════════════════════════════════════
-          STOCK READINESS — white, status cards
-          ══════════════════════════════════════ */}
-      <section className="py-24 md:py-36 bg-white relative">
-        <div className="absolute inset-0 bg-cross-hatch pointer-events-none opacity-60" />
-        <div className="container relative mx-auto px-5 sm:px-8 lg:px-16">
-          <AnimatedSection className="text-center max-w-3xl mx-auto mb-20">
-            <div className="inline-block p-3.5 rounded-2xl mb-5" style={{ backgroundColor: 'rgba(249,115,22,0.08)' }}>
-              <Package className="h-7 w-7" style={{ color: ORANGE }} />
-            </div>
-            <h2 className="font-jakarta text-3xl md:text-[2.75rem] font-bold mb-5 text-gray-900 tracking-tight">
-              {t('readiness.title')}
-            </h2>
-            <p className="text-lg text-gray-500 leading-relaxed">{t('readiness.subtitle')}</p>
-          </AnimatedSection>
-
-          <StaggerContainer className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
-            <StaggerItem>
-              <div className="rounded-2xl p-7 space-y-4 h-full hover-lift" style={{ backgroundColor: '#F0FDF4', border: '1px solid #BBF7D0' }}>
-                <div className="flex items-center gap-2">
-                  <CheckCircle2 className="h-5 w-5 text-green-600" />
-                  <span className="font-bold text-green-800">{t('readiness.coveredTitle')}</span>
-                </div>
-                <div className="text-sm font-semibold text-green-700">{t('readiness.coveredLabel')}</div>
-                <p className="text-sm text-green-600">{t('readiness.coveredDesc')}</p>
-                <AnimatedBar width={74} color="#22C55E" />
-              </div>
-            </StaggerItem>
-            <StaggerItem>
-              <div className="rounded-2xl p-7 space-y-4 h-full hover-lift" style={{ backgroundColor: '#FFFBEB', border: '1px solid #FDE68A' }}>
-                <div className="flex items-center gap-2">
-                  <AlertTriangle className="h-5 w-5 text-yellow-600" />
-                  <span className="font-bold text-yellow-800">{t('readiness.tightTitle')}</span>
-                </div>
-                <div className="text-sm font-semibold text-yellow-700">{t('readiness.tightLabel')}</div>
-                <p className="text-sm text-yellow-600">{t('readiness.tightDesc')}</p>
-                <AnimatedBar width={89} color="#EAB308" />
-              </div>
-            </StaggerItem>
-            <StaggerItem>
-              <div className="rounded-2xl p-7 space-y-4 h-full hover-lift" style={{ backgroundColor: '#FFF5F5', border: '1px solid #FED7D7' }}>
-                <div className="flex items-center gap-2">
-                  <XCircle className="h-5 w-5 text-red-600" />
-                  <span className="font-bold text-red-800">{t('readiness.shortTitle')}</span>
-                </div>
-                <div className="text-sm font-semibold text-red-700">{t('readiness.shortLabel')}</div>
-                <p className="text-sm text-red-600">{t('readiness.shortDesc')}</p>
-                <AnimatedBar width={36} color="#EF4444" />
-              </div>
-            </StaggerItem>
-          </StaggerContainer>
-        </div>
-      </section>
-
-      {/* ══════════════════════════════════════
-          FEATURES — dark, bento
+          FEATURES — dark, 4 piliers
           ══════════════════════════════════════ */}
       <section id="fonctionnalites" className="py-24 md:py-36 relative" style={{ backgroundColor: DARK }}>
         <div className="absolute inset-0 bg-dot-grid pointer-events-none opacity-20" />
@@ -534,102 +442,60 @@ export default function HomeClient() {
             </p>
           </AnimatedSection>
 
-          <StaggerContainer className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
-            {/* Scanner — large card */}
-            <StaggerItem className="md:col-span-2">
-              <div className="rounded-2xl overflow-hidden h-full feature-card-dark" style={{ border: '1px solid rgba(255,255,255,0.08)' }}>
-                <div className="relative h-52">
-                  <Image
-                    src="/smartphone-with-barcode-scanner-for-restaurant-inv.jpg"
-                    alt="Mobile inventory scanning"
-                    fill
-                    sizes="(max-width: 768px) 100vw, 66vw"
-                    className="object-cover object-center"
-                  />
-                  <div
-                    className="absolute inset-0"
-                    style={{ background: 'linear-gradient(to bottom, transparent 25%, rgba(13,9,5,0.96) 100%)' }}
-                  />
-                  <div className="absolute bottom-0 left-0 right-0 p-6 space-y-2">
-                    <div className="flex items-center gap-2">
-                      <div className="p-2 rounded-lg" style={{ backgroundColor: 'rgba(249,115,22,0.2)' }}>
-                        <ScanLine className="h-4 w-4" style={{ color: ORANGE }} />
-                      </div>
-                      <span className="text-xs font-bold rounded-full px-2 py-0.5" style={{ backgroundColor: 'rgba(249,115,22,0.2)', color: '#FDBA74' }}>AI</span>
-                    </div>
-                    <h3 className="font-jakarta text-xl font-bold text-white">{t('features.mobileTitle')}</h3>
-                    <p className="text-sm leading-relaxed" style={{ color: '#9CA3AF' }}>{t('features.mobileDesc')}</p>
-                  </div>
+          <StaggerContainer className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+            {/* Predictions */}
+            <StaggerItem>
+              <div
+                className="rounded-2xl p-8 space-y-4 h-full feature-card-dark hover-lift"
+                style={{ backgroundColor: 'rgba(249,115,22,0.06)', border: '1px solid rgba(249,115,22,0.18)' }}
+              >
+                <div className="p-3 rounded-xl w-fit" style={{ backgroundColor: 'rgba(249,115,22,0.15)' }}>
+                  <TrendingUp className="h-6 w-6" style={{ color: ORANGE }} />
                 </div>
+                <h3 className="font-jakarta text-lg font-bold text-white">{t('features.predictions.title')}</h3>
+                <p className="text-sm leading-relaxed" style={{ color: '#9CA3AF' }}>{t('features.predictions.description')}</p>
               </div>
             </StaggerItem>
 
-            {/* Margin analytics */}
+            {/* Stock */}
             <StaggerItem>
               <div
-                className="rounded-2xl p-7 space-y-4 h-full feature-card-dark"
+                className="rounded-2xl p-8 space-y-4 h-full feature-card-dark hover-lift"
                 style={{ backgroundColor: 'rgba(255,255,255,0.04)', border: '1px solid rgba(255,255,255,0.08)' }}
+              >
+                <div className="p-3 rounded-xl w-fit" style={{ backgroundColor: 'rgba(249,115,22,0.15)' }}>
+                  <Package className="h-6 w-6" style={{ color: ORANGE }} />
+                </div>
+                <h3 className="font-jakarta text-lg font-bold text-white">{t('features.stock.title')}</h3>
+                <p className="text-sm leading-relaxed" style={{ color: '#9CA3AF' }}>{t('features.stock.description')}</p>
+              </div>
+            </StaggerItem>
+
+            {/* Sales */}
+            <StaggerItem>
+              <div
+                className="rounded-2xl p-8 space-y-4 h-full feature-card-dark hover-lift"
+                style={{ backgroundColor: 'rgba(255,255,255,0.04)', border: '1px solid rgba(255,255,255,0.08)' }}
+              >
+                <div className="p-3 rounded-xl w-fit" style={{ backgroundColor: 'rgba(0,182,255,0.15)' }}>
+                  <BarChart3 className="h-6 w-6" style={{ color: SUMUP }} />
+                </div>
+                <h3 className="font-jakarta text-lg font-bold text-white">{t('features.sales.title')}</h3>
+                <p className="text-sm leading-relaxed" style={{ color: '#9CA3AF' }}>{t('features.sales.description')}</p>
+              </div>
+            </StaggerItem>
+
+            {/* Margins */}
+            <StaggerItem>
+              <div
+                className="rounded-2xl p-8 space-y-4 h-full feature-card-dark hover-lift"
+                style={{ backgroundColor: 'rgba(20,184,166,0.06)', border: '1px solid rgba(20,184,166,0.18)' }}
               >
                 <div className="p-3 rounded-xl w-fit" style={{ backgroundColor: 'rgba(20,184,166,0.15)' }}>
-                  <BarChart3 className="h-6 w-6" style={{ color: TEAL }} />
+                  <Zap className="h-6 w-6" style={{ color: TEAL }} />
                 </div>
-                <h3 className="font-jakarta text-lg font-bold text-white">{t('features.marginTitle')}</h3>
-                <p className="text-sm leading-relaxed" style={{ color: '#6B7280' }}>{t('features.marginDesc')}</p>
-              </div>
-            </StaggerItem>
-
-            {/* Multi-spot */}
-            <StaggerItem>
-              <div
-                className="rounded-2xl p-7 space-y-4 h-full feature-card-dark"
-                style={{ backgroundColor: 'rgba(255,255,255,0.04)', border: '1px solid rgba(255,255,255,0.08)' }}
-              >
-                <div className="p-3 rounded-xl w-fit" style={{ backgroundColor: 'rgba(245,158,11,0.15)' }}>
-                  <MapPin className="h-5 w-5" style={{ color: '#F59E0B' }} />
-                </div>
-                <h3 className="font-jakarta text-lg font-bold text-white">{t('features.multiSpotTitle')}</h3>
-                <p className="text-sm leading-relaxed" style={{ color: '#6B7280' }}>{t('features.multiSpotDesc')}</p>
-              </div>
-            </StaggerItem>
-
-            {/* Stats strip */}
-            <StaggerItem className="md:col-span-2">
-              <div
-                className="rounded-2xl p-7 h-full feature-card-dark"
-                style={{ backgroundColor: 'rgba(255,255,255,0.04)', border: '1px solid rgba(255,255,255,0.08)' }}
-              >
-                <div className="grid sm:grid-cols-3 gap-4 h-full items-center text-center">
-                  <div className="space-y-1.5">
-                    <div className="p-2 rounded-lg w-fit mx-auto" style={{ backgroundColor: 'rgba(249,115,22,0.15)' }}>
-                      <Clock className="h-4 w-4" style={{ color: ORANGE }} />
-                    </div>
-                    <div className="font-jakarta text-2xl font-extrabold text-white">
-                      <CountUp end={5} suffix=" min" />
-                    </div>
-                    <div className="text-xs" style={{ color: '#6B7280' }}>{t('hero.timeLabel')}</div>
-                  </div>
-                  <div
-                    className="space-y-1.5"
-                    style={{ borderLeft: '1px solid rgba(255,255,255,0.07)', borderRight: '1px solid rgba(255,255,255,0.07)' }}
-                  >
-                    <div className="p-2 rounded-lg w-fit mx-auto" style={{ backgroundColor: 'rgba(20,184,166,0.15)' }}>
-                      <TrendingUp className="h-4 w-4" style={{ color: TEAL }} />
-                    </div>
-                    <div className="font-jakarta text-2xl font-extrabold text-white">
-                      <CountUp end={87} suffix="%" />
-                    </div>
-                    <div className="text-xs" style={{ color: '#6B7280' }}>{t('hero.accuracyLabel')}</div>
-                  </div>
-                  <div className="space-y-1.5">
-                    <div className="p-2 rounded-lg w-fit mx-auto" style={{ backgroundColor: 'rgba(239,68,68,0.15)' }}>
-                      <Zap className="h-4 w-4 text-red-400" />
-                    </div>
-                    <div className="font-jakarta text-2xl font-extrabold text-white">
-                      <CountUp end={30} prefix="-" suffix="%" />
-                    </div>
-                    <div className="text-xs" style={{ color: '#6B7280' }}>{t('stats.wasteLabel')}</div>
-                  </div>
-                </div>
+                <h3 className="font-jakarta text-lg font-bold text-white">{t('features.margins.title')}</h3>
+                <p className="text-sm leading-relaxed" style={{ color: '#9CA3AF' }}>{t('features.margins.description')}</p>
               </div>
             </StaggerItem>
           </StaggerContainer>
@@ -637,7 +503,73 @@ export default function HomeClient() {
       </section>
 
       {/* ══════════════════════════════════════
-          SUMUP INTEGRATION — dark blue accent
+          PROOF — stats strip with CountUp
+          ══════════════════════════════════════ */}
+      <section className="py-20 md:py-28" style={{ backgroundColor: '#090604' }}>
+        <div className="container mx-auto px-5 sm:px-8 lg:px-16">
+          <AnimatedSection className="text-center max-w-2xl mx-auto mb-14">
+            <h2 className="font-jakarta text-3xl md:text-[2.75rem] font-bold text-white tracking-tight">
+              {t('proof.title')}
+            </h2>
+          </AnimatedSection>
+          <AnimatedSection>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center max-w-4xl mx-auto">
+              <div>
+                <div className="font-jakarta text-4xl md:text-5xl font-extrabold" style={{ color: ORANGE }}>
+                  <CountUp end={87} suffix="%" />
+                </div>
+                <div className="text-sm mt-2 leading-snug" style={{ color: '#6B7280' }}>{t('proof.stat1.label')}</div>
+              </div>
+              <div style={{ borderLeft: '1px solid rgba(255,255,255,0.06)' }}>
+                <div className="font-jakarta text-4xl md:text-5xl font-extrabold" style={{ color: TEAL }}>
+                  <CountUp end={5} suffix="h" />
+                </div>
+                <div className="text-sm mt-2 leading-snug" style={{ color: '#6B7280' }}>{t('proof.stat2.label')}</div>
+              </div>
+              <div style={{ borderLeft: '1px solid rgba(255,255,255,0.06)' }}>
+                <div className="font-jakarta text-4xl md:text-5xl font-extrabold text-white">
+                  <CountUp end={30} prefix="-" suffix="%" />
+                </div>
+                <div className="text-sm mt-2 leading-snug" style={{ color: '#6B7280' }}>{t('proof.stat3.label')}</div>
+              </div>
+              <div style={{ borderLeft: '1px solid rgba(255,255,255,0.06)' }}>
+                <div className="font-jakarta text-4xl md:text-5xl font-extrabold" style={{ color: ORANGE }}>
+                  <CountUp end={12} prefix="+" suffix=" pts" />
+                </div>
+                <div className="text-sm mt-2 leading-snug" style={{ color: '#6B7280' }}>{t('proof.stat4.label')}</div>
+              </div>
+            </div>
+          </AnimatedSection>
+        </div>
+      </section>
+
+      {/* ══════════════════════════════════════
+          PRICING TEASE — light, CTA → /pricing
+          ══════════════════════════════════════ */}
+      <section style={{ backgroundColor: LIGHT }} className="py-24 md:py-32">
+        <div className="container mx-auto px-5 sm:px-8 lg:px-16">
+          <AnimatedSection className="max-w-2xl mx-auto text-center space-y-8">
+            <h2 className="font-jakarta text-3xl md:text-[2.75rem] font-bold text-gray-900 tracking-tight">
+              {t('pricingTease.title')}
+            </h2>
+            <p className="text-lg text-gray-500 leading-relaxed">{t('pricingTease.subtitle')}</p>
+            <div>
+              <Link href={`/${locale}/pricing`} data-track-component="home-pricing-tease-cta">
+                <button
+                  className="btn-landing btn-cta-primary btn-shimmer inline-flex items-center justify-center gap-3 rounded-full font-bold px-10 py-4 text-white text-base"
+                  style={{ backgroundColor: ORANGE, boxShadow: '0 12px 40px -4px rgba(249,115,22,0.45)' }}
+                >
+                  {t('pricingTease.cta')}
+                  <ArrowRight className="h-4.5 w-4.5" />
+                </button>
+              </Link>
+            </div>
+          </AnimatedSection>
+        </div>
+      </section>
+
+      {/* ══════════════════════════════════════
+          SUMUP INTEGRATION — dark blue accent (kept for trust)
           ══════════════════════════════════════ */}
       <section
         className="py-24 md:py-36 relative overflow-hidden"
@@ -809,271 +741,6 @@ export default function HomeClient() {
         </div>
       </section>
 
-      {/* ══════════════════════════════════════
-          TESTIMONIALS — social proof
-          ══════════════════════════════════════ */}
-      <section style={{ backgroundColor: LIGHT }} className="py-24 md:py-36">
-        <div className="container mx-auto px-5 sm:px-8 lg:px-16">
-          <AnimatedSection className="text-center max-w-3xl mx-auto mb-20">
-            <h2 className="font-jakarta text-3xl md:text-[2.75rem] font-bold mb-5 text-gray-900 tracking-tight">
-              {t('testimonials.title')}
-            </h2>
-            <p className="text-lg text-gray-500 leading-relaxed">{t('testimonials.subtitle')}</p>
-          </AnimatedSection>
-
-          <StaggerContainer className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-            {(['t1', 't2', 't3', 't4', 't5'] as const).map((key) => (
-              <StaggerItem key={key}>
-                <div className="rounded-2xl p-9 h-full bg-white relative hover-lift" style={{ border: '1px solid #E5E0DB' }}>
-                  <Quote className="h-8 w-8 mb-4" style={{ color: 'rgba(249,115,22,0.2)' }} />
-                  <p className="text-sm text-gray-600 leading-relaxed mb-6 italic">
-                    &ldquo;{t(`testimonials.${key}.quote`)}&rdquo;
-                  </p>
-                  <div className="flex items-center gap-3 mb-4">
-                    <div
-                      className="w-10 h-10 rounded-full flex items-center justify-center font-bold text-sm text-white"
-                      style={{ backgroundColor: ORANGE }}
-                    >
-                      {t(`testimonials.${key}.name`).charAt(0)}
-                    </div>
-                    <div>
-                      <p className="font-semibold text-gray-900 text-sm">{t(`testimonials.${key}.name`)}</p>
-                      <p className="text-xs text-gray-500">{t(`testimonials.${key}.role`)}</p>
-                    </div>
-                  </div>
-                  <div
-                    className="rounded-xl px-4 py-3 text-center"
-                    style={{ backgroundColor: 'rgba(249,115,22,0.06)', border: '1px solid rgba(249,115,22,0.12)' }}
-                  >
-                    <div className="font-jakarta text-2xl font-extrabold" style={{ color: ORANGE }}>
-                      {t(`testimonials.${key}.stat`)}
-                    </div>
-                    <div className="text-xs text-gray-500">{t(`testimonials.${key}.statLabel`)}</div>
-                  </div>
-                </div>
-              </StaggerItem>
-            ))}
-          </StaggerContainer>
-
-        </div>
-      </section>
-
-      {/* ══════════════════════════════════════
-          BEFORE / AFTER — conversion booster
-          ══════════════════════════════════════ */}
-      <section className="py-24 md:py-36 bg-white">
-        <div className="container mx-auto px-5 sm:px-8 lg:px-16">
-          <AnimatedSection className="text-center max-w-3xl mx-auto mb-16">
-            <h2 className="font-jakarta text-3xl md:text-[2.75rem] font-bold mb-5 text-gray-900 tracking-tight">
-              {t('beforeAfter.title')}
-            </h2>
-            <p className="text-lg text-gray-500 leading-relaxed">{t('beforeAfter.subtitle')}</p>
-          </AnimatedSection>
-
-          <div className="max-w-3xl mx-auto">
-            {/* Headers */}
-            <div className="grid grid-cols-2 gap-4 mb-4">
-              <div className="rounded-xl px-4 py-3 text-center" style={{ backgroundColor: '#FFF5F5', border: '1px solid #FED7D7' }}>
-                <span className="font-bold text-red-700 text-sm">{t('beforeAfter.before')}</span>
-              </div>
-              <div className="rounded-xl px-4 py-3 text-center" style={{ backgroundColor: '#F0FDF4', border: '1px solid #BBF7D0' }}>
-                <span className="font-bold text-green-700 text-sm">{t('beforeAfter.after')}</span>
-              </div>
-            </div>
-
-            {/* Rows */}
-            <div className="space-y-3">
-              {[1, 2, 3, 4, 5].map((i) => (
-                <AnimatedSection key={i} delay={i * 0.08}>
-                  <div className="grid grid-cols-2 gap-4">
-                    <div className="rounded-xl px-4 py-3.5 flex items-start gap-2.5" style={{ backgroundColor: '#FFFBFB', border: '1px solid #FEE2E2' }}>
-                      <XCircle className="h-4 w-4 text-red-400 mt-0.5 flex-shrink-0" />
-                      <span className="text-sm text-gray-600">{t(`beforeAfter.b${i}`)}</span>
-                    </div>
-                    <div className="rounded-xl px-4 py-3.5 flex items-start gap-2.5" style={{ backgroundColor: '#F8FFF8', border: '1px solid #D1FAE5' }}>
-                      <CheckCircle2 className="h-4 w-4 text-green-500 mt-0.5 flex-shrink-0" />
-                      <span className="text-sm text-gray-700 font-medium">{t(`beforeAfter.a${i}`)}</span>
-                    </div>
-                  </div>
-                </AnimatedSection>
-              ))}
-            </div>
-
-            {/* CTA under comparison */}
-            <AnimatedSection delay={0.5}>
-              <div className="text-center mt-10">
-                <Link href={`/${locale}/register?plan=PRO`}>
-                  <button
-                    className="btn-landing btn-cta-primary btn-shimmer inline-flex items-center gap-2 rounded-xl font-bold px-8 py-3.5 text-white"
-                    style={{ backgroundColor: ORANGE, boxShadow: '0 8px 24px -4px rgba(249,115,22,0.45)' }}
-                  >
-                    {t('hero.ctaPrimary')}
-                    <ArrowRight className="h-4 w-4" />
-                  </button>
-                </Link>
-              </div>
-            </AnimatedSection>
-          </div>
-        </div>
-      </section>
-
-      {/* ══════════════════════════════════════
-          STATS STRIP — near-black, big numbers
-          ══════════════════════════════════════ */}
-      <section className="py-16 md:py-20" style={{ backgroundColor: '#090604' }}>
-        <div className="container mx-auto px-5 sm:px-8 lg:px-16">
-          <AnimatedSection>
-            <div className="grid grid-cols-3 gap-6 text-center max-w-2xl mx-auto">
-              <div>
-                <div className="font-jakarta text-4xl md:text-5xl font-extrabold" style={{ color: ORANGE }}>
-                  <CountUp end={500} suffix="+" />
-                </div>
-                <div className="text-sm mt-1.5" style={{ color: '#6B7280' }}>{t('stats.productsLabel')}</div>
-              </div>
-              <div style={{ borderLeft: '1px solid rgba(255,255,255,0.06)', borderRight: '1px solid rgba(255,255,255,0.06)' }}>
-                <div className="font-jakarta text-4xl md:text-5xl font-extrabold" style={{ color: TEAL }}>
-                  <CountUp end={2} suffix=" min" />
-                </div>
-                <div className="text-sm mt-1.5" style={{ color: '#6B7280' }}>{t('stats.setupLabel')}</div>
-              </div>
-              <div>
-                <div className="font-jakarta text-4xl md:text-5xl font-extrabold text-white">
-                  <CountUp end={100} suffix="%" />
-                </div>
-                <div className="text-sm mt-1.5" style={{ color: '#6B7280' }}>{t('stats.freeLabel')}</div>
-              </div>
-            </div>
-          </AnimatedSection>
-        </div>
-      </section>
-
-      {/* ══════════════════════════════════════
-          PRICING — cream, 3 cards
-          ══════════════════════════════════════ */}
-      <section id="tarifs" style={{ backgroundColor: LIGHT }} className="py-24 md:py-36">
-        <div className="container mx-auto px-5 sm:px-8 lg:px-16">
-          <AnimatedSection className="text-center max-w-3xl mx-auto mb-20">
-            <h2 className="font-jakarta text-3xl md:text-[2.75rem] font-bold mb-5 text-gray-900 tracking-tight">
-              {t('pricing.title')}
-            </h2>
-            <p className="text-lg text-gray-500 leading-relaxed">{t('pricing.subtitle')}</p>
-          </AnimatedSection>
-
-          <StaggerContainer className="grid md:grid-cols-3 gap-7 max-w-4xl mx-auto items-stretch">
-            {/* Free */}
-            <StaggerItem>
-              <div className="rounded-2xl p-9 space-y-7 h-full bg-white hover-lift" style={{ border: '1px solid #E5E0DB' }}>
-                <div>
-                  <h3 className="font-jakarta text-xl font-bold text-gray-900">{tp('free.title')}</h3>
-                  <p className="text-sm text-gray-500 mt-1">{tp('free.description')}</p>
-                </div>
-                <div>
-                  <span className="font-jakarta text-4xl font-extrabold text-gray-900">{tp('free.price')}</span>
-                </div>
-                <ul className="space-y-2.5 flex-1">
-                  {(tp.raw('free.features') as string[]).map((f) => (
-                    <li key={f} className="flex items-start gap-2.5">
-                      <CheckCircle2 className="h-4 w-4 text-gray-400 mt-0.5 flex-shrink-0" />
-                      <span className="text-gray-600 text-sm">{f}</span>
-                    </li>
-                  ))}
-                </ul>
-                <Link href={`/${locale}/register`} className="block">
-                  <button className="btn-landing w-full rounded-full py-3 font-semibold text-sm border border-gray-200 text-gray-700 hover:bg-gray-50 transition-colors">
-                    {t('pricing.ctaFree')}
-                  </button>
-                </Link>
-              </div>
-            </StaggerItem>
-
-            {/* Pro — highlighted */}
-            <StaggerItem>
-              <div
-                className="relative rounded-2xl overflow-hidden h-full"
-                style={{
-                  border: `2px solid ${ORANGE}`,
-                  boxShadow: `0 0 48px rgba(249,115,22,0.18), 0 20px 48px -10px rgba(0,0,0,0.08)`,
-                }}
-              >
-                <div className="py-2.5 text-center text-sm font-bold text-white" style={{ backgroundColor: ORANGE }}>
-                  {tp('popular')}
-                </div>
-                <div className="p-8 space-y-7 bg-white h-[calc(100%-42px)]">
-                  <div>
-                    <h3 className="font-jakarta text-xl font-bold text-gray-900">{tp('pro.title')}</h3>
-                    <p className="text-sm text-gray-500 mt-1">{tp('pro.description')}</p>
-                  </div>
-                  <div>
-                    <span className="font-jakarta text-4xl font-extrabold" style={{ color: ORANGE }}>
-                      {tp('pro.price')}
-                    </span>
-                    <span className="text-gray-500 ml-1 text-sm">{t('pricing.perMonth')}</span>
-                  </div>
-                  <ul className="space-y-2.5 flex-1">
-                    {(tp.raw('pro.features') as string[]).map((f) => (
-                      <li key={f} className="flex items-start gap-2.5">
-                        <CheckCircle2 className="h-4 w-4 mt-0.5 flex-shrink-0" style={{ color: ORANGE }} />
-                        <span className="text-gray-700 text-sm">{f}</span>
-                      </li>
-                    ))}
-                  </ul>
-                  <Link href={`/${locale}/register?plan=PRO`} className="block">
-                    <button
-                      className="btn-landing btn-cta-primary btn-shimmer w-full rounded-full py-3 font-bold text-sm text-white"
-                      style={{ backgroundColor: ORANGE }}
-                    >
-                      {t('pricing.ctaPro')}
-                    </button>
-                  </Link>
-                </div>
-              </div>
-            </StaggerItem>
-
-            {/* Enterprise */}
-            <StaggerItem>
-              <div className="rounded-2xl p-9 space-y-7 h-full bg-white hover-lift" style={{ border: '1px solid #E5E0DB' }}>
-                <div>
-                  <h3 className="font-jakarta text-xl font-bold text-gray-900">{tp('enterprise.title')}</h3>
-                  <p className="text-sm text-gray-500 mt-1">{tp('enterprise.description')}</p>
-                </div>
-                <div>
-                  <span className="font-jakarta text-3xl font-extrabold text-gray-900">{tp('enterprise.price')}</span>
-                </div>
-                <ul className="space-y-2.5 flex-1">
-                  {(tp.raw('enterprise.features') as string[]).map((f) => (
-                    <li key={f} className="flex items-start gap-2.5">
-                      <CheckCircle2 className="h-4 w-4 text-gray-400 mt-0.5 flex-shrink-0" />
-                      <span className="text-gray-600 text-sm">{f}</span>
-                    </li>
-                  ))}
-                </ul>
-                <a href="mailto:contact@foodtracks.io" className="block">
-                  <button className="btn-landing w-full rounded-full py-3 font-semibold text-sm border border-gray-200 text-gray-700 hover:bg-gray-50 transition-colors">
-                    {tp('contact')}
-                  </button>
-                </a>
-              </div>
-            </StaggerItem>
-          </StaggerContainer>
-
-          <AnimatedSection delay={0.3}>
-            <p className="text-center text-sm text-gray-400 mt-8">{t('pricing.disclaimer')}</p>
-          </AnimatedSection>
-
-          {/* Money-back guarantee badge */}
-          <AnimatedSection delay={0.4}>
-            <div className="flex justify-center mt-6">
-              <div
-                className="inline-flex items-center gap-2 rounded-full px-5 py-2.5 text-sm font-semibold"
-                style={{ backgroundColor: '#F0FDF4', border: '1px solid #BBF7D0', color: '#15803D' }}
-              >
-                <Shield className="h-4 w-4" />
-                {t('reassurance.guarantee')}
-              </div>
-            </div>
-          </AnimatedSection>
-        </div>
-      </section>
 
       {/* ══════════════════════════════════════
           REASSURANCE — 3 commitments, builds trust
@@ -1122,41 +789,30 @@ export default function HomeClient() {
           ══════════════════════════════════════ */}
       <section className="py-24 md:py-36 bg-white">
         <div className="container mx-auto px-5 sm:px-8 lg:px-16">
-          <AnimatedSection className="text-center max-w-3xl mx-auto mb-20">
-            <h2 className="font-jakarta text-3xl md:text-[2.75rem] font-bold text-gray-900 tracking-tight section-accent">
+          <AnimatedSection className="text-center max-w-3xl mx-auto mb-16">
+            <h2 className="font-jakarta text-3xl md:text-[2.75rem] font-bold mb-5 text-gray-900 tracking-tight section-accent">
               {t('faq.title')}
             </h2>
+            <p className="text-lg text-gray-500 leading-relaxed">{t('faq.subtitle')}</p>
           </AnimatedSection>
-          <div className="max-w-2xl mx-auto">
-            {(['q1', 'q2', 'q3', 'q4', 'q5', 'q6', 'q7', 'q8', 'q9'] as const).map((key) => (
-              <FAQItem
-                key={key}
-                question={t(`faq.${key}.question`)}
-                answer={t(`faq.${key}.answer`)}
-              />
-            ))}
-          </div>
+          <AnimatedSection delay={0.1}>
+            <div className="max-w-2xl mx-auto">
+              {(['q1', 'q2', 'q3', 'q4', 'q5', 'q6', 'q7'] as const).map((key) => (
+                <FAQItem
+                  key={key}
+                  question={t(`faq.${key}.question`)}
+                  answer={t(`faq.${key}.answer`)}
+                />
+              ))}
+            </div>
+          </AnimatedSection>
         </div>
       </section>
 
       {/* ══════════════════════════════════════
-          FINAL CTA — dark + food truck background
+          FOOTER CTA — dark bandeau + 2 CTAs
           ══════════════════════════════════════ */}
       <section className="relative py-28 md:py-40 overflow-hidden" style={{ backgroundColor: DARK }}>
-        <div className="absolute inset-0">
-          <Image
-            src="/Generated-Image-February-21_-2026-11_16AM.jpg"
-            alt="Food truck"
-            fill
-            sizes="100vw"
-            className="object-cover object-center opacity-20"
-          />
-          <div
-            className="absolute inset-0"
-            style={{ background: 'linear-gradient(to bottom, rgba(13,9,5,0.7) 0%, rgba(13,9,5,0.85) 100%)' }}
-          />
-        </div>
-
         <div className="absolute inset-0 bg-dot-grid pointer-events-none opacity-20" />
         <div
           className="absolute inset-0 pointer-events-none"
@@ -1165,27 +821,41 @@ export default function HomeClient() {
         <Particles />
 
         <div className="container relative mx-auto px-5 sm:px-8 lg:px-16">
-          <AnimatedSection className="text-center max-w-3xl mx-auto space-y-12">
+          <AnimatedSection className="text-center max-w-3xl mx-auto space-y-10">
             <h2 className="font-jakarta text-4xl md:text-5xl lg:text-6xl font-extrabold text-white leading-tight tracking-tight">
-              {t('cta.title')}
+              {t('footerCta.title')}
             </h2>
             <p className="text-xl leading-[1.7] max-w-xl mx-auto" style={{ color: '#8B8B8B' }}>
-              {t('cta.subtitle')}
+              {t('footerCta.subtitle')}
             </p>
-            <div className="flex flex-col items-center gap-6">
-              <Link href={`/${locale}/register?plan=PRO`}>
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+              <Link
+                href={`/${locale}/register?utm_source=home&utm_medium=footer_cta`}
+                data-track-component="home-footer-cta-primary"
+              >
                 <button
-                  className="btn-landing btn-cta-primary btn-shimmer inline-flex items-center justify-center gap-3 rounded-full font-bold px-14 py-5 text-lg text-white"
+                  className="btn-landing btn-cta-primary btn-shimmer inline-flex items-center justify-center gap-3 rounded-full font-bold px-12 py-5 text-lg text-white"
                   style={{ backgroundColor: ORANGE, boxShadow: '0 16px 48px -4px rgba(249,115,22,0.55)' }}
                 >
-                  {t('cta.button')}
+                  {t('footerCta.primary')}
                   <ArrowRight className="h-5 w-5" />
                 </button>
               </Link>
-              <p className="text-sm text-white/70">
-                {t('hero.noCreditCard')} · {t('hero.freeToStart')}
-              </p>
+              <Link
+                href={`/${locale}/pricing`}
+                data-track-component="home-footer-cta-secondary"
+              >
+                <button
+                  className="btn-landing inline-flex items-center justify-center gap-2 rounded-full font-medium px-8 py-4 text-base border transition-colors duration-200"
+                  style={{ borderColor: 'rgba(249,115,22,0.4)', color: ORANGE, backgroundColor: 'rgba(249,115,22,0.08)' }}
+                >
+                  {t('footerCta.secondary')}
+                </button>
+              </Link>
             </div>
+            <p className="text-sm" style={{ color: 'rgba(255,255,255,0.45)' }}>
+              {t('hero.noCreditCard')} · {t('hero.cancelAnytime')}
+            </p>
           </AnimatedSection>
         </div>
       </section>
