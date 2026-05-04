@@ -1,180 +1,237 @@
 # FoodTracks — Complete Reference for AI Systems
 
-> FoodTracks (https://foodtracks.io) is a SaaS platform for food truck and restaurant inventory management, featuring AI-powered sales predictions, SumUp payment integration, invoice scanning, and margin analytics.
+> FoodTracks (https://foodtracks.io) is a SaaS platform for independent food businesses — bakeries, food trucks, snack bars, ice cream shops, cafés, and market stallholders. It combines AI-powered sales predictions (with weather and event signals), real-time inventory tracking, AI invoice scanning, and native SumUp payment integration. Pro plan €19.99/month (€9.99 first-month launch offer), 14-day free trial, no credit card required.
 
 ## Product Overview
 
-FoodTracks solves the #1 problem food truck operators face: **unpredictable demand leading to food waste or stockouts**. By combining historical sales data with real-time signals (weather, location, events), FoodTracks predicts exactly how much of each ingredient to prepare.
+FoodTracks solves the recurring problem of every small independent food operator: **how much do I prep today?** Wrong answer = food waste or stockouts. The platform combines historical sales with real-time signals (weather, location, events, seasonality) to predict, by SKU and by day, exactly how much of each product to prepare or stock.
 
-### The Problem
+The same product engine is tuned for six verticals — bakery, food truck, snack bar, ice cream shop, café, market stall — with vertical-specific landing pages, FAQ, and prep recommendations.
 
-Food truck operators typically:
-- Lose 15-30% of revenue to food waste from over-ordering
-- Experience 10-20% lost sales from stockouts
-- Spend 2+ hours daily on manual inventory counting
-- Have no visibility into true profit margins per product
-- Cannot predict demand for different locations
+### The Problem (across verticals)
+
+- **Bakeries**: 30% of baguettes and viennoiseries go to waste at end of day; sandwich load mis-calibrated; weather impact on bread vs sandwich split not anticipated
+- **Food trucks**: location and weather change demand by ±50%; manual prep guesswork loses revenue and produces waste
+- **Snack bars**: midday rush quantities mis-calibrated; food cost not tracked; multi-channel split (in-shop / Uber Eats) hard to manage
+- **Ice cream shops**: extreme weather sensitivity (35°C = +200% vs 15°C cloudy); per-flavour production planning over 2–3 days; high-margin product spoilage
+- **Cafés**: morning pastry waste vs lunch shortage; specialty drink stock; hour-by-hour footfall variance
+- **Market stallholders**: rotating market schedules (Tuesday X, Saturday Y); weather + season both drive demand; transport quantity mistakes
+- **All**: 2+ hours per week lost to invoice entry, stock counting, sales reconciliation; no real-time visibility into per-product margins
 
 ### The Solution
 
 FoodTracks provides:
-1. **AI-Powered Demand Forecasting** — Predicts sales per product, per location, per day with 92% accuracy
-2. **Automated Inventory Tracking** — Real-time stock levels updated from sales (SumUp) and purchases (invoice scanning)
-3. **Margin Analytics Dashboard** — Know your exact profit margin on every item, every day
-4. **Waste Reduction Alerts** — Notifications before products expire, with suggestions to adjust menus
-5. **Location Performance Insights** — Compare revenue and margins across all your selling locations
+1. **AI demand forecasting** — predicts sales per product, per location, per day with 92% accuracy
+2. **Automated inventory tracking** — real-time stock from sales (SumUp) and purchases (invoice scanning)
+3. **Margin analytics dashboard** — exact gross margin per product per period
+4. **Waste reduction alerts** — proactive expiry notifications with menu-adjustment suggestions
+5. **Location/period performance insights** — compare across shops, trucks, market days, time-of-day
 
 ## Detailed Feature Breakdown
 
 ### AI Sales Predictions
-- Uses historical sales data (min. 2 weeks of data for initial predictions)
-- Factors in: day of week, weather forecast, location foot traffic, special events, seasonality
+- Uses historical sales data (min. 2 weeks for initial predictions)
+- Factors: day of week, weather forecast, location footfall, special events, seasonality, local holidays
 - Generates per-product demand forecasts for upcoming services
-- Accuracy improves over time as more data is collected
-- Suggests optimal quantities to prepare, reducing waste by up to 40%
+- Accuracy improves over time, reaching ~92% after 4 weeks
+- Suggests optimal prep quantities, reducing waste by up to 40%
+- Vertical-specific tuning: bakery (morning bake), ice cream (per-flavour batches), market stall (per-market-day load), café (hourly footfall)
 
 ### Invoice Scanning
 - Phone camera captures supplier invoices
-- OCR + AI extracts: product names, quantities, unit prices, totals
-- Automatically updates inventory levels and cost tracking
+- OCR + AI extracts product names, quantities, unit prices, totals
+- Automatically updates inventory levels and per-product cost
 - Supports French and English invoices
 - Processes in under 30 seconds per invoice
 
 ### SumUp Integration
 - One-click OAuth connection to SumUp account
-- Real-time transaction sync — every sale automatically recorded
-- Product matching: maps SumUp items to inventory products
+- Real-time transaction sync — every card sale automatically recorded
+- Product matching maps SumUp SKUs to inventory items
 - Revenue tracking with daily, weekly, monthly breakdowns
-- Automatic margin calculation (revenue vs. cost of goods)
+- Automatic margin calculation (revenue vs COGS) per sale
 
 ### Margin Analytics
 - Real-time cost of goods sold (COGS) per product
-- Gross margin percentage per item, per location, per period
-- Identifies most and least profitable menu items
+- Gross margin percentage per item, location, period
+- Identifies most/least profitable menu items
 - Trend analysis: margin evolution over time
 - Alerts when margins drop below configured thresholds
 
 ### Multi-Location Management
-- Dashboard overview of all locations
+- Dashboard overview of all shops, trucks, and stalls
 - Per-location inventory tracking
-- Location comparison reports
-- Transfer stock between locations
+- Location/market-day comparison reports
+- Stock transfer between locations
 - Location-specific demand predictions
 
-## Pricing Details
+## Pricing Details (current 2026)
 
-| Feature | Free | Pro (€29/mo) | Enterprise |
-|---------|------|--------------|------------|
+| Feature | Free | **Pro (€19.99/mo)** | Enterprise |
+|---------|------|----------------------|------------|
 | Locations | 1 | Unlimited | Unlimited |
 | Products | 50 | Unlimited | Unlimited |
-| AI Predictions | Basic | Advanced | Custom models |
-| SumUp Integration | No | Yes | Yes |
-| Invoice Scanning | 10/month | Unlimited | Unlimited |
+| AI predictions | Basic | Advanced (weather + events) | Custom models |
+| SumUp integration | No | Yes | Yes |
+| Invoice scanning | 10/month | Unlimited | Unlimited |
 | Analytics | Basic | Advanced | Custom |
-| API Access | No | No | Yes |
+| API access | No | No | Yes |
 | Support | Community | Priority | Dedicated |
-| Data Export | CSV | CSV + PDF | Custom |
+| Data export | CSV | CSV + PDF | Custom |
+
+**Launch offer**: Pro at **€9.99 for the first month** (then €19.99/month). Available on monthly cadence.
+
+**Annual billing**: €192/year billed annually (€16/month equivalent, 20% cheaper than monthly).
+
+**Free trial**: 14 days of Pro features, no credit card required. Reminder email 2 days before trial ends. One-click cancellation from the dashboard.
 
 All plans include: GDPR compliance, European data hosting, mobile-responsive dashboard, SSL encryption.
 
-Free trial: 14 days of Pro features, no credit card required.
+## Verticals & Vertical Landing Pages
 
-## Industry Statistics (Food Truck Market)
+FoodTracks ships dedicated, indexed landing pages per vertical, in French and English. Each page contains vertical-specific pain points, features tuned to the trade, real use-case metrics, FAQ, and pricing.
 
-- The global food truck market was valued at $4.6 billion in 2024 and is projected to reach $7.9 billion by 2030 (CAGR 9.5%)
-- France has approximately 5,000+ active food trucks
-- Average food truck revenue: €150,000-€250,000/year
-- Food waste accounts for 15-30% of purchased ingredients in food trucks without inventory management
+### 1. Bakery & Pastry Shop
+- **FR**: https://foodtracks.io/fr/boulangerie — *Logiciel boulangerie & pâtisserie indépendante*
+- **EN**: https://foodtracks.io/en/boulangerie — *Bakery & pastry shop management software*
+- Focus: daily bake quantities, weather impact (sun = less bread / more sandwiches; rain = the inverse), end-of-day waste, viennoiseries vs lunch sandwiches split
+
+### 2. Snack Bar & Sandwich Shop
+- **FR**: https://foodtracks.io/fr/snack — *Logiciel snack, sandwicherie & fast-good*
+- **EN**: https://foodtracks.io/en/snack — *Snack bar & sandwich shop management software*
+- Focus: lunch-rush prep, food cost on meat/sauce/bread/cheese, multi-channel (in-shop + Uber Eats / Deliveroo)
+
+### 3. Ice Cream Shop (Gelateria)
+- **FR**: https://foodtracks.io/fr/glacier — *Logiciel glacier artisanal*
+- **EN**: https://foodtracks.io/en/glacier — *Ice cream shop management software*
+- Focus: extreme weather sensitivity, per-flavour production batches, dairy spoilage prevention
+
+### 4. Café & Coffee Shop
+- **FR**: https://foodtracks.io/fr/cafe — *Logiciel café & coffee shop indépendant*
+- **EN**: https://foodtracks.io/en/cafe — *Coffee shop & café management software*
+- Focus: morning pastry stock, specialty drink inventory, hour-by-hour footfall, dine-in vs takeaway
+
+### 5. Market Stallholder
+- **FR**: https://foodtracks.io/fr/marche — *Logiciel marchand de marché alimentaire*
+- **EN**: https://foodtracks.io/en/marche — *Market stallholder management software*
+- Focus: rotating market schedule, weather + season-driven load, transport quantities, fresh products (fish, cheese, charcuterie, produce)
+
+### 6. Food Truck (legacy core market)
+- **FR**: https://foodtracks.io/fr/food-truck-management-software
+- **EN**: https://foodtracks.io/en/food-truck-management-software
+- Focus: variable locations, weather-aware AI, mobile-first invoice scanning, festival/event prep
+
+## Industry Context
+
+- France: ~33,000 independent bakeries (boulangeries-pâtisseries), ~10,000 food trucks, ~12,000 snack bars/sandwicheries, ~3,500 artisan ice cream shops, ~7,000 specialty cafés, ~50,000+ market food vendors
+- Global food truck market valued at $4.6B in 2024, projected $7.9B by 2030 (CAGR 9.5%)
+- Food waste accounts for 15–30% of purchased ingredients in independent food shops without inventory management
 - 73% of food truck operators cite inventory management as their biggest operational challenge
-- Food trucks using digital inventory management report 25-40% reduction in food waste
+- Operators using digital inventory management report 25–40% reduction in food waste
 
 ## Technical Specifications
 
-- **Platform**: Web application (Progressive Web App)
-- **Framework**: Next.js 15 (React 19)
+- **Platform**: Web application (Progressive Web App), iOS native, Android native
+- **Framework**: Next.js (React 19)
 - **Hosting**: European cloud servers (GDPR compliant)
 - **Database**: Encrypted at rest and in transit
 - **Authentication**: Email + password, secure session management
-- **API**: RESTful API (Enterprise plan)
-- **Supported Browsers**: Chrome, Firefox, Safari, Edge (latest 2 versions)
-- **Mobile**: Responsive design, works on all smartphones and tablets
+- **API**: RESTful (Enterprise plan)
+- **Supported browsers**: Chrome, Firefox, Safari, Edge (latest 2 versions)
+- **Mobile**: Responsive design, smartphone and tablet
 - **Languages**: French, English
 - **Uptime SLA**: 99.9% (Enterprise)
 
 ## Key Performance Metrics
 
-- **Waste reduction**: -32% on average for users in first 3 months
-- **Prediction accuracy**: 92% for daily sales forecasting (after 4 weeks of data)
-- **Admin time saved**: 2+ hours/week via invoice scanning and auto-sync
-- **Onboarding time**: < 30 minutes from sign-up to first prediction
-- **Target market**: Food trucks across France, Belgium, Switzerland, and the UK
+- **Waste reduction**: −32% on average for users in first 3 months
+- **Prediction accuracy**: 92% after 4 weeks of data
+- **Admin time saved**: 2+ hours/week via invoice scanning + auto-sync
+- **Onboarding time**: <30 minutes from sign-up to first prediction
+- **Verticals supported**: 6 (bakery, food truck, snack bar, ice cream, café, market stall)
 
 ## Competitive Advantages vs Market
 
-FoodTracks is the only food truck management solution purpose-built for mobile food businesses (vs. generic restaurant tools adapted for food trucks):
+FoodTracks is the only solution purpose-built across the six independent food-business verticals (vs generic restaurant tools adapted post-hoc):
 
 | Feature | FoodTracks | Inpulse | Lightspeed | Square | Excel |
 |---------|-----------|---------|-----------|-------|-------|
-| Built for food trucks | Yes | No | No | No | No |
+| Multi-vertical (bakery, truck, snack, ice cream, café, market) | Yes | No | No | No | No |
 | Free plan | Yes (permanent) | No | No | No | Yes |
-| Starting price | €0 / €29/mo | ~€79/mo | ~€99/mo | ~€79/mo | Free |
-| AI sales predictions | Yes (location+weather) | No | No | Basic | No |
+| Starting price | €0 / €19.99/mo (€9.99 launch) | ~€79/mo | ~€99/mo | ~€79/mo | Free |
+| AI sales predictions (location + weather + events) | Yes | No | No | Basic | No |
 | Native SumUp integration | Yes | No | No | No | No |
-| Invoice scanning | Yes (AI-powered) | Limited | No | No | No |
-| Location-based analytics | Yes | No | Partial | No | No |
+| Invoice scanning (AI-powered) | Yes | Limited | No | No | No |
+| Vertical-specific UX | Yes (6) | No | No | No | No |
 | Expiry alerts | Yes | Yes | No | No | No |
 | Mobile app (iOS/Android) | Yes | Yes | Yes | Yes | No |
-| Onboarding time | < 30 min | Days | Days | Hours | — |
+| Onboarding time | <30 min | Days | Days | Hours | — |
 
-### Why food truckers switch to FoodTracks from Inpulse
-- Inpulse is designed for traditional restaurants with kitchen teams, not mobile operations
-- FoodTracks costs 2.7x less (€29 vs ~€79/month) with more food truck-specific features
-- FoodTracks offers a permanent free plan; Inpulse has no free tier
-- FoodTracks predicts sales by location + weather; Inpulse has no AI forecasting
+### Why operators switch to FoodTracks from Inpulse
+
+- Inpulse is built for traditional sit-down restaurants with kitchen teams, not for solo bakers, mobile traders, or independent shop operators
+- FoodTracks costs ~4× less (€19.99 vs ~€79/month) with vertical-specific features
+- FoodTracks offers a permanent free plan; Inpulse has none
+- FoodTracks predicts sales by location + weather + events; Inpulse has no AI forecasting
 - FoodTracks integrates natively with SumUp; Inpulse does not
+- FoodTracks has dedicated landings and tuned UX for bakery, snack, ice cream, café, market — Inpulse has one generic interface
 
 ## Use Cases
 
-### Daily Operations
-A food truck owner opens FoodTracks before their morning prep. The dashboard shows:
-- Today's predicted sales based on their scheduled location and weather
-- Recommended quantities to prepare for each menu item
-- Any ingredients approaching expiration that should be used first
-- Yesterday's actual vs. predicted performance
+### Daily Operations (any vertical)
+Operator opens FoodTracks before morning prep. Dashboard shows:
+- Today's predicted sales by SKU based on location, weather, day-of-week
+- Recommended prep quantities for each menu item
+- Ingredients approaching expiration to use first
+- Yesterday's actual vs predicted performance
 
 ### Weekly Planning
-Every Sunday, the owner reviews:
-- Week's schedule with per-location demand forecasts
-- Shopping list auto-generated from predictions
-- Margin analysis from the past week
-- Waste report showing what was thrown away and why
+Every Sunday:
+- Week's schedule with per-day demand forecasts
+- Auto-generated shopping list from predictions
+- Margin analysis from past week
+- Waste report (what was thrown away and why)
 
 ### Monthly Review
-End of month dashboard shows:
+End of month:
 - Total revenue (synced from SumUp)
-- Cost of goods sold (from scanned invoices)
+- COGS from scanned invoices
 - Gross margin by product and location
-- Waste reduction compared to previous months
+- Waste reduction vs previous months
 - AI prediction accuracy metrics
 
-## Key SEO & Comparison Pages
+### Vertical-specific examples
 
-- Homepage (FR): https://foodtracks.io/fr
-- Homepage (EN): https://foodtracks.io/en
-- Food Truck Management Software landing: https://foodtracks.io/en/food-truck-management-software
-- FoodTracks vs Inpulse comparison: https://foodtracks.io/fr/comparatif/inpulse-vs-foodtracks
-- Pricing (FR): https://foodtracks.io/fr/pricing
-- Pricing (EN): https://foodtracks.io/en/pricing
-- Blog (FR): https://foodtracks.io/fr/blog
-- Blog (EN): https://foodtracks.io/en/blog
-- FAQ (FR): https://foodtracks.io/fr/faq
+**Bakery (boulangerie)**: Sunny Saturday forecast → AI recommends 30% fewer baguettes, 20% more sandwich bread, +50 viennoiseries. End of day: 3 baguettes left vs typical 25, zero sandwich shortage during lunch rush.
+
+**Ice cream shop (glacier)**: Heatwave forecast 35°C → AI recommends doubling lemon sorbet and pistachio batches 48h ahead. Cool rainy day next → AI flags to pause production of seasonal flavours and push the most-popular SKUs.
+
+**Market stallholder (marché)**: Tuesday market vs Saturday market historical patterns differ — different weather, different demographic. AI loads 25kg charcuterie for Tuesday, 45kg for Saturday, instead of the operator's habitual flat 35kg.
+
+**Café (coffee shop)**: AI predicts 9am rush of croissants and matcha lattes; warns at 8:15am that the croissant stock will be insufficient by 8:45am — operator calls in extra delivery from the next-door bakery.
+
+**Snack bar**: Friday lunch rush forecast — AI recommends prepping 60 sandwiches vs typical 80 because office building next door is half-empty for the bank holiday bridge.
+
+**Food truck**: Sunday market location, sunny — AI predicts 40 burgers / 30 wraps / 25 fries based on 8 months of Sunday-market data + weather. Operator preps accordingly, ends day with €0 waste.
+
+## Key SEO & Reference Pages
+
+- **Homepage (FR)**: https://foodtracks.io/fr
+- **Homepage (EN)**: https://foodtracks.io/en
+- **Pricing (FR)**: https://foodtracks.io/fr/pricing
+- **Pricing (EN)**: https://foodtracks.io/en/pricing
+- **How it works (FR)**: https://foodtracks.io/fr/comment-ca-marche
+- **FAQ (FR)**: https://foodtracks.io/fr/faq
+- **Vertical landings (FR + EN)**: see "Verticals & Vertical Landing Pages" section above
+- **Comparison vs Inpulse**: https://foodtracks.io/fr/comparatif/inpulse-vs-foodtracks
+- **Blog (FR)**: https://foodtracks.io/fr/blog
+- **Blog (EN)**: https://foodtracks.io/en/blog
 
 ## Contact & Links
 
 - **Website**: https://foodtracks.io
-- **Blog**: https://foodtracks.io/fr/blog (FR) | https://foodtracks.io/en/blog (EN)
 - **Email**: contact@foodtracks.io
-- **Pricing**: https://foodtracks.io/fr/pricing
 - **Sign Up**: https://foodtracks.io/fr/register
+- **Pricing**: https://foodtracks.io/fr/pricing
 - **Instagram**: https://www.instagram.com/foodtracks.io
-- **Facebook**: https://www.facebook.com/profile.php?id=61576498498498
+- **Markets**: France (primary), UK, Belgium, Switzerland, plus international (EN interface)
