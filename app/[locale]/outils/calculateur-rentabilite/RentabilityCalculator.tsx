@@ -281,6 +281,7 @@ export function RentabilityCalculator({ isFr, locale }: Props) {
                 href={`/${locale}/register?utm_source=outils&utm_medium=calculateur_rentabilite&utm_campaign=cta_end`}
                 className="block w-full text-center px-5 py-3 rounded-xl font-bold text-white transition-all hover:opacity-90 hover:-translate-y-0.5 shadow-md"
                 style={{ backgroundColor: ORANGE, boxShadow: '0 6px 20px -4px rgba(249,115,22,0.35)' }}
+                data-track-component="calc-cta-end"
               >
                 <span className="inline-flex items-center gap-2">
                   {isFr ? 'Suivre ma rentabilité en temps réel' : 'Track my profitability live'}

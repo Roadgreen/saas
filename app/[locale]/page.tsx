@@ -140,12 +140,13 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4 items-start sm:items-center">
-                {/* Primary CTA points to /demo to honor the new hero copy
-                    ("Voir ma prévision de demain"). The demo page itself
-                    funnels to /register via its final CTA, removing the
-                    expectation-mismatch we had with a direct registration
-                    form behind a "see the forecast" promise. */}
-                <Link href={`/${locale}/demo?utm_source=home&utm_medium=hero_primary`}>
+                {/* Primary CTA goes straight to /register: the previous
+                    /demo detour produced 0 page-views in 30 days while the
+                    direct blog→register funnel kept converting. SEO
+                    visitors arrive in info-seeking mode and respond to the
+                    explicit "free trial" promise more than to a "see the
+                    forecast" softening that hides the actual ask. */}
+                <Link href={`/${locale}/register?utm_source=home&utm_medium=hero_primary`}>
                   <button
                     className="btn-landing btn-cta-primary btn-shimmer inline-flex items-center justify-center gap-3 rounded-full font-bold px-10 py-4.5 text-white text-base"
                     style={{ backgroundColor: ORANGE, boxShadow: '0 12px 40px -4px rgba(249,115,22,0.5)' }}
