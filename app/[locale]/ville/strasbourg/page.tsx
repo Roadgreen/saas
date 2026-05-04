@@ -5,6 +5,7 @@ import {
   Package, ChefHat, ChevronDown, TrendingUp, Star,
 } from 'lucide-react';
 import { LandingHeader } from '@/components/landing/Header';
+import { CityVerticalsBridge } from '@/components/landing/CityVerticalsBridge';
 import { routing } from '@/i18n/routing';
 
 const BASE_URL = 'https://foodtracks.io';
@@ -429,6 +430,8 @@ export default async function StrasbourgFoodTruckPage({
           </div>
         </div>
       </section>
+
+      <CityVerticalsBridge locale={locale} cityName="Strasbourg" />
 
       {/* FAQ */}
       <section className="py-24 md:py-36 bg-white">
