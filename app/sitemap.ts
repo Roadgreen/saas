@@ -47,6 +47,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: '/comparatif/melba-vs-foodtracks',     changeFrequency: 'monthly', priority: 0.8, lastModified: '2026-03-20' },
     { path: '/food-truck-management-software', changeFrequency: 'monthly', priority: 0.8, lastModified: '2026-03-15' },
     { path: '/outils/calculateur-rentabilite', changeFrequency: 'monthly', priority: 0.8, lastModified: today },
+    { path: '/boulangerie', changeFrequency: 'monthly', priority: 0.8, lastModified: today },
+    { path: '/snack',       changeFrequency: 'monthly', priority: 0.8, lastModified: today },
+    { path: '/glacier',     changeFrequency: 'monthly', priority: 0.8, lastModified: today },
+    { path: '/cafe',        changeFrequency: 'monthly', priority: 0.8, lastModified: today },
+    { path: '/marche',      changeFrequency: 'monthly', priority: 0.8, lastModified: today },
     { path: '/privacy',          changeFrequency: 'yearly',  priority: 0.3, lastModified: '2025-12-01' },
     { path: '/terms',            changeFrequency: 'yearly',  priority: 0.3, lastModified: '2025-12-01' },
   ];

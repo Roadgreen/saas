@@ -217,16 +217,17 @@ export default function HomeClient() {
 
           <StaggerContainer className="grid grid-cols-2 md:grid-cols-3 gap-5 max-w-4xl mx-auto">
             {([
-              { key: 'bakery',    Icon: Wheat    },
-              { key: 'foodtruck', Icon: Truck    },
-              { key: 'snack',     Icon: Sandwich },
-              { key: 'icecream',  Icon: IceCream },
-              { key: 'cafe',      Icon: Coffee   },
-              { key: 'market',    Icon: Tent     },
-            ] as const).map(({ key, Icon }) => (
+              { key: 'bakery',    Icon: Wheat,    href: `/${locale}/boulangerie` },
+              { key: 'foodtruck', Icon: Truck,    href: `/${locale}/food-truck-management-software` },
+              { key: 'snack',     Icon: Sandwich, href: `/${locale}/snack` },
+              { key: 'icecream',  Icon: IceCream, href: `/${locale}/glacier` },
+              { key: 'cafe',      Icon: Coffee,   href: `/${locale}/cafe` },
+              { key: 'market',    Icon: Tent,     href: `/${locale}/marche` },
+            ] as const).map(({ key, Icon, href }) => (
               <StaggerItem key={key}>
-                <div
-                  className="rounded-2xl p-6 h-full flex flex-col gap-4 hover-lift transition-all duration-200"
+                <Link
+                  href={href}
+                  className="rounded-2xl p-6 h-full flex flex-col gap-4 hover-lift transition-all duration-200 block"
                   style={{ backgroundColor: '#FAFAF8', border: '1px solid #E5E0DB' }}
                   data-track-component={`home-verticals-${key}`}
                 >
@@ -244,7 +245,7 @@ export default function HomeClient() {
                       {t(`verticals.items.${key}.use`)}
                     </p>
                   </div>
-                </div>
+                </Link>
               </StaggerItem>
             ))}
           </StaggerContainer>
