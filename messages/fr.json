@@ -257,6 +257,18 @@
                 }
             }
         },
+        "problem": {
+            "title": "Ça te parle ?",
+            "subtitle": "Boulangers, snackeurs, glaciers, cafés, marchés, food trucks : tous les commerces alimentaires font face aux mêmes douleurs.",
+            "photoQuote": "Chaque matin, la même question :",
+            "photoAnswer": "\"Combien est-ce que je prépare aujourd'hui ?\"",
+            "guessTitle": "Combien préparer ?",
+            "guessDesc": "Chaque matin tu devines combien produire. Trop = gaspillage. Pas assez = ventes perdues et clients déçus.",
+            "spotTitle": "Chaque jour, sa clientèle",
+            "spotDesc": "Pluie, soleil, jour férié, paye, fin de mois : la demande change. Mais tu prépares pareil par habitude.",
+            "shortageTitle": "Rupture en plein rush",
+            "shortageDesc": "12h30, 30 commandes, et tu réalises qu'il manque la moitié des ingrédients. Trop tard pour réagir."
+        },
         "howItWorks": {
             "title": "Comment ça marche",
             "subtitle": "De la connexion de ta caisse aux prévisions du lendemain, en trois étapes.",

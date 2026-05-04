@@ -257,6 +257,18 @@
                 }
             }
         },
+        "problem": {
+            "title": "Sound familiar?",
+            "subtitle": "Bakers, snack bars, gelaterias, cafés, market stalls, food trucks: every food business hits the same daily pain points.",
+            "photoQuote": "Every morning, the same question:",
+            "photoAnswer": "\"How much do I prep today?\"",
+            "guessTitle": "How much to prep?",
+            "guessDesc": "Every morning you guess how much to make. Too much = waste. Too little = lost sales and disappointed customers.",
+            "spotTitle": "Every day, a different crowd",
+            "spotDesc": "Rain, sunshine, payday, holidays, weather changes: demand shifts. But out of habit you prep the same.",
+            "shortageTitle": "Stockout mid-rush",
+            "shortageDesc": "12:30 PM, 30 orders in, and you realise half the ingredients are gone. Too late to react."
+        },
         "howItWorks": {
             "title": "How it works",
             "subtitle": "From connecting your till to getting tomorrow's forecast, in three steps.",
