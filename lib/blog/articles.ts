@@ -28618,6 +28618,480 @@ The key is to **structure your offer**, **secure every booking with a contract**
       "menu-food-truck-rentable",
     ],
   },
+  {
+    slug: "food-truck-ete-checklist-saison-estivale",
+    title: {
+      fr: "Food truck et été : checklist complète pour préparer la saison estivale",
+      en: "Food Truck Summer Season: Complete Checklist to Prepare",
+    },
+    excerpt: {
+      fr: "L'été est la saison la plus rentable pour les food trucks. Voici la checklist complète pour préparer votre matériel, votre menu, vos emplacements et votre équipe avant les grandes chaleurs.",
+      en: "Summer is the most profitable season for food trucks. Here's the complete checklist to prepare your equipment, menu, locations and team before the heat hits.",
+    },
+    category: { fr: "Gestion", en: "Management" },
+    date: "2026-05-04",
+    readTime: 11,
+    keywords: [
+      "food truck été",
+      "préparer food truck saison estivale",
+      "checklist food truck été",
+      "food truck saison",
+      "conseils food truck été",
+    ],
+    heroImage: "/blog/planning-semaine.png",
+    content: {
+      fr: `## Pourquoi l'été est une saison clé pour les food trucks
+
+L'été représente souvent **40 à 60 % du chiffre d'affaires annuel** d'un food truck. Festivals, marchés nocturnes, plages, parcs, événements d'entreprise en plein air — la demande explose entre mai et septembre. Mais cette saison se prépare des semaines à l'avance. Un food trucker qui arrive en juin sans avoir anticipé risque de laisser passer les meilleures opportunités.
+
+Cette checklist couvre tout : matériel, menu, emplacements, équipe et gestion de trésorerie.
+
+---
+
+## 1. Révision complète du matériel
+
+### Entretien préventif avant les pics de chaleur
+
+La chaleur est l'ennemie de vos équipements. Avant le démarrage de la saison :
+
+- **Groupe froid** : faites vérifier le circuit de réfrigération, les joints et le niveau de gaz. Un frigo qui tombe en service par 35°C, c'est une journée de pertes sèches.
+- **Groupe électrogène** : vidange, filtre à air, bougies si essence. Chargez-le à blanc 30 minutes pour détecter les anomalies.
+- **Ventilation de la cabine** : nettoyez les filtres, vérifiez le bon fonctionnement. Travailler à 50°C dans un camion mal ventilé est dangereux (coup de chaleur, erreurs de service).
+- **Friteuses et plaques** : dégraissage complet, contrôle des thermostats, vérification des sécurités.
+- **Groupe de nettoyage** : vérifiez la pression du nettoyeur haute pression si vous en avez un.
+
+### Révision du camion ou de la remorque
+
+- Contrôle technique à jour ?
+- Pneus en bon état (gonflage, usure) — les longs trajets vers les festivals s'accumulent
+- Climatisation cabine : gaz, filtres, courroie
+
+### Stock de consommables
+
+Anticipez les ruptures en haute saison :
+- Contenants, couverts, sacs — les ruptures fournisseurs sont fréquentes l'été
+- Huile de friture × 2 (consommation double par forte chaleur)
+- Désinfectants, gants, EPI HACCP
+- Rouleaux papier TPE
+
+---
+
+## 2. Adapter votre menu à l'été
+
+### Produits qui fonctionnent par temps chaud
+
+Les comportements d'achat changent avec la chaleur. Vos clients préfèrent :
+
+- **Plats froids ou tièdes** : pokés, salades composées, sandwichs frais, wraps
+- **Boissons fraîches** : eau pétillante artisanale, limonades maison, thés glacés — marges excellentes
+- **Petits formats rapides** : les clients debout, en festival ou en terrasse veulent manger vite
+- **Options végé et vegan** : demande en forte hausse l'été, notamment sur les festivals éco
+
+### Produits à éviter ou limiter
+
+- Plats très gras ou très chauds (difficiles à avaler par 30°C)
+- Ingrédients fragiles à la chaleur (crème fraîche, œufs) — pertes et risques HACCP
+- Desserts glacés maison sans chambre froide adaptée
+
+### Adapter votre carte de saison
+
+Créez une **carte été** distincte de votre carte hiver. Cela vous permet :
+- De sourcer des produits de saison (courgettes, tomates, pastèque) moins chers
+- D'afficher un message marketing ("carte estivale") qui attire la curiosité
+- D'optimiser votre coût matière en vous alignant sur les prix de saison
+
+Avec **FoodTracks**, calculez le coût de revient de chaque nouvelle recette d'été avant de la valider pour ne pas dégrader votre marge.
+
+---
+
+## 3. Réserver vos emplacements à l'avance
+
+### Les meilleures opportunités estivales
+
+- **Festivals de musique** : dossiers à déposer de mars à mai pour les événements de juillet-août
+- **Marchés nocturnes** : contactez les mairies dès avril — les places sont limitées
+- **Plages et bords de lac** : autorisations de la commune ou du gestionnaire du site
+- **Événements sportifs** : triathlon, trail, cyclosportive — public captif et dépensier
+- **Événements d'entreprise** : team building, pique-niques corporate — à prospecter auprès des DRH
+
+### Erreurs à éviter
+
+- Attendre juillet pour réserver juillet : c'est trop tard dans 90 % des cas
+- Multiplier les emplacements non confirmés sans avoir vérifié la rentabilité prévisionnelle
+- Ignorer les coûts de droit de place (15 à 25 % du CA brut sur certains festivals)
+
+### Calculer la rentabilité d'un emplacement estival
+
+Avant de valider un festival ou marché, estimez :
+
+| Paramètre | Exemple |
+|---|---|
+| Fréquentation estimée | 500 à 800 couverts/jour |
+| Ticket moyen | 12 € |
+| CA brut estimé | 6 000 à 9 600 € |
+| Droit de place | 15 % = 900 à 1 440 € |
+| Coût matière (30 %) | 1 800 à 2 880 € |
+| Charges fixes déplacement | 300 à 500 € |
+| **Marge nette estimée** | **3 500 à 5 700 €** |
+
+Ce calcul préalable évite de "se faire avoir" par des événements visuellement attractifs mais économiquement médiocres.
+
+---
+
+## 4. Préparer votre équipe
+
+### Recruter tôt
+
+L'été, tout le monde recrute. Un bon extra en service ou en cuisine se réserve de préférence en avril-mai. Attendez juin et les bons profils sont déjà pris.
+
+Pour des événements ponctuels, pensez aux :
+- Étudiants en formation hôtellerie/restauration (stages pratiques)
+- Extras déclarés via les plateformes de mise en relation (Brigad, Extracadabra)
+- Anciens employés saisonniers fiables
+
+### Former et briefer l'équipe
+
+Avant la haute saison :
+- **HACCP** : rappel des règles de chaîne du froid, surtout par forte chaleur
+- **Procédures de service** : temps de sortie par plat, communication en caisse
+- **Gestion du stress** : service en festival = flux discontinus avec des pics à 200 personnes en 30 minutes
+
+### Planifier les planning à l'avance
+
+Construisez votre planning juillet-août en juin. Anticipez les demandes de congés, les jours fériés, les événements chevauchants. En haute saison, une absence imprévue peut sabrer une journée entière.
+
+---
+
+## 5. Gestion financière de la saison
+
+### Constituer une trésorerie tampon
+
+L'été génère beaucoup de cash, mais aussi beaucoup de dépenses imprévues :
+- Pannes de matériel par la chaleur
+- Achats supplémentaires de stock en urgence
+- Frais de déplacement pour les festivals lointains
+
+Gardez **1 à 2 mois de charges fixes** disponibles avant de commencer la saison. Ne redistribuez pas tout dès les premières bonnes semaines.
+
+### Séparer les recettes par emplacement
+
+Suivez vos revenus par emplacement estival pour savoir où vous êtes le plus rentable. Certains festivals "de prestige" sont moins rentables que le marché du jeudi matin près de chez vous — chiffres à l'appui.
+
+Avec **FoodTracks**, taguez chaque service par emplacement et comparez vos marges nettes en temps réel. Vous saurez en un coup d'œil quels événements méritent d'être reconduits l'année prochaine.
+
+### Anticiper la fiscalité
+
+Un bon été peut générer un surplus de bénéfice imposable. Consultez votre comptable dès juin pour :
+- Évaluer les acomptes IS ou IR à provisionner
+- Vérifier si des investissements matériel peuvent être amortis avant la clôture
+- Planifier une éventuelle distribution ou mise en réserve
+
+---
+
+## Checklist rapide : les 30 actions à faire avant le 1er juin
+
+**Matériel**
+- [ ] Révision groupe froid et réfrigération
+- [ ] Vidange groupe électrogène
+- [ ] Vérification ventilation cabine
+- [ ] Contrôle technique camion/remorque
+- [ ] Stock consommables × 2
+
+**Menu**
+- [ ] Carte été validée avec coûts de revient calculés
+- [ ] Sourcing produits de saison
+- [ ] Test des nouvelles recettes en service réel
+- [ ] Boissons fraîches ajoutées
+
+**Emplacements**
+- [ ] Dossiers festivals déposés
+- [ ] Marchés nocturnes confirmés
+- [ ] Plages/espaces publics autorisations en cours
+- [ ] Calendrier estival complet mis à jour
+
+**Équipe**
+- [ ] Extras recrutés et confirmés
+- [ ] Planning juillet-août finalisé
+- [ ] Briefing HACCP chaleur effectué
+- [ ] Procédures de service actualisées
+
+**Finance**
+- [ ] Trésorerie tampon constituée
+- [ ] Suivi par emplacement activé sur FoodTracks
+- [ ] RDV comptable planifié
+
+---
+
+## Conclusion
+
+L'été ne pardonne pas l'improvisation. Les food truckers qui font les meilleures saisons sont ceux qui ont réservé leurs emplacements en mars, révisé leur matériel en avril et recruté leur équipe en mai. Le travail de préparation se fait pendant la saison creuse — et c'est exactement ce qui fait la différence sur votre résultat annuel.
+
+**Articles connexes :** [Gérer la saison creuse en food truck](/fr/blog/food-truck-saison-creuse-strategies) · [Calculer le coût de revient d'une recette](/fr/blog/calculer-cout-revient-recette-food-truck) · [Trouver les meilleurs emplacements food truck](/fr/blog/trouver-meilleurs-emplacements-food-truck) · [Planning semaine food truck](/fr/blog/planning-semaine-food-truck)`,
+      en: `## Why Summer Is a Key Season for Food Trucks
+
+Summer often accounts for **40 to 60% of a food truck's annual revenue**. Festivals, night markets, beaches, parks, outdoor corporate events — demand explodes between May and September. But this season requires preparation weeks in advance. A food trucker who arrives in June without having planned ahead risks missing the best opportunities.
+
+This checklist covers everything: equipment, menu, locations, team and cash flow management.
+
+---
+
+## 1. Full Equipment Overhaul
+
+### Preventive Maintenance Before the Heat
+
+Heat is the enemy of your equipment. Before the season starts:
+
+- **Refrigeration unit**: have the cooling circuit, seals and gas level checked. A fridge that breaks down during service on a 35°C day means a complete day of losses.
+- **Generator**: oil change, air filter, spark plugs if petrol. Run it under load for 30 minutes to detect anomalies.
+- **Cabin ventilation**: clean filters, check it works properly. Working at 50°C in a poorly ventilated truck is dangerous (heat stroke, service errors).
+- **Fryers and hotplates**: full degreasing, thermostat check, safety device verification.
+- **Cleaning equipment**: check your pressure washer if you have one.
+
+### Vehicle or Trailer Service
+
+- MOT up to date?
+- Tyres in good condition (pressure, wear) — festival mileage adds up fast
+- Cab air conditioning: gas, filters, belt
+
+### Consumables Stock
+
+Get ahead of summer shortages:
+- Packaging, cutlery, bags — supplier stockouts are common in summer
+- Frying oil × 2 (consumption doubles in high heat)
+- Disinfectants, gloves, HACCP PPE
+- Till roll paper
+
+---
+
+## 2. Adapt Your Menu for Summer
+
+### Products That Work in Hot Weather
+
+Buying behaviour changes with the heat. Your customers prefer:
+
+- **Cold or warm dishes**: poke bowls, composed salads, fresh sandwiches, wraps
+- **Cold drinks**: sparkling water, homemade lemonade, iced tea — excellent margins
+- **Small quick formats**: customers standing at a festival or terrace want to eat fast
+- **Veggie and vegan options**: demand surges in summer, especially at eco-friendly festivals
+
+### Products to Avoid or Limit
+
+- Very fatty or very hot dishes (hard to eat in 30°C heat)
+- Heat-sensitive ingredients (cream, eggs) — waste and HACCP risk
+- Homemade frozen desserts without adequate cold storage
+
+### Build a Seasonal Summer Menu
+
+Create a separate **summer menu** from your winter one. This lets you:
+- Source seasonal produce (courgettes, tomatoes, watermelon) at lower cost
+- Market it as a "summer special" to attract attention
+- Optimise food cost by aligning with seasonal pricing
+
+With **FoodTracks**, calculate the cost per recipe for each new summer dish before launching it — so you don't accidentally shrink your margin.
+
+---
+
+## 3. Book Your Spots Early
+
+### The Best Summer Opportunities
+
+- **Music festivals**: applications open March to May for July-August events
+- **Night markets**: contact town halls from April — spots are limited
+- **Beaches and lakesides**: authorisations from the municipality or site manager
+- **Sporting events**: triathlons, trail runs, cyclosportives — captive, high-spending crowds
+- **Corporate events**: team building, company picnics — prospect HR managers now
+
+### Mistakes to Avoid
+
+- Waiting until July to book July spots: it's too late in 90% of cases
+- Stacking unconfirmed bookings without checking profitability in advance
+- Ignoring pitch fees (15–25% of gross revenue at some festivals)
+
+### Calculate the Profitability of a Summer Location
+
+Before confirming a festival or market, estimate:
+
+| Parameter | Example |
+|---|---|
+| Estimated covers | 500–800 per day |
+| Average spend | £10 |
+| Estimated gross revenue | £5,000–£8,000 |
+| Pitch fee (15%) | £750–£1,200 |
+| Food cost (30%) | £1,500–£2,400 |
+| Fixed travel costs | £250–£450 |
+| **Estimated net margin** | **£2,800–£4,800** |
+
+This calculation prevents you from being drawn in by visually exciting events that are economically mediocre.
+
+---
+
+## 4. Prepare Your Team
+
+### Recruit Early
+
+In summer, everyone is recruiting. Good casual kitchen and service staff get booked in April or May. Wait until June and the best people are already taken.
+
+For one-off events, consider:
+- Hospitality and catering students (practical placements)
+- Registered casuals via staffing platforms
+- Reliable seasonal staff from previous years
+
+### Train and Brief the Team
+
+Before the busy season:
+- **HACCP**: refresh cold chain rules, especially in high heat
+- **Service procedures**: dish output times, till communication
+- **Stress management**: festival service means irregular flow with peaks of 200 people in 30 minutes
+
+### Build Rotas in Advance
+
+Build your July-August rota in June. Anticipate holiday requests, bank holidays, overlapping events. In peak season, one unexpected absence can wreck an entire day.
+
+---
+
+## 5. Financial Management for the Season
+
+### Build a Cash Buffer
+
+Summer generates a lot of income — but also a lot of unplanned expenditure:
+- Equipment breakdowns in the heat
+- Emergency stock purchases
+- Travel costs for distant festivals
+
+Keep **1 to 2 months of fixed costs** available before starting the season. Don't redistribute everything after the first good weeks.
+
+### Track Revenue by Location
+
+Monitor income by each summer location to know where you're most profitable. Some "prestigious" festivals are less profitable than your regular Thursday morning market — the numbers tell the story.
+
+With **FoodTracks**, tag each service by location and compare net margins in real time. You'll know at a glance which events are worth repeating next year.
+
+### Plan for Tax
+
+A good summer can generate a surplus of taxable profit. Talk to your accountant from June to:
+- Assess corporation or income tax advance payments to provision
+- Check whether equipment purchases can be depreciated before the year-end
+- Plan any potential distribution or reserve allocation
+
+---
+
+## Quick Checklist: 30 Actions to Complete Before 1 June
+
+**Equipment**
+- [ ] Refrigeration unit serviced
+- [ ] Generator oil changed
+- [ ] Cabin ventilation checked
+- [ ] Vehicle/trailer MOT confirmed
+- [ ] Consumables stock doubled
+
+**Menu**
+- [ ] Summer menu finalised with cost prices calculated
+- [ ] Seasonal produce sourced
+- [ ] New recipes tested in live service
+- [ ] Cold drinks added to menu
+
+**Locations**
+- [ ] Festival applications submitted
+- [ ] Night markets confirmed
+- [ ] Beach/public space authorisations in progress
+- [ ] Full summer calendar updated
+
+**Team**
+- [ ] Casual staff recruited and confirmed
+- [ ] July-August rota finalised
+- [ ] Heat HACCP briefing completed
+- [ ] Service procedures updated
+
+**Finance**
+- [ ] Cash buffer in place
+- [ ] Per-location tracking activated on FoodTracks
+- [ ] Accountant meeting scheduled
+
+---
+
+## Conclusion
+
+Summer does not forgive improvisation. The food truckers who have their best seasons are those who booked their locations in March, serviced their equipment in April and recruited their team in May. Preparation happens during the quiet season — and that's exactly what makes the difference to your annual result.
+
+**Further reading:** [Managing the quiet season](/en/blog/food-truck-saison-creuse-strategies) · [Calculating recipe cost price](/en/blog/calculer-cout-revient-recette-food-truck) · [Finding the best food truck locations](/en/blog/trouver-meilleurs-emplacements-food-truck) · [Food truck weekly planning](/en/blog/planning-semaine-food-truck)`,
+    },
+    keyTakeaways: {
+      fr: [
+        "L'été représente 40 à 60 % du CA annuel d'un food truck : la préparation commence dès mars-avril.",
+        "Révisez votre groupe froid, votre générateur et votre ventilation avant les chaleurs pour éviter les pannes en service.",
+        "Créez une carte été avec des plats froids et des boissons fraîches à forte marge.",
+        "Réservez vos emplacements festivals et marchés nocturnes 2 à 3 mois à l'avance.",
+        "Recrutez vos extras en mai : en juillet, les bons profils sont déjà pris.",
+        "Calculez la rentabilité réelle de chaque emplacement avant de vous engager.",
+      ],
+      en: [
+        "Summer accounts for 40–60% of a food truck's annual revenue: preparation starts in March-April.",
+        "Service your refrigeration, generator and ventilation before the heat to avoid breakdowns in service.",
+        "Build a summer menu with cold dishes and high-margin cold drinks.",
+        "Book festival and night market spots 2 to 3 months in advance.",
+        "Recruit casual staff in May: by July, the best people are already taken.",
+        "Calculate the real profitability of each location before committing.",
+      ],
+    },
+    faqItems: [
+      {
+        question: {
+          fr: "Quand faut-il commencer à préparer son food truck pour l'été ?",
+          en: "When should you start preparing your food truck for summer?",
+        },
+        answer: {
+          fr: "Idéalement dès mars-avril. Les dossiers de candidature pour les festivals de juillet-août ferment souvent en mai. La révision du matériel, le recrutement des extras et la conception de la carte été doivent être faits avant juin pour être prêt le 1er juillet.",
+          en: "Ideally from March-April. Applications for July-August festivals often close in May. Equipment servicing, casual staff recruitment and summer menu design should all be done before June to be ready for 1 July.",
+        },
+      },
+      {
+        question: {
+          fr: "Quel menu proposer en food truck l'été ?",
+          en: "What menu should a food truck offer in summer?",
+        },
+        answer: {
+          fr: "Privilégiez les plats froids ou tièdes (pokés, wraps, salades), les petits formats rapides et les boissons fraîches maison. Évitez les plats très gras ou très chauds difficiles à manger par forte chaleur. Les options végétariennes et vegan sont particulièrement demandées sur les festivals estivaux.",
+          en: "Focus on cold or warm dishes (poke bowls, wraps, salads), small quick-eat formats and homemade cold drinks. Avoid very fatty or very hot dishes that are difficult to eat in high heat. Vegetarian and vegan options are especially popular at summer festivals.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment trouver des emplacements pour un food truck l'été ?",
+          en: "How do you find summer locations for a food truck?",
+        },
+        answer: {
+          fr: "Candidatez aux festivals de musique et marchés nocturnes dès mars-mai. Contactez directement les mairies pour les plages et espaces publics. Prospectez les organisateurs d'événements sportifs (triathlon, trail). Pour les événements d'entreprise, approchez les DRH des entreprises de plus de 50 salariés.",
+          en: "Apply to music festivals and night markets from March-May. Contact town halls directly for beaches and public spaces. Target sporting event organisers (triathlons, trail runs). For corporate events, approach HR managers at companies with 50+ employees.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment gérer la chaleur dans un food truck l'été ?",
+          en: "How do you manage heat in a food truck in summer?",
+        },
+        answer: {
+          fr: "Vérifiez et entretenez votre ventilation de cabine avant la saison. Hydratez régulièrement votre équipe (eau, électrolytes). Planifiez des pauses en dehors des pics de service. Par très forte chaleur, réduisez les équipements générant de la chaleur (friteuses) au profit des préparations froides.",
+          en: "Service your cabin ventilation before the season. Keep your team regularly hydrated (water, electrolytes). Schedule breaks outside service peaks. In very high heat, reduce heat-generating equipment (fryers) in favour of cold preparations.",
+        },
+      },
+      {
+        question: {
+          fr: "Faut-il constituer une réserve de trésorerie avant l'été ?",
+          en: "Should you build a cash reserve before summer?",
+        },
+        answer: {
+          fr: "Oui, absolument. L'été génère des revenus élevés mais aussi des dépenses imprévues : pannes de matériel par la chaleur, achats de stock en urgence, frais de déplacement pour les festivals. Gardez l'équivalent d'1 à 2 mois de charges fixes disponibles avant le début de la saison.",
+          en: "Yes, absolutely. Summer generates high income but also unplanned expenses: equipment breakdowns in the heat, emergency stock purchases, travel costs for distant festivals. Keep the equivalent of 1-2 months of fixed costs available before the season starts.",
+        },
+      },
+    ],
+    relatedSlugs: [
+      "food-truck-saison-creuse-strategies",
+      "calculer-cout-revient-recette-food-truck",
+      "trouver-meilleurs-emplacements-food-truck",
+      "planning-semaine-food-truck",
+    ],
+  },
 ];
 
 export function getArticleBySlug(slug: string): BlogArticle | undefined {
