@@ -185,6 +185,7 @@
 /* Landing — CTA orange (hero + final CTA) : bigger lift + orange glow */
 .btn-cta-primary {
   overflow: hidden;
+  box-shadow: 0 12px 40px -4px rgba(249,115,22,0.45) !important;
 }
 .btn-cta-primary::before {
   content: '';
