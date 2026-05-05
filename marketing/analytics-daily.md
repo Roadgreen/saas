@@ -1,5 +1,150 @@
 # Analytics Daily Log
 
+## 2026-05-04 (check journalier — Doji)
+
+### Periode analysee : 2026-05-03T10:00Z -> 2026-05-04T~10:00Z (24h)
+
+**Resume chiffre**
+- **Events totaux :** 33 (-75% vs J-1 : 134) | **Page views :** 5 (vs 22 J-1, -77%)
+- **Sessions uniques :** 4 (vs 9 J-1, -56%) | **Users connectes :** 0
+- **scroll_depth :** 18 | **page_exit :** 5 | **link_click :** 2 | **navigation :** 2 | **button_click :** 1
+- **Devices :** Desktop 100% (Win32 x4, MacIntel x1) | Mobile 0%
+- **Locales :** FR 80% (4 PV) | EN 20% (1 PV) — inversion vs habitude EN-dominante
+- **Sources trafic :** Google 80% (4 PV) | Direct 20% (1 PV)
+- **UTM source dominant :** chatgpt.com (1 PV seulement) — baisse nette vs pic 04-28
+- **Users loggues :** 0 (aucune conversion)
+
+### Top pages (24h)
+| Page | PV |
+|---|---|
+| /fr (homepage FR) | 2 |
+| /en/blog/choisir-emplacement-rentable-food-truck | 1 |
+| /fr/ville/montpellier | 1 |
+| /fr/blog/reduire-gaspillage-alimentaire-food-truck | 1 |
+
+### Sources trafic (referrer + UTM)
+| Source | PV |
+|---|---|
+| google.com | 4 |
+| direct | 1 |
+| chatgpt.com (UTM) | 1 |
+
+### Scroll depth (avg par page)
+| Page | Avg depth | Max |
+|---|---|---|
+| /fr (homepage) | 54% | 100% |
+| /en/blog/choisir-emplacement-rentable-food-truck | 63% | 100% |
+| /fr/ville/montpellier | 63% | 100% |
+| /fr/blog/reduire-gaspillage-alimentaire-food-truck | 63% | 100% |
+
+### Repartition horaire (page_views)
+| Heure (UTC) | PV |
+|---|---|
+| 06h | 1 |
+| 21h | 4 |
+
+### Top pages 7 derniers jours (2026-04-27 -> 2026-05-04)
+| Page | PV/7j |
+|---|---|
+| /en (homepage EN) | 19 |
+| /fr (homepage FR) | 6 |
+| /en/blog/equipement-food-truck-indispensable | 5 |
+| /en/blog/choisir-emplacement-rentable-food-truck | 4 |
+| /en/blog/calcul-prix-vente-food-truck | 3 |
+| /fr/outils/calculateur-rentabilite | 3 |
+| /fr/dashboard/products | 3 |
+| /en/blog/logiciel-gestion-food-truck | 3 |
+
+### Comparaison historique (events/j)
+| Date | Events | PV | Sessions |
+|---|---|---|---|
+| 2026-04-28 | 25 | 8 | 7 |
+| 2026-04-30 (J-3) | 3 | 3 | ~1 |
+| 2026-05-01 (J-2) | 7 | 5 | ~2 |
+| 2026-05-03 (J-1) | 134 | 22 | 9 |
+| **2026-05-04 (aujourd'hui)** | **33** | **5** | **4** |
+
+Note J-1 : pic inhabituellement haut (134 events/22 PV) avec trafic dashboard interne (/fr/dashboard/*) et /en/pricing. Probablement session Melou + test. Hors ce pic, tendance reelle ~5-10 PV/j.
+
+### Observations & actions
+- **Baisse vs J-1 :** La chute vs J-1 (-77% PV) est en grande partie due au pic J-1 artificiel (sessions dashboard internes). Vs baseline reelle (J-2 : 5 PV, J-3 : 3 PV), aujourd'hui est dans la norme.
+- **Google = source principale :** 80% du trafic today vient de Google (4/5 PV), dont un utilisateur FR qui a navigue ville/Montpellier -> homepage FR. Signal SEO local fonctionnel.
+- **ChatGPT retombe :** 1 seul PV UTM chatgpt.com (vs 5 le 04-28). Le spike ChatGPT de fin avril n'a pas ete soutenu. A re-surveiller.
+- **Locale FR en hausse :** 80% des PV aujourd'hui en FR (vs 87.5% EN le 04-28). Trafic FR via Google local (Montpellier). Article FR "reduire-gaspillage" performant (63% scroll avg, max 100%).
+- **Scroll engagement solide :** 3 pages a 63% scroll avg + max 100%. Homepage FR a 54% avg (engagement moyen, CTA peut etre raté).
+- **0 conversion :** Aucun user logue. Funnel blog/homepage -> inscription reste bouche. CTA dans articles FR a renforcer.
+- **7j : homepage EN ecrase tout (19 PV) :** La homepage anglophone est le pivot du trafic. Les outils (/fr/outils/calculateur-rentabilite, 3 PV/7j) montrent un interet pour les features — potentiel funnel conversion.
+
+---
+
+## 2026-04-28 (check matinal — Doji)
+
+### Periode analysee : 2026-04-27T~00:00Z → 2026-04-28T~08:00Z (24h glissantes)
+
+**Resume chiffre**
+- **Events totaux :** 25 (+79% vs J-1 : 14) | **Page views :** 8 (vs 2 J-1, +300%)
+- **Sessions uniques :** 7 (vs 3 J-1, +133%) | **Users connectes :** 0
+- **Scroll_depth :** 13 | **Page_exit :** 4
+- **Scroll moyen :** 63% sur 3 articles engages, 25% sur `/calcul-prix-vente-food-truck`
+- **Devices :** Desktop 75% (MacIntel 5x, Linux 1x) | Mobile 25% (iPhone 2x)
+- **Locales :** EN 87.5% (7/8 PV) | FR 12.5% (1/8 PV)
+- **Sources trafic :** chatgpt.com 62% (5 PV) | Google 38% (3 PV via referrer)
+- **UTM source dominant :** chatgpt.com (5 sessions)
+- **Users loggues :** 0 (aucune conversion)
+
+### Top pages (24h)
+| Page | PV |
+|---|---|
+| /en/blog/calcul-prix-vente-food-truck | 3 |
+| /en/blog/equipement-food-truck-indispensable | 2 |
+| /en/blog/choisir-emplacement-rentable-food-truck | 1 |
+| /en/blog/google-my-business-food-truck | 1 |
+| /fr/blog/comptabilite-food-truck-guide | 1 |
+
+### Sources trafic (UTM + referrers)
+| Source | PV |
+|---|---|
+| chatgpt.com (UTM) | 5 |
+| Direct | 3 |
+| google.com (referrer) | 3 |
+| chatgpt.com (referrer) | 2 |
+
+### Engagement scroll depth
+| Article | Avg depth | Max |
+|---|---|---|
+| /en/blog/equipement-food-truck-indispensable | 63% | 100% |
+| /en/blog/choisir-emplacement-rentable-food-truck | 63% | 100% |
+| /fr/blog/comptabilite-food-truck-guide | 63% | 100% |
+| /en/blog/calcul-prix-vente-food-truck | 25% | 25% |
+
+### Repartition horaire (page_views)
+| Heure (UTC) | PV |
+|---|---|
+| 08h | 1 |
+| 12h | 4 |
+| 23h | 3 |
+
+### Top pages 7 derniers jours
+| Page | PV/7j |
+|---|---|
+| /en/blog/calcul-prix-vente-food-truck | 3 |
+| /en/blog/equipement-food-truck-indispensable | 2 |
+| /en (homepage) | 2 |
+| /en/blog/google-my-business-food-truck | 2 |
+| Autres articles | 1 chacun |
+
+### Observations & actions
+- **Spike ChatGPT :** 62% du trafic vient de chatgpt.com — l'article "equipement-food-truck-indispensable" est probablement cité dans une reponse ChatGPT. A surveiller : creuser quelles requetes ChatGPT renvoient vers ce contenu (AIO - AI Overview).
+- **Engagement fort :** 3 articles a 63% scroll avg (dont 1 scroll a 100%) = contenu tres lu. Article "calcul-prix-vente" : 3 PV mais scroll a 25% seulement — titre accrocheur mais abandon early, a retravailler l'intro ou la structure.
+- **Trafic Google actif :** 3 referrers google.com directs (sans UTM) = trafic organique SEO en place.
+- **Aucun user logue :** 0 conversion. Le funnel blog → inscription reste le bottleneck prioritaire. Envisager CTA plus agressif dans les articles EN les plus visites.
+- **Locale EN dominante :** 87.5% des PV en EN. Investir dans le contenu EN est confirme comme prioritaire.
+- **Pic 12h UTC (14h FR) :** creneau de pointe principal. Timing pour publier ou relancer sur reseaux.
+
+---
+
+
+
 ## 2026-04-12 (check matinal — Doji)
 
 ### Période analysée : 2026-04-11T07:00Z → 2026-04-12T07:00Z (24h)

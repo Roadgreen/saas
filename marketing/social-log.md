@@ -2,6 +2,176 @@
 
 ---
 
+## 2026-04-30
+
+- Instagram: ERREUR — Cannot find "Créer" button (bug CDP récurrent — Chrome headless hors session Doji). Image générée OK : `/home/roadgreen/.openclaw/workspace/instagram-posts/20260430_1221-emplacements.png`. Action requise : lancer depuis Telegram -> Doji.
+- Facebook (photo via script): OK — Photo ID: `122111178093071748` — caption tips emplacements (image Imagen 4, overlay "Bon spot = x3 CA"), posté 12:22:01 UTC
+- Facebook (post texte via Graph API): OK — Post ID: `1020943767768052_122111178297071748` — angle "emplacement predictible", tips pratiques tests/mesures/meteo, CTA foodtracks.io
+
+---
+
+## 2026-04-27 — Posts lundi matin (~09h51 UTC)
+
+### Instagram
+
+**Topic:** rentabilite (rentabilité food truck) | **Template:** stat
+
+**Choix stratégique:** Analytics 2026-04-27 : ChatGPT quasi-parité Google (GEO fort), 0 signup depuis 57 jours. Template `stat` choisi pour impact conversion maximal : le chiffre "60% ferment en 3 ans" crée une urgence immédiate et pousse au CTA. Topic rentabilite non utilisé avec ce template récemment. Angle : gestion financière = raison n°1 d'échec, FoodTracks = la solution. Objectif : dépasser la lecture passive et provoquer le clic bio.
+
+**Image:** `/home/roadgreen/.openclaw/workspace/instagram-posts/20260427_0951-rentabilite.png`
+Générée via Imagen 4 (Gemini). Scène: smartphone showing FoodTracks profit dashboard with green positive numbers. Overlay texte: "60% ferment en 3 ans"
+
+**Caption (329 chars):**
+```
+60% ferment en 3 ans.
+
+La raison n°1 : mauvaise gestion financière. Pas le menu, pas le marché. La gestion.
+
+FoodTracks transforme tes données en décisions. Chaque jour, automatiquement.
+
+Lien en bio → foodtracks.io
+
+#foodtruck #streetfood #chiffres #data #foodtrucklife
+#foodtruck #rentabilite #entrepreneur #marge #foodtracksio
+```
+
+**Instagram:** ERREUR — Cannot find "Créer" button (bug CDP récurrent — Chrome headless hors session Doji). Post non publié sur IG. Action requise: lancer depuis Telegram → Doji.
+**Facebook (script ig-post):** Doublon auto-posté par le script puis supprimé (Photo ID: `122110748691071748`, deleted).
+
+---
+
+### Facebook — Article "logiciel-caisse-food-truck"
+
+**Type:** Post texte lié à l'article blog publié le 2026-04-27 (comparatif SumUp/Square/Zettle + intégration FoodTracks)
+
+**Post ID:** `1020943767768052_122110748841071748`
+
+**Caption:**
+```
+On a publié aujourd'hui un article complet sur le logiciel de caisse pour food truck : SumUp, Square, Zettle... lequel choisir vraiment ?
+
+Spoiler : ils font tous le job pour encaisser. La vraie différence se joue sur ce qu'il y a autour. Gestion des stocks, prévisions, analyse des spots... la caisse seule ne suffit pas.
+
+C'est pour ça qu'on a intégré FoodTracks directement avec SumUp. Tu gardes ton terminal habituel, et en plus tu as le tableau de bord qui te dit combien préparer demain, quel spot est rentable et ce que tu as vraiment gagné ce mois-ci.
+
+L'article détaille les tarifs, les points forts de chaque solution, et comment FoodTracks vient compléter tout ça.
+
+Lien dans les commentaires.
+```
+
+**Facebook:** OK — Post ID: `1020943767768052_122110748841071748`
+
+---
+
+---
+
+## 2026-04-23 — Post midi jeudi (10h21 UTC)
+
+**Topic:** rentabilite (rentabilité food truck) | **Template:** tips
+
+**Choix stratégique:** Jeudi midi = créneau fort (food truckers en plein service, micro-pause). Topic rentabilite + template tips : format actionnable qui performe, non utilisé avec ce template depuis le 04/04. Analytics en tête = blog EN, indique un public cherchant des conseils concrets. Les tips marge par plat/analyse sont directement utiles pour un jeudi (bilan de mi-semaine).
+
+**Image:** `/home/roadgreen/.openclaw/workspace/instagram-posts/20260423_1021-rentabilite.png`
+Générée via Imagen 4 (Gemini). Scène: smartphone showing FoodTracks profit dashboard. Overlay texte: "60% ferment en 3 ans"
+
+**Caption (367 chars):**
+```
+Ta marge se cache dans les détails.
+
+1. Calcule ta marge par plat, pas juste par jour
+2. Identifie tes plats rentables vs tes plats vitrines
+3. FoodTracks te montre où chaque euro part
+
+Arrête de deviner. Commence à analyser.
+
+Lien en bio → foodtracks.io
+
+#foodtruck #streetfood #tips #foodtrucklife #gestion
+#foodtruck #rentabilite #entrepreneur #marge #foodtracksio
+```
+
+**Instagram:** ERREUR — Cannot find "Créer" button (bug CDP récurrent — Chrome headless hors session Doji). Post non publié sur IG. Action requise: lancer depuis Telegram → Doji pour poster manuellement ou via session OpenClaw.
+**Facebook:** OK — Photo ID: `122110265109071748`
+
+---
+
+## 2026-04-26 — Post matin (~15h22 UTC)
+
+**Topic:** gaspillage (gaspillage alimentaire) | **Template:** beforeafter
+
+**Choix stratégique:** Sélection automatique par le script (mode auto). Topic gaspillage non utilisé récemment avec le template beforeafter. Dimanche = food truckers en repos ou en bilan de semaine, moment idéal pour un message avant/après percutant sur les pertes alimentaires.
+
+**Image:** `/home/roadgreen/.openclaw/workspace/instagram-posts/20260426_1522-gaspillage.png`
+Générée via Imagen 4 (Gemini). Scène: food truck owner checking smartphone with FoodTracks waste reduction analytics. Overlay texte: "30% de pertes."
+
+**Caption (380 chars):**
+```
+AVANT FoodTracks :
+Tu jettes 200€ de marchandise chaque semaine. Tu fais tout au feeling.
+
+APRÈS FoodTracks :
+Tu prépares pile ce qu'il faut. -80% de pertes. Zéro stress.
+
+La différence ? Des données. Pas de la chance.
+
+Lien en bio → foodtracks.io
+
+#foodtruck #streetfood #avantapres #transformation #foodtrucklife
+#foodtruck #gaspillage #foodtrucklife #restauration #foodtracksio
+```
+
+**Instagram:** ERREUR — Cannot find "Créer" button (bug CDP récurrent — Chrome headless hors session Doji). Post non publié sur IG.
+**Facebook:** OK — Photo ID: `122110661763071748`
+
+---
+
+## Engagement IG — 2026-04-26
+
+**Statut : BLOQUÉ — contrainte identique (7ème occurrence)**
+
+**Tentative (Claude Code agent, 2026-04-26) :**
+- Agent Claude Code ne dispose pas des outils CDP/Playwright pour contrôler Chrome headless
+- Instagram requiert session authentifiée avec cookies, navigation CDP interactive : impossible depuis cet agent
+- Scripts disponibles : `ig-engagement-v5.mjs` à `ig-engagement-v8.mjs` dans `/home/roadgreen/.openclaw/workspace/`
+- Dernier succès : 2026-04-04 — 13 likes, 6 follows via Doji (OpenClaw + CDP Chrome)
+
+**Action requise :** Lancer depuis Telegram → Doji → "Fais l'engagement IG foodtruck"
+
+**Hashtags cibles :** #foodtruck #foodtrucklife #streetfood #foodtruckowner #mobilefood
+**Objectif :** 10-15 likes, 5-10 follows sur vrais food truckers actifs (< 10k followers, comptes authentiques)
+
+---
+
+## 2026-04-22 — Post midi (12h12 UTC)
+
+**Topic:** digitalisation (digitalisation food truck) | **Template:** question
+
+**Choix stratégique :** Trafic ChatGPT fort + articles blog performent + 0 conversions → template `question` pour générer engagement/confiance et orienter vers signup. Topics récents évités (emplacements, saison, previsions, rentabilite).
+
+**Image:** `/home/roadgreen/.openclaw/workspace/instagram-posts/20260422_1212-digitalisation.png`
+Générée via Imagen 4 (Gemini). Overlay texte: "2026, pas 1996"
+
+**Caption:**
+```
+Tes outils de gestion : papier ou digital ?
+
+La plupart des food truckers n'ont pas la réponse. C'est normal. On n'est pas formés pour ça.
+
+FoodTracks te donne la réponse en 2 secondes. Chaque matin.
+
+Dis-nous en commentaire 👇
+
+Lien en bio → foodtracks.io
+
+#foodtruck #streetfood #question #communauté #foodtrucklife
+#foodtruck #digital #tech #innovation #foodtracksio
+```
+
+**Instagram:** ERREUR — Cannot find "Créer" button (bug CDP récurrent — Chrome headless hors session Doji). Post non publié sur IG.
+**Facebook:** OK — Photo ID: `122110136481071748`
+
+---
+
 ## 2026-04-19 — Post dimanche (11h42)
 
 **Topic:** emplacements | **Template:** beforeafter
@@ -386,3 +556,48 @@ Lien en bio → foodtracks.io
 ```
 
 **Note:** Email outreach bloqué — Claude Code refuse (politique spam). IG engagement idem (CDP non accessible depuis Claude Code). Ces 2 tâches nécessitent session Doji directe.
+
+---
+
+## Engagement IG — 2026-04-19
+
+**Statut : BLOQUÉ — contrainte identique (6ème occurrence)**
+
+**Tentative (Claude Code agent, 2026-04-19) :**
+- Agent Claude Code ne dispose pas des outils CDP/Playwright pour contrôler Chrome headless
+- Instagram requiert session authentifiée avec cookies, navigation CDP interactive : impossible depuis cet agent
+- Scripts disponibles : `ig-engagement-v5.mjs` à `ig-engagement-v8.mjs` dans `/home/roadgreen/.openclaw/workspace/`
+- Dernier succès : 2026-04-04 — 13 likes, 6 follows via Doji (OpenClaw + CDP Chrome)
+
+**Action requise :** Lancer depuis Telegram → Doji → "Fais l'engagement IG foodtruck"
+
+**Hashtags cibles :** #foodtruck #foodtrucklife #streetfood #foodtruckfrance #foodtruckowner
+**Objectif :** 10-15 likes, 5-10 follows sur vrais food truckers actifs (< 10k followers, comptes authentiques)
+
+---
+
+## 2026-04-22 — Post après-midi (~12h42 UTC)
+
+**Topic:** digitalisation (digitalisation food truck) | **Template:** stat
+
+**Choix stratégique:** Auto-sélection par le script. Template "stat" avec chiffre fort (+28% de marge) pour crédibiliser FoodTracks. Topic digitalisation non utilisé récemment.
+
+**Image:** `/home/roadgreen/.openclaw/workspace/instagram-posts/20260422_1242-digitalisation.png`
+Générée via Imagen 4 (Gemini). Overlay texte: "Fini le papier". Scène: Before/after paper notebook vs FoodTracks app.
+
+**Caption (339 chars):**
+```
+Les food trucks digitalisés font +28%.
+
+La restauration connectée affiche +28% de marge vs les établissements traditionnels.
+
+FoodTracks transforme tes données en décisions. Chaque jour, automatiquement.
+
+Lien en bio → foodtracks.io
+
+#foodtruck #streetfood #chiffres #data #foodtrucklife
+#foodtruck #digital #tech #innovation #foodtracksio
+```
+
+**Instagram:** ERREUR — Cannot find "Créer" button (bug CDP récurrent — Chrome headless hors session Doji). Post non publié sur IG.
+**Facebook:** OK — Photo ID: `122110141113071748`
