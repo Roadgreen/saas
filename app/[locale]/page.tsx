@@ -113,7 +113,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
           ══════════════════════════════════════ */}
       <section
         className="relative overflow-hidden flex items-center"
-        style={{ backgroundColor: DARK, minHeight: 'calc(100svh - 72px)', maxHeight: 'calc(100svh - 72px)' }}
+        style={{ backgroundColor: DARK, minHeight: 'calc(100svh - 72px)' }}
       >
         <div className="absolute inset-0 bg-dot-grid pointer-events-none opacity-20" />
         <div
@@ -275,9 +275,9 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
           </div>
         </div>
 
-        {/* Bottom fade */}
+        {/* Bottom fade — hidden on small screens where it overlaps the CTA */}
         <div
-          className="absolute bottom-0 left-0 right-0 h-20 pointer-events-none"
+          className="absolute bottom-0 left-0 right-0 h-20 pointer-events-none hidden md:block"
           style={{ background: `linear-gradient(to bottom, transparent, ${DARK})` }}
         />
       </section>
