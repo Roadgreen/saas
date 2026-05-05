@@ -16,7 +16,9 @@ export interface BlogArticle {
   relatedSlugs?: string[];
 }
 
-export const blogArticles: BlogArticle[] = [
+import { verticalArticles } from './verticals';
+
+const baseBlogArticles: BlogArticle[] = [
   {
     slug: "comment-gerer-stock-food-truck",
     title: {
@@ -29093,6 +29095,8 @@ Summer does not forgive improvisation. The food truckers who have their best sea
     ],
   },
 ];
+
+export const blogArticles: BlogArticle[] = [...baseBlogArticles, ...verticalArticles];
 
 export function getArticleBySlug(slug: string): BlogArticle | undefined {
   return blogArticles.find((a) => a.slug === slug);
