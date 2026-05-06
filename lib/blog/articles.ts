@@ -29348,6 +29348,270 @@ The tools exist, they're accessible and affordable. The difference between a gro
       "logiciel-gestion-food-truck",
     ],
   },
+  {
+    slug: "tva-food-truck-regime-fiscal",
+    title: {
+      fr: "TVA food truck : quel régime choisir et comment l'optimiser en 2026",
+      en: "Food Truck VAT: Which Tax Regime to Choose and How to Optimise It in 2026",
+    },
+    excerpt: {
+      fr: "TVA normale, franchise en base, régime simplifié : tout ce qu'un food trucker doit savoir sur la TVA en 2026 pour payer le juste montant et éviter les erreurs courantes.",
+      en: "Standard VAT, VAT exemption threshold, simplified regime: everything a food trucker needs to know about VAT in 2026 to pay the right amount and avoid common mistakes.",
+    },
+    category: { fr: "Gestion", en: "Management" },
+    date: "2026-05-06",
+    readTime: 9,
+    keywords: [
+      "TVA food truck",
+      "régime fiscal food truck",
+      "franchise TVA food truck",
+      "comptabilité food truck TVA",
+      "taux TVA restauration mobile",
+    ],
+    heroImage: "/blog/tva-food-truck-regime-fiscal.png",
+    content: {
+      fr: `## TVA food truck : ce que la plupart des gérants ne savent pas
+
+La TVA est souvent la première source de confusion pour les food truckers. Entre les taux multiples, la franchise en base, le régime simplifié et la récupération sur les achats, il est facile de faire des erreurs — et de payer trop (ou pas assez). Ce guide vous donne les bases claires pour 2026.
+
+## Les taux de TVA applicables en restauration mobile
+
+En France, la restauration sur place et à emporter n'est pas taxée au même taux. Voici ce qu'il faut retenir :
+
+| Type de vente | Taux TVA |
+|---|---|
+| Plats chauds à emporter (sandwich chaud, burger, tacos…) | **10 %** |
+| Boissons alcoolisées | **20 %** |
+| Eau en bouteille, jus de fruits | **5,5 %** |
+| Café, thé, chocolat chaud | **10 %** |
+| Service à table (si vous avez une terrasse) | **10 %** |
+
+> **Point important** : si vous vendez un menu combinant un plat chaud et une boisson alcoolisée, vous devez ventiler les deux taux sur votre facture. Un terminal SumUp correctement configuré fait ça automatiquement.
+
+## La franchise en base de TVA : la solution pour les petits volumes
+
+Si votre chiffre d'affaires annuel est **inférieur à 37 500 € HT** (seuil 2026 pour les activités de services), vous pouvez bénéficier de la franchise en base. En pratique :
+
+- Vous ne facturez **pas de TVA** à vos clients
+- Vous ne récupérez **pas la TVA** sur vos achats (matières premières, matériel, carburant)
+- Vous mentionnez "TVA non applicable, art. 293 B du CGI" sur vos factures
+
+**Quand c'est avantageux ?** Quand vos charges avec TVA récupérable sont faibles (peu d'équipement, marché local). Quand ça ne l'est plus ? Dès que vous achetez du matériel coûteux ou que votre CA dépasse le seuil.
+
+### Seuils 2026 à retenir
+
+- **Seuil de franchise** : 37 500 € HT/an (maintien jusqu'à 41 250 €)
+- **Seuil régime simplifié** : 254 000 € HT/an
+- **Seuil régime normal** : au-delà de 254 000 € HT/an
+
+## Le régime simplifié de TVA (RSI)
+
+Entre 37 500 € et 254 000 € de CA, vous relevez du régime simplifié. Concrètement :
+
+- Deux acomptes semestriels (juillet et décembre)
+- Une déclaration annuelle (CA12)
+- Vous pouvez opter pour le régime réel normal si vous préférez des déclarations mensuelles
+
+**Avantage** : moins de paperasse. **Inconvénient** : vous avancez de la TVA sans savoir exactement où vous en êtes chaque mois, ce qui peut créer des décalages de trésorerie.
+
+> **Astuce FoodTracks** : en suivant vos ventes quotidiennement dans votre tableau de bord, vous pouvez estimer votre TVA collectée en temps réel et mettre de côté le bon montant chaque semaine. Fini les mauvaises surprises à l'échéance.
+
+## Récupérer la TVA sur vos achats : ce que vous pouvez déduire
+
+Si vous êtes assujetti à la TVA (régime simplifié ou réel), vous pouvez récupérer la TVA sur :
+
+- **Matières premières** alimentaires (attention : la TVA sur les produits alimentaires de base est à 5,5 %, récupérable)
+- **Carburant** du véhicule food truck (50 % récupérable si usage mixte professionnel/personnel, 100 % si 100 % pro)
+- **Matériel de cuisine** : plancha, friteuse, réfrigérateur, terminal de paiement
+- **Logiciels de gestion** (ex : FoodTracks)
+- **Téléphone professionnel**, abonnement internet professionnel
+
+Ce que vous **ne pouvez pas** déduire :
+- TVA sur les repas personnels
+- TVA sur les véhicules de tourisme (sauf si 100 % utilitaire)
+
+## Déclaration et paiement : les erreurs à éviter
+
+### Erreur n°1 : oublier de ventiler les taux
+
+Un food truck qui vend des burgers (10 %) et des bières (20 %) doit déclarer deux montants séparés. Si vous déclarez tout à 10 %, vous êtes en sous-déclaration. Si vous déclarez tout à 20 %, vous payez trop.
+
+### Erreur n°2 : confondre CA HT et CA TTC
+
+Le seuil de franchise (37 500 €) s'applique au CA **hors taxes**. Si vous encaissez 41 000 € TTC avec une TVA à 10 %, votre CA HT est d'environ 37 273 € — vous restez en franchise. Mais si vous avez mal calculé, vous risquez de dépasser le seuil sans le savoir.
+
+### Erreur n°3 : ne pas constituer de provision TVA
+
+La TVA collectée n'est pas votre argent. Mettez-la de côté chaque semaine. Une règle simple : à chaque encaissement, transférez 9 % du TTC sur un compte dédié (pour du 10 % de TVA, ça correspond à peu près à ça en régime normal).
+
+## TVA et food truck itinérant : cas particulier
+
+Si vous exercez dans plusieurs communes ou régions, la TVA reste nationale (pas de variation régionale en France). En revanche, si vous vendez à des clients professionnels en UE (traiteur B2B), des règles spécifiques s'appliquent. Consultez votre comptable dans ce cas.
+
+## Ce qu'un bon logiciel de gestion fait pour vous
+
+Un outil comme FoodTracks connecté à votre terminal SumUp vous permet de :
+
+- Voir en temps réel votre **CA HT et TVA collectée** par taux
+- **Exporter les données** directement au format comptable pour votre expert-comptable ou votre déclaration
+- Anticiper vos **échéances TVA** sans calcul manuel
+- Suivre votre progression vers les seuils de franchise et de régime simplifié
+
+*Voir aussi :* [Comptabilité food truck : le guide complet](/fr/blog/comptabilite-food-truck-guide) · [Charges variables food truck](/fr/blog/charges-variables-food-truck) · [Trésorerie food truck : guide](/fr/blog/tresorerie-food-truck-guide)`,
+      en: `## Food Truck VAT: What Most Owners Don't Know
+
+VAT is often the first source of confusion for food truckers. Between multiple rates, the VAT exemption threshold, simplified regime, and input tax recovery, it's easy to make mistakes — and end up paying too much or too little. This guide gives you clear foundations for 2026.
+
+## Applicable VAT Rates for Mobile Catering
+
+In France, on-site service and takeaway are not taxed at the same rate. Here's what you need to know:
+
+| Type of Sale | VAT Rate |
+|---|---|
+| Hot takeaway food (hot sandwiches, burgers, tacos…) | **10%** |
+| Alcoholic beverages | **20%** |
+| Bottled water, fruit juices | **5.5%** |
+| Coffee, tea, hot chocolate | **10%** |
+| Table service (if you have a terrace) | **10%** |
+
+> **Important**: if you sell a combo including a hot dish and an alcoholic drink, you must split the two rates on your receipt. A correctly configured SumUp terminal does this automatically.
+
+## The VAT Exemption Threshold: The Solution for Low Volumes
+
+If your annual turnover is **below €37,500 excl. VAT** (2026 threshold for service activities), you may benefit from the VAT exemption threshold. In practice:
+
+- You **do not charge VAT** to customers
+- You **do not recover VAT** on your purchases (raw materials, equipment, fuel)
+- You add "VAT not applicable, art. 293 B of the French Tax Code" to your invoices
+
+**When is it advantageous?** When your VAT-recoverable costs are low. When does it stop being advantageous? As soon as you buy expensive equipment or your turnover exceeds the threshold.
+
+### 2026 Thresholds to Remember
+
+- **Exemption threshold**: €37,500 excl. VAT/year (maintained up to €41,250)
+- **Simplified regime threshold**: €254,000 excl. VAT/year
+- **Standard regime**: above €254,000 excl. VAT/year
+
+## The Simplified VAT Regime
+
+Between €37,500 and €254,000 in turnover, you fall under the simplified regime:
+
+- Two semi-annual advance payments (July and December)
+- One annual return (CA12)
+- You can opt for the standard real regime if you prefer monthly filings
+
+**Advantage**: less paperwork. **Disadvantage**: you advance VAT without knowing exactly where you stand each month, which can create cash flow gaps.
+
+> **FoodTracks tip**: by tracking your daily sales in your dashboard, you can estimate your collected VAT in real time and set aside the right amount each week. No more nasty surprises at payment time.
+
+## Recovering VAT on Purchases: What You Can Deduct
+
+If you're subject to VAT (simplified or standard regime), you can recover VAT on:
+
+- **Food raw materials** (note: VAT on basic food products is 5.5%, recoverable)
+- **Vehicle fuel** (50% recoverable for mixed use, 100% if purely professional)
+- **Kitchen equipment**: griddle, fryer, refrigerator, payment terminal
+- **Management software** (e.g., FoodTracks)
+- **Professional phone**, professional internet subscription
+
+What you **cannot** deduct:
+- VAT on personal meals
+- VAT on passenger vehicles (unless 100% commercial use)
+
+## Filing and Payment: Common Mistakes to Avoid
+
+### Mistake #1: Forgetting to split rates
+
+A food truck selling burgers (10%) and beers (20%) must declare two separate amounts. Declaring everything at 10% means under-declaration. Declaring everything at 20% means overpaying.
+
+### Mistake #2: Confusing excl. VAT and incl. VAT turnover
+
+The exemption threshold (€37,500) applies to turnover **excl. VAT**. If you collect €41,000 incl. VAT at 10%, your excl. VAT turnover is approximately €37,273 — you remain within the exemption. But if you miscalculate, you risk unknowingly exceeding the threshold.
+
+### Mistake #3: Not setting aside a VAT provision
+
+Collected VAT is not your money. Set it aside every week. A simple rule: with each payment received, transfer around 9% of the incl. VAT amount to a dedicated account (roughly equivalent for a 10% VAT rate).
+
+## VAT and Mobile Food Trucks: Special Case
+
+If you operate across multiple towns or regions, VAT remains national (no regional variation in France). However, if you sell to professional clients in the EU (B2B catering), specific rules apply. Consult your accountant in that case.
+
+## What Good Management Software Does for You
+
+A tool like FoodTracks connected to your SumUp terminal lets you:
+
+- View your **excl. VAT turnover and collected VAT** by rate in real time
+- **Export data** directly in accounting format for your accountant or filing
+- Anticipate your **VAT deadlines** without manual calculation
+- Track your progress towards exemption and simplified regime thresholds
+
+*Also read:* [Food Truck Accounting: The Complete Guide](/en/blog/comptabilite-food-truck-guide) · [Variable Costs Food Truck](/en/blog/charges-variables-food-truck) · [Food Truck Cash Flow Guide](/en/blog/tresorerie-food-truck-guide)`,
+    },
+    keyTakeaways: {
+      fr: [
+        "Les food trucks sont soumis à des taux de TVA multiples : 10 % sur les plats chauds, 20 % sur l'alcool, 5,5 % sur les boissons non alcoolisées.",
+        "Sous 37 500 € de CA HT, la franchise en base de TVA évite toute obligation déclarative mais prive de la récupération sur les achats.",
+        "Entre 37 500 € et 254 000 €, le régime simplifié impose deux acomptes annuels et une déclaration CA12.",
+        "Provisionnez chaque semaine la TVA collectée : elle n'appartient pas à votre trésorerie.",
+        "Un logiciel comme FoodTracks connecté à SumUp calcule automatiquement la TVA par taux et facilite les déclarations.",
+      ],
+      en: [
+        "Food trucks are subject to multiple VAT rates: 10% on hot food, 20% on alcohol, 5.5% on non-alcoholic drinks.",
+        "Below €37,500 excl. VAT turnover, the VAT exemption threshold removes filing obligations but prevents recovery on purchases.",
+        "Between €37,500 and €254,000, the simplified regime requires two annual advance payments and a CA12 return.",
+        "Provision your collected VAT every week: it does not belong to your cash flow.",
+        "Software like FoodTracks connected to SumUp automatically calculates VAT by rate and simplifies your filings.",
+      ],
+    },
+    faqItems: [
+      {
+        question: {
+          fr: "Quel taux de TVA s'applique aux food trucks en France ?",
+          en: "What VAT rate applies to food trucks in France?",
+        },
+        answer: {
+          fr: "Les food trucks sont soumis à plusieurs taux selon ce qu'ils vendent : 10 % pour les plats chauds et boissons chaudes, 20 % pour les boissons alcoolisées, 5,5 % pour l'eau en bouteille et les jus de fruits. Il est obligatoire de ventiler ces taux sur chaque vente.",
+          en: "Food trucks are subject to several rates depending on what they sell: 10% for hot food and hot drinks, 20% for alcoholic beverages, 5.5% for bottled water and fruit juices. These rates must be split on each sale.",
+        },
+      },
+      {
+        question: {
+          fr: "Un food truck peut-il bénéficier de la franchise en base de TVA ?",
+          en: "Can a food truck benefit from the VAT exemption threshold?",
+        },
+        answer: {
+          fr: "Oui, si son chiffre d'affaires annuel hors taxes est inférieur à 37 500 € (seuil 2026). Dans ce cas, il ne facture pas de TVA à ses clients et ne la récupère pas non plus sur ses achats. Il doit mentionner 'TVA non applicable, art. 293 B du CGI' sur ses documents commerciaux.",
+          en: "Yes, if its annual excl. VAT turnover is below €37,500 (2026 threshold). In that case, it does not charge VAT to customers and cannot recover it on purchases either. It must mention 'VAT not applicable, art. 293 B of the French Tax Code' on commercial documents.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment éviter les erreurs de TVA avec un food truck ?",
+          en: "How to avoid VAT mistakes with a food truck?",
+        },
+        answer: {
+          fr: "Les trois erreurs les plus courantes sont : ne pas ventiler les taux (10 % et 20 % notamment), confondre CA HT et CA TTC pour les seuils, et ne pas mettre de côté la TVA collectée. Un logiciel de caisse connecté comme FoodTracks + SumUp calcule automatiquement la ventilation et vous aide à anticiper vos échéances.",
+          en: "The three most common mistakes are: not splitting rates (particularly 10% and 20%), confusing excl. VAT and incl. VAT turnover for thresholds, and not setting aside collected VAT. Connected point-of-sale software like FoodTracks + SumUp automatically calculates the split and helps you anticipate deadlines.",
+        },
+      },
+      {
+        question: {
+          fr: "Peut-on récupérer la TVA sur le carburant d'un food truck ?",
+          en: "Can you recover VAT on food truck fuel?",
+        },
+        answer: {
+          fr: "Oui, partiellement. Si le véhicule est utilisé à la fois à des fins professionnelles et personnelles, la TVA sur le carburant est récupérable à 50 %. Si le véhicule est exclusivement professionnel (utilitaire dédié), la TVA est récupérable à 100 %. Conservez toujours vos tickets de carburant nominatifs.",
+          en: "Yes, partially. If the vehicle is used for both professional and personal purposes, fuel VAT is recoverable at 50%. If the vehicle is exclusively professional (dedicated commercial vehicle), VAT is fully recoverable at 100%. Always keep your named fuel receipts.",
+        },
+      },
+    ],
+    relatedSlugs: [
+      "comptabilite-food-truck-guide",
+      "charges-variables-food-truck",
+      "tresorerie-food-truck-guide",
+      "cout-charges-food-truck-mensuel",
+    ],
+  },
 ];
 
 export const blogArticles: BlogArticle[] = [...baseBlogArticles, ...verticalArticles];
