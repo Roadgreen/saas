@@ -29612,6 +29612,357 @@ A tool like FoodTracks connected to your SumUp terminal lets you:
       "cout-charges-food-truck-mensuel",
     ],
   },
+  {
+    slug: "statut-juridique-food-truck-auto-entrepreneur",
+    title: {
+      fr: "Quel statut juridique choisir pour son food truck en 2026 : auto-entrepreneur, SARL ou SAS ?",
+      en: "Which Legal Structure to Choose for Your Food Truck in 2026: Sole Trader, LLC or SAS?",
+    },
+    excerpt: {
+      fr: "Auto-entrepreneur, EURL, SARL, SAS : chaque statut juridique a des implications fiscales, sociales et comptables différentes. Ce guide compare les options pour vous aider à faire le bon choix dès le lancement de votre food truck.",
+      en: "Sole trader, single-member LLC, SARL, SAS: each legal structure has different tax, social and accounting implications. This guide compares the options to help you make the right choice when launching your food truck.",
+    },
+    category: { fr: "Réglementation", en: "Regulations" },
+    date: "2026-05-07",
+    readTime: 10,
+    keywords: [
+      "statut juridique food truck",
+      "auto-entrepreneur food truck",
+      "SARL food truck",
+      "SAS food truck",
+      "forme juridique food truck France",
+      "créer food truck statut",
+    ],
+    heroImage: "/blog/statut-juridique-food-truck.png",
+    content: {
+      fr: `## Pourquoi le choix du statut juridique est déterminant pour un food truck
+
+Avant même de choisir votre camion ou votre menu, le statut juridique conditionne vos obligations fiscales, votre protection sociale, votre capacité à embaucher et votre crédibilité auprès des banques et des fournisseurs. **Une erreur de statut en début d'activité peut coûter plusieurs milliers d'euros** en redressements, cotisations impayées ou requalifications.
+
+En 2026, les food truckers français disposent de quatre grandes options : la micro-entreprise (auto-entrepreneur), l'EURL, la SARL et la SAS/SASU. Voici comment choisir en connaissance de cause.
+
+## La micro-entreprise (auto-entrepreneur) : le choix du démarrage
+
+### Avantages
+
+La micro-entreprise est le statut le plus simple à créer (démarches en ligne en moins d'une heure) et le plus léger administrativement. En 2026, le plafond de chiffre d'affaires pour les activités de vente de marchandises est fixé à **188 700 € HT/an**.
+
+- **Cotisations sociales** : 12,3 % du CA pour les ventes de marchandises (food trucks classés en activité commerciale)
+- **Pas de TVA** sous le seuil de franchise (37 500 € HT)
+- **Comptabilité ultra-simplifiée** : un livre de recettes suffit
+- **Pas de capital social minimum**
+
+### Limites
+
+- **Plafond de CA** : si votre activité décolle, vous basculez automatiquement dans un régime classique
+- **Protection sociale inférieure** : les indemnités journalières en cas d'arrêt maladie sont très faibles pour les micro-entrepreneurs
+- **Pas de déficit déductible** : en micro, vos charges réelles ne sont pas déduites — vous payez sur le CA brut, même si vous avez investi massivement
+- **Difficulté à obtenir un crédit professionnel** : les banques préfèrent les sociétés pour les prêts importants (financement du camion, équipement)
+
+### Pour qui ?
+
+La micro-entreprise convient parfaitement pour **tester son concept**, démarrer avec un petit volume ou gérer un food truck en activité secondaire. Au-delà de 60 000 à 80 000 € de CA annuel, les autres statuts deviennent généralement plus avantageux.
+
+## L'EURL : la société unipersonnelle pour les indépendants
+
+L'EURL (Entreprise Unipersonnelle à Responsabilité Limitée) est une SARL à associé unique. Elle sépare votre patrimoine personnel de celui de l'entreprise, contrairement à la micro-entreprise.
+
+### Avantages
+
+- **Responsabilité limitée** : vos biens personnels sont protégés en cas de difficultés (sauf faute de gestion)
+- **Déduction des charges réelles** : vous payez l'impôt sur le bénéfice net, pas sur le CA brut
+- **Souplesse de rémunération** : vous pouvez arbitrer entre salaire de gérant et dividendes
+- **Crédibilité bancaire** : plus facile d'obtenir un prêt professionnel
+
+### Inconvénients
+
+- **Formalités de création** : rédaction des statuts, dépôt de capital (1 € minimum mais conseillé 1 000 à 5 000 €), publication au Journal Officiel
+- **Cotisations TNS** : le gérant majoritaire est affilié au régime des Travailleurs Non-Salariés (TNS), avec des cotisations d'environ 40 à 45 % de la rémunération nette
+- **Comptabilité obligatoire** : bilan annuel, compte de résultat, dépôt au greffe
+
+### Pour qui ?
+
+L'EURL est idéale pour un food trucker **solo** qui réalise plus de 60 000 € de CA et souhaite optimiser sa fiscalité tout en gardant une structure simple.
+
+## La SARL : la référence pour les projets à plusieurs associés
+
+Si vous lancez votre food truck à deux ou plusieurs, la SARL (Société à Responsabilité Limitée) est souvent le choix naturel.
+
+### Avantages
+
+- **Cadre juridique éprouvé** : la SARL est la forme la plus utilisée en France pour les PME
+- **Protection des associés** : responsabilité limitée aux apports
+- **Régime TNS pour le gérant majoritaire** : cotisations sociales moins élevées qu'un salarié classique
+- **Transmission facilitée** : cession de parts sociales encadrée
+
+### Inconvénients
+
+- **Rigidité des statuts** : toute modification importante nécessite une assemblée générale
+- **Coût de gestion** : expert-comptable quasi obligatoire, frais de greffe annuels
+- **Difficile à faire évoluer** : passer d'une SARL à une SAS implique une transformation formelle
+
+### Pour qui ?
+
+La SARL convient aux food truckers qui s'associent et prévoient une activité stable avec un chiffre d'affaires entre **80 000 € et 500 000 €**.
+
+## La SAS / SASU : la structure évolutive
+
+La SAS (Société par Actions Simplifiée) et sa version unipersonnelle SASU gagnent du terrain chez les food truckers qui anticipent une croissance rapide, la recherche d'investisseurs ou la gestion d'une flotte de plusieurs camions.
+
+### Avantages
+
+- **Liberté statutaire** : vous définissez librement les règles de gouvernance
+- **Régime salarié pour le président** : le président est assimilé salarié, ce qui donne accès à l'assurance chômage (sous conditions) et une meilleure protection sociale
+- **Levée de fonds facilitée** : structure adaptée si vous souhaitez intégrer des investisseurs
+- **Image professionnelle forte**
+
+### Inconvénients
+
+- **Cotisations sociales plus élevées** : environ 70 à 80 % du salaire brut pour le président assimilé-salarié (vs 40-45 % en TNS)
+- **Complexité juridique** : statuts plus longs à rédiger, fonctionnement plus formel
+- **Coût annuel** : expert-comptable, formalités, approbation des comptes
+
+### Pour qui ?
+
+La SASU est recommandée si vous prévoyez un CA supérieur à **150 000 €**, une flotte de camions, ou si vous cherchez à lever des fonds.
+
+## Tableau comparatif des statuts juridiques pour food truck
+
+| Critère | Micro-entreprise | EURL | SARL | SAS/SASU |
+|---|---|---|---|---|
+| Création | Très simple | Modérée | Modérée | Complexe |
+| Plafond CA | 188 700 € | Aucun | Aucun | Aucun |
+| Responsabilité | Illimitée | Limitée | Limitée | Limitée |
+| Cotisations sociales | 12,3 % du CA | 40-45 % rém. nette | 40-45 % rém. nette | 70-80 % salaire brut |
+| Comptabilité | Simplifiée | Complète | Complète | Complète |
+| Idéal pour | Démarrage / test | Solo > 60 k€ | Associés | Croissance / flotte |
+
+## Les questions à se poser avant de choisir
+
+### 1. Quel est mon chiffre d'affaires prévisionnel ?
+
+En dessous de 60 000 € la première année, la micro-entreprise est souvent le bon point de départ. Au-delà, une société devient plus intéressante fiscalement.
+
+### 2. Suis-je seul ou avec des associés ?
+
+Si vous êtes plusieurs, la SARL ou la SAS s'imposent pour définir clairement les droits et obligations de chacun.
+
+### 3. Ai-je besoin d'un crédit professionnel ?
+
+Pour financer un camion neuf (30 000 à 80 000 €), les banques exigent souvent une structure en société. La micro-entreprise complique l'obtention de prêts importants.
+
+### 4. Quelle protection sociale je veux ?
+
+Le régime TNS (EURL/SARL) coûte moins cher mais protège moins bien. Le régime assimilé salarié (SAS) coûte plus mais offre une meilleure couverture maladie et retraite.
+
+## Comment FoodTracks vous aide quel que soit votre statut
+
+Peu importe le statut juridique choisi, **la gestion quotidienne de votre food truck reste la même** : suivre vos stocks, analyser vos ventes par emplacement, prévoir vos commandes et piloter vos marges.
+
+FoodTracks s'adapte à toutes les structures juridiques :
+- **Micro-entrepreneur** : tableau de bord simplifié, export des recettes pour votre livre de recettes
+- **EURL / SARL / SAS** : export comptable pour votre expert-comptable, suivi TVA par taux, indicateurs de rentabilité par service
+
+L'outil se connecte directement à votre terminal **SumUp** pour centraliser ventes et stocks en temps réel, quel que soit votre régime fiscal.
+
+*Voir aussi :* [Comptabilité food truck : le guide complet](/fr/blog/comptabilite-food-truck-guide) · [TVA food truck : quel régime choisir](/fr/blog/tva-food-truck-regime-fiscal) · [Financer son food truck : aides et subventions](/fr/blog/financer-food-truck-aides-subventions)`,
+      en: `## Why Your Legal Structure Is a Make-or-Break Decision for a Food Truck
+
+Before you choose your truck or menu, your legal structure determines your tax obligations, social protection, ability to hire staff, and credibility with banks and suppliers. **Picking the wrong structure at launch can cost thousands of euros** in back payments, unpaid contributions or reclassifications.
+
+In 2026, French food truckers have four main options: the micro-enterprise (sole trader / auto-entrepreneur), the EURL (single-member LLC), the SARL (multi-member LLC) and the SAS/SASU (simplified joint-stock company). Here is how to choose wisely.
+
+## Micro-Enterprise (Auto-Entrepreneur): The Launch Pad
+
+### Advantages
+
+The micro-enterprise is the simplest structure to set up (online registration in under an hour) and the lightest administratively. In 2026, the turnover ceiling for goods sales activities is **€188,700 excl. VAT/year**.
+
+- **Social contributions**: 12.3% of turnover for goods sales (food trucks classified as commercial activity)
+- **No VAT** below the exemption threshold (€37,500 excl. VAT)
+- **Ultra-simplified accounting**: a revenue ledger is sufficient
+- **No minimum share capital**
+
+### Limitations
+
+- **Turnover cap**: if your business takes off, you automatically switch to a standard regime
+- **Lower social protection**: sick pay for sole traders is very low
+- **No deductible losses**: under this regime, real costs are not deducted — you pay on gross turnover, even if you have invested heavily
+- **Difficulty obtaining business credit**: banks prefer companies for major loans (truck financing, equipment)
+
+### Who Is It For?
+
+The micro-enterprise is perfect for **testing your concept**, starting with low volumes, or running a food truck as a secondary activity. Beyond €60,000–€80,000 in annual turnover, other structures generally become more advantageous.
+
+## EURL: The Single-Member Company for Independents
+
+The EURL (Entreprise Unipersonnelle à Responsabilité Limitée) is a single-member SARL. It separates your personal assets from those of the business, unlike the micro-enterprise.
+
+### Advantages
+
+- **Limited liability**: your personal assets are protected in the event of difficulties (except management fault)
+- **Deduction of actual costs**: you pay tax on net profit, not gross turnover
+- **Remuneration flexibility**: you can balance between manager's salary and dividends
+- **Banking credibility**: easier to obtain a professional loan
+
+### Disadvantages
+
+- **Creation formalities**: drafting articles of association, capital deposit (€1 minimum but €1,000–€5,000 recommended), publication in the Official Journal
+- **TNS contributions**: the majority manager is affiliated to the Self-Employed Workers scheme (TNS), with contributions of around 40–45% of net remuneration
+- **Mandatory accounting**: annual balance sheet, income statement, filing with the commercial court
+
+### Who Is It For?
+
+The EURL is ideal for a **solo** food trucker generating more than €60,000 in turnover who wants to optimise their tax position while keeping a simple structure.
+
+## SARL: The Reference for Multi-Partner Projects
+
+If you launch your food truck with two or more partners, the SARL (Société à Responsabilité Limitée) is often the natural choice.
+
+### Advantages
+
+- **Proven legal framework**: the SARL is the most widely used company form in France for SMEs
+- **Partner protection**: liability limited to contributions
+- **TNS regime for the majority manager**: lower social contributions than a regular employee
+- **Simplified transfer**: structured transfer of partnership shares
+
+### Disadvantages
+
+- **Rigid articles**: any major change requires a general meeting
+- **Management costs**: accountant almost mandatory, annual court fees
+- **Difficult to evolve**: converting a SARL to an SAS requires a formal transformation
+
+### Who Is It For?
+
+The SARL suits food truckers who **partner up** and plan a stable activity with turnover between **€80,000 and €500,000**.
+
+## SAS / SASU: The Scalable Structure
+
+The SAS (Société par Actions Simplifiée) and its single-member version SASU are gaining ground among food truckers who anticipate rapid growth, investor fundraising, or managing a fleet of several trucks.
+
+### Advantages
+
+- **Statutory freedom**: you define governance rules freely
+- **Employee-equivalent regime for the president**: the president is treated as an assimilated employee, giving access to unemployment insurance (under conditions) and better social protection
+- **Easier fundraising**: structure suited if you want to bring in investors
+- **Strong professional image**
+
+### Disadvantages
+
+- **Higher social contributions**: around 70–80% of gross salary for the assimilated-employee president (vs 40–45% under the TNS scheme)
+- **Legal complexity**: longer articles to draft, more formal operation
+- **Annual costs**: accountant, formalities, account approval
+
+### Who Is It For?
+
+The SASU is recommended if you plan turnover above **€150,000**, a fleet of trucks, or if you are looking to raise funds.
+
+## Comparative Table of Legal Structures for Food Trucks
+
+| Criterion | Micro-Enterprise | EURL | SARL | SAS/SASU |
+|---|---|---|---|---|
+| Setup | Very simple | Moderate | Moderate | Complex |
+| Turnover cap | €188,700 | None | None | None |
+| Liability | Unlimited | Limited | Limited | Limited |
+| Social contributions | 12.3% of turnover | 40–45% net pay | 40–45% net pay | 70–80% gross salary |
+| Accounting | Simplified | Full | Full | Full |
+| Ideal for | Launch / testing | Solo > €60k | Partners | Growth / fleet |
+
+## Questions to Ask Before Choosing
+
+### 1. What Is My Projected Turnover?
+
+Below €60,000 in year one, the micro-enterprise is often the right starting point. Beyond that, a company structure generally becomes more tax-efficient.
+
+### 2. Am I Alone or With Partners?
+
+If there are several of you, the SARL or SAS are necessary to clearly define everyone's rights and obligations.
+
+### 3. Do I Need a Business Loan?
+
+To finance a new truck (€30,000–€80,000), banks often require a company structure. The micro-enterprise complicates obtaining large loans.
+
+### 4. What Social Protection Do I Want?
+
+The TNS regime (EURL/SARL) costs less but protects less. The assimilated-employee regime (SAS) costs more but offers better health and pension coverage.
+
+## How FoodTracks Helps You Whatever Your Structure
+
+Whatever legal structure you choose, **the day-to-day management of your food truck remains the same**: tracking stock, analysing sales by location, forecasting orders and monitoring margins.
+
+FoodTracks adapts to all legal structures:
+- **Sole trader**: simplified dashboard, revenue export for your ledger
+- **EURL / SARL / SAS**: accounting export for your accountant, VAT tracking by rate, profitability indicators per service
+
+The tool connects directly to your **SumUp** terminal to centralise sales and stock in real time, whatever your tax regime.
+
+*Also read:* [Food Truck Accounting: The Complete Guide](/en/blog/comptabilite-food-truck-guide) · [Food Truck VAT: Which Tax Regime to Choose](/en/blog/tva-food-truck-regime-fiscal) · [Financing Your Food Truck: Grants and Subsidies](/en/blog/financer-food-truck-aides-subventions)`,
+    },
+    keyTakeaways: {
+      fr: [
+        "La micro-entreprise est idéale pour démarrer sous 60 000 € de CA, mais plafonne à 188 700 € et offre peu de protection sociale.",
+        "L'EURL sépare patrimoine personnel et professionnel, déduit les vraies charges, et convient aux food truckers solo en croissance.",
+        "La SARL est la référence pour les projets à deux associés ou plus, avec une responsabilité limitée et un régime TNS pour le gérant.",
+        "La SAS/SASU offre le plus de souplesse et de protection sociale (assimilé salarié) mais supporte les cotisations les plus élevées.",
+        "FoodTracks s'adapte à tous les statuts juridiques : export comptable, suivi TVA et tableaux de bord opérationnels pour chaque régime.",
+      ],
+      en: [
+        "The micro-enterprise is ideal for starting below €60,000 turnover but caps at €188,700 and offers limited social protection.",
+        "The EURL separates personal and business assets, deducts real costs, and suits solo food truckers in growth.",
+        "The SARL is the reference for two or more partners, with limited liability and the TNS regime for the manager.",
+        "The SAS/SASU offers the most flexibility and social protection (assimilated employee) but carries the highest contributions.",
+        "FoodTracks adapts to all legal structures: accounting export, VAT tracking and operational dashboards for every regime.",
+      ],
+    },
+    faqItems: [
+      {
+        question: {
+          fr: "Quel est le meilleur statut juridique pour ouvrir un food truck en France ?",
+          en: "What is the best legal structure to open a food truck in France?",
+        },
+        answer: {
+          fr: "Il n'y a pas de réponse universelle. La micro-entreprise convient pour démarrer avec un faible investissement et tester son concept jusqu'à environ 60 000 € de CA. L'EURL ou la SARL deviennent plus avantageuses au-delà, car elles permettent de déduire les vraies charges et de mieux protéger le patrimoine personnel. La SAS est à envisager si vous projetez une flotte ou une levée de fonds.",
+          en: "There is no universal answer. The micro-enterprise suits launching with low investment and testing your concept up to around €60,000 turnover. The EURL or SARL become more advantageous beyond that, as they allow deducting real costs and better protect personal assets. The SAS is worth considering if you plan a fleet or fundraising.",
+        },
+      },
+      {
+        question: {
+          fr: "Un food truck auto-entrepreneur peut-il dépasser 188 700 € de chiffre d'affaires ?",
+          en: "Can a food truck sole trader exceed €188,700 in turnover?",
+        },
+        answer: {
+          fr: "Non. Si votre chiffre d'affaires dépasse 188 700 € HT sur deux années consécutives, vous perdez automatiquement le régime micro-entreprise et basculez dans un régime réel d'imposition. Il est conseillé d'anticiper cette transition en créant une société (EURL, SARL ou SAS) avant d'atteindre le plafond.",
+          en: "No. If your turnover exceeds €188,700 excl. VAT for two consecutive years, you automatically lose the micro-enterprise regime and switch to a standard tax regime. It is advisable to anticipate this transition by setting up a company (EURL, SARL or SAS) before reaching the ceiling.",
+        },
+      },
+      {
+        question: {
+          fr: "Quelle différence entre SARL et SAS pour un food truck ?",
+          en: "What is the difference between a SARL and an SAS for a food truck?",
+        },
+        answer: {
+          fr: "La principale différence porte sur le régime social du dirigeant : en SARL, le gérant majoritaire relève du régime TNS (cotisations plus faibles mais protection sociale moindre). En SAS, le président est assimilé salarié (cotisations plus élevées mais accès à l'assurance chômage et meilleure protection maladie/retraite). La SAS offre aussi plus de liberté dans la rédaction des statuts.",
+          en: "The main difference concerns the manager's social regime: in a SARL, the majority manager falls under the TNS self-employed scheme (lower contributions but lesser social protection). In an SAS, the president is treated as an assimilated employee (higher contributions but access to unemployment insurance and better health/pension coverage). The SAS also offers more freedom in drafting articles of association.",
+        },
+      },
+      {
+        question: {
+          fr: "Peut-on changer de statut juridique après avoir démarré en micro-entreprise ?",
+          en: "Can you change legal structure after starting as a sole trader?",
+        },
+        answer: {
+          fr: "Oui, et c'est même conseillé dès que votre activité dépasse 60 000 à 80 000 € de CA annuel ou que vous investissez massivement (nouveau camion, équipements). Le passage en société implique de créer une nouvelle entité juridique, de transférer les actifs et de clôturer la micro-entreprise. Un expert-comptable peut vous accompagner dans cette transition.",
+          en: "Yes, and it is even advisable as soon as your activity exceeds €60,000–€80,000 in annual turnover or you make major investments (new truck, equipment). Moving to a company structure involves creating a new legal entity, transferring assets and closing the sole-trader registration. An accountant can guide you through this transition.",
+        },
+      },
+    ],
+    relatedSlugs: [
+      "tva-food-truck-regime-fiscal",
+      "comptabilite-food-truck-guide",
+      "financer-food-truck-aides-subventions",
+      "reglementation-food-truck-france",
+    ],
+  },
 ];
 
 export const blogArticles: BlogArticle[] = [...baseBlogArticles, ...verticalArticles];
