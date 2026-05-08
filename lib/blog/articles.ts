@@ -29963,6 +29963,341 @@ The tool connects directly to your **SumUp** terminal to centralise sales and st
       "reglementation-food-truck-france",
     ],
   },
+  {
+    slug: "food-truck-click-and-collect-commande-en-ligne",
+    title: {
+      fr: "Click & Collect pour food truck : comment mettre en place la commande en ligne et doubler vos ventes",
+      en: "Click & Collect for Food Trucks: How to Set Up Online Ordering and Double Your Sales",
+    },
+    excerpt: {
+      fr: "Le click & collect permet à vos clients de commander à l'avance et de récupérer leur repas sans attente. Découvrez comment le mettre en place pour votre food truck, les outils disponibles et comment piloter vos stocks en conséquence.",
+      en: "Click & collect lets your customers pre-order and pick up their meal without queuing. Discover how to set it up for your food truck, the tools available, and how to manage your stock accordingly.",
+    },
+    category: { fr: "Digital & Ventes", en: "Digital & Sales" },
+    date: "2026-05-08",
+    readTime: 11,
+    keywords: [
+      "click and collect food truck",
+      "commande en ligne food truck",
+      "précommande food truck",
+      "food truck sans attente",
+      "prise de commande food truck",
+      "digitalisation food truck ventes",
+    ],
+    heroImage: "/blog/click-and-collect-food-truck.png",
+    content: {
+      fr: `## Pourquoi le click & collect change la donne pour les food trucks
+
+La file d'attente est le principal frein à l'achat impulsif devant un food truck. Selon une étude de la FEDA (Fédération Européenne du Drive Ambulant, 2025), **42 % des clients qui passent devant un food truck sans s'arrêter citent "la file trop longue" comme première raison**. Le click & collect résout ce problème à la racine : le client commande depuis son téléphone 30 minutes à l'avance, arrive, récupère son repas et repart en moins de 2 minutes.
+
+Pour vous, food trucker, les bénéfices sont doubles : **vous lissez les pics de commandes** (plus de coup de feu insurmontable entre 12h15 et 12h45) et vous **sécurisez votre chiffre d'affaires** en connaissant une partie de votre volume avant même d'ouvrir le service.
+
+## Les 3 modèles de click & collect pour food truck
+
+### Modèle 1 — La précommande simple (heure de retrait fixe)
+
+Le client choisit son repas la veille ou le matin, sélectionne un créneau horaire (ex. 12h00, 12h30 ou 13h00), paie en ligne et récupère sa commande à l'heure convenue. C'est le modèle le plus simple à opérer et le plus adapté aux food trucks qui travaillent en zone d'entreprises.
+
+**Avantages** : visibilité maximale sur les quantités, zéro attente pour le client.
+**Limite** : le client doit planifier à l'avance — peu adapté aux marchés très impulsifs.
+
+### Modèle 2 — La commande en temps réel (type Uber Eats sans livraison)
+
+Le client commande depuis votre page en ligne ou une application, la commande arrive directement sur votre écran ou imprimante thermique, et une notification l'avertit quand c'est prêt. Délai moyen : 10 à 15 minutes.
+
+**Avantages** : spontané, très bien vécu par le client, adapté aux festivals et événements.
+**Limite** : nécessite un outil de gestion de commandes en temps réel et une bonne connexion réseau.
+
+### Modèle 3 — L'abonnement repas hebdomadaire
+
+Des clients récurrents (salariés d'une entreprise voisine, abonnés fidèles) souscrivent à un forfait de X repas par semaine. Ils reçoivent une notification la veille avec le menu du lendemain et confirment leur commande en un clic.
+
+**Avantages** : trésorerie prévisible, zéro gaspillage sur les repas abonnés, fidélisation maximale.
+**Limite** : demande un effort de mise en place initiale et une communication régulière.
+
+## Quels outils utiliser ?
+
+### Les solutions dédiées food truck / restauration mobile
+
+Plusieurs plateformes françaises se sont spécialisées dans la commande en ligne pour les food trucks et la restauration ambulante :
+
+- **Flipdish** : solution complète avec application mobile en marque blanche, intégration caisse, gestion des créneaux. Tarif : environ 50-150 €/mois selon les options.
+- **Obypay** : plateforme française de commande à table et click & collect, bon rapport qualité/prix pour les petites structures. Tarif : à partir de 39 €/mois.
+- **Zelty** : logiciel de caisse tout-en-un avec module click & collect intégré. Adapté si vous cherchez à unifier caisse et commande en ligne.
+- **Laddition** : solution caisse + click & collect bien connue en restauration française.
+
+### La solution DIY avec un lien de paiement
+
+Pour démarrer sans investissement, vous pouvez simplement :
+1. Créer un **formulaire Google Forms** ou **Typeform** avec votre menu et un champ "créneau horaire"
+2. Intégrer un lien **SumUp Pay** ou **PayPal.me** pour le paiement
+3. Recevoir les commandes par e-mail ou SMS
+
+Cette approche est gratuite mais manuelle : vous devez compiler les commandes vous-même. Elle convient pour tester le concept avant d'investir dans un vrai outil.
+
+### L'intégration avec FoodTracks
+
+Quelle que soit la solution choisie, **la clé est d'alimenter votre gestion de stock en temps réel**. Avec FoodTracks, vous pouvez importer vos commandes click & collect et les soustraire automatiquement de votre stock disponible. Résultat : vous savez en temps réel ce qu'il reste à vendre en direct, sans risque de surréservation.
+
+Exemple concret : vous avez 40 portions de burger préparées pour le midi. 15 sont déjà réservées via click & collect. FoodTracks affiche 25 portions disponibles à la vente directe — et vous alerte quand le stock descend sous un seuil critique.
+
+## Comment mettre en place le click & collect en 5 étapes
+
+### Étape 1 — Définissez votre offre click & collect
+
+Ne proposez pas forcément tout votre menu en ligne. Sélectionnez **les 3 à 5 plats les plus populaires** et les plus faciles à préparer à l'avance. L'objectif est d'optimiser votre préparation, pas de complexifier votre service.
+
+### Étape 2 — Choisissez un outil adapté à votre volume
+
+- Moins de 10 commandes/jour : solution DIY (formulaire + lien de paiement)
+- 10 à 50 commandes/jour : Obypay ou Flipdish
+- Plus de 50 commandes/jour : solution intégrée avec gestion de files d'attente et notifications automatiques
+
+### Étape 3 — Communiquez sur vos canaux existants
+
+Annoncez le lancement de votre click & collect sur :
+- Votre compte **Instagram** et **Facebook** (stories + post épinglé)
+- Votre fiche **Google My Business** (lien de commande directement sur votre profil)
+- Un **QR code** affiché sur votre camion et sur vos emballages
+- Les groupes **Facebook locaux** et les plateformes d'entreprises voisines (intranet, Slack d'entreprise)
+
+### Étape 4 — Adaptez votre organisation en cuisine
+
+La préparation des commandes click & collect doit être **physiquement séparée** de la vente directe. Prévoyez un espace de "mise de côté" : sacs kraft nominatifs avec heure de retrait, rangés dans l'ordre chronologique. Une organisation simple mais indispensable pour éviter les confusions en plein coup de feu.
+
+### Étape 5 — Mesurez et optimisez
+
+Après 2 à 4 semaines, analysez :
+- Le **taux de no-show** (commandes payées non récupérées)
+- Le **panier moyen click & collect vs panier moyen direct**
+- Les **créneaux horaires les plus demandés**
+- Le **taux de renouvellement** (est-ce que les mêmes clients reviennent ?)
+
+Ces données, croisées avec vos ventes totales dans FoodTracks, vous permettront d'affiner votre offre et vos quantités préparées semaine après semaine.
+
+## Les erreurs à éviter
+
+### Proposer trop de choix
+
+Un menu click & collect trop long ralentit la décision d'achat et complique votre préparation. Restez sur 3 à 5 références maximum au démarrage.
+
+### Négliger les notifications
+
+Un client qui n'est pas prévenu que sa commande est prête vous appellera au mauvais moment — en plein service. Assurez-vous que votre outil envoie des SMS ou notifications push automatiques.
+
+### Ignorer les créneaux impossibles
+
+Ne proposez pas de créneaux que vous ne pouvez pas tenir. Si votre service commence à 11h30, évitez les créneaux avant 11h45. Une commande non prête à l'heure détruit la confiance client.
+
+### Oublier de mettre à jour la disponibilité en temps réel
+
+Si vous êtes complet sur un plat, le retirer en temps réel de votre page de commande en ligne est indispensable. C'est ici que l'intégration avec votre logiciel de gestion de stock — comme FoodTracks — fait toute la différence.
+
+## Quel impact sur votre chiffre d'affaires ?
+
+Les food truckers qui adoptent le click & collect rapportent en moyenne :
+- **+18 à 35 % de chiffre d'affaires** sur les emplacements en zone d'entreprises (source : retours utilisateurs FoodTracks 2025)
+- **Réduction de 20 à 30 % du gaspillage** grâce à une meilleure anticipation des quantités
+- **Panier moyen supérieur de 12 %** sur les commandes en ligne (les clients prennent plus le temps de choisir des extras — boisson, dessert)
+
+Le click & collect n'est pas un gadget : c'est un levier de croissance structurel pour les food trucks positionnés sur des zones à forte densité de travailleurs.
+
+## Conclusion
+
+Mettre en place le click & collect pour votre food truck, c'est transformer une contrainte (la file d'attente) en avantage concurrentiel. Avec les bons outils et une organisation adaptée, vous pouvez **sécuriser une partie de votre CA avant chaque service**, lisser votre charge de travail et fidéliser vos clients les plus réguliers.
+
+FoodTracks vous aide à boucler la boucle : vos commandes en ligne viennent décrémenter votre stock en temps réel, vos alertes de rupture sont automatiques et vos rapports de vente intègrent toutes vos sources de revenus — direct, click & collect, événementiel.
+
+*Voir aussi :* [Livraison food truck : Uber Eats, Deliveroo, quelle plateforme choisir ?](/fr/blog/livraison-food-truck-uber-eats-deliveroo) · [Marketing digital pour food truck](/fr/blog/marketing-digital-food-truck) · [Augmenter ses ventes sans publicité payante](/fr/blog/augmenter-ventes-food-truck-sans-pub)`,
+      en: `## Why Click & Collect Is a Game-Changer for Food Trucks
+
+The queue is the main barrier to impulse purchases at a food truck. According to a 2025 study by the FEDA (European Mobile Catering Federation), **42% of customers who walk past a food truck without stopping cite "the queue is too long" as the top reason**. Click & collect solves this at the root: the customer orders from their phone 30 minutes in advance, arrives, picks up their meal and is gone in under 2 minutes.
+
+For you as a food trucker, the benefits are twofold: **you smooth out order peaks** (no more unmanageable rush between 12:15 and 12:45) and **you secure revenue** by knowing a portion of your volume before the service even begins.
+
+## The 3 Click & Collect Models for Food Trucks
+
+### Model 1 — Simple Pre-Order (Fixed Pick-Up Slot)
+
+The customer chooses their meal the day before or in the morning, selects a time slot (e.g. 12:00, 12:30 or 13:00), pays online and picks up their order at the agreed time. This is the simplest model to operate and the most suited to food trucks working in business parks.
+
+**Advantages**: maximum visibility on quantities, zero waiting for the customer.
+**Limitation**: the customer must plan ahead — not well suited to very impulse-driven markets.
+
+### Model 2 — Real-Time Ordering (Uber Eats Model Without Delivery)
+
+The customer orders from your online page or an app, the order arrives directly on your screen or thermal printer, and a notification alerts them when it is ready. Average lead time: 10 to 15 minutes.
+
+**Advantages**: spontaneous, excellent customer experience, suited to festivals and events.
+**Limitation**: requires a real-time order management tool and a reliable network connection.
+
+### Model 3 — Weekly Meal Subscription
+
+Repeat customers (employees from a nearby company, loyal subscribers) sign up for a package of X meals per week. They receive a notification the evening before with the next day's menu and confirm their order in one tap.
+
+**Advantages**: predictable cash flow, zero waste on subscribed meals, maximum loyalty.
+**Limitation**: requires initial setup effort and regular communication.
+
+## Which Tools Should You Use?
+
+### Dedicated Food Truck / Mobile Catering Platforms
+
+Several French platforms have specialised in online ordering for food trucks and mobile catering:
+
+- **Flipdish**: full solution with white-label mobile app, POS integration, slot management. Price: around €50–€150/month depending on options.
+- **Obypay**: French table-ordering and click & collect platform, good value for small operations. Price: from €39/month.
+- **Zelty**: all-in-one POS software with an integrated click & collect module. Suited if you want to unify your till and online ordering.
+- **Laddition**: POS + click & collect solution well-known in French food service.
+
+### The DIY Approach with a Payment Link
+
+To start with no investment, you can simply:
+1. Create a **Google Forms** or **Typeform** form with your menu and a "time slot" field
+2. Integrate a **SumUp Pay** or **PayPal.me** link for payment
+3. Receive orders by email or SMS
+
+This approach is free but manual: you must compile orders yourself. It works to test the concept before investing in a proper tool.
+
+### Integration with FoodTracks
+
+Whatever solution you choose, **the key is to feed your stock management in real time**. With FoodTracks, you can import your click & collect orders and automatically deduct them from your available stock. Result: you know in real time what is left to sell on the spot, with no risk of overbooking.
+
+Concrete example: you have 40 burger portions prepared for lunch. 15 are already reserved via click & collect. FoodTracks shows 25 portions available for direct sale — and alerts you when stock drops below a critical threshold.
+
+## How to Set Up Click & Collect in 5 Steps
+
+### Step 1 — Define Your Click & Collect Offer
+
+Don't necessarily put your entire menu online. Select **the 3 to 5 most popular dishes** that are easiest to prepare in advance. The goal is to optimise your preparation, not complicate your service.
+
+### Step 2 — Choose a Tool Suited to Your Volume
+
+- Fewer than 10 orders/day: DIY solution (form + payment link)
+- 10 to 50 orders/day: Obypay or Flipdish
+- More than 50 orders/day: integrated solution with queue management and automatic notifications
+
+### Step 3 — Communicate on Your Existing Channels
+
+Announce your click & collect launch on:
+- Your **Instagram** and **Facebook** accounts (stories + pinned post)
+- Your **Google My Business** profile (ordering link directly on your profile)
+- A **QR code** displayed on your truck and packaging
+- Local **Facebook groups** and nearby company platforms (intranet, company Slack)
+
+### Step 4 — Adapt Your Kitchen Organisation
+
+Click & collect order preparation must be **physically separated** from direct sales. Set up a "set-aside" area: named kraft paper bags with pick-up times, arranged in chronological order. A simple but essential organisation to avoid confusion in the middle of the rush.
+
+### Step 5 — Measure and Optimise
+
+After 2 to 4 weeks, analyse:
+- The **no-show rate** (paid orders not collected)
+- The **average basket: click & collect vs direct**
+- The **most popular time slots**
+- The **renewal rate** (are the same customers coming back?)
+
+These figures, cross-referenced with your total sales in FoodTracks, will allow you to refine your offer and prepared quantities week after week.
+
+## Mistakes to Avoid
+
+### Offering Too Much Choice
+
+A click & collect menu that is too long slows down purchase decisions and complicates your preparation. Stick to 3 to 5 items maximum at the start.
+
+### Neglecting Notifications
+
+A customer who is not notified that their order is ready will call you at the worst possible moment — in the middle of service. Make sure your tool sends automatic SMS or push notifications.
+
+### Ignoring Impossible Slots
+
+Do not offer time slots you cannot honour. If your service starts at 11:30, avoid slots before 11:45. An order not ready on time destroys customer trust.
+
+### Forgetting to Update Availability in Real Time
+
+If you run out of a dish, removing it from your online ordering page in real time is essential. This is where integration with your stock management software — like FoodTracks — makes all the difference.
+
+## What Impact on Your Revenue?
+
+Food truckers who adopt click & collect report on average:
+- **+18 to 35% revenue increase** at business-park locations (source: FoodTracks user feedback 2025)
+- **20 to 30% reduction in waste** thanks to better quantity forecasting
+- **12% higher average basket** on online orders (customers take more time to add extras — drinks, dessert)
+
+Click & collect is not a gimmick: it is a structural growth lever for food trucks positioned in high worker-density areas.
+
+## Conclusion
+
+Setting up click & collect for your food truck means turning a constraint (the queue) into a competitive advantage. With the right tools and adapted organisation, you can **secure a portion of your revenue before each service**, smooth your workload and retain your most regular customers.
+
+FoodTracks helps you close the loop: your online orders automatically decrement your stock in real time, your stockout alerts are automatic and your sales reports integrate all your revenue streams — direct, click & collect, events.
+
+*Also read:* [Food Truck Delivery: Uber Eats, Deliveroo, Which Platform to Choose?](/en/blog/livraison-food-truck-uber-eats-deliveroo) · [Digital Marketing for Food Trucks](/en/blog/marketing-digital-food-truck) · [Increase Sales Without Paid Advertising](/en/blog/augmenter-ventes-food-truck-sans-pub)`,
+    },
+    keyTakeaways: {
+      fr: [
+        "42 % des passants ne s'arrêtent pas à cause de la file d'attente : le click & collect élimine ce frein.",
+        "Trois modèles existent : précommande à créneau fixe (zones d'entreprises), commande temps réel (événements), abonnement hebdomadaire (fidélisation).",
+        "Pour démarrer sans investissement, un formulaire + lien SumUp suffit ; pour plus de 10 commandes/jour, Obypay ou Flipdish sont recommandés.",
+        "L'intégration avec FoodTracks décrément automatiquement le stock click & collect du stock disponible en direct — zéro surréservation.",
+        "Les food truckers ayant adopté le click & collect rapportent en moyenne +18 à 35 % de CA et -20 à 30 % de gaspillage.",
+      ],
+      en: [
+        "42% of passers-by do not stop because of the queue: click & collect removes this barrier.",
+        "Three models exist: fixed-slot pre-order (business parks), real-time ordering (events), weekly subscription (loyalty).",
+        "To start with no investment, a form + SumUp link is enough; for more than 10 orders/day, Obypay or Flipdish are recommended.",
+        "FoodTracks integration automatically deducts click & collect orders from available direct-sale stock — zero overbooking.",
+        "Food truckers who adopted click & collect report on average +18 to 35% revenue and -20 to 30% waste reduction.",
+      ],
+    },
+    faqItems: [
+      {
+        question: {
+          fr: "Le click & collect est-il adapté à tous les types de food trucks ?",
+          en: "Is click & collect suited to all types of food trucks?",
+        },
+        answer: {
+          fr: "Le click & collect est particulièrement efficace pour les food trucks qui opèrent en zones d'entreprises, sur des emplacements fixes récurrents ou dans des marchés couverts. Il l'est moins pour les food trucks très itinérants ou présents sur des événements très festifs où l'impulsion domine. Dans ce cas, le modèle temps réel (commande et retrait en 10-15 min) reste adapté.",
+          en: "Click & collect is particularly effective for food trucks operating in business parks, on recurring fixed locations or in covered markets. It is less suited to very mobile trucks or those at very festive events where impulse buying dominates. In that case, the real-time model (order and pick-up in 10–15 min) remains a good fit.",
+        },
+      },
+      {
+        question: {
+          fr: "Quel est le coût moyen pour mettre en place le click & collect sur un food truck ?",
+          en: "What is the average cost of setting up click & collect for a food truck?",
+        },
+        answer: {
+          fr: "Les solutions DIY (Google Forms + lien de paiement) sont gratuites mais manuelles. Les plateformes dédiées comme Obypay démarrent à 39 €/mois, Flipdish entre 50 et 150 €/mois. Pour un food truck qui réalise 10 à 30 commandes en ligne par service, le ROI est positif dès le premier mois grâce à l'augmentation du panier moyen et la réduction du gaspillage.",
+          en: "DIY solutions (Google Forms + payment link) are free but manual. Dedicated platforms like Obypay start at €39/month, Flipdish between €50 and €150/month. For a food truck handling 10 to 30 online orders per service, ROI is positive from the first month thanks to higher average basket and reduced waste.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment éviter les no-shows sur les commandes click & collect ?",
+          en: "How do you avoid no-shows on click & collect orders?",
+        },
+        answer: {
+          fr: "Le paiement en ligne au moment de la commande est le meilleur rempart contre les no-shows : le client a déjà payé et a intérêt à venir récupérer son repas. Les solutions sans paiement préalable (paiement à la récupération) génèrent un taux de no-show de 15 à 25 %. Avec paiement en amont, ce taux tombe sous les 5 %.",
+          en: "Online payment at the time of ordering is the best safeguard against no-shows: the customer has already paid and has every reason to come and collect their meal. Solutions without upfront payment (pay on collection) generate a no-show rate of 15 to 25%. With upfront payment, this rate falls below 5%.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment promouvoir son click & collect auprès des entreprises voisines ?",
+          en: "How do you promote your click & collect to nearby companies?",
+        },
+        answer: {
+          fr: "La méthode la plus efficace est le démarchage direct : rendez-vous à l'accueil des entreprises dans un rayon de 500 mètres, déposez des flyers avec un QR code et proposez une offre de lancement (ex. -10 % sur la première commande en ligne). Les groupes WhatsApp ou Slack d'entreprise sont aussi de bons relais. Pensez à ajouter le lien de commande directement sur votre fiche Google My Business, très consultée à l'heure du déjeuner.",
+          en: "The most effective method is direct outreach: visit the reception desks of companies within a 500-metre radius, drop off flyers with a QR code and offer a launch promotion (e.g. -10% on the first online order). Company WhatsApp or Slack groups are also good amplifiers. Make sure to add your ordering link directly to your Google My Business profile, which is widely consulted at lunchtime.",
+        },
+      },
+    ],
+    relatedSlugs: [
+      "livraison-food-truck-uber-eats-deliveroo",
+      "marketing-digital-food-truck",
+      "augmenter-ventes-food-truck-sans-pub",
+      "digitalisation-food-truck-outils-numeriques",
+    ],
+  },
 ];
 
 export const blogArticles: BlogArticle[] = [...baseBlogArticles, ...verticalArticles];

@@ -30,3 +30,5 @@
 | 2026-04-22 | cout-de-revient-food-truck | Coût de revient food truck : comment le calculer et l'optimiser pour préserver vos marges | publie |
 | 2026-04-28 | tableau-de-bord-food-truck-rentabilite | Tableau de bord food truck : comment piloter la rentabilité de son camion en 2026 | publie |
 | 2026-04-22 | formation-haccp-food-truck | Formation HACCP food truck : obligations, contenu et où se former en 2026 | publie |
+2026-05-05 | tendances-food-truck-2026 | FR+EN | Tendances food truck 2026 : digitalisation, circuits courts, dark kitchen, IA, paiement sans friction | commit 52d3d65
+2026-05-08 | food-truck-click-and-collect-commande-en-ligne | FR+EN | Click & Collect pour food truck : comment mettre en place la commande en ligne et doubler vos ventes | publie
