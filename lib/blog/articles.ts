@@ -30298,6 +30298,374 @@ FoodTracks helps you close the loop: your online orders automatically decrement 
       "digitalisation-food-truck-outils-numeriques",
     ],
   },
+  {
+    slug: "gestion-caisse-food-truck-journaliere",
+    title: {
+      fr: "Gestion de caisse food truck : le guide quotidien pour ne rien perdre",
+      en: "Food Truck Cash Management: The Daily Guide to Losing Nothing",
+    },
+    excerpt: {
+      fr: "Ouverture, clôture, écarts de caisse, fond de caisse… Maîtrisez la gestion de caisse quotidienne de votre food truck pour protéger vos marges et simplifier votre comptabilité.",
+      en: "Opening float, closing count, cash discrepancies, petty cash… Master your food truck's daily cash management to protect margins and simplify bookkeeping.",
+    },
+    category: { fr: "Gestion", en: "Management" },
+    date: "2026-05-09",
+    readTime: 11,
+    keywords: [
+      "gestion caisse food truck",
+      "clôture caisse food truck",
+      "fond de caisse food truck",
+      "écart de caisse restaurant mobile",
+      "comptabilité caisse food truck",
+    ],
+    heroImage: "/blog/gestion-caisse.png",
+    content: {
+      fr: `## Pourquoi la gestion de caisse est critique pour un food truck
+
+La caisse est le point de passage de **100 % de votre chiffre d'affaires**. Pourtant, beaucoup de food truckers négligent la rigueur nécessaire : fond de caisse non défini, clôture faite de mémoire, écarts jamais analysés. Résultat : des pertes invisibles qui s'accumulent, une comptabilité douloureuse en fin d'exercice, et parfois des conflits avec le fisc.
+
+Ce guide vous donne une procédure simple et reproductible pour ouvrir, gérer et clôturer votre caisse chaque jour — que vous travailliez seul ou avec une équipe.
+
+## Les bases : fond de caisse, caisse courante, caisse nette
+
+### Le fond de caisse
+
+Le fond de caisse, c'est la somme en espèces que vous gardez dans le tiroir **avant chaque service** pour rendre la monnaie. Il doit être :
+- **Fixe et défini** à l'avance (ex. 80 € en pièces + petites coupures)
+- **Reconstitué** chaque soir après clôture
+- **Jamais utilisé** pour des achats personnels ou professionnels en dehors du service
+
+Un fond de caisse bien dimensionné évite la rupture de monnaie en plein rush. Pour un service moyen de 50 à 100 couverts, un fond de 80 à 120 € est généralement suffisant.
+
+### La caisse courante
+
+Pendant le service, chaque paiement en espèces s'ajoute à votre caisse. Mais attention :
+- Les **remboursements** viennent en déduction
+- Les **achats d'urgence** (glace, nappes…) payés cash doivent être notés avec justificatif
+- Les **pourboires** doivent être tracés séparément
+
+### La caisse nette
+
+À la clôture : **caisse nette = total espèces comptées − fond de caisse**. C'est le montant à déposer en banque ou à sécuriser.
+
+## Procédure d'ouverture de caisse (5 min)
+
+1. **Comptez le fond de caisse** avant chaque service — ne faites jamais confiance à la session précédente
+2. **Notez le montant** dans votre journal de caisse (carnet ou application)
+3. **Vérifiez votre TPE** : synchronisation SumUp, batterie chargée, rouleau ticket OK
+4. **Vérifiez vos liquidités** : avez-vous assez de pièces de 0,50 €, 1 €, 2 € et de billets de 5 € et 10 € ?
+
+Si vous manquez de monnaie, faites un saut au bureau de tabac ou à la banque **avant** d'ouvrir. Une rupture de monnaie en plein service crée de la frustration client et ralentit le flux.
+
+## Pendant le service : bonnes pratiques
+
+### Toujours proposer le paiement par carte
+
+Les paiements CB via SumUp sont automatiquement tracés et synchronisés avec votre logiciel de gestion. Encouragez les paiements sans contact : ils réduisent les erreurs de rendu de monnaie et les risques de vol.
+
+Avec [FoodTracks connecté à SumUp](/fr/blog/connecter-sumup-food-truck-suivi-ventes), chaque vente est enregistrée en temps réel — vous n'avez plus à reporter manuellement les totaux CB à la clôture.
+
+### Gérer les mouvements d'espèces intermédiaires
+
+Si votre caisse commence à déborder (au-delà de 300-400 € en espèces), faites un **prélèvement intermédiaire** : sortez les grosses coupures, comptez-les, notez le montant, mettez-les en sécurité (coffre ou ceinture porte-monnaie). C'est ce qu'on appelle une "remise en banque intermédiaire" — elle protège contre le vol et simplifie la clôture.
+
+### Traiter les remboursements correctement
+
+Un remboursement en espèces doit toujours être accompagné :
+- Du motif (plat non conforme, erreur de commande…)
+- Du montant exact
+- D'une note dans votre journal
+
+Ne faites jamais un remboursement "à l'œil" : c'est une faille comptable exploitable.
+
+## Procédure de clôture de caisse (10 min)
+
+C'est la phase la plus critique — et la plus souvent bâclée.
+
+### Étape 1 : isoler le fond de caisse
+
+Sortez les billets et pièces correspondant à votre fond de caisse standard (ex. 80 €) et posez-les de côté. Ne les comptez pas dans votre recette.
+
+### Étape 2 : compter les espèces restantes
+
+Comptez les espèces par valeur : pièces de 2 €, 1 €, 0,50 €… puis billets de 5 €, 10 €, 20 €, 50 €. Notez le total.
+
+### Étape 3 : relever les paiements CB
+
+Sur votre SumUp, relevez le total CB du jour. Si vous utilisez FoodTracks, ce chiffre est déjà disponible dans votre tableau de bord.
+
+### Étape 4 : calculer la recette théorique vs réelle
+
+| | Montant |
+|---|---|
+| Total CB | 342,50 € |
+| Total espèces (hors fond) | 87,00 € |
+| **Recette réelle** | **429,50 €** |
+| Recette théorique (logiciel) | 431,00 € |
+| **Écart** | **-1,50 €** |
+
+Un écart de ±2 % est tolérable. Au-delà, cherchez l'origine : erreur de rendu, oubli de note, ticket non encaissé.
+
+### Étape 5 : noter et sécuriser
+
+Inscrivez dans votre journal : date, recette espèces, recette CB, écart, observations. Mettez les espèces en sécurité. C'est tout.
+
+## Les erreurs qui coûtent cher
+
+### Mélanger la caisse pro et les dépenses perso
+
+Payer votre café du matin ou vos courses avec la caisse du camion, même avec l'intention de rembourser, crée des écarts injustifiables. Gardez une carte personnelle séparée pour vos dépenses.
+
+### Ne jamais analyser les écarts
+
+Un écart de 5 € par service semble anodin. Mais sur 200 services par an, c'est **1 000 € de pertes non expliquées** — l'équivalent de plusieurs jours de chiffre d'affaires.
+
+### Laisser des billets non déclarés "pour les urgences"
+
+Cette pratique, souvent innocente, constitue une irrégularité comptable. En cas de contrôle fiscal, un fond de caisse fluctuant sans justification est un signal d'alarme. Utilisez plutôt un compte professionnel avec une petite réserve dédiée.
+
+### Ne pas faire de clôture les jours de faible activité
+
+Même si vous n'avez eu que 8 clients, faites votre clôture. La régularité de la procédure est ce qui vous protège et simplifie votre comptabilité mensuelle. Pour aller plus loin, lisez notre guide sur la [comptabilité food truck](/fr/blog/comptabilite-food-truck-guide).
+
+## Caisse et obligations légales
+
+### Le logiciel de caisse certifié NF 525
+
+Depuis le 1er janvier 2018, tout assujetti à la TVA doit utiliser un logiciel de caisse certifié **NF 525** (ou équivalent). Cette certification garantit l'inaltérabilité, la sécurisation et la conservation des données.
+
+SumUp est certifié NF 525. Si vous utilisez une solution complémentaire, vérifiez sa certification avant tout achat.
+
+### Conservation des données
+
+Les données de caisse (tickets, journaux, clôtures) doivent être conservées **6 ans**. Un logiciel certifié le fait automatiquement. Si vous gérez des carnets papier, scannez-les et archivez-les dans le cloud.
+
+### Les contrôles de l'administration fiscale
+
+Un contrôleur peut demander :
+- Vos journaux de caisse des 3 dernières années
+- La cohérence entre recettes déclarées et données SumUp/logiciel
+- Vos tickets Z (tickets de clôture de caisse)
+
+Avec FoodTracks + SumUp, toutes ces données sont disponibles en quelques clics. Consultez notre guide sur la [TVA et le régime fiscal food truck](/fr/blog/tva-food-truck-regime-fiscal) pour aller plus loin.
+
+## Automatiser pour gagner du temps
+
+La gestion de caisse manuelle prend du temps et génère des erreurs. Les outils numériques permettent de l'automatiser en grande partie :
+
+- **SumUp** enregistre automatiquement chaque paiement CB avec horodatage
+- **FoodTracks** consolide les données SumUp + espèces pour calculer votre recette réelle
+- **Le tableau de bord FoodTracks** affiche l'écart de caisse quotidien et vous alerte si l'écart dépasse votre seuil de tolérance
+
+En automatisant la clôture, vous gagnez 5 à 10 minutes par jour — et plusieurs heures de travail comptable par mois. Découvrez comment le [tableau de bord KPI](/fr/blog/tableau-de-bord-kpi-food-truck) vous aide à piloter votre activité.
+
+*À lire aussi :* [Coûts et charges mensuels d'un food truck](/fr/blog/cout-charges-food-truck-mensuel) · [Seuil de rentabilité food truck](/fr/blog/seuil-rentabilite-food-truck-calcul) · [Connecter SumUp à FoodTracks](/fr/blog/connecter-sumup-food-truck-suivi-ventes)`,
+      en: `## Why Cash Management Is Critical for a Food Truck
+
+Your till is the gateway for **100% of your revenue**. Yet many food truckers overlook the discipline required: no defined float, closing counted from memory, discrepancies never investigated. The result: invisible losses that pile up, painful bookkeeping at year-end, and sometimes trouble with the tax authority.
+
+This guide gives you a simple, repeatable process to open, run, and close your cash register every day — whether you work alone or with a team.
+
+## The Basics: Float, Current Cash, Net Cash
+
+### The Opening Float
+
+Your float is the cash you keep in the till **before each service** to make change. It must be:
+- **Fixed and defined** in advance (e.g. £80 in coins and small notes)
+- **Replenished** each evening after closing
+- **Never used** for personal or business purchases outside the service
+
+A well-sized float prevents you from running out of change during a busy rush. For an average service of 50 to 100 covers, a float of £80 to £120 is usually sufficient.
+
+### Current Cash
+
+During service, every cash payment adds to your till. But be aware:
+- **Refunds** are deducted
+- **Emergency cash purchases** (ice, napkins…) must be noted with a receipt
+- **Tips** should be tracked separately
+
+### Net Cash
+
+At closing: **net cash = total cash counted − float**. This is the amount to bank or secure.
+
+## Opening Procedure (5 minutes)
+
+1. **Count the float** before every service — never trust the previous session
+2. **Record the amount** in your cash journal (notebook or app)
+3. **Check your card reader**: SumUp sync, battery charged, receipt roll OK
+4. **Check your coins**: do you have enough 50p, £1, £2 coins and £5 and £10 notes?
+
+If you are short on change, visit a newsagent or bank **before** opening. Running out of change mid-service frustrates customers and slows the queue.
+
+## During Service: Best Practices
+
+### Always Offer Card Payment
+
+Card payments via SumUp are automatically tracked and synced with your management software. Encourage contactless payments: they reduce change errors and theft risk.
+
+With [FoodTracks connected to SumUp](/en/blog/connecter-sumup-food-truck-suivi-ventes), every sale is recorded in real time — no more manually entering card totals at close.
+
+### Managing Interim Cash Movements
+
+If your till starts to overflow (beyond £300–£400 in cash), do an **interim removal**: take out large notes, count them, record the amount, and secure them (safe or money belt). This is called an "interim bank" — it protects against theft and simplifies closing.
+
+### Handling Refunds Correctly
+
+A cash refund must always include:
+- The reason (non-conforming dish, order error…)
+- The exact amount
+- A note in your journal
+
+Never give a refund "by eye": it is an exploitable accounting flaw.
+
+## Closing Procedure (10 minutes)
+
+This is the most critical phase — and the most often rushed.
+
+### Step 1: Isolate the Float
+
+Remove the bills and coins matching your standard float (e.g. £80) and set them aside. Do not count them in your revenue.
+
+### Step 2: Count Remaining Cash
+
+Count cash by denomination: £2, £1, 50p coins… then £5, £10, £20, £50 notes. Record the total.
+
+### Step 3: Pull Card Totals
+
+On your SumUp, retrieve the day's card total. If you use FoodTracks, this figure is already in your dashboard.
+
+### Step 4: Calculate Theoretical vs Actual Revenue
+
+| | Amount |
+|---|---|
+| Card total | £342.50 |
+| Cash total (excl. float) | £87.00 |
+| **Actual revenue** | **£429.50** |
+| Theoretical revenue (software) | £431.00 |
+| **Discrepancy** | **-£1.50** |
+
+A discrepancy of ±2% is acceptable. Beyond that, investigate: change error, missed note, unprocessed ticket.
+
+### Step 5: Record and Secure
+
+Write in your journal: date, cash revenue, card revenue, discrepancy, notes. Secure the cash. That's it.
+
+## Costly Mistakes to Avoid
+
+### Mixing Business Cash with Personal Spending
+
+Paying for your morning coffee or personal shopping from the truck's till — even with the intention of reimbursing — creates unjustifiable discrepancies. Keep a separate personal card for your expenses.
+
+### Never Analysing Discrepancies
+
+A £5 discrepancy per service seems trivial. But across 200 services a year, that is **£1,000 in unexplained losses** — the equivalent of several days' revenue.
+
+### Leaving Undeclared Notes "For Emergencies"
+
+This practice, often innocent, is an accounting irregularity. In the event of a tax inspection, a fluctuating float with no justification is a red flag. Instead, maintain a small dedicated reserve in a business account.
+
+### Skipping the Closing on Slow Days
+
+Even if you only served 8 customers, do your close. Procedural consistency is what protects you and simplifies your monthly bookkeeping. For more, read our [food truck accounting guide](/en/blog/comptabilite-food-truck-guide).
+
+## Cash Management and Legal Obligations
+
+### Certified POS Software
+
+Since 2018 in France (and under similar obligations in the UK for VAT-registered businesses), point-of-sale software must meet certification standards guaranteeing data integrity, security, and retention.
+
+SumUp is certified. If you use a complementary solution, verify its certification before purchase.
+
+### Data Retention
+
+Cash data (tickets, journals, closes) must be retained for **6 years**. Certified software does this automatically. If you keep paper journals, scan and archive them in the cloud.
+
+### Tax Inspections
+
+An inspector may request:
+- Your cash journals for the last 3 years
+- Consistency between declared revenue and SumUp/software data
+- Your Z-reports (end-of-day closing receipts)
+
+With FoodTracks + SumUp, all this data is available in a few clicks.
+
+## Automate to Save Time
+
+Manual cash management takes time and generates errors. Digital tools largely automate it:
+
+- **SumUp** automatically records every card payment with a timestamp
+- **FoodTracks** consolidates SumUp + cash data to calculate your actual revenue
+- The **FoodTracks dashboard** shows daily cash discrepancies and alerts you if the gap exceeds your tolerance threshold
+
+By automating closing, you save 5 to 10 minutes per day — and several hours of accounting work per month. Discover how the [KPI dashboard](/en/blog/tableau-de-bord-kpi-food-truck) helps you run your business.
+
+*Also read:* [Monthly Food Truck Costs and Overheads](/en/blog/cout-charges-food-truck-mensuel) · [Food Truck Break-Even Point](/en/blog/seuil-rentabilite-food-truck-calcul) · [Connecting SumUp to FoodTracks](/en/blog/connecter-sumup-food-truck-suivi-ventes)`,
+    },
+    keyTakeaways: {
+      fr: [
+        "Un fond de caisse fixe (80-120 €) reconstitué chaque soir est la base d'une gestion de caisse saine.",
+        "La clôture de caisse prend 10 min : isoler le fond, compter les espèces, relever les CB, calculer l'écart, noter et sécuriser.",
+        "Un écart > 2 % doit être analysé — sur 200 services, 5 € d'écart quotidien représente 1 000 € de pertes annuelles.",
+        "SumUp certifié NF 525 + FoodTracks automatise la clôture et produit les journaux nécessaires en cas de contrôle fiscal.",
+        "Ne jamais mélanger caisse professionnelle et dépenses personnelles : c'est la première cause d'écarts injustifiables.",
+      ],
+      en: [
+        "A fixed float (£80–£120) replenished each evening is the foundation of sound cash management.",
+        "Closing takes 10 minutes: isolate the float, count cash, pull card totals, calculate the discrepancy, record and secure.",
+        "A discrepancy > 2% must be investigated — across 200 services, a £5 daily gap equals £1,000 in annual losses.",
+        "SumUp + FoodTracks automates closing and produces the journals needed for a tax inspection.",
+        "Never mix business cash with personal spending — it is the leading cause of unjustifiable discrepancies.",
+      ],
+    },
+    faqItems: [
+      {
+        question: {
+          fr: "Quel montant mettre dans le fond de caisse d'un food truck ?",
+          en: "How much should I put in a food truck's opening float?",
+        },
+        answer: {
+          fr: "Un fond de caisse de 80 à 120 € est adapté à la plupart des food trucks. Il doit contenir majoritairement des pièces (0,50 €, 1 €, 2 €) et des petites coupures (5 €, 10 €). Si votre ticket moyen est élevé (au-delà de 15 €) et que vous avez peu de paiements en espèces, vous pouvez descendre à 50 €. À l'inverse, sur un marché très cash, montez à 150-200 €.",
+          en: "A float of £80 to £120 suits most food trucks. It should contain mainly coins (50p, £1, £2) and small notes (£5, £10). If your average ticket is high (above £15) and few customers pay cash, you can go down to £50. Conversely, at a very cash-heavy market, go up to £150–£200.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment gérer un écart de caisse important en fin de service ?",
+          en: "How do I handle a large cash discrepancy at the end of service?",
+        },
+        answer: {
+          fr: "Recommencez le comptage calmement, par valeur. Si l'écart persiste, passez en revue : les billets de 50 € reçus (faciles à confondre), les remboursements effectués sans note, les achats cash non enregistrés. Si l'écart dépasse 20 € et ne s'explique pas, signalez-le dans votre journal et cherchez un pattern sur les prochains services (même heure, même employé ?). Un écart persistant peut indiquer un vol.",
+          en: "Recount calmly, denomination by denomination. If it persists, review: any £50 notes received (easy to miscount), refunds given without a note, unrecorded cash purchases. If the gap exceeds £20 and cannot be explained, log it in your journal and look for a pattern over the next services (same time, same employee?). A recurring discrepancy may indicate theft.",
+        },
+      },
+      {
+        question: {
+          fr: "Dois-je faire une clôture de caisse même si je n'accepte pas les espèces ?",
+          en: "Do I need to do a cash close if I don't accept cash payments?",
+        },
+        answer: {
+          fr: "Oui. Même si vous travaillez 100 % en carte bancaire, le logiciel de caisse certifié NF 525 exige un ticket Z (clôture journalière) pour chaque journée d'activité. Ce ticket récapitule les paiements CB, les annulations et les remboursements. SumUp génère ce rapport automatiquement — consultez-le depuis l'application.",
+          en: "Yes. Even if you work 100% by card, a certified POS system requires a Z-report (daily close) for each day of activity. This report summarises card payments, voids, and refunds. SumUp generates this report automatically — access it from the app.",
+        },
+      },
+      {
+        question: {
+          fr: "Combien de temps dois-je conserver mes journaux de caisse ?",
+          en: "How long must I keep my cash journals?",
+        },
+        answer: {
+          fr: "6 ans à compter de la date de l'exercice comptable. En pratique, un logiciel certifié NF 525 comme SumUp conserve les données automatiquement. Si vous avez des carnets papier pour les espèces, numérisez-les et stockez-les dans un service cloud sécurisé (Google Drive, Dropbox). En cas de perte, l'administration fiscale peut reconstituer votre chiffre d'affaires par d'autres moyens et appliquer des redressements.",
+          en: "6 years from the date of the accounting period. In practice, a certified POS system like SumUp retains data automatically. If you keep paper journals for cash, scan them and store them in a secure cloud service (Google Drive, Dropbox). If lost, the tax authority can reconstruct your revenue by other means and issue assessments.",
+        },
+      },
+    ],
+    relatedSlugs: [
+      "comptabilite-food-truck-guide",
+      "tva-food-truck-regime-fiscal",
+      "connecter-sumup-food-truck-suivi-ventes",
+      "seuil-rentabilite-food-truck-calcul",
+    ],
+  },
 ];
 
 export const blogArticles: BlogArticle[] = [...baseBlogArticles, ...verticalArticles];
