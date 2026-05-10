@@ -30666,6 +30666,342 @@ By automating closing, you save 5 to 10 minutes per day — and several hours of
       "seuil-rentabilite-food-truck-calcul",
     ],
   },
+  {
+    slug: "fixer-prix-menu-food-truck",
+    title: {
+      fr: "Comment fixer le prix de vente de ses plats en food truck : méthode complète 2026",
+      en: "How to Price Your Food Truck Menu: Complete 2026 Method",
+    },
+    excerpt: {
+      fr: "Découvrez comment calculer et fixer le bon prix de vente pour chaque plat de votre food truck : méthode cost-plus, tarification concurrentielle, psychologie des prix et outils pratiques.",
+      en: "Learn how to calculate and set the right selling price for every dish on your food truck menu: cost-plus method, competitive pricing, price psychology and practical tools.",
+    },
+    category: { fr: "Rentabilité", en: "Profitability" },
+    date: "2026-05-10",
+    readTime: 10,
+    keywords: [
+      "fixer prix menu food truck",
+      "prix de vente food truck",
+      "comment fixer ses prix food truck",
+      "tarification food truck",
+      "marge food truck",
+      "food truck menu pricing",
+      "how to price food truck menu",
+      "food truck pricing strategy",
+    ],
+    heroImage: "/blog/rentabilite.png",
+    keyTakeaways: {
+      fr: [
+        "Le prix de vente idéal couvre le coût matière (30-35 %), les charges fixes et dégage une marge nette d'au moins 10-15 %.",
+        "La méthode cost-plus est le point de départ : prix = coût matière ÷ 0,33.",
+        "Un prix trop bas est aussi dangereux qu'un prix trop élevé : il dégrade votre image et fragilise la trésorerie.",
+        "La psychologie des prix (charm pricing, ancrage, menus courts) augmente le panier moyen sans baisser les prix.",
+        "FoodTracks calcule automatiquement le coût matière réel de chaque plat grâce au scan des factures.",
+      ],
+      en: [
+        "The ideal selling price covers food cost (30–35%), fixed overheads and delivers a net margin of at least 10–15%.",
+        "The cost-plus method is the starting point: price = food cost ÷ 0.33.",
+        "Pricing too low is as dangerous as pricing too high — it damages your image and weakens cash flow.",
+        "Price psychology (charm pricing, anchoring, short menus) increases average order value without cutting prices.",
+        "FoodTracks automatically calculates the real food cost of every dish by scanning your invoices.",
+      ],
+    },
+    faqItems: [
+      {
+        question: {
+          fr: "Quel taux de coût matière viser pour un food truck ?",
+          en: "What food cost percentage should a food truck target?",
+        },
+        answer: {
+          fr: "La norme en restauration rapide est de 28 à 35 %. En food truck, visez 30 à 33 % pour absorber les charges spécifiques (carburant, parking, maintenance). Un ratio supérieur à 38 % compromet votre rentabilité sauf si vos charges fixes sont très basses.",
+          en: "The norm in quick-service is 28–35%. For food trucks, target 30–33% to absorb specific costs (fuel, pitch fees, maintenance). A ratio above 38% threatens profitability unless your fixed costs are exceptionally low.",
+        },
+      },
+      {
+        question: {
+          fr: "Dois-je m'aligner sur les prix de la concurrence ?",
+          en: "Should I match my competitors' prices?",
+        },
+        answer: {
+          fr: "Seulement après avoir vérifié que vos coûts sont couverts. Si votre concurrent est moins cher mais que vous ne pouvez pas atteindre son prix sans perdre de l'argent, ne l'imitez pas. Travaillez plutôt sur la valeur perçue (qualité, présentation, storytelling) pour justifier un prix plus élevé.",
+          en: "Only after verifying your costs are covered. If a competitor is cheaper but you can't match that price without losing money, don't follow. Instead, work on perceived value (quality, presentation, storytelling) to justify a higher price.",
+        },
+      },
+      {
+        question: {
+          fr: "À quelle fréquence dois-je revoir mes prix ?",
+          en: "How often should I review my menu prices?",
+        },
+        answer: {
+          fr: "Au minimum deux fois par an (début de saison printemps/été, rentrée automne). Et immédiatement en cas de hausse significative du coût d'un ingrédient clé (+ 10 % ou plus). Une petite hausse régulière est mieux tolérée par les clients qu'un grand saut tous les deux ans.",
+          en: "At least twice a year (start of spring/summer season, autumn return). And immediately when a key ingredient rises significantly (10% or more). Small regular increases are better tolerated by customers than one big jump every two years.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment augmenter mes prix sans perdre mes clients fidèles ?",
+          en: "How can I raise prices without losing loyal customers?",
+        },
+        answer: {
+          fr: "Communiquez avec transparence : expliquez que le prix des matières premières a augmenté. Faites-le progressivement (50 centimes à la fois). Ajoutez de la valeur perçue en même temps (meilleure présentation, portion légèrement revue, ingrédient premium annoncé). Les clients fidèles restent si la qualité est au rendez-vous.",
+          en: "Communicate openly: explain that ingredient costs have risen. Do it gradually (50 cents at a time). Add perceived value simultaneously (better presentation, slightly revised portion, announced premium ingredient). Loyal customers stay if quality holds up.",
+        },
+      },
+      {
+        question: {
+          fr: "Dois-je afficher des prix TTC ou HT sur ma carte ?",
+          en: "Should I display prices with or without VAT on my menu?",
+        },
+        answer: {
+          fr: "Toujours TTC (toutes taxes comprises) sur les supports destinés aux consommateurs finaux. C'est une obligation légale en France. La TVA applicable dépend du lieu de consommation : 5,5 % pour la vente à emporter, 10 % pour la consommation sur place (si vous proposez des tables).",
+          en: "Always display VAT-inclusive prices on menus shown to end consumers — this is a legal requirement in France. The applicable VAT rate depends on consumption: 5.5% for takeaway, 10% for on-site consumption (if you provide tables).",
+        },
+      },
+    ],
+    relatedSlugs: [
+      "cout-de-revient-food-truck",
+      "prix-de-revient-plat-food-truck",
+      "seuil-rentabilite-food-truck-calcul",
+      "augmenter-ticket-moyen-food-truck",
+    ],
+    content: {
+      fr: `## Pourquoi fixer le bon prix est une décision stratégique
+
+Fixer le prix de ses plats est l'une des décisions les plus importantes — et les plus sous-estimées — pour un food trucker. Un prix trop bas ronge vos marges et vous contraint à vendre toujours plus pour survivre. Un prix trop élevé fait fuir les clients. **Le bon prix, c'est celui qui couvre tous vos coûts, vous laisse une marge saine, et correspond à la valeur perçue par votre clientèle.**
+
+Avant d'aller plus loin, assurez-vous d'avoir calculé votre [coût de revient par plat](/fr/blog/cout-de-revient-food-truck) et votre [seuil de rentabilité](/fr/blog/seuil-rentabilite-food-truck-calcul). Ce sont les deux fondations indispensables.
+
+## La méthode cost-plus : le point de départ incontournable
+
+### Le principe
+
+La méthode cost-plus part du coût matière pour remonter au prix de vente :
+
+**Prix de vente TTC = Coût matière ÷ Taux cible de food cost**
+
+Si votre coût matière pour un burger est de 2,20 € et que vous visez un taux de food cost de 33 %, votre prix de vente devrait être :
+
+**2,20 € ÷ 0,33 = 6,67 €** → arrondissez à **6,90 € ou 7,00 €**
+
+### Quel taux de food cost viser ?
+
+En food truck, le standard est **30 à 33 %**. Cela signifie que pour 1 € encaissé, 0,30 à 0,33 € couvrent les ingrédients. Le reste doit absorber :
+- Charges fixes (assurance, leasing, abonnements logiciel)
+- Carburant et frais de déplacement
+- Frais de parking et d'emplacement
+- Main-d'œuvre (si vous avez un employé)
+- Votre propre rémunération
+
+Si votre ratio dépasse 38 %, votre marge nette sera insuffisante sauf structure de coûts exceptionnellement légère.
+
+### Calculez automatiquement votre coût matière avec FoodTracks
+
+Avec [FoodTracks](/fr), vous scannez vos factures fournisseurs et l'application calcule automatiquement le coût matière réel de chaque plat. Fini les tableurs manuels. Vous voyez en un coup d'œil quels plats sont rentables et lesquels tirent vos marges vers le bas. C'est aussi un outil clé pour [optimiser vos marges grâce à l'analyse des données](/fr/blog/optimiser-marges-food-truck-analyse-donnees).
+
+## Intégrer les charges fixes dans votre tarification
+
+Le food cost ne couvre que les ingrédients. Pour vous assurer que chaque plat contribue à couvrir vos charges fixes, calculez votre **marge sur coût variable** :
+
+**Marge sur coût variable = Prix de vente − Coût matière**
+
+Puis vérifiez que votre chiffre d'affaires mensuel moyen dépasse votre seuil de rentabilité. Si ce n'est pas le cas, vous avez deux leviers : augmenter vos prix ou réduire vos coûts.
+
+### Exemple concret
+
+- Charges fixes mensuelles : 1 800 €
+- Nombre de services par mois : 18
+- Chiffre d'affaires moyen par service : 450 €
+- CA mensuel : 8 100 €
+- Marge brute (67 % si food cost 33 %) : 5 427 €
+- Marge nette : 5 427 € − 1 800 € = **3 627 €**
+
+Si vos prix ne génèrent pas ces ratios, il faut revoir la carte.
+
+## La tarification concurrentielle : se situer par rapport au marché
+
+### Connaître les prix pratiqués autour de vous
+
+Avant de fixer vos prix définitifs, faites un tour de vos concurrents directs : autres food trucks sur vos emplacements habituels, restaurants rapides, boulangeries. Notez les prix pour des produits comparables.
+
+Cette étude vous donne **une fourchette de marché**. Votre objectif n'est pas de vous aligner systématiquement, mais de comprendre où vous vous positionnez et pourquoi.
+
+### Justifier un prix plus élevé
+
+Si votre prix cost-plus vous amène au-dessus de la concurrence, ne paniquez pas. Un prix premium se justifie par :
+- Des ingrédients de qualité supérieure (local, bio, AOP)
+- Une présentation soignée et instagrammable
+- Un concept fort et une histoire différenciante
+- Un service rapide et efficace
+
+Les clients paient plus cher quand la valeur perçue est au rendez-vous. Consultez aussi notre guide sur [comment augmenter le ticket moyen sans baisser vos prix](/fr/blog/augmenter-ticket-moyen-food-truck).
+
+## La psychologie des prix : booster les ventes sans changer vos coûts
+
+### Le charm pricing
+
+Les prix se terminant en 9 ou 5 (7,90 €, 9,50 €) sont perçus comme plus accessibles que les prix ronds. Ce n'est pas une astuce magique, mais elle fonctionne systématiquement en restauration.
+
+### L'ancrage par le prix
+
+Placez votre plat le plus cher en haut ou en début de carte. Il sert d'ancre psychologique : les autres plats paraissent raisonnables en comparaison. Technique simple, efficace, sans réduction d'aucune marge.
+
+### La carte courte
+
+Une carte trop longue paralyse le client (paradoxe du choix) et dilue votre identité. **5 à 8 références** c'est l'idéal en food truck. Chaque plat est optimisé, chaque prix est maîtrisé.
+
+### Les combos et formules
+
+Proposer une formule (plat + boisson à 10,50 € au lieu de 7,00 + 3,00 = 10,00 €) peut sembler contre-intuitif, mais elle augmente le ticket moyen car les clients prennent la boisson qu'ils n'auraient peut-être pas commandée seule. Vérifiez que le combo reste rentable en calculant son food cost global.
+
+## Quand et comment réviser vos prix
+
+### Les signaux qui indiquent que vos prix sont trop bas
+
+- Vous êtes constamment en rupture de stock (forte demande, prix trop attractif)
+- Votre trésorerie ne couvre pas les dépenses du mois
+- Votre food cost réel dépasse 35 %
+- Vos concurrents pratiquent des prix 15 à 20 % plus élevés sans perdre de clients
+
+### La bonne méthode pour augmenter ses prix sans heurter les clients
+
+1. **Augmentez progressivement** : 30 à 50 centimes à la fois, pas 1,50 € d'un coup
+2. **Communicquez avec transparence** : "Nos ingrédients ont augmenté, nous avons dû ajuster légèrement nos prix"
+3. **Accompagnez la hausse d'une amélioration** : nouvelle présentation, ingrédient mis en avant
+4. **Ne touchez pas à tous les prix en même temps** : modifiez 2 ou 3 plats par rotation
+
+### Utiliser FoodTracks pour simuler l'impact d'un changement de prix
+
+Avant de modifier votre carte, simulez l'impact sur votre marge dans FoodTracks. Entrez le nouveau prix, et l'application recalcule instantanément votre food cost ratio et votre marge prévisionnelle. Vous prenez des décisions basées sur des données réelles, pas des intuitions.
+
+## Récapitulatif : la checklist prix en 5 étapes
+
+1. **Calculez le coût matière exact** de chaque plat (scan des factures avec FoodTracks)
+2. **Appliquez le ratio cible** : coût matière ÷ 0,33 = prix de vente minimum
+3. **Vérifiez la cohérence marché** : où vous situez-vous par rapport aux concurrents directs ?
+4. **Appliquez la psychologie des prix** : charm pricing, ancrage, formules
+5. **Suivez vos marges mensuellement** et ajustez dès qu'un écart apparaît
+
+La tarification n'est pas une décision ponctuelle, c'est un processus continu. Avec les bons outils et un suivi rigoureux, vous pouvez maintenir des marges saines tout en restant compétitif sur vos emplacements.`,
+
+      en: `## Why Pricing Is a Strategic Decision
+
+Setting your menu prices is one of the most important — and most underestimated — decisions for a food truck operator. Price too low and you erode your margins, forcing you to sell ever more just to survive. Price too high and customers walk away. **The right price covers all your costs, leaves a healthy margin, and matches the perceived value your customers associate with your offer.**
+
+Before going further, make sure you've calculated your [cost of goods per dish](/en/blog/cout-de-revient-food-truck) and your [break-even point](/en/blog/seuil-rentabilite-food-truck-calcul). These are the two essential foundations.
+
+## The Cost-Plus Method: The Essential Starting Point
+
+### The Principle
+
+The cost-plus method works backwards from food cost to selling price:
+
+**Selling price = Food cost ÷ Target food cost ratio**
+
+If your food cost for a burger is £2.20 and you target a food cost ratio of 33%, your selling price should be:
+
+**£2.20 ÷ 0.33 = £6.67** → round to **£6.90 or £7.00**
+
+### What Food Cost Ratio to Target?
+
+For food trucks, the standard is **30 to 33%**. This means that for every £1 taken in, £0.30–0.33 covers ingredients. The rest must absorb:
+- Fixed costs (insurance, leasing, software subscriptions)
+- Fuel and travel costs
+- Pitch fees and location costs
+- Labour (if you have an employee)
+- Your own pay
+
+If your ratio exceeds 38%, your net margin will be insufficient unless your fixed cost structure is exceptionally lean.
+
+### Automatically Calculate Your Food Cost with FoodTracks
+
+With [FoodTracks](/en), you scan your supplier invoices and the app automatically calculates the real food cost of every dish. No more manual spreadsheets. You see at a glance which dishes are profitable and which are dragging your margins down. It's also a key tool for [optimising margins through data analysis](/en/blog/optimiser-marges-food-truck-analyse-donnees).
+
+## Including Fixed Costs in Your Pricing
+
+Food cost only covers ingredients. To ensure every dish contributes to covering your fixed costs, calculate your **contribution margin**:
+
+**Contribution margin = Selling price − Food cost**
+
+Then verify that your average monthly revenue exceeds your break-even point. If not, you have two levers: raise prices or cut costs.
+
+### Concrete Example
+
+- Monthly fixed costs: £1,800
+- Services per month: 18
+- Average revenue per service: £450
+- Monthly revenue: £8,100
+- Gross margin (67% if food cost is 33%): £5,427
+- Net margin: £5,427 − £1,800 = **£3,627**
+
+If your prices don't generate these ratios, the menu needs reviewing.
+
+## Competitive Pricing: Positioning Yourself in the Market
+
+### Know the Prices Around You
+
+Before finalising your prices, survey your direct competitors: other food trucks at your regular spots, fast-food outlets, bakeries. Note prices for comparable products.
+
+This survey gives you **a market range**. Your goal is not to match everyone automatically, but to understand where you sit and why.
+
+### Justifying a Higher Price
+
+If your cost-plus price puts you above the competition, don't panic. A premium price is justified by:
+- Superior quality ingredients (local, organic, PDO-certified)
+- Polished, Instagram-worthy presentation
+- A strong concept and differentiated story
+- Fast, efficient service
+
+Customers pay more when perceived value delivers. Also check our guide on [how to increase average order value without cutting prices](/en/blog/augmenter-ticket-moyen-food-truck).
+
+## Price Psychology: Boosting Sales Without Changing Your Costs
+
+### Charm Pricing
+
+Prices ending in 9 or 5 (£7.90, £9.50) are perceived as more accessible than round numbers. It's not magic, but it works consistently in foodservice.
+
+### Price Anchoring
+
+Place your most expensive item at the top or beginning of the menu. It acts as a psychological anchor: the other dishes look reasonable by comparison. Simple, effective, and it doesn't cost you a single penny of margin.
+
+### The Short Menu
+
+A menu that's too long paralyses the customer (paradox of choice) and dilutes your identity. **5 to 8 items** is the sweet spot for food trucks. Every dish is optimised, every price is controlled.
+
+### Combos and Meal Deals
+
+Offering a deal (main + drink at £10.50 instead of £7.00 + £3.00 = £10.00) may seem counter-intuitive, but it increases average order value because customers take the drink they might not have ordered alone. Verify the combo remains profitable by calculating its overall food cost.
+
+## When and How to Revise Your Prices
+
+### Signals That Your Prices Are Too Low
+
+- You're constantly running out of stock (strong demand, price too attractive)
+- Your cash flow doesn't cover monthly expenses
+- Your actual food cost exceeds 35%
+- Competitors charge 15–20% more without losing customers
+
+### The Right Way to Raise Prices Without Upsetting Customers
+
+1. **Increase gradually**: 30–50p at a time, not £1.50 all at once
+2. **Communicate transparently**: "Our ingredient costs have risen, we've had to make a small adjustment"
+3. **Pair the rise with an improvement**: new presentation, highlighted ingredient
+4. **Don't change all prices simultaneously**: rotate 2–3 dishes at a time
+
+### Using FoodTracks to Simulate the Impact of a Price Change
+
+Before updating your menu, simulate the margin impact in FoodTracks. Enter the new price and the app instantly recalculates your food cost ratio and projected margin. You make decisions based on real data, not gut feel.
+
+## Summary: The 5-Step Pricing Checklist
+
+1. **Calculate the exact food cost** of each dish (scan invoices with FoodTracks)
+2. **Apply the target ratio**: food cost ÷ 0.33 = minimum selling price
+3. **Check market coherence**: where do you stand relative to direct competitors?
+4. **Apply price psychology**: charm pricing, anchoring, meal deals
+5. **Track your margins monthly** and adjust as soon as a gap appears
+
+Pricing is not a one-off decision — it's a continuous process. With the right tools and rigorous tracking, you can maintain healthy margins while staying competitive at every location.`,
+    },
+  },
 ];
 
 export const blogArticles: BlogArticle[] = [...baseBlogArticles, ...verticalArticles];
