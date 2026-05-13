@@ -31002,6 +31002,360 @@ Before updating your menu, simulate the margin impact in FoodTracks. Enter the n
 Pricing is not a one-off decision — it's a continuous process. With the right tools and rigorous tracking, you can maintain healthy margins while staying competitive at every location.`,
     },
   },
+  {
+    slug: "planifier-tournee-food-truck",
+    title: {
+      fr: "Planifier sa tournée food truck : méthode complète pour maximiser vos revenus par emplacement",
+      en: "Planning Your Food Truck Route: The Complete Method to Maximise Revenue Per Location",
+    },
+    excerpt: {
+      fr: "Choisir les bons emplacements dans le bon ordre, calculer la rentabilité de chaque arrêt, éviter les kilomètres inutiles : voici la méthode complète pour planifier votre tournée food truck et augmenter vos revenus sans travailler plus.",
+      en: "Choosing the right locations in the right order, calculating the profitability of each stop, avoiding unnecessary kilometres: here is the complete method for planning your food truck route and increasing revenue without working more.",
+    },
+    category: { fr: "Organisation", en: "Organisation" },
+    date: "2026-05-13",
+    readTime: 11,
+    keywords: [
+      "planifier tournée food truck",
+      "itinéraire food truck rentable",
+      "optimiser tournée food truck",
+      "planning emplacement food truck",
+      "route food truck semaine",
+      "gestion déplacements food truck",
+    ],
+    heroImage: "/blog/planifier-tournee-food-truck.png",
+    content: {
+      fr: `## Pourquoi la planification de tournée est un levier de rentabilité sous-estimé
+
+La plupart des food truckers choisissent leurs emplacements "au feeling" ou par habitude. C'est compréhensible : on va là où ça a déjà marché. Mais cette approche laisse de l'argent sur la table. **En optimisant votre tournée hebdomadaire, vous pouvez augmenter votre chiffre d'affaires de 15 à 30 % sans ajouter un seul service.**
+
+Le principe est simple : chaque arrêt a un coût (carburant, temps de déplacement, installation/démontage) et un potentiel de revenus. Une tournée bien planifiée maximise le ratio revenus/coût sur l'ensemble de la semaine.
+
+## Les 4 critères pour évaluer un emplacement
+
+Avant de construire votre itinéraire, vous devez noter chaque emplacement potentiel sur 4 dimensions :
+
+### 1. Le potentiel de clientèle
+
+Combien de personnes passent devant votre emplacement pendant votre créneau ? Un marché matinal avec 2 000 visiteurs le samedi n'a pas le même potentiel qu'une zone artisanale avec 300 salariés le midi. Utilisez des outils gratuits comme **Google Maps** (évaluation des avis, densité de restaurants alentour) ou demandez directement aux organisateurs d'événements leurs données de fréquentation.
+
+### 2. La concurrence directe sur place
+
+Êtes-vous seul food truck ou l'un de vingt ? La règle empirique : au-delà de 3 à 4 food trucks sur le même emplacement, le CA individuel chute de 30 à 50 %. Sauf si l'événement génère suffisamment de trafic pour absorber tout le monde.
+
+### 3. Le coût d'accès
+
+Incluez dans votre calcul :
+- Le **droit de place** (marché, événement, propriété privée) : de 0 à 200 €/jour selon les cas
+- Le **carburant** : calculez le coût aller-retour depuis votre base
+- Le **temps de trajet** : valorisez votre heure à au moins le SMIC pour intégrer l'opportunité manquée
+
+Un emplacement à 80 km qui rapporte 500 € mais coûte 60 € de gasoil + 3 h de trajet (valorisées 30 €/h) ne vous laisse que 350 € nets — peut-être moins qu'un emplacement à 10 km qui rapporte 400 €.
+
+### 4. La régularité et la fidélisation
+
+Un emplacement récurrent (chaque lundi, chaque vendredi) construit une clientèle fidèle. Des clients qui savent où vous trouver commandent plus et recommandent davantage. La variabilité excessive nuit à la fidélisation. **Privilégiez 60 % d'emplacements fixes hebdomadaires et 40 % d'emplacements événementiels ou rotatifs.**
+
+## Construire votre tournée hebdomadaire en 5 étapes
+
+### Étape 1 — Inventoriez vos emplacements actuels et potentiels
+
+Listez tous vos emplacements dans un tableau (ou dans FoodTracks) avec, pour chacun :
+- CA moyen par service
+- Droit de place
+- Distance depuis votre base
+- Jour(s) disponibles
+- Note de satisfaction (difficultés de stationnement, accès eau/électricité, etc.)
+
+### Étape 2 — Calculez la marge nette par emplacement
+
+Pour chaque arrêt, appliquez la formule :
+
+**Marge nette = CA - coût matière - droit de place - carburant - charges fixes proratisées**
+
+Ne vous contentez pas du CA brut. Un festival de 800 € avec 35 % de coût matière, 100 € de place et 50 € de gasoil vous laisse **370 €** — moins qu'un marché habituel à 500 € avec 30 % de coût matière, 20 € de place et 10 € de gasoil : **310 € nets**... mais aussi moins de stress et d'usure matérielle.
+
+Avec [FoodTracks](/fr/fonctionnalites), vous pouvez rattacher chaque vente SumUp à un emplacement et comparer automatiquement la rentabilité de chaque arrêt sur la durée.
+
+### Étape 3 — Optimisez l'ordre géographique
+
+Une fois vos emplacements sélectionnés, tracez votre itinéraire pour minimiser les kilomètres à vide. Utilisez **Google Maps** ou **Waze** pour optimiser l'ordre des arrêts. Règle d'or : **regroupez les emplacements proches sur des jours consécutifs** plutôt que d'aller et revenir de la même zone deux fois dans la semaine.
+
+Exemple : si vous avez 3 emplacements dans la même ville (lundi marché, mercredi zone industrielle, vendredi marché de nuit), négociez un stationnement sur place ou à proximité pour éviter 3 allers-retours.
+
+### Étape 4 — Intégrez les contraintes logistiques
+
+Votre tournée doit prendre en compte :
+- **Les jours de réapprovisionnement** : prévoyez un passage chez le fournisseur en début de semaine ou à mi-semaine, sur votre trajet si possible
+- **L'entretien du véhicule** : réservez un demi-jour par quinzaine pour l'entretien (nettoyage, vérification matériel, révision)
+- **Les jours de repos** : un food trucker épuisé fait des erreurs coûteuses. Planifiez au moins un jour complet sans service
+
+### Étape 5 — Testez, mesurez, ajustez
+
+Une tournée optimale ne se construit pas en une semaine. Planifiez une revue mensuelle de vos emplacements :
+- Retirez les arrêts dont la marge nette est inférieure à votre seuil minimum
+- Remplacez-les par de nouveaux spots à tester (1 nouveau par semaine, pas plus)
+- Renforcez les emplacements top-performers : négociez plus de jours, proposez-vous pour les événements spéciaux
+
+## Les outils pour planifier votre tournée
+
+### Google My Business + Google Maps
+
+Gratuit et indispensable. Utilisez My Business pour apparaître sur les recherches locales à chaque emplacement. Utilisez Maps pour visualiser vos trajets et identifier de nouveaux spots potentiels (zones commerciales, parcs d'entreprises, marchés).
+
+### Les applications de planification d'itinéraire
+
+- **RouteXL** (gratuit jusqu'à 20 arrêts) : optimise l'ordre de visite pour minimiser le kilométrage
+- **Circuit** (payant, ~30 $/mois) : plus complet, avec suivi en temps réel et rapports
+- **Google Maps** : suffisant pour des tournées simples de 3 à 6 arrêts/semaine
+
+### FoodTracks pour le pilotage financier
+
+L'optimisation géographique ne suffit pas : il faut aussi piloter la rentabilité réelle par emplacement. FoodTracks vous permet de :
+- **Taguer chaque service** par emplacement
+- **Comparer automatiquement** le CA, le coût matière et la marge nette de chaque arrêt
+- **Recevoir des alertes** quand un emplacement sous-performe sur 3 services consécutifs
+- **Suivre l'évolution** semaine sur semaine pour détecter les tendances (saisonnalité, concurrence nouvelle)
+
+Voir aussi : [Comment choisir un emplacement rentable pour son food truck](/fr/blog/choisir-emplacement-rentable-food-truck) · [Tableau de bord food truck : piloter sa rentabilité](/fr/blog/tableau-de-bord-food-truck-rentabilite)
+
+## Les erreurs de planification les plus fréquentes
+
+### Multiplier les emplacements sans analyser la rentabilité
+
+Avoir 15 spots dans votre carnet n'est utile que si vous savez lesquels sont réellement rentables. Un food trucker qui fait 6 services par semaine avec 4 emplacements bien choisis gagne souvent plus qu'un autre qui en fait 8 avec 10 emplacements dispersés.
+
+### Négliger le temps de déplacement comme coût
+
+Le temps entre deux emplacements n'est pas "gratuit". C'est du temps où vous ne vendez pas, vous fatiguez votre véhicule et vous vous épuisez. **Chaque heure de trajet a un coût d'opportunité réel** : ce que vous auriez pu faire (repos, préparation, prospection) si vous aviez choisi un emplacement plus proche.
+
+### Changer d'emplacement trop souvent
+
+L'instabilité nuit à la fidélisation. Si vos clients habituels ne savent pas où vous trouver cette semaine, ils vont ailleurs. Préservez vos créneaux réguliers comme des actifs commerciaux.
+
+### Ignorer la météo dans la planification
+
+La météo influence directement votre CA selon l'emplacement. Un marché en plein air par temps de pluie peut diviser votre CA par deux. Intégrez les prévisions météo dans votre planning de la semaine : gardez vos emplacements couverts ou intérieurs pour les jours pluvieux, et poussez les emplacements festifs par beau temps. Notre article [Adapter son menu food truck selon la météo](/fr/blog/adapter-menu-food-truck-meteo) vous donne des pistes concrètes.
+
+## Exemple de tournée type optimisée (food truck solo, 5 jours/semaine)
+
+| Jour | Emplacement | Type | CA moyen | Coût place | Carburant | Marge nette est. |
+|------|------------|------|----------|------------|-----------|-----------------|
+| Lundi | Marché local | Fixe | 380 € | 25 € | 8 € | ~220 € |
+| Mardi | Zone industrielle A | Fixe | 450 € | 0 € | 5 € | ~295 € |
+| Mercredi | Zone industrielle B (réapprovisionnement trajet) | Fixe | 420 € | 0 € | 12 € | ~265 € |
+| Jeudi | Festival / événement | Variable | 700 € | 80 € | 40 € | ~360 € |
+| Vendredi | Marché de nuit | Fixe | 500 € | 35 € | 8 € | ~290 € |
+| **Total** | | | **2 450 €** | **140 €** | **73 €** | **~1 430 €** |
+
+Ce tableau illustre l'importance de ne pas juger un emplacement uniquement sur le CA brut : le jeudi festival rapporte le plus en brut mais la marge nette n'est pas la plus élevée une fois les coûts déduits.
+
+## Conclusion
+
+Planifier sa tournée food truck n'est pas une activité administrative secondaire — c'est un acte de gestion stratégique qui conditionne directement votre rentabilité. **Les meilleurs food truckers ne sont pas nécessairement ceux qui travaillent le plus, mais ceux qui travaillent aux bons endroits.**
+
+Commencez par mesurer la vraie rentabilité de chaque emplacement (avec FoodTracks ou un tableur), puis construisez votre tournée semaine par semaine en privilégiant les spots performants, en limitant les kilomètres inutiles et en préservant vos emplacements réguliers comme des actifs fidélisation.
+
+*À lire aussi :* [Choisir un emplacement rentable pour son food truck](/fr/blog/choisir-emplacement-rentable-food-truck) · [Planning semaine food truck](/fr/blog/planning-semaine-food-truck) · [Optimiser la rotation de ses stocks](/fr/blog/rotation-stock-food-truck)`,
+      en: `## Why Route Planning Is an Underrated Profitability Lever
+
+Most food truckers choose their locations "by feel" or out of habit. That's understandable — you go where things have worked before. But this approach leaves money on the table. **By optimising your weekly route, you can increase revenue by 15 to 30% without adding a single extra service.**
+
+The principle is simple: every stop has a cost (fuel, travel time, set-up/tear-down) and a revenue potential. A well-planned route maximises the revenue-to-cost ratio across the whole week.
+
+## The 4 Criteria for Evaluating a Location
+
+Before building your itinerary, score each potential location on 4 dimensions:
+
+### 1. Customer Potential
+
+How many people pass your spot during your slot? A Saturday morning market with 2,000 visitors is not the same as an industrial estate with 300 employees at lunchtime. Use free tools like **Google Maps** (review ratings, density of nearby restaurants) or ask event organisers directly for their footfall figures.
+
+### 2. Direct On-Site Competition
+
+Are you the only food truck or one of twenty? The rule of thumb: beyond 3 to 4 food trucks at the same spot, individual revenue drops by 30 to 50%. Unless the event generates enough traffic to absorb everyone.
+
+### 3. Access Cost
+
+Include in your calculation:
+- The **pitch fee** (market, event, private property): from €0 to €200/day depending on the case
+- **Fuel**: calculate the round-trip cost from your base
+- **Travel time**: value your hour at least at minimum wage to account for the opportunity cost
+
+A location 80 km away that brings in €500 but costs €60 in diesel + 3 hours of travel (valued at €30/h) leaves you only €350 net — possibly less than a location 10 km away bringing in €400.
+
+### 4. Regularity and Customer Loyalty
+
+A recurring spot (every Monday, every Friday) builds a loyal customer base. Customers who know where to find you order more and recommend you more. Excessive variability hurts loyalty. **Aim for 60% fixed weekly locations and 40% event-based or rotating spots.**
+
+## Building Your Weekly Route in 5 Steps
+
+### Step 1 — Inventory Your Current and Potential Locations
+
+List all your locations in a spreadsheet (or in FoodTracks) with, for each:
+- Average revenue per service
+- Pitch fee
+- Distance from your base
+- Available day(s)
+- Satisfaction rating (parking difficulties, water/electricity access, etc.)
+
+### Step 2 — Calculate Net Margin Per Location
+
+For each stop, apply the formula:
+
+**Net margin = Revenue - food cost - pitch fee - fuel - prorated fixed costs**
+
+Don't rely on gross revenue alone. A festival bringing in €800 with 35% food cost, €100 pitch fee and €50 fuel leaves you **€370** — less than a regular market at €500 with 30% food cost, €20 pitch fee and €10 fuel: **€310 net**... but also less stress and wear on your equipment.
+
+With [FoodTracks](/en/features), you can tag each SumUp sale by location and automatically compare the profitability of each stop over time.
+
+### Step 3 — Optimise the Geographical Order
+
+Once you have selected your locations, plan your itinerary to minimise empty kilometres. Use **Google Maps** or **Waze** to optimise the order of stops. Golden rule: **group nearby locations on consecutive days** rather than going back and forth to the same area twice in a week.
+
+Example: if you have 3 locations in the same city (Monday market, Wednesday industrial zone, Friday night market), negotiate parking on-site or nearby to avoid 3 round trips.
+
+### Step 4 — Integrate Logistical Constraints
+
+Your route must account for:
+- **Restocking days**: plan a supplier run at the start or mid-week, on your route if possible
+- **Vehicle maintenance**: reserve half a day every two weeks for maintenance (cleaning, equipment checks, servicing)
+- **Rest days**: an exhausted food trucker makes costly mistakes. Plan at least one full day off per week
+
+### Step 5 — Test, Measure, Adjust
+
+An optimal route is not built in a week. Schedule a monthly location review:
+- Remove stops where net margin is below your minimum threshold
+- Replace them with new spots to test (1 new one per week, no more)
+- Strengthen your top-performing locations: negotiate more days, offer yourself for special events
+
+## Tools for Planning Your Route
+
+### Google My Business + Google Maps
+
+Free and essential. Use My Business to appear in local searches at each location. Use Maps to visualise your routes and identify new potential spots (retail zones, business parks, markets).
+
+### Route Planning Applications
+
+- **RouteXL** (free up to 20 stops): optimises the visit order to minimise mileage
+- **Circuit** (paid, ~$30/month): more complete, with real-time tracking and reports
+- **Google Maps**: sufficient for simple routes of 3 to 6 stops per week
+
+### FoodTracks for Financial Management
+
+Geographical optimisation alone is not enough: you also need to track real profitability by location. FoodTracks lets you:
+- **Tag each service** by location
+- **Automatically compare** revenue, food cost and net margin for each stop
+- **Receive alerts** when a location underperforms across 3 consecutive services
+- **Track trends** week by week to detect patterns (seasonality, new competition)
+
+Also read: [How to Choose a Profitable Location for Your Food Truck](/en/blog/choisir-emplacement-rentable-food-truck) · [Food Truck Dashboard: Managing Profitability](/en/blog/tableau-de-bord-food-truck-rentabilite)
+
+## The Most Common Planning Mistakes
+
+### Multiplying Locations Without Analysing Profitability
+
+Having 15 spots in your notebook is only useful if you know which ones are genuinely profitable. A food trucker doing 6 services per week with 4 well-chosen locations often earns more than one doing 8 services across 10 scattered spots.
+
+### Ignoring Travel Time as a Cost
+
+Time between two locations is not "free". It is time when you are not selling, wearing out your vehicle and exhausting yourself. **Every hour of travel has a real opportunity cost**: what you could have done (resting, prep, prospecting) if you had chosen a closer location.
+
+### Changing Locations Too Often
+
+Instability hurts loyalty. If your regular customers don't know where to find you this week, they go elsewhere. Protect your regular slots as commercial assets.
+
+### Ignoring Weather in Planning
+
+Weather directly influences your revenue depending on the location. An outdoor market in the rain can cut your revenue in half. Integrate weather forecasts into your weekly planning: keep covered or indoor locations for rainy days, and push festive outdoor spots on fine days. Our article [Adapting Your Food Truck Menu to the Weather](/en/blog/adapter-menu-food-truck-meteo) gives you practical ideas.
+
+## Example of an Optimised Typical Route (Solo Food Truck, 5 Days/Week)
+
+| Day | Location | Type | Avg Revenue | Pitch Fee | Fuel | Est. Net Margin |
+|-----|----------|------|-------------|-----------|------|-----------------|
+| Monday | Local market | Fixed | €380 | €25 | €8 | ~€220 |
+| Tuesday | Industrial zone A | Fixed | €450 | €0 | €5 | ~€295 |
+| Wednesday | Industrial zone B (restocking on route) | Fixed | €420 | €0 | €12 | ~€265 |
+| Thursday | Festival / event | Variable | €700 | €80 | €40 | ~€360 |
+| Friday | Night market | Fixed | €500 | €35 | €8 | ~€290 |
+| **Total** | | | **€2,450** | **€140** | **€73** | **~€1,430** |
+
+This table illustrates the importance of not judging a location on gross revenue alone: Thursday's festival brings in the most in gross terms, but its net margin is not the highest once costs are deducted.
+
+## Conclusion
+
+Planning your food truck route is not a secondary administrative task — it is a strategic management decision that directly determines your profitability. **The best food truckers are not necessarily those who work the most, but those who work in the right places.**
+
+Start by measuring the true profitability of each location (with FoodTracks or a spreadsheet), then build your route week by week by prioritising high-performing spots, minimising unnecessary kilometres and protecting your regular locations as loyalty assets.
+
+*Also read:* [Choosing a Profitable Food Truck Location](/en/blog/choisir-emplacement-rentable-food-truck) · [Food Truck Weekly Planning](/en/blog/planning-semaine-food-truck) · [Optimising Stock Rotation](/en/blog/rotation-stock-food-truck)`,
+    },
+    keyTakeaways: {
+      fr: [
+        "Optimiser votre tournée hebdomadaire peut augmenter votre CA de 15 à 30 % sans ajouter de services supplémentaires.",
+        "Chaque emplacement doit être évalué sur 4 critères : potentiel clientèle, concurrence, coût d'accès total (gasoil + temps), régularité.",
+        "La marge nette par emplacement = CA - coût matière - droit de place - carburant - charges proratisées. Le CA brut seul est trompeur.",
+        "Visez 60 % d'emplacements fixes hebdomadaires (fidélisation) et 40 % d'emplacements événementiels ou rotatifs (exploration).",
+        "FoodTracks permet de taguer chaque service par emplacement et de comparer automatiquement la rentabilité réelle de chaque arrêt.",
+      ],
+      en: [
+        "Optimising your weekly route can increase revenue by 15 to 30% without adding extra services.",
+        "Each location must be assessed on 4 criteria: customer potential, competition, total access cost (fuel + time), regularity.",
+        "Net margin per location = revenue - food cost - pitch fee - fuel - prorated fixed costs. Gross revenue alone is misleading.",
+        "Aim for 60% fixed weekly locations (loyalty) and 40% event-based or rotating spots (exploration).",
+        "FoodTracks lets you tag each service by location and automatically compare the real profitability of each stop.",
+      ],
+    },
+    faqItems: [
+      {
+        question: {
+          fr: "Combien d'emplacements différents un food truck devrait-il avoir dans sa tournée hebdomadaire ?",
+          en: "How many different locations should a food truck have in its weekly route?",
+        },
+        answer: {
+          fr: "Pour un food trucker solo faisant 5 services par semaine, 4 à 6 emplacements distincts est l'idéal : assez pour diversifier les risques (annulation d'un marché, météo défavorable) sans disperser son énergie. Au-delà de 8 emplacements différents par semaine, le temps de déplacement et l'effort logistique commencent à éroder la rentabilité.",
+          en: "For a solo food trucker doing 5 services per week, 4 to 6 distinct locations is ideal: enough to diversify risk (market cancellation, bad weather) without spreading energy too thin. Beyond 8 different locations per week, travel time and logistical effort start to erode profitability.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment calculer le seuil de rentabilité d'un emplacement pour décider de le conserver ou de l'abandonner ?",
+          en: "How do you calculate the break-even point of a location to decide whether to keep or drop it?",
+        },
+        answer: {
+          fr: "Calculez votre coût fixe journalier (charges fixes mensuelles ÷ nombre de jours travaillés) puis ajoutez le coût variable de cet emplacement (droit de place + carburant). Le CA minimum pour couvrir ces coûts est votre seuil de rentabilité emplacement. Si un arrêt n'atteint pas ce seuil sur 3 services consécutifs, envisagez de le remplacer.",
+          en: "Calculate your daily fixed cost (monthly fixed charges ÷ number of working days) then add the variable cost of the location (pitch fee + fuel). The minimum revenue to cover these costs is your location break-even point. If a stop fails to reach this threshold across 3 consecutive services, consider replacing it.",
+        },
+      },
+      {
+        question: {
+          fr: "Faut-il un logiciel spécifique pour planifier sa tournée food truck ?",
+          en: "Do you need specific software to plan your food truck route?",
+        },
+        answer: {
+          fr: "Pas nécessairement. Un tableur Google Sheets couplé à Google Maps suffit pour démarrer. Pour l'optimisation d'itinéraire avec plus de 5 arrêts, RouteXL (gratuit jusqu'à 20 arrêts) est très efficace. Pour le pilotage financier par emplacement — la partie la plus importante — FoodTracks centralise vos ventes SumUp par emplacement et calcule automatiquement la rentabilité de chaque arrêt.",
+          en: "Not necessarily. A Google Sheets spreadsheet combined with Google Maps is enough to start. For route optimisation with more than 5 stops, RouteXL (free up to 20 stops) is very effective. For financial management by location — the most important part — FoodTracks centralises your SumUp sales by location and automatically calculates the profitability of each stop.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment négocier de nouveaux emplacements de stationnement pour son food truck ?",
+          en: "How do you negotiate new parking spots for your food truck?",
+        },
+        answer: {
+          fr: "Pour les marchés municipaux, contactez la mairie ou l'office de commerce. Pour les zones d'entreprises, approchez directement les gestionnaires de parc ou les comités d'entreprise — proposez une période d'essai gratuite de 2 à 3 semaines. Pour les emplacements privés (galeries marchandes, parkings), négociez un droit de place fixe ou un pourcentage du CA (5 à 10 %). Apportez toujours vos données de CA moyen et vos références pour rassurer.",
+          en: "For municipal markets, contact the town hall or chamber of commerce. For business parks, approach park managers or works councils directly — offer a free 2 to 3-week trial. For private locations (shopping centres, car parks), negotiate a fixed pitch fee or a percentage of revenue (5 to 10%). Always bring your average revenue data and references to reassure them.",
+        },
+      },
+    ],
+    relatedSlugs: [
+      "choisir-emplacement-rentable-food-truck",
+      "planning-semaine-food-truck",
+      "tableau-de-bord-food-truck-rentabilite",
+      "optimiser-tournee-food-truck-rentabilite",
+      "adapter-menu-food-truck-meteo",
+    ],
+  },
 ];
 
 export const blogArticles: BlogArticle[] = [...baseBlogArticles, ...verticalArticles];
