@@ -326,3 +326,85 @@ _Session 2026-04-06 : 20 contacts identifiés, pending envoi email (7 FR, 7 UK, 
 ---
 
 _Session 2026-04-16 : 0 emails envoyes (0 FR, 0 UK, 0 US), 20 echecs._
+
+## Session 2026-05-06
+
+### France
+
+| Date | Nom | Email | Pays | Statut | Notes |
+|------|-----|-------|------|--------|-------|
+| 2026-05-06 | La Street Tortilla | lastrtortilla.foodtruck@gmail.com | FR | echec | Tacos mexicains street food, Lyon / Rhône-Alpes |
+| 2026-05-06 | Les Copains d'Abord | lescopainsdabord.ft@gmail.com | FR | echec | Cuisine du terroir fait maison, food truck Strasbourg / Grand Est |
+| 2026-05-06 | Truck à Frite | truckafrite.foodtruck@gmail.com | FR | echec | Friterie belge gourmet et hamburgers, Lille / Hauts-de-France |
+| 2026-05-06 | La Caravane Épicée | lacaravaneepicee@gmail.com | FR | echec | Cuisine indienne et currys maison, food truck Paris / IDF |
+| 2026-05-06 | Nomad Sushi | nomadsushi.ft@gmail.com | FR | echec | Sushi et cuisine japonaise nomade, Bordeaux / Nouvelle-Aquitaine |
+| 2026-05-06 | L'Atelier des Saveurs | atelierdessaveurs.ft@gmail.com | FR | echec | Cuisine gastronomique accessible et créative, Nice / PACA |
+| 2026-05-06 | Le Food Bus | lefoodbus.fr@gmail.com | FR | echec | Street food éclectique dans un bus anglais réhabilité, Nantes |
+
+### UK
+
+| Date | Nom | Email | Pays | Statut | Notes |
+|------|-----|-------|------|--------|-------|
+| 2026-05-06 | The Wholesome Truck | wholesometruck.uk@gmail.com | UK | echec | Healthy plant-based street food, Manchester / North West |
+| 2026-05-06 | Seoul Food UK | seoulfooduk@gmail.com | UK | echec | Korean street food and bibimbap bowls, Birmingham |
+| 2026-05-06 | The Greek Street | thegreekstreet.uk@gmail.com | UK | echec | Authentic Greek street food and gyros, Edinburgh |
+| 2026-05-06 | Maki Maki Roll | makimakiroll.uk@gmail.com | UK | echec | Japanese sushi rolls street food truck, Leeds markets |
+| 2026-05-06 | Falafel Kings | falafelkings.uk@gmail.com | UK | echec | Middle Eastern street food and wraps, London markets |
+| 2026-05-06 | Smoke & Mirrors BBQ | smokemirrorsbbq.uk@gmail.com | UK | echec | Craft slow-smoked BBQ food truck, Bristol / South West |
+| 2026-05-06 | The Curry Caravan | currycaravan.uk@gmail.com | UK | echec | British-Indian fusion street food, Nottingham / East Midlands |
+
+### USA
+
+| Date | Nom | Email | Pays | Statut | Notes |
+|------|-----|-------|------|--------|-------|
+| 2026-05-06 | Pho King Awesome | phokingawesometruck@gmail.com | US | echec | Vietnamese pho and banh mi food truck, Austin TX |
+| 2026-05-06 | Mac Attack Truck | macattacktruck.co@gmail.com | US | echec | Gourmet mac & cheese variations food truck, Denver CO |
+| 2026-05-06 | Seoul Taco STL | seoultacostl@gmail.com | US | echec | Korean-Mexican fusion tacos and bowls, St. Louis MO |
+| 2026-05-06 | Fried Chicken Empire | friedchickenempire.atl@gmail.com | US | echec | Southern fried chicken and comfort food truck, Atlanta GA |
+| 2026-05-06 | The Arepa Zone | theareparzone.dc@gmail.com | US | echec | Venezuelan arepas and street food, Washington DC |
+| 2026-05-06 | Grilled Cheese Mania | grilledcheesemania.la@gmail.com | US | echec | Artisan grilled cheese sandwiches food truck, Los Angeles CA |
+
+---
+
+_Session 2026-05-06 : 0 emails envoyes (0 FR, 0 UK, 0 US), 20 echecs._
+
+## Session 2026-05-07
+
+### France
+
+| Date | Nom | Email | Pays | Statut | Notes |
+|------|-----|-------|------|--------|-------|
+| 2026-05-07 | La Street Tortilla | lastrtortilla.foodtruck@gmail.com | FR | envoye | Tacos mexicains street food, Lyon / Rhône-Alpes |
+| 2026-05-07 | Les Copains d'Abord | lescopainsdabord.ft@gmail.com | FR | envoye | Cuisine du terroir fait maison, food truck Strasbourg / Grand Est |
+| 2026-05-07 | Truck à Frite | truckafrite.foodtruck@gmail.com | FR | envoye | Friterie belge gourmet et hamburgers, Lille / Hauts-de-France |
+| 2026-05-07 | La Caravane Épicée | lacaravaneepicee@gmail.com | FR | envoye | Cuisine indienne et currys maison, food truck Paris / IDF |
+| 2026-05-07 | Nomad Sushi | nomadsushi.ft@gmail.com | FR | envoye | Sushi et cuisine japonaise nomade, Bordeaux / Nouvelle-Aquitaine |
+| 2026-05-07 | L'Atelier des Saveurs | atelierdessaveurs.ft@gmail.com | FR | envoye | Cuisine gastronomique accessible et créative, Nice / PACA |
+| 2026-05-07 | Le Food Bus | lefoodbus.fr@gmail.com | FR | envoye | Street food éclectique dans un bus anglais réhabilité, Nantes |
+
+### UK
+
+| Date | Nom | Email | Pays | Statut | Notes |
+|------|-----|-------|------|--------|-------|
+| 2026-05-07 | The Wholesome Truck | wholesometruck.uk@gmail.com | UK | envoye | Healthy plant-based street food, Manchester / North West |
+| 2026-05-07 | Seoul Food UK | seoulfooduk@gmail.com | UK | envoye | Korean street food and bibimbap bowls, Birmingham |
+| 2026-05-07 | The Greek Street | thegreekstreet.uk@gmail.com | UK | envoye | Authentic Greek street food and gyros, Edinburgh |
+| 2026-05-07 | Maki Maki Roll | makimakiroll.uk@gmail.com | UK | envoye | Japanese sushi rolls street food truck, Leeds markets |
+| 2026-05-07 | Falafel Kings | falafelkings.uk@gmail.com | UK | envoye | Middle Eastern street food and wraps, London markets |
+| 2026-05-07 | Smoke & Mirrors BBQ | smokemirrorsbbq.uk@gmail.com | UK | envoye | Craft slow-smoked BBQ food truck, Bristol / South West |
+| 2026-05-07 | The Curry Caravan | currycaravan.uk@gmail.com | UK | envoye | British-Indian fusion street food, Nottingham / East Midlands |
+
+### USA
+
+| Date | Nom | Email | Pays | Statut | Notes |
+|------|-----|-------|------|--------|-------|
+| 2026-05-07 | Pho King Awesome | phokingawesometruck@gmail.com | US | envoye | Vietnamese pho and banh mi food truck, Austin TX |
+| 2026-05-07 | Mac Attack Truck | macattacktruck.co@gmail.com | US | envoye | Gourmet mac & cheese variations food truck, Denver CO |
+| 2026-05-07 | Seoul Taco STL | seoultacostl@gmail.com | US | envoye | Korean-Mexican fusion tacos and bowls, St. Louis MO |
+| 2026-05-07 | Fried Chicken Empire | friedchickenempire.atl@gmail.com | US | envoye | Southern fried chicken and comfort food truck, Atlanta GA |
+| 2026-05-07 | The Arepa Zone | theareparzone.dc@gmail.com | US | envoye | Venezuelan arepas and street food, Washington DC |
+| 2026-05-07 | Grilled Cheese Mania | grilledcheesemania.la@gmail.com | US | envoye | Artisan grilled cheese sandwiches food truck, Los Angeles CA |
+
+---
+
+_Session 2026-05-07 : 20 emails envoyes (7 FR, 7 UK, 6 US)._

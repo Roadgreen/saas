@@ -32,3 +32,4 @@
 | 2026-04-22 | formation-haccp-food-truck | Formation HACCP food truck : obligations, contenu et où se former en 2026 | publie |
 2026-05-05 | tendances-food-truck-2026 | FR+EN | Tendances food truck 2026 : digitalisation, circuits courts, dark kitchen, IA, paiement sans friction | commit 52d3d65
 2026-05-08 | food-truck-click-and-collect-commande-en-ligne | FR+EN | Click & Collect pour food truck : comment mettre en place la commande en ligne et doubler vos ventes | publie
+2026-05-13 | planifier-tournee-food-truck | FR+EN | Planifier sa tournée food truck : méthode complète pour maximiser vos revenus par emplacement | publie
