@@ -11,7 +11,7 @@ import { useRouter, useSearchParams } from 'next/navigation';
 import { signIn } from 'next-auth/react';
 import { useLocale } from 'next-intl';
 import Link from 'next/link';
-import { ChefHat, CheckCircle2, XCircle, Loader2 } from 'lucide-react';
+import { ChefHat, CheckCircle2, XCircle, Loader2, ShieldCheck, CreditCard, X, ChevronDown } from 'lucide-react';
 import { useAnalytics } from '@/hooks/useAnalytics';
 
 const authSchema = z.object({
@@ -68,6 +68,7 @@ export function AuthForm({ type }: AuthFormProps) {
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
   const [oauthLoading, setOauthLoading] = useState<string | null>(null);
+  const [showOptional, setShowOptional] = useState(false);
   const { track } = useAnalytics();
 
   const isFr = locale === 'fr';
@@ -206,16 +207,37 @@ export function AuthForm({ type }: AuthFormProps) {
         <h2 className="font-jakarta text-2xl font-bold tracking-tight text-white">
           {type === 'login'
             ? (isFr ? 'Connexion' : 'Sign In')
-            : (isFr ? 'Créer un compte' : 'Create Account')}
+            : (isFr ? 'Démarrer mon essai gratuit' : 'Start my free trial')}
         </h2>
-        {isPlanRegister && (
+        {type === 'register' && (
           <p className="text-sm text-orange-600 font-medium">
-            {isFr
-              ? `Essai gratuit ${plan === 'PRO' ? 'Pro' : 'Entreprise'} de 14 jours — sans carte bancaire`
-              : `14-day free ${plan === 'PRO' ? 'Pro' : 'Enterprise'} trial — no credit card required`}
+            {isPlanRegister
+              ? (isFr
+                  ? `Essai gratuit ${plan === 'PRO' ? 'Pro' : 'Entreprise'} de 14 jours — sans carte bancaire`
+                  : `14-day free ${plan === 'PRO' ? 'Pro' : 'Enterprise'} trial — no credit card required`)
+              : (isFr
+                  ? '14 jours gratuits — sans carte bancaire'
+                  : '14 days free — no credit card required')}
           </p>
         )}
       </div>
+
+      {type === 'register' && (
+        <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-2 text-xs text-white/60">
+          <span className="inline-flex items-center gap-1.5">
+            <CreditCard className="h-3.5 w-3.5 text-orange-500" />
+            {isFr ? 'Sans carte bancaire' : 'No credit card'}
+          </span>
+          <span className="inline-flex items-center gap-1.5">
+            <ShieldCheck className="h-3.5 w-3.5 text-orange-500" />
+            {isFr ? '14 jours d’essai' : '14-day trial'}
+          </span>
+          <span className="inline-flex items-center gap-1.5">
+            <X className="h-3.5 w-3.5 text-orange-500" />
+            {isFr ? 'Annulation 1 clic' : '1-click cancel'}
+          </span>
+        </div>
+      )}
 
       {verified && (
         <div className="p-4 text-sm text-green-300 bg-green-900/30 rounded-xl border border-green-700/50 flex items-start gap-2.5">
@@ -291,7 +313,7 @@ export function AuthForm({ type }: AuthFormProps) {
         })}
         className="space-y-5"
       >
-        {type === 'register' && (
+        {type === 'register' && showOptional && (
           <>
             <div className="space-y-2">
               <Label htmlFor="name" className="text-sm font-medium text-white/80 flex items-center gap-2">
@@ -368,6 +390,17 @@ export function AuthForm({ type }: AuthFormProps) {
           )}
         </div>
 
+        {type === 'register' && !showOptional && (
+          <button
+            type="button"
+            onClick={() => setShowOptional(true)}
+            className="text-xs text-white/50 hover:text-white/80 inline-flex items-center gap-1 transition-colors"
+          >
+            <ChevronDown className="h-3 w-3" />
+            {isFr ? 'Ajouter mon nom (facultatif)' : 'Add my name (optional)'}
+          </button>
+        )}
+
         <Button type="submit" className="w-full rounded-xl h-11 font-semibold text-base transition-all duration-300" disabled={loading}>
           {loading ? (
             <span className="inline-flex items-center gap-2">
@@ -378,10 +411,8 @@ export function AuthForm({ type }: AuthFormProps) {
             </span>
           ) : type === 'login' ? (
             isFr ? 'Se connecter' : 'Sign In'
-          ) : isPlanRegister ? (
-            isFr ? 'Démarrer mon essai gratuit' : 'Start my free trial'
           ) : (
-            isFr ? 'Créer un compte' : 'Create Account'
+            isFr ? 'Démarrer mon essai gratuit' : 'Start my free trial'
           )}
         </Button>
 
