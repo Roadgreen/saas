@@ -31711,6 +31711,372 @@ Combine your social media strategy with profitability tracking in FoodTracks: yo
       "emplacement-food-truck",
     ],
   },
+  {
+    slug: "reduire-temps-attente-food-truck",
+    title: {
+      fr: "Réduire le temps d'attente en food truck : méthode complète pour servir plus vite et vendre plus",
+      en: "Reducing Wait Times at Your Food Truck: The Complete Method to Serve Faster and Sell More",
+    },
+    excerpt: {
+      fr: "Un client qui attend trop longtemps part ou ne revient pas. Voici comment analyser vos goulots d'étranglement, réorganiser votre poste de travail et réduire votre temps de service moyen de 30 à 50 % sans embaucher.",
+      en: "A customer who waits too long leaves or never comes back. Here is how to analyse your bottlenecks, reorganise your workstation and cut your average service time by 30 to 50% without hiring.",
+    },
+    category: { fr: "Opérations", en: "Operations" },
+    date: "2026-05-15",
+    readTime: 10,
+    keywords: [
+      "réduire temps attente food truck",
+      "file d'attente food truck",
+      "servir plus vite food truck",
+      "optimiser service food truck",
+      "gestion file food truck",
+      "food truck wait time reduction",
+    ],
+    heroImage: "/blog/reduire-temps-attente-food-truck.png",
+    content: {
+      fr: `## Pourquoi le temps d'attente est un levier de rentabilité direct
+
+En food truck, chaque minute compte deux fois. Pour le client d'abord : au-delà de 8 à 10 minutes d'attente, une fraction significative des personnes dans la file abandonne ou repart sans commander. Pour vous ensuite : un service plus rapide signifie plus de couverts servis sur le même créneau, donc un chiffre d'affaires plus élevé sans travailler plus longtemps.
+
+**La règle empirique : chaque minute gagnée sur votre temps de service moyen peut augmenter votre CA horaire de 5 à 15 % sur les créneaux à forte affluence.**
+
+Pourtant, la plupart des food truckers abordent le sujet "au feeling" : on accélère, on s'agite, on crie des commandes plus fort. La bonne approche est systématique : mesurer, identifier les goulots, puis corriger méthodiquement.
+
+## Étape 1 — Mesurez votre temps de service actuel
+
+Avant d'optimiser quoi que ce soit, vous avez besoin de données. Pendant deux ou trois services, chronométrez :
+
+- Le **temps de prise de commande** : de l'arrivée du client au guichet à la saisie validée sur la caisse
+- Le **temps de préparation** : de la commande validée à la remise au client
+- Le **temps de paiement** : si la caisse est séparée de la remise
+
+Notez également les moments où la file stagne alors que vous n'avez pas de commande en cours. Ces "temps morts opérationnels" sont souvent les plus faciles à éliminer.
+
+Un tableur simple suffit pour commencer. Avec **FoodTracks**, les horodatages SumUp vous donnent déjà une base : l'intervalle entre deux transactions consécutives est un proxy fiable de votre temps de service réel sur les périodes chargées.
+
+## Étape 2 — Identifiez vos goulots d'étranglement
+
+Un goulot est le point du processus qui limite le débit de l'ensemble. Inutile d'accélérer la préparation si c'est la prise de commande qui bloque, et vice versa. Les goulots les plus fréquents en food truck :
+
+### La prise de commande trop longue
+
+Un menu trop dense oblige les clients à hésiter longuement. Chaque seconde d'hésitation devant le guichet se répercute sur toute la file. **Un menu de 6 à 8 références bien lisibles est presque toujours plus rentable qu'un menu de 20 lignes**, car il accélère la décision et simplifie la préparation.
+
+Autre cause fréquente : le client demande des précisions (allergènes, options, compositions). Affichez ces informations clairement avant le guichet, pas dessus.
+
+### La préparation non séquencée
+
+Si vous préparez chaque commande de A à Z avant de passer à la suivante, vous perdez du temps sur les phases d'attente internes (le temps que la viande cuise, que la friture monte en température, etc.). La préparation en **flux parallèle** — lancer la cuisson de la commande suivante pendant que la première finit de cuire — peut réduire le temps de service perçu de 20 à 40 %.
+
+### Le paiement comme friction finale
+
+Un client qui cherche ses pièces ou attend que la carte passe ralentit toute la file. **Les paiements sans contact (tap-to-pay) sont 3 à 5 fois plus rapides que la saisie du code PIN.** Affichez un message visible invitant les clients à préparer leur moyen de paiement pendant l'attente.
+
+### La remise de commande mal organisée
+
+Si le client reçoit sa commande au même guichet qu'il commande, les deux flux se croisent et créent de la confusion. Dès que le volume le permet, séparez physiquement le guichet de commande et le point de remise, même de 50 cm.
+
+## Étape 3 — Reorganisez votre poste de travail
+
+L'ergonomie du camion est souvent plus importante que la vitesse d'exécution. Un food trucker qui fait 3 pas pour chercher un ingrédient à chaque commande perd facilement 10 à 15 secondes par plat. Sur 80 couverts, c'est 15 à 20 minutes de temps perdu.
+
+### La règle des zones de travail
+
+Organisez votre espace en trois zones concentriques :
+
+- **Zone immédiate** (à portée de main sans bouger) : les ingrédients utilisés sur plus de 50 % des commandes, l'emballage, les sauces principales
+- **Zone proche** (un pas ou une rotation) : les ingrédients secondaires, les boissons, les garnitures
+- **Zone éloignée** (réapprovisionnement entre les services) : les stocks de réserve, le matériel peu utilisé
+
+Analysez vos ventes pour identifier vos 3 ou 4 plats qui représentent 70 % de votre CA. Ces plats et tous leurs ingrédients doivent être dans la zone immédiate.
+
+### La mise en place ("mise en place" au sens culinaire)
+
+La mise en place n'est pas réservée aux restaurants étoilés. Avant chaque service, préparez :
+
+- Les portions pesées et conditionnées à l'avance pour vos plats les plus vendus
+- Les sauces en flacon prêtes à l'emploi (pas à déboucher en plein service)
+- Les emballages pré-ouverts ou pré-assemblés (couvercles déjà posés sur les boîtes)
+- Les garnitures précoupées en quantités calculées sur vos prévisions
+
+**Une heure de mise en place bien faite peut accélérer votre service de 25 à 30 %.**
+
+## Étape 4 — Gérez la file d'attente intelligemment
+
+La gestion de la file influence la perception de l'attente autant que le temps réel. Des études en restauration rapide montrent que les clients surestiment leur temps d'attente de 20 à 40 % quand ils ne sont pas occupés.
+
+### Communiquez le temps d'attente
+
+Annoncez le temps estimé dès que la file dépasse 5 ou 6 personnes. "Environ 10 minutes" dit à voix haute réduit l'anxiété et limite les abandons. Les clients qui savent combien de temps ils attendent sont beaucoup plus patients que ceux qui l'ignorent.
+
+### Prenez les commandes en avance dans la file
+
+Si vous êtes deux, envoyez une personne prendre les commandes dans la file pendant que l'autre prépare. Quand le client arrive au guichet, sa commande est déjà en préparation. Cette technique, utilisée dans les fast-foods depuis les années 1990, peut doubler votre débit sur les créneaux chargés.
+
+### Proposez une carte de commande en avance
+
+Un QR code affiché à l'entrée de la file qui permet de précommander et prépayer réduit à la fois le temps de prise de commande et le temps de paiement. Des solutions comme **Laddition**, **Sunday** ou simplement un lien Google Forms vers votre système de caisse permettent de mettre ça en place sans gros investissement.
+
+### Animez l'attente
+
+De la musique, un menu visible et lisible de loin, un affichage du "plat du moment" en format grand — tout ce qui donne aux clients quelque chose à faire pendant qu'ils attendent réduit la perception de la durée.
+
+## Étape 5 — Adaptez votre menu aux contraintes de débit
+
+Votre menu n'est pas seulement une carte gastronomique : c'est un outil opérationnel. Certains plats sont naturellement plus rapides à préparer que d'autres. Sur les créneaux à forte pression (heure de déjeuner en semaine sur zone industrielle, festival bondé), privilégiez un menu réduit aux plats les plus rapides.
+
+### Le menu "express" du midi
+
+Proposez sur les créneaux à forte affluence un menu réduit de 3 à 4 plats avec un temps de préparation inférieur à 2 minutes. Les clients pressés apprécient la simplicité, et vous gardez le contrôle de votre débit.
+
+### Identifiez vos plats "goulots"
+
+Certains plats sont délicieux mais lents à préparer (assemblage complexe, temps de cuisson long). Sur les services les plus chargés, retirez-les du menu ou limitez leur nombre quotidien. FoodTracks vous permet de croiser les données de ventes par plat et par créneau horaire pour identifier exactement lesquels sont rentables sans pénaliser votre débit.
+
+## Ce que disent les données : objectifs réalistes
+
+Voici des repères concrets pour un food truck solo fonctionnant bien :
+
+| Indicateur | Sous-optimal | Correct | Optimisé |
+|------------|-------------|---------|----------|
+| Temps de service moyen | &gt;4 min | 2 à 3 min | &lt;2 min |
+| Taux d'abandon file | &gt;15 % | 5 à 10 % | &lt;5 % |
+| Couverts par heure de pointe | &lt;20 | 25 à 35 | 40+ |
+| Part de paiement sans contact | &lt;40 % | 60 à 75 % | &gt;85 % |
+
+Ces chiffres varient selon le type de cuisine et le format de service. Ils servent de repères, pas d'objectifs absolus.
+
+## Outils pratiques pour aller plus loin
+
+### Minuteur de service visible
+
+Placez un minuteur visible de votre poste de travail et chronométrez vos propres services pendant une semaine. Voir le chiffre en temps réel crée une pression positive et aide à identifier les commandes qui dérapent.
+
+### FoodTracks pour l'analyse par créneau
+
+En croisant vos ventes SumUp avec les horaires, FoodTracks vous permet d'identifier vos créneaux de pointe, de comparer votre débit d'un service à l'autre et de mesurer l'impact de vos changements organisationnels sur la rentabilité réelle.
+
+### La revue post-service de 5 minutes
+
+Après chaque service chargé, prenez 5 minutes pour noter : qu'est-ce qui a bloqué ? À quel moment la file a-t-elle stagné ? Quel plat a causé le plus de délai ? Cette habitude simple, tenue pendant un mois, vous donne plus d'informations qu'un consultant externe.
+
+## Conclusion
+
+Réduire votre temps de service n'est pas une question de rapidité personnelle : c'est une question de système. En mesurant vos temps, en identifiant vos vrais goulots, en réorganisant votre espace de travail et en gérant la perception de la file, vous pouvez servir 30 à 50 % de clients supplémentaires sur le même créneau sans travailler plus dur.
+
+**Le meilleur investissement n'est pas toujours un second employé : c'est souvent une heure passée à analyser et réorganiser votre poste de travail.**
+
+*À lire aussi :* [Augmenter son ticket moyen en food truck](/fr/blog/augmenter-ticket-moyen-food-truck) · [Planning semaine food truck](/fr/blog/planning-semaine-food-truck) · [Tableau de bord food truck : piloter sa rentabilité](/fr/blog/tableau-de-bord-food-truck-rentabilite)`,
+      en: `## Why Wait Time Is a Direct Profitability Lever
+
+At a food truck, every minute counts twice. First for the customer: beyond 8 to 10 minutes of waiting, a significant proportion of people in the queue give up or leave without ordering. Then for you: a faster service means more covers served in the same slot, resulting in higher revenue without working longer.
+
+**The rule of thumb: every minute saved on your average service time can increase your hourly revenue by 5 to 15% during peak periods.**
+
+Yet most food truckers approach the issue "by feel": speed up, rush around, shout orders louder. The right approach is systematic: measure, identify bottlenecks, then correct methodically.
+
+## Step 1 — Measure Your Current Service Time
+
+Before optimising anything, you need data. Over two or three services, time:
+
+- **Order-taking time**: from the customer arriving at the window to the order being confirmed on the till
+- **Preparation time**: from the confirmed order to handing it to the customer
+- **Payment time**: if the till is separate from the hand-off point
+
+Also note moments when the queue stalls even though you have no order in progress. These "operational dead times" are often the easiest to eliminate.
+
+A simple spreadsheet is enough to start. With **FoodTracks**, the SumUp timestamps already give you a foundation: the interval between two consecutive transactions is a reliable proxy for your real service time during busy periods.
+
+## Step 2 — Identify Your Bottlenecks
+
+A bottleneck is the point in the process that limits the throughput of everything else. There is no point speeding up preparation if order-taking is the block, and vice versa. The most common bottlenecks at a food truck:
+
+### Order-Taking Taking Too Long
+
+A menu that is too dense forces customers to hesitate. Every second of hesitation at the window ripples through the entire queue. **A menu of 6 to 8 clearly legible items is almost always more profitable than a 20-line menu**, because it speeds up the decision and simplifies preparation.
+
+Another common cause: customers ask for clarifications (allergens, options, ingredients). Display this information clearly before the window, not on it.
+
+### Non-Sequenced Preparation
+
+If you prepare each order from start to finish before moving to the next, you lose time during internal waiting phases (while the meat cooks, while the fryer comes back up to temperature, etc.). **Parallel-flow preparation** — starting to cook the next order while the first one finishes — can reduce perceived service time by 20 to 40%.
+
+### Payment as a Final Friction Point
+
+A customer rummaging for coins or waiting for their card to go through slows down the entire queue. **Contactless payments (tap-to-pay) are 3 to 5 times faster than PIN entry.** Display a visible sign inviting customers to prepare their payment method while they wait.
+
+### Poorly Organised Order Hand-Off
+
+If the customer receives their order at the same window where they ordered, the two flows cross and create confusion. As soon as volume allows, physically separate the order window from the hand-off point, even by 50 cm.
+
+## Step 3 — Reorganise Your Workstation
+
+Truck ergonomics often matters more than execution speed. A food trucker who takes 3 steps to fetch an ingredient on every order can easily lose 10 to 15 seconds per dish. Across 80 covers, that is 15 to 20 minutes of wasted time.
+
+### The Work Zone Rule
+
+Organise your space into three concentric zones:
+
+- **Immediate zone** (within reach without moving): ingredients used on more than 50% of orders, packaging, main sauces
+- **Close zone** (one step or rotation): secondary ingredients, drinks, garnishes
+- **Far zone** (restocked between services): reserve stock, rarely used equipment
+
+Analyse your sales to identify your 3 or 4 dishes that account for 70% of revenue. Those dishes and all their ingredients must be in the immediate zone.
+
+### Mise en Place (Prep Work)
+
+Mise en place is not reserved for starred restaurants. Before each service, prepare:
+
+- Pre-weighed and portioned ingredients for your best-selling dishes
+- Sauces in ready-to-use squeeze bottles (not to be opened mid-service)
+- Pre-opened or pre-assembled packaging (lids already placed on containers)
+- Pre-cut garnishes in quantities calculated from your forecasts
+
+**One hour of thorough mise en place can speed up your service by 25 to 30%.**
+
+## Step 4 — Manage the Queue Intelligently
+
+Queue management influences the perception of waiting as much as the actual time. Studies in quick-service restaurants show that customers overestimate their wait time by 20 to 40% when they have nothing to do.
+
+### Communicate the Wait Time
+
+Announce the estimated time as soon as the queue exceeds 5 or 6 people. "About 10 minutes" said out loud reduces anxiety and limits walk-aways. Customers who know how long they are waiting are far more patient than those who do not.
+
+### Take Orders in Advance Down the Queue
+
+If there are two of you, send one person to take orders in the queue while the other prepares. By the time the customer reaches the window, their order is already being made. This technique, used in fast food since the 1990s, can double your throughput during busy slots.
+
+### Offer Pre-Order via QR Code
+
+A QR code displayed at the start of the queue that lets customers pre-order and pre-pay reduces both order-taking time and payment time. Solutions like **Square**, **Laddition** or even a simple link to your payment system let you set this up without major investment.
+
+### Keep People Engaged While They Wait
+
+Music, a menu that is visible and readable from far away, a large-format "dish of the moment" display — anything that gives customers something to do while waiting reduces the perception of how long it takes.
+
+## Step 5 — Adapt Your Menu to Throughput Constraints
+
+Your menu is not just a culinary offering: it is an operational tool. Some dishes are naturally faster to prepare than others. During high-pressure slots (weekday lunch on an industrial estate, packed festival), favour a reduced menu of the fastest dishes.
+
+### The Lunchtime "Express" Menu
+
+On your highest-footfall slots, offer a reduced menu of 3 to 4 dishes with a preparation time under 2 minutes. Time-pressed customers appreciate the simplicity, and you stay in control of your throughput.
+
+### Identify Your "Bottleneck" Dishes
+
+Some dishes are delicious but slow to prepare (complex assembly, long cooking time). On your busiest services, remove them from the menu or cap their daily quantity. FoodTracks lets you cross-reference sales data by dish and by time slot to identify exactly which ones are profitable without penalising your throughput.
+
+## What the Data Says: Realistic Targets
+
+Here are concrete benchmarks for a well-run solo food truck:
+
+| Indicator | Suboptimal | Good | Optimised |
+|-----------|-----------|------|-----------|
+| Average service time | &gt;4 min | 2 to 3 min | &lt;2 min |
+| Queue abandonment rate | &gt;15% | 5 to 10% | &lt;5% |
+| Covers per peak hour | &lt;20 | 25 to 35 | 40+ |
+| Share of contactless payment | &lt;40% | 60 to 75% | &gt;85% |
+
+These figures vary by cuisine type and service format. They are benchmarks, not absolute targets.
+
+## Practical Tools to Go Further
+
+### Visible Service Timer
+
+Place a timer visible from your workstation and time your own services for a week. Seeing the figure in real time creates positive pressure and helps identify orders that run over.
+
+### FoodTracks for Time-Slot Analysis
+
+By cross-referencing your SumUp sales with timestamps, FoodTracks lets you identify your peak slots, compare throughput from one service to the next and measure the impact of your organisational changes on real profitability.
+
+### The 5-Minute Post-Service Review
+
+After every busy service, take 5 minutes to note: what caused a block? When did the queue stall? Which dish caused the most delay? This simple habit, kept up for a month, gives you more insight than an external consultant.
+
+## Conclusion
+
+Reducing your service time is not about personal speed: it is about systems. By measuring your times, identifying your real bottlenecks, reorganising your workspace and managing queue perception, you can serve 30 to 50% more customers in the same slot without working harder.
+
+**The best investment is not always a second employee: it is often one hour spent analysing and reorganising your workstation.**
+
+*Also read:* [Increasing Your Average Basket at Your Food Truck](/en/blog/augmenter-ticket-moyen-food-truck) · [Food Truck Weekly Planning](/en/blog/planning-semaine-food-truck) · [Food Truck Dashboard: Managing Profitability](/en/blog/tableau-de-bord-food-truck-rentabilite)`,
+    },
+    keyTakeaways: {
+      fr: [
+        "Chaque minute gagnée sur le temps de service moyen peut augmenter le CA horaire de 5 à 15 % sur les créneaux chargés.",
+        "Les trois goulots les plus fréquents : prise de commande trop lente (menu trop dense), préparation non séquencée, et paiement par code PIN.",
+        "Une heure de mise en place avant le service accélère le service de 25 à 30 % sans aucun investissement.",
+        "Prendre les commandes dans la file en avance peut doubler le débit sur les créneaux de pointe.",
+        "Le paiement sans contact est 3 à 5 fois plus rapide que la saisie du code PIN : affichez un rappel visible avant le guichet.",
+      ],
+      en: [
+        "Every minute saved on average service time can increase hourly revenue by 5 to 15% during peak slots.",
+        "The three most common bottlenecks: slow order-taking (menu too dense), non-sequenced preparation, and PIN payment.",
+        "One hour of mise en place before service speeds it up by 25 to 30% with zero investment.",
+        "Taking orders in advance down the queue can double throughput during peak slots.",
+        "Contactless payment is 3 to 5 times faster than PIN entry: display a visible reminder before the window.",
+      ],
+    },
+    faqItems: [
+      {
+        question: {
+          fr: "Quel est le temps d'attente maximum acceptable pour un client en food truck ?",
+          en: "What is the maximum acceptable wait time for a food truck customer?",
+        },
+        answer: {
+          fr: "Au-delà de 8 à 10 minutes, une proportion significative de clients abandonne la file, notamment sur les créneaux de midi où les salariés ont une pause limitée. L'objectif à viser est un temps de service moyen inférieur à 3 minutes par client, ce qui permet d'absorber des files de 10 à 15 personnes sans atteindre ce seuil critique.",
+          en: "Beyond 8 to 10 minutes, a significant proportion of customers abandon the queue, especially during lunchtime slots where workers have limited break time. The target to aim for is an average service time of under 3 minutes per customer, which allows queues of 10 to 15 people to be absorbed without reaching that critical threshold.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment accélérer le service en food truck sans recruter un deuxième employé ?",
+          en: "How do you speed up service at a food truck without hiring a second employee?",
+        },
+        answer: {
+          fr: "Les leviers les plus efficaces sans embauche sont : la réduction du nombre de plats au menu sur les créneaux chargés (3 à 4 plats express), une mise en place rigoureuse avant le service (portions pré-pesées, emballages pré-ouverts), la séparation du point de commande et du point de remise, et l'incitation au paiement sans contact. Ces seules mesures peuvent réduire le temps de service de 30 à 50 %.",
+          en: "The most effective levers without hiring are: reducing the number of dishes on the menu during busy slots (3 to 4 express dishes), rigorous mise en place before service (pre-weighed portions, pre-opened packaging), separating the order point from the hand-off point, and encouraging contactless payment. These measures alone can cut service time by 30 to 50%.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment gérer une file d'attente longue lors d'un festival ou d'un gros événement ?",
+          en: "How do you manage a long queue at a festival or large event?",
+        },
+        answer: {
+          fr: "Trois actions prioritaires : annoncer le temps d'attente estimé à voix haute dès que la file dépasse 8 personnes, envoyer quelqu'un prendre les commandes dans la file (si vous êtes deux), et proposer un menu réduit aux 3 plats les plus rapides à préparer. Si possible, mettez en place un système de numéros ou de précommande QR code avant l'événement pour lisser le flux.",
+          en: "Three priority actions: announce the estimated wait time out loud as soon as the queue exceeds 8 people, send someone to take orders in the queue (if there are two of you), and offer a reduced menu of the 3 fastest dishes to prepare. If possible, set up a ticket number system or QR code pre-order before the event to smooth the flow.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment savoir si c'est la préparation ou la prise de commande qui ralentit mon service ?",
+          en: "How do I know whether it is preparation or order-taking that is slowing down my service?",
+        },
+        answer: {
+          fr: "Chronométrez séparément chaque phase sur une vingtaine de commandes lors d'un service chargé. Si le guichet est libre et que vous attendez en cuisine, c'est la préparation qui bloque. Si la cuisine est prête avant que le client ait fini de commander ou de payer, c'est la prise de commande ou le paiement. Cette mesure de 30 minutes vous donnera une réponse définitive et orientera vos efforts d'optimisation au bon endroit.",
+          en: "Time each phase separately across around twenty orders during a busy service. If the window is free and you are waiting in the kitchen, preparation is the bottleneck. If the kitchen is ready before the customer has finished ordering or paying, it is order-taking or payment. This 30-minute measurement exercise will give you a definitive answer and focus your optimisation efforts in the right place.",
+        },
+      },
+      {
+        question: {
+          fr: "Les solutions de précommande en ligne valent-elles la peine pour un food truck ?",
+          en: "Are online pre-order solutions worth it for a food truck?",
+        },
+        answer: {
+          fr: "Sur les emplacements fixes récurrents (marché hebdomadaire, zone industrielle habituelle), oui. Un QR code de précommande affiché à l'entrée de la file peut réduire le temps de passage en caisse de 60 à 70 % sur les commandes préparées. Sur les emplacements événementiels ponctuels, le retour sur investissement est moins évident car la clientèle ne connaît pas le système. Commencez par vos emplacements les plus réguliers.",
+          en: "On recurring fixed locations (weekly market, regular industrial estate), yes. A pre-order QR code displayed at the start of the queue can reduce till time by 60 to 70% on prepared orders. At one-off event locations, the return on investment is less clear because customers are unfamiliar with the system. Start with your most regular locations.",
+        },
+      },
+    ],
+    relatedSlugs: [
+      "augmenter-ticket-moyen-food-truck",
+      "planning-semaine-food-truck",
+      "tableau-de-bord-food-truck-rentabilite",
+      "menu-food-truck-rentable",
+      "gestion-invendus-food-truck",
+    ],
+  },
 ];
 
 export const blogArticles: BlogArticle[] = [...baseBlogArticles, ...verticalArticles];
