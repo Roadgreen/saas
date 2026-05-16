@@ -1,5 +1,95 @@
 # Analytics Daily Log
 
+## 2026-05-15 (check matinal — Doji)
+
+### Periode analysee : 2026-05-14T~09:30Z -> 2026-05-15T~09:30Z (24h glissantes)
+
+**Resume chiffre**
+- **Events totaux :** 4 (dont 2 bots confirms) | **Trafic humain reel :** ~2 sessions
+- **Page views :** 4 (0 scroll_depth, 0 page_exit)
+- **Sessions uniques :** 4 total | **Humains estimes :** 2
+- **Users connectes :** 0
+- **Devices :** Desktop 100% (Win32 x2 Chrome, Linux armv8l bot, Linux x86_64 bot)
+- **Locale :** EN 100% (4/4 PV)
+- **Sources trafic :** Google 50% (2 PV) | Direct/bot 50% (2 PV)
+- **UTM source :** aucun (0 UTM sur 24h)
+- **Bots detectes :** Google-NotebookLM (Linux armv8l) + Dataprovider.com (Linux x86_64) = 2/4 sessions
+
+**Comparaison J-1 (2026-05-14)**
+- J-1 : 26 events / 13 PV / 13 sessions — **-85% events vs J-1**
+- J-2 : 2 events
+- Journee 15/05 en cours (matin), tendance normale pour debut de journee
+
+### Top pages (24h)
+| Page | PV |
+|---|---|
+| /en/blog/tresorerie-food-truck-guide | 1 |
+| /en/guides/food-truck-reglementation-france | 1 |
+| /en (homepage EN) | 1 |
+| /en/blog/choisir-emplacement-rentable-food-truck | 1 |
+
+**Nouveaute :** `/en/guides/food-truck-reglementation-france` apparait pour la 1ere fois dans les top pages — nouvelle section "guides" indexee par Google. Signal SEO positif.
+
+### Sources trafic (24h)
+| Source | PV |
+|---|---|
+| google.com (referrer) | 2 |
+| direct / bot | 2 |
+
+### Sources trafic J-1 (2026-05-14)
+| Source | PV |
+|---|---|
+| Direct | 6 |
+| facebook.com | 3 |
+| google.com | 2 |
+| bing.com | 1 |
+| chatgpt.com | 1 |
+
+J-1 bien plus diversifie : Facebook actif (3 PV), Bing present, ChatGPT 1 PV. Multi-source vs today mono-Google.
+
+### Devices (24h)
+| Device | Count |
+|---|---|
+| Desktop Win32 (Chrome) | 2 (humains) |
+| Desktop Linux armv8l (Google-NotebookLM) | 1 (bot) |
+| Desktop Linux x86_64 (Dataprovider.com) | 1 (bot) |
+
+Mobile : 0% sur 24h.
+
+### Repartition horaire (page_views)
+| Heure (UTC) | PV |
+|---|---|
+| 02h | 1 (bot Dataprovider) |
+| 05h | 1 (Google-NotebookLM) |
+| 09h | 1 |
+| 22h | 1 |
+
+### Scroll depth (24h)
+Aucun event scroll_depth enregistre sur les 24h. Sessions trop courtes ou bots sans scroll.
+
+### Comparaison historique (events/j)
+| Date | Events | PV | Sessions | Notes |
+|---|---|---|---|---|
+| 2026-05-04 | 33 | 5 | 4 | Post-spike |
+| 2026-05-09 (approx J-6) | — | — | — | — |
+| 2026-05-13 (J-2) | 2 | — | — | Tres faible |
+| 2026-05-14 (J-1) | 26 | 13 | 13 | Facebook actif, multi-source |
+| **2026-05-15 (aujourd'hui)** | **4** | **4** | **4 (2 bots)** | Debut journee |
+
+Baseline reelle post-refonte SEO (mai) : ~5-15 PV/j hors bots. Journee du 14/05 inhabituelle (26 events / 13 PV) — possiblement partage Facebook ou indexation nouveaux guides.
+
+### Observations & actions
+- **Bots en hausse :** 2/4 sessions aujourd'hui sont des crawlers (Google-NotebookLM = indexation LLM + Dataprovider = data scraper). Signe que le site est bien crawle par les IA. NotebookLM = signal positif pour le referencing LLM (coherent avec historique ChatGPT).
+- **Nouveaux guides indexes :** `/en/guides/food-truck-reglementation-france` apparait pour la 1ere fois en trafic organique Google. La section "guides" est maintenant crawlee et commence a generer des clics. A surveiller sur les 7 prochains jours.
+- **J-1 multi-source atypique :** Facebook (3 PV) + Bing (1 PV) + ChatGPT (1 PV) le 14/05 suggerent un partage organique ou une citation externe. A corroler avec eventuels partages Melou sur reseaux.
+- **Locale 100% EN :** Toutes les sessions 24h sont EN. La refonte SEO mai oriente de plus en plus vers l'anglophone. Confirme la tendance des semaines precedentes.
+- **0 conversion :** Toujours aucun user logue. Funnel blog/guides -> inscription toujours bloque.
+- **Article tresorerie food truck :** Nouveau contenu EN indexe (guide gestion cash flow), visite Google EN depuis New York (timezone America/New_York). Trafic international confirme.
+
+---
+
+
+
 ## 2026-05-04 (check journalier — Doji)
 
 ### Periode analysee : 2026-05-03T10:00Z -> 2026-05-04T~10:00Z (24h)
@@ -521,3 +611,28 @@ Après le pic du 31/03, retour à un trafic très faible. Les 2-3 avril sont qua
 - Surveiller le trafic international (Vietnam, autres pays non-FR) — envisager du contenu EN optimisé pour l'Asie du Sud-Est si le signal se confirme.
 - Vérifier l'indexation du nouvel article "équipement food truck" dans Google Search Console.
 
+
+## 2026-05-16 — Analytics 24h
+
+**Events:** 32 | **Sessions:** 9 | **Page views:** 9 | **Conversions:** 0
+
+**Sources:**
+- Bing : 13 events (dominant)
+- ChatGPT : 12 events
+- Google : 5 events
+- Direct : 2 events
+
+**Top pages:**
+- /fr/blog/logiciel-gestion-cafe-coffee-shop (×2)
+- /fr/ville/toulouse, /fr/ville
+- /fr/blog/livraison-food-truck-uber-eats-deliveroo
+- /en/blog/food-truck-festival-organiser-service-profitable
+- /en/blog/calcul-prix-vente-food-truck
+- /en/blog/gerer-plusieurs-food-trucks-flotte
+- /en/blog/horaires-ouverture-food-truck-maximiser-ventes
+
+**Devices:** iPhone iOS 18.7 détecté (trafic mobile)
+
+**Insights:** Bing dépasse Google en volume (13 vs 5). ChatGPT reste fort (12). Les pages ville (/fr/ville/toulouse) attirent depuis chatgpt.com — signal fort pour les landings locales. 0 signup.
+
+**Actions:** Article publié aujourd'hui = packaging-food-truck-rentabilite-image (Marketing, 2026-05-16)
