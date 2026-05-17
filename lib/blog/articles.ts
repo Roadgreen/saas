@@ -32360,6 +32360,245 @@ Always include packaging cost in your per-dish cost of goods. With the right too
       "augmenter-ticket-moyen-food-truck",
     ],
   },
+  {
+    slug: "gestion-tresorerie-food-truck",
+    title: {
+      fr: "Gérer la trésorerie de son food truck : guide pratique pour éviter les creux",
+      en: "Food Truck Cash Flow Management: A Practical Guide to Avoiding Cash Shortfalls",
+    },
+    excerpt: {
+      fr: "La trésorerie est le point faible de nombreux food truckers rentables sur le papier mais en difficulté en fin de mois. Voici comment anticiper, piloter et stabiliser vos flux de trésorerie au quotidien.",
+      en: "Cash flow is the weak spot for many food truckers who are profitable on paper but struggling at month end. Here is how to anticipate, manage, and stabilise your cash flows day to day.",
+    },
+    category: { fr: "Gestion", en: "Management" },
+    date: "2026-05-17",
+    readTime: 10,
+    keywords: [
+      "trésorerie food truck",
+      "gestion trésorerie food truck",
+      "flux de trésorerie food truck",
+      "cash flow food truck",
+      "manque de liquidités food truck",
+      "food truck cash flow management",
+    ],
+    heroImage: "/blog/tresorerie-food-truck.png",
+    content: {
+      fr: `## Pourquoi la trésorerie est le vrai nerf de la guerre
+
+Un food truck peut être rentable sur le papier et mourir d'un manque de liquidités. C'est le paradoxe de la trésorerie : vous pouvez afficher un bénéfice comptable positif sur l'année et vous retrouver incapable de payer vos fournisseurs en novembre. Ce n'est pas une question de rentabilité — c'est une question de **timing des flux d'argent**.
+
+En food truck, ce décalage est amplifié par plusieurs facteurs : saisonnalité marquée (hiver faible, été fort), achats en gros (grosses sorties ponctuelles), investissements matériels et événements qui génèrent des recettes décalées. **Comprendre et piloter sa trésorerie, c'est éviter de financer les creux de son activité avec sa carte bleue personnelle.**
+
+## Les trois flux à connaître
+
+Toute trésorerie se résume à trois types de mouvements :
+
+### 1. Encaissements (entrées)
+- Ventes du jour (cash, CB, mobile pay)
+- Avances sur événements privés
+- Remboursements (assurance, TVA)
+- Aides et subventions reçues
+
+### 2. Décaissements courants (sorties régulières)
+- Achats matières premières (hebdomadaires ou bi-hebdomadaires)
+- Carburant et entretien du véhicule
+- Loyers d'emplacement ou commissions marchés
+- Salaires et charges sociales
+- Abonnements (logiciels, assurance, mutuelle)
+
+### 3. Décaissements exceptionnels (sorties ponctuelles)
+- Réparations du camion
+- Renouvellement matériel de cuisine
+- Remboursement d'emprunt (mensualités)
+- Cotisations annuelles (CFE, URSSAF si trimestriel)
+
+La difficulté : les encaissements arrivent quotidiennement en petites sommes, mais les décaissements exceptionnels arrivent en gros blocs imprévisibles.
+
+## Construire un prévisionnel de trésorerie simple
+
+Vous n'avez pas besoin d'un tableur complexe. Un prévisionnel de trésorerie efficace en food truck tient en une seule page :
+
+**Structure mensuelle :**
+1. **Solde d'ouverture** (ce que vous avez en caisse + compte au 1er du mois)
+2. **Encaissements prévus** (CA estimé selon planning + événements confirmés)
+3. **Décaissements prévus** (charges fixes + achats estimés)
+4. **Solde de clôture prévisionnel** (1 + 2 − 3)
+
+Faites cet exercice sur 3 mois glissants. Si votre solde prévu descend sous un seuil critique (en général 1 à 2 semaines de charges fixes), c'est un signal d'alerte à anticiper maintenant, pas à subir dans 6 semaines.
+
+## Cinq leviers pour améliorer sa trésorerie
+
+### 1. Facturer les événements avec acompte
+
+Pour tout événement privé (mariage, séminaire, festival), exigez **30 à 50 % d'acompte à la signature**. C'est standard dans la restauration événementielle et ça transforme un encaissement futur en liquidité immédiate. Un client qui refuse un acompte est un client qui vous fait porter son risque.
+
+### 2. Synchroniser commandes fournisseurs et recettes
+
+Ne commandez pas en gros le lundi si vous avez un gros service le vendredi. Adaptez le timing de vos achats à votre planning de ventes. Avec FoodTracks, vous pouvez [croiser votre planning d'emplacements](/fr/blog/trouver-meilleurs-emplacements-food-truck) avec vos prévisions de consommation pour ne commander que ce dont vous avez besoin, au bon moment.
+
+### 3. Constituer une réserve de trésorerie
+
+Objectif : **1 mois de charges fixes en réserve intouchable** (loyers, salaires, emprunt). Cette réserve se constitue progressivement — 5 % des recettes mensuelles jusqu'à atteindre la cible. Elle absorbe les réparations imprévues et les creux saisonniers sans recours au découvert.
+
+### 4. Négocier des délais de paiement fournisseurs
+
+Certains grossistes acceptent des paiements à 30 jours sur facture si vous avez un historique client régulier. Ça ne change rien à votre rentabilité mais ça décale une sortie et laisse vos liquidités travailler plus longtemps. Demandez — le pire qu'on puisse vous dire est non.
+
+### 5. Suivre sa trésorerie en temps réel
+
+Ne vous fiez pas à votre solde bancaire pour piloter. Le solde bancaire ne tient pas compte des chèques en attente, des prélèvements à venir ou des CB déjà passées non encore débitées. **Tenez un relevé de caisse quotidien** — même en 2 minutes — et réconciliez-le avec votre compte en fin de semaine.
+
+Avec **FoodTracks**, vos ventes SumUp remontent automatiquement dans votre [tableau de bord](/fr/blog/tableau-de-bord-food-truck-rentabilite), ce qui vous donne une vision en temps réel de vos encaissements sans ressaisie manuelle.
+
+## Les erreurs classiques de trésorerie
+
+**Confondre CA et trésorerie** — votre chiffre d'affaires de la semaine n'est pas votre argent disponible. Déduisez les charges, les achats, les cotisations à venir.
+
+**Payer ses cotisations URSSAF en retard** — les majorations de retard (5 à 10 %) sont l'une des charges les plus évitables. Provisionnez mensuellement même si le paiement est trimestriel.
+
+**Mélanger compte pro et perso** — impossible de piloter sa trésorerie si les flux sont mélangés. Un compte dédié à l'activité est obligatoire dès le premier euro de CA.
+
+**Sous-estimer la saisonnalité** — si votre été représente 60 % de votre CA annuel, vous devez sortir de l'été avec 4 à 5 mois de réserve pour tenir jusqu'au printemps suivant.
+
+## En résumé
+
+La trésorerie ne se pilote pas dans l'urgence — elle se pilote par anticipation. Un prévisionnel simple sur 3 mois glissants, une réserve d'un mois de charges, des acomptes sur les événements et un suivi hebdomadaire suffisent à éviter 90 % des crises de liquidités. Les outils existent pour automatiser le suivi des recettes : ne passez pas votre temps à ressaisir des données, passez-le à analyser et à décider.`,
+      en: `## Why Cash Flow Is the Real Battleground
+
+A food truck can be profitable on paper and die from a lack of liquidity. This is the cash flow paradox: you can show a positive accounting profit for the year and find yourself unable to pay your suppliers in November. It is not a profitability issue — it is a question of **timing of money flows**.
+
+In food trucks, this gap is amplified by several factors: pronounced seasonality (weak winter, strong summer), bulk purchases (large one-off outflows), equipment investments, and events that generate delayed revenue. **Understanding and managing your cash flow means avoiding financing your slow periods with your personal credit card.**
+
+## The Three Flows to Know
+
+All cash management comes down to three types of movements:
+
+### 1. Receipts (inflows)
+- Daily sales (cash, card, mobile pay)
+- Deposits on private events
+- Refunds (insurance, VAT)
+- Grants and subsidies received
+
+### 2. Regular outflows
+- Raw material purchases (weekly or twice weekly)
+- Fuel and vehicle maintenance
+- Pitch fees or market commissions
+- Salaries and social charges
+- Subscriptions (software, insurance, health cover)
+
+### 3. Exceptional outflows (one-off costs)
+- Truck repairs
+- Kitchen equipment renewal
+- Loan repayments (monthly instalments)
+- Annual contributions (business tax, quarterly social charges)
+
+The challenge: receipts arrive daily in small amounts, but exceptional outflows arrive in large, unpredictable chunks.
+
+## Building a Simple Cash Flow Forecast
+
+You do not need a complex spreadsheet. An effective food truck cash flow forecast fits on one page:
+
+**Monthly structure:**
+1. **Opening balance** (what you have in cash + account on the 1st)
+2. **Expected receipts** (estimated revenue based on schedule + confirmed events)
+3. **Expected outflows** (fixed costs + estimated purchases)
+4. **Projected closing balance** (1 + 2 − 3)
+
+Run this exercise on a rolling 3-month basis. If your projected balance drops below a critical threshold (usually 1 to 2 weeks of fixed costs), that is a warning signal to address now, not a crisis to absorb in 6 weeks.
+
+## Five Levers to Improve Cash Flow
+
+### 1. Invoice Events With a Deposit
+
+For any private event (wedding, seminar, festival), require **30 to 50% deposit at signing**. This is standard in event catering and turns a future receipt into immediate liquidity. A client who refuses a deposit is a client who is asking you to carry their risk.
+
+### 2. Synchronise Orders With Revenue
+
+Do not order in bulk on Monday if your big service is on Friday. Time your purchases to your sales schedule. With FoodTracks, you can align your location schedule with your consumption forecasts to order only what you need, when you need it.
+
+### 3. Build a Cash Reserve
+
+Target: **one month of fixed costs as an untouchable reserve** (rent, salaries, loan). This reserve builds progressively — set aside 5% of monthly revenue until you reach the target. It absorbs unexpected repairs and seasonal dips without resorting to an overdraft.
+
+### 4. Negotiate Supplier Payment Terms
+
+Some wholesalers accept 30-day invoice payment if you have a regular customer history. It does not change your profitability but delays an outflow and lets your liquidity work longer. Ask — the worst they can say is no.
+
+### 5. Track Cash Flow in Real Time
+
+Do not rely on your bank balance to manage your business. Your bank balance does not account for pending cheques, upcoming direct debits, or card payments already made but not yet debited. **Keep a daily cash register log** — even just 2 minutes — and reconcile it with your account at the end of each week.
+
+With **FoodTracks**, your SumUp sales feed automatically into your dashboard, giving you a real-time view of your receipts without manual re-entry.
+
+## Classic Cash Flow Mistakes
+
+**Confusing revenue with cash** — your week's turnover is not your available cash. Deduct costs, purchases, and upcoming contributions.
+
+**Paying social charges late** — late payment surcharges (5 to 10%) are among the most avoidable costs. Provision monthly even if payment is quarterly.
+
+**Mixing business and personal accounts** — impossible to manage cash flow if flows are mixed. A dedicated business account is essential from the first euro of revenue.
+
+**Underestimating seasonality** — if summer represents 60% of your annual revenue, you need to come out of summer with 4 to 5 months of reserves to last through to the following spring.
+
+## Summary
+
+Cash flow is not managed in a crisis — it is managed by anticipation. A simple rolling 3-month forecast, a one-month fixed-cost reserve, deposits on events, and weekly monitoring are enough to avoid 90% of liquidity crises. The tools exist to automate revenue tracking: stop spending time re-entering data and start spending it analysing and deciding.`,
+    },
+    keyTakeaways: {
+      fr: [
+        "La trésorerie et la rentabilité sont deux choses distinctes — on peut être rentable et manquer de liquidités.",
+        "Un prévisionnel sur 3 mois glissants suffit à anticiper 90 % des crises.",
+        "Exigez 30–50 % d'acompte sur tout événement privé pour sécuriser votre trésorerie.",
+        "Constituez une réserve d'un mois de charges fixes : intouchable sauf urgence.",
+        "Séparez toujours compte professionnel et personnel pour un pilotage clair.",
+      ],
+      en: [
+        "Cash flow and profitability are two different things — you can be profitable and still run out of cash.",
+        "A rolling 3-month forecast is enough to anticipate 90% of cash crises.",
+        "Require 30–50% deposits on private events to secure your cash position.",
+        "Build a one-month fixed-cost reserve: untouchable except in emergencies.",
+        "Always separate business and personal accounts for clear financial management.",
+      ],
+    },
+    faqItems: [
+      {
+        question: {
+          fr: "Combien de trésorerie un food truck doit-il toujours avoir en réserve ?",
+          en: "How much cash reserve should a food truck always keep?",
+        },
+        answer: {
+          fr: "L'objectif recommandé est d'avoir au minimum l'équivalent d'un mois de charges fixes (loyer emplacement, salaires, remboursement emprunt) en réserve intouchable. Cela couvre les réparations imprévues et les creux saisonniers sans recours au découvert.",
+          en: "The recommended target is to keep at least one month of fixed costs (pitch fees, salaries, loan repayments) as an untouchable reserve. This covers unexpected repairs and seasonal dips without resorting to an overdraft.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment éviter les creux de trésorerie en hiver ?",
+          en: "How can I avoid cash shortfalls in winter?",
+        },
+        answer: {
+          fr: "Provisionnez pendant les mois forts (printemps/été) en mettant de côté 5 % de vos recettes mensuelles. Si l'été représente 60 % de votre CA annuel, sortez de l'été avec 4 à 5 mois de charges en réserve pour tenir jusqu'au printemps suivant.",
+          en: "Provision during strong months (spring/summer) by setting aside 5% of monthly revenue. If summer represents 60% of your annual revenue, come out of summer with 4 to 5 months of costs in reserve to last through to the following spring.",
+        },
+      },
+      {
+        question: {
+          fr: "Faut-il un compte bancaire professionnel séparé en food truck ?",
+          en: "Do I need a separate business bank account for a food truck?",
+        },
+        answer: {
+          fr: "Oui, c'est indispensable dès le premier euro de CA. Mélanger compte pro et perso rend le pilotage de trésorerie impossible et complique la comptabilité. La plupart des banques en ligne proposent des comptes pros à moins de 10 €/mois.",
+          en: "Yes, it is essential from the first euro of revenue. Mixing business and personal accounts makes cash flow management impossible and complicates accounting. Most online banks offer business accounts for under €10/month.",
+        },
+      },
+    ],
+    relatedSlugs: [
+      "comptabilite-food-truck-guide",
+      "cout-charges-food-truck-mensuel",
+      "tableau-de-bord-food-truck-rentabilite",
+      "financer-food-truck-aides-subventions",
+    ],
+  },
 ];
 
 export const blogArticles: BlogArticle[] = [...baseBlogArticles, ...verticalArticles];
