@@ -34,3 +34,4 @@
 2026-05-08 | food-truck-click-and-collect-commande-en-ligne | FR+EN | Click & Collect pour food truck : comment mettre en place la commande en ligne et doubler vos ventes | publie
 2026-05-13 | planifier-tournee-food-truck | FR+EN | Planifier sa tournée food truck : méthode complète pour maximiser vos revenus par emplacement | publie
 2026-05-15 | reduire-temps-attente-food-truck | FR+EN | Réduire le temps d'attente en food truck : méthode complète pour servir plus vite et vendre plus | publie
+2026-05-19 | food-truck-evenementiel-mariage-entreprise | FR+EN | Food truck pour mariage et événements d'entreprise : comment se lancer et décrocher des contrats | publie

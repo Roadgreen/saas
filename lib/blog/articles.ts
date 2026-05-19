@@ -33708,6 +33708,741 @@ The formula is simple: ask for reviews consistently, respond to all of them with
       "comment-attirer-clients-food-truck",
     ],
   },
+  {
+    slug: "negocier-fournisseurs-food-truck",
+    heroImage: "/blog/rentabilite.png",
+    title: {
+      fr: "Négocier avec ses fournisseurs en food truck : guide pratique pour réduire ses coûts matières en 2026",
+      en: "Negotiating with Food Truck Suppliers: Practical Guide to Cutting Food Costs in 2026",
+    },
+    excerpt: {
+      fr: "Les matières premières représentent 28 à 35 % du chiffre d'affaires d'un food truck. Voici comment négocier vos contrats fournisseurs, obtenir de meilleures conditions et réduire votre coût matière sans sacrifier la qualité.",
+      en: "Raw materials account for 28 to 35% of a food truck's revenue. Here's how to negotiate supplier contracts, secure better terms and cut your food cost without sacrificing quality.",
+    },
+    category: { fr: "Rentabilité", en: "Profitability" },
+    date: "2026-05-19",
+    readTime: 9,
+    keywords: [
+      "négocier fournisseurs food truck",
+      "réduire coût matière food truck",
+      "fournisseurs restauration mobile",
+      "achat groupé food truck",
+      "marge food truck améliorer",
+      "food truck supplier negotiation",
+      "reduce food cost food truck",
+      "food truck profit margin",
+    ],
+    content: {
+      fr: `# Négocier avec ses fournisseurs en food truck : guide pratique pour réduire ses coûts matières en 2026
+
+Le coût matière est l'ennemi silencieux de la rentabilité d'un food truck. Quand les prix des denrées augmentent de 5 à 8 % par an, chaque euro économisé chez le fournisseur tombe directement dans votre marge. Pourtant, la grande majorité des gérants de food truck accepte les tarifs catalogue sans négocier. C'est une erreur que vous pouvez corriger dès aujourd'hui.
+
+## Pourquoi les food truckers ne négocient pas (et ont tort)
+
+### La fausse croyance du "petit client"
+
+Beaucoup de food truckers se convainquent qu'ils sont trop petits pour négocier. Faux. Un food truck qui fait 8 000 € de CA par mois représente environ 2 500 à 3 000 € d'achats alimentaires mensuels — soit 30 000 à 36 000 € par an. C'est un compte commercial significatif pour un grossiste ou un boucher artisan.
+
+### Le manque de données
+
+Sans connaître précisément votre coût matière par recette et par fournisseur, vous ne pouvez pas négocier efficacement. La négociation commence par la mesure. Si vous ne savez pas que vous achetez 120 kg de viande par mois à votre boucher, vous ne pouvez pas argumenter sur le volume.
+
+**Avec FoodTracks**, vous pouvez suivre vos consommations par ingrédient et par recette. Ces données sont votre meilleure carte de négociation.
+
+## Cartographier vos fournisseurs avant de négocier
+
+### Étape 1 — Lister tous vos fournisseurs actuels
+
+Dressez un tableau avec, pour chaque fournisseur :
+- Nom et type (grossiste, producteur local, cash & carry, GMS)
+- Catégorie de produit (viandes, légumes, épicerie sèche, emballages)
+- Montant mensuel moyen d'achats
+- Conditions actuelles (tarif, délai de paiement, minimum de commande)
+- Ancienneté de la relation
+
+### Étape 2 — Identifier vos leviers par fournisseur
+
+Chaque fournisseur a ses propres motivations :
+
+| Type de fournisseur | Ce qu'il veut | Votre levier |
+|---|---|---|
+| Grossiste alimentaire | Volume régulier, paiement rapide | Engagement de volume mensuel |
+| Boucher artisan | Régularité, fidélité | Commandes hebdomadaires fixes |
+| Producteur local | Visibilité, débouchés stables | Mention sur vos réseaux, volume garanti |
+| Cash & carry | Volume, fréquence | Carte pro, achats groupés |
+
+### Étape 3 — Classer par potentiel d'économie
+
+Concentrez vos efforts sur les 3-4 fournisseurs qui représentent 70-80 % de vos achats. Une réduction de 5 % chez votre principal fournisseur vaut 10 fois plus qu'une réduction de 10 % chez un petit fournisseur marginal.
+
+## Les techniques de négociation concrètes
+
+### 1. L'engagement de volume
+
+C'est le levier le plus puissant. Au lieu d'acheter de façon imprévisible, proposez un volume mensuel garanti en échange d'une remise.
+
+**Script :** *"Je vous achète actuellement environ 80 kg de poulet par mois de façon irrégulière. Je suis prêt à m'engager sur 100 kg par mois commande fixe le lundi matin, si vous pouvez me proposer un tarif à [prix cible]."*
+
+L'engagement de volume réduit le risque et le coût de traitement de votre fournisseur. Il peut donc baisser son prix tout en maintenant sa marge.
+
+### 2. La mise en concurrence transparente
+
+Obtenez des devis de 2-3 fournisseurs concurrents avant toute négociation. Présentez-les ouvertement à votre fournisseur actuel.
+
+**Attention :** Cette technique fonctionne mais peut blesser une relation de confiance si mal dosée. Utilisez-la sur les produits standardisés (où tous les fournisseurs vendent la même chose) plutôt que sur les produits spécifiques ou artisanaux.
+
+### 3. Le paiement rapide contre remise
+
+Les délais de paiement coûtent cher aux fournisseurs (trésorerie immobilisée, risque d'impayé). Proposez un paiement à 8-10 jours maximum, voire comptant à la livraison, en échange d'une remise de 1,5 à 3 %.
+
+Sur 30 000 € d'achats annuels, une remise de 2 % représente 600 € — soit l'équivalent d'un plein de gaz offert chaque mois.
+
+### 4. Le regroupement de commandes
+
+Au lieu de passer 4 petites commandes par semaine, regroupez en 1-2 commandes plus importantes. Cela réduit les frais de livraison de votre fournisseur et justifie un tarif préférentiel.
+
+Bonus : vous réduisez aussi votre propre charge administrative et le nombre de créneaux de livraison à gérer dans votre planning.
+
+### 5. L'accord de partenariat avec les producteurs locaux
+
+Les producteurs locaux (maraîchers, éleveurs, artisans) sont souvent plus flexibles que les grossistes sur le prix, en échange de visibilité. Proposez-leur :
+- Une mention systématique sur votre ardoise et vos menus
+- Des posts Instagram avec géotag de leur exploitation
+- Un rôle de "vitrine" pour leurs produits (vos clients découvrent leur production)
+
+Ce partenariat peut vous valoir 10 à 20 % de remise sur des produits premium que vous pourrez valoriser à prix élevé sur votre carte.
+
+## Négocier les conditions hors prix
+
+Le prix n'est pas le seul terrain de négociation. Ces conditions ont une valeur financière réelle :
+
+### Délais de paiement allongés
+Passer de 8 à 30 jours de délai améliore votre trésorerie sans toucher au prix. Sur 10 000 € d'achats mensuels, c'est 10 000 € de trésorerie permanente que vous conservez.
+
+### Minimum de commande réduit
+Un minimum de commande trop élevé vous force à stocker plus que nécessaire — risque de gaspillage et d'immobilisation de cash. Négociez des minimums adaptés à votre volume réel.
+
+### Livraison gratuite
+Sur des commandes régulières, la livraison gratuite s'obtient facilement. Valorisez-la : à 15 € la livraison, 3 livraisons par semaine = 2 340 € par an.
+
+### Conditionnements adaptés
+Un poulet entier coûte moins cher au kilo qu'un poulet découpé. Mais si vous payez un employé ou perdez du temps à découper, le prix réel est plus élevé. Negociez des conditionnements qui correspondent exactement à votre utilisation.
+
+## Les erreurs à éviter
+
+### Négocier sans données
+"Je pense qu'on vous achète beaucoup" n'est pas un argument. Arrivez avec des chiffres précis : volumes mensuels, montants annuels, fréquence de commande.
+
+### Menacer sans intention de partir
+Si vous annoncez que vous allez changer de fournisseur, soyez prêt à le faire. Une menace non suivie d'effet détruit votre crédibilité pour toutes les négociations futures.
+
+### Négocier en période de rush
+Ne commencez pas une négociation quand vous avez besoin urgement de marchandise ou que le fournisseur est en haute saison. Négociez en période creuse, quand les deux parties ont le temps.
+
+### Ignorer la qualité
+Une économie de 10 % sur les matières premières qui entraîne une dégradation de la qualité perçue peut vous coûter 20 % de clients. La qualité est non-négociable — négociez sur le prix à qualité constante.
+
+## Construire des relations fournisseurs durables
+
+La meilleure négociation est celle que vous n'avez pas à refaire chaque année. Construisez des partenariats solides en :
+
+- **Payant toujours dans les délais convenus** — la réputation de bon payeur est un actif commercial
+- **Prévenant à l'avance des variations de volume** (saison creuse, événement exceptionnel)
+- **Recommandant votre fournisseur** à d'autres food truckers (un fournisseur satisfait vous fait des prix)
+- **Donnant du feedback** sur la qualité — cela montre que vous êtes un client sérieux et engagé
+
+## Calculer l'impact de vos négociations
+
+Avant toute négociation, calculez votre objectif d'économie :
+
+**Formule :**
+\`\`\`
+Économie annuelle cible = Achat mensuel × 12 × % de remise visée
+\`\`\`
+
+**Exemple :** 2 500 € d'achats/mois × 12 × 5 % = **1 500 € d'économies annuelles**
+
+Sur un food truck avec 30 % de charges fixes, ces 1 500 € tombent presque entièrement en marge nette. Sur une valorisation d'entreprise à 2× le bénéfice, c'est 3 000 € de valeur créée.
+
+**Avec FoodTracks**, suivez votre coût matière en temps réel après chaque négociation pour mesurer l'impact réel sur vos marges — et identifier les nouveaux leviers d'optimisation.
+
+## Conclusion
+
+Négocier avec ses fournisseurs n'est pas une question de rapport de force — c'est une question de professionnalisme et de préparation. Un food trucker qui connaît ses volumes, arrive avec des données et propose de la valeur à ses fournisseurs (régularité, paiement rapide, visibilité) peut réduire son coût matière de 5 à 15 % sans changer de produits.
+
+5 % de coût matière en moins sur un CA de 8 000 €/mois, c'est 120 € de marge supplémentaire par mois — soit 1 440 € par an qui améliorent directement votre résultat.
+
+**Commencez par mesurer vos achats avec FoodTracks, puis négociez avec des données concrètes.**
+
+[Suivre mes coûts matières avec FoodTracks →](/fr/pricing)
+
+**À lire aussi :** [Optimiser les marges de votre food truck](/fr/blog/optimiser-marges-food-truck-analyse-donnees) · [Réduire le gaspillage alimentaire](/fr/blog/reduire-gaspillage-alimentaire-food-truck) · [Calculer le coût de revient de vos recettes](/fr/blog/calculer-cout-revient-recette-food-truck)`,
+      en: `# Negotiating with Food Truck Suppliers: Practical Guide to Cutting Food Costs in 2026
+
+Food cost is the silent enemy of food truck profitability. When ingredient prices rise 5 to 8% per year, every euro saved from your supplier goes straight to your margin. Yet the vast majority of food truck operators accept catalogue prices without negotiating. That's a mistake you can fix starting today.
+
+## Why Food Truckers Don't Negotiate (And Why They're Wrong)
+
+### The "Small Customer" Myth
+
+Many food truckers convince themselves they're too small to negotiate. Wrong. A food truck turning over €8,000 per month in revenue represents roughly €2,500 to €3,000 in monthly food purchases — that's €30,000 to €36,000 a year. That's a meaningful commercial account for a wholesaler or artisan butcher.
+
+### The Lack of Data
+
+Without knowing your exact food cost per recipe and per supplier, you can't negotiate effectively. Negotiation starts with measurement. If you don't know you're buying 120 kg of meat per month from your butcher, you can't argue on volume.
+
+**With FoodTracks**, you can track your consumption by ingredient and recipe. That data is your strongest negotiating card.
+
+## Map Your Suppliers Before Negotiating
+
+### Step 1 — List All Your Current Suppliers
+
+Draw up a table with, for each supplier:
+- Name and type (wholesaler, local producer, cash & carry, supermarket)
+- Product category (meats, vegetables, dry goods, packaging)
+- Average monthly purchase amount
+- Current terms (pricing, payment terms, minimum order)
+- Length of relationship
+
+### Step 2 — Identify Your Levers by Supplier
+
+Each supplier has their own motivations:
+
+| Supplier type | What they want | Your lever |
+|---|---|---|
+| Food wholesaler | Regular volume, fast payment | Monthly volume commitment |
+| Artisan butcher | Regularity, loyalty | Fixed weekly orders |
+| Local producer | Visibility, stable outlet | Social media mentions, guaranteed volume |
+| Cash & carry | Volume, frequency | Pro card, consolidated purchasing |
+
+### Step 3 — Rank by Savings Potential
+
+Focus your efforts on the 3–4 suppliers that account for 70–80% of your purchases. A 5% reduction from your main supplier is worth 10 times more than a 10% reduction from a minor one.
+
+## Concrete Negotiation Techniques
+
+### 1. Volume Commitment
+
+This is the most powerful lever. Instead of buying unpredictably, offer a guaranteed monthly volume in exchange for a discount.
+
+**Script:** *"I currently buy around 80 kg of chicken per month from you irregularly. I'm willing to commit to 100 kg per month with a fixed order every Monday morning, if you can offer me [target price]."*
+
+Volume commitments reduce your supplier's risk and processing costs. They can lower their price while maintaining their margin.
+
+### 2. Transparent Competitive Quoting
+
+Get quotes from 2–3 competing suppliers before any negotiation. Present them openly to your current supplier.
+
+**Caution:** This technique works but can damage a trust relationship if overdone. Use it on standardised products (where all suppliers sell the same thing) rather than specific or artisan products.
+
+### 3. Fast Payment in Exchange for Discount
+
+Payment delays cost suppliers money (tied-up cash, bad debt risk). Offer to pay within 8–10 days maximum, or even cash on delivery, in exchange for a 1.5–3% discount.
+
+On €30,000 in annual purchases, a 2% discount means €600 — the equivalent of a free tank of gas every month.
+
+### 4. Order Consolidation
+
+Instead of placing 4 small orders per week, consolidate into 1–2 larger orders. This reduces your supplier's delivery costs and justifies preferential pricing.
+
+Bonus: you also reduce your own admin burden and the number of delivery slots to manage in your schedule.
+
+### 5. Partnership Agreements with Local Producers
+
+Local producers (market gardeners, farmers, artisans) are often more flexible than wholesalers on price, in exchange for visibility. Offer them:
+- A systematic mention on your board and menus
+- Instagram posts with their farm geotagged
+- A "showcase" role for their products (your customers discover their production)
+
+This partnership can earn you 10–20% off premium products that you can price higher on your menu.
+
+## Negotiating Beyond the Price
+
+Price isn't the only negotiation ground. These conditions have real financial value:
+
+### Extended Payment Terms
+Moving from 8 to 30 days improves your cash flow without touching the price. On €10,000 in monthly purchases, that's €10,000 of permanent working capital you retain.
+
+### Reduced Minimum Order
+A minimum order that's too high forces you to overstock — waste risk and tied-up cash. Negotiate minimums that match your actual volume.
+
+### Free Delivery
+On regular orders, free delivery is easily obtained. Value it: at €15 per delivery, 3 deliveries per week = €2,340 per year.
+
+### Right-Sized Packaging
+A whole chicken costs less per kilo than a cut-up one. But if you pay staff or lose time butchering, the real cost is higher. Negotiate packaging that exactly matches your use.
+
+## Mistakes to Avoid
+
+### Negotiating Without Data
+"I think we buy a lot from you" isn't an argument. Come with precise figures: monthly volumes, annual amounts, order frequency.
+
+### Threatening to Leave Without Meaning It
+If you announce you'll switch suppliers, be ready to do it. An empty threat destroys your credibility for all future negotiations.
+
+### Negotiating During Rush Periods
+Don't start a negotiation when you urgently need stock or when the supplier is in peak season. Negotiate during quiet periods, when both sides have time.
+
+### Ignoring Quality
+A 10% saving on raw materials that leads to a perceived quality drop can cost you 20% of your customers. Quality is non-negotiable — negotiate price at constant quality.
+
+## Building Lasting Supplier Relationships
+
+The best negotiation is one you don't have to redo every year. Build solid partnerships by:
+
+- **Always paying on the agreed terms** — a reputation as a reliable payer is a commercial asset
+- **Giving advance notice of volume changes** (slow season, exceptional event)
+- **Recommending your supplier** to other food truckers (a satisfied supplier gives you better prices)
+- **Providing quality feedback** — it shows you're a serious, engaged customer
+
+## Calculating the Impact of Your Negotiations
+
+Before any negotiation, calculate your savings target:
+
+**Formula:**
+\`\`\`
+Target annual saving = Monthly purchase × 12 × target discount %
+\`\`\`
+
+**Example:** €2,500/month × 12 × 5% = **€1,500 in annual savings**
+
+On a food truck with 30% fixed costs, that €1,500 falls almost entirely to net margin. At a business valuation of 2× profit, that's €3,000 of value created.
+
+**With FoodTracks**, track your food cost in real time after each negotiation to measure the real impact on your margins — and identify new optimisation levers.
+
+## Conclusion
+
+Negotiating with suppliers isn't about power — it's about professionalism and preparation. A food trucker who knows their volumes, comes with data and offers value to suppliers (regularity, fast payment, visibility) can cut food costs by 5 to 15% without changing products.
+
+A 5% reduction in food cost on a monthly revenue of €8,000 is €120 extra margin per month — €1,440 per year that goes directly to your bottom line.
+
+**Start by measuring your purchases with FoodTracks, then negotiate with concrete data.**
+
+[Track my food costs with FoodTracks →](/en/pricing)
+
+**Further reading:** [Optimise Your Food Truck Margins](/en/blog/optimiser-marges-food-truck-analyse-donnees) · [Reduce Food Waste](/en/blog/reduire-gaspillage-alimentaire-food-truck) · [Calculate Your Recipe Cost Price](/en/blog/calculer-cout-revient-recette-food-truck)`,
+    },
+    faqItems: [
+      {
+        question: {
+          fr: "À partir de quel volume d'achats peut-on vraiment négocier avec un fournisseur ?",
+          en: "From what purchase volume can you realistically negotiate with a supplier?",
+        },
+        answer: {
+          fr: "Dès 500 € par mois chez un même fournisseur, vous avez un levier de négociation. À partir de 1 500 €/mois, vous êtes un client suffisamment important pour obtenir des conditions préférentielles significatives (remise sur volume, livraison gratuite, délai de paiement allongé). L'essentiel n'est pas la taille absolue de votre compte, mais votre régularité et votre sérieux.",
+          en: "From €500 per month with the same supplier, you have a negotiating lever. From €1,500/month, you're an important enough customer to secure significant preferential terms (volume discount, free delivery, extended payment terms). What matters most isn't the absolute size of your account, but your regularity and reliability.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment aborder la première négociation avec un fournisseur sans abîmer la relation ?",
+          en: "How do you approach a first negotiation with a supplier without damaging the relationship?",
+        },
+        answer: {
+          fr: "Présentez la négociation comme une démarche de partenariat à long terme, pas comme une confrontation. Commencez par valoriser la relation actuelle, présentez vos données de volume, puis proposez un engagement accru en échange de meilleures conditions. Évitez les ultimatums. Un fournisseur qui se sent respecté est bien plus enclin à vous faire un geste qu'un fournisseur qui se sent menacé.",
+          en: "Frame the negotiation as a long-term partnership move, not a confrontation. Start by acknowledging the current relationship, present your volume data, then propose increased commitment in exchange for better terms. Avoid ultimatums. A supplier who feels respected is far more likely to make concessions than one who feels threatened.",
+        },
+      },
+      {
+        question: {
+          fr: "Vaut-il mieux concentrer ses achats chez un seul fournisseur ou diversifier ?",
+          en: "Is it better to concentrate purchases with one supplier or diversify?",
+        },
+        answer: {
+          fr: "Les deux approches ont des avantages. La concentration maximise votre levier de négociation (vous êtes un gros client) et simplifie la logistique. La diversification réduit le risque de rupture et vous donne des arguments de mise en concurrence. La stratégie optimale pour un food truck : 1-2 fournisseurs principaux par catégorie (pour le volume et le levier) + 1 fournisseur de secours identifié mais inactif (pour la sécurité d'approvisionnement).",
+          en: "Both approaches have merits. Concentration maximises your negotiating leverage (you're a big customer) and simplifies logistics. Diversification reduces supply disruption risk and gives you competitive quoting arguments. The optimal strategy for a food truck: 1–2 main suppliers per category (for volume and leverage) + 1 identified but inactive backup supplier (for supply security).",
+        },
+      },
+    ],
+    relatedSlugs: [
+      "optimiser-marges-food-truck-analyse-donnees",
+      "reduire-gaspillage-alimentaire-food-truck",
+      "calculer-cout-revient-recette-food-truck",
+      "comptabilite-food-truck-guide",
+    ],
+  },
+  {
+    slug: "food-truck-evenementiel-mariage-entreprise",
+    title: {
+      fr: "Food truck pour mariage et événements d'entreprise : comment se lancer et décrocher des contrats",
+      en: "Food Truck Wedding & Corporate Events: How to Launch and Land Contracts",
+    },
+    excerpt: {
+      fr: "Le marché du food truck événementiel explose : mariages, séminaires, team buildings… Découvrez comment positionner votre camion, fixer vos tarifs et prospecter efficacement pour décrocher des contrats récurrents.",
+      en: "The event food truck market is booming: weddings, seminars, team buildings… Learn how to position your truck, set your rates, and prospect effectively to land recurring contracts.",
+    },
+    category: { fr: "Développement", en: "Growth" },
+    date: "2026-05-19",
+    readTime: 11,
+    keywords: [
+      "food truck mariage",
+      "food truck événementiel",
+      "food truck entreprise",
+      "food truck wedding catering",
+      "contrat food truck événement",
+      "tarif food truck mariage",
+      "food truck séminaire",
+    ],
+    heroImage: "/blog/food-truck-evenementiel.png",
+    content: {
+      fr: `## Food truck mariage : pourquoi c'est une opportunité à saisir maintenant
+
+Le marché du **food truck mariage** en France connaît une croissance de 30 % par an depuis 2022. Les couples cherchent une alternative conviviale et mémorable au traiteur classique — et les entreprises suivent la même logique pour leurs événements internes. Résultat : un food trucker bien positionné peut générer **30 à 50 % de son chiffre d'affaires annuel** via l'événementiel, avec des marges souvent supérieures à ses services quotidiens.
+
+Voici pourquoi ce segment est structurellement avantageux :
+- **Ticket moyen élevé** : entre 1 500 € et 8 000 € par événement selon le format
+- **Planification à l'avance** : vous êtes réservé 6 à 18 mois avant la date, ce qui facilite les achats et réduit le gaspillage
+- **Moins de concurrence** : les food truckers positionnés "événementiel" restent minoritaires
+- **Fidélisation naturelle** : un mariage réussi génère des recommandations pendant des années
+
+## Comprendre les deux marchés : mariage vs. entreprise
+
+### Le food truck mariage
+
+Le marché du mariage est émotionnel : les futurs mariés cherchent une expérience unique et personnalisée. Votre avantage concurrentiel, c'est le **côté convivial et instagrammable** que le traiteur classique ne peut pas offrir.
+
+Ce que les couples veulent :
+- Un concept culinaire fort (burger gastronomique, tacos fusion, cuisine du monde)
+- Une identité visuelle soignée du camion (décorations florale, signalétique personnalisée)
+- Un **menu dédié** adapté aux goûts des mariés et aux contraintes alimentaires des invités
+- La capacité à gérer 80 à 200 convives avec fluidité
+
+**Prix de référence :** Comptez entre **25 et 60 € par personne** selon la formule (cocktail dinatoire, dîner complet, brunch du lendemain). Un mariage de 100 personnes à 40 € représente 4 000 €.
+
+### Le food truck entreprise
+
+Le marché B2B est plus rationnel mais tout aussi lucratif. Les entreprises font appel à des food trucks pour :
+- **Team buildings et séminaires** : repas en extérieur, animation culinaire
+- **Inaugurations et afterworks** : alternative décontractée à la salle de restaurant
+- **Food court d'entreprise** : présence hebdomadaire sur site en RIE (Restaurant Inter-Entreprises)
+- **Journées portes ouvertes et salons** : restauration pour visiteurs et équipes
+
+**Prix de référence :** De 800 € pour un afterwork de 50 personnes à 5 000 € pour un séminaire de 150 avec prestation complète. Les contrats récurrents (1 jour/semaine sur site entreprise) peuvent représenter **2 000 à 4 000 €/mois** de revenus stables.
+
+## Checklist logistique : ce qu'il faut anticiper avant d'accepter un contrat
+
+L'événementiel ne s'improvise pas. Avant de signer, vérifiez systématiquement ces points :
+
+**Lieu et accès**
+- Dimensions de l'accès (portail, hauteur sous plafond si en intérieur)
+- Surface de stationnement disponible (votre camion + zone de service)
+- Distance du point d'eau et d'électricité (groupe électrogène nécessaire ?)
+- Autorisation préfectorale ou municipale pour stationner sur le lieu
+
+**Logistique opérationnelle**
+- Nombre exact de convives et fourchette de service (cocktail 2h vs. repas assis 4h)
+- Régimes alimentaires : végétarien, halal, sans gluten, allergènes à gérer
+- Plan de service : cocktail dinatoire debout, buffet, ou service à table ?
+- Personnel requis : 1 camion peut gérer 80 à 100 couverts, au-delà il faut un second équipier
+
+**Aspects contractuels**
+- Acompte de 30 à 50 % à la signature (protège contre les annulations)
+- Clause annulation : 100 % si annulation à moins de 30 jours
+- Assurance responsabilité civile événementielle (vérifiez que votre RC Pro couvre)
+- Facturation en TTC avec mention TVA (restauration = 10 %)
+
+**Anticipation des stocks**
+Pour l'événementiel, les surplus non vendus restent à votre charge. Calculez vos commandes avec précision : une erreur de 20 % sur 200 portions représente 40 portions gaspillées. Un outil de gestion comme FoodTracks vous permet de créer des fiches de production dédiées à chaque événement, avec les quantités exactes par portion et les coûts matière calculés automatiquement.
+
+## Comment fixer vos tarifs : la méthode pas à pas
+
+Beaucoup de food truckers bradent leurs prix sur les événements par manque de visibilité sur leurs coûts. Voici la méthode rigoureuse :
+
+### Étape 1 : calculer votre coût de revient
+
+Pour chaque menu événementiel, calculez :
+- **Coût matière** : ingrédients par assiette (objectif : 28-35 % du prix de vente)
+- **Coût main-d'œuvre** : votre temps + éventuels extras (compter 25-35 €/h)
+- **Coût transport** : carburant + usure camion (10-15 cts/km)
+- **Coût matériel** : vaisselle, déco, consommables spécifiques
+- **Charges fixes allouées** : assurance, leasing, frais divers
+
+### Étape 2 : appliquer votre marge
+
+Sur l'événementiel, visez une **marge brute de 60 à 70 %** (vs. 50-55 % en service quotidien). Vous le méritez : vous assumez le risque de sur-stockage, les heures de prep supplémentaires et le déplacement.
+
+### Exemple concret : mariage 100 personnes, menu burger premium
+
+| Poste | Coût |
+|-------|------|
+| Matières premières (12 €/pers.) | 1 200 € |
+| Main-d'œuvre (8h × 2 pers. × 30 €) | 480 € |
+| Transport + groupe électrogène | 150 € |
+| Déco + consommables | 100 € |
+| **Total coûts** | **1 930 €** |
+| **Prix proposé (40 €/pers. × 100)** | **4 000 €** |
+| **Marge brute** | **51,8 %** |
+
+Avec ce niveau de prix, vous êtes compétitif par rapport à un traiteur classique (50-80 €/pers.) tout en assurant une marge confortable.
+
+### Les erreurs de tarification à éviter
+
+- **Oublier le temps de préparation** : un événement de 3h mobilise souvent 6-8h de votre temps (prep, route, service, nettoyage)
+- **Ne pas facturer les déplacements** : au-delà de 30 km, facturez un forfait déplacement (150-300 €)
+- **Sous-estimer les impondérables** : prévoyez toujours une marge de sécurité de 10 % sur vos coûts estimés
+
+## Comment prospecter des clients événementiels
+
+### Les mariages : les bons canaux
+
+**Les salons du mariage** sont incontournables. Un stand à 500-800 € peut vous rapporter 15 à 25 contacts qualifiés par édition. Venez avec des visuels de qualité, un book photo et si possible, une démonstration culinaire.
+
+**Les wedding planners et coordinateurs de mariage** sont vos prescripteurs clés. Un seul coordinateur actif peut vous recommander 5 à 15 mariages par an. Approche recommandée :
+1. Identifier les wedding planners de votre région sur Instagram et Google
+2. Proposer une dégustation gratuite (30 min, 5-6 personnes)
+3. Construire une relation de confiance sur 2-3 échanges avant de parler business
+4. Offrir une commission de 5 à 10 % sur les contrats apportés (pratique courante)
+
+**Les domaines et salles de réception** ont souvent une liste de prestataires recommandés. Contactez-les directement et proposez-vous pour la liste. Beaucoup acceptent en échange d'une journée test ou d'un accord de non-concurrence.
+
+### Les entreprises : approche B2B
+
+**LinkedIn** est votre premier outil. Cherchez les "Office Managers", "Responsables RH" et "Chargés d'événements" dans les entreprises de 50 à 500 salariés de votre zone. Un message personnalisé de 3 lignes + votre book photo convertit mieux qu'un long argumentaire.
+
+**La prospection directe sur zone** fonctionne bien : repérez les zones d'entreprises et les parcs d'activités proches de vos emplacements habituels. Une visite physique avec un flyer et quelques échantillons a un taux de transformation bien supérieur à un email.
+
+**Les plateformes événementielles** comme Eventbrite, Weezevent, ou les annuaires de traiteurs (La Belle Assiette, Cuisine & Vous) peuvent générer des leads entrants. Créez un profil soigné avec photos professionnelles.
+
+### Votre kit de prospection minimum
+
+- **Book photo** : 10-15 photos professionnelles de votre camion en contexte événementiel
+- **Fiche prestataire** : 1 page A4 avec vos formules, tarifs indicatifs et contacts
+- **Témoignages clients** : 2-3 avis de mariés ou responsables d'événements (Google, texte)
+- **Profil Instagram soigné** : stories et posts réguliers avec les événements réalisés
+
+## Fidéliser et construire une réputation événementielle
+
+Un seul mariage réussi peut déclencher 3 à 5 nouvelles demandes via le bouche-à-oreille. Pour maximiser cet effet :
+
+- **Demandez systématiquement un avis Google** à chaque client événementiel
+- **Taguez les lieux de réception** sur Instagram pour être visible de leurs futurs clients
+- **Envoyez une note de remerciement** aux mariés ou organisateurs dans les 48h
+- **Documentez chaque événement** avec photos et données : nombre de couverts, menu, retours clients
+
+Pour les contrats entreprise récurrents, une revue trimestrielle avec votre contact RH montre votre professionnalisme et anticipe le renouvellement. C'est aussi l'occasion de proposer de nouvelles formules ou d'augmenter légèrement vos prix.
+
+## Conclusion : l'événementiel, un levier de croissance à activer dès maintenant
+
+Le **food truck mariage** et l'événementiel entreprise ne sont pas des marchés de niche réservés aux grands opérateurs. Avec la bonne préparation, une offre claire et une prospection régulière, n'importe quel food trucker peut construire en 12 à 18 mois un portefeuille de clients événementiels qui stabilise et fait croître son activité.
+
+Commencez par un ou deux événements tests (mariage d'un proche, afterwork d'une entreprise connue), documentez tout, affinez votre offre — puis industrialisez la prospection. C'est exactement la trajectoire des food truckers événementiels qui atteignent 100 000 € de CA annuel.`,
+      en: `## Food Truck Wedding Catering: Why This Is an Opportunity You Can't Ignore
+
+The **food truck wedding catering** market in Europe is growing 30% year-on-year since 2022. Couples are looking for a convivial, memorable alternative to the traditional caterer — and companies follow the same logic for their internal events. The result: a well-positioned food truck operator can generate **30 to 50% of their annual revenue** from events, often at higher margins than regular daily service.
+
+Here's why this segment is structurally attractive:
+- **High average ticket**: between €1,500 and €8,000 per event depending on the format
+- **Advance planning**: you're booked 6 to 18 months ahead, which makes purchasing easier and reduces waste
+- **Less competition**: food truckers positioned as "event specialists" remain a minority
+- **Natural referrals**: a successful wedding generates recommendations for years
+
+## Understanding the Two Markets: Weddings vs. Corporate
+
+### Food Truck Wedding Catering
+
+The wedding market is emotional: couples want a unique, personalised experience. Your competitive edge is the **convivial and Instagram-worthy factor** that a traditional caterer simply can't match.
+
+What couples want:
+- A strong culinary concept (gourmet burgers, fusion tacos, world cuisine)
+- A polished visual identity for the truck (floral decorations, custom signage)
+- A **dedicated menu** tailored to the couple's tastes and guests' dietary needs
+- The ability to handle 80 to 200 guests smoothly
+
+**Reference pricing:** Expect **€25 to €60 per person** depending on the format (cocktail dinner, full sit-down meal, morning-after brunch). A 100-person wedding at €40/head means €4,000.
+
+### Corporate Food Truck Events
+
+The B2B market is more rational but equally lucrative. Companies use food trucks for:
+- **Team buildings and seminars**: outdoor meals, culinary entertainment
+- **Openings and after-work events**: relaxed alternative to a restaurant booking
+- **Company food courts**: regular weekly presence on-site
+- **Open days and trade shows**: catering for visitors and staff
+
+**Reference pricing:** From €800 for a 50-person after-work event to €5,000 for a 150-person full-day seminar. Recurring contracts (one day/week on a corporate campus) can represent **€2,000–€4,000/month** in stable revenue.
+
+## Logistics Checklist: What to Verify Before Signing a Contract
+
+Events don't improvise themselves. Before signing, always check these points:
+
+**Venue and access**
+- Access dimensions (gate width, ceiling height if indoor)
+- Available parking surface (your truck + service area)
+- Distance to water and power (generator needed?)
+- Municipal or venue permit to park and operate on site
+
+**Operational logistics**
+- Exact headcount and service window (2-hour cocktail vs. 4-hour sit-down meal)
+- Dietary requirements: vegetarian, halal, gluten-free, allergens to manage
+- Service format: standing cocktail, buffet, or table service?
+- Staffing: 1 truck can handle 80–100 covers; above that, a second crew member is required
+
+**Contractual points**
+- 30–50% deposit on signing (protects against cancellations)
+- Cancellation clause: 100% fee if cancelled within 30 days
+- Professional liability insurance covering event catering (verify your policy)
+- VAT-compliant invoicing (catering VAT rate varies by country; typically 10%)
+
+**Stock anticipation**
+For events, unsold surplus stays at your cost. Calculate orders precisely: a 20% error on 200 portions means 40 wasted servings. A management tool like FoodTracks lets you create production sheets for each event, with exact quantities per portion and food cost calculated automatically.
+
+## How to Set Your Rates: A Step-by-Step Method
+
+Many food truck operators underprice their event work because they lack visibility into true costs. Here's the rigorous approach:
+
+### Step 1: Calculate your cost of goods
+
+For each event menu, calculate:
+- **Food cost**: ingredients per plate (target: 28–35% of selling price)
+- **Labour cost**: your time + any extra staff (budget €25–35/hour)
+- **Transport cost**: fuel + truck wear (€0.10–0.15/km)
+- **Equipment cost**: tableware, decorations, specific consumables
+- **Allocated fixed costs**: insurance, leasing, miscellaneous
+
+### Step 2: Apply your margin
+
+For events, aim for a **gross margin of 60–70%** (vs. 50–55% in daily service). You earn it: you take on over-stocking risk, extra prep hours, and travel.
+
+### Practical example: 100-person wedding, premium burger menu
+
+| Line item | Cost |
+|-----------|------|
+| Ingredients (€12/person) | €1,200 |
+| Labour (8h × 2 people × €30) | €480 |
+| Transport + generator | €150 |
+| Decorations + consumables | €100 |
+| **Total costs** | **€1,930** |
+| **Quoted price (€40/person × 100)** | **€4,000** |
+| **Gross margin** | **51.8%** |
+
+At this price point, you're competitive with a traditional caterer (€50–80/person) while securing a comfortable margin.
+
+### Pricing mistakes to avoid
+
+- **Forgetting prep time**: a 3-hour event often ties up 6–8 hours of your day (prep, travel, service, clean-up)
+- **Not charging for distance**: beyond 30 km, add a travel surcharge (€150–300)
+- **Underestimating contingencies**: always build a 10% safety buffer into your cost estimates
+
+## How to Prospect for Event Clients
+
+### Weddings: The Right Channels
+
+**Wedding fairs** are non-negotiable. A stand at €500–800 can generate 15 to 25 qualified contacts per edition. Come with quality visuals, a photo book, and if possible, a live culinary demo.
+
+**Wedding planners and coordinators** are your key referrers. A single active coordinator can send you 5 to 15 weddings per year. Recommended approach:
+1. Identify wedding planners in your region via Instagram and Google
+2. Offer a free tasting (30 minutes, 5–6 people)
+3. Build a trust relationship over 2–3 exchanges before talking business
+4. Offer a 5–10% referral commission on contracts they bring (standard practice)
+
+**Venues and reception halls** often maintain a recommended supplier list. Contact them directly and ask to be added. Many agree in exchange for a test day or a non-compete arrangement.
+
+### Corporate Events: B2B Approach
+
+**LinkedIn** is your primary tool. Search for "Office Managers", "HR Managers", and "Event Coordinators" at companies with 50 to 500 employees in your area. A personalised 3-line message + your photo book converts far better than a long pitch.
+
+**Direct canvassing in business zones** works well: scout business parks and industrial estates near your usual locations. A physical visit with a flyer and a few samples has a conversion rate far above email.
+
+**Event platforms** like Eventbrite or catering directories can generate inbound leads. Build a polished profile with professional photos.
+
+### Your Minimum Prospecting Kit
+
+- **Photo book**: 10–15 professional photos of your truck in event settings
+- **Vendor sheet**: a one-pager with your packages, indicative rates, and contact details
+- **Client testimonials**: 2–3 reviews from couples or event managers (Google, written)
+- **Polished Instagram profile**: regular stories and posts featuring completed events
+
+## Building Your Event Reputation
+
+One successful wedding can trigger 3 to 5 new enquiries through word of mouth. To maximise this:
+
+- **Systematically ask for a Google review** from every event client
+- **Tag venues** on Instagram to be visible to their future clients
+- **Send a thank-you note** to the couple or organiser within 48 hours
+- **Document every event**: photos, headcount, menu, client feedback
+
+For recurring corporate contracts, a quarterly check-in with your HR contact signals professionalism and pre-empts renewal conversations. It's also the right moment to propose new packages or a modest price increase.
+
+## Conclusion: Events — a Growth Lever to Activate Now
+
+**Food truck wedding catering** and corporate events are not niche markets reserved for large operators. With proper preparation, a clear offer, and consistent prospecting, any food truck operator can build — within 12 to 18 months — an event client portfolio that stabilises and grows their business.
+
+Start with one or two test events (a friend's wedding, a known company's after-work), document everything, refine your offer — then scale prospecting. That's exactly the trajectory of event-focused food truckers who reach €100,000+ in annual revenue.`,
+    },
+    keyTakeaways: {
+      fr: [
+        "Le food truck événementiel représente 30 à 50 % du CA annuel des opérateurs bien positionnés",
+        "Tarif mariage : 25-60 €/personne selon la formule ; un mariage 100 pers. = 2 500-6 000 €",
+        "Visez une marge brute de 60-70 % sur les événements vs. 50-55 % en service quotidien",
+        "Les wedding planners sont les prescripteurs clés : une relation de confiance vaut 5-15 mariages/an",
+        "Toujours exiger un acompte de 30-50 % à la signature pour se protéger des annulations",
+      ],
+      en: [
+        "Events can represent 30–50% of annual revenue for well-positioned food truck operators",
+        "Wedding pricing: €25–60/person depending on format; a 100-person wedding = €2,500–€6,000",
+        "Target 60–70% gross margin on events vs. 50–55% on daily service",
+        "Wedding planners are key referrers: one trusted relationship can mean 5–15 weddings per year",
+        "Always require a 30–50% deposit on signing to protect against cancellations",
+      ],
+    },
+    faqItems: [
+      {
+        question: {
+          fr: "Combien coûte un food truck pour un mariage ?",
+          en: "How much does a food truck cost for a wedding?",
+        },
+        answer: {
+          fr: "Le tarif d'un food truck pour un mariage varie entre 1 500 et 8 000 € selon le nombre de convives, la formule choisie (cocktail, dîner, brunch) et l'éloignement du lieu. Comptez 25 à 60 € par personne en moyenne.",
+          en: "The cost of a food truck for a wedding ranges from €1,500 to €8,000 depending on guest count, format (cocktail, dinner, brunch), and travel distance. Expect €25 to €60 per person on average.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment décrocher des contrats food truck entreprise ?",
+          en: "How do you land corporate food truck contracts?",
+        },
+        answer: {
+          fr: "Prospectez sur LinkedIn les Office Managers et Responsables RH d'entreprises de 50-500 salariés, faites du porte-à-porte dans les zones d'activités proches de vos emplacements, et proposez une dégustation gratuite. Les contrats récurrents (1 jour/semaine sur site) génèrent 2 000-4 000 €/mois stables.",
+          en: "Prospect on LinkedIn for Office Managers and HR Managers at companies with 50–500 employees, do direct canvassing in nearby business parks, and offer a free tasting. Recurring on-site contracts (one day/week) generate €2,000–€4,000/month in stable revenue.",
+        },
+      },
+      {
+        question: {
+          fr: "Quelle assurance faut-il pour faire des événements en food truck ?",
+          en: "What insurance is required for food truck events?",
+        },
+        answer: {
+          fr: "Votre RC Professionnelle doit couvrir les événements privés et les surfaces que vous n'exploitez pas habituellement. Vérifiez avec votre assureur que le contrat inclut bien la prestation événementielle. Certains assureurs proposent des extensions spécifiques pour les mariages et les séminaires.",
+          en: "Your professional liability insurance must cover private events and venues outside your usual locations. Check with your insurer that the policy includes event catering. Some insurers offer specific extensions for weddings and seminars.",
+        },
+      },
+      {
+        question: {
+          fr: "Combien de personnes peut servir un food truck en événement ?",
+          en: "How many guests can a food truck serve at an event?",
+        },
+        answer: {
+          fr: "Un food truck avec un équipage de deux personnes peut gérer confortablement 80 à 100 couverts sur un service de 2-3h. Pour des événements de 150 personnes et plus, prévoyez un second équipier ou un stand de dressage extérieur pour fluidifier le service.",
+          en: "A food truck with a two-person crew can comfortably handle 80 to 100 covers over a 2–3 hour service. For events of 150 guests or more, plan for a third team member or an external plating station to keep service flowing.",
+        },
+      },
+      {
+        question: {
+          fr: "Faut-il un menu spécifique pour les événements ou peut-on utiliser sa carte habituelle ?",
+          en: "Do you need a specific event menu or can you use your regular menu?",
+        },
+        answer: {
+          fr: "Il est fortement recommandé de créer une offre événementielle dédiée, différente de votre carte quotidienne. Un menu événementiel simplifié (2-3 plats maximum, bien exécutés en grande quantité) réduit vos coûts de production et limite les erreurs de service sous pression.",
+          en: "It is strongly recommended to create a dedicated event offer, separate from your daily menu. A simplified event menu (2–3 dishes maximum, well executed in large quantities) reduces production costs and limits service errors under pressure.",
+        },
+      },
+    ],
+    relatedSlugs: [
+      "contrats-entreprises-food-truck",
+      "calcul-prix-vente-food-truck",
+      "business-plan-food-truck",
+      "menu-food-truck-rentable",
+    ],
+  },
 ];
 
 export const blogArticles: BlogArticle[] = [...baseBlogArticles, ...verticalArticles];
