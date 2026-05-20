@@ -34443,6 +34443,423 @@ Start with one or two test events (a friend's wedding, a known company's after-w
       "menu-food-truck-rentable",
     ],
   },
+  {
+    slug: "statut-juridique-food-truck",
+    title: {
+      fr: "Statut juridique pour food truck : auto-entrepreneur, SARL ou SAS — que choisir en 2026",
+      en: "Legal Structure for Food Trucks: Sole Trader, LLC or SAS — What to Choose in 2026",
+    },
+    excerpt: {
+      fr: "Auto-entrepreneur, SARL, SAS ou EI ? Le bon statut juridique peut vous faire économiser des milliers d'euros. Comparatif complet pour choisir la structure adaptée à votre food truck.",
+      en: "Sole trader, LLC or SAS? The right legal structure can save you thousands. A complete comparison to choose the best fit for your food truck business.",
+    },
+    category: { fr: "Gestion", en: "Management" },
+    date: "2026-05-20",
+    readTime: 11,
+    keywords: [
+      "statut juridique food truck",
+      "auto-entrepreneur food truck",
+      "SARL food truck",
+      "SAS food truck",
+      "statut food truck France",
+      "forme juridique food truck",
+    ],
+    heroImage: "/blog/statut-juridique.png",
+    content: {
+      fr: `# Statut juridique pour food truck : auto-entrepreneur, SARL ou SAS — que choisir en 2026
+
+Ouvrir un food truck, c'est d'abord créer une entreprise. Et avant d'acheter votre camion ou de concevoir votre menu, une décision fondamentale vous attend : **quel statut juridique choisir ?**
+
+Ce choix conditionne votre fiscalité, votre protection sociale, votre responsabilité patrimoniale et votre capacité à grandir. Pourtant, beaucoup d'exploitants se lancent sans y réfléchir, puis se retrouvent bloqués ou surpayent des cotisations inutiles pendant des années.
+
+Ce guide compare les quatre options les plus courantes en France pour un food truck — et vous aide à faire le bon choix dès le départ.
+
+---
+
+## Les quatre statuts principaux pour un food truck
+
+### 1. Auto-entrepreneur (micro-entreprise)
+
+Le régime micro-entrepreneur est le plus simple à créer : immatriculation en ligne en 24h, comptabilité ultra-allégée, cotisations proportionnelles au CA.
+
+**Plafond de CA 2026** : 188 700 € pour les activités de vente de marchandises. Attention : si vous cuisinez sur place (transformation), vous relevez des **prestations de services** (plafond 77 700 €). Un food truck avec service chaud est souvent classé "prestation de services" par l'Urssaf.
+
+**Taux de cotisations** :
+- Marchandises : 12,3 % du CA
+- Prestations de services : 21,2 % du CA
+
+**Avantages** :
+- Zéro charge si zéro CA
+- Gestion administrative minimale
+- Idéal pour tester son concept avant de se lancer pleinement
+
+**Inconvénients** :
+- Plafond de CA limitant
+- Pas de récupération de TVA sur vos achats (franchise de base TVA sous 36 800 €)
+- Responsabilité personnelle illimitée (sauf EIRL/EI — voir ci-dessous)
+- Difficile d'embaucher et de développer une structure
+
+**Idéal pour** : les débuts, les tests de concept, un second food truck géré en parallèle d'un emploi salarié.
+
+---
+
+### 2. Entreprise Individuelle (EI)
+
+Depuis 2022, l'EI classique dispose d'une **protection du patrimoine personnel** de droit : vos biens personnels sont automatiquement protégés des créanciers professionnels, sans formalité supplémentaire.
+
+L'EI peut opter pour l'impôt sur les sociétés (IS) depuis 2022, ce qui ouvre des possibilités fiscales intéressantes.
+
+**Régime fiscal par défaut** : impôt sur le revenu (IR) — vous êtes imposé sur le bénéfice net comme si c'était votre revenu personnel.
+
+**Cotisations sociales** : calculées sur le bénéfice réel (pas le CA), ce qui avantage les exploitants dont les charges sont élevées.
+
+**Avantages** :
+- Simplicité de gestion
+- Protection du patrimoine personnel incluse
+- Bascule possible à l'IS sans changer de forme juridique
+
+**Inconvénients** :
+- Pas de séparation nette entre vous et l'entreprise (un seul bilan)
+- Moins crédible auprès des banques pour des financements importants
+
+**Idéal pour** : un food truck seul exploitant, CA entre 80 000 et 200 000 €/an.
+
+---
+
+### 3. SARL (Société à Responsabilité Limitée)
+
+La SARL crée une **entité juridique distincte** de votre personne. Votre responsabilité est limitée à vos apports (sauf fautes de gestion avérées).
+
+**Capital social** : librement fixé, souvent 1 € à 10 000 € pour un food truck.
+
+**Régime fiscal** : IS par défaut (taux réduit 15 % jusqu'à 42 500 € de bénéfice, puis 25 %). Option IR possible pendant 5 ans.
+
+**Statut du gérant majoritaire** : affilié à la Sécurité Sociale des Indépendants (SSI), cotisations sur rémunération + dividendes.
+
+**Avantages** :
+- Séparation patrimoine personnel / professionnel
+- Crédibilité bancaire et fournisseurs
+- Adapté aux associés (conjoint, famille)
+- IS avantageux dès que les bénéfices dépassent 40 000 €/an
+
+**Inconvénients** :
+- Comptabilité obligatoire (expert-comptable conseillé, ~2 000-4 000 €/an)
+- Formalisme juridique (AG annuelle, dépôt des comptes)
+- Gérant majoritaire = protection sociale moins favorable qu'un salarié
+
+**Idéal pour** : CA > 150 000 €/an, projets à deux associés, volonté de développer une flotte.
+
+---
+
+### 4. SAS / SASU (Société par Actions Simplifiée)
+
+La SAS est la forme la plus flexible et la plus prisée des créateurs. La SASU est sa version unipersonnelle (un seul associé).
+
+**Régime fiscal** : IS (même taux que la SARL).
+
+**Statut du président** : **assimilé salarié** — affilié au régime général, cotisations plus élevées (≈ 80 % du salaire net), mais meilleure protection sociale (retraite, chômage sous conditions, arrêt maladie).
+
+**Avantages** :
+- Statut social du président = régime général (meilleure retraite)
+- Très flexible sur la gouvernance et l'entrée d'investisseurs
+- Levée de fonds facilitée si vous visez une expansion multi-camions
+- Pas de plafond de CA
+
+**Inconvénients** :
+- Charges sociales plus élevées sur la rémunération du dirigeant
+- Comptabilité et formalisme obligatoires
+- Plus coûteux à gérer qu'une EI ou micro
+
+**Idéal pour** : projets ambitieux (2+ camions, franchises, investisseurs), food truck générant > 200 000 €/an de CA.
+
+---
+
+## Comparatif synthétique
+
+| Critère | Auto-entrepreneur | EI | SARL | SAS/SASU |
+|---|---|---|---|---|
+| Plafond CA | 77 700 / 188 700 € | Illimité | Illimité | Illimité |
+| Création | 24h en ligne | 24h en ligne | 1-2 semaines | 1-2 semaines |
+| Comptabilité | Ultra-simplifiée | Simplifiée | Complète | Complète |
+| Récupération TVA | Non (sous seuil) | Oui | Oui | Oui |
+| Protection patrimoine | Non (sauf EI) | Oui | Oui | Oui |
+| Régime social | SSI (micro) | SSI | SSI | Assimilé salarié |
+| Idéal pour | Démarrage / test | Solo 80-200k€ | 2 associés / développement | Croissance / investisseurs |
+
+---
+
+## La question de la TVA : un piège à éviter
+
+Sous le régime micro et en franchise de TVA, vous ne facturez pas la TVA — mais vous ne la récupérez pas non plus sur vos achats (camion, matériel, ingrédients).
+
+Pour un food truck avec un véhicule et du matériel représentant 30 000 à 80 000 € d'investissement, cela représente **6 000 à 16 000 € de TVA non récupérée**. Dès que vos achats sont significatifs, l'assujettissement à la TVA (via EI/SARL/SAS) est souvent plus avantageux.
+
+---
+
+## Comment choisir concrètement ?
+
+**Démarrez en auto-entrepreneur si** : vous testez votre concept, vous êtes encore salarié par ailleurs, ou votre CA prévu est inférieur à 60 000 €/an.
+
+**Passez en EI ou SASU si** : votre CA dépasse 80 000 €, vous investissez dans du matériel, et vous opérez seul.
+
+**Optez pour la SARL si** : vous créez avec un associé (conjoint, partenaire), vous voulez embaucher et vous souhaitez une structure solide sans les coûts d'une SAS.
+
+**Choisissez la SAS si** : vous avez un projet multi-camions, vous envisagez des investisseurs ou vous tenez au régime général pour votre retraite.
+
+---
+
+## Les erreurs courantes à éviter
+
+**Rester trop longtemps en micro-entreprise** : beaucoup d'exploitants atteignent le plafond et continuent à déclarer en micro en sous-déclarant leur CA — ce qui est illégal et peut entraîner un redressement.
+
+**Choisir la SARL sans expert-comptable** : la comptabilité en SARL est obligatoire. Sans professionnel, vous risquez des erreurs de dépôt et des pénalités.
+
+**Confondre statut juridique et régime fiscal** : une EI peut opter pour l'IS depuis 2022. Une SARL peut opter pour l'IR pendant 5 ans. Le statut juridique et le régime fiscal sont deux curseurs indépendants.
+
+**Négliger le régime social** : les cotisations SSI d'un gérant majoritaire de SARL sont calculées sur une base minimale même si vous ne vous versez pas de salaire — ce qui peut surprendre.
+
+---
+
+## Conclusion : le bon statut, c'est celui qui colle à votre projet
+
+Il n'y a pas de statut juridique universel pour un food truck. La bonne structure dépend de **votre CA prévu, de votre situation personnelle, de vos ambitions de croissance et de votre tolérance aux formalités**.
+
+En résumé : commencez simple (micro ou EI), et évoluez quand votre activité le justifie. Un expert-comptable spécialisé en restauration ambulante peut vous accompagner dans ce choix pour quelques centaines d'euros de consultation — un investissement largement rentabilisé sur la durée.`,
+      en: `# Legal Structure for Food Trucks: Sole Trader, LLC or SAS — What to Choose in 2026
+
+Starting a food truck means starting a business. Before you buy your vehicle or design your menu, one foundational decision awaits: **what legal structure should you choose?**
+
+This choice determines your taxation, social protection, personal liability exposure, and capacity to scale. Yet many operators launch without thinking it through, only to find themselves stuck or overpaying unnecessary contributions for years.
+
+This guide compares the four most common options in France for food truck operators — and helps you make the right call from day one.
+
+---
+
+## The Four Main Structures for a Food Truck
+
+### 1. Auto-Entrepreneur (Micro-Enterprise)
+
+The micro-enterprise regime is the simplest to set up: register online in 24 hours, minimal bookkeeping, contributions proportional to revenue.
+
+**2026 Revenue Cap**: €188,700 for goods resellers. If you cook on-site (food transformation), you typically fall under **service provision** (cap: €77,700). Most hot-food food trucks are classified as service providers by social authorities.
+
+**Contribution Rates**:
+- Goods resale: 12.3% of revenue
+- Services: 21.2% of revenue
+
+**Pros**:
+- Zero contributions if zero revenue
+- Minimal admin
+- Great for testing your concept before going all-in
+
+**Cons**:
+- Revenue cap is a ceiling on growth
+- No VAT recovery on purchases below €36,800 threshold
+- Unlimited personal liability (see EI below)
+- Difficult to hire staff or scale operations
+
+**Best for**: early-stage testing, side-hustle food trucks, or operators running a second truck alongside salaried employment.
+
+---
+
+### 2. Individual Enterprise (EI — Entreprise Individuelle)
+
+Since 2022, the standard EI automatically protects your personal assets from professional creditors — no extra paperwork required.
+
+The EI can also elect for corporate tax (IS) since 2022, opening up interesting fiscal planning options.
+
+**Default tax regime**: personal income tax — you're taxed on net profit as personal income.
+
+**Social contributions**: calculated on actual net profit (not revenue), which benefits operators with significant expenses.
+
+**Pros**:
+- Simple management
+- Built-in personal asset protection
+- Can switch to IS without changing legal structure
+
+**Cons**:
+- No clear separation between you and the business (single balance sheet)
+- Less credibility with banks for major financing
+
+**Best for**: solo operators with annual revenue between €80,000 and €200,000.
+
+---
+
+### 3. SARL (Limited Liability Company)
+
+A SARL creates a **separate legal entity** from yourself. Your liability is limited to your capital contribution (barring proven management misconduct).
+
+**Share capital**: freely set — typically €1 to €10,000 for a food truck.
+
+**Tax regime**: corporate tax (IS) by default — reduced rate of 15% up to €42,500 profit, then 25%. Income tax option available for 5 years.
+
+**Majority manager status**: affiliated with the independent workers' social security (SSI), contributions on salary + dividends.
+
+**Pros**:
+- Clean separation of personal and business assets
+- Credibility with banks and suppliers
+- Well-suited for co-founders (spouse, family, partner)
+- IS advantageous once profits exceed ~€40,000/year
+
+**Cons**:
+- Full bookkeeping required (accountant recommended: €2,000–€4,000/year)
+- Legal formalism (annual general meeting, account filings)
+- Majority manager has lower social protection than an employee
+
+**Best for**: revenues above €150,000, two-partner setups, plans to grow a fleet.
+
+---
+
+### 4. SAS / SASU (Simplified Joint Stock Company)
+
+The SAS is the most flexible and most popular structure for entrepreneurs. The SASU is its single-shareholder version.
+
+**Tax regime**: IS (same rates as SARL).
+
+**President status**: **assimilated employee** — affiliated with the general social security regime. Higher contributions (≈80% of net salary), but better social protection (pension, unemployment under conditions, sick leave).
+
+**Pros**:
+- General regime social protection (better pension)
+- Very flexible governance and investor entry
+- Fundraising facilitated for multi-truck expansion
+- No revenue cap
+
+**Cons**:
+- Higher social charges on the director's salary
+- Mandatory bookkeeping and legal formalism
+- More expensive to run than EI or micro
+
+**Best for**: ambitious projects (2+ trucks, franchise), revenue above €200,000, or operators who prioritise pension protection.
+
+---
+
+## Comparative Summary
+
+| Criterion | Micro-Enterprise | EI | SARL | SAS/SASU |
+|---|---|---|---|---|
+| Revenue cap | €77,700 / €188,700 | None | None | None |
+| Setup time | 24h online | 24h online | 1–2 weeks | 1–2 weeks |
+| Bookkeeping | Ultra-simplified | Simplified | Full | Full |
+| VAT recovery | No (below threshold) | Yes | Yes | Yes |
+| Asset protection | No (except EI) | Yes | Yes | Yes |
+| Social regime | SSI (micro) | SSI | SSI | Assimilated employee |
+| Best for | Launch / test | Solo €80–200k | 2 founders / growth | Scale / investors |
+
+---
+
+## The VAT Trap: Don't Leave Money on the Table
+
+Under the micro regime and VAT exemption, you don't charge VAT — but you don't recover it on your purchases either (truck, equipment, ingredients).
+
+For a food truck with a vehicle and equipment representing €30,000–€80,000 of investment, that's **€6,000–€16,000 in unrecovered VAT**. Once your purchases are significant, VAT registration (via EI/SARL/SAS) is typically more advantageous.
+
+---
+
+## How to Choose in Practice
+
+**Start as micro-entrepreneur if**: you're testing your concept, still employed elsewhere, or your projected revenue is below €60,000/year.
+
+**Move to EI or SASU if**: your revenue exceeds €80,000, you're investing in equipment, and you're operating solo.
+
+**Choose SARL if**: you're co-founding with a partner (spouse, associate), want to hire staff, and want a solid structure without SAS overhead.
+
+**Choose SAS if**: you have a multi-truck vision, potential investors, or you want general regime pension coverage.
+
+---
+
+## Common Mistakes to Avoid
+
+**Staying in micro too long**: many operators hit the cap and continue under-reporting revenue — this is illegal and can trigger a tax audit.
+
+**Running a SARL without an accountant**: bookkeeping is mandatory. Without a professional, you risk filing errors and penalties.
+
+**Confusing legal structure with tax regime**: an EI can opt for IS since 2022. A SARL can opt for income tax for 5 years. These are two independent levers.
+
+**Ignoring the social contribution floor**: a majority SARL manager pays minimum SSI contributions even when drawing no salary — which can catch you off guard.
+
+---
+
+## Conclusion: The Right Structure Is the One That Fits Your Project
+
+There is no universal legal structure for a food truck. The right choice depends on **your projected revenue, personal situation, growth ambitions, and tolerance for admin**.
+
+In short: start simple (micro or EI), and evolve when your business justifies it. A restaurant-sector accountant can help you navigate this decision for a few hundred euros of consulting — an investment that pays back many times over.`,
+    },
+    keyTakeaways: {
+      fr: [
+        "L'auto-entrepreneur est idéal pour démarrer ou tester, mais plafonne à 77 700 € pour les prestations de services",
+        "L'EI protège votre patrimoine personnel de droit depuis 2022, sans formalité supplémentaire",
+        "La SARL est adaptée aux duos d'associés et aux CA > 150 000 €/an avec un régime IS avantageux",
+        "La SAS/SASU donne accès au régime général (meilleure retraite) et facilite la levée de fonds",
+        "Ne pas récupérer la TVA en micro-entreprise peut coûter 6 000 à 16 000 € sur un investissement standard",
+      ],
+      en: [
+        "Micro-enterprise is ideal for launching or testing, but caps at €77,700 for service-based food trucks",
+        "EI automatically protects personal assets since 2022 — no extra paperwork needed",
+        "SARL suits two-partner setups and revenues above €150,000/year with advantageous corporate tax",
+        "SAS/SASU gives access to general regime (better pension) and facilitates fundraising",
+        "Missing VAT recovery in micro-enterprise can cost €6,000–€16,000 on a standard food truck investment",
+      ],
+    },
+    faqItems: [
+      {
+        question: {
+          fr: "Peut-on ouvrir un food truck en auto-entrepreneur ?",
+          en: "Can you open a food truck as a sole trader (micro-enterprise)?",
+        },
+        answer: {
+          fr: "Oui, l'auto-entrepreneur est un statut valide pour un food truck. Il est idéal en phase de lancement. Attention cependant : si vous cuisinez sur place, votre activité est classée 'prestation de services' avec un plafond de 77 700 € de CA annuel. Au-delà, vous devrez changer de statut.",
+          en: "Yes, the micro-enterprise (auto-entrepreneur) regime is valid for a food truck and ideal for the launch phase. However, if you cook on-site, your activity is classified as 'service provision' with a cap of €77,700 in annual revenue. Beyond that, you'll need to switch structures.",
+        },
+      },
+      {
+        question: {
+          fr: "Quel statut permet de récupérer la TVA sur l'achat du camion ?",
+          en: "Which structure allows VAT recovery on the truck purchase?",
+        },
+        answer: {
+          fr: "Toutes les structures assujetties à la TVA (EI, SARL, SAS) permettent de récupérer la TVA sur vos achats professionnels, y compris le camion et le matériel. En micro-entreprise (franchise de TVA), cette récupération est impossible, ce qui peut représenter plusieurs milliers d'euros de manque à gagner.",
+          en: "All VAT-registered structures (EI, SARL, SAS) allow recovery of VAT on professional purchases, including the truck and equipment. Under the micro-enterprise VAT exemption, recovery is impossible — which can represent thousands of euros in missed savings.",
+        },
+      },
+      {
+        question: {
+          fr: "SARL ou SAS pour un food truck — quelle différence concrète ?",
+          en: "SARL or SAS for a food truck — what's the practical difference?",
+        },
+        answer: {
+          fr: "La différence principale est le statut social du dirigeant : en SARL, le gérant majoritaire est affilié à la SSI (indépendants) avec des cotisations plus faibles mais une protection moindre. En SAS, le président est assimilé salarié, avec des charges plus élevées mais une meilleure retraite et des droits au chômage sous conditions.",
+          en: "The main difference is the director's social status: in a SARL, the majority manager is affiliated with the independent workers' scheme (SSI) — lower contributions but weaker protection. In a SAS, the president is assimilated to an employee — higher charges but better pension and conditional unemployment rights.",
+        },
+      },
+      {
+        question: {
+          fr: "Combien coûte la comptabilité d'une SARL ou SAS food truck ?",
+          en: "How much does accounting cost for a SARL or SAS food truck?",
+        },
+        answer: {
+          fr: "Un expert-comptable pour une SARL ou SAS food truck coûte généralement entre 1 500 et 4 000 €/an selon la taille et les prestations (bilan, liasse fiscale, bulletins de salaire). Certains cabinets spécialisés en restauration proposent des forfaits dédiés. C'est une charge déductible.",
+          en: "An accountant for a SARL or SAS food truck typically costs €1,500–€4,000/year depending on size and services (accounts, tax filing, payslips). Some hospitality-specialist firms offer dedicated packages. It's a tax-deductible expense.",
+        },
+      },
+      {
+        question: {
+          fr: "Peut-on changer de statut juridique après avoir ouvert son food truck ?",
+          en: "Can you change legal structure after opening your food truck?",
+        },
+        answer: {
+          fr: "Oui, il est possible de changer de statut à tout moment. La transition la plus courante est de la micro-entreprise vers une EI ou SARL quand le CA dépasse le plafond ou quand vous souhaitez récupérer la TVA. Ce changement implique une radiation de la micro et une nouvelle immatriculation. Un expert-comptable peut vous accompagner.",
+          en: "Yes, you can change legal structure at any time. The most common transition is from micro-enterprise to EI or SARL when revenue exceeds the cap or when you want VAT registration. This involves deregistering the micro and registering a new structure. An accountant can guide you through the process.",
+        },
+      },
+    ],
+    relatedSlugs: [
+      "ouvrir-food-truck-guide-complet",
+      "business-plan-food-truck",
+      "gestion-tresorerie-food-truck",
+      "charges-variables-food-truck",
+    ],
+  },
 ];
 
 export const blogArticles: BlogArticle[] = [...baseBlogArticles, ...verticalArticles];

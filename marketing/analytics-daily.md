@@ -636,3 +636,35 @@ Après le pic du 31/03, retour à un trafic très faible. Les 2-3 avril sont qua
 **Insights:** Bing dépasse Google en volume (13 vs 5). ChatGPT reste fort (12). Les pages ville (/fr/ville/toulouse) attirent depuis chatgpt.com — signal fort pour les landings locales. 0 signup.
 
 **Actions:** Article publié aujourd'hui = packaging-food-truck-rentabilite-image (Marketing, 2026-05-16)
+
+---
+## 2026-05-20 (07:37 UTC)
+
+**Events 24h** : 29 (+32% vs veille 22)
+**Sessions uniques** : 15 (+200% vs veille 5)
+
+### Top pages
+1. `/fr/blog/calcul-prix-vente-food-truck` — 5 vues ⭐
+2. `/en/blog/seuil-rentabilite-food-truck-calcul` — 4 vues
+3. `/en/blog/tresorerie-food-truck-guide` — 3 vues
+4. `/fr/blog/livraison-food-truck-uber-eats-deliveroo` — 1 vue
+5. `/fr/blog/reglementation-food-truck-france` — 1 vue
+6. `/fr` (homepage) — 1 vue
+
+### Sources trafic
+- Google : 8 (53%)
+- Direct : 3 (20%)
+- ChatGPT : 3 (20%) ⭐
+- Ecosia : 1 (7%)
+
+### Devices
+- Desktop : 14 (93%)
+- Mobile : 1 (7%)
+
+### Locales
+- FR : 8 | EN : 7
+
+### Signups
+- 0 nouveaux users
+
+**Insight** : Fort regain de trafic (+200% sessions). Articles calcul prix + seuil rentabilité = top. ChatGPT = 20% du trafic (important). Cibler davantage articles calcul/finances food truck.
