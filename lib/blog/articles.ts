@@ -34062,6 +34062,445 @@ A 5% reduction in food cost on a monthly revenue of €8,000 is €120 extra mar
     ],
   },
   {
+    slug: "marge-brute-food-truck-calcul",
+    title: {
+      fr: "Marge brute food truck : comment la calculer et l'améliorer",
+      en: "Food Truck Gross Margin: How to Calculate and Improve It",
+    },
+    excerpt: {
+      fr: "La marge brute est le premier indicateur de rentabilité de votre food truck. Découvrez comment la calculer précisément, interpréter votre taux et actionner les bons leviers pour l'améliorer durablement.",
+      en: "Gross margin is the primary profitability indicator for your food truck. Learn how to calculate it accurately, interpret your rate, and pull the right levers to improve it sustainably.",
+    },
+    category: { fr: "Finances", en: "Finances" },
+    date: "2026-05-20",
+    readTime: 10,
+    keywords: [
+      "marge brute food truck",
+      "calcul marge food truck",
+      "taux de marge food truck",
+      "rentabilité food truck",
+      "food truck gross margin",
+      "food cost food truck",
+      "améliorer marge food truck",
+    ],
+    heroImage: "/blog/gestion-stock.png",
+    keyTakeaways: {
+      fr: [
+        "La marge brute = chiffre d'affaires − coût des matières premières (food cost).",
+        "Un bon taux de marge brute en food truck se situe entre 65 % et 75 %.",
+        "Réduire le food cost de 5 points peut doubler votre bénéfice net.",
+        "Les leviers principaux : fiche technique précise, négociation fournisseurs, engineering du menu.",
+        "FoodTracks calcule votre marge brute automatiquement après chaque service.",
+      ],
+      en: [
+        "Gross margin = revenue − cost of goods sold (food cost).",
+        "A healthy gross margin for a food truck sits between 65% and 75%.",
+        "Cutting food cost by 5 points can double your net profit.",
+        "Key levers: accurate recipe cards, supplier negotiation, menu engineering.",
+        "FoodTracks automatically calculates your gross margin after every service.",
+      ],
+    },
+    content: {
+      fr: `## Pourquoi la marge brute est l'indicateur n°1 du food trucker
+
+Quand on parle de rentabilité en food truck, le chiffre d'affaires fait briller les yeux — mais c'est la **marge brute** qui dit la vérité sur votre business. Un camion qui encaisse 8 000 € par mois avec 40 % de food cost gagne beaucoup moins qu'un camion qui encaisse 6 000 € avec 28 % de food cost.
+
+La marge brute mesure ce qu'il vous reste **après avoir payé vos ingrédients**, avant toutes les autres charges (loyer, carburant, main-d'œuvre, assurances). C'est le socle sur lequel repose toute votre équation économique.
+
+Comprendre, calculer et améliorer sa marge brute, c'est la compétence financière la plus rentable qu'un food trucker puisse développer.
+
+## La formule exacte pour calculer votre marge brute
+
+### Définitions clés
+
+- **Chiffre d'affaires (CA)** : total des ventes HT sur la période
+- **Coût des matières premières (food cost)** : valeur des ingrédients consommés pour produire ces ventes
+- **Marge brute** : CA − food cost
+
+**Formule :**
+
+\`\`\`
+Marge brute (€) = Chiffre d'affaires HT − Coût des matières premières
+Taux de marge brute (%) = (Marge brute ÷ Chiffre d'affaires) × 100
+\`\`\`
+
+### Exemple concret
+
+Vous réalisez 7 500 € HT de CA sur la semaine. Vos achats de matières premières consommées s'élèvent à 2 100 €.
+
+- Marge brute = 7 500 − 2 100 = **5 400 €**
+- Taux de marge brute = (5 400 ÷ 7 500) × 100 = **72 %**
+
+C'est un excellent résultat. Voyons maintenant comment interpréter votre chiffre.
+
+## Quels sont les bons taux de marge brute en food truck ?
+
+Les références sectorielles varient selon le concept, mais voici les repères utilisés par les professionnels de la restauration ambulante :
+
+| Taux de marge brute | Interprétation |
+|---|---|
+| < 60 % | Dangereux — coûts matières trop élevés |
+| 60–65 % | Vigilance — peu de marge de manœuvre |
+| 65–72 % | Correct — zone cible pour la plupart des concepts |
+| 72–78 % | Excellent — food cost maîtrisé |
+| > 78 % | Exceptionnel — typique des boissons, snacks simples |
+
+Un food truck burgers se situe généralement autour de 68–72 %, un food truck pizzas plutôt 70–75 %, un food truck smoothies jusqu'à 78–82 %.
+
+**Attention aux comparaisons** : votre taux cible dépend de votre concept, de vos prix de vente et de votre positionnement. Ce qui compte, c'est de mesurer votre propre taux régulièrement et de le faire progresser.
+
+## Comment calculer précisément votre food cost
+
+Le calcul du food cost est souvent approximatif, ce qui fausse toute l'analyse. Voici la méthode rigoureuse :
+
+### Méthode des achats consommés
+
+\`\`\`
+Food cost réel = Stock initial + Achats de la période − Stock final
+\`\`\`
+
+**Exemple :**
+- Stock au début de la semaine : 800 €
+- Achats de la semaine : 1 800 €
+- Stock en fin de semaine : 500 €
+- Food cost réel = 800 + 1 800 − 500 = **2 100 €**
+
+Cette méthode prend en compte le gaspillage, les erreurs de commande et les repas du personnel — elle est bien plus fiable que de simplement additionner vos factures fournisseurs.
+
+### Méthode par fiche technique
+
+Calculez le coût de revient de chaque recette en détaillant chaque ingrédient :
+
+- Burger signature : pain (0,35 €) + steak (1,80 €) + fromage (0,25 €) + légumes (0,20 €) + sauce (0,10 €) = **2,70 €**
+- Prix de vente HT : 9,50 €
+- Food cost unitaire : 2,70 / 9,50 = **28,4 %**
+
+Pour approfondir le calcul de vos fiches techniques, consultez notre guide sur le [calcul du prix de vente de vos plats en food truck](/fr/blog/calcul-prix-vente-food-truck).
+
+### Automatiser avec FoodTracks
+
+Faire ce calcul manuellement chaque semaine prend du temps et génère des erreurs. **FoodTracks** importe vos factures fournisseurs via scan, suit vos ventes SumUp en temps réel, et calcule automatiquement votre food cost et votre taux de marge brute après chaque service.
+
+## Les 6 leviers pour améliorer votre marge brute
+
+### 1. Établir des fiches techniques précises pour chaque plat
+
+La fiche technique est la base de tout. Sans elle, vous cuisinez à l'instinct et votre food cost fluctue à chaque service. Pour chaque recette :
+- Pesez chaque ingrédient (ne jamais "estimer à l'œil")
+- Intégrez les pertes (épluchage, cuisson, découpe)
+- Mettez à jour les prix régulièrement (les cours des matières premières varient)
+
+Une fiche technique précise, c'est 2 à 5 points de marge brute gagnés immédiatement.
+
+### 2. Pratiquer l'engineering de menu
+
+Toutes vos recettes ne se valent pas en termes de marge. L'engineering de menu classe vos plats en 4 catégories :
+- **Étoiles** : forte marge + forte popularité → mettez-les en avant
+- **Vaches à lait** : forte marge + popularité modérée → à valoriser
+- **Points d'interrogation** : faible marge + forte popularité → retravailler le prix ou la recette
+- **Poids morts** : faible marge + faible popularité → supprimer
+
+Pousser vos étoiles et limiter les poids morts peut améliorer votre taux de 3 à 8 points. Pour aller plus loin, lisez notre guide sur la [création d'un menu food truck rentable](/fr/blog/menu-food-truck-rentable).
+
+### 3. Négocier avec vos fournisseurs
+
+Vos prix d'achat ont un impact direct et immédiat sur votre food cost. Quelques règles :
+- Obtenez des devis de 2 à 3 fournisseurs par catégorie
+- Négociez des remises volume sur les produits à forte rotation
+- Payez comptant si vous pouvez — c'est souvent négociable en réduction supplémentaire
+- Regroupez vos commandes pour limiter les frais de livraison
+
+Une réduction de 8 % sur vos achats principaux peut représenter 2 à 3 points de marge brute.
+
+### 4. Contrôler les portions
+
+La dérive des portions est l'ennemi silencieux de la marge brute. Quand un employé sert 180 g de frites au lieu de 150 g, c'est 20 % de food cost supplémentaire sur ce plat — invisible mais systématique.
+
+Solutions :
+- Utilisez des balances en cuisine
+- Standardisez les ustensiles (louches calibrées, cuillères doseuses)
+- Formez votre équipe sur l'importance de la portion standard
+
+### 5. Réduire le gaspillage
+
+Le gaspillage alimentaire ampute directement votre marge brute. En restauration ambulante, il représente en moyenne 8 à 15 % des achats.
+
+- Adaptez vos commandes à vos emplacements (un marché de village ≠ un festival)
+- Créez des "plats du jour" avec les produits proches de péremption
+- Suivez vos pertes en temps réel pour identifier les produits problématiques
+
+Pour une méthode complète, consultez notre article sur la [gestion de trésorerie food truck](/fr/blog/gestion-tresorerie-food-truck) qui aborde aussi l'optimisation des achats.
+
+### 6. Revoir vos prix de vente
+
+Parfois, la solution la plus simple est aussi la plus sous-exploitée : **augmenter vos prix**. Si votre food cost est à 35 %, passer un burger de 10 € à 10,50 € améliore votre marge brute de près de 3 points sans changer un seul gramme d'ingrédient.
+
+La psychologie de la carte, le positionnement et la communication autour de la qualité sont vos alliés pour ajuster les prix sans perdre de clients.
+
+## Marge brute vs marge nette : ne pas confondre
+
+La marge brute est excellente mais insuffisante pour évaluer la rentabilité réelle de votre food truck. La **marge nette** (ou résultat net) intègre toutes les charges :
+
+\`\`\`
+Marge nette = Marge brute − Charges fixes et variables (hors matières)
+\`\`\`
+
+Ces charges supplémentaires comprennent : loyer du camion, carburant et péages, assurances, main-d'œuvre, droits de stationnement, remboursement d'emprunts, frais administratifs…
+
+En food truck, un taux de marge nette de 15 à 25 % est considéré comme sain. Si votre marge brute est à 70 % et votre marge nette à 8 %, vos charges fixes sont trop élevées — c'est un autre problème à traiter.
+
+## Mettre en place un suivi mensuel de sa marge brute
+
+La marge brute ne se calcule pas une fois par an — elle se suit chaque semaine, idéalement après chaque service :
+
+1. **En fin de service** : notez les ventes (via votre TPE SumUp ou votre caisse)
+2. **Chaque semaine** : faites l'inventaire pour calculer le food cost réel
+3. **Chaque mois** : comparez à votre objectif et identifiez les écarts
+
+Si votre taux baisse de plus de 3 points d'un mois sur l'autre, c'est un signal d'alerte : hausse des prix fournisseurs, dérive des portions, gaspillage en augmentation ou changement de mix produit.
+
+**Avec FoodTracks**, ce tableau de bord est automatisé. Vous voyez votre marge brute en temps réel, par emplacement, par plat et par période — sans passer des heures dans un tableur.
+
+## Conclusion
+
+La marge brute est le thermomètre de la santé financière de votre food truck. La calculer correctement, la benchmarker et l'améliorer méthodiquement, c'est transformer votre activité d'un "métier passion" en un vrai business rentable.
+
+Les 6 leviers — fiches techniques, engineering de menu, négociation fournisseurs, contrôle des portions, réduction du gaspillage et révision des prix — ne demandent pas d'investissement majeur. Ils demandent de la rigueur et des données fiables.
+
+**Commencez par mesurer. Ensuite, optimisez.**
+
+[Calculer ma marge brute avec FoodTracks →](/fr/tarifs)`,
+      en: `## Why Gross Margin Is the #1 Metric for Food Truckers
+
+When it comes to food truck profitability, revenue turns heads — but **gross margin** tells the real story. A truck pulling in €8,000 a month with 40% food cost earns far less than one doing €6,000 at 28% food cost.
+
+Gross margin measures what's left **after paying for your ingredients**, before all other expenses (rent, fuel, labour, insurance). It's the foundation of your entire financial equation.
+
+Understanding, calculating and improving your gross margin is the single most profitable financial skill a food trucker can develop.
+
+## The Exact Formula to Calculate Your Gross Margin
+
+### Key definitions
+
+- **Revenue**: total sales (ex-VAT) for the period
+- **Cost of goods sold (food cost)**: value of ingredients consumed to generate those sales
+- **Gross margin**: revenue − food cost
+
+**Formula:**
+
+\`\`\`
+Gross margin (€) = Revenue (ex-VAT) − Cost of goods sold
+Gross margin rate (%) = (Gross margin ÷ Revenue) × 100
+\`\`\`
+
+### Concrete example
+
+You generate €7,500 ex-VAT in weekly revenue. Your consumed raw material cost is €2,100.
+
+- Gross margin = 7,500 − 2,100 = **€5,400**
+- Gross margin rate = (5,400 ÷ 7,500) × 100 = **72%**
+
+That's an excellent result. Now let's see how to interpret your own number.
+
+## What Are Good Gross Margin Rates for Food Trucks?
+
+Industry benchmarks vary by concept, but here are the reference points used by mobile catering professionals:
+
+| Gross margin rate | Interpretation |
+|---|---|
+| < 60% | Dangerous — food cost too high |
+| 60–65% | Watch out — little room for error |
+| 65–72% | Solid — target zone for most concepts |
+| 72–78% | Excellent — well-controlled food cost |
+| > 78% | Outstanding — typical of drinks, simple snacks |
+
+A burger truck typically lands at 68–72%, a pizza truck at 70–75%, a smoothie truck up to 78–82%.
+
+**Beware of comparisons**: your target rate depends on your concept, pricing and positioning. What matters is measuring your own rate consistently and improving it over time.
+
+## How to Calculate Your Food Cost Accurately
+
+Food cost calculations are often approximate, skewing the entire analysis. Here is the rigorous method:
+
+### Consumed purchases method
+
+\`\`\`
+Actual food cost = Opening stock + Purchases in period − Closing stock
+\`\`\`
+
+**Example:**
+- Stock at the start of the week: €800
+- Purchases during the week: €1,800
+- Stock at the end of the week: €500
+- Actual food cost = 800 + 1,800 − 500 = **€2,100**
+
+This method accounts for waste, ordering errors and staff meals — it's far more reliable than simply adding up supplier invoices.
+
+### Recipe card method
+
+Calculate the cost price of each recipe by itemising every ingredient:
+
+- Signature burger: bun (€0.35) + patty (€1.80) + cheese (€0.25) + vegetables (€0.20) + sauce (€0.10) = **€2.70**
+- Selling price ex-VAT: €9.50
+- Unit food cost: 2.70 / 9.50 = **28.4%**
+
+To go deeper into recipe costing, read our guide on [how to calculate your food truck dish selling price](/en/blog/calcul-prix-vente-food-truck).
+
+### Automate with FoodTracks
+
+Doing this calculation manually every week takes time and produces errors. **FoodTracks** imports your supplier invoices via scan, tracks your SumUp sales in real time, and automatically calculates your food cost and gross margin rate after every service.
+
+## 6 Levers to Improve Your Gross Margin
+
+### 1. Build accurate recipe cards for every dish
+
+Recipe cards are the foundation of everything. Without them, you cook by feel and your food cost swings every service. For each recipe:
+- Weigh every ingredient (never "eyeball it")
+- Factor in losses (peeling, cooking, trimming)
+- Update prices regularly (commodity prices fluctuate)
+
+A precise recipe card = 2 to 5 margin points gained immediately.
+
+### 2. Practice menu engineering
+
+Not all your dishes perform equally on margin. Menu engineering classifies your items into 4 categories:
+- **Stars**: high margin + high popularity → feature them prominently
+- **Cash cows**: high margin + moderate popularity → add value to them
+- **Question marks**: low margin + high popularity → rework the price or recipe
+- **Dogs**: low margin + low popularity → remove them
+
+Promoting your stars and cutting your dogs can improve your rate by 3 to 8 points. For a full breakdown, read our guide on [creating a profitable food truck menu](/en/blog/menu-food-truck-rentable).
+
+### 3. Negotiate with your suppliers
+
+Your purchase prices have a direct and immediate impact on food cost. A few rules:
+- Get quotes from 2 to 3 suppliers per category
+- Negotiate volume discounts on high-turnover items
+- Pay cash if you can — it's often negotiable as an additional discount
+- Bundle orders to reduce delivery charges
+
+An 8% reduction on your key purchases can represent 2 to 3 gross margin points.
+
+### 4. Control portions
+
+Portion drift is the silent enemy of gross margin. When a team member serves 180g of fries instead of 150g, that's 20% extra food cost on that dish — invisible but systematic.
+
+Solutions:
+- Use kitchen scales
+- Standardise utensils (calibrated ladles, dosing spoons)
+- Train your team on the importance of the standard portion
+
+### 5. Reduce waste
+
+Food waste directly cuts into your gross margin. In mobile catering, it represents on average 8 to 15% of purchases.
+
+- Adjust orders to your locations (a village market ≠ a festival)
+- Create "specials" using ingredients approaching their best-before date
+- Track losses in real time to identify problem products
+
+For a complete method, see our article on [food truck cash management](/en/blog/gestion-tresorerie-food-truck), which also covers purchase optimisation.
+
+### 6. Revisit your selling prices
+
+Sometimes the simplest solution is also the most underused: **raise your prices**. If your food cost is at 35%, moving a burger from €10 to €10.50 improves your gross margin by nearly 3 points without changing a single gram of ingredient.
+
+Menu psychology, positioning and communicating your quality are your allies for adjusting prices without losing customers.
+
+## Gross Margin vs Net Margin: Don't Confuse Them
+
+Gross margin is essential but insufficient for assessing the real profitability of your food truck. **Net margin** (or net profit) incorporates all expenses:
+
+\`\`\`
+Net margin = Gross margin − Fixed and variable costs (excl. materials)
+\`\`\`
+
+These additional costs include: truck lease, fuel and tolls, insurance, labour, pitching fees, loan repayments, administrative costs…
+
+In food trucking, a net margin rate of 15 to 25% is considered healthy. If your gross margin is at 70% and your net margin at 8%, your fixed costs are too high — that's a separate problem to address.
+
+## Setting Up Monthly Gross Margin Tracking
+
+Gross margin isn't calculated once a year — it's tracked every week, ideally after every service:
+
+1. **End of service**: record sales (via your SumUp terminal or POS)
+2. **Every week**: take stock to calculate actual food cost
+3. **Every month**: compare against your target and identify variances
+
+If your rate drops more than 3 points month-on-month, that's an alert signal: supplier price increases, portion drift, rising waste or a shift in product mix.
+
+**With FoodTracks**, this dashboard is automated. You see your gross margin in real time, by location, by dish and by period — without spending hours in a spreadsheet.
+
+## Conclusion
+
+Gross margin is the health thermometer of your food truck's finances. Calculating it correctly, benchmarking it and improving it methodically transforms your activity from a "passion job" into a genuinely profitable business.
+
+The 6 levers — recipe cards, menu engineering, supplier negotiation, portion control, waste reduction and price revision — require no major investment. They require rigour and reliable data.
+
+**Start by measuring. Then optimise.**
+
+[Calculate my gross margin with FoodTracks →](/en/pricing)`,
+    },
+    faqItems: [
+      {
+        question: {
+          fr: "Quelle est la différence entre marge brute et marge nette en food truck ?",
+          en: "What is the difference between gross margin and net margin in a food truck?",
+        },
+        answer: {
+          fr: "La marge brute = CA − coût des matières premières. Elle mesure ce qu'il vous reste après les ingrédients. La marge nette = marge brute − toutes les autres charges (loyer, carburant, main-d'œuvre, assurances, emprunts). En food truck, une marge brute saine est de 65–75 %, une marge nette saine de 15–25 %.",
+          en: "Gross margin = revenue − cost of goods sold. It measures what's left after ingredients. Net margin = gross margin − all other costs (rent, fuel, labour, insurance, loans). In food trucking, a healthy gross margin is 65–75%, a healthy net margin 15–25%.",
+        },
+      },
+      {
+        question: {
+          fr: "Quel est le bon taux de food cost pour un food truck ?",
+          en: "What is a good food cost percentage for a food truck?",
+        },
+        answer: {
+          fr: "Un bon food cost pour un food truck se situe entre 25 et 35 % du chiffre d'affaires HT, ce qui correspond à une marge brute de 65 à 75 %. En dessous de 25 %, vous avez une marge exceptionnelle (typique des boissons). Au-dessus de 40 %, la rentabilité est sérieusement menacée.",
+          en: "A good food cost for a food truck is between 25% and 35% of ex-VAT revenue, corresponding to a gross margin of 65% to 75%. Below 25%, you have exceptional margin (typical of drinks). Above 40%, profitability is seriously at risk.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment réduire rapidement son food cost en food truck ?",
+          en: "How can a food truck quickly reduce its food cost?",
+        },
+        answer: {
+          fr: "Les 3 actions les plus rapides : 1) Établir des fiches techniques précises avec pesée systématique (gain immédiat de 2 à 5 points). 2) Faire un inventaire hebdomadaire pour identifier le gaspillage réel. 3) Négocier avec vos fournisseurs principaux en s'appuyant sur vos volumes. Ces actions combinées peuvent réduire le food cost de 5 à 10 points en 30 jours.",
+          en: "The 3 fastest actions: 1) Build accurate recipe cards with systematic weighing (immediate 2–5 point gain). 2) Do a weekly stock-take to identify actual waste. 3) Negotiate with your main suppliers using your volume data. Combined, these actions can cut food cost by 5 to 10 points in 30 days.",
+        },
+      },
+      {
+        question: {
+          fr: "Faut-il calculer la marge brute par plat ou globalement ?",
+          en: "Should you calculate gross margin per dish or overall?",
+        },
+        answer: {
+          fr: "Les deux niveaux sont complémentaires. Le calcul global (par semaine ou mois) donne la santé globale du business. Le calcul par plat (via fiche technique) permet l'engineering de menu : identifier les plats rentables à pousser et ceux à retravailler. Commencez par le global, puis descendez au niveau du plat pour optimiser.",
+          en: "Both levels are complementary. The overall calculation (weekly or monthly) shows the overall health of the business. Per-dish calculation (via recipe cards) enables menu engineering: identifying profitable dishes to push and ones to rework. Start with the overall, then drill down to dish level to optimise.",
+        },
+      },
+      {
+        question: {
+          fr: "Peut-on améliorer sa marge brute sans augmenter ses prix ?",
+          en: "Can you improve gross margin without raising prices?",
+        },
+        answer: {
+          fr: "Oui, absolument. Les principaux leviers sans hausse de prix : réduire le gaspillage (8–15 % des achats en moyenne), contrôler les portions (un dépassement de 20 % sur chaque plat coûte très cher à l'échelle), négocier avec les fournisseurs (5–10 % de réduction possible), optimiser le mix produit en mettant en avant les plats à forte marge. Ces leviers peuvent améliorer la marge brute de 5 à 10 points sans toucher aux prix.",
+          en: "Yes, absolutely. The main levers without price increases: reduce waste (8–15% of purchases on average), control portions (a 20% overrun per dish adds up fast at scale), negotiate with suppliers (5–10% reduction achievable), optimise product mix by pushing high-margin dishes. These levers can improve gross margin by 5 to 10 points without touching prices.",
+        },
+      },
+    ],
+    relatedSlugs: [
+      "calcul-prix-vente-food-truck",
+      "cout-de-revient-food-truck",
+      "charges-variables-food-truck",
+      "menu-food-truck-rentable",
+      "gestion-tresorerie-food-truck",
+    ],
+  },
+  {
     slug: "food-truck-evenementiel-mariage-entreprise",
     title: {
       fr: "Food truck pour mariage et événements d'entreprise : comment se lancer et décrocher des contrats",

@@ -35,3 +35,6 @@
 2026-05-13 | planifier-tournee-food-truck | FR+EN | Planifier sa tournée food truck : méthode complète pour maximiser vos revenus par emplacement | publie
 2026-05-15 | reduire-temps-attente-food-truck | FR+EN | Réduire le temps d'attente en food truck : méthode complète pour servir plus vite et vendre plus | publie
 2026-05-19 | food-truck-evenementiel-mariage-entreprise | FR+EN | Food truck pour mariage et événements d'entreprise : comment se lancer et décrocher des contrats | publie
+2026-05-20 | statut-juridique-food-truck | FR+EN | Statut juridique food truck : auto-entrepreneur, SARL ou SAS — que choisir en 2026 | publie
+| 2026-05-20 | marge-brute-food-truck-calcul | Marge brute food truck : comment la calculer et l'améliorer | publie |
+| 2026-05-20 | food-truck-gross-margin-calculation | Food Truck Gross Margin: How to Calculate and Improve It | publie |
