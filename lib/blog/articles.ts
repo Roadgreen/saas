@@ -35299,6 +35299,344 @@ In short: start simple (micro or EI), and evolve when your business justifies it
       "charges-variables-food-truck",
     ],
   },
+  {
+    slug: "rentabilite-menu-food-truck-ingenierie",
+    heroImage: "/blog/rentabilite.png",
+    title: {
+      fr: "Ingénierie du menu food truck : concevoir une carte qui maximise vos marges en 2026",
+      en: "Food Truck Menu Engineering: Design a Menu That Maximises Your Margins in 2026",
+    },
+    excerpt: {
+      fr: "L'ingénierie du menu est la méthode scientifique pour concevoir une carte qui vend plus et coûte moins. Découvrez comment classer vos plats, repositionner vos vedettes et augmenter votre marge brute de 8 à 15 % sans changer vos recettes.",
+      en: "Menu engineering is the scientific method for designing a menu that sells more and costs less. Learn how to classify your dishes, reposition your stars and increase your gross margin by 8 to 15% without changing your recipes.",
+    },
+    category: { fr: "Rentabilité", en: "Profitability" },
+    date: "2026-05-21",
+    readTime: 11,
+    keywords: [
+      "ingénierie du menu food truck",
+      "menu engineering food truck",
+      "concevoir carte food truck rentable",
+      "optimiser menu food truck marges",
+      "matrix menu food truck",
+    ],
+    content: {
+      fr: `## Qu'est-ce que l'ingénierie du menu (menu engineering) ?
+
+L'ingénierie du menu est une méthode née dans les années 1980 dans la restauration américaine. Son principe : **classer chaque plat selon deux dimensions** — sa popularité (volume vendu) et sa rentabilité (marge brute unitaire) — pour prendre des décisions stratégiques sur votre carte.
+
+En food truck, où vous avez en général 8 à 20 références, cette méthode est particulièrement puissante. Chaque emplacement sur votre carte compte. Un plat mal positionné peut vous coûter plusieurs centaines d'euros de marge perdue chaque mois.
+
+## La matrice des 4 catégories
+
+### Étoiles (Stars) — Populaires et rentables
+
+Ce sont vos champions : les plats que vos clients commandent souvent ET qui vous rapportent le plus. **Protégez-les à tout prix.** Ne les retirez jamais sans raison majeure, ne réduisez pas les portions, ne changez pas la recette sans tester d'abord.
+
+En revanche, vous pouvez :
+- Leur donner la meilleure place sur votre carte (en haut à droite ou au centre)
+- Les mettre en avant sur vos réseaux sociaux
+- Les utiliser comme argument de vente principal
+
+### Vaches à lait (Plowhorses) — Populaires mais peu rentables
+
+Ces plats se vendent bien mais génèrent une marge faible. Ils attirent les clients mais "tirent" votre rentabilité vers le bas. La stratégie : **améliorer leur marge sans nuire à leur popularité.**
+
+Comment ? Trois leviers :
+- Réduire légèrement le coût matière (ingrédient alternatif moins cher, portion légèrement ajustée)
+- Augmenter le prix de 0,50 € à 1 € (souvent imperceptible pour le client sur un plat populaire)
+- Associer à un accompagnement ou boisson à forte marge (vente additionnelle)
+
+### Énigmes (Puzzles) — Rentables mais peu populaires
+
+Ces plats ont d'excellentes marges mais se vendent peu. Soit le prix est trop élevé et freine l'achat, soit le plat est mal présenté ou mal positionné sur la carte.
+
+Stratégies :
+- Retravailler le nom du plat (plus évocateur, plus appétissant)
+- Le repositionner visuellement sur la carte (meilleure place, photo si vous en avez)
+- Le proposer en offre spéciale ou en "plat du jour" pour créer de la curiosité
+- Baisser légèrement le prix pour déclencher plus d'essais
+
+### Chiens (Dogs) — Peu populaires et peu rentables
+
+Ces plats n'ont aucune raison d'être sur votre carte. Ils occupent de l'espace mental pour le client, compliquent votre gestion de stock et ne génèrent ni volume ni marge.
+
+**La décision est claire : retirez-les.** Une carte plus courte est presque toujours plus rentable qu'une carte longue. Elle simplifie le choix du client, réduit vos achats et votre gaspillage, et met mieux en valeur vos stars.
+
+## Comment calculer la marge brute de chaque plat
+
+Avant de classer vos plats, vous devez calculer leur **coût matière** (coût des ingrédients pour une portion) et en déduire la marge brute :
+
+**Marge brute = Prix de vente HT − Coût matière**
+
+Exemple :
+- Burger signature : prix de vente 9 € HT, coût matière 2,80 € → marge brute 6,20 €
+- Wrap poulet : prix de vente 7 € HT, coût matière 2,10 € → marge brute 4,90 €
+- Salade composée : prix de vente 8 € HT, coût matière 3,20 € → marge brute 4,80 €
+
+Pour calculer précisément votre coût matière, vous avez besoin de **fiches techniques** pour chaque recette. Avec [FoodTracks](/fr/blog/calculer-cout-revient-recette-food-truck), ce calcul est automatisé à partir de vos factures scannées et de vos recettes enregistrées.
+
+## Déterminer la popularité : les données de vente
+
+La popularité se mesure simplement : **combien de fois ce plat a-t-il été vendu sur une période donnée ?**
+
+Si votre caisse SumUp ou votre terminal enregistre les ventes par produit, exportez les données sur les 4 à 8 dernières semaines. Calculez le pourcentage de chaque plat dans votre volume total.
+
+Règle pratique : un plat est "populaire" si sa part dépasse **70 % de la moyenne** de tous vos plats.
+
+Exemple avec 5 plats et 200 couverts/semaine :
+- Burger signature : 72 ventes (36 %) → populaire
+- Wrap poulet : 55 ventes (27,5 %) → populaire
+- Hot-dog gourmet : 30 ventes (15 %) → moyen
+- Salade composée : 25 ventes (12,5 %) → peu populaire
+- Bowl végétarien : 18 ventes (9 %) → peu populaire
+
+La moyenne est de 40 ventes (200/5). Le seuil à 70 % = 28 ventes. Tout plat sous 28 ventes est "peu populaire".
+
+## Les leviers de présentation de la carte
+
+### Le triangle d'or de la carte
+
+L'œil humain suit un trajet prévisible sur une carte : il regarde d'abord **en haut à droite**, puis en haut à gauche, puis au centre. C'est la zone du "triangle d'or". Placez-y systématiquement vos **Stars**.
+
+En food truck, votre "carte" peut être un tableau ardoise, une affiche ou un écran. Les mêmes règles s'appliquent.
+
+### L'ancrage par le prix
+
+Placez délibérément un plat à prix élevé (votre "chien le plus rentable" ou une option premium) en tête de liste. Il fait office d'**ancre psychologique** : tous les autres plats semblent plus abordables par comparaison, ce qui favorise les commandes.
+
+### La puissance du nom
+
+Le nom d'un plat influence directement la perception de valeur et l'envie d'acheter. "Burger double fromage fondu & oignons caramélisés" se vend mieux que "Burger double". Investissez quelques minutes pour renommer vos plats avec des termes **sensoriels et évocateurs**.
+
+### Réduire le nombre de choix
+
+La loi de Hick stipule que plus on offre de choix, plus la décision prend du temps — et plus la satisfaction après achat diminue. En food truck, **6 à 12 plats** est l'idéal. Au-delà, vous perdez des ventes et vous complexifiez votre gestion.
+
+## Fréquence de révision de la carte
+
+L'ingénierie du menu n'est pas un exercice ponctuel. Elle doit être **pratiquée tous les 2 à 3 mois**, ou à chaque changement de saison.
+
+Pourquoi si fréquemment ?
+- Vos coûts matières évoluent (inflation, saison)
+- Les tendances de consommation changent
+- Vos ventes par plat fluctuent selon les emplacements
+- Un plat peut devenir "chien" sans que vous vous en rendiez compte
+
+Avec FoodTracks, les données de ventes par produit sont disponibles en temps réel. Vous pouvez lancer une analyse menu engineering en quelques minutes, sans tableur manuel.
+
+## Exemple concret : +12 % de marge en 6 semaines
+
+Un food trucker spécialisé burgers à Lyon a appliqué cette méthode en janvier 2026. Résultats après 6 semaines :
+
+- **Retrait de 3 "chiens"** (salade Caesar, nuggets, frites XXL) → -0,5 h de prep quotidienne, -80 € de gaspillage/semaine
+- **Repositionnement de l'énigme** (burger végé premium) en top de carte avec nouveau nom "Le Végétarien Gourmet" → +40 % de ventes sur ce plat
+- **Hausse de 0,80 € sur la "vache à lait"** (wrap basique) → +192 €/mois de marge additionnelle (240 ventes/mois × 0,80 €)
+- **Marge globale** : +12,3 % en 6 semaines sans changer une seule recette
+
+## Conclusion : votre carte est votre outil de vente numéro un
+
+En food truck, vous n'avez pas de salle, pas de serveur, pas de présentation en live. Votre carte est votre unique interface de vente. **Chaque décision sur cette carte a un impact direct sur vos marges.**
+
+L'ingénierie du menu vous donne un cadre rigoureux, basé sur des données réelles, pour prendre ces décisions avec méthode. Commencez par calculer la marge de chaque plat, mesurez vos volumes de vente sur 4 semaines, et positionnez votre carte en conséquence.
+
+[FoodTracks](/fr) vous aide à automatiser les calculs de coût matière et le suivi des ventes par plat, pour que votre prochaine révision de carte soit la plus rentable de votre histoire.`,
+      en: `## What Is Menu Engineering?
+
+Menu engineering is a method developed in the 1980s in American restaurants. The principle is simple: **classify each dish along two dimensions** — its popularity (sales volume) and its profitability (unit gross margin) — and make strategic decisions about your menu accordingly.
+
+For food trucks, where you typically have 8 to 20 items, this method is particularly powerful. Every slot on your menu counts. A poorly positioned dish can cost you hundreds of euros in lost margin every month.
+
+## The Four-Category Matrix
+
+### Stars — Popular and Profitable
+
+These are your champions: dishes that customers order frequently AND that generate your highest margins. **Protect them at all costs.** Never remove them without serious reason, don't reduce portions, and don't change the recipe without testing first.
+
+You can, however:
+- Give them the best position on your menu (top right or centre)
+- Feature them prominently on social media
+- Use them as your main selling argument
+
+### Plowhorses — Popular but Low-Margin
+
+These dishes sell well but generate a low margin. They attract customers but pull your profitability down. The strategy: **improve their margin without hurting their popularity.**
+
+Three levers:
+- Slightly reduce the food cost (cheaper alternative ingredient, slightly adjusted portion)
+- Increase the price by £0.50 to £1 (often imperceptible to customers for a popular item)
+- Pair with a high-margin side or drink (upsell)
+
+### Puzzles — Profitable but Unpopular
+
+These dishes have excellent margins but sell poorly. Either the price is too high and deters purchase, or the dish is poorly presented or badly positioned on the menu.
+
+Strategies:
+- Rework the dish name (more evocative, more appetising)
+- Reposition it visually on the menu (better spot, photo if available)
+- Feature it as a special or "dish of the day" to generate curiosity
+- Slightly lower the price to trigger more trial purchases
+
+### Dogs — Unpopular and Low-Margin
+
+These dishes have no reason to be on your menu. They occupy mental space for the customer, complicate your inventory management and generate neither volume nor margin.
+
+**The decision is clear: remove them.** A shorter menu is almost always more profitable than a long one. It simplifies customer choice, reduces your purchasing and waste, and puts your stars in the spotlight.
+
+## How to Calculate the Gross Margin of Each Dish
+
+Before classifying your dishes, you need to calculate their **food cost** (cost of ingredients per serving) and derive the gross margin:
+
+**Gross margin = Net selling price − Food cost**
+
+Example:
+- Signature burger: selling price £9 net, food cost £2.80 → gross margin £6.20
+- Chicken wrap: selling price £7 net, food cost £2.10 → gross margin £4.90
+- Composed salad: selling price £8 net, food cost £3.20 → gross margin £4.80
+
+To calculate your food cost precisely, you need **recipe cards** for each dish. With [FoodTracks](/en/blog/calculer-cout-revient-recette-food-truck), this calculation is automated from your scanned invoices and saved recipes.
+
+## Determining Popularity: Sales Data
+
+Popularity is simple to measure: **how many times has this dish been sold over a given period?**
+
+If your SumUp terminal or POS records sales by product, export the data for the last 4 to 8 weeks. Calculate each dish's share of your total volume.
+
+Rule of thumb: a dish is "popular" if its share exceeds **70% of the average** across all your dishes.
+
+Example with 5 dishes and 200 covers/week:
+- Signature burger: 72 sales (36%) → popular
+- Chicken wrap: 55 sales (27.5%) → popular
+- Gourmet hot dog: 30 sales (15%) → average
+- Composed salad: 25 sales (12.5%) → unpopular
+- Veggie bowl: 18 sales (9%) → unpopular
+
+The average is 40 sales (200/5). The 70% threshold = 28 sales. Any dish under 28 sales per week is "unpopular."
+
+## Menu Presentation Levers
+
+### The Menu's Golden Triangle
+
+The human eye follows a predictable path on a menu: it looks **top right first**, then top left, then centre. This is the "golden triangle." Always place your **Stars** there.
+
+In a food truck, your "menu" may be a chalkboard, a poster or a screen. The same rules apply.
+
+### Price Anchoring
+
+Deliberately place a higher-priced item (your most profitable "puzzle" or a premium option) at the top of the list. It acts as a **psychological anchor**: all other dishes look more affordable by comparison, encouraging orders.
+
+### The Power of the Name
+
+A dish's name directly influences perceived value and the desire to buy. "Double melt burger with caramelised onions" sells better than "Double burger." Invest a few minutes in renaming your dishes with **sensory, evocative language.**
+
+### Reduce the Number of Choices
+
+Hick's Law states that the more choices you offer, the longer the decision takes — and the lower the post-purchase satisfaction. For a food truck, **6 to 12 dishes** is ideal. Beyond that, you lose sales and complicate your operations.
+
+## How Often Should You Revise Your Menu?
+
+Menu engineering is not a one-time exercise. It should be **practised every 2 to 3 months**, or with each change of season.
+
+Why so frequently?
+- Your food costs evolve (inflation, seasonality)
+- Consumer trends shift
+- Sales per dish fluctuate by location
+- A dish can quietly become a "dog" without you noticing
+
+With FoodTracks, sales data by product is available in real time. You can run a menu engineering analysis in minutes, without manual spreadsheets.
+
+## Concrete Example: +12% Margin in 6 Weeks
+
+A burger food trucker in Lyon applied this method in January 2026. Results after 6 weeks:
+
+- **Removing 3 "dogs"** (Caesar salad, nuggets, XXL fries) → -0.5h daily prep, -£80/week in waste
+- **Repositioning the "puzzle"** (premium veggie burger) at the top of the menu with a new name "The Gourmet Veggie" → +40% sales on that dish
+- **Price increase of £0.80 on the "plowhorse"** (basic wrap) → +£192/month in additional margin (240 sales/month × £0.80)
+- **Overall margin**: +12.3% in 6 weeks without changing a single recipe
+
+## Conclusion: Your Menu Is Your Number One Sales Tool
+
+In a food truck, you have no dining room, no waiter, no live presentation. Your menu is your sole sales interface. **Every decision on that menu has a direct impact on your margins.**
+
+Menu engineering gives you a rigorous, data-driven framework for making those decisions methodically. Start by calculating the margin on each dish, measure your sales volumes over 4 weeks, and position your menu accordingly.
+
+[FoodTracks](/en) helps you automate food cost calculations and per-dish sales tracking, so your next menu revision is the most profitable one yet.`,
+    },
+    keyTakeaways: {
+      fr: [
+        "L'ingénierie du menu classe chaque plat en 4 catégories : Étoiles, Vaches à lait, Énigmes et Chiens.",
+        "Un food truck avec 6 à 12 plats bien positionnés est plus rentable qu'une carte longue.",
+        "Retirer les 'chiens' de votre carte réduit le gaspillage et simplifie la gestion sans perdre de CA.",
+        "Repositionner une 'énigme' avec un meilleur nom peut augmenter ses ventes de 30 à 50 %.",
+        "Une révision de carte tous les 2 à 3 mois, basée sur les données réelles, peut améliorer la marge brute de 8 à 15 %.",
+      ],
+      en: [
+        "Menu engineering classifies each dish into 4 categories: Stars, Plowhorses, Puzzles and Dogs.",
+        "A food truck with 6 to 12 well-positioned dishes is more profitable than a long menu.",
+        "Removing 'dogs' from your menu reduces waste and simplifies operations without losing revenue.",
+        "Repositioning a 'puzzle' with a better name can increase its sales by 30 to 50%.",
+        "A menu revision every 2 to 3 months, based on real data, can improve gross margin by 8 to 15%.",
+      ],
+    },
+    faqItems: [
+      {
+        question: {
+          fr: "Qu'est-ce que l'ingénierie du menu en food truck ?",
+          en: "What is menu engineering for a food truck?",
+        },
+        answer: {
+          fr: "L'ingénierie du menu est une méthode qui classe chaque plat de votre carte selon deux critères : sa popularité (nombre de ventes) et sa rentabilité (marge brute unitaire). Elle permet d'identifier les plats à mettre en avant, ceux à améliorer et ceux à retirer pour maximiser la marge globale du food truck.",
+          en: "Menu engineering is a method that classifies each dish on your menu according to two criteria: its popularity (sales volume) and its profitability (unit gross margin). It helps identify which dishes to promote, which to improve and which to remove in order to maximise the food truck's overall margin.",
+        },
+      },
+      {
+        question: {
+          fr: "Combien de plats doit avoir la carte d'un food truck ?",
+          en: "How many dishes should a food truck menu have?",
+        },
+        answer: {
+          fr: "Entre 6 et 12 plats est l'idéal pour un food truck. Une carte courte simplifie le choix du client (moins d'hésitation = plus de commandes), réduit la gestion de stock et le gaspillage, et permet de mettre en valeur vos plats les plus rentables. Au-delà de 15 plats, vous commencez à perdre en rentabilité et en lisibilité.",
+          en: "Between 6 and 12 dishes is ideal for a food truck. A shorter menu simplifies customer choice (less hesitation = more orders), reduces inventory management and waste, and allows your most profitable dishes to shine. Beyond 15 items, you start losing both profitability and readability.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment identifier les plats peu rentables de mon food truck ?",
+          en: "How do I identify low-margin dishes in my food truck?",
+        },
+        answer: {
+          fr: "Calculez le coût matière de chaque plat (somme des ingrédients pour une portion) et soustrayez-le du prix de vente HT. Les plats avec une marge brute inférieure à la moyenne de votre carte sont vos 'vaches à lait' s'ils sont populaires, ou vos 'chiens' s'ils sont peu vendus. Un outil comme FoodTracks automatise ce calcul à partir de vos factures et recettes.",
+          en: "Calculate the food cost of each dish (sum of ingredients for one serving) and subtract it from the net selling price. Dishes with a gross margin below your menu average are your 'plowhorses' if popular, or your 'dogs' if they sell poorly. A tool like FoodTracks automates this calculation from your invoices and recipes.",
+        },
+      },
+      {
+        question: {
+          fr: "Peut-on augmenter ses marges sans changer les recettes ?",
+          en: "Can you increase margins without changing recipes?",
+        },
+        answer: {
+          fr: "Oui, c'est même l'un des objectifs principaux de l'ingénierie du menu. Vous pouvez augmenter vos marges en repositionnant vos plats sur la carte (triangle d'or), en renommant vos plats avec des termes plus évocateurs, en ajustant les prix de 0,50 € à 1 € sur vos vaches à lait, et en retirant les chiens qui alourdissent votre coût de revient global.",
+          en: "Yes, that's actually one of the main goals of menu engineering. You can increase margins by repositioning dishes on the menu (golden triangle), renaming dishes with more evocative language, adjusting prices by £0.50 to £1 on your plowhorses, and removing dogs that inflate your overall cost base.",
+        },
+      },
+      {
+        question: {
+          fr: "À quelle fréquence revoir la carte de son food truck ?",
+          en: "How often should you revise your food truck menu?",
+        },
+        answer: {
+          fr: "Tous les 2 à 3 mois, ou à chaque changement de saison. Les coûts matières évoluent avec l'inflation et la saisonnalité, et les ventes par plat peuvent changer selon les emplacements ou les tendances. Une révision régulière basée sur vos données réelles de ventes et de coûts est ce qui fait la différence entre un food truck qui stagne et un food truck qui progresse.",
+          en: "Every 2 to 3 months, or with each change of season. Food costs evolve with inflation and seasonality, and per-dish sales can shift with locations or trends. Regular revisions based on your real sales and cost data is what separates a stagnating food truck from one that keeps improving.",
+        },
+      },
+    ],
+    relatedSlugs: [
+      "fixer-prix-menu-food-truck",
+      "menu-saisonnier-food-truck-guide",
+      "calculer-cout-revient-recette-food-truck",
+      "optimiser-marges-food-truck-analyse-donnees",
+    ],
+  },
 ];
 
 export const blogArticles: BlogArticle[] = [...baseBlogArticles, ...verticalArticles];
