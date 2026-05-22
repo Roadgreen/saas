@@ -35637,6 +35637,288 @@ Menu engineering gives you a rigorous, data-driven framework for making those de
       "optimiser-marges-food-truck-analyse-donnees",
     ],
   },
+  {
+    slug: "gestion-stocks-food-truck-ete",
+    title: {
+      fr: "Gestion des stocks en food truck l'été : éviter les ruptures et le gaspillage en haute saison",
+      en: "Food Truck Stock Management in Summer: Avoid Stockouts and Waste at Peak Season",
+    },
+    excerpt: {
+      fr: "La haute saison estivale multiplie la fréquentation mais aussi les risques de rupture et de gaspillage. Découvrez 5 stratégies concrètes pour gérer vos stocks en food truck cet été et protéger vos marges.",
+      en: "Peak summer season multiplies footfall but also the risk of stockouts and waste. Discover 5 practical strategies to manage your food truck stock this summer and protect your margins.",
+    },
+    category: { fr: "Gestion", en: "Management" },
+    date: "2026-05-22",
+    readTime: 9,
+    keywords: [
+      "gestion stocks food truck été",
+      "stock food truck haute saison",
+      "rupture stock food truck été",
+      "gaspillage food truck été",
+      "prévisions stock food truck saison estivale",
+      "food truck stock management summer",
+      "summer food truck inventory",
+    ],
+    heroImage: "/blog/gestion-stocks-ete.png",
+    content: {
+      fr: `## L'été, une aubaine… et un casse-tête pour vos stocks
+
+L'été est souvent la meilleure saison d'un food trucker : festivals, marchés en plein air, zones touristiques, food courts éphémères… La fréquentation explose, les files d'attente s'allongent et les tickets moyens grimpent. Mais cette euphorie cache un défi de taille : **gérer des stocks qui doivent s'adapter à une demande multipliée par 2, voire par 3, dans un environnement où la chaleur accélère la détérioration des produits.**
+
+Sans stratégie solide, l'été peut vite virer au cauchemar : produits gaspillés faute de rotation, ruptures sur vos plats phares en plein coup de feu, marges qui fondent aussi vite que la glace dans votre camion.
+
+## Pourquoi l'été complique la gestion des stocks en food truck
+
+### Une demande plus forte, mais aussi plus volatile
+
+Un marché de bord de mer en juillet peut accueillir 500 couverts un dimanche de canicule et 80 un dimanche pluvieux. Les événements estivaux (festivals, concerts, brocantes) concentrent la fréquentation sur des créneaux courts et imprévisibles.
+
+Si vous commandez comme en mars, vous serez soit à sec dès 13h, soit avec 40 % de stock invendu en fin de journée.
+
+### La chaleur, ennemi numéro un de vos produits frais
+
+Au-delà de 20°C ambiants, la durée de vie de la plupart de vos produits frais est **divisée par deux**. Dans un camion en plein soleil, vos réfrigérateurs tournent en continu et peinent à maintenir la chaîne du froid sur les produits les plus sensibles : viandes hachées, poissons, produits laitiers, découpes prêtes à l'emploi.
+
+### Des fournisseurs eux aussi sous pression
+
+En haute saison, les livraisons peuvent prendre du retard. Les producteurs locaux, souvent privilégiés en été pour les légumes de saison, ont des capacités limitées. Commander la veille pour le lendemain devient plus risqué qu'en basse saison.
+
+## 5 stratégies concrètes pour maîtriser vos stocks cet été
+
+### 1. Exploitez vos données des étés précédents
+
+La meilleure boussole pour commander juste, c'est votre historique. Reprenez vos données de ventes des étés passés et posez-vous trois questions :
+
+- Quels étaient vos 5 plats les plus vendus en juillet-août ?
+- Sur quels emplacements votre fréquentation a-t-elle le plus varié d'un jour à l'autre ?
+- Quels produits avez-vous le plus gaspillés ou manqués ?
+
+Si vous n'avez pas encore d'historique structuré, c'est le bon moment pour en construire un. Chaque service d'été est une donnée précieuse pour la saison suivante.
+
+### 2. Créez des fiches de commande type par événement estival
+
+Tous les services d'été ne se ressemblent pas. Un festival de musique de 10 000 personnes n'appelle pas les mêmes commandes qu'un marché de producteurs en semaine. Construisez des fiches de commande spécifiques selon le type d'événement :
+
+| Type d'événement | Multiplicateur vs. votre base |
+|---|---|
+| Marché de quartier standard | × 1 |
+| Zone touristique en pleine saison | × 1,4 |
+| Festival ou événement grand format | × 2 à 2,5 |
+| Marché de nuit / soirée | × 1,2 |
+
+Calibrez ces coefficients à votre propre historique — ces chiffres sont des points de départ, pas des règles universelles.
+
+### 3. Renforcez le FIFO, surtout pour les produits sensibles
+
+La méthode FIFO (Premier Entré, Premier Sorti) est toujours recommandée, mais elle devient **critique** en été. Quand les températures montent, un produit mal tourné peut devenir impropre à la consommation en quelques heures.
+
+Mettez en place des règles strictes dans votre camion :
+- Étiquetage systématique avec date **et heure** de réception
+- Réfrigérateur organisé en flux : nouveaux arrivages au fond, produits les plus anciens devant
+- Check visuel et olfactif à chaque reprise de service
+- Règle zéro tolérance : en cas de doute, on jette. Une intoxication alimentaire en été peut détruire une réputation en 24 heures.
+
+### 4. Préparez un menu "filet de sécurité"
+
+Même avec la meilleure organisation, vous connaîtrez une rupture un jour ou l'autre. Avoir un menu alternatif préparé à l'avance vous évite de baisser le volet en plein service.
+
+Désignez 2 ou 3 plats composables avec des ingrédients disponibles en toutes circonstances (produits à longue conservation, alternatives surgelées de qualité). Ces plats de secours vous permettent de continuer à servir même si votre plat phare vient à manquer.
+
+### 5. Passez en mode prévisionnel, pas réactif
+
+La gestion réactive — commander après avoir observé les ruptures — ne fonctionne pas en haute saison, où les délais de livraison s'allongent et les erreurs coûtent plus cher. Passez en mode **prévisionnel** : croisez votre historique de ventes avec votre planning d'emplacements, la météo prévue et le type d'événement pour estimer vos besoins *avant* chaque commande.
+
+C'est ce que fait le module de prévisions de [FoodTracks](/) : en agrégeant vos données de ventes passées, les conditions météo et le type d'emplacement, il vous propose une estimation de commande par service. Moins de temps passé à estimer à la main, moins de ruptures, moins de sur-stock.
+
+## Les produits à surveiller en priorité
+
+Certaines catégories sont particulièrement à risque en haute saison estivale :
+
+- **Viandes et protéines fraîches** : durée de vie réduite, risque sanitaire élevé par forte chaleur
+- **Produits laitiers** (fromages frais, crèmes) : sensibles aux variations de température dans un camion
+- **Légumes découpés** : oxydation rapide hors emballage
+- **Boissons** : la demande explose en été mais le stock est encombrant — gérez votre rotation boissons avec autant de rigueur que vos ingrédients
+
+## Un été rentable se prépare avant juin
+
+La haute saison estivale se gagne ou se perd dans les semaines qui la précèdent. Avant le pic de juin, prenez le temps de :
+
+1. Dépouiller vos données de l'été précédent
+2. Mettre à jour vos fiches de commande par type d'événement
+3. Organiser votre espace de stockage pour un FIFO optimal
+4. Rappeler à votre équipe les bonnes pratiques de rotation
+5. Paramétrer vos alertes de péremption si vous utilisez un outil de gestion
+
+Un stock bien géré en été, c'est moins de gaspillage, moins de stress en service, et une marge nette qui résiste à la pression de la haute saison.
+
+**À lire aussi :** [Guide complet de la gestion de stock food truck](/fr/blog/comment-gerer-stock-food-truck) · [Optimiser la rotation des stocks en food truck](/fr/blog/rotation-stock-food-truck) · [Adapter son menu food truck selon la météo](/fr/blog/adapter-menu-food-truck-meteo)`,
+      en: `## Summer: A Goldmine — and a Stock Management Headache
+
+Summer is often a food trucker's best season: festivals, outdoor markets, tourist hotspots, pop-up food courts… footfall spikes, queues grow longer, average spend climbs. But this excitement hides a real challenge: **managing stock that must adapt to demand two or three times higher than usual, in an environment where heat accelerates product spoilage.**
+
+Without a solid strategy, summer can quickly turn into a nightmare: wasted products from poor rotation, stockouts on your best-sellers at peak service, margins shrinking just as the season heats up.
+
+## Why Summer Complicates Food Truck Stock Management
+
+### Higher demand — but far more volatile
+
+A seaside market in July might serve 500 covers on a blazing Sunday and just 80 on a rainy one. Summer events (festivals, concerts, flea markets) concentrate footfall into short, unpredictable windows.
+
+If you order like you do in March, you'll either run dry by 1pm or end the day with 40% of your stock unsold.
+
+### Heat is your fresh produce's worst enemy
+
+Above 20°C ambient temperature, the shelf life of most fresh products is **cut in half**. Inside a truck parked in direct sunlight, your fridges work overtime and struggle to maintain the cold chain on the most sensitive items: minced meat, fish, fresh dairy, pre-portioned ingredients.
+
+### Suppliers face pressure too
+
+During peak season, deliveries can be delayed. Local producers — often preferred in summer for seasonal vegetables — have limited capacity. Ordering the night before for next-day delivery is riskier than in the off-season.
+
+## 5 Concrete Strategies to Control Your Stock This Summer
+
+### 1. Mine your data from previous summers
+
+The best compass for ordering right is your own history. Review your sales data from past summers and ask three questions:
+
+- Which were your 5 best-selling dishes in July and August?
+- At which locations did your footfall vary most from one day to the next?
+- Which products did you waste the most — or run out of?
+
+If you don't have structured historical data yet, this is the summer to start building it. Every service is a data point for next year.
+
+### 2. Build standard order sheets by summer event type
+
+Not all summer services look the same. A 10,000-person music festival calls for very different orders than a weekday farmer's market. Build specific order templates by event type:
+
+| Event type | Multiplier vs. your baseline |
+|---|---|
+| Standard neighbourhood market | × 1 |
+| Tourist area in peak season | × 1.4 |
+| Festival or large-format event | × 2 to 2.5 |
+| Evening market / night event | × 1.2 |
+
+Calibrate these multipliers to your own history — they're starting points, not universal rules.
+
+### 3. Double down on FIFO, especially for high-risk products
+
+The FIFO method (First In, First Out) is always recommended, but it becomes **critical** in summer. When temperatures rise, a badly rotated product can become unsafe within hours.
+
+Set strict rules in your truck:
+- Systematic labelling with date **and time** of receipt
+- Fridge organised as a flow: new stock at the back, oldest products at the front
+- Visual and smell check at the start of every service
+- Zero-tolerance policy: when in doubt, throw it out. A foodborne illness in summer can destroy a reputation in 24 hours.
+
+### 4. Design a "safety net" menu
+
+Even with the best organisation, you will face a stockout at some point. Having a pre-planned backup menu saves you from shutting the hatch mid-service.
+
+Designate 2 or 3 dishes that can be assembled from always-available ingredients (shelf-stable products, quality frozen alternatives). These fallback options keep you trading even if your hero dish runs out.
+
+### 5. Shift from reactive to predictive ordering
+
+Reactive management — ordering after you've spotted shortages — doesn't work in peak season, when delivery lead times are longer and mistakes are costlier. Switch to **predictive mode**: combine your sales history with your location schedule, weather forecast, and event type to estimate what you'll need *before* placing each order.
+
+That's exactly what [FoodTracks](/)' forecasting module does: by aggregating your past sales data, weather conditions, and location type, it generates an order estimate for each service. Less time guessing, fewer stockouts, less waste.
+
+## Products to Watch Most Closely
+
+Some categories are particularly at risk during peak summer season:
+
+- **Fresh meat and protein**: shortened shelf life, high food safety risk in heat
+- **Dairy products** (fresh cheeses, creams): sensitive to temperature fluctuations inside a truck
+- **Pre-cut vegetables**: oxidise rapidly once unwrapped
+- **Drinks**: demand spikes in summer but they're bulky to store — manage your drink rotation with the same rigour as your ingredients
+
+## A Profitable Summer Is Prepared Before June
+
+Peak summer season is won or lost in the weeks that precede it. Before the June rush, take time to:
+
+1. Review your sales data from last summer
+2. Update your order sheets by event type
+3. Organise your storage space for optimal FIFO flow
+4. Brief (or remind) your team on rotation best practices
+5. Set up expiry alerts if you use a management tool like FoodTracks
+
+Well-managed stock in summer means less waste, less stress during service, and a net margin that holds up under peak-season pressure.
+
+**Read next:** [Complete guide to food truck stock management](/en/blog/comment-gerer-stock-food-truck) · [Optimise your food truck stock rotation](/en/blog/rotation-stock-food-truck) · [Adapt your food truck menu to the weather](/en/blog/adapter-menu-food-truck-meteo)`,
+    },
+    keyTakeaways: {
+      fr: [
+        "En été, la demande peut être 2 à 3 fois plus forte qu'en basse saison, mais aussi 4 fois plus volatile selon la météo",
+        "La chaleur divise par deux la durée de vie des produits frais : le FIFO devient une règle sanitaire autant qu'organisationnelle",
+        "Des fiches de commande type par événement estival permettent de réduire ruptures et sur-stock de 30 à 40 %",
+        "Un menu filet de sécurité évite de fermer le volet en plein service lors d'une rupture inattendue",
+        "Anticiper via les prévisions est plus efficace que réagir aux ruptures en pleine haute saison",
+      ],
+      en: [
+        "In summer, demand can be 2 to 3 times higher than off-season — but also 4 times more volatile depending on weather",
+        "Heat halves the shelf life of fresh products: FIFO becomes a food safety rule, not just an organisational one",
+        "Standard order sheets by summer event type can reduce stockouts and over-ordering by 30 to 40%",
+        "A safety-net menu prevents closing the hatch mid-service when an unexpected stockout hits",
+        "Predictive ordering beats reactive restocking when delivery lead times are longer in peak season",
+      ],
+    },
+    faqItems: [
+      {
+        question: {
+          fr: "Comment calculer la bonne quantité de stock pour un festival en été ?",
+          en: "How do I calculate the right stock quantity for a summer festival?",
+        },
+        answer: {
+          fr: "Partez de votre consommation moyenne par service, puis appliquez un coefficient multiplicateur selon le type d'événement : × 2 à 2,5 pour un grand festival, × 1,4 pour une zone touristique en haute saison. Affinez ces coefficients avec vos propres données des étés précédents. Un outil de prévisions comme FoodTracks automatise ce calcul en croisant votre historique de ventes et le type d'emplacement.",
+          en: "Start from your average consumption per service, then apply a multiplier based on event type: × 2 to 2.5 for a major festival, × 1.4 for a tourist location in high season. Refine these multipliers using your own data from previous summers. A forecasting tool like FoodTracks automates this calculation by combining your sales history and location type.",
+        },
+      },
+      {
+        question: {
+          fr: "Quels produits risquent le plus de gaspillage en food truck pendant l'été ?",
+          en: "Which food truck products are most at risk of waste during summer?",
+        },
+        answer: {
+          fr: "Les produits les plus à risque en été sont les viandes fraîches et hachées (durée de vie réduite au-delà de 20°C), les produits laitiers frais, les légumes découpés et les préparations prêtes à l'emploi. Ces catégories exigent une rotation FIFO stricte, un étiquetage avec date et heure, et une vérification sensorielle à chaque reprise de service.",
+          en: "The highest-risk products in summer are fresh and minced meats (shelf life drastically reduced above 20°C), fresh dairy products, pre-cut vegetables, and ready-to-use preparations. These categories require strict FIFO rotation, labelling with date and time of receipt, and a sensory check at the start of each service.",
+        },
+      },
+      {
+        question: {
+          fr: "Faut-il commander plus souvent en haute saison estivale ?",
+          en: "Should I order more frequently during peak summer season?",
+        },
+        answer: {
+          fr: "Oui, des commandes plus fréquentes (2 à 3 fois par semaine plutôt qu'une seule) permettent de mieux adapter les quantités à la demande réelle et de réduire le stock dormant. En contrepartie, vérifiez que vos fournisseurs garantissent des délais de livraison fiables en saison : un délai qui s'allonge peut annuler le bénéfice de la fréquence.",
+          en: "Yes, more frequent orders (2 to 3 times a week rather than once) let you better match quantities to actual demand and reduce dormant stock. In return, confirm your suppliers guarantee reliable delivery lead times in season — a slipping lead time can cancel out the benefit of ordering more often.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment éviter les ruptures sur mes plats phares en plein service d'été ?",
+          en: "How can I avoid stockouts on my best-selling dishes mid-summer service?",
+        },
+        answer: {
+          fr: "Trois leviers combinés sont efficaces : (1) utiliser des prévisions basées sur l'historique pour commander juste avant chaque service, (2) définir un seuil d'alerte stock interne (ex. : si vous tombez sous 20 portions d'un plat phare, l'équipe est prévenue), (3) préparer un plat de substitution avec des ingrédients toujours disponibles. La rupture zéro n'existe pas, mais un plan B bien préparé vous évite de perdre des clients.",
+          en: "Three combined levers work well: (1) use history-based forecasts to order correctly before each service, (2) set an internal stock alert threshold (e.g., signal the team when a hero dish drops below 20 portions), (3) prepare a substitute dish from always-available ingredients. Zero stockouts doesn't exist, but a well-prepared Plan B stops you from losing customers.",
+        },
+      },
+      {
+        question: {
+          fr: "Peut-on congeler des produits frais pour éviter le gaspillage en food truck l'été ?",
+          en: "Can you freeze fresh products to avoid waste in a food truck in summer?",
+        },
+        answer: {
+          fr: "Oui, dans certaines conditions. Les viandes non cuites, les pâtons, les sauces maison et certaines préparations peuvent être congelés si vous disposez d'un congélateur embarqué ou d'un espace de stockage central. Respectez la chaîne du froid lors du transport et les règles HACCP sur la congélation des produits frais. La congélation reste un filet de sécurité, pas une stratégie principale de gestion des stocks.",
+          en: "Yes, under certain conditions. Uncooked meats, doughs, house sauces, and some preparations can be frozen if you have an onboard freezer or a central storage facility. Always respect the cold chain during transport and HACCP regulations on freezing fresh products. Freezing is a safety net, not a primary stock management strategy.",
+        },
+      },
+    ],
+    relatedSlugs: [
+      "comment-gerer-stock-food-truck",
+      "rotation-stock-food-truck",
+      "adapter-menu-food-truck-meteo",
+      "gestion-invendus-food-truck",
+    ],
+  },
 ];
 
 export const blogArticles: BlogArticle[] = [...baseBlogArticles, ...verticalArticles];

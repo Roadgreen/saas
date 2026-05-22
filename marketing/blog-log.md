@@ -38,3 +38,4 @@
 2026-05-20 | statut-juridique-food-truck | FR+EN | Statut juridique food truck : auto-entrepreneur, SARL ou SAS — que choisir en 2026 | publie
 | 2026-05-20 | marge-brute-food-truck-calcul | Marge brute food truck : comment la calculer et l'améliorer | publie |
 | 2026-05-20 | food-truck-gross-margin-calculation | Food Truck Gross Margin: How to Calculate and Improve It | publie |
+| 2026-05-22 | gestion-stocks-food-truck-ete | FR+EN | Gestion des stocks en food truck l'été : éviter les ruptures et le gaspillage en haute saison | publie |
