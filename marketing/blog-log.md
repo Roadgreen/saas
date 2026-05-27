@@ -39,3 +39,5 @@
 | 2026-05-20 | marge-brute-food-truck-calcul | Marge brute food truck : comment la calculer et l'améliorer | publie |
 | 2026-05-20 | food-truck-gross-margin-calculation | Food Truck Gross Margin: How to Calculate and Improve It | publie |
 | 2026-05-22 | gestion-stocks-food-truck-ete | FR+EN | Gestion des stocks en food truck l'été : éviter les ruptures et le gaspillage en haute saison | publie |
+| 2026-05-25 | assurance-food-truck-garanties-cout | FR+EN | Assurance food truck : quelles garanties souscrire et combien ça coûte en 2026 ? | publie |
+| 2026-05-27 | cuisine-centrale-food-truck | FR+EN | Cuisine centrale food truck : comment en trouver une et pourquoi c'est obligatoire | publie |
