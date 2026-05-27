@@ -14,14 +14,21 @@ import Link from 'next/link';
 import { ChefHat, CheckCircle2, XCircle, Loader2, ShieldCheck, CreditCard, X, ChevronDown } from 'lucide-react';
 import { useAnalytics } from '@/hooks/useAnalytics';
 
-const authSchema = z.object({
-  email: z.string().email(),
-  password: z.string().min(8),
-  name: z.string().optional(),
-  businessName: z.string().optional(),
-});
+type AuthFormData = {
+  email: string;
+  password: string;
+  name?: string;
+  businessName?: string;
+};
 
-type AuthFormData = z.infer<typeof authSchema>;
+function makeAuthSchema(isFr: boolean) {
+  return z.object({
+    email: z.string().email(isFr ? 'Adresse email invalide' : 'Invalid email address'),
+    password: z.string().min(8, isFr ? '8 caractères minimum' : 'At least 8 characters'),
+    name: z.string().optional(),
+    businessName: z.string().optional(),
+  });
+}
 
 interface AuthFormProps {
   type: 'login' | 'register';
@@ -86,7 +93,7 @@ export function AuthForm({ type }: AuthFormProps) {
     handleSubmit,
     formState: { errors },
   } = useForm<AuthFormData>({
-    resolver: zodResolver(authSchema),
+    resolver: zodResolver(makeAuthSchema(isFr)),
   });
 
   const handleOAuthSignIn = async (provider: string) => {
