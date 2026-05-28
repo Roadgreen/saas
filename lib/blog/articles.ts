@@ -36539,6 +36539,352 @@ The commissary kitchen is not a luxury — it is the legal and operational backb
       "ouvrir-food-truck-guide-complet",
     ],
   },
+  {
+    slug: "vendre-son-food-truck-cession-fonds-commerce",
+    title: {
+      fr: "Comment vendre son food truck : cession de fonds de commerce, prix et démarches",
+      en: "How to Sell Your Food Truck: Business Transfer, Valuation and Steps",
+    },
+    excerpt: {
+      fr: "Vous souhaitez céder votre food truck ? Découvrez comment évaluer votre fonds de commerce, trouver un repreneur, et sécuriser la transaction sur le plan juridique et fiscal.",
+      en: "Planning to sell your food truck? Learn how to value your business, find a buyer, and protect yourself legally and financially during the transfer.",
+    },
+    category: { fr: "Gestion", en: "Management" },
+    date: "2026-05-28",
+    readTime: 11,
+    keywords: [
+      "vendre food truck",
+      "cession food truck",
+      "vente fonds de commerce food truck",
+      "reprendre food truck",
+      "prix vente food truck",
+      "céder son food truck",
+    ],
+    heroImage: "/blog/gestion-stock.png",
+    content: {
+      fr: `## Vendre son food truck : une décision structurante
+
+Que vous souhaitiez prendre votre retraite, changer de projet ou simplement passer à autre chose, la cession d'un food truck est une opération qui mérite d'être préparée avec soin. Contrairement à ce que l'on pourrait croire, vendre son food truck ne se résume pas à trouver un acheteur pour le véhicule. Dans la plupart des cas, vous cédez un **fonds de commerce** — c'est-à-dire un ensemble d'éléments incorporels (clientèle, nom commercial, autorisations) et matériels (camion, équipements) qui constituent une activité viable.
+
+Bien préparée, une cession peut vous rapporter bien plus que la simple valeur du matériel. Mal engagée, elle peut générer des litiges, des redressements fiscaux ou une perte significative de valeur.
+
+## Évaluer le prix de cession de son food truck
+
+### Les composantes de la valorisation
+
+Le prix d'un food truck se détermine en croisant plusieurs éléments :
+
+**1. La valeur du véhicule et des équipements**
+C'est la base la plus simple à calculer. Elle dépend de :
+- L'âge et l'état du camion (kilométrage, carrosserie, révisions)
+- L'équipement embarqué (plancha, friteuse, frigos, système de caisse)
+- La présence d'un contrôle technique récent et d'une attestation de conformité gaz
+
+Un food truck en bon état, âgé de 3 à 5 ans, vaut généralement entre **15 000 et 45 000 €** selon le niveau d'équipement.
+
+**2. Le fonds de commerce**
+C'est souvent la part la plus importante pour un food truck qui tourne bien. Elle intègre :
+- La **clientèle régulière** et la réputation locale
+- Les **emplacements sous contrat** (marchés récurrents, résidences d'entreprise, festivals fidèles)
+- Le **nom commercial** et les comptes sur les réseaux sociaux
+- Les **contrats fournisseurs** négociés (prix, délais, conditions)
+- La **cuisine centrale** sous contrat
+
+La valorisation du fonds se base généralement sur un **multiple du chiffre d'affaires annuel** ou de l'EBE (Excédent Brut d'Exploitation) :
+
+| Situation | Méthode | Ratio indicatif |
+|---|---|---|
+| Food truck rentable, emplacements stables | Multiple CA | 20 à 50 % du CA annuel |
+| Food truck très rentable, EBE > 15 % | Multiple EBE | 1,5 à 3× l'EBE |
+| Activité irrégulière ou en déclin | Valeur matériel seul | 0 à 10 % du CA |
+
+**Exemple concret** : un food truck réalisant 80 000 € de CA annuel avec un EBE de 18 000 € pourrait se valoriser entre 32 000 et 54 000 € pour le fonds, plus la valeur du véhicule.
+
+### Les erreurs de valorisation à éviter
+
+- **Surestimer la clientèle** : si elle est liée à votre personnalité plutôt qu'à la marque, elle ne se transfère pas automatiquement
+- **Ignorer le passif** : dettes fournisseurs, loyers de cuisine centrale en retard, charges sociales impayées réduisent le prix net vendeur
+- **Oublier les travaux à prévoir** : un camion qui a besoin de 5 000 € de remise en état sera négocié à la baisse
+
+## Les différentes formes de cession
+
+### 1. Cession de fonds de commerce
+
+C'est la forme la plus courante. Vous cédez l'ensemble de l'activité (camion + équipements + clientèle + contrats) à un repreneur qui continue l'exploitation. Cette formule est avantageuse si votre food truck a une réelle valeur commerciale au-delà du matériel.
+
+**Obligations légales** :
+- Rédaction d'un acte de cession (de préférence par un avocat ou notaire)
+- Publication dans un journal d'annonces légales
+- Déclaration à la mairie ou préfecture si votre autorisation de stationnement est nominative
+- Information préalable des salariés si vous en avez (loi Hamon)
+
+### 2. Cession du véhicule uniquement
+
+Si votre activité n'a pas de valeur commerciale significative (clientèle peu fidèle, aucun emplacement régulier), vous pouvez simplement vendre le camion aménagé. La transaction se fait alors comme une vente de véhicule professionnel, sans les formalités de cession de fonds.
+
+### 3. Apport à une société
+
+Si un associé souhaite reprendre l'activité dans le cadre d'une nouvelle structure, il est possible d'apporter le fonds à une société. C'est une opération plus complexe mais qui peut présenter des avantages fiscaux selon votre situation.
+
+## Trouver un repreneur
+
+### Les canaux de recherche
+
+- **Leboncoin Pro** et **Annonces Légales** : les plus simples pour une cession classique
+- **Platforms spécialisées** : Transentreprise.com, Cession-PME.fr, fusacq.com
+- **Réseaux professionnels** : syndicats de restaurateurs, groupes Facebook de food truckers, fédérations régionales
+- **Bouche à oreille** : souvent le canal le plus efficace, notamment via votre réseau de fournisseurs ou de chefs cuisiniers
+
+### Préparer son dossier de cession
+
+Un bon dossier rassure l'acheteur et justifie votre prix. Il doit inclure :
+
+1. **Les 3 derniers bilans comptables** (ou liasses fiscales si auto-entrepreneur)
+2. **Le récapitulatif des emplacements** avec fréquence, CA moyen par emplacement, copie des autorisations
+3. **L'inventaire complet** du matériel avec photos et état
+4. **Le carnet d'entretien** du véhicule
+5. **Les contrats en cours** : cuisine centrale, fournisseurs, abonnements
+6. **Les relevés de caisse SumUp** ou équivalents sur 12 mois
+
+Avec FoodTracks, vous disposez déjà d'un historique structuré de vos ventes, charges et marges — une base solide pour construire ce dossier rapidement.
+
+## Aspects fiscaux de la cession
+
+### Imposition de la plus-value
+
+La plus-value réalisée lors de la cession est imposable. Le régime applicable dépend de votre structure juridique :
+
+- **Auto-entrepreneur** : la plus-value est intégrée aux BIC (bénéfices industriels et commerciaux) et soumise à l'IR
+- **EURL/SARL à l'IS** : la plus-value est imposée à l'IS au taux normal (15 % jusqu'à 42 500 €, 25 % au-delà)
+
+**Exonérations possibles** (sous conditions) :
+- Si votre CA annuel est inférieur à **250 000 €** (restauration), vous pouvez bénéficier d'une exonération totale ou partielle selon l'article 151 septies du CGI
+- Si vous cédez après **5 ans d'activité**, des abattements significatifs s'appliquent
+- Le **départ à la retraite** ouvre droit à une exonération spécifique sous conditions de durée d'activité et de délai
+
+**Conseil** : consultez un expert-comptable avant de finaliser la vente. Une optimisation fiscale bien anticipée peut représenter plusieurs milliers d'euros d'économie.
+
+### Les droits d'enregistrement
+
+L'acheteur supporte en principe les droits d'enregistrement calculés sur le prix de cession du fonds :
+- 0 % jusqu'à 23 000 €
+- 3 % de 23 000 € à 200 000 €
+- 5 % au-delà de 200 000 €
+
+Ces droits sont dus à l'administration fiscale dans le mois suivant la signature de l'acte.
+
+## Sécuriser la transaction
+
+### Les précautions indispensables
+
+- **Faites rédiger l'acte de cession** par un professionnel (avocat ou notaire). Un acte sous seing privé mal rédigé peut engager votre responsabilité pendant des années.
+- **Prévoyez une clause de garantie de passif** : si des dettes cachées apparaissent après la cession, l'acheteur peut se retourner contre vous. Délimitez contractuellement cette garantie.
+- **Séquestrez une partie du prix** chez un tiers de confiance (notaire ou avocat) pendant la période légale d'opposition des créanciers (10 jours après publication).
+- **Vérifiez que vos autorisations sont transférables** : certaines autorisations de stationnement municipales sont personnelles et ne se cèdent pas automatiquement. L'acheteur doit faire sa propre demande.
+
+## Conclusion
+
+Vendre son food truck est une opération qui peut être très rentable si elle est bien préparée. La clé est de documenter soigneusement votre activité en amont — chiffres de vente, emplacements, contrats, entretien du matériel — pour justifier un prix juste et rassurer le repreneur. Anticipez les aspects fiscaux avec votre comptable, faites appel à un professionnel pour la rédaction de l'acte, et soignez votre dossier de présentation. Une cession réussie, c'est un acheteur satisfait qui continue votre travail, et un vendeur qui repart sur de bonnes bases.`,
+      en: `## Selling Your Food Truck: A Decision That Deserves Careful Planning
+
+Whether you are retiring, moving on to a new project, or simply ready for a change, selling a food truck is an operation that requires thorough preparation. Contrary to what many assume, selling your food truck is not just about finding a buyer for the vehicle. In most cases, you are transferring a **business as a going concern** — a combination of intangible assets (customer base, trading name, licences) and physical assets (vehicle, equipment) that form a viable operation.
+
+Well prepared, a sale can generate significantly more than the scrap value of the equipment. Poorly handled, it can lead to disputes, tax reassessments, or a substantial loss of value.
+
+## Valuing Your Food Truck Business
+
+### The Components of Valuation
+
+The sale price of a food truck is determined by combining several elements:
+
+**1. Vehicle and Equipment Value**
+This is the simplest component to calculate. It depends on:
+- Age and condition of the truck (mileage, bodywork, service history)
+- On-board equipment (griddle, fryer, refrigeration units, POS system)
+- Recent roadworthiness certificate and gas compliance certificate
+
+A well-maintained food truck aged 3 to 5 years is typically worth between **€15,000 and €45,000** depending on equipment level.
+
+**2. Business Goodwill**
+This is often the most valuable component for a food truck with an established trade. It includes:
+- **Regular customers** and local reputation
+- **Contracted pitches** (recurring markets, corporate estates, loyal festival slots)
+- **Trading name** and social media accounts
+- **Negotiated supplier contracts** (pricing, lead times, terms)
+- **Commissary kitchen** contract
+
+Goodwill is typically valued using a **multiple of annual revenue** or EBITDA:
+
+| Situation | Method | Indicative Ratio |
+|---|---|---|
+| Profitable truck with stable pitches | Revenue multiple | 20–50% of annual turnover |
+| Highly profitable, EBITDA > 15% | EBITDA multiple | 1.5–3× EBITDA |
+| Irregular or declining activity | Equipment value only | 0–10% of turnover |
+
+**Concrete example**: a food truck turning over €80,000/year with EBITDA of €18,000 could be valued at €32,000–54,000 for goodwill, plus the vehicle value.
+
+### Common Valuation Mistakes
+
+- **Overvaluing customer loyalty**: if regulars come for you personally rather than the brand, they may not transfer to a new owner
+- **Ignoring liabilities**: supplier debts, overdue kitchen rental, unpaid social charges all reduce the net price
+- **Overlooking required repairs**: a truck needing €5,000 of work will be negotiated down accordingly
+
+## Forms of Business Transfer
+
+### 1. Full Business Transfer (Cession de Fonds de Commerce)
+
+This is the most common form. You transfer the entire operation (truck + equipment + customers + contracts) to a buyer who continues trading. This works best when your food truck has genuine commercial value beyond the physical assets.
+
+**Legal requirements**:
+- Drafting a transfer deed (preferably by a lawyer or notary)
+- Publication in a legal gazette
+- Notification to the relevant authority if your parking authorisation is issued in your name
+- Prior notification to employees if applicable (Loi Hamon)
+
+### 2. Vehicle-Only Sale
+
+If your business has limited commercial value (irregular customers, no regular pitches), you can simply sell the fitted vehicle. The transaction proceeds like a standard commercial vehicle sale, without the formalities of a full business transfer.
+
+### 3. Contribution to a Company
+
+If a partner wishes to take over the business within a new corporate structure, it is possible to contribute the business assets to a company. This is more complex but can offer tax advantages depending on your situation.
+
+## Finding a Buyer
+
+### Search Channels
+
+- **Leboncoin Pro** and **legal notice platforms**: simplest for a standard transfer
+- **Specialist platforms**: Transentreprise.com, Cession-PME.fr, fusacq.com
+- **Professional networks**: restaurateur associations, food trucker Facebook groups, regional federations
+- **Word of mouth**: often the most effective channel, particularly through your supplier and chef network
+
+### Preparing Your Sale File
+
+A solid file reassures the buyer and justifies your price. It should include:
+
+1. **Last 3 years of accounts** (or tax returns for sole traders)
+2. **Pitch summary**: frequency, average revenue per pitch, copies of authorisations
+3. **Full equipment inventory** with photos and condition notes
+4. **Vehicle service history**
+5. **Current contracts**: commissary kitchen, suppliers, subscriptions
+6. **12 months of till receipts** from SumUp or equivalent
+
+With FoodTracks, you already have a structured history of your sales, costs, and margins — a strong foundation for building this file quickly.
+
+## Tax Aspects of the Sale
+
+### Capital Gains Tax
+
+Any gain made on the sale is taxable. The applicable regime depends on your legal structure:
+
+- **Sole trader**: the gain is included in business income (BIC) and subject to income tax
+- **EURL/SARL taxed at corporate rate**: the gain is subject to corporation tax (15% up to €42,500, 25% above)
+
+**Possible exemptions** (subject to conditions):
+- If your annual turnover is below **€250,000** (food service), you may qualify for full or partial exemption under Article 151 septies of the French Tax Code
+- If you sell after **5 years of activity**, significant allowances apply
+- **Retirement** triggers a specific exemption subject to activity duration and timing conditions
+
+**Advice**: consult an accountant before finalising the sale. Proper tax planning can represent several thousand euros of savings.
+
+### Transfer Duties
+
+The buyer typically bears the registration duties calculated on the sale price of the business:
+- 0% up to €23,000
+- 3% from €23,000 to €200,000
+- 5% above €200,000
+
+These duties are payable to the tax authority within one month of signing the deed.
+
+## Securing the Transaction
+
+### Essential Precautions
+
+- **Have the transfer deed drafted professionally** (lawyer or notary). A poorly drafted private deed can expose you to liability for years.
+- **Include a warranty against undisclosed liabilities**: if hidden debts surface after the sale, the buyer may seek recourse. Define this warranty clearly and limit its duration contractually.
+- **Escrow part of the price** with a trusted third party (notary or lawyer) during the legal creditors' opposition period (10 days after publication).
+- **Verify that your authorisations are transferable**: some municipal parking authorisations are personal and do not transfer automatically. The buyer must apply in their own name.
+
+## Conclusion
+
+Selling your food truck can be highly rewarding if you prepare properly. The key is to document your operation thoroughly beforehand — sales figures, pitches, contracts, vehicle maintenance — to justify a fair price and reassure the buyer. Plan the tax side with your accountant, use a professional for the transfer deed, and invest time in your sale file. A successful handover means a satisfied buyer who carries your work forward — and a seller who moves on with confidence.`,
+    },
+    keyTakeaways: {
+      fr: [
+        "Un food truck se vend comme un fonds de commerce : véhicule + équipements + clientèle + emplacements, valorisé à 20–50 % du CA annuel pour une activité rentable.",
+        "La plus-value de cession peut être exonérée d'impôt si votre CA est inférieur à 250 000 € et que vous cédez après 5 ans d'activité.",
+        "Faites rédiger l'acte de cession par un avocat ou notaire pour vous protéger contre les litiges post-vente.",
+        "Préparez un dossier de cession complet (3 ans de bilans, liste des emplacements, inventaire matériel) pour justifier votre prix.",
+        "Certaines autorisations de stationnement sont nominatives : vérifiez leur transférabilité avant de signer.",
+      ],
+      en: [
+        "A food truck sells as a going concern: vehicle + equipment + customers + pitches, valued at 20–50% of annual turnover for a profitable operation.",
+        "Capital gains may be tax-exempt if your turnover is below €250,000 and you sell after 5 years of trading.",
+        "Have the transfer deed drafted by a lawyer or notary to protect yourself against post-sale disputes.",
+        "Prepare a thorough sale file (3 years of accounts, pitch list, equipment inventory) to substantiate your asking price.",
+        "Some parking authorisations are personal: verify transferability before signing.",
+      ],
+    },
+    faqItems: [
+      {
+        question: {
+          fr: "Combien vaut un food truck à la revente ?",
+          en: "How much is a food truck worth when resold?",
+        },
+        answer: {
+          fr: "Le prix dépend de deux composantes : la valeur du véhicule et des équipements (15 000 à 45 000 € pour un camion en bon état) et la valeur du fonds de commerce (20 à 50 % du CA annuel pour un food truck rentable avec des emplacements stables). Un food truck réalisant 80 000 € de CA annuel peut ainsi se vendre entre 50 000 et 90 000 € en incluant le véhicule.",
+          en: "The price depends on two components: vehicle and equipment value (€15,000–45,000 for a well-maintained truck) and business goodwill (20–50% of annual turnover for a profitable truck with stable pitches). A food truck turning over €80,000/year can therefore sell for €50,000–90,000 including the vehicle.",
+        },
+      },
+      {
+        question: {
+          fr: "Doit-on passer par un notaire pour vendre son food truck ?",
+          en: "Is a notary required to sell a food truck?",
+        },
+        answer: {
+          fr: "Ce n'est pas obligatoire, mais fortement recommandé pour une cession de fonds de commerce. Un acte rédigé par un avocat ou un notaire sécurise la transaction, protège le vendeur via une clause de garantie de passif, et gère le séquestre du prix pendant la période d'opposition des créanciers. Un acte sous seing privé mal rédigé peut engager votre responsabilité pendant des années.",
+          en: "It is not legally required, but strongly recommended for a full business transfer. A deed drafted by a lawyer or notary secures the transaction, protects the seller through a liability warranty clause, and handles price escrow during the creditors' opposition period. A poorly drafted private deed can expose you to liability for years.",
+        },
+      },
+      {
+        question: {
+          fr: "Peut-on céder les autorisations de stationnement avec le food truck ?",
+          en: "Can parking authorisations be transferred with the food truck?",
+        },
+        answer: {
+          fr: "Pas automatiquement. Certaines autorisations municipales sont nominatives et délivrées à titre personnel. Le repreneur doit effectuer sa propre demande auprès de la mairie ou de la préfecture. Renseignez-vous auprès de chaque collectivité concernée avant de vous engager sur la valeur des emplacements dans la négociation.",
+          en: "Not automatically. Some municipal authorisations are issued in the individual's name and cannot be formally transferred. The buyer must apply in their own name with the relevant authority. Check with each local authority before factoring pitch value into your negotiations.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment bénéficier de l'exonération de plus-value lors de la cession de son food truck ?",
+          en: "How can I benefit from the capital gains exemption when selling my food truck?",
+        },
+        answer: {
+          fr: "L'article 151 septies du CGI prévoit une exonération totale de la plus-value si votre CA moyen des deux dernières années est inférieur à 250 000 € (activité de restauration) et que vous exercez depuis au moins 5 ans. Une exonération partielle s'applique jusqu'à 350 000 € de CA. Consultez un expert-comptable pour vérifier votre éligibilité et optimiser votre calendrier de cession.",
+          en: "Article 151 septies of the French Tax Code provides full capital gains exemption if your average turnover over the last two years is below €250,000 (food service) and you have been trading for at least 5 years. Partial exemption applies up to €350,000 in turnover. Consult an accountant to verify your eligibility and optimise your sale timing.",
+        },
+      },
+      {
+        question: {
+          fr: "Où trouver un repreneur pour son food truck ?",
+          en: "Where can I find a buyer for my food truck?",
+        },
+        answer: {
+          fr: "Les canaux les plus efficaces sont : Leboncoin Pro, les plateformes spécialisées en cession de PME (Transentreprise, Cession-PME.fr), les groupes Facebook de food truckers, les fédérations régionales de restaurateurs, et le bouche à oreille via votre réseau de fournisseurs. Préparez un dossier complet avant toute démarche pour crédibiliser votre offre.",
+          en: "The most effective channels are: Leboncoin Pro, specialist business transfer platforms (Transentreprise, Cession-PME.fr), food trucker Facebook groups, regional restaurateur federations, and word of mouth through your supplier network. Prepare a thorough sale file before approaching any buyers to add credibility to your offer.",
+        },
+      },
+    ],
+    relatedSlugs: [
+      "statut-juridique-food-truck",
+      "comptabilite-food-truck-guide",
+      "tva-food-truck-regime-fiscal",
+      "ouvrir-food-truck-guide-complet",
+      "cuisine-centrale-food-truck",
+    ],
+  },
 ];
 
 export const blogArticles: BlogArticle[] = [...baseBlogArticles, ...verticalArticles];
