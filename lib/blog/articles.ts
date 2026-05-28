@@ -36885,6 +36885,296 @@ Selling your food truck can be highly rewarding if you prepare properly. The key
       "cuisine-centrale-food-truck",
     ],
   },
+  {
+    slug: "trouver-emplacement-food-truck",
+    title: {
+      fr: "Comment trouver des emplacements pour son food truck : guide complet 2026",
+      en: "How to Find Pitches for Your Food Truck: Complete Guide 2026",
+    },
+    excerpt: {
+      fr: "Marchés, festivals, parcs d'entreprises, événements privés... Découvrez toutes les méthodes pour trouver et sécuriser de bons emplacements pour votre food truck, été comme hiver.",
+      en: "Markets, festivals, business parks, private events... Learn every method to find and secure great pitches for your food truck, summer and winter alike.",
+    },
+    category: { fr: "Réglementation", en: "Regulations" },
+    date: "2026-05-28",
+    readTime: 12,
+    keywords: [
+      "trouver emplacement food truck",
+      "emplacement food truck marché",
+      "autorisation stationnement food truck",
+      "food truck festival comment participer",
+      "emplacement food truck entreprise",
+      "trouver clients food truck",
+    ],
+    heroImage: "/blog/gestion-stock.png",
+    content: {
+      fr: `## Trouver des emplacements : le nerf de la guerre pour tout food trucker
+
+L'emplacement est sans doute le facteur le plus décisif dans la réussite d'un food truck. Un bon produit servi au mauvais endroit ne fait pas de chiffre. À l'inverse, le même produit positionné devant une affluence régulière peut générer des journées à 500, 800, voire 1 000 € de recettes. **Trouver et sécuriser de bons emplacements est donc une compétence commerciale à part entière**, pas un simple détail logistique.
+
+Ce guide fait le tour des canaux disponibles, des démarches à effectuer, et des erreurs à éviter pour construire un planning d'emplacements solide — en particulier pendant la haute saison estivale.
+
+## Les 5 grandes familles d'emplacements
+
+### 1. Les marchés municipaux et marchés de plein air
+
+Les marchés hebdomadaires sont l'emplacement le plus stable pour un food trucker débutant. Ils offrent un flux garanti de passants et une répétition qui permet de fidéliser une clientèle.
+
+**Comment obtenir une place** :
+- Contactez directement le **gestionnaire du marché** (souvent la mairie ou une régie municipale)
+- Demandez à figurer sur la **liste d'attente** : les places sont rares sur les marchés bien établis
+- Certaines mairies organisent des **appels à candidatures** en début d'année ou après départ d'un exposant
+- Proposez votre profil par écrit : type de cuisine, photos du camion, références si vous en avez
+
+**Points de vigilance** :
+- Vérifiez que votre activité est compatible avec le règlement intérieur du marché (certains interdisent la restauration rapide ou imposent un minimum d'artisanat local)
+- La redevance d'emplacement varie de **5 à 30 € par mètre linéaire** selon la taille et le prestige du marché
+- Sur les marchés couverts ou en halle, les règles d'hygiène peuvent être plus strictes (hotte, extraction)
+
+### 2. Les zones d'activités, parcs d'entreprises et campus
+
+Les midi en semaine représentent souvent le pic de chiffre d'affaires pour un food truck. Les travailleurs en périphérie urbaine, mal desservis par les restaurants, sont une cible idéale.
+
+**Comment prospecter** :
+- Identifiez les zones industrielles et parcs d'entreprises dans un rayon de 30 km : la plupart ont un syndic ou un gestionnaire de parc joignable
+- Envoyez un **email de prospection** avec vos photos, votre carte et vos disponibilités, suivi d'un appel téléphonique
+- Certaines grandes entreprises passent des **conventions de restauration** avec des food truckers pour alimenter leurs salariés midi et soir
+- Les **campus universitaires** sont également une piste (contacter le CROUS ou la direction des équipements)
+
+**Conseil** : proposez d'abord un service test sur 2 ou 3 midis avant de proposer un contrat régulier. Cela réduit le risque perçu pour le gestionnaire.
+
+### 3. Les festivals, marchés de Noël et événements saisonniers
+
+La haute saison (mai à septembre) est marquée par une explosion du nombre d'événements. Les festivals de musique, les brocantes géantes, les festivals gastronomiques, les marchés estivaux et les fêtes locales représentent des opportunités de CA élevé sur une courte période.
+
+**Comment s'inscrire** :
+- Surveillez les **appels à candidatures** publiés sur les sites de mairies, les pages Facebook des organisateurs, les groupes de food truckers
+- Plateformes dédiées : **FoodTruckClub**, **FoodTruckRollCall**, **Maasai** (selon les régions)
+- Constituez un **dossier candidature attractif** : photos du camion en situation, menu adapté à l'événement, attestation d'assurance, extrait Kbis, attestation de formation HACCP
+- Candidatez tôt : les meilleurs événements reçoivent des dizaines de dossiers dès janvier pour la saison estivale
+
+**Points de vigilance** :
+- Vérifiez les **frais de participation** : certains événements facturent un droit d'entrée élevé (200 à 1 500 €) et/ou un pourcentage du CA (souvent 10 à 20 %). Calculez votre point mort avant d'accepter.
+- Renseignez-vous sur le **nombre de stands restauration** prévus : 2 food trucks pour 500 personnes, c'est parfait ; 15 pour 2 000, c'est beaucoup plus aléatoire.
+- Exigez une confirmation écrite avec les horaires, les conditions d'alimentation électrique, l'accès eau et les règles de déchets.
+
+### 4. Les événements privés (mariages, séminaires, soirées d'entreprise)
+
+Le marché des événements privés est moins visible mais très rentable : les budgets sont plus élevés, la clientèle est captive et les horaires sont définis à l'avance. Un mariage de 150 personnes peut générer 2 000 à 4 000 € de recettes sur une soirée.
+
+**Comment développer ce canal** :
+- Créez une **page dédiée** sur votre site avec des forfaits événementiels clairs (prix par tête, durée de service, inclus/exclus)
+- Référencez-vous sur les plateformes de prestataires événementiels : **Mariages.net**, **La Mariée en Colère**, **WeddingWire**, **EventBrite Prestataires**
+- Contactez les **agences événementielles** locales : elles ont besoin de prestataires restauration originaux et n'ont pas toujours de food trucker dans leur carnet
+- Le bouche à oreille fonctionne très bien : un service impeccable lors d'un premier mariage génère souvent 2 ou 3 nouvelles demandes
+
+**Conseil** : proposez un **acompte de 30 %** à la réservation pour couvrir vos préparatifs. Les annulations de dernière minute en événementiel peuvent être coûteuses.
+
+### 5. Le stationnement en voirie (stationnement autorisé sur la voie publique)
+
+Dans certaines communes, il est possible d'obtenir une autorisation temporaire d'occupation du domaine public (AOT) pour stationner sur la voie publique. C'est le mode le plus flexible mais aussi le plus encadré.
+
+**Démarche** :
+- Adressez une demande écrite à la **mairie** (direction de l'urbanisme ou de la voirie) en précisant le lieu exact, les jours et horaires souhaités, la durée demandée
+- La commune évalue la compatibilité avec la circulation, les commerces voisins et les règles locales
+- Une AOT n'est jamais acquise définitivement : elle est renouvelable et peut être retirée
+
+**À savoir** : de nombreuses grandes villes (Paris, Lyon, Bordeaux) ont des régimes spécifiques avec des zones réservées aux food trucks, des appels d'offres périodiques ou des emplacements en rotation. Renseignez-vous auprès de votre mairie sur l'existence d'un **règlement local spécifique aux food trucks**.
+
+## Gérer et optimiser son planning d'emplacements
+
+### Diversifier pour sécuriser
+
+Ne dépendez jamais d'un seul emplacement. Un marché annulé, une entreprise qui déménage, un festival qui disparaît — et votre planning s'effondre. Visez un mix de :
+- 2 ou 3 **emplacements réguliers** (marchés, parcs d'entreprises) qui garantissent un socle de CA
+- 1 à 2 **événements ponctuels** par mois pour les pics de CA
+- 1 ou 2 **slots événementiels privés** par mois en haute saison
+
+### Analyser la rentabilité par emplacement
+
+Tous les emplacements ne se valent pas. Un marché qui génère 300 € de CA mais dure 6 heures avec 2 heures de trajet est moins rentable qu'un parc d'entreprises qui génère 400 € en 2 heures.
+
+Avec **FoodTracks**, vous pouvez suivre votre CA par service grâce à la synchronisation avec votre caisse SumUp, et identifier rapidement quels emplacements méritent d'être renouvelés — et lesquels sont à abandonner.
+
+### Tenir un calendrier prévisionnel
+
+Dès la fin d'un événement, relancez l'organisateur pour l'année suivante. Les meilleurs créneaux partent en novembre-décembre pour la saison suivante. Une simple relance email au bon moment peut vous garantir votre place avant même que le recrutement officiel commence.
+
+## Conclusion
+
+Trouver des emplacements rentables est une activité commerciale à part entière, qui demande méthode, persévérance et suivi. Commencez par les marchés de proximité pour construire votre réputation, puis montez en gamme vers les événements et l'événementiel privé. Analysez la rentabilité réelle de chaque emplacement — recettes, durée de service, frais d'accès — pour affiner votre planning au fil des saisons. Un food truck bien positionné, c'est souvent plus décisif qu'un menu exceptionnel.`,
+      en: `## Finding Pitches: The Make-or-Break Factor for Every Food Trucker
+
+Location is arguably the most decisive factor in a food truck's success. A great product served in the wrong spot generates no revenue. The same product positioned in front of a regular, captive crowd can produce €500, €800 or even €1,000 in daily takings. **Finding and securing good pitches is therefore a genuine commercial skill** — not just a logistical detail.
+
+This guide covers every available channel, the steps involved, and the mistakes to avoid when building a solid pitch calendar — especially for the busy summer season.
+
+## The 5 Main Categories of Pitches
+
+### 1. Municipal Markets and Open-Air Markets
+
+Weekly markets are the most stable pitches for a new food trucker. They offer a guaranteed footfall and the repetition needed to build a loyal customer base.
+
+**How to get a spot**:
+- Contact the **market manager** directly (usually the town hall or a municipal body)
+- Ask to be added to the **waiting list**: spots at well-established markets are scarce
+- Some councils run **open calls for applications** at the start of the year or when a vendor leaves
+- Submit a written profile: cuisine type, photos of the truck, references if available
+
+**Key points**:
+- Check that your activity is compatible with the market's internal rules (some ban fast food or require a minimum of local craft produce)
+- Pitch fees range from **€5 to €30 per linear metre** depending on size and prestige
+- Covered or indoor markets often have stricter hygiene requirements (extraction hood, ventilation)
+
+### 2. Business Parks, Industrial Estates and Campuses
+
+Weekday lunchtimes are often the peak revenue period for food trucks. Workers in suburban areas with limited restaurant options are an ideal target.
+
+**How to prospect**:
+- Identify industrial zones and business parks within a 30 km radius: most have a manager or syndic you can reach
+- Send a **prospecting email** with photos, your menu and availability, then follow up by phone
+- Large companies sometimes sign **catering agreements** with food truckers to feed their staff at lunch and in the evening
+- **University campuses** are also an option (contact the student services office or facilities management)
+
+**Tip**: offer a trial run over 2 or 3 lunchtime services before proposing a regular contract. This reduces the perceived risk for the site manager.
+
+### 3. Festivals, Christmas Markets and Seasonal Events
+
+The high season (May to September) sees an explosion in events. Music festivals, large flea markets, food festivals, summer markets and local fairs all represent opportunities for high revenue over a short period.
+
+**How to apply**:
+- Monitor **calls for applications** on council websites, organisers' Facebook pages and food trucker groups
+- Dedicated platforms: **FoodTruckClub**, **FoodTruckRollCall**, **Maasai** (varies by region)
+- Build an **attractive application file**: photos of the truck in action, a menu tailored to the event, insurance certificate, company registration, HACCP training certificate
+- Apply early: the best events receive dozens of applications from January onwards for the summer season
+
+**Key points**:
+- Check **participation fees**: some events charge a high entry fee (€200–1,500) and/or a percentage of takings (typically 10–20%). Calculate your break-even before accepting.
+- Find out how many **catering stands** are planned: 2 food trucks for 500 people is perfect; 15 for 2,000 is far more unpredictable.
+- Insist on written confirmation covering hours, electricity supply, water access and waste rules.
+
+### 4. Private Events (Weddings, Corporate Seminars, Private Parties)
+
+The private events market is less visible but highly profitable: budgets are larger, the audience is captive and timings are fixed in advance. A wedding of 150 guests can generate €2,000–4,000 in a single evening.
+
+**How to develop this channel**:
+- Create a **dedicated page** on your website with clear event packages (price per head, service duration, what's included)
+- List yourself on event supplier platforms: **Mariages.net**, **La Mariée en Colère**, **WeddingWire**, **EventBrite Suppliers**
+- Contact **local event agencies**: they need original catering suppliers and do not always have food truckers in their address books
+- Word of mouth works very well here: one impeccable wedding service often generates 2 or 3 new enquiries
+
+**Tip**: ask for a **30% deposit** at booking to cover your preparations. Last-minute cancellations in events can be costly.
+
+### 5. Street Trading (Authorised Parking on the Public Highway)
+
+In some towns, it is possible to obtain a temporary authorisation to occupy public land (AOT — Autorisation d'Occupation Temporaire) and park on a public street. This is the most flexible option but also the most regulated.
+
+**Process**:
+- Submit a written request to the **town hall** (planning or highways department), specifying the exact location, requested days and hours, and duration
+- The council assesses compatibility with traffic flow, neighbouring businesses and local rules
+- An AOT is never permanent: it is renewable and can be withdrawn
+
+**Worth knowing**: many large cities (Paris, Lyon, Bordeaux) have specific schemes with designated food truck zones, periodic tender processes, or rotation slots. Check with your local authority whether a **specific local food truck framework** exists.
+
+## Managing and Optimising Your Pitch Calendar
+
+### Diversify to Protect Yourself
+
+Never depend on a single pitch. A cancelled market, a company relocation, a festival that disappears — and your calendar collapses. Aim for a mix of:
+- 2 or 3 **regular pitches** (markets, business parks) providing a baseline revenue floor
+- 1 to 2 **one-off events** per month for revenue peaks
+- 1 or 2 **private event slots** per month during high season
+
+### Analyse the Profitability of Each Pitch
+
+Not all pitches are equal. A market generating €300 in takings over 6 hours plus 2 hours of travel is less profitable than a business park generating €400 in 2 hours.
+
+With **FoodTracks**, you can track your revenue per service through the SumUp till integration, and quickly identify which pitches are worth renewing — and which to drop.
+
+### Keep a Forward-Looking Calendar
+
+As soon as an event ends, follow up with the organiser about the following year. The best slots are snapped up in November and December for the next season. A simple email at the right moment can secure your place before official recruitment even opens.
+
+## Conclusion
+
+Finding profitable pitches is a genuine commercial activity that demands method, persistence and follow-through. Start with local markets to build your reputation, then work up to larger events and private catering. Analyse the true profitability of each pitch — revenue, service duration, access costs — to sharpen your calendar season by season. A well-positioned food truck is often more decisive than an exceptional menu.`,
+    },
+    keyTakeaways: {
+      fr: [
+        "Diversifiez vos emplacements entre marchés réguliers, parcs d'entreprises, événements et privés pour ne jamais dépendre d'un seul canal.",
+        "Pour les festivals estivaux, candidatez dès janvier : les meilleurs créneaux partent plusieurs mois à l'avance.",
+        "Calculez la rentabilité réelle de chaque emplacement (CA / heure de service) pour abandonner les moins efficaces.",
+        "Les événements privés (mariages, séminaires) offrent les marges les plus élevées mais nécessitent une page dédiée et une présence sur les plateformes prestataires.",
+        "Un dossier de candidature soigné (photos, menu, HACCP, assurance) multiplie vos chances d'être sélectionné sur les événements premium.",
+      ],
+      en: [
+        "Diversify across regular markets, business parks, events and private bookings so you never depend on a single channel.",
+        "For summer festivals, apply from January: the best slots fill months in advance.",
+        "Calculate the true profitability of each pitch (revenue per service hour) to cut the least efficient ones.",
+        "Private events (weddings, seminars) offer the highest margins but require a dedicated page and presence on supplier platforms.",
+        "A polished application file (photos, menu, HACCP certificate, insurance) significantly increases your chances of being selected for premium events.",
+      ],
+    },
+    faqItems: [
+      {
+        question: {
+          fr: "Comment obtenir une place sur un marché avec mon food truck ?",
+          en: "How do I get a market pitch for my food truck?",
+        },
+        answer: {
+          fr: "Contactez directement le gestionnaire du marché (mairie ou régie municipale) pour demander à être mis sur liste d'attente. Préparez un dossier avec photos de votre camion, type de cuisine, attestation d'assurance et extrait Kbis. Certaines mairies publient des appels à candidatures en début d'année. La patience est souvent nécessaire : les meilleures places partent vite et les renouvellements sont prioritaires.",
+          en: "Contact the market manager directly (town hall or municipal body) to ask to be added to the waiting list. Prepare a file with photos of your truck, cuisine type, insurance certificate and company registration. Some councils publish open calls at the start of the year. Patience is often required: the best spots fill quickly and renewals take priority.",
+        },
+      },
+      {
+        question: {
+          fr: "Est-il possible de stationner librement avec un food truck ?",
+          en: "Can a food truck park anywhere freely?",
+        },
+        answer: {
+          fr: "Non. La vente depuis un véhicule sur la voie publique est réglementée et requiert une autorisation d'occupation temporaire du domaine public (AOT), délivrée par la mairie. Stationner sans autorisation expose à une amende et à l'expulsion immédiate. Certaines villes disposent de zones dédiées aux food trucks avec un système de rotation ou d'appels d'offres — renseignez-vous auprès de votre mairie.",
+          en: "No. Selling from a vehicle on a public street is regulated and requires a temporary public land occupation authorisation (AOT) issued by the local council. Trading without authorisation risks a fine and immediate removal. Some cities have dedicated food truck zones with rotation or tender schemes — check with your local authority.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment participer à un festival avec mon food truck ?",
+          en: "How do I get into a festival with my food truck?",
+        },
+        answer: {
+          fr: "Surveillez les appels à candidatures publiés sur les sites des organisateurs, les groupes Facebook de food truckers et les plateformes comme FoodTruckClub. Préparez un dossier complet (photos du camion en situation, menu, HACCP, assurance, Kbis) et candidatez tôt — souvent dès novembre ou janvier pour la saison estivale. Vérifiez le niveau des frais de participation et le nombre de stands restauration avant d'accepter.",
+          en: "Monitor calls for applications on organiser websites, food trucker Facebook groups and platforms such as FoodTruckClub. Prepare a complete application file (photos, menu, HACCP, insurance, company registration) and apply early — often from November or January for the summer season. Check participation fees and the number of catering stands before accepting.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment trouver des contrats de restauration pour des entreprises ?",
+          en: "How do I find corporate catering contracts?",
+        },
+        answer: {
+          fr: "Identifiez les parcs d'activités et zones industrielles dans votre rayon, recherchez les coordonnées du syndic ou du gestionnaire de parc, et envoyez un email de prospection avec photos et disponibilités. Proposez 2 ou 3 midis test gratuits ou à tarif réduit avant de proposer un contrat régulier. Les grandes entreprises peuvent passer des conventions de restauration — contactez leur direction des services généraux ou RH.",
+          en: "Identify business parks and industrial estates in your area, find the syndic or park manager's contact details, and send a prospecting email with photos and availability. Offer 2 or 3 free or discounted trial lunchtimes before proposing a regular contract. Large companies can sign formal catering agreements — contact their facilities or HR department.",
+        },
+      },
+      {
+        question: {
+          fr: "Quel est le meilleur emplacement pour un food truck débutant ?",
+          en: "What is the best pitch for a beginner food trucker?",
+        },
+        answer: {
+          fr: "Pour un débutant, les marchés hebdomadaires locaux sont idéaux : flux régulier de clients, réputation qui se construit semaine après semaine, et faible risque financier. Une fois votre cuisine rodée et votre réputation établie, vous pouvez viser les parcs d'entreprises pour les midis semaine et les festivals estivaux pour les pics de CA. Évitez d'investir dans des événements à frais élevés avant d'avoir testé votre concept sur un public régulier.",
+          en: "For a beginner, local weekly markets are ideal: regular customer flow, a reputation that builds week after week, and low financial risk. Once your cuisine is refined and your reputation established, you can target business parks for weekday lunches and summer festivals for revenue peaks. Avoid investing in high-fee events before testing your concept on a regular audience.",
+        },
+      },
+    ],
+    relatedSlugs: [
+      "food-truck-reglementation-france",
+      "food-truck-evenementiel-mariage-entreprise",
+      "ouvrir-food-truck-guide-complet",
+      "statut-juridique-food-truck",
+      "gestion-stocks-food-truck-ete",
+    ],
+  },
 ];
 
 export const blogArticles: BlogArticle[] = [...baseBlogArticles, ...verticalArticles];
