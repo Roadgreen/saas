@@ -37175,6 +37175,281 @@ Finding profitable pitches is a genuine commercial activity that demands method,
       "gestion-stocks-food-truck-ete",
     ],
   },
+  {
+    slug: "food-truck-strasbourg-emplacements-autorisations",
+    title: {
+      fr: "Food truck à Strasbourg : emplacements, autorisations et conseils 2026",
+      en: "Food Truck in Strasbourg: Locations, Permits and Practical Tips 2026",
+    },
+    excerpt: {
+      fr: "Tout ce qu'il faut savoir pour lancer ou développer votre food truck à Strasbourg : les meilleurs emplacements, les autorisations à obtenir et les conseils pour être rentable en Alsace.",
+      en: "Everything you need to know to launch or grow your food truck in Strasbourg: best locations, permits to obtain, and tips for profitability in Alsace.",
+    },
+    category: { fr: "Guide Ville", en: "City Guide" },
+    date: "2026-05-29",
+    readTime: 10,
+    keywords: [
+      "food truck strasbourg",
+      "emplacement food truck strasbourg",
+      "autorisation food truck strasbourg",
+      "food truck alsace",
+      "lancer food truck strasbourg",
+    ],
+    heroImage: "/blog/food-truck-ville.png",
+    content: {
+      fr: `## Pourquoi Strasbourg est une ville idéale pour un food truck
+
+Strasbourg est l'une des villes les plus attractives de France pour se lancer en food truck. Capitale de l'Alsace et siège des institutions européennes, elle cumule plusieurs avantages :
+
+- **Une population estudiantine dense** : 50 000 étudiants à l'Université de Strasbourg
+- **Un fort tourisme annuel** : 10 millions de visiteurs par an (marché de Noël, cathédrale, quartier européen)
+- **Un pouvoir d'achat élevé** : ville prospère avec une clientèle habituée à bien manger
+- **Une culture culinaire forte** : les Strasbourgeois aiment la qualité et l'originalité
+
+Ces facteurs créent une demande solide et diversifiée, que vous proposiez de la cuisine alsacienne revisitée, des burgers premium ou de la street food internationale.
+
+## Les meilleurs emplacements pour un food truck à Strasbourg
+
+### Le centre-ville et la Petite France
+
+Le cœur historique de Strasbourg concentre le flux touristique le plus dense. Les zones à fort potentiel :
+
+- **Place Kléber** : la plus grande place de Strasbourg, idéale pour les événements et marchés
+- **Place Gutenberg** : proximité commerciale, flux piétonnier constant
+- **Quartier de la Petite France** : touristes + habitants du quartier, mais emplacement soumis à autorisation stricte
+- **Quais de l'Ill** : agréable en belle saison, idéal pour le déjeuner
+
+⚠️ Ces zones sont en secteur sauvegardé (patrimoine UNESCO). Les autorisations y sont plus strictes et contingentées.
+
+### Les campus universitaires
+
+Avec 50 000 étudiants, les campus représentent une opportunité majeure :
+
+- **Campus de l'Esplanade** : le plus grand campus, accès sur convention avec l'université
+- **Campus de Cronenbourg** : sciences et médecine, clientèle déjeuner régulière
+- **IEP / Sciences Po** : clientèle aisée, ouverte aux concepts originaux
+
+Les emplacements sur campus se négocient directement avec la Direction du Patrimoine de l'université. Prévoyez une commission de 8 à 15 % sur le CA ou un loyer fixe mensuel.
+
+### Les zones d'activité et quartier européen
+
+Le Quartier Européen (Parlement européen, Conseil de l'Europe) regroupe des milliers de fonctionnaires et lobbyistes :
+
+- **Allée de la Robertsau** : forte densité de bureaux
+- **Wacken Business District** : zone tertiaire en développement
+- **Port du Rhin** : zone industrielle, clientèle ouvrière/technicienne — niche sous-exploitée
+
+### Les marchés et événements
+
+Strasbourg est réputée pour ses marchés et festivals :
+
+- **Marché de Noël de Strasbourg** (novembre-décembre) : le plus ancien de France, 2 millions de visiteurs — mais places très limitées et sélection compétitive
+- **Fête de la Musique** (21 juin) : déploiement possible sur places publiques avec autorisation ponctuelle
+- **Festival Ososphère / Rock'N'Solex** : événements étudiants, parfaits pour les food trucks
+- **Marchés hebdomadaires** : place de la Marne (mercredi/samedi), marché de la Krutenau (samedi matin)
+
+## Les autorisations nécessaires
+
+### Le permis de stationnement (AOT)
+
+Pour exercer sur le domaine public strasbourgeois, vous avez besoin d'une **Autorisation d'Occupation Temporaire (AOT)** :
+
+**1. Autorisation fixe (poste fixe)**
+- Demande à la Direction de la Voirie et des Déplacements de Strasbourg Eurométropole
+- Dossier : Kbis, assurance RC Pro, attestation hygiène, plan du véhicule, photos
+- Délai : 2 à 4 mois
+- Coût : environ 8 à 25 €/m²/mois selon zone
+
+**2. Autorisation itinérante**
+- Permet de stationner sur des emplacements définis en rotation
+- Plus flexible mais moins de visibilité client
+
+### Les autorisations sanitaires
+
+- **Déclaration auprès de la DDPP du Bas-Rhin** avant ouverture
+- **Formation HACCP** pour le responsable
+- **Assurance RC Pro** couvrant la restauration mobile
+
+## Saisonnalité à Strasbourg
+
+| Période | Niveau d'activité | Notes |
+|---------|------------------|-------|
+| Janvier-février | Faible | Froid intense, tourisme bas |
+| Mars-avril | Moyen | Reprise progressive |
+| Mai-juin | Fort | Terrasses, étudiants en fin d'année |
+| Juillet-août | Moyen | Étudiants partis, tourisme estival |
+| Septembre-octobre | Fort | Rentrée + Fête de la Bière locale |
+| Novembre-décembre | Très fort | Marché de Noël (si sélectionné) |
+
+**Stratégie** : sécurisez des emplacements campus pour sept-juin, et visez un marché hivernal pour compenser la période creuse estivale.
+
+## Combien peut-on gagner avec un food truck à Strasbourg ?
+
+- **Service déjeuner campus** : 60 à 120 couverts × ticket moyen 9-12 € = **540 à 1 440 €/service**
+- **Marché de Noël** (si sélectionné) : 200 à 500 couverts/jour × 8 € = **1 600 à 4 000 €/jour**
+- **Festival** : 100 à 300 couverts × 10 € = **1 000 à 3 000 €/événement**
+
+Pour suivre précisément vos marges par emplacement, [FoodTracks](/fr) croise vos ventes SumUp avec vos coûts matières pour comparer la [rentabilité de chaque spot](/fr/blog/choisir-bon-emplacement-food-truck).
+
+## Conseils pratiques pour réussir à Strasbourg
+
+1. **Misez sur le local et le terroir** : les produits alsaciens (Munster, Gewurztraminer, bretzel, choucroute revisitée) renforcent votre légitimité locale.
+2. **Préparez-vous au froid** : hivers rigoureux (-5°C à -10°C), prévoyez chauffage extérieur et boissons chaudes à la carte.
+3. **Constituez votre dossier tôt** : candidatez 3 à 6 mois à l'avance pour les emplacements prisés.
+4. **Rejoignez le réseau** : Chambre de Métiers d'Alsace et CCI Alsace Eurométropole pour accompagnement et mise en relation.
+
+## Ressources utiles
+
+- [Réglementation food truck en France](/fr/blog/reglementation-food-truck-france) — guide complet
+- [Trouver les meilleurs emplacements](/fr/blog/choisir-bon-emplacement-food-truck) — méthode universelle
+- [Rentabilité food truck : améliorer vos marges](/fr/blog/rentabilite-food-truck-ameliorer) — outils et KPIs`,
+      en: `## Why Strasbourg Is an Ideal City for a Food Truck
+
+Strasbourg is one of France's most attractive cities for launching a food truck. As the capital of Alsace and home to European institutions, it combines several advantages:
+
+- **A large student population**: 50,000 students at the University of Strasbourg
+- **Strong annual tourism**: 10 million visitors per year (Christmas market, cathedral, European quarter)
+- **High purchasing power**: a prosperous city with quality-conscious consumers
+- **Strong culinary culture**: Strasbourg residents appreciate quality and originality
+
+## Best Locations for a Food Truck in Strasbourg
+
+### City Centre and Petite France
+
+- **Place Kléber**: Strasbourg's largest square, ideal for events and markets
+- **Place Gutenberg**: near shopping areas, constant pedestrian flow
+- **Petite France district**: tourists and locals, but subject to strict permit requirements
+- **Quais de l'Ill**: pleasant in season, great for lunch service
+
+⚠️ These areas are in a UNESCO protected heritage zone. Permits are stricter and more limited here.
+
+### University Campuses
+
+With 50,000 students, campuses represent a major opportunity:
+
+- **Esplanade Campus**: the largest campus, access through university agreement
+- **Cronenbourg Campus**: science and medicine faculties, regular lunch clientele
+- **IEP / Sciences Po**: affluent students open to original food concepts
+
+### European Quarter and Business Districts
+
+- **Allée de la Robertsau**: high-density office area
+- **Wacken Business District**: growing tertiary zone
+- **Port du Rhin**: industrial area with an under-exploited worker clientele niche
+
+### Markets and Events
+
+- **Christmas Market** (Nov–Dec): France's oldest, 2 million visitors — very limited spots, apply months in advance
+- **Fête de la Musique** (June 21): possible with a one-time permit
+- **Student festivals**: Ososphère, Rock'N'Solex — ideal for food trucks
+- **Weekly markets**: Place de la Marne (Wed/Sat), Krutenau (Sat morning)
+
+## Required Permits
+
+### Public Space Permit (AOT)
+
+- Apply to the Roads Department of Strasbourg Eurométropole
+- Documents: Kbis, professional liability insurance, HACCP certificate, vehicle plan, photos
+- Processing time: 2–4 months
+- Cost: €8–25/m²/month depending on zone
+
+### Health Requirements
+
+- Declaration with the DDPP of Bas-Rhin before opening
+- HACCP training for the person in charge
+- Professional liability insurance covering mobile catering
+
+## Strasbourg's Seasonality
+
+| Period | Activity | Notes |
+|--------|----------|-------|
+| Jan–Feb | Low | Harsh cold, low tourism |
+| Mar–Apr | Medium | Gradual recovery |
+| May–Jun | High | Terraces, students finishing the year |
+| Jul–Aug | Medium | Students gone, summer tourism |
+| Sep–Oct | High | Back-to-school + local beer festival |
+| Nov–Dec | Very high | Christmas market (if selected) |
+
+**Recommended strategy**: secure campus spots for Sept–June, target a winter market to offset the summer slow period.
+
+## Practical Tips
+
+1. **Lean into local products**: Munster, Gewurztraminer, pretzels, revisited choucroute boost your local credibility.
+2. **Prepare for the cold**: harsh winters require outdoor heating and warm beverages on the menu.
+3. **Apply early**: prime locations receive many applications — apply 3 to 6 months in advance.
+4. **Track profitability by location**: use [FoodTracks](/en) to compare revenue and margins across spots.
+
+## Useful Resources
+
+- [Food truck regulations in France](/en/blog/reglementation-food-truck-france) — complete guide
+- [Finding the best locations](/en/blog/choisir-bon-emplacement-food-truck) — universal method
+- [Improving food truck profitability](/en/blog/rentabilite-food-truck-ameliorer) — tools and KPIs`,
+    },
+    keyTakeaways: {
+      fr: [
+        "Strasbourg offre 50 000 étudiants, 10 millions de touristes/an et un fort pouvoir d'achat.",
+        "Les emplacements campus se négocient via la Direction du Patrimoine de l'Université.",
+        "Le centre historique (UNESCO) requiert des autorisations AOT plus strictes et contingentées.",
+        "Le Marché de Noël peut générer 1 600 à 4 000 €/jour mais les places sont très limitées.",
+        "FoodTracks permet de comparer la rentabilité de chaque emplacement en croisant ventes et coûts.",
+      ],
+      en: [
+        "Strasbourg offers 50,000 students, 10 million tourists/year, and high purchasing power.",
+        "Campus spots are negotiated directly with the university's property department.",
+        "The UNESCO historic centre requires stricter, more limited AOT permits.",
+        "The Christmas Market can generate €1,600–4,000/day but spots are very limited.",
+        "FoodTracks lets you compare profitability per location by cross-referencing sales and costs.",
+      ],
+    },
+    faqItems: [
+      {
+        question: {
+          fr: "Faut-il une autorisation spéciale pour travailler en food truck à Strasbourg ?",
+          en: "Do you need a special permit to operate a food truck in Strasbourg?",
+        },
+        answer: {
+          fr: "Oui, il faut une Autorisation d'Occupation Temporaire (AOT) délivrée par l'Eurométropole de Strasbourg, plus la déclaration obligatoire auprès de la DDPP du Bas-Rhin et une attestation HACCP.",
+          en: "Yes, you need a Temporary Occupation Authorization (AOT) from Strasbourg Eurométropole, plus a mandatory declaration with the DDPP of Bas-Rhin and an HACCP certificate.",
+        },
+      },
+      {
+        question: {
+          fr: "Quels sont les meilleurs emplacements pour un food truck à Strasbourg ?",
+          en: "What are the best locations for a food truck in Strasbourg?",
+        },
+        answer: {
+          fr: "Les campus universitaires (Esplanade, Cronenbourg), le Quartier Européen (Wacken), la Place Kléber et les marchés hebdomadaires sont parmi les plus rentables.",
+          en: "University campuses (Esplanade, Cronenbourg), the European Quarter (Wacken), Place Kléber, and weekly markets are among the most profitable.",
+        },
+      },
+      {
+        question: {
+          fr: "Le Marché de Noël de Strasbourg est-il accessible aux food trucks ?",
+          en: "Is Strasbourg's Christmas Market accessible to food trucks?",
+        },
+        answer: {
+          fr: "Les places sont très limitées et la sélection est compétitive. Il faut déposer un dossier auprès de la Ville de Strasbourg plusieurs mois à l'avance.",
+          en: "Spots are very limited and selection is competitive. You must submit an application to the City of Strasbourg several months in advance.",
+        },
+      },
+      {
+        question: {
+          fr: "Combien coûte une autorisation de stationnement pour food truck à Strasbourg ?",
+          en: "How much does a food truck parking permit cost in Strasbourg?",
+        },
+        answer: {
+          fr: "La redevance est calculée sur la superficie occupée, généralement entre 8 et 25 €/m²/mois selon la zone.",
+          en: "The fee is calculated on the occupied surface area, generally between €8 and €25/m²/month depending on the zone.",
+        },
+      },
+    ],
+    relatedSlugs: [
+      "reglementation-food-truck-france",
+      "choisir-bon-emplacement-food-truck",
+      "rentabilite-food-truck-ameliorer",
+      "ouvrir-food-truck-guide-complet",
+    ],
+  },
 ];
 
 export const blogArticles: BlogArticle[] = [...baseBlogArticles, ...verticalArticles];
