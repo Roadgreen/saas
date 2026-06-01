@@ -37861,6 +37861,407 @@ With [FoodTracks](/en), you track your income and expenses in real time to know 
       "statut-juridique-food-truck",
     ],
   },
+  {
+    slug: "logiciel-caisse-food-truck",
+    title: {
+      fr: "Logiciel de caisse pour food truck : comment bien choisir son TPE et son logiciel en 2026",
+      en: "Food Truck POS Software: How to Choose the Right Till and Payment System in 2026",
+    },
+    excerpt: {
+      fr: "Quel logiciel de caisse choisir pour votre food truck ? Comparatif des meilleures solutions TPE (SumUp, Square, Zettle, Lightspeed), critères de choix, coûts réels et intégration avec vos outils de gestion.",
+      en: "Which POS software is best for your food truck? Compare the top solutions (SumUp, Square, Zettle, Lightspeed), key criteria, real costs and integration with your management tools.",
+    },
+    category: { fr: "Gestion", en: "Management" },
+    date: "2026-06-01",
+    readTime: 11,
+    keywords: [
+      "logiciel caisse food truck",
+      "tpe food truck",
+      "caisse enregistreuse food truck",
+      "logiciel pos food truck",
+      "paiement carte food truck",
+    ],
+    heroImage: "/blog/gestion-stock.png",
+    content: {
+      fr: `## Pourquoi le choix de votre caisse enregistreuse est stratégique
+
+En food truck, votre logiciel de caisse n'est pas un simple terminal de paiement. C'est l'outil qui enregistre chaque vente, génère vos rapports comptables, suit votre chiffre d'affaires en temps réel et peut se connecter à votre logiciel de gestion.
+
+**Un mauvais choix peut vous coûter cher** : commissions élevées, panne en service, incompatibilité avec votre comptable, absence de suivi par article… À l'inverse, une bonne caisse vous fait gagner 30 à 45 minutes par jour sur la gestion administrative.
+
+En 2026, les food truckers français ont l'embarras du choix — et c'est là que ça se complique. Voici comment s'y retrouver.
+
+## Ce que doit absolument faire votre logiciel de caisse
+
+Avant de comparer les offres, définissons les fonctionnalités **non négociables** pour un food truck :
+
+### 1. Paiement sans contact et multi-modes
+- Carte bancaire (Visa, Mastercard, CB)
+- Paiement sans contact (NFC)
+- Idéalement : Apple Pay, Google Pay, Titres-restaurant (Swile, Edenred, Sodexo)
+
+### 2. Mode hors-ligne
+Indispensable. Sur un marché, en plein champ ou dans une zone à faible réseau, votre terminal **doit fonctionner sans connexion**. Les ventes sont synchronisées dès que vous retrouvez du réseau.
+
+### 3. Catalogue produits rapide
+Votre menu doit être accessible en 2 touches maximum. En service, vous n'avez pas le temps de naviguer dans 15 sous-menus.
+
+### 4. Export comptable
+Votre caisse doit pouvoir exporter vos ventes en CSV ou se connecter à votre comptable. L'administration fiscale exige un logiciel de caisse certifié NF 525 depuis 2018.
+
+### 5. Rapports par article et par service
+Pour piloter votre rentabilité, vous devez savoir ce qui se vend (et ce qui ne se vend pas) à chaque emplacement.
+
+## Comparatif des principales solutions en 2026
+
+### SumUp (recommandé pour les food truckers)
+
+**Pour qui** : food truckers souhaitant connecter leur caisse à un outil de gestion comme FoodTracks.
+
+| Critère | Détail |
+|---------|--------|
+| Matériel | Terminal Solo (€79) ou Air (€39) |
+| Commission | 1,69 % par transaction carte |
+| Abonnement | Aucun (offre standard) |
+| Mode hors-ligne | ✅ Oui |
+| Titres-restaurant | ✅ Oui (via partenariat) |
+| Export comptable | ✅ CSV + intégration FoodTracks |
+| Certifié NF 525 | ✅ Oui |
+
+**Avantage clé** : SumUp s'intègre nativement à **FoodTracks**, ce qui permet de croiser vos ventes avec vos achats fournisseurs et de calculer automatiquement votre marge par plat.
+
+**Inconvénient** : pas de gestion de stock native (à compenser avec FoodTracks).
+
+---
+
+### Square
+
+**Pour qui** : food truckers cherchant un écosystème complet avec gestion de stock intégrée.
+
+| Critère | Détail |
+|---------|--------|
+| Matériel | Reader (gratuit à l'inscription) ou Terminal (€299) |
+| Commission | 1,75 % (lecture de carte) |
+| Abonnement | Gratuit (fonctions de base) ou €29/mois (avancé) |
+| Mode hors-ligne | ✅ Oui |
+| Titres-restaurant | ❌ Non natif |
+| Export comptable | ✅ Intégration comptable |
+| Certifié NF 525 | ✅ Oui |
+
+**Avantage clé** : gestion de stock intégrée, fidélité client, commandes en ligne. Bon pour les food truckers qui veulent tout dans une seule app.
+
+**Inconvénient** : pas d'intégration titres-restaurant, interface en anglais par défaut.
+
+---
+
+### Zettle by PayPal
+
+**Pour qui** : food truckers déjà utilisateurs de PayPal ou cherchant une solution simple et économique.
+
+| Critère | Détail |
+|---------|--------|
+| Matériel | Card Reader (€29) |
+| Commission | 1,75 % par transaction |
+| Abonnement | Aucun |
+| Mode hors-ligne | ⚠️ Partiel (limité) |
+| Titres-restaurant | ❌ Non |
+| Export comptable | ✅ CSV |
+| Certifié NF 525 | ✅ Oui |
+
+**Avantage clé** : terminal peu cher, interface intuitive, virements rapides vers compte PayPal.
+
+**Inconvénient** : mode hors-ligne limité, moins de fonctionnalités que SumUp ou Square.
+
+---
+
+### Lightspeed Restaurant
+
+**Pour qui** : food truckers avec volume élevé, plusieurs terminaux ou équipe.
+
+| Critère | Détail |
+|---------|--------|
+| Matériel | iPad requis (non fourni) |
+| Commission | Variable selon forfait |
+| Abonnement | À partir de €69/mois |
+| Mode hors-ligne | ✅ Oui |
+| Titres-restaurant | ✅ Oui |
+| Export comptable | ✅ Intégration ERP/comptabilité |
+| Certifié NF 525 | ✅ Oui |
+
+**Avantage clé** : solution professionnelle complète avec gestion avancée des tables, équipes, menus. Idéale si vous gérez plusieurs food trucks.
+
+**Inconvénient** : coût élevé, sur-dimensionné pour un seul camion au démarrage.
+
+## Comment calculer le vrai coût de votre caisse
+
+Ne regardez pas que la commission. Calculez le **coût total annuel** :
+
+\`\`\`
+Coût annuel = (Abonnement mensuel × 12) + (CA mensuel × Commission %)
+\`\`\`
+
+**Exemple pour un food truck à 8 000 €/mois de CA :**
+- SumUp : 0 + (8 000 × 1,69 %) = **135 €/mois**, soit **1 624 €/an**
+- Square gratuit : 0 + (8 000 × 1,75 %) = **140 €/mois**, soit **1 680 €/an**
+- Lightspeed : 69 + (8 000 × 1,2 %) = **165 €/mois**, soit **1 980 €/an**
+
+À ce niveau de CA, les différences sont faibles. Ce qui compte vraiment, c'est la **valeur ajoutée des fonctionnalités** (gestion stock, rapports, intégrations).
+
+## Certification NF 525 : ce que vous risquez sans elle
+
+Depuis le 1er janvier 2018, tout professionnel assujetti à la TVA doit utiliser un logiciel de caisse certifié ou satisfaisant aux conditions d'inaltérabilité, de sécurisation, de conservation et d'archivage des données.
+
+**Amende en cas de contrôle sans certification : 7 500 €.**
+
+Toutes les solutions citées dans ce comparatif sont conformes. Mais si vous utilisez encore une vieille caisse non certifiée ou un simple carnet, régularisez votre situation immédiatement.
+
+## Connecter votre caisse à FoodTracks : le combo gagnant
+
+Un logiciel de caisse seul ne vous dit pas si vous êtes rentable. Il enregistre vos ventes — mais pas vos coûts d'achat, votre gaspillage, ou votre marge par recette.
+
+C'est là qu'intervient **FoodTracks** :
+
+1. **Vos ventes SumUp** sont importées automatiquement dans FoodTracks
+2. **Vos factures fournisseurs** sont scannées et analysées par l'IA
+3. **FoodTracks calcule votre marge réelle** plat par plat, emplacement par emplacement
+4. Vous recevez des **alertes** quand une recette devient non rentable
+
+Résultat : vous savez exactement quoi vendre, quoi supprimer et quoi renégocier avec vos fournisseurs.
+
+## Checklist avant d'acheter votre logiciel de caisse
+
+- [ ] Mode hors-ligne confirmé (testez-le avant de signer)
+- [ ] Certification NF 525 vérifiée
+- [ ] Titres-restaurant acceptés (si votre cible = bureau/entreprises)
+- [ ] Export CSV ou intégration comptable disponible
+- [ ] Application mobile pour gérer à distance
+- [ ] SAV disponible en français et réactif
+- [ ] Compatibilité avec vos autres outils (FoodTracks, Pennylane, etc.)
+
+*Voir aussi :* [Connecter SumUp à FoodTracks pour le suivi des ventes](/fr/blog/connecter-sumup-food-truck-suivi-ventes) · [Scanner ses factures fournisseurs pour gagner du temps](/fr/blog/scanner-factures-food-truck-gagner-temps) · [Calculer son coût de revient par recette](/fr/blog/calculer-cout-revient-recette-food-truck)`,
+
+      en: `## Why Your POS Choice Is a Strategic Decision
+
+In a food truck, your point-of-sale system is much more than a card reader. It records every transaction, generates accounting reports, tracks your revenue in real time and can connect to your management software.
+
+**A poor choice can be costly**: high fees, service outages, incompatibility with your accountant, no per-item tracking… Conversely, the right POS saves you 30–45 minutes a day on admin.
+
+In 2026, French food truckers have plenty of options — and that's exactly where it gets confusing. Here's how to find your way.
+
+## What Your POS Software Absolutely Must Do
+
+Before comparing offers, let's define the **non-negotiable features** for a food truck:
+
+### 1. Contactless and Multi-Payment
+- Credit/debit cards (Visa, Mastercard)
+- Contactless (NFC)
+- Ideally: Apple Pay, Google Pay, meal vouchers (in France: Swile, Edenred, Sodexo)
+
+### 2. Offline Mode
+Essential. At a market, in a field or in a low-signal area, your terminal **must work without internet**. Sales sync once you're back online.
+
+### 3. Fast Product Catalogue
+Your menu should be accessible in 2 taps maximum. During service, you can't navigate 15 sub-menus.
+
+### 4. Accounting Export
+Your POS must export sales as CSV or connect to your accountant. French tax law has required certified POS software (NF 525) since 2018.
+
+### 5. Per-Item and Per-Service Reports
+To manage your profitability, you need to know what sells (and what doesn't) at each location.
+
+## 2026 POS Comparison for Food Trucks
+
+### SumUp (recommended for food truckers)
+
+**Best for**: food truckers who want to connect their POS to a management tool like FoodTracks.
+
+| Criteria | Detail |
+|----------|--------|
+| Hardware | Solo terminal (€79) or Air (€39) |
+| Fee | 1.69% per card transaction |
+| Subscription | None (standard plan) |
+| Offline mode | ✅ Yes |
+| Meal vouchers | ✅ Yes |
+| Accounting export | ✅ CSV + FoodTracks integration |
+| NF 525 certified | ✅ Yes |
+
+**Key advantage**: SumUp integrates natively with **FoodTracks**, letting you cross-reference your sales with supplier purchases and automatically calculate your margin per dish.
+
+**Downside**: no native stock management (use FoodTracks for this).
+
+---
+
+### Square
+
+**Best for**: food truckers wanting an all-in-one ecosystem with built-in stock management.
+
+| Criteria | Detail |
+|----------|--------|
+| Hardware | Reader (free on sign-up) or Terminal (€299) |
+| Fee | 1.75% (card present) |
+| Subscription | Free (basic) or €29/month (advanced) |
+| Offline mode | ✅ Yes |
+| Meal vouchers | ❌ Not native |
+| Accounting export | ✅ Accounting integrations |
+| NF 525 certified | ✅ Yes |
+
+**Key advantage**: built-in stock management, loyalty, online ordering. Good for food truckers who want everything in one app.
+
+**Downside**: no meal voucher integration, interface defaults to English.
+
+---
+
+### Zettle by PayPal
+
+**Best for**: food truckers already using PayPal or looking for a simple, low-cost solution.
+
+| Criteria | Detail |
+|----------|--------|
+| Hardware | Card Reader (€29) |
+| Fee | 1.75% per transaction |
+| Subscription | None |
+| Offline mode | ⚠️ Partial (limited) |
+| Meal vouchers | ❌ No |
+| Accounting export | ✅ CSV |
+| NF 525 certified | ✅ Yes |
+
+**Key advantage**: cheap terminal, intuitive interface, fast transfers to PayPal account.
+
+**Downside**: limited offline mode, fewer features than SumUp or Square.
+
+---
+
+### Lightspeed Restaurant
+
+**Best for**: high-volume food truckers, multiple terminals or a team.
+
+| Criteria | Detail |
+|----------|--------|
+| Hardware | iPad required (not included) |
+| Fee | Variable by plan |
+| Subscription | From €69/month |
+| Offline mode | ✅ Yes |
+| Meal vouchers | ✅ Yes |
+| Accounting export | ✅ ERP/accounting integration |
+| NF 525 certified | ✅ Yes |
+
+**Key advantage**: full professional solution with advanced menu, team and multi-location management. Ideal if you run several food trucks.
+
+**Downside**: high cost, overkill for a single van starting out.
+
+## How to Calculate the True Cost of Your POS
+
+Don't just look at the transaction fee. Calculate the **total annual cost**:
+
+\`\`\`
+Annual cost = (Monthly subscription × 12) + (Monthly revenue × Fee %)
+\`\`\`
+
+**Example for a food truck turning over €8,000/month:**
+- SumUp: 0 + (8,000 × 1.69%) = **€135/month**, i.e. **€1,624/year**
+- Square free: 0 + (8,000 × 1.75%) = **€140/month**, i.e. **€1,680/year**
+- Lightspeed: 69 + (8,000 × 1.2%) = **€165/month**, i.e. **€1,980/year**
+
+At this revenue level, the differences are small. What really matters is the **value added by the features** (stock management, reports, integrations).
+
+## NF 525 Certification: What You Risk Without It
+
+Since 1 January 2018, all VAT-registered professionals in France must use certified POS software meeting requirements for data integrity, security, retention and archiving.
+
+**Fine for non-compliance during an audit: €7,500.**
+
+All solutions listed in this comparison are compliant. But if you're still using an old uncertified till or a simple notebook, sort it out now.
+
+## Connecting Your POS to FoodTracks: The Winning Combo
+
+A POS alone doesn't tell you if you're profitable. It records your sales — but not your purchase costs, waste or margin per recipe.
+
+That's where **FoodTracks** comes in:
+
+1. **Your SumUp sales** are automatically imported into FoodTracks
+2. **Your supplier invoices** are scanned and analysed by AI
+3. **FoodTracks calculates your real margin** dish by dish, location by location
+4. You receive **alerts** when a recipe stops being profitable
+
+Result: you know exactly what to sell, what to cut and what to renegotiate with your suppliers.
+
+## Checklist Before Buying Your POS Software
+
+- [ ] Offline mode confirmed (test it before signing)
+- [ ] NF 525 certification verified
+- [ ] Meal vouchers accepted (if targeting office/corporate customers)
+- [ ] CSV export or accounting integration available
+- [ ] Mobile app for remote management
+- [ ] French-language support available and responsive
+- [ ] Compatible with your other tools (FoodTracks, Pennylane, etc.)
+
+*Also read:* [Connect SumUp to FoodTracks for Sales Tracking](/en/blog/connecter-sumup-food-truck-suivi-ventes) · [Scan Supplier Invoices to Save Time](/en/blog/scanner-factures-food-truck-gagner-temps) · [Calculate Your Cost Price Per Recipe](/en/blog/calculer-cout-revient-recette-food-truck)`,
+    },
+    keyTakeaways: {
+      fr: [
+        "Un logiciel de caisse food truck doit obligatoirement être certifié NF 525 (amende 7 500 € sinon).",
+        "SumUp est la solution la mieux intégrée avec FoodTracks pour le suivi de rentabilité.",
+        "Le mode hors-ligne est non négociable : testez-le avant tout achat.",
+        "Le vrai coût = abonnement + commission × CA mensuel, pas seulement le % de commission.",
+        "Connecter sa caisse à un logiciel de gestion comme FoodTracks permet de calculer sa marge réelle par plat.",
+      ],
+      en: [
+        "Food truck POS software must be NF 525 certified in France (€7,500 fine otherwise).",
+        "SumUp is the best-integrated solution with FoodTracks for profitability tracking.",
+        "Offline mode is non-negotiable: test it before buying.",
+        "True cost = subscription + fee × monthly revenue, not just the % rate.",
+        "Connecting your POS to a management tool like FoodTracks lets you calculate your real margin per dish.",
+      ],
+    },
+    faqItems: [
+      {
+        question: {
+          fr: "Quelle caisse enregistreuse choisir pour un food truck débutant ?",
+          en: "Which cash register should a beginner food truck choose?",
+        },
+        answer: {
+          fr: "SumUp Air (€39) est le meilleur point de départ : pas d'abonnement, 1,69 % de commission, mode hors-ligne, certifié NF 525 et intégrable avec FoodTracks pour le suivi de rentabilité.",
+          en: "SumUp Air (€39) is the best starting point: no subscription, 1.69% fee, offline mode, NF 525 certified and integrable with FoodTracks for profitability tracking.",
+        },
+      },
+      {
+        question: {
+          fr: "Est-ce obligatoire d'avoir un logiciel de caisse certifié NF 525 en food truck ?",
+          en: "Is NF 525-certified POS software mandatory for food trucks in France?",
+        },
+        answer: {
+          fr: "Oui, depuis le 1er janvier 2018, tout professionnel assujetti à la TVA doit utiliser un logiciel de caisse certifié. Le non-respect expose à une amende de 7 500 €. SumUp, Square, Zettle et Lightspeed sont tous certifiés.",
+          en: "Yes, since 1 January 2018, all VAT-registered professionals in France must use certified POS software. Non-compliance carries a €7,500 fine. SumUp, Square, Zettle and Lightspeed are all certified.",
+        },
+      },
+      {
+        question: {
+          fr: "Mon food truck peut-il accepter les titres-restaurant ?",
+          en: "Can my food truck accept meal vouchers?",
+        },
+        answer: {
+          fr: "Oui, à condition que votre activité réponde aux critères (restauration sur place ou à emporter). SumUp et Lightspeed permettent d'accepter les titres-restaurant dématérialisés (Swile, Edenred, Sodexo). Square ne le propose pas nativement.",
+          en: "Yes, provided your business meets the criteria (on-site or takeaway catering). SumUp and Lightspeed accept dematerialised meal vouchers (Swile, Edenred, Sodexo). Square doesn't offer this natively.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment exporter mes ventes SumUp vers ma comptabilité ?",
+          en: "How do I export my SumUp sales to my accounting software?",
+        },
+        answer: {
+          fr: "SumUp permet d'exporter vos transactions en CSV depuis l'app ou le dashboard web. Vous pouvez aussi utiliser FoodTracks pour automatiser l'import et disposer d'une vue consolidée ventes + achats + marges.",
+          en: "SumUp lets you export transactions as CSV from the app or web dashboard. You can also use FoodTracks to automate the import and get a consolidated view of sales, purchases and margins.",
+        },
+      },
+    ],
+    relatedSlugs: [
+      "connecter-sumup-food-truck-suivi-ventes",
+      "scanner-factures-food-truck-gagner-temps",
+      "calculer-cout-revient-recette-food-truck",
+      "tableau-de-bord-kpi-food-truck",
+    ],
+  },
 ];
 
 export const blogArticles: BlogArticle[] = [...baseBlogArticles, ...verticalArticles];
