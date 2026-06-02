@@ -41,3 +41,12 @@
 | 2026-05-22 | gestion-stocks-food-truck-ete | FR+EN | Gestion des stocks en food truck l'été : éviter les ruptures et le gaspillage en haute saison | publie |
 | 2026-05-25 | assurance-food-truck-garanties-cout | FR+EN | Assurance food truck : quelles garanties souscrire et combien ça coûte en 2026 ? | publie |
 | 2026-05-27 | cuisine-centrale-food-truck | FR+EN | Cuisine centrale food truck : comment en trouver une et pourquoi c'est obligatoire | publie |
+2026-05-29 | Blog Strasbourg | Analytics done
+| 2026-05-29 | financement-food-truck-aides-subventions | FR+EN | Financement food truck : aides, subventions et prêts pour lancer votre projet | publie |
+| 2026-06-01 | logiciel-caisse-food-truck | FR+EN | Logiciel de caisse pour food truck : comparatif TPE 2026 (SumUp, Square, Zettle, Lightspeed) — NF 525, coût réel, intégration FoodTracks | publie |
+
+## 2026-06-02
+- Titre FR: Food truck rentable dès le premier mois : le plan d'action concret
+- Slug: food-truck-rentable-premier-mois
+- Mot-clé: food truck rentable premier mois
+- Publié: ✅

@@ -38262,6 +38262,310 @@ Result: you know exactly what to sell, what to cut and what to renegotiate with 
       "tableau-de-bord-kpi-food-truck",
     ],
   },
+  {
+    slug: "food-truck-rentable-premier-mois",
+    title: {
+      fr: "Food truck rentable dès le premier mois : le plan d'action concret",
+      en: "Profitable Food Truck from Month One: The Concrete Action Plan",
+    },
+    excerpt: {
+      fr: "Atteindre la rentabilité dès le premier mois en food truck, c'est possible — à condition d'agir sur les bons leviers : coûts, emplacement, menu et suivi des données.",
+      en: "Reaching profitability in your first month of food truck operation is achievable — if you act on the right levers: costs, location, menu, and data tracking.",
+    },
+    category: { fr: "Rentabilité", en: "Profitability" },
+    date: "2026-06-02",
+    readTime: 10,
+    keywords: [
+      "food truck rentable premier mois",
+      "rentabilité food truck débutant",
+      "comment rentabiliser son food truck",
+      "food truck profitability first month",
+      "lancer food truck rentable",
+    ],
+    heroImage: "/blog/rentable-premier-mois.webp",
+    content: {
+      fr: `## Peut-on vraiment être rentable dès le premier mois ?
+
+Oui — mais pas par hasard. Les food truckers qui atteignent l'équilibre financier dès le premier mois ont un point commun : **ils ont préparé leur lancement comme une opération militaire**, pas comme une improvisation.
+
+La rentabilité d'un food truck ne dépend pas de la chance ou du talent culinaire seul. Elle dépend de décisions prises *avant* d'ouvrir : choix du menu, maîtrise des coûts, sélection des emplacements et suivi rigoureux des données dès le jour 1.
+
+Ce guide vous donne le plan d'action concret pour y arriver.
+
+## 1. Calculer votre seuil de rentabilité avant d'ouvrir
+
+Avant de servir votre premier client, vous devez connaître **le nombre de plats à vendre par service pour couvrir vos charges**. C'est votre seuil de rentabilité.
+
+La formule est simple :
+
+**Seuil (en plats) = Charges fixes mensuelles ÷ (Prix de vente moyen – Coût matière moyen)**
+
+Par exemple :
+- Charges fixes : 2 000 €/mois (assurance, carburant, emplacement, leasing camion)
+- Prix de vente moyen : 10 €
+- Coût matière moyen : 3,50 € (taux matière 35 %)
+- Marge sur coût variable : 6,50 €
+- **Seuil = 2 000 ÷ 6,50 = 308 plats par mois**
+
+Si vous faites 15 services dans le mois, il vous faut vendre environ **21 plats par service** pour couvrir vos charges fixes. Tout ce qui est au-dessus est du bénéfice.
+
+Ce calcul, fait en amont, vous permet de savoir si votre business model tient — avant d'engager des dépenses.
+
+## 2. Construire un menu ultra-rentable (pas juste "bon")
+
+L'erreur classique du débutant : proposer trop de plats. Un menu trop large augmente vos coûts matière, complique la gestion des stocks et ralentit le service.
+
+**La règle d'or du premier mois** : 4 à 6 références maximum, dont au moins une à fort volume et une à forte marge.
+
+Pour construire un menu rentable :
+- **Calculez le coût matière de chaque plat** (fiche technique avec grammages précis)
+- **Visez un taux matière de 28 à 35 %** selon votre segment
+- **Identifiez vos "stars"** : plats qui se vendent bien ET qui ont une bonne marge
+- **Retirez sans pitié** les plats peu vendus ou trop coûteux à produire
+
+Avec [FoodTracks](/fr/fonctionnalites), vous pouvez scanner vos factures fournisseurs pour calculer automatiquement votre coût matière réel par plat — sans tableur Excel.
+
+## 3. Choisir les bons emplacements dès le départ
+
+Un bon emplacement peut faire la différence entre 15 et 60 couverts par service. Le premier mois, **concentrez-vous sur 2 ou 3 emplacements récurrents** que vous maîtrisez, plutôt que de vous disperser.
+
+Les critères d'un emplacement rentable :
+- **Flux piéton suffisant** : au moins 200 à 300 personnes par heure aux heures de pointe
+- **Faible concurrence directe** dans un rayon de 200 mètres
+- **Clientèle régulière** (marché hebdomadaire, zone d'entreprises, campus)
+- **Coût d'emplacement raisonnable** : pas plus de 5 à 8 % de votre CA prévisionnel
+
+**Astuce** : testez un emplacement inconnu avec une petite commande de stock. Si le service ne remplit pas votre seuil minimal, ne revenez pas.
+
+## 4. Maîtriser les coûts dès le jour 1
+
+Le premier mois est le plus dangereux : vous n'avez pas encore de données historiques, et la tentation de sur-stocker "par prudence" est forte. C'est une erreur coûteuse.
+
+Voici les leviers à actionner immédiatement :
+
+**Coûts matière**
+- Commandez petit et fréquemment plutôt que beaucoup d'un coup
+- Appliquez la méthode FIFO (premiers entrés, premiers sortis)
+- Notez chaque perte (plats jetés, produits périmés) pour corriger la semaine suivante
+
+**Coûts fixes**
+- Négociez vos contrats d'assurance *avant* l'ouverture (les tarifs sont plus favorables)
+- Optimisez vos trajets pour réduire le carburant
+- Évitez les abonnements inutiles les deux premiers mois
+
+**Coûts cachés**
+- Emballages et consommables : comptez 0,30 à 0,80 € par couvert
+- Frais de carte bancaire : entre 1,5 et 2,5 % selon votre terminal
+- Pertes sur invendus en fin de service : calculez-les précisément chaque soir
+
+## 5. Suivre ses données en temps réel (pas en fin de mois)
+
+La plupart des food truckers font leurs comptes en fin de mois — et découvrent alors qu'ils ont perdu de l'argent. **Le suivi en temps réel est la clé pour corriger le tir avant qu'il soit trop tard.**
+
+Les indicateurs à surveiller chaque semaine :
+- **CA par service** : êtes-vous au-dessus ou en dessous de votre seuil ?
+- **Taux de matière** : quel pourcentage du CA part dans les achats ?
+- **Nombre de couverts par service** : quelle est votre tendance ?
+- **Coût par emplacement** : quel emplacement est le plus rentable ?
+
+Avec FoodTracks, vos ventes SumUp se synchronisent automatiquement et vos factures fournisseurs se scannent depuis votre téléphone. Vous avez votre tableau de bord en temps réel sans saisie manuelle.
+
+## FAQ — Food truck rentable premier mois
+
+**Les réponses courtes aux questions les plus fréquentes :**
+
+### Combien faut-il faire de couverts par jour pour être rentable ?
+
+Cela dépend de vos charges et de votre panier moyen. Avec 2 000 € de charges fixes, un panier moyen de 10 € et un taux matière de 35 %, vous avez besoin d'environ 308 plats vendus sur le mois — soit 20 à 25 plats par service pour 15 services.
+
+### Quel taux de marge brute viser en food truck ?
+
+Visez un taux de marge brute de **65 à 72 %** (taux matière de 28 à 35 %). En dessous de 60 %, il sera très difficile de couvrir vos charges fixes et de dégager un revenu.
+
+### Faut-il être en auto-entrepreneur pour réduire les charges le premier mois ?
+
+Le statut auto-entrepreneur simplifie la comptabilité et réduit les charges sociales au démarrage. Cependant, si votre CA dépasse rapidement 77 700 €/an, l'EURL ou la SASU deviennent plus avantageuses. Consultez un expert-comptable spécialisé CHR avant d'ouvrir.
+
+## Conclusion
+
+Être rentable dès le premier mois en food truck n'est pas un mythe — c'est le résultat d'une préparation rigoureuse. **Calculez votre seuil avant d'ouvrir, construisez un menu maîtrisé, choisissez vos emplacements avec méthode et suivez vos données semaine par semaine.**
+
+Les food truckers qui réussissent ne cuisinent pas mieux que les autres. Ils pilotent mieux leur activité.
+
+[Essayez FoodTracks gratuitement](https://foodtracks.io/fr/pricing) et commencez à suivre votre rentabilité dès le premier jour.
+
+**À lire aussi :** [Calculer le coût de revient d'un plat](/fr/blog/calculer-cout-revient-recette-food-truck) · [Choisir un emplacement rentable](/fr/blog/choisir-emplacement-rentable-food-truck) · [Tableau de bord KPI food truck](/fr/blog/tableau-de-bord-kpi-food-truck)`,
+      en: `## Can You Really Be Profitable in Month One?
+
+Yes — but not by chance. Food truckers who reach breakeven in their first month share one thing in common: **they planned their launch like a military operation**, not an improvisation.
+
+A food truck's profitability doesn't depend on luck or culinary talent alone. It depends on decisions made *before* you open: menu design, cost control, location selection, and rigorous data tracking from day one.
+
+This guide gives you the concrete action plan to get there.
+
+## 1. Calculate Your Breakeven Point Before You Open
+
+Before you serve your first customer, you need to know **how many dishes you must sell per service to cover your costs**. That's your breakeven point.
+
+The formula is straightforward:
+
+**Breakeven (in dishes) = Monthly fixed costs ÷ (Average selling price – Average food cost)**
+
+For example:
+- Fixed costs: €2,000/month (insurance, fuel, pitch fees, truck lease)
+- Average selling price: €10
+- Average food cost: €3.50 (35% food cost ratio)
+- Contribution margin: €6.50
+- **Breakeven = 2,000 ÷ 6.50 = 308 dishes per month**
+
+If you run 15 services a month, you need to sell roughly **21 dishes per service** just to cover fixed costs. Everything above that is profit.
+
+Running this calculation upfront tells you whether your business model works — before you commit any spending.
+
+## 2. Build a Highly Profitable Menu (Not Just a "Good" One)
+
+The classic beginner mistake: offering too many items. An oversized menu inflates food costs, complicates stock management, and slows down service.
+
+**The golden rule for month one**: 4 to 6 items maximum, including at least one high-volume item and one high-margin item.
+
+To build a profitable menu:
+- **Calculate the food cost for every dish** (recipe card with precise weights)
+- **Target a food cost ratio of 28–35%** depending on your segment
+- **Identify your "stars"**: dishes that sell well AND carry a strong margin
+- **Cut without mercy** any dish that sells poorly or costs too much to produce
+
+With [FoodTracks](/en/features), you can scan supplier invoices to automatically calculate your real food cost per dish — no Excel spreadsheet needed.
+
+## 3. Pick the Right Locations from the Start
+
+A great location can be the difference between 15 and 60 covers per service. In month one, **focus on 2 or 3 recurring spots you can master**, rather than spreading yourself thin.
+
+What makes a location profitable:
+- **Adequate foot traffic**: at least 200–300 people per hour during peak times
+- **Low direct competition** within 200 metres
+- **Regular clientele** (weekly market, business district, campus)
+- **Reasonable pitch cost**: no more than 5–8% of your projected revenue
+
+**Pro tip**: test an unknown location with a small stock order. If the service doesn't hit your minimum threshold, don't go back.
+
+## 4. Control Costs from Day One
+
+Month one is the most dangerous period: you have no historical data, and the temptation to over-order "just in case" is strong. That's a costly mistake.
+
+Here are the levers to pull immediately:
+
+**Food costs**
+- Order small and often rather than in large batches
+- Apply the FIFO method (first in, first out)
+- Log every loss (thrown-away dishes, expired products) to correct course the following week
+
+**Fixed costs**
+- Negotiate your insurance contracts *before* opening (rates are more favourable)
+- Optimise your routes to reduce fuel spend
+- Avoid unnecessary subscriptions for the first two months
+
+**Hidden costs**
+- Packaging and consumables: budget €0.30–€0.80 per cover
+- Card payment fees: 1.5–2.5% depending on your terminal
+- End-of-service waste: calculate it precisely each evening
+
+## 5. Track Your Data in Real Time (Not at Month End)
+
+Most food truckers do their accounts at month end — and that's when they discover they've lost money. **Real-time tracking is the key to correcting course before it's too late.**
+
+Metrics to monitor every week:
+- **Revenue per service**: are you above or below your breakeven?
+- **Food cost ratio**: what percentage of revenue goes to purchases?
+- **Covers per service**: what's your trend?
+- **Cost per location**: which spot is the most profitable?
+
+With FoodTracks, your SumUp sales sync automatically and your supplier invoices are scanned from your phone. You get a real-time dashboard with zero manual data entry.
+
+## Conclusion
+
+Being profitable from month one in food trucking is not a myth — it's the result of rigorous preparation. **Calculate your breakeven before you open, build a controlled menu, choose locations methodically, and track your data week by week.**
+
+Food truckers who succeed don't cook better than others. They manage their business better.
+
+[Try FoodTracks for free](https://foodtracks.io/en/pricing) and start tracking your profitability from day one.
+
+**Read next:** [Calculate your recipe food cost](/en/blog/calculer-cout-revient-recette-food-truck) · [Choose a profitable location](/en/blog/choisir-emplacement-rentable-food-truck) · [Food truck KPI dashboard](/en/blog/tableau-de-bord-kpi-food-truck)`,
+    },
+    keyTakeaways: {
+      fr: [
+        "Calculez votre seuil de rentabilité avant d'ouvrir : charges fixes ÷ marge sur coût variable.",
+        "Un menu de 4 à 6 références maximum réduit les coûts et accélère le service.",
+        "Concentrez-vous sur 2 à 3 emplacements récurrents et maîtrisés le premier mois.",
+        "Suivez votre taux de matière et votre CA par service chaque semaine, pas en fin de mois.",
+        "Avec FoodTracks, ventes SumUp + scan de factures = tableau de bord rentabilité en temps réel.",
+      ],
+      en: [
+        "Calculate your breakeven before opening: fixed costs ÷ contribution margin.",
+        "A menu of 4–6 items maximum reduces costs and speeds up service.",
+        "Focus on 2–3 recurring, well-mastered locations in month one.",
+        "Track your food cost ratio and revenue per service weekly, not at month end.",
+        "With FoodTracks, SumUp sales + invoice scanning = real-time profitability dashboard.",
+      ],
+    },
+    faqItems: [
+      {
+        question: {
+          fr: "Combien de couverts faut-il vendre par service pour être rentable dès le premier mois ?",
+          en: "How many covers do you need to sell per service to be profitable from month one?",
+        },
+        answer: {
+          fr: "Cela dépend de vos charges fixes et de votre marge unitaire. Avec 2 000 € de charges fixes, un prix de vente moyen de 10 € et un taux matière de 35 %, il faut vendre environ 21 plats par service (sur 15 services mensuels). Calculez votre propre seuil avec la formule : charges fixes ÷ (prix de vente – coût matière).",
+          en: "It depends on your fixed costs and unit margin. With €2,000 in fixed costs, an average selling price of €10 and a 35% food cost ratio, you need to sell roughly 21 dishes per service (over 15 monthly services). Calculate your own breakeven: fixed costs ÷ (selling price – food cost).",
+        },
+      },
+      {
+        question: {
+          fr: "Quel taux de marge brute viser en food truck pour être rentable ?",
+          en: "What gross margin ratio should a food truck target to be profitable?",
+        },
+        answer: {
+          fr: "Visez un taux de marge brute de 65 à 72 % (taux matière de 28 à 35 %). En dessous de 60 %, couvrir vos charges fixes et dégager un revenu devient très difficile.",
+          en: "Target a gross margin of 65–72% (food cost ratio of 28–35%). Below 60%, covering fixed costs and generating income becomes very difficult.",
+        },
+      },
+      {
+        question: {
+          fr: "Combien de plats maximum dans un menu food truck pour rester rentable ?",
+          en: "How many menu items should a food truck offer to stay profitable?",
+        },
+        answer: {
+          fr: "4 à 6 références maximum le premier mois. Un menu court réduit les achats, limite le gaspillage, accélère le service et facilite la gestion des stocks — autant de facteurs qui améliorent directement votre rentabilité.",
+          en: "4 to 6 items maximum in month one. A short menu reduces purchasing, limits waste, speeds up service and simplifies stock management — all factors that directly improve profitability.",
+        },
+      },
+      {
+        question: {
+          fr: "Faut-il être en auto-entrepreneur pour limiter les charges au démarrage ?",
+          en: "Should you register as a sole trader to limit costs at launch?",
+        },
+        answer: {
+          fr: "Le statut auto-entrepreneur (micro-entreprise) simplifie la comptabilité et réduit les charges sociales au démarrage. C'est souvent la bonne option pour un premier food truck. Si votre CA dépasse 77 700 €/an, une EURL ou SAS devient plus avantageuse. Consultez un expert-comptable spécialisé CHR avant d'ouvrir.",
+          en: "The micro-enterprise (auto-entrepreneur) status simplifies accounting and reduces social charges at launch — often the right option for a first food truck. If revenue exceeds €77,700/year, an EURL or SAS structure becomes more advantageous. Consult an accountant specialising in food service before opening.",
+        },
+      },
+      {
+        question: {
+          fr: "Quel outil utiliser pour suivre la rentabilité de son food truck en temps réel ?",
+          en: "What tool should you use to track food truck profitability in real time?",
+        },
+        answer: {
+          fr: "FoodTracks est conçu spécifiquement pour les food truckers : il synchronise vos ventes SumUp, permet le scan de factures fournisseurs depuis votre téléphone et affiche votre taux de matière, vos marges et votre seuil de rentabilité en temps réel — sans saisie manuelle.",
+          en: "FoodTracks is built specifically for food truckers: it syncs your SumUp sales, lets you scan supplier invoices from your phone, and displays your food cost ratio, margins and breakeven in real time — with no manual data entry.",
+        },
+      },
+    ],
+    relatedSlugs: [
+      "calculer-cout-revient-recette-food-truck",
+      "choisir-emplacement-rentable-food-truck",
+      "tableau-de-bord-kpi-food-truck",
+      "seuil-rentabilite-food-truck-calcul",
+    ],
+  },
 ];
 
 export const blogArticles: BlogArticle[] = [...baseBlogArticles, ...verticalArticles];
