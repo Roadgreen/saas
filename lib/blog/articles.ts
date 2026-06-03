@@ -38879,6 +38879,490 @@ Track your performance location by location with [FoodTracks](https://foodtracks
     ],
   },
 
+  {
+    slug: "food-truck-break-even-analysis",
+    title: {
+      fr: "Analyse du point mort food truck : calculer son seuil de rentabilité par service",
+      en: "Food Truck Break-Even Analysis: Calculate Your Revenue Target Per Service",
+    },
+    excerpt: {
+      fr: "Combien devez-vous vendre par service pour couvrir vos coûts ? Maîtrisez le calcul du point mort en food truck et fixez des objectifs de chiffre d'affaires journalier réalistes.",
+      en: "How much do you need to sell per service to cover your costs? Master food truck break-even analysis and set realistic daily revenue targets that protect your margins.",
+    },
+    category: { fr: "Finances", en: "Finance" },
+    date: "2026-06-03",
+    readTime: 14,
+    keywords: [
+      "food truck break even analysis",
+      "food truck revenue target",
+      "food truck break even point",
+      "food truck daily revenue",
+      "point mort food truck",
+      "objectif chiffre affaires food truck",
+      "seuil rentabilité food truck service",
+      "food truck profit calculation",
+    ],
+    heroImage: "/blog/break-even-food-truck.png",
+    content: {
+      fr: `## Pourquoi le point mort est la donnée la plus importante de votre food truck
+
+La plupart des food truckers se concentrent sur le chiffre d'affaires brut ou sur leurs marges sur les produits. C'est utile — mais ça ne répond pas à la vraie question : **combien dois-je vendre ce soir pour ne pas perdre d'argent ?**
+
+Le point mort (ou seuil de rentabilité) est le niveau de revenus à partir duquel vous couvrez exactement l'ensemble de vos charges. En dessous : vous êtes en déficit. Au-dessus : vous générez du profit. C'est votre **objectif de survie** avant d'être un objectif de croissance.
+
+Un food trucker qui connaît son point mort par service prend des décisions radicalement différentes de celui qui ne le connaît pas. Il sait quand annuler un emplacement peu fréquenté. Il sait à partir de combien de couverts son service devient rentable. Il sait si une promotion flash va l'aider ou l'enfoncer.
+
+## Les deux grandes catégories de charges en food truck
+
+Pour calculer votre point mort, vous devez d'abord classer vos charges en deux catégories distinctes.
+
+### 1. Les charges fixes
+
+Ce sont les coûts qui existent **indépendamment de votre activité**. Que vous vendiez 50 ou 500 burgers ce mois-ci, ces charges tombent quand même.
+
+**Exemples de charges fixes mensuelle en food truck :**
+- Loyer ou remboursement du crédit véhicule : 600 à 1 200 €
+- Assurances (RC pro, marchandises, véhicule) : 150 à 300 €
+- Abonnements (téléphone, internet, logiciel de caisse, FoodTracks) : 50 à 150 €
+- Charges sociales minimales (cotisations TNS si micro-entrepreneur dépassant les seuils) : variables
+- Loyer ou location de cuisine centrale : 200 à 600 €
+- Leasing matériel ou équipements : variable
+
+**Total charges fixes typiques : 1 200 à 2 800 € par mois.**
+
+### 2. Les charges variables
+
+Ce sont les coûts qui **augmentent proportionnellement à votre activité**. Plus vous vendez, plus elles montent.
+
+**Exemples de charges variables :**
+- Matières premières (food cost) : 25 à 35 % du CA
+- Carburant et déplacements : lié au nombre de services
+- Emballages et consommables : lié au nombre de couverts
+- Frais bancaires TPE (SumUp, Square…) : 0,8 à 1,75 % du CA
+- Commissions plateformes de commande (Uber Eats, Deliveroo) : 15 à 30 % du CA livré
+
+**Le food cost est de loin la variable la plus importante.** Un food cost mal maîtrisé fait exploser votre point mort.
+
+## La formule du point mort en food truck
+
+Le calcul du point mort s'exprime ainsi :
+
+**Point mort (€) = Charges fixes / Taux de marge sur coûts variables**
+
+Avec :
+- **Taux de marge sur coûts variables = 1 – (Charges variables / CA)**
+
+### Exemple concret
+
+Imaginons un food truck burger avec les données suivantes :
+- Charges fixes mensuelles : 2 000 €
+- Food cost moyen : 30 % du CA
+- Autres charges variables (carburant, emballages, TPE) : 8 % du CA
+- Total charges variables : 38 % du CA
+
+**Taux de marge sur coûts variables = 1 – 0,38 = 0,62 (soit 62 %)**
+
+**Point mort mensuel = 2 000 € / 0,62 = 3 226 €**
+
+Soit environ **3 226 € de CA mensuel** avant de commencer à être rentable.
+
+Si vous faites 20 services par mois, votre **point mort par service = 3 226 / 20 = 161 €**.
+
+Vous devez donc encaisser au minimum **161 € par service** pour couvrir vos charges. En dessous, vous perdez de l'argent.
+
+## Calculer son objectif de CA par service : la méthode pas à pas
+
+### Étape 1 : Lister toutes ses charges fixes mensuelles
+
+Prenez votre comptabilité du dernier trimestre et listez tout ce qui tombe indépendamment de votre volume de ventes. Soyez exhaustif. Beaucoup de food truckers oublient les petites lignes : logiciels, abonnements, parking de nuit, frais comptable…
+
+**Conseil :** utilisez FoodTracks pour automatiser ce travail. En [connectant vos factures](/fr/blog/scanner-factures-food-truck-gagner-temps) et votre terminal SumUp, le logiciel calcule automatiquement vos charges et votre point mort en temps réel.
+
+### Étape 2 : Calculer son food cost moyen
+
+Le food cost est le rapport entre le coût des matières premières consommées et le chiffre d'affaires généré.
+
+**Food cost (%) = Coût des matières premières / CA × 100**
+
+Pour le calculer précisément, il faut suivre vos achats et vos ventes sur une même période. Idéalement, faites-le recette par recette, puis calculez une moyenne pondérée.
+
+**Un food cost sain en food truck se situe entre 25 et 32 %.** Au-delà de 35 %, vous avez un problème structurel — soit vos prix sont trop bas, soit vos achats sont mal négociés.
+
+### Étape 3 : Ajouter les autres charges variables
+
+En dehors du food cost, vos charges variables incluent :
+- Le carburant : estimez le coût par service selon votre distance domicile-emplacement
+- Les emballages : comptez entre 0,15 et 0,40 € par couvert
+- Les frais de TPE : 1 à 1,5 % du CA en moyenne
+
+### Étape 4 : Calculer le taux de marge sur coûts variables
+
+Additionnez toutes vos charges variables en pourcentage du CA, puis soustrayez de 1 (ou 100 %).
+
+**Exemple :** food cost 30 % + carburant 3 % + emballages 2 % + TPE 1 % = 36 % de charges variables
+
+**Taux de marge = 100 % – 36 % = 64 %**
+
+### Étape 5 : Calculer le point mort mensuel et par service
+
+**Point mort mensuel (€) = Charges fixes totales / Taux de marge sur coûts variables**
+
+Puis divisez par votre nombre de services mensuel pour obtenir votre **objectif minimum par service**.
+
+## Point mort par service : exemples selon les profils food truck
+
+| Type de food truck | Charges fixes/mois | Food cost | Taux marge CV | Point mort mensuel | Services/mois | Objectif/service |
+|---|---|---|---|---|---|---|
+| Solo débutant, véhicule amorti | 1 400 € | 32 % | 59 % | 2 373 € | 18 | **132 €** |
+| Duo, camion en crédit | 2 600 € | 28 % | 63 % | 4 127 € | 22 | **188 €** |
+| Équipe 3 personnes, cuisine centrale | 3 800 € | 26 % | 65 % | 5 846 € | 25 | **234 €** |
+
+Ces chiffres sont des repères. Votre réalité dépend de votre structure de coûts précise.
+
+## À partir de combien de couverts êtes-vous rentable ?
+
+Une fois que vous connaissez votre point mort par service en euros, convertissez-le en nombre de couverts.
+
+**Nombre de couverts au point mort = Point mort (€) / Ticket moyen (€)**
+
+Si votre objectif par service est de **188 €** et que votre ticket moyen est de **9,50 €** :
+
+**188 / 9,50 = 20 couverts minimum pour être rentable.**
+
+Ce chiffre est votre **"magic number"**. Affichez-le dans votre camion. Communiquez-le à votre équipe. C'est le niveau à partir duquel chaque couvert supplémentaire génère du profit net.
+
+## Comment utiliser le point mort pour prendre de meilleures décisions
+
+### Évaluer un nouvel emplacement
+
+Avant de signer sur un nouveau spot, estimez le flux de clientèle potentiel. Si vous pensez pouvoir y faire 25 couverts et que votre seuil est à 20, l'emplacement vaut le coup. S'il vous en faut 50 et que le site en fait rarement plus de 30, c'est un piège.
+
+### Décider de participer à un événement
+
+Les événements (marchés, festivals, foires) impliquent souvent des **droits de place élevés** qui gonflent temporairement vos charges fixes. Recalculez votre point mort spécifique à l'événement en intégrant le droit d'entrée.
+
+**Exemple :** droit de place 180 € pour un festival. Votre point mort habituel par service est de 188 €. Pour ce service festival, votre point mort passe à **188 + (180 × 0,64) = 188 + 115 = 303 €** environ.
+
+Vous devez donc encaisser 303 € pour couvrir les coûts de ce service. Soit environ **32 couverts à 9,50 €**. Est-ce réaliste compte tenu du flux attendu ? C'est à vous d'évaluer.
+
+### Fixer un prix minimum sur une promotion
+
+Si vous lancez une promotion (happy hour, menu duo…), assurez-vous que le ticket moyen promotionnel ne descend pas en dessous du seuil de couverture de vos charges variables. Une promotion qui fait venir du monde mais qui descend votre ticket moyen sous votre food cost + charges variables fixes par couvert = promotionest déficitaire.
+
+### Savoir quand annuler un service
+
+Si un service prévu s'annonce mauvais (météo catastrophique, événement concurrent, zone désertée), comparez le chiffre d'affaires probable à votre point mort. Si vous êtes sûr de faire moins de 60 % du seuil, il est parfois plus rentable d'**annuler et d'éviter les frais variables** (carburant, matières premières fraîches déjà commandées mis à part).
+
+## Les 5 leviers pour faire baisser votre point mort
+
+Réduire son seuil de rentabilité, c'est rendre son activité plus résiliente. Voici les cinq leviers concrets.
+
+### 1. Réduire le food cost
+
+C'est le levier le plus puissant. Chaque point de food cost en moins représente une hausse directe de votre taux de marge. Pour y parvenir :
+- [Négociez vos contrats fournisseurs](/fr/blog/negocier-fournisseurs-food-truck) sur les volumes
+- Travaillez vos fiches techniques de recettes pour standardiser les portions
+- Réduisez le gaspillage en fin de service
+- Analysez quels plats ont le meilleur ratio marge/popularité (ingénierie de menu)
+
+### 2. Augmenter le ticket moyen
+
+Un ticket moyen plus élevé avec les mêmes charges fixes = seuil atteint plus rapidement. Techniques efficaces :
+- Upselling verbal ("vous voulez ajouter une boisson ?")
+- Menus combinés légèrement au-dessus du prix séparé
+- Dessert du moment mis en avant au moment du paiement
+
+### 3. Réduire les charges fixes
+
+Renégociez votre crédit véhicule si les taux ont baissé. Rationalisez vos abonnements logiciels. Mutualisez la cuisine centrale avec un autre food trucker pour partager le loyer.
+
+### 4. Augmenter le nombre de services rentables
+
+Avoir 22 services à 188 € (soit 4 136 € de CA) est moins rentable que 24 services à 220 € (soit 5 280 € de CA). Travaillez votre [planning hebdomadaire](/fr/blog/planning-semaine-food-truck) pour privilégier les emplacements performants.
+
+### 5. Diversifier vers des formats à forte marge
+
+Les contrats d'entreprise, les prestations traiteur pour événements privés et le click & collect ont souvent des structures de coûts différentes qui permettent d'atteindre le point mort avec moins de couverts physiques.
+
+## Suivre son point mort en temps réel avec FoodTracks
+
+Calculer son point mort une fois dans un tableur, c'est bien. Le surveiller en continu, c'est beaucoup mieux.
+
+FoodTracks centralise vos données de ventes (via votre TPE SumUp), vos achats (via le scan de factures) et vos charges récurrentes. Sur votre tableau de bord, vous visualisez en temps réel :
+- Votre CA du jour vs. votre objectif de service
+- Votre food cost en glissement sur 30 jours
+- Le nombre de couverts réalisés vs. votre "magic number"
+- L'alerte quand vous approchez d'un service déficitaire
+
+**À lire aussi :** [Tableau de bord KPI food truck](/fr/blog/tableau-de-bord-kpi-food-truck) · [Charges variables food truck : identifier et réduire ses coûts](/fr/blog/charges-variables-food-truck) · [Calculer le coût de revient d'une recette](/fr/blog/calculer-cout-revient-recette-food-truck)`,
+
+      en: `## Why Break-Even Is the Most Important Number in Your Food Truck
+
+Most food truck operators focus on gross revenue or product margins. That's useful — but it doesn't answer the real question: **how much do I need to sell tonight just to not lose money?**
+
+Your break-even point is the revenue level at which you exactly cover all your costs. Below it: you're in deficit. Above it: you're generating profit. It's your **survival target** before it becomes a growth target.
+
+A food trucker who knows their break-even per service makes radically different decisions than one who doesn't. They know when to skip an underperforming location. They know at what cover count a service becomes profitable. They know whether a flash promo will help or hurt them.
+
+## The Two Cost Categories You Must Separate
+
+To calculate your break-even, you first need to classify your costs into two distinct categories.
+
+### 1. Fixed Costs
+
+These are costs that exist **regardless of your activity level**. Whether you sell 50 or 500 items this month, these charges still hit.
+
+**Typical monthly fixed costs for a food truck:**
+- Vehicle loan repayment or lease: $600–$1,200
+- Insurance (liability, goods, vehicle): $150–$350
+- Subscriptions (phone, software, POS system, FoodTracks): $50–$200
+- Commissary kitchen rental: $300–$800
+- Equipment leasing: varies
+
+**Typical total fixed costs: $1,500–$3,200 per month.**
+
+### 2. Variable Costs
+
+These are costs that **scale proportionally with your activity**. The more you sell, the higher they go.
+
+**Typical variable costs:**
+- Food cost (ingredients): 25–35% of revenue
+- Fuel and travel: tied to number of services
+- Packaging and consumables: tied to cover count
+- Card processing fees (Square, SumUp…): 1–2.75% of revenue
+- Delivery platform commissions (Uber Eats, DoorDash): 15–30% of delivered revenue
+
+**Food cost is by far the most impactful variable.** An uncontrolled food cost will blow up your break-even point fast.
+
+## The Break-Even Formula for Food Trucks
+
+Break-even is calculated as follows:
+
+**Break-Even Revenue ($) = Fixed Costs / Contribution Margin Ratio**
+
+Where:
+- **Contribution Margin Ratio = 1 – (Variable Costs / Revenue)**
+
+### Worked Example
+
+Say you run a burger food truck with these figures:
+- Monthly fixed costs: $2,000
+- Average food cost: 30% of revenue
+- Other variable costs (fuel, packaging, card fees): 8% of revenue
+- Total variable costs: 38% of revenue
+
+**Contribution Margin Ratio = 1 – 0.38 = 0.62 (62%)**
+
+**Monthly Break-Even = $2,000 / 0.62 = $3,226**
+
+That's roughly **$3,226 in monthly revenue** before you start generating actual profit.
+
+If you run 20 services per month, your **break-even per service = $3,226 / 20 = $161**.
+
+You must take in at least **$161 per service** to cover your costs. Below that, you're losing money on that service.
+
+## Setting a Daily Revenue Target: Step-by-Step Method
+
+### Step 1: List All Your Monthly Fixed Costs
+
+Pull your last three months of records and list everything that hits regardless of sales volume. Be thorough. Many food truckers miss small lines: software subscriptions, overnight parking, accountant fees, commissary minimum charges.
+
+**Pro tip:** use FoodTracks to automate this. By [connecting your invoices](/en/blog/scanner-factures-food-truck-gagner-temps) and your SumUp terminal, the software automatically calculates your costs and live break-even figure.
+
+### Step 2: Calculate Your Average Food Cost
+
+Food cost is the ratio of ingredient cost to revenue generated.
+
+**Food Cost (%) = Ingredient Costs / Revenue × 100**
+
+To calculate it accurately, track purchases and sales over the same period. Ideally, do it recipe by recipe, then calculate a weighted average.
+
+**A healthy food truck food cost sits between 25% and 32%.** Above 35%, you have a structural problem — either your prices are too low or your purchasing is poorly negotiated.
+
+### Step 3: Add Other Variable Costs
+
+Beyond food cost, your variable costs include:
+- Fuel: estimate cost per service based on your average round-trip distance
+- Packaging: budget $0.15–$0.45 per cover
+- Card processing: 1–2% of revenue on average
+
+### Step 4: Calculate Your Contribution Margin Ratio
+
+Add up all your variable costs as a percentage of revenue, then subtract from 100%.
+
+**Example:** food cost 30% + fuel 3% + packaging 2% + card fees 1% = 36% variable costs
+
+**Contribution Margin Ratio = 100% – 36% = 64%**
+
+### Step 5: Calculate Monthly and Per-Service Break-Even
+
+**Monthly Break-Even ($) = Total Fixed Costs / Contribution Margin Ratio**
+
+Then divide by your number of monthly services to get your **minimum target per service**.
+
+## Break-Even Per Service: Examples by Food Truck Profile
+
+| Food Truck Type | Fixed Costs/Month | Food Cost | Contrib. Margin | Monthly Break-Even | Services/Month | Target/Service |
+|---|---|---|---|---|---|---|
+| Solo operator, paid-off truck | $1,500 | 32% | 59% | $2,542 | 18 | **$141** |
+| Two-person team, leased truck | $2,800 | 28% | 63% | $4,444 | 22 | **$202** |
+| Three-person crew, commissary | $4,000 | 26% | 65% | $6,154 | 25 | **$246** |
+
+These are benchmarks. Your reality depends on your exact cost structure.
+
+## How Many Covers Do You Need to Break Even?
+
+Once you know your per-service break-even in dollars, convert it to a cover count.
+
+**Covers to Break Even = Break-Even ($) / Average Check ($)**
+
+If your service target is **$202** and your average check is **$10.50**:
+
+**202 / 10.50 = 20 covers minimum to break even.**
+
+This number is your **magic number**. Post it in your truck. Tell your team. Every cover above that number generates pure profit.
+
+## Using Break-Even to Make Better Decisions
+
+### Evaluating a New Location
+
+Before committing to a new spot, estimate potential customer flow. If you think you can serve 28 covers and your threshold is 20, the location is worth trying. If you need 50 covers and the spot rarely draws more than 30, it's a money pit.
+
+### Deciding Whether to Work an Event
+
+Events (markets, festivals, fairs) often involve **high pitch fees** that temporarily inflate your fixed costs. Recalculate a service-specific break-even that includes the pitch fee.
+
+**Example:** pitch fee $200 for a weekend market. Your usual break-even per service is $202. For this market service, your break-even becomes approximately **$202 + ($200 × 0.64) = $202 + $128 = $330**.
+
+You need to take in $330 to cover this service's costs — roughly **31 covers at $10.50**. Is that realistic given expected foot traffic? That's your judgment call to make.
+
+### Setting a Price Floor for Promotions
+
+When running a happy hour or combo deal, make sure the promotional average check doesn't drop below the threshold needed to cover your variable costs per cover. A promotion that brings in crowds but drops your average check below your food cost + per-cover variable charges is a loss-making exercise.
+
+### Knowing When to Cancel a Service
+
+If a planned service looks bad (severe weather, competing event, zone closed), compare the projected revenue to your break-even. If you're confident you'll do less than 60% of your threshold, it's sometimes more profitable to **cancel and avoid variable costs** — especially if fresh ingredients haven't been prepped yet.
+
+## 5 Levers to Lower Your Break-Even Point
+
+Reducing your break-even makes your operation more resilient. Here are five actionable levers.
+
+### 1. Reduce Food Cost
+
+This is the most powerful lever. Every percentage point lower in food cost directly increases your contribution margin. To get there:
+- [Negotiate supplier contracts](/en/blog/negocier-fournisseurs-food-truck) based on volume commitments
+- Standardize portions through detailed recipe cards
+- Reduce end-of-service waste
+- Analyze which dishes have the best margin-to-popularity ratio (menu engineering)
+
+### 2. Raise Average Check
+
+A higher average check with the same fixed costs means you reach break-even faster. Effective techniques:
+- Verbal upselling ("want to add a drink?")
+- Combo meals priced slightly above individual items
+- A visible daily dessert or add-on highlighted at the POS
+
+### 3. Cut Fixed Costs
+
+Renegotiate your vehicle loan if rates have dropped. Audit your software subscriptions. Share commissary kitchen space with another food trucker to split the rent.
+
+### 4. Increase Profitable Service Count
+
+Running 22 services at $202 ($4,444 revenue) is less profitable than running 24 services at $240 ($5,760 revenue). Work your [weekly schedule](/en/blog/planning-semaine-food-truck) to prioritize high-performing locations and drop underperformers.
+
+### 5. Diversify Into High-Margin Formats
+
+Corporate catering contracts, private event catering, and click & collect often have different cost structures that let you hit break-even with fewer physical covers.
+
+## Tracking Break-Even in Real Time With FoodTracks
+
+Calculating break-even once in a spreadsheet is good. Monitoring it continuously is far better.
+
+FoodTracks centralizes your sales data (via your SumUp terminal), your purchases (via invoice scanning), and your recurring charges. On your dashboard, you see in real time:
+- Today's revenue vs. your service target
+- Your food cost on a 30-day rolling basis
+- Covers completed vs. your magic number
+- An alert when you're tracking toward a loss-making service
+
+**Also read:** [Food truck KPI dashboard](/en/blog/tableau-de-bord-kpi-food-truck) · [Food truck variable costs: identify and reduce](/en/blog/charges-variables-food-truck) · [How to calculate recipe cost](/en/blog/calculer-cout-revient-recette-food-truck)`,
+    },
+    keyTakeaways: {
+      fr: [
+        "Le point mort par service = charges fixes mensuelles ÷ (nombre de services × taux de marge sur coûts variables). C'est votre objectif minimum de CA à encaisser avant de générer du profit.",
+        "Un food cost de 30 % et des charges variables totales de 38 % donnent un taux de marge de 62 %. Avec 2 000 € de charges fixes et 20 services, le seuil par service est d'environ 161 €.",
+        "Convertissez votre point mort en nombre de couverts : divisez-le par votre ticket moyen. Ce 'magic number' est l'indicateur le plus opérationnel pour votre équipe.",
+        "Intégrez les droits de place événementiels dans le calcul du point mort spécifique à chaque service pour éviter les événements déficitaires.",
+        "Réduire le food cost d'un seul point de pourcentage baisse directement votre point mort mensuel et augmente le profit sur chaque service au-delà du seuil.",
+      ],
+      en: [
+        "Break-even per service = monthly fixed costs ÷ (number of services × contribution margin ratio). This is your minimum revenue target before generating any profit.",
+        "A 30% food cost and 38% total variable costs give a 62% contribution margin. With $2,000 fixed costs and 20 services, the break-even per service is around $161.",
+        "Convert your break-even to a cover count: divide it by your average check. This 'magic number' is the most actionable metric for your team on the ground.",
+        "Include event pitch fees in service-specific break-even calculations to avoid committing to events that can't cover their costs.",
+        "Reducing food cost by one percentage point directly lowers your monthly break-even and increases profit on every service above the threshold.",
+      ],
+    },
+    faqItems: [
+      {
+        question: {
+          fr: "Comment calculer son point mort par service en food truck ?",
+          en: "How do I calculate my food truck break-even per service?",
+        },
+        answer: {
+          fr: "Additionnez toutes vos charges fixes mensuelles, divisez par votre taux de marge sur coûts variables (1 moins le total de vos charges variables en % du CA), puis divisez par votre nombre de services mensuel. Le résultat est votre objectif de CA minimum par service.",
+          en: "Add up all your monthly fixed costs, divide by your contribution margin ratio (1 minus your total variable costs as a percentage of revenue), then divide by your number of monthly services. The result is your minimum revenue target per service.",
+        },
+      },
+      {
+        question: {
+          fr: "Quel est le point mort moyen d'un food truck ?",
+          en: "What is the average break-even point for a food truck?",
+        },
+        answer: {
+          fr: "Il varie fortement selon la structure de coûts. Un opérateur solo avec un véhicule amorti peut avoir un seuil de 120 à 150 € par service, tandis qu'une équipe de 3 personnes avec crédit et cuisine centrale peut avoir un seuil de 220 à 280 € par service. L'essentiel est de calculer votre propre seuil plutôt que de vous fier à une moyenne.",
+          en: "It varies widely depending on your cost structure. A solo operator with a paid-off truck may have a threshold of $120–$160 per service, while a three-person team with a lease and commissary kitchen may have a threshold of $220–$280 per service. The key is calculating your own break-even rather than relying on an average.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment réduire son point mort en food truck ?",
+          en: "How can I lower my food truck break-even point?",
+        },
+        answer: {
+          fr: "Les cinq principaux leviers sont : réduire le food cost (le plus impactant), augmenter le ticket moyen, diminuer les charges fixes, augmenter le nombre de services rentables et diversifier vers des formats à forte marge comme le traiteur événementiel ou le click & collect.",
+          en: "The five main levers are: reduce food cost (the most impactful), raise average check, cut fixed costs, increase the number of profitable services, and diversify into high-margin formats like event catering or click & collect.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment intégrer les droits de place d'un événement dans le calcul du point mort ?",
+          en: "How do I factor an event pitch fee into my break-even calculation?",
+        },
+        answer: {
+          fr: "Multipliez le droit de place par votre taux de marge sur coûts variables, puis ajoutez ce montant à votre point mort habituel par service. Par exemple, un droit de place de 200 € avec un taux de marge de 62 % ajoute 124 € à votre seuil de service.",
+          en: "Multiply the pitch fee by your contribution margin ratio, then add that amount to your usual per-service break-even. For example, a $200 pitch fee with a 62% contribution margin adds $124 to your service threshold.",
+        },
+      },
+      {
+        question: {
+          fr: "Peut-on suivre son point mort automatiquement sans faire les calculs manuellement à chaque fois ?",
+          en: "Can I track my break-even automatically without recalculating manually each time?",
+        },
+        answer: {
+          fr: "Oui. Un logiciel comme FoodTracks connecte vos ventes SumUp, vos factures fournisseurs et vos charges récurrentes pour calculer votre point mort en temps réel sur votre tableau de bord. Vous visualisez instantanément si le service en cours est sur la bonne trajectoire.",
+          en: "Yes. A tool like FoodTracks connects your SumUp sales, supplier invoices, and recurring charges to calculate your break-even in real time on your dashboard. You can instantly see whether the current service is on track to be profitable.",
+        },
+      },
+    ],
+    relatedSlugs: [
+      "charges-variables-food-truck",
+      "seuil-rentabilite-food-truck-calcul",
+      "tableau-de-bord-kpi-food-truck",
+      "calculer-cout-revient-recette-food-truck",
+    ],
+  },
+
 ];
 
 export const blogArticles: BlogArticle[] = [...baseBlogArticles, ...verticalArticles];
