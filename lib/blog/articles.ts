@@ -38566,6 +38566,319 @@ Food truckers who succeed don't cook better than others. They manage their busin
       "seuil-rentabilite-food-truck-calcul",
     ],
   },
+  {
+    slug: "food-truck-zone-industrielle-parc-activites",
+    title: {
+      fr: "Food truck en zone industrielle et parc d'activités : réglementation, contrats et stratégie",
+      en: "Food Truck in Industrial Zones and Business Parks: Rules, Contracts and Strategy",
+    },
+    excerpt: {
+      fr: "S'installer en zone industrielle est l'une des opportunités les plus sous-exploitées en food truck : clientèle captive, horaires prévisibles et revenu récurrent. Voici comment y accéder légalement et rentablement.",
+      en: "Setting up in an industrial zone is one of the most underrated food truck opportunities: captive audience, predictable hours, and recurring income. Here's how to do it legally and profitably.",
+    },
+    category: { fr: "Emplacements", en: "Locations" },
+    date: "2026-06-03",
+    readTime: 10,
+    keywords: [
+      "food truck zone industrielle",
+      "food truck parc d'activités",
+      "emplacement food truck entreprise",
+      "food truck zone d'activités autorisation",
+      "food truck industrial zone France",
+    ],
+    heroImage: "/blog/zone-industrielle-food-truck.webp",
+    content: {
+      fr: `## Pourquoi les zones industrielles sont une mine d'or pour les food trucks
+
+Les zones industrielles et parcs d'activités regorgent de salariés qui déjeunent sur place, souvent sans alternative proche. À l'heure du déjeuner, un food truck bien positionné peut servir **60 à 120 couverts en 90 minutes** — avec une clientèle qui revient chaque semaine.
+
+Pourtant, moins de 20 % des food truckers exploitent ce filon. La raison principale : la méconnaissance des règles d'accès et des contrats à signer.
+
+## La réglementation : domaine privé vs voie publique
+
+La première distinction à comprendre est fondamentale : **une zone industrielle est presque toujours un terrain privé**.
+
+### Sur voie publique (rarement le cas en ZI)
+
+Si la voie qui dessert la zone est une voie communale ou départementale, vous devez obtenir une **autorisation d'occupation temporaire du domaine public** auprès de la mairie. Les règles sont les mêmes que pour un marché classique.
+
+### Sur terrain privé (cas général)
+
+En zone industrielle, les routes et parkings appartiennent le plus souvent à :
+- **L'aménageur / gestionnaire de la ZA** (comme une société d'économie mixte ou une intercommunalité)
+- **Une association syndicale** des entreprises de la zone
+- **L'une des entreprises** si la zone est mono-propriétaire
+
+Dans ce cas, **la mairie n'a rien à autoriser**. Vous avez simplement besoin de l'accord écrit du propriétaire du terrain.
+
+## Comment obtenir l'accès à une zone industrielle
+
+### 1. Identifier le gestionnaire
+
+Commencez par contacter la **CCI (Chambre de Commerce et d'Industrie)** locale ou le site de la commune : ils ont généralement la liste des zones d'activités et leurs gestionnaires. Vous pouvez aussi frapper directement à la porte de l'entreprise la plus importante de la zone.
+
+### 2. Négocier une convention d'occupation
+
+Une fois le gestionnaire identifié, proposez une **convention d'occupation précaire et révocable** (terme juridique standard). Ce document doit préciser :
+- Les jours et horaires d'exploitation
+- L'emplacement exact (avec plan)
+- La durée (souvent 1 an renouvelable)
+- La redevance mensuelle ou le pourcentage du CA
+- Les obligations (propreté, gestion des déchets, assurance RC pro)
+
+**Tarif habituel :** entre 50 € et 300 €/mois selon la taille de la zone et la fréquentation potentielle. Certains gestionnaires préfèrent un pourcentage du CA (généralement 3 à 8 %).
+
+### 3. Souscrire une assurance RC pro adaptée
+
+Votre assurance responsabilité civile professionnelle doit **couvrir votre activité sur terrain privé tiers**. Vérifiez ce point explicitement avec votre assureur : certains contrats excluent les terrains privés hors marché.
+
+## Stratégie pour maximiser vos ventes en zone industrielle
+
+### Connaître les horaires de pause
+
+Chaque zone a ses propres rythmes. Dans une ZI mixte (logistique + tertiaire), vous aurez souvent :
+- **Une vague 12h00–12h30** (employés de bureau)
+- **Une vague 12h30–13h15** (opérateurs, logisticiens)
+
+Arrivez 30 minutes avant la première vague, restez jusqu'à 30 minutes après la dernière. Ne partez pas trop tôt : le salarié qui prend sa pause à 13h20 se souviendra que vous étiez déjà parti.
+
+### Adapter votre menu au profil de la zone
+
+Le profil des salariés détermine votre offre idéale :
+
+| Type de zone | Profil dominant | Menu recommandé |
+|---|---|---|
+| Logistique / entrepôts | Ouvriers, opérateurs | Burger, kebab, formule riz — fort volume, prix < 10 € |
+| Parc tertiaire | Cadres, commerciaux | Salade composée, wrap, plat chaud — premium 10–13 € |
+| ZI mixte | Profils variés | Deux gammes de prix, 4–6 références |
+
+### Fidéliser par la régularité
+
+En zone industrielle, votre plus grand atout est la **régularité**. Venez les mêmes jours, aux mêmes horaires. Les salariés planifient leur déjeuner en avance : s'ils savent que vous êtes là le mardi et le jeudi, ils ne sortent pas chercher une alternative.
+
+Un programme de fidélité simple (carte tampon ou code QR) peut augmenter votre taux de retour de **15 à 25 %** dès le premier trimestre.
+
+### Communiquer en interne
+
+Proposez au responsable RH ou au gestionnaire de site de **relayer vos horaires dans l'intranet ou par email**. Certaines entreprises ont un panneau d'affichage à l'entrée ou un groupe WhatsApp des salariés. Une simple annonce "Le food truck Machin est là mardi et jeudi de 12h à 13h30" peut doubler votre affluence.
+
+## Calculer la rentabilité avant de signer
+
+Avant de signer une convention, estimez votre potentiel :
+
+**Potentiel de CA = (Effectif de la zone × taux de capture) × panier moyen**
+
+Exemple :
+- Zone : 400 salariés
+- Taux de capture réaliste (20 %) : 80 personnes par service
+- Panier moyen : 9 €
+- **CA par service : 720 €**
+- 2 services/semaine × 45 semaines : **64 800 €/an**
+
+Si la redevance est de 200 €/mois (2 400 €/an), elle représente **3,7 % du CA prévisionnel** — très acceptable.
+
+Avec [FoodTracks](/fr/fonctionnalites), suivez votre CA par emplacement en temps réel pour comparer vos zones d'activités entre elles et décider où concentrer vos efforts.
+
+## FAQ — Food truck en zone industrielle
+
+### Faut-il une autorisation de la mairie pour travailler en zone industrielle ?
+
+Non, si la zone est sur terrain privé (cas général). Vous avez seulement besoin de l'accord écrit du propriétaire ou gestionnaire de la zone. Si la voie d'accès est une voie communale, une autorisation d'occupation du domaine public peut être nécessaire.
+
+### Peut-on se faire refuser l'accès à une zone industrielle ?
+
+Oui. Le propriétaire du terrain est libre de refuser sans motif. Pour maximiser vos chances : montrez que vous répondez à un vrai besoin (enquête auprès des salariés), proposez une période d'essai d'un mois et soulignez l'avantage pour le gestionnaire (service aux occupants, attractivité de la zone).
+
+### Quelle redevance proposer pour un emplacement en parc d'activités ?
+
+Commencez par proposer 50 à 150 €/mois pour une petite zone (< 200 salariés), ou 3 à 5 % du CA pour une zone plus importante. Évitez de proposer 0 € : certains gestionnaires refuseront par crainte de créer un précédent ou de voir leur responsabilité engagée.
+
+## Conclusion
+
+La zone industrielle est l'emplacement idéal pour un food truck qui cherche **une clientèle régulière, prévisible et peu concurrencée**. En comprenant que vous opérez sur terrain privé et en préparant une convention sérieuse, vous pouvez sécuriser un ou deux emplacements récurrents qui représentent la colonne vertébrale de votre chiffre d'affaires.
+
+Suivez vos performances emplacement par emplacement avec [FoodTracks](https://foodtracks.io/fr/pricing) et identifiez rapidement vos zones les plus rentables.
+
+**À lire aussi :** [Choisir un emplacement rentable](/fr/blog/choisir-emplacement-rentable-food-truck) · [Autorisation stationnement food truck](/fr/blog/autorisation-stationnement-food-truck) · [Food truck événementiel entreprise](/fr/blog/food-truck-evenementiel-traiteur)`,
+      en: `## Why Industrial Zones Are a Gold Mine for Food Trucks
+
+Industrial zones and business parks are full of employees who eat on-site, often with no nearby alternative. At lunchtime, a well-positioned food truck can serve **60 to 120 covers in 90 minutes** — with customers who come back every week.
+
+Yet fewer than 20% of food truckers tap into this opportunity. The main reason: a lack of understanding about how to access these sites and what contracts to sign.
+
+## The Rules: Private Land vs Public Road
+
+The first thing to understand is fundamental: **an industrial zone is almost always private land**.
+
+### On a public road (rarely the case in industrial zones)
+
+If the road serving the zone is a municipal or departmental road, you need a **temporary occupation permit for public land** from the local council. The rules are the same as for a regular market.
+
+### On private land (the typical case)
+
+In industrial zones, roads and car parks usually belong to:
+- **The zone developer or manager** (such as a mixed-economy company or an inter-municipal authority)
+- **A syndicate association** of the businesses in the zone
+- **One of the companies** if the zone has a single owner
+
+In this case, **the council has nothing to authorise**. You simply need written permission from the landowner.
+
+## How to Get Access to an Industrial Zone
+
+### 1. Identify the site manager
+
+Start by contacting the local **Chamber of Commerce and Industry (CCI)** or the municipality's website: they usually list business zones and their managers. You can also go directly to the largest company in the zone.
+
+### 2. Negotiate an occupation agreement
+
+Once you've identified the manager, propose a **précaire et révocable occupation agreement** (standard French legal term for a temporary permit). This document should specify:
+- Operating days and hours
+- The exact location (with a map)
+- Duration (often 1 year, renewable)
+- The monthly fee or percentage of revenue
+- Your obligations (cleanliness, waste management, professional liability insurance)
+
+**Typical fee:** €50 to €300/month depending on zone size and potential footfall. Some managers prefer a percentage of revenue (usually 3–8%).
+
+### 3. Take out appropriate professional liability insurance
+
+Your professional liability insurance must **cover your activity on third-party private land**. Check this point explicitly with your insurer: some policies exclude private land outside of market settings.
+
+## Strategy to Maximise Sales in an Industrial Zone
+
+### Know the lunch break schedule
+
+Every zone has its own rhythms. In a mixed industrial zone (logistics + office), you'll typically see:
+- **A wave from 12:00–12:30** (office employees)
+- **A wave from 12:30–13:15** (operators, warehouse staff)
+
+Arrive 30 minutes before the first wave, stay until 30 minutes after the last. Don't leave too early: the employee taking their break at 13:20 will remember you were already gone.
+
+### Adapt your menu to the zone profile
+
+The employees' profile determines your ideal offer:
+
+| Zone type | Dominant profile | Recommended menu |
+|---|---|---|
+| Logistics / warehouses | Manual workers, operators | Burger, kebab, rice dish — high volume, under €10 |
+| Business park | Office staff, executives | Composed salad, wrap, hot dish — premium €10–13 |
+| Mixed industrial zone | Varied profiles | Two price ranges, 4–6 items |
+
+### Build loyalty through consistency
+
+In an industrial zone, your biggest asset is **consistency**. Come on the same days, at the same times. Employees plan their lunch in advance: if they know you're there on Tuesday and Thursday, they won't bother looking for an alternative.
+
+A simple loyalty programme (stamp card or QR code) can increase your return rate by **15–25%** within the first quarter.
+
+### Communicate internally
+
+Offer to let the HR manager or site coordinator **share your schedule on the intranet or by email**. Some companies have a notice board at the entrance or a staff WhatsApp group. A simple announcement — "The food truck is here Tuesday and Thursday 12pm–1:30pm" — can double your footfall.
+
+## Calculate Profitability Before Signing
+
+Before signing an agreement, estimate your potential:
+
+**Revenue potential = (Zone headcount × capture rate) × average spend**
+
+Example:
+- Zone: 400 employees
+- Realistic capture rate (20%): 80 covers per service
+- Average spend: €9
+- **Revenue per service: €720**
+- 2 services/week × 45 weeks: **€64,800/year**
+
+If the fee is €200/month (€2,400/year), it represents **3.7% of projected revenue** — very acceptable.
+
+With [FoodTracks](/en/features), track your revenue per location in real time to compare your business parks and decide where to focus your energy.
+
+## FAQ — Food Truck in an Industrial Zone
+
+### Do you need a council permit to operate in an industrial zone?
+
+No, if the zone is on private land (which is typically the case). You only need written permission from the landowner or zone manager. If the access road is a municipal road, a public land occupation permit may be required.
+
+### Can you be refused access to an industrial zone?
+
+Yes. The landowner is free to refuse without giving a reason. To maximise your chances: show that you're meeting a real need (survey the employees), propose a one-month trial period, and highlight the benefit to the manager (service for occupants, improved zone attractiveness).
+
+### What fee should you propose for a business park pitch?
+
+Start by proposing €50–150/month for a small zone (under 200 employees), or 3–5% of revenue for a larger site. Avoid proposing €0: some managers will refuse for fear of setting a precedent or taking on liability.
+
+## Conclusion
+
+An industrial zone is the ideal location for a food truck seeking **a regular, predictable, low-competition customer base**. By understanding that you're operating on private land and preparing a proper agreement, you can secure one or two recurring locations that form the backbone of your revenue.
+
+Track your performance location by location with [FoodTracks](https://foodtracks.io/en/pricing) and quickly identify your most profitable zones.
+
+**Read next:** [Choose a profitable location](/en/blog/choisir-emplacement-rentable-food-truck) · [Food truck parking permits](/en/blog/autorisation-stationnement-food-truck) · [Corporate food truck catering](/en/blog/food-truck-evenementiel-traiteur)`,
+    },
+    keyTakeaways: {
+      fr: [
+        "Les zones industrielles sont du terrain privé : pas besoin d'autorisation mairie, mais un accord écrit du gestionnaire est obligatoire.",
+        "Négociez une convention d'occupation avec emplacement précis, horaires et redevance (50–300 €/mois ou 3–8 % du CA).",
+        "Adaptez votre menu au profil des salariés : menu €10 pour le tertiaire, formule €7–9 pour la logistique.",
+        "La régularité est votre meilleur atout : mêmes jours, mêmes horaires, chaque semaine.",
+        "Calculez votre potentiel avant de signer : effectif × taux de capture 20 % × panier moyen.",
+      ],
+      en: [
+        "Industrial zones are private land: no council permit needed, but written permission from the site manager is mandatory.",
+        "Negotiate an occupation agreement with a precise location, hours and fee (€50–300/month or 3–8% of revenue).",
+        "Adapt your menu to the employee profile: €10 menu for office workers, €7–9 deal for logistics staff.",
+        "Consistency is your biggest asset: same days, same times, every week.",
+        "Calculate your potential before signing: headcount × 20% capture rate × average spend.",
+      ],
+    },
+    faqItems: [
+      {
+        question: {
+          fr: "Faut-il une autorisation de la mairie pour travailler en zone industrielle ?",
+          en: "Do you need a council permit to work in an industrial zone?",
+        },
+        answer: {
+          fr: "Non, si la zone est sur terrain privé (cas général). Vous avez seulement besoin de l'accord écrit du propriétaire ou du gestionnaire de la zone. Si la voie d'accès est une voie communale, une autorisation d'occupation du domaine public peut être nécessaire.",
+          en: "No, if the zone is on private land (which is the typical case). You only need written permission from the landowner or zone manager. If the access road is a municipal road, a public land occupation permit may be required.",
+        },
+      },
+      {
+        question: {
+          fr: "Quelle redevance proposer pour un emplacement en zone d'activités ?",
+          en: "What fee should you propose for a pitch in a business park?",
+        },
+        answer: {
+          fr: "Proposez 50 à 150 €/mois pour une petite zone (moins de 200 salariés), ou 3 à 5 % du CA pour une zone plus importante. Évitez de proposer 0 € : certains gestionnaires refuseront par crainte de créer un précédent.",
+          en: "Propose €50–150/month for a small zone (under 200 employees), or 3–5% of revenue for a larger site. Avoid proposing €0: some managers will refuse for fear of setting a precedent.",
+        },
+      },
+      {
+        question: {
+          fr: "Combien de couverts peut-on espérer en zone industrielle ?",
+          en: "How many covers can you expect in an industrial zone?",
+        },
+        answer: {
+          fr: "Un taux de capture de 15 à 25 % de l'effectif de la zone est réaliste après quelques semaines de régularité. Sur une zone de 300 salariés, cela représente 45 à 75 couverts par service — soit un CA de 400 à 675 € par service avec un panier moyen de 9 €.",
+          en: "A capture rate of 15–25% of the zone's workforce is realistic after a few weeks of consistent presence. For a zone of 300 employees, that's 45–75 covers per service — or €400–675 in revenue per service with an average spend of €9.",
+        },
+      },
+      {
+        question: {
+          fr: "Peut-on accéder à plusieurs zones industrielles en même temps ?",
+          en: "Can you access multiple industrial zones at the same time?",
+        },
+        answer: {
+          fr: "Oui, c'est même recommandé. Beaucoup de food truckers opèrent sur 2 à 4 zones différentes la même semaine, en alternant les jours. Suivez votre CA par emplacement avec un outil comme FoodTracks pour savoir lesquelles valent la peine d'être maintenues.",
+          en: "Yes, and it's actually recommended. Many food truckers operate across 2–4 different zones in the same week, alternating days. Track your revenue by location with a tool like FoodTracks to identify which ones are worth keeping.",
+        },
+      },
+    ],
+    relatedSlugs: [
+      "choisir-emplacement-rentable-food-truck",
+      "autorisation-stationnement-food-truck",
+      "food-truck-evenementiel-traiteur",
+      "trouver-emplacement-food-truck",
+    ],
+  },
+
 ];
 
 export const blogArticles: BlogArticle[] = [...baseBlogArticles, ...verticalArticles];
