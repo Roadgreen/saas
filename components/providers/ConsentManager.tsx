@@ -8,20 +8,20 @@
  * it buffers every event until consent is granted, then forwards — which is
  * what Google Ads (and other ad destinations) require to receive conversions.
  *
- * Fully inert until configured: if NEXT_PUBLIC_AXEPTIO_CLIENT_ID is unset, this
- * renders nothing and the Walityk tag stays in its default cookieless mode (see
- * app/[locale]/layout.tsx). Set the env var to activate the banner.
- *
  * What controls each Walityk signal:
  *   analytics_storage              → GA4
  *   ad_storage / ad_user_data /
  *   ad_personalization             → Google Ads, Meta, TikTok, …
+ *
+ * The Axeptio clientId / cookiesVersion are public (they ship to the browser).
+ * Env vars override them if ever needed.
  */
 
 import { useEffect } from 'react';
 
-const CLIENT_ID = process.env.NEXT_PUBLIC_AXEPTIO_CLIENT_ID;
-const COOKIES_VERSION = process.env.NEXT_PUBLIC_AXEPTIO_COOKIES_VERSION;
+const CLIENT_ID = process.env.NEXT_PUBLIC_AXEPTIO_CLIENT_ID || '6a21640a4bdd631a654f040e';
+const COOKIES_VERSION =
+  process.env.NEXT_PUBLIC_AXEPTIO_COOKIES_VERSION || '61c7a52a-a4e1-41b7-ba53-52194badb410';
 
 // Axeptio returns the visitor's choices keyed by the vendor identifiers you
 // configure in the Axeptio dashboard. We accept several common identifiers so
@@ -90,10 +90,20 @@ export function ConsentManager() {
       _axcb?: Array<(sdk: { on: (evt: string, cb: (choices: Choices) => void) => void }) => void>;
     };
 
-    // Configure Axeptio before its SDK loads.
+    // Configure Axeptio before its SDK loads. googleConsentMode primes gtag's
+    // Consent Mode v2 defaults to deny (harmless if no gtag is present).
     w.axeptioSettings = {
       clientId: CLIENT_ID,
       ...(COOKIES_VERSION ? { cookiesVersion: COOKIES_VERSION } : {}),
+      googleConsentMode: {
+        default: {
+          analytics_storage: 'denied',
+          ad_storage: 'denied',
+          ad_user_data: 'denied',
+          ad_personalization: 'denied',
+          wait_for_update: 500,
+        },
+      },
     };
 
     // Register the consent bridge. Axeptio drains _axcb once the SDK is ready,
