@@ -8,7 +8,13 @@
  * it buffers every event until consent is granted, then forwards — which is
  * what Google Ads (and other ad destinations) require to receive conversions.
  *
- * What controls each Walityk signal:
+ * How the bridge works: Axeptio has googleConsentMode enabled, so when the
+ * visitor makes a choice it pushes gtag('consent','update',{...}) to the
+ * dataLayer using its own vendor→Consent Mode mapping. We intercept that single
+ * source of truth and forward the exact signals to Walityk. This is robust to
+ * whatever vendor identifiers are configured in the Axeptio dashboard (those
+ * are opaque per-project ids, so mapping them by name would be brittle).
+ *
  *   analytics_storage              → GA4
  *   ad_storage / ad_user_data /
  *   ad_personalization             → Google Ads, Meta, TikTok, …
@@ -23,59 +29,37 @@ const CLIENT_ID = process.env.NEXT_PUBLIC_AXEPTIO_CLIENT_ID || '6a21640a4bdd631a
 const COOKIES_VERSION =
   process.env.NEXT_PUBLIC_AXEPTIO_COOKIES_VERSION || '61c7a52a-a4e1-41b7-ba53-52194badb410';
 
-// Axeptio returns the visitor's choices keyed by the vendor identifiers you
-// configure in the Axeptio dashboard. We accept several common identifiers so
-// the bridge keeps working whichever ones you enable. Add yours here if they
-// differ. Any truthy match grants the corresponding category.
-const ANALYTICS_VENDORS = [
-  'google_analytics',
-  'google_analytics_4',
-  'ga4',
-  'analytics',
-  'walityk',
-];
-const ADS_VENDORS = [
-  'google_ads',
-  'google_ads_remarketing',
-  'adwords',
-  'facebook_pixel',
-  'meta_pixel',
-  'meta',
-  'tiktok',
-  'pinterest',
-  'marketing',
-  'advertising',
-  'ads',
-];
-
 type Consent = 'granted' | 'denied';
-type Choices = Record<string, boolean>;
+const GCM_KEYS = ['analytics_storage', 'ad_storage', 'ad_user_data', 'ad_personalization'] as const;
+type GcmKey = (typeof GCM_KEYS)[number];
 
 interface WalitykRuntime {
-  consent: (partial: {
-    analytics_storage?: Consent;
-    ad_storage?: Consent;
-    ad_user_data?: Consent;
-    ad_personalization?: Consent;
-  }) => void;
+  consent: (partial: Partial<Record<GcmKey, Consent>>) => void;
 }
 
-function anyGranted(choices: Choices, vendors: string[]): boolean {
-  return vendors.some((v) => choices[v] === true);
+// A dataLayer entry from gtag is an arguments-like object indexed 0,1,2…
+// e.g. { 0:'consent', 1:'update', 2:{ analytics_storage:'granted', … } }.
+// We only act on `update` (the visitor's explicit choice), never `default` —
+// forwarding the deny-default would mark consent as explicitly denied and could
+// drop buffered events before the visitor even chose.
+function consentUpdateFromEntry(entry: unknown): Record<string, unknown> | null {
+  if (!entry || typeof entry !== 'object') return null;
+  const e = entry as Record<number, unknown>;
+  if (e[0] !== 'consent' || e[1] !== 'update') return null;
+  const state = e[2];
+  return state && typeof state === 'object' ? (state as Record<string, unknown>) : null;
 }
 
-function relayToWalityk(choices: Choices): void {
+function relayToWalityk(state: Record<string, unknown>): void {
   try {
     const tft = (window as unknown as { __tft?: WalitykRuntime }).__tft;
     if (!tft?.consent) return;
-    const analytics: Consent = anyGranted(choices, ANALYTICS_VENDORS) ? 'granted' : 'denied';
-    const ads: Consent = anyGranted(choices, ADS_VENDORS) ? 'granted' : 'denied';
-    tft.consent({
-      analytics_storage: analytics,
-      ad_storage: ads,
-      ad_user_data: ads,
-      ad_personalization: ads,
-    });
+    const partial: Partial<Record<GcmKey, Consent>> = {};
+    for (const k of GCM_KEYS) {
+      const v = state[k];
+      if (v === 'granted' || v === 'denied') partial[k] = v;
+    }
+    if (Object.keys(partial).length > 0) tft.consent(partial);
   } catch {
     /* never break the app */
   }
@@ -83,15 +67,36 @@ function relayToWalityk(choices: Choices): void {
 
 export function ConsentManager() {
   useEffect(() => {
-    if (!CLIENT_ID) return;
-
     const w = window as unknown as {
       axeptioSettings?: Record<string, unknown>;
-      _axcb?: Array<(sdk: { on: (evt: string, cb: (choices: Choices) => void) => void }) => void>;
+      dataLayer?: unknown[];
+      gtag?: (...args: unknown[]) => void;
     };
 
-    // Configure Axeptio before its SDK loads. googleConsentMode primes gtag's
-    // Consent Mode v2 defaults to deny (harmless if no gtag is present).
+    // Standard Google Consent Mode plumbing, set up before Axeptio loads so its
+    // consent updates land in a dataLayer whose push we intercept.
+    w.dataLayer = w.dataLayer || [];
+    const dl = w.dataLayer;
+    if (!w.gtag) {
+      w.gtag = (...args: unknown[]) => {
+        dl.push(args);
+      };
+    }
+    const originalPush = dl.push.bind(dl);
+    dl.push = (...args: unknown[]): number => {
+      try {
+        for (const a of args) {
+          const state = consentUpdateFromEntry(a);
+          if (state) relayToWalityk(state);
+        }
+      } catch {
+        /* never break the app */
+      }
+      return originalPush(...args);
+    };
+
+    // Configure Axeptio before its SDK loads. googleConsentMode primes the
+    // deny-default and makes Axeptio emit Consent Mode v2 updates on choice.
     w.axeptioSettings = {
       clientId: CLIENT_ID,
       ...(COOKIES_VERSION ? { cookiesVersion: COOKIES_VERSION } : {}),
@@ -105,13 +110,6 @@ export function ConsentManager() {
         },
       },
     };
-
-    // Register the consent bridge. Axeptio drains _axcb once the SDK is ready,
-    // then calls our callbacks again on every consent change.
-    w._axcb = w._axcb || [];
-    w._axcb.push((sdk) => {
-      sdk.on('cookies:complete', (choices) => relayToWalityk(choices));
-    });
 
     // Load the Axeptio SDK once.
     const SRC = 'https://static.axept.io/sdk.js';
