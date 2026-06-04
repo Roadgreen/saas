@@ -8,6 +8,7 @@ import { Toaster } from "@/components/ui/sonner";
 import { SessionProvider } from "next-auth/react";
 import { AnalyticsProvider } from "@/components/providers/AnalyticsProvider";
 import { NativeProvider } from "@/components/providers/NativeProvider";
+import { ConsentManager } from "@/components/providers/ConsentManager";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -457,7 +458,11 @@ export default async function LocaleLayout({ children, params }: { children: Rea
         <link rel="alternate" hrefLang="x-default" href={hrefFr} />
         <script
           dangerouslySetInnerHTML={{
-            __html: `(function(s,i,e){s.__tftq=s.__tftq||[];s.__tftq.push(['init',{site_id:i,endpoint:e+'/collect'}]);var t=document.createElement('script');t.async=true;t.src=e+'/tag.js';document.head.appendChild(t);})(window,'4bd38563-21f4-4265-8c65-5631400f0e58','https://tag.walityk.com');`,
+            // Walityk tag. When Axeptio is configured (NEXT_PUBLIC_AXEPTIO_CLIENT_ID
+            // set), run in `banner` mode: buffer events until the consent banner
+            // grants them, so ad destinations (Google Ads, …) receive conversions.
+            // Otherwise stay in the default cookieless mode (GA4 only).
+            __html: `(function(s,i,e){s.__tftq=s.__tftq||[];s.__tftq.push(['init',{site_id:i,endpoint:e+'/collect'${process.env.NEXT_PUBLIC_AXEPTIO_CLIENT_ID ? ",mode:'banner'" : ''}}]);var t=document.createElement('script');t.async=true;t.src=e+'/tag.js';document.head.appendChild(t);})(window,'4bd38563-21f4-4265-8c65-5631400f0e58','https://tag.walityk.com');`,
           }}
         />
       </head>
@@ -468,6 +473,7 @@ export default async function LocaleLayout({ children, params }: { children: Rea
               <AnalyticsProvider locale={locale}>
                 {children}
                 <Toaster />
+                <ConsentManager />
               </AnalyticsProvider>
             </NativeProvider>
           </SessionProvider>

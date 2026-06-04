@@ -160,6 +160,32 @@ function findTrackableElement(target: EventTarget | null) {
   return null;
 }
 
+// ─── Walityk mirror ───────────────────────────────────────────────────────────
+// Walityk (server-side tracking) only auto-captures page_view + generic custom
+// events from its tag. Typed conversions (a signup, a login) never reach it
+// unless we forward them — without that, GA4 / Google Ads have no typed event to
+// map. We mirror only conversion events here, using Walityk's standard vocabulary
+// (page_view excluded: Walityk's tag already auto-tracks it, so forwarding it
+// would double-count).
+
+const WALITYK_EVENT_MAP: Partial<Record<EventType, string>> = {
+  auth_register: 'sign_up',
+  auth_login: 'login',
+};
+
+interface WalitykQueue {
+  push: (entry: [string, string, EventProperties?]) => void;
+}
+
+function mirrorToWalityk(type: EventType, properties: EventProperties): void {
+  const mapped = WALITYK_EVENT_MAP[type];
+  if (!mapped) return;
+  try {
+    const q = (window as unknown as { __tftq?: WalitykQueue }).__tftq;
+    q?.push(['track', mapped, properties]);
+  } catch { /* never break the app */ }
+}
+
 // ─── Provider ─────────────────────────────────────────────────────────────────
 
 const BATCH_SIZE = 20;
@@ -264,6 +290,7 @@ export function AnalyticsProvider({
       };
       queueRef.current.push(payload);
       if (queueRef.current.length >= BATCH_SIZE) flush(false);
+      mirrorToWalityk(type, properties);
     } catch { /* never break the app */ }
   }, [flush]);
 
