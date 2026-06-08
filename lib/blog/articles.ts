@@ -39731,6 +39731,383 @@ To precisely track your stock (unsold pastries = direct loss), your sales per se
     ],
   },
 
+  {
+    slug: "suivi-depenses-food-truck",
+    title: {
+      fr: "Suivi des dépenses food truck : méthode complète pour contrôler ses charges en 2026",
+      en: "Food Truck Expense Tracking: The Complete Method to Control Your Costs in 2026",
+    },
+    excerpt: {
+      fr: "Apprenez à suivre toutes vos dépenses food truck (matières premières, carburant, charges fixes) pour identifier les fuites de marge et piloter votre rentabilité au quotidien.",
+      en: "Learn how to track all your food truck expenses (ingredients, fuel, fixed charges) to spot margin leaks and manage your profitability day by day.",
+    },
+    category: { fr: "Gestion financière", en: "Financial Management" },
+    date: "2026-06-08",
+    readTime: 11,
+    keywords: [
+      "suivi dépenses food truck",
+      "contrôle charges food truck",
+      "gestion finances food truck",
+      "food truck expense tracking",
+      "coûts food truck",
+    ],
+    heroImage: "/blog/gestion-stock.png",
+    content: {
+      fr: `## Pourquoi le suivi des dépenses est vital pour un food truck
+
+Beaucoup de food truckers connaissent leur chiffre d'affaires à l'euro près — mais ignorent le détail de leurs dépenses. C'est l'une des causes les plus fréquentes de rentabilité décevante, même avec un camion qui tourne bien.
+
+**Sans suivi rigoureux de vos charges, vous pilotez à l'aveugle.** Vous ne savez pas si vos marges se sont réduites parce que vos fournisseurs ont augmenté leurs prix, parce que vous gaspillez plus de matières premières ou parce que votre consommation de carburant a explosé.
+
+Ce guide vous donne une méthode complète pour catégoriser, suivre et analyser chaque dépense de votre food truck, afin de reprendre le contrôle de votre rentabilité.
+
+## Les 5 grandes catégories de dépenses à suivre
+
+### 1. Le coût des matières premières (food cost)
+
+C'est votre poste de dépense le plus important : entre **28 et 38% de votre chiffre d'affaires** selon votre concept. Il comprend :
+
+- Ingrédients bruts (viande, légumes, fromage, pain…)
+- Emballages et consommables (barquettes, couverts, serviettes)
+- Produits d'entretien alimentaire (gants, film étirable)
+
+**Comment le suivre** : scannez systématiquement chaque facture fournisseur et rattachez-la à la semaine de service concernée. Avec [FoodTracks](/fr), le scan automatique des factures extrait les montants et les classe sans saisie manuelle.
+
+### 2. Les charges de personnel
+
+Si vous travaillez seul, ce poste est nul ou quasi-nul. Mais dès que vous embauchez un salarié ou faites appel à un extra, les coûts s'envolent vite : **salaire brut + charges patronales = environ 1,4× le salaire net** en France.
+
+Suivez :
+- Salaires et charges sociales
+- Contrats d'extras (avec ou sans agence d'intérim)
+- Votre propre rémunération si vous êtes en société
+
+### 3. Les frais de véhicule
+
+Le camion est votre outil de travail. Ses coûts sont souvent sous-estimés :
+
+- **Carburant** : 150 à 400 €/mois selon les tournées
+- **Entretien et réparations** : provisionner 200-400 €/mois
+- **Assurance** : 150 à 300 €/mois pour une couverture professionnelle complète
+- **Contrôle technique** : annuel pour les véhicules de plus de 3,5 t
+- **Leasing ou remboursement de prêt** : si vous avez financé le camion à crédit
+
+**Astuce** : notez le kilométrage à chaque plein de carburant. Vous calculerez votre coût au kilomètre et pourrez identifier si certains emplacements sont vraiment rentables une fois le carburant déduit.
+
+### 4. Les charges fixes professionnelles
+
+Ces dépenses existent que vous travailliez ou non :
+
+- Loyers des emplacements (abonnements sur marchés, festivals récurrents)
+- Abonnements logiciels (gestion, caisse, comptabilité)
+- Téléphone et connexion internet
+- Expert-comptable
+- Cotisations professionnelles (syndicats, associations de food truckers)
+- Location de cuisine centrale (obligatoire si vous n'avez pas de laboratoire propre)
+
+### 5. Les investissements et amortissements
+
+Les gros achats (matériel de cuisson, réfrigérateurs, enseigne, sono…) ne se déduisent pas en une fois mais s'amortissent sur plusieurs années. Tenez un registre des immobilisations avec :
+
+- Date d'achat
+- Prix d'achat TTC
+- Durée d'amortissement (3 à 7 ans selon le matériel)
+- Amortissement annuel et mensuel
+
+## La méthode semaine par semaine
+
+Le suivi des dépenses n'est efficace que s'il est régulier. Voici une routine simple à tenir en 10 minutes par semaine :
+
+### Étape 1 : Collecter toutes les factures (lundi matin)
+
+Rassemblez toutes les factures de la semaine passée : fournisseurs alimentaires, station-service, fournisseurs d'emballages, etc. N'oubliez pas les reçus CB de dépenses ponctuelles.
+
+### Étape 2 : Saisir ou scanner chaque dépense
+
+Avec FoodTracks, photographiez chaque facture : le logiciel extrait automatiquement le montant, la date et le fournisseur. Pour les dépenses sans facture (péage, parking…), saisissez-les manuellement avec la catégorie correspondante.
+
+### Étape 3 : Calculer votre food cost de la semaine
+
+Divisez le total des achats de matières premières par votre chiffre d'affaires de la semaine. Si ce ratio dépasse 35%, cherchez d'où vient l'écart :
+- Hausse prix fournisseur ?
+- Gaspillage en hausse ?
+- Nouveau plat avec mauvaise fiche technique ?
+
+### Étape 4 : Comparer avec la semaine précédente
+
+Un écart supérieur à 3 points sur le food cost mérite une investigation immédiate. Les dérives se corrigent facilement si elles sont détectées tôt, mais deviennent des habitudes si on les ignore.
+
+## Les erreurs les plus courantes dans le suivi des dépenses
+
+### Confondre CA et trésorerie
+
+Vous avez encaissé 3 000 € cette semaine — mais votre compte est à zéro ? C'est souvent parce qu'une grosse facture fournisseur est tombée en même temps. Le suivi des dépenses doit être synchronisé avec votre relevé bancaire pour éviter les surprises.
+
+### Oublier les petits achats
+
+Un passage en supermarché pour des ingrédients d'urgence, un jerrycan de liquide vaisselle, une pièce achetée chez le quincaillier… Ces "petites" dépenses non tracées peuvent représenter **5 à 8% de vos achats totaux** sur l'année.
+
+### Ne pas séparer les dépenses perso et pro
+
+En auto-entrepreneur, la tentation est grande de tout mélanger. C'est une erreur grave : vous perdez la visibilité sur vos coûts réels, vous prenez des risques en cas de contrôle fiscal et vous ne pouvez pas optimiser votre TVA.
+
+### Attendre le bilan annuel de l'expert-comptable
+
+Votre comptable travaille en rétrospectif. Si vos charges dérapent en mars, vous ne le saurez qu'en janvier de l'année suivante. **Le pilotage en temps réel vous appartient.**
+
+## Tableau de bord : les 4 indicateurs à surveiller
+
+| Indicateur | Calcul | Cible food truck |
+|---|---|---|
+| Food cost % | Achats matières / CA × 100 | 28 à 35% |
+| Charges fixes mensuelles | Total charges fixes / CA mensuel × 100 | < 30% |
+| Coût par service | Total charges / nombre de services | Variable selon concept |
+| Point mort journalier | Charges fixes / nombre de jours travaillés | À calculer une fois/mois |
+
+Avec [FoodTracks](/fr), ces indicateurs sont calculés automatiquement à partir de vos ventes SumUp et de vos factures scannées. Vous n'avez pas à construire de tableau Excel.
+
+## Comment réduire ses dépenses sans rogner sur la qualité
+
+### Renégocier avec ses fournisseurs
+
+Beaucoup de food truckers n'osent pas négocier. Pourtant, un achat groupé avec d'autres food truckers de votre ville, ou simplement une commande plus régulière et prévisible, peut vous obtenir **3 à 8% de remise** sans aucune démarche compliquée.
+
+### Optimiser ses tournées pour réduire le carburant
+
+Planifier vos emplacements de la semaine en minimisant les distances peut réduire votre facture carburant de 15 à 25%. Calculez systématiquement le chiffre d'affaires net de carburant pour chaque emplacement.
+
+### Réduire le gaspillage en affinant les commandes
+
+Chaque produit jeté est une dépense qui ne génère aucune recette. Un suivi précis des consommations par service vous permet d'affiner vos commandes et de réduire le gaspillage à moins de 3% de vos achats.
+
+### Mutualiser certains coûts
+
+Partagez une cuisine centrale avec d'autres food truckers, groupez vos commandes d'emballages, ou co-louez un espace de stockage. Ces mutualisations peuvent représenter **100 à 300 € d'économies mensuelles**.
+
+## Conclusion : le suivi des dépenses, votre meilleur outil de rentabilité
+
+Un food truck rentable n'est pas forcément celui qui vend le plus. C'est celui qui maîtrise ses coûts mieux que les autres. Le suivi rigoureux de vos dépenses est la base de tout — sans lui, toutes les autres optimisations (menu engineering, stratégie d'emplacements, marketing) sont construites sur du sable.
+
+Commencez cette semaine : rassemblez toutes vos factures des 4 dernières semaines, calculez votre food cost réel et comparez-le à vos estimations. Vous serez probablement surpris de l'écart.
+
+[FoodTracks](/fr) est conçu pour automatiser ce suivi : scan de factures, intégration SumUp, tableaux de bord en temps réel. Essayez gratuitement pendant 14 jours et reprenez le contrôle de vos finances.`,
+
+      en: `## Why Expense Tracking Is Critical for a Food Truck
+
+Many food truckers know their revenue to the cent — but have no idea where their money goes. This is one of the most common causes of disappointing profitability, even for trucks doing solid business.
+
+**Without rigorous expense tracking, you're driving blind.** You can't tell whether your margins shrank because your suppliers raised prices, because you're wasting more ingredients, or because your fuel bill exploded.
+
+This guide gives you a complete method to categorize, track, and analyze every expense in your food truck business — so you can take back control of your profitability.
+
+## The 5 Key Expense Categories to Track
+
+### 1. Food Cost (Ingredients and Consumables)
+
+This is your biggest expense line: between **28 and 38% of your revenue**, depending on your concept. It includes:
+
+- Raw ingredients (meat, vegetables, cheese, bread…)
+- Packaging and consumables (containers, cutlery, napkins)
+- Food-safe cleaning products (gloves, cling wrap)
+
+**How to track it**: scan every supplier invoice and match it to the service week it belongs to. With [FoodTracks](/en), automatic invoice scanning extracts amounts and categorizes them without manual data entry.
+
+### 2. Staff Costs
+
+If you work alone, this line is zero or near zero. But the moment you hire an employee or bring in a casual worker, costs climb fast: **gross salary + employer contributions = roughly 1.4× net salary** in France.
+
+Track:
+- Salaries and social charges
+- Casual/temp agency contracts
+- Your own salary if you operate through a company
+
+### 3. Vehicle Expenses
+
+Your truck is your primary tool. Its costs are often underestimated:
+
+- **Fuel**: €150–€400/month depending on your routes
+- **Maintenance and repairs**: budget €200–€400/month
+- **Insurance**: €150–€300/month for full professional coverage
+- **Technical inspection**: annual for vehicles over 3.5 tonnes
+- **Lease or loan repayment**: if you financed the truck with credit
+
+**Pro tip**: log the mileage at every fill-up. You'll calculate your cost per kilometre and determine whether specific locations are actually profitable once fuel is deducted.
+
+### 4. Fixed Professional Overheads
+
+These expenses exist whether you're working or not:
+
+- Location fees (market subscriptions, recurring festivals)
+- Software subscriptions (management, POS, accounting)
+- Phone and internet connection
+- Accountant fees
+- Professional memberships (food truck associations, trade bodies)
+- Commissary kitchen rental (mandatory in France if you don't have your own lab)
+
+### 5. Capital Purchases and Depreciation
+
+Large purchases (cooking equipment, refrigerators, signage, sound systems…) aren't deducted all at once but depreciated over several years. Keep a fixed asset register with:
+
+- Purchase date
+- Full purchase price (incl. VAT)
+- Depreciation period (3–7 years depending on the asset)
+- Annual and monthly depreciation amount
+
+## The Week-by-Week Method
+
+Expense tracking only works if it's consistent. Here's a simple 10-minute weekly routine:
+
+### Step 1: Collect All Invoices (Monday Morning)
+
+Gather every invoice from the previous week: food suppliers, fuel station, packaging suppliers, etc. Don't forget card receipts for one-off purchases.
+
+### Step 2: Enter or Scan Every Expense
+
+With FoodTracks, photograph each invoice: the software automatically extracts the amount, date, and supplier. For expenses without a receipt (tolls, parking…), enter them manually with the correct category.
+
+### Step 3: Calculate Your Food Cost for the Week
+
+Divide total ingredient purchases by your revenue for the week. If this ratio exceeds 35%, investigate the cause:
+- Supplier price increase?
+- More waste than usual?
+- New dish with a poorly calibrated recipe?
+
+### Step 4: Compare with the Previous Week
+
+A variance of more than 3 percentage points in food cost warrants immediate investigation. Cost overruns are easy to fix when caught early, but become entrenched habits when ignored.
+
+## The Most Common Expense Tracking Mistakes
+
+### Confusing Revenue with Cash
+
+You took in €3,000 this week — but your account is empty? That often means a big supplier invoice landed at the same time. Expense tracking must be synchronized with your bank statement to avoid nasty surprises.
+
+### Missing Small Purchases
+
+A supermarket run for emergency ingredients, a container of washing-up liquid, a part from the hardware store… These "small" untracked expenses can account for **5–8% of your total purchases** over the year.
+
+### Mixing Personal and Business Expenses
+
+As a sole trader, it's tempting to mix everything. This is a serious mistake: you lose visibility on your real costs, you create risk in case of a tax audit, and you can't optimize your VAT position.
+
+### Waiting for the Year-End Accountant Report
+
+Your accountant works retrospectively. If your costs spiral in March, you won't find out until January the following year. **Real-time management is your job.**
+
+## Dashboard: The 4 Metrics to Monitor
+
+| Metric | Formula | Food Truck Target |
+|---|---|---|
+| Food cost % | Ingredient purchases / Revenue × 100 | 28–35% |
+| Monthly fixed overheads | Total fixed costs / Monthly revenue × 100 | < 30% |
+| Cost per service | Total costs / Number of services | Concept-dependent |
+| Daily break-even | Fixed costs / Number of working days | Calculate once a month |
+
+With [FoodTracks](/en), these metrics are calculated automatically from your SumUp sales and scanned invoices. No Excel spreadsheet to build.
+
+## How to Reduce Expenses Without Cutting Quality
+
+### Renegotiate with Suppliers
+
+Many food truckers hesitate to negotiate. Yet a group purchase with other food truckers in your city, or simply a more regular and predictable order schedule, can earn you **3–8% discount** with no complicated process.
+
+### Optimize Your Routes to Cut Fuel Costs
+
+Planning your weekly locations to minimize distances can reduce your fuel bill by 15–25%. Always calculate the fuel-adjusted revenue for each location before committing.
+
+### Reduce Waste by Refining Your Orders
+
+Every product thrown away is an expense with zero return. Precise consumption tracking per service lets you fine-tune your orders and bring waste below 3% of total purchases.
+
+### Share Costs with Other Operators
+
+Share a commissary kitchen with other food truckers, pool packaging orders, or co-rent storage space. These arrangements can save **€100–€300 per month**.
+
+## Conclusion: Expense Tracking Is Your Best Profitability Tool
+
+A profitable food truck isn't necessarily the one with the highest revenue. It's the one that controls costs better than the competition. Rigorous expense tracking is the foundation — without it, every other optimization (menu engineering, location strategy, marketing) is built on sand.
+
+Start this week: gather all your invoices from the past four weeks, calculate your real food cost, and compare it to your estimates. You'll likely be surprised by the gap.
+
+[FoodTracks](/en) is built to automate this tracking: invoice scanning, SumUp integration, real-time dashboards. Try it free for 14 days and take back control of your finances.`,
+    },
+    keyTakeaways: {
+      fr: [
+        "Le food cost (matières premières) représente 28 à 38% du CA d'un food truck — c'est le premier poste à surveiller.",
+        "Un suivi hebdomadaire de 10 minutes suffit pour détecter les dérives avant qu'elles ne creusent vos marges.",
+        "Les petits achats non tracés peuvent représenter 5 à 8% de vos dépenses totales sur l'année.",
+        "Ne confondez jamais chiffre d'affaires et trésorerie disponible : synchronisez vos dépenses avec votre relevé bancaire.",
+        "FoodTracks automatise le suivi en scannant vos factures et en les croisant avec vos ventes SumUp.",
+      ],
+      en: [
+        "Food cost (ingredients) represents 28–38% of a food truck's revenue — it's the first line to monitor.",
+        "A 10-minute weekly tracking routine is enough to catch cost overruns before they damage your margins.",
+        "Small untracked purchases can account for 5–8% of your total annual expenses.",
+        "Never confuse revenue with available cash — sync your expenses with your bank statement.",
+        "FoodTracks automates tracking by scanning invoices and matching them against your SumUp sales.",
+      ],
+    },
+    faqItems: [
+      {
+        question: {
+          fr: "Quel est le food cost idéal pour un food truck ?",
+          en: "What is the ideal food cost for a food truck?",
+        },
+        answer: {
+          fr: "Le food cost idéal se situe entre 28 et 35% du chiffre d'affaires selon le concept. Un food truck burgers haut de gamme peut descendre à 28%, tandis qu'un concept de poisson frais peut monter à 38%. L'essentiel est de mesurer votre food cost réel et de le comparer à votre cible chaque semaine.",
+          en: "The ideal food cost is between 28 and 35% of revenue, depending on the concept. A premium burger truck can reach 28%, while a fresh fish concept may run at 38%. The key is to measure your actual food cost and compare it to your target every week.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment suivre mes dépenses food truck sans logiciel spécialisé ?",
+          en: "How can I track my food truck expenses without specialist software?",
+        },
+        answer: {
+          fr: "Sans logiciel, vous pouvez utiliser un tableur Excel ou Google Sheets avec 5 colonnes : date, fournisseur, montant HT, catégorie (matières premières / véhicule / charges fixes / personnel / autre), et mode de paiement. L'essentiel est la régularité : 10 minutes chaque lundi suffisent. Un logiciel comme FoodTracks automatise cette saisie via le scan de factures et l'intégration SumUp.",
+          en: "Without software, you can use an Excel or Google Sheets spreadsheet with 5 columns: date, supplier, amount excl. VAT, category (ingredients / vehicle / fixed costs / staff / other), and payment method. Consistency is key: 10 minutes every Monday is enough. A tool like FoodTracks automates this with invoice scanning and SumUp integration.",
+        },
+      },
+      {
+        question: {
+          fr: "Dois-je garder toutes mes factures en food truck ?",
+          en: "Do I need to keep all my invoices as a food truck operator?",
+        },
+        answer: {
+          fr: "Oui, les factures professionnelles doivent être conservées pendant 10 ans en France (délai de prescription fiscale). Pour les dépenses de carburant, les tickets de péage et les petits achats sans facture, notez-les dans un carnet de dépenses ou une application dédiée. En cas de contrôle, vous devrez justifier chaque charge déduite de votre résultat.",
+          en: "Yes, professional invoices must be kept for 10 years in France (tax statute of limitations). For fuel expenses, toll receipts, and small purchases without invoices, log them in an expense notebook or dedicated app. In the event of a tax audit, you'll need to justify every cost deducted from your profit.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment calculer mon point mort quotidien en food truck ?",
+          en: "How do I calculate my daily break-even point as a food truck operator?",
+        },
+        answer: {
+          fr: "Additionnez toutes vos charges fixes mensuelles (loyers emplacements, assurances, abonnements, comptable, amortissements…) et divisez par le nombre de jours de service dans le mois. Ce chiffre est votre point mort journalier : le CA minimum à réaliser avant de commencer à générer de la marge. Pour un food truck avec 2 000 € de charges fixes mensuelles et 20 services, le point mort est 100 € de marge brute par service.",
+          en: "Add up all your monthly fixed costs (location fees, insurance, subscriptions, accountant, depreciation…) and divide by the number of service days in the month. This figure is your daily break-even: the minimum revenue needed before generating any margin. For a food truck with €2,000 in monthly fixed costs and 20 services, the break-even is €100 of gross margin per service.",
+        },
+      },
+      {
+        question: {
+          fr: "La TVA sur mes achats est-elle récupérable en food truck ?",
+          en: "Can I reclaim VAT on my food truck purchases?",
+        },
+        answer: {
+          fr: "Cela dépend de votre régime fiscal. En régime réel normal ou simplifié, vous pouvez déduire la TVA sur vos achats professionnels (carburant, matériel, emballages, logiciels…) de la TVA collectée sur vos ventes. En franchise de TVA (CA < 91 900 € pour la restauration en 2026), vous ne facturez pas de TVA mais vous ne la récupérez pas non plus. Consultez votre expert-comptable pour optimiser votre régime.",
+          en: "It depends on your tax regime. Under the standard or simplified VAT scheme, you can deduct VAT on professional purchases (fuel, equipment, packaging, software…) from the VAT collected on your sales. Under the VAT exemption scheme (revenue below €91,900 for catering in 2026), you don't charge VAT but can't reclaim it either. Consult your accountant to optimize your tax position.",
+        },
+      },
+    ],
+    relatedSlugs: [
+      "calculer-cout-revient-recette-food-truck",
+      "gestion-tresorerie-food-truck",
+      "cout-charges-food-truck-mensuel",
+      "optimiser-marges-food-truck-analyse-donnees",
+      "logiciel-gestion-food-truck",
+    ],
+  },
+
 ];
 
 export const blogArticles: BlogArticle[] = [...baseBlogArticles, ...verticalArticles];

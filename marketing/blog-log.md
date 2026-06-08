@@ -50,3 +50,36 @@
 - Slug: food-truck-rentable-premier-mois
 - Mot-clé: food truck rentable premier mois
 - Publié: ✅
+
+## 2026-06-03
+- Slug: food-truck-zone-industrielle-parc-activites
+- Titre FR: Food truck en zone industrielle et parc d'activités : réglementation, contrats et stratégie
+- Titre EN: Food Truck in Industrial Zones and Business Parks: Rules, Contracts and Strategy
+- Mot-clé: food truck zone industrielle parc d'activités
+- Publié: ✅
+
+- Slug: food-truck-break-even-analysis
+- Titre FR: Analyse du point mort food truck : calculer son seuil de rentabilité par service
+- Titre EN: Food Truck Break-Even Analysis: Calculate Your Revenue Target Per Service
+- Mot-clé: food truck break even analysis / point mort food truck service
+- Angle: finance/ROI EN (top performer analytics), daily revenue targets, cover-count magic number
+- Commit: 3e99f72
+- Publié: ✅
+
+## 2026-06-04
+- Slug: food-truck-petits-dejeuners-brunch-concept-rentable
+- FR: "Food Truck Petits Déjeuners et Brunch : Lancer un Concept Rentable en 2026"
+- EN: "Breakfast and Brunch Food Truck: How to Launch a Profitable Concept in 2026"
+- Catégorie: Stratégie
+- Keywords: food truck petit déjeuner, food truck brunch, breakfast food truck france
+- Motivé par analytics: EN traffic > FR aujourd'hui, ChatGPT source #2, niche brunch non couverte
+- Commit: 3522e11 → poussé sur main
+
+## 2026-06-08
+- Slug: suivi-depenses-food-truck
+- FR: "Suivi des dépenses food truck : méthode complète pour contrôler ses charges en 2026"
+- EN: "Food Truck Expense Tracking: The Complete Method to Control Your Costs in 2026"
+- Catégorie: Gestion financière / Financial Management
+- Keywords: suivi dépenses food truck, contrôle charges food truck, gestion finances food truck, food truck expense tracking
+- Angle: longue traîne finance opérationnelle, non couvert parmi les 40+ articles existants. 5 FAQ items (food cost %, TVA, point mort, conservation factures, méthode sans logiciel). 5 keyTakeaways FR+EN. CTA FoodTracks fin d'article.
+- Commit: à venir
