@@ -40107,6 +40107,386 @@ Start this week: gather all your invoices from the past four weeks, calculate yo
       "logiciel-gestion-food-truck",
     ],
   },
+  {
+    slug: "food-truck-pizza-rentabilite-marge",
+    title: {
+      fr: "Food truck pizza : rentabilité, marges et chiffres clés en 2026",
+      en: "Pizza Food Truck Profitability: Margins & Key Numbers in 2026",
+    },
+    excerpt: {
+      fr: "La pizza est-elle le concept food truck le plus rentable ? Coût d'une pâte, marge brute, chiffre d'affaires moyen, investissement four à bois... Tous les chiffres pour lancer (ou optimiser) votre food truck pizza.",
+      en: "Is pizza the most profitable food truck concept? Dough cost, gross margin, average revenue, wood-fired oven investment... All the numbers to launch (or optimise) your pizza food truck.",
+    },
+    category: { fr: "Finance", en: "Finance" },
+    date: "2026-06-09",
+    readTime: 11,
+    keywords: [
+      "food truck pizza rentabilité",
+      "marge food truck pizza",
+      "four à bois food truck rentable",
+      "coût recette pizza food truck",
+      "chiffre d'affaires food truck pizza",
+      "ouvrir food truck pizza",
+      "food truck pizza investissement",
+      "pizza truck rentable",
+    ],
+    heroImage: "/blog/rentabilite.png",
+    keyTakeaways: {
+      fr: [
+        "La pizza affiche une marge brute de 70 à 80 %, l'une des plus élevées de la restauration ambulante.",
+        "Un food truck pizza bien placé génère 1 500 à 3 500 € de CA par service.",
+        "Le coût matière d'une pizza de 12 à 14 € ne dépasse pas 2,50 à 3,50 €.",
+        "Le seuil de rentabilité se situe autour de 600 à 900 pizzas vendues par mois selon les charges.",
+        "Un logiciel de gestion comme FoodTracks permet de suivre le coût réel par pizza et de détecter immédiatement les dérives de marge.",
+      ],
+      en: [
+        "Pizza delivers a gross margin of 70–80 %, one of the highest in street food.",
+        "A well-located pizza food truck generates €1,500–€3,500 in revenue per service.",
+        "The ingredient cost of a €12–€14 pizza stays between €2.50 and €3.50.",
+        "The break-even point sits around 600–900 pizzas sold per month depending on fixed costs.",
+        "A management app like FoodTracks lets you track the real cost per pizza and instantly spot margin drift.",
+      ],
+    },
+    content: {
+      fr: `## La pizza : le concept food truck le plus rentable ?
+
+Parmi tous les concepts de restauration ambulante, la pizza se distingue par une caractéristique rare : **une marge brute pouvant dépasser 75 %**. Une pâte, une sauce tomate, quelques ingrédients — et une pizza à 13 € qui ne coûte que 2,80 € à produire. C'est précisément cette arithmétique favorable qui pousse chaque année des centaines d'entrepreneurs à se lancer dans le food truck pizza.
+
+Mais attention : marges élevées ne signifient pas forcément rentabilité garantie. Les charges fixes (remboursement du four, assurances, carburant, droits de stationnement) peuvent vite dévorer vos bénéfices si vous ne les pilotez pas finement. Ce guide vous donne tous les chiffres réels pour évaluer — ou optimiser — la rentabilité de votre food truck pizza.
+
+## Les chiffres de base : coût matière d'une pizza
+
+### Décomposition du coût d'une pizza margherita
+
+Voici une estimation réaliste pour une pizza de 30 cm vendue **12 €** :
+
+- Pâte (farine, levure, eau, huile, sel) : **0,35 €**
+- Sauce tomate maison : **0,25 €**
+- Mozzarella (80 g) : **0,80 €**
+- Conditionnement (boîte pizza) : **0,25 €**
+- Total matière première : **~1,65 €**
+
+Soit un **coût matière de 13,7 %** — une marge brute de **86 %**. Excellent pour une margherita basique.
+
+### Pizza garnie (jambon, champignons, crème)
+
+Pour une pizza vendue **14 €** :
+
+- Base pâte + sauce : **0,60 €**
+- Mozzarella (80 g) : **0,80 €**
+- Garniture (jambon, champignons, crème) : **1,50 €**
+- Boîte : **0,25 €**
+- Total matière première : **~3,15 €**
+
+Coût matière : **22,5 %**, marge brute : **77,5 %**. On reste dans une excellente fourchette.
+
+### La règle des 30 % appliquée à la pizza
+
+En restauration, le coût matière ne doit pas dépasser **30 % du prix de vente**. La pizza respecte largement cette règle, ce qui lui confère une avance structurelle sur d'autres concepts (burgers, tacos, crêpes). Suivez votre coût matière réel avec [FoodTracks](/fr) en scannant vos factures fournisseurs — une augmentation du prix de la mozzarella de 15 % peut rogner votre marge de 3 à 5 points sans que vous vous en rendiez compte.
+
+## Chiffre d'affaires réaliste d'un food truck pizza
+
+### Par service (2h30 à 3h de service)
+
+| Cadence | Prix moyen | CA par service |
+|---|---|---|
+| 50 pizzas/service | 13 € | 650 € |
+| 80 pizzas/service | 13 € | 1 040 € |
+| 120 pizzas/service | 13 € | 1 560 € |
+| 150 pizzas/service | 14 € | 2 100 € |
+
+Un food truck pizza avec un bon four (5 à 6 pizzas simultanément) peut atteindre **120 à 150 pizzas par service** sur un emplacement fréquenté. Un marché alimentaire, un événement ou une zone industrielle dense permettent de dépasser **2 000 € par service**.
+
+### Par mois
+
+En tablant sur **4 services par semaine** (16 à 18 services/mois) :
+
+- **Démarrage** (60 pizzas/service) : **~12 500 €/mois**
+- **En régime** (100 pizzas/service) : **~20 000 €/mois**
+- **Pic d'activité** (140 pizzas/service) : **~30 000 €/mois**
+
+Ces chiffres sont cohérents avec les témoignages de food truckers actifs. Pour affiner votre prévision par emplacement, croisez vos données de vente avec le suivi temps réel proposé par FoodTracks. Retrouvez nos conseils pour [trouver les meilleurs emplacements food truck](/fr/blog/trouver-meilleurs-emplacements-food-truck) et maximiser votre fréquentation.
+
+## Les charges spécifiques d'un food truck pizza
+
+### Le four : l'investissement clé
+
+Le four est le cœur de votre food truck pizza. Il en existe trois types :
+
+**Four à bois traditionnel** : 8 000 à 20 000 €. Cuisson en 90 secondes à 450–500 °C, saveur incomparable, fort argument marketing. Poids important (500 à 1 200 kg), nécessite un camion robuste. Consommation bois : 5 à 10 kg/service.
+
+**Four électrique professionnel** : 4 000 à 12 000 €. Plus facile à réguler, idéal pour les emplacements sans accès au bois. Consommation électrique : 6 à 12 kW. Nécessite un groupe électrogène ou un raccordement réseau.
+
+**Four à gaz** : 5 000 à 15 000 €. Compromis intéressant : montée en température rapide, coût d'exploitation modéré (15 à 30 € de gaz par service).
+
+**Recommandation** : Pour un food truck polyvalent (marchés, événements, zones d'activités), un **four à gaz ou électrique** est souvent plus pratique. Le four à bois est un atout différenciant fort mais contraignant logistiquement.
+
+### Aménagement du camion
+
+Un food truck pizza complet (camion aménagé, four, plan de travail inox, réfrigération) représente un investissement de **35 000 à 80 000 €** neuf, ou **15 000 à 40 000 €** en occasion. Consultez notre guide pour [bien choisir votre véhicule food truck](/fr/blog/choisir-vehicule-food-truck).
+
+### Charges mensuelles typiques d'un food truck pizza
+
+- Remboursement camion + four : **700 à 1 500 €/mois**
+- Assurances (véhicule pro + RC + matériel) : **300 à 600 €/mois**
+- Carburant + gaz/bois/électricité : **200 à 500 €/mois**
+- Droits de stationnement et marchés : **200 à 600 €/mois**
+- Logiciel de gestion, comptabilité, abonnements : **150 à 350 €/mois**
+- Charges sociales (micro-entrepreneur) : **22 % du CA**
+
+**Total charges fixes** : **1 550 à 3 550 €/mois** hors charges sociales.
+
+## Calcul du seuil de rentabilité
+
+### La formule
+
+Seuil de rentabilité (en pizzas) = Charges fixes mensuelles ÷ Marge sur coût variable par pizza
+
+Exemple avec **2 500 € de charges fixes** et une pizza à 13 € (coût matière 2,80 €, soit **10,20 € de marge**) :
+
+**Seuil = 2 500 / 10,20 = 245 pizzas/mois**
+
+À 16 services par mois, cela représente seulement **15 pizzas par service** pour couvrir vos charges fixes — un objectif très accessible. Au-delà, chaque pizza vendue contribue directement à votre résultat net.
+
+Ajoutez les charges sociales (22 % du CA) et vous obtenez le seuil réel autour de **600 à 900 pizzas/mois** selon votre structure de coûts. Utilisez notre [calculateur de rentabilité food truck](/fr/outils) pour modéliser votre propre situation.
+
+## Leviers pour optimiser votre marge pizza
+
+### 1. Maîtriser le grammage des garnitures
+
+Une mozzarella à 90 g au lieu de 80 g sur 100 pizzas/service = **10 kg supplémentaires par semaine**, soit 40 à 60 € de coût matière en plus chaque semaine. Un suivi rigoureux avec des balances de précision et des **fiches de recettes standardisées** est indispensable. FoodTracks vous permet de calculer le [coût de revient de chaque recette](/fr/blog/reduire-gaspillage-alimentaire-food-truck) et de détecter les dérives.
+
+### 2. Travailler les pizzas à forte valeur perçue
+
+Une pizza "truffe et burrata" vendue 18 € avec un coût matière de 4,50 € affiche une **marge absolue de 13,50 €** — supérieure à une margherita à 12 € (marge 10,35 €). Construisez une carte avec **2 à 3 pizzas premium** pour tirer votre ticket moyen vers le haut.
+
+### 3. Réduire les invendus en fin de service
+
+Préparer 20 pâtons de trop = 20 × 0,35 € de pâte gaspillée, plus la garniture mise de côté. Sur une semaine, le gaspillage non maîtrisé peut représenter **150 à 300 €** de perte nette. Analysez vos ventes par service avec FoodTracks pour affiner vos prévisions et commander au plus juste — comme le décrit notre guide sur la [réduction du gaspillage alimentaire en food truck](/fr/blog/reduire-gaspillage-alimentaire-food-truck).
+
+### 4. Multiplier les sources de revenus
+
+- **Commandes en ligne** (Just Eat, Uber Eats) : +15 à 25 % de CA, attention aux commissions (25–30 %)
+- **Abonnements locaux** (bureaux, entreprises) : contrats récurrents, revenu prévisible — voir notre article sur les [contrats avec les entreprises](/fr/blog/contrats-entreprises-food-truck)
+- **Privatisations et événements** : mariages, fêtes d'entreprise, marchés nocturnes — une pizza à 14 € peut passer à 18 € en mode traiteur
+
+## Food truck pizza vs autres concepts : comparatif de rentabilité
+
+| Concept | Coût matière | Marge brute | Prix vente moyen |
+|---|---|---|---|
+| Pizza | 20–25 % | 75–80 % | 12–18 € |
+| Burger | 28–35 % | 65–72 % | 10–16 € |
+| Tacos | 25–32 % | 68–75 % | 9–14 € |
+| Crêpes | 18–24 % | 76–82 % | 6–12 € |
+| Sushi | 35–45 % | 55–65 % | 12–20 € |
+
+La pizza et les crêpes se disputent le leadership des marges brutes. Mais la pizza dispose d'un avantage décisif : un **ticket moyen plus élevé** qui génère davantage de marge absolue par transaction.
+
+## Conclusion
+
+Un food truck pizza bien géré est l'un des concepts de restauration ambulante les plus rentables disponibles en 2026. La clé : **maîtriser votre coût matière, optimiser votre cadence de cuisson et piloter vos données de vente**. Avec un suivi rigoureux via FoodTracks, vous savez en temps réel si votre marge s'érode — et vous pouvez agir avant que le problème ne devienne structurel.
+
+Prêt à lancer ou à optimiser votre food truck pizza ? [Essayez FoodTracks gratuitement pendant 14 jours](/fr/register?utm_source=blog&utm_medium=article_cta&utm_campaign=food-truck-pizza-rentabilite-marge) et calculez votre seuil de rentabilité réel.`,
+      en: `## Pizza: The Most Profitable Food Truck Concept?
+
+Among all street food concepts, pizza stands out for one rare characteristic: **a gross margin that can exceed 75 %**. Dough, tomato sauce, a few toppings — and a €13 pizza that costs just €2.80 to make. It's precisely this favourable arithmetic that pushes hundreds of entrepreneurs every year to launch a pizza food truck.
+
+But beware: high margins don't automatically mean guaranteed profitability. Fixed costs (oven repayments, insurance, fuel, parking fees) can quickly eat into your profits if you don't monitor them carefully. This guide gives you all the real numbers to evaluate — or optimise — your pizza food truck's profitability.
+
+## The Basics: Ingredient Cost Per Pizza
+
+### Breakdown for a Margherita Pizza
+
+Realistic estimate for a 30 cm pizza sold at **€12**:
+
+- Dough (flour, yeast, water, oil, salt): **€0.35**
+- Home-made tomato sauce: **€0.25**
+- Mozzarella (80 g): **€0.80**
+- Packaging (pizza box): **€0.25**
+- Total ingredient cost: **~€1.65**
+
+That's a **food cost of 13.7 %** — a gross margin of **86 %**. Excellent for a basic margherita.
+
+### Topped Pizza (ham, mushrooms, cream)
+
+For a pizza sold at **€14**:
+
+- Dough base + sauce: **€0.60**
+- Mozzarella (80 g): **€0.80**
+- Toppings (ham, mushrooms, cream): **€1.50**
+- Box: **€0.25**
+- Total ingredient cost: **~€3.15**
+
+Food cost: **22.5 %**, gross margin: **77.5 %**. Still an excellent range.
+
+### The 30 % Rule Applied to Pizza
+
+In catering, ingredient cost should not exceed **30 % of the selling price**. Pizza comfortably meets this target, giving it a structural advantage over other concepts (burgers, tacos, crêpes). Track your real ingredient cost with [FoodTracks](/en) by scanning your supplier invoices — a 15 % rise in mozzarella prices can shave 3–5 margin points without you noticing.
+
+## Realistic Revenue for a Pizza Food Truck
+
+### Per Service (2.5–3 hours)
+
+| Output | Average price | Revenue per service |
+|---|---|---|
+| 50 pizzas/service | €13 | €650 |
+| 80 pizzas/service | €13 | €1,040 |
+| 120 pizzas/service | €13 | €1,560 |
+| 150 pizzas/service | €14 | €2,100 |
+
+A pizza food truck with a good oven (5–6 simultaneous pizzas) can reach **120–150 pizzas per service** at a busy location. A food market, event, or dense industrial estate can push you past **€2,000 per service**.
+
+### Per Month
+
+Based on **4 services per week** (16–18 services/month):
+
+- **Start-up** (60 pizzas/service): **~€12,500/month**
+- **Cruising speed** (100 pizzas/service): **~€20,000/month**
+- **Peak activity** (140 pizzas/service): **~€30,000/month**
+
+These figures align with active food trucker testimonials. Use FoodTracks' real-time sales tracking to sharpen your per-location forecasts. See our guide on [finding the best food truck locations](/en/blog/trouver-meilleurs-emplacements-food-truck) to maximise footfall.
+
+## Pizza Food Truck-Specific Costs
+
+### The Oven: Your Key Investment
+
+The oven is the heart of your pizza food truck. There are three main types:
+
+**Traditional wood-fired oven**: €8,000–€20,000. Cooks in 90 seconds at 450–500 °C, unbeatable flavour, strong marketing asset. Heavy (500–1,200 kg), requires a robust vehicle. Wood consumption: 5–10 kg per service.
+
+**Professional electric oven**: €4,000–€12,000. Easier to regulate, ideal for locations without wood access. Electricity consumption: 6–12 kW. Requires a generator or mains connection.
+
+**Gas oven**: €5,000–€15,000. Good compromise: fast heat-up, moderate running cost (€15–€30 in gas per service).
+
+**Recommendation**: For a versatile food truck (markets, events, business parks), a **gas or electric oven** is often more practical. A wood-fired oven is a strong differentiator but logistically demanding.
+
+### Vehicle Fit-Out
+
+A complete pizza food truck (fitted van, oven, stainless steel worktops, refrigeration) costs **€35,000–€80,000** new, or **€15,000–€40,000** second-hand. See our guide to [choosing the right food truck vehicle](/en/blog/choisir-vehicule-food-truck).
+
+### Typical Monthly Costs for a Pizza Food Truck
+
+- Vehicle + oven loan repayments: **€700–€1,500/month**
+- Insurance (commercial vehicle + liability + equipment): **€300–€600/month**
+- Fuel + gas/wood/electricity: **€200–€500/month**
+- Pitch fees and market rights: **€200–€600/month**
+- Management software, accounting, subscriptions: **€150–€350/month**
+- Social contributions (sole trader): **~22 % of revenue**
+
+**Total fixed costs**: **€1,550–€3,550/month** before social contributions.
+
+## Break-Even Calculation
+
+### The Formula
+
+Break-even (in pizzas) = Monthly fixed costs ÷ Contribution margin per pizza
+
+Example with **€2,500 fixed costs** and a pizza at €13 (ingredient cost €2.80, so **€10.20 contribution margin**):
+
+**Break-even = 2,500 / 10.20 = 245 pizzas/month**
+
+At 16 services per month, that's just **15 pizzas per service** to cover your fixed costs — a very achievable target. Beyond that, every pizza sold goes directly to net profit.
+
+Add social contributions (22 % of revenue) and the real break-even sits around **600–900 pizzas/month** depending on your cost structure. Use our [food truck profitability calculator](/en/outils) to model your own situation.
+
+## Levers to Optimise Your Pizza Margin
+
+### 1. Control Topping Portions
+
+90 g of mozzarella instead of 80 g over 100 pizzas per service = **10 extra kilograms per week**, or €40–€60 in additional ingredient cost every week. Rigorous tracking with precision scales and **standardised recipe cards** is essential. FoodTracks lets you calculate the [cost of every recipe](/en/blog/reduire-gaspillage-alimentaire-food-truck) and flag drift early.
+
+### 2. Build High-Perceived-Value Pizzas
+
+A "truffle and burrata" pizza sold at €18 with a €4.50 ingredient cost delivers an **absolute margin of €13.50** — higher than a margherita at €12 (margin €10.35). Build a menu with **2–3 premium pizzas** to pull your average ticket upward.
+
+### 3. Cut End-of-Service Waste
+
+Preparing 20 extra dough balls = 20 × €0.35 in wasted dough, plus any toppings set aside. Over a week, uncontrolled waste can represent **€150–€300 in net losses**. Analyse your per-service sales with FoodTracks to refine forecasts and order to the nearest unit — as covered in our guide on [reducing food waste in a food truck](/en/blog/reduire-gaspillage-alimentaire-food-truck).
+
+### 4. Multiply Revenue Streams
+
+- **Online orders** (Deliveroo, Uber Eats): +15–25 % revenue, watch commissions (25–30 %)
+- **Local subscriptions** (offices, businesses): recurring contracts, predictable income — see our article on [corporate catering contracts](/en/blog/contrats-entreprises-food-truck)
+- **Private hire and events**: weddings, corporate parties, night markets — a €14 pizza can reach €18 in catering mode
+
+## Pizza Food Truck vs Other Concepts: Profitability Comparison
+
+| Concept | Ingredient cost | Gross margin | Average price |
+|---|---|---|---|
+| Pizza | 20–25 % | 75–80 % | €12–€18 |
+| Burger | 28–35 % | 65–72 % | €10–€16 |
+| Tacos | 25–32 % | 68–75 % | €9–€14 |
+| Crêpes | 18–24 % | 76–82 % | €6–€12 |
+| Sushi | 35–45 % | 55–65 % | €12–€20 |
+
+Pizza and crêpes compete for the top-margin crown. But pizza has a decisive edge: a **higher average ticket** that generates more absolute margin per transaction.
+
+## Conclusion
+
+A well-managed pizza food truck is one of the most profitable street food concepts available in 2026. The key: **controlling your ingredient cost, optimising your baking throughput, and tracking your sales data**. With rigorous monitoring via FoodTracks, you know in real time if your margin is eroding — and you can act before the problem becomes structural.
+
+Ready to launch or optimise your pizza food truck? [Try FoodTracks free for 14 days](/en/register?utm_source=blog&utm_medium=article_cta&utm_campaign=food-truck-pizza-rentabilite-marge) and calculate your real break-even point.`,
+    },
+    faqItems: [
+      {
+        question: {
+          fr: "Quelle est la marge brute d'un food truck pizza ?",
+          en: "What is the gross margin of a pizza food truck?",
+        },
+        answer: {
+          fr: "La marge brute d'un food truck pizza se situe généralement entre 70 et 80 %. Une pizza vendue 13 € avec un coût matière de 2,80 € dégage une marge brute de 78 %. C'est l'un des meilleurs ratios de la restauration ambulante, devant les burgers (65–72 %) et derrière les crêpes (76–82 %).",
+          en: "A pizza food truck's gross margin typically sits between 70 and 80 %. A pizza sold at €13 with a €2.80 ingredient cost delivers a gross margin of 78 %. That's one of the best ratios in street food, ahead of burgers (65–72 %) and just behind crêpes (76–82 %).",
+        },
+      },
+      {
+        question: {
+          fr: "Combien de pizzas faut-il vendre par mois pour être rentable ?",
+          en: "How many pizzas do you need to sell per month to be profitable?",
+        },
+        answer: {
+          fr: "Avec des charges fixes mensuelles de 2 500 € et une pizza à 13 € (coût matière 2,80 €), le seuil de rentabilité se situe à environ 245 pizzas par mois en couverture des charges fixes. En intégrant les charges sociales (22 % du CA), il faut généralement vendre entre 600 et 900 pizzas par mois pour dégager un bénéfice net positif.",
+          en: "With monthly fixed costs of €2,500 and a pizza priced at €13 (ingredient cost €2.80), the break-even for fixed cost coverage is around 245 pizzas per month. Including social contributions (22 % of revenue), you typically need to sell 600–900 pizzas per month to generate positive net profit.",
+        },
+      },
+      {
+        question: {
+          fr: "Quel est le meilleur four pour un food truck pizza : bois, gaz ou électrique ?",
+          en: "What is the best oven for a pizza food truck: wood, gas or electric?",
+        },
+        answer: {
+          fr: "Le four à bois (8 000–20 000 €) est le plus différenciant marketing mais aussi le plus lourd et le plus contraignant. Le four à gaz (5 000–15 000 €) est le meilleur compromis : montée en température rapide, coût de fonctionnement maîtrisé, adapté à tous les emplacements. Le four électrique est idéal pour les emplacements avec raccordement réseau. Pour un débutant, le gaz est souvent recommandé.",
+          en: "The wood-fired oven (€8,000–€20,000) is the strongest marketing differentiator but also the heaviest and most constraining. The gas oven (€5,000–€15,000) is the best compromise: fast heat-up, controlled running costs, suitable for any location. An electric oven is ideal where mains power is available. For a beginner, gas is often the top recommendation.",
+        },
+      },
+      {
+        question: {
+          fr: "Quel chiffre d'affaires peut-on espérer avec un food truck pizza ?",
+          en: "What revenue can you expect from a pizza food truck?",
+        },
+        answer: {
+          fr: "Un food truck pizza en régime de croisière (environ 100 pizzas par service, 16 services par mois) génère environ 20 000 € de chiffre d'affaires mensuel. En démarrage (60 pizzas/service), attendez-vous à 12 500 €/mois. Aux pics d'activité (140 pizzas/service sur des événements), vous pouvez dépasser 30 000 €/mois.",
+          en: "A pizza food truck at cruising speed (around 100 pizzas per service, 16 services per month) generates approximately €20,000 in monthly revenue. At start-up (60 pizzas/service), expect around €12,500/month. At peak activity (140 pizzas/service at events), you can exceed €30,000/month.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment calculer le coût de revient d'une pizza en food truck ?",
+          en: "How do you calculate the cost price of a pizza in a food truck?",
+        },
+        answer: {
+          fr: "Pour calculer le coût de revient d'une pizza, additionnez le coût de chaque ingrédient (pâte, sauce, garniture, fromage) ramené à la portion utilisée, plus le coût du conditionnement (boîte). Ce coût matière doit représenter moins de 30 % du prix de vente HT. Un logiciel comme FoodTracks automatise ce calcul en intégrant vos factures fournisseurs et vos recettes.",
+          en: "To calculate the cost price of a pizza, add up the cost of each ingredient (dough, sauce, toppings, cheese) scaled to the portion used, plus packaging (box). This ingredient cost should represent less than 30 % of the selling price excl. tax. A tool like FoodTracks automates this calculation by integrating your supplier invoices and recipes.",
+        },
+      },
+    ],
+    relatedSlugs: [
+      "rentabilite-food-truck-ameliorer",
+      "fixer-prix-menu-food-truck",
+      "cout-charges-food-truck-mensuel",
+      "reduire-gaspillage-alimentaire-food-truck",
+      "choisir-vehicule-food-truck",
+    ],
+  },
 
 ];
 
