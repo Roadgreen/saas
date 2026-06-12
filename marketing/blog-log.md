@@ -82,4 +82,13 @@
 - Catégorie: Gestion financière / Financial Management
 - Keywords: suivi dépenses food truck, contrôle charges food truck, gestion finances food truck, food truck expense tracking
 - Angle: longue traîne finance opérationnelle, non couvert parmi les 40+ articles existants. 5 FAQ items (food cost %, TVA, point mort, conservation factures, méthode sans logiciel). 5 keyTakeaways FR+EN. CTA FoodTracks fin d'article.
-- Commit: à venir
+- Commit: a venir
+
+## 2026-06-12
+- Slug: food-truck-franchise-ou-independant
+- Titre FR: Food truck franchise ou independant : que choisir en 2026 ?
+- Titre EN: Food Truck Franchise vs Independent: Which Should You Choose in 2026?
+- Categorie: Strategie
+- Keywords: food truck franchise, ouvrir food truck franchise, food truck independant vs franchise
+- Angle: comparatif complet franchise vs independant (investissement, redevances, liberte, rentabilite), sujet non couvert parmi les 40+ articles existants. 5 FAQ items. 5 keyTakeaways FR+EN. CTA FoodTracks fin d'article.
+- Commit: a venir
