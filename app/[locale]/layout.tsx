@@ -401,7 +401,12 @@ export default async function LocaleLayout({ children, params }: { children: Rea
   return (
     <html lang={locale} suppressHydrationWarning>
       <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, maximum-scale=1.0, user-scalable=no" />
+        {/* Pas de `maximum-scale`/`user-scalable=no` : bloquer le zoom rendait les
+            boutons de la bannière de consentement Axeptio (collés en bas de l'écran)
+            inatteignables sur mobile quand la barre du navigateur les recouvrait —
+            l'utilisateur restait coincé dans le popin. Laisser l'utilisateur
+            zoomer/scroller (recommandation accessibilité WCAG). */}
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
         <meta name="mobile-web-app-capable" content="yes" />
