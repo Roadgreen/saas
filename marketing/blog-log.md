@@ -91,4 +91,13 @@
 - Categorie: Strategie
 - Keywords: food truck franchise, ouvrir food truck franchise, food truck independant vs franchise
 - Angle: comparatif complet franchise vs independant (investissement, redevances, liberte, rentabilite), sujet non couvert parmi les 40+ articles existants. 5 FAQ items. 5 keyTakeaways FR+EN. CTA FoodTracks fin d'article.
-- Commit: a venir
+- Commit: 6ec4376 - publie
+
+## 2026-06-17
+- Slug: erreurs-debutant-food-truck
+- Titre FR: 10 erreurs de débutant en food truck (et comment les éviter)
+- Titre EN: 10 Beginner Mistakes in Food Trucks (And How to Avoid Them)
+- Categorie: Strategie / Strategy
+- Keywords: erreurs débutant food truck, erreurs food truck, conseils débutant food truck, ouvrir food truck éviter erreurs, food truck beginner mistakes
+- Angle: longue traîne fort intent débutant, non couvert parmi les 80+ articles existants. 10 erreurs structurées (pricing, emplacement, menu, charges, stocks, réglementation, marketing, trésorerie, solo sans backup, absence de données). 5 FAQ items. 5 keyTakeaways FR+EN. CTA FoodTracks milieu et fin d'article. Liens internes vers calculer-cout-revient, choisir-emplacement-rentable, marketing-digital, reglementation, assurance-food-truck.
+- Commit: publie

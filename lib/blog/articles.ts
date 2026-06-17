@@ -41874,6 +41874,294 @@ The food truck with 80 reviews at 4.6 stars will always appear before the one wi
     ],
   },
 
+  // ─────────────────────────────────────────────────────────────────────────────
+  // Article : erreurs-debutant-food-truck
+  // Keyword : "erreurs débutant food truck" (longue traîne, fort intent débutant)
+  // Date    : 2026-06-17
+  // ─────────────────────────────────────────────────────────────────────────────
+  {
+    slug: "erreurs-debutant-food-truck",
+    title: {
+      fr: "10 erreurs de débutant en food truck (et comment les éviter)",
+      en: "10 Beginner Mistakes in Food Trucks (And How to Avoid Them)",
+    },
+    excerpt: {
+      fr: "Ouvrir un food truck sans tomber dans les pièges classiques des débutants. Pricing mal calculé, emplacement non testé, gestion des stocks approximative… Voici les 10 erreurs les plus fréquentes — et les solutions concrètes pour les éviter.",
+      en: "Opening a food truck without falling into classic beginner traps. Poorly calculated pricing, untested locations, rough inventory management… Here are the 10 most common mistakes — and practical solutions to avoid them.",
+    },
+    category: { fr: "Stratégie", en: "Strategy" },
+    date: "2026-06-17",
+    readTime: 10,
+    keywords: [
+      "erreurs débutant food truck",
+      "erreurs food truck",
+      "conseils débutant food truck",
+      "ouvrir food truck éviter erreurs",
+      "food truck beginner mistakes",
+      "food truck tips for beginners",
+    ],
+    heroImage: "/blog/gestion-stock.png",
+    content: {
+      fr: `## Pourquoi tant de food trucks ferment dans leur première année
+
+Lancer un food truck fait rêver. La liberté, le contact client direct, la créativité culinaire… La réalité est souvent plus rude : **selon les estimations du secteur, près de 60 % des food trucks ferment ou sont revendus dans les 3 premières années**. La majorité de ces échecs ne sont pas dus au manque de talent culinaire — mais à des erreurs de gestion évitables.
+
+Voici les 10 erreurs que font presque tous les débutants, et comment les corriger avant qu'elles ne coûtent trop cher.
+
+## Erreur 1 : Fixer ses prix sans calculer le coût de revient
+
+C'est l'erreur numéro un. Beaucoup de food truckers fixent leurs prix "à l'instinct" ou en copiant la concurrence, sans savoir ce que leur coûte réellement chaque plat.
+
+**Le problème** : si votre coût matière dépasse 30 à 35 % de votre prix de vente, vos marges s'évaporent. Un burger vendu 10 € qui coûte 4 € à produire ne vous laisse que 6 € pour couvrir le carburant, la location d'emplacement, les salaires et votre propre rémunération.
+
+**La solution** : calculez votre [coût de revient](/fr/blog/calculer-cout-revient-recette-food-truck) pour chaque recette avant d'ouvrir. Listez chaque ingrédient avec son prix au gramme, additionnez, puis appliquez un coefficient de 3 à 3,5 pour obtenir un prix de vente viable. Révisez ce calcul à chaque changement fournisseur.
+
+## Erreur 2 : Choisir son premier emplacement sans test préalable
+
+L'emplacement "parfait" en théorie peut être décevant en pratique. Beaucoup de débutants signent un contrat d'emplacement annuel sans avoir testé l'endroit lors de différentes journées, météos ou saisons.
+
+**Le problème** : un parking d'entreprise génère du trafic le mardi midi mais peut être fantôme le mercredi. Un marché estival peut perdre 70 % de sa fréquentation dès octobre.
+
+**La solution** : avant tout engagement, allez observer l'emplacement en tant que client potentiel à différentes heures. Parlez aux autres commerçants présents. Négociez une période d'essai d'un mois avant de vous engager. Lisez notre guide sur [comment choisir un emplacement rentable](/fr/blog/choisir-emplacement-rentable-food-truck).
+
+## Erreur 3 : Proposer un menu trop large
+
+Le menu de 25 plats peut sembler attrayant pour satisfaire tout le monde. En réalité, il complexifie les approvisionnements, ralentit le service et dilue votre identité.
+
+**Le problème** : plus votre menu est large, plus vous avez d'ingrédients à gérer, plus votre gaspillage augmente, et plus votre service est lent. Un client qui attend 20 minutes part sans commander.
+
+**La solution** : commencez avec 5 à 8 références maximum. Maîtrisez-les parfaitement. Un food truck reconnu pour "les meilleurs tacos de la ville" fera toujours plus de chiffre qu'un camion généraliste. Une fois votre flux de ventes stabilisé, vous pourrez enrichir la carte progressivement.
+
+## Erreur 4 : Sous-estimer les charges fixes
+
+Le loyer d'un food truck est nul — mais ses charges fixes sont bien réelles. Crédit du véhicule, assurances, entretien mécanique, frais d'emplacement, abonnements logiciels, comptabilité… Tout ça s'accumule.
+
+**Le problème** : des food truckers débutants ne font pas la liste complète de leurs charges avant de lancer leur activité. Résultat : ils réalisent en cours de route que leur seuil de rentabilité est bien plus élevé que prévu.
+
+**La solution** : avant d'ouvrir, listez absolument toutes vos charges mensuelles, même les petites. Calculez combien de plats vous devez vendre par service pour couvrir ce montant — c'est votre point mort. **[FoodTracks](/fr/pricing)** génère automatiquement ce calcul à partir de vos données réelles, sans tableur complexe.
+
+## Erreur 5 : Négliger la gestion des stocks
+
+"J'ai l'impression d'avoir tout ce qu'il faut" n'est pas une méthode de gestion des stocks. Sans suivi précis, vous oscillerez entre sur-stockage (gaspillage) et rupture (ventes perdues).
+
+**Le problème** : en food truck, vous n'avez pas la place de stocker large. Et les produits frais n'attendent pas.
+
+**La solution** : notez systématiquement ce que vous utilisez et ce que vous jetez après chaque service. En quelques semaines, vous disposerez d'une base fiable pour affiner vos commandes. FoodTracks automatise ce suivi grâce au [scan des factures fournisseurs](/fr/blog/scanner-factures-food-truck-gagner-temps) et à l'analyse de vos ventes.
+
+## Erreur 6 : Ignorer la réglementation
+
+Permis de stationnement, formation HACCP, déclaration en mairie, assurance professionnelle… La réglementation autour du food truck est plus fournie que la plupart des débutants ne le pensent.
+
+**Le problème** : une infraction peut entraîner une amende, une suspension d'activité ou pire. Certains opérateurs découvrent trop tard qu'ils opèrent sans autorisation légale sur certains emplacements.
+
+**La solution** : avant tout, consultez notre guide sur la [réglementation food truck en France](/fr/blog/reglementation-food-truck-france). Renseignez-vous en mairie pour chaque emplacement visé, et vérifiez que vous êtes couvert par une [assurance adaptée](/fr/blog/assurance-food-truck-obligatoire).
+
+## Erreur 7 : Négliger le marketing dès le départ
+
+"La qualité suffira à faire venir les gens." C'est faux — surtout les premiers mois, quand personne ne vous connaît encore.
+
+**Le problème** : sans présence en ligne et sans stratégie pour faire savoir où vous êtes, vous passerez des services entiers à attendre des clients qui ne viennent pas.
+
+**La solution** : créez votre fiche Google My Business le jour 1. Ouvrez un compte Instagram ou Facebook, et publiez votre emplacement chaque matin du service. Les outils sont gratuits — ce sont 15 minutes par jour qui font la différence. Pour aller plus loin, lisez notre guide sur le [marketing digital food truck](/fr/blog/marketing-digital-food-truck).
+
+## Erreur 8 : Ne pas prévoir de trésorerie de sécurité
+
+Les premiers mois, les revenus sont irréguliers. Une panne de frigo, un service annulé pour cause de météo, un fournisseur en retard… Les imprévus font partie du quotidien.
+
+**Le problème** : beaucoup de débutants investissent tout leur capital dans le véhicule et les équipements, sans garder de réserve. À la première dépense inattendue, ils se retrouvent à court de trésorerie.
+
+**La solution** : conservez l'équivalent de 3 mois de charges fixes en réserve avant de vous lancer. Et suivez votre trésorerie semaine par semaine — pas une fois par trimestre quand votre comptable vous envoie le bilan.
+
+## Erreur 9 : Travailler seul sans plan de remplacement
+
+En food truck solo, vous êtes le cuisinier, le caissier, le livreur, le comptable et le community manager. C'est tenable au lancement — mais fragile.
+
+**Le problème** : une angine, une urgence familiale ou une simple journée épuisante peut mettre votre service à l'arrêt. Sans plan B, vous perdez du chiffre et des clients.
+
+**La solution** : formez un ou deux proches aux bases de votre opération. Identifiez un freelance ou un extra qui peut vous dépanner. Et automatisez tout ce qui peut l'être : commandes fournisseurs, suivi des ventes, rappels de maintenance.
+
+## Erreur 10 : Ne pas analyser ses données
+
+Au bout de 6 mois d'activité, la plupart des food truckers débutants ne savent pas quels sont leurs plats les plus rentables, leurs emplacements les plus performants ou leurs jours les plus creux.
+
+**Le problème** : sans données, vous naviguez à vue. Vous répétez les mêmes décisions — bonnes ou mauvaises — par habitude plutôt que par raisonnement.
+
+**La solution** : même sans logiciel sophistiqué, tenez un journal hebdomadaire de vos ventes, de vos charges et de vos emplacements. Avec un outil comme **FoodTracks**, toutes ces données sont centralisées et analysées automatiquement. Vous pouvez ainsi voir d'un coup d'œil quels services sont rentables et lesquels sont à revoir.
+
+## Conclusion : les erreurs de débutant sont évitables
+
+Le food truck est un métier exigeant, mais ses principales causes d'échec sont prévisibles — et donc évitables. Calculer ses prix sérieusement, tester ses emplacements, tenir ses stocks, gérer sa trésorerie et analyser ses données : ce sont des réflexes professionnels qui se prennent dès le premier jour.
+
+**[FoodTracks](/fr/pricing)** a été conçu exactement pour ça : vous donner les outils d'un gestionnaire professionnel sans la complexité d'un ERP. Essai Pro 14 jours offert, sans carte bancaire.`,
+      en: `## Why So Many Food Trucks Close in Their First Year
+
+Launching a food truck sounds like a dream. Freedom, direct customer contact, culinary creativity… The reality is often harsher: **industry estimates suggest nearly 60% of food trucks close or are sold within the first 3 years**. Most of these failures aren't due to a lack of culinary talent — but to avoidable management mistakes.
+
+Here are the 10 mistakes almost every beginner makes, and how to fix them before they cost too much.
+
+## Mistake 1: Setting Prices Without Calculating Food Cost
+
+This is the number one mistake. Many food truck operators set their prices "by instinct" or by copying competitors, without knowing what each dish actually costs to make.
+
+**The problem**: if your food cost exceeds 30 to 35% of your selling price, your margins evaporate. A burger sold for $10 that costs $4 to produce leaves you only $6 to cover fuel, pitch fees, wages, and your own salary.
+
+**The solution**: calculate your [cost price](/en/blog/calculer-cout-revient-recette-food-truck) for each recipe before opening. List every ingredient with its price per gram, add them up, then apply a multiplier of 3 to 3.5 to get a viable selling price. Revisit this calculation every time a supplier changes their prices.
+
+## Mistake 2: Choosing Your First Location Without Testing It
+
+The "perfect" location in theory can disappoint in practice. Many beginners sign an annual pitch contract without testing the spot across different days, weather conditions, or seasons.
+
+**The problem**: a corporate car park might generate great traffic on Tuesday lunchtimes but be a ghost town on Wednesdays. A summer market can lose 70% of its footfall from October onwards.
+
+**The solution**: before committing, go observe the location as a potential customer at different times of day. Talk to other traders already there. Negotiate a one-month trial before making any long-term commitment. Read our guide on [how to choose a profitable location](/en/blog/choisir-emplacement-rentable-food-truck).
+
+## Mistake 3: Offering a Menu That's Too Large
+
+A 25-dish menu might seem appealing for covering all tastes. In reality, it complicates sourcing, slows down service, and dilutes your identity.
+
+**The problem**: the wider your menu, the more ingredients you need to manage, the more waste you generate, and the slower your service becomes. A customer waiting 20 minutes will often leave without ordering.
+
+**The solution**: start with 5 to 8 dishes maximum. Master them perfectly. A food truck known for "the best tacos in town" will always out-earn a generalist van. Once your sales volume is stable, you can gradually expand the menu.
+
+## Mistake 4: Underestimating Fixed Costs
+
+A food truck has no rent — but its fixed costs are very real. Vehicle finance, insurance, mechanical maintenance, pitch fees, software subscriptions, accounting… It all adds up.
+
+**The problem**: beginner food truckers don't draw up a complete list of their costs before launching. The result: they realise midway through that their break-even point is much higher than expected.
+
+**The solution**: before opening, list absolutely every monthly cost, even the small ones. Calculate how many dishes you need to sell per service to cover that amount — that's your break-even point. **[FoodTracks](/en/pricing)** generates this calculation automatically from your real data, no complex spreadsheet required.
+
+## Mistake 5: Neglecting Inventory Management
+
+"I think I've got everything I need" is not an inventory management method. Without precise tracking, you'll swing between overstocking (waste) and stockouts (lost sales).
+
+**The problem**: in a food truck, you don't have room to over-stock. And fresh produce doesn't wait.
+
+**The solution**: systematically note what you use and what you throw away after each service. Within a few weeks, you'll have a reliable baseline for refining your orders. FoodTracks automates this tracking via [supplier invoice scanning](/en/blog/scanner-factures-food-truck-gagner-temps) and sales analysis.
+
+## Mistake 6: Ignoring the Regulations
+
+Parking permits, food hygiene certification, local authority declarations, professional insurance… The regulations around food trucks are more extensive than most beginners expect.
+
+**The problem**: a violation can result in a fine, suspension of activity, or worse. Some operators discover too late that they're operating without the right authorisations on certain pitches.
+
+**The solution**: first, consult our guide on [food truck regulations](/en/blog/reglementation-food-truck-france). Check with local authorities for each location you're targeting, and make sure you're covered by [appropriate insurance](/en/blog/assurance-food-truck-obligatoire).
+
+## Mistake 7: Neglecting Marketing From Day One
+
+"Quality will be enough to bring people in." That's wrong — especially in the first few months, when nobody knows you yet.
+
+**The problem**: without an online presence and a strategy for letting people know where you are, you'll spend entire services waiting for customers who never come.
+
+**The solution**: set up your Google My Business listing on day one. Open an Instagram or Facebook account and post your location every morning before service. The tools are free — it's 15 minutes a day that make the difference. For more depth, read our guide on [food truck digital marketing](/en/blog/marketing-digital-food-truck).
+
+## Mistake 8: Not Building a Cash Reserve
+
+In the early months, income is irregular. A fridge breakdown, a service cancelled due to bad weather, a delayed supplier delivery… Unexpected events are part of daily life.
+
+**The problem**: many beginners invest all their capital in the vehicle and equipment, without keeping a reserve. At the first unexpected expense, they find themselves short of cash.
+
+**The solution**: keep the equivalent of 3 months' fixed costs in reserve before launching. And track your cash flow week by week — not once a quarter when your accountant sends the accounts.
+
+## Mistake 9: Going Solo With No Backup Plan
+
+In a one-person food truck, you're the chef, cashier, delivery driver, accountant, and social media manager. That's manageable at launch — but fragile.
+
+**The problem**: a bout of illness, a family emergency, or simply an exhausting day can bring your service to a halt. Without a plan B, you lose revenue and customers.
+
+**The solution**: train one or two people you trust in the basics of your operation. Identify a freelancer or casual worker who can step in. And automate everything that can be automated: supplier orders, sales tracking, maintenance reminders.
+
+## Mistake 10: Not Analysing Your Data
+
+After 6 months of trading, most beginner food truckers don't know which dishes are most profitable, which locations perform best, or which days are their quietest.
+
+**The problem**: without data, you're flying blind. You repeat the same decisions — good or bad — out of habit rather than reasoning.
+
+**The solution**: even without sophisticated software, keep a weekly log of your sales, costs, and locations. With a tool like **FoodTracks**, all this data is centralised and analysed automatically. You can see at a glance which services are profitable and which need rethinking.
+
+## Conclusion: Beginner Mistakes Are Avoidable
+
+Running a food truck is a demanding trade, but its main causes of failure are predictable — and therefore avoidable. Calculating prices properly, testing locations, managing stock, controlling cash flow, and analysing data: these are professional reflexes that need to be built from day one.
+
+**[FoodTracks](/en/pricing)** was designed precisely for this: giving you the tools of a professional manager without the complexity of an ERP. 14-day free Pro trial, no credit card required.`,
+    },
+    keyTakeaways: {
+      fr: [
+        "Calculez le coût de revient de chaque plat avant de fixer vos prix — un mauvais pricing est la première cause d'échec.",
+        "Testez chaque emplacement en observation avant de vous engager : fréquentation, horaires, saisonnalité.",
+        "Un menu de 5 à 8 plats maîtrisés est bien plus rentable qu'une carte généraliste de 25 références.",
+        "Conservez 3 mois de charges fixes en réserve avant d'ouvrir votre food truck.",
+        "Analysez vos données dès le premier mois pour identifier vos services et emplacements les plus rentables.",
+      ],
+      en: [
+        "Calculate the cost price of each dish before setting your prices — poor pricing is the number one cause of failure.",
+        "Test every location through observation before committing: footfall, opening hours, seasonality.",
+        "A menu of 5 to 8 mastered dishes is far more profitable than a 25-item generalist menu.",
+        "Keep 3 months of fixed costs in reserve before opening your food truck.",
+        "Analyse your data from the first month to identify your most profitable services and locations.",
+      ],
+    },
+    faqItems: [
+      {
+        question: {
+          fr: "Quelles sont les erreurs les plus courantes quand on ouvre un food truck ?",
+          en: "What are the most common mistakes when opening a food truck?",
+        },
+        answer: {
+          fr: "Les erreurs les plus fréquentes sont : fixer ses prix sans calculer le coût de revient, choisir un emplacement sans le tester, proposer un menu trop large, sous-estimer les charges fixes et négliger la gestion des stocks. Ces erreurs sont toutes évitables avec une préparation rigoureuse.",
+          en: "The most common mistakes are: setting prices without calculating food cost, choosing a location without testing it, offering too wide a menu, underestimating fixed costs, and neglecting inventory management. These mistakes are all avoidable with thorough preparation.",
+        },
+      },
+      {
+        question: {
+          fr: "Combien faut-il de trésorerie de réserve pour lancer un food truck ?",
+          en: "How much cash reserve do you need to launch a food truck?",
+        },
+        answer: {
+          fr: "Il est recommandé de conserver l'équivalent de 3 mois de charges fixes en réserve avant d'ouvrir. En pratique, cela représente entre 5 000 et 15 000 € selon la taille de votre structure et le coût de vos emplacements.",
+          en: "It's recommended to keep the equivalent of 3 months of fixed costs in reserve before opening. In practice, this represents between €5,000 and €15,000 depending on the size of your operation and pitch costs.",
+        },
+      },
+      {
+        question: {
+          fr: "Combien de plats proposer sur un menu food truck débutant ?",
+          en: "How many dishes should a beginner food truck menu have?",
+        },
+        answer: {
+          fr: "Pour un débutant, un menu de 5 à 8 plats est idéal. Cela simplifie les approvisionnements, réduit le gaspillage, accélère le service et permet de développer une identité forte. Vous pourrez étoffer la carte une fois votre activité stabilisée.",
+          en: "For a beginner, a menu of 5 to 8 dishes is ideal. This simplifies sourcing, reduces waste, speeds up service, and allows you to build a strong identity. You can expand the menu once your business is stable.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment tester un emplacement avant de s'engager ?",
+          en: "How do you test a location before committing to it?",
+        },
+        answer: {
+          fr: "Rendez-vous sur l'emplacement en tant que client potentiel à plusieurs moments de la journée et de la semaine. Parlez aux commerçants déjà présents. Négociez une période d'essai d'un mois avec le propriétaire ou la mairie avant tout engagement annuel.",
+          en: "Visit the location as a potential customer at different times of day and week. Talk to traders already operating there. Negotiate a one-month trial period with the landowner or local authority before any annual commitment.",
+        },
+      },
+      {
+        question: {
+          fr: "Faut-il un logiciel de gestion dès le lancement de son food truck ?",
+          en: "Do you need management software from the very start of your food truck?",
+        },
+        answer: {
+          fr: "Pas obligatoirement au premier jour, mais très rapidement. Sans suivi des ventes et des stocks, vous prenez vos décisions à l'aveugle. Un outil comme FoodTracks coûte moins de 10 €/mois et vous évite des erreurs qui peuvent représenter 20 à 30 % de pertes sur vos marges.",
+          en: "Not necessarily on day one, but very quickly. Without tracking sales and stock, you're making decisions blind. A tool like FoodTracks costs under €10/month and prevents mistakes that can represent 20 to 30% losses on your margins.",
+        },
+      },
+    ],
+    relatedSlugs: [
+      "ouvrir-food-truck-guide-complet",
+      "calculer-cout-revient-recette-food-truck",
+      "choisir-emplacement-rentable-food-truck",
+      "food-truck-rentable-premier-mois",
+      "reglementation-food-truck-france",
+    ],
+  },
+
 ];
 
 export const blogArticles: BlogArticle[] = [...baseBlogArticles, ...verticalArticles];
