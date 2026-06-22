@@ -42429,6 +42429,673 @@ What helps most: **having reliable data about your business**. Knowing which loc
     ],
   },
 
+  {
+    slug: "food-truck-uber-eats-deliveroo-rentabilite",
+    title: {
+      fr: "Food truck sur Uber Eats et Deliveroo : est-ce vraiment rentable ?",
+      en: "Food Trucks on Uber Eats and Deliveroo: Is It Really Worth It?",
+    },
+    excerpt: {
+      fr: "Rejoindre une plateforme de livraison peut sembler une opportunité facile de multiplier ses ventes. Mais entre les commissions de 25 à 35 %, les délais de paiement et l'impact sur le service physique, la réalité est plus nuancée. Voici comment évaluer si c'est rentable pour votre food truck.",
+      en: "Joining a delivery platform can seem like an easy way to multiply sales. But with commissions of 25 to 35%, payment delays and the impact on your physical service, the reality is more nuanced. Here's how to assess whether it's profitable for your food truck.",
+    },
+    category: { fr: "Rentabilité", en: "Profitability" },
+    date: "2026-06-21",
+    readTime: 9,
+    keywords: [
+      "food truck uber eats",
+      "food truck deliveroo",
+      "livraison food truck rentable",
+      "commission uber eats restauration",
+      "food truck plateforme livraison",
+      "food truck delivery platform",
+    ],
+    heroImage: "/blog/rentabilite.png",
+    content: {
+      fr: `## La tentation des plateformes de livraison
+
+Uber Eats, Deliveroo, Just Eat… Ces plateformes affichent des millions d'utilisateurs actifs et promettent une visibilité immédiate. Pour un food truck qui cherche à remplir les créneaux creux ou à atteindre une clientèle éloignée de ses emplacements habituels, l'argument semble solide.
+
+Mais la réalité chiffrée est souvent moins enthousiasmante. Avant de vous inscrire, il faut comprendre comment fonctionnent les marges sur ces plateformes — et pourquoi beaucoup de restaurateurs finissent par décrocher.
+
+## Comment fonctionnent les commissions
+
+C'est le premier point à comprendre : **les plateformes prélevent entre 25 % et 35 % du montant de chaque commande**. Ce pourcentage couvre :
+
+- La mise en relation avec le client
+- Le traitement du paiement
+- La gestion du livreur (pour Uber Eats et Deliveroo)
+- L'accès à l'appli et au tableau de bord marchand
+
+Concrètement, si vous vendez un menu à 12 €, vous ne percevrez que 7,80 € à 9 € — avant d'avoir sorti un seul ingrédient. Si votre coût matière représente déjà 30 à 35 % du prix de vente, il ne vous reste quasiment rien pour couvrir le temps de préparation, le packaging renforcé et les charges fixes.
+
+**Exemple chiffré** :
+- Prix de vente : 12 €
+- Commission Uber Eats (30 %) : -3,60 €
+- Coût matière (32 %) : -3,84 €
+- Packaging livraison : -0,80 €
+- **Marge restante : 3,76 €** — soit 31 % du prix de vente
+
+C'est jouable si votre seuil de rentabilité est bas. C'est dangereux si vous avez des charges fixes élevées ou un crédit véhicule important.
+
+## Les coûts cachés à ne pas oublier
+
+Au-delà de la commission affichée, d'autres facteurs grignotent votre marge :
+
+**1. Le packaging spécifique livraison**
+Un emballage qui supporte 20 à 40 minutes de transport et conserve la température coûte plus cher qu'un contenant standard. Comptez 0,60 € à 1,20 € par commande selon le type de plat.
+
+**2. Le temps de préparation dédié**
+Les commandes livraison arrivent sans prévenir, souvent en plein service physique. Sans organisation spécifique, elles perturbent votre flux normal, allongent l'attente pour vos clients présents et génèrent du stress en cuisine.
+
+**3. Les délais de paiement**
+Les plateformes versent les fonds avec 7 à 14 jours de décalage. Pour un food truck dont la trésorerie est tendue, c'est un facteur à anticiper dans votre plan de financement.
+
+**4. Les promotions imposées**
+Pour apparaître en tête des résultats, les plateformes incitent fortement à participer à leurs campagnes promotionnelles (réductions de 20 à 30 % sur certains créneaux). Ces promotions sont présentées comme optionnelles, mais refuser revient souvent à perdre en visibilité.
+
+## Quand la livraison est réellement rentable pour un food truck
+
+Malgré ces contraintes, certains profils de food trucks tirent un bénéfice réel des plateformes. Voici les configurations favorables :
+
+### 1. Vous avez une cuisine centrale ou un poste fixe
+La livraison est bien plus rentable depuis un poste fixe (parking d'entreprise, cuisine centrale, dark kitchen) que depuis un camion en déplacement. Vous évitez les coûts de déplacement et pouvez traiter un volume plus élevé de commandes consécutives.
+
+### 2. Votre menu voyage bien
+Certains plats supportent mal la livraison (frites molles, paninis détrempés, crêpes collantes). Si votre carte est adaptée au transport — salades en bocal, plats en sauce, burritos, sushis — vous limiterez les retours négatifs et les mauvaises notes qui nuisent à votre positionnement.
+
+### 3. Vous visez les créneaux creux
+La livraison est un bon complément pour les créneaux où vous n'êtes pas sur votre emplacement principal : soirées, week-ends, jours de mauvais temps. Elle ne devrait pas entrer en concurrence directe avec votre service physique.
+
+### 4. Vous ajustez vos prix sur la plateforme
+Une pratique courante et légitime : **augmenter vos prix de 15 à 20 % sur les plateformes** pour absorber la commission. Beaucoup de clients acceptent de payer un peu plus cher pour la commodité de la livraison. Vérifiez que les conditions générales de la plateforme l'autorisent — c'est généralement le cas.
+
+## Les alternatives à considérer avant de s'inscrire
+
+Avant de confier 30 % de votre chiffre d'affaires à une plateforme, explorez ces options :
+
+**Click & Collect maison** : proposez la commande en avance via votre site, votre page Instagram ou WhatsApp Business. Aucune commission, paiement direct, et vous créez un lien direct avec le client. Des outils comme Sumup, Laddition ou Innovorder proposent des modules à faible coût.
+
+**Système de précommande pour les entreprises** : si vous intervenez sur des parcs d'activités, proposez aux entreprises un système de commande groupée en amont. Vous optimisez votre production et supprimez toute commission tierce.
+
+**Partenariat direct avec un livreur local** : dans certaines villes, des coopératives de livreurs à vélo pratiquent des commissions de 15 à 18 %, bien inférieures aux grandes plateformes. Un partenariat direct peut être plus rentable et plus éthique.
+
+## Comment décider objectivement
+
+Avant de vous inscrire, posez-vous ces cinq questions :
+
+1. **Quel est mon coût matière moyen ?** Si vous dépassez 35 %, la livraison plateforme sera très difficile à rentabiliser.
+2. **Ai-je la capacité de traiter des commandes en plus de mon service physique ?** Si non, la livraison risque de dégrader l'expérience de vos clients présents.
+3. **Mon menu supporte-t-il un transport de 20 à 40 minutes ?** Si non, vous accumulerez de mauvais avis.
+4. **Puis-je adapter mes prix sur la plateforme ?** Une marge de 15 à 20 % de majoration est souvent indispensable.
+5. **Mon secteur est-il bien couvert par les livreurs ?** En zone rurale ou périurbaine, les plateformes peuvent manquer de livreurs disponibles.
+
+**[FoodTracks](/fr/pricing)** vous permet de calculer votre seuil de rentabilité actuel et de simuler l'impact d'une commission supplémentaire sur vos marges — sans tableau Excel complexe. Essai gratuit 14 jours, sans carte bancaire.
+
+## En résumé : ni miracle, ni à rejeter en bloc
+
+Les plateformes de livraison ne sont pas une solution universelle pour les food trucks. Elles peuvent être utiles en complément d'une activité physique bien établie, avec un menu adapté et une tarification ajustée. Elles sont risquées comme canal principal si vos marges sont déjà serrées.
+
+La clé : calculez votre rentabilité avant de vous lancer, testez sur un créneau limité, mesurez les résultats sur 4 à 6 semaines, et décidez ensuite si vous maintenez, ajustez ou stoppez.`,
+      en: `## The Temptation of Delivery Platforms
+
+Uber Eats, Deliveroo, Just Eat… These platforms boast millions of active users and promise immediate visibility. For a food truck looking to fill quiet slots or reach customers away from its usual locations, the argument seems compelling.
+
+But the actual numbers are often less encouraging. Before signing up, you need to understand how margins work on these platforms — and why many restaurant operators end up pulling out.
+
+## How Commissions Work
+
+This is the first thing to understand: **platforms take between 25% and 35% of each order**. This covers:
+
+- Connecting you with the customer
+- Payment processing
+- Managing the delivery driver (for Uber Eats and Deliveroo)
+- Access to the app and merchant dashboard
+
+In practice, if you sell a meal for €12, you'll only receive €7.80 to €9 — before pulling a single ingredient. If your food cost already represents 30 to 35% of your sale price, there's almost nothing left to cover prep time, reinforced packaging and fixed costs.
+
+**Concrete example:**
+- Sale price: €12
+- Uber Eats commission (30%): -€3.60
+- Food cost (32%): -€3.84
+- Delivery packaging: -€0.80
+- **Remaining margin: €3.76** — or 31% of the sale price
+
+This is workable if your break-even point is low. It's dangerous if you have high fixed costs or significant vehicle finance payments.
+
+## Hidden Costs You Can't Ignore
+
+Beyond the advertised commission, other factors eat into your margin:
+
+**1. Delivery-specific packaging**
+Packaging that withstands 20 to 40 minutes of transport and maintains temperature costs more than standard containers. Allow €0.60 to €1.20 per order depending on the type of dish.
+
+**2. Dedicated preparation time**
+Delivery orders arrive without warning, often in the middle of your physical service. Without specific organisation, they disrupt your normal flow, lengthen waiting times for customers present and create stress in the kitchen.
+
+**3. Payment delays**
+Platforms pay out funds with a 7 to 14-day lag. For a food truck with tight cash flow, this is a factor to plan for in your financing.
+
+**4. Imposed promotions**
+To appear at the top of search results, platforms strongly encourage participation in their promotional campaigns (20 to 30% discounts on certain time slots). These promotions are presented as optional, but refusing often means losing visibility.
+
+## When Delivery Is Genuinely Profitable for a Food Truck
+
+Despite these constraints, some food truck profiles genuinely benefit from platforms. Here are the favourable configurations:
+
+### 1. You have a central kitchen or fixed post
+Delivery is far more profitable from a fixed post (business park, central kitchen, dark kitchen) than from a mobile truck. You avoid travel costs and can handle a higher volume of consecutive orders.
+
+### 2. Your menu travels well
+Some dishes don't survive delivery well (soggy chips, soggy paninis, sticky crêpes). If your menu is suited for transport — jarred salads, sauced dishes, burritos, sushi — you'll limit negative reviews and poor ratings that hurt your platform ranking.
+
+### 3. You're targeting quiet slots
+Delivery is a good complement for slots when you're not at your main pitch: evenings, weekends, rainy days. It shouldn't directly compete with your physical service.
+
+### 4. You adjust your prices on the platform
+A common and legitimate practice: **increasing your prices by 15 to 20% on platforms** to absorb the commission. Many customers accept paying a little more for the convenience of delivery. Check that the platform's terms allow it — they generally do.
+
+## Alternatives to Consider Before Signing Up
+
+Before handing 30% of your turnover to a platform, explore these options:
+
+**In-house Click & Collect:** offer advance ordering via your website, Instagram page or WhatsApp Business. Zero commission, direct payment, and you build a direct relationship with the customer. Tools like Sumup, Laddition or Innovorder offer low-cost modules.
+
+**Pre-order system for businesses:** if you serve business parks, offer companies an advance group ordering system. You optimise your production and eliminate any third-party commission.
+
+**Direct partnership with a local courier:** in some cities, cycling courier cooperatives charge commissions of 15 to 18%, well below the major platforms. A direct partnership can be more profitable and more ethical.
+
+## How to Decide Objectively
+
+Before signing up, ask yourself these five questions:
+
+1. **What is my average food cost?** If you exceed 35%, platform delivery will be very difficult to make profitable.
+2. **Do I have the capacity to handle orders on top of my physical service?** If not, delivery risks degrading the experience for your on-site customers.
+3. **Does my menu survive a 20 to 40-minute journey?** If not, you'll accumulate bad reviews.
+4. **Can I adjust my prices on the platform?** A 15 to 20% price increase is often essential.
+5. **Is my area well served by delivery drivers?** In rural or suburban areas, platforms may lack available drivers.
+
+**[FoodTracks](/en/pricing)** lets you calculate your current break-even point and simulate the impact of an additional commission on your margins — without complex spreadsheets. 14-day free trial, no credit card required.
+
+## In Summary: Neither a Miracle Nor to Be Dismissed Outright
+
+Delivery platforms are not a universal solution for food trucks. They can be useful as a complement to a well-established physical operation, with a suitable menu and adjusted pricing. They are risky as a primary channel if your margins are already tight.
+
+The key: calculate your profitability before launching, test on a limited time slot, measure results over 4 to 6 weeks, then decide whether to maintain, adjust or stop.`,
+    },
+    keyTakeaways: {
+      fr: [
+        "Les plateformes prélèvent 25 à 35 % de chaque commande : vérifiez votre coût matière avant de vous inscrire, au risque de travailler à perte.",
+        "Augmenter vos prix de 15 à 20 % sur Uber Eats ou Deliveroo est une pratique courante et légitime pour préserver votre marge.",
+        "La livraison est plus rentable depuis un poste fixe que depuis un camion en déplacement, et uniquement avec un menu qui supporte le transport.",
+        "Les créneaux creux (soirs, week-ends, mauvais temps) sont les meilleurs moments pour activer la livraison sans perturber votre service physique.",
+        "Testez sur 4 à 6 semaines avec un créneau limité avant de décider si la livraison plateforme est adaptée à votre modèle.",
+      ],
+      en: [
+        "Platforms take 25 to 35% of each order: check your food cost before signing up, or risk working at a loss.",
+        "Increasing your prices by 15 to 20% on Uber Eats or Deliveroo is a common and legitimate practice to protect your margin.",
+        "Delivery is more profitable from a fixed post than a mobile truck, and only with a menu that survives transport.",
+        "Quiet slots (evenings, weekends, bad weather) are the best times to activate delivery without disrupting your physical service.",
+        "Test for 4 to 6 weeks on a limited time slot before deciding whether platform delivery suits your model.",
+      ],
+    },
+    faqItems: [
+      {
+        question: {
+          fr: "Quelle commission prend Uber Eats sur les commandes d'un food truck ?",
+          en: "What commission does Uber Eats take on food truck orders?",
+        },
+        answer: {
+          fr: "Uber Eats prélève généralement entre 25 % et 30 % du montant de chaque commande, selon le contrat négocié et le volume d'activité. Deliveroo applique des taux similaires. Ces commissions peuvent être partiellement absorbées en majorant vos prix de 15 à 20 % sur la plateforme.",
+          en: "Uber Eats generally takes between 25% and 30% of each order, depending on the contract negotiated and activity volume. Deliveroo applies similar rates. These commissions can be partially absorbed by increasing your prices by 15 to 20% on the platform.",
+        },
+      },
+      {
+        question: {
+          fr: "Peut-on mettre des prix différents sur Uber Eats par rapport au camion ?",
+          en: "Can you have different prices on Uber Eats compared to the truck?",
+        },
+        answer: {
+          fr: "Oui, les conditions générales d'Uber Eats et Deliveroo autorisent en général des prix différents entre votre menu en ligne et votre service physique. Cette pratique est très courante : elle permet d'absorber la commission et de maintenir une marge viable. Vérifiez néanmoins le contrat signé avec la plateforme.",
+          en: "Yes, the general terms of Uber Eats and Deliveroo generally allow different prices between your online menu and your physical service. This practice is very common: it allows you to absorb the commission and maintain a viable margin. However, check the contract signed with the platform.",
+        },
+      },
+      {
+        question: {
+          fr: "Un food truck peut-il vivre uniquement de la livraison en ligne ?",
+          en: "Can a food truck survive solely on online delivery?",
+        },
+        answer: {
+          fr: "Techniquement oui, mais c'est risqué. Un modèle 100 % livraison plateforme dépend entièrement d'un tiers qui peut modifier ses commissions, suspendre votre compte ou changer son algorithme. La plupart des opérateurs qui réussissent en livraison utilisent les plateformes comme canal complémentaire (20 à 30 % du CA) et gardent un service physique comme socle.",
+          en: "Technically yes, but it's risky. A 100% platform delivery model is entirely dependent on a third party that can change its commissions, suspend your account or change its algorithm. Most operators who succeed in delivery use platforms as a complementary channel (20 to 30% of revenue) and keep a physical service as their base.",
+        },
+      },
+      {
+        question: {
+          fr: "Quels plats de food truck se prêtent le mieux à la livraison ?",
+          en: "Which food truck dishes are best suited for delivery?",
+        },
+        answer: {
+          fr: "Les meilleurs plats pour la livraison sont ceux qui restent bons après 20 à 40 minutes de transport : burgers dans une boîte cartonnée hermétique, burritos et tacos bien emballés, bowls et salades avec la sauce à part, plats en sauce (curry, chili), sushis et poké bowls. À éviter : frites (ramollissent), crêpes (collent), pizzas fines (deviennent molles), plats frits légers.",
+          en: "The best dishes for delivery are those that remain good after 20 to 40 minutes of transport: burgers in a sealed cardboard box, well-wrapped burritos and tacos, bowls and salads with sauce separate, sauced dishes (curry, chili), sushi and poké bowls. Avoid: chips (go soggy), crêpes (stick), thin pizzas (go soft), lightly fried dishes.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment calculer si la livraison est rentable pour mon food truck ?",
+          en: "How do I calculate whether delivery is profitable for my food truck?",
+        },
+        answer: {
+          fr: "Prenez votre prix de vente moyen, déduisez la commission plateforme (30 %), votre coût matière (en %) et le coût du packaging livraison (0,60 à 1,20 €). Ce qui reste doit couvrir votre temps de préparation et une quote-part de vos charges fixes. Si la marge est inférieure à 20 % du prix de vente, la livraison est difficile à rentabiliser sans ajuster les prix. FoodTracks automatise ce calcul à partir de vos données réelles.",
+          en: "Take your average sale price, deduct the platform commission (30%), your food cost (as a %) and the delivery packaging cost (€0.60 to €1.20). What remains must cover your preparation time and a share of your fixed costs. If the margin is less than 20% of the sale price, delivery is hard to make profitable without adjusting prices. FoodTracks automates this calculation from your real data.",
+        },
+      },
+    ],
+    relatedSlugs: [
+      "food-truck-rentable-premier-mois",
+      "marge-brute-food-truck-calcul",
+      "suivi-depenses-food-truck",
+      "marketing-digital-food-truck",
+      "fideliser-clients-food-truck",
+    ],
+  },
+
+  {
+    slug: "food-truck-allergenes-obligations-legales",
+    title: {
+      fr: "Allergènes food truck : obligations légales, affichage et sanctions en 2026",
+      en: "Food Truck Allergen Labeling: Legal Requirements, Display Rules and Penalties in 2026",
+    },
+    excerpt: {
+      fr: "Tout ce que vous devez savoir sur les obligations d'affichage des 14 allergènes majeurs pour votre food truck : règlement INCO, solutions pratiques, sanctions et FAQ.",
+      en: "Everything you need to know about allergen labeling requirements for your food truck: INCO regulation, practical solutions, penalties, and FAQ.",
+    },
+    category: { fr: "Réglementation", en: "Regulation" },
+    date: "2026-06-22",
+    readTime: 10,
+    keywords: [
+      "allergènes food truck",
+      "obligations légales allergènes restaurant ambulant",
+      "INCO food truck",
+      "14 allergènes majeurs food truck",
+      "affichage allergènes food truck",
+    ],
+    heroImage: "/blog/allergenes-food-truck.png",
+    content: {
+      fr: `## Allergènes en food truck : pourquoi c'est une obligation que vous ne pouvez pas ignorer
+
+En France, la question des allergènes alimentaires n'est pas une option — c'est une obligation légale encadrée par le **règlement européen INCO n°1169/2011**, entré pleinement en vigueur le 13 décembre 2014. En tant que food trucker, vous êtes directement concerné, au même titre qu'un restaurant traditionnel ou une sandwicherie.
+
+Chaque année en France, on recense entre **70 000 et 80 000 cas de réactions allergiques graves**, dont plusieurs dizaines d'anaphylaxies létales. Un client mal informé peut engager votre responsabilité civile et pénale. Voici tout ce que vous devez savoir pour être en règle.
+
+---
+
+## Les 14 allergènes majeurs à connaître absolument
+
+Le règlement INCO classe **14 substances ou produits allergènes** comme devant obligatoirement être mentionnés lors de la vente de denrées alimentaires non préemballées (ce qui inclut vos plats préparés sur le food truck) :
+
+1. **Céréales contenant du gluten** : blé, seigle, orge, avoine, épeautre, kamut…
+2. **Crustacés** : crevettes, homard, crabe, langoustine…
+3. **Œufs**
+4. **Poissons**
+5. **Cacahuètes (arachides)**
+6. **Soja**
+7. **Lait** (y compris le lactose)
+8. **Fruits à coque** : amandes, noisettes, noix, noix de cajou, noix de pécan, pistaches, noix du Brésil, noix de macadamia
+9. **Céleri** (y compris les graines et racines)
+10. **Moutarde** (y compris les graines et feuilles)
+11. **Graines de sésame**
+12. **Dioxyde de soufre et sulfites** (à partir de 10 mg/kg ou 10 mg/litre)
+13. **Lupin** (y compris la farine de lupin)
+14. **Mollusques** : moules, palourdes, huîtres, calmars…
+
+> **Attention** : certains de ces allergènes peuvent se cacher dans des ingrédients composés (sauces industrielles, assaisonnements, fonds de sauce). Vérifiez systématiquement les étiquettes de vos matières premières.
+
+---
+
+## Le règlement INCO et ses obligations concrètes pour les food trucks
+
+### Ce que dit le texte
+
+Le règlement (UE) n°1169/2011 — dit règlement INCO (Information des Consommateurs sur les denrées alimentaires) — impose à tous les professionnels de la restauration vendant des **denrées non préemballées** (comme les plats servis sur un food truck) de communiquer l'information allergène au consommateur avant l'achat.
+
+Contrairement aux denrées préemballées (qui doivent lister les allergènes en gras sur l'étiquette), les denrées non préemballées bénéficient d'une flexibilité sur le **support** de communication — mais **l'information doit être accessible et vérifiable.**
+
+### Ce que cela implique concrètement pour vous
+
+En pratique, trois situations sont admises en France :
+
+1. **Information écrite directement sur la carte ou le menu** : chaque plat liste les allergènes présents (ex. : « Burger Classic : Gluten, Œufs, Lait »). C'est la méthode la plus claire et la plus recommandée.
+
+2. **Affichage général avec renvoi verbal** : vous affichez une mention du type « Pour toute information sur les allergènes, demandez à notre équipe » et vous formez votre personnel à répondre de manière précise et fiable. Cette méthode est légale mais à double tranchant : votre équipe doit connaître **par cœur** la composition de chaque plat.
+
+3. **Classeur ou fiche allergènes consultable** : vous tenez un document récapitulatif (classeur ou affiche) accessible au comptoir, listant pour chaque plat les 14 allergènes sous forme de tableau. Cette solution est particulièrement adaptée aux menus complexes.
+
+> **Bon à savoir** : l'information verbale seule n'est pas suffisante depuis 2021. Il faut qu'elle soit doublée d'un support écrit consultable, même si ce support renvoie à un échange verbal.
+
+---
+
+## Comment afficher les allergènes sur votre food truck : 3 solutions pratiques
+
+### Solution 1 — La carte avec codes allergènes
+
+Numérotez les 14 allergènes de 1 à 14 et inscrivez les numéros correspondants après chaque plat de votre carte. Exemple :
+
+| Plat | Allergènes |
+|------|-----------|
+| Burger Classic | 1, 3, 7 |
+| Wrap Poulet | 1, 11 |
+| Salade Caesar | 4, 3, 7 |
+
+Cette méthode est compacte, facile à imprimer et à plastifier. Prévoyez une légende en bas de carte.
+
+### Solution 2 — L'affiche grand format au comptoir
+
+Une affiche A3 ou A2 plastifiée, affichée à hauteur des yeux, avec un tableau complet allergène × plat. Elle doit être **lisible sans lunettes** depuis le point de commande. Coût : moins de 10€ à imprimer chez un imprimeur en ligne.
+
+### Solution 3 — Le QR code vers une fiche numérique
+
+De plus en plus de food truckers optent pour un QR code sur leur comptoir ou leur menu renvoyant vers une page web listant tous les allergènes. C'est légal si un support de substitution existe pour les personnes sans smartphone. Avec **FoodTracks**, vous pouvez générer et mettre à jour votre fiche allergènes numérique directement depuis votre tableau de bord, sans avoir à refaire votre carte à chaque changement de recette.
+
+---
+
+## Sanctions en cas de non-conformité : ce que vous risquez vraiment
+
+Ne pas respecter les obligations d'affichage des allergènes expose à des sanctions administratives et pénales sérieuses.
+
+### Contrôles de la DDPP
+
+La **Direction Départementale de la Protection des Populations (DDPP)** effectue des contrôles inopinés sur les marchés, festivals et emplacements fixes. En cas de manquement constaté :
+
+- **Avertissement et mise en demeure** pour les premières infractions
+- **Amende administrative** pouvant aller jusqu'à **1 500 € par infraction** (contravention de 5e classe)
+- **Fermeture administrative temporaire** en cas de récidive ou de mise en danger avérée
+- **Sanctions pénales** si un client subit un dommage corporel lié à une information allergène erronée ou absente : jusqu'à **2 ans d'emprisonnement et 30 000 € d'amende** pour mise en danger de la vie d'autrui
+
+### Responsabilité civile
+
+En cas d'accident allergique sur votre food truck, votre responsabilité civile professionnelle sera engagée. Si vous n'êtes pas en mesure de prouver que l'information était affichée et accessible, votre assurance peut refuser de vous couvrir. C'est pourquoi il est essentiel de **conserver une trace écrite** de vos fiches allergènes (avec date de mise à jour).
+
+> **Conseil** : photographiez régulièrement votre affichage allergènes en service. Cette preuve photographique horodatée peut vous sauver en cas de litige.
+
+---
+
+## Cas pratiques fréquents en food truck
+
+### « Je ne sais pas si mon fournisseur utilise tel allergène »
+
+C'est votre responsabilité de vérifier. Demandez systématiquement à vos fournisseurs les **fiches techniques produit (FTP)** et les fiches de données sécurité alimentaire. Sans information certaine, vous devez mentionner l'allergène comme **« peut contenir des traces de… »**.
+
+### « Mon menu change chaque semaine »
+
+C'est précisément là que la gestion numérique prend tout son sens. Avec un outil comme FoodTracks, chaque modification de recette met automatiquement à jour votre tableau allergènes. Vous évitez l'erreur humaine d'un affichage qui ne correspond plus à la réalité de vos plats.
+
+### « Je suis seul sur le food truck, impossible de tout mémoriser »
+
+L'affichage écrit permanent est fait pour vous. Le tableau plastifié au comptoir ne demande aucune mémorisation — il suffit de le montrer au client. Formez-vous également aux premiers gestes en cas de réaction (présence d'un auto-injecteur d'adrénaline si un client signale une allergie grave, connaissance du 15/112).
+
+### « Mon food truck est une franchise, c'est la marque qui gère ça »
+
+Même si votre franchiseur fournit des fiches allergènes standardisées, **vous restez personnellement responsable** de leur affichage sur votre point de vente. Vérifiez que les documents fournis sont à jour et adaptés à votre menu réel.
+
+---
+
+## Mettre en place un système fiable : les 5 étapes
+
+1. **Listez tous vos ingrédients** et vérifiez les FTP de chaque fournisseur pour les 14 allergènes.
+2. **Créez une matrice allergènes × plats** : un tableau croisé simple (lignes = plats, colonnes = allergènes) avec ✓ ou ✗.
+3. **Choisissez votre support d'affichage** : carte codée, affiche comptoir ou QR code numérique (ou une combinaison).
+4. **Formez votre équipe** : chaque collaborateur doit savoir répondre aux questions allergènes et rediriger vers le support écrit.
+5. **Mettez à jour à chaque changement de recette** : un changement de fournisseur ou une modification d'ingrédient impose une mise à jour immédiate. Avec FoodTracks, cette mise à jour est centralisée et tracée.
+
+---
+
+## FAQ : Allergènes food truck, les questions les plus fréquentes
+
+### L'obligation allergènes s'applique-t-elle aux plats du jour non inscrits sur la carte ?
+
+Oui. Même un plat du jour annoncé verbalement doit faire l'objet d'une information allergène accessible — idéalement par un ardoise ou une fiche au comptoir. L'information verbale seule n'est pas suffisante.
+
+### Suis-je obligé d'afficher les allergènes si je vends uniquement des plats « naturellement sans allergènes » ?
+
+Non, si vous êtes absolument certain que vos plats ne contiennent aucun des 14 allergènes et qu'il n'y a aucun risque de contamination croisée. En pratique, c'est très rare — même une friteuse partagée peut contaminer une préparation par du gluten ou des arachides.
+
+### Un client allergique peut-il me poursuivre même si j'ai affiché les informations ?
+
+Si votre affichage est complet, visible, lisible et à jour, votre responsabilité est très fortement atténuée. La jurisprudence française montre que c'est principalement l'absence d'information ou une information erronée qui engage la responsabilité du professionnel.
+
+### Quelle est la différence entre allergie et intolérance pour les obligations d'affichage ?
+
+Légalement, le règlement INCO vise les **allergies alimentaires** (réaction immunitaire pouvant être mortelle) et les **intolérances** (comme l'intolérance au lactose ou au gluten des cœliaques). Les 14 allergènes listés couvrent les deux situations. Votre obligation est la même quelle que soit la nature de la réaction.
+
+### Comment gérer les contaminations croisées sur un food truck ?
+
+La contamination croisée (une préparation sans gluten préparée sur un plan de travail ayant été en contact avec du gluten, par exemple) est un risque réel en espace confiné. Si vous ne pouvez pas garantir l'absence de contamination, vous devez le mentionner (« peut contenir des traces de… »). Certains clients cœliaques ou allergiques sévères ne peuvent pas prendre ce risque — soyez honnête pour éviter les incidents.
+
+---
+
+## Conclusion : la conformité allergènes, un investissement, pas une contrainte
+
+Mettre en place un système d'information allergènes solide sur votre food truck prend quelques heures au départ — mais vous protège pour des années. C'est aussi un **argument commercial** : de plus en plus de clients allergiques ou intolérants choisissent les établissements où ils se sentent en sécurité.
+
+Avec **FoodTracks**, la gestion des allergènes fait partie intégrante de vos fiches recettes. Chaque ingrédient est tagué, chaque plat génère automatiquement sa liste allergènes, et votre affichage est toujours à jour. Moins de risques, moins de stress, plus de clients en confiance.
+
+[Essayez FoodTracks gratuitement](https://foodtracks.io/fr/pricing) et sécurisez votre gestion allergènes dès aujourd'hui.
+
+**À lire aussi :** [Réglementation food truck en France](/fr/blog/reglementation-food-truck-france) · [Hygiène et HACCP food truck](/fr/blog/hygiene-haccp-food-truck) · [Fixer les prix de son menu](/fr/blog/fixer-prix-menu-food-truck)`,
+      en: `## Food Truck Allergen Requirements: Why You Cannot Ignore Them
+
+In France and across the EU, allergen labeling is not optional — it is a legal obligation governed by **EU Regulation INCO No. 1169/2011**, which came into full effect on 13 December 2014. As a food truck operator, you are directly covered by this law, on the same basis as a traditional restaurant or sandwich shop.
+
+Each year in France, between **70,000 and 80,000 cases of serious allergic reactions** are recorded, including dozens of fatal anaphylaxis cases. A poorly informed customer can hold you civilly and criminally liable. Here is everything you need to know to stay compliant.
+
+---
+
+## The 14 Major Allergens You Must Know
+
+EU Regulation INCO classifies **14 substances or products** as allergens that must be declared when selling non-prepacked food (which includes all dishes prepared and served at your food truck):
+
+1. **Cereals containing gluten**: wheat, rye, barley, oats, spelt, Khorasan wheat…
+2. **Crustaceans**: shrimp, lobster, crab, langoustine…
+3. **Eggs**
+4. **Fish**
+5. **Peanuts**
+6. **Soybeans**
+7. **Milk** (including lactose)
+8. **Tree nuts**: almonds, hazelnuts, walnuts, cashews, pecans, pistachios, Brazil nuts, macadamia nuts
+9. **Celery** (including seeds and root)
+10. **Mustard** (including seeds and leaves)
+11. **Sesame seeds**
+12. **Sulphur dioxide and sulphites** (at concentrations above 10 mg/kg or 10 mg/litre)
+13. **Lupin** (including lupin flour)
+14. **Molluscs**: mussels, clams, oysters, squid…
+
+> **Watch out**: some of these allergens can be hidden in compound ingredients (industrial sauces, seasonings, stock bases). Always check the labels on your raw materials.
+
+---
+
+## The INCO Regulation and Its Practical Requirements for Food Trucks
+
+### What the Law Says
+
+EU Regulation No. 1169/2011 — known as the INCO Regulation (Food Information to Consumers) — requires all catering professionals selling **non-prepacked foods** (such as dishes served at a food truck) to communicate allergen information to customers before the purchase.
+
+Unlike prepacked foods (which must list allergens in bold on the label), non-prepacked foods have flexibility on the **medium** of communication — but **the information must be accessible and verifiable.**
+
+### What This Means in Practice
+
+In practice, three approaches are accepted in France:
+
+1. **Written information directly on the menu or board**: each dish lists the allergens present (e.g., "Classic Burger: Gluten, Eggs, Milk"). This is the clearest and most recommended method.
+
+2. **General notice with verbal referral**: you display a notice such as "For allergen information, please ask our team" and train your staff to respond precisely and reliably. This is legal but carries risk — your team must know **every dish's composition by heart**.
+
+3. **Allergen folder or sheet available at the counter**: you maintain a summary document (folder or poster) accessible at the counter, listing all 14 allergens for each dish in a grid format. This works particularly well for complex menus.
+
+> **Good to know**: verbal information alone has not been sufficient since 2021. It must be backed by a written document that customers can consult, even if that document refers them to a verbal exchange.
+
+---
+
+## How to Display Allergens on Your Food Truck: 3 Practical Solutions
+
+### Solution 1 — Menu with Allergen Codes
+
+Number the 14 allergens from 1 to 14 and write the corresponding numbers after each dish on your menu. Example:
+
+| Dish | Allergens |
+|------|-----------|
+| Classic Burger | 1, 3, 7 |
+| Chicken Wrap | 1, 11 |
+| Caesar Salad | 4, 3, 7 |
+
+This method is compact, easy to print and laminate. Include a legend at the bottom of your menu.
+
+### Solution 2 — Large-Format Poster at the Counter
+
+An A3 or A2 laminated poster, displayed at eye level, with a complete allergen × dish grid. It must be **readable without glasses** from the ordering point. Cost: under €10 when printed through an online printer.
+
+### Solution 3 — QR Code Linking to a Digital Sheet
+
+More and more food truck operators use a QR code on their counter or menu linking to a web page that lists all allergens. This is legal as long as a fallback exists for customers without smartphones. With **FoodTracks**, you can generate and update your digital allergen sheet directly from your dashboard, without reprinting your menu every time a recipe changes.
+
+---
+
+## Penalties for Non-Compliance: What You Actually Risk
+
+Failing to meet allergen labeling requirements exposes you to serious administrative and criminal penalties.
+
+### DDPP Inspections
+
+The **DDPP (Departmental Directorate for Population Protection)** carries out unannounced inspections at markets, festivals, and fixed pitches. If a violation is found:
+
+- **Warning and formal notice** for first offences
+- **Administrative fine** of up to **€1,500 per offence** (5th-class contravention)
+- **Temporary administrative closure** for repeat offences or proven endangerment
+- **Criminal penalties** if a customer suffers physical harm due to missing or incorrect allergen information: up to **2 years' imprisonment and a €30,000 fine** for endangering human life
+
+### Civil Liability
+
+In the event of an allergic incident at your food truck, your professional civil liability will be engaged. If you cannot prove that information was displayed and accessible, your insurer may refuse to cover you. This is why it is essential to **keep written records** of your allergen sheets (with update dates).
+
+> **Tip**: photograph your allergen display regularly during service. This timestamped photographic evidence can protect you in a dispute.
+
+---
+
+## Common Practical Situations on Food Trucks
+
+### "I don't know whether my supplier uses a given allergen"
+
+This is your responsibility to verify. Always ask your suppliers for **product technical data sheets** and food safety data sheets. Without certain information, you must list the allergen as **"may contain traces of…"**.
+
+### "My menu changes every week"
+
+This is precisely where digital management proves its worth. With a tool like FoodTracks, every recipe change automatically updates your allergen grid. You avoid the human error of a display that no longer matches your actual dishes.
+
+### "I'm alone on the truck — impossible to memorise everything"
+
+Permanent written display is exactly for you. A laminated grid at the counter requires no memorisation — simply show it to the customer. Also consider basic first-aid training for allergic reactions (knowing how to use an adrenaline auto-injector if a customer signals a severe allergy, and knowing to call 15/112).
+
+### "My food truck is a franchise — the brand handles allergens"
+
+Even if your franchisor provides standardised allergen sheets, **you remain personally responsible** for displaying them at your point of sale. Check that the documents provided are up to date and reflect your actual menu.
+
+---
+
+## Building a Reliable System: 5 Steps
+
+1. **List all your ingredients** and check each supplier's technical data sheet for all 14 allergens.
+2. **Create an allergen × dish matrix**: a simple cross-reference table (rows = dishes, columns = allergens) with ✓ or ✗.
+3. **Choose your display medium**: coded menu, counter poster, or digital QR code (or a combination).
+4. **Train your team**: every member of staff must know how to answer allergen questions and direct customers to the written source.
+5. **Update with every recipe change**: a supplier switch or ingredient modification requires an immediate update. With FoodTracks, this update is centralised and logged.
+
+---
+
+## Conclusion: Allergen Compliance Is an Investment, Not a Burden
+
+Setting up a robust allergen information system for your food truck takes a few hours upfront — but protects you for years. It is also a **commercial asset**: more and more customers with allergies or intolerances choose establishments where they feel safe.
+
+With **FoodTracks**, allergen management is built into your recipe cards. Every ingredient is tagged, every dish automatically generates its allergen list, and your display is always up to date. Less risk, less stress, more confident customers.
+
+[Try FoodTracks for free](https://foodtracks.io/en/pricing) and secure your allergen management today.
+
+**Read next:** [Food Truck Regulations in France](/en/blog/reglementation-food-truck-france) · [Hygiene and HACCP for Food Trucks](/en/blog/hygiene-haccp-food-truck) · [How to Price Your Menu](/en/blog/fixer-prix-menu-food-truck)`,
+    },
+    keyTakeaways: {
+      fr: [
+        "Les 14 allergènes majeurs du règlement INCO doivent obligatoirement être communiqués aux clients avant l'achat, y compris sur les food trucks.",
+        "L'information allergène doit être disponible sous forme écrite consultable — l'information verbale seule ne suffit plus depuis 2021.",
+        "Le non-respect des obligations allergènes peut entraîner des amendes jusqu'à 1 500 € par infraction et des poursuites pénales en cas de dommage corporel.",
+        "Une matrice allergènes × plats plastifiée au comptoir est la solution la plus simple, rapide et légalement solide pour un food truck.",
+        "Chaque modification de recette ou changement de fournisseur impose une mise à jour immédiate de l'affichage allergènes — un outil comme FoodTracks centralise et trace ces mises à jour.",
+      ],
+      en: [
+        "The 14 major allergens under the INCO Regulation must be communicated to customers before purchase, including at food trucks.",
+        "Allergen information must be available in a written, consultable form — verbal information alone has not been sufficient since 2021.",
+        "Non-compliance can result in fines of up to €1,500 per offence and criminal prosecution if physical harm results.",
+        "A laminated allergen × dish matrix at the counter is the simplest, fastest and legally solid solution for a food truck.",
+        "Every recipe change or supplier switch requires an immediate update to allergen displays — a tool like FoodTracks centralises and logs these updates.",
+      ],
+    },
+    faqItems: [
+      {
+        question: {
+          fr: "L'obligation d'affichage des allergènes s'applique-t-elle aux plats du jour non inscrits sur la carte ?",
+          en: "Does the allergen labeling requirement apply to daily specials not listed on the menu?",
+        },
+        answer: {
+          fr: "Oui. Même un plat du jour annoncé verbalement doit faire l'objet d'une information allergène accessible — idéalement via une ardoise ou une fiche au comptoir. L'information verbale seule n'est pas suffisante depuis les précisions apportées en 2021 par la DGCCRF.",
+          en: "Yes. Even a verbally announced daily special must have accessible allergen information — ideally via a blackboard or a sheet at the counter. Verbal information alone has not been sufficient since the DGCCRF guidance issued in 2021.",
+        },
+      },
+      {
+        question: {
+          fr: "Quelles sanctions risque-t-on en cas de manquement aux obligations allergènes sur un food truck ?",
+          en: "What penalties does a food truck operator face for failing to meet allergen labeling obligations?",
+        },
+        answer: {
+          fr: "Le manquement aux obligations d'affichage des allergènes peut entraîner une amende administrative jusqu'à 1 500 € par infraction (contravention de 5e classe) prononcée par la DDPP, une fermeture administrative en cas de récidive, et des poursuites pénales pour mise en danger de la vie d'autrui (jusqu'à 2 ans d'emprisonnement et 30 000 € d'amende) si un client subit un dommage corporel.",
+          en: "Failing to display allergen information can result in an administrative fine of up to €1,500 per offence issued by the DDPP, temporary closure for repeat violations, and criminal prosecution for endangering human life (up to 2 years' imprisonment and a €30,000 fine) if a customer suffers physical harm.",
+        },
+      },
+      {
+        question: {
+          fr: "Comment gérer les contaminations croisées sur un food truck ?",
+          en: "How should cross-contamination be handled on a food truck?",
+        },
+        answer: {
+          fr: "Si vous ne pouvez pas garantir l'absence de contamination croisée (plan de travail partagé, ustensiles communs, huile de friture mixte), vous devez l'indiquer avec la mention « peut contenir des traces de… ». Soyez honnête : un client cœliaque ou allergique sévère doit pouvoir évaluer le risque réel pour sa santé.",
+          en: "If you cannot guarantee the absence of cross-contamination (shared work surface, common utensils, mixed frying oil), you must indicate this with the phrase 'may contain traces of…'. Be honest: a coeliac or severely allergic customer needs to be able to assess the real health risk.",
+        },
+      },
+      {
+        question: {
+          fr: "Un QR code vers une fiche allergènes numérique est-il suffisant pour être en conformité ?",
+          en: "Is a QR code linking to a digital allergen sheet sufficient for legal compliance?",
+        },
+        answer: {
+          fr: "Un QR code est légal s'il renvoie vers une information complète et à jour. Cependant, vous devez prévoir un support de substitution (affichage papier ou classeur) pour les clients sans smartphone ou en cas de problème de réseau. Le QR code seul ne suffit pas.",
+          en: "A QR code is legal if it links to complete, up-to-date information. However, you must provide a fallback option (paper poster or folder) for customers without smartphones or in cases of connectivity issues. A QR code alone is not sufficient.",
+        },
+      },
+      {
+        question: {
+          fr: "Mon menu change fréquemment. Comment maintenir mon affichage allergènes à jour sans y passer des heures ?",
+          en: "My menu changes frequently. How do I keep my allergen display up to date without spending hours on it?",
+        },
+        answer: {
+          fr: "La solution la plus efficace est d'utiliser un logiciel de gestion comme FoodTracks, où chaque ingrédient est tagué allergène. Toute modification de recette met automatiquement à jour la liste allergènes du plat correspondant. Vous pouvez ensuite imprimer ou afficher numériquement le tableau mis à jour en un clic.",
+          en: "The most efficient solution is to use a management tool like FoodTracks, where every ingredient is tagged with its allergens. Any recipe change automatically updates the allergen list for the corresponding dish. You can then print or digitally display the updated grid in one click.",
+        },
+      },
+    ],
+    relatedSlugs: [
+      "reglementation-food-truck-france",
+      "hygiene-haccp-food-truck",
+      "fixer-prix-menu-food-truck",
+    ],
+  },
+
 ];
 
 export const blogArticles: BlogArticle[] = [...baseBlogArticles, ...verticalArticles];
